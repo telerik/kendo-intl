@@ -8,9 +8,7 @@
   },
   "cldr-data-coverage": "full",
   "scripts": {
-    "lint": "./node_modules/.bin/eslint .",
-    "test": "gulp test",    
-    "start": "gulp start",
+    "test": "gulp test",
     "lint": "gulp lint",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
@@ -19,36 +17,18 @@
     "Internationalization"
   ],
   "dependencies": {
-    "@telerik/eslint-config": "1.1.0",
-    "@telerik/kendo-common-tasks": "^1.8.0",
-    "babel-core": "~6",
-    "babel-loader": "^6.2.0",
-    "babel-plugin-add-module-exports": "^0.1.2",
-    "babel-plugin-transform-es2015-modules-umd": "~6",
-    "babel-plugin-transform-object-assign": "^6.5.0",
-    "babel-preset-es2015": "~6",    
-    "babel-preset-stage-1": "~6",
-    "babel-traverse": "6.3.19",
-    "chai": "^3.5.0",
-    "chai-jquery": "^2.0.0",
-    "cldr-data": "latest",    
-    "extract-text-webpack-plugin": "^0.9.1",
-    "gulp": "3.9.0",
-    "gulp-jasmine": "^2.2.1",
-    "jasmine-reporters": "^2.1.1",
-    "jasmine-spec-reporter": "^2.4.0",    
-    "json-loader": "^0.5.4",
-    "source-map-loader": "^0.1.5"
+    "cldr-data": "latest"
   },
   "author": "Telerik",
   "license": "Apache-2.0",
   "devDependencies": {
-    "cldr-data": "latest",
+    "@telerik/eslint-config": "^1.0.0",
+    "@telerik/kendo-package-tasks": "^1.2.0",
     "cz-conventional-changelog": "^1.1.5",
     "ghooks": "^1.0.3",
     "gulp": "3.9.0",
-    "semantic-release": "^4.3.5",
-    "validate-commit-msg": "^1.1.1"
+    "validate-commit-msg": "^1.1.1",
+    "semantic-release": "^4.3.5"
   },
   "config": {
     "commitizen": {
