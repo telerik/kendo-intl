@@ -1,16 +1,11 @@
-import { localeInfo, dateFormatNames, cldr } from './cldr';
+import { localeInfo, dateFormatNames, localeFirstDay } from './cldr';
 import { pad, formatString } from './utils';
 
 const dateFormatRegExp = /d{1,2}|E{1,6}|e{1,6}|c{3,6}|c{1}|M{1,5}|L{1,5}|y{1,4}|H{1,2}|h{1,2}|m{1,2}|a{1,5}|s{1,2}|S{1,3}|z{1,4}|Z{1,5}|G{1,5}|q{1,5}|Q{1,5}|"[^"]*"|'[^']*'/g;
 const DAYS = [ "sun", "mon", "tue", "wed", "thu", "fri", "sat" ];
 
 function formatDayOfWeekIndex(day, formatLength, localeInfo) {
-    const weekData = cldr.supplemental.weekData;
-    if (!weekData) {
-        throw new Error("Day of week index requires loading supplemental weekData");
-    }
-
-    const firstDay = weekData.firstDay[localeInfo.territory];
+    const firstDay = localeFirstDay(localeInfo);
     const firstDayIndex = DAYS.indexOf(firstDay);
     let dayIndex;
     if (day < firstDayIndex) {
@@ -19,7 +14,7 @@ function formatDayOfWeekIndex(day, formatLength, localeInfo) {
         dayIndex = day - firstDayIndex;
     }
 
-    return pad(dayIndex + 1, formatLength);
+    return dayIndex + 1;
 }
 
 function formatMonth(month, formatLength, info, standAlone) {
@@ -55,8 +50,18 @@ function formatTimeZone(date, shortFormat, separator, localizedName, calendar) {
 
     return result;
 }
+function formatDayOfWeek(date, formatLength, info, standAlone) {
+    let result;
+    if (formatLength < 3) {
+        result = formatDayOfWeekIndex(date.getDay(), formatLength, info);
+    } else {
+        result = dateFormatNames(info, "days", formatLength, standAlone)[date.getDay()];
+    }
+    return result;
+}
 
-function getDatePattern(format, calendar) {
+function getDatePattern(format, info) {
+    const calendar = info.calendar;
     let result = format;
     if (calendar.patterns[format]) {
         result = calendar.patterns[format];
@@ -66,54 +71,103 @@ function getDatePattern(format, calendar) {
     return result;
 }
 
-export default function formatDate(date, numberFormat, locale) {
-    const info = localeInfo(locale);
-    const calendar = info.calendar;
+const formatters = {};
 
-    let format = getDatePattern(numberFormat, calendar);
+formatters.d = function(date, formatLength) {
+    return pad(date.getDate(), formatLength);
+};
+
+formatters.E = function(date, formatLength, info) {
+    return dateFormatNames(info, "days", formatLength)[date.getDay()];
+};
+
+formatters.M = function(date, formatLength, info) {
+    return formatMonth(date.getMonth(), formatLength, info, false);
+};
+
+formatters.L = function(date, formatLength, info) {
+    return formatMonth(date.getMonth(), formatLength, info, true);
+};
+
+formatters.y = function(date, formatLength) {
+    let year = date.getFullYear();
+    if (formatLength === 2) {
+        year = year % 100;
+    }
+    return pad(year, formatLength);
+};
+
+formatters.h = function(date, formatLength) {
+    const hours = date.getHours() % 12 || 12;
+    return pad(hours, formatLength);
+};
+
+formatters.H = function(date, formatLength) {
+    return pad(date.getHours(), formatLength);
+};
+
+formatters.m = function(date, formatLength) {
+    return pad(date.getMinutes(), formatLength);
+};
+
+formatters.s = function(date, formatLength) {
+    return pad(date.getSeconds(), formatLength);
+};
+
+formatters.S = function(date, formatLength) {
+    const milliseconds = date.getMilliseconds();
+    let result;
+    if (milliseconds !== 0) {
+        result = String(date.getMilliseconds() / 1000).split(".")[1].substr(0, formatLength);
+    } else {
+        result = pad("", formatLength);
+    }
+    return result;
+};
+
+formatters.a = function(date, formatLength, info) {
+    return dateFormatNames(info, "dayPeriods", formatLength)[date.getHours() < 12 ? "am" : "pm"];
+};
+
+formatters.z = function(date, formatLength, info) {
+    return formatTimeZone(date, formatLength < 4, true, true, info.calendar);
+};
+
+formatters.Z = function(date, formatLength, info) {
+    return formatTimeZone(date, false, formatLength > 3, formatLength === 4, info.calendar);
+};
+
+formatters.G = function(date, formatLength, info) {
+    let era = date.getFullYear() >= 0 ? 1 : 0;
+    return dateFormatNames(info, "eras", formatLength)[era];
+};
+
+formatters.e = formatDayOfWeek;
+
+formatters.c = function(date, formatLength, info) {
+    return formatDayOfWeek(date, formatLength, info, true);
+};
+
+formatters.q = function(date, formatLength, info) {
+    return formatQuarter(date, formatLength, info, true);
+};
+
+formatters.Q = formatQuarter;
+
+export default function formatDate(date, dateFormat, locale = "en") {
+    const info = localeInfo(locale);
+    const format = getDatePattern(dateFormat, info);
 
     return format.replace(dateFormatRegExp, function(match) {
-        let matchLength = match.length;
+        let formatLength = match.length;
         let result;
 
-        if (match.includes("d")) {
-            result = pad(date.getDate(), matchLength);
-        } else if (match.includes("E")) {
-            result = dateFormatNames(info, "days", matchLength)[date.getDay()];
-        } else if (match.includes("M") || match.includes("L")) {
-            result = formatMonth(date.getMonth(), matchLength, info, match.includes("L"));
-        } else if (match.includes("y")) {
-            let year = date.getFullYear();
-            result = pad(matchLength === 2 ? year % 100 : year, matchLength);
-        } else if (match.includes("h")) {
-            result = pad(date.getHours() % 12 || 12, matchLength);
-        } else if (match.includes("H")) {
-            result = pad(date.getHours(), matchLength);
-        } else if (match.includes("m")) {
-            result = pad(date.getMinutes(), matchLength);
-        } else if (match.includes("s")) {
-            result = pad(date.getSeconds(), matchLength);
-        } else if (match.includes("S")) {
-            result = pad(String(date.getMilliseconds()).substr(0, matchLength), matchLength);
-        } else if (match.includes("a")) {
-            result = dateFormatNames(info, "dayPeriods", matchLength)[date.getHours() < 12 ? "am" : "pm"];
-        } else if (match.includes("z")) {
-            result = formatTimeZone(date, matchLength < 4, true, true, calendar);
-        } else if (match.includes("Z")) {
-            result = formatTimeZone(date, false, matchLength > 3, matchLength === 4, calendar);
-        } else if (match.includes("G")) {
-            let era = date.getFullYear() >= 0 ? 1 : 0;
-            result = dateFormatNames(info, "eras", matchLength)[era];
-        } else if (match.includes("e") || match.includes("c")) {
-            if (matchLength < 3) {
-                result = formatDayOfWeekIndex(date.getDay(), matchLength, info);
-            } else {
-                result = dateFormatNames(info, "days", matchLength, match.includes("c"))[date.getDay()];
-            }
-        } else if (match.includes("q") || match.includes("Q")) {
-            result = formatQuarter(date, matchLength, info, match.includes("q"));
+        if (match.includes("'") || match.includes("\"")) {
+            result = match.slice(1, formatLength - 1);
+        } else {
+            result = formatters[match[0]](date, formatLength, info);
         }
 
-        return result !== undefined ? result : match.slice(1, matchLength - 1);
+        return result;
     });
 }
