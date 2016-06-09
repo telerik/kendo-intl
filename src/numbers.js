@@ -1,2 +1,2 @@
 export { formatNumber } from './format-number';
-export { praseNumber } from './parse-number';
+export { parseNumber } from './parse-number';
