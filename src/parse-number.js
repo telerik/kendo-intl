@@ -8,7 +8,7 @@ const exponentRegExp = /[eE][\-+]?[0-9]+/;
 const nonBreakingSpaceRegExp = /\u00A0/g;
 
 
-export function parseNumber(value, format = DECIMAL_PLACEHOLDER, locale = DEFAULT_LOCALE) {
+export function parseNumber(value, locale = DEFAULT_LOCALE, format = DECIMAL_PLACEHOLDER) {
     if (!value && value !== 0) {
         return null;
     }
@@ -24,8 +24,8 @@ export function parseNumber(value, format = DECIMAL_PLACEHOLDER, locale = DEFAUL
     const currencySymbol = getCurrencySymbol(info, formatOptions);
     const percentSymbol = symbols.percentSign;
     let symbol = currencySymbol;
-    let negative = value.indexOf("-");
     let result = value.toString();
+    let negative = result.indexOf("-");
     let isPercent;
 
     if (exponentRegExp.test(result)) {
