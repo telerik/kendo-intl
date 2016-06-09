@@ -1,7 +1,6 @@
 {
   "extends": "./node_modules/@telerik/eslint-config/index.js",
   "rules": {
-    "max-params": [ 2, 5 ],
-    "complexity": [ 1, 100 ]
+    "max-params": [ 2, 5 ]
   }
 }
