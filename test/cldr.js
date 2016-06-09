@@ -1,18 +1,14 @@
-import { load, cldr, localeInfo, dateFormatNames, localeCurrency, currencyDisplay, currencyFractionOptions} from '../src/cldr';
+import { load, cldr, localeInfo, dateFormatNames, localeFirstDay, localeCurrency, currencyDisplay, currencyFractionOptions} from '../src/cldr';
 
-function loadLocale() {
-  const numbers = require("cldr-data/main/bg/numbers.json");
-  const timeZoneNames = require("cldr-data/main/bg/timeZoneNames.json");
-  const calendar = require("cldr-data/main/bg/ca-gregorian.json");
-  const currencies = require("cldr-data/main/bg/currencies.json");
-  const weekData = require("cldr-data/supplemental/weekData.json");
-  const currencyData = require("cldr-data/supplemental/currencyData.json");
-  load(currencyData, weekData, numbers, currencies, calendar, timeZoneNames);
-}
+const numbers = require("cldr-data/main/bg/numbers.json");
+const timeZoneNames = require("cldr-data/main/bg/timeZoneNames.json");
+const calendar = require("cldr-data/main/bg/ca-gregorian.json");
+const currencies = require("cldr-data/main/bg/currencies.json");
+const weekData = require("cldr-data/supplemental/weekData.json");
+const currencyData = require("cldr-data/supplemental/currencyData.json");
+load(weekData, currencyData, numbers, currencies, calendar, timeZoneNames);
 
 describe('load', () => {
-  loadLocale();
-
   it('should set territory', () => {
     expect(cldr.bg.territory).toEqual("BG");
   });
@@ -28,14 +24,6 @@ describe('load', () => {
 });
 
 describe('load numbers', () => {
-  loadLocale();
-
-  it('should set symbols', () => {
-    const symbols = cldr.bg.numbers.symbols;
-    expect(symbols.decimal).toEqual(",");
-    expect(symbols.percentSign).toEqual("%");
-  });
-
   it('should set symbols', () => {
     const symbols = cldr.bg.numbers.symbols;
     expect(symbols.decimal).toEqual(",");
@@ -63,7 +51,7 @@ describe('load numbers', () => {
     expect(percent.groupSize[0]).toEqual(3);
   });
 
-  it('should set currencies pattern', () => {
+  it('should set currencies', () => {
     const currencies = cldr.bg.numbers.currencies;
     expect(currencies).toBeDefined();
   });
@@ -75,8 +63,6 @@ describe('load numbers', () => {
 });
 
 describe('load calendar', () => {
-  loadLocale();
-
   it('should set gmt formats', () => {
     const calendar = cldr.bg.calendar;
     expect(calendar.gmtFormat).toEqual("Гринуич{0}");
@@ -90,12 +76,8 @@ describe('load calendar', () => {
     expect(patterns.F).toEqual("EEEE, d MMMM y 'г'. H:mm:ss");
     expect(patterns.g).toEqual("d.MM.y 'г'. H:mm");
     expect(patterns.G).toEqual("d.MM.y 'г'. H:mm:ss");
-    expect(patterns.m).toEqual("d MMMM");
-    expect(patterns.M).toEqual("d MMMM");
     expect(patterns.t).toEqual("H:mm");
     expect(patterns.T).toEqual("H:mm:ss");
-    expect(patterns.y).toEqual("MMMM y 'г'.");
-    expect(patterns.Y).toEqual("MMMM y 'г'.");
   });
 
   it('should set standard patterns', () => {
@@ -103,11 +85,295 @@ describe('load calendar', () => {
     expect(patterns.s).toEqual("yyyy'-'MM'-'dd'T'HH':'mm':'ss");
     expect(patterns.u).toEqual("yyyy'-'MM'-'dd HH':'mm':'ss'Z'");
   });
-  
+
   it('should set availableFormats', () => {
     const availableFormats = cldr.bg.calendar.availableFormats;
     expect(availableFormats).toBeDefined();
   });
 
+  it('should set days formats', () => {
+    const formats = cldr.bg.calendar.days.format;
+    expect(formats.abbreviated).toBeDefined();
+    expect(formats.narrow).toBeDefined();
+    expect(formats.short).toBeDefined();
+    expect(formats.wide).toBeDefined();
+  });
+
+  it('should set days lower formats', () => {
+    const formats = cldr.bg.calendar.days['lower-format'];
+    expect(formats.abbreviated).toBeDefined();
+    expect(formats.narrow).toBeDefined();
+    expect(formats.short).toBeDefined();
+    expect(formats.wide).toBeDefined();
+  });
+
+  it('should set days stand-alone formats', () => {
+    const formats = cldr.bg.calendar.days['stand-alone'];
+    expect(formats.abbreviated).toBeDefined();
+    expect(formats.narrow).toBeDefined();
+    expect(formats.short).toBeDefined();
+    expect(formats.wide).toBeDefined();
+  });
+
+  it('should set days stand-alone lower formats', () => {
+    const formats = cldr.bg.calendar.days['lower-stand-alone'];
+    expect(formats.abbreviated).toBeDefined();
+    expect(formats.narrow).toBeDefined();
+    expect(formats.short).toBeDefined();
+    expect(formats.wide).toBeDefined();
+  });
+
+  it('should set months formats', () => {
+    const formats = cldr.bg.calendar.months.format;
+    expect(formats.abbreviated).toBeDefined();
+    expect(formats.narrow).toBeDefined();
+    expect(formats.wide).toBeDefined();
+  });
+
+  it('should set months lower formats', () => {
+    const formats = cldr.bg.calendar.months['lower-format'];
+    expect(formats.abbreviated).toBeDefined();
+    expect(formats.narrow).toBeDefined();
+    expect(formats.wide).toBeDefined();
+  });
+
+  it('should set months stand-alone formats', () => {
+    const formats = cldr.bg.calendar.months['stand-alone'];
+    expect(formats.abbreviated).toBeDefined();
+    expect(formats.narrow).toBeDefined();
+    expect(formats.wide).toBeDefined();
+  });
+
+  it('should set months stand-alone lower formats', () => {
+    const formats = cldr.bg.calendar.months['lower-stand-alone'];
+    expect(formats.abbreviated).toBeDefined();
+    expect(formats.narrow).toBeDefined();
+    expect(formats.wide).toBeDefined();
+  });
+
+  it('should set quarters formats', () => {
+    const formats = cldr.bg.calendar.quarters.format;
+    expect(formats.abbreviated).toBeDefined();
+    expect(formats.narrow).toBeDefined();
+    expect(formats.wide).toBeDefined();
+  });
+
+  it('should set quarters lower formats', () => {
+    const formats = cldr.bg.calendar.quarters['lower-format'];
+    expect(formats.abbreviated).toBeDefined();
+    expect(formats.narrow).toBeDefined();
+    expect(formats.wide).toBeDefined();
+  });
+
+  it('should set quarters stand-alone formats', () => {
+    const formats = cldr.bg.calendar.quarters['stand-alone'];
+    expect(formats.abbreviated).toBeDefined();
+    expect(formats.narrow).toBeDefined();
+    expect(formats.wide).toBeDefined();
+  });
+
+  it('should set quarters stand-alone lower formats', () => {
+    const formats = cldr.bg.calendar.quarters['lower-stand-alone'];
+    expect(formats.abbreviated).toBeDefined();
+    expect(formats.narrow).toBeDefined();
+    expect(formats.wide).toBeDefined();
+  });
+
+  it('should set dayPeriods formats', () => {
+    const formats = cldr.bg.calendar.dayPeriods.format;
+    expect(formats.abbreviated.am).toBeDefined();
+    expect(formats.abbreviated.pm).toBeDefined();
+
+    expect(formats.narrow.am).toBeDefined();
+    expect(formats.narrow.pm).toBeDefined();
+
+    expect(formats.wide.am).toBeDefined();
+    expect(formats.wide.pm).toBeDefined();
+  });
+
+  it('should set dayPeriods lower formats', () => {
+    const formats = cldr.bg.calendar.dayPeriods['lower-format'];
+    expect(formats.abbreviated.am).toBeDefined();
+    expect(formats.abbreviated.pm).toBeDefined();
+
+    expect(formats.narrow.am).toBeDefined();
+    expect(formats.narrow.pm).toBeDefined();
+
+    expect(formats.wide.am).toBeDefined();
+    expect(formats.wide.pm).toBeDefined();
+  });
+
+  it('should set dayPeriods stand-alone formats', () => {
+    const formats = cldr.bg.calendar.dayPeriods['stand-alone'];
+    expect(formats.abbreviated.am).toBeDefined();
+    expect(formats.abbreviated.pm).toBeDefined();
+
+    expect(formats.narrow.am).toBeDefined();
+    expect(formats.narrow.pm).toBeDefined();
+
+    expect(formats.wide.am).toBeDefined();
+    expect(formats.wide.pm).toBeDefined();
+  });
+
+  it('should set dayPeriods lower stand-alone formats', () => {
+    const formats = cldr.bg.calendar.dayPeriods['lower-stand-alone'];
+    expect(formats.abbreviated.am).toBeDefined();
+    expect(formats.abbreviated.pm).toBeDefined();
+
+    expect(formats.narrow.am).toBeDefined();
+    expect(formats.narrow.pm).toBeDefined();
+
+    expect(formats.wide.am).toBeDefined();
+    expect(formats.wide.pm).toBeDefined();
+  });
+
+  it('should set eras formats', () => {
+    const formats = cldr.bg.calendar.eras.format;
+    expect(formats.abbreviated).toBeDefined();
+    expect(formats.narrow).toBeDefined();
+    expect(formats.wide).toBeDefined();
+  });
+
+  it('should set eras lower formats', () => {
+    const formats = cldr.bg.calendar.eras['lower-format'];
+    expect(formats.abbreviated).toBeDefined();
+    expect(formats.narrow).toBeDefined();
+    expect(formats.wide).toBeDefined();
+  });
 });
 
+describe('localeInfo', () => {
+    it('should return info by language', () => {
+        const info = localeInfo('bg');
+        expect(info.name).toEqual('bg');
+    });
+
+    it('should return info by language and script', () => {
+        const info = localeInfo('bg-Cyrl');
+        expect(info.name).toEqual('bg');
+    });
+
+    it('should return info by language and territory', () => {
+        const info = localeInfo('bg-BG');
+        expect(info.name).toEqual('bg');
+    });
+
+    it('should return info by language, script and territory', () => {
+        const info = localeInfo('bg-Cyrl-BG');
+        expect(info.name).toEqual('bg');
+    });
+
+    it('should throw an error if matching locale is no available', () => {
+        expect(() => {
+            localeInfo('fr');
+        }).toThrowError();
+    });
+});
+
+describe('dateFormatNames', () => {
+    it('should return names for locale name', () => {
+        const names = dateFormatNames('en', 'months', 3);
+        expect(names).toBeDefined();
+    });
+
+    it('should return names for locale info', () => {
+        const names = dateFormatNames(localeInfo('en'), 'months', 3);
+        expect(names).toBeDefined();
+    });
+
+    it('should return month names', () => {
+        const names = dateFormatNames('bg', 'months', 3);
+        expect(names).toBeDefined();
+    });
+
+    it('should return days names', () => {
+        const names = dateFormatNames('bg', 'days', 3);
+        expect(names).toBeDefined();
+    });
+
+    it('should return quarters names', () => {
+        const names = dateFormatNames('bg', 'quarters', 3);
+        expect(names).toBeDefined();
+    });
+
+    it('should return dayPeriods names', () => {
+        const names = dateFormatNames('bg', 'dayPeriods', 3);
+        expect(names).toBeDefined();
+    });
+
+    it('should return eras names', () => {
+        const names = dateFormatNames('bg', 'eras', 3);
+        expect(names).toBeDefined();
+    });
+
+    it('should return abbreviated names', () => {
+        const names = dateFormatNames('bg', 'days', 3);
+        expect(names).toEqual(['нд', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб']);
+    });
+
+    it('should return wide names', () => {
+        const names = dateFormatNames('bg', 'days', 4);
+        expect(names).toEqual(['неделя', 'понеделник', 'вторник', 'сряда', 'четвъртък', 'петък', 'събота']);
+    });
+
+    it('should return narrow names', () => {
+        const names = dateFormatNames('bg', 'days', 5);
+        expect(names).toEqual(['н', 'п', 'в', 'с', 'ч', 'п', 'с']);
+    });
+
+    it('should return stand-alone names', () => {
+        const names = dateFormatNames('en', 'dayPeriods', 5, true);
+        expect(names.pm).toEqual('PM');
+    });
+
+    it('should return lower names', () => {
+        const names = dateFormatNames('en', 'dayPeriods', 5, true, true);
+        expect(names.pm).toEqual('pm');
+    });
+});
+
+describe('localeFirstDay', () => {
+    it('should return first day name based on locale', () => {
+        expect(localeFirstDay('en')).toEqual("sun");
+        expect(localeFirstDay('bg')).toEqual("mon");
+    });
+});
+
+describe('localeCurrency', () => {
+    it('should return default currency code for locale', () => {
+        expect(localeCurrency('en')).toEqual('USD');
+        expect(localeCurrency('bg')).toEqual('BGN');
+    });
+});
+
+describe('currencyDisplay', () => {
+    it('should return symbol by default', () => {
+        expect(currencyDisplay('BGN', 'bg')).toEqual('лв.');
+    });
+
+    it('should return code', () => {
+        expect(currencyDisplay('BGN', 'bg', 'code')).toEqual('BGN');
+    });
+
+    it('should return displayName', () => {
+        expect(currencyDisplay('USD', 'bg', 'displayName')).toEqual('Щатски долар');
+    });
+
+    it('should return narrow-symbol if available', () => {
+        expect(currencyDisplay('USD', 'bg', 'symbol')).toEqual('$');
+    });
+});
+
+describe('currencyFractionOptions', () => {
+    it('should return fraction options based on currencyData', () => {
+        const options = currencyFractionOptions('TND');
+        expect(options.minimumFractionDigits).toEqual(3);
+        expect(options.maximumFractionDigits).toEqual(3);
+    });
+
+    it('should return default fraction options if no info is available', () => {
+        const options = currencyFractionOptions('USD');
+        expect(options.minimumFractionDigits).toEqual(2);
+        expect(options.maximumFractionDigits).toEqual(2);
+    });
+});
