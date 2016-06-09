@@ -89,63 +89,8 @@ function fractionOptions(options) {
     };
 }
 
-function standardNumberFormat(number, options, info) {
-    const { style } = options;
-
-    //return number in exponential format
-    if (style === "scientific") {
-        return options.minimumFractionDigits ? number.toExponential(options.minimumFractionDigits) : number.toExponential();
-    }
-
-    const symbols = info.numbers.symbols;
-    let result = number;
-    let symbol;
-
-    if (style === CURRENCY) {
-        options.currency = options.currency || localeCurrency(info);
-        symbol = getCurrencySymbol(info, options);
-    }
-
-    if (style === PERCENT) {
-        result *= 100;
-        symbol = symbols.percentSign;
-    }
-
-    const { minimumFractionDigits, maximumFractionDigits } = fractionOptions(options);
-
-    result = round(result, maximumFractionDigits);
-
-    const negative = result < 0;
-
-    result = result.split(POINT);
-
-    let integer = result[0];
-    let fraction = pad(result[1] ? result[1].replace(trailingZeroRegex, EMPTY) : EMPTY, minimumFractionDigits, true);
-
-    //exclude "-" if number is negative.
-    if (negative) {
-        integer = integer.substring(1);
-    }
-
-    if (options.minimumIntegerDigits) {
-        integer = pad(integer, options.minimumIntegerDigits);
-    }
-
-    let value = options.useGrouping !== false ? groupInteger(integer, 0, integer.length, options, info) : integer;
-
-    if (fraction) {
-        value += symbols.decimal + fraction;
-    }
-
-    if (pattern === DECIMAL_PLACEHOLDER && !negative) {
-        return value;
-    }
-
-    result = EMPTY;
-
-    const patterns = options.patterns;
-    const pattern = negative ? patterns[1] || ("-" + patterns[0]) : patterns[0];
-
+function applyPattern(value, pattern, symbol) {
+    let result = EMPTY;
     for (let idx = 0, length = pattern.length; idx < length; idx++) {
         let ch = pattern.charAt(idx);
 
@@ -157,6 +102,65 @@ function standardNumberFormat(number, options, info) {
             result += ch;
         }
     }
+    return result;
+}
+
+function standardNumberFormat(number, options, info) {
+    const { style } = options;
+
+    //return number in exponential format
+    if (style === "scientific") {
+        return options.minimumFractionDigits ? number.toExponential(options.minimumFractionDigits) : number.toExponential();
+    }
+
+    const symbols = info.numbers.symbols;
+    let value = number;
+    let symbol;
+
+    if (style === CURRENCY) {
+        options.currency = options.currency || localeCurrency(info);
+        symbol = getCurrencySymbol(info, options);
+    }
+
+    if (style === PERCENT) {
+        value *= 100;
+        symbol = symbols.percentSign;
+    }
+
+    const { minimumFractionDigits, maximumFractionDigits } = fractionOptions(options);
+
+    value = round(value, maximumFractionDigits);
+
+    const negative = value < 0;
+
+    const parts = value.split(POINT);
+
+    let integer = parts[0];
+    let fraction = pad(parts[1] ? parts[1].replace(trailingZeroRegex, EMPTY) : EMPTY, minimumFractionDigits, true);
+
+    //exclude "-" if number is negative.
+    if (negative) {
+        integer = integer.substring(1);
+    }
+
+    if (options.minimumIntegerDigits) {
+        integer = pad(integer, options.minimumIntegerDigits);
+    }
+
+    let formattedValue = options.useGrouping !== false ? groupInteger(integer, 0, integer.length, options, info) : integer;
+
+    if (fraction) {
+        formattedValue += symbols.decimal + fraction;
+    }
+
+    if (pattern === DECIMAL_PLACEHOLDER && !negative) {
+        return formattedValue;
+    }
+
+    const patterns = options.patterns;
+    const pattern = negative ? patterns[1] || ("-" + patterns[0]) : patterns[0];
+
+    const result = applyPattern(formattedValue, pattern, symbol);
 
     return result;
 }
