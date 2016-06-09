@@ -15,12 +15,8 @@ const datePatterns = {
     F: [ [ "dateFormats", "full" ], [ "timeFormats", "medium" ] ],
     g: [ [ "dateTimeFormats", "availableFormats", "yMd" ], [ "timeFormats", "short" ] ],
     G: [ [ "dateTimeFormats", "availableFormats", "yMd" ], [ "timeFormats", "medium" ] ],
-    m: [ [ "dateTimeFormats", "availableFormats", "MMMMdd" ] ],
-    M: [ [ "dateTimeFormats", "availableFormats", "MMMMdd" ] ],
     t: [ [ "timeFormats", "short" ] ],
-    T: [ [ "timeFormats", "medium" ] ],
-    y: [ [ "dateTimeFormats", "availableFormats", "yMMMM" ] ],
-    Y: [ [ "dateTimeFormats", "availableFormats", "yMMMM" ] ]
+    T: [ [ "timeFormats", "medium" ] ]
 };
 const GROUP_SEPARATOR = ",";
 const LIST_SEPARATOR = ";";
@@ -281,6 +277,18 @@ export function dateFormatNames(locale, type, formatLength, standAlone, lower) {
     return info.calendar[type][(lower ? "lower-" : "") + formatType][nameType];
 }
 
+export function localeFirstDay(locale) {
+    const weekData = cldr.supplemental.weekData;
+    if (!weekData) {
+        throw new Error("Cannot determine locale first day of week. Please load the supplemental weekData.");
+    }
+
+    const info = getLocaleInfo(locale);
+    const firstDay = weekData.firstDay[info.territory];
+
+    return firstDay;
+}
+
 export function localeCurrency(locale) {
     const info = getLocaleInfo(locale);
     const numbers = info.numbers;
@@ -299,7 +307,7 @@ export function currencyDisplay(code, locale, currencyDisplay = SYMBOL) {
     const currencies = info.numbers.currencies;
 
     if (!currencies) {
-        throw new Error("Cannot determine currency info information. Please load the locale currencies data.");
+        throw new Error("Cannot determine currency information. Please load the locale currencies data.");
     }
 
     const currencyInfo = currencies[ code ];
@@ -312,13 +320,8 @@ export function currencyFractionOptions(code) {
 
     const fractions = ((cldr.supplemental.currencyData || {}).fractions || {})[code];
 
-    if (fractions) {
-        if (fractions._digits) {
-            minimumFractionDigits = parseInt(fractions._digits, 10);
-        }
-        if (fractions._rounding) {
-            maximumFractionDigits = parseInt(fractions._rounding, 10);
-        }
+    if (fractions && fractions._digits) {
+        maximumFractionDigits = minimumFractionDigits = parseInt(fractions._digits, 10);
     }
 
     return {
@@ -330,7 +333,6 @@ export function currencyFractionOptions(code) {
 //en, en-US, en-Latn-US, en-Latn -> en;
 //"sr", "sr-Cyrl", "sr-Cyrl-BA", "sr-Cyrl-ME", "sr-Cyrl-XK" -> "sr", "sr-Cyrl", "sr-Cyrl-BA", ...;
 //"sr-Latn", "sr-BA", "sr-ME", "sr-XK" -> "sr-Latn", "sr-Latn-BA",..;
-
 export function localeInfo(locale) {
     if (cldr[locale]) {
         return cldr[locale];
