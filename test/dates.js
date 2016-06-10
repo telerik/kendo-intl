@@ -1,4 +1,4 @@
-import { load, localeInfo } from '../src/cldr';
+import { load, localeInfo, dateFormatNames } from '../src/cldr';
 import { formatDate, parseDate } from '../src/dates';
 import { convertTimeZone } from '../src/date-utils';
 import { pad } from '../src/utils';
@@ -723,18 +723,16 @@ describe('date parsing', () => {
     });
 
     it('parses MMMM yyyy date format', function () {
-        const dateFormat = "MMMM yyyy";
-        const result = parseDate("January 2000", dateFormat);
+        const result = parseDate("January 2000", "MMMM yyyy");
         expect(isValidDate(2000, 1, 1, result)).toBe(true);
     });
 
     it('parses MMMM yyyy date format if the current culture contains months with names that start with the same letters', function () {
-        const dateFormat = "MMMM yyyy";
-        const monthNames = localeInfo("en").calendar.months["lower-format"].wide;
+        const monthNames = dateFormatNames("en", "months", 4);
         const originalMonthName = monthNames[5];
         try {
             monthNames[5] = monthNames[6].substr(0, monthNames[6].length - 1);
-            const result = parseDate(monthNames[6] + " 2000", dateFormat);
+            const result = parseDate(monthNames[6] + " 2000", "MMMM yyyy");
             expect(isValidDate(2000, 7, 1, result)).toBe(true);
         }
         finally {
@@ -745,7 +743,9 @@ describe('date parsing', () => {
     it('parseDate G format of ko-KR culture', function () {
        //missing info in the cldr data for the abbreviated and narrow day periods
        const info = localeInfo("ko");
-       info.calendar.dayPeriods['lower-format'].abbreviated.am = info.calendar.dayPeriods['lower-format'].wide.am;
+       const abbreviatedNames = dateFormatNames(info, "dayPeriods", 3);
+       const wideNames = dateFormatNames(info, "dayPeriods", 4);
+       abbreviatedNames.am = wideNames.am;
        const result = parseDate("2016. 05. 27. 오전 11:00:00", "G", "ko");
        expect(isValidDateTime(result, 2016, 5, 27, 11, 0, 0, 0 ,0), result).toBe(true);
     });

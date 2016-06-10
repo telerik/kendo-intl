@@ -104,17 +104,25 @@ function loadCalendarPatterns(locale, calendar) {
     cldr[locale].calendar.availableFormats = calendar.dateTimeFormats.availableFormats;
 }
 
-function toArray(obj, lower) {
+function toArray(obj) {
     let result = [];
     let names = Object.getOwnPropertyNames(obj);
     for (let idx = 0; idx < names.length; idx++) {
         let value = obj[names[idx]];
-        result.push(lower ? value.toLowerCase() : value);
+        result.push(value);
     }
     return result;
 }
 
-function cloneLower(obj) {
+function lowerArray(arr) {
+    const result = [];
+    for (let idx = 0; idx < arr.length; idx++) {
+        result.push(arr[idx].toLowerCase());
+    }
+    return result;
+}
+
+function lowerObject(obj) {
     const result = {};
     for (let field in obj) {
         result[field] = obj[field].toLowerCase();
@@ -122,16 +130,18 @@ function cloneLower(obj) {
     return result;
 }
 
+function cloneLower(obj) {
+    let result = Array.isArray(obj) ? lowerArray(obj) : lowerObject(obj);
+    return result;
+}
+
 function getCalendarNames(info, isObj) {
     const result = {};
     for (let formatType in info) {
-        result[formatType] = info[formatType];
         let names = result[formatType] = {};
-        let lowerNames = result["lower-" + formatType] = {};
         for (let format in info[formatType]) {
             let formats = info[formatType][format];
             names[format] = isObj ? formats : toArray(formats);
-            lowerNames[format] = isObj ? cloneLower(formats) : toArray(formats, true);
         }
     }
     return result;
@@ -140,7 +150,6 @@ function getCalendarNames(info, isObj) {
 function getEraNames(eras) {
     const result = {};
     const format = result.format = {};
-    const lowerFormat = result["lower-format"] = {};
     const eraNameMap = {
         eraAbbr: "abbreviated",
         eraNames: "wide",
@@ -150,7 +159,6 @@ function getEraNames(eras) {
     for (let eraFormatName in eras) {
         let formatName = eraNameMap[eraFormatName];
         format[formatName] = eras[eraFormatName];
-        lowerFormat[formatName] = cloneLower(eras[eraFormatName]);
     }
 
     return result;
@@ -273,8 +281,14 @@ function dateNameType(formatLength) {
 export function dateFormatNames(locale, type, formatLength, standAlone, lower) {
     const info = getLocaleInfo(locale);
     const formatType = standAlone ? "stand-alone" : "format";
-    let nameType = dateNameType(formatLength);
-    return info.calendar[type][(lower ? "lower-" : "") + formatType][nameType];
+    const nameType = dateNameType(formatLength);
+    const lowerNameType = (lower ? "lower-" : "") + nameType;
+    const formatNames = info.calendar[type][formatType];
+    let result = formatNames[lowerNameType];
+    if (!result && lower) {
+        result = formatNames[lowerNameType] = cloneLower(formatNames[nameType]);
+    }
+    return result;
 }
 
 export function localeFirstDay(locale) {

@@ -99,24 +99,8 @@ describe('load calendar', () => {
     expect(formats.wide).toBeDefined();
   });
 
-  it('should set days lower formats', () => {
-    const formats = cldr.bg.calendar.days['lower-format'];
-    expect(formats.abbreviated).toBeDefined();
-    expect(formats.narrow).toBeDefined();
-    expect(formats.short).toBeDefined();
-    expect(formats.wide).toBeDefined();
-  });
-
   it('should set days stand-alone formats', () => {
     const formats = cldr.bg.calendar.days['stand-alone'];
-    expect(formats.abbreviated).toBeDefined();
-    expect(formats.narrow).toBeDefined();
-    expect(formats.short).toBeDefined();
-    expect(formats.wide).toBeDefined();
-  });
-
-  it('should set days stand-alone lower formats', () => {
-    const formats = cldr.bg.calendar.days['lower-stand-alone'];
     expect(formats.abbreviated).toBeDefined();
     expect(formats.narrow).toBeDefined();
     expect(formats.short).toBeDefined();
@@ -130,22 +114,8 @@ describe('load calendar', () => {
     expect(formats.wide).toBeDefined();
   });
 
-  it('should set months lower formats', () => {
-    const formats = cldr.bg.calendar.months['lower-format'];
-    expect(formats.abbreviated).toBeDefined();
-    expect(formats.narrow).toBeDefined();
-    expect(formats.wide).toBeDefined();
-  });
-
   it('should set months stand-alone formats', () => {
     const formats = cldr.bg.calendar.months['stand-alone'];
-    expect(formats.abbreviated).toBeDefined();
-    expect(formats.narrow).toBeDefined();
-    expect(formats.wide).toBeDefined();
-  });
-
-  it('should set months stand-alone lower formats', () => {
-    const formats = cldr.bg.calendar.months['lower-stand-alone'];
     expect(formats.abbreviated).toBeDefined();
     expect(formats.narrow).toBeDefined();
     expect(formats.wide).toBeDefined();
@@ -158,13 +128,6 @@ describe('load calendar', () => {
     expect(formats.wide).toBeDefined();
   });
 
-  it('should set quarters lower formats', () => {
-    const formats = cldr.bg.calendar.quarters['lower-format'];
-    expect(formats.abbreviated).toBeDefined();
-    expect(formats.narrow).toBeDefined();
-    expect(formats.wide).toBeDefined();
-  });
-
   it('should set quarters stand-alone formats', () => {
     const formats = cldr.bg.calendar.quarters['stand-alone'];
     expect(formats.abbreviated).toBeDefined();
@@ -172,27 +135,8 @@ describe('load calendar', () => {
     expect(formats.wide).toBeDefined();
   });
 
-  it('should set quarters stand-alone lower formats', () => {
-    const formats = cldr.bg.calendar.quarters['lower-stand-alone'];
-    expect(formats.abbreviated).toBeDefined();
-    expect(formats.narrow).toBeDefined();
-    expect(formats.wide).toBeDefined();
-  });
-
   it('should set dayPeriods formats', () => {
     const formats = cldr.bg.calendar.dayPeriods.format;
-    expect(formats.abbreviated.am).toBeDefined();
-    expect(formats.abbreviated.pm).toBeDefined();
-
-    expect(formats.narrow.am).toBeDefined();
-    expect(formats.narrow.pm).toBeDefined();
-
-    expect(formats.wide.am).toBeDefined();
-    expect(formats.wide.pm).toBeDefined();
-  });
-
-  it('should set dayPeriods lower formats', () => {
-    const formats = cldr.bg.calendar.dayPeriods['lower-format'];
     expect(formats.abbreviated.am).toBeDefined();
     expect(formats.abbreviated.pm).toBeDefined();
 
@@ -215,18 +159,6 @@ describe('load calendar', () => {
     expect(formats.wide.pm).toBeDefined();
   });
 
-  it('should set dayPeriods lower stand-alone formats', () => {
-    const formats = cldr.bg.calendar.dayPeriods['lower-stand-alone'];
-    expect(formats.abbreviated.am).toBeDefined();
-    expect(formats.abbreviated.pm).toBeDefined();
-
-    expect(formats.narrow.am).toBeDefined();
-    expect(formats.narrow.pm).toBeDefined();
-
-    expect(formats.wide.am).toBeDefined();
-    expect(formats.wide.pm).toBeDefined();
-  });
-
   it('should set eras formats', () => {
     const formats = cldr.bg.calendar.eras.format;
     expect(formats.abbreviated).toBeDefined();
@@ -234,12 +166,6 @@ describe('load calendar', () => {
     expect(formats.wide).toBeDefined();
   });
 
-  it('should set eras lower formats', () => {
-    const formats = cldr.bg.calendar.eras['lower-format'];
-    expect(formats.abbreviated).toBeDefined();
-    expect(formats.narrow).toBeDefined();
-    expect(formats.wide).toBeDefined();
-  });
 });
 
 describe('localeInfo', () => {
