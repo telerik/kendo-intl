@@ -271,6 +271,22 @@ describe('date formatting', () => {
         expect(formatDate(date(2000, 4, 1), "ZZZZZ")).toEqual('+03:00');
     });
 
+    it('supports the x timezone format', () => {
+        expect(formatDate(date(2000, 2, 1), "x")).toEqual('+02');
+        expect(formatDate(date(2000, 2, 1), "xx")).toEqual('+0200');
+        expect(formatDate(date(2000, 2, 1), "xxx")).toEqual('+02:00');
+        expect(formatDate(date(2000, 2, 1), "xxxx")).toEqual('+0200');
+        expect(formatDate(date(2000, 2, 1), "xxxxx")).toEqual('+02:00');
+    });
+
+    it('supports the X timezone format', () => {
+        expect(formatDate(date(2000, 2, 1), "X")).toEqual('+02');
+        expect(formatDate(date(2000, 2, 1), "XX")).toEqual('+0200');
+        expect(formatDate(date(2000, 2, 1), "XXX")).toEqual('+02:00');
+        expect(formatDate(date(2000, 2, 1), "XXXX")).toEqual('+0200');
+        expect(formatDate(date(2000, 2, 1), "XXXXX")).toEqual('+02:00');
+    });
+
     it('supports single quote literals', () => {
         expect(formatDate(date(2000, 1, 1, 9), "'literal'")).toEqual('literal');
     });
@@ -780,21 +796,21 @@ describe('date parsing', () => {
 
     it("parses dates in UTC iso8601 format", () => {
         const utcDate = new Date(Date.UTC(2000, 9, 10, 14, 30, 0));
-        expect(parseDate("2000-10-10T14:30Z", "yyyy-MM-ddTHH:mmZ")).toEqual(utcDate);
+        expect(parseDate("2000-10-10T14:30Z", "yyyy-MM-ddTHH:mmX")).toEqual(utcDate);
     });
 
     it("returns null if string is not valid ISO8601", () => {
         const utcDate = new Date(Date.UTC(2000, 9, 10, 14, 30, 0));
-        expect(parseDate("2000-10-1014:30Z", "yyyy-MM-ddTHH:mmZ"), null);
+        expect(parseDate("2000-10-1014:30Z", "yyyy-MM-ddTHH:mmX"), null);
     });
 
     it("parses UTC milliseconds correctly", () => {
         const utcDate = new Date(Date.UTC(2000, 9, 10, 14, 30, 0, 450));
-        expect(parseDate("2000-10-10T14:30:0.45Z", "yyyy-MM-ddTHH:mm:ss.SSZZZZZ").getMilliseconds()).toEqual(utcDate.getMilliseconds());
+        expect(parseDate("2000-10-10T14:30:0.45Z", "yyyy-MM-ddTHH:mm:ss.SSX").getMilliseconds()).toEqual(utcDate.getMilliseconds());
     });
 
     it("parses milliseconds with leading zeros", () => {
-        expect(parseDate("2000-10-10T14:30:0.0400000Z", "yyyy-MM-ddTHH:mm:ss.SSSSSSSZ").getMilliseconds()).toEqual(40);
+        expect(parseDate("2000-10-10T14:30:0.0400000Z", "yyyy-MM-ddTHH:mm:ss.SSSSSSSX").getMilliseconds()).toEqual(40);
     });
 
     it("parses UTC milliseconds without specified format", () => {
@@ -803,42 +819,42 @@ describe('date parsing', () => {
     });
 
     it("parses iso8601 with timezone", () => {
-        expect(+parseDate("2000-10-10T14:30+03:30", "yyyy-MM-ddTHH:mmZZZZZ")).toEqual(Date.parse("2000-10-10T14:30+03:30"));
+        expect(+parseDate("2000-10-10T14:30+03:30", "yyyy-MM-ddTHH:mmXXX")).toEqual(Date.parse("2000-10-10T14:30+03:30"));
     });
 
-    // it("parses datetime with timezone offset (hours)", () => {
-        // expect(+parseDate("2000-10-10 14:30 +1", "yyyy-MM-dd HH:mm z")).toEqual(Date.parseDate("2000-10-10T14:30+01:00"));
-    // });
+    it("parses datetime with timezone offset (hours)", () => {
+        expect(+parseDate("2000-10-10 14:30 +01", "yyyy-MM-dd HH:mm X")).toEqual(Date.parse("2000-10-10T14:30+01:00"));
+    });
 
     it("parses datetime with timezone offset (hours and minutes)", () => {
-        expect(+parseDate("2000-10-10 14:30 +03:30", "yyyy-MM-dd HH:mm ZZZZZ")).toEqual(Date.parse("2000-10-10T14:30+03:30"));
+        expect(+parseDate("2000-10-10 14:30 +03:30", "yyyy-MM-dd HH:mm XXX")).toEqual(Date.parse("2000-10-10T14:30+03:30"));
     });
 
     it("parses datetime with timezone hours and minutes offset wihout colon", () => {
-        expect(+parseDate("2000-10-10 14:30 +0330", "yyyy-MM-dd HH:mm Z")).toEqual(Date.parse("2000-10-10T14:30+03:30"));
+        expect(+parseDate("2000-10-10 14:30 +0330", "yyyy-MM-dd HH:mm X")).toEqual(Date.parse("2000-10-10T14:30+03:30"));
     });
 
     it("returns null if timezone is incorrect", () => {
-        expect(parseDate("2000-10-10 14:30 +14:30", "yyyy-MM-dd HH:mm ZZZZZ")).toBeNull();
+        expect(parseDate("2000-10-10 14:30 +14:30", "yyyy-MM-dd HH:mm XXX")).toBeNull();
     });
 
     it("honors DST start date", () => {
         //DST in Bulgaria 2012-3-25
-        expect(parseDate("2012-3-25 3:30 +02:00", "yyyy-MM-dd HH:mm ZZZZZ")).toEqual(new Date("2012-03-25T03:30+02:00"));
-        expect(parseDate("2012-3-25 3:30 +03:00", "yyyy-MM-dd HH:mm ZZZZZ")).toEqual(new Date("2012-03-25T03:30+03:00"));
+        expect(parseDate("2012-3-25 3:30 +02:00", "yyyy-MM-dd HH:mm XXX")).toEqual(new Date("2012-03-25T03:30+02:00"));
+        expect(parseDate("2012-3-25 3:30 +03:00", "yyyy-MM-dd HH:mm XXX")).toEqual(new Date("2012-03-25T03:30+03:00"));
     });
 
     it("honors DST end date", () => {
         //DST in Bulgaria 2012-10-28
-        expect(parseDate("2012-10-28 2:00 +02:00", "yyyy-MM-dd HH:mm ZZZZZ")).toEqual(new Date("2012-10-28T02:00+02:00"));
-        expect(parseDate("2012-10-28 3:00 +02:00", "yyyy-MM-dd HH:mm ZZZZZ")).toEqual(new Date("2012-10-28T03:00+02:00"));
+        expect(parseDate("2012-10-28 2:00 +02:00", "yyyy-MM-dd HH:mm XXX")).toEqual(new Date("2012-10-28T02:00+02:00"));
+        expect(parseDate("2012-10-28 3:00 +02:00", "yyyy-MM-dd HH:mm XXX")).toEqual(new Date("2012-10-28T03:00+02:00"));
     });
 
     it("parses JSON date format", () => {
         let date = JSON.stringify(new Date(2000, 10, 10, 14, 15, 30, 333));
         date = date.substr(1, date.length - 2);
 
-        expect(+parseDate(date, "yyyy-MM-ddTHH:mm:ss.SSSZ")).toEqual(Date.parse(date));
+        expect(+parseDate(date, "yyyy-MM-ddTHH:mm:ss.SSSX")).toEqual(Date.parse(date));
     });
 
     it("parses JSON date format without specified format", () => {
@@ -947,7 +963,7 @@ describe('date parsing', () => {
     });
 
     it("supports milliseconds length depending on the 'S' count", () => {
-        const result = parseDate("2012-03-25T03:30:10.1234567-10:00", "yyyy-MM-ddTHH:mm:ss.SSSSSSSZZZZZ");
+        const result = parseDate("2012-03-25T03:30:10.1234567-10:00", "yyyy-MM-ddTHH:mm:ss.SSSSSSSXXX");
         expect(+result).toEqual(Date.parse("2012-03-25T03:30:10.1234567-10:00"));
     });
 
@@ -965,12 +981,12 @@ describe('date parsing', () => {
     });
 
     it("parses ISO8601 with negative timezone", () => {
-        const result = parseDate("2013-01-16T16:00:00-10:00", "yyyy-MM-ddTHH:mm:ssZZZZZ");
+        const result = parseDate("2013-01-16T16:00:00-10:00", "yyyy-MM-ddTHH:mm:ssXXX");
         expect(result).toEqual(new Date("2013-01-16T16:00:00-10:00"));
     });
 
     it("returns null if format expects milliseconds", () => {
-        expect(parseDate("2013-01-16T16:00:00-10:00", "yyyy-MM-ddTHH:mm:ss.SSSSSSSZZZZZ")).toBeNull();
+        expect(parseDate("2013-01-16T16:00:00-10:00", "yyyy-MM-ddTHH:mm:ss.SSSSSSSXXX")).toBeNull();
     });
 
     it("parses ISO8601 with Z in the format", () => {
@@ -1027,7 +1043,7 @@ describe('date parsing', () => {
     it("parses date string with UTC 'Z' zone designator", () => {
         const utcDate = new Date(Date.UTC(2014, 4, 21, 0, 0, 0));
 
-        expect(parseDate("2014-05-21 00:00:00Z", "yyyy-MM-dd HH:mm:ssZ")).toEqual(utcDate);
+        expect(parseDate("2014-05-21 00:00:00Z", "yyyy-MM-dd HH:mm:ssX")).toEqual(utcDate);
     });
 });
 

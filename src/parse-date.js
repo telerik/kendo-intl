@@ -2,7 +2,7 @@ import { localeInfo, dateFormatNames } from './cldr';
 import { adjustDST, convertTimeZone } from './date-utils';
 import { round } from './utils';
 
-const timeZoneOffsetRegExp = /([+|\-]\d{1,2})(:?)(\d{1,2})?/;
+const timeZoneOffsetRegExp = /([+|\-]\d{1,2})(:?)(\d{2})?/;
 const dateRegExp = /^\/Date\((.*?)\)\/$/;
 const offsetRegExp = /[+-]\d*/;
 const numberRegExp = {
@@ -116,10 +116,22 @@ function calendarGmtFormats(calendar) {
     return [ gmtFormat.replace(PLACEHOLDER, "").toLowerCase(), gmtZeroFormat.replace(PLACEHOLDER, "").toLowerCase() ];
 }
 
-function parseTimeZoneOffset(value, shortFormat, hasSeparator) {
-    const matches = timeZoneOffsetRegExp.exec(value);
+function parseTimeZoneOffset(state, info, options) {
+    const { shortHours, noSeparator, optionalMinutes, localizedName, zLiteral } = options;
+    state.UTC = true;
+
+    if (zLiteral && state.value.charAt(state.valueIdx) === "Z") {
+        checkLiteral(state);
+        return false;
+    }
+
+    if (localizedName && !getIndexByName(calendarGmtFormats(info.calendar), state, true)) {
+        return true;
+    }
+
+    const matches = timeZoneOffsetRegExp.exec(state.value.substr(state.valueIdx, 6));
     if (!matches) {
-        return null;
+        return !localizedName;
     }
 
     const hoursMatch = matches[1];
@@ -128,8 +140,8 @@ function parseTimeZoneOffset(value, shortFormat, hasSeparator) {
     const separator = matches[2];
     let minutesOffset = parseInt(minutesMatch, 10);
 
-    if (isNaN(hoursOffset) || (!shortFormat && (isNaN(minutesOffset) || hoursMatch.length !== 3 || minutesMatch.length !== 2)) || (!hasSeparator && separator)) {
-        return null;
+    if (isNaN(hoursOffset) || (!shortHours && hoursMatch.length !== 3) || (!optionalMinutes && isNaN(minutesOffset)) || (noSeparator && separator)) {
+        return true;
     }
 
     if (isNaN(minutesOffset)) {
@@ -137,14 +149,12 @@ function parseTimeZoneOffset(value, shortFormat, hasSeparator) {
     }
 
     if (outOfRange(hoursOffset, -12, 13) || (minutesOffset && outOfRange(minutesOffset, 0, 59))) {
-        return null;
+        return true;
     }
 
-    return {
-        hoursOffset: hoursOffset,
-        minutesOffset: minutesOffset,
-        matchLength: matches[0].length
-    };
+    state.valueIdx += matches[0].length;
+    state.hoursOffset = hoursOffset;
+    state.minutesOffset = minutesOffset;
 }
 
 function parseMonth(ch, state, info) {
@@ -297,41 +307,55 @@ parsers.S = function(state) {
 parsers.z = function(state, info) {
     const count = lookAhead("z", state);
 
-    if (!getIndexByName(calendarGmtFormats(info.calendar), state, true)) {
-        return true;
-    }
+    const shortFormat = count < 4;
 
-    const result = parseTimeZoneOffset(state.value.substr(state.valueIdx, 6), count < 4, true);
-    if (result === null) {
-        return true;
-    }
+    const invalid = parseTimeZoneOffset(state, info, {
+        shortHours: shortFormat,
+        optionalMinutes: shortFormat,
+        localizedName: true
+    });
 
-    state.valueIdx += result.matchLength;
-    state.hoursOffset = result.hoursOffset;
-    state.minutesOffset = result.minutesOffset;
-    state.UTC = true;
+    if (invalid) {
+        return invalid;
+    }
 };
 
 parsers.Z = function(state, info) {
     const count = lookAhead("Z", state);
-    const { value, valueIdx } = state;
 
-    state.UTC = true;
+    const invalid = parseTimeZoneOffset(state, info, {
+        noSeparator: count < 4,
+        zLiteral: count === 5,
+        localizedName: count === 4
+    });
 
-    if (count !== 4 && value.substr(valueIdx, 1) === "Z") {
-        checkLiteral(state);
-    } else {
-        if (count === 4 && !getIndexByName(calendarGmtFormats(info.calendar), state, true)) {
-            return true;
-        }
-        const result = parseTimeZoneOffset(value.substr(valueIdx, 6), false, count > 3);
-        if (result === null) {
-            return true;
-        }
+    if (invalid) {
+        return invalid;
+    }
+};
 
-        state.valueIdx += result.matchLength;
-        state.hoursOffset = result.hoursOffset;
-        state.minutesOffset = result.minutesOffset;
+parsers.x = function(state, info) {
+    const count = lookAhead("x", state);
+
+    const invalid = parseTimeZoneOffset(state, info, {
+        noSeparator: count !== 3 && count !== 5,
+        optionalMinutes: count === 1
+    });
+    if (invalid) {
+        return invalid;
+    }
+};
+
+parsers.X = function(state, info) {
+    const count = lookAhead("X", state);
+
+    const invalid = parseTimeZoneOffset(state, info, {
+        noSeparator: count !== 3 && count !== 5,
+        optionalMinutes: count === 1,
+        zLiteral: true
+    });
+    if (invalid) {
+        return invalid;
     }
 };
 

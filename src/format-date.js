@@ -1,7 +1,7 @@
 import { localeInfo, dateFormatNames, localeFirstDay } from './cldr';
 import { pad, formatString } from './utils';
 
-const dateFormatRegExp = /d{1,2}|E{1,6}|e{1,6}|c{3,6}|c{1}|M{1,5}|L{1,5}|y{1,4}|H{1,2}|h{1,2}|m{1,2}|a{1,5}|s{1,2}|S{1,3}|z{1,4}|Z{1,5}|G{1,5}|q{1,5}|Q{1,5}|"[^"]*"|'[^']*'/g;
+const dateFormatRegExp = /d{1,2}|E{1,6}|e{1,6}|c{3,6}|c{1}|M{1,5}|L{1,5}|y{1,4}|H{1,2}|h{1,2}|m{1,2}|a{1,5}|s{1,2}|S{1,3}|z{1,4}|Z{1,5}|x{1,5}|X{1,5}|G{1,5}|q{1,5}|Q{1,5}|"[^"]*"|'[^']*'/g;
 const DAYS = [ "sun", "mon", "tue", "wed", "thu", "fri", "sat" ];
 
 function formatDayOfWeekIndex(day, formatLength, localeInfo) {
@@ -33,18 +33,23 @@ function formatQuarter(date, formatLength, info, standAlone) {
     return dateFormatNames(info, "quarters", formatLength, standAlone)[quarter];
 }
 
-function formatTimeZone(date, shortFormat, separator, localizedName, calendar) {
+
+function formatTimeZone(date, info, options) {
+    const { shortHours, optionalMinutes, separator, localizedName, zZeroOffset } = options;
     const offset = date.getTimezoneOffset() / 60;
-    const sign = offset < 0 ? "+" : "-";
+    if (offset === 0 && zZeroOffset) {
+        return "Z";
+    }
+    const sign = offset <= 0 ? "+" : "-";
     const hoursMinutes = Math.abs(offset).toString().split(".");
     const minutes = hoursMinutes[1] || 0;
-    let result = sign + (shortFormat ? hoursMinutes[0] : pad(hoursMinutes[0], 2));
-    if (minutes || !shortFormat) {
+    let result = sign + (shortHours ? hoursMinutes[0] : pad(hoursMinutes[0], 2));
+    if (minutes || !optionalMinutes) {
         result += (separator ? ":" : "") + pad(minutes, 2);
     }
 
     if (localizedName) {
-        const localizedFormat = offset === 0 ? calendar.gmtZeroFormat : calendar.gmtFormat;
+        const localizedFormat = offset === 0 ? info.calendar.gmtZeroFormat : info.calendar.gmtFormat;
         result = formatString(localizedFormat, result);
     }
 
@@ -130,11 +135,35 @@ formatters.a = function(date, formatLength, info) {
 };
 
 formatters.z = function(date, formatLength, info) {
-    return formatTimeZone(date, formatLength < 4, true, true, info.calendar);
+    return formatTimeZone(date, info, {
+        shortHours: formatLength < 4,
+        optionalMinutes: formatLength < 4,
+        separator: true,
+        localizedName: true
+    });
 };
 
 formatters.Z = function(date, formatLength, info) {
-    return formatTimeZone(date, false, formatLength > 3, formatLength === 4, info.calendar);
+    return formatTimeZone(date, info, {
+        separator: formatLength > 3,
+        localizedName: formatLength === 4,
+        zZeroOffset: formatLength === 5
+    });
+};
+
+formatters.x = function(date, formatLength, info) {
+    return formatTimeZone(date, info, {
+        optionalMinutes: formatLength === 1,
+        separator: formatLength === 3 || formatLength === 5
+    });
+};
+
+formatters.X = function(date, formatLength, info) {
+    return formatTimeZone(date, info, {
+        optionalMinutes: formatLength === 1,
+        separator: formatLength === 3 || formatLength === 5,
+        zZeroOffset: true
+    });
 };
 
 formatters.G = function(date, formatLength, info) {
