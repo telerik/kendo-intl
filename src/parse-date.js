@@ -13,19 +13,18 @@ const numberRegExp = {
 const numberRegex = /\d+/;
 const PLACEHOLDER = "{0}";
 
-//seems like x, X cldr formats are closer to what we have. should consider adding support for them.
 const standardDateFormats = [
     "yyyy/MM/dd HH:mm:ss",
     "yyyy/MM/dd HH:mm",
     "yyyy/MM/dd",
     "E MMM dd yyyy HH:mm:ss",
-    "yyyy-MM-ddTHH:mm:ss.SSSSSSSZZZZZ",
-    "yyyy-MM-ddTHH:mm:ss.SSSZZZZZ",
-    "yyyy-MM-ddTHH:mm:ssZZZZZ",
+    "yyyy-MM-ddTHH:mm:ss.SSSSSSSXXX",
+    "yyyy-MM-ddTHH:mm:ss.SSSXXX",
+    "yyyy-MM-ddTHH:mm:ssXXX",
     "yyyy-MM-ddTHH:mm:ss.SSSSSSS",
     "yyyy-MM-ddTHH:mm:ss.SSS",
-    "yyyy-MM-ddTHH:mmZZZZZ",
-    "yyyy-MM-ddTHH:mmZ",
+    "yyyy-MM-ddTHH:mmXXX",
+    "yyyy-MM-ddTHH:mmX",
     "yyyy-MM-ddTHH:mm:ss",
     "yyyy-MM-ddTHH:mm",
     "yyyy-MM-dd HH:mm:ss",
