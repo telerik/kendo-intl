@@ -274,19 +274,44 @@ describe('localeCurrency', () => {
 
 describe('currencyDisplay', () => {
     it('should return symbol by default', () => {
-        expect(currencyDisplay('BGN', 'bg')).toEqual('лв.');
+        expect(currencyDisplay('bg', {
+            currency: 'BGN'
+        })).toEqual('лв.');
     });
 
     it('should return code', () => {
-        expect(currencyDisplay('BGN', 'bg', 'code')).toEqual('BGN');
+        expect(currencyDisplay("bg", {
+            currency: 'BGN',
+            currencyDisplay: "code"
+        })).toEqual('BGN');
     });
 
     it('should return displayName', () => {
-        expect(currencyDisplay('USD', 'bg', 'displayName')).toEqual('Щатски долар');
+        expect(currencyDisplay('bg', {
+            currency: 'USD',
+            currencyDisplay: 'displayName'
+        })).toEqual('щатски долара');
+    });
+
+    it('should return displayName based on value if passed', () => {
+        expect(currencyDisplay('bg', {
+            currency: 'USD',
+            currencyDisplay: 'displayName',
+            value: 1
+        })).toEqual('щатски долар');
+
+         expect(currencyDisplay('bg', {
+            currency: 'USD',
+            currencyDisplay: 'displayName',
+            value: 2
+        })).toEqual('щатски долара');
     });
 
     it('should return narrow-symbol if available', () => {
-        expect(currencyDisplay('USD', 'bg', 'symbol')).toEqual('$');
+        expect(currencyDisplay('bg', {
+            currency: 'USD',
+            currencyDisplay: 'symbol'
+        })).toEqual('$');
     });
 });
 

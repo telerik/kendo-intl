@@ -1,4 +1,4 @@
-import { localeInfo, localeCurrency, currencyFractionOptions } from './cldr';
+import { localeInfo, currencyFractionOptions } from './cldr';
 import { getCurrencySymbol, getFormatOptions } from './number-utils';
 import { round, pad } from './utils';
 
@@ -118,7 +118,7 @@ function standardNumberFormat(number, options, info) {
     let symbol;
 
     if (style === CURRENCY) {
-        options.currency = options.currency || localeCurrency(info);
+        options.value = value;
         symbol = getCurrencySymbol(info, options);
     }
 

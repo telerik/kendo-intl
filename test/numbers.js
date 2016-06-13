@@ -227,7 +227,7 @@ describe('standard currency formatting', () => {
     });
 
     it("should apply specific currency display", () => {
-        expect(formatNumber(10, { style: "currency", currency: "BGN", currencyDisplay: "displayName" })).toEqual("Bulgarian Lev10.00");
+        expect(formatNumber(10, { style: "currency", currency: "BGN", currencyDisplay: "displayName" })).toEqual("Bulgarian leva10.00");
     });
 
     it("should apply minimumFractionDigits", () => {

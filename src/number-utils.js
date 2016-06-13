@@ -32,11 +32,14 @@ function standardFormatOptions(format) {
     }
 }
 
-export function getCurrencySymbol(info, format = {}) {
-    let currency = format.currency || localeCurrency(info);
-    const symbol = currencyDisplay(currency, info, format.currencyDisplay);
+export function getCurrencySymbol(info, options) {
+    if (!options.currency) {
+        options.currency = localeCurrency(info);
+    }
 
-    return symbol;
+    const display = currencyDisplay(info, options);
+
+    return display;
 }
 
 export function getFormatOptions(format) {

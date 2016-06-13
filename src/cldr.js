@@ -312,9 +312,11 @@ export function localeCurrency(locale) {
     return numbers.localeCurrency;
 }
 
-export function currencyDisplay(code, locale, currencyDisplay = SYMBOL) {
+export function currencyDisplay(locale, options) {
+    const { value, currency, currencyDisplay = SYMBOL } = options;
+
     if (currencyDisplay === "code") {
-        return code;
+        return currency;
     }
 
     const info = getLocaleInfo(locale);
@@ -324,8 +326,20 @@ export function currencyDisplay(code, locale, currencyDisplay = SYMBOL) {
         throw new Error("Cannot determine currency information. Please load the locale currencies data.");
     }
 
-    const currencyInfo = currencies[ code ];
-    return currencyDisplay === SYMBOL ? (currencyInfo["symbol-alt-narrow"] || currencyInfo[SYMBOL]) : currencyInfo.displayName;
+    const currencyInfo = currencies[currency];
+    let result;
+
+    if (currencyDisplay === SYMBOL) {
+        result = currencyInfo["symbol-alt-narrow"] || currencyInfo[SYMBOL];
+    } else {
+        if (typeof value === undefined || value !== 1) {
+            result = currencyInfo["displayName-count-other"];
+        } else {
+            result = currencyInfo["displayName-count-one"];
+        }
+    }
+
+    return result;
 }
 
 export function currencyFractionOptions(code) {
