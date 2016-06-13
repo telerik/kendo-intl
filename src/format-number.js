@@ -374,7 +374,7 @@ function replacePlaceHolders(formatOptions, info) {
     }
 
     if (hasGroup) {
-        number = groupInteger(number, start, Math.max(end, (integerLength + start - 1)), info.numbers.decimal, info);
+        number = groupInteger(number, start + (negative ? 1 : 0), Math.max(end, (integerLength + start)), info.numbers.decimal, info);
     }
 
     if (end >= start) {

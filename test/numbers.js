@@ -262,6 +262,10 @@ describe('custom formatting', () => {
         expect(formatNumber(10, '##,##')).toEqual("10");
     });
 
+    it("applies thousand separator for negative integer", function() {
+        expect(formatNumber(-18000, '#,##0')).toEqual("-18,000");
+    });
+
     it('applies thousand separator to a longer than the pattern number', () => {
         expect(formatNumber(1000000.1, '#,###')).toEqual("1,000,000");
     });
