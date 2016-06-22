@@ -119,8 +119,8 @@ describe('date formatting', () => {
     it('supports year formatting', () => {
         const oneDigitYear = new Date(1, 0, 1);
         oneDigitYear.setFullYear(1);
-        expect(formatDate(oneDigitYear, "y")).toEqual('1');
-        expect(formatDate(date(2000, 1, 1), "y")).toEqual('2000');
+        expect(formatDate(oneDigitYear, "y MM")).toEqual('1 01');
+        expect(formatDate(date(2000, 1, 1), "y MM")).toEqual('2000 01');
     });
 
     it('supports two length year formatting', () => {

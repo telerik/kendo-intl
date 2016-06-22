@@ -12,6 +12,10 @@ const predefinedDatePatterns = {
 const datePatterns = {
     d: [ [ "dateTimeFormats", "availableFormats", "yMd" ] ],
     D: [ [ "dateFormats", "full" ] ],
+    m: [ [ "dateTimeFormats", "availableFormats", "MMMd" ] ],
+    M: [ [ "dateTimeFormats", "availableFormats", "MMMMd" ] ],
+    y: [ [ "dateTimeFormats", "availableFormats", "yMMM" ] ],
+    Y: [ [ "dateTimeFormats", "availableFormats", "yMMMM" ] ],
     F: [ [ "dateFormats", "full" ], [ "timeFormats", "medium" ] ],
     g: [ [ "dateTimeFormats", "availableFormats", "yMd" ], [ "timeFormats", "short" ] ],
     G: [ [ "dateTimeFormats", "availableFormats", "yMd" ], [ "timeFormats", "medium" ] ],
