@@ -1,12 +1,13 @@
 import { load, cldr, localeInfo, dateFormatNames, localeFirstDay, localeCurrency, currencyDisplay, currencyFractionOptions, currencyDisplays } from '../src/cldr';
 
+const likelySubtags = require("cldr-data/supplemental/likelySubtags.json");
 const numbers = require("cldr-data/main/bg/numbers.json");
 const timeZoneNames = require("cldr-data/main/bg/timeZoneNames.json");
 const calendar = require("cldr-data/main/bg/ca-gregorian.json");
 const currencies = require("cldr-data/main/bg/currencies.json");
 const weekData = require("cldr-data/supplemental/weekData.json");
 const currencyData = require("cldr-data/supplemental/currencyData.json");
-load(weekData, currencyData, numbers, currencies, calendar, timeZoneNames);
+load(likelySubtags, weekData, currencyData, numbers, currencies, calendar, timeZoneNames);
 
 describe('load', () => {
   it('should set territory', () => {

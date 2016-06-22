@@ -4,6 +4,7 @@ const LATIN_NUMBER_FORMATS = "Formats-numberSystem-latn";
 const LATIN_NUMBER_SYMBOLS = "symbols-numberSystem-latn";
 const SYMBOL = "symbol";
 const DEFAULT_CURRENCY_FRACTIONS = 2;
+const DEFAULT_CURRENCY = "USD";
 
 const predefinedDatePatterns = {
     s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
@@ -29,16 +30,19 @@ const SPACE = " ";
 
 export const cldr = {};
 
-loadDefaultCulture();
+loadDefaultLocale();
 
-function loadDefaultCulture() {
+function loadDefaultLocale() {
+    cldr.supplemental = {};
+
     const numbers = require("cldr-data/main/en/numbers.json");
     const currencies = require("cldr-data/main/en/currencies.json");
     const timeZoneNames = require("cldr-data/main/en/timeZoneNames.json");
     const calendar = require("cldr-data/main/en/ca-gregorian.json");
-    const likelySubtags = require("cldr-data/supplemental/likelySubtags.json");
 
-    load(likelySubtags, numbers, currencies, timeZoneNames, calendar);
+    load(numbers, currencies, timeZoneNames, calendar);
+
+    cldr.en.numbers.localeCurrency = DEFAULT_CURRENCY;
 }
 
 function patternOptions(pattern) {
@@ -66,15 +70,16 @@ function loadNumbersInfo(locale, info) {
     numbers.symbols = numbers.symbols || {};
     for (let field in info) {
         if (field === LATIN_NUMBER_SYMBOLS) {
-            Object.assign(numbers.symbols, info[ field ]);
+            Object.assign(numbers.symbols, info[field]);
         } else if (field.includes(LATIN_NUMBER_FORMATS)) {
             const style = field.substr(0, field.indexOf(LATIN_NUMBER_FORMATS));
-            const pattern = info[ style + LATIN_NUMBER_FORMATS ].standard;
-            numbers[ style ] = patternOptions(pattern);
+            const pattern = info[style + LATIN_NUMBER_FORMATS].standard;
+            numbers[style] = patternOptions(pattern);
         } else if (field === "currencies") {
-            numbers.currencies = info[ field ];
-            if (localeInfo.territory && cldr.supplemental.currencyData) {
-                numbers.localeCurrency = territoryCurrencyCode(localeInfo.territory);
+            numbers.currencies = info[field];
+            const territory = localeTerritory(localeInfo);
+            if (territory && cldr.supplemental.currencyData) {
+                numbers.localeCurrency = territoryCurrencyCode(territory);
             }
         }
     }
@@ -225,15 +230,25 @@ function territoryCurrencyCode(territory) {
     return currencyCode;
 }
 
-function localeTerritory(name, info) {
-    if (info.identity && info.identity.territory) {
-        return info.identity.territory;
+function localeTerritory(info) {
+    if (info.territory) {
+        return info.territory;
     }
 
     const likelySubtags = cldr.supplemental.likelySubtags;
-    if (likelySubtags) {
-        return territoryFromName(likelySubtags[name] || name);
+    const name = info.name;
+    let territory;
+
+    if (info.identity && info.identity.territory) {
+        territory = info.identity.territory;
+    } else if (likelySubtags && likelySubtags[name]) {
+        territory = territoryFromName(likelySubtags[name]);
+    } else {
+        territory = territoryFromName(name);
     }
+    info.territory = territory;
+
+    return territory;
 }
 
 function territoryFromName(name) {
@@ -305,7 +320,7 @@ export function localeFirstDay(locale) {
     }
 
     const info = getLocaleInfo(locale);
-    const firstDay = weekData.firstDay[info.territory];
+    const firstDay = weekData.firstDay[localeTerritory(info)];
 
     return firstDay;
 }
@@ -314,7 +329,7 @@ export function localeCurrency(locale) {
     const info = getLocaleInfo(locale);
     const numbers = info.numbers;
     if (!numbers.localeCurrency) {
-        numbers.localeCurrency = territoryCurrencyCode(info.territory);
+        numbers.localeCurrency = territoryCurrencyCode(localeTerritory(info));
     }
     return numbers.localeCurrency;
 }
@@ -417,11 +432,13 @@ export function load() {
             let locale = Object.keys(entry.main)[0];
             let info = entry.main[locale];
             let localeInfo = cldr[locale] = cldr[locale] || {};
-            localeInfo.territory = localeInfo.territory || localeTerritory(locale, info);
-            localeInfo.name = locale;
+
+            localeInfo.name = localeInfo.name || locale;
+            localeInfo.identity = localeInfo.identity || info.identity;
+
+            localeTerritory(localeInfo);
             loadLocale(locale, info);
         } else if (entry.supplemental) {
-            cldr.supplemental = cldr.supplemental || {};
             Object.assign(cldr.supplemental, entry.supplemental);
         }
     }
