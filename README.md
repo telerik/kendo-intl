@@ -14,7 +14,7 @@ npm install --save '@telerik/kendo-intl';
 
 ## Prerequisites
 
-The library uses [cldr](http://cldr.unicode.org/) as source of the locale information and requires the data for the corresponding locale to be loaded in order to work. The _numbers_, _currencies_, _gregorian calendar_ and _timeZoneNames_ for the _en_ locale are loaded by default. To use the methods for different locales you must use the [load](https://github.com/telerik/kendo-intl/docs/cldr/api.md#load) method from the _cldr_ module to load the _likelySubtags_ and locale data. Additionally the library requires loading the supplemental _currencyData_ for the default currency formatting and the _weekData_ for the day of week formatting.
+The library uses [cldr](http://cldr.unicode.org/) as source of the locale information and requires the data for the corresponding locale to be loaded in order to work. The _numbers_, _currencies_, _gregorian calendar_ and _timeZoneNames_ for the _en_ locale are loaded by default. To use the methods for different locales you must use the [load](https://github.com/telerik/kendo-intl/blob/master/docs/cldr/api.md#load) method from the _cldr_ module to load the _likelySubtags_ and locale data. Additionally the library requires loading the supplemental _currencyData_ for the default currency formatting and the _weekData_ for the day of week formatting.
 
 ```javascript
 import { cldr } from '@telerik/kendo-intl/cldr';
@@ -27,7 +27,7 @@ load(require("cldr-data/main/bg/numbers.json"),
      require("cldr-data/supplemental/weekData.json"));
 ```
 
-For more information on the required data check the [cldr](https://github.com/telerik/kendo-intl/docs/cldr/cldr.md) documentation.
+For more information on the required data check the [cldr](https://github.com/telerik/kendo-intl/blob/master/docs/cldr/cldr.md) documentation.
 
 ## Number formatting
 
@@ -49,7 +49,7 @@ The `formatNumber` method from the _numbers_ module is used to format numbers in
 
     formatNumber(2345678, "##,#.00"); // 2,345,678.00
 
-For more detailed information check the [number formatting](https://github.com/telerik/kendo-intl/docs/numbers/number-formatting.md) documentation.
+For more detailed information check the [number formatting](https://github.com/telerik/kendo-intl/blob/master/docs/numbers/number-formatting.md) documentation.
 
 ## Number parsing
 
@@ -67,7 +67,7 @@ The `parseNumber` method from the _numbers_ module is used to convert the passed
 
     parseNumber("1,0000123e+4", "bg"); // 10000.123
  
-For more detailed information check the [number parsing]((https://github.com/telerik/kendo-intl/docs/numbers/number-parsing.md)) documentation.
+For more detailed information check the [number parsing]((https://github.com/telerik/kendo-intl/blob/master/docs/numbers/number-parsing.md)) documentation.
 
 ## Date formatting
 
@@ -83,7 +83,7 @@ The formatDate method from the _dates_ module is used to format dates using the 
 
     formatDate(new Date(2000, 10, 6), "EEEE, d.MM.y", "bg"); // понеделник, 6.11.2000
 
-For more detailed information check the [date formatting](https://github.com/telerik/kendo-intl/docs/dates/date-formatting.md) documentation.
+For more detailed information check the [date formatting](https://github.com/telerik/kendo-intl/blob/master/docs/dates/date-formatting.md) documentation.
 
 ## Date parsing
 
@@ -99,7 +99,7 @@ The parseDate method from the _dates_ module is used to convert strings to JavaS
 
     parseDate("2000-11-06T10:30Z"); // Mon Nov 06 2000 12:30
 
-For more detailed information check the [date parsing](https://github.com/telerik/kendo-intl/docs/dates/date-parsing.md) documentation.
+For more detailed information check the [date parsing](https://github.com/telerik/kendo-intl/blob/master/docs/dates/date-parsing.md) documentation.
 
 
 

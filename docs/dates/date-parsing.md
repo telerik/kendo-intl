@@ -13,7 +13,7 @@ The purpose of date parsing is to convert a string to a `Date` object using the 
 
 ### Implicit Formats
 
-The method will try to parse the string in this case using the locale [predefined formats](https://github.com/telerik/kendo-intl/docs/dates/date-formatting.md#predefined-formats) and the following standard formats:
+The method will try to parse the string in this case using the locale [predefined formats](https://github.com/telerik/kendo-intl/blob/master/docs/dates/date-formatting.md#predefined-formats) and the following standard formats:
 
 | Standard Formats                   | Example Value                         |
 | :---                               | :---                                  |

@@ -91,7 +91,7 @@ Besides setting a string, the standard formats can also be specified by passing 
         style: "percent"
     }, "de"); // 123.457 %
 
-For full list of available options check the [formatNumber API](https://github.com/telerik/kendo-intl/docs/numbers/api.md). 
+For full list of available options check the [formatNumber API](https://github.com/telerik/kendo-intl/blob/master/docs/numbers/api.md). 
 
 
 ### Custom Number Formatting
