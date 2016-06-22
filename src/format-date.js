@@ -1,5 +1,6 @@
 import { localeInfo, dateFormatNames, localeFirstDay } from './cldr';
 import { pad, formatString } from './utils';
+import datePattern from './date-pattern';
 
 const dateFormatRegExp = /d{1,2}|E{1,6}|e{1,6}|c{3,6}|c{1}|M{1,5}|L{1,5}|y{1,4}|H{1,2}|h{1,2}|m{1,2}|a{1,5}|s{1,2}|S{1,3}|z{1,4}|Z{1,5}|x{1,5}|X{1,5}|G{1,5}|q{1,5}|Q{1,5}|"[^"]*"|'[^']*'/g;
 const DAYS = [ "sun", "mon", "tue", "wed", "thu", "fri", "sat" ];
@@ -65,16 +66,6 @@ function formatDayOfWeek(date, formatLength, info, standAlone) {
     return result;
 }
 
-function getDatePattern(format, info) {
-    const calendar = info.calendar;
-    let result = format;
-    if (calendar.patterns[format]) {
-        result = calendar.patterns[format];
-    } else if (calendar.availableFormats[format]) {
-        result = calendar.availableFormats[format];
-    }
-    return result;
-}
 
 const formatters = {};
 
@@ -183,11 +174,11 @@ formatters.q = function(date, formatLength, info) {
 
 formatters.Q = formatQuarter;
 
-export default function formatDate(date, dateFormat, locale = "en") {
+export default function formatDate(date, format, locale = "en") {
     const info = localeInfo(locale);
-    const format = getDatePattern(dateFormat, info);
+    const pattern = datePattern(format, info);
 
-    return format.replace(dateFormatRegExp, function(match) {
+    return pattern.replace(dateFormatRegExp, function(match) {
         let formatLength = match.length;
         let result;
 

@@ -298,6 +298,45 @@ describe('date formatting', () => {
     it('honors specific locale', () => {
         expect(formatDate(date(2000, 2, 10), "E MMMM", "bg")).toEqual('чт февруари');
     });
+
+    it('formats using skeleton format', () => {
+        expect(formatDate(date(2000, 2, 10), { skeleton: "yMMMd" })).toEqual('Feb 10, 2000');
+    });
+
+    it('supports skeleton format if there is not exact match', () => {
+        expect(formatDate(date(2000, 2, 10), { skeleton: "MMd" })).toEqual('02 10');
+    });
+
+    it('supports skeleton format if there is both date and time', () => {
+        expect(formatDate(date(2000, 2, 10, 10, 30), { skeleton: "yMMMdhm" })).toEqual('Feb 10, 2000, 10:30 AM');
+    });
+
+    it('supports dateFormats', () => {
+        expect(formatDate(date(2000, 2, 10, 10, 30), { date: "long" })).toEqual('February 10, 2000');
+    });
+
+    it('supports timeFormats', () => {
+        expect(formatDate(date(2000, 2, 10, 10, 30), { time: "medium" })).toEqual('10:30:00 AM');
+    });
+
+    it('supports dateTimeFormats', () => {
+        expect(formatDate(date(2000, 2, 10, 10, 30), { datetime: "short" })).toEqual('2/10/00, 10:30 AM');
+    });
+
+    it('supports setting the required fields via options', () => {
+        expect(formatDate(date(2000, 2, 10, 10, 30), {
+            era: "short",
+            year: "numeric",
+            month: "2-digit",
+            day: "2-digit",
+            weekday: "short",
+            hour: "2-digit",
+            minute: "2-digit",
+            second: "2-digit",
+            timeZoneName: "long",
+            hour12: true
+        })).toEqual('Thu, 02 10, 2000 AD, 10:30:00 AM GMT+02:00');
+    });
 });
 
 describe('date parsing', () => {

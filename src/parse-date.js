@@ -1,6 +1,7 @@
 import { localeInfo, dateFormatNames } from './cldr';
 import { adjustDST, convertTimeZone } from './date-utils';
 import { round } from './utils';
+import datePattern from './date-pattern';
 
 const timeZoneOffsetRegExp = /([+|\-]\d{1,2})(:?)(\d{2})?/;
 const dateRegExp = /^\/Date\((.*?)\)\/$/;
@@ -33,7 +34,7 @@ const standardDateFormats = [
     "HH:mm:ss",
     "HH:mm"
 ];
-const FORMATS_SEQUENCE = [ "G", "g", "d", "F", "D", "T", "t" ];
+const FORMATS_SEQUENCE = [ "G", "g", "F", "Y", "y", "M", "m", "D", "d", "y", "T", "t" ];
 const TWO_DIGIT_YEAR_MAX = 2029;
 
 function outOfRange(value, start, end) {
@@ -427,24 +428,10 @@ function createDate(state) {
 }
 
 function parseExact(value, format, info) {
-    if (!value) {
-        return null;
-    }
+    let pattern = datePattern(format, info).split("");
 
-    let parseFormat = format;
-
-    if (!parseFormat) {
-        parseFormat = "d"; //shord date format
-    }
-
-    //if format is part of the patterns get real format
-    if (info.calendar.patterns[parseFormat]) {
-        parseFormat = info.calendar.patterns[format];
-    }
-
-    parseFormat = parseFormat.split("");
     const state = {
-        format: parseFormat,
+        format: pattern,
         idx: 0,
         value: value,
         valueIdx: 0,
@@ -456,18 +443,18 @@ function parseExact(value, format, info) {
         seconds: null,
         milliseconds: null
     };
-    const length = parseFormat.length;
+    const length = pattern.length;
     let literal = false;
 
     for (; state.idx < length; state.idx++) {
-        let ch = parseFormat[state.idx];
+        let ch = pattern[state.idx];
 
         if (literal) {
             if (ch === "'") {
                 literal = false;
-            } else {
-                checkLiteral(state);
             }
+
+            checkLiteral(state);
         } else {
             if (parsers[ch]) {
                 let invalid = parsers[ch](state, info);

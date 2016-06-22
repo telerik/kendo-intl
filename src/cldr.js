@@ -96,7 +96,8 @@ function getPredefinedFormat(paths, calendar) {
 }
 
 function loadCalendarPatterns(locale, calendar) {
-    const patterns = cldr[locale].calendar.patterns = {};
+    const cldrCalendar = cldr[locale].calendar;
+    const patterns = cldrCalendar.patterns = {};
     for (let pattern in datePatterns) {
         patterns[pattern] = getPredefinedFormat(datePatterns[pattern], calendar);
     }
@@ -105,7 +106,9 @@ function loadCalendarPatterns(locale, calendar) {
         patterns[pattern] = predefinedDatePatterns[pattern];
     }
 
-    cldr[locale].calendar.availableFormats = calendar.dateTimeFormats.availableFormats;
+    cldrCalendar.dateTimeFormats = calendar.dateTimeFormats;
+    cldrCalendar.timeFormats = calendar.timeFormats;
+    cldrCalendar.dateFormats = calendar.dateFormats;
 }
 
 function toArray(obj) {
