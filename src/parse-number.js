@@ -1,14 +1,43 @@
-import { localeInfo } from './cldr';
-import { getCurrencySymbol, getFormatOptions } from './number-utils';
-
-const DECIMAL_PLACEHOLDER = "n";
-const DEFAULT_LOCALE = "en";
+import { localeInfo, localeCurrency, currencyDisplays } from './cldr';
 
 const exponentRegExp = /[eE][\-+]?[0-9]+/;
 const nonBreakingSpaceRegExp = /\u00A0/g;
 
+function cleanCurrencyNumber(value, info, format) {
+    const currency = format.currency || localeCurrency(info);
+    const displays = currencyDisplays(info, currency);
+    let isCurrency = format.style === "currency";
+    let number = value;
+    let negative;
 
-export function parseNumber(value, locale = DEFAULT_LOCALE, format = DECIMAL_PLACEHOLDER) {
+
+    for (let idx = 0; idx < displays.length; idx++) {
+        let display = displays[idx];
+        if (number.includes(display)) {
+            number = number.replace(display, "");
+            isCurrency = true;
+            break;
+        }
+    }
+
+    if (isCurrency) {
+        const patterns = info.numbers.currency.patterns;
+        if (patterns.length > 1) {
+            const parts = (patterns[1] || "").replace("$", "").split("n");
+            if (number.indexOf(parts[0]) > -1 && number.indexOf(parts[1]) > -1) {
+                number = number.replace(parts[0], "").replace(parts[1], "");
+                negative = true;
+            }
+        }
+    }
+
+    return {
+        number: number,
+        negative: negative
+    };
+}
+
+export function parseNumber(value, locale = "en", format = {}) {
     if (!value && value !== 0) {
         return null;
     }
@@ -17,61 +46,50 @@ export function parseNumber(value, locale = DEFAULT_LOCALE, format = DECIMAL_PLA
         return value;
     }
 
-    const formatOptions = getFormatOptions(format);
     const info = localeInfo(locale);
-    const numbers = info.numbers;
-    const symbols = numbers.symbols;
-    const currencySymbol = getCurrencySymbol(info, formatOptions);
-    const percentSymbol = symbols.percentSign;
-    let symbol = currencySymbol;
-    let result = value.toString();
-    let negative = result.indexOf("-");
+    const symbols = info.numbers.symbols;
+
+    let number = value.toString();
+    let negative = number.indexOf("-");
     let isPercent;
 
-    if (exponentRegExp.test(result)) {
-        result = parseFloat(result.replace(symbols.decimal, "."));
-        if (isNaN(result)) {
-            result = null;
+    if (exponentRegExp.test(number)) {
+        number = parseFloat(number.replace(symbols.decimal, "."));
+        if (isNaN(number)) {
+            number = null;
         }
-        return result;
+        return number;
     }
 
     if (negative > 0) {
         return null;
     }
+
     negative = negative > -1;
 
-    if (result.indexOf(currencySymbol) > -1 || (formatOptions && formatOptions.style === "currency")) {
-        const patterns = numbers.currency.patterns;
-        if (patterns.length > 1) {
-            const parts = (patterns[1] || "").replace(currencySymbol, symbol).split(DECIMAL_PLACEHOLDER);
-            if (result.indexOf(parts[0]) > -1 && result.indexOf(parts[1]) > -1) {
-                result = result.replace(parts[0], "").replace(parts[1], "");
-                negative = true;
-            }
-        }
-    } else if (result.indexOf(percentSymbol) > -1) {
+    ({ negative = negative, number } = cleanCurrencyNumber(number, info, format));
+
+    if (format.style === "percent" || number.indexOf(symbols.percentSign) > -1) {
+        number = number.replace(symbols.percentSign, "");
         isPercent = true;
-        symbol = percentSymbol;
     }
 
-    result = result.replace("-", "")
-          .replace(symbol, "")
+    number = number.replace("-", "")
           .replace(nonBreakingSpaceRegExp, " ")
           .split(symbols.group.replace(nonBreakingSpaceRegExp, " ")).join("")
           .replace(symbols.decimal, ".");
 
-    result = parseFloat(result);
+    number = parseFloat(number);
 
-    if (isNaN(result)) {
-        result = null;
+    if (isNaN(number)) {
+        number = null;
     } else if (negative) {
-        result *= -1;
+        number *= -1;
     }
 
-    if (result && isPercent) {
-        result /= 100;
+    if (number && isPercent) {
+        number /= 100;
     }
 
-    return result;
+    return number;
 }

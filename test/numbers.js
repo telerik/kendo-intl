@@ -468,12 +468,25 @@ describe('parseNumber', () => {
         expect(parseNumber("$12")).toEqual(12);
     });
 
+    it("parses currency numbers", () => {
+        expect(parseNumber("$12")).toEqual(12);
+    });
+
+    it("parses currency numbers with non-default currency display", () => {
+        expect(parseNumber("US dollars12")).toEqual(12);
+        expect(parseNumber("US dollar12")).toEqual(12);
+    });
+
     it("parses locale currency numbers", () => {
         expect(parseNumber("лв.12", "bg")).toEqual(12);
     });
 
     it("parses locale currency floating numbers", () => {
         expect(parseNumber("лв.1 123 112,13", "bg")).toEqual(1123112.13);
+    });
+
+    it("parses non-default for the locale currency", () => {
+        expect(parseNumber("€12", "en", { currency: "EUR"})).toEqual(12);
     });
 
     it("parses percent numbers", () => {

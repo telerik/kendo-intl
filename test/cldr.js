@@ -1,4 +1,4 @@
-import { load, cldr, localeInfo, dateFormatNames, localeFirstDay, localeCurrency, currencyDisplay, currencyFractionOptions} from '../src/cldr';
+import { load, cldr, localeInfo, dateFormatNames, localeFirstDay, localeCurrency, currencyDisplay, currencyFractionOptions, currencyDisplays } from '../src/cldr';
 
 const numbers = require("cldr-data/main/bg/numbers.json");
 const timeZoneNames = require("cldr-data/main/bg/timeZoneNames.json");
@@ -86,9 +86,10 @@ describe('load calendar', () => {
     expect(patterns.u).toEqual("yyyy'-'MM'-'dd HH':'mm':'ss'Z'");
   });
 
-  it('should set availableFormats', () => {
-    const availableFormats = cldr.bg.calendar.availableFormats;
-    expect(availableFormats).toBeDefined();
+  it('should set dateTimeFormats', () => {
+    const dateTimeFormats = cldr.bg.calendar.dateTimeFormats;
+    expect(dateTimeFormats).toBeDefined();
+    expect(dateTimeFormats.availableFormats).toBeDefined();
   });
 
   it('should set days formats', () => {
@@ -312,6 +313,12 @@ describe('currencyDisplay', () => {
             currency: 'USD',
             currencyDisplay: 'symbol'
         })).toEqual('$');
+    });
+});
+
+describe('currencyDisplays', () => {
+    it('should return all displays sorted by the length in descending order', () => {
+        expect(currencyDisplays('bg', 'USD')).toEqual(["щатски долара", "Щатски долар", "щатски долар", "щ.д.", "USD", "$"]);
     });
 });
 

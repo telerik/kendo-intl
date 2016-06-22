@@ -1,5 +1,4 @@
-import { localeInfo, currencyFractionOptions } from './cldr';
-import { getCurrencySymbol, getFormatOptions } from './number-utils';
+import { localeInfo, currencyFractionOptions, currencyDisplay, localeCurrency } from './cldr';
 import { round, pad } from './utils';
 
 const CURRENCY = "currency";
@@ -22,6 +21,7 @@ const DEFAULT_PERCENT_ROUNDING = 0;
 const trailingZeroRegex = /0+$/;
 const commaRegExp = /\,/g;
 const literalRegExp = /(\\.)|(['][^']*[']?)|(["][^"]*["]?)/g;
+const standardFormatRegExp = /^(n|c|p|e)(\d*)$/i;
 
 function groupInteger(number, start, end, options, info) {
     const symbols = info.numbers.symbols;
@@ -103,6 +103,57 @@ function applyPattern(value, pattern, symbol) {
         }
     }
     return result;
+}
+
+function standardFormatOptions(format) {
+    const formatAndPrecision = standardFormatRegExp.exec(format);
+
+    if (formatAndPrecision) {
+        const options = {
+            style: "decimal"
+        };
+
+        let style = formatAndPrecision[1].toLowerCase();
+
+        if (style === "c") {
+            options.style = "currency";
+        }
+
+        if (style === "p") {
+            options.style = "percent";
+        }
+
+        if (style === "e") {
+            options.style = "scientific";
+        }
+
+        if (formatAndPrecision[2]) {
+            options.minimumFractionDigits = options.maximumFractionDigits = parseInt(formatAndPrecision[2], 10);
+        }
+
+        return options;
+    }
+}
+
+function getCurrencySymbol(info, options = {}) {
+    if (!options.currency) {
+        options.currency = localeCurrency(info);
+    }
+
+    const display = currencyDisplay(info, options);
+
+    return display;
+}
+
+function getFormatOptions(format) {
+    let formatOptions;
+    if (typeof format === "string") {
+        formatOptions = standardFormatOptions(format);
+    } else {
+        formatOptions = format;
+    }
+
+    return formatOptions;
 }
 
 function standardNumberFormat(number, options, info) {

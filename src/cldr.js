@@ -319,6 +319,34 @@ export function localeCurrency(locale) {
     return numbers.localeCurrency;
 }
 
+function getCurrencyInfo(locale, currency) {
+    const info = getLocaleInfo(locale);
+    const currencies = info.numbers.currencies;
+    if (!currencies) {
+        throw new Error("Cannot determine currency information. Please load the locale currencies data.");
+    }
+
+    return currencies[currency];
+}
+
+function lengthComparer(a, b) {
+    return b.length - a.length;
+}
+
+export function currencyDisplays(locale, currency) {
+    const currencyInfo = getCurrencyInfo(locale, currency);
+    if (!currencyInfo.displays) {
+        const displays = [ currency ];
+        for (let field in currencyInfo) {
+            displays.push(currencyInfo[field]);
+        }
+        displays.sort(lengthComparer);
+        currencyInfo.displays = displays;
+    }
+
+    return currencyInfo.displays;
+}
+
 export function currencyDisplay(locale, options) {
     const { value, currency, currencyDisplay = SYMBOL } = options;
 
@@ -326,14 +354,7 @@ export function currencyDisplay(locale, options) {
         return currency;
     }
 
-    const info = getLocaleInfo(locale);
-    const currencies = info.numbers.currencies;
-
-    if (!currencies) {
-        throw new Error("Cannot determine currency information. Please load the locale currencies data.");
-    }
-
-    const currencyInfo = currencies[currency];
+    const currencyInfo = getCurrencyInfo(locale, currency);
     let result;
 
     if (currencyDisplay === SYMBOL) {
