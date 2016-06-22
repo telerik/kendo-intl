@@ -405,7 +405,7 @@ describe('date parsing', () => {
     });
 
     it('short year 31 should return year 1931', function () {
-        expect(parseDate("12/23/31 1:30:30 AM", "M/d/yy").getFullYear()).toBe(1931);
+        expect(parseDate("12/23/31", "M/d/yy").getFullYear()).toBe(1931);
     });
 
     it('short year 29 should return year 2029', function () {
@@ -817,9 +817,27 @@ describe('date parsing', () => {
         expect(result).not.toBeNull();
     });
 
-    it("should parse string using predefined patters", () => {
+    it("parses using most specific format", () => {
+        const result = parseDate("2/2/2000 10:10", ["M/dd/yyyy", "M/dd/yyyy HH:mm"]);
+
+        expect(result).toEqual(new Date(2000, 1, 2, 10, 10));
+    });
+
+    it("does not parse value containing additional characters not included in the format", () => {
+        const result = parseDate("2/2/2000 10:10 foo", "M/dd/yyyy HH:mm");
+
+        expect(result).toBeNull();
+    });
+
+    it("parses value if it has additional spaces before and after the date", () => {
+        const result = parseDate(" 2/2/2000 10:10  ", "M/dd/yyyy HH:mm");
+
+        expect(result).toEqual(new Date(2000, 1, 2, 10, 10));
+    });
+
+    it("should parse string using predefined patterns", () => {
         const result = parseDate("2/2/2000");
-        const result1 = parseDate("Thu Nov 24 2011 18:06:53 GMT+0200 (FLE Standard Time)");
+        const result1 = parseDate("Thu Nov 24 2011 18:06:53");
 
         expect(result).not.toBeNull();
         expect(result1).not.toBeNull();

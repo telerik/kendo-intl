@@ -121,7 +121,7 @@ function parseTimeZoneOffset(state, info, options) {
     state.UTC = true;
 
     if (zLiteral && state.value.charAt(state.valueIdx) === "Z") {
-        checkLiteral(state);
+        state.valueIdx++;
         return false;
     }
 
@@ -470,6 +470,10 @@ function parseExact(value, format, info) {
         }
     }
 
+    if (state.valueIdx < value.length) {
+        return null;
+    }
+
     return createDate(state) || null;
 }
 
@@ -515,11 +519,16 @@ function defaultFormats(calendar) {
 }
 
 export default function parseDate(value, formats, locale = "en") {
+    if (!value) {
+        return null;
+    }
+
     if (value instanceof Date) {
         return value;
     }
 
-    let date = parseMicrosoftDateFormat(value);
+    let parseValue = String(value).trim();
+    let date = parseMicrosoftDateFormat(parseValue);
     if (date) {
         return date;
     }
@@ -531,7 +540,7 @@ export default function parseDate(value, formats, locale = "en") {
     const length = parseFormats.length;
 
     for (let idx = 0; idx < length; idx++) {
-        date = parseExact(value, parseFormats[idx], info);
+        date = parseExact(parseValue, parseFormats[idx], info);
         if (date) {
             return date;
         }
