@@ -110,7 +110,7 @@ function standardNumberFormat(number, options, info) {
 
     //return number in exponential format
     if (style === "scientific") {
-        return options.minimumFractionDigits ? number.toExponential(options.minimumFractionDigits) : number.toExponential();
+        return options.minimumFractionDigits !== undefined ? number.toExponential(options.minimumFractionDigits) : number.toExponential();
     }
 
     const symbols = info.numbers.symbols;

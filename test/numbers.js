@@ -139,6 +139,11 @@ describe('standard decimal formatting', () => {
         expect(formatNumber(number, { minimumFractionDigits: 5 })).toEqual("10.00100");
     });
 
+    it('should apply zero minimumFractionDigits', () => {
+        const number = 10;
+        expect(formatNumber(number, { minimumFractionDigits: 0 })).toEqual("10");
+    });
+
     it('should apply maximumFractionDigits', () => {
         const number = 10.123456;
         expect(formatNumber(number, { maximumFractionDigits: 5 })).toEqual("10.12346");
