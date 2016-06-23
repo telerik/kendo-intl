@@ -109,17 +109,15 @@ npm install --save '@telerik/kendo-intl';
 
 Once installed, import the module.
 
-```jsx
+```javascript
 // ES2015 module syntax
 import { formatDate, parseDate } from '@telerik/kendo-intl/dates';
 //or
-import { formatDate, parseDate } from '@telerik/kendo-intl/dates';
-
-// 
+import { formatNumber, parseNumber } from '@telerik/kendo-intl/number';
 ```
-```jsx
+```javascript
 // CommonJS format
-var Tabstrip = require('kendo-react-layout').Tabstrip;
+var numbers = require('@telerik/kendo-intl/dates').numbers;
 //or
-var Panelbar = require('kendo-react-layout').PanelBar;
+var dates = require('@telerik/kendo-intl/dates').dates;
 ```
