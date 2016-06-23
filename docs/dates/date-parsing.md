@@ -1,7 +1,7 @@
 ---
 title: Date Parsing
 page_title: Date Parsing | Kendo UI Dates Module
-description: "Use the parsing capabilities of the parseDate method when working with the Kendo UI Internalization package."
+description: "Use the parsing capabilities of the parseDate method when working with the Kendo UI Internationalization package."
 slug: dateparsing_internalization
 position: 1
 ---
@@ -12,9 +12,11 @@ Date parsing converts a string to a `Date` object using the locale specific sett
 
 ## Configuration
 
+The `parseDate` method supports the parsing of implicit and explicit string formats.
+
 ### Implicit Formats
 
-In this case, the `parseDate` method tries to parse the string using both the locale [predefined formats]({% slug dateformatting_internalization %}#predefined-formats) and the following standard formats:
+In this case, the `parseDate` method tries to parse the string using both the locale [predefined formats]({% slug dateformatting_internalization %}#predefined) and the standard formats listed in the table below.
 
 | STANDARD FORMATS                   | EXAMPLE VALUE                         |
 | :---                               | :---                                  |

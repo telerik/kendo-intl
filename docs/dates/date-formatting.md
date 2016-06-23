@@ -1,7 +1,7 @@
 ---
 title: Date Formatting
 page_title: Date Formatting | Kendo UI Dates Module
-description: "Use the formatting capabilities of the formatDate method when working with the Kendo UI Internalization package."
+description: "Use the formatting capabilities of the formatDate method when working with the Kendo UI Internationalization package."
 slug: dateformatting_internalization
 position: 2
 ---

@@ -2,7 +2,7 @@
 
 # Kendo UI Internationalization
 
-This repository contains the source code and documentation of the Kendo UI Internalization package.
+This repository contains the source code and documentation of the Kendo UI Internationalization package.
 
 It includes methods for parsing and formatting dates and numbers using [Unicode Common Locale Data Repository (CLDR)](http://cldr.unicode.org/) data, which are split into the following modules:
 
@@ -14,7 +14,7 @@ It includes methods for parsing and formatting dates and numbers using [Unicode 
 
 ### CLDR Data
 
-To use the methods for different locales, use the [`load`]({% slug cldrapi_internalization %}#load) method from the `cldr` module to load the `likelySubtags` and locale data. Additionally, the library requires the loading of the supplemental `currencyData` for the default currency formatting and the `weekData` for the day of week formatting.
+To use the methods for different locales, use the [`load`](https://github.com/telerik/kendo-intl/blob/master/docs/cldr/api.md#load) method from the `cldr` module to load the `likelySubtags` and locale data. Additionally, the library requires the loading of the supplemental `currencyData` for the default currency formatting and the `weekData` for the day of week formatting.
 
 ```javascript
 import { cldr } from '@telerik/kendo-intl/cldr';
@@ -27,7 +27,7 @@ load(require("cldr-data/main/bg/numbers.json"),
      require("cldr-data/supplemental/weekData.json"));
 ```
 
-For more examples and available configuration options, refer to the article on [CLDR Data]({% slug numberparsing_internalization %}).
+For more examples and available configuration options, refer to the article on [CLDR Data](https://github.com/telerik/kendo-intl/blob/master/docs/cldr/cldr-data.md).
 
 ### Dates
 
@@ -43,7 +43,7 @@ Date parsing converts a string to a `Date` object using the locale specific sett
 
     parseDate("2000-11-06T10:30Z"); // Mon Nov 06 2000 12:30
 
-For more examples and available configuration options, refer to the article on [date parsing]({% slug numberparsing_internalization %}).
+For more examples and available configuration options, refer to the article on [date parsing](https://github.com/telerik/kendo-intl/blob/master/docs/dates/date-parsing.md).
 
 **Date Formatting**
 
@@ -57,7 +57,7 @@ Date parsing converts a `Date` object to a human-readable string using the local
 
     formatDate(new Date(2000, 10, 6), "EEEE, d.MM.y", "bg"); // понеделник, 6.11.2000
 
-For more examples and available configuration options, refer to the article on [date formatting]({% slug numberparsing_internalization %}).
+For more examples and available configuration options, refer to the article on [date formatting](https://github.com/telerik/kendo-intl/blob/master/docs/dates/date-formatting.md).
 
 ### Numbers
 
@@ -75,7 +75,7 @@ Number parsing converts a string to a `Number` object using the specific setting
 
     parseNumber("1,0000123e+4", "bg"); // 10000.123
 
-For more examples and available configuration options, refer to the article on [number parsing]({% slug numberparsing_internalization %}).
+For more examples and available configuration options, refer to the article on [number parsing](https://github.com/telerik/kendo-intl/blob/master/docs/numbers/number-parsing.md).
 
 **Number Formatting**
 
@@ -95,7 +95,7 @@ Number formatting converts a `Number` object to a human-readable string using th
 
     formatNumber(2345678, "##,#.00"); // 2,345,678.00
 
-For more examples and available configuration options, refer to the article on [number formatting]({% slug numberparsing_internalization %}).
+For more examples and available configuration options, refer to the article on [number formatting](https://github.com/telerik/kendo-intl/blob/master/docs/numbers/number-formatting.md).
 
 ## Installation
 

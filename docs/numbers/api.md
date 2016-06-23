@@ -59,11 +59,21 @@ Defines the minimum number of integer digits to be used in the formatting.
 
 #### format.minimumFractionDigits `Number`
 
-Defines the minimum number of fraction digits to use. The default value for the decimal and percent formatting is 0 (zero). The default value of the currency formatting is the number of digits for the currency from the supplemental `currencyData` or 2 if no info is provided for the currency.
+Defines the minimum number of fraction digits to use.
+
+The default value for the decimal and percent formatting is 0 (zero).
+
+The default value of the currency formatting is the number of digits for the currency from the supplemental `currencyData` or 2 if no info is provided for the currency.
 
 #### format.maximumFractionDigits `Number`
 
-Defines the maximum number of fraction digits to be used. The default value of the decimal formatting is the greater one between `minimumFractionDigits` and 3. The default value of the currency formatting is the greater one between `minimumFractionDigits` and the number of digits for the currency from the supplemental  `currencyData` or 2 if no info is provided for the currency. The default value of the percent formatting is the greater one between `minimumFractionDigits` and 0 (zero).
+Defines the maximum number of fraction digits to be used.
+
+The default value of the decimal formatting is the greater one between `minimumFractionDigits` and 3.
+
+The default value of the currency formatting is the greater one between `minimumFractionDigits` and the number of digits for the currency from the supplemental  `currencyData` or 2 if no info is provided for the currency.
+
+The default value of the percent formatting is the greater one between `minimumFractionDigits` and 0 (zero).
 
 #### locale `String`
 

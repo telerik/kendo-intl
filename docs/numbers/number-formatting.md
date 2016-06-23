@@ -81,7 +81,7 @@ Apart from setting a string, the standard formats can also be specified by passi
         style: "percent"
     }, "de"); // 123.457 %
 
-For full list of available options check the [`formatNumber` API]({% slug numbersapi_internalization %}#).
+For full list of available options check the [`formatNumber` API]({% slug numbersapi_internalization %}#the-formatnumber-method).
 
 ### Custom
 

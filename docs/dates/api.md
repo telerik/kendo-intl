@@ -42,7 +42,7 @@ The supported values are:
 
 #### format.time `String`
 
-Specifies which of the locale _timeFormats_ should be used to format the value.
+Specifies which of the locale `timeFormats` should be used to format the value.
 
 The supported values are:
 * `"short"`
@@ -52,7 +52,7 @@ The supported values are:
 
 #### format.datetime `String`
 
-Specifies which of the locale _dateTimeFormats_ should be used to format the value.
+Specifies which of the locale `dateTimeFormats` should be used to format the value.
 
 The supported values are:
 * `"short"`

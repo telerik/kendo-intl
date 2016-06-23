@@ -1,14 +1,14 @@
 ---
 title: CLDR Data
 page_title: CLDR Data | Kendo UI CLDR Module
-description: "Use the required CLDR data in your project for the different Kendo UI Internalization modules to work."
+description: "Use the required CLDR data in your project for the different Kendo UI Internationalization modules to work."
 slug: cldrdata_overview_internalization
 position: 1
 ---
 
 # CLDR Data
 
-The Kendo UI Internalization library uses the [Unicode Common Locale Data Repository (CLDR)](http://cldr.unicode.org/) as a source for the locale information. To function properly, it requires the data for the corresponding locale to load.
+The Kendo UI Internationalization library uses the [Unicode Common Locale Data Repository (CLDR)](http://cldr.unicode.org/) as a source for the locale information. To function properly, it requires the data for the corresponding locale to load.
 
 The `numbers`, `currencies`, `gregorian calendar` and `timeZoneNames` for the `en` locale are loaded by default.
 
