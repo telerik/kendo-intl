@@ -1,167 +1,138 @@
 ---
-title: date formatting
-page_title: Date formatting | Kendo Internationalization API
-description: "Describes formatting capabilities of the formatDate method."
+title: Date Formatting
+page_title: Date Formatting | Kendo UI Dates Module
+description: "Use the formatting capabilities of the formatDate method when working with the Kendo UI Internalization package."
+slug: dateformatting_internalization
 position: 2
 ---
 
 # Date Formatting
 
-The purpose of date formatting is to convert a `Date` object to a human readable string using the locale specific settings. The formatDate method supports using predefined and custom formats specified as string, and standard formats specified as object.
+Date formatting converts a `Date` object to a human-readable string using the locale specific settings. The `formatDate` method supports the usage of predefined and custom formats specified as strings, and standard formats specified as objects.
 
 ## Types of Date Formats
 
-### Predefined formats
+### Predefined
 
-#### The 'd' Specifier
+**The `d` specifier**
 
-The `"d"` specifier renders a short date pattern (`"M/d/y"` for en), as shown below.
-
-###### Example
+The `"d"` specifier renders a short date pattern&mdash;`"M/d/y"` for en.
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
     formatDate(new Date(2000, 10, 6), "d"); // 10/6/2000
 
-#### The 'D' Specifier
+**The `D` specifier**
 
-The `"D"` specifier renders a long date pattern (`"EEEE, MMMM d, y"` for en).
-
-###### Example
+The `"D"` specifier renders a long date pattern&mdash;`"EEEE, MMMM d, y"` for en.
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
     formatDate(new Date(2000, 10, 6), "D"); // Monday, November 6, 2000
 
-#### The 'F' Specifier
+**The `F` specifier**
 
-The `"F"` specifier renders a full date/time pattern (`"EEEE, MMMM d, y h:mm:ss a"` for en).
-
-###### Example
+The `"F"` specifier renders a full date and time pattern&mdash;`"EEEE, MMMM d, y h:mm:ss a"` for en.
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
     formatDate(new Date(2000, 10, 6), "F"); // Monday, November 6, 2000 12:00:00 AM
 
-#### The 'g' Specifier
+**The `g` specifier**
 
-The `"g"` specifier renders a general date/time pattern (short time) (`"M/d/y h:mm a"` for en).
-
-###### Example
+The `"g"` specifier renders a general date and time pattern (short time)&mdash;`"M/d/y h:mm a"` for en.
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
     formatDate(new Date(2000, 10, 6), "g"); // 11/6/2000 12:00 AM
 
-#### The 'G' Specifier
+**The `G` specifier**
 
-The `"G"` specifier renders a general date/time pattern (long time) (`"M/d/y h:mm:ss a"` for en).
-
-###### Example
+The `"G"` specifier renders a general date and time pattern (long time)&mdash;`"M/d/y h:mm:ss a"` for en.
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
     formatDate(new Date(2000, 10, 6), "G"); // 11/6/2000 12:00:00 AM
 
-#### The 'M' Specifier
+**The `M` specifier**
 
-Renders a wide month/day pattern (`"MMMM d"` for en).
-
-###### Example
+Renders a wide month and day pattern&mdash;`"MMMM d"` for en.
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
     formatDate(new Date(2000, 10, 6), "M"); // November 6
 
-#### The 'm' Specifier
+**The `m` specifier**
 
-Renders an abbreviated month/day pattern (`"MMM d"` for en).
-
-###### Example
+Renders an abbreviated month and day pattern&mdash;`"MMM d"` for en.
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
     formatDate(new Date(2000, 10, 6), "m"); // Nov 6
 
-#### The 'Y' Specifier
+**The `Y` specifier**
 
-Renders a wide month/year pattern (`"MMMM y"` for en).
-
-###### Example
+Renders a wide month and year pattern&mdash;`"MMMM y"` for en.
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
     formatDate(new Date(2000, 10, 6), "Y"); // November 2000
 
-#### The 'y' Specifier
+**The `y` specifier**
 
-Renders an abbreviated month/year pattern (`"MMM y"` for en).
-
-###### Example
+Renders an abbreviated month/year pattern&mdash;`"MMM y"` for en.
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
     formatDate(new Date(2000, 10, 6), "y"); // Nov 2000
 
-#### The 't' Specifier
+**The `t` specifier**
 
-The `"t"` specifier renders a short time pattern (`"h:mm a"` for en).
-
-###### Example
+The `"t"` specifier renders a short time pattern&mdash;`"h:mm a"` for en.
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
     formatDate(new Date(2000, 10, 6, 14, 30, 45), "t"); // 2:30 PM
 
-#### The 'T' Specifier
+**The `T` specifier**
 
-The `"T"` specifier renders a long time pattern (`"h:mm:ss a"` for en).
-
-###### Example
+The `"T"` specifier renders a long time pattern&mdash;`"h:mm:ss a"` for en.
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
     formatDate(new Date(2000, 10, 6, 14, 30, 45), "T"); // 2:30:45 PM
 
-#### The 's' Specifier
+**The `s` specifier**
 
-The `"s"` specifier renders universal sortable **local** date/time pattern (`"yyyy-MM-dd HH:mm:ss"`).
-
-###### Example
+The `"s"` specifier renders universal sortable _local_ date and time pattern&mdash;`"yyyy-MM-dd HH:mm:ss"`.
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
     formatDate(new Date(2000, 10, 6), "s"); // 2000-11-06T00:00:00
 
-#### The 'u' Specifier
+**The `u` specifier**
 
-The `"u"` specifier renders universal sortable **UTC** date/time pattern (`"yyyy-MM-dd HH:mm:ssZ"`).
-
-###### Example
+The `"u"` specifier renders universal sortable _UTC_ date and time pattern&mdash;`"yyyy-MM-dd HH:mm:ssZ"`.
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
     formatDate(new Date(2000, 10, 6), "u"); // 2000-11-06 00:00:00Z
 
-### Custom formats
+### Custom
 
 The following specifiers can be used in the custom formats.
 
-#### The `"G"` Specifier
+**The `"G"` specifier**
 
-Renders the era name. Use one to three letters for the abbreviated name, four letters for (wide) name and five for the narrow name.
-
-###### Example
+The `"G"` specifier renders the era name. Use one to three letters for the abbreviated name, four letters for (wide) name, and five for the narrow name.
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
     formatDate(new Date(2000, 0, 1), "y G"); // 2000 AD
 
-#### The `"y"` Specifier
+**The `"y"` specifier**
 
-Renders the year. Use one letter to render the full year, two letters to render a two digit year and three or four letters to render a zero padded if necessary year.
-
-###### Example
+The `"y"` specifier renders the year. Use one letter to render the full year, two letters to render a two-digit year, and three or four letters to render a zero-padded year, if necessary.
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
@@ -171,11 +142,9 @@ Renders the year. Use one letter to render the full year, two letters to render 
 
     formatDate(new Date(111, 0, 1), "yyyy"); // 0111  
 
-#### The `"Q"` Specifier
+**The `"Q"` specifier**
 
-Renders quarter of the year. Use one or two letters for the numerical quarter, three for the abbreviation, four for the wide name and five for the narrow name.
-
-###### Example
+The `"Q"` specifier renders a quarter of the year. Use one or two letters for the numerical quarter, three for the abbreviation, four for the wide name, and five for the narrow name.
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
@@ -187,15 +156,13 @@ Renders quarter of the year. Use one or two letters for the numerical quarter, t
 
     formatDate(new Date(2000, 10, 1), "QQQQQ"); // 4
 
-#### The `"q"` Specifier
+**The `"q"` specifier**
 
-It is the same as `"Q"` but uses the stand-alone names.
+It is the same as the `"Q"` specifier, but uses the standalone names.
 
-#### The `"M"` Specifier
+**The `"M"` specifier**
 
-Renders the month. Use one or two letters for the numerical month, three for the abbreviation, four for the wide name and five for the narrow name. With two letters, the month number is zero-padded if necessary.
-
-###### Example
+The `"M"` specifier renders the month. Use one or two letters for the numerical month, three for the abbreviation, four for the wide name, and five for the narrow name. With two letters, the month number is rendered as zero-padded.
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
@@ -209,15 +176,13 @@ Renders the month. Use one or two letters for the numerical month, three for the
 
     formatDate(new Date(2000, 0, 1), "MMMMM"); // J
 
-#### The `"L"` Specifier
+**The `"L"` specifier**
 
-It is the same as `"M"` but uses the stand-alone names.
+It is the same as the `"M"` specifier, but uses the standalone names.
 
-#### The `"d"` Specifier
+**The `"d"` specifier**
 
-Renders the day of month. Use `"d"` to show the minimum number of digits, or `"dd"` to always show two digits (zero-padding if necessary, e.g. "08").
-
-###### Example
+The `"d"` specifier renders the day of the month. Use `"d"` to show the minimum number of digits, or `"dd"` to always show two digits (zero-padding, if necessary&mdash;for example, "08").
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
@@ -225,11 +190,9 @@ Renders the day of month. Use `"d"` to show the minimum number of digits, or `"d
 
     formatDate(new Date(2000, 0, 1), "y dd"); // 2000 01
 
-#### The `"E"` Specifier
+**The `"E"` specifier**
 
-Renders the day of the week. Use one through three letters for the abbreviated day name, four for the wide name, five for the narrow name and six for the short name.
-
-###### Example
+The `"E"` specifier renders the day of the week. Use one through three letters for the abbreviated day name, four for the wide name, five for the narrow name, and six for the short name.
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
@@ -241,25 +204,21 @@ Renders the day of the week. Use one through three letters for the abbreviated d
 
     formatDate(new Date(2000, 0, 1), "EEEEEE"); // Sa
 
-#### The `"e"` Specifier
+**The `"e"` specifier**
 
-It is the same as `"E"` excepts it adds a numeric value that will depend on the local starting day of the week, using one or two letters. The format requires loading the supplemental _weekData_.
-
-###### Example
+It is the same as the `"E"` specifier except for its adding a numeric value that depends on the local starting day of the week, using one or two letters. The format requires the loading of the supplemental `weekData`.
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
     formatDate(new Date(2000, 0, 1), "e"); // 7
 
-#### The `"c"` Specifier
+**The `"c"` specifier**
 
-It is the same as `"e"` but uses the stand-alone names.
+It is the same as the `"e"` specifier,but uses the standalone names.
 
-#### The `"a"` Specifier
+**The `"a"` specifier**
 
-Renders the day period. Use one through three letters for the short name, four for the wide name and five for the narrow name.
-
-###### Example
+The `"a"` specifier renders the day period. Use one through three letters for the short name, four for the wide name, and five for the narrow name.
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
@@ -269,11 +228,9 @@ Renders the day period. Use one through three letters for the short name, four f
 
     formatDate(new Date(2000, 0, 1, 13), "aaaaa"); // p
 
-#### The `"h"` Specifier
+**The `"h"` specifier**
 
-Renders the hour using a 12-hour clock from 1 to 12. Use `"h"` to show the minimum number of digits, or `"hh"` to always show two digits.
-
-###### Example
+The `"h"` specifier renders the hour using a 12-hour clock from 1 to 12. Use `"h"` to show the minimum number of digits, or `"hh"` to always show two digits.
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
@@ -281,11 +238,9 @@ Renders the hour using a 12-hour clock from 1 to 12. Use `"h"` to show the minim
 
     formatDate(new Date(2000, 0, 1, 13), "h a"); // 01 PM
 
-#### The `"H"` Specifier
+**The `"H"` specifier**
 
-Renders the hour using a 24-hour clock from 1 to 23. Use `"H"` to show the minimum number of digits, or `"HH"` to always show two digits.
-
-###### Example
+The `"H"` specifier renders the hour using a 24-hour clock from 1 to 23. Use `"H"` to show the minimum number of digits, or `"HH"` to always show two digits.
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
@@ -293,49 +248,41 @@ Renders the hour using a 24-hour clock from 1 to 23. Use `"H"` to show the minim
 
     formatDate(new Date(2000, 0, 1, 13), "HH:mm"); // 13:00
 
-#### The `"m"` Specifier
+**The `"m"` specifier**
 
-Renders the minutes from 0 through 59. Use `"m"` to show the minimum number of digits, or `"mm"` to always show two digits.
-
-###### Example
+The `"m"` specifier renders the minutes from 0 through 59. Use `"m"` to show the minimum number of digits, or `"mm"` to always show two digits.
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
     formatDate(new Date(2000, 0, 1, 1, 1), "H:m"); // 1:1
-    
+
     formatDate(new Date(2000, 0, 1, 1, 1), "H:mm"); // 1:01
 
-#### The `"s"` Specifier
+**The `"s"` specifier**
 
-Renders the seconds from 0 through 59. Use `"s"` to show the minimum number of digits, or `"s"` to always show two digits
-
-###### Example
+The `"s"` specifier renders the seconds from 0 through 59. Use `"s"` to show the minimum number of digits, or `"s"` to always show two digits.
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
     formatDate(new Date(2000, 0, 1, 1, 1, 1), "HH:mm:s"); // 01:01:1
-    
+
     formatDate(new Date(2000, 0, 1, 1, 1, 1), "HH:mm:ss"); // 01:01:01
 
-#### The `"S"` Specifier
+**The `"S"` specifier**
 
-Renders the fractional seconds. Truncates based on the number of letters.
-
-###### Example
+The `"S"` specifier renders the fractional seconds. It truncates based on the number of letters.
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
     formatDate(new Date(2000, 0, 1, 1, 1, 1, 123), "s.S"); // 1.1
-    
+
     formatDate(new Date(2000, 0, 1, 1, 1, 1, 123), "s.SS"); // 1.12
-    
+
     formatDate(new Date(2000, 0, 1, 1, 1, 1, 123), "s.SSS"); // 1.123
 
-#### The `"z"` Specifier
+**The `"z"` specifier**
 
-Renders the timezone. Use one through three letters for the short localized GMT format and four for the long localized GMT format.
-
-###### Example
+The `"z"` specifier renders the timezone. Use one through three letters for the short localized GMT format, and four for the long localized GMT format.
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
@@ -343,11 +290,9 @@ Renders the timezone. Use one through three letters for the short localized GMT 
 
     formatDate(new Date(2000, 0, 1), "zzzz"); // GMT+02:00
 
-#### The `"Z"` Specifier
+**The `"Z"` specifier**
 
-Renders the timezone. Use one through three letters to show the ISO8601 basic format with hours and minutes, four for the long localized GMT format and five for the ISO8601 extended format.
-
-###### Example
+The `"Z"` specifier renders the timezone. Use one through three letters to show the ISO8601 basic format with hours and minutes, four for the long localized GMT format, and five for the ISO8601 extended format.
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
@@ -357,11 +302,9 @@ Renders the timezone. Use one through three letters to show the ISO8601 basic fo
 
     formatDate(new Date(2000, 0, 1), "ZZZZZ"); // +02:00
 
-#### The `"X"` Specifier
+**The `"X"` specifier**
 
-Renders the timezone. Use one letter for the ISO8601 basic format with hours and optional minutes, two and four letters for the ISO8601 basic format with hours and minutes, three and five letters for the ISO8601 extended format. The ISO8601 UTC indicator "Z" is used when local time offset is 0.
-
-###### Example
+The `"X"` specifier renders the timezone. Use one letter for the ISO8601 basic format with hours and optional minutes, two and four letters for the ISO8601 basic format with hours and minutes, and three and five letters for the ISO8601 extended format. The ISO8601 UTC indicator `Z` is used when the local time offset is 0 (zero).
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
@@ -373,19 +316,17 @@ Renders the timezone. Use one letter for the ISO8601 basic format with hours and
 
     formatDate(new Date(2000, 0, 1), "XXX"); // +02:00
 
-#### The `"x"` Specifier
+**The `"x"` specifier**
 
-It is the same as `"X"` but without adding the UTC indicator when the offset is 0.
+It is the same as the `"X"` specifier, but without adding the UTC indicator when the offset is 0 (zero).
 
-### Standard formats
+### Standard
 
 The standard formats are used by passing an object. The following types of options are supported.
 
-#### Locale predefined formats
+**Locale predefined formats**
 
-Used to set the format from the calendar [dateFormats](http://www.unicode.org/reports/tr35/tr35-dates.html#dateFormats), [timeFormats](http://www.unicode.org/reports/tr35/tr35-dates.html#timeFormats) and [dateTimeFormats](http://www.unicode.org/reports/tr35/tr35-dates.html#dateTimeFormats) elements. 
-
-###### Example
+These are used to set the format from the calendar [`dateFormats`](http://www.unicode.org/reports/tr35/tr35-dates.html#dateFormats), [`timeFormats`](http://www.unicode.org/reports/tr35/tr35-dates.html#timeFormats), and [`dateTimeFormats`](http://www.unicode.org/reports/tr35/tr35-dates.html#dateTimeFormats) elements.
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
@@ -395,23 +336,23 @@ Used to set the format from the calendar [dateFormats](http://www.unicode.org/re
 
     formatDate(new Date(2000, 10, 6, 13), { datetime: "full" }); // Monday, November 6, 2000 at 1:00:00 PM GMT+02:00
 
-#### Skeleton formats
+**Skeleton formats**
 
-Used to set the format from the calendar [availableFormats](http://www.unicode.org/reports/tr35/tr35-dates.html#availableFormats_appendItems) based on the date fields that needs to be displayed. 
-
-###### Example
+These are used to set the format from the calendar [`availableFormats`](http://www.unicode.org/reports/tr35/tr35-dates.html#availableFormats_appendItems) based on the date fields that need to be displayed.
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
     formatDate(new Date(2000, 10, 6, 13), { skeleton: "yMMMdEHm" }); // Mon, Nov 6, 2000, 13:00
 
-#### Fields formats
+**Fields formats**
 
-Similar to the skeleton formats but the required fields are set using separate options the same way as with the [Intl.DateTimeFormat](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat) object.
-
-###### Example
+These are similar to the skeleton formats but the required fields are set using separate options in the same way as the [`Intl.DateTimeFormat`](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat) object.
 
     import { formatDate } from '@telerik/kendo-intl/dates';
 
     formatDate(new Date(2000, 10, 6), { year: "numeric", month: "long" }); // November 2000
 
+## Suggested Links
+
+* [API Reference of the Dates Module]({% slug datesapi_internalization %})
+* [Date Parsing]({% slug dateparsing_internalization %})

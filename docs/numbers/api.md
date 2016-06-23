@@ -2,75 +2,87 @@
 title: Numbers API
 page_title: Numbers API | Kendo Internationalization API
 description: "Provides information about the exported methods from the Kendo Internationalization numbers module."
-position: 1
+slug: numbersapi_internalization
+position: 3
 ---
 
 # Numbers API
 
-Provides information about the exported methods from the numbers module.
+Provides information about the exported methods from the Numbers module.
 
-## Methods
+## The formatNumber Method
 
 ### formatNumber
 
-Converts a `Number` to string based on the specified format and locale
+Converts a `Number` to a string based on the specified format and locale.
 
-#### Parameters
+## The formatNumber Parameters
 
-##### number `Number`
+#### number `Number`
 
-The number to be formatted.
+Defines the number to be formatted.
 
-##### format `String|Object`
+#### format `String|Object`
 
-A string representing a predefined or custom number format or a configuration object.
+Defines a string representing a predefined or custom number format, or a configuration object.
 
-##### format.style `String` *(default: "decimal")*
+#### format.style `String` *(default: "decimal")*
 
-Specifies the format style. The supported values are `"decimal"`, `"currency"`, `"precent"` and `"scientific"`. 
+Specifies the format style.
 
-##### format.currency `String`
+The supported values are:
+* `"decimal"`
+* `"currency"`
+* `"precent"`
+* `"scientific"`
 
-The currency code of the currency used in the formatting. If not specified, the default currency for the locale is used.
+#### format.currency `String`
 
-##### format.currencyDisplay `String` *(default: "symbol")*
+Defines the currency code of the currency used in the formatting. If not specified, the default currency for the locale is used.
 
-Specifies how to display the currency. The supported values are `"symbol"`, `"code"` and `"name"`.
+#### format.currencyDisplay `String` *(default: "symbol")*
 
-##### format.useGrouping `Boolean` *(default: true)*
+Specifies how to display the currency.
+
+The supported values are:
+* `"symbol"`
+* `"code"`
+* `"name"`
+
+#### format.useGrouping `Boolean` *(default: true)*
 
 Specifies whether to use grouping separators.
 
-##### format.minimumIntegerDigits `Number` *(default: 1)*
+#### format.minimumIntegerDigits `Number` *(default: 1)*
 
-The minimum number of integer digits to use in the formatting. 
+Defines the minimum number of integer digits to be used in the formatting.
 
-##### format.minimumFractionDigits `Number`
+#### format.minimumFractionDigits `Number`
 
-The minimum number of fraction digits to use. The default for decimal and percent formatting is 0. The default for currency formatting is the number of digits for the currency from the supplemental _currencyData_ or 2 if no info is provided for the currency.
+Defines the minimum number of fraction digits to use. The default value for the decimal and percent formatting is 0 (zero). The default value of the currency formatting is the number of digits for the currency from the supplemental `currencyData` or 2 if no info is provided for the currency.
 
-##### format.maximumFractionDigits `Number`
+#### format.maximumFractionDigits `Number`
 
-The maximum number of fraction digits to use. The default for decimal formatting is the larger of `minimumFractionDigits` and 3. The default for currency formatting is the larger of `minimumFractionDigits` and the number of digits for the currency from the supplemental _currencyData_ or 2 if no info is provided for the currency. The default for percent formatting is the larger of minimumFractionDigits and 0.
+Defines the maximum number of fraction digits to be used. The default value of the decimal formatting is the greater one between `minimumFractionDigits` and 3. The default value of the currency formatting is the greater one between `minimumFractionDigits` and the number of digits for the currency from the supplemental  `currencyData` or 2 if no info is provided for the currency. The default value of the percent formatting is the greater one between `minimumFractionDigits` and 0 (zero).
 
-##### locale `String`
+#### locale `String`
 
-The locale id.
+Defines the locale id.
 
-### parseNumber
+## The parseNumber Method
 
 Converts a string to a `Number` based on the specified locale.
 
-#### Parameters
+## The parseNumber Parameters
 
-##### string `String`
+#### string `String`
 
-The string to be converted.
+Defines the string to be converted.
 
-##### locale `String`
+#### locale `String`
 
-The locale to be used for the parsing.
+Defines the locale to be used for the parsing.
 
-##### format `Object`
+#### format `Object`
 
-Specifies how should the value format options. Can be used to specify that a non-default for the locale currency is used.
+Specifies how the value should format the options. It is also used to specify that a non-default currency for the locale should be used.

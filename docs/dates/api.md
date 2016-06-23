@@ -1,170 +1,299 @@
 ---
 title: Dates API
 page_title: Dates API | Kendo Internationalization API
-description: "Provides information about the exported methods from the Kendo Internationalization dates module."
-position: 1
+description: "Learn about the exported methods from the Kendo UI Internationalization Dates module."
+slug: datesapi_internalization
+position: 3
 ---
 
 # Dates API
 
-Provides information about the exported methods from the dates module.
+Provides information about the exported methods from the Dates module.
 
-## Methods
+## The formatDate Method
 
-### formatDate
+#### formatDate
 
-Converts a `Date` to string based on the specified format and locale.
+Converts a `Date` object to a string based on the specified format and locale.
 
-#### Parameters
+## The formatDate Parameters
 
-##### date `Date`
+#### date `Date`
 
-The date to be formatted.
+Defines the date to be formatted.
 
-##### format `String|Object`
+#### format `String|Object`
 
-A string representing a predefined or custom date format or a configuration object.
+Defines a string representing a predefined or custom date format, or a configuration object.
 
-##### format.skeleton `String`
+#### format.skeleton `String`
 
-The skeleton format used get the pattern from the locale calendar [availableFormats](http://www.unicode.org/reports/tr35/tr35-dates.html#availableFormats_appendItems).
+Defines the skeleton format used to get the pattern from the locale calendar [`availableFormats`](http://www.unicode.org/reports/tr35/tr35-dates.html#availableFormats_appendItems).
 
-##### format.date `String`
+#### format.date `String`
 
-Specifies which of the locale _dateFormats_ should be used to format the value. The supported values are `"short"`, `"medium"`, `"long"` and `"full"`.
+Specifies which of the locale `dateFormats` should be used to format the value.
 
-##### format.time `String`
+The supported values are:
+* `"short"`
+* `"medium"`
+* `"long"`
+* `"full"`
 
-Specifies which of the locale _timeFormats_ should be used to format the value. The supported values are `"short"`, `"medium"`, `"long"` and `"full"`.
+#### format.time `String`
 
-##### format.datetime `String`
+Specifies which of the locale _timeFormats_ should be used to format the value.
 
-Specifies which of the locale _dateTimeFormats_ should be used to format the value. The supported values are `"short"`, `"medium"`, `"long"` and `"full"`.
+The supported values are:
+* `"short"`
+* `"medium"`
+* `"long"`
+* `"full"`
 
-##### format.era `String`
+#### format.datetime `String`
 
-Specifies how should the date era be formatted. The supported values are `"narrow"`, `"short"` and `"long"`.
+Specifies which of the locale _dateTimeFormats_ should be used to format the value.
 
-##### format.year `String`
+The supported values are:
+* `"short"`
+* `"medium"`
+* `"long"`
+* `"full"`
 
-Specifies how should the date year be formatted. The supported values are `"numeric"` and `"2-digit"`.
+#### format.era `String`
 
-##### format.month `String`
+Specifies how should the date era be formatted.
 
-Specifies how should the date month be formatted. The supported values are `"numeric"`, `"2-digit"`, `"narrow"`, `"short"` and `"long"`.
+The supported values are:
+* `"narrow"`
+* `"short"`
+* `"long"`
 
-##### format.day `String`
+#### format.year `String`
 
-Specifies how should the day of the month be formatted. The supported values are `"numeric"`, `"2-digit"`.
+Specifies how the date year should be formatted.
 
-##### format.weekday `String`
+The supported values are:
+* `"numeric"`
+* `"2-digit"`
 
-Specifies how should the day of the week be formatted. The supported values are `"narrow"`, `"short"`, `"long"`.
+#### format.month `String`
 
-##### format.weekday `String`
+Specifies how the date month should be formatted.
 
-Specifies how should the day of the week be formatted. The supported values are `"narrow"`, `"short"`, `"long"`.
+The supported values are:
+* `"numeric"`
+* `"2-digit"`
+* `"narrow"`
+* `"short"`
+* `"long"`
 
-##### format.hour `String`
+#### format.day `String`
 
-Specifies how should the hours be formatted. The supported values are `"numeric"` and `"2-digit"`.
+Specifies how the day of the month should be formatted.
 
-##### format.hour12 `Boolean`
+The supported values are:
+* `"numeric"`
+* `"2-digit"`
 
-Specifies if 12-hour time should be used for the formatting.
+#### format.weekday `String`
 
-##### format.minute `String`
+Specifies how the day of the week should be formatted.
 
-Specifies how should the minutes be formatted. The supported values are `"numeric"` and `"2-digit"`.
+The supported values are:
+* `"narrow"`
+* `"short"`
+* `"long"`
 
-##### format.second `String`
+#### format.weekday `String`
 
-Specifies how should the seconds be formatted. The supported values are `"numeric"` and `"2-digit"`.
+Specifies how the day of the week should be formatted.
 
-##### format.timeZoneName `String`
+The supported values are:
+* `"narrow"`
+* `"short"`
+* `"long"`
 
-Specifies how should the timezone be formatted. The supported values are `"short"` and `"long"`.
+#### format.hour `String`
 
-##### locale `String`
+Specifies how the hours should be formatted.
 
-The locale id.
+The supported values are:
+* `"numeric"`
+* `"2-digit"`
 
-### parseDate
+#### format.hour12 `Boolean`
 
-Converts a string to `Date` based on the specified format and locale.
+Specifies if a 12-hour time set should be used for the formatting.
 
-#### Parameters
+#### format.minute `String`
 
-##### date `Date`
+Specifies how the minutes should be formatted.
 
-The date to be formatted.
+The supported values are:
+* `"numeric"`
+* `"2-digit"`
 
-##### format `String|Object|Array`
+#### format.second `String`
 
-A string representing a predefined or custom date format or a configuration object or an array of formats.
+Specifies how the seconds should be formatted.
 
-##### format.skeleton `String`
+The supported values are:
+* `"numeric"`
+* `"2-digit"`
 
-The skeleton format used get the pattern from the locale calendar [availableFormats](http://www.unicode.org/reports/tr35/tr35-dates.html#availableFormats_appendItems).
+#### format.timeZoneName `String`
 
-##### format.date `String`
+Specifies how the timezone should be formatted.
 
-Specifies which of the locale _dateFormats_ should be used to format the value. The supported values are `"short"`, `"medium"`, `"long"` and `"full"`.
+The supported values are:
+* `"short"`
+* `"long"`
 
-##### format.time `String`
+#### locale `String`
 
-Specifies which of the locale _timeFormats_ should be used to format the value. The supported values are `"short"`, `"medium"`, `"long"` and `"full"`.
+Defines the locale id.
 
-##### format.datetime `String`
+## The parseDate Method
 
-Specifies which of the locale _dateTimeFormats_ should be used to format the value. The supported values are `"short"`, `"medium"`, `"long"` and `"full"`.
+#### parseDate
 
-##### format.era `String`
+Converts a string to a `Date` object based on the specified format and locale.
 
-Specifies how should the date era be formatted. The supported values are `"narrow"`, `"short"` and `"long"`.
+## The parseDate Parameters
 
-##### format.year `String`
+#### date `Date`
 
-Specifies how should the date year be formatted. The supported values are `"numeric"` and `"2-digit"`.
+Defines the date to be formatted.
 
-##### format.month `String`
+#### format `String|Object|Array`
 
-Specifies how should the date month be formatted. The supported values are `"numeric"`, `"2-digit"`, `"narrow"`, `"short"` and `"long"`.
+Defines a string representing a predefined or custom date format, a configuration object, or an array of formats.
 
-##### format.day `String`
+#### format.skeleton `String`
 
-Specifies how should the day of the month be formatted. The supported values are `"numeric"`, `"2-digit"`.
+Defines the skeleton format used to get the pattern from the locale calendar [`availableFormats`](http://www.unicode.org/reports/tr35/tr35-dates.html#availableFormats_appendItems).
 
-##### format.weekday `String`
+#### format.date `String`
 
-Specifies how should the day of the week be formatted. The supported values are `"narrow"`, `"short"`, `"long"`.
+Specifies which of the locale `dateFormats` should be used to format the value.
 
-##### format.weekday `String`
+The supported values are:
+* `"short"`
+* `"medium"`
+* `"long"`
+* `"full"`
 
-Specifies how should the day of the week be formatted. The supported values are `"narrow"`, `"short"`, `"long"`.
+#### format.time `String`
 
-##### format.hour `String`
+Specifies which of the locale `timeFormats` should be used to format the value.
 
-Specifies how should the hours be formatted. The supported values are `"numeric"` and `"2-digit"`.
+The supported values are:
+* `"short"`
+* `"medium"`
+* `"long"`
+* `"full"`
 
-##### format.hour12 `Boolean`
+#### format.datetime `String`
 
-Specifies if 12-hour time should be used for the formatting.
+Specifies which of the locale `dateTimeFormats` should be used to format the value.
 
-##### format.minute `String`
+The supported values are:
+* `"short"`
+* `"medium"`
+* `"long"`
+* `"full"`
 
-Specifies how should the minutes be formatted. The supported values are `"numeric"` and `"2-digit"`.
+#### format.era `String`
 
-##### format.second `String`
+Specifies how the date era should be formatted.
 
-Specifies how should the seconds be formatted. The supported values are `"numeric"` and `"2-digit"`.
+The supported values are:
+* `"narrow"`
+* `"short"`
+* `"long"`
 
-##### format.timeZoneName `String`
+#### format.year `String`
 
-Specifies how should the timezone be formatted. The supported values are `"short"` and `"long"`.
+Specifies how the date year should be formatted.
 
-##### locale `String`
+The supported values are:
+* `"numeric"`
+* `"2-digit"`
 
-The locale id.
+#### format.month `String`
 
+Specifies how the date month should be formatted.
 
+The supported values are:
+* `"numeric"`
+* `"2-digit"`
+* `"narrow"`
+* `"short"`
+* `"long"`
+
+#### format.day `String`
+
+Specifies how the day of the month should be formatted.
+
+The supported values are:
+* `"numeric"`
+* `"2-digit"`
+
+#### format.weekday `String`
+
+Specifies how the day of the week should be formatted.
+
+The supported values are:
+* `"narrow"`
+* `"short"`
+* `"long"`
+
+#### format.weekday `String`
+
+Specifies how the day of the week should be formatted.
+
+The supported values are:
+* `"narrow"`
+* `"short"`
+* `"long"`
+
+#### format.hour `String`
+
+Specifies how the hours should be formatted.
+
+The supported values are:
+* `"numeric"`
+* `"2-digit"`
+
+#### format.hour12 `Boolean`
+
+Specifies if a 12-hour time set should be used for the formatting.
+
+#### format.minute `String`
+
+Specifies how the minutes should be formatted.
+
+The supported values are:
+* `"numeric"`
+* `"2-digit"`
+
+#### format.second `String`
+
+Specifies how the seconds should be formatted.
+
+The supported values are:
+* `"numeric"`
+* `"2-digit"`
+
+#### format.timeZoneName `String`
+
+Specifies how the timezone should be formatted.
+
+The supported values are:
+* `"short"`
+* `"long"`
+
+#### locale `String`
+
+Defines the locale id.

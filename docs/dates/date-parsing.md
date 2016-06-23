@@ -1,21 +1,22 @@
 ---
-title: date parsing
-page_title: Date parsing | Kendo Internationalization API
-description: "Describes the parsing capabilities of the parseDate method."
-position: 2
+title: Date Parsing
+page_title: Date Parsing | Kendo UI Dates Module
+description: "Use the parsing capabilities of the parseDate method when working with the Kendo UI Internalization package."
+slug: dateparsing_internalization
+position: 1
 ---
 
-# Date parsing
+# Date Parsing
 
-The purpose of date parsing is to convert a string to a `Date` object using the locale specific settings. The parseDate method can be used to parse values based on the specified format(s) or implicitly based on the locale predefined formats and some of the standard date formats.
+Date parsing converts a string to a `Date` object using the locale specific settings. The `parseDate` method can be used to parse values based on the specified formats or implicitly based on the locale predefined formats and some of the standard date formats. If the formats are omitted, then the locale predefined patterns and the standard ISO formats are used to parse the string.
 
-## Settings
+## Configuration
 
 ### Implicit Formats
 
-The method will try to parse the string in this case using the locale [predefined formats](https://github.com/telerik/kendo-intl/blob/master/docs/dates/date-formatting.md#predefined-formats) and the following standard formats:
+In this case, the `parseDate` method tries to parse the string using both the locale [predefined formats]({% slug dateformatting_internalization %}#predefined-formats) and the following standard formats:
 
-| Standard Formats                   | Example Value                         |
+| STANDARD FORMATS                   | EXAMPLE VALUE                         |
 | :---                               | :---                                  |
 | The Microsoft JSON date format     | `"\/Date(1330848000000)\/`"           |  
 | `"yyyy-MM-ddTHH:mm:ss.SSSSSSSXXX"` | `"2000-11-06T10:30:30.0000000+05:00"` |
@@ -37,9 +38,9 @@ The method will try to parse the string in this case using the locale [predefine
 
 ### Explicit Formats
 
-The format(s) that should be used to parse the value can be passed as parameter to the method. In this case the value will be parsed only if the value matches one of the specified formats. The supported formats are the same as the ones described in the date formatting documentation. 
+The formats that should be used to parse the value can be passed as parameters to the method. In this case the value is parsed only if it matches one of the specified formats. The supported formats are the same as the ones described in the article on [date formatting]({% slug dateformatting_internalization %}).
 
-###### Example - specifying the parse formats
+The example below demonstrates how to specify the parse formats.
 
     import { parseDate } from '@telerik/kendo-intl/dates';
 
@@ -49,3 +50,7 @@ The format(s) that should be used to parse the value can be passed as parameter 
 
     parseDate("Nov 6, 2000", { skeleton: "yMMMd"})
 
+## Suggested Links
+
+* [API Reference of the Dates Module]({% slug datesapi_internalization %})
+* [Date Formatting]({% slug dateformatting_internalization %})
