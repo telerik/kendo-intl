@@ -1,7 +1,7 @@
 ---
 title: Overview
 page_title: Overview | Kendo UI Internationalization Package
-description: "Learn about the Kendo UI methods for parsing and formatting dates and numbers which are delivered by the Internationalization package."
+description: "Learn the Kendo UI Internationalization methods for parsing and formatting dates and numbers."
 slug: overview_internalization_kendoui
 position: 1
 ---
