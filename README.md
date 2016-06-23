@@ -99,7 +99,7 @@ For more examples and available configuration options, refer to the article on [
 
 ## Installation
 
-The Internalization library is published as a [scoped NPM package](https://docs.npmjs.com/misc/scope) in the [NPMJS Telerik account](https://www.npmjs.com/~telerik).
+The Internationalization library is published as a [scoped NPM package](https://docs.npmjs.com/misc/scope) in the [NPMJS Telerik account](https://www.npmjs.com/~telerik).
 
 Install it using NPM.
 
