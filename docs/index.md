@@ -14,14 +14,16 @@ The Internationalization package provides methods for parsing and formatting dat
 
 The CLDR module provides locale information for the `dates` and `numbers` modules.    
 
-The Dates module provides methods for date parsing and date formatting.
+The Date Parsing and Date Formatting modules provide methods for parsing and formatting dates.
 
-The Number module provides methods for number parsing and number formatting.
+The Number Parsing and Number Formatting modules provide methods for parsing and formatting of numbers.
 
 ## Suggested Links
 
 Articles on the Kendo UI Internationalization components:
 
 * [Get Started with CLDR]({% slug cldrdata_overview_internalization %})
-* [Get Started with Date Parsing and Formatting]({% slug dateparsing_internalization %})
-* [Get Started with Number Parsing and Formatting]({% slug numberparsing_internalization %})
+* [Get Started with Date Parsing]({% slug dateparsing_internalization %})
+* [Get Started with Date Formatting]({% slug dateformatting_internalization %})
+* [Get Started with Number Parsing]({% slug numberparsing_internalization %})
+* [Get Started with Number Formatting]({% slug numbeformatting_internalization %})

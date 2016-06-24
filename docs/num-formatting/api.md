@@ -1,22 +1,22 @@
 ---
-title: Numbers API
-page_title: Numbers API | Kendo Internationalization API
-description: "Provides information about the exported methods from the Kendo Internationalization numbers module."
-slug: numbersapi_internalization
-position: 3
+title: Number Formatting API
+page_title: Number Formatting API | Kendo UI Internationalization
+description: "Learn about the exported methods from the Kendo UI Internationalization Number Formatting module."
+slug: numberformatatapi_internalization
+position: 2
 ---
 
-# Numbers API
+# Number Formatting API
 
-Provides information about the exported methods from the Numbers module.
+Provides information about the exported methods from the Number Formatting module.
 
-## The formatNumber Method
+## Methods
 
 ### formatNumber
 
 Converts a `Number` to a string based on the specified format and locale.
 
-## The formatNumber Parameters
+## Parameters
 
 #### number `Number`
 
@@ -79,34 +79,8 @@ The default value of the percent formatting is the greater one between `minimumF
 
 Defines the locale id.
 
-## The formatNumber return value
+## Return Value
 
 #### Returns `String`
 
 The formatted number.
-
-## The parseNumber Method
-
-### parseNumber
-
-Converts a string to a `Number` based on the specified locale.
-
-## The parseNumber Parameters
-
-#### string `String`
-
-Defines the string to be converted.
-
-#### locale `String`
-
-Defines the locale to be used for the parsing.
-
-#### format `Object`
-
-Specifies how the value should format the options. It is also used to specify that a non-default currency for the locale should be used.
-
-## The parseNumber return value
-
-#### Returns `Number`
-
-The parsed number.

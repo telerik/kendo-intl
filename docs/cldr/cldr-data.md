@@ -1,6 +1,6 @@
 ---
 title: CLDR Data
-page_title: CLDR Data | Kendo UI CLDR Module
+page_title: CLDR Data | Kendo UI Internationalization
 description: "Use the required CLDR data in your project for the different Kendo UI Internationalization modules to work."
 slug: cldrdata_overview_internalization
 position: 1

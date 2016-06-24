@@ -7,8 +7,10 @@ This repository contains the source code and documentation of the Kendo UI Inter
 It includes methods for parsing and formatting dates and numbers using [Unicode Common Locale Data Repository (CLDR)](http://cldr.unicode.org/) data, which are split into the following modules:
 
 * CLDR
-* Dates
-* Numbers
+* Date Parsing
+* Date Formatting
+* Number Parsing
+* Number Formatting
 
 ## Basic Usage
 
@@ -29,9 +31,7 @@ load(require("cldr-data/main/bg/numbers.json"),
 
 For more examples and available configuration options, refer to the article on [CLDR Data](https://github.com/telerik/kendo-intl/blob/master/docs/cldr/cldr-data.md).
 
-### Dates
-
-**Date Parsing**
+### Date Parsing
 
 Date parsing converts a string to a `Date` object using the locale specific settings.
 
@@ -45,7 +45,7 @@ Date parsing converts a string to a `Date` object using the locale specific sett
 
 For more examples and available configuration options, refer to the article on [date parsing](https://github.com/telerik/kendo-intl/blob/master/docs/dates/date-parsing.md).
 
-**Date Formatting**
+### Date Formatting
 
 Date parsing converts a `Date` object to a human-readable string using the locale specific settings.
 
@@ -59,9 +59,7 @@ Date parsing converts a `Date` object to a human-readable string using the local
 
 For more examples and available configuration options, refer to the article on [date formatting](https://github.com/telerik/kendo-intl/blob/master/docs/dates/date-formatting.md).
 
-### Numbers
-
-**Number Parsing**
+### Number Parsing
 
 Number parsing converts a string to a `Number` object using the specific settings of the locale.
 
@@ -77,7 +75,7 @@ Number parsing converts a string to a `Number` object using the specific setting
 
 For more examples and available configuration options, refer to the article on [number parsing](https://github.com/telerik/kendo-intl/blob/master/docs/numbers/number-parsing.md).
 
-**Number Formatting**
+### Number Formatting
 
 Number formatting converts a `Number` object to a human-readable string using the locale specific settings.
 

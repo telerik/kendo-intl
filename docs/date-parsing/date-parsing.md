@@ -1,6 +1,6 @@
 ---
 title: Date Parsing
-page_title: Date Parsing | Kendo UI Dates Module
+page_title: Date Parsing | Kendo UI Internationalization
 description: "Use the parsing capabilities of the parseDate method when working with the Kendo UI Internationalization package."
 slug: dateparsing_internalization
 position: 1
@@ -54,5 +54,5 @@ The example below demonstrates how to specify the parse formats.
 
 ## Suggested Links
 
-* [API Reference of the Dates Module]({% slug datesapi_internalization %})
+* [Date Parsing API]({% slug dateparseapi_internalization %})
 * [Date Formatting]({% slug dateformatting_internalization %})

@@ -1,9 +1,9 @@
 ---
 title: Date Formatting
-page_title: Date Formatting | Kendo UI Dates Module
+page_title: Date Formatting | Kendo UI Internationalization
 description: "Use the formatting capabilities of the formatDate method when working with the Kendo UI Internationalization package."
 slug: dateformatting_internalization
-position: 2
+position: 1
 ---
 
 # Date Formatting
@@ -354,5 +354,5 @@ These are similar to the skeleton formats but the required fields are set using 
 
 ## Suggested Links
 
-* [API Reference of the Dates Module]({% slug datesapi_internalization %})
+* [Date Formatting API]({% slug dateformatapi_internalization %})
 * [Date Parsing]({% slug dateparsing_internalization %})

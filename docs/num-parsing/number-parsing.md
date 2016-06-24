@@ -1,7 +1,7 @@
 ---
 title: Number Parsing
-page_title: Number Parsing | Kendo UI Numbers Module
-description: "Use the parsing capabilities of the parseNumber method when working with the Kendo UI Internalization package."
+page_title: Number Parsing | Kendo UI Internationalization
+description: "Use the parsing capabilities of the parseNumber method when working with the Kendo UI Internationalization package."
 slug: numberparsing_internalization
 position: 1
 ---
@@ -61,5 +61,5 @@ It parses strings representing exponential numbers with the locale specific deci
 
 ## Suggested Links
 
-* [API Reference of the Numbers Module]({% slug numbersapi_internalization %})
+* [Number Parsing API Reference]({% slug numberparseapi_internalization %})
 * [Number Formatting]({% slug numbeformatting_internalization %})

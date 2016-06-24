@@ -1,9 +1,9 @@
 ---
 title: Number Formatting
-page_title: Number Formatting | Kendo UI Numbers Module
-description: "Use the formatting capabilities of the formatNumber method when working with the Kendo UI Internalization package."
+page_title: Number Formatting | Kendo UI Internationalization
+description: "Use the formatting capabilities of the formatNumber method when working with the Kendo UI Internationalization package."
 slug: numbeformatting_internalization
-position: 2
+position: 1
 ---
 
 # Number Formatting
@@ -156,3 +156,8 @@ The `"string"/'string'` specifier is a literal string delimiter. It indicates th
     import { formatNumber } from '@telerik/kendo-intl/numbers';
 
     formatNumber(12345678, "##,# '$'", "de"); // 12.345.678 $
+
+## Suggested Links
+
+* [Number Formatting API]({% slug numberformatatapi_internalization %})
+* [Number Parsing]({% slug numberparsing_internalization %})
