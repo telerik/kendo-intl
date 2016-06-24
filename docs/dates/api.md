@@ -154,6 +154,12 @@ The supported values are:
 
 Defines the locale id.
 
+## The formatDate return value
+
+#### Returns `String`
+
+The formatted date.
+
 ## The parseDate Method
 
 #### parseDate
@@ -297,3 +303,9 @@ The supported values are:
 #### locale `String`
 
 Defines the locale id.
+
+## The parseDate return value
+
+#### Returns `Date`
+
+The parsed date.

@@ -35,3 +35,9 @@ Returns the first day index starting from sunday based on the specified locale.
 #### locale `String`
 
 The locale id.
+
+## The firstDay return value
+
+#### Returns `Number`
+
+The first day index.

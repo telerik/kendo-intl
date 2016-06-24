@@ -79,6 +79,12 @@ The default value of the percent formatting is the greater one between `minimumF
 
 Defines the locale id.
 
+## The formatNumber return value
+
+#### Returns `String`
+
+The formatted number.
+
 ## The parseNumber Method
 
 ### parseNumber
@@ -98,3 +104,9 @@ Defines the locale to be used for the parsing.
 #### format `Object`
 
 Specifies how the value should format the options. It is also used to specify that a non-default currency for the locale should be used.
+
+## The parseNumber return value
+
+#### Returns `Number`
+
+The parsed number.
