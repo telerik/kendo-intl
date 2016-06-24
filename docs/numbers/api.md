@@ -81,6 +81,8 @@ Defines the locale id.
 
 ## The parseNumber Method
 
+### parseNumber
+
 Converts a string to a `Number` based on the specified locale.
 
 ## The parseNumber Parameters

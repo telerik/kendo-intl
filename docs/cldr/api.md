@@ -10,14 +10,28 @@ position: 2
 
 Provides information about the exported methods from the `cldr` module.
 
-## Methods
+## The load Method
 
-#### load
+### load
 
 Loads CLDR data.
 
-### Parameters
+## The load Parameters
 
 #### data `Object`
 
 The CLDR data to be loaded. Multiple parameters are accepted.
+
+## The firstDay Method
+
+### firstDay
+
+Returns the first day index starting from sunday based on the specified locale.
+
+> The supplemental _weekData_ must be loaded.
+
+## The firstDay Parameters
+
+#### locale `String`
+
+The locale id.
