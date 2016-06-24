@@ -1,7 +1,8 @@
-import { localeInfo, dateFormatNames } from './cldr';
-import { adjustDST, convertTimeZone } from './date-utils';
-import { round } from './utils';
+import { adjustDST, convertTimeZone } from './time-utils';
+import { localeInfo } from '../cldr';
+import formatNames from './format-names';
 import datePattern from './date-pattern';
+import round from '../common/round';
 
 const timeZoneOffsetRegExp = /([+|\-]\d{1,2})(:?)(\d{2})?/;
 const dateRegExp = /^\/Date\((.*?)\)\/$/;
@@ -159,7 +160,7 @@ function parseTimeZoneOffset(state, info, options) {
 
 function parseMonth(ch, state, info) {
     const count = lookAhead(ch, state);
-    const names = dateFormatNames(info, "months", count, ch === "L", true);
+    const names = formatNames(info, "months", count, ch === "L", true);
 
     const month = count < 3 ? getNumber(2, state) : getIndexByName(names, state, true);
 
@@ -171,7 +172,7 @@ function parseMonth(ch, state, info) {
 
 function parseDayOfWeek(ch, state, info) {
     const count = lookAhead(ch, state);
-    const names = dateFormatNames(info, "days", count, ch === "c", true);
+    const names = formatNames(info, "days", count, ch === "c", true);
     let dayOfWeek = count < 3 ? getNumber(1, state) : getIndexByName(names, state, true);
     if ((!dayOfWeek && dayOfWeek !== 0) || outOfRange(dayOfWeek, 1, 7)) {
         return true;
@@ -196,7 +197,7 @@ parsers.d = function(state) {
 parsers.E = function(state, info) {
     const count = lookAhead("E", state);
     //validate if it matches the day?
-    let dayOfWeek = getIndexByName(dateFormatNames(info, "days", count, false, true), state, true);
+    let dayOfWeek = getIndexByName(formatNames(info, "days", count, false, true), state, true);
     if (dayOfWeek === null) {
         return true;
     }
@@ -246,7 +247,7 @@ parsers.h = function(state) {
 
 parsers.a = function(state, info) {
     const count = lookAhead("a", state);
-    let periodFormats = dateFormatNames(info, "dayPeriods", count, false, true);
+    let periodFormats = formatNames(info, "dayPeriods", count, false, true);
 
     const pmHour = getIndexByName([ periodFormats.pm ], state,true);
     if (!pmHour && !getIndexByName([ periodFormats.am ], state, true)) {
@@ -361,7 +362,7 @@ parsers.X = function(state, info) {
 
 parsers.G = function(state, info) {
     const count = lookAhead("G", state);
-    const eras = dateFormatNames(info, "eras", count, false, true);
+    const eras = formatNames(info, "eras", count, false, true);
     const era = getIndexByName([ eras[0], eras[1] ], state, true);
 
     if (era === null) {

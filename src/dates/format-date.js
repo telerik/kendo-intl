@@ -1,6 +1,8 @@
-import { localeInfo, dateFormatNames, localeFirstDay } from './cldr';
-import { pad, formatString } from './utils';
+import { localeInfo, localeFirstDay } from '../cldr';
+import formatString from '../common/format-string';
 import datePattern from './date-pattern';
+import formatNames from './format-names';
+import pad from '../common/pad';
 
 const dateFormatRegExp = /d{1,2}|E{1,6}|e{1,6}|c{3,6}|c{1}|M{1,5}|L{1,5}|y{1,4}|H{1,2}|h{1,2}|m{1,2}|a{1,5}|s{1,2}|S{1,3}|z{1,4}|Z{1,5}|x{1,5}|X{1,5}|G{1,5}|q{1,5}|Q{1,5}|"[^"]*"|'[^']*'/g;
 const DAYS = [ "sun", "mon", "tue", "wed", "thu", "fri", "sat" ];
@@ -22,7 +24,7 @@ function formatMonth(month, formatLength, info, standAlone) {
     if (formatLength <= 2) {
         return pad(month + 1, formatLength);
     }
-    return dateFormatNames(info, "months", formatLength, standAlone)[month];
+    return formatNames(info, "months", formatLength, standAlone)[month];
 }
 
 function formatQuarter(date, formatLength, info, standAlone) {
@@ -31,7 +33,7 @@ function formatQuarter(date, formatLength, info, standAlone) {
         return quarter + 1;
     }
 
-    return dateFormatNames(info, "quarters", formatLength, standAlone)[quarter];
+    return formatNames(info, "quarters", formatLength, standAlone)[quarter];
 }
 
 
@@ -61,7 +63,7 @@ function formatDayOfWeek(date, formatLength, info, standAlone) {
     if (formatLength < 3) {
         result = formatDayOfWeekIndex(date.getDay(), formatLength, info);
     } else {
-        result = dateFormatNames(info, "days", formatLength, standAlone)[date.getDay()];
+        result = formatNames(info, "days", formatLength, standAlone)[date.getDay()];
     }
     return result;
 }
@@ -74,7 +76,7 @@ formatters.d = function(date, formatLength) {
 };
 
 formatters.E = function(date, formatLength, info) {
-    return dateFormatNames(info, "days", formatLength)[date.getDay()];
+    return formatNames(info, "days", formatLength)[date.getDay()];
 };
 
 formatters.M = function(date, formatLength, info) {
@@ -122,7 +124,7 @@ formatters.S = function(date, formatLength) {
 };
 
 formatters.a = function(date, formatLength, info) {
-    return dateFormatNames(info, "dayPeriods", formatLength)[date.getHours() < 12 ? "am" : "pm"];
+    return formatNames(info, "dayPeriods", formatLength)[date.getHours() < 12 ? "am" : "pm"];
 };
 
 formatters.z = function(date, formatLength, info) {
@@ -159,7 +161,7 @@ formatters.X = function(date, formatLength, info) {
 
 formatters.G = function(date, formatLength, info) {
     let era = date.getFullYear() >= 0 ? 1 : 0;
-    return dateFormatNames(info, "eras", formatLength)[era];
+    return formatNames(info, "eras", formatLength)[era];
 };
 
 formatters.e = formatDayOfWeek;

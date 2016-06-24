@@ -1,4 +1,4 @@
-import { formatString } from './utils';
+import formatString from '../common/format-string';
 
 const REMOVAL_PENALTY = 120;
 const ADDITION_PENALTY = 20;

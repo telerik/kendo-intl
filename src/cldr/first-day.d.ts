@@ -1,0 +1,1 @@
+export default function localeFirstDay(locale: string): string;

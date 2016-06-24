@@ -1,2 +1,2 @@
-export { formatNumber } from './format-number';
-export { parseNumber } from './parse-number';
+export { default as formatNumber } from './numbers/format-number';
+export { default as parseNumber } from './numbers/parse-number';

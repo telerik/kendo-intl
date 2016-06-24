@@ -200,62 +200,62 @@ describe('localeInfo', () => {
 
 describe('dateFormatNames', () => {
     it('should return names for locale name', () => {
-        const names = dateFormatNames('en', 'months', 3);
+        const names = dateFormatNames('en', 'months', "abbreviated");
         expect(names).toBeDefined();
     });
 
     it('should return names for locale info', () => {
-        const names = dateFormatNames(localeInfo('en'), 'months', 3);
+        const names = dateFormatNames(localeInfo('en'), 'months', "abbreviated");
         expect(names).toBeDefined();
     });
 
     it('should return month names', () => {
-        const names = dateFormatNames('bg', 'months', 3);
+        const names = dateFormatNames('bg', 'months', "abbreviated");
         expect(names).toBeDefined();
     });
 
     it('should return days names', () => {
-        const names = dateFormatNames('bg', 'days', 3);
+        const names = dateFormatNames('bg', 'days', "abbreviated");
         expect(names).toBeDefined();
     });
 
     it('should return quarters names', () => {
-        const names = dateFormatNames('bg', 'quarters', 3);
+        const names = dateFormatNames('bg', 'quarters', "abbreviated");
         expect(names).toBeDefined();
     });
 
     it('should return dayPeriods names', () => {
-        const names = dateFormatNames('bg', 'dayPeriods', 3);
+        const names = dateFormatNames('bg', 'dayPeriods', "abbreviated");
         expect(names).toBeDefined();
     });
 
     it('should return eras names', () => {
-        const names = dateFormatNames('bg', 'eras', 3);
+        const names = dateFormatNames('bg', 'eras', "abbreviated");
         expect(names).toBeDefined();
     });
 
     it('should return abbreviated names', () => {
-        const names = dateFormatNames('bg', 'days', 3);
+        const names = dateFormatNames('bg', 'days', "abbreviated");
         expect(names).toEqual(['нд', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб']);
     });
 
     it('should return wide names', () => {
-        const names = dateFormatNames('bg', 'days', 4);
+        const names = dateFormatNames('bg', 'days', "wide");
         expect(names).toEqual(['неделя', 'понеделник', 'вторник', 'сряда', 'четвъртък', 'петък', 'събота']);
     });
 
     it('should return narrow names', () => {
-        const names = dateFormatNames('bg', 'days', 5);
+        const names = dateFormatNames('bg', 'days', "narrow");
         expect(names).toEqual(['н', 'п', 'в', 'с', 'ч', 'п', 'с']);
     });
 
     it('should return stand-alone names', () => {
-        const names = dateFormatNames('en', 'dayPeriods', 5, true);
+        const names = dateFormatNames('en', 'dayPeriods', "narrow", true);
         expect(names.pm).toEqual('PM');
     });
 
     it('should return lower names', () => {
-        const names = dateFormatNames('en', 'dayPeriods', 5, true, true);
+        const names = dateFormatNames('en', 'dayPeriods', "narrow", true, true);
         expect(names.pm).toEqual('pm');
     });
 });

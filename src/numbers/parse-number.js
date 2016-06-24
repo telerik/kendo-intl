@@ -1,4 +1,4 @@
-import { localeInfo, localeCurrency, currencyDisplays } from './cldr';
+import { localeInfo, localeCurrency, currencyDisplays } from '../cldr';
 
 const exponentRegExp = /[eE][\-+]?[0-9]+/;
 const nonBreakingSpaceRegExp = /\u00A0/g;
@@ -37,7 +37,7 @@ function cleanCurrencyNumber(value, info, format) {
     };
 }
 
-export function parseNumber(value, locale = "en", format = {}) {
+export default function parseNumber(value, locale = "en", format = {}) {
     if (!value && value !== 0) {
         return null;
     }

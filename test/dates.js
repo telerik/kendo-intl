@@ -1,7 +1,7 @@
 import { load, localeInfo, dateFormatNames } from '../src/cldr';
 import { formatDate, parseDate } from '../src/dates';
-import { convertTimeZone } from '../src/date-utils';
-import { pad } from '../src/utils';
+import { convertTimeZone } from '../src/dates/time-utils';
+import pad from '../src/common/pad';
 
 const likelySubtags = require("cldr-data/supplemental/likelySubtags.json");
 const timeZoneNames = require("cldr-data/main/bg/timeZoneNames.json");
@@ -784,7 +784,7 @@ describe('date parsing', () => {
     });
 
     it('parses MMMM yyyy date format if the current culture contains months with names that start with the same letters', function () {
-        const monthNames = dateFormatNames("en", "months", 4);
+        const monthNames = dateFormatNames("en", "months", "wide");
         const originalMonthName = monthNames[5];
         try {
             monthNames[5] = monthNames[6].substr(0, monthNames[6].length - 1);
@@ -799,8 +799,8 @@ describe('date parsing', () => {
     it('parseDate G format of ko-KR culture', function () {
        //missing info in the cldr data for the abbreviated and narrow day periods
        const info = localeInfo("ko");
-       const abbreviatedNames = dateFormatNames(info, "dayPeriods", 3);
-       const wideNames = dateFormatNames(info, "dayPeriods", 4);
+       const abbreviatedNames = dateFormatNames(info, "dayPeriods", "abbreviated");
+       const wideNames = dateFormatNames(info, "dayPeriods", "wide");
        abbreviatedNames.am = wideNames.am;
        const result = parseDate("2016. 05. 27. 오전 11:00:00", "G", "ko");
        expect(isValidDateTime(result, 2016, 5, 27, 11, 0, 0, 0 ,0), result).toBe(true);

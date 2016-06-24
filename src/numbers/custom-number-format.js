@@ -1,220 +1,22 @@
-import { localeInfo, currencyFractionOptions, currencyDisplay, localeCurrency } from './cldr';
-import { round, pad } from './utils';
+import formatCurrencySymbol from './format-currency-symbol';
+import groupInteger from './group-integer';
+import round from '../common/round';
 
+const CURRENCY_SYMBOL = "$";
+const PERCENT_SYMBOL = "%";
+const PLACEHOLDER = "??";
 const CURRENCY = "currency";
-const DECIMAL_PLACEHOLDER = "n";
-const DECIMAL = "decimal";
-const DEFAULT_LOCALE = "en";
 const PERCENT = "percent";
 const POINT = ".";
 const COMMA = ",";
 const SHARP = "#";
 const ZERO = "0";
 const EMPTY = "";
-const PLACEHOLDER = "??";
-const PERCENT_SYMBOL = "%";
-const CURRENCY_SYMBOL = "$";
 
-const DEFAULT_DECIMAL_ROUNDING = 3;
-const DEFAULT_PERCENT_ROUNDING = 0;
-
-const trailingZeroRegex = /0+$/;
-const commaRegExp = /\,/g;
 const literalRegExp = /(\\.)|(['][^']*[']?)|(["][^"]*["]?)/g;
-const standardFormatRegExp = /^(n|c|p|e)(\d*)$/i;
+const commaRegExp = /\,/g;
 
-function groupInteger(number, start, end, options, info) {
-    const symbols = info.numbers.symbols;
-    const decimalIndex = number.indexOf(symbols.decimal);
-    const groupSizes = options.groupSize.slice();
-    let groupSize = groupSizes.shift();
 
-    let integerEnd = decimalIndex !== -1 ? decimalIndex : end + 1;
-
-    let integer = number.substring(start, integerEnd);
-    let result = number;
-    const integerLength = integer.length;
-
-    if (integerLength >= groupSize) {
-        let idx = integerLength;
-        let parts = [];
-
-        while (idx > -1) {
-            let value = integer.substring(idx - groupSize, idx);
-            if (value) {
-                parts.push(value);
-            }
-            idx -= groupSize;
-            let newGroupSize = groupSizes.shift();
-            groupSize = newGroupSize !== undefined ? newGroupSize : groupSize;
-
-            if (groupSize === 0) {
-                parts.push(integer.substring(0, idx));
-                break;
-            }
-        }
-
-        integer = parts.reverse().join(symbols.group);
-        result = number.substring(0, start) + integer + number.substring(integerEnd);
-    }
-
-    return result;
-}
-
-function fractionOptions(options) {
-    let { minimumFractionDigits, maximumFractionDigits, style } = options;
-    const isCurrency = style === CURRENCY;
-    let currencyFractions;
-    if (isCurrency) {
-        currencyFractions = currencyFractionOptions(options.currency);
-    }
-
-    if (minimumFractionDigits === undefined) {
-        minimumFractionDigits = isCurrency ? currencyFractions.minimumFractionDigits : 0;
-    }
-
-    if (maximumFractionDigits === undefined) {
-        if (style === PERCENT) {
-            maximumFractionDigits = Math.max(minimumFractionDigits, DEFAULT_PERCENT_ROUNDING);
-        } else if (isCurrency) {
-            maximumFractionDigits = Math.max(minimumFractionDigits, currencyFractions.maximumFractionDigits);
-        } else {
-            maximumFractionDigits = Math.max(minimumFractionDigits, DEFAULT_DECIMAL_ROUNDING);
-        }
-    }
-
-    return {
-        minimumFractionDigits: minimumFractionDigits,
-        maximumFractionDigits: maximumFractionDigits
-    };
-}
-
-function applyPattern(value, pattern, symbol) {
-    let result = EMPTY;
-    for (let idx = 0, length = pattern.length; idx < length; idx++) {
-        let ch = pattern.charAt(idx);
-
-        if (ch === DECIMAL_PLACEHOLDER) {
-            result += value;
-        } else if (ch === CURRENCY_SYMBOL || ch === PERCENT_SYMBOL) {
-            result += symbol;
-        } else {
-            result += ch;
-        }
-    }
-    return result;
-}
-
-function standardFormatOptions(format) {
-    const formatAndPrecision = standardFormatRegExp.exec(format);
-
-    if (formatAndPrecision) {
-        const options = {
-            style: "decimal"
-        };
-
-        let style = formatAndPrecision[1].toLowerCase();
-
-        if (style === "c") {
-            options.style = "currency";
-        }
-
-        if (style === "p") {
-            options.style = "percent";
-        }
-
-        if (style === "e") {
-            options.style = "scientific";
-        }
-
-        if (formatAndPrecision[2]) {
-            options.minimumFractionDigits = options.maximumFractionDigits = parseInt(formatAndPrecision[2], 10);
-        }
-
-        return options;
-    }
-}
-
-function getCurrencySymbol(info, options = {}) {
-    if (!options.currency) {
-        options.currency = localeCurrency(info);
-    }
-
-    const display = currencyDisplay(info, options);
-
-    return display;
-}
-
-function getFormatOptions(format) {
-    let formatOptions;
-    if (typeof format === "string") {
-        formatOptions = standardFormatOptions(format);
-    } else {
-        formatOptions = format;
-    }
-
-    return formatOptions;
-}
-
-function standardNumberFormat(number, options, info) {
-    const { style } = options;
-
-    //return number in exponential format
-    if (style === "scientific") {
-        return options.minimumFractionDigits !== undefined ? number.toExponential(options.minimumFractionDigits) : number.toExponential();
-    }
-
-    const symbols = info.numbers.symbols;
-    let value = number;
-    let symbol;
-
-    if (style === CURRENCY) {
-        options.value = value;
-        symbol = getCurrencySymbol(info, options);
-    }
-
-    if (style === PERCENT) {
-        value *= 100;
-        symbol = symbols.percentSign;
-    }
-
-    const { minimumFractionDigits, maximumFractionDigits } = fractionOptions(options);
-
-    value = round(value, maximumFractionDigits);
-
-    const negative = value < 0;
-
-    const parts = value.split(POINT);
-
-    let integer = parts[0];
-    let fraction = pad(parts[1] ? parts[1].replace(trailingZeroRegex, EMPTY) : EMPTY, minimumFractionDigits, true);
-
-    //exclude "-" if number is negative.
-    if (negative) {
-        integer = integer.substring(1);
-    }
-
-    if (options.minimumIntegerDigits) {
-        integer = pad(integer, options.minimumIntegerDigits);
-    }
-
-    let formattedValue = options.useGrouping !== false ? groupInteger(integer, 0, integer.length, options, info) : integer;
-
-    if (fraction) {
-        formattedValue += symbols.decimal + fraction;
-    }
-
-    if (pattern === DECIMAL_PLACEHOLDER && !negative) {
-        return formattedValue;
-    }
-
-    const patterns = options.patterns;
-    const pattern = negative ? patterns[1] || ("-" + patterns[0]) : patterns[0];
-
-    const result = applyPattern(formattedValue, pattern, symbol);
-
-    return result;
-}
 
 function setFormatLiterals(formatOptions) {
     let format = formatOptions.format;
@@ -307,7 +109,7 @@ function setStyleOptions(formatOptions, info) {
 
     if (format.indexOf(CURRENCY_SYMBOL) !== -1) {
         formatOptions.style = CURRENCY;
-        formatOptions.symbol = getCurrencySymbol(info);
+        formatOptions.symbol = formatCurrencySymbol(info);
     }
 }
 
@@ -450,7 +252,7 @@ function isConstantFormat(format) {
     return format.indexOf(SHARP) === -1 && format.indexOf(ZERO) === -1;
 }
 
-function customNumberFormat(number, format, info) {
+export default function customNumberFormat(number, format, info) {
     const formatOptions = {
         negative: number < 0,
         number: Math.abs(number),
@@ -470,18 +272,4 @@ function customNumberFormat(number, format, info) {
     setPlaceholderIndices(formatOptions);
 
     return applyCustomFormat(formatOptions, info);
-}
-
-export function formatNumber(number, format, locale = DEFAULT_LOCALE) {
-    const info = localeInfo(locale);
-    const formatOptions = getFormatOptions(format);
-
-    let result;
-    if (formatOptions) {
-        const style = (formatOptions || {}).style || DECIMAL;
-        result = standardNumberFormat(number, Object.assign({}, info.numbers[style], formatOptions), info);
-    } else {
-        result = customNumberFormat(number, format, info);
-    }
-    return result;
 }
