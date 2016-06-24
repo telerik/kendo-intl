@@ -1,1 +1,1 @@
-export default function localeFirstDay(locale: string): string;
+export default function firstDay(locale: string): number;

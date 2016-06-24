@@ -1,7 +1,9 @@
 import { cldr, getLocaleInfo } from './info';
 import localeTerritory from './territory';
 
-export default function localeFirstDay(locale) {
+const DAYS = [ "sun", "mon", "tue", "wed", "thu", "fri", "sat" ];
+
+export default function firstDay(locale) {
     const weekData = cldr.supplemental.weekData;
     if (!weekData) {
         throw new Error("Cannot determine locale first day of week. Please load the supplemental weekData.");
@@ -10,5 +12,5 @@ export default function localeFirstDay(locale) {
     const info = getLocaleInfo(locale);
     const firstDay = weekData.firstDay[localeTerritory(info)];
 
-    return firstDay;
+    return DAYS.indexOf(firstDay);
 }

@@ -1,15 +1,13 @@
-import { localeInfo, localeFirstDay } from '../cldr';
+import { localeInfo, firstDay } from '../cldr';
 import formatString from '../common/format-string';
 import datePattern from './date-pattern';
 import formatNames from './format-names';
 import pad from '../common/pad';
 
 const dateFormatRegExp = /d{1,2}|E{1,6}|e{1,6}|c{3,6}|c{1}|M{1,5}|L{1,5}|y{1,4}|H{1,2}|h{1,2}|m{1,2}|a{1,5}|s{1,2}|S{1,3}|z{1,4}|Z{1,5}|x{1,5}|X{1,5}|G{1,5}|q{1,5}|Q{1,5}|"[^"]*"|'[^']*'/g;
-const DAYS = [ "sun", "mon", "tue", "wed", "thu", "fri", "sat" ];
 
 function formatDayOfWeekIndex(day, formatLength, localeInfo) {
-    const firstDay = localeFirstDay(localeInfo);
-    const firstDayIndex = DAYS.indexOf(firstDay);
+    const firstDayIndex = firstDay(localeInfo);
     let dayIndex;
     if (day < firstDayIndex) {
         dayIndex = 7 - firstDayIndex + day;

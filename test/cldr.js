@@ -1,4 +1,4 @@
-import { load, cldr, localeInfo, dateFormatNames, localeFirstDay, localeCurrency, currencyDisplay, currencyFractionOptions, currencyDisplays } from '../src/cldr';
+import { load, cldr, localeInfo, dateFormatNames, firstDay, localeCurrency, currencyDisplay, currencyFractionOptions, currencyDisplays } from '../src/cldr';
 
 const likelySubtags = require("cldr-data/supplemental/likelySubtags.json");
 const numbers = require("cldr-data/main/bg/numbers.json");
@@ -260,10 +260,10 @@ describe('dateFormatNames', () => {
     });
 });
 
-describe('localeFirstDay', () => {
+describe('firstDay', () => {
     it('should return first day name based on locale', () => {
-        expect(localeFirstDay('en')).toEqual("sun");
-        expect(localeFirstDay('bg')).toEqual("mon");
+        expect(firstDay('en')).toBe(0);
+        expect(firstDay('bg')).toBe(1);
     });
 });
 
