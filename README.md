@@ -115,7 +115,7 @@ import { formatNumber, parseNumber } from '@telerik/kendo-intl/number';
 ```
 ```javascript
 // CommonJS format
-var numbers = require('@telerik/kendo-intl/dates').numbers;
+var numbers = require('@telerik/kendo-intl/number').numbers;
 //or
 var dates = require('@telerik/kendo-intl/dates').dates;
 ```
