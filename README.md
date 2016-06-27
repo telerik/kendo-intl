@@ -119,3 +119,5 @@ var numbers = require('@telerik/kendo-intl/number').numbers;
 //or
 var dates = require('@telerik/kendo-intl/dates').dates;
 ```
+
+> To install the npm package, it is recommended that you use Node.js 4.0.0 or later versions.
