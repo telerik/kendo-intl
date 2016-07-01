@@ -1,0 +1,25 @@
+import { formatDate } from './dates';
+import { formatNumber } from './numbers';
+import isDate from './common/is-date';
+
+const formatRegExp = /\{(\d+)(:[^\}]+)?\}/g;
+
+export function toString(value, format, locale) {
+    if (format) {
+        if (isDate(value)) {
+            return formatDate(value, format, locale);
+        } else if (typeof value === "number") {
+            return formatNumber(value, format, locale);
+        }
+    }
+
+    return value !== undefined ? value : "";
+}
+
+export function format(format, values, locale) {
+    return format.replace(formatRegExp, function(match, index, placeholderFormat) {
+        let value = values[parseInt(index, 10)];
+
+        return toString(value, placeholderFormat ? placeholderFormat.substring(1) : "", locale);
+    });
+}
