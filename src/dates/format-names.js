@@ -16,5 +16,10 @@ function dateNameType(formatLength) {
 }
 
 export default function formatNames(locale, type, formatLength, standAlone, lower) {
-    return dateFormatNames(locale, type, dateNameType(formatLength), standAlone, lower);
+    return dateFormatNames(locale, {
+        type: type,
+        nameType: dateNameType(formatLength),
+        standAlone: standAlone,
+        lower: lower
+    });
 }

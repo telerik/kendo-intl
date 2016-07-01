@@ -784,7 +784,7 @@ describe('date parsing', () => {
     });
 
     it('parses MMMM yyyy date format if the current culture contains months with names that start with the same letters', function () {
-        const monthNames = dateFormatNames("en", "months", "wide");
+        const monthNames = dateFormatNames("en", { type: "months", nameType: "wide" });
         const originalMonthName = monthNames[5];
         try {
             monthNames[5] = monthNames[6].substr(0, monthNames[6].length - 1);
@@ -799,8 +799,8 @@ describe('date parsing', () => {
     it('parseDate G format of ko-KR culture', function () {
        //missing info in the cldr data for the abbreviated and narrow day periods
        const info = localeInfo("ko");
-       const abbreviatedNames = dateFormatNames(info, "dayPeriods", "abbreviated");
-       const wideNames = dateFormatNames(info, "dayPeriods", "wide");
+       const abbreviatedNames = dateFormatNames(info, { type: "dayPeriods", nameType: "abbreviated" });
+       const wideNames = dateFormatNames(info, { type: "dayPeriods", nameType: "wide" });
        abbreviatedNames.am = wideNames.am;
        const result = parseDate("2016. 05. 27. 오전 11:00:00", "G", "ko");
        expect(isValidDateTime(result, 2016, 5, 27, 11, 0, 0, 0 ,0), result).toBe(true);

@@ -21,9 +21,10 @@ function cloneLower(obj) {
     return result;
 }
 
-export default function dateFormatNames(locale, type, nameType, standAlone, lower) {
+export default function dateFormatNames(locale, options) {
+    const { type, nameType, standAlone, lower } = options;
     const info = getLocaleInfo(locale);
-    const formatType = standAlone ? "stand-alone" : "format";    
+    const formatType = standAlone ? "stand-alone" : "format";
     const lowerNameType = (lower ? "lower-" : "") + nameType;
     const formatNames = info.calendar[type][formatType];
     let result = formatNames[lowerNameType];
