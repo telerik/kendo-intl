@@ -1,3 +1,10 @@
-export { default as load } from './cldr/load';
-export { default as dateFormatNames } from './cldr/date-format-names';
-export { default as firstDay }  from './cldr/first-day';
+export interface DateFormatNameOptions {
+    type: string;
+    nameType: string;
+    lower?: string;
+    standAlone?: string;    
+}
+
+export function dateFormatNames(locale: string, options: DateFormatNameOptions);
+export function firstDay(locale: string): number;
+export function load(...data: any[]): void;

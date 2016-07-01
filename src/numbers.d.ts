@@ -1,4 +1,12 @@
-export { default as formatNumber } from './numbers/format-number';
-export { default as parseNumber } from './numbers/parse-number';
+export interface NumberFormatOptions {
+    style?: string;
+    currency?: string;
+    currencyDisplay?: string;
+    useGrouping?: boolean;
+    minimumIntegerDigits?: number;
+    minimumFractionDigits?: number;
+    maximumFractionDigits?: number;
+}
 
-export { default as NumberFormatOptions } from './numbers/number-format-options';
+export function parseNumber(value: string, locale?: string, format?: String|NumberFormatOptions): number;
+export function formatNumber(value: number, format: string|NumberFormatOptions, locale?: string): string;

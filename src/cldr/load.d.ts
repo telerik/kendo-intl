@@ -1,1 +1,0 @@
-export default function load(...data: any[]): void;
