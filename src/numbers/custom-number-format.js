@@ -16,8 +16,6 @@ const EMPTY = "";
 const literalRegExp = /(\\.)|(['][^']*[']?)|(["][^"]*["]?)/g;
 const commaRegExp = /\,/g;
 
-
-
 function setFormatLiterals(formatOptions) {
     let format = formatOptions.format;
     if (format.indexOf("'") > -1 || format.indexOf("\"") > -1 || format.indexOf("\\") > -1) {
