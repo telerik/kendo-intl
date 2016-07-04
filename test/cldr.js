@@ -1,4 +1,4 @@
-import { load, cldr, localeInfo, dateFormatNames, firstDay, localeCurrency, currencyDisplay, currencyFractionOptions, currencyDisplays } from '../src/cldr';
+import { load, cldr, localeInfo, dateFormatNames, firstDay, localeCurrency, currencyDisplay, currencyFractionOptions, currencyDisplays, numberSymbols } from '../src/cldr';
 
 const likelySubtags = require("cldr-data/supplemental/likelySubtags.json");
 const numbers = require("cldr-data/main/bg/numbers.json");
@@ -334,5 +334,11 @@ describe('currencyFractionOptions', () => {
         const options = currencyFractionOptions('USD');
         expect(options.minimumFractionDigits).toEqual(2);
         expect(options.maximumFractionDigits).toEqual(2);
+    });
+});
+
+describe('numberSymbols', () => {
+    it('should return locale number symbols', () => {
+        expect(numberSymbols('en')).toEqual(localeInfo('en').numbers.symbols);
     });
 });
