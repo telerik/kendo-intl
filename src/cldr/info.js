@@ -1,3 +1,5 @@
+import defaultLocale from './default-locale';
+
 function availableLocaleInfo(fullName, suffixes) {
     const parts = fullName.split("-");
     const language = parts[0];
@@ -22,7 +24,10 @@ function localeFullName(language, suffixes) {
     }
 }
 
-export const cldr = {};
+export const cldr = {
+    supplemental: {},
+    en: defaultLocale
+};
 
 export function getLocaleInfo(locale) {
     let info;

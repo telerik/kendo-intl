@@ -3,23 +3,6 @@ import loadNumbersInfo from './load-numbers';
 import loadCalendarInfo from './load-dates';
 import localeTerritory from './territory';
 
-const DEFAULT_CURRENCY = "USD";
-
-loadDefaultLocale();
-
-function loadDefaultLocale() {
-    cldr.supplemental = {};
-
-    const numbers = require("cldr-data/main/en/numbers.json");
-    const currencies = require("cldr-data/main/en/currencies.json");
-    const timeZoneNames = require("cldr-data/main/en/timeZoneNames.json");
-    const calendar = require("cldr-data/main/en/ca-gregorian.json");
-
-    load(numbers, currencies, timeZoneNames, calendar);
-
-    cldr.en.numbers.localeCurrency = DEFAULT_CURRENCY;
-}
-
 function loadLocale(locale, info) {
     for (let field in info) {
         if (field === "numbers") {
