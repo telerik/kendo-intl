@@ -10,9 +10,10 @@ const fs = require('fs');
 require('@telerik/kendo-package-tasks')(gulp, 'kendo-intl');
 
 gulp.task("build-default-locale", () => {
-    gulp.start("build-npm-package");
-    const cldr = require("./dist/npm/js/cldr");
-    cldr.load(likelySubtags, currencyData, numbers, currencies, timeZoneNames, calendar);
+    gulp.run("build-npm-package", function() {
+        const cldr = require("./dist/npm/js/cldr");
+        cldr.load(likelySubtags, currencyData, numbers, currencies, timeZoneNames, calendar);
 
-    fs.writeFileSync('src/cldr/default-locale.js', "const defaultLocale = " + JSON.stringify(cldr.cldr.en, null, 4) + ";\nexport default defaultLocale;");
+        fs.writeFileSync('src/cldr/default-locale.js', "const defaultLocale = " + JSON.stringify(cldr.cldr.en, null, 4) + ";\nexport default defaultLocale;");
+    });
 });
