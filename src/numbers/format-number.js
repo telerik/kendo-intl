@@ -45,7 +45,15 @@ function getFormatOptions(format) {
     return formatOptions;
 }
 
-export default function formatNumber(number, format, locale = "en") {
+export default function formatNumber(number, format = "n", locale = "en") {
+    if (number === undefined) {
+        return "";
+    }
+
+    if (!isFinite(number)) {
+        return number;
+    }
+
     const info = localeInfo(locale);
     const formatOptions = getFormatOptions(format);
 
@@ -56,5 +64,6 @@ export default function formatNumber(number, format, locale = "en") {
     } else {
         result = customNumberFormat(number, format, info);
     }
+
     return result;
 }

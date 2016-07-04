@@ -32,6 +32,22 @@ function loadCustom(options) {
     });
 }
 
+describe('formatNumber', () => {
+
+    it('should apply decimal formatting if no format is specified', () => {
+        expect(formatNumber(10000)).toEqual("10,000");
+    });
+
+    it('should return empty string if not value is passed', () => {
+        expect(formatNumber()).toEqual("");
+    });
+
+    it('should return value if not finite value is passed', () => {
+        expect(formatNumber(Infinity)).toBe(Infinity);
+        expect(formatNumber("foo")).toEqual("foo");
+    });
+});
+
 describe('standard scientific formatting', () => {
     it('should apply format', () => {
         const number = 123;
@@ -55,7 +71,6 @@ describe('standard scientific formatting', () => {
 });
 
 describe('standard decimal formatting', () => {
-
     it('should apply format for big positive integer', () => {
         const number = 10000;
         expect(formatNumber(number, 'n')).toEqual("10,000");
