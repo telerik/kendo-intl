@@ -3,6 +3,7 @@ import formatString from '../common/format-string';
 import datePattern from './date-pattern';
 import formatNames from './format-names';
 import pad from '../common/pad';
+import isDate from '../common/is-date';
 
 const dateFormatRegExp = /d{1,2}|E{1,6}|e{1,6}|c{3,6}|c{1}|M{1,5}|L{1,5}|y{1,4}|H{1,2}|h{1,2}|m{1,2}|a{1,5}|s{1,2}|S{1,3}|z{1,4}|Z{1,5}|x{1,5}|X{1,5}|G{1,5}|q{1,5}|Q{1,5}|"[^"]*"|'[^']*'/g;
 
@@ -175,6 +176,10 @@ formatters.q = function(date, formatLength, info) {
 formatters.Q = formatQuarter;
 
 export default function formatDate(date, format, locale = "en") {
+    if (!isDate(date)) {
+        return date;
+    }
+
     const info = localeInfo(locale);
     const pattern = datePattern(format, info);
 

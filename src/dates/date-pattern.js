@@ -197,7 +197,7 @@ export default function datePattern(format, info) {
         } else {
             result = format;
         }
-    } else {
+    } else if (format) {
         let skeleton = format.skeleton;
         if (!skeleton) {
             if (format.datetime) {

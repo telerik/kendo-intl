@@ -22,6 +22,15 @@ function date(year, month, day, hour, minute, second, millisecond) {
 }
 
 describe('date formatting', () => {
+
+    it('returns value if it is not a date', () => {
+        expect(formatDate("foo")).toEqual("foo");
+    });
+
+    it('applies short date format if no format is set', () => {
+        expect(formatDate(date(2000, 1, 30))).toEqual("1/30/2000");
+    });
+
     it('supports short date format', () => {
         expect(formatDate(date(2000, 1, 30), "d")).toEqual("1/30/2000");
     });
