@@ -3,6 +3,7 @@ import { localeInfo } from '../cldr';
 import formatNames from './format-names';
 import datePattern from './date-pattern';
 import round from '../common/round';
+import isDate from '../common/is-date';
 
 const timeZoneOffsetRegExp = /([+|\-]\d{1,2})(:?)(\d{2})?/;
 const dateRegExp = /^\/Date\((.*?)\)\/$/;
@@ -524,7 +525,7 @@ export default function parseDate(value, formats, locale = "en") {
         return null;
     }
 
-    if (value instanceof Date) {
+    if (isDate(value)) {
         return value;
     }
 
