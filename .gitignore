@@ -32,3 +32,9 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+# Distribution folder
+dist
+
+# Tests temp folder
+tmp
