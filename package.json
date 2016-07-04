@@ -17,7 +17,6 @@
     "Internationalization"
   ],
   "dependencies": {
-    "cldr-data": "latest"
   },
   "author": "Telerik",
   "license": "Apache-2.0",
@@ -28,7 +27,8 @@
     "ghooks": "^1.0.3",
     "gulp": "3.9.0",
     "validate-commit-msg": "^1.1.1",
-    "semantic-release": "^4.3.5"
+    "semantic-release": "^4.3.5",
+    "cldr-data": "latest"
   },
   "config": {
     "commitizen": {
