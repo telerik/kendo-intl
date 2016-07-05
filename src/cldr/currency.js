@@ -1,5 +1,5 @@
 import { cldr, getLocaleInfo } from './info';
-import { localeTerritory } from './territory';
+import localeTerritory from './territory';
 
 const DEFAULT_CURRENCY_FRACTIONS = 2;
 const SYMBOL = "symbol";
