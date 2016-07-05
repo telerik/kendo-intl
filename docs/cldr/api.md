@@ -28,8 +28,6 @@ The CLDR data to be loaded. Multiple parameters are accepted.
 
 Returns the first day index starting from sunday based on the specified locale.
 
-> The supplemental _weekData_ must be loaded.
-
 ## The firstDay Parameters
 
 #### locale `String`
@@ -41,3 +39,56 @@ The locale id.
 #### Returns `Number`
 
 The first day index.
+
+## The dateFormatNames Method
+
+### dateFormatNames
+
+Returns the names from the specified locale based on the option.
+
+## The dateFormatNames Parameters
+
+#### locale `String`
+
+The locale id.
+
+#### options `Object`
+
+The options that determine the returned names.
+
+#### options.type `String`
+
+The type of the names. The supported values are `"eras"`, `"quarters"`, `"months"`, `"days"` and `"dayPeriods"`.
+
+#### options.nameType `String`
+
+The format name type. The supported values are `"abbreviated"`, `"wide"`, `"narrow"`. `"short"` can also be specified for `days`.
+
+#### options.standAlone `Boolean`
+
+Indicates whether the stand-alone names should be returned.
+
+## The dateFormatNames return value
+
+#### Returns `Object|Array`
+
+The names. An object will be returned it the type is `"dayPeriods"` or `"eras"`. For the other types the result is `Array`.
+
+
+## The numberSymbols Method
+
+### numberSymbols
+
+Returns the number symbols from specified locale.
+
+## The numberSymbols Parameters
+
+#### locale `String`
+
+The locale id.
+
+## The numberSymbols return value
+
+#### Returns `Object`
+
+An object holding the locale number symbols.

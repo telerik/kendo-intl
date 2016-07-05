@@ -10,7 +10,7 @@ position: 1
 
 The Kendo UI Internationalization library uses the [Unicode Common Locale Data Repository (CLDR)](http://cldr.unicode.org/) as a source for the locale information. To function properly, it requires the data for the corresponding locale to load.
 
-The `numbers`, `currencies`, `gregorian calendar` and `timeZoneNames` for the `en` locale are loaded by default.
+The `numbers`, `currencies`, `gregorian calendar`(`"ca-gregorian"`) and `timeZoneNames` for the `en` locale and the `supplemental weekData` are loaded by default.
 
 ## Prerequisites
 
@@ -23,7 +23,6 @@ The table below lists the data which is required for number and date formatting 
 | Currency           | `cldr/main/locale/currencies.json` and `cldr/supplemental/currencyData.json` |
 | Basic dates        | `cldr/main/locale/ca-gregorian.json`   |
 | Localized timezone | `cldr/main/locale/timeZoneNames.json`  |
-| Numeric week day   | `cldr/supplemental/weekData.json`      |
 
 ## Getting CLDR Data
 
