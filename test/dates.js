@@ -6,9 +6,8 @@ import pad from '../src/common/pad';
 const likelySubtags = require("cldr-data/supplemental/likelySubtags.json");
 const timeZoneNames = require("cldr-data/main/bg/timeZoneNames.json");
 const calendar = require("cldr-data/main/bg/ca-gregorian.json");
-const weekData = require("cldr-data/supplemental/weekData.json");
 
-load(likelySubtags, timeZoneNames, calendar, weekData, require("cldr-data/main/ko/timeZoneNames.json"), require("cldr-data/main/ko/ca-gregorian.json"));
+load(likelySubtags, timeZoneNames, calendar, require("cldr-data/main/ko/timeZoneNames.json"), require("cldr-data/main/ko/ca-gregorian.json"));
 
 function date(year, month, day, hour, minute, second, millisecond) {
     var d = new Date();

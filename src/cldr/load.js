@@ -28,7 +28,13 @@ export default function load() {
             localeTerritory(localeInfo);
             loadLocale(locale, info);
         } else if (entry.supplemental) {
-            Object.assign(cldr.supplemental, entry.supplemental);
+            if (entry.supplemental.weekData) {
+                cldr.supplemental.weekData = {
+                    firstDay: entry.supplemental.weekData.firstDay
+                };
+            } else {
+                Object.assign(cldr.supplemental, entry.supplemental);
+            }
         }
     }
 }

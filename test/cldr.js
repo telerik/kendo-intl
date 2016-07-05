@@ -19,8 +19,10 @@ describe('load', () => {
   });
 
   it('should set supplemental data', () => {
+    expect(cldr.supplemental.likelySubtags).toBeDefined();
     expect(cldr.supplemental.currencyData).toBeDefined();
-    expect(cldr.supplemental.weekData).toBeDefined();
+    expect(cldr.supplemental.weekData.firstDay).toBeDefined();
+    expect(cldr.supplemental.weekData.minDays).not.toBeDefined();
   });
 });
 
@@ -43,6 +45,12 @@ describe('load numbers', () => {
     expect(currency.patterns[0]).toEqual("n $");
     expect(currency.groupSize.length).toEqual(1);
     expect(currency.groupSize[0]).toEqual(3);
+  });
+
+  it('should set currency unit patterns', () => {
+    const currency = cldr.bg.numbers.currency;
+    expect(currency["unitPattern-count-one"]).toEqual("n $");
+    expect(currency["unitPattern-count-other"]).toEqual("n $");
   });
 
   it('should set percent pattern', () => {
