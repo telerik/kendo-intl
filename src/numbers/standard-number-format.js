@@ -57,6 +57,16 @@ function applyPattern(value, pattern, symbol) {
     return result;
 }
 
+function currencyUnitPattern(info, value) {
+    const currencyInfo = info.numbers.currency;
+    let pattern = value !== 1 ? currencyInfo["unitPattern-count-other"] : currencyInfo["unitPattern-count-one"];
+    if (value < 0) {
+        pattern = pattern.replace("n", "-n");
+    }
+
+    return pattern;
+}
+
 
 export default function standardNumberFormat(number, options, info) {
     const { style } = options;
@@ -106,12 +116,18 @@ export default function standardNumberFormat(number, options, info) {
         formattedValue += symbols.decimal + fraction;
     }
 
+    let pattern;
+
+    if (style === CURRENCY && options.currencyDisplay === "name") {
+        pattern = currencyUnitPattern(info, number);
+    } else {
+        const patterns = options.patterns;
+        pattern = negative ? patterns[1] || ("-" + patterns[0]) : patterns[0];
+    }
+
     if (pattern === DECIMAL_PLACEHOLDER && !negative) {
         return formattedValue;
     }
-
-    const patterns = options.patterns;
-    const pattern = negative ? patterns[1] || ("-" + patterns[0]) : patterns[0];
 
     const result = applyPattern(formattedValue, pattern, symbol);
 

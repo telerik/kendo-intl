@@ -30,6 +30,14 @@ function patternOptions(pattern) {
     };
 }
 
+function loadCurrencyUnitPatterns(currencyInfo, currencyFormats) {
+    for (let field in currencyFormats) {
+        if (field.startsWith("unitPattern")) {
+            currencyInfo[field] = currencyFormats[field].replace("{0}", "n").replace("{1}", "$");
+        }
+    }
+}
+
 export default function loadNumbersInfo(locale, info) {
     const localeInfo = cldr[locale];
     const numbers = localeInfo.numbers = localeInfo.numbers || {};
@@ -39,8 +47,11 @@ export default function loadNumbersInfo(locale, info) {
             Object.assign(numbers.symbols, info[field]);
         } else if (field.includes(LATIN_NUMBER_FORMATS)) {
             const style = field.substr(0, field.indexOf(LATIN_NUMBER_FORMATS));
-            const pattern = info[style + LATIN_NUMBER_FORMATS].standard;
+            const pattern = info[field].standard;
             numbers[style] = patternOptions(pattern);
+            if (style === "currency") {
+                loadCurrencyUnitPatterns(numbers[style], info[field]);
+            }
         } else if (field === "currencies") {
             numbers.currencies = info[field];
             const territory = localeTerritory(localeInfo);

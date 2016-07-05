@@ -248,7 +248,15 @@ describe('standard currency formatting', () => {
     });
 
     it("should apply specific currency display", () => {
-        expect(formatNumber(10, { style: "currency", currency: "BGN", currencyDisplay: "displayName" })).toEqual("Bulgarian leva10.00");
+        expect(formatNumber(10, { style: "currency", currency: "BGN", currencyDisplay: "name" })).toEqual("10.00 Bulgarian leva");
+    });
+
+    it("should format negative currency with name", () => {
+        expect(formatNumber(-10, { style: "currency", currency: "BGN", currencyDisplay: "name" })).toEqual("-10.00 Bulgarian leva");
+    });
+
+    it("should format currency equal to one with name", () => {
+        expect(formatNumber(1, { style: "currency", currency: "BGN", currencyDisplay: "name" })).toEqual("1.00 Bulgarian lev");
     });
 
     it("should apply minimumFractionDigits", () => {
