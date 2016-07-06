@@ -10,43 +10,39 @@ position: 2
 
 Provides information about the exported methods from the `cldr` module.
 
-## The load Method
+## Methods: load
 
 ### load
 
 Loads CLDR data.
 
-## The load Parameters
+### Parameters: load
 
 #### data `Object`
 
 The CLDR data to be loaded. Multiple parameters are accepted.
 
-## The firstDay Method
+## Methods: firstDay
 
-### firstDay
+Returns the first day index starting from Sunday based on the specified locale.
 
-Returns the first day index starting from sunday based on the specified locale.
-
-## The firstDay Parameters
+### Parameters: firstDay
 
 #### locale `String`
 
 The locale id.
 
-## The firstDay return value
+### Return Value: firstDay
 
 #### Returns `Number`
 
 The first day index.
 
-## The dateFormatNames Method
-
-### dateFormatNames
+## Methods: dateFormatNames
 
 Returns the names from the specified locale based on the option.
 
-## The dateFormatNames Parameters
+### Parameters: dateFormatNames
 
 #### locale `String`
 
@@ -68,26 +64,23 @@ The format name type. The supported values are `"abbreviated"`, `"wide"`, `"narr
 
 Indicates whether the stand-alone names should be returned.
 
-## The dateFormatNames return value
+### Return Value: dateFormatNames
 
 #### Returns `Object|Array`
 
 The names. An object will be returned it the type is `"dayPeriods"` or `"eras"`. For the other types the result is `Array`.
 
-
-## The numberSymbols Method
-
-### numberSymbols
+## Methods: numberSymbols
 
 Returns the number symbols from specified locale.
 
-## The numberSymbols Parameters
+### Parameters: numberSymbols
 
 #### locale `String`
 
 The locale id.
 
-## The numberSymbols return value
+### Return Value: numberSymbols
 
 #### Returns `Object`
 
