@@ -16,9 +16,9 @@ Provides information about the exported methods from the `cldr` module.
 
 Loads CLDR data.
 
-### load Parameters
+#### load Parameters
 
-#### data `Object`
+##### data `Object`
 
 The CLDR data to be loaded. Multiple parameters are accepted.
 
@@ -26,15 +26,15 @@ The CLDR data to be loaded. Multiple parameters are accepted.
 
 Returns the first day index starting from Sunday and based on the specified locale.
 
-### firstDay Parameters
+#### firstDay Parameters
 
-#### locale `String`
+##### locale `String`
 
 The locale id.
 
-### firstDay Return Value
+#### firstDay Return Value
 
-#### Returns `Number`
+##### Returns `Number`
 
 The first day index.
 
@@ -42,17 +42,17 @@ The first day index.
 
 Returns the names from the specified locale based on the option.
 
-### dateFormatNames Parameters
+#### dateFormatNames Parameters
 
-#### locale `String`
+##### locale `String`
 
 The locale id.
 
-#### options `Object`
+##### options `Object`
 
 The options that determine the returned names.
 
-#### options.type `String`
+##### options.type `String`
 
 The type of the names.
 
@@ -63,7 +63,7 @@ The supported values are:
 * `"days"`
 * `"dayPeriods"`
 
-#### options.nameType `String`
+##### options.nameType `String`
 
 The format name type.
 
@@ -74,13 +74,13 @@ The supported values are:
 
 The `"short"` option can also be specified for `days`.
 
-#### options.standAlone `Boolean`
+##### options.standAlone `Boolean`
 
 Indicates whether the standalone names should be returned.
 
-### dateFormatNames Return Value
+#### dateFormatNames Return Value
 
-#### Returns `Object|Array`
+##### Returns `Object|Array`
 
 The names.
 
@@ -90,14 +90,14 @@ An object will be returned if the type is `"dayPeriods"` or `"eras"`. For the ot
 
 Returns the number symbols from the specified locale.
 
-### numberSymbols Parameters
+#### numberSymbols Parameters
 
-#### locale `String`
+##### locale `String`
 
 The locale id.
 
-### numberSymbols Return Value
+#### numberSymbols Return Value
 
-#### Returns `Object`
+##### Returns `Object`
 
 An object holding the number symbols from the specified locale.
