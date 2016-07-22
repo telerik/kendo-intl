@@ -21,6 +21,7 @@ before_script:
   - "npm prune"
   - "npm update"
   - "export DISPLAY=:99.0"
+  - "export TZ='Europe/Sofia'"
   - "sh -e /etc/init.d/xvfb start"
   - "sleep 3" # give xvfb some time to start
 script:
