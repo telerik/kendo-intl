@@ -8,6 +8,7 @@
   },
   "cldr-data-coverage": "full",
   "scripts": {
+    "build-package": "gulp build-npm-package",
     "test": "gulp test",
     "lint": "gulp lint",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
