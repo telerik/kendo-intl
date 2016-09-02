@@ -6,7 +6,8 @@
     "type": "git",
     "url": "https://github.com/telerik/kendo-intl.git"
   },
-  "cldr-data-coverage": "full",
+  "main": "dist/npm/js/main.js",
+  "typings": "dist/npm/js/main",
   "scripts": {
     "build-package": "gulp build-npm-package",
     "test": "gulp test",
