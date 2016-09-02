@@ -1,7 +1,7 @@
 {
   "name": "@telerik/kendo-intl",
   "description": "A package exporting functions for date and number parsing and formatting",
-  "version": "0.0.0-semantically-released",
+  "version": "0.9.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/telerik/kendo-intl.git"
@@ -26,7 +26,7 @@
     "@telerik/kendo-package-tasks": "^1.2.0",
     "cz-conventional-changelog": "^1.1.5",
     "ghooks": "^1.0.3",
-    "gulp": "3.9.0",
+    "gulp": "3.9.1",
     "validate-commit-msg": "^1.1.1",
     "semantic-release": "^4.3.5",
     "cldr-data": "latest"
