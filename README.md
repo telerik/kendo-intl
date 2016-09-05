@@ -42,13 +42,13 @@ For more examples and available configuration options, refer to the article on [
 
 Date parsing converts a string to a `Date` object using the locale specific settings.
 
-    import { parseDate } from '@telerik/kendo-intl';
+```js
+import { parseDate } from '@telerik/kendo-intl';
 
-    parseDate("11/6/2000", ["G", "d"]); // Mon Nov 06 2000
-
-    parseDate("Montag, 6.11.2000", "EEEE, d.MM.y", "de"); // Mon Nov 06 2000
-
-    parseDate("2000-11-06T10:30Z"); // Mon Nov 06 2000 12:30
+parseDate("11/6/2000", ["G", "d"]); // Mon Nov 06 2000
+parseDate("Montag, 6.11.2000", "EEEE, d.MM.y", "de"); // Mon Nov 06 2000
+parseDate("2000-11-06T10:30Z"); // Mon Nov 06 2000 12:30
+```
 
 For more examples and available configuration options, refer to the article on [date parsing](https://github.com/telerik/kendo-intl/blob/master/docs/dates/date-parsing.md).
 
@@ -56,13 +56,13 @@ For more examples and available configuration options, refer to the article on [
 
 Date parsing converts a `Date` object to a human-readable string using the locale specific settings.
 
-    import { formatDate } from '@telerik/kendo-intl';
+```js
+import { formatDate } from '@telerik/kendo-intl';
 
-    formatDate(new Date(2000, 10, 6), "d"); // 11/6/2000
-
-    formatDate(new Date(2000, 10, 6), "yMd", "de"); // 6.11.2000
-
-    formatDate(new Date(2000, 10, 6), "EEEE, d.MM.y", "bg"); // понеделник, 6.11.2000
+formatDate(new Date(2000, 10, 6), "d"); // 11/6/2000
+formatDate(new Date(2000, 10, 6), "yMd", "de"); // 6.11.2000
+formatDate(new Date(2000, 10, 6), "EEEE, d.MM.y", "bg"); // понеделник, 6.11.2000
+```
 
 For more examples and available configuration options, refer to the article on [date formatting](https://github.com/telerik/kendo-intl/blob/master/docs/dates/date-formatting.md).
 
@@ -70,15 +70,14 @@ For more examples and available configuration options, refer to the article on [
 
 Number parsing converts a string to a `Number` object using the specific settings of the locale.
 
-    import { parseNumber } from '@telerik/kendo-intl';
+```js
+import { parseNumber } from '@telerik/kendo-intl';
 
-    parseNumber("12.22"); // 12.22
-
-    parseNumber("1.212,22 €", "de"); // 1212.22
-
-    parseNumber("10.22 %"); // 0.1022    
-
-    parseNumber("1,0000123e+4", "bg"); // 10000.123
+parseNumber("12.22"); // 12.22
+parseNumber("1.212,22 €", "de"); // 1212.22
+parseNumber("10.22 %"); // 0.1022    
+parseNumber("1,0000123e+4", "bg"); // 10000.123
+```
 
 For more examples and available configuration options, refer to the article on [number parsing](https://github.com/telerik/kendo-intl/blob/master/docs/numbers/number-parsing.md).
 
@@ -86,19 +85,21 @@ For more examples and available configuration options, refer to the article on [
 
 Number formatting converts a `Number` object to a human-readable string using the locale specific settings.
 
-    import { formatNumber } from '@telerik/kendo-intl';
+```js
+import { formatNumber } from '@telerik/kendo-intl';
 
-    formatNumber(1234.567, "n2"); // 1,234.57
+formatNumber(1234.567, "n2"); // 1,234.57
 
-    formatNumber(1234.567, "c", "de"); // 1.234,57 €
+formatNumber(1234.567, "c", "de"); // 1.234,57 €
 
-    formatNumber(1234.567, {
-        style: "currency",
-        currency: "USD",
-        currencyDisplay: "displayName"
-    }, "bg"); // 1 234,57 щатски долара
+formatNumber(1234.567, {
+   style: "currency",
+   currency: "USD",
+   currencyDisplay: "displayName"
+}, "bg"); // 1 234,57 щатски долара
 
-    formatNumber(2345678, "##,#.00"); // 2,345,678.00
+formatNumber(2345678, "##,#.00"); // 2,345,678.00
+```
 
 For more examples and available configuration options, refer to the article on [number formatting](https://github.com/telerik/kendo-intl/blob/master/docs/numbers/number-formatting.md).
 
