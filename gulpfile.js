@@ -10,16 +10,14 @@ const fs = require('fs');
 
 require('@telerik/kendo-package-tasks')(gulp, 'kendo-intl');
 
-gulp.task("build-default-data", () => {
-    gulp.run("build-npm-package", function() {
-        const cldr = require("./dist/npm/js/cldr");
-        cldr.load(likelySubtags, currencyData, weekData, numbers, currencies, timeZoneNames, calendar);
-        const defaultData = {
-            en: cldr.cldr.en,
-            supplemental: {
-                weekData: cldr.cldr.supplemental.weekData
-            }
-        };
-        fs.writeFileSync('src/cldr/default-data.js', "const defaultData = " + JSON.stringify(defaultData, null, 4) + ";\nexport default defaultData;");
-    });
+gulp.task("build-default-data", ["build-npm-package"], () => {
+    const cldr = require("./dist/npm/js/cldr");
+    cldr.load(likelySubtags, currencyData, weekData, numbers, currencies, timeZoneNames, calendar);
+    const defaultData = {
+        en: cldr.cldr.en,
+        supplemental: {
+            weekData: cldr.cldr.supplemental.weekData
+        }
+    };
+    fs.writeFileSync('src/cldr/default-data.js', "const defaultData = " + JSON.stringify(defaultData, null, 4) + ";\nexport default defaultData;");
 });
