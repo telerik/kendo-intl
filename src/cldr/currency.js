@@ -76,7 +76,11 @@ export function territoryCurrencyCode(territory) {
     if (!currencyData) {
         throw new Error("Cannot determine currency. Please load the supplemental currencyData.");
     }
+
     const regionCurrencies = currencyData.region[territory];
+    if (!regionCurrencies) {
+        throw new Error("No currency data for region " + territory);
+    }
     const currencyCode = Object.keys(regionCurrencies[regionCurrencies.length - 1])[0];
 
     return currencyCode;

@@ -5,6 +5,10 @@ const likelySubtags = require("cldr-data/supplemental/likelySubtags.json");
 const numbers = require("cldr-data/main/bg/numbers.json");
 const currencies = require("cldr-data/main/bg/currencies.json");
 const currencyData = require("cldr-data/supplemental/currencyData.json");
+
+// CUSTOM region is used in tests below
+currencyData.supplemental.currencyData.region.CUSTOM = [{}];
+
 load(likelySubtags, currencyData, numbers, currencies);
 
 function loadCustom(options) {
@@ -237,6 +241,14 @@ describe('standard currency formatting', () => {
 
     it("should not apply group separators to numbers with less digits", () => {
         expect(formatNumber(123, "c")).toEqual("$123.00");
+    });
+
+    it("should apply format when passing language", () => {
+        expect(formatNumber(10, "c", "bg")).toEqual("10,00 лв.");
+    });
+
+    it("should apply format when passing language and territory", () => {
+        expect(formatNumber(10, "c", "bg-BG")).toEqual("10,00 лв.");
     });
 
     it("should apply format when passing object", () => {
