@@ -1,0 +1,9 @@
+docs
+test
+src
+tmp
+gulpfile.js
+.npmignore
+.eslintrc.json
+.travis.yml
+typings*
