@@ -17,10 +17,15 @@ It includes methods for parsing and formatting dates and numbers using [Unicode 
 
 ### CLDR Data
 
-To use the methods for different locales, use the [`load`](https://github.com/telerik/kendo-intl/blob/master/docs/cldr/api.md#load) method from the `cldr` module to load the `likelySubtags` and locale data. Additionally, the library requires the loading of the supplemental `currencyData` for the default currency formatting and the `weekData` for the day of week formatting.
+The [cldr-data module](https://www.npmjs.com/package/cldr-data) is required in order to download the full CDLR database.
+```sh
+npm install --save cldr-data
+```
+
+To use the methods for different locales, use the [`load`](https://github.com/telerik/kendo-intl/blob/master/docs/cldr/api.md#load) method to load the `likelySubtags` and locale data. Additionally, the library requires the loading of the supplemental `currencyData` for the default currency formatting and the `weekData` for the day of week formatting.
 
 ```javascript
-import { load } from '@telerik/kendo-intl/cldr';
+import { load } from '@telerik/kendo-intl';
 
 load(require("cldr-data/main/bg/numbers.json"),
      require("cldr-data/main/bg/currencies.json"),
