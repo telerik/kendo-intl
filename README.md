@@ -42,7 +42,7 @@ For more examples and available configuration options, refer to the article on [
 
 Date parsing converts a string to a `Date` object using the locale specific settings.
 
-    import { parseDate } from '@telerik/kendo-intl/dates';
+    import { parseDate } from '@telerik/kendo-intl';
 
     parseDate("11/6/2000", ["G", "d"]); // Mon Nov 06 2000
 
@@ -56,7 +56,7 @@ For more examples and available configuration options, refer to the article on [
 
 Date parsing converts a `Date` object to a human-readable string using the locale specific settings.
 
-    import { formatDate } from '@telerik/kendo-intl/dates';
+    import { formatDate } from '@telerik/kendo-intl';
 
     formatDate(new Date(2000, 10, 6), "d"); // 11/6/2000
 
@@ -70,7 +70,7 @@ For more examples and available configuration options, refer to the article on [
 
 Number parsing converts a string to a `Number` object using the specific settings of the locale.
 
-    import { parseNumber } from '@telerik/kendo-intl/numbers';
+    import { parseNumber } from '@telerik/kendo-intl';
 
     parseNumber("12.22"); // 12.22
 
@@ -86,7 +86,7 @@ For more examples and available configuration options, refer to the article on [
 
 Number formatting converts a `Number` object to a human-readable string using the locale specific settings.
 
-    import { formatNumber } from '@telerik/kendo-intl/numbers';
+    import { formatNumber } from '@telerik/kendo-intl';
 
     formatNumber(1234.567, "n2"); // 1,234.57
 
@@ -116,9 +116,9 @@ Once installed, import the module.
 
 ```javascript
 // ES2015 module syntax
-import { formatDate, parseDate } from '@telerik/kendo-intl/dates';
+import { formatDate, parseDate } from '@telerik/kendo-intl';
 //or
-import { formatNumber, parseNumber } from '@telerik/kendo-intl/number';
+import { formatNumber, parseNumber } from '@telerik/kendo-intl';
 ```
 ```javascript
 // CommonJS format
