@@ -31,7 +31,7 @@ load(require("cldr-data/main/bg/numbers.json"),
      require("cldr-data/supplemental/weekData.json"));
 ```
 
-For more examples and available configuration options, refer to the article on [CLDR Data](https://github.com/telerik/kendo-intl/blob/master/docs/cldr/cldr-data.md).
+For more examples and available configuration options, refer to the article on [CLDR Data](https://github.com/telerik/kendo-intl/blob/master/docs/cldr/index.md).
 
 ### Date Parsing
 
