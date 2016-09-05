@@ -26,6 +26,7 @@ load(require("cldr-data/main/bg/numbers.json"),
      require("cldr-data/main/bg/currencies.json"),
      require("cldr-data/main/bg/ca-gregorian.json"),
      require("cldr-data/main/bg/timeZoneNames.json"),
+     require("cldr-data/supplemental/likelySubtags.json"),
      require("cldr-data/supplemental/currencyData.json"),
      require("cldr-data/supplemental/weekData.json"));
 ```
