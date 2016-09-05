@@ -1,7 +1,7 @@
 {
   "name": "@telerik/kendo-intl",
   "description": "A package exporting functions for date and number parsing and formatting",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/telerik/kendo-intl.git"
@@ -9,7 +9,7 @@
   "main": "dist/npm/js/main.js",
   "typings": "dist/npm/js/main",
   "scripts": {
-    "build-package": "gulp build-npm-package",
+    "build-package": "gulp build-default-data",
     "test": "gulp test",
     "lint": "gulp lint",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
