@@ -1,5 +1,7 @@
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-[![Build Status](https://travis-ci.com/telerik/kendo-intl.svg?token=3s7syPkx5EoKF4W54SVa&branch=master)](https://travis-ci.com/telerik/kendo-intl)
+[![Build Status](https://travis-ci.org/telerik/kendo-intl.svg?branch=master)](https://travis-ci.org/telerik/kendo-intl)
+[![npm version](https://badge.fury.io/js/%40telerik%2Fkendo-intl.svg)](https://badge.fury.io/js/%40telerik%2Fkendo-intl)
+
 
 # Kendo UI Internationalization
 
