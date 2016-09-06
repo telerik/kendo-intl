@@ -16,7 +16,11 @@ const cleanupCurrencies = (locale) => {
 
     Object.keys(currencies).forEach(id => {
         const data = currencies[id];
-        subset[id] = { 'symbol': data['symbol'], 'symbol-alt-narrow': data['symbol-alt-narrow'] };
+        if (id === 'USD' || id === 'BGN') {
+            subset[id] = data;
+        } else {
+            subset[id] = { 'symbol': data['symbol'], 'symbol-alt-narrow': data['symbol-alt-narrow'] };
+        }
     });
 
     locale.numbers.currencies = subset;

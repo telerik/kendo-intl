@@ -158,6 +158,9 @@ const defaultData = {
                     "symbol": "BGM"
                 },
                 "BGN": {
+                    "displayName": "Bulgarian Lev",
+                    "displayName-count-one": "Bulgarian lev",
+                    "displayName-count-other": "Bulgarian leva",
                     "symbol": "BGN"
                 },
                 "BGO": {
@@ -882,6 +885,9 @@ const defaultData = {
                     "symbol": "UGX"
                 },
                 "USD": {
+                    "displayName": "US Dollar",
+                    "displayName-count-one": "US dollar",
+                    "displayName-count-other": "US dollars",
                     "symbol": "$",
                     "symbol-alt-narrow": "$"
                 },
