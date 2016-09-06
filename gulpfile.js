@@ -10,11 +10,26 @@ const fs = require('fs');
 
 require('@telerik/kendo-package-tasks')(gulp, 'kendo-intl');
 
+const cleanupCurrencies = (locale) => {
+    const currencies = locale.numbers.currencies;
+    const subset = {};
+
+    Object.keys(currencies).forEach(id => {
+        const data = currencies[id];
+        subset[id] = { 'symbol': data['symbol'], 'symbol-alt-narrow': data['symbol-alt-narrow'] };
+    });
+
+    locale.numbers.currencies = subset;
+
+    return locale;
+};
+
 gulp.task("build-default-data", () => {
     const cldr = require("./dist/npm/js/cldr");
     cldr.load(likelySubtags, currencyData, weekData, numbers, currencies, timeZoneNames, calendar);
+
     const defaultData = {
-        en: cldr.cldr.en,
+        en: cleanupCurrencies(cldr.cldr.en),
         supplemental: {
             likelySubtags: {
                 en: "en-Latn-US"
