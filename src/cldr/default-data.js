@@ -2433,6 +2433,20 @@ const defaultData = {
         }
     },
     "supplemental": {
+        "likelySubtags": {
+            "en": "en-Latn-US"
+        },
+        "currencyData": {
+            "region": {
+                "US": [
+                    {
+                        "USD": {
+                            "_from": "1792-01-01"
+                        }
+                    }
+                ]
+            }
+        },
         "weekData": {
             "firstDay": {
                 "001": "mon",

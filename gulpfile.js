@@ -10,12 +10,22 @@ const fs = require('fs');
 
 require('@telerik/kendo-package-tasks')(gulp, 'kendo-intl');
 
-gulp.task("build-default-data", ["build-npm-package"], () => {
+gulp.task("build-default-data", () => {
     const cldr = require("./dist/npm/js/cldr");
     cldr.load(likelySubtags, currencyData, weekData, numbers, currencies, timeZoneNames, calendar);
     const defaultData = {
         en: cldr.cldr.en,
         supplemental: {
+            likelySubtags: {
+                en: "en-Latn-US"
+            },
+            currencyData: {
+                region: {
+                    "US": [{
+                        "USD": { "_from": "1792-01-01" }
+                    }]
+                }
+            },
             weekData: cldr.cldr.supplemental.weekData
         }
     };

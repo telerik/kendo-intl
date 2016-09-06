@@ -9,7 +9,7 @@
   "main": "dist/npm/js/main.js",
   "typings": "dist/npm/js/main",
   "scripts": {
-    "build-package": "gulp build-default-data",
+    "build-package": "gulp build-npm-package",
     "test": "gulp test",
     "lint": "gulp lint",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
