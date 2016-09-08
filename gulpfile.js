@@ -16,10 +16,8 @@ const cleanupCurrencies = (locale) => {
 
     Object.keys(currencies).forEach(id => {
         const data = currencies[id];
-        if (id === 'USD' || id === 'BGN') {
+        if (id === 'USD' || id === 'EUR' || id === 'BGN') {
             subset[id] = data;
-        } else {
-            subset[id] = { 'symbol': data['symbol'], 'symbol-alt-narrow': data['symbol-alt-narrow'] };
         }
     });
 
@@ -45,7 +43,12 @@ gulp.task("build-default-data", () => {
                     }]
                 }
             },
-            weekData: cldr.cldr.supplemental.weekData
+            "weekData": {
+                "firstDay": {
+                    "001": "mon",
+                    "US": "sun"
+                }
+            }
         }
     };
     fs.writeFileSync('src/cldr/default-data.js', "const defaultData = " + JSON.stringify(defaultData, null, 4) + ";\nexport default defaultData;");
