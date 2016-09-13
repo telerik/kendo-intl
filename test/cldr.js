@@ -202,7 +202,7 @@ describe('localeInfo', () => {
     it('should throw an error if matching locale is no available', () => {
         expect(() => {
             localeInfo('fr');
-        }).toThrowError();
+        }).toThrowError("Error 101: Missing locale info for 'fr'");
     });
 });
 
