@@ -15,6 +15,10 @@ declare const errors: {
         code: string;
         message: string;
     };
+    NoCurrencyDisplayError: {
+        code: string;
+        message: string;
+    };
     NoGMTInfoError: {
         code: string;
         message: string;

@@ -1,4 +1,4 @@
-import { currencyDisplay, territoryCurrencyCode } from '../src/cldr';
+import { currencyDisplay, currencyDisplays, territoryCurrencyCode } from '../src/cldr';
 
 describe('currencyDisplay', () => {
     it('should throw an exception when locale is not available', () => {
@@ -10,6 +10,20 @@ describe('currencyDisplay', () => {
             expect(true).toBe(false);
         } catch (e) {
             expect(e.message).toEqual("Error 101: Missing locale info for 'de'");
+        }
+    });
+});
+
+describe('currencyDisplays', () => {
+    it('should throw an exception when currency display is not available', () => {
+        try {
+            currencyDisplays('en', {
+                currency: 'GBP'
+            });
+
+            expect(true).toBe(false);
+        } catch (e) {
+            expect(e.message).toEqual("Error 204: Cannot determine currency display information. Please load the locale currencies data. The default culture does not include the all currencies data.");
         }
     });
 });

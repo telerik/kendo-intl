@@ -12,7 +12,13 @@ function getCurrencyInfo(locale, currency) {
         throw new Error(formatError(errors.NoCurrencyError));
     }
 
-    return currencies[currency];
+    const currencyDisplayInfo = currencies[currency];
+
+    if (!currencyDisplayInfo) {
+        throw new Error(formatError(errors.NoCurrencyDisplayError));
+    }
+
+    return currencyDisplayInfo;
 }
 
 function lengthComparer(a, b) {
