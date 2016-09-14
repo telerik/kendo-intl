@@ -1,41 +1,30 @@
 import { currencyDisplay, currencyDisplays, territoryCurrencyCode } from '../src/cldr';
+import { errors } from '../src/errors';
 
 describe('currencyDisplay', () => {
     it('should throw an exception when locale is not available', () => {
-        try {
+        expect(() => {
             currencyDisplay('de', {
                 currency: 'USD'
             });
-
-            expect(true).toBe(false);
-        } catch (e) {
-            expect(e.message).toEqual("Error 101: Missing locale info for 'de'");
-        }
+        }).toThrowError(new RegExp(errors.NoLocaleError.name));
     });
 });
 
 describe('currencyDisplays', () => {
     it('should throw an exception when currency display is not available', () => {
-        try {
+        expect(() => {
             currencyDisplays('en', {
                 currency: 'GBP'
             });
-
-            expect(true).toBe(false);
-        } catch (e) {
-            expect(e.message).toEqual("Error 204: Cannot determine currency display information. Please load the locale currencies data. The default culture does not include the all currencies data.");
-        }
+        }).toThrowError(new RegExp(errors.NoCurrencyDisplayError.name));
     });
 });
 
 describe('territoryCurrencyCode', () => {
     it('should throw an exception when no region currencies info', () => {
-        try {
+        expect(() => {
             territoryCurrencyCode('en');
-
-            expect(true).toBe(false);
-        } catch (e) {
-            expect(e.message).toEqual("Error 203: No currency data for region 'en'");
-        }
+        }).toThrowError(new RegExp(errors.NoCurrencyRegionError.name));
     });
 });

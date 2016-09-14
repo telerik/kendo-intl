@@ -1,5 +1,5 @@
 import defaultData from './default-data';
-import { errors, formatError } from '../errors';
+import { errors } from '../errors';
 
 function availableLocaleInfo(fullName, suffixes) {
     const parts = fullName.split("-");
@@ -54,5 +54,5 @@ export function localeInfo(locale) {
         }
     }
 
-    throw new Error(formatError(errors.NoLocaleError, locale));
+    throw new Error(errors.NoLocaleError.getMessage(locale));
 }
