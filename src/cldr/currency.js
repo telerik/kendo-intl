@@ -9,13 +9,13 @@ function getCurrencyInfo(locale, currency) {
     const info = getLocaleInfo(locale);
     const currencies = info.numbers.currencies;
     if (!currencies) {
-        throw new Error(errors.NoCurrencyError.getMessage());
+        throw new Error(errors.NoCurrencyError.formatMessage());
     }
 
     const currencyDisplayInfo = currencies[currency];
 
     if (!currencyDisplayInfo) {
-        throw new Error(errors.NoCurrencyDisplayError.getMessage());
+        throw new Error(errors.NoCurrencyDisplayError.formatMessage());
     }
 
     return currencyDisplayInfo;
@@ -81,12 +81,12 @@ export function currencyFractionOptions(code) {
 export function territoryCurrencyCode(territory) {
     const currencyData = cldr.supplemental.currencyData;
     if (!currencyData) {
-        throw new Error(errors.NoSupplementalCurrencyError.getMessage());
+        throw new Error(errors.NoSupplementalCurrencyError.formatMessage());
     }
 
     const regionCurrencies = currencyData.region[territory];
     if (!regionCurrencies) {
-        throw new Error(errors.NoCurrencyRegionError.getMessage(territory));
+        throw new Error(errors.NoCurrencyRegionError.formatMessage(territory));
     }
     const currencyCode = Object.keys(regionCurrencies[regionCurrencies.length - 1])[0];
 

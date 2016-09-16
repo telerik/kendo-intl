@@ -4,9 +4,10 @@ declare class IntlError {
         name: string;
         message: string;
     };
+    name: string;
     constructor(error: any);
-    getMessage(...values: any[]): string;
-    setMessage(message: string): void;
+    appendMessage(message: string): void;
+    formatMessage(...values: any[]): string;
 }
 declare const errors: any;
 export { errors, IntlError };

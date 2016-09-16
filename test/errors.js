@@ -12,7 +12,7 @@ describe('IntlError', () => {
 
         const result = `${error.name}: ${error.message}`;
 
-        expect(intlError.getMessage(), result);
+        expect(intlError.formatMessage(), result);
     });
 
     it('should replace single placeholder in the message', () => {
@@ -26,40 +26,57 @@ describe('IntlError', () => {
 
         const result = `${error.name}: Big error! p1 p2`;
 
-        expect(intlError.getMessage("p1", "p2"), result);
+        expect(intlError.formatMessage("p1", "p2"), result);
+    });
+
+    it('should append new message to current one', () => {
+        const error = {
+            code: "001",
+            name: "BigError",
+            message: "Big error! {0}"
+        };
+
+        const toAppend = "appended";
+        const intlError = new IntlError(error);
+
+        const result = `${error.name}: Big error! {0} ${toAppend}`;
+
+        intlError.appendMessage(toAppend);
+
+        expect(intlError.formatMessage(), result);
     });
 });
 
 describe('default errors', () => {
     it('should have NoLocaleError type', () => {
-        expect(errors.NoLocaleError.getMessage()).toMatch(/NoLocaleError/);
+        expect(errors.NoLocaleError.formatMessage()).toMatch(/NoLocaleError/);
     });
 
     it('should have NoCurrencyError type', () => {
-        expect(errors.NoCurrencyError.getMessage()).toMatch(/NoCurrencyError/);
+        expect(errors.NoCurrencyError.formatMessage()).toMatch(/NoCurrencyError/);
     });
 
     it('should have NoSupplementalCurrencyError type', () => {
-        expect(errors.NoSupplementalCurrencyError.getMessage()).toMatch(/NoSupplementalCurrencyError/);
+        expect(errors.NoSupplementalCurrencyError.formatMessage()).toMatch(/NoSupplementalCurrencyError/);
     });
 
     it('should have NoCurrencyRegionError type', () => {
-        expect(errors.NoCurrencyRegionError.getMessage()).toMatch(/NoCurrencyRegionError/);
+        expect(errors.NoCurrencyRegionError.formatMessage()).toMatch(/NoCurrencyRegionError/);
     });
 
     it('should have NoCurrencyDisplayError type', () => {
-        expect(errors.NoCurrencyDisplayError.getMessage()).toMatch(/NoCurrencyDisplayError/);
+        expect(errors.NoCurrencyDisplayError.formatMessage()).toMatch(/NoCurrencyDisplayError/);
     });
 
     it('should have NoGMTInfoError type', () => {
-        expect(errors.NoGMTInfoError.getMessage()).toMatch(/NoGMTInfoError/);
+        expect(errors.NoGMTInfoError.formatMessage()).toMatch(/NoGMTInfoError/);
     });
 
     it('should have NoWeekDataError type', () => {
-        expect(errors.NoWeekDataError.getMessage()).toMatch(/NoWeekDataError/);
+        expect(errors.NoWeekDataError.formatMessage()).toMatch(/NoWeekDataError/);
     });
 
     it('should have NoFirstDayError type', () => {
-        expect(errors.NoFirstDayError.getMessage()).toMatch(/NoFirstDayError/);
+        expect(errors.NoFirstDayError.formatMessage()).toMatch(/NoFirstDayError/);
     });
 });
