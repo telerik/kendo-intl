@@ -34,7 +34,7 @@ const flatten = function(arr) {
     return arr.reduce((a, b) => a.concat(b), []);
 };
 
-const mapErrors = function(errors) {
+const toIntlErrors = function(errors) {
     const predicate = function(prev, name) {
         prev[name] = new IntlError({ name, message: errors[name] });
         return prev;
@@ -43,10 +43,10 @@ const mapErrors = function(errors) {
     return Object.keys(errors).reduce(predicate, {});
 };
 
-const errors = mapErrors(errorDetails);
+const errors = toIntlErrors(errorDetails);
 
 export {
     errors,
-    mapErrors,
-    IntlError
+    IntlError,
+    toIntlErrors
 };
