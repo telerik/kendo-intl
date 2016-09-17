@@ -20,8 +20,6 @@ The Number Parsing and Number Formatting modules provide methods for parsing and
 
 ## Suggested Links
 
-Articles on the Kendo UI Internationalization components:
-
 * [Get Started with CLDR]({% slug cldrdata_overview_internalization %})
 * [Get Started with Date Parsing]({% slug dateparsing_internalization %})
 * [Get Started with Date Formatting]({% slug dateformatting_internalization %})
