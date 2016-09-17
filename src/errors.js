@@ -47,5 +47,6 @@ const errors = mapErrors(errorDetails);
 
 export {
     errors,
+    mapErrors,
     IntlError
 };

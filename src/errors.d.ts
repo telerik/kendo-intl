@@ -1,13 +1,11 @@
 declare class IntlError {
-    _error: {
-        code: string;
-        name: string;
-        message: string;
-    };
     name: string;
-    constructor(error: any);
-    appendMessage(message: string): void;
+    message: string;
+    constructor(error: { name: string, message: string });
     formatMessage(...values: any[]): string;
+    error(...values: any[]): Error;
 }
 declare const errors: any;
-export { errors, IntlError };
+declare const mapErrors: (errors: { [x: string]: string; }) => { [x: string]: IntlError };
+
+export { errors, mapErrors, IntlError };
