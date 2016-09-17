@@ -1,5 +1,6 @@
 import { adjustDST, convertTimeZone } from './time-utils';
 import { localeInfo } from '../cldr';
+import { errors } from '../errors';
 import formatNames from './format-names';
 import datePattern from './date-pattern';
 import round from '../common/round';
@@ -112,7 +113,7 @@ function checkLiteral(state) {
 function calendarGmtFormats(calendar) {
     const { gmtFormat, gmtZeroFormat } = calendar;
     if (!gmtFormat) {
-        throw new Error("Cannot determine locale GMT format. Please load the locale timeZoneNames data.");
+        throw errors.NoGMTInfo.error();
     }
 
     return [ gmtFormat.replace(PLACEHOLDER, "").toLowerCase(), gmtZeroFormat.replace(PLACEHOLDER, "").toLowerCase() ];

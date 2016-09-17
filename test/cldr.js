@@ -1,4 +1,5 @@
 import { load, cldr, localeInfo, dateFormatNames, firstDay, localeCurrency, currencyDisplay, currencyFractionOptions, currencyDisplays, numberSymbols } from '../src/cldr';
+import { errors } from '../src/errors';
 
 const likelySubtags = require("cldr-data/supplemental/likelySubtags.json");
 const numbers = require("cldr-data/main/bg/numbers.json");
@@ -202,7 +203,7 @@ describe('localeInfo', () => {
     it('should throw an error if matching locale is no available', () => {
         expect(() => {
             localeInfo('fr');
-        }).toThrowError();
+        }).toThrowError(new RegExp(errors.NoLocale.name));
     });
 });
 
