@@ -113,7 +113,7 @@ function checkLiteral(state) {
 function calendarGmtFormats(calendar) {
     const { gmtFormat, gmtZeroFormat } = calendar;
     if (!gmtFormat) {
-        throw new Error(errors.NoGMTInfoError.formatMessage());
+        throw errors.NoGMTInfo.error();
     }
 
     return [ gmtFormat.replace(PLACEHOLDER, "").toLowerCase(), gmtZeroFormat.replace(PLACEHOLDER, "").toLowerCase() ];

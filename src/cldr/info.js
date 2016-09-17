@@ -54,5 +54,5 @@ export function localeInfo(locale) {
         }
     }
 
-    throw new Error(errors.NoLocaleError.formatMessage(locale));
+    throw errors.NoLocale.error(locale);
 }

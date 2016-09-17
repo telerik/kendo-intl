@@ -7,7 +7,7 @@ describe('currencyDisplay', () => {
             currencyDisplay('de', {
                 currency: 'USD'
             });
-        }).toThrowError(new RegExp(errors.NoLocaleError.name));
+        }).toThrowError(new RegExp(errors.NoLocale.name));
     });
 });
 
@@ -17,7 +17,7 @@ describe('currencyDisplays', () => {
             currencyDisplays('en', {
                 currency: 'GBP'
             });
-        }).toThrowError(new RegExp(errors.NoCurrencyDisplayError.name));
+        }).toThrowError(new RegExp(errors.NoCurrencyDisplay.name));
     });
 });
 
@@ -25,6 +25,6 @@ describe('territoryCurrencyCode', () => {
     it('should throw an exception when no region currencies info', () => {
         expect(() => {
             territoryCurrencyCode('en');
-        }).toThrowError(new RegExp(errors.NoCurrencyRegionError.name));
+        }).toThrowError(new RegExp(errors.NoCurrencyRegion.name));
     });
 });

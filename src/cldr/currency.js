@@ -2,6 +2,13 @@ import { cldr, getLocaleInfo } from './info';
 import localeTerritory from './territory';
 import { errors } from '../errors';
 
+const {
+    NoCurrency,
+    NoCurrencyDisplay,
+    NoSupplementalCurrency,
+    NoCurrencyRegion
+} = errors;
+
 const DEFAULT_CURRENCY_FRACTIONS = 2;
 const SYMBOL = "symbol";
 
@@ -9,13 +16,13 @@ function getCurrencyInfo(locale, currency) {
     const info = getLocaleInfo(locale);
     const currencies = info.numbers.currencies;
     if (!currencies) {
-        throw new Error(errors.NoCurrencyError.formatMessage());
+        throw NoCurrency.error();
     }
 
     const currencyDisplayInfo = currencies[currency];
 
     if (!currencyDisplayInfo) {
-        throw new Error(errors.NoCurrencyDisplayError.formatMessage());
+        throw NoCurrencyDisplay.error();
     }
 
     return currencyDisplayInfo;
@@ -81,12 +88,12 @@ export function currencyFractionOptions(code) {
 export function territoryCurrencyCode(territory) {
     const currencyData = cldr.supplemental.currencyData;
     if (!currencyData) {
-        throw new Error(errors.NoSupplementalCurrencyError.formatMessage());
+        throw NoSupplementalCurrency.error();
     }
 
     const regionCurrencies = currencyData.region[territory];
     if (!regionCurrencies) {
-        throw new Error(errors.NoCurrencyRegionError.formatMessage(territory));
+        throw NoCurrencyRegion.error();
     }
     const currencyCode = Object.keys(regionCurrencies[regionCurrencies.length - 1])[0];
 

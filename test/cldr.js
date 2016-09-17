@@ -203,7 +203,7 @@ describe('localeInfo', () => {
     it('should throw an error if matching locale is no available', () => {
         expect(() => {
             localeInfo('fr');
-        }).toThrowError(new RegExp(errors.NoLocaleError.name));
+        }).toThrowError(new RegExp(errors.NoLocale.name));
     });
 });
 

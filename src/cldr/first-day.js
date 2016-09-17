@@ -3,19 +3,21 @@ import localeTerritory from './territory';
 
 import { errors } from '../errors';
 
+const { NoWeekData, NoFirstDay } = errors;
+
 const DAYS = [ "sun", "mon", "tue", "wed", "thu", "fri", "sat" ];
 
 export default function firstDay(locale) {
     const weekData = cldr.supplemental.weekData;
     if (!weekData) {
-        throw new Error(errors.NoWeekDataError.formatMessage());
+        throw NoWeekData.error();
     }
 
     const info = getLocaleInfo(locale);
     const firstDay = weekData.firstDay[localeTerritory(info)];
 
     if (!firstDay) {
-        throw new Error(errors.NoFirstDayError.formatMessage());
+        throw NoFirstDay.error();
     }
 
     return DAYS.indexOf(firstDay);
