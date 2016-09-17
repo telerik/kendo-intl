@@ -1,40 +1,49 @@
-import errorsList from './errors-list';
+import errorDetails from './error-details';
 
 const formatRegExp = /\{(\d+)}?\}/g;
 
 class IntlError {
-    _error = null;
     name = "";
+    message = "";
 
-    constructor(error) {
-        if (!error) {
-            throw new Error("{ code: string, message: string } object is required!");
+    constructor({ name, message }) {
+        if (!name || !message) {
+            throw new Error("{ name: string, message: string } object is required!");
         }
 
-        this._error = error;
-
-        this.name = error.name;
-    }
-
-    appendMessage(message) {
-        this._error.message += message;
+        this.name = name;
+        this.message = message;
     }
 
     formatMessage(...values) {
-        const formattedMessage = this._error.message.replace(formatRegExp, function(match, index) {
-            return values[parseInt(index, 10)];
+        const flattenValues = flatten(values);
+
+        const formattedMessage = this.message.replace(formatRegExp, function(match, index) {
+            return flattenValues[parseInt(index, 10)];
         });
 
-        return `${this._error.name}: ${formattedMessage}`;
+        return `${this.name}: ${formattedMessage}`;
+    }
+
+    error(...values) {
+        return new Error(this.formatMessage(values));
     }
 }
 
-const predicate = function(prev, current) {
-    prev[current.name] = new IntlError(current);
-    return prev;
+const flatten = function(arr) {
+    return arr.reduce((a, b) => a.concat(b), []);
 };
 
-const errors = errorsList.reduce(predicate, {});
+const mapErrors = function(errors) {
+    const predicate = function(prev, name) {
+        prev[name] = new IntlError({ name, message: errors[name] });
+        return prev;
+    };
+
+    return Object.keys(errors).reduce(predicate, {});
+};
+
+const errors = mapErrors(errorDetails);
 
 export {
     errors,
