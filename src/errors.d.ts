@@ -6,6 +6,6 @@ declare class IntlError {
     error(...values: any[]): Error;
 }
 declare const errors: any;
-declare const mapErrors: (errors: { [x: string]: string; }) => { [x: string]: IntlError };
+declare const toIntlErrors: (errors: { [x: string]: string; }) => { [x: string]: IntlError };
 
-export { errors, mapErrors, IntlError };
+export { errors, IntlError, toIntlErrors };
