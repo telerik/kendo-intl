@@ -10,15 +10,16 @@ position: 6
 
 Below is the list of all controlled errors that could be thrown:
 
-| Type                         | Message                                                                                                                                        | Code|
-|:---                          |:---                                                                                                                                            |:--- |
-|`NoLocaleError`               | Missing locale info for {locale}                                                                                                               | 101 |
-|`NoCurrencyError`             | Cannot determine currency information. Please load the locale currencies data.                                                                 | 201 |
-|`NoSupplementalCurrencyError` | Cannot determine currency. Please load the supplemental currencyData.                                                                          | 202 |
-|`NoCurrencyRegionError`       | No currency data for region ${territory}                                                                                                       | 203 |
-|`NoGMTInfoError`              | Cannot determine locale GMT format. Please load the locale timeZoneNames data.                                                                 | 301 |
-|`NoWeekDataError`             | Cannot determine locale first day of week. Please load the supplemental weekData.                                                              | 301 |
-|`NoFirstDayError`             | Cannot determine locale first day of week. The default culture data includes only en-US first day info. Please load the supplemental weekData. | 301 |
+| Type                         | Message
+|:---                          |:---
+|`NoLocaleError`               | Missing locale info for {locale}
+|`NoCurrencyError`             | Cannot determine currency information. Please load the locale currencies data.
+|`NoSupplementalCurrencyError` | Cannot determine currency. Please load the supplemental currencyData.
+|`NoCurrencyRegionError`       | No currency data for region ${territory}
+|`NoCurrencyDisplay`           | Cannot determine currency display information. Please load the locale currencies data. The default culture does not include the all currencies data.
+|`NoGMTInfoError`              | Cannot determine locale GMT format. Please load the locale timeZoneNames data.
+|`NoWeekDataError`             | Cannot determine locale first day of week. Please load the supplemental weekData.
+|`NoFirstDayError`             | Cannot determine locale first day of week. The default culture data includes only en-US first day info. Please load the supplemental weekData.
 
 ## Suggested Links
 
