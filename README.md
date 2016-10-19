@@ -52,7 +52,7 @@ parseDate("Montag, 6.11.2000", "EEEE, d.MM.y", "de"); // Mon Nov 06 2000
 parseDate("2000-11-06T10:30Z"); // Mon Nov 06 2000 12:30
 ```
 
-For more examples and available configuration options, refer to the article on [date parsing](https://github.com/telerik/kendo-intl/blob/master/docs/dates/date-parsing.md).
+For more examples and available configuration options, refer to the article on [date parsing](https://github.com/telerik/kendo-intl/blob/master/docs/date-parsing/index.md).
 
 ### Date Formatting
 
@@ -66,7 +66,7 @@ formatDate(new Date(2000, 10, 6), "yMd", "de"); // 6.11.2000
 formatDate(new Date(2000, 10, 6), "EEEE, d.MM.y", "bg"); // понеделник, 6.11.2000
 ```
 
-For more examples and available configuration options, refer to the article on [date formatting](https://github.com/telerik/kendo-intl/blob/master/docs/dates/date-formatting.md).
+For more examples and available configuration options, refer to the article on [date formatting](https://github.com/telerik/kendo-intl/blob/master/docs/date-formatting/index.md).
 
 ### Number Parsing
 
@@ -81,7 +81,7 @@ parseNumber("10.22 %"); // 0.1022
 parseNumber("1,0000123e+4", "bg"); // 10000.123
 ```
 
-For more examples and available configuration options, refer to the article on [number parsing](https://github.com/telerik/kendo-intl/blob/master/docs/numbers/number-parsing.md).
+For more examples and available configuration options, refer to the article on [number parsing](https://github.com/telerik/kendo-intl/blob/master/docs/num-parsing/index.md).
 
 ### Number Formatting
 
@@ -103,7 +103,7 @@ formatNumber(1234.567, {
 formatNumber(2345678, "##,#.00"); // 2,345,678.00
 ```
 
-For more examples and available configuration options, refer to the article on [number formatting](https://github.com/telerik/kendo-intl/blob/master/docs/numbers/number-formatting.md).
+For more examples and available configuration options, refer to the article on [number formatting](https://github.com/telerik/kendo-intl/blob/master/docs/num-formatting/index.md).
 
 ## Installation
 
@@ -130,4 +130,4 @@ var numbers = require('@telerik/kendo-intl/number').numbers;
 var dates = require('@telerik/kendo-intl/dates').dates;
 ```
 
-> To install the npm package, it is recommended that you use Node.js 5.0.0 or later versions.
+> To install the npm package, you use Node.js 5.0.0 or later versions.
