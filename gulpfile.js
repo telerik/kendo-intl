@@ -43,10 +43,9 @@ gulp.task("build-default-data", ["build-npm-package"], () => {
                     }]
                 }
             },
-            "weekData": {
-                "firstDay": {
-                    "001": "mon",
-                    "US": "sun"
+            weekData: {
+                firstDay: {
+                    US: cldr.cldr.supplemental.weekData.firstDay.US
                 }
             }
         }
