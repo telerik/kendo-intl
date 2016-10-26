@@ -25,33 +25,33 @@ const defaultData = {
                 "timeSeparator": ":"
             },
             "decimal": {
-                "groupSize": [
-                    3
-                ],
                 "patterns": [
                     "n"
+                ],
+                "groupSize": [
+                    3
                 ]
             },
             "scientific": {
-                "groupSize": [],
                 "patterns": [
                     "nEn"
-                ]
+                ],
+                "groupSize": []
             },
             "percent": {
-                "groupSize": [
-                    3
-                ],
                 "patterns": [
                     "n%"
+                ],
+                "groupSize": [
+                    3
                 ]
             },
             "currency": {
-                "groupSize": [
-                    3
-                ],
                 "patterns": [
                     "$n"
+                ],
+                "groupSize": [
+                    3
                 ],
                 "unitPattern-count-one": "n $",
                 "unitPattern-count-other": "n $"
@@ -132,6 +132,7 @@ const defaultData = {
                     "MMMd": "MMM d",
                     "MMMEd": "E, MMM d",
                     "MMMMd": "MMMM d",
+                    "MMMMW": "'week' W 'of' MMM",
                     "ms": "mm:ss",
                     "y": "y",
                     "yM": "M/y",
@@ -142,7 +143,8 @@ const defaultData = {
                     "yMMMEd": "E, MMM d, y",
                     "yMMMM": "MMMM y",
                     "yQQQ": "QQQ y",
-                    "yQQQQ": "QQQQ y"
+                    "yQQQQ": "QQQQ y",
+                    "yw": "'week' w 'of' y"
                 },
                 "appendItems": {
                     "Day": "{0} ({2}: {1})",
@@ -522,10 +524,10 @@ const defaultData = {
                         "noon": "noon",
                         "pm": "PM",
                         "pm-alt-variant": "pm",
-                        "morning1": "in the morning",
-                        "afternoon1": "in the afternoon",
-                        "evening1": "in the evening",
-                        "night1": "at night"
+                        "morning1": "morning",
+                        "afternoon1": "afternoon",
+                        "evening1": "evening",
+                        "night1": "night"
                     },
                     "narrow": {
                         "midnight": "midnight",
@@ -534,10 +536,10 @@ const defaultData = {
                         "noon": "noon",
                         "pm": "PM",
                         "pm-alt-variant": "pm",
-                        "morning1": "in the morning",
-                        "afternoon1": "in the afternoon",
-                        "evening1": "in the evening",
-                        "night1": "at night"
+                        "morning1": "morning",
+                        "afternoon1": "afternoon",
+                        "evening1": "evening",
+                        "night1": "night"
                     },
                     "wide": {
                         "midnight": "midnight",
@@ -594,7 +596,6 @@ const defaultData = {
         },
         "weekData": {
             "firstDay": {
-                "001": "mon",
                 "US": "sun"
             }
         }

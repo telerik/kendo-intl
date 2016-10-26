@@ -26,7 +26,7 @@ const cleanupCurrencies = (locale) => {
     return locale;
 };
 
-gulp.task("build-default-data", () => {
+gulp.task("build-default-data", ["build-npm-package"], () => {
     const cldr = require("./dist/npm/js/cldr");
     cldr.load(likelySubtags, currencyData, weekData, numbers, currencies, timeZoneNames, calendar);
 
@@ -43,10 +43,9 @@ gulp.task("build-default-data", () => {
                     }]
                 }
             },
-            "weekData": {
-                "firstDay": {
-                    "001": "mon",
-                    "US": "sun"
+            weekData: {
+                firstDay: {
+                    US: cldr.cldr.supplemental.weekData.firstDay.US
                 }
             }
         }
