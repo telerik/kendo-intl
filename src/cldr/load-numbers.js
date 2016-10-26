@@ -11,11 +11,14 @@ const DECIMAL_SEPARATOR = ".";
 const patternRegExp = /([ #,0. ]+)/g;
 const cldrCurrencyRegExp = /¤/g;
 
-function patternOptions(pattern) {
-    const patterns = pattern
-      .replace(cldrCurrencyRegExp, "$")
-      .replace(patternRegExp, "n")
-      .split(";");
+function getPatterns(pattern) {
+    patternRegExp.lastIndex = 0;
+
+    return pattern.replace(cldrCurrencyRegExp, "$").replace(patternRegExp, "n").split(";");
+}
+
+function getGroupSize(pattern) {
+    patternRegExp.lastIndex = 0;
 
     const numberPatterns = patternRegExp.exec(pattern.split(LIST_SEPARATOR)[0])[0].split(DECIMAL_SEPARATOR);
     const integer = numberPatterns[0];
@@ -24,10 +27,7 @@ function patternOptions(pattern) {
         return group.length;
     }).reverse();
 
-    return {
-        groupSize: groupSize,
-        patterns: patterns
-    };
+    return groupSize;
 }
 
 function loadCurrencyUnitPatterns(currencyInfo, currencyFormats) {
@@ -48,9 +48,14 @@ export default function loadNumbersInfo(locale, info) {
         } else if (field.includes(LATIN_NUMBER_FORMATS)) {
             const style = field.substr(0, field.indexOf(LATIN_NUMBER_FORMATS));
             const pattern = info[field].standard;
-            numbers[style] = patternOptions(pattern);
+            numbers[style] = {
+                patterns: getPatterns(pattern)
+            };
             if (style === "currency") {
+                numbers[style].groupSize = getGroupSize((info["decimal" + LATIN_NUMBER_FORMATS] || info[field]).standard);
                 loadCurrencyUnitPatterns(numbers[style], info[field]);
+            } else {
+                numbers[style].groupSize = getGroupSize(pattern);
             }
         } else if (field === "currencies") {
             numbers.currencies = info[field];
