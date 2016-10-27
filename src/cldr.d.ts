@@ -5,6 +5,7 @@ export interface DateFormatNameOptions {
     standAlone?: string;
 }
 
-export function dateFormatNames(locale: string, options: DateFormatNameOptions) : any;
+export function dateFormatNames(locale: string, options: DateFormatNameOptions): any;
 export function firstDay(locale: string): number;
 export function load(...data: any[]): void;
+export function numberSymbols(locale: string): any;
