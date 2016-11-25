@@ -3,9 +3,6 @@ import errorDetails from './error-details';
 const formatRegExp = /\{(\d+)}?\}/g;
 
 class IntlError {
-    name = "";
-    message = "";
-
     constructor({ name, message }) {
         if (!name || !message) {
             throw new Error("{ name: string, message: string } object is required!");

@@ -6,10 +6,12 @@
     "type": "git",
     "url": "https://github.com/telerik/kendo-intl.git"
   },
-  "main": "dist/npm/js/main.js",
-  "typings": "dist/npm/js/main",
+  "main": "dist/npm/main.js",
+  "module": "dist/es/main.js",
+  "jsnext:main": "dist/es/main.js",
+  "typings": "dist/es/main",
   "scripts": {
-    "build-package": "gulp build-npm-package",
+    "build-package": "gulp build-rollup-package",
     "test": "gulp test",
     "lint": "gulp lint",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
