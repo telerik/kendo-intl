@@ -50,24 +50,23 @@ export default function parseNumber(value, locale = "en", format = {}) {
     const symbols = info.numbers.symbols;
 
     let number = value.toString();
-    let negative = number.indexOf("-");
     let isPercent;
 
     if (exponentRegExp.test(number)) {
         number = parseFloat(number.replace(symbols.decimal, "."));
-        if (isNaN(number)) {
-            number = null;
-        }
-        return number;
+        return isNaN(number) ? null : number;
     }
 
-    if (negative > 0) {
+    const negativeSignIndex = number.indexOf("-");
+    if (negativeSignIndex > 0) {
         return null;
     }
 
-    negative = negative > -1;
+    let isNegative = negativeSignIndex > -1;
+    const { negative: negativeCurrency, number: newNumber } = cleanCurrencyNumber(number, info, format);
 
-    ({ negative = negative, number } = cleanCurrencyNumber(number, info, format));
+    number = newNumber;
+    isNegative = negativeCurrency !== undefined ? negativeCurrency : isNegative;
 
     if (format.style === "percent" || number.indexOf(symbols.percentSign) > -1) {
         number = number.replace(symbols.percentSign, "");
@@ -83,7 +82,7 @@ export default function parseNumber(value, locale = "en", format = {}) {
 
     if (isNaN(number)) {
         number = null;
-    } else if (negative) {
+    } else if (isNegative) {
         number *= -1;
     }
 
