@@ -77,7 +77,7 @@ import { parseNumber } from '@telerik/kendo-intl';
 
 parseNumber("12.22"); // 12.22
 parseNumber("1.212,22 €", "de"); // 1212.22
-parseNumber("10.22 %"); // 0.1022    
+parseNumber("10.22 %"); // 0.1022
 parseNumber("1,0000123e+4", "bg"); // 10000.123
 ```
 
@@ -104,6 +104,22 @@ formatNumber(2345678, "##,#.00"); // 2,345,678.00
 ```
 
 For more examples and available configuration options, refer to the article on [number formatting](https://github.com/telerik/kendo-intl/blob/master/docs/num-formatting/index.md).
+
+### General Formatting
+
+Provides methods for placeholder and type independent formatting using the locale specific settings.
+
+```js
+import { format, toString } from '@telerik/kendo-intl';
+
+format('Date: {0:d} - Price: {1:c}', [new Date(), 10.5], "en") // Date: 1/5/2017 - Price: $10.50
+
+toString(10.5, "c", "bg"); // 10,50 лв.
+
+toString(new Date(), "d"); // 1/5/2017
+```
+
+For more examples and available configuration options, refer to the article on [general formatting](https://github.com/telerik/kendo-intl/blob/master/docs/general-formatting/index.md).
 
 ## Installation
 

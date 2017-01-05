@@ -18,6 +18,8 @@ The Date Parsing and Date Formatting modules provide methods for parsing and for
 
 The Number Parsing and Number Formatting modules provide methods for parsing and formatting of numbers.
 
+The General Formatting module provides methods for placeholder and type independent formatting.
+
 ## Suggested Links
 
 * [Get Started with CLDR]({% slug cldrdata_overview_internalization %})

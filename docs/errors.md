@@ -3,7 +3,7 @@ title: Errors
 page_title: Errors | Kendo UI Internationalization Package
 description: "List of possible exceptions that the package could throw."
 slug: errors_internalization_kendoui
-position: 6
+position: 7
 ---
 
 # Errors list
