@@ -23,7 +23,7 @@ The `parseNumber` method supports the parsing of the following string formats:
 
 It parses strings representing numbers with locale specific group and decimal separators.
 
-    import { parseNumber } from '@telerik/kendo-intl/numbers';
+    import { parseNumber } from '@telerik/kendo-intl';
 
     parseNumber("123.456,789", "de"); // 123456.789
 
@@ -33,13 +33,13 @@ It parses strings representing numbers with locale specific separators and curre
 
 The example below demonstrates the basic Currency format.
 
-    import { parseNumber } from '@telerik/kendo-intl/numbers';
+    import { parseNumber } from '@telerik/kendo-intl';
 
     parseNumber("$123,456.789"); // 123456.789
 
 The example below demonstrates a non-default Currency format.
 
-    import { parseNumber } from '@telerik/kendo-intl/numbers';
+    import { parseNumber } from '@telerik/kendo-intl';
 
     parseNumber("€123,456,789.00", "en", { currency: "EUR" }); // 123456789
 
@@ -47,7 +47,7 @@ The example below demonstrates a non-default Currency format.
 
 It parses strings representing percentages with locale specific separators and percent symbol. The parsed number is divided by 100.
 
-    import { parseNumber } from '@telerik/kendo-intl/numbers';
+    import { parseNumber } from '@telerik/kendo-intl';
 
     parseNumber("50%"); // 0.5
 
@@ -55,7 +55,7 @@ It parses strings representing percentages with locale specific separators and p
 
 It parses strings representing exponential numbers with the locale specific decimal separator.
 
-    import { parseNumber } from '@telerik/kendo-intl/numbers';
+    import { parseNumber } from '@telerik/kendo-intl';
 
     parseNumber("1,5e+7", "de"); // 15000000
 
