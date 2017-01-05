@@ -10,19 +10,22 @@ position: 1
 
 The Kendo UI Internationalization library uses the [Unicode Common Locale Data Repository (CLDR)](http://cldr.unicode.org/) as a source for the locale information. To function properly, it requires the data for the corresponding locale to load.
 
-The `numbers`, `currencies`, `gregorian calendar`(`"ca-gregorian"`) and `timeZoneNames` for the `en` locale and the `supplemental weekData` are loaded by default.
+The `numbers`, `currencies`, `gregorian calendar`(`"ca-gregorian"`) and `timeZoneNames` for the `en` locale are loaded by default.
+Additionally, a subset of the supplemental `currencyData`, `likelySubtags` and `weekData` is loaded in order to support `en` dates and numbers parsing and formatting without loading any data.
 
 ## Prerequisites
 
-The table below lists the data which is required for number and date formatting and parsing.
+No data is required to be loaded if working with the `en` locale. The only case in which additional data for the `en` locale is required is currency formatting with non-default currency in which case the `cldr-data/main/en/currencies.json` data must be loaded.
+The table below lists the data which is required for number and date formatting and parsing when using non-default locale.
 
-| FORMATS            | REQUIRED DATA                          |
-|:---                |:---                                    |
-| Any                | `cldr/supplemental/likelySubtags.json` |
-| Basic numbers      | `cldr/main/locale/numbers.json`        |
-| Currency           | `cldr/main/locale/currencies.json` and `cldr/supplemental/currencyData.json` |
-| Basic dates        | `cldr/main/locale/ca-gregorian.json`   |
-| Localized timezone | `cldr/main/locale/timeZoneNames.json`  |
+| FORMATS                      | REQUIRED DATA                          |
+|:---                          |:---                                    |
+| Any                          | `cldr/supplemental/likelySubtags.json` |
+| Basic numbers                | `cldr/main/locale/numbers.json`        |
+| Currency                     | `cldr/main/locale/currencies.json` and `cldr/supplemental/currencyData.json` |
+| Basic dates                  | `cldr/main/locale/ca-gregorian.json`   |
+| Localized timezone           | `cldr/main/locale/timeZoneNames.json`  |
+| Numberic week day formatting | `cldr/supplemental/weekData.json`      |
 
 ## Getting CLDR Data
 
