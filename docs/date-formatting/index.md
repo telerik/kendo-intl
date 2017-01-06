@@ -97,14 +97,15 @@ Date formatting converts a `Date` object to a human-readable string using the lo
 The following specifiers can be used in the custom formats.
 
 * **The `"G"` specifier**&mdash;Renders the era name.
-  For the abbreviated name, use one to three letters. For the wide name, use four letters. For the narrow name, use five letters.
+    For the abbreviated name, use one to three letters. For the wide name, use four letters. For the narrow name, use five letters.
 
         import { formatDate } from '@telerik/kendo-intl';
 
         formatDate(new Date(2000, 0, 1), "y G"); // 2000 AD
 
 * **The `"y"` specifier**&mdash;Renders the year.
-  To render the full year, use one letter. To render a two-digit year, use two letters. To render a zero-padded year, if necessary, use three or four letters.
+
+    To render the full year, use one letter. To render a two-digit year, use two letters. To render a zero-padded year, if necessary, use three or four letters.
 
         import { formatDate } from '@telerik/kendo-intl';
 
@@ -115,7 +116,8 @@ The following specifiers can be used in the custom formats.
         formatDate(new Date(111, 0, 1), "yyyy"); // 0111  
 
 * **The `"Q"` specifier**&mdash;Renders a quarter of the year.
-  For the numerical quarter, use one or two letters. For the abbreviation, use three letters. For the wide name, use four letters. For the narrow name, use five letters.
+
+    For the numerical quarter, use one or two letters. For the abbreviation, use three letters. For the wide name, use four letters. For the narrow name, use five letters.
 
         import { formatDate } from '@telerik/kendo-intl';
 
