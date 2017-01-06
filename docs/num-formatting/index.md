@@ -31,7 +31,7 @@ Standard number formatting can be specified by passing an options object or a st
 
         formatNumber(1234.5678, "n5"); // 1,234.56780
 
-* **The `"c"` specifier**&mdash;Formats the number as a currency based on the locale. The specified locale latest currency symbol is used for the formatting. Precision is specified by adding a number after `"c"`. By default, the number is formatted and rounded to two decimal digits, or the number of digits in the CLDR `currencyData` fractions data if the currency is available.
+* **The `"c"` specifier**&mdash;Formats the number as a currency based on the locale. The latest currency symbol of the specified locale is used for the formatting. To specify precision, add a number after `"c"`. By default, the number is formatted and rounded to two decimal digits, or to the number of digits in the `currencyData` fractions data of the CLDR if the currency is available.
 
   > The locale numbers `currencies` data and the supplemental `currencyData` must be loaded for the currency formatting to work.
 
@@ -43,7 +43,7 @@ Standard number formatting can be specified by passing an options object or a st
 
         formatNumber(1234.5678, "c5", "bg"); // 1 234,56780 лв
 
-* **The `"p"` specifier**&mdash;Formats the number as a percentage based on the locale. The passed number is multiplied by 100. Precision is specified by adding a number after `"p"`. By default, the number is formatted and rounded to zero decimal digits.
+* **The `"p"` specifier**&mdash;Formats the number as a percentage based on the locale. The passed number is multiplied by 100. To specify precision, add a number after `"p"`. By default, the number is formatted and rounded to zero decimal digits.
 
         import { formatNumber } from '@telerik/kendo-intl';
 
@@ -59,7 +59,7 @@ Standard number formatting can be specified by passing an options object or a st
 
         formatNumber(0.45678, "e0"); // 5e-1
 
-  Apart from setting a string, the standard formats can also be specified by passing an object with the style option.
+  Apart from setting a string, you can also specify the standard formats by passing an object with the style option.
 
         import { formatNumber } from '@telerik/kendo-intl';
 
@@ -78,7 +78,7 @@ Standard number formatting can be specified by passing an options object or a st
             style: "percent"
         }, "de"); // 123.457 %
 
-For full list of available options check the [`formatNumber` API]({% slug numbersapi_internalization %}#the-formatnumber-method).
+For the full list of available options, refer to the API documentation on the [`formatNumber`]({% slug numbersapi_internalization %}#the-formatnumber-method) method.
 
 ### Custom
 
