@@ -24,11 +24,11 @@ The format string.
 
 #### values `Array`
 
-The values that should be replaced in the format string
+The values that should be replaced in the format string.
 
 #### locale `String`
 
-Optional locale id. If not specified 'en' will be used.
+The optional locale id. If not specified, the `en` locale id is used.
 
 ## Return Value
 
@@ -38,7 +38,7 @@ The format string with replaced formatted values.
 
 #### toString
 
-Formats dates and numbers based on the specified format and locale
+Formats dates and numbers based on the specified format and locale.
 
 ## Parameters
 
@@ -52,7 +52,7 @@ A string representing a predefined or custom date or number format, or a configu
 
 #### locale `String`
 
-Optional locale id. If not specified 'en' will be used.
+The optional locale id. If not specified, the `en` locale id is used.
 
 ## Return Value
 

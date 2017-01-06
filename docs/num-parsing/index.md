@@ -8,20 +8,20 @@ position: 1
 
 # Number Parsing
 
-Number parsing converts a string to a `Number` object using the specific settings of the locale.
+Number parsing converts a string to a `Number` object by using the specific settings of the locale.
 
 ## Configuration
 
 The `parseNumber` method supports the parsing of the following string formats:
 
-* Decimal
-* Currency
-* Percentage
-* Exponential
+* [Decimal](#decimal).
+* [Currency](#currency).
+* [Percentage](#percentage).
+* [Exponential](#exponential).
 
 ### Decimal
 
-It parses strings representing numbers with locale specific group and decimal separators.
+It parses strings representing numbers with the specific group and decimal separators of the locale.
 
     import { parseNumber } from '@telerik/kendo-intl';
 
@@ -29,15 +29,15 @@ It parses strings representing numbers with locale specific group and decimal se
 
 ### Currency
 
-It parses strings representing numbers with locale specific separators and currency symbol. If non-default for the locale currency is used then you must supply format options that specify the currency.
+It parses strings representing numbers with the specific separators and currency symbol of the locale. If you use a non-default format for the locale currency, provide format options to specify the currency.
 
-The example below demonstrates the basic Currency format.
+The following example demonstrates the basic currency format.
 
     import { parseNumber } from '@telerik/kendo-intl';
 
     parseNumber("$123,456.789"); // 123456.789
 
-The example below demonstrates a non-default Currency format.
+The following example demonstrates a non-default currency format.
 
     import { parseNumber } from '@telerik/kendo-intl';
 
@@ -45,7 +45,7 @@ The example below demonstrates a non-default Currency format.
 
 ### Percentage
 
-It parses strings representing percentages with locale specific separators and percent symbol. The parsed number is divided by 100.
+It parses strings representing percentages with specific separators and percent symbol of the locale. The parsed number is divided by 100.
 
     import { parseNumber } from '@telerik/kendo-intl';
 
@@ -53,7 +53,7 @@ It parses strings representing percentages with locale specific separators and p
 
 ### Exponential
 
-It parses strings representing exponential numbers with the locale specific decimal separator.
+It parses strings representing exponential numbers with the specific decimal separator of the locale.
 
     import { parseNumber } from '@telerik/kendo-intl';
 
