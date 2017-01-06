@@ -18,14 +18,14 @@ Additionally, a subset of the supplemental `currencyData`, `likelySubtags` and `
 No data is required to be loaded if working with the `en` locale. The only case in which additional data for the `en` locale is required is currency formatting with non-default currency in which case the `cldr-data/main/en/currencies.json` data must be loaded.
 The table below lists the data which is required for number and date formatting and parsing when using non-default locale.
 
-| FORMATS                      | REQUIRED DATA                          |
-|:---                          |:---                                    |
-| Any                          | `cldr/supplemental/likelySubtags.json` |
-| Basic numbers                | `cldr/main/locale/numbers.json`        |
-| Currency                     | `cldr/main/locale/currencies.json` and `cldr/supplemental/currencyData.json` |
-| Basic dates                  | `cldr/main/locale/ca-gregorian.json`   |
-| Localized timezone           | `cldr/main/locale/timeZoneNames.json`  |
-| Numberic week day formatting | `cldr/supplemental/weekData.json`      |
+| FORMATS                     | REQUIRED DATA                          |
+|:---                         |:---                                    |
+| Any                         | `cldr/supplemental/likelySubtags.json` |
+| Basic numbers               | `cldr/main/locale/numbers.json`        |
+| Currency                    | `cldr/main/locale/currencies.json` and `cldr/supplemental/currencyData.json` |
+| Basic dates                 | `cldr/main/locale/ca-gregorian.json`   |
+| Localized timezone          | `cldr/main/locale/timeZoneNames.json`  |
+| Numeric week day formatting | `cldr/supplemental/weekData.json`      |
 
 ## Getting CLDR Data
 
