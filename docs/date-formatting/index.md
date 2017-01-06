@@ -14,13 +14,11 @@ Date formatting converts a `Date` object to a human-readable string using the lo
 
 ### Predefined
 
-**The `d` specifier**
+* **The `d` specifier**&mdash;Renders a short date pattern&mdash;`"M/d/y"` for en.
 
-The `"d"` specifier renders a short date pattern&mdash;`"M/d/y"` for en.
+        import { formatDate } from '@telerik/kendo-intl';
 
-    import { formatDate } from '@telerik/kendo-intl';
-
-    formatDate(new Date(2000, 10, 6), "d"); // 10/6/2000
+        formatDate(new Date(2000, 10, 6), "d"); // 10/6/2000
 
 **The `D` specifier**
 
