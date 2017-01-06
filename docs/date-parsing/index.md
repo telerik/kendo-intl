@@ -14,7 +14,9 @@ You can use the `parseDate` method to parse values based on the specified format
 
 ## Configuration
 
-The `parseDate` method supports the parsing of implicit and explicit string formats.
+The `parseDate` method supports the parsing of:
+* [Implicit string formats](#implicit-formats).
+* [Explicit string formats](#explicit-formats).
 
 ### Implicit Formats
 

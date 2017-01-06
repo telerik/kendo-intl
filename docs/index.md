@@ -16,7 +16,7 @@ The package includes:
 
 * **CLDR**&mdash;Provides locale information for the `dates` and `numbers` modules.    
 * **Date Parsing** and **Date Formatting**&mdash;Provide methods for parsing and formatting dates.
-* **Number Parsing** and **Number Formatting**&mdash;Provide methods for parsing and formatting of numbers.
+* **Number Parsing** and **Number Formatting**&mdash;Provide methods for parsing and formatting numbers.
 * **General Formatting**&mdash;Provides methods for placeholder and type independent formatting.
 
 ## Suggested Links

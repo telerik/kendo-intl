@@ -10,13 +10,14 @@ position: 1
 
 Provides methods for applying placeholder format and type independent value formatting by using the locale specific settings.
 
-## Types
+## Types of General Formatting
 
-General formatting refers to:
+The supported types of general formatting are:
+
 * [Placeholder formatting](#placeholder-formatting).
-* [Type Independent formatting](#type-independent-formatting).
+* [Type independent formatting](#type-independent-formatting).
 
-## Placeholder Formatting
+### Placeholder Formatting
 
 To replace the format string placeholders (`{index}`) with the provided values based on the index, use the `format` method. You can also set a specific format specified for `Date` and `Number` values by adding `:format` after the index.
 
@@ -24,7 +25,7 @@ To replace the format string placeholders (`{index}`) with the provided values b
 
     format('Date: {0:d} - Price: {1:c}', [new Date(), 10.5], "en"); // Date: 1/5/2017 - Price: $10.50
 
-## Type Independent Formatting
+### Type Independent Formatting
 
 To format both the `Date` and `Number` values by using the locale specific settings, apply the `toString` method. If you pass a string as a value, it is returned without any modification.
 

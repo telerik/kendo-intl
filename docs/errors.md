@@ -13,13 +13,13 @@ The following table provides the full list of controlled errors that might possi
 | TYPE                         | MESSAGE  
 |:---                          |:---
 |`NoLocaleError`               | Missing locale information for {locale}.
-|`NoCurrencyError`             | Cannot determine the currency information. Load the currency data of the locale.
-|`NoSupplementalCurrencyError` | Cannot determine the currency. Load the supplemental `currencyData`.
+|`NoCurrencyError`             | <p>Cannot determine the currency information.</p> <p>Load the currency data of the locale.</p>
+|`NoSupplementalCurrencyError` | <p>Cannot determine the currency.</p> <p>Load the supplemental `currencyData`.</p>
 |`NoCurrencyRegionError`       | Missing currency information for the region ${territory}.
-|`NoCurrencyDisplay`           | Cannot determine the display information for the currency. Load the currency data of the locale. The default culture does not include all currency data.
-|`NoGMTInfoError`              | Cannot determine the GMT format of the locale. Load the `timeZoneNames` data of the locale.
-|`NoWeekDataError`             | Cannot determine the first week day of the locale. Load the supplemental `weekData`.
-|`NoFirstDayError`             | Cannot determine the first week day of the locale. The default culture data includes only the en-US first day information. Load the supplemental `weekData`.
+|`NoCurrencyDisplay`           | <p>Cannot determine the display information for the currency.</p> <p>Load the currency data of the locale. The default culture does not include all currency data.</p>
+|`NoGMTInfoError`              | <p>Cannot determine the GMT format of the locale.</p> <p>Load the `timeZoneNames` data of the locale.</p>
+|`NoWeekDataError`             | <p>Cannot determine the first week day of the locale.</p> <p>Load the supplemental `weekData`.</p>
+|`NoFirstDayError`             | <p>Cannot determine the first week day of the locale.</p> <p>The default culture data includes only the en-US first day information. Load the supplemental `weekData`.</p>
 
 ## Suggested Links
 
