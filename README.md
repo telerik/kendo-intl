@@ -7,24 +7,30 @@
 
 This repository contains the source code and documentation of the Kendo UI Internationalization package.
 
-It includes methods for parsing and formatting dates and numbers using [Unicode Common Locale Data Repository (CLDR)](http://cldr.unicode.org/) data, which are split into the following modules:
+It includes methods for parsing and formatting dates and numbers by using [Unicode Common Locale Data Repository (CLDR)](http://cldr.unicode.org/) data. These methods are split into the following modules:
 
-* CLDR
-* Date Parsing
-* Date Formatting
-* Number Parsing
-* Number Formatting
+* [CLDR](#cldr-data)
+* [Date Parsing](#date-parsing)
+* [Date Formatting](#date-formatting)
+* [Number Parsing](#number-parsing)
+* [Number Formatting](#number-formatting)
+* [General Formatting](#general-formatting)
 
 ## Basic Usage
 
 ### CLDR Data
 
-The [cldr-data module](https://www.npmjs.com/package/cldr-data) is required in order to download the full CDLR database.
+To download the full CDLR database, you need to install the [cldr-data module](https://www.npmjs.com/package/cldr-data) by running the following command.
+
 ```sh
 npm install --save cldr-data
 ```
 
-To use the methods for different locales, use the [`load`](https://github.com/telerik/kendo-intl/blob/master/docs/cldr/api.md#load) method to load the `likelySubtags` and locale data. Additionally, the library requires the loading of the supplemental `currencyData` for the default currency formatting and the `weekData` for the day of week formatting.
+To apply the methods for different locales, load the `likelySubtags` and the locale data by using the [`load`](https://github.com/telerik/kendo-intl/blob/master/docs/cldr/api.md#load) method.
+
+Additionally, the library requires you to load:
+* The supplemental `currencyData` for the default currency formatting.
+* The `weekData` for the day of week formatting.
 
 ```javascript
 import { load } from '@telerik/kendo-intl';
@@ -42,7 +48,7 @@ For more examples and available configuration options, refer to the article on [
 
 ### Date Parsing
 
-Date parsing converts a string to a `Date` object using the locale specific settings.
+Date parsing converts a string to a `Date` object by using the specific settings of the locale.
 
 ```js
 import { parseDate } from '@telerik/kendo-intl';
@@ -56,7 +62,7 @@ For more examples and available configuration options, refer to the article on [
 
 ### Date Formatting
 
-Date parsing converts a `Date` object to a human-readable string using the locale specific settings.
+Date formatting converts a `Date` object to a human-readable string by using the specific settings of the locale.
 
 ```js
 import { formatDate } from '@telerik/kendo-intl';
@@ -70,14 +76,14 @@ For more examples and available configuration options, refer to the article on [
 
 ### Number Parsing
 
-Number parsing converts a string to a `Number` object using the specific settings of the locale.
+Number parsing converts a string to a `Number` object by using the specific settings of the locale.
 
 ```js
 import { parseNumber } from '@telerik/kendo-intl';
 
 parseNumber("12.22"); // 12.22
 parseNumber("1.212,22 €", "de"); // 1212.22
-parseNumber("10.22 %"); // 0.1022    
+parseNumber("10.22 %"); // 0.1022
 parseNumber("1,0000123e+4", "bg"); // 10000.123
 ```
 
@@ -85,7 +91,7 @@ For more examples and available configuration options, refer to the article on [
 
 ### Number Formatting
 
-Number formatting converts a `Number` object to a human-readable string using the locale specific settings.
+Number formatting converts a `Number` object to a human-readable string using the specific settings of the locale.
 
 ```js
 import { formatNumber } from '@telerik/kendo-intl';
@@ -105,29 +111,43 @@ formatNumber(2345678, "##,#.00"); // 2,345,678.00
 
 For more examples and available configuration options, refer to the article on [number formatting](https://github.com/telerik/kendo-intl/blob/master/docs/num-formatting/index.md).
 
+### General Formatting
+
+General formatting provides methods for independent placeholder and type formatting by using the specific settings of the locale.
+
+```js
+import { format, toString } from '@telerik/kendo-intl';
+
+format('Date: {0:d} - Price: {1:c}', [new Date(), 10.5], "en") // Date: 1/5/2017 - Price: $10.50
+
+toString(10.5, "c", "bg"); // 10,50 лв.
+
+toString(new Date(), "d"); // 1/5/2017
+```
+
+For more examples and available configuration options, refer to the article on [general formatting](https://github.com/telerik/kendo-intl/blob/master/docs/general-formatting/index.md).
+
 ## Installation
 
-The Internationalization library is published as a [scoped NPM package](https://docs.npmjs.com/misc/scope) in the [NPMJS Telerik account](https://www.npmjs.com/~telerik).
+1. The Internationalization library is published as a [scoped NPM package](https://docs.npmjs.com/misc/scope) in the [NPMJS Telerik account](https://www.npmjs.com/~telerik).
 
-Install it using NPM.
+2. Download and install the module:
 
-```bash
-npm install --save '@telerik/kendo-intl';
-```
+    ```bash
+    npm install --save '@telerik/kendo-intl';
+    ```
 
-Once installed, import the module.
+3. Once installed, import the Internationalization in your application root module:
 
-```javascript
-// ES2015 module syntax
-import { formatDate, parseDate } from '@telerik/kendo-intl';
-//or
-import { formatNumber, parseNumber } from '@telerik/kendo-intl';
-```
-```javascript
-// CommonJS format
-var numbers = require('@telerik/kendo-intl/number').numbers;
-//or
-var dates = require('@telerik/kendo-intl/dates').dates;
-```
-
-> To install the npm package, you use Node.js 5.0.0 or later versions.
+    ```javascript
+    // ES2015 module syntax
+    import { formatDate, parseDate } from '@telerik/kendo-intl';
+    //or
+    import { formatNumber, parseNumber } from '@telerik/kendo-intl';
+    ```
+    ```javascript
+    // CommonJS format
+    var numbers = require('@telerik/kendo-intl/number').numbers;
+    //or
+    var dates = require('@telerik/kendo-intl/dates').dates;
+    ```

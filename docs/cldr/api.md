@@ -20,7 +20,7 @@ Loads CLDR data.
 
 ##### data `Object`
 
-The CLDR data to be loaded. Multiple parameters are accepted.
+The CLDR data to be loaded. Accepts multiple parameters.
 
 ### firstDay
 
@@ -84,7 +84,7 @@ Indicates whether the standalone names should be returned.
 
 The names.
 
-An object will be returned if the type is `"dayPeriods"` or `"eras"`. For the other types, the result is `Array`.
+If the type is `"dayPeriods"` or `"eras"`, an object is returned. For the other types, the result is `Array`.
 
 ### numberSymbols
 
@@ -100,4 +100,4 @@ The locale id.
 
 ##### Returns `Object`
 
-An object holding the number symbols from the specified locale.
+Holds the number symbols from the specified locale.

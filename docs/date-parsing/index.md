@@ -8,15 +8,19 @@ position: 1
 
 # Date Parsing
 
-Date parsing converts a string to a `Date` object using the locale specific settings. The `parseDate` method can be used to parse values based on the specified formats or implicitly based on the locale predefined formats and some of the standard date formats. If the formats are omitted, then the locale predefined patterns and the standard ISO formats are used to parse the string.
+Date parsing converts a string to a `Date` object by using the locale specific settings.
+
+You can use the `parseDate` method to parse values based on the specified formats or implicitly based on the locale predefined formats and some of the standard date formats. If the formats are omitted, the locale predefined patterns and the standard ISO formats are used to parse the string.
 
 ## Configuration
 
-The `parseDate` method supports the parsing of implicit and explicit string formats.
+The `parseDate` method supports the parsing of:
+* [Implicit string formats](#implicit-formats).
+* [Explicit string formats](#explicit-formats).
 
 ### Implicit Formats
 
-In this case, the `parseDate` method tries to parse the string using both the locale [predefined formats]({% slug dateformatting_internalization %}#predefined) and the standard formats listed in the table below.
+In this case, the `parseDate` method tries to parse the string using both the locale [predefined formats]({% slug dateformatting_internalization %}#predefined) and the standard formats listed in the following table.
 
 | STANDARD FORMATS                   | EXAMPLE VALUE                         |
 | :---                               | :---                                  |
@@ -40,11 +44,11 @@ In this case, the `parseDate` method tries to parse the string using both the lo
 
 ### Explicit Formats
 
-The formats that should be used to parse the value can be passed as parameters to the method. In this case the value is parsed only if it matches one of the specified formats. The supported formats are the same as the ones described in the article on [date formatting]({% slug dateformatting_internalization %}).
+You can pass the formats that have to be used to parse the value as parameters to the method. In this case, only if it matches one of the specified formats, is the value parsed. The supported formats are the same as the ones described in the article on [date formatting]({% slug dateformatting_internalization %}).
 
-The example below demonstrates how to specify the parse formats.
+The following example demonstrates how to specify the parse formats.
 
-    import { parseDate } from '@telerik/kendo-intl/dates';
+    import { parseDate } from '@telerik/kendo-intl';
 
     parseDate("2000/11/06", "yyyy/MM/dd");
 

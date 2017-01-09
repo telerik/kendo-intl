@@ -12,150 +12,133 @@ Number formatting converts a `Number` object to a human-readable string using th
 
 ## Types of Number Formats
 
+The supported number formats are:
+
+* [Standard](#standard).
+* [Custom](#custom).
+
 ### Standard
 
 Standard number formatting can be specified by passing an options object or a string format.
 
-**The `"n"` specifier**
+* **The `"n"` specifier**&mdash;Formats the number as a decimal number based on the locale. To specify precision, add a number after `"n"`. By default, the number is formatted and rounded to three decimal digits.
 
-The `"n"` specifier formats the number as a decimal number based on the locale. Precision is specified by adding a number after `"n"`. By default, the number is formatted and rounded to three decimal digits.
+        import { formatNumber } from '@telerik/kendo-intl';
 
-    import { formatNumber } from '@telerik/kendo-intl/numbers';
+        formatNumber(1234.5678, "n"); // 1,234.568
 
-    formatNumber(1234.5678, "n"); // 1,234.568
+        formatNumber(1234.5678, "n2", "bg"); // 1 234,57
 
-    formatNumber(1234.5678, "n2", "bg"); // 1 234,57
+        formatNumber(1234.5678, "n5"); // 1,234.56780
 
-    formatNumber(1234.5678, "n5"); // 1,234.56780
+* **The `"c"` specifier**&mdash;Formats the number as a currency based on the locale. The latest currency symbol of the specified locale is used for the formatting. To specify precision, add a number after `"c"`. By default, the number is formatted and rounded to two decimal digits, or to the number of digits in the `currencyData` fractions data of the CLDR if the currency is available.
 
-**The `"c"` specifier**
+  > The locale numbers `currencies` data and the supplemental `currencyData` must be loaded for the currency formatting to work.
 
-The `"c"` specifier formats the number as a currency based on the locale. The specified locale latest currency symbol is used for the formatting. Precision is specified by adding a number after `"c"`. By default, the number is formatted and rounded to two decimal digits, or the number of digits in the CLDR `currencyData` fractions data if the currency is available.
+        import { formatNumber } from '@telerik/kendo-intl';
 
-> The locale numbers `currencies` data and the supplemental `currencyData` must be loaded for the currency formatting to work.
+        formatNumber(1234.5678, "c"); // $1,234.57
 
-    import { formatNumber } from '@telerik/kendo-intl/numbers';
+        formatNumber(1234.5678, "c3", "de"); // 1.234,568 €
 
-    formatNumber(1234.5678, "c"); // $1,234.57
+        formatNumber(1234.5678, "c5", "bg"); // 1 234,56780 лв
 
-    formatNumber(1234.5678, "c3", "de"); // 1.234,568 €
+* **The `"p"` specifier**&mdash;Formats the number as a percentage based on the locale. The passed number is multiplied by 100. To specify precision, add a number after `"p"`. By default, the number is formatted and rounded to zero decimal digits.
 
-    formatNumber(1234.5678, "c5", "bg"); // 1 234,56780 лв
+        import { formatNumber } from '@telerik/kendo-intl';
 
-**The `"p"` specifier**
+        formatNumber(0.5678, "p"); // 57%
 
-The `"p"` specifier formats the number as a percentage based on the locale. The passed number is multiplied by 100. Precision is specified by adding a number after `"p"`. By default, the number is formatted and rounded to zero decimal digits.
+        formatNumber(0.5678, "p2", "de"); // 56,78 %
 
-    import { formatNumber } from '@telerik/kendo-intl/numbers';
+        formatNumber(0.5678, "p5"); // 56.78000%
 
-    formatNumber(0.5678, "p"); // 57%
+* **The `"e"` specifier**&mdash;Formats the number in exponential notation.
 
-    formatNumber(0.5678, "p2", "de"); // 56,78 %
+        import { formatNumber } from '@telerik/kendo-intl';
 
-    formatNumber(0.5678, "p5"); // 56.78000%
+        formatNumber(0.45678, "e0"); // 5e-1
 
-**The `"e"` specifier**
+  Apart from setting a string, you can also specify the standard formats by passing an object with the style option.
 
-The `"e"` specifier formats the number in exponential notation.
+        import { formatNumber } from '@telerik/kendo-intl';
 
-    import { formatNumber } from '@telerik/kendo-intl/numbers';
+        formatNumber(1234.5678, {
+            style: "decimal",
+            minimumFractionDigits: 4
+        }); // 1,234.5678
 
-    formatNumber(0.45678, "e0"); // 5e-1
+        formatNumber(1234.5678, {
+            style: "currency",            
+            currency: "EUR",
+            currencyDisplay: "displayName"
+        }, "bg"); // 1 234,57 евро
 
-Apart from setting a string, the standard formats can also be specified by passing an object with the style option.
+        formatNumber(0.5678, {
+            style: "percent"
+        }, "de"); // 123.457 %
 
-    import { formatNumber } from '@telerik/kendo-intl/numbers';
-
-    formatNumber(1234.5678, {
-        style: "decimal",
-        minimumFractionDigits: 4
-    }); // 1,234.5678
-
-    formatNumber(1234.5678, {
-        style: "currency",            
-        currency: "EUR",
-        currencyDisplay: "displayName"
-    }, "bg"); // 1 234,57 евро
-
-    formatNumber(0.5678, {
-        style: "percent"
-    }, "de"); // 123.457 %
-
-For full list of available options check the [`formatNumber` API]({% slug numbersapi_internalization %}#the-formatnumber-method).
+For the full list of available options, refer to the API documentation on the [`formatNumber`]({% slug numbersapi_internalization %}#the-formatnumber-method) method.
 
 ### Custom
 
-You are able to create a custom numeric format string using one or more custom numeric specifiers. A custom numeric format string is any string which is not a standard numeric format. The supported format specifiers are listed below.
+You can create a custom numeric format string by using one or more custom numeric specifiers. A custom numeric format string is any string which is not a standard numeric format.
 
-**The `"0"` specifier**
+The supported format specifiers are:
 
-The `"0"` specifier is a zero placeholder. It replaces the zero with the corresponding digit if one is present. Otherwise, zero appears in the result string.
+* **The `"0"` specifier**&mdash;A zero placeholder. It replaces the zero with the corresponding digit if one is present. Otherwise, zero appears in the result string.
 
-    import { formatNumber } from '@telerik/kendo-intl/numbers';
+        import { formatNumber } from '@telerik/kendo-intl';
 
-    formatNumber(1234.5678, "00000"); // 01235    
+        formatNumber(1234.5678, "00000"); // 01235    
 
-**The `"#"` specifier**
+* **The `"#"` specifier**&mdash;A digit placeholder. It replaces the Pound sign with the corresponding digit if one is present. Otherwise, no digit appears in the result string.
 
-The `"#"` specifier is a digit placeholder. It replaces the Pound sign with the corresponding digit if one is present. Otherwise, no digit appears in the result string.
+        import { formatNumber } from '@telerik/kendo-intl';
 
-    import { formatNumber } from '@telerik/kendo-intl/numbers';
+        formatNumber(1234.5678, "#####"); // 1235
 
-    formatNumber(1234.5678, "#####"); // 1235
+  > The `"#"` specifier cannot be used to format a number, such as a telephone number&mdash;for example, (###)-###-####.
 
-> The `"#"` specifier cannot be used to format a number, such as a telephone number&mdash;for example, (###)-###-####.
+* **The `"."` specifier**&mdash;A decimal placeholder. It determines the location of the decimal separator in the result string.
 
-**The `"."` specifier**
+        import { formatNumber } from '@telerik/kendo-intl';
 
-The `"."` specifier is a decimal placeholder. It determines the location of the decimal separator in the result string.
+        formatNumber(0.45678, "0.00"); // 0.46
 
-    import { formatNumber } from '@telerik/kendo-intl/numbers';
+* **The `","` specifier**&mdash;A group separator placeholder. It inserts a localized group separator between each group.
 
-    formatNumber(0.45678, "0.00"); // 0.46
+        import { formatNumber } from '@telerik/kendo-intl';
 
-**The `","` specifier**
+        formatNumber(12345678, "##,#"); // 12,345,678
 
-The `","` specifier is a group separator placeholder. It inserts a localized group separator between each group.
+* **The `"%"` specifier**&mdash;A percentage placeholder. It multiplies a number by 100 and inserts a localized percentage symbol in the result string.
 
-    import { formatNumber } from '@telerik/kendo-intl/numbers';
+  > The `%` symbol is interpreted as a format specifier in the format string. To prevent this, precede the `%` symbol with a double backslash&mdash;`formatNumber(12, "# \\\%")` resulting in `12 %`.
 
-    formatNumber(12345678, "##,#"); // 12,345,678
+        import { formatNumber } from '@telerik/kendo-intl';
 
-**The `"%"` specifier**
+        formatNumber(1.1, "#.0 %"); // 110.0 %
 
-The `"%"` specifier is a percentage placeholder. It multiplies a number by 100 and inserts a localized percentage symbol in the result string.
+* **The `"$"` specifier**&mdash;A currency placeholder. It is replaced by the locale currency symbol.
 
-> The `%` symbol is interpreted as a format specifier in the format string. To prevent this, precede the `%` symbol with a double backslash&mdash;`formatNumber(12, "# \\\%")` resulting in `12 %`.
+  > The `$` symbol is interpreted as a format specifier in the format string. To prevent this, precede the `$` symbol with a double backslash&mdash;`formatNumber(12, "# \\\$")` resulting in `12 $`.
 
-    import { formatNumber } from '@telerik/kendo-intl/numbers';
+        import { formatNumber } from '@telerik/kendo-intl';
 
-    formatNumber(1.1, "#.0 %"); // 110.0 %
+        formatNumber(-123, "##,# $", "de"); // 12.345.678 €
 
-**The `"$"` specifier**
+* **The `";"` specifier**&mdash;A section separator. It defines sections with separate format strings for positive, negative, and zero numbers.
 
-The `"$"` specifier is a currency placeholder. It is replaced by the locale currency symbol.
+        import { formatNumber } from '@telerik/kendo-intl';
 
-> The `$` symbol is interpreted as a format specifier in the format string. To prevent this, precede the `$` symbol with a double backslash&mdash;`formatNumber(12, "# \\\$")` resulting in `12 $`.
+        formatNumber(-123, "##,#;(##,#)"); // (123)
 
-    import { formatNumber } from '@telerik/kendo-intl/numbers';
+* **The `"string"/'string'` specifier**&mdash;A literal string delimiter. It indicates that the enclosed characters should be copied to the result string.
 
-    formatNumber(-123, "##,# $", "de"); // 12.345.678 €
+        import { formatNumber } from '@telerik/kendo-intl';
 
-**The `";"` specifier**
-
-The `";"` specifier is a section separator. It defines sections with separate format strings for positive, negative, and zero numbers.
-
-    import { formatNumber } from '@telerik/kendo-intl/numbers';
-
-    formatNumber(-123, "##,#;(##,#)"); // (123)
-
-**The `"string"/'string'` specifier**
-
-The `"string"/'string'` specifier is a literal string delimiter. It indicates that the enclosed characters should be copied to the result string.
-
-    import { formatNumber } from '@telerik/kendo-intl/numbers';
-
-    formatNumber(12345678, "##,# '$'", "de"); // 12.345.678 $
+        formatNumber(12345678, "##,# '$'", "de"); // 12.345.678 $
 
 ## Suggested Links
 
