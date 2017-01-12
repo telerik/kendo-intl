@@ -1,5 +1,5 @@
 import { load, localeInfo, dateFormatNames } from '../src/cldr';
-import { formatDate, parseDate } from '../src/dates';
+import { formatDate, parseDate, dateFormatString } from '../src/dates';
 import { convertTimeZone } from '../src/dates/time-utils';
 import pad from '../src/common/pad';
 
@@ -32,26 +32,32 @@ describe('date formatting', () => {
 
     it('applies short date format if no format is set', () => {
         expect(formatDate(date(2000, 1, 30))).toEqual("1/30/2000");
+        expect(dateFormatString(date(2000, 1, 30))).toEqual("M/dd/yyyy");
     });
 
     it('supports short date format', () => {
         expect(formatDate(date(2000, 1, 30), "d")).toEqual("1/30/2000");
+        expect(dateFormatString(date(2000, 1, 30), "d")).toEqual("M/dd/yyyy");
     });
 
     it('supports long date format', () => {
         expect(formatDate(date(2000, 1, 30), "D")).toEqual('Sunday, January 30, 2000');
+        expect(dateFormatString(date(2000, 1, 30), "D")).toEqual('EEEEEE, MMMMMMM dd, yyyy');
     });
 
     it('supports long time format', () => {
         expect(formatDate(date(2000, 1, 30), "T")).toEqual("12:00:00 AM");
+        expect(dateFormatString(date(2000, 1, 30), "T")).toEqual("hh:mm:ss aa");
     });
 
     it('supports short time pattern', () => {
         expect(formatDate(date(2000, 1, 30), "t")).toEqual('12:00 AM');
+        expect(dateFormatString(date(2000, 1, 30), "t")).toEqual('hh:mm aa');
     });
 
     it('supports full date long time format', () => {
         expect(formatDate(date(2000, 1, 30, 13, 9, 9), "F")).toEqual('Sunday, January 30, 2000 1:09:09 PM');
+        expect(dateFormatString(date(2000, 1, 30, 13, 9, 9), "F")).toEqual('EEEEEE, MMMMMMM dd, yyyy h:mm:ss aa');
     });
 
     it('supports general format', () => {
@@ -65,6 +71,7 @@ describe('date formatting', () => {
     it('supports iso formats', () => {
         expect(formatDate(date(2000, 1, 30, 13, 9, 9), "s")).toEqual('2000-01-30T13:09:09');
         expect(formatDate(date(2000, 1, 30, 13, 9, 9), "u")).toEqual('2000-01-30 13:09:09Z');
+        expect(dateFormatString(date(2000, 1, 30, 13, 9, 9), "u")).toEqual('yyyy-MM-dd HH:mm:ssZ')
     });
 
     it('supports zero padded days', () => {
@@ -79,10 +86,12 @@ describe('date formatting', () => {
 
     it('supports wide day of week', () => {
         expect(formatDate(date(2000, 1, 1), "EEEE")).toEqual('Saturday');
+        expect(dateFormatString(date(2000, 1, 1), "EEEE")).toEqual('EEEEEEEE');
     });
 
     it('supports narrow day of week', () => {
         expect(formatDate(date(2000, 1, 1), "EEEEE")).toEqual('S');
+        expect(dateFormatString(date(2000, 1, 1), "EEEEE")).toEqual('E');
     });
 
     it('supports short day of week', () => {
@@ -97,6 +106,7 @@ describe('date formatting', () => {
 
     it('supports localized day of week index', () => {
         expect(formatDate(date(2000, 1, 1), "e", "bg")).toEqual("6");
+        expect(dateFormatString(date(2000, 1, 1), "e", "bg")).toEqual("e");
     });
 
     it('supports stand-alone day of week', () => {
@@ -120,6 +130,7 @@ describe('date formatting', () => {
 
     it('supports narrow month name', () => {
         expect(formatDate(date(2000, 1, 1), "MMMMM")).toEqual('J');
+        expect(dateFormatString(date(2000, 1, 1), "MMMMM")).toEqual('M');
     });
 
     it('supports stand-alone month formatting', () => {
@@ -155,10 +166,12 @@ describe('date formatting', () => {
         const hourBig = date(2000, 1, 1, 13);
 
         expect(formatDate(hourSmall, "h:mm")).toEqual("1:00");
+        expect(dateFormatString(hourSmall, "h:mm")).toEqual("h:mm");
         expect(formatDate(hourBig, "h:mm")).toEqual("1:00");
         expect(formatDate(hourSmall, "hh:mm")).toEqual("01:00");
         expect(formatDate(hourBig, "hh:mm")).toEqual("01:00");
         expect(formatDate(date(2000, 1, 1, 12), "hh:mm")).toEqual("12:00");
+        expect(dateFormatString(date(2000, 1, 1, 12), "hh:mm")).toEqual("hh:mm");
     });
 
     it('supports 24-hour clock formatting', () => {
@@ -167,6 +180,7 @@ describe('date formatting', () => {
 
         expect(formatDate(hourSmall, "H:mm")).toEqual("1:00");
         expect(formatDate(hourBig, "H:mm")).toEqual("23:00");
+        expect(dateFormatString(hourBig, "H:mm")).toEqual("HH:mm");
         expect(formatDate(hourSmall, "HH:mm")).toEqual("01:00");
         expect(formatDate(hourBig, "HH:mm")).toEqual("23:00");
     });
@@ -179,6 +193,7 @@ describe('date formatting', () => {
     it('supports day period wide formatting', () => {
         expect(formatDate(date(2000, 1, 1, 1), "hh aaaa")).toEqual("01 AM");
         expect(formatDate(date(2000, 1, 1, 13), "hh aaaa")).toEqual("01 PM");
+        expect(dateFormatString(date(2000, 1, 1, 13), "hh aaaa")).toEqual("hh aa");
     });
 
     it('supports day period narrow formatting', () => {
@@ -231,6 +246,7 @@ describe('date formatting', () => {
 
     it('supports wide era formatting', () => {
         expect(formatDate(date(-1, 1, 1), "y GGGG")).toEqual('-1 Before Christ');
+        expect(dateFormatString(date(-1, 1, 1), "y GGGG")).toEqual('yy GGGGGGGGGGGGG');
         expect(formatDate(date(2000, 1, 1), "y GGGG")).toEqual('2000 Anno Domini');
     });
 

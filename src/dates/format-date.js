@@ -196,3 +196,31 @@ export default function formatDate(date, format, locale = "en") {
         return result;
     });
 }
+
+export function dateFormatString(date, format, locale = "en") {
+    if (!isDate(date)) {
+        return format;
+    }
+
+    const info = localeInfo(locale);
+    const pattern = datePattern(format, info);
+
+    return pattern.replace(dateFormatRegExp, function(match) {
+        let formatLength = match.length;
+        let result;
+
+        if (match.includes("'") || match.includes("\"")) {
+            result = match.slice(1, formatLength - 1);
+        } else {
+            result = formatters[match[0]](date, formatLength, info);
+
+            let length = (result || "").toString().length;
+            result = "";
+            while (length > 0) {
+                result += match[0];
+                length--;
+            }
+        }
+        return result;
+    });
+}
