@@ -19,3 +19,4 @@ export function formatDate(value: Date, format: String|DateFormatOptions, locale
 
 export function parseDate(value: string, format?: String|DateFormatOptions|Array<String>|Array<DateFormatOptions>, locale?: string): Date;
 
+export function dateFormatString(value: Date, format: String|DateFormatOptions, locale?: string): string;
