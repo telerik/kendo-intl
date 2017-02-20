@@ -67,6 +67,24 @@ function loadCalendarNames(locale, calendar) {
     localeCalendar.eras = getEraNames(calendar.eras);
 }
 
+function loadCalendarDateFields(locale, fields) {
+    const localeCalendar = cldr[locale].calendar;
+    const dateFields = {};
+
+    for (let field in fields) {
+        const [ fieldName, formatType = 'wide' ] = field.split('-');
+        const fieldInfo = dateFields[fieldName] || {};
+        const displayName = fields[field].displayName;
+
+        if (!displayName) { continue; }
+
+        fieldInfo[formatType] = displayName;
+        dateFields[fieldName] = fieldInfo;
+    }
+
+    localeCalendar.dateFields = dateFields;
+}
+
 function getPredefinedFormat(paths, calendar) {
     const result = [];
 
@@ -108,6 +126,8 @@ export default function loadCalendarInfo(locale, info) {
         } else if (field === "calendars" && info[field].gregorian) {
             loadCalendarPatterns(locale, info[field].gregorian);
             loadCalendarNames(locale, info[field].gregorian);
+        } else if (field === "fields") {
+            loadCalendarDateFields(locale, info.fields);
         }
     }
 }
