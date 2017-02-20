@@ -576,6 +576,60 @@ const defaultData = {
                         "1-alt-variant": "CE"
                     }
                 }
+            },
+            "dateFields": {
+                "era": {
+                    "wide": "era"
+                },
+                "year": {
+                    "wide": 'year',
+                    "short": 'yr.',
+                    "narrow": 'yr.'
+                },
+                "quarter": {
+                    "wide": 'quarter',
+                    "short": 'qtr.',
+                    "narrow": 'qtr.'
+                },
+                "month": {
+                    "wide": 'month',
+                    "short": 'mo.',
+                    "narrow": 'mo.'
+                },
+                "week": {
+                    "wide": 'week',
+                    "short": 'wk.',
+                    "narrow": 'wk.'
+                },
+                "day": {
+                    "wide": 'day',
+                    "short": 'day',
+                    "narrow": 'day'
+                },
+                "weekday": {
+                    "wide": 'day of the week'
+                },
+                "dayperiod": {
+                    "wide": 'AM/PM'
+                },
+                "hour": {
+                    "wide": 'hour',
+                    "short": 'hr.',
+                    "narrow": 'hr.'
+                },
+                "minute": {
+                    "wide": 'minute',
+                    "short": 'min.',
+                    "narrow": 'min.'
+                },
+                "second": {
+                    "wide": 'second',
+                    "short": 'sec.',
+                    "narrow": 'sec.'
+                },
+                "zone": {
+                    "wide": 'time zone'
+                }
             }
         }
     },
