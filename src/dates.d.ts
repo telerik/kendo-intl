@@ -135,9 +135,9 @@ export function splitDateFormat(format: string|DateFormatOptions, locale?: strin
  *
  * @example
  * ```
- * dateFormatPlaceholder('d'); //returns 'day';
- * dateFormatPlaceholder('M'); //returns 'mo.';
- * dateFormatPlaceholder('MMMM'); //returns 'month';
+ * dateFieldName('d'); //returns 'day';
+ * dateFieldName('M'); //returns 'mo.';
+ * dateFieldName('MMMM'); //returns 'month';
  * ```
  */
-export function dateFormatPlaceholder(formatSpecifier: string, locale?: string): string;
+export function dateFieldName(formatSpecifier: string, locale?: string): string;
