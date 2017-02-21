@@ -1,5 +1,5 @@
 import { load, localeInfo, dateFormatNames } from '../src/cldr';
-import { formatDate, parseDate, splitDateFormat } from '../src/dates';
+import { dateFormatPlaceholder, formatDate, parseDate, splitDateFormat } from '../src/dates';
 import { convertTimeZone } from '../src/dates/time-utils';
 import pad from '../src/common/pad';
 
@@ -23,6 +23,68 @@ function date(year, month, day, hour, minute, second, millisecond) {
 
     return d;
 }
+
+describe('dateFormatPlaceholder', () => {
+    it('should return placeholder for wide year name', () => {
+        expect(dateFormatPlaceholder("yyyy")).toEqual("year");
+    });
+
+    it('should return placeholder for short year name', () => {
+        expect(dateFormatPlaceholder("y")).toEqual("yr.");
+    });
+
+    it('should return placeholder for wide month name', () => {
+        expect(dateFormatPlaceholder("MMMM")).toEqual("month");
+    });
+
+    it('should return placeholder for short month name', () => {
+        expect(dateFormatPlaceholder("M")).toEqual("mo.");
+    });
+
+    it('should return placeholder for wide day name', () => {
+        expect(dateFormatPlaceholder("EEEE", "bg")).toEqual("ден");
+    });
+
+    it('should return placeholder for short day name', () => {
+        expect(dateFormatPlaceholder("d", "bg")).toEqual("д");
+    });
+
+    it('should return placeholder for short hour name', () => {
+        expect(dateFormatPlaceholder("h")).toEqual("hr.");
+        expect(dateFormatPlaceholder("h", "bg")).toEqual("ч");
+    });
+
+    it('should return placeholder for short minute name', () => {
+        expect(dateFormatPlaceholder("m")).toEqual("min.");
+        expect(dateFormatPlaceholder("m", "bg")).toEqual("мин");
+    });
+
+    it('should return placeholder for short second name', () => {
+        expect(dateFormatPlaceholder("s")).toEqual("sec.");
+        expect(dateFormatPlaceholder("s", "bg")).toEqual("с");
+    });
+
+    it('should return placeholder for day period', () => {
+        expect(dateFormatPlaceholder("a")).toEqual("AM/PM");
+    });
+
+    it('should return placeholder for era', () => {
+        expect(dateFormatPlaceholder("G")).toEqual("era");
+    });
+
+    it('should return placeholder for zone', () => {
+        expect(dateFormatPlaceholder("x")).toEqual("time zone");
+        expect(dateFormatPlaceholder("z")).toEqual("time zone");
+    });
+
+    it('should return placeholder for wide quarter name', () => {
+        expect(dateFormatPlaceholder("QQQQ")).toEqual("quarter");
+    });
+
+    it('should return placeholder for short quarter name', () => {
+        expect(dateFormatPlaceholder("q")).toEqual("qtr.");
+    });
+});
 
 describe('date formatting', () => {
     it('returns value if it is not a date', () => {
