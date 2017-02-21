@@ -1,5 +1,34 @@
 import { localeInfo } from '../cldr';
 
+const MONTH = 'month';
+const DAY = 'day';
+const HOUR = 'hour';
+const ZONE = 'zone';
+const WEEKDAY = 'weekday';
+const QUARTER = 'quarter';
+
+const dateFieldMap = {
+    'y': 'year',
+    'M': MONTH,
+    'L': MONTH,
+    'd': DAY,
+    'E': DAY,
+    'h': HOUR,
+    'H': HOUR,
+    'm': 'minute',
+    's': 'second',
+    'a': 'dayperiod',
+    'x': ZONE,
+    'X': ZONE,
+    'z': ZONE,
+    'Z': ZONE,
+    'G': 'era',
+    'c': WEEKDAY,
+    'e': WEEKDAY,
+    'q': QUARTER,
+    'Q': QUARTER
+};
+
 const dateNameType = function(formatLength) {
     let nameType;
     if (formatLength <= 3) {
@@ -13,50 +42,11 @@ const dateNameType = function(formatLength) {
     return nameType;
 };
 
-const dateFieldName = function(formatChar) {
-    switch (formatChar) {
-    case 'd':
-    case 'E':
-        return 'day';
-    case 'M':
-    case 'L':
-        return 'month';
-    case 'y':
-        return 'year';
-    case 'h':
-    case 'H':
-        return 'hour';
-    case 'm':
-        return 'minute';
-    case 's':
-        return 'second';
-    case 'a':
-        return 'dayperiod';
-    case 'x':
-    case 'X':
-    case 'z':
-    case 'Z':
-        return 'zone';
-    case 'G':
-        return 'era';
-    case 'c':
-    case 'e':
-        return 'weekday';
-
-    case 'q':
-    case 'Q':
-        return 'quarter';
-    default:
-        return ''; //XXX: Only milliseconds are not handled here!
-    }
-};
-
 const dateFieldDisplayName = function(info, match, matchLength) {
-    const fieldName = dateFieldName(match);
-    const nameType = dateNameType(matchLength);
+    const fieldName = dateFieldMap[match] || '';
     const fieldNameInfo = info.calendar.dateFields[fieldName];
 
-    return fieldNameInfo[nameType] || fieldNameInfo['wide'];
+    return fieldNameInfo[dateNameType(matchLength)] || fieldNameInfo['wide'];
 };
 
 

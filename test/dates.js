@@ -84,6 +84,11 @@ describe('dateFormatPlaceholder', () => {
     it('should return placeholder for short quarter name', () => {
         expect(dateFormatPlaceholder("q")).toEqual("qtr.");
     });
+
+    it('should return placeholder for weekday', () => {
+        expect(dateFormatPlaceholder("c")).toEqual("day of the week");
+        expect(dateFormatPlaceholder("e")).toEqual("day of the week");
+    });
 });
 
 describe('date formatting', () => {
