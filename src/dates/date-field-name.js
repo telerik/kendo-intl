@@ -1,7 +1,6 @@
 import { localeInfo } from '../cldr';
 
 const MONTH = 'month';
-const DAY = 'day';
 const HOUR = 'hour';
 const ZONE = 'zone';
 const WEEKDAY = 'weekday';
@@ -11,8 +10,8 @@ const dateFieldMap = {
     'y': 'year',
     'M': MONTH,
     'L': MONTH,
-    'd': DAY,
-    'E': DAY,
+    'd': 'day',
+    'E': 'weekday',
     'h': HOUR,
     'H': HOUR,
     'm': 'minute',

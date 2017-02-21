@@ -42,7 +42,8 @@ describe('dateFieldName', () => {
     });
 
     it('should return placeholder for wide day name', () => {
-        expect(dateFieldName("EEEE", "bg")).toEqual("ден");
+        expect(dateFieldName("EEEE")).toEqual("day of the week");
+        expect(dateFieldName("EEEE", "bg")).toEqual("ден от седмицата");
     });
 
     it('should return placeholder for short day name', () => {
