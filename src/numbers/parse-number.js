@@ -4,29 +4,31 @@ const exponentRegExp = /[eE][\-+]?[0-9]+/;
 const nonBreakingSpaceRegExp = /\u00A0/g;
 
 function cleanCurrencyNumber(value, info, format) {
-    const currency = format.currency || localeCurrency(info);
-    const displays = currencyDisplays(info, currency);
     let isCurrency = format.style === "currency";
     let number = value;
     let negative;
 
+    const currency = format.currency || localeCurrency(info, isCurrency);
 
-    for (let idx = 0; idx < displays.length; idx++) {
-        let display = displays[idx];
-        if (number.includes(display)) {
-            number = number.replace(display, "");
-            isCurrency = true;
-            break;
+    if (currency) {
+        const displays = currencyDisplays(info, currency);
+        for (let idx = 0; idx < displays.length; idx++) {
+            let display = displays[idx];
+            if (number.includes(display)) {
+                number = number.replace(display, "");
+                isCurrency = true;
+                break;
+            }
         }
-    }
 
-    if (isCurrency) {
-        const patterns = info.numbers.currency.patterns;
-        if (patterns.length > 1) {
-            const parts = (patterns[1] || "").replace("$", "").split("n");
-            if (number.indexOf(parts[0]) > -1 && number.indexOf(parts[1]) > -1) {
-                number = number.replace(parts[0], "").replace(parts[1], "");
-                negative = true;
+        if (isCurrency) {
+            const patterns = info.numbers.currency.patterns;
+            if (patterns.length > 1) {
+                const parts = (patterns[1] || "").replace("$", "").split("n");
+                if (number.indexOf(parts[0]) > -1 && number.indexOf(parts[1]) > -1) {
+                    number = number.replace(parts[0], "").replace(parts[1], "");
+                    negative = true;
+                }
             }
         }
     }

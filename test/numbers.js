@@ -1,4 +1,4 @@
-import { load } from '../src/cldr';
+import { load, cldr } from '../src/cldr';
 import { formatNumber, parseNumber } from '../src/numbers';
 
 const likelySubtags = require("cldr-data/supplemental/likelySubtags.json");
@@ -7,7 +7,7 @@ const currencies = require("cldr-data/main/bg/currencies.json");
 const currencyData = require("cldr-data/supplemental/currencyData.json");
 
 // CUSTOM region is used in tests below
-currencyData.supplemental.currencyData.region.CUSTOM = [{}];
+currencyData.supplemental.currencyData.region.CUSTOM = [{ XXX: {} }];
 
 load(likelySubtags, currencyData, numbers, currencies);
 
@@ -16,7 +16,8 @@ function loadCustom(options) {
       "main": {
         "custom": {
           "identity": {
-            "language": "custom"
+            "language": "custom",
+            "territory": "CUSTOM"
           },
           "numbers": {
             "symbols-numberSystem-latn": {
@@ -49,6 +50,30 @@ describe('formatNumber', () => {
     it('should return value if not finite value is passed', () => {
         expect(formatNumber(Infinity)).toBe(Infinity);
         expect(formatNumber("foo")).toEqual("foo");
+    });
+
+
+    describe('errors', () => {
+        currencyData.supplemental.currencyData.region.CUSTOM = [{ XXX: {} }];
+        loadCustom({ currencies: { USD: { symbol: "$" } } });
+
+        it('throws error if the default locale currency cannot be determined', () => {
+            expect(() => {
+                formatNumber(10, 'c', 'custom');
+            }).toThrowError(/NoValidCurrency/);
+        });
+
+        it('does not throw error if default locale currency cannot be determined but the currency is specified', () => {
+            expect(() => {
+                formatNumber(10, { style: 'currency', currency: 'USD' }, 'custom');
+            }).not.toThrow();
+        });
+
+        it('does not throw error if default locale currency cannot be determined but the format does not require it', () => {
+            expect(() => {
+                formatNumber(10, 'n', 'custom');
+            }).not.toThrow();
+        });
     });
 });
 
@@ -570,4 +595,26 @@ describe('parseNumber', () => {
         expect(parseNumber("1,23432e+5", "bg")).toEqual(123432);
     });
 
+    describe('errors', () => {
+        currencyData.supplemental.currencyData.region.CUSTOM = [{ XXX: {} }];
+        loadCustom({ currencies: { USD: { symbol: "$" } } });
+
+        it('throws error if the default locale currency cannot be determined', () => {
+            expect(() => {
+                parseNumber("10", 'custom', { style: "currency" });
+            }).toThrowError(/NoValidCurrency/);
+        });
+
+        it('does not throw error if default locale currency cannot be determined but the currency is specified', () => {
+            expect(() => {
+                parseNumber("10", 'custom', { style: "currency", currency: 'USD' });
+            }).not.toThrow();
+        });
+
+        it('does not throw error if default locale currency cannot be determined but the format does not require it', () => {
+            expect(() => {
+                parseNumber("10", 'custom', "n");
+            }).not.toThrow();
+        });
+    });
 });
