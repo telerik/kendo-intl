@@ -482,6 +482,10 @@ describe('custom formatting', () => {
         expect(formatNumber(17.115, "#.##")).toEqual("17.12");
     });
 
+    it("returns number if format is a constant", () => {
+        expect(formatNumber(0, "Foo")).toEqual("0");
+    });
+
 });
 
 describe('parseNumber', () => {

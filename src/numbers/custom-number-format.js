@@ -80,6 +80,10 @@ function roundNumber(formatOptions) {
     formatOptions.decimalIndex = decimalIndex;
 }
 
+function isConstantFormat(format) {
+    return format.indexOf(SHARP) === -1 && format.indexOf(ZERO) === -1;
+}
+
 function setValueSpecificFormat(formatOptions) {
     let { number, format } = formatOptions;
     format = format.split(";");
@@ -87,7 +91,11 @@ function setValueSpecificFormat(formatOptions) {
         format = format[1];
         formatOptions.hasNegativeFormat = true;
     } else if (number === 0) {
-        format = format[2] || format[0];
+        const zeroFormat = format[2];
+        format = zeroFormat || format[0];
+        if (zeroFormat && isConstantFormat(zeroFormat)) {
+            formatOptions.constant = zeroFormat;
+        }
     } else {
         format = format[0];
     }
@@ -246,10 +254,6 @@ function applyCustomFormat(formatOptions, info) {
     return number;
 }
 
-function isConstantFormat(format) {
-    return format.indexOf(SHARP) === -1 && format.indexOf(ZERO) === -1;
-}
-
 export default function customNumberFormat(number, format, info) {
     const formatOptions = {
         negative: number < 0,
@@ -259,8 +263,8 @@ export default function customNumberFormat(number, format, info) {
 
     setValueSpecificFormat(formatOptions);
 
-    if (isConstantFormat(formatOptions.format)) {
-        return formatOptions.format;
+    if (formatOptions.constant) {
+        return formatOptions.constant;
     }
 
     setFormatLiterals(formatOptions);
