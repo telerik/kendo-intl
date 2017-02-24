@@ -277,10 +277,104 @@ describe('firstDay', () => {
 });
 
 describe('localeCurrency', () => {
+
+    cldr.currencyTest = {
+        identity: {
+            territory: "currencyTest"
+        },
+        numbers: {}
+    };
+
+    afterEach(() => {
+        delete cldr.currencyTest.numbers.localeCurrency;
+    });
+
     it('should return default currency code for locale', () => {
         expect(localeCurrency('en')).toEqual('USD');
         expect(localeCurrency('bg')).toEqual('BGN');
     });
+
+    it('throws error if second parameter is true and there is no valid currency for the locale', () => {
+        cldr.supplemental.currencyData.region.currencyTest = [{ XXX: {} }];
+
+        expect(() => {
+            localeCurrency('currencyTest', true);
+        }).toThrowError(/NoValidCurrency/);
+    });
+
+    it('returns still valid currency', () => {
+        cldr.supplemental.currencyData.region.currencyTest = [
+          {
+            "Foo": {
+              "_from": "1915-01-01"
+            }
+          }, {
+            "Bar": {
+              "_from": "1872-08-26",
+              "_to": "2002-05-15"
+            }
+          }
+        ];
+
+        expect(localeCurrency('currencyTest')).toEqual('Foo');
+    });
+
+    it('returns latest still valid currency', () => {
+        cldr.supplemental.currencyData.region.currencyTest = [
+          {
+            "Foo": {
+              "_from": "1915-01-01"
+            }
+          }, {
+            "Bar": {
+              "_from": "1872-08-26"
+            }
+          }
+        ];
+
+        expect(localeCurrency('currencyTest')).toEqual('Foo');
+    });
+
+    it('returns latest valid until currency', () => {
+        cldr.supplemental.currencyData.region.currencyTest = [
+          {
+            "Foo": {
+              "_from": "1994-01-24",
+              "_to": "2002-05-15"
+            }
+          }, {
+            "Bar": {
+              "_from": "2003-02-04",
+              "_to": "2006-06-03"
+            }
+          }, {
+            "Baz": {
+              "_from": "2002-05-15",
+              "_to": "2006-06-03"
+            }
+          }
+        ];
+
+        expect(localeCurrency('currencyTest')).toEqual('Bar');
+    });
+
+    it('ignores currencies with _tender equal to false', () => {
+        cldr.supplemental.currencyData.region.currencyTest = [
+          {
+            "Foo": {
+              "_from": "1915-01-01",
+              "_tender": "false"
+            }
+          }, {
+            "Bar": {
+              "_from": "1872-08-26"
+            }
+          }
+        ];
+
+        expect(localeCurrency('currencyTest')).toEqual('Bar');
+    });
+
 });
 
 describe('currencyDisplay', () => {
