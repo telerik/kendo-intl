@@ -159,3 +159,24 @@ Defines the locale id.
 #### Returns `String`
 
 The formatted date.
+
+#### splitDateFormat
+
+Returns information about the individual segments of a format.
+The returned objects contain the segment type(year, month, etc.), the pattern and information about the type of names that are used for the pattern.
+
+## Parameters
+
+#### format `String|Object`
+
+Specifies a string representing a predefined or custom date format, or a configuration object.
+
+#### locale `String`
+
+Defines the locale id.
+
+## Return Value
+
+#### Returns `Array`
+
+An array with the information about the format segments.

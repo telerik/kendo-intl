@@ -121,7 +121,7 @@ The following specifiers can be used in the custom formats.
 
         formatDate(new Date(2011, 0, 1), "yy"); // 11
 
-        formatDate(new Date(111, 0, 1), "yyyy"); // 0111  
+        formatDate(new Date(111, 0, 1), "yyyy"); // 0111
 
 * **The `"Q"` specifier**&mdash;Renders a quarter of the year.
 
@@ -320,6 +320,25 @@ The supported types of options are:
         import { formatDate } from '@telerik/kendo-intl';
 
         formatDate(new Date(2000, 10, 6), { year: "numeric", month: "long" }); // November 2000
+
+# Splitting date formats
+
+In some cases you may need more detailed information about the format itself in order to utilize or manipulate individual parts of the format.
+The `splitDateFormat` method can be used to get information about each individual segment of the format.
+
+For example, using abbreviated names in a predefined format can be implemented in the following way.
+
+    import { formatDate, splitDateFormat } from '@telerik/kendo-intl';
+
+    const date = new Date(2000, 0, 1);
+
+    splitDateFormat({ date: 'full' }).map(part => {
+        if (part.type !== 'literal') {
+            return formatDate(date, { pattern: part.pattern.slice(0, 3) });
+        }
+
+        return part.pattern;
+    }).join(''); //Sat, Jan 1, 2000
 
 ## Suggested Links
 
