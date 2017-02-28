@@ -20,7 +20,7 @@ export interface DateFormatNameOptions {
     /**
      * Specifies whether the standalone names should be returned.
      */
-    standAlone?: string;
+    standAlone?: boolean;
 }
 
 /**

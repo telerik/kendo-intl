@@ -1,5 +1,5 @@
 import { load, localeInfo, dateFormatNames } from '../src/cldr';
-import { formatDate, parseDate, dateFormatString } from '../src/dates';
+import { formatDate, parseDate, splitDateFormat } from '../src/dates';
 import { convertTimeZone } from '../src/dates/time-utils';
 import pad from '../src/common/pad';
 
@@ -7,7 +7,7 @@ const likelySubtags = require("cldr-data/supplemental/likelySubtags.json");
 const timeZoneNames = require("cldr-data/main/bg/timeZoneNames.json");
 const calendar = require("cldr-data/main/bg/ca-gregorian.json");
 
-load(likelySubtags, timeZoneNames, calendar, require("cldr-data/main/ko/timeZoneNames.json"), require("cldr-data/main/ko/ca-gregorian.json"));
+load(likelySubtags, timeZoneNames, calendar, require("cldr-data/main/ko/timeZoneNames.json"), require("cldr-data/main/ko/ca-gregorian.json"), require("cldr-data/supplemental/weekData.json"));
 
 Date.prototype.getTimezoneOffset = function() {
     return -120;
@@ -32,32 +32,26 @@ describe('date formatting', () => {
 
     it('applies short date format if no format is set', () => {
         expect(formatDate(date(2000, 1, 30))).toEqual("1/30/2000");
-        expect(dateFormatString(date(2000, 1, 30))).toEqual("M/dd/yyyy");
     });
 
     it('supports short date format', () => {
         expect(formatDate(date(2000, 1, 30), "d")).toEqual("1/30/2000");
-        expect(dateFormatString(date(2000, 1, 30), "d")).toEqual("M/dd/yyyy");
     });
 
     it('supports long date format', () => {
         expect(formatDate(date(2000, 1, 30), "D")).toEqual('Sunday, January 30, 2000');
-        expect(dateFormatString(date(2000, 1, 30), "D")).toEqual('EEEEEE, MMMMMMM dd, yyyy');
     });
 
     it('supports long time format', () => {
         expect(formatDate(date(2000, 1, 30), "T")).toEqual("12:00:00 AM");
-        expect(dateFormatString(date(2000, 1, 30), "T")).toEqual("hh:mm:ss aa");
     });
 
     it('supports short time pattern', () => {
         expect(formatDate(date(2000, 1, 30), "t")).toEqual('12:00 AM');
-        expect(dateFormatString(date(2000, 1, 30), "t")).toEqual('hh:mm aa');
     });
 
     it('supports full date long time format', () => {
         expect(formatDate(date(2000, 1, 30, 13, 9, 9), "F")).toEqual('Sunday, January 30, 2000 1:09:09 PM');
-        expect(dateFormatString(date(2000, 1, 30, 13, 9, 9), "F")).toEqual('EEEEEE, MMMMMMM dd, yyyy h:mm:ss aa');
     });
 
     it('supports general format', () => {
@@ -71,7 +65,6 @@ describe('date formatting', () => {
     it('supports iso formats', () => {
         expect(formatDate(date(2000, 1, 30, 13, 9, 9), "s")).toEqual('2000-01-30T13:09:09');
         expect(formatDate(date(2000, 1, 30, 13, 9, 9), "u")).toEqual('2000-01-30 13:09:09Z');
-        expect(dateFormatString(date(2000, 1, 30, 13, 9, 9), "u")).toEqual('yyyy-MM-dd HH:mm:ssZ')
     });
 
     it('supports zero padded days', () => {
@@ -86,12 +79,10 @@ describe('date formatting', () => {
 
     it('supports wide day of week', () => {
         expect(formatDate(date(2000, 1, 1), "EEEE")).toEqual('Saturday');
-        expect(dateFormatString(date(2000, 1, 1), "EEEE")).toEqual('EEEEEEEE');
     });
 
     it('supports narrow day of week', () => {
         expect(formatDate(date(2000, 1, 1), "EEEEE")).toEqual('S');
-        expect(dateFormatString(date(2000, 1, 1), "EEEEE")).toEqual('E');
     });
 
     it('supports short day of week', () => {
@@ -106,7 +97,6 @@ describe('date formatting', () => {
 
     it('supports localized day of week index', () => {
         expect(formatDate(date(2000, 1, 1), "e", "bg")).toEqual("6");
-        expect(dateFormatString(date(2000, 1, 1), "e", "bg")).toEqual("e");
     });
 
     it('supports stand-alone day of week', () => {
@@ -130,7 +120,7 @@ describe('date formatting', () => {
 
     it('supports narrow month name', () => {
         expect(formatDate(date(2000, 1, 1), "MMMMM")).toEqual('J');
-        expect(dateFormatString(date(2000, 1, 1), "MMMMM")).toEqual('M');
+
     });
 
     it('supports stand-alone month formatting', () => {
@@ -166,12 +156,11 @@ describe('date formatting', () => {
         const hourBig = date(2000, 1, 1, 13);
 
         expect(formatDate(hourSmall, "h:mm")).toEqual("1:00");
-        expect(dateFormatString(hourSmall, "h:mm")).toEqual("h:mm");
+
         expect(formatDate(hourBig, "h:mm")).toEqual("1:00");
         expect(formatDate(hourSmall, "hh:mm")).toEqual("01:00");
         expect(formatDate(hourBig, "hh:mm")).toEqual("01:00");
         expect(formatDate(date(2000, 1, 1, 12), "hh:mm")).toEqual("12:00");
-        expect(dateFormatString(date(2000, 1, 1, 12), "hh:mm")).toEqual("hh:mm");
     });
 
     it('supports 24-hour clock formatting', () => {
@@ -180,7 +169,7 @@ describe('date formatting', () => {
 
         expect(formatDate(hourSmall, "H:mm")).toEqual("1:00");
         expect(formatDate(hourBig, "H:mm")).toEqual("23:00");
-        expect(dateFormatString(hourBig, "H:mm")).toEqual("HH:mm");
+
         expect(formatDate(hourSmall, "HH:mm")).toEqual("01:00");
         expect(formatDate(hourBig, "HH:mm")).toEqual("23:00");
     });
@@ -193,7 +182,7 @@ describe('date formatting', () => {
     it('supports day period wide formatting', () => {
         expect(formatDate(date(2000, 1, 1, 1), "hh aaaa")).toEqual("01 AM");
         expect(formatDate(date(2000, 1, 1, 13), "hh aaaa")).toEqual("01 PM");
-        expect(dateFormatString(date(2000, 1, 1, 13), "hh aaaa")).toEqual("hh aa");
+
     });
 
     it('supports day period narrow formatting', () => {
@@ -246,7 +235,7 @@ describe('date formatting', () => {
 
     it('supports wide era formatting', () => {
         expect(formatDate(date(-1, 1, 1), "y GGGG")).toEqual('-1 Before Christ');
-        expect(dateFormatString(date(-1, 1, 1), "y GGGG")).toEqual('yy GGGGGGGGGGGGG');
+
         expect(formatDate(date(2000, 1, 1), "y GGGG")).toEqual('2000 Anno Domini');
     });
 
@@ -333,6 +322,10 @@ describe('date formatting', () => {
 
     it('supports skeleton format if there is both date and time', () => {
         expect(formatDate(date(2000, 2, 10, 10, 30), { skeleton: "yMMMdhm" })).toEqual('Feb 10, 2000, 10:30 AM');
+    });
+
+    it('supports pattern', () => {
+        expect(formatDate(date(2000, 2, 1), { pattern: "d" })).toEqual('1');
     });
 
     it('supports dateFormats', () => {
@@ -1128,6 +1121,185 @@ describe('date parsing', () => {
     });
 });
 
+describe('splitDateFormat', () => {
+
+    it('returns array containing type and pattern', () => {
+        const expected = [{
+            type: 'month',
+            pattern: 'M'
+        }, {
+            type: 'literal',
+            pattern: '/'
+        }, {
+            type: 'year',
+            pattern: 'y'
+        }, {
+            type: 'literal',
+            pattern: '/'
+        }, {
+            type: 'day',
+            pattern: 'd'
+        }];
+
+        expect(splitDateFormat('M/y/d')).toEqual(expected);
+    });
+
+    it('splits format spefied as object', () => {
+        const expected = [{
+            type: 'month',
+            pattern: 'M'
+        }, {
+            type: 'literal',
+            pattern: '/'
+        }, {
+            type: 'day',
+            pattern: 'd'
+        }, {
+            type: 'literal',
+            pattern: '/'
+        }, {
+            type: 'year',
+            pattern: 'yy'
+        }];
+
+        expect(splitDateFormat({
+            date: 'short'
+        })).toEqual(expected);
+    });
+
+    it('result contains literals parts', () => {
+
+        expect(splitDateFormat('M "M" y')).toEqual([{
+            type: 'month',
+            pattern: 'M'
+        }, {
+            type: 'literal',
+            pattern: ' "M" '
+        }, {
+            type: 'year',
+            pattern: 'y'
+        }]);
+
+        expect(splitDateFormat("M'M'y")).toEqual([{
+            type: 'month',
+            pattern: 'M'
+        }, {
+            type: 'literal',
+            pattern: "'M'"
+        }, {
+            type: 'year',
+            pattern: 'y'
+        }]);
+    });
+
+    it('parts contain names information if the pattern uses localized names', () => {
+        const expected = [{
+            type: "month",
+            names: {
+                type: "months",
+                nameType: "abbreviated"
+            },
+            pattern: "MMM"
+        }];
+
+        expect(splitDateFormat('MMM')).toEqual(expected);
+    });
+
+    it('includes all specifiers', () => {
+        const expected = [{
+            type: "era",
+            names: {
+                type: "eras",
+                nameType: "abbreviated"
+            },
+            pattern: "G"
+        }, {
+            type: "year",
+            pattern: "yy"
+        }, {
+            type: "quarter",
+            pattern: "q"
+        }, {
+            type: "quarter",
+            names: {
+                type: "quarters",
+                nameType: "abbreviated"
+            },
+            pattern: "QQQ"
+        }, {
+            type: "month",
+            names: {
+                type: "months",
+                nameType: "wide"
+            },
+            pattern: "MMMM"
+        }, {
+            type: "month",
+            names: {
+                type: "months",
+                nameType: "narrow"
+            },
+            pattern: "LLLLL"
+        }, {
+            type: "day",
+            pattern: "d"
+        }, {
+            type: "weekday",
+            names: {
+                type: "days",
+                nameType: "abbreviated"
+            },
+            pattern: "EE"
+        }, {
+            type: "weekday",
+            names: {
+                type: "days",
+                nameType: "abbreviated"
+            },
+            pattern: "ccc"
+        }, {
+            type: "weekday",
+            names: {
+                type: "days",
+                nameType: "wide"
+            },
+            pattern: "eeee"
+        }, {
+            type: "hour",
+            pattern: "h"
+        }, {
+            type: "hour",
+            pattern: "HH"
+        }, {
+            type: "minute",
+            pattern: "m"
+        }, {
+            type: "second",
+            pattern: "s"
+        }, {
+            type: "dayperiod",
+            names: {
+                type: "dayPeriods",
+                nameType: "abbreviated"
+            },
+            pattern: "a"
+        }, {
+            type: "zone",
+            pattern: "x"
+        }, {
+            type: "zone",
+            pattern: "X"
+        }, {
+            type: "zone",
+            pattern: "z"
+        }, {
+            type: "zone",
+            pattern: "Z"
+        }];
+
+        expect(splitDateFormat('GyyqQQQMMMMLLLLLdEEccceeeehHHmsaxXzZ')).toEqual(expected);
+    });
+});
 
 
 

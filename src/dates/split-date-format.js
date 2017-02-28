@@ -19,7 +19,7 @@ const NAME_TYPES = {
         minLength: 0
     },
 
-    dayPeriod: {
+    dayperiod: {
         nameType: 'dayPeriods',
         minLength: 0
     },
@@ -28,8 +28,20 @@ const NAME_TYPES = {
         nameType: 'eras',
         minLength: 0
     }
-
 };
+const LITERAL = 'literal';
+
+function addLiteral(parts, value) {
+    const lastPart = parts[parts.length - 1];
+    if (lastPart && lastPart.type === LITERAL) {
+        lastPart.pattern += value;
+    } else {
+        parts.push({
+            type: LITERAL,
+            pattern: value
+        });
+    }
+}
 
 export default function splitDateFormat(format, locale = 'en') {
     const info = localeInfo(locale);
@@ -42,33 +54,26 @@ export default function splitDateFormat(format, locale = 'en') {
         let value = match[0];
 
         if (lastIndex < match.index) {
-            parts.push({
-                type: 'literal',
-                pattern: pattern.substring(lastIndex, match.index)
-            });
+            addLiteral(parts, pattern.substring(lastIndex, match.index));
         }
 
         if (value.startsWith('"') || value.startsWith("'")) {
-            parts.push({
-                type: 'literal' ,
-                pattern: value
-            });
+            addLiteral(parts, value);
         } else {
             const type = DATE_FIELD_MAP[value[0]];
-            let names;
+            const part = {
+                type: type,
+                pattern: value
+            };
 
             if (NAME_TYPES[type] && value.length >= NAME_TYPES[type].minLength) {
-                names = {
+                part.names = {
                     type: NAME_TYPES[type].nameType,
                     nameType: dateNameType(value.length)
                 };
             }
 
-            parts.push({
-                type: type,
-                names: names,
-                pattern: value
-            });
+            parts.push(part);
         }
 
         lastIndex = dateFormatRegExp.lastIndex;
