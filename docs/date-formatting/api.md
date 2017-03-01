@@ -162,8 +162,7 @@ The formatted date.
 
 #### splitDateFormat
 
-Returns information about the individual segments of a format.
-The returned objects contain the segment type(year, month, etc.), the pattern and information about the type of names that are used for the pattern.
+Returns information about the individual segments of a format. The returned objects contain the segment type (for example, year or month), the pattern, and the information about the type of names that are used for the pattern.
 
 ## Parameters
 
@@ -173,10 +172,10 @@ Specifies a string representing a predefined or custom date format, or a configu
 
 #### locale `String`
 
-Defines the locale id.
+Defines the locale ID.
 
 ## Return Value
 
 #### Returns `Array`
 
-An array with the information about the format segments.
+An array with information about the format segments.

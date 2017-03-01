@@ -10,7 +10,7 @@ export interface DateFormatOptions {
     skeleton?: string;
 
     /**
-     * Defines exact pattern to be used to format the date.
+     * Defines the exact pattern to be used to format the date.
      */
     pattern?: string;
 

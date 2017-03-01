@@ -321,12 +321,11 @@ The supported types of options are:
 
         formatDate(new Date(2000, 10, 6), { year: "numeric", month: "long" }); // November 2000
 
-# Splitting date formats
+## Splitting Date Formats
 
-In some cases you may need more detailed information about the format itself in order to utilize or manipulate individual parts of the format.
-The `splitDateFormat` method can be used to get information about each individual segment of the format.
+To utilize or manipulate individual parts of the format, you might need more detailed information about the format itself in some cases. You can use the `splitDateFormat` method to get information about each individual segment of the format.
 
-For example, using abbreviated names in a predefined format can be implemented in the following way.
+The following example demonstrates how to implement the usage of abbreviated names in a predefined format.
 
     import { formatDate, splitDateFormat } from '@telerik/kendo-intl';
 
