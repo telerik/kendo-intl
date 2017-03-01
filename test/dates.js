@@ -1192,6 +1192,25 @@ describe('splitDateFormat', () => {
         }]);
     });
 
+    it('result contains literals parts at the start and end of the format', () => {
+
+        expect(splitDateFormat('Foo "M" y')).toEqual([{
+            type: 'literal',
+            pattern: 'Foo "M" '
+        }, {
+            type: 'year',
+            pattern: 'y'
+        }]);
+
+        expect(splitDateFormat('M "M" Foo ')).toEqual([{
+            type: 'month',
+            pattern: 'M'
+        }, {
+            type: 'literal',
+            pattern: ' "M" Foo '
+        }]);
+    });
+
     it('parts contain names information if the pattern uses localized names', () => {
         const expected = [{
             type: "month",

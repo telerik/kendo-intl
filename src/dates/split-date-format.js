@@ -80,5 +80,9 @@ export default function splitDateFormat(format, locale = 'en') {
         match = dateFormatRegExp.exec(pattern);
     }
 
+    if (lastIndex < pattern.length) {
+        addLiteral(parts, pattern.substring(lastIndex));
+    }
+
     return parts;
 }
