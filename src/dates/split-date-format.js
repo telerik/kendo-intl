@@ -5,31 +5,40 @@ import { localeInfo } from '../cldr';
 
 const NAME_TYPES = {
     month: {
-        nameType: 'months',
-        minLength: 3
+        type: 'months',
+        minLength: 3,
+        standAlone: 'L'
     },
 
     quarter: {
-        nameType: 'quarters',
-        minLength: 3
+        type: 'quarters',
+        minLength: 3,
+        standAlone: 'q'
     },
 
     weekday: {
-        nameType: 'days',
-        minLength: 0
+        type: 'days',
+        minLength: {
+            E: 0,
+            c: 3,
+            e: 3
+        },
+        standAlone: 'c'
     },
 
     dayperiod: {
-        nameType: 'dayPeriods',
+        type: 'dayPeriods',
         minLength: 0
     },
 
     era: {
-        nameType: 'eras',
+        type: 'eras',
         minLength: 0
     }
 };
+
 const LITERAL = 'literal';
+const NUMBER = 'number';
 
 function addLiteral(parts, value) {
     const lastPart = parts[parts.length - 1];
@@ -60,17 +69,26 @@ export default function splitDateFormat(format, locale = 'en') {
         if (value.startsWith('"') || value.startsWith("'")) {
             addLiteral(parts, value);
         } else {
-            const type = DATE_FIELD_MAP[value[0]];
+            const specifier = value[0];
+            const type = DATE_FIELD_MAP[specifier];
             const part = {
                 type: type,
                 pattern: value
             };
 
-            if (NAME_TYPES[type] && value.length >= NAME_TYPES[type].minLength) {
-                part.names = {
-                    type: NAME_TYPES[type].nameType,
-                    nameType: dateNameType(value.length)
-                };
+            const names = NAME_TYPES[type];
+
+            if (names) {
+                const minLength = typeof names.minLength === NUMBER ? names.minLength : names.minLength[specifier];
+                const patternLength = value.length;
+
+                if (patternLength >= minLength) {
+                    part.names = {
+                        type: names.type,
+                        nameType: dateNameType(patternLength),
+                        standAlone: names.standAlone === specifier
+                    };
+                }
             }
 
             parts.push(part);

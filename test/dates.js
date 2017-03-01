@@ -1216,7 +1216,8 @@ describe('splitDateFormat', () => {
             type: "month",
             names: {
                 type: "months",
-                nameType: "abbreviated"
+                nameType: "abbreviated",
+                standAlone: false
             },
             pattern: "MMM"
         }];
@@ -1224,12 +1225,27 @@ describe('splitDateFormat', () => {
         expect(splitDateFormat('MMM')).toEqual(expected);
     });
 
+    it('part names standAlone options is set to true if specifier is for standAlone names', () => {
+        const expected = [{
+            type: "month",
+            names: {
+                type: "months",
+                nameType: "abbreviated",
+                standAlone: true
+            },
+            pattern: "LLL"
+        }];
+
+        expect(splitDateFormat('LLL')).toEqual(expected);
+    });
+
     it('includes all specifiers', () => {
         const expected = [{
             type: "era",
             names: {
                 type: "eras",
-                nameType: "abbreviated"
+                nameType: "abbreviated",
+                standAlone: false
             },
             pattern: "G"
         }, {
@@ -1242,21 +1258,24 @@ describe('splitDateFormat', () => {
             type: "quarter",
             names: {
                 type: "quarters",
-                nameType: "abbreviated"
+                nameType: "abbreviated",
+                standAlone: false
             },
             pattern: "QQQ"
         }, {
             type: "month",
             names: {
                 type: "months",
-                nameType: "wide"
+                nameType: "wide",
+                standAlone: false
             },
             pattern: "MMMM"
         }, {
             type: "month",
             names: {
                 type: "months",
-                nameType: "narrow"
+                nameType: "narrow",
+                standAlone: true
             },
             pattern: "LLLLL"
         }, {
@@ -1266,21 +1285,24 @@ describe('splitDateFormat', () => {
             type: "weekday",
             names: {
                 type: "days",
-                nameType: "abbreviated"
+                nameType: "abbreviated",
+                standAlone: false
             },
             pattern: "EE"
         }, {
             type: "weekday",
             names: {
                 type: "days",
-                nameType: "abbreviated"
+                nameType: "abbreviated",
+                standAlone: true
             },
             pattern: "ccc"
         }, {
             type: "weekday",
             names: {
                 type: "days",
-                nameType: "wide"
+                nameType: "wide",
+                standAlone: false
             },
             pattern: "eeee"
         }, {
@@ -1299,7 +1321,8 @@ describe('splitDateFormat', () => {
             type: "dayperiod",
             names: {
                 type: "dayPeriods",
-                nameType: "abbreviated"
+                nameType: "abbreviated",
+                standAlone: false
             },
             pattern: "a"
         }, {
