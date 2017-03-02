@@ -62,7 +62,7 @@ export interface DateFieldNameOptions {
 /**
  * Returns a localized date field name based on a specific format specifier.
  *
- * @param formatSpecifier The dateFieldName options.
+ * @param options The dateFieldName options.
  * @param locale The optional locale id. If not specified, the `"en"` locale id is used.
  * @returns The localized date field name determined by the dateFieldName options.
  *
@@ -74,7 +74,7 @@ export interface DateFieldNameOptions {
  * dateFieldName({ type: 'month', nameType: 'wide' });  //returns 'month';
  * ```
  */
-export function dateFieldName(formatSpecifier: DateFieldNameOptions, locale?: string): string;
+export function dateFieldName(options: DateFieldNameOptions, locale?: string): string;
 
 /**
  * Returns the first day index starting from Sunday based on the specified locale.
