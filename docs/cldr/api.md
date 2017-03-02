@@ -86,6 +86,55 @@ The names.
 
 If the type is `"dayPeriods"` or `"eras"`, an object is returned. For the other types, the result is `Array`.
 
+### dateFieldName
+
+Returns a localized date field name based on a specific format specifier.
+
+#### dateFieldName Parameters
+
+##### options `Object`
+
+The options that determine the returned date field name.
+
+##### options.type `String`
+
+The type of the date field name.
+
+The supported values are:
+* `"era"`
+* `"year"`
+* `"quarter"`
+* `"month"`
+* `"week"`
+* `"day"`
+* `"weekday"`
+* `"dayperiod"`
+* `"hour"`
+* `"minute"`
+* `"second"`
+* `"zone"`
+
+##### options.nameType `String`
+
+The format name type.
+
+The supported values are:
+* `"wide"`
+* `"narrow"`
+* `"short"`
+
+##### locale `String`
+
+The locale id.
+
+#### dateFieldName Return Value
+
+##### Returns `String`
+
+The date field name.
+
+If an information for the specified date field type is missing, a `undefined` is returned.
+
 ### numberSymbols
 
 Returns the number symbols from the specified locale.

@@ -33,6 +33,50 @@ export interface DateFormatNameOptions {
 export function dateFormatNames(locale: string, options: DateFormatNameOptions): any;
 
 /**
+ * Settings for the dateFieldName function.
+ */
+export interface DateFieldNameOptions {
+    /**
+     * Specifies the type of names.
+     */
+    type: 'era'         |
+          'year'        |
+          'quarter'     |
+          'month'       |
+          'week'        |
+          'day'         |
+          'weekday'     |
+          'dayperiod'   |
+          'hour'        |
+          'minute'      |
+          'second'      |
+          'millisecond' |
+          'zone';
+
+    /**
+     * Specifies the names form.
+     */
+    nameType?: 'wide' | 'narrow' | 'short';
+}
+
+/**
+ * Returns a localized date field name based on a specific format specifier.
+ *
+ * @param options The dateFieldName options.
+ * @param locale The optional locale id. If not specified, the `"en"` locale id is used.
+ * @returns The localized date field name determined by the dateFieldName options.
+ *
+ * @example
+ * ```
+ * dateFieldName({ type: 'day' });                      //returns 'day';
+ * dateFieldName({ type: 'day', nameType: 'wide' });    //returns 'day';
+ * dateFieldName({ type: 'month', nameType: 'short' }); //returns 'mo.';
+ * dateFieldName({ type: 'month', nameType: 'wide' });  //returns 'month';
+ * ```
+ */
+export function dateFieldName(options: DateFieldNameOptions, locale?: string): string;
+
+/**
  * Returns the first day index starting from Sunday based on the specified locale.
  *
  * @param locale The locale id.

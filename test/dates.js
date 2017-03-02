@@ -25,7 +25,6 @@ function date(year, month, day, hour, minute, second, millisecond) {
 }
 
 describe('date formatting', () => {
-
     it('returns value if it is not a date', () => {
         expect(formatDate("foo")).toEqual("foo");
     });
@@ -120,7 +119,6 @@ describe('date formatting', () => {
 
     it('supports narrow month name', () => {
         expect(formatDate(date(2000, 1, 1), "MMMMM")).toEqual('J');
-
     });
 
     it('supports stand-alone month formatting', () => {
@@ -156,7 +154,6 @@ describe('date formatting', () => {
         const hourBig = date(2000, 1, 1, 13);
 
         expect(formatDate(hourSmall, "h:mm")).toEqual("1:00");
-
         expect(formatDate(hourBig, "h:mm")).toEqual("1:00");
         expect(formatDate(hourSmall, "hh:mm")).toEqual("01:00");
         expect(formatDate(hourBig, "hh:mm")).toEqual("01:00");
@@ -169,7 +166,6 @@ describe('date formatting', () => {
 
         expect(formatDate(hourSmall, "H:mm")).toEqual("1:00");
         expect(formatDate(hourBig, "H:mm")).toEqual("23:00");
-
         expect(formatDate(hourSmall, "HH:mm")).toEqual("01:00");
         expect(formatDate(hourBig, "HH:mm")).toEqual("23:00");
     });
@@ -182,7 +178,6 @@ describe('date formatting', () => {
     it('supports day period wide formatting', () => {
         expect(formatDate(date(2000, 1, 1, 1), "hh aaaa")).toEqual("01 AM");
         expect(formatDate(date(2000, 1, 1, 13), "hh aaaa")).toEqual("01 PM");
-
     });
 
     it('supports day period narrow formatting', () => {
@@ -235,7 +230,6 @@ describe('date formatting', () => {
 
     it('supports wide era formatting', () => {
         expect(formatDate(date(-1, 1, 1), "y GGGG")).toEqual('-1 Before Christ');
-
         expect(formatDate(date(2000, 1, 1), "y GGGG")).toEqual('2000 Anno Domini');
     });
 
