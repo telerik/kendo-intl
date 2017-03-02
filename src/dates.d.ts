@@ -1,3 +1,5 @@
+import { DateFormatNameOptions } from './cldr';
+
 /**
  * Settings for the formatDate and parseDate functions.
  */
@@ -6,6 +8,11 @@ export interface DateFormatOptions {
      * Defines the skeleton format used to get the pattern from the locale calendar [`availableFormats`](http://www.unicode.org/reports/tr35/tr35-dates.html#availableFormats_appendItems).
      */
     skeleton?: string;
+
+    /**
+     * Defines the exact pattern to be used to format the date.
+     */
+    pattern?: string;
 
     /**
      * Specifies which of the locale `dateFormats` should be used to format the value.
@@ -93,12 +100,28 @@ export function formatDate(value: Date, format: string|DateFormatOptions, locale
  */
 export function parseDate(value: string, format?: string | DateFormatOptions | string[] | DateFormatOptions[], locale?: string): Date;
 
+export interface DateFormatPart {
+    /**
+     * Specifies the type of the format part.
+     */
+    type?: 'era' | 'year' | 'quarter' | 'month' | 'day' | 'weekday' | 'hour' | 'minute' | 'second' | 'dayperiod' | 'zone' | 'literal';
+
+    /**
+     * Specifies the pattern of the format part.
+     */
+    pattern?: string;
+
+    /**
+     * Specifies the format names options.
+     */
+    names?: DateFormatNameOptions;
+}
+
 /**
- * Returns the full format based on the Date object and the specified format. If no format is provided, the default short date format is used.
+ * Splits the date format into objects containing information about each part of the pattern.
  *
- * @param value The date to format.
  * @param format The format string or options.
  * @param locale The optional locale id. If not specified, the `"en"` locale id is used.
- * @returns The full date format.
+ * @returns The date format parts.
  */
-export function dateFormatString(value: Date, format: string|DateFormatOptions, locale?: string): string;
+export function splitDateFormat(format: string|DateFormatOptions, locale?: string): DateFormatPart[];

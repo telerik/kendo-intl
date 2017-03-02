@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>var exports = {}; </script>
+    <script src="../dist/cdn/js/kendo-intl.js"></script>
+
+  </head>
+  <body>
+  <input />
+    <script>
+        var intl = exports.KendoIntl;
+
+        var KEY_CODES = {
+            BACKSPACE: 8,
+            ARROWS: {
+                UP: 38,
+                DOWN: 40,
+                LEFT: 37,
+                RIGHT: 39
+            }
+        };
+
+        var DateSetters = {
+            month: function(date, value) {
+                if (1 <= value && value <= 12) {
+                    date.setMonth(value);
+                    return true;
+                }
+            },
+            day: function(date, value) {
+                var newDate = new Date(date);
+                newDate.setDate(value);
+                if (newDate.getMonth() === date.getMonth()) {
+                    date.setDate(value);
+                    return true;
+                }
+            },
+            year: function(date, value) {
+                date.setFullYear(value);
+                return true;
+            }
+        }
+
+        var DateModifiers = {
+            month: function(date, offset) {
+                date.setMonth(date.getMonth() + offset);
+            },
+            day: function(date, offset) {
+                date.setDate(date.getDate() + offset);
+            },
+            year: function(date, offset) {
+                date.setFullYear(date.getFullYear() + offset);
+            }
+        };
+
+        var Input = function(element, format, date) {
+            this.element = element;
+            this.parts = intl.splitDateFormat(format);
+            this.date = date;
+            this.element.addEventListener("keydown", this.onKeyDown.bind(this));
+            this.element.addEventListener("keypress", this.onKeyPress.bind(this));
+            this.init();
+        };
+
+        Input.prototype = {
+            init: function() {
+                var parts = this.parts;
+                var inputValue = '';
+                for (var idx = 0; idx  < parts.length; idx++) {
+                    var part = parts[idx];
+                    var value;
+                    if (part.type === 'literal') {
+                        value = part.pattern;
+                    } else {
+                        value = intl.formatDate(this.date, { pattern: part.pattern });
+                        if (part.names) {
+                            part.names = intl.dateFormatNames('en', part.names);
+                        }
+                    }
+                    part.value = value;
+                    inputValue += value;
+                }
+
+                this.elementValue = this.element.value = inputValue;
+            },
+
+            setValue: function() {
+                var parts = this.parts;
+                var inputValue = '';
+                for (var idx = 0; idx  < parts.length; idx++) {
+                    var part = parts[idx];
+                    inputValue += part.name ||  part.value;
+                }
+
+                this.elementValue = this.element.value = inputValue;
+            },
+
+            adjacentPart: function(idx, dir) {
+                var current = this.parts[idx];
+                var next = this.parts[idx + dir];
+
+                if (next && next.type === 'literal') {
+                    next = this.parts[idx + 2 * dir];
+                    if (dir > 0 && next) {
+                        next.position = current.position + (current.name || current.value).length + this.parts[idx + dir].value.length;
+                    }
+                }
+
+                return next;
+            },
+
+            onKeyDown: function(e) {
+                var position = this.element.selectionStart;
+                var partIdx = this.getPartIndex(position);
+                var parts = this.parts;
+                var part = parts[partIdx];
+                var keyCode =  e.keyCode;
+                var backspace = keyCode == KEY_CODES.BACKSPACE;
+                var up = keyCode == KEY_CODES.ARROWS.UP;
+                var down = keyCode == KEY_CODES.ARROWS.DOWN;
+                var left = keyCode == KEY_CODES.ARROWS.LEFT;
+                var right = keyCode == KEY_CODES.ARROWS.RIGHT;
+                var handle = this._metaKey = backspace || up || down || left || right;
+
+                if (backspace) {
+                    if(!part.name) {
+                        part.name = part.type;
+                        this.setValue();
+                    }
+                    delete part.currentValue;
+                } else if (up || down) {
+                    delete part.name;
+                    delete part.currentValue;
+                    var offset = up ? 1 : -1;
+                    DateModifiers[part.type](this.date, offset);
+                    part.value = intl.formatDate(this.date, { pattern: part.pattern });
+                    this.setValue();
+                } else if (left) {
+                    part = this.adjacentPart(partIdx, -1);
+                } else if (right) {
+                    part = this.adjacentPart(partIdx, 1);
+                }
+
+                if (handle) {
+                    e.preventDefault();
+                    if (part) {
+                        this.element.setSelectionRange(part.position, part.position + (part.name || part.value).length);
+                    }
+                }
+            },
+
+            onKeyPress: function(e) {
+                var position = this.element.selectionStart;
+                var partIdx = this.getPartIndex(position);
+                var parts = this.parts;
+                var part = parts[partIdx];
+                if (!this._metaKey) {
+                    e.preventDefault();
+                    var key = e.key.toLowerCase();
+                    var value = (part.currentValue || '') + key;
+                    if (part.names) {
+                        if (!this.trySetName(value, part) && part.currentValue) {
+                            this.trySetName(key, part);
+                        }
+                    } else {
+                        if (!this.trySetNumber(value, part)) {
+                            this.trySetNumber(key, part);
+                        }
+                    }
+                }
+            },
+
+            trySetNumber: function(value, part) {
+                var number = parseInt(value, 10);
+                if (!isNaN(number) && DateSetters[part.type](this.date, number)) {
+                     delete part.name;
+                     part.currentValue = value;
+                     part.value = value;
+                     this.setValue();
+                     this.element.setSelectionRange(part.position, part.position + value.length);
+                     return true;
+                }
+            },
+
+            trySetName: function(value, part) {
+                for (let idx = 0; idx < part.names.length; idx++) {
+                    if (part.names[idx].toLowerCase().startsWith(value)) {
+                         this.date.setMonth(idx);
+                         part.currentValue = value;
+                         part.value = intl.formatDate(this.date, { pattern: part.pattern });
+                         delete part.name;
+                         this.setValue();
+                         this.element.setSelectionRange(part.position, part.position + value.length);
+                         return true;
+                    }
+                }
+
+            },
+
+            getPartIndex: function(position) {
+                var parts = this.parts;
+                var length = 0;
+                var idx = -1;
+                var part;
+
+                do {
+                    idx++;
+                    part = parts[idx];
+                    part.position = length;
+                    length += (part.name ||  part.value).length;
+                } while (length < position);
+
+                if (part.type === "literal") {
+                    idx += parts[idx + 1] ? 1 : -1;
+                    if (parts[idx]) {
+                        parts[idx].position = length;
+                    }
+                }
+
+                return idx;
+            }
+        };
+
+        var input = new Input(document.getElementsByTagName("input")[0], "MMMM/d/y", new Date());
+    </script>
+  </body>
+</html>
