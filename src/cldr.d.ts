@@ -39,8 +39,7 @@ export interface DateFieldNameOptions {
     /**
      * Specifies the type of names.
      */
-    type: 'dayPeriods'  |
-          'era'         |
+    type: 'era'         |
           'year'        |
           'quarter'     |
           'month'       |
