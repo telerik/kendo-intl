@@ -162,7 +162,7 @@ The formatted date.
 
 #### splitDateFormat
 
-Returns information about the individual segments of a format. The returned objects contain the segment type (for example, year or month), the pattern, and the information about the type of names that are used for the pattern.
+Returns information about the individual segments of a format. The returned objects contain the segment type (for example, year or month), the pattern, and the information about the [dateFormatNames](https://github.com/telerik/kendo-intl/blob/master/docs/cldr/api.md#dateformatnames) that are used for the pattern.
 
 ## Parameters
 
