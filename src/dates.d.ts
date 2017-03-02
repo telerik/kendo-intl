@@ -100,6 +100,9 @@ export function formatDate(value: Date, format: string|DateFormatOptions, locale
  */
 export function parseDate(value: string, format?: string | DateFormatOptions | string[] | DateFormatOptions[], locale?: string): Date;
 
+/**
+ * Details for the date format part.
+ */
 export interface DateFormatPart {
     /**
      * Specifies the type of the format part.

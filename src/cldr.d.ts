@@ -62,9 +62,28 @@ export interface DateFieldNameOptions {
 /**
  * Returns a localized date field name based on a specific format specifier.
  *
- * @param options The dateFieldName options.
+ * The available `type` values are:
+ * - `era`
+ * - `year`
+ * - `quarter`
+ * - `month`
+ * - `week`
+ * - `day`
+ * - `dayperiod`
+ * - `hour`
+ * - `minute`
+ * - `second`
+ * - `zone`
+ *
+ * The available `nameType` values are:
+ * - `wide`
+ * - `narrow`
+ * - `short`
+ *
+ * @param options Detailed configuration for the desired date field name.
  * @param locale The optional locale id. If not specified, the `"en"` locale id is used.
- * @returns The localized date field name determined by the dateFieldName options.
+ * @returns The localized date field name from the current locale based on the option.
+ *
  *
  * @example
  * ```
