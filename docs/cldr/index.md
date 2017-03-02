@@ -25,8 +25,8 @@ The following table provides the data formats that are required for number and d
 | Currency                     | `cldr/main/locale/currencies.json` and `cldr/supplemental/currencyData.json` |
 | Basic dates                  | `cldr/main/locale/ca-gregorian.json`   |
 | Localized timezone           | `cldr/main/locale/timeZoneNames.json`  |
+| Localized date field names   | `cldr/main/locale/dateFields.json`     |
 | Numeric week day formatting  | `cldr/supplemental/weekData.json`      |
-| Localized date field names   | `cldr/supplemental/dateFields.json`    |
 
 ## Getting CLDR Data
 
