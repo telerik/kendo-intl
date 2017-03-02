@@ -1,4 +1,4 @@
-import { load, cldr, localeInfo, dateFormatNames, firstDay, localeCurrency, currencyDisplay, currencyFractionOptions, currencyDisplays, numberSymbols } from '../src/cldr';
+import { load, cldr, localeInfo, dateFieldName, dateFormatNames, firstDay, localeCurrency, currencyDisplay, currencyFractionOptions, currencyDisplays, numberSymbols } from '../src/cldr';
 import { errors } from '../src/errors';
 
 const likelySubtags = require("cldr-data/supplemental/likelySubtags.json");
@@ -363,6 +363,120 @@ describe('dateFormatNames', () => {
     it('should return lower names', () => {
         const names = dateFormatNames('en', { type: 'dayPeriods', nameType: "narrow", standAlone: true, lower: true });
         expect(names.pm).toEqual('pm');
+    });
+});
+
+describe('dateFieldName', () => {
+    it('should return placeholder for the era type', () => {
+        expect(dateFieldName({ type: 'era', nameType: 'wide' })).toEqual("era");
+        expect(dateFieldName({ type: 'era', nameType: 'narrow' })).toEqual("era");
+        expect(dateFieldName({ type: 'era', nameType: 'short' })).toEqual("era");
+    });
+
+    it('should return placeholder for the year type', () => {
+        expect(dateFieldName({ type: 'year', nameType: 'wide' })).toEqual("year");
+        expect(dateFieldName({ type: 'year', nameType: 'narrow' })).toEqual("yr.");
+        expect(dateFieldName({ type: 'year', nameType: 'short' })).toEqual("yr.");
+    });
+
+    it('should return placeholder for the quarter type', () => {
+        expect(dateFieldName({ type: 'quarter', nameType: 'wide' })).toEqual("quarter");
+        expect(dateFieldName({ type: 'quarter', nameType: 'narrow' })).toEqual("qtr.");
+        expect(dateFieldName({ type: 'quarter', nameType: 'short' })).toEqual("qtr.");
+    });
+
+    it('should return placeholder for the month type', () => {
+        expect(dateFieldName({ type: 'month', nameType: 'wide' })).toEqual("month");
+        expect(dateFieldName({ type: 'month', nameType: 'narrow' })).toEqual("mo.");
+        expect(dateFieldName({ type: 'month', nameType: 'short' })).toEqual("mo.");
+    });
+
+    it('should return placeholder for the month type', () => {
+        expect(dateFieldName({ type: 'month', nameType: 'wide' })).toEqual("month");
+        expect(dateFieldName({ type: 'month', nameType: 'narrow' })).toEqual("mo.");
+        expect(dateFieldName({ type: 'month', nameType: 'short' })).toEqual("mo.");
+    });
+
+    it('should return placeholder for the week type', () => {
+        expect(dateFieldName({ type: 'week', nameType: 'wide' })).toEqual("week");
+        expect(dateFieldName({ type: 'week', nameType: 'narrow' })).toEqual("wk.");
+        expect(dateFieldName({ type: 'week', nameType: 'short' })).toEqual("wk.");
+    });
+
+    it('should return placeholder for the day type', () => {
+        expect(dateFieldName({ type: 'day', nameType: 'wide' })).toEqual("day");
+        expect(dateFieldName({ type: 'day', nameType: 'narrow' })).toEqual("day");
+        expect(dateFieldName({ type: 'day', nameType: 'short' })).toEqual("day");
+    });
+
+    it('should return localized placeholder for the day type', () => {
+        expect(dateFieldName({ type: 'day', nameType: 'wide' }, 'bg')).toEqual("ден");
+        expect(dateFieldName({ type: 'day', nameType: 'narrow' }, 'bg')).toEqual("д");
+        expect(dateFieldName({ type: 'day', nameType: 'short' }, 'bg')).toEqual("д");
+    });
+
+    it('should return placeholder for the weekday type', () => {
+        expect(dateFieldName({ type: 'weekday', nameType: 'wide' })).toEqual("day of the week");
+        expect(dateFieldName({ type: 'weekday', nameType: 'narrow' })).toEqual("day of the week");
+        expect(dateFieldName({ type: 'weekday', nameType: 'short' })).toEqual("day of the week");
+    });
+
+    it('should return localized placeholder for the weekday type', () => {
+        expect(dateFieldName({ type: 'weekday', nameType: 'wide' }, 'bg')).toEqual("ден от седмицата");
+        expect(dateFieldName({ type: 'weekday', nameType: 'narrow' }, 'bg')).toEqual("ден от седмицата");
+        expect(dateFieldName({ type: 'weekday', nameType: 'short' }, 'bg')).toEqual("ден от седмицата");
+    });
+
+    it('should return placeholder for the dayperiod type', () => {
+        expect(dateFieldName({ type: 'dayperiod', nameType: 'wide' })).toEqual("AM/PM");
+        expect(dateFieldName({ type: 'dayperiod', nameType: 'narrow' })).toEqual("AM/PM");
+        expect(dateFieldName({ type: 'dayperiod', nameType: 'short' })).toEqual("AM/PM");
+    });
+
+    it('should return localized placeholder for the dayperiod type', () => {
+        expect(dateFieldName({ type: 'dayperiod', nameType: 'wide' }, 'bg')).toEqual("пр.об./сл.об.");
+        expect(dateFieldName({ type: 'dayperiod', nameType: 'narrow' }, 'bg')).toEqual("пр.об./сл.об.");
+        expect(dateFieldName({ type: 'dayperiod', nameType: 'short' }, 'bg')).toEqual("пр.об./сл.об.");
+    });
+
+    it('should return placeholder for hour type', () => {
+        expect(dateFieldName({ type: 'hour', nameType: 'wide' })).toEqual("hour");
+        expect(dateFieldName({ type: 'hour', nameType: 'narrow' })).toEqual("hr.");
+        expect(dateFieldName({ type: 'hour', nameType: 'short' })).toEqual("hr.");
+    });
+
+    it('should return localized placeholder for hour type', () => {
+        expect(dateFieldName({ type: 'hour', nameType: 'wide' }, 'bg')).toEqual("час");
+        expect(dateFieldName({ type: 'hour', nameType: 'narrow' }, 'bg')).toEqual("ч");
+        expect(dateFieldName({ type: 'hour', nameType: 'short' }, 'bg')).toEqual("ч");
+    });
+
+    it('should return placeholder for minute type', () => {
+        expect(dateFieldName({ type: 'minute', nameType: 'wide' })).toEqual("minute");
+        expect(dateFieldName({ type: 'minute', nameType: 'narrow' })).toEqual("min.");
+        expect(dateFieldName({ type: 'minute', nameType: 'short' })).toEqual("min.");
+    });
+
+    it('should return placeholder for second type', () => {
+        expect(dateFieldName({ type: 'second', nameType: 'wide' })).toEqual("second");
+        expect(dateFieldName({ type: 'second', nameType: 'narrow' })).toEqual("sec.");
+        expect(dateFieldName({ type: 'second', nameType: 'short' })).toEqual("sec.");
+    });
+
+    it('should return placeholder for zone type', () => {
+        expect(dateFieldName({ type: 'zone', nameType: 'wide' })).toEqual("time zone");
+        expect(dateFieldName({ type: 'zone', nameType: 'narrow' })).toEqual("time zone");
+        expect(dateFieldName({ type: 'zone', nameType: 'short' })).toEqual("time zone");
+    });
+
+    it('should return undefined for missing fieldName type', () => {
+        expect(dateFieldName({ type: 'millisecond', nameType: 'wide' })).toEqual(undefined);
+        expect(dateFieldName({ type: 'millisecond', nameType: 'narrow' })).toEqual(undefined);
+        expect(dateFieldName({ type: 'millisecond', nameType: 'short' })).toEqual(undefined);
+    });
+
+    it('should return wide placeholder by default', () => {
+        expect(dateFieldName({ type: 'year' })).toEqual('year');
     });
 });
 

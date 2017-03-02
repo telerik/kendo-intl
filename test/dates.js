@@ -1,5 +1,5 @@
 import { load, localeInfo, dateFormatNames } from '../src/cldr';
-import { dateFieldName, formatDate, parseDate, splitDateFormat } from '../src/dates';
+import { formatDate, parseDate, splitDateFormat } from '../src/dates';
 import { convertTimeZone } from '../src/dates/time-utils';
 import pad from '../src/common/pad';
 
@@ -7,7 +7,7 @@ const likelySubtags = require("cldr-data/supplemental/likelySubtags.json");
 const timeZoneNames = require("cldr-data/main/bg/timeZoneNames.json");
 const calendar = require("cldr-data/main/bg/ca-gregorian.json");
 
-load(likelySubtags, timeZoneNames, calendar, require("cldr-data/main/ko/timeZoneNames.json"), require("cldr-data/main/ko/ca-gregorian.json"), require("cldr-data/supplemental/weekData.json"), require("cldr-data/main/ko/dateFields.json"));
+load(likelySubtags, timeZoneNames, calendar, require("cldr-data/main/ko/timeZoneNames.json"), require("cldr-data/main/ko/ca-gregorian.json"), require("cldr-data/supplemental/weekData.json"));
 
 Date.prototype.getTimezoneOffset = function() {
     return -120;
@@ -23,74 +23,6 @@ function date(year, month, day, hour, minute, second, millisecond) {
 
     return d;
 }
-
-describe('dateFieldName', () => {
-    it('should return placeholder for wide year name', () => {
-        expect(dateFieldName("yyyy")).toEqual("year");
-    });
-
-    it('should return placeholder for short year name', () => {
-        expect(dateFieldName("y")).toEqual("yr.");
-    });
-
-    it('should return placeholder for wide month name', () => {
-        expect(dateFieldName("MMMM")).toEqual("month");
-    });
-
-    it('should return placeholder for short month name', () => {
-        expect(dateFieldName("M")).toEqual("mo.");
-    });
-
-    it('should return placeholder for wide day name', () => {
-        expect(dateFieldName("EEEE")).toEqual("day of the week");
-        expect(dateFieldName("EEEE", "bg")).toEqual("ден от седмицата");
-    });
-
-    it('should return placeholder for short day name', () => {
-        expect(dateFieldName("d", "bg")).toEqual("д");
-    });
-
-    it('should return placeholder for short hour name', () => {
-        expect(dateFieldName("h")).toEqual("hr.");
-        expect(dateFieldName("h", "bg")).toEqual("ч");
-    });
-
-    it('should return placeholder for short minute name', () => {
-        expect(dateFieldName("m")).toEqual("min.");
-        expect(dateFieldName("m", "bg")).toEqual("мин");
-    });
-
-    it('should return placeholder for short second name', () => {
-        expect(dateFieldName("s")).toEqual("sec.");
-        expect(dateFieldName("s", "bg")).toEqual("с");
-    });
-
-    it('should return placeholder for day period', () => {
-        expect(dateFieldName("a")).toEqual("AM/PM");
-    });
-
-    it('should return placeholder for era', () => {
-        expect(dateFieldName("G")).toEqual("era");
-    });
-
-    it('should return placeholder for zone', () => {
-        expect(dateFieldName("x")).toEqual("time zone");
-        expect(dateFieldName("z")).toEqual("time zone");
-    });
-
-    it('should return placeholder for wide quarter name', () => {
-        expect(dateFieldName("QQQQ")).toEqual("quarter");
-    });
-
-    it('should return placeholder for short quarter name', () => {
-        expect(dateFieldName("q")).toEqual("qtr.");
-    });
-
-    it('should return placeholder for weekday', () => {
-        expect(dateFieldName("c")).toEqual("day of the week");
-        expect(dateFieldName("e")).toEqual("day of the week");
-    });
-});
 
 describe('date formatting', () => {
     it('returns value if it is not a date', () => {

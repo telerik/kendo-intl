@@ -125,19 +125,3 @@ export interface DateFormatPart {
  * @returns The date format parts.
  */
 export function splitDateFormat(format: string|DateFormatOptions, locale?: string): DateFormatPart[];
-
-/**
- * Returns a localized date field name based on a specific format specifier.
- *
- * @param formatSpecifier The format specifier.
- * @param locale The optional locale id. If not specified, the `"en"` locale id is used.
- * @returns The localized date field name determined by the format specifier.
- *
- * @example
- * ```
- * dateFieldName('d'); //returns 'day';
- * dateFieldName('M'); //returns 'mo.';
- * dateFieldName('MMMM'); //returns 'month';
- * ```
- */
-export function dateFieldName(formatSpecifier: string, locale?: string): string;
