@@ -44,7 +44,7 @@ const numbers = require("cldr-data/main/bg/numbers.json");
 const timeZoneNames = require("cldr-data/main/bg/timeZoneNames.json");
 const calendar = require("cldr-data/main/bg/ca-gregorian.json");
 const currencies = require("cldr-data/main/bg/currencies.json");
-const currencies = require("cldr-data/main/bg/dateFields.json");
+const dateFields = require("cldr-data/main/bg/dateFields.json");
 const weekData = require("cldr-data/supplemental/weekData.json");
 const currencyData = require("cldr-data/supplemental/currencyData.json");
 
