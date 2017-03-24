@@ -36,22 +36,26 @@ Unicode CLDR is available as JSON at [https://github.com/unicode-cldr/](https://
 
 To load the CLDR data, use the [`load`]({% cldrapi_internalization %}#load) method.
 
+> Supplemental data should be loaded first, before other culture scripts. It requires to be loaded only once.
+
 ```
 import { cldr, load } from '@telerik/kendo-intl';
 
 const likelySubtags = require("cldr-data/supplemental/likelySubtags.json");
-const numbers = require("cldr-data/main/bg/numbers.json");
+const weekData      = require("cldr-data/supplemental/weekData.json");
+const currencyData  = require("cldr-data/supplemental/currencyData.json");
+
+const numbers       = require("cldr-data/main/bg/numbers.json");
 const timeZoneNames = require("cldr-data/main/bg/timeZoneNames.json");
-const calendar = require("cldr-data/main/bg/ca-gregorian.json");
-const currencies = require("cldr-data/main/bg/currencies.json");
-const dateFields = require("cldr-data/main/bg/dateFields.json");
-const weekData = require("cldr-data/supplemental/weekData.json");
-const currencyData = require("cldr-data/supplemental/currencyData.json");
+const calendar      = require("cldr-data/main/bg/ca-gregorian.json");
+const currencies    = require("cldr-data/main/bg/currencies.json");
+const dateFields    = require("cldr-data/main/bg/dateFields.json");
 
 load(
     likelySubtags,
     weekData,
     currencyData,
+
     numbers,
     currencies,
     calendar,

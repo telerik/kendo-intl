@@ -35,13 +35,17 @@ Additionally, the library requires you to load:
 ```javascript
 import { load } from '@telerik/kendo-intl';
 
-load(require("cldr-data/main/bg/numbers.json"),
-     require("cldr-data/main/bg/currencies.json"),
-     require("cldr-data/main/bg/ca-gregorian.json"),
-     require("cldr-data/main/bg/timeZoneNames.json"),
-     require("cldr-data/supplemental/likelySubtags.json"),
-     require("cldr-data/supplemental/currencyData.json"),
-     require("cldr-data/supplemental/weekData.json"));
+load(
+    require("cldr-data/supplemental/likelySubtags.json"),
+    require("cldr-data/supplemental/currencyData.json"),
+    require("cldr-data/supplemental/weekData.json"),
+
+    require("cldr-data/main/bg/numbers.json"),
+    require("cldr-data/main/bg/currencies.json"),
+    require("cldr-data/main/bg/ca-gregorian.json"),
+    require("cldr-data/main/bg/dateFields.json"),
+    require("cldr-data/main/bg/timeZoneNames.json")
+);
 ```
 
 For more examples and available configuration options, refer to the article on [CLDR Data](https://github.com/telerik/kendo-intl/blob/master/docs/cldr/index.md).
