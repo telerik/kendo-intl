@@ -29,6 +29,7 @@ describe('load', () => {
 });
 
 describe('load numbers', () => {
+
     it('should set symbols', () => {
         const symbols = cldr.bg.numbers.symbols;
         expect(symbols.decimal).toEqual(",");
@@ -43,34 +44,45 @@ describe('load numbers', () => {
     });
 
     it('should set currency pattern', () => {
-    const currency = cldr.bg.numbers.currency;
-    expect(currency.patterns[0]).toEqual("n $");
-    expect(currency.groupSize.length).toEqual(1);
-    expect(currency.groupSize[0]).toEqual(3);
-  });
+        const currency = cldr.bg.numbers.currency;
+        expect(currency.patterns[0]).toEqual("n $");
+        expect(currency.groupSize.length).toEqual(1);
+        expect(currency.groupSize[0]).toEqual(3);
+    });
 
-  it('should set currency unit patterns', () => {
-    const currency = cldr.bg.numbers.currency;
-    expect(currency["unitPattern-count-one"]).toEqual("n $");
-    expect(currency["unitPattern-count-other"]).toEqual("n $");
-  });
+    it('should set currency unit patterns', () => {
+        const currency = cldr.bg.numbers.currency;
+        expect(currency["unitPattern-count-one"]).toEqual("n $");
+        expect(currency["unitPattern-count-other"]).toEqual("n $");
+    });
 
-  it('should set percent pattern', () => {
-    const percent = cldr.bg.numbers.percent;
-    expect(percent.patterns[0]).toEqual("n%");
-    expect(percent.groupSize.length).toEqual(1);
-    expect(percent.groupSize[0]).toEqual(3);
-  });
+    it('should set percent pattern', () => {
+        const percent = cldr.bg.numbers.percent;
+        expect(percent.patterns[0]).toEqual("n%");
+        expect(percent.groupSize.length).toEqual(1);
+        expect(percent.groupSize[0]).toEqual(3);
+    });
 
-  it('should set currencies', () => {
-    const currencies = cldr.bg.numbers.currencies;
-    expect(currencies).toBeDefined();
-  });
+    describe('load currencies', () => {
 
-  it('should set localeCurrency', () => {
-    const localeCurrency = cldr.bg.numbers.localeCurrency;
-    expect(localeCurrency).toEqual("BGN");
-  });
+        it('should set currencies', () => {
+            const currencies = cldr.bg.numbers.currencies;
+            expect(currencies).toBeDefined();
+        });
+
+        it('should not throw error if territory currency is missing in currencyData', () => {
+            expect(() => {
+                const bgCurrencies = cldr.supplemental.currencyData.region.BG;
+                try {
+                    delete cldr.supplemental.currencyData.region.BG;
+                    load(currencies);
+                } finally {
+                    cldr.supplemental.currencyData.region.BG = bgCurrencies;
+                }
+            }).not.toThrow();
+        });
+    });
+
 });
 
 describe('load calendar', () => {
@@ -183,8 +195,8 @@ describe('load calendar', () => {
 
         expect(dateFields.wide).toBeDefined();
         expect(dateFields.wide).toEqual('ера');
-        expect(dateFields.short).not.toBeDefined();
-        expect(dateFields.narrow).not.toBeDefined();
+        expect(dateFields.short).toEqual('ера');
+        expect(dateFields.narrow).toEqual('ера');
     });
 
     it('should set year display name', () => {
@@ -231,16 +243,16 @@ describe('load calendar', () => {
         const dateFields = cldr.bg.calendar.dateFields.weekday;
 
         expect(dateFields.wide).toBeDefined();
-        expect(dateFields.short).not.toBeDefined();
-        expect(dateFields.narrow).not.toBeDefined();
+        expect(dateFields.short).toBeDefined();
+        expect(dateFields.narrow).toBeDefined();
     });
 
     it('should set dayperiod display name', () => {
         const dateFields = cldr.bg.calendar.dateFields.dayperiod;
 
         expect(dateFields.wide).toBeDefined();
-        expect(dateFields.short).not.toBeDefined();
-        expect(dateFields.narrow).not.toBeDefined();
+        expect(dateFields.short).toBeDefined();
+        expect(dateFields.narrow).toBeDefined();
     });
 
     it('should set hour display name', () => {
@@ -271,8 +283,8 @@ describe('load calendar', () => {
         const dateFields = cldr.bg.calendar.dateFields.zone;
 
         expect(dateFields.wide).toBeDefined();
-        expect(dateFields.short).not.toBeDefined();
-        expect(dateFields.narrow).not.toBeDefined();
+        expect(dateFields.short).toBeDefined();
+        expect(dateFields.narrow).toBeDefined();
     });
 });
 
