@@ -132,7 +132,8 @@ const defaultData = {
                     "MMMd": "MMM d",
                     "MMMEd": "E, MMM d",
                     "MMMMd": "MMMM d",
-                    "MMMMW": "'week' W 'of' MMM",
+                    "MMMMW-count-one": "'week' W 'of' MMMM",
+                    "MMMMW-count-other": "'week' W 'of' MMMM",
                     "ms": "mm:ss",
                     "y": "y",
                     "yM": "M/y",
@@ -144,7 +145,8 @@ const defaultData = {
                     "yMMMM": "MMMM y",
                     "yQQQ": "QQQ y",
                     "yQQQQ": "QQQQ y",
-                    "yw": "'week' w 'of' y"
+                    "yw-count-one": "'week' w 'of' y",
+                    "yw-count-other": "'week' w 'of' y"
                 },
                 "appendItems": {
                     "Day": "{0} ({2}: {1})",
@@ -582,53 +584,53 @@ const defaultData = {
                     "wide": "era"
                 },
                 "year": {
-                    "wide": 'year',
-                    "short": 'yr.',
-                    "narrow": 'yr.'
+                    "wide": "year",
+                    "short": "yr.",
+                    "narrow": "yr."
                 },
                 "quarter": {
-                    "wide": 'quarter',
-                    "short": 'qtr.',
-                    "narrow": 'qtr.'
+                    "wide": "quarter",
+                    "short": "qtr.",
+                    "narrow": "qtr."
                 },
                 "month": {
-                    "wide": 'month',
-                    "short": 'mo.',
-                    "narrow": 'mo.'
+                    "wide": "month",
+                    "short": "mo.",
+                    "narrow": "mo."
                 },
                 "week": {
-                    "wide": 'week',
-                    "short": 'wk.',
-                    "narrow": 'wk.'
+                    "wide": "week",
+                    "short": "wk.",
+                    "narrow": "wk."
                 },
                 "day": {
-                    "wide": 'day',
-                    "short": 'day',
-                    "narrow": 'day'
+                    "wide": "day",
+                    "short": "day",
+                    "narrow": "day"
                 },
                 "weekday": {
-                    "wide": 'day of the week'
+                    "wide": "day of the week"
                 },
                 "dayperiod": {
-                    "wide": 'AM/PM'
+                    "wide": "AM/PM"
                 },
                 "hour": {
-                    "wide": 'hour',
-                    "short": 'hr.',
-                    "narrow": 'hr.'
+                    "wide": "hour",
+                    "short": "hr.",
+                    "narrow": "hr."
                 },
                 "minute": {
-                    "wide": 'minute',
-                    "short": 'min.',
-                    "narrow": 'min.'
+                    "wide": "minute",
+                    "short": "min.",
+                    "narrow": "min."
                 },
                 "second": {
-                    "wide": 'second',
-                    "short": 'sec.',
-                    "narrow": 'sec.'
+                    "wide": "second",
+                    "short": "sec.",
+                    "narrow": "sec."
                 },
                 "zone": {
-                    "wide": 'time zone'
+                    "wide": "time zone"
                 }
             }
         }

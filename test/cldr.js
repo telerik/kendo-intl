@@ -195,8 +195,8 @@ describe('load calendar', () => {
 
         expect(dateFields.wide).toBeDefined();
         expect(dateFields.wide).toEqual('ера');
-        expect(dateFields.short).not.toBeDefined();
-        expect(dateFields.narrow).not.toBeDefined();
+        expect(dateFields.short).toEqual('ера');
+        expect(dateFields.narrow).toEqual('ера');
     });
 
     it('should set year display name', () => {
@@ -243,16 +243,16 @@ describe('load calendar', () => {
         const dateFields = cldr.bg.calendar.dateFields.weekday;
 
         expect(dateFields.wide).toBeDefined();
-        expect(dateFields.short).not.toBeDefined();
-        expect(dateFields.narrow).not.toBeDefined();
+        expect(dateFields.short).toBeDefined();
+        expect(dateFields.narrow).toBeDefined();
     });
 
     it('should set dayperiod display name', () => {
         const dateFields = cldr.bg.calendar.dateFields.dayperiod;
 
         expect(dateFields.wide).toBeDefined();
-        expect(dateFields.short).not.toBeDefined();
-        expect(dateFields.narrow).not.toBeDefined();
+        expect(dateFields.short).toBeDefined();
+        expect(dateFields.narrow).toBeDefined();
     });
 
     it('should set hour display name', () => {
@@ -283,8 +283,8 @@ describe('load calendar', () => {
         const dateFields = cldr.bg.calendar.dateFields.zone;
 
         expect(dateFields.wide).toBeDefined();
-        expect(dateFields.short).not.toBeDefined();
-        expect(dateFields.narrow).not.toBeDefined();
+        expect(dateFields.short).toBeDefined();
+        expect(dateFields.narrow).toBeDefined();
     });
 });
 
