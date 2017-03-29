@@ -1,4 +1,4 @@
-export default function(value) {
+export default function parseRangeDate(value) {
     const parts = value.split('-');
     const year = parseInt(parts[0], 10);
     const month = parseInt(parts[1], 10) - 1;
