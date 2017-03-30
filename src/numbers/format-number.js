@@ -46,7 +46,7 @@ function getFormatOptions(format) {
 }
 
 export default function formatNumber(number, format = "n", locale = "en") {
-    if (number === undefined) {
+    if (number === undefined || number === null) {
         return "";
     }
 

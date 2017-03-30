@@ -43,8 +43,12 @@ describe('formatNumber', () => {
         expect(formatNumber(10000)).toEqual("10,000");
     });
 
-    it('should return empty string if not value is passed', () => {
+    it('should return empty string if no value is passed', () => {
         expect(formatNumber()).toEqual("");
+    });
+
+    it('should return empty string if null value is passed', () => {
+        expect(formatNumber(null)).toEqual("");
     });
 
     it('should return value if not finite value is passed', () => {
