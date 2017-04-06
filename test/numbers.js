@@ -458,6 +458,10 @@ describe('custom formatting', () => {
         expect(formatNumber(-0.001, "####;-(#.#)")).toEqual("-(0.0)");
     });
 
+    it("toString decimal number -1000 with negative format", () => {
+        expect(formatNumber(-1000, "#,##0;(#,##0);-")).toEqual("(1,000)");
+    });
+
     it("applies negative format", () => {
         expect(formatNumber(-123, "####;-(#.00)")).toEqual("-(123.00)");
     });
