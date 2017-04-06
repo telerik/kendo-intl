@@ -56,6 +56,11 @@ describe('formatNumber', () => {
         expect(formatNumber("foo")).toEqual("foo");
     });
 
+    it('should limit precision', () => {
+        const value = 5.4654647884512e+96;
+        expect(formatNumber(value, '#.#')).toEqual(value.toFixed(20));
+    });
+
 
     describe('errors', () => {
         currencyData.supplemental.currencyData.region.CUSTOM = [{ XXX: {} }];
