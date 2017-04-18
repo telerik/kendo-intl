@@ -233,6 +233,14 @@ describe('standard decimal formatting', () => {
         expect(formatNumber(33111110, "n", "custom")).toEqual("33111110");
     });
 
+    //doesn't seem to be a locale with zero group size so not sure if this is needed
+    it('should not add group if the integer length is equal to the non-zero group sizes', () => {
+        loadCustom({ pattern: ",,###,##0.###"});
+        console.log(JSON.stringify(cldr.custom, null, 4));
+
+        expect(formatNumber(123456, "n", "custom")).toEqual("123,456");
+    });
+
 });
 
 describe('standard percent formatting', () => {

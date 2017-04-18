@@ -24,7 +24,10 @@ export default function groupInteger(number, start, end, options, info) {
             groupSize = newGroupSize !== undefined ? newGroupSize : groupSize;
 
             if (groupSize === 0) {
-                parts.push(integer.substring(0, idx));
+                value = integer.substring(0, idx);
+                if (value) {
+                    parts.push(value);
+                }
                 break;
             }
         }
