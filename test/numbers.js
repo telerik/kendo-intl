@@ -447,6 +447,13 @@ describe('custom formatting', () => {
         expect(formatNumber(3.235555, "0.#0")).toEqual("3.24");
     });
 
+    it("removes trailing zeros after rounding", () => {
+        expect(formatNumber(0.016999999999, "#.#####")).toEqual("0.017");
+        expect(formatNumber(0.016999999999, "#.0000#")).toEqual("0.0170");
+        expect(formatNumber(1.999, "0.0#")).toEqual("2.0");
+        expect(formatNumber(1.999, "0.#")).toEqual("2");
+    });
+
     it("removes decimal part if no number placeholder", () => {
         expect(formatNumber(3.222, "0.")).toEqual("3");
     });
@@ -460,7 +467,7 @@ describe('custom formatting', () => {
     });
 
     it("applies negative format rounding", () => {
-        expect(formatNumber(-0.001, "####;-(#.#)")).toEqual("-(0.0)");
+        expect(formatNumber(-0.001, "####;-(#.#)")).toEqual("-(0)");
     });
 
     it("toString decimal number -1000 with negative format", () => {
@@ -472,7 +479,7 @@ describe('custom formatting', () => {
     });
 
     it("clears negative sign if rounded number is positive", () => {
-        expect(formatNumber(-0.00001, "#.##")).toEqual("0.00");
+        expect(formatNumber(-0.00001, "#.##")).toEqual("0");
     });
 
     it("formats 0", () => {

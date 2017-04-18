@@ -14,6 +14,7 @@ const ZERO = "0";
 const EMPTY = "";
 
 const literalRegExp = /(\\.)|(['][^']*[']?)|(["][^"]*["]?)/g;
+const trailingZerosRegExp = /(\.(?:[0-9]*[1-9])?)0+$/g;
 const commaRegExp = /\,/g;
 
 function setFormatLiterals(formatOptions) {
@@ -29,6 +30,21 @@ function setFormatLiterals(formatOptions) {
             return PLACEHOLDER;
         });
     }
+}
+
+function trimTrailingZeros(value, lastZero) {
+    let result;
+    if (lastZero === 0) {
+        result = value.replace(trailingZerosRegExp, '$1');
+    } else {
+        result = value.replace(new RegExp(`(\\.[0-9]{${ lastZero }}[1-9]*)0+$`, 'g'), '$1');
+    }
+
+    if (result.charAt(result.length - 1) === POINT) {
+        result = result.substr(0, result.length - 1);
+    }
+
+    return result;
 }
 
 function roundNumber(formatOptions) {
@@ -49,24 +65,30 @@ function roundNumber(formatOptions) {
         }
         fraction = fraction.split(POINT)[1] || EMPTY;
 
-        let idx = fraction.length;
+        let precision = fraction.length;
+        let trailingZeros = -1;
 
         if (!hasZero && !hasSharp) {
             formatOptions.format = format.substring(0, decimalIndex) + format.substring(decimalIndex + 1);
             decimalIndex = -1;
-            idx = 0;
+            precision = 0;
         } else if (hasZero && zeroIndex > sharpIndex) {
-            idx = zeroIndex;
+            precision = zeroIndex;
         } else if (sharpIndex > zeroIndex) {
-            if (hasSharp && idx > sharpIndex) {
-                idx = sharpIndex;
-            } else if (hasZero && idx < zeroIndex) {
-                idx = zeroIndex;
+            if (hasSharp && precision > sharpIndex) {
+                precision = sharpIndex;
+            } else if (hasZero && precision < zeroIndex) {
+                precision = zeroIndex;
             }
+
+            trailingZeros = hasZero ? zeroIndex : 0;
         }
 
-        if (idx > -1) {
-            number = round(number, idx);
+        if (precision > -1) {
+            number = round(number, precision);
+            if (trailingZeros > -1) {
+                number = trimTrailingZeros(number, trailingZeros);
+            }
         }
     } else {
         number = round(number);
