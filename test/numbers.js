@@ -351,6 +351,22 @@ describe('custom formatting', () => {
         expect(formatNumber(-18000, '#,##0')).toEqual("-18,000");
     });
 
+    it('formats currency', () => {
+        expect(formatNumber(10, '$#.#')).toEqual("$10");
+    });
+
+    it('formats currency with locale symbol', () => {
+        expect(formatNumber(10, '#.#$', 'bg')).toEqual("10лв.");
+    });
+
+    it('formats percentage', () => {
+        expect(formatNumber(0.5, '#.#%')).toEqual("50%");
+    });
+
+    it('percentage does not leave trailing zeros if multiplication by 100 causes rounding error', () => {
+        expect(formatNumber(0.035, '#.##%')).toEqual("3.5%");
+    });
+
     it('applies thousand separator to a longer than the pattern number', () => {
         expect(formatNumber(1000000.1, '#,###')).toEqual("1,000,000");
     });
