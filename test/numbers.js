@@ -435,6 +435,11 @@ describe('custom formatting', () => {
         expect(formatNumber(10, "# \\%")).toEqual("10 %");
     });
 
+    it("formats with question mark as literal", () => {
+        expect(formatNumber(10, "?\\$#")).toEqual("?$10");
+        expect(formatNumber(10, "\\?\\$#")).toEqual("?$10");
+    });
+
     it("formats with quote as literal", () => {
         expect(formatNumber(10, "# \"%\"")).toEqual("10 %");
     });

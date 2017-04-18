@@ -4,7 +4,7 @@ import round from '../common/round';
 
 const CURRENCY_SYMBOL = "$";
 const PERCENT_SYMBOL = "%";
-const PLACEHOLDER = "??";
+const PLACEHOLDER = "__??__";
 const CURRENCY = "currency";
 const PERCENT = "percent";
 const POINT = ".";
