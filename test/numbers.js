@@ -87,24 +87,26 @@ describe('formatNumber', () => {
 });
 
 describe('standard scientific formatting', () => {
+    const value = 123;
+
     it('should apply format', () => {
-        const number = 123;
-        expect(formatNumber(number, 'e')).toEqual(number.toExponential());
+        expect(formatNumber(value, 'e')).toEqual(value.toExponential());
     });
 
     it('should apply format with precision', () => {
-        const number = 123;
-        expect(formatNumber(number, 'e10')).toEqual(number.toExponential(10));
+        expect(formatNumber(value, 'e10')).toEqual(value.toExponential(10));
     });
 
     it('should apply format when passing options object', () => {
-        const number = 123;
-        expect(formatNumber(number, { style: 'scientific' })).toEqual(number.toExponential());
+        expect(formatNumber(value, { style: 'scientific' })).toEqual(value.toExponential());
     });
 
     it('should apply format with precision when passing options object', () => {
-        const number = 123;
-        expect(formatNumber(number, { style: 'scientific', minimumFractionDigits: 10})).toEqual(number.toExponential(10));
+        expect(formatNumber(value, { style: 'scientific', minimumFractionDigits: 10})).toEqual(value.toExponential(10));
+    });
+
+    it('should use locale specific decimal separator', () => {
+        expect(formatNumber(value, { style: 'scientific' }, 'bg')).toEqual('1,23e+2');
     });
 });
 
