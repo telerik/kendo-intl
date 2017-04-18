@@ -47,8 +47,9 @@ describe('formatNumber', () => {
         expect(formatNumber()).toEqual("");
     });
 
-    it('should return empty string if null value is passed', () => {
+    it('should return empty string if null or undefined value is passed', () => {
         expect(formatNumber(null)).toEqual("");
+        expect(formatNumber(undefined)).toEqual("");
     });
 
     it('should return value if not finite value is passed', () => {

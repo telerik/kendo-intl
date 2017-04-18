@@ -13,7 +13,7 @@ export function toString(value, format, locale) {
         }
     }
 
-    return value !== undefined ? value : "";
+    return value !== undefined && value !== null ? value : "";
 }
 
 export function format(format, values, locale) {

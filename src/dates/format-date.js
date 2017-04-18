@@ -176,6 +176,9 @@ formatters.Q = formatQuarter;
 
 export default function formatDate(date, format, locale = "en") {
     if (!isDate(date)) {
+        if (date === undefined || date === null) {
+            return '';
+        }
         return date;
     }
 

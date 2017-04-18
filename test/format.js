@@ -35,6 +35,10 @@ describe('toString', () => {
         expect(toString(undefined, "c", "en")).toBe("");
     });
 
+    it('returns empty string if the value is null', () => {
+        expect(toString(null, "c", "en")).toBe("");
+    });
+
     it('returns the value if the format is not defined', () => {
         expect(toString(10)).toBe(10);
     });
