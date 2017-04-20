@@ -15,6 +15,7 @@ const EMPTY = "";
 
 const literalRegExp = /(\\.)|(['][^']*[']?)|(["][^"]*["]?)/g;
 const trailingZerosRegExp = /(\.(?:[0-9]*[1-9])?)0+$/g;
+const trailingPointRegExp = /\.$/;
 const commaRegExp = /\,/g;
 
 function setFormatLiterals(formatOptions) {
@@ -33,18 +34,15 @@ function setFormatLiterals(formatOptions) {
 }
 
 function trimTrailingZeros(value, lastZero) {
-    let result;
+    let trimRegex;
+
     if (lastZero === 0) {
-        result = value.replace(trailingZerosRegExp, '$1');
+        trimRegex = trailingZerosRegExp;
     } else {
-        result = value.replace(new RegExp(`(\\.[0-9]{${ lastZero }}[1-9]*)0+$`, 'g'), '$1');
+        trimRegex = new RegExp(`(\\.[0-9]{${ lastZero }}[1-9]*)0+$`, 'g');
     }
 
-    if (result.charAt(result.length - 1) === POINT) {
-        result = result.substr(0, result.length - 1);
-    }
-
-    return result;
+    return value.replace(trimRegex, '$1').replace(trailingPointRegExp, '');
 }
 
 function roundNumber(formatOptions) {
