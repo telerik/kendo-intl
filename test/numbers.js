@@ -47,13 +47,19 @@ describe('formatNumber', () => {
         expect(formatNumber()).toEqual("");
     });
 
-    it('should return empty string if null value is passed', () => {
+    it('should return empty string if null or undefined value is passed', () => {
         expect(formatNumber(null)).toEqual("");
+        expect(formatNumber(undefined)).toEqual("");
     });
 
     it('should return value if not finite value is passed', () => {
         expect(formatNumber(Infinity)).toBe(Infinity);
         expect(formatNumber("foo")).toEqual("foo");
+    });
+
+    it('should limit precision', () => {
+        const value = 5.4654647884512e+96;
+        expect(formatNumber(value, '#.#')).toEqual(value.toFixed(20));
     });
 
 
@@ -82,24 +88,26 @@ describe('formatNumber', () => {
 });
 
 describe('standard scientific formatting', () => {
+    const value = 123;
+
     it('should apply format', () => {
-        const number = 123;
-        expect(formatNumber(number, 'e')).toEqual(number.toExponential());
+        expect(formatNumber(value, 'e')).toEqual(value.toExponential());
     });
 
     it('should apply format with precision', () => {
-        const number = 123;
-        expect(formatNumber(number, 'e10')).toEqual(number.toExponential(10));
+        expect(formatNumber(value, 'e10')).toEqual(value.toExponential(10));
     });
 
     it('should apply format when passing options object', () => {
-        const number = 123;
-        expect(formatNumber(number, { style: 'scientific' })).toEqual(number.toExponential());
+        expect(formatNumber(value, { style: 'scientific' })).toEqual(value.toExponential());
     });
 
     it('should apply format with precision when passing options object', () => {
-        const number = 123;
-        expect(formatNumber(number, { style: 'scientific', minimumFractionDigits: 10})).toEqual(number.toExponential(10));
+        expect(formatNumber(value, { style: 'scientific', minimumFractionDigits: 10})).toEqual(value.toExponential(10));
+    });
+
+    it('should use locale specific decimal separator', () => {
+        expect(formatNumber(value, { style: 'scientific' }, 'bg')).toEqual('1,23e+2');
     });
 });
 
@@ -226,6 +234,14 @@ describe('standard decimal formatting', () => {
         expect(formatNumber(33111110, "n", "custom")).toEqual("33111110");
     });
 
+    //doesn't seem to be a locale with zero group size so not sure if this is needed
+    it('should not add group if the integer length is equal to the non-zero group sizes', () => {
+        loadCustom({ pattern: ",,###,##0.###"});
+        console.log(JSON.stringify(cldr.custom, null, 4));
+
+        expect(formatNumber(123456, "n", "custom")).toEqual("123,456");
+    });
+
 });
 
 describe('standard percent formatting', () => {
@@ -336,6 +352,22 @@ describe('custom formatting', () => {
         expect(formatNumber(-18000, '#,##0')).toEqual("-18,000");
     });
 
+    it('formats currency', () => {
+        expect(formatNumber(10, '$#.#')).toEqual("$10");
+    });
+
+    it('formats currency with locale symbol', () => {
+        expect(formatNumber(10, '#.#$', 'bg')).toEqual("10лв.");
+    });
+
+    it('formats percentage', () => {
+        expect(formatNumber(0.5, '#.#%')).toEqual("50%");
+    });
+
+    it('percentage does not leave trailing zeros if multiplication by 100 causes rounding error', () => {
+        expect(formatNumber(0.035, '#.##%')).toEqual("3.5%");
+    });
+
     it('applies thousand separator to a longer than the pattern number', () => {
         expect(formatNumber(1000000.1, '#,###')).toEqual("1,000,000");
     });
@@ -404,6 +436,11 @@ describe('custom formatting', () => {
         expect(formatNumber(10, "# \\%")).toEqual("10 %");
     });
 
+    it("formats with question mark as literal", () => {
+        expect(formatNumber(10, "?\\$#")).toEqual("?$10");
+        expect(formatNumber(10, "\\?\\$#")).toEqual("?$10");
+    });
+
     it("formats with quote as literal", () => {
         expect(formatNumber(10, "# \"%\"")).toEqual("10 %");
     });
@@ -442,6 +479,13 @@ describe('custom formatting', () => {
         expect(formatNumber(3.235555, "0.#0")).toEqual("3.24");
     });
 
+    it("removes trailing zeros after rounding", () => {
+        expect(formatNumber(0.016999999999, "#.#####")).toEqual("0.017");
+        expect(formatNumber(0.016999999999, "#.0000#")).toEqual("0.0170");
+        expect(formatNumber(1.999, "0.0#")).toEqual("2.0");
+        expect(formatNumber(1.999, "0.#")).toEqual("2");
+    });
+
     it("removes decimal part if no number placeholder", () => {
         expect(formatNumber(3.222, "0.")).toEqual("3");
     });
@@ -455,7 +499,11 @@ describe('custom formatting', () => {
     });
 
     it("applies negative format rounding", () => {
-        expect(formatNumber(-0.001, "####;-(#.#)")).toEqual("-(0.0)");
+        expect(formatNumber(-0.001, "####;-(#.#)")).toEqual("-(0)");
+    });
+
+    it("toString decimal number -1000 with negative format", () => {
+        expect(formatNumber(-1000, "#,##0;(#,##0);-")).toEqual("(1,000)");
     });
 
     it("applies negative format", () => {
@@ -463,7 +511,7 @@ describe('custom formatting', () => {
     });
 
     it("clears negative sign if rounded number is positive", () => {
-        expect(formatNumber(-0.00001, "#.##")).toEqual("0.00");
+        expect(formatNumber(-0.00001, "#.##")).toEqual("0");
     });
 
     it("formats 0", () => {

@@ -29,6 +29,11 @@ describe('date formatting', () => {
         expect(formatDate("foo")).toEqual("foo");
     });
 
+    it('returns empty string if value is null or undefined', () => {
+        expect(formatDate(undefined)).toEqual("");
+        expect(formatDate(null)).toEqual("");
+    });
+
     it('applies short date format if no format is set', () => {
         expect(formatDate(date(2000, 1, 30))).toEqual("1/30/2000");
     });

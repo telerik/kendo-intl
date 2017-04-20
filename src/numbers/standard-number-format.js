@@ -12,6 +12,7 @@ const DECIMAL_PLACEHOLDER = "n";
 const CURRENCY = "currency";
 const PERCENT = "percent";
 const EMPTY = "";
+const POINT = ".";
 
 function fractionOptions(options) {
     let { minimumFractionDigits, maximumFractionDigits, style } = options;
@@ -69,14 +70,15 @@ function currencyUnitPattern(info, value) {
 
 
 export default function standardNumberFormat(number, options, info) {
+    const symbols = info.numbers.symbols;
     const { style } = options;
 
     //return number in exponential format
     if (style === "scientific") {
-        return options.minimumFractionDigits !== undefined ? number.toExponential(options.minimumFractionDigits) : number.toExponential();
+        let exponential = options.minimumFractionDigits !== undefined ? number.toExponential(options.minimumFractionDigits) : number.toExponential();
+        return exponential.replace(POINT, symbols.decimal);
     }
 
-    const symbols = info.numbers.symbols;
     let value = number;
     let symbol;
 

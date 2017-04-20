@@ -4,7 +4,7 @@ import round from '../common/round';
 
 const CURRENCY_SYMBOL = "$";
 const PERCENT_SYMBOL = "%";
-const PLACEHOLDER = "??";
+const PLACEHOLDER = "__??__";
 const CURRENCY = "currency";
 const PERCENT = "percent";
 const POINT = ".";
@@ -14,6 +14,8 @@ const ZERO = "0";
 const EMPTY = "";
 
 const literalRegExp = /(\\.)|(['][^']*[']?)|(["][^"]*["]?)/g;
+const trailingZerosRegExp = /(\.(?:[0-9]*[1-9])?)0+$/g;
+const trailingPointRegExp = /\.$/;
 const commaRegExp = /\,/g;
 
 function setFormatLiterals(formatOptions) {
@@ -29,6 +31,18 @@ function setFormatLiterals(formatOptions) {
             return PLACEHOLDER;
         });
     }
+}
+
+function trimTrailingZeros(value, lastZero) {
+    let trimRegex;
+
+    if (lastZero === 0) {
+        trimRegex = trailingZerosRegExp;
+    } else {
+        trimRegex = new RegExp(`(\\.[0-9]{${ lastZero }}[1-9]*)0+$`, 'g');
+    }
+
+    return value.replace(trimRegex, '$1').replace(trailingPointRegExp, '');
 }
 
 function roundNumber(formatOptions) {
@@ -49,24 +63,30 @@ function roundNumber(formatOptions) {
         }
         fraction = fraction.split(POINT)[1] || EMPTY;
 
-        let idx = fraction.length;
+        let precision = fraction.length;
+        let trailingZeros = -1;
 
         if (!hasZero && !hasSharp) {
             formatOptions.format = format.substring(0, decimalIndex) + format.substring(decimalIndex + 1);
             decimalIndex = -1;
-            idx = 0;
+            precision = 0;
         } else if (hasZero && zeroIndex > sharpIndex) {
-            idx = zeroIndex;
+            precision = zeroIndex;
         } else if (sharpIndex > zeroIndex) {
-            if (hasSharp && idx > sharpIndex) {
-                idx = sharpIndex;
-            } else if (hasZero && idx < zeroIndex) {
-                idx = zeroIndex;
+            if (hasSharp && precision > sharpIndex) {
+                precision = sharpIndex;
+            } else if (hasZero && precision < zeroIndex) {
+                precision = zeroIndex;
             }
+
+            trailingZeros = hasZero ? zeroIndex : 0;
         }
 
-        if (idx > -1) {
-            number = round(number, idx);
+        if (precision > -1) {
+            number = round(number, precision);
+            if (trailingZeros > -1) {
+                number = trimTrailingZeros(number, trailingZeros);
+            }
         }
     } else {
         number = round(number);
@@ -233,7 +253,7 @@ function replacePlaceHolders(formatOptions, info) {
     }
 
     if (hasGroup) {
-        number = groupInteger(number, start + (negative ? 1 : 0), Math.max(end, (integerLength + start)), info.numbers.decimal, info);
+        number = groupInteger(number, start + (negative && !hasNegativeFormat ? 1 : 0), Math.max(end, (integerLength + start)), info.numbers.decimal, info);
     }
 
     if (end >= start) {
