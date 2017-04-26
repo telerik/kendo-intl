@@ -8,17 +8,24 @@ const { NoWeekData, NoFirstDay } = errors;
 const DAYS = [ "sun", "mon", "tue", "wed", "thu", "fri", "sat" ];
 
 export default function firstDay(locale) {
+    const info = getLocaleInfo(locale);
+
+    if (info.firstDay !== undefined) {
+        return info.firstDay;
+    }
+
     const weekData = cldr.supplemental.weekData;
     if (!weekData) {
         throw NoWeekData.error();
     }
 
-    const info = getLocaleInfo(locale);
     const firstDay = weekData.firstDay[localeTerritory(info)];
 
     if (!firstDay) {
         throw NoFirstDay.error();
     }
 
-    return DAYS.indexOf(firstDay);
+    info.firstDay = DAYS.indexOf(firstDay);
+
+    return info.firstDay;
 }
