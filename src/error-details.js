@@ -10,5 +10,6 @@ export default {
     "NoGMTInfo": "Cannot determine locale GMT format. Please load the locale timeZoneNames data.",
     "NoWeekData": "Cannot determine locale first day of week. Please load the supplemental weekData.",
     "NoFirstDay": "Cannot determine locale first day of week. Please load the supplemental weekData. The default culture includes only the 'en-US' first day info.",
-    "NoValidCurrency": "Cannot determine a default currency for the {0} locale. Please specify explicitly the currency with the format options."
+    "NoValidCurrency": "Cannot determine a default currency for the {0} locale. Please specify explicitly the currency with the format options.",
+    "NoDateFieldNames": "Cannot determine the locale date field names. Please load the locale dateFields data."
 };
