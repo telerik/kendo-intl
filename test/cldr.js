@@ -507,9 +507,17 @@ describe('dateFieldName', () => {
 });
 
 describe('firstDay', () => {
-    it('should return first day name based on locale', () => {
+    it('should return first day index based on locale', () => {
         expect(firstDay('en')).toBe(0);
         expect(firstDay('bg')).toBe(1);
+    });
+
+    it('stores first day on locale info', () => {
+        firstDay('en');
+        firstDay('bg');
+
+        expect(cldr.en.firstDay).toBe(0);
+        expect(cldr.bg.firstDay).toBe(1);
     });
 });
 
