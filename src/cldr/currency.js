@@ -15,6 +15,12 @@ const DEFAULT_CURRENCY_FRACTIONS = 2;
 const SYMBOL = "symbol";
 const INVALID_CURRENCY_CODE = 'XXX';
 
+const GLOBAL_CURRENCIES = {
+    '001': 'USD', // 001 refers to world. not sure if it is correct to assume USD but seems better than throw an error
+    '150': 'EUR' // 150 territory for Europe
+
+};
+
 function getCurrencyInfo(locale, currency) {
     const info = getLocaleInfo(locale);
     const currencies = info.numbers.currencies;
@@ -121,6 +127,10 @@ export function currencyFractionOptions(code) {
 }
 
 export function territoryCurrencyCode(territory) {
+    if (GLOBAL_CURRENCIES[territory]) {
+        return GLOBAL_CURRENCIES[territory];
+    }
+
     const currencyData = cldr.supplemental.currencyData;
     if (!currencyData) {
         throw NoSupplementalCurrency.error();
