@@ -6,6 +6,7 @@ import { errors } from '../errors';
 const { NoWeekData, NoFirstDay } = errors;
 
 const DAYS = [ "sun", "mon", "tue", "wed", "thu", "fri", "sat" ];
+const DEFAULT = '001';
 
 export default function firstDay(locale) {
     const info = getLocaleInfo(locale);
@@ -19,7 +20,7 @@ export default function firstDay(locale) {
         throw NoWeekData.error();
     }
 
-    const firstDay = weekData.firstDay[localeTerritory(info)];
+    const firstDay = weekData.firstDay[localeTerritory(info)] || weekData.firstDay[DEFAULT];
 
     if (!firstDay) {
         throw NoFirstDay.error();
