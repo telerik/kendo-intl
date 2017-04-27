@@ -3,7 +3,6 @@ test
 src
 tmp
 gulpfile.js
-.npmignore
-.eslintrc.json
-.travis.yml
+.*
+*.sh
 typings*

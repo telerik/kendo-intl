@@ -27,6 +27,7 @@
   "devDependencies": {
     "@telerik/eslint-config": "^1.0.0",
     "@telerik/kendo-package-tasks": "^1.2.0",
+    "@krux/condition-jenkins": "1.0.1",
     "cz-conventional-changelog": "^1.1.5",
     "ghooks": "^1.0.3",
     "gulp": "3.9.1",
@@ -41,6 +42,17 @@
     "ghooks": {
       "pre-commit": "npm run lint",
       "commit-msg": "validate-commit-msg"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/telerik/kendo-intl.git"
+  },
+  "release": {
+    "branch": "master",
+    "debug": false,
+    "verifyConditions": {
+      "path": "./node_modules/@krux/condition-jenkins"
     }
   }
 }
