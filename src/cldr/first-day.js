@@ -11,7 +11,7 @@ const DEFAULT = '001';
 export default function firstDay(locale) {
     const info = getLocaleInfo(locale);
 
-    if (info.firstDay !== undefined) {
+    if (!isNaN(info.firstDay)) {
         return info.firstDay;
     }
 
