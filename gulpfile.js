@@ -8,9 +8,7 @@ const likelySubtags = require("cldr-data/supplemental/likelySubtags.json");
 const currencyData = require("cldr-data/supplemental/currencyData.json");
 const weekData = require("cldr-data/supplemental/weekData.json");
 const fs = require('fs');
-const path = require('path');
-
-const LOCALES_PATH = path.join(process.cwd(), 'node_modules', 'cldr-data', 'main');
+const { toJSObject, buildLocales } = require("./build-locales.js");
 
 require('@telerik/kendo-package-tasks')(gulp, 'kendo-intl');
 
@@ -54,19 +52,8 @@ gulp.task("build-default-data", ["build-npm-package"], () => {
             }
         }
     };
-    fs.writeFileSync('src/cldr/default-data.js', "const defaultData = " + JSON.stringify(defaultData, null, 4) + ";\nexport default defaultData;");
+    fs.writeFileSync('src/cldr/default-data.js', `const defaultData = ${ toJSObject(defaultData) };\nexport default defaultData;`);
 });
-
-const loadLocale = (name, cldr) => {
-    const numbers = require(`cldr-data/main/${ name }/numbers.json`);
-    const currencies = require(`cldr-data/main/${ name }/currencies.json`);
-    const calendar = require(`cldr-data/main/${ name }/ca-gregorian.json`);
-    const timeZoneNames = require(`cldr-data/main/${ name }/timeZoneNames.json`);
-    const dateFields = require(`cldr-data/main/${ name }/dateFields.json`);
-
-
-    cldr.load(numbers, currencies, calendar, timeZoneNames, dateFields);
-};
 
 gulp.task('clean-locales', (done) => {
     exec(`rm -rf locales`, () => {
@@ -74,39 +61,9 @@ gulp.task('clean-locales', (done) => {
     });
 });
 
-const EXCLUDE = {
-    root: true
-};
-
-const NO_CURRENCY = {
-    'es-419': true // latin america. not sure what to use here
-};
-
 gulp.task("build-locales", ["build-npm-package", 'clean-locales'], () => {
-    const cldr = require("./dist/npm/js/cldr");
-    cldr.load(likelySubtags, currencyData, weekData);
-    const data = cldr.cldr;
+    const intl = require('./dist/npm/js/main');
 
-    const locales = fs.readdirSync(LOCALES_PATH);
-    fs.mkdirSync('./locales');
-
-    for (let idx = 0; idx < locales.length; idx++) {
-        const name = locales[idx];
-        if (!EXCLUDE[name]) {
-            console.log(name);
-            const localePath = path.join('./locales', name);
-            loadLocale(name, cldr);
-
-            cldr.firstDay(name);
-            if (!NO_CURRENCY[name]) {
-                cldr.localeCurrency(name);
-            }
-
-            if (!fs.existsSync(localePath)){
-                fs.mkdirSync(localePath);
-            }
-
-            fs.writeFileSync(path.join(localePath, 'all.js'), `const data = ${ JSON.stringify(data[name], null, 4) };\nexport default data;`);
-        }
-    }
+    buildLocales(intl, { destFolder: './locale-tests/locales' });
 });
+
