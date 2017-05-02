@@ -1,65 +1,63 @@
 const data = {
-    "ar-LB": {
-        name: "ar-LB",
-        likelySubtags: {
-            ar: "ar-Arab-EG"
+    name: "ar-LB",
+    likelySubtags: {
+        ar: "ar-Arab-EG"
+    },
+    identity: {
+        language: "ar",
+        territory: "LB"
+    },
+    territory: "LB",
+    numbers: {
+        symbols: {
+            decimal: ",",
+            group: ".",
+            list: ";",
+            percentSign: "‎%‎",
+            plusSign: "‎+",
+            minusSign: "‎-",
+            exponential: "E",
+            superscriptingExponent: "×",
+            perMille: "‰",
+            infinity: "∞",
+            nan: "ليس رقمًا",
+            timeSeparator: ":"
         },
-        identity: {
-            language: "ar",
-            territory: "LB"
+        decimal: {
+            patterns: [
+                "n"
+            ],
+            groupSize: [
+                3
+            ]
         },
-        territory: "LB",
-        numbers: {
-            symbols: {
-                decimal: ",",
-                group: ".",
-                list: ";",
-                percentSign: "‎%‎",
-                plusSign: "‎+",
-                minusSign: "‎-",
-                exponential: "E",
-                superscriptingExponent: "×",
-                perMille: "‰",
-                infinity: "∞",
-                nan: "ليس رقمًا",
-                timeSeparator: ":"
-            },
-            decimal: {
-                patterns: [
-                    "n"
-                ],
-                groupSize: [
-                    3
-                ]
-            },
-            scientific: {
-                patterns: [
-                    "nEn"
-                ],
-                groupSize: []
-            },
-            percent: {
-                patterns: [
-                    "n%"
-                ],
-                groupSize: [
-                    3
-                ]
-            },
-            currency: {
-                patterns: [
-                    "$ n"
-                ],
-                groupSize: [
-                    3
-                ],
-                "unitPattern-count-zero": "n $",
-                "unitPattern-count-one": "n $",
-                "unitPattern-count-two": "n $",
-                "unitPattern-count-few": "n $",
-                "unitPattern-count-many": "n $",
-                "unitPattern-count-other": "n $"
-            }
+        scientific: {
+            patterns: [
+                "nEn"
+            ],
+            groupSize: []
+        },
+        percent: {
+            patterns: [
+                "n%"
+            ],
+            groupSize: [
+                3
+            ]
+        },
+        currency: {
+            patterns: [
+                "$ n"
+            ],
+            groupSize: [
+                3
+            ],
+            "unitPattern-count-zero": "n $",
+            "unitPattern-count-one": "n $",
+            "unitPattern-count-two": "n $",
+            "unitPattern-count-few": "n $",
+            "unitPattern-count-many": "n $",
+            "unitPattern-count-other": "n $"
         }
     }
 };

@@ -1,20 +1,18 @@
 import { cldr } from './info';
 
 export default function setData(data) {
-    for (let locale in data) {
-        const localeData = data[locale];
-        const info = cldr[locale] = cldr[locale] || {};
-        if (localeData.likelySubtags) {
-            const supplemental = cldr.supplemental = cldr.supplemental || {};
-            supplemental.likelySubtags = Object.assign(supplemental.likelySubtags || {}, localeData.likelySubtags);
-        }
+    const locale = data.name;
+    const info = cldr[locale] = cldr[locale] || {};
+    if (data.likelySubtags) {
+        const supplemental = cldr.supplemental = cldr.supplemental || {};
+        supplemental.likelySubtags = Object.assign(supplemental.likelySubtags || {}, data.likelySubtags);
+    }
 
-        const numbers = info.numbers;
+    const numbers = info.numbers;
 
-        Object.assign(info, localeData);
+    Object.assign(info, data);
 
-        if (numbers && localeData.numbers) {
-            info.numbers = Object.assign({}, numbers, localeData.numbers);
-        }
+    if (numbers && data.numbers) {
+        info.numbers = Object.assign({}, numbers, data.numbers);
     }
 }

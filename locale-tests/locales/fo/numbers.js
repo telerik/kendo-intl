@@ -1,60 +1,58 @@
 const data = {
-    fo: {
-        name: "fo",
-        likelySubtags: {
-            fo: "fo-Latn-FO"
+    name: "fo",
+    likelySubtags: {
+        fo: "fo-Latn-FO"
+    },
+    identity: {
+        language: "fo"
+    },
+    territory: "FO",
+    numbers: {
+        symbols: {
+            decimal: ",",
+            group: ".",
+            list: ";",
+            percentSign: "%",
+            plusSign: "+",
+            minusSign: "−",
+            exponential: "E",
+            superscriptingExponent: "×",
+            perMille: "‰",
+            infinity: "∞",
+            nan: "NaN",
+            timeSeparator: ":"
         },
-        identity: {
-            language: "fo"
+        decimal: {
+            patterns: [
+                "n"
+            ],
+            groupSize: [
+                3
+            ]
         },
-        territory: "FO",
-        numbers: {
-            symbols: {
-                decimal: ",",
-                group: ".",
-                list: ";",
-                percentSign: "%",
-                plusSign: "+",
-                minusSign: "−",
-                exponential: "E",
-                superscriptingExponent: "×",
-                perMille: "‰",
-                infinity: "∞",
-                nan: "NaN",
-                timeSeparator: ":"
-            },
-            decimal: {
-                patterns: [
-                    "n"
-                ],
-                groupSize: [
-                    3
-                ]
-            },
-            scientific: {
-                patterns: [
-                    "nEn"
-                ],
-                groupSize: []
-            },
-            percent: {
-                patterns: [
-                    "n %"
-                ],
-                groupSize: [
-                    3
-                ]
-            },
-            currency: {
-                patterns: [
-                    "n $"
-                ],
-                groupSize: [
-                    3
-                ],
-                "unitPattern-count-one": "n $",
-                "unitPattern-count-other": "n $"
-            }
+        scientific: {
+            patterns: [
+                "nEn"
+            ],
+            groupSize: []
+        },
+        percent: {
+            patterns: [
+                "n %"
+            ],
+            groupSize: [
+                3
+            ]
+        },
+        currency: {
+            patterns: [
+                "n $"
+            ],
+            groupSize: [
+                3
+            ],
+            "unitPattern-count-one": "n $",
+            "unitPattern-count-other": "n $"
         }
     }
 };
