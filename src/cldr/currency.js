@@ -3,6 +3,8 @@ import { errors } from '../errors';
 import localeTerritory from './territory';
 import parseRangeDate from './parse-range-date';
 
+/* eslint-disable consistent-return */
+
 const {
     NoCurrency,
     NoCurrencyDisplay,
@@ -21,17 +23,25 @@ const GLOBAL_CURRENCIES = {
 
 };
 
-function getCurrencyInfo(locale, currency) {
+function getCurrencyInfo(locale, currency, throwIfNoValid) {
     const info = getLocaleInfo(locale);
     const currencies = info.numbers.currencies;
     if (!currencies) {
-        throw NoCurrency.error();
+        if (throwIfNoValid) {
+            throw NoCurrency.error();
+        }
+
+        return;
     }
 
     const currencyDisplayInfo = currencies[currency];
 
     if (!currencyDisplayInfo) {
-        throw NoCurrencyDisplay.error();
+        if (throwIfNoValid) {
+            throw NoCurrencyDisplay.error();
+        }
+
+        return;
     }
 
     return currencyDisplayInfo;
@@ -73,8 +83,12 @@ function regionCurrency(regionCurrencies) {
     return latestStillValid || latestValidUntil;
 }
 
-export function currencyDisplays(locale, currency) {
-    const currencyInfo = getCurrencyInfo(locale, currency);
+export function currencyDisplays(locale, currency, throwIfNoValid = true) {
+    const currencyInfo = getCurrencyInfo(locale, currency, throwIfNoValid);
+    if (!currencyInfo) {
+        return;
+    }
+
     if (!currencyInfo.displays) {
         const displays = [ currency ];
         for (let field in currencyInfo) {
@@ -94,7 +108,7 @@ export function currencyDisplay(locale, options) {
         return currency;
     }
 
-    const currencyInfo = getCurrencyInfo(locale, currency);
+    const currencyInfo = getCurrencyInfo(locale, currency, true);
     let result;
 
     if (currencyDisplay === SYMBOL) {
@@ -126,20 +140,28 @@ export function currencyFractionOptions(code) {
     };
 }
 
-export function territoryCurrencyCode(territory) {
+export function territoryCurrencyCode(territory, throwIfNoValid = true) {
     if (GLOBAL_CURRENCIES[territory]) {
         return GLOBAL_CURRENCIES[territory];
     }
 
     const currencyData = cldr.supplemental.currencyData;
     if (!currencyData) {
-        throw NoSupplementalCurrency.error();
+        if (throwIfNoValid) {
+            throw NoSupplementalCurrency.error();
+        }
+
+        return;
     }
 
     const regionCurrencies = currencyData.region[territory];
 
     if (!regionCurrencies) {
-        throw NoCurrencyRegion.error(territory);
+        if (throwIfNoValid) {
+            throw NoCurrencyRegion.error(territory);
+        }
+
+        return;
     }
 
     const currencyCode = regionCurrency(regionCurrencies);
@@ -152,7 +174,7 @@ export function localeCurrency(locale, throwIfNoValid) {
     const numbers = info.numbers;
 
     if (!numbers.localeCurrency) {
-        const currency = territoryCurrencyCode(localeTerritory(info));
+        const currency = territoryCurrencyCode(localeTerritory(info), throwIfNoValid);
 
         if (!currency && throwIfNoValid) {
             throw NoValidCurrency.error(info.name);
