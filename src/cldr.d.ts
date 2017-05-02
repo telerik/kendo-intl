@@ -156,3 +156,8 @@ export function localeInfo(locale: string): any;
  * @hidden
  */
 export function territoryCurrencyCode(territory: string): any;
+
+/**
+ * @hidden
+ */
+export function setData(data: any): void;
