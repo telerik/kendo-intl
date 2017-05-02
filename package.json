@@ -13,6 +13,7 @@
   "scripts": {
     "build-package": "gulp build-rollup-package",
     "test": "gulp test",
+    "locale-tests": "gulp test --tests='locale-tests/generated-locales.js'",
     "lint": "gulp lint",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
