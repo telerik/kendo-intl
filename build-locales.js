@@ -89,34 +89,26 @@ module.exports.buildLocales = (intl, { contentTemplate = defaultTemplate, extens
 
             delete localeData.identity.version;
 
-            fs.writeFileSync(path.join(localePath, `all.${ extension }`), contentTemplate({
-                [name]: localeData
-            }));
+            fs.writeFileSync(path.join(localePath, `all.${ extension }`), contentTemplate(localeData));
 
-            const currencies = {
-                [name]: Object.assign(localeInfo(localeData), {
-                    numbers: {
-                        currencies: localeData.numbers.currencies,
-                        localeCurrency: localeData.numbers.localeCurrency
-                    }
-                })
-            };
+            const currencies = Object.assign(localeInfo(localeData), {
+                numbers: {
+                    currencies: localeData.numbers.currencies,
+                    localeCurrency: localeData.numbers.localeCurrency
+                }
+            });
 
             delete localeData.numbers.currencies;
             delete localeData.numbers.localeCurrency;
 
-            const numbers = {
-                [name]: Object.assign(localeInfo(localeData), {
-                    numbers: localeData.numbers
-                })
-            };
+            const numbers = Object.assign(localeInfo(localeData), {
+                numbers: localeData.numbers
+            });
 
-            const calendar = {
-                [name]: Object.assign(localeInfo(localeData), {
-                    calendar: localeData.calendar,
-                    firstDay: localeData.firstDay
-                })
-            };
+            const calendar = Object.assign(localeInfo(localeData), {
+                calendar: localeData.calendar,
+                firstDay: localeData.firstDay
+            });
 
             fs.writeFileSync(path.join(localePath, `currencies.${ extension }`), contentTemplate(currencies));
             fs.writeFileSync(path.join(localePath, `numbers.${ extension }`), contentTemplate(numbers));
