@@ -6,9 +6,6 @@ const numbers = require("cldr-data/main/bg/numbers.json");
 const currencies = require("cldr-data/main/bg/currencies.json");
 const currencyData = require("cldr-data/supplemental/currencyData.json");
 
-// CUSTOM region is used in tests below
-currencyData.supplemental.currencyData.region.CUSTOM = [{ XXX: {} }];
-
 load(likelySubtags, currencyData, numbers, currencies);
 
 function loadCustom(options) {
@@ -64,8 +61,10 @@ describe('formatNumber', () => {
 
 
     describe('errors', () => {
-        currencyData.supplemental.currencyData.region.CUSTOM = [{ XXX: {} }];
-        loadCustom({ currencies: { USD: { symbol: "$" } } });
+        beforeAll(() => {
+            cldr.supplemental.currencyData.region.CUSTOM = [{ XXX: {} }];
+            loadCustom({ currencies: { USD: { symbol: "$" } } });
+        });
 
         it('throws error if the default locale currency cannot be determined', () => {
             expect(() => {
@@ -237,7 +236,6 @@ describe('standard decimal formatting', () => {
     //doesn't seem to be a locale with zero group size so not sure if this is needed
     it('should not add group if the integer length is equal to the non-zero group sizes', () => {
         loadCustom({ pattern: ",,###,##0.###"});
-        console.log(JSON.stringify(cldr.custom, null, 4));
 
         expect(formatNumber(123456, "n", "custom")).toEqual("123,456");
     });
@@ -652,8 +650,10 @@ describe('parseNumber', () => {
     });
 
     describe('errors', () => {
-        currencyData.supplemental.currencyData.region.CUSTOM = [{ XXX: {} }];
-        loadCustom({ currencies: { USD: { symbol: "$" } } });
+        beforeAll(() => {
+            cldr.supplemental.currencyData.region.CUSTOM = [{ XXX: {} }];
+            loadCustom({ currencies: { USD: { symbol: "$" } } });
+        });
 
         it('throws error if the default locale currency cannot be determined', () => {
             expect(() => {
@@ -671,6 +671,28 @@ describe('parseNumber', () => {
             expect(() => {
                 parseNumber("10", 'custom', "n");
             }).not.toThrow();
+        });
+
+        it('does not throw error if the currencies are missing but the format does not require it', () => {
+            const currencies = cldr.bg.numbers.currencies;
+            delete cldr.bg.numbers.currencies;
+
+            expect(() => {
+                parseNumber("10", 'bg', "n");
+            }).not.toThrow();
+
+            cldr.bg.numbers.currencies = currencies;
+        });
+
+        it('does not throw error if the default currency is missing but the format does not require it', () => {
+            const BGN = cldr.bg.numbers.currencies.BGN;
+            delete cldr.bg.numbers.currencies.BGN;
+
+            expect(() => {
+                parseNumber("10", 'bg', "n");
+            }).not.toThrow();
+
+            cldr.bg.numbers.currencies.BGN = BGN;
         });
     });
 });
