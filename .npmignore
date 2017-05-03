@@ -1,5 +1,6 @@
 docs
 test
+locale-tests
 src
 tmp
 gulpfile.js
