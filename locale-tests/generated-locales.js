@@ -23,149 +23,151 @@ describe('generated-locales', () => {
     const numberString = '5.55';
 
     locales.forEach((locale) => {
-        if (locale !== 'root') {
-            describe(`${ locale }`, () => {
+        if (locale === 'root') {
+            return;
+        }
 
-                describe(`numbers`, () => {
-                    beforeAll(() => {
-                        const numbers = require(`./locales/${ locale }/numbers`).default;
-                        setData(numbers);
-                    });
+        describe(`${ locale }`, () => {
 
-                    afterAll(() => {
-                        clean();
-                    });
-
-                    it('format', () => {
-                        expect(() => {
-                            formatNumber(number, 'n', locale);
-                        }).not.toThrow();
-                    });
-
-                    it('parse', () => {
-                        expect(() => {
-                            parseNumber(numberString, locale, 'n');
-                        }).not.toThrow();
-                    });
-
+            describe(`numbers`, () => {
+                beforeAll(() => {
+                    const numbers = require(`./locales/${ locale }/numbers`).default;
+                    setData(numbers);
                 });
 
-                if (locale !== NO_CURRENCY_LOCALE) {
-
-                    describe(`currency`, () => {
-                        beforeAll(() => {
-                            const numbers = require(`./locales/${ locale }/numbers`).default;
-                            const currencies = require(`./locales/${ locale }/currencies`).default;
-
-                            setData(numbers);
-                            setData(currencies);
-
-                        });
-
-                        afterAll(() => {
-                            clean();
-                        });
-
-                        it('format', () => {
-                            expect(() => {
-                                formatNumber(number, 'c', locale);
-                            }).not.toThrow();
-                        });
-
-                        it('parse', () => {
-                            expect(() => {
-                                parseNumber(numberString, locale, 'c');
-                            }).not.toThrow();
-                        });
-
-                    });
-                }
-
-                describe(`calendar`, () => {
-                    beforeAll(() => {
-                        const calendar = require(`./locales/${ locale }/calendar`).default;
-                        setData(calendar);
-                    });
-
-                    afterAll(() => {
-                        clean();
-                    });
-
-                    it('format', () => {
-                        expect(() => {
-                            formatDate(date, 'F', locale);
-                        }).not.toThrow();
-                    });
-
-                    it('parse', () => {
-                        expect(() => {
-                            parseDate(formatDate(date, 'F'), 'F', locale);
-                        }).not.toThrow();
-                    });
-
-                    it('firstDay', () => {
-                        expect(() => {
-                            firstDay(locale);
-                        }).not.toThrow();
-                    });
+                afterAll(() => {
+                    clean();
                 });
 
-                describe(`all`, () => {
-                    beforeAll(() => {
-                        const all = require(`./locales/${ locale }/all`).default;
-                        setData(all);
-                    });
+                it('format', () => {
+                    expect(() => {
+                        formatNumber(number, 'n', locale);
+                    }).not.toThrow();
+                });
 
-                    afterAll(() => {
-                        clean();
-                    });
-
-                    it('format number', () => {
-                        expect(() => {
-                            formatNumber(number, 'n', locale);
-                        }).not.toThrow();
-                    });
-
-                    it('parse number', () => {
-                        expect(() => {
-                            parseNumber(numberString, locale, 'n');
-                        }).not.toThrow();
-                    });
-                    if (locale !== NO_CURRENCY_LOCALE) {
-
-                        it('format currency', () => {
-                            expect(() => {
-                                formatNumber(number, 'c', locale);
-                            }).not.toThrow();
-                        });
-
-                        it('parse currency', () => {
-                            expect(() => {
-                                parseNumber(numberString, locale, 'c');
-                            }).not.toThrow();
-                        });
-                    }
-
-                    it('format date', () => {
-                        expect(() => {
-                            formatDate(date, 'F', locale);
-                        }).not.toThrow();
-                    });
-
-                    it('parse date', () => {
-                        expect(() => {
-                            parseDate(formatDate(date, 'F'), 'F', locale);
-                        }).not.toThrow();
-                    });
-
-                    it('firstDay', () => {
-                        expect(() => {
-                            firstDay(locale);
-                        }).not.toThrow();
-                    });
+                it('parse', () => {
+                    expect(() => {
+                        parseNumber(numberString, locale, 'n');
+                    }).not.toThrow();
                 });
 
             });
-        }
+
+            if (locale !== NO_CURRENCY_LOCALE) {
+
+                describe(`currency`, () => {
+                    beforeAll(() => {
+                        const numbers = require(`./locales/${ locale }/numbers`).default;
+                        const currencies = require(`./locales/${ locale }/currencies`).default;
+
+                        setData(numbers);
+                        setData(currencies);
+
+                    });
+
+                    afterAll(() => {
+                        clean();
+                    });
+
+                    it('format', () => {
+                        expect(() => {
+                            formatNumber(number, 'c', locale);
+                        }).not.toThrow();
+                    });
+
+                    it('parse', () => {
+                        expect(() => {
+                            parseNumber(numberString, locale, 'c');
+                        }).not.toThrow();
+                    });
+
+                });
+            }
+
+            describe(`calendar`, () => {
+                beforeAll(() => {
+                    const calendar = require(`./locales/${ locale }/calendar`).default;
+                    setData(calendar);
+                });
+
+                afterAll(() => {
+                    clean();
+                });
+
+                it('format', () => {
+                    expect(() => {
+                        formatDate(date, 'F', locale);
+                    }).not.toThrow();
+                });
+
+                it('parse', () => {
+                    expect(() => {
+                        parseDate(formatDate(date, 'F'), 'F', locale);
+                    }).not.toThrow();
+                });
+
+                it('firstDay', () => {
+                    expect(() => {
+                        firstDay(locale);
+                    }).not.toThrow();
+                });
+            });
+
+            describe(`all`, () => {
+                beforeAll(() => {
+                    const all = require(`./locales/${ locale }/all`).default;
+                    setData(all);
+                });
+
+                afterAll(() => {
+                    clean();
+                });
+
+                it('format number', () => {
+                    expect(() => {
+                        formatNumber(number, 'n', locale);
+                    }).not.toThrow();
+                });
+
+                it('parse number', () => {
+                    expect(() => {
+                        parseNumber(numberString, locale, 'n');
+                    }).not.toThrow();
+                });
+                if (locale !== NO_CURRENCY_LOCALE) {
+
+                    it('format currency', () => {
+                        expect(() => {
+                            formatNumber(number, 'c', locale);
+                        }).not.toThrow();
+                    });
+
+                    it('parse currency', () => {
+                        expect(() => {
+                            parseNumber(numberString, locale, 'c');
+                        }).not.toThrow();
+                    });
+                }
+
+                it('format date', () => {
+                    expect(() => {
+                        formatDate(date, 'F', locale);
+                    }).not.toThrow();
+                });
+
+                it('parse date', () => {
+                    expect(() => {
+                        parseDate(formatDate(date, 'F'), 'F', locale);
+                    }).not.toThrow();
+                });
+
+                it('firstDay', () => {
+                    expect(() => {
+                        firstDay(locale);
+                    }).not.toThrow();
+                });
+            });
+
+        });
     });
 });
