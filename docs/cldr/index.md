@@ -66,6 +66,44 @@ load(
 //the `cldr` object will consist the loaded data
 ```
 
+# Generated Data
+
+The package provides a build method for generating the files with data required by the Kendo UI Internationalization library.
+The following example demonstrates generating the data for typescript projects.
+
+```
+
+const { buildLocales, toJSObject } = require('@telerik/kendo-intl/build-locales');
+const intl = require('@telerik/kendo-intl');
+
+const localeTemplate = (data) => {
+    return `export const data = ${ toJSObject(data) };`;
+};
+
+buildLocales(intl, { contentTemplate: localeTemplate, extension: 'ts', destFolder: 'locales' });
+
+```
+
+The method will output four files in the destination locale folder:
+
+* all - contains all required data.
+* numbers - contains the numbers data.
+* currencies - contains the currencies data.
+* calendar - contains the calendar data.
+
+The generated data can be set via the [setData](https://github.com/telerik/kendo-intl/blob/master/docs/cldr/api.md#setdata) method.
+
+```
+
+import { setData } from '@telerik/kendo-intl';
+import { data } from './locales/bg/all';
+
+setData(data);
+
+```
+
+> Note that the [cldr-data](https://www.npmjs.com/package/cldr-data) package must be installed in order to generate the locales.
+
 ## Suggested Links
 
 * [API Reference of the CLDR Module]({% slug cldrapi_internalization %})

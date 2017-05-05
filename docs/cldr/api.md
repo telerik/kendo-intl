@@ -150,3 +150,13 @@ The locale id.
 ##### Returns `Object`
 
 Holds the number symbols from the specified locale.
+
+### setData
+
+Sets pre-generated data. For information on how to generate the locales refer to the [Generated Data](https://github.com/telerik/kendo-intl/blob/master/docs/cldr/index.md#generated-data) documentation.
+
+#### setData Parameters
+
+##### data `Object`
+
+The pre-generated data.
