@@ -153,7 +153,7 @@ Holds the number symbols from the specified locale.
 
 ### setData
 
-Sets pre-generated data. For information on how to generate the locales refer to the [Generated Data](https://github.com/telerik/kendo-intl/blob/master/docs/cldr/index.md#generated-data) documentation.
+Sets the pre-generated data. For more information on how to generate the locales, refer to the section on [generating data](https://github.com/telerik/kendo-intl/blob/master/docs/cldr/index.md#generating-cldr-data).
 
 #### setData Parameters
 
