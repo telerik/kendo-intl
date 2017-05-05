@@ -1,16 +1,17 @@
 import { DateFormatNameOptions } from './cldr';
 
 /**
- * Settings for the formatDate and parseDate functions.
+ * Settings for the `formatDate` and `parseDate` functions.
  */
 export interface DateFormatOptions {
     /**
-     * Defines the skeleton format used to get the pattern from the locale calendar [`availableFormats`](http://www.unicode.org/reports/tr35/tr35-dates.html#availableFormats_appendItems).
+     * Defines the skeleton format that is used to get the pattern from the
+     * [`availableFormats`](http://www.unicode.org/reports/tr35/tr35-dates.html#availableFormats_appendItems) of the locale calendar.
      */
     skeleton?: string;
 
     /**
-     * Defines the exact pattern to be used to format the date.
+     * Defines the exact pattern that will be used to format the date.
      */
     pattern?: string;
 
@@ -30,7 +31,7 @@ export interface DateFormatOptions {
     datetime?: 'short' | 'medium' | 'long' | 'full';
 
     /**
-     * Specifies how should the date era be formatted.
+     * Specifies how the date era should be formatted.
      */
     era?: 'narrow' | 'short' | 'long';
 
@@ -60,7 +61,7 @@ export interface DateFormatOptions {
     hour?: 'numeric' | '2-digit';
 
     /**
-     * Specifies if a 12-hour time set should be used for the formatting.
+     * Specifies whether a 12-hour time-set should be used for the formatting.
      */
     hour12?: boolean;
 
@@ -75,7 +76,7 @@ export interface DateFormatOptions {
     second?: 'numeric' | '2-digit';
 
     /**
-     * Specifies how the timezone should be formatted.
+     * Specifies how the time-zone should be formatted.
      */
     timeZoneName?: 'short' | 'long';
 }
@@ -83,20 +84,20 @@ export interface DateFormatOptions {
 /**
  * Converts a `Date` object to a string based on the specified format and locale.
  *
- * @param value Defines the date to be formatted.
- * @param format Defines a string representing a predefined or custom date format, or a configuration object.
- * @param locale The optional locale id. If not specified, the `"en"` locale id is used.
- * @returns The formatted date.
+ * @param value - Defines the date that will be formatted.
+ * @param format - Defines a string that represents a predefined or custom date format, or a configuration object.
+ * @param locale - The optional locale `id`. If not specified, the `id` of the `"en"` locale is used.
+ * @returns - The formatted date.
  */
 export function formatDate(value: Date, format: string|DateFormatOptions, locale?: string): string;
 
 /**
  * Converts a string to a `Date` object based on the specified format and locale.
  *
- * @param value Defines the string to be parsed.
- * @param format Defines a string representing a predefined or custom date format, a configuration object, or an array of formats that should be used to parse the value.
- * @param locale The optional locale id. If not specified, the `"en"` locale id is used.
- * @returns The parsed date.
+ * @param value - Defines the string that will be parsed.
+ * @param format - Defines a string that represents a predefined or custom date format, a configuration object, or an array of formats that should be used to parse the value.
+ * @param locale - The optional locale `id`. If not specified, the `id` of the `"en"` locale is used.
+ * @returns - The parsed date.
  */
 export function parseDate(value: string, format?: string | DateFormatOptions | string[] | DateFormatOptions[], locale?: string): Date;
 
@@ -121,10 +122,10 @@ export interface DateFormatPart {
 }
 
 /**
- * Splits the date format into objects containing information about each part of the pattern.
+ * Splits the date format into objects that contain information about each part of the pattern.
  *
- * @param format The format string or options.
- * @param locale The optional locale id. If not specified, the `"en"` locale id is used.
- * @returns The date format parts.
+ * @param format - The format string or options.
+ * @param locale - The optional locale `id`. If not specified, the `id` of the `"en"` locale is used.
+ * @returns - The date format parts.
  */
 export function splitDateFormat(format: string|DateFormatOptions, locale?: string): DateFormatPart[];
