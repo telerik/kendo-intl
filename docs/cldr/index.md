@@ -66,9 +66,11 @@ load(
 //the `cldr` object will consist the loaded data
 ```
 
-## Generating CLDR Data
+## Pre-Building CLDR Data
 
-The `build` method the package provides generates the files which use the data that is required by the Internationalization library.
+> To generate the locales, install the [`cldr-data`](https://www.npmjs.com/package/cldr-data) package first.
+
+The `build` method the kendo-intl package provides generates the files which use the data that is required by the Internationalization library.
 
 The following example demonstrates how to generate the data for typescript projects.
 
@@ -98,8 +100,6 @@ import { data } from './locales/bg/all';
 
 setData(data);
 ```
-
-> To generate the locales, install the [`cldr-data`](https://www.npmjs.com/package/cldr-data) package first.
 
 ## Suggested Links
 
