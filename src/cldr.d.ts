@@ -119,6 +119,11 @@ export function load(...data: any[]): void;
 export function numberSymbols(locale: string): any;
 
 /**
+ * Sets pre-generated data.
+ */
+export function setData(data: any): void;
+
+/**
  * @hidden
  */
 export interface CurrencyDisplayOptions {
@@ -156,8 +161,3 @@ export function localeInfo(locale: string): any;
  * @hidden
  */
 export function territoryCurrencyCode(territory: string): any;
-
-/**
- * @hidden
- */
-export function setData(data: any): void;
