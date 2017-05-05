@@ -119,7 +119,7 @@ export function load(...data: any[]): void;
 export function numberSymbols(locale: string): any;
 
 /**
- * Sets pre-generated data.
+ * @hidden
  */
 export function setData(data: any): void;
 
