@@ -14,8 +14,8 @@ Provides methods for applying placeholder format and type independent value form
 
 The supported types of general formatting are:
 
-* [Placeholder formatting](#placeholder-formatting).
-* [Type independent formatting](#type-independent-formatting).
+* [Placeholder formatting](#placeholder-formatting)
+* [Type independent formatting](#type-independent-formatting)
 
 ### Placeholder Formatting
 

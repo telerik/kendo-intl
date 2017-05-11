@@ -14,10 +14,10 @@ Number parsing converts a string to a `Number` object by using the specific sett
 
 The `parseNumber` method supports the parsing of the following string formats:
 
-* [Decimal](#decimal).
-* [Currency](#currency).
-* [Percentage](#percentage).
-* [Exponential](#exponential).
+* [Decimal](#decimal)
+* [Currency](#currency)
+* [Percentage](#percentage)
+* [Exponential](#exponential)
 
 ### Decimal
 

@@ -14,8 +14,8 @@ Number formatting converts a `Number` object to a human-readable string using th
 
 The supported number formats are:
 
-* [Standard](#standard).
-* [Custom](#custom).
+* [Standard](#standard)
+* [Custom](#custom)
 
 ### Standard
 
