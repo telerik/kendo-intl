@@ -6,7 +6,7 @@ export interface NumberFormatOptions {
     /**
      * Specifies the format style.
      */
-    style?: 'decimal' | 'currency' | 'precent' | 'scientific';
+    style?: 'decimal' | 'currency' | 'percent' | 'scientific';
 
     /**
      * Defines the currency code of the currency used in the formatting. If not specified, the default currency for the locale is used.
