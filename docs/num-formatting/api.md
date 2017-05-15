@@ -33,7 +33,7 @@ Specifies the format style.
 The supported values are:
 * `"decimal"`
 * `"currency"`
-* `"precent"`
+* `"percent"`
 * `"scientific"`
 
 #### format.currency `String`
