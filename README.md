@@ -158,7 +158,7 @@ For more examples and available configuration options, refer to the article on [
 
 ## Contribution
 
-The message translations of Kendo UI for Angular are distributed under a permissive [Apache License](https://github.com/telerik/kendo-angular-messages/blob/master/LICENSE.md). We accept contributions that improve the existing translations or add new ones.
+The date and number formatting options of Kendo UI for Angular are distributed under a permissive [Apache License](https://github.com/telerik/kendo-angular-messages/blob/master/LICENSE.md). We accept contributions that improve the existing translations or add new ones.
 
 Before you pose your suggestions, please make sure that you:
 
