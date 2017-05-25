@@ -18,7 +18,7 @@ before_install:
   - npm i -g npm@^3.8.0
   - export CHROME_BIN=/usr/bin/google-chrome
 before_script:
-  - git fetch origin
+  - git fetch --unshallow origin refs/heads/master:refs/remotes/origin/master
   - npm prune
   - npm update
   - export DISPLAY=:99.0
