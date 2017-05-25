@@ -158,9 +158,9 @@ For more examples and available configuration options, refer to the article on [
 
 ## Contribution
 
-The date and number formatting options of Kendo UI for Angular are distributed under a permissive [Apache License](https://github.com/telerik/kendo-angular-messages/blob/master/LICENSE.md). We accept contributions that improve the existing translations or add new ones.
+The date and number formatting options of Kendo UI are distributed under a permissive [Apache License](https://github.com/telerik/kendo-intl/blob/develop/LICENSE.md). We accept contributions from the public.
 
 Before you pose your suggestions, please make sure that you:
 
-1. Read and sign the [Kendo UI for Angular Contribution License Agreement (CLA)](goo.gl/forms/dXc1RaE8le6rVZ0h1). The CLA confirms that you acknowledge the legal aspects of your contributions.
+1. Read and sign the [Kendo UI for Contribution License Agreement (CLA)](...). The CLA confirms that you acknowledge the legal aspects of your contributions.
 2. Submit a Pull Request.
