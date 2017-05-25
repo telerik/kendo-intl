@@ -15,7 +15,7 @@
     "test": "gulp test",
     "locale-tests": "gulp test --tests=\"locale-tests/generated-locales.js\"",
     "lint": "gulp lint",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release": "semantic-release pre && semantic-prerelease publish && semantic-release post"
   },
   "keywords": [
     "Kendo",
@@ -28,6 +28,7 @@
   "devDependencies": {
     "@telerik/eslint-config": "^1.0.0",
     "@telerik/kendo-package-tasks": "^1.2.0",
+    "@telerik/semantic-prerelease": "^0.1.9",
     "cz-conventional-changelog": "^1.1.5",
     "ghooks": "^1.0.3",
     "gulp": "3.9.1",
@@ -43,5 +44,19 @@
       "pre-commit": "npm run lint",
       "commit-msg": "validate-commit-msg"
     }
+  },
+  "release": {
+    "debug": false,
+    "branchTags": {
+      "develop": "dev"
+    },
+    "fallbackTags": {
+      "dev": "latest"
+    },
+    "analyzeCommits": "@telerik/semantic-prerelease/analyzeCommits",
+    "generateNotes": "@telerik/semantic-prerelease/generateNotes",
+    "getLastRelease": "@telerik/semantic-prerelease/getLastRelease",
+    "verifyConditions": "@telerik/semantic-prerelease/verifyConditions",
+    "verifyRelease": "@telerik/semantic-prerelease/verifyRelease"
   }
 }
