@@ -4,9 +4,9 @@ language: node_js
 addons:
   apt:
     sources:
-      - google-chrome
+      - git-core
     packages:
-      - google-chrome-stable
+      - git
 cache:
   directories:
     - node_modules
@@ -16,15 +16,10 @@ node_js:
   - '6'
 before_install:
   - npm i -g npm@^3.8.0
-  - export CHROME_BIN=/usr/bin/google-chrome
 before_script:
   - git fetch --unshallow origin refs/heads/master:refs/remotes/origin/master
   - npm prune
   - npm update
-  - export DISPLAY=:99.0
-  - export TZ='Europe/Sofia'
-  - sh -e /etc/init.d/xvfb start
-  - sleep 3
 script:
   - npm run lint
   - npm run test
