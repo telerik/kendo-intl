@@ -379,6 +379,20 @@ describe('dateFormatNames', () => {
 });
 
 describe('dateFieldName', () => {
+    it('should throw error if locale dateFields are not available', () => {
+        const calendar = cldr.en.calendar;
+        const dateFields = calendar.dateFields;
+        delete calendar.dateFields;
+        try {
+            expect(() => {
+                dateFieldName({ type: 'day', nameType: 'wide' });
+            }).toThrowError(/Cannot determine the locale date field names/);
+        } finally {
+            calendar.dateFields = dateFields;
+        }
+
+    });
+
     it('should return placeholder for the era type', () => {
         expect(dateFieldName({ type: 'era', nameType: 'wide' })).toEqual("era");
         expect(dateFieldName({ type: 'era', nameType: 'narrow' })).toEqual("era");
@@ -493,9 +507,17 @@ describe('dateFieldName', () => {
 });
 
 describe('firstDay', () => {
-    it('should return first day name based on locale', () => {
+    it('should return first day index based on locale', () => {
         expect(firstDay('en')).toBe(0);
         expect(firstDay('bg')).toBe(1);
+    });
+
+    it('stores first day on locale info', () => {
+        firstDay('en');
+        firstDay('bg');
+
+        expect(cldr.en.firstDay).toBe(0);
+        expect(cldr.bg.firstDay).toBe(1);
     });
 });
 

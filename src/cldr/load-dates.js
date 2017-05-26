@@ -111,7 +111,14 @@ function loadCalendarPatterns(locale, calendar) {
         patterns[pattern] = predefinedDatePatterns[pattern];
     }
 
-    cldrCalendar.dateTimeFormats = calendar.dateTimeFormats;
+    const dateTimeFormats = calendar.dateTimeFormats;
+    cldrCalendar.dateTimeFormats = {
+        full: dateTimeFormats.full,
+        long: dateTimeFormats.long,
+        medium: dateTimeFormats.medium,
+        short: dateTimeFormats.short,
+        availableFormats: dateTimeFormats.availableFormats
+    };
     cldrCalendar.timeFormats = calendar.timeFormats;
     cldrCalendar.dateFormats = calendar.dateFormats;
 }

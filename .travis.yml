@@ -18,15 +18,17 @@ before_install:
   - npm i -g npm@^3.8.0
   - export CHROME_BIN=/usr/bin/google-chrome
 before_script:
-  - "npm prune"
-  - "npm update"
-  - "export DISPLAY=:99.0"
-  - "export TZ='Europe/Sofia'"
-  - "sh -e /etc/init.d/xvfb start"
-  - "sleep 3" # give xvfb some time to start
+  - git fetch --unshallow origin refs/heads/master:refs/remotes/origin/master
+  - npm prune
+  - npm update
+  - export DISPLAY=:99.0
+  - export TZ='Europe/Sofia'
+  - sh -e /etc/init.d/xvfb start
+  - sleep 3
 script:
   - npm run lint
   - npm run test
+  - npm run locale-tests
   - npm run build-package
 after_success:
   - npm run semantic-release

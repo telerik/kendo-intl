@@ -11,13 +11,15 @@ function cleanCurrencyNumber(value, info, format) {
     const currency = format.currency || localeCurrency(info, isCurrency);
 
     if (currency) {
-        const displays = currencyDisplays(info, currency);
-        for (let idx = 0; idx < displays.length; idx++) {
-            let display = displays[idx];
-            if (number.includes(display)) {
-                number = number.replace(display, "");
-                isCurrency = true;
-                break;
+        const displays = currencyDisplays(info, currency, isCurrency);
+        if (displays) {
+            for (let idx = 0; idx < displays.length; idx++) {
+                let display = displays[idx];
+                if (number.includes(display)) {
+                    number = number.replace(display, "");
+                    isCurrency = true;
+                    break;
+                }
             }
         }
 

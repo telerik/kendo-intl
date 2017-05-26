@@ -1,4 +1,5 @@
 const gulp = require('gulp');
+const exec = require('child_process').exec;
 const numbers = require("cldr-data/main/en/numbers.json");
 const currencies = require("cldr-data/main/en/currencies.json");
 const timeZoneNames = require("cldr-data/main/en/timeZoneNames.json");
@@ -7,6 +8,7 @@ const likelySubtags = require("cldr-data/supplemental/likelySubtags.json");
 const currencyData = require("cldr-data/supplemental/currencyData.json");
 const weekData = require("cldr-data/supplemental/weekData.json");
 const fs = require('fs');
+const { toJSObject, buildLocales } = require("./build-locales.js");
 
 require('@telerik/kendo-package-tasks')(gulp, 'kendo-intl');
 
@@ -50,5 +52,18 @@ gulp.task("build-default-data", ["build-npm-package"], () => {
             }
         }
     };
-    fs.writeFileSync('src/cldr/default-data.js', "const defaultData = " + JSON.stringify(defaultData, null, 4) + ";\nexport default defaultData;");
+    fs.writeFileSync('src/cldr/default-data.js', `const defaultData = ${ toJSObject(defaultData) };\nexport default defaultData;`);
 });
+
+gulp.task('clean-locales', (done) => {
+    exec(`rm -rf locales`, () => {
+        done();
+    });
+});
+
+gulp.task("build-locales", ["build-npm-package", 'clean-locales'], () => {
+    const intl = require('./dist/npm/js/main');
+
+    buildLocales(intl, { destFolder: './locale-tests/locales' });
+});
+
