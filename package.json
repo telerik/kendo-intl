@@ -27,14 +27,14 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "@telerik/eslint-config": "^1.0.0",
-    "@telerik/kendo-package-tasks": "^1.2.0",
-    "@telerik/semantic-prerelease": "^0.1.9",
+    "@telerik/kendo-package-tasks": "^1.6.1",
+    "@telerik/semantic-prerelease": "^1.0.0",
+    "cldr-data": "latest",
     "cz-conventional-changelog": "^1.1.5",
     "ghooks": "^1.0.3",
     "gulp": "3.9.1",
-    "validate-commit-msg": "^1.1.1",
-    "semantic-release": "^4.3.5",
-    "cldr-data": "latest"
+    "semantic-release": "^6.3.6",
+    "validate-commit-msg": "^1.1.1"
   },
   "config": {
     "commitizen": {
