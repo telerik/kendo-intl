@@ -13,15 +13,8 @@ Date.prototype.getTimezoneOffset = function() {
     return -120;
 };
 
-function date(year, month, day, hour, minute, second, millisecond) {
-    var d = new Date();
-
-    d.setFullYear(year);
-    d.setMonth(month - 1);
-    d.setDate(day);
-    d.setHours(hour ? hour : 0, minute ? minute : 0, second ? second : 0, millisecond ? millisecond : 0);
-
-    return d;
+function date(year, month = 1, day = 1, hour = 0, minute = 0, second = 0, millisecond = 0) {
+    return new Date(year, month - 1, day, hour, minute, second, millisecond);
 }
 
 describe('date formatting', () => {
