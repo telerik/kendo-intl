@@ -1299,10 +1299,12 @@ describe('splitDateFormat', () => {
             pattern: "eeee"
         }, {
             type: "hour",
-            pattern: "h"
+            pattern: "h",
+            hour12: true
         }, {
             type: "hour",
-            pattern: "HH"
+            pattern: "HH",
+            hour12: false
         }, {
             type: "minute",
             pattern: "m"
@@ -1332,6 +1334,20 @@ describe('splitDateFormat', () => {
         }];
 
         expect(splitDateFormat('GyyqQQQMMMMLLLLLdEEccceeeehHHmsaxXzZ')).toEqual(expected);
+    });
+
+    it('returns hour12 info in the DatePart', () => {
+        const expected = [{
+            type: 'hour',
+            pattern: 'h',
+            hour12: true
+        }, {
+            type: 'hour',
+            pattern: 'H',
+            hour12: false
+        }];
+
+        expect(splitDateFormat('hH')).toEqual(expected);
     });
 });
 

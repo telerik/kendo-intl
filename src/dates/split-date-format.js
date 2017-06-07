@@ -52,6 +52,10 @@ function addLiteral(parts, value) {
     }
 }
 
+function isHour12(pattern) {
+    return pattern === 'h';
+}
+
 export default function splitDateFormat(format, locale = 'en') {
     const info = localeInfo(locale);
     const pattern = datePattern(format, info);
@@ -75,6 +79,10 @@ export default function splitDateFormat(format, locale = 'en') {
                 type: type,
                 pattern: value
             };
+
+            if (type === 'hour') {
+                part.hour12 = isHour12(value);
+            }
 
             const names = NAME_TYPES[type];
 

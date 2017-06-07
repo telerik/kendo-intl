@@ -119,6 +119,11 @@ export interface DateFormatPart {
      * Specifies the format names options.
      */
     names?: DateFormatNameOptions;
+
+    /**
+     * Specifies whether a 12-hour time-set should be used for the formatting.
+     */
+    hour12?: boolean;
 }
 
 /**
