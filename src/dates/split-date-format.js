@@ -1,4 +1,5 @@
 import { DEFAULT_LOCALE } from '../common/constants';
+import isNumber from '../common/is-number';
 import datePattern from './date-pattern';
 import dateNameType from './date-name-type';
 import { dateFormatRegExp, DATE_FIELD_MAP } from './constants';
@@ -39,7 +40,6 @@ const NAME_TYPES = {
 };
 
 const LITERAL = 'literal';
-const NUMBER = 'number';
 
 function addLiteral(parts, value) {
     const lastPart = parts[parts.length - 1];
@@ -88,7 +88,7 @@ export default function splitDateFormat(format, locale = DEFAULT_LOCALE) {
             const names = NAME_TYPES[type];
 
             if (names) {
-                const minLength = typeof names.minLength === NUMBER ? names.minLength : names.minLength[specifier];
+                const minLength = isNumber(names.minLength) ? names.minLength : names.minLength[specifier];
                 const patternLength = value.length;
 
                 if (patternLength >= minLength) {

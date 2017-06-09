@@ -1,4 +1,5 @@
 import defaultData from './default-data';
+import isString from '../common/is-string';
 import { errors } from '../errors';
 
 function availableLocaleInfo(fullName, suffixes) {
@@ -29,7 +30,7 @@ export const cldr = defaultData;
 
 export function getLocaleInfo(locale) {
     let info;
-    if (typeof locale === "string") {
+    if (isString(locale)) {
         info = localeInfo(locale);
     } else {
         info = locale;
