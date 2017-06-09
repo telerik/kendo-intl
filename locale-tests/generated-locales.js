@@ -81,6 +81,18 @@ describe('generated-locales', () => {
                         }).not.toThrow();
                     });
 
+                    it('format accounting', () => {
+                        expect(() => {
+                            formatNumber(number, 'a', locale);
+                        }).not.toThrow();
+                    });
+
+                    it('parse accounting', () => {
+                        expect(() => {
+                            parseNumber(numberString, locale, 'a');
+                        }).not.toThrow();
+                    });
+
                 });
             }
 
@@ -145,6 +157,18 @@ describe('generated-locales', () => {
                     it('parse currency', () => {
                         expect(() => {
                             parseNumber(numberString, locale, 'c');
+                        }).not.toThrow();
+                    });
+
+                    it('format accounting', () => {
+                        expect(() => {
+                            formatNumber(number, 'a', locale);
+                        }).not.toThrow();
+                    });
+
+                    it('parse accounting', () => {
+                        expect(() => {
+                            parseNumber(numberString, locale, 'a');
                         }).not.toThrow();
                     });
                 }

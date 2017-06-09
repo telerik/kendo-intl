@@ -47,6 +47,13 @@ const data = {
             "unitPattern-count-one": "n $",
             "unitPattern-count-other": "n $"
         },
+        accounting: {
+            patterns: [
+                "$n",
+                "($n)"
+            ],
+            groupSize: []
+        },
         currencies: {
             ADP: {
                 displayName: "Andorran Peseta",

@@ -52,6 +52,15 @@ const data = {
             "unitPattern-count-one": "n $",
             "unitPattern-count-other": "n $"
         },
+        accounting: {
+            patterns: [
+                "$n",
+                "($n)"
+            ],
+            groupSize: [
+                3
+            ]
+        },
         currencies: {
             ADP: {
                 displayName: "ADP",

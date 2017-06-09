@@ -49,6 +49,13 @@ const data = {
             groupSize: [],
             "unitPattern-count-one": "n $",
             "unitPattern-count-other": "n $"
+        },
+        accounting: {
+            patterns: [
+                "$n",
+                "($n)"
+            ],
+            groupSize: []
         }
     }
 };

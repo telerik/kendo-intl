@@ -54,6 +54,14 @@ const data = {
             "unitPattern-count-many": "n $",
             "unitPattern-count-other": "n $"
         },
+        accounting: {
+            patterns: [
+                "n $"
+            ],
+            groupSize: [
+                3
+            ]
+        },
         currencies: {
             ADP: {
                 displayName: "Андоррская песета",
