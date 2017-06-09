@@ -1,7 +1,8 @@
 import { localeInfo } from './info';
 import { errors } from '../errors';
+import { DEFAULT_LOCALE } from '../common/constants';
 
-export default function dateFieldName(options, locale = "en") {
+export default function dateFieldName(options, locale = DEFAULT_LOCALE) {
     const info = localeInfo(locale);
     const dateFields = info.calendar.dateFields;
     if (!dateFields) {

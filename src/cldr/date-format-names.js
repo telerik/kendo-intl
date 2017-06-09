@@ -1,4 +1,5 @@
 import { getLocaleInfo } from './info';
+import { EMPTY } from '../common/constants';
 
 function lowerArray(arr) {
     const result = [];
@@ -25,7 +26,7 @@ export default function dateFormatNames(locale, options) {
     const { type, nameType, standAlone, lower } = options;
     const info = getLocaleInfo(locale);
     const formatType = standAlone ? "stand-alone" : "format";
-    const lowerNameType = (lower ? "lower-" : "") + nameType;
+    const lowerNameType = (lower ? "lower-" : EMPTY) + nameType;
     const formatNames = info.calendar[type][formatType];
     let result = formatNames[lowerNameType];
     if (!result && lower) {

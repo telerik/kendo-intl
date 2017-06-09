@@ -1,5 +1,6 @@
 import { adjustDST, convertTimeZone } from './time-utils';
 import { localeInfo } from '../cldr';
+import { DEFAULT_LOCALE, EMPTY } from '../common/constants';
 import { errors } from '../errors';
 import formatNames from './format-names';
 import datePattern from './date-pattern';
@@ -116,7 +117,7 @@ function calendarGmtFormats(calendar) {
         throw errors.NoGMTInfo.error();
     }
 
-    return [ gmtFormat.replace(PLACEHOLDER, "").toLowerCase(), gmtZeroFormat.replace(PLACEHOLDER, "").toLowerCase() ];
+    return [ gmtFormat.replace(PLACEHOLDER, EMPTY).toLowerCase(), gmtZeroFormat.replace(PLACEHOLDER, EMPTY).toLowerCase() ];
 }
 
 function parseTimeZoneOffset(state, info, options) {
@@ -431,7 +432,7 @@ function createDate(state) {
 }
 
 function parseExact(value, format, info) {
-    let pattern = datePattern(format, info).split("");
+    let pattern = datePattern(format, info).split(EMPTY);
 
     const state = {
         format: pattern,
@@ -521,7 +522,7 @@ function defaultFormats(calendar) {
     return formats.concat(standardDateFormats);
 }
 
-export default function parseDate(value, formats, locale = "en") {
+export default function parseDate(value, formats, locale = DEFAULT_LOCALE) {
     if (!value) {
         return null;
     }

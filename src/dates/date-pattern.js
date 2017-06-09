@@ -1,4 +1,5 @@
 import formatString from '../common/format-string';
+import { EMPTY } from '../common/constants';
 
 const REMOVAL_PENALTY = 120;
 const ADDITION_PENALTY = 20;
@@ -103,7 +104,7 @@ function findBestMatch(specifiers, availableFormats) {
             if (!match) {
                 score -= REMOVAL_PENALTY;
             } else {
-                currentFormat = currentFormat.replace(match, "");
+                currentFormat = currentFormat.replace(match, EMPTY);
                 if (match.length !== specifier.length) {
                     let delta = Math.max(Math.min(LENGHT_DELTA[match.length] - LENGHT_DELTA[specifier.length], 2), -2);
                     score -= PENALTIES[delta];
@@ -185,7 +186,7 @@ function skeletonFromOptions(options) {
         }
     }
 
-    return result.join("");
+    return result.join(EMPTY);
 }
 
 export default function datePattern(format, info) {

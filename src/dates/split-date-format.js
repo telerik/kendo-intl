@@ -1,3 +1,4 @@
+import { DEFAULT_LOCALE } from '../common/constants';
 import datePattern from './date-pattern';
 import dateNameType from './date-name-type';
 import { dateFormatRegExp, DATE_FIELD_MAP } from './constants';
@@ -56,7 +57,7 @@ function isHour12(pattern) {
     return pattern === 'h';
 }
 
-export default function splitDateFormat(format, locale = 'en') {
+export default function splitDateFormat(format, locale = DEFAULT_LOCALE) {
     const info = localeInfo(locale);
     const pattern = datePattern(format, info);
     const parts = [];
