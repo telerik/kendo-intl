@@ -1,4 +1,5 @@
 import { localeInfo, firstDay } from '../cldr';
+import { DEFAULT_LOCALE, EMPTY } from '../common/constants';
 import formatString from '../common/format-string';
 import datePattern from './date-pattern';
 import formatNames from './format-names';
@@ -46,7 +47,7 @@ function formatTimeZone(date, info, options) {
     const minutes = hoursMinutes[1] || 0;
     let result = sign + (shortHours ? hoursMinutes[0] : pad(hoursMinutes[0], 2));
     if (minutes || !optionalMinutes) {
-        result += (separator ? ":" : "") + pad(minutes, 2);
+        result += (separator ? ":" : EMPTY) + pad(minutes, 2);
     }
 
     if (localizedName) {
@@ -116,7 +117,7 @@ formatters.S = function(date, formatLength) {
     if (milliseconds !== 0) {
         result = String(date.getMilliseconds() / 1000).split(".")[1].substr(0, formatLength);
     } else {
-        result = pad("", formatLength);
+        result = pad(EMPTY, formatLength);
     }
     return result;
 };
@@ -174,10 +175,10 @@ formatters.q = function(date, formatLength, info) {
 
 formatters.Q = formatQuarter;
 
-export default function formatDate(date, format, locale = "en") {
+export default function formatDate(date, format, locale = DEFAULT_LOCALE) {
     if (!isDate(date)) {
         if (date === undefined || date === null) {
-            return '';
+            return EMPTY;
         }
         return date;
     }

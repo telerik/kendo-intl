@@ -1,17 +1,12 @@
+import { CURRENCY, PERCENT, LIST_SEPARATOR, GROUP_SEPARATOR, CURRENCY_PLACEHOLDER, PERCENT_PLACEHOLDER, POINT, EMPTY } from '../common/constants';
 import formatCurrencySymbol from './format-currency-symbol';
 import groupInteger from './group-integer';
 import round from '../common/round';
 
-const CURRENCY_SYMBOL = "$";
-const PERCENT_SYMBOL = "%";
 const PLACEHOLDER = "__??__";
-const CURRENCY = "currency";
-const PERCENT = "percent";
-const POINT = ".";
-const COMMA = ",";
+
 const SHARP = "#";
 const ZERO = "0";
-const EMPTY = "";
 
 const literalRegExp = /(\\.)|(['][^']*[']?)|(["][^"]*["]?)/g;
 const trailingZerosRegExp = /(\.(?:[0-9]*[1-9])?)0+$/g;
@@ -23,8 +18,8 @@ function setFormatLiterals(formatOptions) {
     if (format.indexOf("'") > -1 || format.indexOf("\"") > -1 || format.indexOf("\\") > -1) {
         const literals = formatOptions.literals = [];
         formatOptions.format = format.replace(literalRegExp, function(match) {
-            const quoteChar = match.charAt(0).replace("\\", "");
-            const literal = match.slice(1).replace(quoteChar, "");
+            const quoteChar = match.charAt(0).replace("\\", EMPTY);
+            const literal = match.slice(1).replace(quoteChar, EMPTY);
 
             literals.push(literal);
 
@@ -42,7 +37,7 @@ function trimTrailingZeros(value, lastZero) {
         trimRegex = new RegExp(`(\\.[0-9]{${ lastZero }}[1-9]*)0+$`, 'g');
     }
 
-    return value.replace(trimRegex, '$1').replace(trailingPointRegExp, '');
+    return value.replace(trimRegex, '$1').replace(trailingPointRegExp, EMPTY);
 }
 
 function roundNumber(formatOptions) {
@@ -106,7 +101,7 @@ function isConstantFormat(format) {
 
 function setValueSpecificFormat(formatOptions) {
     let { number, format } = formatOptions;
-    format = format.split(";");
+    format = format.split(LIST_SEPARATOR);
     if (formatOptions.negative && format[1]) {
         format = format[1];
         formatOptions.hasNegativeFormat = true;
@@ -127,20 +122,20 @@ function setStyleOptions(formatOptions, info) {
     const format = formatOptions.format;
 
     //multiply number if the format has percent
-    if (format.indexOf(PERCENT_SYMBOL) !== -1) {
+    if (format.indexOf(PERCENT_PLACEHOLDER) !== -1) {
         formatOptions.style = PERCENT;
         formatOptions.symbol = info.numbers.symbols.percentSign;
         formatOptions.number *= 100;
     }
 
-    if (format.indexOf(CURRENCY_SYMBOL) !== -1) {
+    if (format.indexOf(CURRENCY_PLACEHOLDER) !== -1) {
         formatOptions.style = CURRENCY;
         formatOptions.symbol = formatCurrencySymbol(info);
     }
 }
 
 function setGroupOptions(formatOptions) {
-    formatOptions.hasGroup = formatOptions.format.indexOf(COMMA) > -1;
+    formatOptions.hasGroup = formatOptions.format.indexOf(GROUP_SEPARATOR) > -1;
     if (formatOptions.hasGroup) {
         formatOptions.format = formatOptions.format.replace(commaRegExp, EMPTY);
     }
@@ -185,7 +180,7 @@ function replaceStyleSymbols(number, style, symbol) {
         result = EMPTY;
         for (let idx = 0, length = number.length; idx < length; idx++) {
             let ch = number.charAt(idx);
-            result += (ch === CURRENCY_SYMBOL || ch === PERCENT_SYMBOL) ? symbol : ch;
+            result += (ch === CURRENCY_PLACEHOLDER || ch === PERCENT_PLACEHOLDER) ? symbol : ch;
         }
     }
     return result;
