@@ -33,6 +33,7 @@ Specifies the format style.
 The supported values are:
 * `"decimal"`
 * `"currency"`
+* `"accounting"`
 * `"percent"`
 * `"scientific"`
 
