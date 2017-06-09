@@ -78,7 +78,16 @@ const defaultData = {
                     "symbol-alt-narrow": "$"
                 }
             },
-            localeCurrency: "USD"
+            localeCurrency: "USD",
+            accounting: {
+                patterns: [
+                    "$n",
+                    "($n)"
+                ],
+                groupSize: [
+                    3
+                ]
+            }
         },
         calendar: {
             gmtFormat: "GMT{0}",
