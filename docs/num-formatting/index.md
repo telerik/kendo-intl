@@ -43,6 +43,16 @@ Standard number formatting can be specified by passing an options object or a st
 
         formatNumber(1234.5678, "c5", "bg"); // 1 234,56780 лв
 
+* **The `"a"` specifier**&mdash;Same as `"c"` but uses the currency accounting format.
+
+  > The locale numbers `currencies` data and the supplemental `currencyData` must be loaded for the currency formatting to work.
+
+        import { formatNumber } from '@telerik/kendo-intl';
+
+        formatNumber(-1234.5678, "a"); // ($1,234.57)
+
+        formatNumber(1234.5678, "a3", "de-CH"); // 1’234.568 CHF
+
 * **The `"p"` specifier**&mdash;Formats the number as a percentage based on the locale. The passed number is multiplied by 100. To specify precision, add a number after `"p"`. By default, the number is formatted and rounded to zero decimal digits.
 
         import { formatNumber } from '@telerik/kendo-intl';
@@ -69,7 +79,7 @@ Standard number formatting can be specified by passing an options object or a st
         }); // 1,234.5678
 
         formatNumber(1234.5678, {
-            style: "currency",            
+            style: "currency",
             currency: "EUR",
             currencyDisplay: "displayName"
         }, "bg"); // 1 234,57 евро
@@ -90,7 +100,7 @@ The supported format specifiers are:
 
         import { formatNumber } from '@telerik/kendo-intl';
 
-        formatNumber(1234.5678, "00000"); // 01235    
+        formatNumber(1234.5678, "00000"); // 01235
 
 * **The `"#"` specifier**&mdash;A digit placeholder. It replaces the Pound sign with the corresponding digit if one is present. Otherwise, no digit appears in the result string.
 
