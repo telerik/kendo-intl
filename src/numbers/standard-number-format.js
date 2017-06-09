@@ -1,5 +1,7 @@
+import { PERCENT, SCIENTIFIC, NUMBER_PLACEHOLDER, CURRENCY_PLACEHOLDER, PERCENT_PLACEHOLDER, EMPTY, POINT } from '../common/constants';
 import formatCurrencySymbol from './format-currency-symbol';
 import groupInteger from './group-integer';
+import isCurrencyStyle from './is-currency-style';
 import pad from '../common/pad';
 import round from '../common/round';
 import { currencyFractionOptions } from '../cldr';
@@ -8,15 +10,10 @@ const DEFAULT_DECIMAL_ROUNDING = 3;
 const DEFAULT_PERCENT_ROUNDING = 0;
 
 const trailingZeroRegex = /0+$/;
-const DECIMAL_PLACEHOLDER = "n";
-const CURRENCY = "currency";
-const PERCENT = "percent";
-const EMPTY = "";
-const POINT = ".";
 
 function fractionOptions(options) {
     let { minimumFractionDigits, maximumFractionDigits, style } = options;
-    const isCurrency = style === CURRENCY;
+    const isCurrency = isCurrencyStyle(style);
     let currencyFractions;
     if (isCurrency) {
         currencyFractions = currencyFractionOptions(options.currency);
@@ -47,9 +44,9 @@ function applyPattern(value, pattern, symbol) {
     for (let idx = 0, length = pattern.length; idx < length; idx++) {
         let ch = pattern.charAt(idx);
 
-        if (ch === DECIMAL_PLACEHOLDER) {
+        if (ch === NUMBER_PLACEHOLDER) {
             result += value;
-        } else if (ch === "$" || ch === "%") {
+        } else if (ch === CURRENCY_PLACEHOLDER || ch === PERCENT_PLACEHOLDER) {
             result += symbol;
         } else {
             result += ch;
@@ -62,7 +59,7 @@ function currencyUnitPattern(info, value) {
     const currencyInfo = info.numbers.currency;
     let pattern = value !== 1 ? currencyInfo["unitPattern-count-other"] : currencyInfo["unitPattern-count-one"];
     if (value < 0) {
-        pattern = pattern.replace("n", "-n");
+        pattern = pattern.replace(NUMBER_PLACEHOLDER, `-${ NUMBER_PLACEHOLDER }`);
     }
 
     return pattern;
@@ -72,9 +69,10 @@ function currencyUnitPattern(info, value) {
 export default function standardNumberFormat(number, options, info) {
     const symbols = info.numbers.symbols;
     const { style } = options;
+    const isCurrency = isCurrencyStyle(style);
 
     //return number in exponential format
-    if (style === "scientific") {
+    if (style === SCIENTIFIC) {
         let exponential = options.minimumFractionDigits !== undefined ? number.toExponential(options.minimumFractionDigits) : number.toExponential();
         return exponential.replace(POINT, symbols.decimal);
     }
@@ -82,7 +80,7 @@ export default function standardNumberFormat(number, options, info) {
     let value = number;
     let symbol;
 
-    if (style === CURRENCY) {
+    if (isCurrency) {
         options.value = value;
         symbol = formatCurrencySymbol(info, options);
     }
@@ -98,7 +96,7 @@ export default function standardNumberFormat(number, options, info) {
 
     const negative = value < 0;
 
-    const parts = value.split(".");
+    const parts = value.split(POINT);
 
     let integer = parts[0];
     let fraction = pad(parts[1] ? parts[1].replace(trailingZeroRegex, EMPTY) : EMPTY, minimumFractionDigits, true);
@@ -120,14 +118,14 @@ export default function standardNumberFormat(number, options, info) {
 
     let pattern;
 
-    if (style === CURRENCY && options.currencyDisplay === "name") {
+    if (isCurrency && options.currencyDisplay === "name") {
         pattern = currencyUnitPattern(info, number);
     } else {
         const patterns = options.patterns;
         pattern = negative ? patterns[1] || ("-" + patterns[0]) : patterns[0];
     }
 
-    if (pattern === DECIMAL_PLACEHOLDER && !negative) {
+    if (pattern === NUMBER_PLACEHOLDER && !negative) {
         return formattedValue;
     }
 

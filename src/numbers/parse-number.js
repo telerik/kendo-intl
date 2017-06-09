@@ -1,10 +1,12 @@
 import { localeInfo, localeCurrency, currencyDisplays } from '../cldr';
+import { PERCENT, NUMBER_PLACEHOLDER, CURRENCY_PLACEHOLDER, DEFAULT_LOCALE, EMPTY, POINT } from '../common/constants';
+import isCurrencyStyle from './is-currency-style';
 
 const exponentRegExp = /[eE][\-+]?[0-9]+/;
 const nonBreakingSpaceRegExp = /\u00A0/g;
 
 function cleanCurrencyNumber(value, info, format) {
-    let isCurrency = format.style === "currency";
+    let isCurrency = isCurrencyStyle(format.style);
     let number = value;
     let negative;
 
@@ -16,7 +18,7 @@ function cleanCurrencyNumber(value, info, format) {
             for (let idx = 0; idx < displays.length; idx++) {
                 let display = displays[idx];
                 if (number.includes(display)) {
-                    number = number.replace(display, "");
+                    number = number.replace(display, EMPTY);
                     isCurrency = true;
                     break;
                 }
@@ -26,9 +28,9 @@ function cleanCurrencyNumber(value, info, format) {
         if (isCurrency) {
             const patterns = info.numbers.currency.patterns;
             if (patterns.length > 1) {
-                const parts = (patterns[1] || "").replace("$", "").split("n");
+                const parts = (patterns[1] || EMPTY).replace(CURRENCY_PLACEHOLDER, EMPTY).split(NUMBER_PLACEHOLDER);
                 if (number.indexOf(parts[0]) > -1 && number.indexOf(parts[1]) > -1) {
-                    number = number.replace(parts[0], "").replace(parts[1], "");
+                    number = number.replace(parts[0], EMPTY).replace(parts[1], EMPTY);
                     negative = true;
                 }
             }
@@ -41,7 +43,7 @@ function cleanCurrencyNumber(value, info, format) {
     };
 }
 
-export default function parseNumber(value, locale = "en", format = {}) {
+export default function parseNumber(value, locale = DEFAULT_LOCALE, format = {}) {
     if (!value && value !== 0) {
         return null;
     }
@@ -57,7 +59,7 @@ export default function parseNumber(value, locale = "en", format = {}) {
     let isPercent;
 
     if (exponentRegExp.test(number)) {
-        number = parseFloat(number.replace(symbols.decimal, "."));
+        number = parseFloat(number.replace(symbols.decimal, POINT));
         return isNaN(number) ? null : number;
     }
 
@@ -72,15 +74,15 @@ export default function parseNumber(value, locale = "en", format = {}) {
     number = newNumber;
     isNegative = negativeCurrency !== undefined ? negativeCurrency : isNegative;
 
-    if (format.style === "percent" || number.indexOf(symbols.percentSign) > -1) {
-        number = number.replace(symbols.percentSign, "");
+    if (format.style === PERCENT || number.indexOf(symbols.percentSign) > -1) {
+        number = number.replace(symbols.percentSign, EMPTY);
         isPercent = true;
     }
 
-    number = number.replace("-", "")
+    number = number.replace("-", EMPTY)
           .replace(nonBreakingSpaceRegExp, " ")
-          .split(symbols.group.replace(nonBreakingSpaceRegExp, " ")).join("")
-          .replace(symbols.decimal, ".");
+          .split(symbols.group.replace(nonBreakingSpaceRegExp, " ")).join(EMPTY)
+          .replace(symbols.decimal, POINT);
 
     number = parseFloat(number);
 
