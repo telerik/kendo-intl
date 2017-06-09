@@ -56,6 +56,14 @@ const data = {
             "unitPattern-count-two": "n $",
             "unitPattern-count-many": "n $",
             "unitPattern-count-other": "n $"
+        },
+        accounting: {
+            patterns: [
+                "n $"
+            ],
+            groupSize: [
+                3
+            ]
         }
     }
 };

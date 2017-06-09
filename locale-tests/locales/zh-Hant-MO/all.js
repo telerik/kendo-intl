@@ -52,6 +52,15 @@ const data = {
             ],
             "unitPattern-count-other": "n $"
         },
+        accounting: {
+            patterns: [
+                "$n",
+                "($n)"
+            ],
+            groupSize: [
+                3
+            ]
+        },
         currencies: {
             ADP: {
                 displayName: "安道爾陪士特",

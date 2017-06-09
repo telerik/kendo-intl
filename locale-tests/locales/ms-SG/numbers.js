@@ -53,6 +53,15 @@ const data = {
                 3
             ],
             "unitPattern-count-other": "n $"
+        },
+        accounting: {
+            patterns: [
+                "$n",
+                "($n)"
+            ],
+            groupSize: [
+                3
+            ]
         }
     }
 };

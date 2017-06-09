@@ -1935,7 +1935,16 @@ const data = {
                 symbol: "ZWR"
             }
         },
-        localeCurrency: "USD"
+        localeCurrency: "USD",
+        accounting: {
+            patterns: [
+                "$n",
+                "($n)"
+            ],
+            groupSize: [
+                3
+            ]
+        }
     },
     calendar: {
         gmtFormat: "GMT{0}",

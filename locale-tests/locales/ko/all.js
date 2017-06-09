@@ -50,6 +50,15 @@ const data = {
             ],
             "unitPattern-count-other": "n $"
         },
+        accounting: {
+            patterns: [
+                "$n",
+                "($n)"
+            ],
+            groupSize: [
+                3
+            ]
+        },
         currencies: {
             ADP: {
                 displayName: "안도라 페세타",

@@ -53,6 +53,14 @@ const data = {
             "unitPattern-count-few": "n $",
             "unitPattern-count-other": "n $"
         },
+        accounting: {
+            patterns: [
+                "n $"
+            ],
+            groupSize: [
+                3
+            ]
+        },
         currencies: {
             ADP: {
                 displayName: "andorska pezeta",
