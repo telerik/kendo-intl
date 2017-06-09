@@ -25,7 +25,8 @@ function loadCustom(options) {
               "standard": options.pattern || "#,##0.###"
             },
             "currencyFormats-numberSystem-latn": {
-              "standard": options.currencyPattern || "¤#,##0.00"
+              "standard": options.currencyPattern || "¤#,##0.00",
+              "accounting": options.accountingPattern || "#,##0.00¤"
             },
             currencies: options.currencies
           }
@@ -320,6 +321,75 @@ describe('standard currency formatting', () => {
 
     it("should apply maximumFractionDigits", () => {
         expect(formatNumber(10.1235, { style: "currency", maximumFractionDigits: 3 })).toEqual("$10.124");
+    });
+
+});
+
+describe('standard accounting formatting', () => {
+
+    beforeAll(() => {
+        loadCustom({ currencies: { USD: { symbol: "$" }} });
+        cldr.custom.numbers.localeCurrency = "USD";
+    });
+
+    afterAll(() => {
+        delete cldr.custom;
+    });
+
+    it('should apply format', () => {
+        expect(formatNumber(10, 'a', 'custom')).toEqual("10.00$");
+    });
+
+    it('should apply format with precision', () => {
+        expect(formatNumber(10, 'a0')).toEqual("$10");
+    });
+
+    it('should apply format for negative numbers', () => {
+        expect(formatNumber(-10.3337, 'a3')).toEqual("($10.334)");
+    });
+
+    it("should apply group separators", () => {
+        expect(formatNumber(123456789, 'a')).toEqual("$123,456,789.00");
+    });
+
+    it("should not apply group separators to numbers with less digits", () => {
+        expect(formatNumber(123, "a")).toEqual("$123.00");
+    });
+
+    it("should apply format when passing language", () => {
+        expect(formatNumber(10, "a", "bg")).toEqual("10,00 лв.");
+    });
+
+    it("should apply format when passing language and territory", () => {
+        expect(formatNumber(10, "a", "bg-BG")).toEqual("10,00 лв.");
+    });
+
+    it("should apply format when passing object", () => {
+        expect(formatNumber(10, { style: "accounting" })).toEqual("$10.00");
+    });
+
+    it("should apply format for specific currency", () => {
+        expect(formatNumber(10, { style: "accounting", currency: "BGN" })).toEqual("BGN10.00");
+    });
+
+    it("should apply specific currency display", () => {
+        expect(formatNumber(10, { style: "accounting", currency: "BGN", currencyDisplay: "name" })).toEqual("10.00 Bulgarian leva");
+    });
+
+    it("should format negative currency with name", () => {
+        expect(formatNumber(-10, { style: "accounting", currency: "BGN", currencyDisplay: "name" })).toEqual("-10.00 Bulgarian leva");
+    });
+
+    it("should format currency equal to one with name", () => {
+        expect(formatNumber(1, { style: "accounting", currency: "BGN", currencyDisplay: "name" })).toEqual("1.00 Bulgarian lev");
+    });
+
+    it("should apply minimumFractionDigits", () => {
+        expect(formatNumber(10, { style: "accounting", minimumFractionDigits: 5 })).toEqual("$10.00000");
+    });
+
+    it("should apply maximumFractionDigits", () => {
+        expect(formatNumber(10.1235, { style: "accounting", maximumFractionDigits: 3 })).toEqual("$10.124");
     });
 
 });

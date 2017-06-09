@@ -4,10 +4,9 @@ export const ACCOUNTING = "accounting";
 export const PERCENT = "percent";
 export const SCIENTIFIC = "scientific";
 
-//rename to placeholder
-export const CURRENCY_SYMBOL = "$";
-export const PERCENT_SYMBOL = "%";
-export const NUMBER_SYMBOL = "n";
+export const CURRENCY_PLACEHOLDER = "$";
+export const PERCENT_PLACEHOLDER = "%";
+export const NUMBER_PLACEHOLDER = "n";
 
 export const LIST_SEPARATOR = ";";
 export const GROUP_SEPARATOR = ",";

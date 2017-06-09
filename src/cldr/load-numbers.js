@@ -1,10 +1,8 @@
 import { cldr } from './info';
+import { CURRENCY, ACCOUNTING, DECIMAL, CURRENCY_PLACEHOLDER, NUMBER_PLACEHOLDER, LIST_SEPARATOR, GROUP_SEPARATOR, POINT } from '../common/constants';
 
 const LATIN_NUMBER_FORMATS = "Formats-numberSystem-latn";
 const LATIN_NUMBER_SYMBOLS = "symbols-numberSystem-latn";
-const GROUP_SEPARATOR = ",";
-const LIST_SEPARATOR = ";";
-const DECIMAL_SEPARATOR = ".";
 
 const patternRegExp = /([ #,0. ]+)/g;
 const cldrCurrencyRegExp = /¤/g;
@@ -12,13 +10,13 @@ const cldrCurrencyRegExp = /¤/g;
 function getPatterns(pattern) {
     patternRegExp.lastIndex = 0;
 
-    return pattern.replace(cldrCurrencyRegExp, "$").replace(patternRegExp, "n").split(";");
+    return pattern.replace(cldrCurrencyRegExp, CURRENCY_PLACEHOLDER).replace(patternRegExp, NUMBER_PLACEHOLDER).split(LIST_SEPARATOR);
 }
 
 function getGroupSize(pattern) {
     patternRegExp.lastIndex = 0;
 
-    const numberPatterns = patternRegExp.exec(pattern.split(LIST_SEPARATOR)[0])[0].split(DECIMAL_SEPARATOR);
+    const numberPatterns = patternRegExp.exec(pattern.split(LIST_SEPARATOR)[0])[0].split(POINT);
     const integer = numberPatterns[0];
 
     const groupSize = integer.split(GROUP_SEPARATOR).slice(1).map(function(group) {
@@ -31,7 +29,7 @@ function getGroupSize(pattern) {
 function loadCurrencyUnitPatterns(currencyInfo, currencyFormats) {
     for (let field in currencyFormats) {
         if (field.startsWith("unitPattern")) {
-            currencyInfo[field] = currencyFormats[field].replace("{0}", "n").replace("{1}", "$");
+            currencyInfo[field] = currencyFormats[field].replace("{0}", NUMBER_PLACEHOLDER).replace("{1}", CURRENCY_PLACEHOLDER);
         }
     }
 }
@@ -49,9 +47,13 @@ export default function loadNumbersInfo(locale, info) {
             numbers[style] = {
                 patterns: getPatterns(pattern)
             };
-            if (style === "currency") {
-                numbers[style].groupSize = getGroupSize((info["decimal" + LATIN_NUMBER_FORMATS] || info[field]).standard);
+            if (style === CURRENCY) {
+                numbers[style].groupSize = getGroupSize((info[DECIMAL + LATIN_NUMBER_FORMATS] || info[field]).standard);
                 loadCurrencyUnitPatterns(numbers[style], info[field]);
+                numbers[ACCOUNTING] = {
+                    patterns: getPatterns(info[field][ACCOUNTING]),
+                    groupSize: numbers[style].groupSize
+                };
             } else {
                 numbers[style].groupSize = getGroupSize(pattern);
             }

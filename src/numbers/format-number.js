@@ -1,29 +1,28 @@
 import { localeInfo } from '../cldr';
+import { CURRENCY, ACCOUNTING, DECIMAL, PERCENT, SCIENTIFIC, DEFAULT_LOCALE, NUMBER_PLACEHOLDER, EMPTY } from '../common/constants';
 import standardNumberFormat from './standard-number-format';
 import customNumberFormat from './custom-number-format';
 
-const standardFormatRegExp = /^(n|c|p|e)(\d*)$/i;
+const standardFormatRegExp = /^(n|c|p|e|a)(\d*)$/i;
 
 function standardFormatOptions(format) {
     const formatAndPrecision = standardFormatRegExp.exec(format);
 
     if (formatAndPrecision) {
         const options = {
-            style: "decimal"
+            style: DECIMAL
         };
 
         let style = formatAndPrecision[1].toLowerCase();
 
         if (style === "c") {
-            options.style = "currency";
-        }
-
-        if (style === "p") {
-            options.style = "percent";
-        }
-
-        if (style === "e") {
-            options.style = "scientific";
+            options.style = CURRENCY;
+        } else if (style === "a") {
+            options.style = ACCOUNTING;
+        } else if (style === "p") {
+            options.style = PERCENT;
+        } else if (style === "e") {
+            options.style = SCIENTIFIC;
         }
 
         if (formatAndPrecision[2]) {
@@ -45,9 +44,9 @@ function getFormatOptions(format) {
     return formatOptions;
 }
 
-export default function formatNumber(number, format = "n", locale = "en") {
+export default function formatNumber(number, format = NUMBER_PLACEHOLDER, locale = DEFAULT_LOCALE) {
     if (number === undefined || number === null) {
-        return "";
+        return EMPTY;
     }
 
     if (!isFinite(number)) {
@@ -59,7 +58,7 @@ export default function formatNumber(number, format = "n", locale = "en") {
 
     let result;
     if (formatOptions) {
-        const style = (formatOptions || {}).style || "decimal";
+        const style = (formatOptions || {}).style || DECIMAL;
         result = standardNumberFormat(number, Object.assign({}, info.numbers[style], formatOptions), info);
     } else {
         result = customNumberFormat(number, format, info);
