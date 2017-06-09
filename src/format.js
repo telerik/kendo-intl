@@ -2,6 +2,7 @@ import { formatDate } from './dates';
 import { formatNumber } from './numbers';
 import { EMPTY } from './common/constants';
 import isDate from './common/is-date';
+import isNumber from './common/is-number';
 
 const formatRegExp = /\{(\d+)(:[^\}]+)?\}/g;
 
@@ -9,7 +10,7 @@ export function toString(value, format, locale) {
     if (format) {
         if (isDate(value)) {
             return formatDate(value, format, locale);
-        } else if (typeof value === "number") {
+        } else if (isNumber(value)) {
             return formatNumber(value, format, locale);
         }
     }

@@ -1,4 +1,5 @@
 import formatString from '../common/format-string';
+import isString from '../common/is-string';
 import { EMPTY } from '../common/constants';
 
 const REMOVAL_PENALTY = 120;
@@ -192,7 +193,7 @@ function skeletonFromOptions(options) {
 export default function datePattern(format, info) {
     const calendar = info.calendar;
     let result;
-    if (typeof format === "string") {
+    if (isString(format)) {
         if (calendar.patterns[format]) {
             result = calendar.patterns[format];
         } else {

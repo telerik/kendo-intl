@@ -1,5 +1,6 @@
 import { localeInfo } from '../cldr';
 import { CURRENCY, ACCOUNTING, DECIMAL, PERCENT, SCIENTIFIC, DEFAULT_LOCALE, NUMBER_PLACEHOLDER, EMPTY } from '../common/constants';
+import isString from '../common/is-string';
 import standardNumberFormat from './standard-number-format';
 import customNumberFormat from './custom-number-format';
 
@@ -35,7 +36,7 @@ function standardFormatOptions(format) {
 
 function getFormatOptions(format) {
     let formatOptions;
-    if (typeof format === "string") {
+    if (isString(format)) {
         formatOptions = standardFormatOptions(format);
     } else {
         formatOptions = format;

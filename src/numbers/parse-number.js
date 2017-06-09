@@ -1,5 +1,6 @@
 import { localeInfo, localeCurrency, currencyDisplays } from '../cldr';
 import { PERCENT, NUMBER_PLACEHOLDER, CURRENCY_PLACEHOLDER, DEFAULT_LOCALE, EMPTY, POINT } from '../common/constants';
+import isNumber from '../common/is-number';
 import isCurrencyStyle from './is-currency-style';
 
 const exponentRegExp = /[eE][\-+]?[0-9]+/;
@@ -48,7 +49,7 @@ export default function parseNumber(value, locale = DEFAULT_LOCALE, format = {})
         return null;
     }
 
-    if (typeof value === "number") {
+    if (isNumber(value)) {
         return value;
     }
 
