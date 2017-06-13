@@ -33,7 +33,7 @@ Standard number formatting can be specified by passing an options object or a st
 
 * **The `"c"` specifier**&mdash;Formats the number as a currency based on the locale. The latest currency symbol of the specified locale is used for the formatting. To specify precision, add a number after `"c"`. By default, the number is formatted and rounded to two decimal digits, or to the number of digits in the `currencyData` fractions data of the CLDR if the currency is available.
 
-  > The locale numbers `currencies` data and the supplemental `currencyData` must be loaded for the currency formatting to work.
+  > In order for the currency formatting to work, load the locale numbers `currencies` data and the supplemental `currencyData`.
 
         import { formatNumber } from '@telerik/kendo-intl';
 
@@ -43,9 +43,9 @@ Standard number formatting can be specified by passing an options object or a st
 
         formatNumber(1234.5678, "c5", "bg"); // 1 234,56780 лв
 
-* **The `"a"` specifier**&mdash;Same as `"c"` but uses the currency accounting format.
+* **The `"a"` specifier**&mdash;The same as the `"c"` specifier except that the `"a"` specifier uses the currency accounting format.
 
-  > The locale numbers `currencies` data and the supplemental `currencyData` must be loaded for the currency formatting to work.
+  > In order for the currency formatting to work, load the locale numbers `currencies` data and the supplemental `currencyData`.
 
         import { formatNumber } from '@telerik/kendo-intl';
 
