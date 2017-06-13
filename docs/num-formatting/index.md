@@ -43,7 +43,7 @@ Standard number formatting can be specified by passing an options object or a st
 
         formatNumber(1234.5678, "c5", "bg"); // 1 234,56780 лв
 
-* **The `"a"` specifier**&mdash;Formats the number as a currency based on the locale by using the currency accounting format.
+* **The `"a"` specifier**&mdash;The same as the `"c"` specifier except that the `"a"` specifier uses the currency accounting format.
 
   > In order for the currency formatting to work, load the locale numbers `currencies` data and the supplemental `currencyData`.
 
