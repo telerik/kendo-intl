@@ -341,5 +341,5 @@ The following example demonstrates how to implement the usage of abbreviated nam
 
 ## Suggested Links
 
-* [Date Formatting API]({% slug dateformatapi_internalization %})
-* [Date Parsing]({% slug dateparsing_internalization %})
+* [Date Formatting API](https://github.com/telerik/kendo-intl/blob/develop/docs/date-formatting/api.md)
+* [Date Parsing](https://github.com/telerik/kendo-intl/blob/develop/docs/date-parsing/index.md)

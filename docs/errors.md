@@ -23,9 +23,9 @@ The following table provides the full list of controlled errors that might possi
 
 ## Suggested Links
 
-* [Get Started with CLDR]({% slug cldrdata_overview_internalization %})
-* [Get Started with Date Parsing]({% slug dateparsing_internalization %})
-* [Get Started with Date Formatting]({% slug dateformatting_internalization %})
-* [Get Started with Number Parsing]({% slug numberparsing_internalization %})
-* [Get Started with Number Formatting]({% slug numbeformatting_internalization %})
-* [Get Started with General Formatting]({% slug generalformatting_internalization %})
+* [Get Started with CLDR](https://github.com/telerik/kendo-intl/blob/develop/docs/cldr/index.md)
+* [Get Started with Date Parsing](https://github.com/telerik/kendo-intl/blob/develop/docs/date-parsing/index.md)
+* [Get Started with Date Formatting](https://github.com/telerik/kendo-intl/blob/develop/docs/date-formatting/index.md)
+* [Get Started with Number Parsing](https://github.com/telerik/kendo-intl/blob/develop/docs/num-parsing/index.md)
+* [Get Started with Number Formatting](https://github.com/telerik/kendo-intl/blob/develop/docs/num-formatting/index.md)
+* [Get Started with General Formatting](https://github.com/telerik/kendo-intl/blob/develop/docs/general-formatting/index.md)
