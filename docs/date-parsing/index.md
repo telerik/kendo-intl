@@ -44,7 +44,7 @@ In this case, the `parseDate` method tries to parse the string using both the lo
 
 ### Explicit Formats
 
-You can pass the formats that have to be used to parse the value as parameters to the method. In this case, only if it matches one of the specified formats, is the value parsed. The supported formats are the same as the ones described in the article on [date formatting]({% slug dateformatting_internalization %}).
+You can pass the formats that have to be used to parse the value as parameters to the method. In this case, only if it matches one of the specified formats, is the value parsed. The supported formats are the same as the ones described in the article on [date formatting](https://github.com/telerik/kendo-intl/blob/develop/docs/date-formatting/index.md).
 
 The following example demonstrates how to specify the parse formats.
 
@@ -58,5 +58,5 @@ The following example demonstrates how to specify the parse formats.
 
 ## Suggested Links
 
-* [Date Parsing API]({% slug dateparseapi_internalization %})
-* [Date Formatting]({% slug dateformatting_internalization %})
+* [Date Parsing API](https://github.com/telerik/kendo-intl/blob/develop/docs/date-parsing/api.md)
+* [Date Formatting](https://github.com/telerik/kendo-intl/blob/develop/docs/date-formatting/index.md)

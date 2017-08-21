@@ -37,6 +37,6 @@ To format both the `Date` and `Number` values by using the locale specific setti
 
 ## Suggested Links
 
-* [General Formatting API]({% slug generalformatapi_internalization %})
-* [Date Formatting]({% slug dateformatting_internalization %})
-* [Number Formatting]({% slug numbeformatting_internalization %})
+* [General Formatting API](https://github.com/telerik/kendo-intl/blob/develop/docs/general-formatting/api.md)
+* [Date Formatting](https://github.com/telerik/kendo-intl/blob/develop/docs/date-formatting/index.md)
+* [Number Formatting](https://github.com/telerik/kendo-intl/blob/develop/docs/num-formatting/index.md)

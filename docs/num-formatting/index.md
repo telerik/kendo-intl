@@ -88,7 +88,7 @@ Standard number formatting can be specified by passing an options object or a st
             style: "percent"
         }, "de"); // 123.457 %
 
-For the full list of available options, refer to the API documentation on the [`formatNumber`]({% slug numbersapi_internalization %}#the-formatnumber-method) method.
+For the full list of available options, refer to the API documentation on the [`formatNumber`](https://github.com/telerik/kendo-intl/blob/develop/docs/num-formatting/api.md#formatnumber) method.
 
 ### Custom
 
@@ -152,5 +152,5 @@ The supported format specifiers are:
 
 ## Suggested Links
 
-* [Number Formatting API]({% slug numberformatatapi_internalization %})
-* [Number Parsing]({% slug numberparsing_internalization %})
+* [Number Formatting API](https://github.com/telerik/kendo-intl/blob/develop/docs/num-formatting/api.md)
+* [Number Parsing](https://github.com/telerik/kendo-intl/blob/develop/docs/num-parsing/index.md)
