@@ -312,6 +312,10 @@ describe('date formatting', () => {
         expect(formatDate(date(2000, 2, 10), { skeleton: "MMd" })).toEqual('02 10');
     });
 
+    it('replaces available format pattern with specified pattern', () => {
+        expect(formatDate(date(2000, 2, 10), { skeleton: "MMMM" })).toEqual('February');
+    });
+
     it('supports skeleton format if there is both date and time', () => {
         expect(formatDate(date(2000, 2, 10, 10, 30), { skeleton: "yMMMdhm" })).toEqual('Feb 10, 2000, 10:30 AM');
     });
