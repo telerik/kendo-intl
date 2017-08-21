@@ -60,6 +60,13 @@ const DATE_OPTIONS_MAP = [ {
     specifier: "z"
 } ];
 
+const STAND_ALONE_SPECIFIERS = {
+    e: 'c',
+    E: 'c',
+    M: 'L',
+    Q: 'q'
+};
+
 const specifiersRegex = {};
 const resolvedFormats = {};
 
@@ -131,13 +138,17 @@ function findBestMatch(specifiers, availableFormats) {
     }
 
     result = result.replace("v", "z");
-    //need to check for standalone specifiers if only one specifier
+
     for (let idx = 0; idx < specifiersLength; idx++) {
-        if (bestMatches[idx] && bestMatches[idx] !== specifiers[idx]) {
-            result = result.replace(getSpecifierRegex(bestMatches[idx][0]), specifiers[idx]);
+        const bestMatch = bestMatches[idx];
+        if (bestMatch && bestMatch !== specifiers[idx]) {
+            const matchSpecifier = bestMatches[idx][0];
+            result = result.replace(getSpecifierRegex(matchSpecifier), specifiers[idx]);
+            if (STAND_ALONE_SPECIFIERS[matchSpecifier]) {
+                result = result.replace(getSpecifierRegex(STAND_ALONE_SPECIFIERS[matchSpecifier]), specifiers[idx]);
+            }
         }
     }
-
 
     return result;
 }
