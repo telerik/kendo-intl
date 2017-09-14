@@ -2,16 +2,27 @@ import { localeInfo, localeCurrency, currencyDisplays } from '../cldr';
 import { PERCENT, NUMBER_PLACEHOLDER, CURRENCY_PLACEHOLDER, DEFAULT_LOCALE, EMPTY, POINT } from '../common/constants';
 import isNumber from '../common/is-number';
 import isCurrencyStyle from './is-currency-style';
+import formatOptions from './format-options';
 
 const exponentRegExp = /[eE][\-+]?[0-9]+/;
 const nonBreakingSpaceRegExp = /\u00A0/g;
 
+function cleanNegativePattern(number, patterns) {
+    if (patterns.length > 1) {
+        const parts = (patterns[1] || EMPTY).replace(CURRENCY_PLACEHOLDER, EMPTY).split(NUMBER_PLACEHOLDER);
+        if (number.indexOf(parts[0]) > -1 && number.indexOf(parts[1]) > -1) {
+            return number.replace(parts[0], EMPTY).replace(parts[1], EMPTY);
+        }
+    }
+}
+
 function cleanCurrencyNumber(value, info, format) {
-    let isCurrency = isCurrencyStyle(format.style);
+    const options = formatOptions(format) || {};
+    let isCurrency = isCurrencyStyle(options.style);
     let number = value;
     let negative;
 
-    const currency = format.currency || localeCurrency(info, isCurrency);
+    const currency = options.currency || localeCurrency(info, isCurrency);
 
     if (currency) {
         const displays = currencyDisplays(info, currency, isCurrency);
@@ -27,14 +38,14 @@ function cleanCurrencyNumber(value, info, format) {
         }
 
         if (isCurrency) {
-            const patterns = info.numbers.currency.patterns;
-            if (patterns.length > 1) {
-                const parts = (patterns[1] || EMPTY).replace(CURRENCY_PLACEHOLDER, EMPTY).split(NUMBER_PLACEHOLDER);
-                if (number.indexOf(parts[0]) > -1 && number.indexOf(parts[1]) > -1) {
-                    number = number.replace(parts[0], EMPTY).replace(parts[1], EMPTY);
-                    negative = true;
-                }
+            const cleanNumber = cleanNegativePattern(number, info.numbers.currency.patterns) ||
+                cleanNegativePattern(number, info.numbers.accounting.patterns);
+
+            if (cleanNumber) {
+                negative = true;
+                number = cleanNumber;
             }
+
         }
     }
 
