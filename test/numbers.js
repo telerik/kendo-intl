@@ -674,6 +674,15 @@ describe('parseNumber', () => {
         expect(parseNumber("€12", "en", { currency: "EUR"})).toEqual(12);
     });
 
+    it("parses accounting numbers", () => {
+        expect(parseNumber("$12", 'en', 'a')).toEqual(12);
+        expect(parseNumber("$12", 'en', { style: 'accounting' })).toEqual(12);
+    });
+
+    it("parses accounting numbers with negative pattern", () => {
+        expect(parseNumber("($12)", 'en', 'a')).toEqual(-12);
+    });
+
     it("parses percent numbers", () => {
         expect(parseNumber("% 12")).toEqual(0.12);
     });
