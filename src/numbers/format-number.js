@@ -10,7 +10,7 @@ export default function formatNumber(number, format = NUMBER_PLACEHOLDER, locale
     }
 
     if (!isFinite(number)) {
-        return number;
+        return String(number);
     }
 
     const info = localeInfo(locale);

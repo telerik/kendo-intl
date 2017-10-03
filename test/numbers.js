@@ -50,8 +50,9 @@ describe('formatNumber', () => {
         expect(formatNumber(undefined)).toEqual("");
     });
 
-    it('should return value if not finite value is passed', () => {
-        expect(formatNumber(Infinity)).toBe(Infinity);
+    it('should return value as string if not finite value is passed', () => {
+        expect(formatNumber(Infinity)).toBe(String(Infinity));
+        expect(formatNumber(NaN)).toBe(String(NaN));
         expect(formatNumber("foo")).toEqual("foo");
     });
 
