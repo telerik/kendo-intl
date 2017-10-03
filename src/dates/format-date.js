@@ -103,6 +103,14 @@ formatters.H = function(date, formatLength) {
     return pad(date.getHours(), formatLength);
 };
 
+formatters.k = function(date, formatLength) {
+    return pad(date.getHours() || 24, formatLength);
+};
+
+formatters.K = function(date, formatLength) {
+    return pad(date.getHours() % 12, formatLength);
+};
+
 formatters.m = function(date, formatLength) {
     return pad(date.getMinutes(), formatLength);
 };

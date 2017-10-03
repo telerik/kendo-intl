@@ -248,11 +248,23 @@ parsers.h = function(state) {
     state.hours = hours;
 };
 
+parsers.K = function(state) {
+    lookAhead("K", state);
+
+    let hours = getNumber(2, state);
+
+    if (hours === null || outOfRange(hours, 0, 11)) {
+        return true;
+    }
+
+    state.hours = hours;
+};
+
 parsers.a = function(state, info) {
     const count = lookAhead("a", state);
     let periodFormats = formatNames(info, "dayPeriods", count, false, true);
 
-    const pmHour = getIndexByName([ periodFormats.pm ], state,true);
+    const pmHour = getIndexByName([ periodFormats.pm ], state, true);
     if (!pmHour && !getIndexByName([ periodFormats.am ], state, true)) {
         return true;
     }
@@ -267,6 +279,18 @@ parsers.H = function(state) {
         return true;
     }
     state.hours = hours;
+};
+
+parsers.k = function(state) {
+    lookAhead("k", state);
+
+    let hours = getNumber(2, state);
+
+    if (hours === null || outOfRange(hours, 1, 24)) {
+        return true;
+    }
+
+    state.hours = hours === 24 ? 0 : hours;
 };
 
 parsers.m = function(state) {
