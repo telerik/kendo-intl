@@ -158,6 +158,23 @@ describe('date formatting', () => {
         expect(formatDate(date(2000, 1, 1, 12), "hh:mm")).toEqual("12:00");
     });
 
+    it('supports 0-11 hour clock formatting', () => {
+        const hourZero = date(2000, 1, 1, 0);
+        const hourSmall = date(2000, 1, 1, 1);
+        const hour12 = date(2000, 1, 1, 12);
+        const hourBig = date(2000, 1, 1, 13);
+
+        expect(formatDate(hourZero, "K:mm")).toEqual("0:00");
+        expect(formatDate(hourSmall, "K:mm")).toEqual("1:00");
+        expect(formatDate(hour12, "K:mm")).toEqual("0:00");
+        expect(formatDate(hourBig, "K:mm")).toEqual("1:00");
+
+        expect(formatDate(hourZero, "KK:mm")).toEqual("00:00");
+        expect(formatDate(hourSmall, "KK:mm")).toEqual("01:00");
+        expect(formatDate(hour12, "KK:mm")).toEqual("00:00");
+        expect(formatDate(hourBig, "KK:mm")).toEqual("01:00");
+    });
+
     it('supports 24-hour clock formatting', () => {
         const hourSmall = date(2000, 1, 1, 1);
         const hourBig = date(2000, 1, 1, 23);
@@ -166,6 +183,23 @@ describe('date formatting', () => {
         expect(formatDate(hourBig, "H:mm")).toEqual("23:00");
         expect(formatDate(hourSmall, "HH:mm")).toEqual("01:00");
         expect(formatDate(hourBig, "HH:mm")).toEqual("23:00");
+    });
+
+    it('supports 1-24 hour clock formatting', () => {
+        const hourZero = date(2000, 1, 1, 0);
+        const hourSmall = date(2000, 1, 1, 1);
+        const hour12 = date(2000, 1, 1, 12);
+        const hourBig = date(2000, 1, 1, 13);
+
+        expect(formatDate(hourZero, "k:mm")).toEqual("24:00");
+        expect(formatDate(hourSmall, "k:mm")).toEqual("1:00");
+        expect(formatDate(hour12, "k:mm")).toEqual("12:00");
+        expect(formatDate(hourBig, "k:mm")).toEqual("13:00");
+
+        expect(formatDate(hourZero, "kk:mm")).toEqual("24:00");
+        expect(formatDate(hourSmall, "kk:mm")).toEqual("01:00");
+        expect(formatDate(hour12, "kk:mm")).toEqual("12:00");
+        expect(formatDate(hourBig, "kk:mm")).toEqual("13:00");
     });
 
     it('supports day period short formatting', () => {
@@ -1115,6 +1149,42 @@ describe('date parsing', () => {
 
         expect(parseDate("2014-05-21 00:00:00Z", "yyyy-MM-dd HH:mm:ssX")).toEqual(utcDate);
     });
+
+    it('parses 0-11 hour clock formatted value', () => {
+        const hourZero = date(2000, 1, 1, 0);
+        const hourSmall = date(2000, 1, 1, 1);
+        const hour12 = date(2000, 1, 1, 12);
+        const hourBig = date(2000, 1, 1, 13);
+
+        expect(parseDate("01.01.2000 0:00 am", "dd.MM.yyyy K:mm a")).toEqual(hourZero);
+        expect(parseDate("01.01.2000 1:00 am", "dd.MM.yyyy K:mm a")).toEqual(hourSmall);
+        expect(parseDate("01.01.2000 0:00 pm", "dd.MM.yyyy K:mm a")).toEqual(hour12);
+        expect(parseDate("01.01.2000 1:00 pm", "dd.MM.yyyy K:mm a")).toEqual(hourBig);
+
+        expect(parseDate("01.01.2000 00:00 am", "dd.MM.yyyy KK:mm a")).toEqual(hourZero);
+        expect(parseDate("01.01.2000 01:00 am", "dd.MM.yyyy KK:mm a")).toEqual(hourSmall);
+        expect(parseDate("01.01.2000 00:00 pm", "dd.MM.yyyy KK:mm a")).toEqual(hour12);
+        expect(parseDate("01.01.2000 01:00 pm", "dd.MM.yyyy KK:mm a")).toEqual(hourBig);
+    });
+
+    it('parses 1-24 hour clock formatted value', () => {
+        const hourZero = date(2000, 1, 1, 0);
+        const hourSmall = date(2000, 1, 1, 1);
+        const hour12 = date(2000, 1, 1, 12);
+        const hourBig = date(2000, 1, 1, 13);
+
+        expect(parseDate("01.01.2000 0:00", "dd.MM.yyyy k:mm")).toBeNull();
+        expect(parseDate("01.01.2000 24:00", "dd.MM.yyyy k:mm")).toEqual(hourZero);
+        expect(parseDate("01.01.2000 1:00", "dd.MM.yyyy k:mm")).toEqual(hourSmall);
+        expect(parseDate("01.01.2000 12:00", "dd.MM.yyyy k:mm")).toEqual(hour12);
+        expect(parseDate("01.01.2000 13:00", "dd.MM.yyyy k:mm")).toEqual(hourBig);
+
+        expect(parseDate("01.01.2000 00:00", "dd.MM.yyyy kk:mm")).toBeNull();
+        expect(parseDate("01.01.2000 24:00", "dd.MM.yyyy kk:mm")).toEqual(hourZero);
+        expect(parseDate("01.01.2000 01:00", "dd.MM.yyyy kk:mm")).toEqual(hourSmall);
+        expect(parseDate("01.01.2000 12:00", "dd.MM.yyyy kk:mm")).toEqual(hour12);
+        expect(parseDate("01.01.2000 13:00", "dd.MM.yyyy kk:mm")).toEqual(hourBig);
+    });
 });
 
 describe('splitDateFormat', () => {
@@ -1349,9 +1419,17 @@ describe('splitDateFormat', () => {
             type: 'hour',
             pattern: 'H',
             hour12: false
+        }, {
+            type: 'hour',
+            pattern: 'k',
+            hour12: false
+        }, {
+            type: 'hour',
+            pattern: 'K',
+            hour12: true
         }];
 
-        expect(splitDateFormat('hH')).toEqual(expected);
+        expect(splitDateFormat('hHkK')).toEqual(expected);
     });
 });
 

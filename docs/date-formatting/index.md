@@ -223,6 +223,32 @@ The following specifiers can be used in the custom formats.
 
         formatDate(new Date(2000, 0, 1, 13), "HH:mm"); // 13:00
 
+* **The `"k"` specifier**&mdash;Renders the hour using a 24-hour clock from 1 to 24.
+
+  To show the minimum number of digits, use `"k"`. To always show two digits, use `"kk"`.
+
+        import { formatDate } from '@telerik/kendo-intl';
+
+        formatDate(new Date(2000, 0, 1, 0), "k"); // 24
+
+        formatDate(new Date(2000, 0, 1, 1), "k"); // 1
+
+        formatDate(new Date(2000, 0, 1, 1), "kk"); // 01
+
+* **The `"K"` specifier**&mdash;Renders the hour using a 12-hour clock from 0 to 11.
+
+  To show the minimum number of digits, use `"K"`. To always show two digits, use `"KK"`.
+
+        import { formatDate } from '@telerik/kendo-intl';
+
+        formatDate(new Date(2000, 0, 1, 0), "K a"); // 0 AM
+
+        formatDate(new Date(2000, 0, 1, 1), "K a"); // 1 AM
+
+        formatDate(new Date(2000, 0, 1, 1), "KK a"); // 01 AM
+
+        formatDate(new Date(2000, 0, 1, 13), "KK a"); // 01 PM
+
 * **The `"m"` specifier**&mdash;Renders the minutes from 0 through 59.
 
   To show the minimum number of digits, use `"m"`. To always show two digits, use `"mm"`.

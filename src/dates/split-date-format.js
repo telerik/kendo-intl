@@ -54,7 +54,7 @@ function addLiteral(parts, value) {
 }
 
 function isHour12(pattern) {
-    return pattern === 'h';
+    return pattern === 'h' || pattern === 'K';
 }
 
 export default function splitDateFormat(format, locale = DEFAULT_LOCALE) {
