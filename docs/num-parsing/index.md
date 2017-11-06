@@ -61,5 +61,5 @@ It parses strings representing exponential numbers with the specific decimal sep
 
 ## Suggested Links
 
-* [Number Parsing API Reference]({% slug numberparseapi_internalization %})
-* [Number Formatting]({% slug numbeformatting_internalization %})
+* [Number Parsing API Reference](https://github.com/telerik/kendo-intl/blob/master/docs/num-parsing/api.md)
+* [Number Formatting](https://github.com/telerik/kendo-intl/blob/master/docs/num-formatting/api.md)
