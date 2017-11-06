@@ -20,7 +20,7 @@ The `parseDate` method supports the parsing of:
 
 ### Implicit Formats
 
-In this case, the `parseDate` method tries to parse the string using both the locale [predefined formats]({% slug dateformatting_internalization %}#predefined) and the standard formats listed in the following table.
+In this case, the `parseDate` method tries to parse the string using both the locale [predefined formats](https://github.com/telerik/kendo-intl/blob/master/docs/date-formatting/index.md#predefined) and the standard formats listed in the following table.
 
 | STANDARD FORMATS                   | EXAMPLE VALUE                         |
 | :---                               | :---                                  |

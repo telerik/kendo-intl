@@ -34,7 +34,7 @@ Unicode CLDR is available as JSON at [https://github.com/unicode-cldr/](https://
 
 ## Loading CLDR Data
 
-To load the CLDR data, use the [`load`]({% cldrapi_internalization %}#load) method.
+To load the CLDR data, use the [`load`](https://github.com/telerik/kendo-intl/blob/master/docs/cldr/api.md#load) method.
 
 > Before other culture scripts, you have to load the supplemental data first. It requires you to load it just once.
 
@@ -103,4 +103,4 @@ setData(data);
 
 ## Suggested Links
 
-* [API Reference of the CLDR Module]({% slug cldrapi_internalization %})
+* [API Reference of the CLDR Module](https://github.com/telerik/kendo-intl/blob/master/docs/cldr/api.md)
