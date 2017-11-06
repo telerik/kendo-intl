@@ -41,6 +41,10 @@ const data = {
                 "displayName-count-other": "afgani",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "lek albański",
                 "displayName-count-one": "lek albański",
@@ -441,6 +445,18 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "juan chiński (rynek zewnętrzny)",
+                "displayName-count-one": "juan chiński (rynek zewnętrzny)",
+                "displayName-count-few": "juany chińskie (rynek zewnętrzny)",
+                "displayName-count-many": "juanów chińskich (rynek zewnętrzny)",
+                "displayName-count-other": "juana chińskiego (rynek zewnętrzny)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "juan chiński",
                 "displayName-count-one": "juan chiński",
@@ -830,6 +846,10 @@ const data = {
                 displayName: "funt izraelski",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "nowy szekel izraelski",
                 "displayName-count-one": "nowy szekel izraelski",
@@ -863,6 +883,10 @@ const data = {
                 "displayName-count-many": "riali irańskich",
                 "displayName-count-other": "riala irańskiego",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "korona islandzka",
@@ -1187,6 +1211,10 @@ const data = {
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
+            },
             MVR: {
                 displayName: "rupia malediwska",
                 "displayName-count-one": "rupia malediwska",
@@ -1430,7 +1458,7 @@ const data = {
                 "displayName-count-many": "lejów rumuńskich",
                 "displayName-count-other": "leja rumuńskiego",
                 symbol: "RON",
-                "symbol-alt-narrow": "lei"
+                "symbol-alt-narrow": "lej"
             },
             RSD: {
                 displayName: "dinar serbski",
@@ -1601,6 +1629,10 @@ const data = {
                 "displayName-count-other": "dobry Wysp Świętego Tomasza i Książęcej",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "rubel radziecki",

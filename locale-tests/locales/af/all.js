@@ -81,6 +81,10 @@ const data = {
                 "displayName-count-other": "Afgaanse afgani",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "Albanese lek",
                 "displayName-count-one": "Albanese lek",
@@ -393,6 +397,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "Chinese joean",
+                "displayName-count-one": "Chinese joean (buiteland)",
+                "displayName-count-other": "Chinese joean (buiteland)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "Sjinese joean renminbi",
                 "displayName-count-one": "Sjinese joean renminbi",
@@ -700,6 +714,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "Israeliese nuwe sikkel",
                 "displayName-count-one": "Israeliese nuwe sikkel",
@@ -725,6 +743,10 @@ const data = {
                 "displayName-count-one": "Iranse rial",
                 "displayName-count-other": "Iranse rial",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Yslandse kroon",
@@ -985,6 +1007,10 @@ const data = {
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
+            },
             MVR: {
                 displayName: "Malediviese rufia",
                 "displayName-count-one": "Malediviese rufia",
@@ -1170,7 +1196,7 @@ const data = {
                 "displayName-count-one": "Roemeense leu",
                 "displayName-count-other": "Roemeense leu",
                 symbol: "RON",
-                "symbol-alt-narrow": "lei"
+                "symbol-alt-narrow": "leu"
             },
             RSD: {
                 displayName: "Serbiese dinar",
@@ -1296,6 +1322,10 @@ const data = {
                 "displayName-count-other": "São Tomé en Príncipe dobra",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",
@@ -1673,8 +1703,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E d",
                 Ehm: "E hh:mm a",
                 EHm: "E HH:mm",
@@ -1715,8 +1750,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'week' w 'van' y",
-                "yw-count-other": "'week' w 'van' y"
+                "yw-count-one": "'week' w 'van' Y",
+                "yw-count-other": "'week' w 'van' Y"
             }
         },
         timeFormats: {
@@ -2052,9 +2087,9 @@ const data = {
                 narrow: "wk."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "week van maand",
+                short: "wk. v. md.",
+                narrow: "wk. v. md."
             },
             day: {
                 wide: "dag",
@@ -2062,24 +2097,24 @@ const data = {
                 narrow: "d."
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "dag van jaar",
+                short: "dag van j.",
+                narrow: "dag van j."
             },
             weekday: {
                 wide: "dag van die week",
-                short: "dag van die week",
-                narrow: "dag van die week"
+                short: "dag van wk.",
+                narrow: "dag van wk."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "weekdag van die jaar",
+                short: "wk.-dag van md.",
+                narrow: "wk.-dag van md."
             },
             dayperiod: {
-                short: "VM/NM",
+                short: "vm./nm.",
                 wide: "VM/NM",
-                narrow: "VM/NM"
+                narrow: "vm./nm."
             },
             hour: {
                 wide: "uur",
@@ -2098,8 +2133,8 @@ const data = {
             },
             zone: {
                 wide: "tydsone",
-                short: "tydsone",
-                narrow: "tydsone"
+                short: "sone",
+                narrow: "sone"
             }
         }
     },

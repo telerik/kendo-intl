@@ -16,7 +16,7 @@ const data = {
             plusSign: "+",
             minusSign: "-",
             exponential: "E",
-            superscriptingExponent: "·",
+            superscriptingExponent: "×",
             perMille: "‰",
             infinity: "∞",
             nan: "NaN",

@@ -94,7 +94,8 @@ const data = {
                 displayName: "Albanski lek (1946–1965)",
                 "displayName-count-one": "albanski lek (1946–1965)",
                 "displayName-count-few": "Albanska leka (1946–1965)",
-                "displayName-count-other": "albanski lek (1946–1965)"
+                "displayName-count-other": "albanski lek (1946–1965)",
+                symbol: "ALK"
             },
             ALL: {
                 displayName: "Albanski lek",
@@ -465,7 +466,7 @@ const data = {
             CAD: {
                 displayName: "Kanadski dolar",
                 "displayName-count-one": "kanadski dolar",
-                "displayName-count-few": "kanadski dolari",
+                "displayName-count-few": "kanadska dolara",
                 "displayName-count-other": "kanadskih dolara",
                 symbol: "CAD",
                 "symbol-alt-narrow": "$"
@@ -516,6 +517,17 @@ const data = {
                 "displayName-count-other": "čileanskih pezosa",
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
+            },
+            CNH: {
+                displayName: "Kineski juan (izvanteritorijalni)",
+                "displayName-count-one": "kineski juan (izvanteritorijalni)",
+                "displayName-count-few": "kineska juana (izvanteritorijalni)",
+                "displayName-count-other": "kineskih juana (izvanteritorijalni)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
             },
             CNY: {
                 displayName: "Kineski juan",
@@ -777,8 +789,8 @@ const data = {
             GHS: {
                 displayName: "Ganski cedi",
                 "displayName-count-one": "ganski cedi",
-                "displayName-count-few": "ganska ceda",
-                "displayName-count-other": "ganskih ceda",
+                "displayName-count-few": "ganska cedija",
+                "displayName-count-other": "ganskih cedija",
                 symbol: "GHS"
             },
             GIP: {
@@ -927,7 +939,8 @@ const data = {
                 displayName: "stari izraelski šekeli",
                 "displayName-count-one": "stari izraelski šekeli",
                 "displayName-count-few": "stari izraelski šekeli",
-                "displayName-count-other": "stari izraelski šekeli"
+                "displayName-count-other": "stari izraelski šekeli",
+                symbol: "ILR"
             },
             ILS: {
                 displayName: "Izraelski novi šekel",
@@ -963,7 +976,8 @@ const data = {
                 displayName: "stara islandska kruna",
                 "displayName-count-one": "stara islandska kruna",
                 "displayName-count-few": "stara islandska kruna",
-                "displayName-count-other": "stara islandska kruna"
+                "displayName-count-other": "stara islandska kruna",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Islandska kruna",
@@ -1300,6 +1314,10 @@ const data = {
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
+            },
             MVR: {
                 displayName: "Maldivska rufija",
                 "displayName-count-one": "maldivska rufija",
@@ -1392,7 +1410,7 @@ const data = {
                 displayName: "Nikaragvanska kordoba",
                 "displayName-count-one": "nikaragvanska kordoba",
                 "displayName-count-few": "nikaragvanske kordobe",
-                "displayName-count-other": "nikaragvanska kordoba",
+                "displayName-count-other": "nikaragvanskih kordoba",
                 symbol: "NIO",
                 "symbol-alt-narrow": "C$"
             },
@@ -1438,7 +1456,7 @@ const data = {
                 displayName: "Panamska balboa",
                 "displayName-count-one": "panamska balboa",
                 "displayName-count-few": "panamske balboe",
-                "displayName-count-other": "panamska balboa",
+                "displayName-count-other": "panamskih balboa",
                 symbol: "PAB"
             },
             PEI: {
@@ -1700,6 +1718,10 @@ const data = {
                 "displayName-count-other": "dobri Sao Toma i Principa",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "Sovjetska rublja",
@@ -2222,8 +2244,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d.",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E, d.",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -2265,11 +2292,11 @@ const data = {
                 yMMMd: "d. MMM y.",
                 yMMMEd: "E, d. MMM y.",
                 yMMMM: "LLLL y.",
-                yQQQ: "QQQ y",
-                yQQQQ: "QQQQ y",
-                "yw-count-one": "w. 'sedmica' 'u' y.",
-                "yw-count-few": "w. 'sedmica' 'u' y.",
-                "yw-count-other": "w. 'sedmica' 'u' y."
+                yQQQ: "QQQ y.",
+                yQQQQ: "QQQQ y.",
+                "yw-count-one": "w. 'sedmica' 'u' Y.",
+                "yw-count-few": "w. 'sedmica' 'u' Y.",
+                "yw-count-other": "w. 'sedmica' 'u' Y."
             }
         },
         timeFormats: {
@@ -2281,7 +2308,7 @@ const data = {
         dateFormats: {
             full: "EEEE, d. MMMM y.",
             long: "d. MMMM y.",
-            medium: "d. MMM. y.",
+            medium: "d. MMM y.",
             short: "d.M.yy."
         },
         days: {
@@ -2455,10 +2482,10 @@ const data = {
         quarters: {
             format: {
                 abbreviated: [
-                    "K1",
-                    "K2",
-                    "K3",
-                    "K4"
+                    "KV1",
+                    "KV2",
+                    "KV3",
+                    "KV4"
                 ],
                 narrow: [
                     "1.",
@@ -2475,10 +2502,10 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "K1",
-                    "K2",
-                    "K3",
-                    "K4"
+                    "KV1",
+                    "KV2",
+                    "KV3",
+                    "KV4"
                 ],
                 narrow: [
                     "1.",
@@ -2566,7 +2593,7 @@ const data = {
                     0: "prije nove ere",
                     1: "nove ere",
                     "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "1-alt-variant": "n. e."
                 },
                 abbreviated: {
                     0: "p. n. e.",
@@ -2611,9 +2638,9 @@ const data = {
                 narrow: "sed."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "sedmica u mjesecu",
+                short: "sed. u mj.",
+                narrow: "s. u mj."
             },
             day: {
                 wide: "dan",
@@ -2621,19 +2648,19 @@ const data = {
                 narrow: "dan"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "dan u godini",
+                short: "dan u god.",
+                narrow: "dan u g."
             },
             weekday: {
                 wide: "dan u sedmici",
-                short: "dan u sedmici",
-                narrow: "dan u sedmici"
+                short: "dan u sed.",
+                narrow: "dan u sed."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "dan u mjesecu",
+                short: "dan u mj.",
+                narrow: "d. u mj."
             },
             dayperiod: {
                 short: "prijepodne/poslijepodne",
@@ -2657,8 +2684,8 @@ const data = {
             },
             zone: {
                 wide: "vremenska zona",
-                short: "vremenska zona",
-                narrow: "vremenska zona"
+                short: "zona",
+                narrow: "zona"
             }
         }
     },

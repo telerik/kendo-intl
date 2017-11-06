@@ -30,8 +30,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -71,8 +76,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'week' w 'in' y",
-                "yw-count-other": "'week' w 'in' y"
+                "yw-count-one": "'week' w 'in' Y",
+                "yw-count-other": "'week' w 'in' Y"
             }
         },
         timeFormats: {
@@ -303,10 +308,10 @@ const data = {
                     midnight: "middernacht",
                     am: "a.m.",
                     pm: "p.m.",
-                    morning1: "ochtend",
-                    afternoon1: "middag",
-                    evening1: "avond",
-                    night1: "nacht"
+                    morning1: "‘s ochtends",
+                    afternoon1: "‘s middags",
+                    evening1: "‘s avonds",
+                    night1: "‘s nachts"
                 },
                 narrow: {
                     midnight: "middernacht",
@@ -408,9 +413,9 @@ const data = {
                 narrow: "wk"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "week van de maand",
+                short: "wk van de mnd",
+                narrow: "wk v.d. mnd"
             },
             day: {
                 wide: "dag",
@@ -418,24 +423,24 @@ const data = {
                 narrow: "dag"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "dag van het jaar",
+                short: "dag van het jr",
+                narrow: "dag v.h. jr"
             },
             weekday: {
                 wide: "dag van de week",
-                short: "dag van de week",
-                narrow: "dag van de week"
+                short: "dag van de wk",
+                narrow: "dag v.d. wk"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "weekdag van de maand",
+                short: "wkdag van de mnd",
+                narrow: "wkdag v.d. mnd"
             },
             dayperiod: {
-                short: "dagdeel",
-                wide: "dagdeel",
-                narrow: "dagdeel"
+                short: "a.m./p.m.",
+                wide: "a.m./p.m.",
+                narrow: "a.m./p.m."
             },
             hour: {
                 wide: "uur",
@@ -454,8 +459,8 @@ const data = {
             },
             zone: {
                 wide: "tijdzone",
-                short: "tijdzone",
-                narrow: "tijdzone"
+                short: "zone",
+                narrow: "zone"
             }
         }
     },

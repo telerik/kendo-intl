@@ -19,7 +19,7 @@ const data = {
             superscriptingExponent: "×",
             perMille: "‰",
             infinity: "∞",
-            nan: "haqiqiy son emas",
+            nan: "son emas",
             timeSeparator: ":"
         },
         decimal: {

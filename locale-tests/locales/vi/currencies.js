@@ -27,6 +27,10 @@ const data = {
                 "displayName-count-other": "Afghani Afghanistan",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "Lek Albania",
                 "displayName-count-other": "Lek Albania",
@@ -38,8 +42,8 @@ const data = {
                 symbol: "AMD"
             },
             ANG: {
-                displayName: "Guilder Tây Ấn Hà Lan",
-                "displayName-count-other": "Guilder Tây Ấn Hà Lan",
+                displayName: "Guilder Antille Hà Lan",
+                "displayName-count-other": "Guilder Antille Hà Lan",
                 symbol: "ANG"
             },
             AOA: {
@@ -310,6 +314,15 @@ const data = {
                 "displayName-count-other": "Peso Chile",
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
+            },
+            CNH: {
+                displayName: "Nhân dân tệ (hải ngoại)",
+                "displayName-count-other": "Nhân dân tệ (hải ngoại)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
             },
             CNY: {
                 displayName: "Nhân dân tệ",
@@ -587,6 +600,10 @@ const data = {
                 displayName: "Pao Ixraen",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "Sheqel Israel mới",
                 "displayName-count-other": "Sheqel Israel mới",
@@ -608,6 +625,10 @@ const data = {
                 displayName: "Rial Iran",
                 "displayName-count-other": "Rial Iran",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Króna Iceland",
@@ -840,6 +861,10 @@ const data = {
                 "displayName-count-other": "Rupee Mauritius",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "Rufiyaa Maldives",
@@ -1115,6 +1140,10 @@ const data = {
                 "displayName-count-other": "Dobra São Tomé và Príncipe",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "Đồng Rúp Sô viết",

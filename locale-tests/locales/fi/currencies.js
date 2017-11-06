@@ -155,7 +155,7 @@ const data = {
                 "displayName-count-one": "Bosnia-Hertsegovinan vaihdettava markka",
                 "displayName-count-other": "Bosnia-Hertsegovinan vaihdettavaa markkaa",
                 symbol: "BAM",
-                "symbol-alt-narrow": "KM"
+                "symbol-alt-narrow": "BAM"
             },
             BAN: {
                 displayName: "Bosnia-Hertsegovinan uusi dinaari (1994–1997)",
@@ -415,6 +415,12 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "CLP"
             },
+            CNH: {
+                displayName: "Kiinan juan (offshore)",
+                "displayName-count-one": "Kiinan juan (offshore)",
+                "displayName-count-other": "Kiinan juania (offshore)",
+                symbol: "CNH"
+            },
             CNX: {
                 displayName: "Kiinan kansanpankin dollari",
                 "displayName-count-one": "Kiinan kansanpankin dollari",
@@ -442,9 +448,9 @@ const data = {
                 symbol: "COU"
             },
             CRC: {
-                displayName: "Costa Rican colon",
-                "displayName-count-one": "Costa Rican colon",
-                "displayName-count-other": "Costa Rican colonia",
+                displayName: "Costa Rican colón",
+                "displayName-count-one": "Costa Rican colón",
+                "displayName-count-other": "Costa Rican colónia",
                 symbol: "CRC",
                 "symbol-alt-narrow": "CRC"
             },
@@ -1275,16 +1281,16 @@ const data = {
                 "symbol-alt-narrow": "PKR"
             },
             PLN: {
-                displayName: "Puolan zloty",
-                "displayName-count-one": "Puolan zloty",
-                "displayName-count-other": "Puolan zlotya",
+                displayName: "Puolan złoty",
+                "displayName-count-one": "Puolan złoty",
+                "displayName-count-other": "Puolan złotya",
                 symbol: "PLN",
                 "symbol-alt-narrow": "PLN"
             },
             PLZ: {
-                displayName: "Puolan zloty (1950–1995)",
-                "displayName-count-one": "Puolan zloty (1950–1995)",
-                "displayName-count-other": "Puolan zlotya (1950–1995)",
+                displayName: "Puolan złoty (1950–1995)",
+                "displayName-count-one": "Puolan złoty (1950–1995)",
+                "displayName-count-other": "Puolan złotya (1950–1995)",
                 symbol: "PLZ"
             },
             PTE: {
@@ -1461,6 +1467,10 @@ const data = {
                 symbol: "STD",
                 "symbol-alt-narrow": "STD"
             },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
+            },
             SUR: {
                 displayName: "Neuvostoliiton rupla",
                 "displayName-count-one": "Neuvostoliiton rupla",
@@ -1468,9 +1478,9 @@ const data = {
                 symbol: "SUR"
             },
             SVC: {
-                displayName: "El Salvadorin colon",
-                "displayName-count-one": "El Salvadorin colon",
-                "displayName-count-other": "El Salvadorin colonia",
+                displayName: "El Salvadorin colón",
+                "displayName-count-one": "El Salvadorin colón",
+                "displayName-count-other": "El Salvadorin colónia",
                 symbol: "SVC"
             },
             SYP: {
@@ -1793,9 +1803,9 @@ const data = {
                 symbol: "XTS"
             },
             XUA: {
-                displayName: "afrikkalainen ADB-laskentayksikkö",
-                "displayName-count-one": "ADB-laskentayksikkö",
-                "displayName-count-other": "ADB-laskentayksikköä",
+                displayName: "afrikkalainen AfDB-laskentayksikkö",
+                "displayName-count-one": "AfDB-laskentayksikkö",
+                "displayName-count-other": "AfDB-laskentayksikköä",
                 symbol: "XUA"
             },
             XXX: {

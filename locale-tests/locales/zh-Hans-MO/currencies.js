@@ -350,6 +350,15 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "人民币（离岸）",
+                "displayName-count-other": "人民币（离岸）",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "人民币",
                 "displayName-count-other": "人民币",
@@ -931,7 +940,8 @@ const data = {
             },
             MVP: {
                 displayName: "马尔代夫卢比(1947–1981)",
-                "displayName-count-other": "马尔代夫卢比(1947–1981)"
+                "displayName-count-other": "马尔代夫卢比(1947–1981)",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "马尔代夫卢菲亚",
@@ -1109,7 +1119,7 @@ const data = {
                 displayName: "罗马尼亚列伊",
                 "displayName-count-other": "罗马尼亚列伊",
                 symbol: "RON",
-                "symbol-alt-narrow": "L"
+                "symbol-alt-narrow": "lei"
             },
             RSD: {
                 displayName: "塞尔维亚第纳尔",
@@ -1225,6 +1235,10 @@ const data = {
                 "displayName-count-other": "圣多美和普林西比多布拉",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "苏联卢布",

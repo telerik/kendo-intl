@@ -30,6 +30,10 @@ const data = {
                 "displayName-count-other": "افغانی افغانستان",
                 symbol: "؋"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "لک آلبانی",
                 "displayName-count-one": "لک آلبانی",
@@ -288,15 +292,15 @@ const data = {
             },
             BYN: {
                 displayName: "روبل روسیهٔ سفید",
-                "displayName-count-one": "روبل بیلوروسی",
-                "displayName-count-other": "روبل بیلوروسی",
+                "displayName-count-one": "روبل بلاروسی",
+                "displayName-count-other": "روبل بلاروسی",
                 symbol: "BYN",
                 "symbol-alt-narrow": "р."
             },
             BYR: {
                 displayName: "روبل روسیهٔ سفید (۲۰۰۰–۲۰۱۶)",
-                "displayName-count-one": "روبل بیلوروسی (۲۰۰۰–۲۰۱۶)",
-                "displayName-count-other": "روبل بیلوروسی (۲۰۰۰–۲۰۱۶)",
+                "displayName-count-one": "روبل بلاروسی (۲۰۱۶–۲۰۰۰)",
+                "displayName-count-other": "روبل بلاروسی (۲۰۱۶–۲۰۰۰)",
                 symbol: "BYR"
             },
             BZD: {
@@ -347,6 +351,16 @@ const data = {
                 "displayName-count-other": "پزوی شیلی",
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
+            },
+            CNH: {
+                displayName: "یوآن چین (برون‌مرزی)",
+                "displayName-count-one": "یوآن چین (برون‌مرزی)",
+                "displayName-count-other": "یوآن چین (برون‌مرزی)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
             },
             CNY: {
                 displayName: "یوآن چین",
@@ -461,9 +475,9 @@ const data = {
                 symbol: "EEK"
             },
             EGP: {
-                displayName: "لیرهٔ مصر",
-                "displayName-count-one": "لیرهٔ مصر",
-                "displayName-count-other": "لیرهٔ مصر",
+                displayName: "پوند مصر",
+                "displayName-count-one": "پوند مصر",
+                "displayName-count-other": "پوند مصر",
                 symbol: "EGP",
                 "symbol-alt-narrow": "E£"
             },
@@ -659,6 +673,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "شقل جدید اسرائیل",
                 "displayName-count-one": "شقل جدید اسرائیل",
@@ -684,6 +702,10 @@ const data = {
                 "displayName-count-one": "ریال ایران",
                 "displayName-count-other": "ریال ایران",
                 symbol: "ریال"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "کرونای ایسلند",
@@ -946,6 +968,10 @@ const data = {
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
+            },
             MVR: {
                 displayName: "روپیهٔ مالدیو",
                 "displayName-count-one": "روپیهٔ مالدیو",
@@ -1187,9 +1213,9 @@ const data = {
                 symbol: "SDD"
             },
             SDG: {
-                displayName: "لیرهٔ سودان",
-                "displayName-count-one": "لیرهٔ سودان",
-                "displayName-count-other": "لیرهٔ سودان",
+                displayName: "پوند سودان",
+                "displayName-count-one": "پوند سودان",
+                "displayName-count-other": "پوند سودان",
                 symbol: "SDG"
             },
             SDP: {
@@ -1261,6 +1287,10 @@ const data = {
                 "displayName-count-other": "دوبرای سائوتومه و پرنسیپ",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "روبل شوروی",

@@ -29,6 +29,10 @@ const data = {
                 "displayName-count-other": "Afg‘oniston afg‘oniysi",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "Albaniya leki",
                 "displayName-count-one": "Albaniya leki",
@@ -341,6 +345,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "CNH",
+                "displayName-count-one": "CNH",
+                "displayName-count-other": "CNH",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "Xitoy yuani",
                 "displayName-count-one": "Xitoy yuani",
@@ -648,6 +662,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "Isroil yangi shekeli",
                 "displayName-count-one": "Isroil yangi shekeli",
@@ -673,6 +691,10 @@ const data = {
                 "displayName-count-one": "Eron riyoli",
                 "displayName-count-other": "Eron riyoli",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Islandiya kronasi",
@@ -934,6 +956,10 @@ const data = {
                 "displayName-count-other": "Mavritaniya rupiyasi",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "Maldiv rupiyasi",
@@ -1245,6 +1271,10 @@ const data = {
                 "displayName-count-other": "San-Tome va Prinsipi dobrasi",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

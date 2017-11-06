@@ -14,8 +14,8 @@ const data = {
                 symbol: "ADP"
             },
             AED: {
-                displayName: "အာရပ်ဒူဟမ်း",
-                "displayName-count-other": "အာရပ်ဒူဟမ်း",
+                displayName: "အာရပ်စော်ဘွားများ ပြည်ထောင်စု ဒါဟမ်း",
+                "displayName-count-other": "အာရပ်စော်ဘွားများ ပြည်ထောင်စု ဒါဟမ်း",
                 symbol: "AED"
             },
             AFA: {
@@ -23,9 +23,13 @@ const data = {
                 symbol: "AFA"
             },
             AFN: {
-                displayName: "အာဖဂန်အာဖဂါနီ",
-                "displayName-count-other": "အာဖဂန်အာဖဂါနီ",
+                displayName: "အာဖဂန် အာဖဂါနီ",
+                "displayName-count-other": "အာဖဂန် အာဖဂါနီ",
                 symbol: "AFN"
+            },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
             },
             ALL: {
                 displayName: "အယ်ဘေးနီးယား လီခ်",
@@ -33,8 +37,8 @@ const data = {
                 symbol: "ALL"
             },
             AMD: {
-                displayName: "အာမေးနီးယားဒရမ်း",
-                "displayName-count-other": "အာမေးနီးယားဒရမ်း",
+                displayName: "အာမေးနီးယား ဒရမ်",
+                "displayName-count-other": "အာမေးနီးယား ဒရမ်",
                 symbol: "AMD"
             },
             ANG: {
@@ -102,8 +106,8 @@ const data = {
                 symbol: "AZM"
             },
             AZN: {
-                displayName: "အဇာဘိုင်ဂျန်မာနတ်",
-                "displayName-count-other": "အဇာဘိုင်ဂျန်မာနတ်",
+                displayName: "အဇာဘိုင်ဂျန် မာနတ်",
+                "displayName-count-other": "အဇာဘိုင်ဂျန် မာနတ်",
                 symbol: "AZN"
             },
             BAD: {
@@ -111,7 +115,7 @@ const data = {
                 symbol: "BAD"
             },
             BAM: {
-                displayName: "ဘော့စနီးယားနှင့် ဟာဇီဂိုဘီးနားမတ်က်",
+                displayName: "ဘော့စနီးယားနှင့် ဟာဇီဂိုဘီးနား ငွေလဲနိုင်သော မတ်က်",
                 "displayName-count-other": "ဘော့စနီးယားနှင့် ဟာဇီဂိုဘီးနားမတ်က်",
                 symbol: "BAM",
                 "symbol-alt-narrow": "KM"
@@ -162,8 +166,8 @@ const data = {
                 symbol: "BGO"
             },
             BHD: {
-                displayName: "ဘာရိန်းဒီနား",
-                "displayName-count-other": "ဘာရိန်းဒီနား",
+                displayName: "ဘာရိန်း ဒီနား",
+                "displayName-count-other": "ဘာရိန်း ဒီနား",
                 symbol: "BHD"
             },
             BIF: {
@@ -238,8 +242,8 @@ const data = {
                 "symbol-alt-narrow": "B$"
             },
             BTN: {
-                displayName: "ဘူတန်အံဂါလ်ထရန်",
-                "displayName-count-other": "ဘူတန်အံဂါလ်ထရန်",
+                displayName: "ဘူတန် အံဂါလ်ထရန်",
+                "displayName-count-other": "ဘူတန် အံဂါလ်ထရန်",
                 symbol: "BTN"
             },
             BUK: {
@@ -257,8 +261,8 @@ const data = {
                 symbol: "BYB"
             },
             BYN: {
-                displayName: "ဘီလာရုဇ် ရူဘယ်",
-                "displayName-count-other": "ဘီလာရုဇ် ရူဘယ်",
+                displayName: "ဘီလာရုစ် ရူဘယ်",
+                "displayName-count-other": "ဘီလာရုစ် ရူဘယ်",
                 symbol: "BYN",
                 "symbol-alt-narrow": "р."
             },
@@ -310,6 +314,15 @@ const data = {
                 "displayName-count-other": "ချီလီ ပီဆို",
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
+            },
+            CNH: {
+                displayName: "တရုတ် ယွမ် (ဟောင်ကောင်)",
+                "displayName-count-other": "တရုတ် ယွမ် (ဟောင်ကောင်)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
             },
             CNY: {
                 displayName: "တရုတ် ယွမ်",
@@ -363,8 +376,8 @@ const data = {
                 symbol: "CYP"
             },
             CZK: {
-                displayName: "ချက်ခိုရိုနာ",
-                "displayName-count-other": "ချက်ခိုရိုနာ",
+                displayName: "ချက် ခိုရိုနာ",
+                "displayName-count-other": "ချက် ခိုရိုနာ",
                 symbol: "CZK",
                 "symbol-alt-narrow": "Kč"
             },
@@ -435,8 +448,8 @@ const data = {
                 "symbol-alt-narrow": "₧"
             },
             ETB: {
-                displayName: "အီသီယိုးပီးယားဘီးယာ",
-                "displayName-count-other": "အီသီယိုးပီးယားဘီးယာ",
+                displayName: "အီသီယိုးပီးယား ဘီးယာ",
+                "displayName-count-other": "အီသီယိုးပီးယား ဘီးယာ",
                 symbol: "ETB"
             },
             EUR: {
@@ -476,8 +489,8 @@ const data = {
                 symbol: "GEK"
             },
             GEL: {
-                displayName: "ဂျော်ဂျီယာလားရီ",
-                "displayName-count-other": "ဂျော်ဂျီယာလားရီ",
+                displayName: "ဂျော်ဂျီယာ လားရီ",
+                "displayName-count-other": "ဂျော်ဂျီယာ လားရီ",
                 symbol: "GEL",
                 "symbol-alt-narrow": "₾"
             },
@@ -502,8 +515,8 @@ const data = {
                 symbol: "GMD"
             },
             GNF: {
-                displayName: "ဂီးနီ ဖရန့်",
-                "displayName-count-other": "ဂီးနီ ဖရန့်",
+                displayName: "ဂီနီရာ ဖရန့်",
+                "displayName-count-other": "ဂီနီရာ ဖရန့်",
                 symbol: "GNF",
                 "symbol-alt-narrow": "FG"
             },
@@ -556,8 +569,8 @@ const data = {
                 symbol: "HRD"
             },
             HRK: {
-                displayName: "ခရိုအေးရှားခူးနာ",
-                "displayName-count-other": "ခရိုအေးရှားခူးနာ",
+                displayName: "ခရိုအေးရှား ခူးနာ",
+                "displayName-count-other": "ခရိုအေးရှား ခူးနာ",
                 symbol: "HRK",
                 "symbol-alt-narrow": "kn"
             },
@@ -567,8 +580,8 @@ const data = {
                 symbol: "G"
             },
             HUF: {
-                displayName: "ဟန်ဂေရီယံဖော်ရင့်တ်",
-                "displayName-count-other": "ဟန်ဂေရီယံဖော်ရင့်တ်",
+                displayName: "ဟန်ဂေရီယံ ဖော်ရင့်တ်",
+                "displayName-count-other": "ဟန်ဂေရီယံ ဖော်ရင့်တ်",
                 symbol: "HUF",
                 "symbol-alt-narrow": "Ft"
             },
@@ -586,9 +599,13 @@ const data = {
                 displayName: "အစ္စရေး ပေါင်",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
-                displayName: "အစ္စရေးရှဲကလ်အသစ်",
-                "displayName-count-other": "အစ္စရေးရှဲကလ်အသစ်",
+                displayName: "အစ္စရေး ရှဲကလ်အသစ်",
+                "displayName-count-other": "အစ္စရေး ရှဲကလ်အသစ်",
                 symbol: "₪",
                 "symbol-alt-narrow": "₪"
             },
@@ -599,14 +616,18 @@ const data = {
                 "symbol-alt-narrow": "₹"
             },
             IQD: {
-                displayName: "အီရတ် ဒီနား",
-                "displayName-count-other": "အီရတ် ဒီနား",
+                displayName: "အီရတ် ဒီနာ",
+                "displayName-count-other": "အီရတ် ဒီနာ",
                 symbol: "IQD"
             },
             IRR: {
-                displayName: "အီရန်ရီအော်လ်",
-                "displayName-count-other": "အီရန်ရီအော်လ်",
+                displayName: "အီရန် ရီအော်လ်",
+                "displayName-count-other": "အီရန် ရီအော်လ်",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "အိုက်စလန် ခရိုဏာ",
@@ -625,19 +646,19 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             JOD: {
-                displayName: "ဂျော်ဒန်ဒီနား",
-                "displayName-count-other": "ဂျော်ဒန်ဒီနား",
+                displayName: "ဂျော်ဒန် ဒီနာ",
+                "displayName-count-other": "ဂျော်ဒန် ဒီနာ",
                 symbol: "JOD"
             },
             JPY: {
-                displayName: "ဂျပန်ယန်း",
-                "displayName-count-other": "ဂျပန်ယန်း",
+                displayName: "ဂျပန် ယန်း",
+                "displayName-count-other": "ဂျပန် ယန်း",
                 symbol: "JP¥",
                 "symbol-alt-narrow": "¥"
             },
             KES: {
-                displayName: "ကင်ညာသျှီလင်",
-                "displayName-count-other": "ကင်ညာသျှီလင်",
+                displayName: "ကင်ညာ သျှီလင်",
+                "displayName-count-other": "ကင်ညာ သျှီလင်",
                 symbol: "KES"
             },
             KGS: {
@@ -678,8 +699,8 @@ const data = {
                 "symbol-alt-narrow": "₩"
             },
             KWD: {
-                displayName: "ကူဝိတ်ဒီနာ",
-                "displayName-count-other": "ကူဝိတ်ဒီနာ",
+                displayName: "ကူဝိတ် ဒီနာ",
+                "displayName-count-other": "ကူဝိတ် ဒီနာ",
                 symbol: "KWD"
             },
             KYD: {
@@ -695,8 +716,8 @@ const data = {
                 "symbol-alt-narrow": "₸"
             },
             LAK: {
-                displayName: "လာအိုခိပ်",
-                "displayName-count-other": "လာအိုခိပ်",
+                displayName: "လာအို ကစ်",
+                "displayName-count-other": "လာအို ကစ်",
                 symbol: "LAK",
                 "symbol-alt-narrow": "₭"
             },
@@ -755,8 +776,8 @@ const data = {
                 symbol: "LVR"
             },
             LYD: {
-                displayName: "လီဗျာ ဒီနာ",
-                "displayName-count-other": "လီဗျာ ဒီနာ",
+                displayName: "လစ်ဗျား ဒိုင်နာ",
+                "displayName-count-other": "လစ်ဗျား ဒိုင်နာ",
                 symbol: "LYD"
             },
             MAD: {
@@ -777,8 +798,8 @@ const data = {
                 symbol: "MDC"
             },
             MDL: {
-                displayName: "မောလ်ဒိုဗာလယ်အို",
-                "displayName-count-other": "မောလ်ဒိုဗာလယ်အို",
+                displayName: "မောလ်ဒိုဗာ လယ်အို",
+                "displayName-count-other": "မောလ်ဒိုဗာ လယ်အို",
                 symbol: "MDL"
             },
             MGA: {
@@ -792,8 +813,8 @@ const data = {
                 symbol: "MGF"
             },
             MKD: {
-                displayName: "မက်စီဒိုးနီးယား ဒီနာ",
-                "displayName-count-other": "မက်စီဒိုးနီးယား ဒီနာ",
+                displayName: "မက်ဆီဒိုးနီးယား ဒီနာ",
+                "displayName-count-other": "မက်ဆီဒိုးနီးယား ဒီနာ",
                 symbol: "MKD"
             },
             MKN: {
@@ -805,20 +826,20 @@ const data = {
                 symbol: "MLF"
             },
             MMK: {
-                displayName: "မြန်မာကျပ်",
-                "displayName-count-other": "မြန်မာကျပ်",
+                displayName: "မြန်မာ ကျပ်",
+                "displayName-count-other": "မြန်မာ ကျပ်",
                 symbol: "K",
                 "symbol-alt-narrow": "K"
             },
             MNT: {
-                displayName: "မွန်ဂိုးလီးယားထူးဂရခ်",
-                "displayName-count-other": "မွန်ဂိုးလီးယားထူးဂရခ်",
+                displayName: "မွန်ဂိုးလီးယား ထူးဂရခ်",
+                "displayName-count-other": "မွန်ဂိုးလီးယား ထူးဂရခ်",
                 symbol: "MNT",
                 "symbol-alt-narrow": "₮"
             },
             MOP: {
-                displayName: "မကာအိုပါတားကား",
-                "displayName-count-other": "မကာအိုပါတားကား",
+                displayName: "မကာအို ပါတားကား",
+                "displayName-count-other": "မကာအို ပါတားကား",
                 symbol: "MOP"
             },
             MRO: {
@@ -840,14 +861,18 @@ const data = {
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
+            },
             MVR: {
-                displayName: "မော်လ်ဒိုက်ရူးဖီရာ",
-                "displayName-count-other": "မော်လ်ဒိုက်ရူးဖီရာ",
+                displayName: "မော်လ်ဒိုက် ရူးဖီရာ",
+                "displayName-count-other": "မော်လ်ဒိုက် ရူးဖီရာ",
                 symbol: "MVR"
             },
             MWK: {
-                displayName: "မာလာဝီခွါးချာ",
-                "displayName-count-other": "မာလာဝီခွါးချာ",
+                displayName: "မာလာဝီ ခွါးချာ",
+                "displayName-count-other": "မာလာဝီ ခွါးချာ",
                 symbol: "MWK"
             },
             MXN: {
@@ -890,8 +915,8 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             NGN: {
-                displayName: "နိုင်ဂျီးရီးယားနိုင်းရာ",
-                "displayName-count-other": "နိုင်ဂျီးရီးယားနိုင်းရာ",
+                displayName: "နိုင်ဂျီးရီးယား နိုင်းရာ",
+                "displayName-count-other": "နိုင်ဂျီးရီးယား နိုင်းရာ",
                 symbol: "NGN",
                 "symbol-alt-narrow": "₦"
             },
@@ -928,8 +953,8 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             OMR: {
-                displayName: "အိုမန်ရီအော်လ်",
-                "displayName-count-other": "အိုမန်ရီအော်လ်",
+                displayName: "အိုမန်နီ ရီရယ်",
+                "displayName-count-other": "အိုမန်နီ ရီရယ်",
                 symbol: "OMR"
             },
             PAB: {
@@ -968,8 +993,8 @@ const data = {
                 "symbol-alt-narrow": "Rs"
             },
             PLN: {
-                displayName: "ပိုလန်ဇလော့တီ",
-                "displayName-count-other": "ပိုလန်ဇလော့တီ",
+                displayName: "ပိုလန် ဇလော့တီ",
+                "displayName-count-other": "ပိုလန် ဇလော့တီ",
                 symbol: "PLN",
                 "symbol-alt-narrow": "zł"
             },
@@ -982,14 +1007,14 @@ const data = {
                 symbol: "PTE"
             },
             PYG: {
-                displayName: "ပါရာဂွေးဂွါးအ်နီး",
-                "displayName-count-other": "ပါရာဂွေးဂွါးအ်နီး",
+                displayName: "ပါရာဂွေး ဂွါးအ်နီး",
+                "displayName-count-other": "ပါရာဂွေး ဂွါးအ်နီး",
                 symbol: "PYG",
                 "symbol-alt-narrow": "₲"
             },
             QAR: {
-                displayName: "ကာတာရီအော်လ်",
-                "displayName-count-other": "ကာတာရီအော်လ်",
+                displayName: "ကာတာရီ ရီရယ်",
+                "displayName-count-other": "ကာတာရီ ရီရယ်",
                 symbol: "QAR"
             },
             RHD: {
@@ -1001,14 +1026,14 @@ const data = {
                 symbol: "ROL"
             },
             RON: {
-                displayName: "ရိုမေးနီးယားလယ်အို",
-                "displayName-count-other": "ရိုမေးနီးယားလယ်အို",
+                displayName: "ရိုမေးနီးယား လယ်အို",
+                "displayName-count-other": "ရိုမေးနီးယား လယ်အို",
                 symbol: "RON",
                 "symbol-alt-narrow": "lei"
             },
             RSD: {
-                displayName: "ဆားဘီးယားဒယ်နား",
-                "displayName-count-other": "ဆားဘီးယားဒယ်နား",
+                displayName: "ဆားဘီးယား ဒယ်နား",
+                "displayName-count-other": "ဆားဘီးယား ဒယ်နား",
                 symbol: "RSD"
             },
             RUB: {
@@ -1029,8 +1054,8 @@ const data = {
                 "symbol-alt-narrow": "RF"
             },
             SAR: {
-                displayName: "ဆော်ဒီအာရေးဗီးယားရီယော်လ်",
-                "displayName-count-other": "ဆော်ဒီအာရေးဗီးယားရီယော်လ်",
+                displayName: "ဆော်ဒီအာရေးဗီးယား ရီယော်လ်",
+                "displayName-count-other": "ဆော်ဒီအာရေးဗီးယား ရီယော်လ်",
                 symbol: "SAR"
             },
             SBD: {
@@ -1089,8 +1114,8 @@ const data = {
                 symbol: "SLL"
             },
             SOS: {
-                displayName: "ဆိုမာလီသျှီလင်",
-                "displayName-count-other": "ဆိုမာလီသျှီလင်",
+                displayName: "ဆိုမာလီ သျှီလင်",
+                "displayName-count-other": "ဆိုမာလီ သျှီလင်",
                 symbol: "SOS"
             },
             SRD: {
@@ -1104,8 +1129,8 @@ const data = {
                 symbol: "SRG"
             },
             SSP: {
-                displayName: "တောင်ဆူဒန်ပေါင်",
-                "displayName-count-other": "တောင်ဆူဒန်ပေါင်",
+                displayName: "တောင်ဆူဒန် ပေါင်",
+                "displayName-count-other": "တောင်ဆူဒန် ပေါင်",
                 symbol: "SSP",
                 "symbol-alt-narrow": "£"
             },
@@ -1114,6 +1139,10 @@ const data = {
                 "displayName-count-other": "ဆောင်တူမေးနှင့် ပရင်စီပီ ဒိုဘရာ",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "ဆိုဗီယက် ရူဗယ်",
@@ -1135,8 +1164,8 @@ const data = {
                 symbol: "SZL"
             },
             THB: {
-                displayName: "ထိုင်းဘတ်",
-                "displayName-count-other": "ထိုင်းဘတ်",
+                displayName: "ထိုင်း ဘတ်",
+                "displayName-count-other": "ထိုင်း ဘတ်",
                 symbol: "฿",
                 "symbol-alt-narrow": "฿"
             },
@@ -1159,13 +1188,13 @@ const data = {
                 symbol: "TMT"
             },
             TND: {
-                displayName: "တူနီးရှား ဒီနာ",
-                "displayName-count-other": "တူနီးရှား ဒီနာ",
+                displayName: "တူနီးရှား ဒိုင်နာ",
+                "displayName-count-other": "တူနီးရှား ဒိုင်နာ",
                 symbol: "TND"
             },
             TOP: {
-                displayName: "တွန်ဂါဗန်ဂါ",
-                "displayName-count-other": "တွန်ဂါဗန်ဂါ",
+                displayName: "တွန်ဂါ ဗန်ဂါ",
+                "displayName-count-other": "တွန်ဂါ ဗန်ဂါ",
                 symbol: "TOP",
                 "symbol-alt-narrow": "T$"
             },
@@ -1197,8 +1226,8 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             TZS: {
-                displayName: "တန်ဇန်းနီးယားသျှီလင်",
-                "displayName-count-other": "တန်ဇန်းနီးယားသျှီလင်",
+                displayName: "တန်ဇန်းနီးယား သျှီလင်",
+                "displayName-count-other": "တန်ဇန်းနီးယား သျှီလင်",
                 symbol: "TZS"
             },
             UAH: {
@@ -1216,8 +1245,8 @@ const data = {
                 symbol: "UGS"
             },
             UGX: {
-                displayName: "ယူဂန်းဒါး သျှီလင်",
-                "displayName-count-other": "ယူဂန်းဒါး သျှီလင်",
+                displayName: "ယူဂန္ဒာ သျှီလင်",
+                "displayName-count-other": "ယူဂန္ဒာ သျှီလင်",
                 symbol: "UGX"
             },
             USD: {
@@ -1243,8 +1272,8 @@ const data = {
                 symbol: "UYP"
             },
             UYU: {
-                displayName: "ဥရုဂွေးပီဆို",
-                "displayName-count-other": "ဥရုဂွေးပီဆို",
+                displayName: "ဥရုဂွေး ပီဆို",
+                "displayName-count-other": "ဥရုဂွေး ပီဆို",
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
@@ -1284,8 +1313,8 @@ const data = {
                 symbol: "WST"
             },
             XAF: {
-                displayName: "ကင်မရွန်းဖရန့်",
-                "displayName-count-other": "ကင်မရွန်းဖရန့်",
+                displayName: "ကင်မရွန်း ဖရန့်",
+                "displayName-count-other": "ကင်မရွန်း ဖရန့်",
                 symbol: "FCFA"
             },
             XAG: {
@@ -1313,8 +1342,8 @@ const data = {
                 symbol: "XBD"
             },
             XCD: {
-                displayName: "အရှေ့ကာရစ်ဘီယံဒေါ်လာ",
-                "displayName-count-other": "အရှေ့ကာရစ်ဘီယံဒေါ်လာ",
+                displayName: "အရှေ့ကာရစ်ဘီယံ ဒေါ်လာ",
+                "displayName-count-other": "အရှေ့ကာရစ်ဘီယံ ဒေါ်လာ",
                 symbol: "EC$",
                 "symbol-alt-narrow": "$"
             },
@@ -1335,8 +1364,8 @@ const data = {
                 symbol: "XFU"
             },
             XOF: {
-                displayName: "ဖရန့်",
-                "displayName-count-other": "ဖရန့်",
+                displayName: "အနောက် အာဖရိက CFA ဖရန့်",
+                "displayName-count-other": "အနောက် အာဖရိက CFA ဖရန့်",
                 symbol: "CFA"
             },
             XPD: {
@@ -1370,7 +1399,7 @@ const data = {
             },
             XXX: {
                 displayName: "မသိသို့မဟုတ်မရှိသောငွေကြေး",
-                "displayName-count-other": "မသိ သို့မဟုတ် မရှိသော ငွေကြေး",
+                "displayName-count-other": "(မသိသို့မဟုတ်မရှိသောငွေကြေး)",
                 symbol: "XXX"
             },
             YDD: {
@@ -1378,8 +1407,8 @@ const data = {
                 symbol: "YDD"
             },
             YER: {
-                displayName: "ယီမင်ရီအော်လ်",
-                "displayName-count-other": "ယီမင်ရီအော်လ်",
+                displayName: "ယီမင်နီ ရီရယ်",
+                "displayName-count-other": "ယီမင်နီ ရီရယ်",
                 symbol: "YER"
             },
             YUD: {
@@ -1403,8 +1432,8 @@ const data = {
                 symbol: "ZAL"
             },
             ZAR: {
-                displayName: "တောင်အဖရိက ရန်း",
-                "displayName-count-other": "တောင်အဖရိက ရန်း",
+                displayName: "တောင်အာဖရိက ရန်း",
+                "displayName-count-other": "တောင်အာဖရိက ရန်း",
                 symbol: "ZAR",
                 "symbol-alt-narrow": "R"
             },
@@ -1413,8 +1442,8 @@ const data = {
                 symbol: "ZMK"
             },
             ZMW: {
-                displayName: "ဇင်ဘာဘွေခွါးချာ",
-                "displayName-count-other": "ဇင်ဘာဘွေခွါးချာ",
+                displayName: "ဇင်ဘာဘွေ ခွါးချာ",
+                "displayName-count-other": "ဇင်ဘာဘွေ ခွါးချာ",
                 symbol: "ZMW",
                 "symbol-alt-narrow": "ZK"
             },

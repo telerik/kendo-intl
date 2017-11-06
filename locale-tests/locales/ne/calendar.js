@@ -29,8 +29,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "d E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -57,8 +62,8 @@ const data = {
                 MMMd: "MMM d",
                 MMMEd: "MMM d, E",
                 MMMMd: "MMMM d",
-                "MMMMW-count-one": "'week' W 'of' MMM",
-                "MMMMW-count-other": "'week' W 'of' MMM",
+                "MMMMW-count-one": "MMMM को W हप्ता",
+                "MMMMW-count-other": "MMMM को W हप्ता",
                 ms: "mm:ss",
                 y: "y",
                 yM: "y-MM",
@@ -70,8 +75,8 @@ const data = {
                 yMMMM: "y MMMM",
                 yQQQ: "y QQQ",
                 yQQQQ: "y QQQQ",
-                "yw-count-one": "'week' w 'of' y",
-                "yw-count-other": "'week' w 'of' y"
+                "yw-count-one": "Y को w हप्ता",
+                "yw-count-other": "Y को w हप्ता"
             }
         },
         timeFormats: {
@@ -84,7 +89,7 @@ const data = {
             full: "y MMMM d, EEEE",
             long: "y MMMM d",
             medium: "y MMM d",
-            short: "y-MM-dd"
+            short: "yy/M/d"
         },
         days: {
             format: {
@@ -181,25 +186,25 @@ const data = {
                     "डिसेम्बर"
                 ],
                 narrow: [
-                    "१",
-                    "२",
-                    "३",
-                    "४",
-                    "५",
-                    "६",
-                    "७",
-                    "८",
-                    "९",
-                    "१०",
-                    "११",
-                    "१२"
+                    "जन",
+                    "फेब",
+                    "मार्च",
+                    "अप्र",
+                    "मे",
+                    "जुन",
+                    "जुल",
+                    "अग",
+                    "सेप",
+                    "अक्टो",
+                    "नोभे",
+                    "डिसे"
                 ],
                 wide: [
                     "जनवरी",
                     "फेब्रुअरी",
                     "मार्च",
                     "अप्रिल",
-                    "मई",
+                    "मे",
                     "जुन",
                     "जुलाई",
                     "अगस्ट",
@@ -225,18 +230,18 @@ const data = {
                     "डिसेम्बर"
                 ],
                 narrow: [
-                    "१",
-                    "२",
-                    "३",
-                    "४",
-                    "५",
-                    "६",
-                    "७",
-                    "८",
-                    "९",
-                    "१०",
-                    "११",
-                    "१२"
+                    "जन",
+                    "फेेब",
+                    "मार्च",
+                    "अप्र",
+                    "मे",
+                    "जुन",
+                    "जुल",
+                    "अग",
+                    "सेप",
+                    "अक्टो",
+                    "नोभे",
+                    "डिसे"
                 ],
                 wide: [
                     "जनवरी",
@@ -306,7 +311,7 @@ const data = {
                     morning1: "बिहान",
                     afternoon1: "अपरान्ह",
                     afternoon2: "साँझ",
-                    evening1: "बेलुका",
+                    evening1: "बेलुकी",
                     night1: "रात"
                 },
                 narrow: {
@@ -317,7 +322,7 @@ const data = {
                     morning1: "बिहान",
                     afternoon1: "अपरान्ह",
                     afternoon2: "साँझ",
-                    evening1: "बेलुका",
+                    evening1: "बेलुकी",
                     night1: "रात"
                 },
                 wide: {
@@ -328,7 +333,7 @@ const data = {
                     morning1: "बिहान",
                     afternoon1: "अपरान्ह",
                     afternoon2: "साँझ",
-                    evening1: "बेलुका",
+                    evening1: "बेलुकी",
                     night1: "रात"
                 }
             },
@@ -341,7 +346,7 @@ const data = {
                     morning1: "बिहान",
                     afternoon1: "अपरान्ह",
                     afternoon2: "साँझ",
-                    evening1: "बेलुका",
+                    evening1: "बेलुकी",
                     night1: "रात"
                 },
                 narrow: {
@@ -352,7 +357,7 @@ const data = {
                     morning1: "बिहान",
                     afternoon1: "अपरान्ह",
                     afternoon2: "साँझ",
-                    evening1: "बेलुका",
+                    evening1: "बेलुकी",
                     night1: "रात"
                 },
                 wide: {
@@ -363,7 +368,7 @@ const data = {
                     morning1: "बिहान",
                     afternoon1: "अपरान्ह",
                     afternoon2: "साँझ",
-                    evening1: "बेलुका",
+                    evening1: "बेलुकी",
                     night1: "रात"
                 }
             }
@@ -400,8 +405,8 @@ const data = {
             },
             year: {
                 wide: "वर्ष",
-                short: "बर्ष",
-                narrow: "बर्ष"
+                short: "वर्ष",
+                narrow: "वर्ष"
             },
             quarter: {
                 wide: "सत्र",
@@ -419,9 +424,9 @@ const data = {
                 narrow: "हप्ता"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "महिनाको हप्ता",
+                short: "महिनाको हप्ता",
+                narrow: "महिनाको हप्ता"
             },
             day: {
                 wide: "बार",
@@ -429,9 +434,9 @@ const data = {
                 narrow: "बार"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "वर्षको बार",
+                short: "वर्षको बार",
+                narrow: "वर्षको बार"
             },
             weekday: {
                 wide: "हप्ताको बार",
@@ -439,9 +444,9 @@ const data = {
                 narrow: "हप्ताको बार"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "महिनाको हप्तादिन",
+                short: "महिनाको हप्तादिन",
+                narrow: "महिनाको हप्तादिन"
             },
             dayperiod: {
                 short: "पूर्वाह्न / अपराह्न",
@@ -464,7 +469,7 @@ const data = {
                 narrow: "सेकेन्ड"
             },
             zone: {
-                wide: "समय क्षेत्र",
+                wide: "क्षेत्र",
                 short: "समय क्षेत्र",
                 narrow: "समय क्षेत्र"
             }

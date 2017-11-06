@@ -29,8 +29,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d.",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E d.",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -52,7 +57,7 @@ const data = {
                 Hmv: "HH:mm v",
                 M: "L.",
                 Md: "d.M.",
-                MEd: "E d.M",
+                MEd: "E d.M.",
                 MMdd: "d.M.",
                 MMM: "LLL",
                 MMMd: "d. MMM",
@@ -72,8 +77,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'uke' w 'i' y",
-                "yw-count-other": "'uke' w 'i' y"
+                "yw-count-one": "'uke' w 'i' Y",
+                "yw-count-other": "'uke' w 'i' Y"
             }
         },
         timeFormats: {
@@ -419,9 +424,9 @@ const data = {
                 narrow: "u."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "uke i måneden",
+                short: "uke i mnd.",
+                narrow: "uke i md."
             },
             day: {
                 wide: "dag",
@@ -429,24 +434,24 @@ const data = {
                 narrow: "d."
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "dag i året",
+                short: "dag i året",
+                narrow: "d. i året"
             },
             weekday: {
                 wide: "ukedag",
                 short: "ukedag",
-                narrow: "ukedag"
+                narrow: "uked."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "ukedag i måneden",
+                short: "uked. i mnd.",
+                narrow: "uked. i md."
             },
             dayperiod: {
-                short: "a.m./p.m.",
+                short: "am/pm",
                 wide: "a.m./p.m.",
-                narrow: "a.m./p.m."
+                narrow: "am/pm"
             },
             hour: {
                 wide: "time",

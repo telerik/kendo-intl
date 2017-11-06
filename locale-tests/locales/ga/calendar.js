@@ -29,8 +29,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -73,11 +78,11 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'seachtain' 'a' w 'i' y",
-                "yw-count-two": "'seachtain' 'a' w 'i' y",
-                "yw-count-few": "'seachtain' 'a' w 'i' y",
-                "yw-count-many": "'seachtain' 'a' w 'i' y",
-                "yw-count-other": "'seachtain' 'a' w 'i' y"
+                "yw-count-one": "'seachtain' 'a' w 'i' Y",
+                "yw-count-two": "'seachtain' 'a' w 'i' Y",
+                "yw-count-few": "'seachtain' 'a' w 'i' Y",
+                "yw-count-many": "'seachtain' 'a' w 'i' Y",
+                "yw-count-other": "'seachtain' 'a' w 'i' Y"
             }
         },
         timeFormats: {
@@ -305,16 +310,16 @@ const data = {
         dayPeriods: {
             format: {
                 abbreviated: {
-                    am: "a.m.",
-                    pm: "p.m."
+                    am: "r.n.",
+                    pm: "i.n."
                 },
                 narrow: {
                     am: "a",
                     pm: "p"
                 },
                 wide: {
-                    am: "a.m.",
-                    pm: "p.m."
+                    am: "r.n.",
+                    pm: "i.n."
                 }
             },
             "stand-alone": {
@@ -359,8 +364,8 @@ const data = {
         dateFields: {
             era: {
                 wide: "Ré",
-                short: "Ré",
-                narrow: "Ré"
+                short: "ré",
+                narrow: "ré"
             },
             year: {
                 wide: "Bliain",
@@ -383,9 +388,9 @@ const data = {
                 narrow: "scht."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "Seachtain den mhí",
+                short: "7n den mhí",
+                narrow: "7n den mhí"
             },
             day: {
                 wide: "Lá",
@@ -393,19 +398,19 @@ const data = {
                 narrow: "Lá"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "Lá den bhliain",
+                short: "lá den bhl.",
+                narrow: "lá den bhl."
             },
             weekday: {
                 wide: "Lá na seachtaine",
-                short: "Lá na seachtaine",
-                narrow: "Lá na seachtaine"
+                short: "lá den t7n",
+                narrow: "lá den t7n"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "Lá oibre den mhí",
+                short: "lá oib. den mhí",
+                narrow: "lá oib. den mhí"
             },
             dayperiod: {
                 short: "a.m./p.m.",
@@ -429,8 +434,8 @@ const data = {
             },
             zone: {
                 wide: "Crios Ama",
-                short: "Crios Ama",
-                narrow: "Crios Ama"
+                short: "crios",
+                narrow: "crios"
             }
         }
     },

@@ -29,8 +29,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "B h",
+                Bhm: "B h:mm",
+                Bhms: "B h:mm:ss",
                 d: "d",
                 E: "ccc",
+                EBhm: "E B h:mm",
+                EBhms: "E B h:mm:ss",
                 Ed: "E d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -74,8 +79,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "y का सप्ताह w",
-                "yw-count-other": "y का सप्ताह w"
+                "yw-count-one": "Y का सप्ताह w",
+                "yw-count-other": "Y का सप्ताह w"
             }
         },
         timeFormats: {
@@ -87,7 +92,7 @@ const data = {
         dateFormats: {
             full: "EEEE, d MMMM y",
             long: "d MMMM y",
-            medium: "dd/MM/y",
+            medium: "d MMM y",
             short: "d/M/yy"
         },
         days: {
@@ -318,7 +323,7 @@ const data = {
                     morning1: "सुबह",
                     afternoon1: "अपराह्न",
                     evening1: "शाम",
-                    night1: "शाम"
+                    night1: "रात"
                 },
                 wide: {
                     midnight: "मध्यरात्रि",
@@ -411,9 +416,9 @@ const data = {
                 narrow: "सप्ताह"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "माह का सप्ताह",
+                short: "माह का सप्ताह",
+                narrow: "माह का सप्ताह"
             },
             day: {
                 wide: "दिन",
@@ -421,9 +426,9 @@ const data = {
                 narrow: "दिन"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "वर्ष का दिन",
+                short: "वर्ष का दिन",
+                narrow: "वर्ष का दिन"
             },
             weekday: {
                 wide: "सप्ताह का दिन",
@@ -431,34 +436,34 @@ const data = {
                 narrow: "सप्ताह का दिन"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "माह के कार्यदिवस",
+                short: "माह के कार्यदिवस",
+                narrow: "माह के कार्यदिवस"
             },
             dayperiod: {
-                short: "पूर्वाह्न/अपराह्न",
+                short: "पू/अ",
                 wide: "पूर्वाह्न/अपराह्न",
-                narrow: "पूर्वाह्न/अपराह्न"
+                narrow: "पू/अ"
             },
             hour: {
                 wide: "घंटा",
-                short: "घं.",
-                narrow: "घं."
+                short: "घं॰",
+                narrow: "घं॰"
             },
             minute: {
                 wide: "मिनट",
-                short: "मि.",
-                narrow: "मि."
+                short: "मि॰",
+                narrow: "मि॰"
             },
             second: {
                 wide: "सेकंड",
-                short: "से.",
-                narrow: "से."
+                short: "से॰",
+                narrow: "से॰"
             },
             zone: {
                 wide: "समय क्षेत्र",
-                short: "समय क्षेत्र",
-                narrow: "समय क्षेत्र"
+                short: "क्षेत्र",
+                narrow: "क्षेत्र"
             }
         }
     },

@@ -42,8 +42,7 @@ const data = {
                 "n%"
             ],
             groupSize: [
-                3,
-                2
+                3
             ]
         },
         currency: {
@@ -58,7 +57,8 @@ const data = {
         },
         accounting: {
             patterns: [
-                "$ n"
+                "$n",
+                "($n)"
             ],
             groupSize: [
                 3

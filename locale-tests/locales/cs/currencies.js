@@ -256,19 +256,27 @@ const data = {
                 symbol: "BEL"
             },
             BGL: {
-                displayName: "BGL",
+                displayName: "bulharský tvrdý leva",
+                "displayName-count-one": "bulharský tvrdý leva",
+                "displayName-count-few": "bulharské tvrdé leva",
+                "displayName-count-many": "bulharského tvrdého leva",
+                "displayName-count-other": "bulharských tvrdých leva",
                 symbol: "BGL"
             },
             BGM: {
-                displayName: "BGM",
+                displayName: "bulharský socialistický leva",
+                "displayName-count-one": "bulharský socialistický leva",
+                "displayName-count-few": "bulharské socialistické leva",
+                "displayName-count-many": "bulharského socialistického leva",
+                "displayName-count-other": "bulharských socialistických leva",
                 symbol: "BGM"
             },
             BGN: {
-                displayName: "bulharský lev",
-                "displayName-count-one": "bulharský lev",
-                "displayName-count-few": "bulharské lvy",
-                "displayName-count-many": "bulharského lva",
-                "displayName-count-other": "bulharských lvů",
+                displayName: "bulharský leva",
+                "displayName-count-one": "bulharský leva",
+                "displayName-count-few": "bulharské leva",
+                "displayName-count-many": "bulharského leva",
+                "displayName-count-other": "bulharských leva",
                 symbol: "BGN"
             },
             BGO: {
@@ -536,6 +544,22 @@ const data = {
                 "displayName-count-other": "chilských pes",
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
+            },
+            CNH: {
+                displayName: "čínský jüan (offshore)",
+                "displayName-count-one": "čínský jüan (offshore)",
+                "displayName-count-few": "čínské jüany (offshore)",
+                "displayName-count-many": "čínského jüanu (offshore)",
+                "displayName-count-other": "čínských jüanů (offshore)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "čínský dolar ČLB",
+                "displayName-count-one": "čínský dolar ČLB",
+                "displayName-count-few": "čínské dolary ČLB",
+                "displayName-count-many": "čínského dolaru ČLB",
+                "displayName-count-other": "čínských dolarů ČLB",
+                symbol: "CNX"
             },
             CNY: {
                 displayName: "čínský jüan",
@@ -1902,6 +1926,10 @@ const data = {
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
             },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
+            },
             SUR: {
                 displayName: "sovětský rubl",
                 "displayName-count-one": "sovětský rubl",
@@ -2313,6 +2341,10 @@ const data = {
             },
             XRE: {
                 displayName: "kód fondů RINET",
+                "displayName-count-one": "kód fondů RINET",
+                "displayName-count-few": "kód fondů RINET",
+                "displayName-count-many": "kód fondů RINET",
+                "displayName-count-other": "kód fondů RINET",
                 symbol: "XRE"
             },
             XSU: {

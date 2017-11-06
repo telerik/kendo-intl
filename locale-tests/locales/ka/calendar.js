@@ -29,8 +29,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "d E",
                 Ehm: "E, h:mm a",
                 EHm: "E, HH:mm",
@@ -70,8 +75,8 @@ const data = {
                 yMMMM: "MMMM, y",
                 yQQQ: "QQQ, y",
                 yQQQQ: "QQQQ, y",
-                "yw-count-one": "კვირა w, y",
-                "yw-count-other": "კვირა w, y"
+                "yw-count-one": "კვირა w, Y",
+                "yw-count-other": "კვირა w, Y"
             }
         },
         timeFormats: {
@@ -413,9 +418,9 @@ const data = {
                 narrow: "კვ."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "თვის კვირა",
+                short: "თვის კვირა",
+                narrow: "თვის კვირა"
             },
             day: {
                 wide: "დღე",
@@ -423,9 +428,9 @@ const data = {
                 narrow: "დღე"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "წლის დღე",
+                short: "წლის დღე",
+                narrow: "წლის დღე"
             },
             weekday: {
                 wide: "კვირის დღე",
@@ -433,9 +438,9 @@ const data = {
                 narrow: "კვირის დღე"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "კვირის დღე თვეში",
+                short: "კვირის დღე თვეში",
+                narrow: "კვირის დღე თვეში"
             },
             dayperiod: {
                 short: "დღის ნახევარი",

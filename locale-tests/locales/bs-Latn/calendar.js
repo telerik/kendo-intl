@@ -30,8 +30,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d.",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E, d.",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -73,11 +78,11 @@ const data = {
                 yMMMd: "d. MMM y.",
                 yMMMEd: "E, d. MMM y.",
                 yMMMM: "LLLL y.",
-                yQQQ: "QQQ y",
-                yQQQQ: "QQQQ y",
-                "yw-count-one": "w. 'sedmica' 'u' y.",
-                "yw-count-few": "w. 'sedmica' 'u' y.",
-                "yw-count-other": "w. 'sedmica' 'u' y."
+                yQQQ: "QQQ y.",
+                yQQQQ: "QQQQ y.",
+                "yw-count-one": "w. 'sedmica' 'u' Y.",
+                "yw-count-few": "w. 'sedmica' 'u' Y.",
+                "yw-count-other": "w. 'sedmica' 'u' Y."
             }
         },
         timeFormats: {
@@ -89,7 +94,7 @@ const data = {
         dateFormats: {
             full: "EEEE, d. MMMM y.",
             long: "d. MMMM y.",
-            medium: "d. MMM. y.",
+            medium: "d. MMM y.",
             short: "d.M.yy."
         },
         days: {
@@ -263,10 +268,10 @@ const data = {
         quarters: {
             format: {
                 abbreviated: [
-                    "K1",
-                    "K2",
-                    "K3",
-                    "K4"
+                    "KV1",
+                    "KV2",
+                    "KV3",
+                    "KV4"
                 ],
                 narrow: [
                     "1.",
@@ -283,10 +288,10 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "K1",
-                    "K2",
-                    "K3",
-                    "K4"
+                    "KV1",
+                    "KV2",
+                    "KV3",
+                    "KV4"
                 ],
                 narrow: [
                     "1.",
@@ -374,7 +379,7 @@ const data = {
                     0: "prije nove ere",
                     1: "nove ere",
                     "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "1-alt-variant": "n. e."
                 },
                 abbreviated: {
                     0: "p. n. e.",
@@ -419,9 +424,9 @@ const data = {
                 narrow: "sed."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "sedmica u mjesecu",
+                short: "sed. u mj.",
+                narrow: "s. u mj."
             },
             day: {
                 wide: "dan",
@@ -429,19 +434,19 @@ const data = {
                 narrow: "dan"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "dan u godini",
+                short: "dan u god.",
+                narrow: "dan u g."
             },
             weekday: {
                 wide: "dan u sedmici",
-                short: "dan u sedmici",
-                narrow: "dan u sedmici"
+                short: "dan u sed.",
+                narrow: "dan u sed."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "dan u mjesecu",
+                short: "dan u mj.",
+                narrow: "d. u mj."
             },
             dayperiod: {
                 short: "prijepodne/poslijepodne",
@@ -465,8 +470,8 @@ const data = {
             },
             zone: {
                 wide: "vremenska zona",
-                short: "vremenska zona",
-                narrow: "vremenska zona"
+                short: "zona",
+                narrow: "zona"
             }
         }
     },

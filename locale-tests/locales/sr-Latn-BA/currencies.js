@@ -39,6 +39,10 @@ const data = {
                 "displayName-count-other": "avganistanskih avgana",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "Albanski lek",
                 "displayName-count-one": "albanski lek",
@@ -450,6 +454,17 @@ const data = {
                 "displayName-count-other": "čileanskih pezosa",
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
+            },
+            CNH: {
+                displayName: "Kineski juan (ostrvski)",
+                "displayName-count-one": "kineski juan (ostrvski)",
+                "displayName-count-few": "kineska juana (ostrvska)",
+                "displayName-count-other": "kineskih juana (ostrvskih)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
             },
             CNY: {
                 displayName: "Kineski juan",
@@ -865,7 +880,8 @@ const data = {
                 displayName: "Stari izraelski šekeli",
                 "displayName-count-one": "stari izraelski šekeli",
                 "displayName-count-few": "stari izraelski šekeli",
-                "displayName-count-other": "stari izraelski šekeli"
+                "displayName-count-other": "stari izraelski šekeli",
+                symbol: "ILR"
             },
             ILS: {
                 displayName: "Izraelski novi šekel",
@@ -901,7 +917,8 @@ const data = {
                 displayName: "Stara islandska kruna",
                 "displayName-count-one": "stara islandska kruna",
                 "displayName-count-few": "stara islandska kruna",
-                "displayName-count-other": "stara islandska kruna"
+                "displayName-count-other": "stara islandska kruna",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Islandska kruna",
@@ -1228,6 +1245,10 @@ const data = {
                 "displayName-count-other": "mauricijskih rupija",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "Maldivska rufija",
@@ -1629,6 +1650,10 @@ const data = {
                 "displayName-count-other": "saotomskih dobri",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "Sovjetska rublja",

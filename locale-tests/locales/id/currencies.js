@@ -28,6 +28,10 @@ const data = {
                 "displayName-count-other": "Afgani Afganistan",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "Lek Albania",
                 "displayName-count-other": "Lek Albania",
@@ -330,6 +334,15 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "Yuan Tiongkok (luar negeri)",
+                "displayName-count-other": "Yuan Tiongkok (luar negeri)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "Yuan Tiongkok",
                 "displayName-count-other": "Yuan Tiongkok",
@@ -609,7 +622,8 @@ const data = {
             },
             ILR: {
                 displayName: "Shekel Israel",
-                "displayName-count-other": "Shekel Israel (1980–1985)"
+                "displayName-count-other": "Shekel Israel (1980–1985)",
+                symbol: "ILR"
             },
             ILS: {
                 displayName: "Shekel Baru Israel",
@@ -635,7 +649,8 @@ const data = {
             },
             ISJ: {
                 displayName: "Krona Islandia (1918–1981)",
-                "displayName-count-other": "Krona Islandia (1918–1981)"
+                "displayName-count-other": "Krona Islandia (1918–1981)",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Krona Islandia",
@@ -874,7 +889,8 @@ const data = {
             },
             MVP: {
                 displayName: "Rufiyaa Maladewa (1947–1981)",
-                "displayName-count-other": "Rufiyaa Maladewa (1947–1981)"
+                "displayName-count-other": "Rufiyaa Maladewa (1947–1981)",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "Rufiyaa Maladewa",
@@ -1159,6 +1175,10 @@ const data = {
                 "displayName-count-other": "Dobra Sao Tome dan Principe",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "Rubel Soviet",

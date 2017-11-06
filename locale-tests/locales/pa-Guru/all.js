@@ -85,6 +85,10 @@ const data = {
                 "displayName-count-other": "ਅਫ਼ਗਾਨ ਅਫ਼ਗਾਨੀ",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "ਅਲਬਾਨੀਆਈ ਲੇਕ",
                 "displayName-count-one": "ਅਲਬਾਨੀਆਈ ਲੇਕ",
@@ -423,6 +427,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "ਚੀਨੀ ਯੁਆਨ (ਔਫ਼ਸ਼ੋਰ)",
+                "displayName-count-one": "ਚੀਨੀ ਯੁਆਨ (ਔਫ਼ਸ਼ੋਰ)",
+                "displayName-count-other": "ਚੀਨੀ ਯੁਆਨ (ਔਫ਼ਸ਼ੋਰ)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "ਚੀਨੀ ਯੁਆਨ",
                 "displayName-count-one": "ਚੀਨੀ ਯੁਆਨ",
@@ -736,6 +750,10 @@ const data = {
                 "displayName-count-other": "ਇਜ਼ਰਾਈਲੀ ਪੌਂਡ",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "ਇਜ਼ਰਾਈਲੀ ਨਵੀਂ ਸ਼ੇਕੇਲ",
                 "displayName-count-one": "ਇਜ਼ਰਾਈਲੀ ਨਵੀਂ ਸ਼ੇਕੇਲ",
@@ -761,6 +779,10 @@ const data = {
                 "displayName-count-one": "ਈਰਾਨੀ ਰਿਆਲ",
                 "displayName-count-other": "ਈਰਾਨੀ ਰਿਆਲ",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "ਆਈਸਲੈਂਡਿਕ ਕਰੌਨ",
@@ -1022,6 +1044,10 @@ const data = {
                 "displayName-count-other": "ਮੌਰਿਸ਼ੀਆਈ ਰੁਪਏ",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "ਮਾਲਦੀਵੀ ਰੁਫੀਆ",
@@ -1333,6 +1359,10 @@ const data = {
                 "displayName-count-other": "ਸਾਉ ਟੋਮੀ ਐਂਡ ਪ੍ਰਿੰਸਪੀ ਡੋਬਰਾ",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "ਸੋਵੀਅਤ ਰੂਬਲ",
@@ -1726,8 +1756,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "d, E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -1768,8 +1803,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "y ਦਾ w ਹਫ਼ਤਾ",
-                "yw-count-other": "y ਦਾ w ਹਫ਼ਤਾ"
+                "yw-count-one": "Y ਦਾ w ਹਫ਼ਤਾ",
+                "yw-count-other": "Y ਦਾ w ਹਫ਼ਤਾ"
             }
         },
         timeFormats: {
@@ -2105,9 +2140,9 @@ const data = {
                 narrow: "ਹਫ਼ਤਾ"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "ਮਹੀਨੇ ਦਾ ਹਫ਼ਤਾ",
+                short: "ਮਹੀਨੇ ਦਾ ਹਫ਼ਤਾ",
+                narrow: "ਮਹੀਨੇ ਦਾ ਹਫ਼ਤਾ"
             },
             day: {
                 wide: "ਦਿਨ",
@@ -2115,9 +2150,9 @@ const data = {
                 narrow: "ਦਿਨ"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "ਸਾਲ ਦਾ ਦਿਨ",
+                short: "ਸਾਲ ਦਾ ਦਿਨ",
+                narrow: "ਸਾਲ ਦਾ ਦਿਨ"
             },
             weekday: {
                 wide: "ਹਫ਼ਤੇ ਦਾ ਦਿਨ",
@@ -2125,9 +2160,9 @@ const data = {
                 narrow: "ਹਫ਼ਤੇ ਦਾ ਦਿਨ"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "ਮਹੀਨੇ ਦਾ ਹਫ਼ਤੇ ਦਾ ਦਿਨ",
+                short: "ਮਹੀਨੇ ਦਾ ਹਫ਼ਤੇ ਦਾ ਦਿਨ",
+                narrow: "ਮਹੀਨੇ ਦਾ ਹਫ਼ਤੇ ਦਾ ਦਿਨ"
             },
             dayperiod: {
                 short: "ਪੂ.ਦੁ./ਬਾ.ਦੁ.",

@@ -27,6 +27,10 @@ const data = {
                 "displayName-count-other": "อัฟกานิอัฟกานิสถาน",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "เลกแอลเบเนีย",
                 "displayName-count-other": "เลกแอลเบเนีย",
@@ -311,6 +315,15 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "หยวน",
+                "displayName-count-other": "หยวน",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "หยวนจีน",
                 "displayName-count-other": "หยวนจีน",
@@ -587,6 +600,10 @@ const data = {
                 displayName: "ปอนด์อิสราเอล",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "นิวเชเกลอิสราเอล",
                 "displayName-count-other": "นิวเชเกลอิสราเอล",
@@ -608,6 +625,10 @@ const data = {
                 displayName: "เรียลอิหร่าน",
                 "displayName-count-other": "เรียลอิหร่าน",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "โครนาไอซ์แลนด์",
@@ -840,6 +861,10 @@ const data = {
                 "displayName-count-other": "รูปีมอริเชียส",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "รูฟิยามัลดีฟส์",
@@ -1118,6 +1143,10 @@ const data = {
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
             },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
+            },
             SUR: {
                 displayName: "รูเบิลโซเวียต",
                 symbol: "SUR"
@@ -1138,7 +1167,7 @@ const data = {
                 symbol: "SZL"
             },
             THB: {
-                displayName: "บาทไทย",
+                displayName: "บาท",
                 "displayName-count-other": "บาทไทย",
                 symbol: "THB",
                 "symbol-alt-narrow": "฿"

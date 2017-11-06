@@ -79,6 +79,10 @@ const data = {
                 "displayName-count-other": "ອັຟ​ກັນ ອັຟ​ກາ​ນິ",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "ອັລ​ບາ​ນຽນ ເລກ",
                 "displayName-count-other": "ອັລ​ບາ​ນຽນ ເລກ",
@@ -363,6 +367,15 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "ຢວນຈີນ (ນອກປະເທດ)",
+                "displayName-count-other": "ຢວນຈີນ (ນອກປະເທດ)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "ຈີນ ຢວນ",
                 "displayName-count-other": "ຈີນ ຢວນ",
@@ -639,6 +652,10 @@ const data = {
                 displayName: "ປອນ ອີສະລາເອວ",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "ອິສ​ຣາ​ເອວ​ລິ ນິວ ເຊ​ເກວ",
                 "displayName-count-other": "ອິສ​ຣາ​ເອວ​ລິ ນິວ ເຊ​ເກວ",
@@ -660,6 +677,10 @@ const data = {
                 displayName: "ອິ​ຣາ​ນິ ຣຽວ",
                 "displayName-count-other": "ອິ​ຣາ​ນິ ຣຽວ",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "ໄອ​ສ໌​ແລນ​ດິກ ໂຄຣ​ນາ",
@@ -892,6 +913,10 @@ const data = {
                 "displayName-count-other": "ເມົາ​ຣິ​ທຽນ ຣູ​ປີ",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "ມັ​ລ​ດິ​ວຽນ ຣູ​ຟິ​ຢາ",
@@ -1167,6 +1192,10 @@ const data = {
                 "displayName-count-other": "ເຊົາ ໂທ​ເມ ແອນ ພ​ຣິນ​ຊິ​ປີ ໂດບຣາ",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "ຣູໂບ ໂຊວຽດ",
@@ -1516,8 +1545,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E, d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -1556,7 +1590,7 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-other": "ອາທິດທີ່ w ຂອງປີ y"
+                "yw-count-other": "ອາທິດທີ່ w ຂອງປີ Y"
             }
         },
         timeFormats: {
@@ -1801,7 +1835,7 @@ const data = {
                     morning1: "ຕອນເຊົ້າ",
                     afternoon1: "ຕອນທ່ຽງ",
                     evening1: "ຕອນແລງ",
-                    night1: "ກາງຄືນ1"
+                    night1: "ກາງຄືນ"
                 },
                 wide: {
                     midnight: "ທ່ຽງຄືນ",
@@ -1898,9 +1932,9 @@ const data = {
                 narrow: "ອ."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "ອາທິດຂອງເດືອນ",
+                short: "ອທ ຂອງ ດ",
+                narrow: "ອທ ຂອງ ດ"
             },
             day: {
                 wide: "ມື້",
@@ -1908,9 +1942,9 @@ const data = {
                 narrow: "ມື້"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "ມື້ຂອງປີ",
+                short: "ມື້ຂອງປີ",
+                narrow: "ມື້ຂອງປີ"
             },
             weekday: {
                 wide: "ມື້ຂອງອາທິດ",
@@ -1918,9 +1952,9 @@ const data = {
                 narrow: "ມື້ຂອງອາທິດ"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "ມື້ເຮັດວຽກຂອງເດືອນ",
+                short: "ມຮວ ຂອງ ດ",
+                narrow: "ມຮວ ຂອງ ດ"
             },
             dayperiod: {
                 short: "ກ່ອນທ່ຽງ/ຫຼັງທ່ຽງ",

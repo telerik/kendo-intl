@@ -28,6 +28,10 @@ const data = {
                 "displayName-count-other": "아프가니스탄 아프가니",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "알바니아 레크",
                 "displayName-count-other": "알바니아 레크",
@@ -312,9 +316,18 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "중국 위안화(역외)",
+                "displayName-count-other": "중국 위안화(역외)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "중국 위안화",
-                "displayName-count-other": "중국 위안 인민폐",
+                "displayName-count-other": "중국 위안화",
                 symbol: "CN¥",
                 "symbol-alt-narrow": "¥"
             },
@@ -588,6 +601,10 @@ const data = {
                 displayName: "이스라엘 파운드",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "이스라엘 신권 세켈",
                 "displayName-count-other": "이스라엘 신권 세켈",
@@ -609,6 +626,10 @@ const data = {
                 displayName: "이란 리얄",
                 "displayName-count-other": "이란 리얄",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "아이슬란드 크로나",
@@ -841,6 +862,10 @@ const data = {
                 "displayName-count-other": "모리셔스 루피",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "몰디브 제도 루피아",
@@ -1117,6 +1142,10 @@ const data = {
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
             },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
+            },
             SUR: {
                 displayName: "소련 루블",
                 symbol: "SUR"
@@ -1371,8 +1400,8 @@ const data = {
                 symbol: "XUA"
             },
             XXX: {
-                displayName: "알 수 없는 통화단위",
-                "displayName-count-other": "(알 수 없는 통화단위)",
+                displayName: "알 수 없는 통화 단위",
+                "displayName-count-other": "(알 수 없는 통화 단위)",
                 symbol: "XXX"
             },
             YDD: {

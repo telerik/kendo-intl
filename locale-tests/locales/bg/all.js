@@ -13,7 +13,7 @@ const data = {
             plusSign: "+",
             minusSign: "-",
             exponential: "E",
-            superscriptingExponent: "·",
+            superscriptingExponent: "×",
             perMille: "‰",
             infinity: "∞",
             nan: "NaN",
@@ -84,6 +84,10 @@ const data = {
                 "displayName-count-one": "афганистански афган",
                 "displayName-count-other": "афганистански афгана",
                 symbol: "AFN"
+            },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
             },
             ALL: {
                 displayName: "Албански лек",
@@ -429,6 +433,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "CLP"
             },
+            CNH: {
+                displayName: "Китайски ренминби юан (offshore)",
+                "displayName-count-one": "китайски ренминби юан (offshore)",
+                "displayName-count-other": "китайски ренминби юан (offshore)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "Китайски юан",
                 "displayName-count-one": "китайски юан",
@@ -762,6 +776,10 @@ const data = {
                 "displayName-count-other": "израелски лири",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "Израелски нов шекел",
                 "displayName-count-one": "израелски нов шекел",
@@ -787,6 +805,10 @@ const data = {
                 "displayName-count-one": "ирански риал",
                 "displayName-count-other": "ирански риала",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Исландска крона",
@@ -1063,6 +1085,10 @@ const data = {
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
+            },
             MVR: {
                 displayName: "Малдивска руфия",
                 "displayName-count-one": "малдивска руфия",
@@ -1266,7 +1292,7 @@ const data = {
                 "displayName-count-one": "румънска лея",
                 "displayName-count-other": "румънски леи",
                 symbol: "RON",
-                "symbol-alt-narrow": "lei"
+                "symbol-alt-narrow": "RON"
             },
             RSD: {
                 displayName: "Сръбски динар",
@@ -1401,6 +1427,10 @@ const data = {
                 "displayName-count-other": "добра на Сао Томе и Принсипи",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "Съветска рубла",
@@ -1804,11 +1834,11 @@ const data = {
             M: "d MMMM",
             y: "MM.y 'г'.",
             Y: "MMMM y 'г'.",
-            F: "EEEE, d MMMM y 'г'. H:mm:ss",
-            g: "d.MM.y 'г'. H:mm",
-            G: "d.MM.y 'г'. H:mm:ss",
-            t: "H:mm",
-            T: "H:mm:ss",
+            F: "EEEE, d MMMM y 'г'. H:mm:ss 'ч'.",
+            g: "d.MM.y 'г'. H:mm 'ч'.",
+            G: "d.MM.y 'г'. H:mm:ss 'ч'.",
+            t: "H:mm 'ч'.",
+            T: "H:mm:ss 'ч'.",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
@@ -1818,13 +1848,18 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h 'ч'. B",
+                Bhm: "h:mm 'ч'. B",
+                Bhms: "h:mm:ss 'ч'. B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E, h:mm 'ч'. B",
+                EBhms: "E, h:mm:ss 'ч'. B",
                 Ed: "E, d",
-                Ehm: "E, h:mm a",
-                EHm: "E, HH:mm",
-                Ehms: "E, h:mm:ss a",
-                EHms: "E, H:mm:ss",
+                Ehm: "E, h:mm 'ч'. a",
+                EHm: "E, HH:mm 'ч'.",
+                Ehms: "E, h:mm:ss 'ч'. a",
+                EHms: "E, H:mm:ss 'ч'.",
                 Gy: "y 'г'. G",
                 GyMMM: "MM.y 'г'. G",
                 GyMMMd: "d.MM.y 'г'. G",
@@ -1832,16 +1867,16 @@ const data = {
                 GyMMMM: "MMMM y 'г'. G",
                 GyMMMMd: "d MMMM y 'г'. G",
                 GyMMMMEd: "E, d MMMM y 'г'. G",
-                h: "h a",
-                H: "H",
-                hm: "h:mm a",
-                Hm: "H:mm",
-                hms: "h:mm:ss a",
-                Hms: "H:mm:ss",
-                hmsv: "h:mm:ss a v",
-                Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
-                Hmv: "HH:mm v",
+                h: "h 'ч'. a",
+                H: "H 'ч'.",
+                hm: "h:mm 'ч'. a",
+                Hm: "H:mm 'ч'.",
+                hms: "h:mm:ss 'ч'. a",
+                Hms: "H:mm:ss 'ч'.",
+                hmsv: "h:mm:ss 'ч'. a v",
+                Hmsv: "HH:mm:ss 'ч'. v",
+                hmv: "h:mm 'ч'. a v",
+                Hmv: "HH:mm 'ч'. v",
                 M: "L",
                 Md: "d.MM",
                 MEd: "E, d.MM",
@@ -1867,15 +1902,15 @@ const data = {
                 yMMMMEd: "E, d MMMM y 'г'.",
                 yQQQ: "QQQ y 'г'.",
                 yQQQQ: "QQQQ y 'г'.",
-                "yw-count-one": "'седмица' w 'от' y 'г'.",
-                "yw-count-other": "'седмица' w 'от' y 'г'."
+                "yw-count-one": "'седмица' w 'от' Y 'г'.",
+                "yw-count-other": "'седмица' w 'от' Y 'г'."
             }
         },
         timeFormats: {
-            full: "H:mm:ss zzzz",
-            long: "H:mm:ss z",
-            medium: "H:mm:ss",
-            short: "H:mm"
+            full: "H:mm:ss 'ч'. zzzz",
+            long: "H:mm:ss 'ч'. z",
+            medium: "H:mm:ss 'ч'.",
+            short: "H:mm 'ч'."
         },
         dateFormats: {
             full: "EEEE, d MMMM y 'г'.",
@@ -2142,7 +2177,7 @@ const data = {
                     am: "am",
                     pm: "pm",
                     morning1: "сутринта",
-                    morning2: "на обед",
+                    morning2: "наобед",
                     afternoon1: "следобед",
                     evening1: "вечерта",
                     night1: "през нощта"
@@ -2201,8 +2236,8 @@ const data = {
             },
             month: {
                 wide: "месец",
-                short: "м",
-                narrow: "м"
+                short: "мес.",
+                narrow: "мес."
             },
             week: {
                 wide: "седмица",
@@ -2210,9 +2245,9 @@ const data = {
                 narrow: "седм."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "седмица от месеца",
+                short: "седмица от месеца",
+                narrow: "седмица от месеца"
             },
             day: {
                 wide: "ден",
@@ -2220,19 +2255,19 @@ const data = {
                 narrow: "д"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "ден от годината",
+                short: "ден от годината",
+                narrow: "ден от годината"
             },
             weekday: {
                 wide: "ден от седмицата",
-                short: "ден от седмицата",
-                narrow: "ден от седмицата"
+                short: "ден от седм.",
+                narrow: "ден от седм."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "работен ден от месеца",
+                short: "работен ден от месеца",
+                narrow: "работен ден от месеца"
             },
             dayperiod: {
                 short: "пр.об./сл.об.",
@@ -2256,8 +2291,8 @@ const data = {
             },
             zone: {
                 wide: "часова зона",
-                short: "часова зона",
-                narrow: "часова зона"
+                short: "час. зона",
+                narrow: "час. зона"
             }
         }
     },

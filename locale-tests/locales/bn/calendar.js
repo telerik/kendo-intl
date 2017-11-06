@@ -29,8 +29,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "d E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -73,8 +78,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "y এর wতম সপ্তাহ",
-                "yw-count-other": "y এর wতম সপ্তাহ"
+                "yw-count-one": "Y এর wতম সপ্তাহ",
+                "yw-count-other": "Y এর wতম সপ্তাহ"
             }
         },
         timeFormats: {
@@ -329,7 +334,7 @@ const data = {
                     afternoon1: "দুপুর",
                     afternoon2: "বিকাল",
                     evening1: "সন্ধ্যা",
-                    night1: "রাত্রি"
+                    night1: "রাত্রিতে"
                 }
             },
             "stand-alone": {
@@ -369,7 +374,7 @@ const data = {
             format: {
                 wide: {
                     0: "খ্রিস্টপূর্ব",
-                    1: "খৃষ্টাব্দ",
+                    1: "খ্রীষ্টাব্দ",
                     "0-alt-variant": "খ্রিষ্টপূর্বাব্দ",
                     "1-alt-variant": "খ্রিষ্টাব্দ"
                 },
@@ -416,9 +421,9 @@ const data = {
                 narrow: "সপ্তাহ"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "মাসের সপ্তাহ",
+                short: "মাসের সপ্তাহ",
+                narrow: "মাসের সপ্তাহ"
             },
             day: {
                 wide: "দিন",
@@ -426,9 +431,9 @@ const data = {
                 narrow: "দিন"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "বছরের দিন",
+                short: "বছরের দিন",
+                narrow: "বছরের দিন"
             },
             weekday: {
                 wide: "সপ্তাহের দিন",
@@ -436,9 +441,9 @@ const data = {
                 narrow: "সপ্তাহের দিন"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "মাসের কার্য দিবস",
+                short: "মাসের কার্য দিবস",
+                narrow: "মাসের কার্য দিবস"
             },
             dayperiod: {
                 short: "AM/PM",
@@ -446,9 +451,9 @@ const data = {
                 narrow: "AM/PM"
             },
             hour: {
-                wide: "ঘন্টা",
-                short: "ঘন্টা",
-                narrow: "ঘন্টা"
+                wide: "ঘণ্টা",
+                short: "ঘণ্টা",
+                narrow: "ঘণ্টা"
             },
             minute: {
                 wide: "মিনিট",
@@ -462,8 +467,8 @@ const data = {
             },
             zone: {
                 wide: "সময় অঞ্চল",
-                short: "সময় অঞ্চল",
-                narrow: "সময় অঞ্চল"
+                short: "অঞ্চল",
+                narrow: "অঞ্চল"
             }
         }
     },

@@ -179,8 +179,8 @@ const data = {
                 symbol: "BAD"
             },
             BAM: {
-                displayName: "ボスニア マルク (BAM)",
-                "displayName-count-other": "ボスニア マルク (BAM)",
+                displayName: "ボスニア・ヘルツェゴビナ 兌換マルク (BAM)",
+                "displayName-count-other": "ボスニア・ヘルツェゴビナ 兌換マルク (BAM)",
                 symbol: "BAM",
                 "symbol-alt-narrow": "KM"
             },
@@ -401,6 +401,11 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "中国人民元(オフショア)",
+                "displayName-count-other": "中国人民元(オフショア)",
+                symbol: "CNH"
+            },
             CNX: {
                 displayName: "中国人民銀行ドル",
                 "displayName-count-other": "中国人民銀行ドル",
@@ -558,8 +563,8 @@ const data = {
                 symbol: "FIM"
             },
             FJD: {
-                displayName: "フィジー諸島 ドル",
-                "displayName-count-other": "フィジー諸島 ドル",
+                displayName: "フィジー ドル",
+                "displayName-count-other": "フィジー ドル",
                 symbol: "FJD",
                 "symbol-alt-narrow": "$"
             },
@@ -772,8 +777,8 @@ const data = {
                 symbol: "KES"
             },
             KGS: {
-                displayName: "キルギスタン ソム",
-                "displayName-count-other": "キルギスタン ソム",
+                displayName: "キルギス ソム",
+                "displayName-count-other": "キルギス ソム",
                 symbol: "KGS"
             },
             KHR: {
@@ -993,8 +998,8 @@ const data = {
                 symbol: "MVP"
             },
             MVR: {
-                displayName: "モルディブ諸島 ルフィア",
-                "displayName-count-other": "モルディブ諸島 ルフィア",
+                displayName: "モルディブ ルフィア",
+                "displayName-count-other": "モルディブ ルフィア",
                 symbol: "MVR"
             },
             MWK: {
@@ -1168,7 +1173,7 @@ const data = {
                 displayName: "ルーマニア レイ",
                 "displayName-count-other": "ルーマニア レイ",
                 symbol: "RON",
-                "symbol-alt-narrow": "lei"
+                "symbol-alt-narrow": "レイ"
             },
             RSD: {
                 displayName: "ディナール (セルビア)",
@@ -1237,8 +1242,8 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             SHP: {
-                displayName: "セントヘレナ島 ポンド",
-                "displayName-count-other": "セントヘレナ島 ポンド",
+                displayName: "セントヘレナ ポンド",
+                "displayName-count-other": "セントヘレナ ポンド",
                 symbol: "SHP",
                 "symbol-alt-narrow": "£"
             },
@@ -1284,6 +1289,10 @@ const data = {
                 "displayName-count-other": "サントメ・プリンシペ ドブラ",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "ソ連 ルーブル",
@@ -1361,8 +1370,8 @@ const data = {
                 "symbol-alt-variant": "TL"
             },
             TTD: {
-                displayName: "トリニダードトバゴ ドル",
-                "displayName-count-other": "トリニダードトバゴ ドル",
+                displayName: "トリニダード・トバゴ ドル",
+                "displayName-count-other": "トリニダード・トバゴ ドル",
                 symbol: "TTD",
                 "symbol-alt-narrow": "$"
             },
@@ -1675,8 +1684,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "BK時",
+                Bhm: "BK:mm",
+                Bhms: "BK:mm:ss",
                 d: "d日",
                 E: "ccc",
+                EBhm: "BK:mm (E)",
+                EBhms: "BK:mm:ss (E)",
                 Ed: "d日(E)",
                 EEEEd: "d日EEEE",
                 Ehm: "aK:mm (E)",
@@ -1722,7 +1736,7 @@ const data = {
                 yMMMM: "y年M月",
                 yQQQ: "y/QQQ",
                 yQQQQ: "y年QQQQ",
-                "yw-count-other": "y年第w週"
+                "yw-count-other": "Y年第w週"
             }
         },
         timeFormats: {
@@ -2070,9 +2084,9 @@ const data = {
                 narrow: "週"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "月の週番号",
+                short: "月の週番号",
+                narrow: "月の週番号"
             },
             day: {
                 wide: "日",
@@ -2080,9 +2094,9 @@ const data = {
                 narrow: "日"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "年の通日",
+                short: "年の通日",
+                narrow: "通日"
             },
             weekday: {
                 wide: "曜日",
@@ -2090,9 +2104,9 @@ const data = {
                 narrow: "曜日"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "月の曜日番号",
+                short: "月の曜日番号",
+                narrow: "月の曜日番号"
             },
             dayperiod: {
                 short: "午前/午後",

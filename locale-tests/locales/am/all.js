@@ -66,9 +66,9 @@ const data = {
                 symbol: "ADP"
             },
             AED: {
-                displayName: "የተባበሩት የአረብ ኤምረትስ ዲርሀም",
-                "displayName-count-one": "የተባበሩት የአረብ ኤምረትስ ዲርሀም",
-                "displayName-count-other": "የተባበሩት የአረብ ኤምረትስ ዲርሀም",
+                displayName: "የተባበሩት የአረብ ኤምሬትስ ድርሀም",
+                "displayName-count-one": "የተባበሩት የአረብ ኤምሬትስ ድርሀም",
+                "displayName-count-other": "የተባበሩት የአረብ ኤምሬትስ ድርሀም",
                 symbol: "AED"
             },
             AFA: {
@@ -80,6 +80,10 @@ const data = {
                 "displayName-count-one": "የአፍጋን አፍጋኒ",
                 "displayName-count-other": "የአፍጋን አፍጋኒ",
                 symbol: "AFN"
+            },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
             },
             ALL: {
                 displayName: "የአልባንያ ሌክ",
@@ -393,6 +397,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "የቻይና ዩዋን (የውጭ ምንዛሪ)",
+                "displayName-count-one": "የቻይና ዩዋን (የውጭ ምንዛሪ)",
+                "displayName-count-other": "የቻይና ዩዋን (የውጭ ምንዛሪ)",
+                symbol: "የቻይና ዩዋን"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "የቻይና የን",
                 "displayName-count-one": "የቻይና የን",
@@ -666,7 +680,7 @@ const data = {
                 symbol: "HRD"
             },
             HRK: {
-                displayName: "የክሮሽያ ኩና",
+                displayName: "HRK",
                 "displayName-count-one": "የክሮሽያ ኩና",
                 "displayName-count-other": "የክሮሽያ ኩና",
                 symbol: "HRK",
@@ -679,8 +693,8 @@ const data = {
                 symbol: "HTG"
             },
             HUF: {
-                displayName: "የሁንጋሪ ፎሪንት",
-                "displayName-count-one": "የሁንጋሪ ፎሪንት",
+                displayName: "የሃንጋሪያን ፎሪንት",
+                "displayName-count-one": "የሃንጋሪያን ፎሪንት",
                 "displayName-count-other": "የሃንጋሪያን ፎሪንት",
                 symbol: "HUF",
                 "symbol-alt-narrow": "Ft"
@@ -699,6 +713,10 @@ const data = {
             ILP: {
                 displayName: "ILP",
                 symbol: "ILP"
+            },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
             },
             ILS: {
                 displayName: "የእስራኤል አዲስ ሽቅል",
@@ -725,6 +743,10 @@ const data = {
                 "displayName-count-one": "የኢራን ሪአል",
                 "displayName-count-other": "የኢራን ሪአል",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "የአይስላንድ ክሮና",
@@ -986,6 +1008,10 @@ const data = {
                 "displayName-count-other": "የሞሪሸስ ሩፒ",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "የማልዲቫ ሩፊያ",
@@ -1292,11 +1318,15 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
-                displayName: "የሳኦ ቶመ እና ፕሪንሲፐ ዶብራ",
-                "displayName-count-one": "የሳኦ ቶመ እና ፕሪንሲፐ ዶብራ",
-                "displayName-count-other": "የሳኦ ቶመ እና ፕሪንሲፐ ዶብራ",
+                displayName: "የሳኦ ቶሜ እና ፕሪንሲፔ ዶብራ",
+                "displayName-count-one": "የሳኦ ቶሜ እና ፕሪንሲፔ ዶብራ",
+                "displayName-count-other": "የሳኦ ቶሜ እና ፕሪንሲፔ ዶብራ",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",
@@ -1676,8 +1706,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -1718,8 +1753,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'week' w 'of' y",
-                "yw-count-other": "'week' w 'of' y"
+                "yw-count-one": "'week' w 'of' Y",
+                "yw-count-other": "'week' w 'of' Y"
             }
         },
         timeFormats: {
@@ -2015,7 +2050,7 @@ const data = {
                 wide: {
                     0: "ዓመተ ዓለም",
                     1: "ዓመተ ምሕረት",
-                    "0-alt-variant": "BCE",
+                    "0-alt-variant": "ዓ/ዓ",
                     "1-alt-variant": "ዓ/ም"
                 },
                 abbreviated: {
@@ -2061,9 +2096,9 @@ const data = {
                 narrow: "ሳምንት"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "የወሩ ሳምንት",
+                short: "የወሩ ሳምንት",
+                narrow: "የወሩ ሳምንት"
             },
             day: {
                 wide: "ቀን",
@@ -2071,9 +2106,9 @@ const data = {
                 narrow: "ቀን"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "የዓመቱ ቀን",
+                short: "የዓመቱ ቀን",
+                narrow: "የዓመቱ ቀን"
             },
             weekday: {
                 wide: "አዘቦት",
@@ -2081,9 +2116,9 @@ const data = {
                 narrow: "አዘቦት"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "የወሩ የሳምንት ቀን",
+                short: "የወሩ የሳምንት ቀን",
+                narrow: "የወሩ የሳምንት ቀን"
             },
             dayperiod: {
                 short: "ጥዋት/ከሰዓት",

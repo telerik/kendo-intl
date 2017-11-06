@@ -24,13 +24,18 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} {0}",
-            long: "{1} {0}",
+            full: "{1} એ {0} વાગ્યે",
+            long: "{1} એ {0} વાગ્યે",
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -72,8 +77,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "y QQQ",
                 yQQQQ: "y QQQQ",
-                "yw-count-one": "y ના w અઠવાડિયા",
-                "yw-count-other": "y ના w અઠવાડિયા"
+                "yw-count-one": "Y ના w અઠવાડિયા",
+                "yw-count-other": "Y ના w અઠવાડિયા"
             }
         },
         timeFormats: {
@@ -271,10 +276,10 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "પહેલો ત્રિમાસ",
-                    "બીજો ત્રિમાસ",
-                    "ત્રીજો ત્રિમાસ",
-                    "ચોથો ત્રિમાસ"
+                    "1લો ત્રિમાસ",
+                    "2જો ત્રિમાસ",
+                    "3જો ત્રિમાસ",
+                    "4થો ત્રિમાસ"
                 ]
             },
             "stand-alone": {
@@ -291,10 +296,10 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "પહેલો ત્રિમાસ",
-                    "બીજો ત્રિમાસ",
-                    "ત્રીજો ત્રિમાસ",
-                    "ચોથો ત્રિમાસ"
+                    "1લો ત્રિમાસ",
+                    "2જો ત્રિમાસ",
+                    "3જો ત્રિમાસ",
+                    "4થો ત્રિમાસ"
                 ]
             }
         },
@@ -409,9 +414,9 @@ const data = {
                 narrow: "અઠ."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "મહિનાનું અઠવાડિયું",
+                short: "મહિનાનું અઠવાડિયું",
+                narrow: "મહિનાનું અઠવાડિયું"
             },
             day: {
                 wide: "દિવસ",
@@ -419,9 +424,9 @@ const data = {
                 narrow: "દિવસ"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "વર્ષનો દિવસ",
+                short: "વર્ષનો દિવસ",
+                narrow: "વર્ષનો દિવસ"
             },
             weekday: {
                 wide: "અઠવાડિયાનો દિવસ",
@@ -429,9 +434,9 @@ const data = {
                 narrow: "અઠવાડિયાનો દિવસ"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "મહિનાના અઠવાડિયાનો દિવસ",
+                short: "મહિનાના અઠવાડિયાનો દિવસ",
+                narrow: "મહિનાના અઠવાડિયાનો દિવસ"
             },
             dayperiod: {
                 short: "AM/PM",

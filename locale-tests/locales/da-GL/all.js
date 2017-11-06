@@ -85,6 +85,10 @@ const data = {
                 "displayName-count-other": "afghanske afghani",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "albansk lek",
                 "displayName-count-one": "albansk lek",
@@ -248,7 +252,7 @@ const data = {
             BGN: {
                 displayName: "bulgarsk lev",
                 "displayName-count-one": "bulgarsk lev",
-                "displayName-count-other": "bulgarske lev",
+                "displayName-count-other": "bulgarske leva",
                 symbol: "BGN"
             },
             BGO: {
@@ -258,7 +262,7 @@ const data = {
             BHD: {
                 displayName: "bahrainsk dinar",
                 "displayName-count-one": "bahrainsk dinar",
-                "displayName-count-other": "bahrainske dinar",
+                "displayName-count-other": "bahrainske dinarer",
                 symbol: "BHD"
             },
             BIF: {
@@ -325,7 +329,7 @@ const data = {
             BRL: {
                 displayName: "brasiliansk real",
                 "displayName-count-one": "brasiliansk real",
-                "displayName-count-other": "brasilianske real",
+                "displayName-count-other": "brasilianske realer",
                 symbol: "R$",
                 "symbol-alt-narrow": "R$"
             },
@@ -443,6 +447,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "kinesisk yuan (offshore)",
+                "displayName-count-one": "kinesisk yuan (offshore)",
+                "displayName-count-other": "kinesisk yuan (offshore)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "kinesisk yuan",
                 "displayName-count-one": "kinesisk yuan",
@@ -483,7 +497,7 @@ const data = {
             CUC: {
                 displayName: "cubansk konvertibel peso",
                 "displayName-count-one": "cubanske konvertible pesos",
-                "displayName-count-other": "Cubanske konvertible pesos",
+                "displayName-count-other": "cubanske konvertible pesos",
                 symbol: "CUC",
                 "symbol-alt-narrow": "$"
             },
@@ -497,7 +511,7 @@ const data = {
             CVE: {
                 displayName: "kapverdisk escudo",
                 "displayName-count-one": "kapverdisk escudo",
-                "displayName-count-other": "kapverdiske escodus",
+                "displayName-count-other": "kapverdiske escudos",
                 symbol: "CVE"
             },
             CYP: {
@@ -794,6 +808,10 @@ const data = {
                 "displayName-count-other": "Israelske pund",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "ny israelsk shekel",
                 "displayName-count-one": "ny israelsk shekel",
@@ -817,8 +835,12 @@ const data = {
             IRR: {
                 displayName: "iransk rial",
                 "displayName-count-one": "iransk rial",
-                "displayName-count-other": "iranske rial",
+                "displayName-count-other": "iranske rialer",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "islandsk krone",
@@ -1105,6 +1127,10 @@ const data = {
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
+            },
             MVR: {
                 displayName: "maldivisk rufiyaa",
                 "displayName-count-one": "maldivisk rufiyaa",
@@ -1252,7 +1278,7 @@ const data = {
             PHP: {
                 displayName: "filippinsk peso",
                 "displayName-count-one": "filippinsk peso",
-                "displayName-count-other": "filippinske peso",
+                "displayName-count-other": "filippinske pesos",
                 symbol: "PHP",
                 "symbol-alt-narrow": "₱"
             },
@@ -1308,7 +1334,7 @@ const data = {
             RON: {
                 displayName: "rumænsk leu",
                 "displayName-count-one": "rumænsk leu",
-                "displayName-count-other": "rumænske leu",
+                "displayName-count-other": "rumænske lei",
                 symbol: "RON",
                 "symbol-alt-narrow": "L"
             },
@@ -1447,6 +1473,10 @@ const data = {
                 "displayName-count-other": "dobra fra Sao Tome og Principe",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "Sovjetisk rubel",
@@ -1862,11 +1892,11 @@ const data = {
             M: "d. MMMM",
             y: "MMM y",
             Y: "MMMM y",
-            F: "EEEE 'den' d. MMMM y h.mm.ss a",
-            g: "d/M/y h.mm a",
-            G: "d/M/y h.mm.ss a",
-            t: "h.mm a",
-            T: "h.mm.ss a",
+            F: "EEEE 'den' d. MMMM y HH.mm.ss",
+            g: "d/M/y HH.mm",
+            G: "d/M/y HH.mm.ss",
+            t: "HH.mm",
+            T: "HH.mm.ss",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
@@ -1876,8 +1906,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h.mm B",
+                Bhms: "h.mm.ss B",
                 d: "d.",
                 E: "ccc",
+                EBhm: "E h.mm B",
+                EBhms: "E h.mm.ss B",
                 Ed: "E 'den' d.",
                 Ehm: "E h.mm a",
                 EHm: "E HH.mm",
@@ -1920,15 +1955,15 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'uge' w 'i' y",
-                "yw-count-other": "'uge' w 'i' y"
+                "yw-count-one": "'uge' w 'i' Y",
+                "yw-count-other": "'uge' w 'i' Y"
             }
         },
         timeFormats: {
-            full: "h.mm.ss a zzzz",
-            long: "h.mm.ss a z",
-            medium: "h.mm.ss a",
-            short: "h.mm a"
+            full: "HH.mm.ss zzzz",
+            long: "HH.mm.ss z",
+            medium: "HH.mm.ss",
+            short: "HH.mm"
         },
         dateFormats: {
             full: "EEEE 'den' d. MMMM y",
@@ -2263,9 +2298,9 @@ const data = {
                 narrow: "uge"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "uge i måneden",
+                short: "uge i md.",
+                narrow: "uge i md."
             },
             day: {
                 wide: "dag",
@@ -2273,9 +2308,9 @@ const data = {
                 narrow: "dag"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "dag i året",
+                short: "dag i året",
+                narrow: "dag i året"
             },
             weekday: {
                 wide: "ugedag",
@@ -2283,9 +2318,9 @@ const data = {
                 narrow: "ugedag"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "ugedag i måneden",
+                short: "ugedag i md.",
+                narrow: "ugedag i md."
             },
             dayperiod: {
                 short: "AM/PM",
@@ -2295,12 +2330,12 @@ const data = {
             hour: {
                 wide: "time",
                 short: "t.",
-                narrow: "t"
+                narrow: "t."
             },
             minute: {
                 wide: "minut",
                 short: "min.",
-                narrow: "min"
+                narrow: "min."
             },
             second: {
                 wide: "sekund",
@@ -2309,8 +2344,8 @@ const data = {
             },
             zone: {
                 wide: "tidszone",
-                short: "tidszone",
-                narrow: "tidszone"
+                short: "zone",
+                narrow: "zone"
             }
         }
     },

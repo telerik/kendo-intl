@@ -41,7 +41,8 @@ const data = {
                 displayName: "Albanski lek (1946–1965)",
                 "displayName-count-one": "albanski lek (1946–1965)",
                 "displayName-count-few": "Albanska leka (1946–1965)",
-                "displayName-count-other": "albanski lek (1946–1965)"
+                "displayName-count-other": "albanski lek (1946–1965)",
+                symbol: "ALK"
             },
             ALL: {
                 displayName: "Albanski lek",
@@ -412,7 +413,7 @@ const data = {
             CAD: {
                 displayName: "Kanadski dolar",
                 "displayName-count-one": "kanadski dolar",
-                "displayName-count-few": "kanadski dolari",
+                "displayName-count-few": "kanadska dolara",
                 "displayName-count-other": "kanadskih dolara",
                 symbol: "CAD",
                 "symbol-alt-narrow": "$"
@@ -463,6 +464,17 @@ const data = {
                 "displayName-count-other": "čileanskih pezosa",
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
+            },
+            CNH: {
+                displayName: "Kineski juan (izvanteritorijalni)",
+                "displayName-count-one": "kineski juan (izvanteritorijalni)",
+                "displayName-count-few": "kineska juana (izvanteritorijalni)",
+                "displayName-count-other": "kineskih juana (izvanteritorijalni)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
             },
             CNY: {
                 displayName: "Kineski juan",
@@ -724,8 +736,8 @@ const data = {
             GHS: {
                 displayName: "Ganski cedi",
                 "displayName-count-one": "ganski cedi",
-                "displayName-count-few": "ganska ceda",
-                "displayName-count-other": "ganskih ceda",
+                "displayName-count-few": "ganska cedija",
+                "displayName-count-other": "ganskih cedija",
                 symbol: "GHS"
             },
             GIP: {
@@ -874,7 +886,8 @@ const data = {
                 displayName: "stari izraelski šekeli",
                 "displayName-count-one": "stari izraelski šekeli",
                 "displayName-count-few": "stari izraelski šekeli",
-                "displayName-count-other": "stari izraelski šekeli"
+                "displayName-count-other": "stari izraelski šekeli",
+                symbol: "ILR"
             },
             ILS: {
                 displayName: "Izraelski novi šekel",
@@ -910,7 +923,8 @@ const data = {
                 displayName: "stara islandska kruna",
                 "displayName-count-one": "stara islandska kruna",
                 "displayName-count-few": "stara islandska kruna",
-                "displayName-count-other": "stara islandska kruna"
+                "displayName-count-other": "stara islandska kruna",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Islandska kruna",
@@ -1247,6 +1261,10 @@ const data = {
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
+            },
             MVR: {
                 displayName: "Maldivska rufija",
                 "displayName-count-one": "maldivska rufija",
@@ -1339,7 +1357,7 @@ const data = {
                 displayName: "Nikaragvanska kordoba",
                 "displayName-count-one": "nikaragvanska kordoba",
                 "displayName-count-few": "nikaragvanske kordobe",
-                "displayName-count-other": "nikaragvanska kordoba",
+                "displayName-count-other": "nikaragvanskih kordoba",
                 symbol: "NIO",
                 "symbol-alt-narrow": "C$"
             },
@@ -1385,7 +1403,7 @@ const data = {
                 displayName: "Panamska balboa",
                 "displayName-count-one": "panamska balboa",
                 "displayName-count-few": "panamske balboe",
-                "displayName-count-other": "panamska balboa",
+                "displayName-count-other": "panamskih balboa",
                 symbol: "PAB"
             },
             PEI: {
@@ -1647,6 +1665,10 @@ const data = {
                 "displayName-count-other": "dobri Sao Toma i Principa",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "Sovjetska rublja",

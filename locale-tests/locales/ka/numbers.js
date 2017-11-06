@@ -38,7 +38,7 @@ const data = {
         },
         percent: {
             patterns: [
-                "n %"
+                "n%"
             ],
             groupSize: [
                 3

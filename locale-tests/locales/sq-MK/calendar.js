@@ -30,8 +30,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E, d",
                 Ehm: "E, h:mm a",
                 EHm: "E, HH:mm",
@@ -73,8 +78,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ, y",
                 yQQQQ: "QQQQ, y",
-                "yw-count-one": "'java' w 'e' y",
-                "yw-count-other": "'java' w 'e' y"
+                "yw-count-one": "'java' w 'e' Y",
+                "yw-count-other": "'java' w 'e' Y"
             }
         },
         timeFormats: {
@@ -107,7 +112,7 @@ const data = {
                     "M",
                     "E",
                     "P",
-                    "S"
+                    "Sh"
                 ],
                 short: [
                     "Die",
@@ -145,7 +150,7 @@ const data = {
                     "M",
                     "E",
                     "P",
-                    "S"
+                    "Sh"
                 ],
                 short: [
                     "Die",
@@ -176,8 +181,8 @@ const data = {
                     "pri",
                     "maj",
                     "qer",
-                    "kor",
-                    "gsh",
+                    "korr",
+                    "gush",
                     "sht",
                     "tet",
                     "nën",
@@ -185,17 +190,17 @@ const data = {
                 ],
                 narrow: [
                     "j",
-                    "s",
+                    "sh",
                     "m",
                     "p",
                     "m",
                     "q",
                     "k",
                     "g",
-                    "s",
+                    "sh",
                     "t",
                     "n",
-                    "d"
+                    "dh"
                 ],
                 wide: [
                     "janar",
@@ -220,8 +225,8 @@ const data = {
                     "Pri",
                     "Maj",
                     "Qer",
-                    "Kor",
-                    "Gsh",
+                    "Korr",
+                    "Gush",
                     "Sht",
                     "Tet",
                     "Nën",
@@ -229,17 +234,17 @@ const data = {
                 ],
                 narrow: [
                     "J",
-                    "S",
+                    "Sh",
                     "M",
                     "P",
                     "M",
                     "Q",
                     "K",
                     "G",
-                    "S",
+                    "Sh",
                     "T",
                     "N",
-                    "D"
+                    "Dh"
                 ],
                 wide: [
                     "Janar",
@@ -393,8 +398,8 @@ const data = {
                 }
             }
         },
-        gmtFormat: "Ora e Grinuiçit: {0}",
-        gmtZeroFormat: "Ora e Grinuiçit",
+        gmtFormat: "GMT{0}",
+        gmtZeroFormat: "GMT",
         dateFields: {
             era: {
                 wide: "erë",
@@ -422,9 +427,9 @@ const data = {
                 narrow: "javë"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "javë e muajit",
+                short: "javë e muajit",
+                narrow: "javë e muajit"
             },
             day: {
                 wide: "ditë",
@@ -432,9 +437,9 @@ const data = {
                 narrow: "ditë"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "ditë e vitit",
+                short: "ditë e vitit",
+                narrow: "ditë e vitit"
             },
             weekday: {
                 wide: "ditë e javës",
@@ -442,9 +447,9 @@ const data = {
                 narrow: "ditë e javës"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "ditë pune e muajit",
+                short: "ditë pune e muajit",
+                narrow: "ditë pune e muajit"
             },
             dayperiod: {
                 short: "paradite/pasdite",

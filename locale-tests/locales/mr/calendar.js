@@ -29,8 +29,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "B h",
+                Bhm: "B h:mm",
+                Bhms: "B h:mm:ss",
                 d: "d",
                 E: "ccc",
+                EBhm: "E B h:mm",
+                EBhms: "E B h:mm:ss",
                 Ed: "d E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -72,8 +77,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "y चा w रा आठवडा",
-                "yw-count-other": "y चा w रा आठवडा"
+                "yw-count-one": "Y चा w रा आठवडा",
+                "yw-count-other": "Y चा w रा आठवडा"
             }
         },
         timeFormats: {
@@ -427,9 +432,9 @@ const data = {
                 narrow: "आठवडा"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "महिन्याचा आठवडा",
+                short: "महिन्याचा आठ.",
+                narrow: "महिन्याचा आठ."
             },
             day: {
                 wide: "दिवस",
@@ -437,9 +442,9 @@ const data = {
                 narrow: "दिवस"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "वर्षातील दिवस",
+                short: "वर्षातील दिवस",
+                narrow: "वर्षातील दिवस"
             },
             weekday: {
                 wide: "आठवड्याचा दिवस",
@@ -447,9 +452,9 @@ const data = {
                 narrow: "आठवड्याचा दिवस"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "महिन्यातील साप्ताहिक दिवस",
+                short: "महिन्यातील साप्ता. दिवस",
+                narrow: "महिन्यातील साप्ता. दिवस"
             },
             dayperiod: {
                 short: "[म.पू./म.उ.]",
@@ -473,8 +478,8 @@ const data = {
             },
             zone: {
                 wide: "वेळ क्षेत्र",
-                short: "वेळ क्षेत्र",
-                narrow: "वेळ क्षेत्र"
+                short: "क्षेत्र",
+                narrow: "क्षेत्र"
             }
         }
     },

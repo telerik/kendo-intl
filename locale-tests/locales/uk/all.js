@@ -91,6 +91,10 @@ const data = {
                 "displayName-count-other": "афганського афгані",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "албанський лек",
                 "displayName-count-one": "албанський лек",
@@ -483,6 +487,18 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "китайський офшорний юань",
+                "displayName-count-one": "китайський офшорний юань",
+                "displayName-count-few": "китайські офшорні юані",
+                "displayName-count-many": "китайських офшорних юанів",
+                "displayName-count-other": "китайського офшорного юаня",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "китайський юань",
                 "displayName-count-one": "китайський юань",
@@ -860,6 +876,10 @@ const data = {
                 displayName: "ізраїльський фунт",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "ізраїльський новий шекель",
                 "displayName-count-one": "ізраїльський новий шекель",
@@ -893,6 +913,10 @@ const data = {
                 "displayName-count-many": "іранських ріалів",
                 "displayName-count-other": "іранського ріала",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "ісландська крона",
@@ -1213,6 +1237,10 @@ const data = {
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
+            },
             MVR: {
                 displayName: "мальдівська руфія",
                 "displayName-count-one": "мальдівська руфія",
@@ -1346,8 +1374,8 @@ const data = {
                 symbol: "OMR"
             },
             PAB: {
-                displayName: "панамська бальбоа",
-                "displayName-count-one": "панамська бальбоа",
+                displayName: "панамське бальбоа",
+                "displayName-count-one": "панамське бальбоа",
                 "displayName-count-few": "панамські бальбоа",
                 "displayName-count-many": "панамських бальбоа",
                 "displayName-count-other": "панамського бальбоа",
@@ -1358,11 +1386,11 @@ const data = {
                 symbol: "PEI"
             },
             PEN: {
-                displayName: "перуанський сол",
-                "displayName-count-one": "перуанський сол",
-                "displayName-count-few": "перуанські соли",
-                "displayName-count-many": "перуанських солів",
-                "displayName-count-other": "перуанського сола",
+                displayName: "перуанський новий сол",
+                "displayName-count-one": "перуанський новий сол",
+                "displayName-count-few": "перуанські нові соли",
+                "displayName-count-many": "перуанських нових солів",
+                "displayName-count-other": "перуанського нового сола",
                 symbol: "PEN"
             },
             PES: {
@@ -1374,11 +1402,11 @@ const data = {
                 symbol: "PES"
             },
             PGK: {
-                displayName: "кіна Папуа Нової Гвінеї",
-                "displayName-count-one": "кіна Папуа Нової Гвінеї",
-                "displayName-count-few": "кіни Папуа Нової Гвінеї",
-                "displayName-count-many": "кін Папуа Нової Гвінеї",
-                "displayName-count-other": "кіни Папуа Нової Гвінеї",
+                displayName: "кіна Папуа-Нової Ґвінеї",
+                "displayName-count-one": "кіна Папуа-Нової Ґвінеї",
+                "displayName-count-few": "кіни Папуа-Нової Ґвінеї",
+                "displayName-count-many": "кін Папуа-Нової Ґвінеї",
+                "displayName-count-other": "кіни Папуа-Нової Ґвінеї",
                 symbol: "PGK"
             },
             PHP: {
@@ -1600,13 +1628,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
-                displayName: "добра Сан-Томе і Принсіпі",
-                "displayName-count-one": "добра Сан-Томе і Принсіпі",
+                displayName: "добра Сан-Томе і Прінсіпі",
+                "displayName-count-one": "добра Сан-Томе і Прінсіпі",
                 "displayName-count-few": "добри Сан-Томе і Принсіпі",
                 "displayName-count-many": "добр Сан-Томе і Принсіпі",
-                "displayName-count-other": "добри Сан-Томе і Принсіпі",
+                "displayName-count-other": "добри Сан-Томе і Прінсіпі",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "радянський рубль",
@@ -1683,11 +1715,11 @@ const data = {
                 symbol: "TND"
             },
             TOP: {
-                displayName: "тонганська паанга",
-                "displayName-count-one": "тонганська паанга",
-                "displayName-count-few": "тонганські паанги",
-                "displayName-count-many": "тонганських паанг",
-                "displayName-count-other": "тонганської паанги",
+                displayName: "тонґанська паанга",
+                "displayName-count-one": "тонґанська паанга",
+                "displayName-count-few": "тонґанські паанги",
+                "displayName-count-many": "тонґанських паанг",
+                "displayName-count-other": "тонґанської паанги",
                 symbol: "TOP",
                 "symbol-alt-narrow": "T$"
             },
@@ -1714,11 +1746,11 @@ const data = {
                 "symbol-alt-variant": "TL"
             },
             TTD: {
-                displayName: "долар Тринідаду і Тобаго",
-                "displayName-count-one": "долар Тринідаду і Тобаго",
+                displayName: "долар Трінідаду і Тобаґо",
+                "displayName-count-one": "долар Трінідаду і Тобаґо",
                 "displayName-count-few": "долари Тринідаду і Тобаго",
                 "displayName-count-many": "доларів Тринідаду і Тобаго",
-                "displayName-count-other": "долара Тринідаду і Тобаго",
+                "displayName-count-other": "долара Трінідаду і Тобаґо",
                 symbol: "TTD",
                 "symbol-alt-narrow": "$"
             },
@@ -2069,8 +2101,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E, d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -2113,10 +2150,10 @@ const data = {
                 yMMMM: "LLLL y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y 'р'.",
-                "yw-count-one": "w-'й' 'тиж'. y 'р'.",
-                "yw-count-few": "w-'й' 'тиж'. y 'р'.",
-                "yw-count-many": "w-'й' 'тиж'. y 'р'.",
-                "yw-count-other": "w-'й' 'тиж'. y 'р'."
+                "yw-count-one": "w-'й' 'тиж'. Y 'р'.",
+                "yw-count-few": "w-'й' 'тиж'. Y 'р'.",
+                "yw-count-many": "w-'й' 'тиж'. Y 'р'.",
+                "yw-count-other": "w-'й' 'тиж'. Y 'р'."
             }
         },
         timeFormats: {
@@ -2434,8 +2471,8 @@ const data = {
         dateFields: {
             era: {
                 wide: "ера",
-                short: "ера",
-                narrow: "ера"
+                short: "е.",
+                narrow: "е"
             },
             year: {
                 wide: "рік",
@@ -2458,9 +2495,9 @@ const data = {
                 narrow: "тиж."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "тиждень місяця",
+                short: "тиж. місяця",
+                narrow: "тиж. місяця"
             },
             day: {
                 wide: "день",
@@ -2468,9 +2505,9 @@ const data = {
                 narrow: "д."
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "день року",
+                short: "день року",
+                narrow: "день року"
             },
             weekday: {
                 wide: "день тижня",
@@ -2478,14 +2515,14 @@ const data = {
                 narrow: "день тижня"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "день місяця",
+                short: "день місяця",
+                narrow: "день місяця"
             },
             dayperiod: {
-                short: "частина доби",
-                wide: "частина доби",
-                narrow: "частина доби"
+                short: "дп/пп",
+                wide: "дп/пп",
+                narrow: "дп/пп"
             },
             hour: {
                 wide: "година",

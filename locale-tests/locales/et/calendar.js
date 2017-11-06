@@ -29,8 +29,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E, d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -72,8 +77,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "y (w. 'nädal')",
-                "yw-count-other": "y (w. 'nädal')"
+                "yw-count-one": "w. 'nädal' (Y)",
+                "yw-count-other": "w. 'nädal' (Y)"
             }
         },
         timeFormats: {
@@ -386,7 +391,7 @@ const data = {
                 }
             }
         },
-        gmtFormat: "GMT{0}",
+        gmtFormat: "GMT {0}",
         gmtZeroFormat: "GMT",
         dateFields: {
             era: {
@@ -415,9 +420,9 @@ const data = {
                 narrow: "näd"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "kuu nädal",
+                short: "kuu näd",
+                narrow: "kuu näd"
             },
             day: {
                 wide: "päev",
@@ -425,19 +430,19 @@ const data = {
                 narrow: "p"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "aasta päev",
+                short: "aasta p",
+                narrow: "aasta p"
             },
             weekday: {
                 wide: "nädalapäev",
-                short: "nädalapäev",
-                narrow: "nädalapäev"
+                short: "nädalap.",
+                narrow: "nädalap."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "kuu nädalapäev",
+                short: "kuu nädalap.",
+                narrow: "kuu nädalap."
             },
             dayperiod: {
                 short: "enne/pärast lõunat",
@@ -461,8 +466,8 @@ const data = {
             },
             zone: {
                 wide: "ajavöönd",
-                short: "ajavöönd",
-                narrow: "ajavöönd"
+                short: "vöönd",
+                narrow: "vöönd"
             }
         }
     },

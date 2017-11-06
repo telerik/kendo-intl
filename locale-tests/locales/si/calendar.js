@@ -29,8 +29,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "d E",
                 Ehm: "E a h.mm",
                 EHm: "E HH.mm",
@@ -70,8 +75,8 @@ const data = {
                 yMMMM: "y MMMM",
                 yQQQ: "y QQQ",
                 yQQQQ: "y QQQQ",
-                "yw-count-one": "y සතිය w",
-                "yw-count-other": "y සතිය w"
+                "yw-count-one": "Y සතිය w",
+                "yw-count-other": "Y සතිය w"
             }
         },
         timeFormats: {
@@ -425,9 +430,9 @@ const data = {
                 narrow: "සති."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "මාසයේ සතිය",
+                short: "මාසයේ සතිය",
+                narrow: "මාසයේ සතිය"
             },
             day: {
                 wide: "දිනය",
@@ -435,9 +440,9 @@ const data = {
                 narrow: "දිනය"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "වසරේ දිනය",
+                short: "වසරේ දිනය",
+                narrow: "වසරේ දිනය"
             },
             weekday: {
                 wide: "සතියේ දිනය",
@@ -445,9 +450,9 @@ const data = {
                 narrow: "සතියේ දිනය"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "මාසයේ සතියේ දිනය",
+                short: "මාසයේ සතියේ දිනය",
+                narrow: "මාසයේ සතියේ දිනය"
             },
             dayperiod: {
                 short: "පෙ.ව/ප.ව",
@@ -457,22 +462,22 @@ const data = {
             hour: {
                 wide: "පැය",
                 short: "පැය",
-                narrow: "පැ"
+                narrow: "පැය"
             },
             minute: {
                 wide: "මිනිත්තුව",
                 short: "මිනි.",
-                narrow: "මි"
+                narrow: "මිනි."
             },
             second: {
                 wide: "තත්පරය",
                 short: "තත්.",
-                narrow: "ත"
+                narrow: "තත්."
             },
             zone: {
-                wide: "කාල කලාපය",
-                short: "කාල කලාපය",
-                narrow: "කාල කලාපය"
+                wide: "වේලා කලාපය",
+                short: "කලාපය",
+                narrow: "කලාපය"
             }
         }
     },

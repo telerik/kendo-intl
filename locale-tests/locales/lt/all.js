@@ -99,7 +99,8 @@ const data = {
                 "displayName-count-one": "Albanijos lekas (1946–1965)",
                 "displayName-count-few": "Albanijos lekai (1946–1965)",
                 "displayName-count-many": "Albanijos leko (1946–1965)",
-                "displayName-count-other": "Albanijos lekų (1946–1965)"
+                "displayName-count-other": "Albanijos lekų (1946–1965)",
+                symbol: "ALK"
             },
             ALL: {
                 displayName: "Albanijos lekas",
@@ -597,12 +598,21 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "Kinijos Užsienio juanis",
+                "displayName-count-one": "Kinijos Užsienio juanis",
+                "displayName-count-few": "Kinijos Užsienio juaniai",
+                "displayName-count-many": "Kinijos Užsienio juanio",
+                "displayName-count-other": "Kinijos Užsienio juanių",
+                symbol: "CNH"
+            },
             CNX: {
                 displayName: "Kinijos \\\"People\\\" banko doleris",
                 "displayName-count-one": "Kinijos \\\"People\\\" banko doleris",
                 "displayName-count-few": "Kinijos \\\"People\\\" banko doleriai",
                 "displayName-count-many": "Kinijos \\\"People\\\" banko dolerio",
-                "displayName-count-other": "Kinijos \\\"People\\\" banko dolerių"
+                "displayName-count-other": "Kinijos \\\"People\\\" banko dolerių",
+                symbol: "CNX"
             },
             CNY: {
                 displayName: "Kinijos ženminbi juanis",
@@ -1074,7 +1084,8 @@ const data = {
                 "displayName-count-one": "Izraelio šekelis (1980–1985)",
                 "displayName-count-few": "Izraelio šekeliai (1980–1985)",
                 "displayName-count-many": "Izraelio šekelio (1980–1985)",
-                "displayName-count-other": "Izraelio šekelių (1980–1985)"
+                "displayName-count-other": "Izraelio šekelių (1980–1985)",
+                symbol: "ILR"
             },
             ILS: {
                 displayName: "Izraelio naujasis šekelis",
@@ -1115,7 +1126,8 @@ const data = {
                 "displayName-count-one": "Islandijos krona (1918–1981)",
                 "displayName-count-few": "Islandijos kronos (1918–1981)",
                 "displayName-count-many": "Islandijos kronos (1918–1981)",
-                "displayName-count-other": "Islandijos kronų (1918–1981)"
+                "displayName-count-other": "Islandijos kronų (1918–1981)",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Islandijos krona",
@@ -1509,7 +1521,8 @@ const data = {
                 "displayName-count-one": "Maldyvų rupija",
                 "displayName-count-few": "Maldyvų rupijos",
                 "displayName-count-many": "Maldyvų rupijos",
-                "displayName-count-other": "Maldyvų rupijos"
+                "displayName-count-other": "Maldyvų rupijos",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "Maldyvų rufija",
@@ -1966,6 +1979,10 @@ const data = {
                 "displayName-count-other": "Sao Tomės ir Principės dobrų",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "Sovietų rublis",
@@ -2563,8 +2580,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "dd",
                 E: "ccc",
+                EBhm: "h:mm B, E",
+                EBhms: "h:mm:ss B, E",
                 Ed: "d, E",
                 Ehm: "hh:mm a, E",
                 EHm: "HH:mm, E",
@@ -2614,10 +2636,10 @@ const data = {
                 yMMMMEd: "y 'm'. MMMM d 'd'., E",
                 yQQQ: "y QQQ",
                 yQQQQ: "y QQQQ",
-                "yw-count-one": "y w 'sav'.",
-                "yw-count-few": "y w 'sav'.",
-                "yw-count-many": "y w 'sav'.",
-                "yw-count-other": "y w 'sav'."
+                "yw-count-one": "Y w 'sav'.",
+                "yw-count-few": "Y w 'sav'.",
+                "yw-count-many": "Y w 'sav'.",
+                "yw-count-other": "Y w 'sav'."
             }
         },
         timeFormats: {
@@ -2959,9 +2981,9 @@ const data = {
                 narrow: "sav."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "mėnesio savaitė",
+                short: "mėnesio savaitė",
+                narrow: "mėnesio savaitė"
             },
             day: {
                 wide: "diena",
@@ -2969,9 +2991,9 @@ const data = {
                 narrow: "d."
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "metų diena",
+                short: "metų diena",
+                narrow: "metų diena"
             },
             weekday: {
                 wide: "savaitės diena",
@@ -2979,9 +3001,9 @@ const data = {
                 narrow: "savaitės diena"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "mėnesio šiokiadienis",
+                short: "mėnesio šiokiadienis",
+                narrow: "mėnesio šiokiadienis"
             },
             dayperiod: {
                 short: "iki pietų / po pietų",

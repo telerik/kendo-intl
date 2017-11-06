@@ -29,8 +29,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E, d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -73,10 +78,10 @@ const data = {
                 yMMMM: "LLLL y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y 'р'.",
-                "yw-count-one": "w-'й' 'тиж'. y 'р'.",
-                "yw-count-few": "w-'й' 'тиж'. y 'р'.",
-                "yw-count-many": "w-'й' 'тиж'. y 'р'.",
-                "yw-count-other": "w-'й' 'тиж'. y 'р'."
+                "yw-count-one": "w-'й' 'тиж'. Y 'р'.",
+                "yw-count-few": "w-'й' 'тиж'. Y 'р'.",
+                "yw-count-many": "w-'й' 'тиж'. Y 'р'.",
+                "yw-count-other": "w-'й' 'тиж'. Y 'р'."
             }
         },
         timeFormats: {
@@ -394,8 +399,8 @@ const data = {
         dateFields: {
             era: {
                 wide: "ера",
-                short: "ера",
-                narrow: "ера"
+                short: "е.",
+                narrow: "е"
             },
             year: {
                 wide: "рік",
@@ -418,9 +423,9 @@ const data = {
                 narrow: "тиж."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "тиждень місяця",
+                short: "тиж. місяця",
+                narrow: "тиж. місяця"
             },
             day: {
                 wide: "день",
@@ -428,9 +433,9 @@ const data = {
                 narrow: "д."
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "день року",
+                short: "день року",
+                narrow: "день року"
             },
             weekday: {
                 wide: "день тижня",
@@ -438,14 +443,14 @@ const data = {
                 narrow: "день тижня"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "день місяця",
+                short: "день місяця",
+                narrow: "день місяця"
             },
             dayperiod: {
-                short: "частина доби",
-                wide: "частина доби",
-                narrow: "частина доби"
+                short: "дп/пп",
+                wide: "дп/пп",
+                narrow: "дп/пп"
             },
             hour: {
                 wide: "година",

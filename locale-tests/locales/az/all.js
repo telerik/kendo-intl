@@ -87,7 +87,8 @@ const data = {
             ALK: {
                 displayName: "Albaniya Leki (1946–1965)",
                 "displayName-count-one": "Albaniya leki (1946–1965)",
-                "displayName-count-other": "Albaniya leki (1946–1965)"
+                "displayName-count-other": "Albaniya leki (1946–1965)",
+                symbol: "ALK"
             },
             ALL: {
                 displayName: "Albaniya Leki",
@@ -447,6 +448,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "CNH",
+                "displayName-count-one": "CNH",
+                "displayName-count-other": "CNH",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "Çin Yuanı",
                 "displayName-count-one": "Çin yuanı",
@@ -801,7 +812,8 @@ const data = {
             ILR: {
                 displayName: "İsrail Şekeli (1980–1985)",
                 "displayName-count-one": "İsrail şekeli (1980–1985)",
-                "displayName-count-other": "İsrail şekeli (1980–1985)"
+                "displayName-count-other": "İsrail şekeli (1980–1985)",
+                symbol: "ILR"
             },
             ILS: {
                 displayName: "İsrail Yeni Şekeli",
@@ -832,7 +844,8 @@ const data = {
             ISJ: {
                 displayName: "İslandiya Kronu (1918–1981)",
                 "displayName-count-one": "İslandiya kronu (1918–1981)",
-                "displayName-count-other": "İslandiya kronu (1918–1981)"
+                "displayName-count-other": "İslandiya kronu (1918–1981)",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "İslandiya Kronu",
@@ -1118,6 +1131,10 @@ const data = {
                 "displayName-count-other": "Mavriki rupisi",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "Maldiv Rufiyası",
@@ -1457,6 +1474,10 @@ const data = {
                 "displayName-count-other": "San Tom və Prinsip dobrası",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "Sovet Rublu",
@@ -1879,7 +1900,7 @@ const data = {
             d: "dd.MM.y",
             D: "d MMMM y, EEEE",
             m: "d MMM",
-            M: "MMMM d",
+            M: "d MMMM",
             y: "MMM y",
             Y: "MMMM y",
             F: "d MMMM y, EEEE HH:mm:ss",
@@ -1896,8 +1917,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "B h",
+                Bhm: "B h:mm",
+                Bhms: "B h:mm:ss",
                 d: "d",
                 E: "ccc",
+                EBhm: "E B h:mm",
+                EBhms: "E B h:mm:ss",
                 Ed: "d E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -1923,7 +1949,7 @@ const data = {
                 MMM: "LLL",
                 MMMd: "d MMM",
                 MMMEd: "d MMM, E",
-                MMMMd: "MMMM d",
+                MMMMd: "d MMMM",
                 "MMMMW-count-one": "MMM, W 'həftə'",
                 "MMMMW-count-other": "MMM, W 'həftə'",
                 ms: "mm:ss",
@@ -1937,8 +1963,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "y QQQ",
                 yQQQQ: "y QQQQ",
-                "yw-count-one": "y, w 'həftə'",
-                "yw-count-other": "y, w 'həftə'"
+                "yw-count-one": "Y, w 'həftə'",
+                "yw-count-other": "Y, w 'həftə'"
             }
         },
         timeFormats: {
@@ -2292,9 +2318,9 @@ const data = {
                 narrow: "həftə"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "Ayın həftəsi",
+                short: "ay hft.",
+                narrow: "ay hft."
             },
             day: {
                 wide: "Gün",
@@ -2302,19 +2328,19 @@ const data = {
                 narrow: "Gün"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "ilin günü",
+                short: "ilin günü",
+                narrow: "ilin günü"
             },
             weekday: {
                 wide: "Həftənin Günü",
-                short: "Həftənin Günü",
-                narrow: "Həftənin Günü"
+                short: "hft. günü",
+                narrow: "hft. günü"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "ayın həftə günü",
+                short: "ay hft. günü",
+                narrow: "ay hft. günü"
             },
             dayperiod: {
                 short: "AM/PM",
@@ -2338,8 +2364,8 @@ const data = {
             },
             zone: {
                 wide: "Saat Qurşağı",
-                short: "Saat Qurşağı",
-                narrow: "Saat Qurşağı"
+                short: "qurşaq",
+                narrow: "qurşaq"
             }
         }
     },

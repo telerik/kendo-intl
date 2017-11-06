@@ -29,6 +29,10 @@ const data = {
                 "displayName-count-other": "ਅਫ਼ਗਾਨ ਅਫ਼ਗਾਨੀ",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "ਅਲਬਾਨੀਆਈ ਲੇਕ",
                 "displayName-count-one": "ਅਲਬਾਨੀਆਈ ਲੇਕ",
@@ -367,6 +371,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "ਚੀਨੀ ਯੁਆਨ (ਔਫ਼ਸ਼ੋਰ)",
+                "displayName-count-one": "ਚੀਨੀ ਯੁਆਨ (ਔਫ਼ਸ਼ੋਰ)",
+                "displayName-count-other": "ਚੀਨੀ ਯੁਆਨ (ਔਫ਼ਸ਼ੋਰ)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "ਚੀਨੀ ਯੁਆਨ",
                 "displayName-count-one": "ਚੀਨੀ ਯੁਆਨ",
@@ -680,6 +694,10 @@ const data = {
                 "displayName-count-other": "ਇਜ਼ਰਾਈਲੀ ਪੌਂਡ",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "ਇਜ਼ਰਾਈਲੀ ਨਵੀਂ ਸ਼ੇਕੇਲ",
                 "displayName-count-one": "ਇਜ਼ਰਾਈਲੀ ਨਵੀਂ ਸ਼ੇਕੇਲ",
@@ -705,6 +723,10 @@ const data = {
                 "displayName-count-one": "ਈਰਾਨੀ ਰਿਆਲ",
                 "displayName-count-other": "ਈਰਾਨੀ ਰਿਆਲ",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "ਆਈਸਲੈਂਡਿਕ ਕਰੌਨ",
@@ -966,6 +988,10 @@ const data = {
                 "displayName-count-other": "ਮੌਰਿਸ਼ੀਆਈ ਰੁਪਏ",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "ਮਾਲਦੀਵੀ ਰੁਫੀਆ",
@@ -1277,6 +1303,10 @@ const data = {
                 "displayName-count-other": "ਸਾਉ ਟੋਮੀ ਐਂਡ ਪ੍ਰਿੰਸਪੀ ਡੋਬਰਾ",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "ਸੋਵੀਅਤ ਰੂਬਲ",

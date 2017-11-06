@@ -70,7 +70,7 @@ const data = {
             },
             AED: {
                 displayName: "UAE dirham",
-                "displayName-count-one": "UAE diram",
+                "displayName-count-one": "UAE dirham",
                 "displayName-count-few": "UAE dirhama",
                 "displayName-count-other": "UAE dirhama",
                 symbol: "AED"
@@ -528,6 +528,13 @@ const data = {
                 "displayName-count-other": "čileanskih peza",
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
+            },
+            CNH: {
+                displayName: "kineski juan (offshore)",
+                "displayName-count-one": "kineski juan (offshore)",
+                "displayName-count-few": "kineska juana (offshore)",
+                "displayName-count-other": "kineskih juana (offshore)",
+                symbol: "CNH"
             },
             CNX: {
                 displayName: "kineski narodni dolar",
@@ -1736,6 +1743,10 @@ const data = {
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
             },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
+            },
             SUR: {
                 displayName: "sovjetska rublja",
                 "displayName-count-one": "sovjetska rublja",
@@ -2266,8 +2277,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d.",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E, d.",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -2311,9 +2327,9 @@ const data = {
                 yMMMM: "LLLL y.",
                 yQQQ: "QQQ y.",
                 yQQQQ: "QQQQ y.",
-                "yw-count-one": "w. 'tjedan' 'u' y.",
-                "yw-count-few": "w. 'tjedan' 'u' y.",
-                "yw-count-other": "w. 'tjedan' 'u' y."
+                "yw-count-one": "w. 'tjedan' 'u' Y.",
+                "yw-count-few": "w. 'tjedan' 'u' Y.",
+                "yw-count-other": "w. 'tjedan' 'u' Y."
             }
         },
         timeFormats: {
@@ -2566,7 +2582,7 @@ const data = {
                     noon: "podne",
                     pm: "PM",
                     morning1: "ujutro",
-                    afternoon1: "popodne",
+                    afternoon1: "poslije podne",
                     evening1: "navečer",
                     night1: "noću"
                 }
@@ -2655,9 +2671,9 @@ const data = {
                 narrow: "tj."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "tjedan u mjesecu",
+                short: "tj. u mj.",
+                narrow: "tj. u mjesecu"
             },
             day: {
                 wide: "dan",
@@ -2665,19 +2681,19 @@ const data = {
                 narrow: "d."
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "dan u godini",
+                short: "dan u god.",
+                narrow: "dan u g."
             },
             weekday: {
                 wide: "dan u tjednu",
-                short: "dan u tjednu",
-                narrow: "dan u tjednu"
+                short: "dan u tjed.",
+                narrow: "dan u tj."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "radni dan u mjesecu",
+                short: "radni dan u mj.",
+                narrow: "r. dan u mj."
             },
             dayperiod: {
                 short: "AM/PM",
@@ -2701,8 +2717,8 @@ const data = {
             },
             zone: {
                 wide: "vremenska zona",
-                short: "vremenska zona",
-                narrow: "vremenska zona"
+                short: "zona",
+                narrow: "zona"
             }
         }
     },

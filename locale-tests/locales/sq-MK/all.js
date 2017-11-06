@@ -82,6 +82,10 @@ const data = {
                 "displayName-count-other": "afganë afgan",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "Leku shqiptar",
                 "displayName-count-one": "lek shqiptar",
@@ -394,6 +398,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "Juani kinez (tregu i jashtëm)",
+                "displayName-count-one": "juan kinez (tregu i jashtëm)",
+                "displayName-count-other": "juanë kinez (tregu i jashtëm)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "Juani kinez",
                 "displayName-count-one": "juan kinez",
@@ -648,9 +662,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             HKD: {
-                displayName: "Dollari i Hong Kongut",
-                "displayName-count-one": "dollar Hong Kongu",
-                "displayName-count-other": "dollarë Hong Kongu",
+                displayName: "Dollari i Hong-Kongut",
+                "displayName-count-one": "dollar hong-kongu",
+                "displayName-count-other": "dollarë hong-kongu",
                 symbol: "HK$",
                 "symbol-alt-narrow": "$"
             },
@@ -700,6 +714,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "Shekeli izrealit",
                 "displayName-count-one": "shekel izrealit",
@@ -725,6 +743,10 @@ const data = {
                 "displayName-count-one": "rial iranian",
                 "displayName-count-other": "rialë iranian",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Korona islandeze",
@@ -916,9 +938,9 @@ const data = {
                 symbol: "MDC"
             },
             MDL: {
-                displayName: "Leu moldav",
-                "displayName-count-one": "leu moldav",
-                "displayName-count-other": "leu moldav",
+                displayName: "Leuja moldave",
+                "displayName-count-one": "leu moldave",
+                "displayName-count-other": "leu moldave",
                 symbol: "MDL"
             },
             MGA: {
@@ -986,6 +1008,10 @@ const data = {
                 "displayName-count-other": "rupi mauritiane",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "Rufiu i Maldivit",
@@ -1112,9 +1138,9 @@ const data = {
                 symbol: "PES"
             },
             PGK: {
-                displayName: "Kina e Papua-Guineas së Re",
-                "displayName-count-one": "kinë e Papua-Guineas së Re",
-                "displayName-count-other": "kina të Papua-Guineas së Re",
+                displayName: "Kina e Guinesë së Re-Papua",
+                "displayName-count-one": "kinë e Guinesë së Re-Papua",
+                "displayName-count-other": "kina të Guinesë së Re-Papua",
                 symbol: "PGK"
             },
             PHP: {
@@ -1168,9 +1194,9 @@ const data = {
                 symbol: "ROL"
             },
             RON: {
-                displayName: "Leu rumun",
-                "displayName-count-one": "leu rumun",
-                "displayName-count-other": "leu rumun",
+                displayName: "Leuja rumune",
+                "displayName-count-one": "leu rumune",
+                "displayName-count-other": "leu rumune",
                 symbol: "RON",
                 "symbol-alt-narrow": "lei"
             },
@@ -1297,6 +1323,10 @@ const data = {
                 "displayName-count-other": "dobra të Sao-Tomes dhe Prinsipes",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",
@@ -1614,7 +1644,7 @@ const data = {
             ZAR: {
                 displayName: "Randi afrikano-jugor",
                 "displayName-count-one": "rand afrikano-jugor",
-                "displayName-count-other": "randë afrikano-jugorë",
+                "displayName-count-other": "randë afrikano-jugor",
                 symbol: "ZAR",
                 "symbol-alt-narrow": "R"
             },
@@ -1674,8 +1704,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E, d",
                 Ehm: "E, h:mm a",
                 EHm: "E, HH:mm",
@@ -1717,8 +1752,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ, y",
                 yQQQQ: "QQQQ, y",
-                "yw-count-one": "'java' w 'e' y",
-                "yw-count-other": "'java' w 'e' y"
+                "yw-count-one": "'java' w 'e' Y",
+                "yw-count-other": "'java' w 'e' Y"
             }
         },
         timeFormats: {
@@ -1751,7 +1786,7 @@ const data = {
                     "M",
                     "E",
                     "P",
-                    "S"
+                    "Sh"
                 ],
                 short: [
                     "Die",
@@ -1789,7 +1824,7 @@ const data = {
                     "M",
                     "E",
                     "P",
-                    "S"
+                    "Sh"
                 ],
                 short: [
                     "Die",
@@ -1820,8 +1855,8 @@ const data = {
                     "pri",
                     "maj",
                     "qer",
-                    "kor",
-                    "gsh",
+                    "korr",
+                    "gush",
                     "sht",
                     "tet",
                     "nën",
@@ -1829,17 +1864,17 @@ const data = {
                 ],
                 narrow: [
                     "j",
-                    "s",
+                    "sh",
                     "m",
                     "p",
                     "m",
                     "q",
                     "k",
                     "g",
-                    "s",
+                    "sh",
                     "t",
                     "n",
-                    "d"
+                    "dh"
                 ],
                 wide: [
                     "janar",
@@ -1864,8 +1899,8 @@ const data = {
                     "Pri",
                     "Maj",
                     "Qer",
-                    "Kor",
-                    "Gsh",
+                    "Korr",
+                    "Gush",
                     "Sht",
                     "Tet",
                     "Nën",
@@ -1873,17 +1908,17 @@ const data = {
                 ],
                 narrow: [
                     "J",
-                    "S",
+                    "Sh",
                     "M",
                     "P",
                     "M",
                     "Q",
                     "K",
                     "G",
-                    "S",
+                    "Sh",
                     "T",
                     "N",
-                    "D"
+                    "Dh"
                 ],
                 wide: [
                     "Janar",
@@ -2037,8 +2072,8 @@ const data = {
                 }
             }
         },
-        gmtFormat: "Ora e Grinuiçit: {0}",
-        gmtZeroFormat: "Ora e Grinuiçit",
+        gmtFormat: "GMT{0}",
+        gmtZeroFormat: "GMT",
         dateFields: {
             era: {
                 wide: "erë",
@@ -2066,9 +2101,9 @@ const data = {
                 narrow: "javë"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "javë e muajit",
+                short: "javë e muajit",
+                narrow: "javë e muajit"
             },
             day: {
                 wide: "ditë",
@@ -2076,9 +2111,9 @@ const data = {
                 narrow: "ditë"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "ditë e vitit",
+                short: "ditë e vitit",
+                narrow: "ditë e vitit"
             },
             weekday: {
                 wide: "ditë e javës",
@@ -2086,9 +2121,9 @@ const data = {
                 narrow: "ditë e javës"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "ditë pune e muajit",
+                short: "ditë pune e muajit",
+                narrow: "ditë pune e muajit"
             },
             dayperiod: {
                 short: "paradite/pasdite",

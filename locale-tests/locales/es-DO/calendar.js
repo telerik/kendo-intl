@@ -30,8 +30,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E d",
                 Ehm: "E, h:mm a",
                 EHm: "E, HH:mm",
@@ -83,8 +88,8 @@ const data = {
                 yMMMMEd: "EEE, d 'de' MMMM 'de' y",
                 yQQQ: "QQQ 'de' y",
                 yQQQQ: "QQQQ 'de' y",
-                "yw-count-one": "'semana' w 'de' y",
-                "yw-count-other": "'semana' w 'de' y"
+                "yw-count-one": "'semana' w 'de' Y",
+                "yw-count-other": "'semana' w 'de' Y"
             }
         },
         timeFormats: {
@@ -194,18 +199,18 @@ const data = {
                     "dic."
                 ],
                 narrow: [
-                    "e",
-                    "f",
-                    "m",
-                    "a",
-                    "m",
-                    "j",
-                    "j",
-                    "a",
-                    "s",
-                    "o",
-                    "n",
-                    "d"
+                    "E",
+                    "F",
+                    "M",
+                    "A",
+                    "M",
+                    "J",
+                    "J",
+                    "A",
+                    "S",
+                    "O",
+                    "N",
+                    "D"
                 ],
                 wide: [
                     "enero",
@@ -282,9 +287,9 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "1.er trimestre",
+                    "1.º trimestre",
                     "2.º trimestre",
-                    "3.er trimestre",
+                    "3.º trimestre",
                     "4.º trimestre"
                 ]
             },
@@ -302,9 +307,9 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "1.er trimestre",
+                    "1.º trimestre",
                     "2.º trimestre",
-                    "3.er trimestre",
+                    "3.º trimestre",
                     "4.º trimestre"
                 ]
             }
@@ -396,8 +401,8 @@ const data = {
         dateFields: {
             era: {
                 wide: "Era",
-                short: "Era",
-                narrow: "Era"
+                short: "era",
+                narrow: "era"
             },
             year: {
                 wide: "Año",
@@ -420,9 +425,9 @@ const data = {
                 narrow: "sem."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "semana del mes",
+                short: "sem. del mes",
+                narrow: "sem. del mes"
             },
             day: {
                 wide: "Día",
@@ -430,24 +435,24 @@ const data = {
                 narrow: "d"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "día del año",
+                short: "día del año",
+                narrow: "día del año"
             },
             weekday: {
                 wide: "Día de la semana",
-                short: "Día de la semana",
-                narrow: "Día de la semana"
+                short: "día de sem.",
+                narrow: "día de sem."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "día hábil del mes",
+                short: "día hábil del mes",
+                narrow: "día hábil del mes"
             },
             dayperiod: {
-                short: "a. m./p. m.",
+                short: "a.m./p.m.",
                 wide: "a. m./p. m.",
-                narrow: "a. m./p. m."
+                narrow: "a.m./p.m."
             },
             hour: {
                 wide: "hora",
@@ -465,9 +470,9 @@ const data = {
                 narrow: "s"
             },
             zone: {
-                wide: "Zona horaria",
-                short: "Zona horaria",
-                narrow: "Zona horaria"
+                wide: "zona horaria",
+                short: "zona",
+                narrow: "zona"
             }
         }
     },

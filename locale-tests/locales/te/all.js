@@ -84,6 +84,10 @@ const data = {
                 "displayName-count-other": "ఆఫ్ఘాన్ ఆఫ్ఘాని",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "ఆల్బేనియన్ లేక్",
                 "displayName-count-one": "ఆల్బేనియన్ లేక్",
@@ -396,6 +400,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "చైనీస్ యూవాన్ (ఆఫ్‌షోర్)",
+                "displayName-count-one": "చైనీస్ యూవాన్ (ఆఫ్‌షోర్)",
+                "displayName-count-other": "చైనీస్ యూవాన్ (ఆఫ్‌షోర్)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "చైనా దేశ యువాన్",
                 "displayName-count-one": "చైనా దేశ యువాన్",
@@ -682,9 +696,9 @@ const data = {
                 symbol: "HTG"
             },
             HUF: {
-                displayName: "హంగేరియన్ ఫోరిన్ట్",
-                "displayName-count-one": "హంగేరియన్ ఫోరిన్ట్",
-                "displayName-count-other": "హంగేరియన్ ఫోరిన్ట్‌లు",
+                displayName: "హంగేరియన్ ఫోరింట్",
+                "displayName-count-one": "హంగేరియన్ ఫోరింట్",
+                "displayName-count-other": "హంగేరియన్ ఫోరింట్‌లు",
                 symbol: "HUF",
                 "symbol-alt-narrow": "Ft"
             },
@@ -702,6 +716,10 @@ const data = {
             ILP: {
                 displayName: "ILP",
                 symbol: "ILP"
+            },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
             },
             ILS: {
                 displayName: "ఐరాయిలి న్యూ షెక్యెల్",
@@ -728,6 +746,10 @@ const data = {
                 "displayName-count-one": "ఇరానియన్ రీయల్",
                 "displayName-count-other": "ఇరానియన్ రీయల్‌లు",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "ఐస్లాండిక్ క్రోనా",
@@ -989,6 +1011,10 @@ const data = {
                 "displayName-count-other": "మారిషన్ రూపాయలు",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "మాల్దీవియన్ రుఫియా",
@@ -1300,6 +1326,10 @@ const data = {
                 "displayName-count-other": "సావో టోమ్ మరియు ప్రిన్సిపి డోబ్రాలు",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",
@@ -1672,22 +1702,27 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} {0}",
-            long: "{1} {0}",
+            full: "{1} {0}కి",
+            long: "{1} {0}కి",
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
-                Ed: "E d",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
+                Ed: "d, E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
-                GyMMM: "G y MMM",
+                GyMMM: "G MMM y",
                 GyMMMd: "G d, MMM y",
-                GyMMMEd: "G, E d, MMM y",
+                GyMMMEd: "G, d MMM, y, E",
                 h: "h a",
                 H: "HH",
                 hm: "h:mm a",
@@ -1700,28 +1735,28 @@ const data = {
                 Hmv: "HH:mm v",
                 M: "L",
                 Md: "d/M",
-                MEd: "E, d/M",
+                MEd: "d/M, E",
                 MMdd: "dd-MM",
                 MMM: "LLL",
                 MMMd: "d MMM",
-                MMMEd: "E, d MMM",
+                MMMEd: "d MMM, E",
                 MMMMd: "d MMMM",
-                "MMMMW-count-one": "MMM Wవ వారం",
-                "MMMMW-count-other": "MMM Wవ వారం",
+                "MMMMW-count-one": "MMMMలో Wవ వారం",
+                "MMMMW-count-other": "MMMMలో Wవ వారం",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M/y",
                 yMd: "d/M/y",
-                yMEd: "E, d/M/y",
+                yMEd: "d/M/y, E",
                 yMM: "MM-y",
                 yMMM: "MMM y",
                 yMMMd: "d, MMM y",
-                yMMMEd: "E, d, MMM y",
+                yMMMEd: "d MMM, y, E",
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "y wవ వారం",
-                "yw-count-other": "y wవ వారం"
+                "yw-count-one": "Yలో wవ వారం",
+                "yw-count-other": "Yలో wవ వారం"
             }
         },
         timeFormats: {
@@ -1868,7 +1903,7 @@ const data = {
                     "మే",
                     "జూన్",
                     "జులై",
-                    "ఆగస్టు",
+                    "ఆగ",
                     "సెప్టెం",
                     "అక్టో",
                     "నవం",
@@ -1919,10 +1954,10 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "1వ త్రైమాసం",
-                    "2వ త్రైమాసం",
-                    "3వ త్రైమాసం",
-                    "4వ త్రైమాసం"
+                    "1వ త్రైమాసికం",
+                    "2వ త్రైమాసికం",
+                    "3వ త్రైమాసికం",
+                    "4వ త్రైమాసికం"
                 ]
             },
             "stand-alone": {
@@ -1939,17 +1974,17 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "మొదటి త్రైమాసికం",
-                    "రెండవ త్రైమాసికం",
-                    "మూడవ త్రైమాసికం",
-                    "నాల్గవ త్రైమాసికం"
+                    "1వ త్రైమాసికం",
+                    "2వ త్రైమాసికం",
+                    "3వ త్రైమాసికం",
+                    "4వ త్రైమాసికం"
                 ]
             }
         },
         dayPeriods: {
             format: {
                 abbreviated: {
-                    midnight: "అర్థరాత్రి",
+                    midnight: "అర్ధరాత్రి",
                     am: "AM",
                     pm: "PM",
                     morning1: "ఉదయం",
@@ -1958,7 +1993,7 @@ const data = {
                     night1: "రాత్రి"
                 },
                 narrow: {
-                    midnight: "అర్థరాత్రి",
+                    midnight: "అర్ధరాత్రి",
                     am: "ఉ",
                     pm: "సా",
                     morning1: "ఉదయం",
@@ -1967,7 +2002,7 @@ const data = {
                     night1: "రాత్రి"
                 },
                 wide: {
-                    midnight: "అర్థరాత్రి",
+                    midnight: "అర్ధరాత్రి",
                     am: "AM",
                     pm: "PM",
                     morning1: "ఉదయం",
@@ -1978,7 +2013,7 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: {
-                    midnight: "అర్థరాత్రి",
+                    midnight: "అర్ధరాత్రి",
                     am: "AM",
                     pm: "PM",
                     morning1: "ఉదయం",
@@ -1987,7 +2022,7 @@ const data = {
                     night1: "రాత్రి"
                 },
                 narrow: {
-                    midnight: "అర్థరాత్రి",
+                    midnight: "అర్ధరాత్రి",
                     am: "AM",
                     pm: "PM",
                     morning1: "ఉదయం",
@@ -1996,7 +2031,7 @@ const data = {
                     night1: "రాత్రి"
                 },
                 wide: {
-                    midnight: "అర్థరాత్రి",
+                    midnight: "అర్ధరాత్రి",
                     am: "AM",
                     pm: "PM",
                     morning1: "ఉదయం",
@@ -2032,9 +2067,9 @@ const data = {
         gmtZeroFormat: "GMT",
         dateFields: {
             era: {
-                wide: "యుగం, శకము",
-                short: "యుగం, శకము",
-                narrow: "యుగం, శకము"
+                wide: "యుగం",
+                short: "యుగం",
+                narrow: "యుగం"
             },
             year: {
                 wide: "సంవత్సరం",
@@ -2053,23 +2088,23 @@ const data = {
             },
             week: {
                 wide: "వారము",
-                short: "వారము",
+                short: "వా",
                 narrow: "వా"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "నెలలో వారం",
+                short: "నెలలో వారం",
+                narrow: "నెలలో వారం"
             },
             day: {
                 wide: "దినం",
                 short: "దినం",
-                narrow: "ది"
+                narrow: "రోజు"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "సంవత్సరంలో దినం",
+                short: "సంవత్సరంలో దినం",
+                narrow: "సంవత్సరంలో దినం"
             },
             weekday: {
                 wide: "వారంలో రోజు",
@@ -2077,9 +2112,9 @@ const data = {
                 narrow: "వారంలో రోజు"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "నెలలో పనిదినం",
+                short: "నెలలో పనిదినం",
+                narrow: "నెలలో పనిదినం"
             },
             dayperiod: {
                 short: "AM/PM",
@@ -2102,9 +2137,9 @@ const data = {
                 narrow: "సెక."
             },
             zone: {
-                wide: "కాల మండలం",
-                short: "కాల మండలం",
-                narrow: "కాల మండలం"
+                wide: "సమయ మండలి",
+                short: "సమయ మండలి",
+                narrow: "సమయ మండలి"
             }
         }
     },

@@ -29,6 +29,10 @@ const data = {
                 "displayName-count-other": "ஆஃப்கான் ஆஃப்கானிகள்",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "அல்பேனியன் லெக்",
                 "displayName-count-one": "அல்பேனியன் லெக்",
@@ -341,6 +345,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "CNH",
+                "displayName-count-one": "CNH",
+                "displayName-count-other": "CNH",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "சீன யுவான்",
                 "displayName-count-one": "சீன யுவான்",
@@ -648,6 +662,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "இஸ்ரேலி நியூ ஷிகேல்",
                 "displayName-count-one": "இஸ்ரேலி நியூ ஷிகேல்",
@@ -673,6 +691,10 @@ const data = {
                 "displayName-count-one": "ஈரானியன் ரியால்",
                 "displayName-count-other": "ஈரானியன் ரியால்கள்",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "ஐஸ்லாண்டிக் க்ரோனா",
@@ -934,6 +956,10 @@ const data = {
                 "displayName-count-other": "மொரீஷியன் ருபீக்கள்",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "மாலத்தீவு ருஃபியா",
@@ -1245,6 +1271,10 @@ const data = {
                 "displayName-count-other": "சாவ் டோமி மற்றும் பிரின்ஸ்பி டோப்ராக்கள்",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

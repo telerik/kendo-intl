@@ -31,8 +31,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "Bh時",
+                Bhm: "Bh:mm",
+                Bhms: "Bh:mm:ss",
                 d: "d日",
                 E: "ccc",
+                EBhm: "E Bh:mm",
+                EBhms: "E Bh:mm:ss",
                 Ed: "d E",
                 Ehm: "E ah:mm",
                 EHm: "E HH:mm",
@@ -73,7 +78,7 @@ const data = {
                 yMMMM: "y年M月",
                 yQQQ: "y年QQQ",
                 yQQQQ: "y年QQQQ",
-                "yw-count-other": "y年的第w週"
+                "yw-count-other": "Y年的第w週"
             }
         },
         timeFormats: {
@@ -259,10 +264,10 @@ const data = {
         quarters: {
             format: {
                 abbreviated: [
-                    "1季",
-                    "2季",
-                    "3季",
-                    "4季"
+                    "第1季",
+                    "第2季",
+                    "第3季",
+                    "第4季"
                 ],
                 narrow: [
                     "1",
@@ -279,10 +284,10 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "1季",
-                    "2季",
-                    "3季",
-                    "4季"
+                    "第1季",
+                    "第2季",
+                    "第3季",
+                    "第4季"
                 ],
                 narrow: [
                     "1",
@@ -421,9 +426,9 @@ const data = {
                 narrow: "週"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "週",
+                short: "週",
+                narrow: "週"
             },
             day: {
                 wide: "日",
@@ -431,9 +436,9 @@ const data = {
                 narrow: "日"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "年天",
+                short: "年天",
+                narrow: "年天"
             },
             weekday: {
                 wide: "週天",
@@ -441,9 +446,9 @@ const data = {
                 narrow: "週天"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "每月平日",
+                short: "每月平日",
+                narrow: "每月平日"
             },
             dayperiod: {
                 short: "上午/下午",

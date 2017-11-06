@@ -29,8 +29,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -74,8 +79,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'vecka' w, y",
-                "yw-count-other": "'vecka' w, y"
+                "yw-count-one": "'vecka' w, Y",
+                "yw-count-other": "'vecka' w, Y"
             }
         },
         timeFormats: {
@@ -387,8 +392,8 @@ const data = {
                 narrow: {
                     0: "f.Kr.",
                     1: "e.Kr.",
-                    "0-alt-variant": "fvt",
-                    "1-alt-variant": "vt"
+                    "0-alt-variant": "f.v.t.",
+                    "1-alt-variant": "v.t."
                 }
             }
         },
@@ -421,9 +426,9 @@ const data = {
                 narrow: "v"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "vecka i månaden",
+                short: "vk. i mån.",
+                narrow: "vk.i mån."
             },
             day: {
                 wide: "dag",
@@ -431,9 +436,9 @@ const data = {
                 narrow: "dag"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "dag under året",
+                short: "dag under året",
+                narrow: "dag under året"
             },
             weekday: {
                 wide: "veckodag",
@@ -441,9 +446,9 @@ const data = {
                 narrow: "veckodag"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "veckodag i månad",
+                short: "veckodag i mån.",
+                narrow: "veckodag i mån."
             },
             dayperiod: {
                 short: "fm/em",

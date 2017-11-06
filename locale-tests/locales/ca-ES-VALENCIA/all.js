@@ -90,7 +90,8 @@ const data = {
             ALK: {
                 displayName: "lek albanès (1946–1965)",
                 "displayName-count-one": "lek albanès (1946–1965)",
-                "displayName-count-other": "lekë albanesos (1946–1965)"
+                "displayName-count-other": "lekë albanesos (1946–1965)",
+                symbol: "ALK"
             },
             ALL: {
                 displayName: "lek albanès",
@@ -468,9 +469,17 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "iuan xinès extracontinental",
+                "displayName-count-one": "iuan xinès extracontinental",
+                "displayName-count-other": "iuan xinès extracontinental",
+                symbol: "CNH"
+            },
             CNX: {
+                displayName: "CNX",
                 "displayName-count-one": "dòlar del Banc Popular Xinès",
-                "displayName-count-other": "dòlars del Banc Popular Xinès"
+                "displayName-count-other": "dòlars del Banc Popular Xinès",
+                symbol: "CNX"
             },
             CNY: {
                 displayName: "iuan xinès",
@@ -833,7 +842,8 @@ const data = {
             ILR: {
                 displayName: "xéquel israelià",
                 "displayName-count-one": "xéquel israelià",
-                "displayName-count-other": "xéquel israelià"
+                "displayName-count-other": "xéquel israelià",
+                symbol: "ILR"
             },
             ILS: {
                 displayName: "nou xéquel israelià",
@@ -864,7 +874,8 @@ const data = {
             ISJ: {
                 displayName: "corona islandesa antiga",
                 "displayName-count-one": "corona islandesa antiga",
-                "displayName-count-other": "corones islandeses antigues"
+                "displayName-count-other": "corones islandeses antigues",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "corona islandesa",
@@ -1160,6 +1171,10 @@ const data = {
                 "displayName-count-other": "rupies mauricianes",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "rupia de les Maldives",
@@ -1507,6 +1522,10 @@ const data = {
                 "displayName-count-other": "dobras de São Tomé i Príncipe",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "ruble soviètic",
@@ -1964,8 +1983,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E d",
                 Ehm: "E h:mm a",
                 EHm: "E H:mm",
@@ -1981,13 +2005,13 @@ const data = {
                 h: "h a",
                 H: "H",
                 hm: "h:mm a",
-                Hm: "HH:mm",
+                Hm: "H:mm",
                 hms: "h:mm:ss a",
-                Hms: "HH:mm:ss",
+                Hms: "H:mm:ss",
                 hmsv: "h:mm:ss a v",
-                Hmsv: "HH:mm:ss v",
+                Hmsv: "H:mm:ss v",
                 hmv: "h:mm a v",
-                Hmv: "HH:mm v",
+                Hmv: "H:mm v",
                 M: "L",
                 Md: "d/M",
                 MEd: "E d/M",
@@ -2004,15 +2028,15 @@ const data = {
                 yMd: "d/M/y",
                 yMEd: "E, d/M/y",
                 yMMM: "LLL 'de' y",
-                yMMMd: "d LLL y",
+                yMMMd: "d MMM 'de' y",
                 yMMMEd: "E, d MMM y",
                 yMMMM: "LLLL 'de' y",
                 yMMMMd: "d MMMM 'de' y",
                 yMMMMEd: "E, d MMMM 'de' y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'setmana' w 'de' y",
-                "yw-count-other": "'setmana' w 'de' y"
+                "yw-count-one": "'setmana' w 'de' Y",
+                "yw-count-other": "'setmana' w 'de' Y"
             }
         },
         timeFormats: {
@@ -2360,9 +2384,9 @@ const data = {
                 narrow: "setm."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "setmana del mes",
+                short: "setm. del mes",
+                narrow: "setm. del mes"
             },
             day: {
                 wide: "dia",
@@ -2370,19 +2394,19 @@ const data = {
                 narrow: "dia"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "dia de l’any",
+                short: "dia de l’any",
+                narrow: "dia de l’any"
             },
             weekday: {
                 wide: "dia de la setmana",
-                short: "dia de la setmana",
-                narrow: "dia de la setmana"
+                short: "dia de la setm.",
+                narrow: "dia de la setm."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "dia de la setmana del mes",
+                short: "dia de la setm. del mes",
+                narrow: "dia de la setm. del mes"
             },
             dayperiod: {
                 short: "a. m./p. m.",

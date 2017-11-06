@@ -36,7 +36,8 @@ const data = {
             ALK: {
                 displayName: "lek albanès (1946–1965)",
                 "displayName-count-one": "lek albanès (1946–1965)",
-                "displayName-count-other": "lekë albanesos (1946–1965)"
+                "displayName-count-other": "lekë albanesos (1946–1965)",
+                symbol: "ALK"
             },
             ALL: {
                 displayName: "lek albanès",
@@ -414,9 +415,17 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "iuan xinès extracontinental",
+                "displayName-count-one": "iuan xinès extracontinental",
+                "displayName-count-other": "iuan xinès extracontinental",
+                symbol: "CNH"
+            },
             CNX: {
+                displayName: "CNX",
                 "displayName-count-one": "dòlar del Banc Popular Xinès",
-                "displayName-count-other": "dòlars del Banc Popular Xinès"
+                "displayName-count-other": "dòlars del Banc Popular Xinès",
+                symbol: "CNX"
             },
             CNY: {
                 displayName: "iuan xinès",
@@ -779,7 +788,8 @@ const data = {
             ILR: {
                 displayName: "xéquel israelià",
                 "displayName-count-one": "xéquel israelià",
-                "displayName-count-other": "xéquel israelià"
+                "displayName-count-other": "xéquel israelià",
+                symbol: "ILR"
             },
             ILS: {
                 displayName: "nou xéquel israelià",
@@ -810,7 +820,8 @@ const data = {
             ISJ: {
                 displayName: "corona islandesa antiga",
                 "displayName-count-one": "corona islandesa antiga",
-                "displayName-count-other": "corones islandeses antigues"
+                "displayName-count-other": "corones islandeses antigues",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "corona islandesa",
@@ -1106,6 +1117,10 @@ const data = {
                 "displayName-count-other": "rupies mauricianes",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "rupia de les Maldives",
@@ -1453,6 +1468,10 @@ const data = {
                 "displayName-count-other": "dobras de São Tomé i Príncipe",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "ruble soviètic",

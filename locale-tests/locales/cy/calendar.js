@@ -29,8 +29,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "d, E",
                 Ehm: "E, h:mm a",
                 EHm: "E, HH:mm",
@@ -57,12 +62,12 @@ const data = {
                 MMMd: "d MMM",
                 MMMEd: "E, d MMM",
                 MMMMd: "MMMM d",
-                "MMMMW-count-zero": "'wythnos' W 'o' MMM",
-                "MMMMW-count-one": "'wythnos' W 'o' MMM",
-                "MMMMW-count-two": "'wythnos' W 'o' MMM",
-                "MMMMW-count-few": "'wythnos' W 'o' MMM",
-                "MMMMW-count-many": "'wythnos' W 'o' MMM",
-                "MMMMW-count-other": "'wythnos' W 'o' MMM",
+                "MMMMW-count-zero": "'wythnos' W 'o' MMMM",
+                "MMMMW-count-one": "'wythnos' W 'o' MMMM",
+                "MMMMW-count-two": "'wythnos' W 'o' MMMM",
+                "MMMMW-count-few": "'wythnos' W 'o' MMMM",
+                "MMMMW-count-many": "'wythnos' W 'o' MMMM",
+                "MMMMW-count-other": "'wythnos' W 'o' MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M/y",
@@ -75,12 +80,12 @@ const data = {
                 yQ: "Q y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-zero": "'wythnos' w 'of' y",
-                "yw-count-one": "'wythnos' w 'of' y",
-                "yw-count-two": "'wythnos' w 'of' y",
-                "yw-count-few": "'wythnos' w 'of' y",
-                "yw-count-many": "'wythnos' w 'of' y",
-                "yw-count-other": "'wythnos' w 'of' y"
+                "yw-count-zero": "'wythnos' w 'o' Y",
+                "yw-count-one": "'wythnos' w 'o' Y",
+                "yw-count-two": "'wythnos' w 'o' Y",
+                "yw-count-few": "'wythnos' w 'o' Y",
+                "yw-count-many": "'wythnos' w 'o' Y",
+                "yw-count-other": "'wythnos' w 'o' Y"
             }
         },
         timeFormats: {
@@ -316,8 +321,13 @@ const data = {
                     pm: "h"
                 },
                 wide: {
+                    midnight: "canol nos",
                     am: "yb",
-                    pm: "yh"
+                    noon: "canol dydd",
+                    pm: "yh",
+                    morning1: "y bore",
+                    afternoon1: "y prynhawn",
+                    evening1: "yr hwyr"
                 }
             },
             "stand-alone": {
@@ -330,8 +340,13 @@ const data = {
                     pm: "yh"
                 },
                 wide: {
+                    midnight: "canol nos",
                     am: "yb",
-                    pm: "yh"
+                    noon: "canol dydd",
+                    pm: "yh",
+                    morning1: "y bore",
+                    afternoon1: "y prynhawn",
+                    evening1: "yr hwyr"
                 }
             }
         },
@@ -346,14 +361,14 @@ const data = {
                 abbreviated: {
                     0: "CC",
                     1: "OC",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "CCC",
+                    "1-alt-variant": "CYCY"
                 },
                 narrow: {
                     0: "C",
                     1: "O",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "CCC",
+                    "1-alt-variant": "CYCY"
                 }
             }
         },
@@ -373,7 +388,7 @@ const data = {
             quarter: {
                 wide: "chwarter",
                 short: "chwarter",
-                narrow: "chwarter"
+                narrow: "chw."
             },
             month: {
                 wide: "mis",
@@ -386,34 +401,34 @@ const data = {
                 narrow: "wythnos"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "rhif wythnos yn y mis",
+                short: "wythnos y mis",
+                narrow: "wythnos y mis"
             },
             day: {
-                wide: "dydd",
-                short: "dydd",
-                narrow: "dydd"
+                wide: "diwrnod",
+                short: "diwrnod",
+                narrow: "diwrnod"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "rhif y dydd yn y flwyddyn",
+                short: "rhif y dydd yn y fl.",
+                narrow: "dydd y fl."
             },
             weekday: {
-                wide: "dydd o’r wythnos",
-                short: "dydd o’r wythnos",
-                narrow: "dydd o’r wythnos"
+                wide: "diwrnod o’r wythnos",
+                short: "diwrnod o’r wythnos",
+                narrow: "diwrnod o’r wythnos"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "diwrnod yn y mis",
+                short: "diwrnod yn y mis",
+                narrow: "diwrnod yn y mis"
             },
             dayperiod: {
-                short: "YB/YH",
-                wide: "YB/YH",
-                narrow: "YB/YH"
+                short: "AM/PM",
+                wide: "AM/PM",
+                narrow: "AM/PM"
             },
             hour: {
                 wide: "awr",
@@ -433,7 +448,7 @@ const data = {
             zone: {
                 wide: "cylchfa amser",
                 short: "cylchfa amser",
-                narrow: "cylchfa amser"
+                narrow: "cylchfa"
             }
         }
     },

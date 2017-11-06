@@ -29,6 +29,10 @@ const data = {
                 "displayName-count-other": "afghani",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "lek albanese",
                 "displayName-count-one": "lek albanese",
@@ -343,6 +347,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "CNH",
+                "displayName-count-one": "CNH",
+                "displayName-count-other": "CNH",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "renminbi cinese",
                 "displayName-count-one": "renmimbi cinese",
@@ -650,6 +664,10 @@ const data = {
                 displayName: "sterlina israeliana",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "nuovo siclo israeliano",
                 "displayName-count-one": "nuovo siclo israeliano",
@@ -675,6 +693,10 @@ const data = {
                 "displayName-count-one": "rial iraniano",
                 "displayName-count-other": "rial iraniani",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "corona islandese",
@@ -940,6 +962,10 @@ const data = {
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
+            },
             MVR: {
                 displayName: "rufiyaa delle Maldive",
                 "displayName-count-one": "rufiyaa delle Maldive",
@@ -1129,7 +1155,7 @@ const data = {
                 "displayName-count-one": "leu rumeno",
                 "displayName-count-other": "lei rumeni",
                 symbol: "RON",
-                "symbol-alt-narrow": "L"
+                "symbol-alt-narrow": "lei"
             },
             RSD: {
                 displayName: "dinaro serbo",
@@ -1255,6 +1281,10 @@ const data = {
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
             },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
+            },
             SUR: {
                 displayName: "rublo sovietico",
                 symbol: "SUR"
@@ -1379,7 +1409,7 @@ const data = {
                 displayName: "dollaro statunitense",
                 "displayName-count-one": "dollaro statunitense",
                 "displayName-count-other": "dollari statunitensi",
-                symbol: "US$",
+                symbol: "USD",
                 "symbol-alt-narrow": "$"
             },
             USN: {

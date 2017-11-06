@@ -10,16 +10,16 @@ const data = {
     calendar: {
         patterns: {
             d: "dd-MM-y",
-            D: "EEEE d MMMM y",
+            D: "y၊ MMMM d၊ EEEE",
             m: "d MMM",
             M: "MMMM d",
             y: "MMM y",
-            Y: "MMMM y",
-            F: "EEEE d MMMM y HH:mm:ss",
-            g: "dd-MM-y HH:mm",
-            G: "dd-MM-y HH:mm:ss",
-            t: "HH:mm",
-            T: "HH:mm:ss",
+            Y: "y MMMM",
+            F: "y၊ MMMM d၊ EEEE B HH:mm:ss",
+            g: "dd-MM-y B H:mm",
+            G: "dd-MM-y B HH:mm:ss",
+            t: "B H:mm",
+            T: "B HH:mm:ss",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
@@ -29,22 +29,27 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "B h",
+                Bhm: "B h:mm",
+                Bhms: "B h:mm:ss",
                 d: "d",
                 E: "cccနေ့",
+                EBhm: "E B h:mm",
+                EBhms: "E B h:mm:ss",
                 Ed: "d ရက် Eနေ့",
-                Ehm: "Eနေ့ a h:mm",
-                EHm: "HH:mm Eနေ့",
-                Ehms: "Eနေ့ a h:mm:ss",
-                EHms: "HH:mm:ss Eနေ့",
+                Ehm: "E B h:mm",
+                EHm: "E HH:mm",
+                Ehms: "E B h:mm:ss",
+                EHms: "E HH:mm:ss",
                 Gy: "G y",
                 GyMMM: "G y MMM",
-                GyMMMd: "G y MMM d ရက်",
-                GyMMMEd: "G y MMM d ရက် Eနေ့",
-                h: "a h နာရီ",
+                GyMMMd: "G y၊ MMM d",
+                GyMMMEd: "G y၊ MMM d၊ E",
+                h: "B h",
                 H: "HH",
-                hm: "a h:mm",
+                hm: "B h:mm",
                 Hm: "HH:mm",
-                hms: "a h:mm:ss",
+                hms: "B h:mm:ss",
                 Hms: "HH:mm:ss",
                 hmsv: "v a h:mm:ss",
                 Hmsv: "v HH:mm:ss",
@@ -52,10 +57,10 @@ const data = {
                 Hmv: "v HH:mm",
                 M: "L",
                 Md: "d/M",
-                MEd: "d/M Eနေ့",
+                MEd: "d/M၊ E",
                 MMM: "LLL",
                 MMMd: "d MMM",
-                MMMEd: "MMM d ရက် Eနေ့",
+                MMMEd: "MMM d၊ E",
                 MMMMd: "MMMM d",
                 MMMMEd: "MMMM d ရက် Eနေ့",
                 "MMMMW-count-other": "MMM လ W ပတ်မြောက်",
@@ -63,26 +68,26 @@ const data = {
                 y: "y",
                 yM: "M/y",
                 yMd: "dd-MM-y",
-                yMEd: "d-M-y Eနေ့",
+                yMEd: "d/M/y၊ E",
                 yMMM: "MMM y",
-                yMMMd: "d MMM y",
-                yMMMEd: "d MMM y Eနေ့",
-                yMMMM: "MMMM y",
+                yMMMd: "y၊ MMM d",
+                yMMMEd: "y၊ MMM d၊ E",
+                yMMMM: "y MMMM",
                 yQQQ: "y QQQ",
                 yQQQQ: "y QQQQ",
-                "yw-count-other": "y ခု w ပတ်မြောက်"
+                "yw-count-other": "Y ခု w ပတ်မြောက်"
             }
         },
         timeFormats: {
             full: "zzzz HH:mm:ss",
             long: "z HH:mm:ss",
-            medium: "HH:mm:ss",
-            short: "HH:mm"
+            medium: "B HH:mm:ss",
+            short: "B H:mm"
         },
         dateFormats: {
-            full: "EEEE d MMMM y",
-            long: "d MMMM y",
-            medium: "d MMM y",
+            full: "y၊ MMMM d၊ EEEE",
+            long: "y၊ d MMMM",
+            medium: "y၊ MMM d",
             short: "dd-MM-yy"
         },
         days: {
@@ -366,8 +371,8 @@ const data = {
                 wide: {
                     0: "ခရစ်တော် မပေါ်မီနှစ်",
                     1: "ခရစ်နှစ်",
-                    "0-alt-variant": "သာမန်ကာလ မတိုင်မီ ခေတ်",
-                    "1-alt-variant": "သာမန်ကာလ"
+                    "0-alt-variant": "ဘုံခေတ် မတိုင်မီ",
+                    "1-alt-variant": "ဘုံခေတ်"
                 },
                 abbreviated: {
                     0: "ဘီစီ",
@@ -412,9 +417,9 @@ const data = {
                 narrow: "ပတ်"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "တစ်လအတွင်းရှိသီတင်းပတ်",
+                short: "တစ်လအတွင်းရှိသီတင်းပတ်",
+                narrow: "တစ်လအတွင်းရှိသီတင်းပတ်"
             },
             day: {
                 wide: "ရက်",
@@ -422,9 +427,9 @@ const data = {
                 narrow: "ရက်"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "တစ်နှစ်အတွင်း ရက်ရေတွက်ပုံ",
+                short: "တစ်နှစ်အတွင်း ရက်ရေတွက်ပုံ",
+                narrow: "တစ်နှစ်အတွင်း ရက်ရေတွက်ပုံ"
             },
             weekday: {
                 wide: "နေ့",
@@ -432,9 +437,9 @@ const data = {
                 narrow: "နေ့"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "တစ်လအတွင်းရှိအလုပ်ရက်",
+                short: "တစ်လအတွင်းရှိအလုပ်ရက်",
+                narrow: "တစ်လအတွင်းရှိအလုပ်ရက်"
             },
             dayperiod: {
                 short: "နံနက်/ညနေ",

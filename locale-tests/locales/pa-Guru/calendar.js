@@ -30,8 +30,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "d, E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -72,8 +77,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "y ਦਾ w ਹਫ਼ਤਾ",
-                "yw-count-other": "y ਦਾ w ਹਫ਼ਤਾ"
+                "yw-count-one": "Y ਦਾ w ਹਫ਼ਤਾ",
+                "yw-count-other": "Y ਦਾ w ਹਫ਼ਤਾ"
             }
         },
         timeFormats: {
@@ -409,9 +414,9 @@ const data = {
                 narrow: "ਹਫ਼ਤਾ"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "ਮਹੀਨੇ ਦਾ ਹਫ਼ਤਾ",
+                short: "ਮਹੀਨੇ ਦਾ ਹਫ਼ਤਾ",
+                narrow: "ਮਹੀਨੇ ਦਾ ਹਫ਼ਤਾ"
             },
             day: {
                 wide: "ਦਿਨ",
@@ -419,9 +424,9 @@ const data = {
                 narrow: "ਦਿਨ"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "ਸਾਲ ਦਾ ਦਿਨ",
+                short: "ਸਾਲ ਦਾ ਦਿਨ",
+                narrow: "ਸਾਲ ਦਾ ਦਿਨ"
             },
             weekday: {
                 wide: "ਹਫ਼ਤੇ ਦਾ ਦਿਨ",
@@ -429,9 +434,9 @@ const data = {
                 narrow: "ਹਫ਼ਤੇ ਦਾ ਦਿਨ"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "ਮਹੀਨੇ ਦਾ ਹਫ਼ਤੇ ਦਾ ਦਿਨ",
+                short: "ਮਹੀਨੇ ਦਾ ਹਫ਼ਤੇ ਦਾ ਦਿਨ",
+                narrow: "ਮਹੀਨੇ ਦਾ ਹਫ਼ਤੇ ਦਾ ਦਿਨ"
             },
             dayperiod: {
                 short: "ਪੂ.ਦੁ./ਬਾ.ਦੁ.",

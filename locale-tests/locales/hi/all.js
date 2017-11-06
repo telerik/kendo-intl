@@ -84,6 +84,10 @@ const data = {
                 "displayName-count-other": "अफ़गान अफ़गानी",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "अल्बानियाई लेक",
                 "displayName-count-one": "अल्बानियाई लेक",
@@ -396,6 +400,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "चीनी यूआन",
+                "displayName-count-one": "चीनी यूआन",
+                "displayName-count-other": "चीनी यूआन",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "चीनी युआन",
                 "displayName-count-one": "चीनी युआन",
@@ -703,6 +717,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "इज़राइली न्यू शेकेल",
                 "displayName-count-one": "इज़राइली न्यू शेकेल",
@@ -728,6 +746,10 @@ const data = {
                 "displayName-count-one": "ईरानी रियाल",
                 "displayName-count-other": "ईरानी रियाल",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "आइसलैंडिक क्रोना",
@@ -990,6 +1012,10 @@ const data = {
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
+            },
             MVR: {
                 displayName: "मालदीवी रुफ़िया",
                 "displayName-count-one": "मालदीवी रुफ़िया",
@@ -1175,7 +1201,7 @@ const data = {
                 "displayName-count-one": "रोमानियाई ल्यू",
                 "displayName-count-other": "रोमानियाई ल्यू",
                 symbol: "RON",
-                "symbol-alt-narrow": "lei"
+                "symbol-alt-narrow": "लेई"
             },
             RSD: {
                 displayName: "सर्बियन दिनार",
@@ -1300,6 +1326,10 @@ const data = {
                 "displayName-count-other": "साओ तोम और प्रिंसिपे डोबरा",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "सोवियत रूबल",
@@ -1490,9 +1520,9 @@ const data = {
                 symbol: "WST"
             },
             XAF: {
-                displayName: "[CFA] फ़्रैंक [BEAC]",
-                "displayName-count-one": "[CFA] फ़्रैंक [BEAC]",
-                "displayName-count-other": "[CFA] फ़्रैंक [BEAC]",
+                displayName: "केंद्रीय अफ़्रीकी CFA फ़्रैंक",
+                "displayName-count-one": "केंद्रीय अफ़्रीकी CFA फ़्रैंक",
+                "displayName-count-other": "केंद्रीय अफ़्रीकी CFA फ़्रैंक",
                 symbol: "FCFA"
             },
             XAG: {
@@ -1543,9 +1573,9 @@ const data = {
                 symbol: "XFU"
             },
             XOF: {
-                displayName: "पश्चिमी अफ़्रीकी CFA फ्रैंक",
-                "displayName-count-one": "[CFA] फ़्रैंक [BCEAO]",
-                "displayName-count-other": "[CFA] फ़्रैंक [BCEAO]",
+                displayName: "पश्चिमी अफ़्रीकी CFA फ़्रैंक",
+                "displayName-count-one": "पश्चिमी अफ़्रीकी CFA फ़्रैंक",
+                "displayName-count-other": "पश्चिमी अफ़्रीकी CFA फ़्रैंक",
                 symbol: "CFA"
             },
             XPD: {
@@ -1677,8 +1707,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "B h",
+                Bhm: "B h:mm",
+                Bhms: "B h:mm:ss",
                 d: "d",
                 E: "ccc",
+                EBhm: "E B h:mm",
+                EBhms: "E B h:mm:ss",
                 Ed: "E d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -1722,8 +1757,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "y का सप्ताह w",
-                "yw-count-other": "y का सप्ताह w"
+                "yw-count-one": "Y का सप्ताह w",
+                "yw-count-other": "Y का सप्ताह w"
             }
         },
         timeFormats: {
@@ -1735,7 +1770,7 @@ const data = {
         dateFormats: {
             full: "EEEE, d MMMM y",
             long: "d MMMM y",
-            medium: "dd/MM/y",
+            medium: "d MMM y",
             short: "d/M/yy"
         },
         days: {
@@ -1966,7 +2001,7 @@ const data = {
                     morning1: "सुबह",
                     afternoon1: "अपराह्न",
                     evening1: "शाम",
-                    night1: "शाम"
+                    night1: "रात"
                 },
                 wide: {
                     midnight: "मध्यरात्रि",
@@ -2059,9 +2094,9 @@ const data = {
                 narrow: "सप्ताह"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "माह का सप्ताह",
+                short: "माह का सप्ताह",
+                narrow: "माह का सप्ताह"
             },
             day: {
                 wide: "दिन",
@@ -2069,9 +2104,9 @@ const data = {
                 narrow: "दिन"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "वर्ष का दिन",
+                short: "वर्ष का दिन",
+                narrow: "वर्ष का दिन"
             },
             weekday: {
                 wide: "सप्ताह का दिन",
@@ -2079,34 +2114,34 @@ const data = {
                 narrow: "सप्ताह का दिन"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "माह के कार्यदिवस",
+                short: "माह के कार्यदिवस",
+                narrow: "माह के कार्यदिवस"
             },
             dayperiod: {
-                short: "पूर्वाह्न/अपराह्न",
+                short: "पू/अ",
                 wide: "पूर्वाह्न/अपराह्न",
-                narrow: "पूर्वाह्न/अपराह्न"
+                narrow: "पू/अ"
             },
             hour: {
                 wide: "घंटा",
-                short: "घं.",
-                narrow: "घं."
+                short: "घं॰",
+                narrow: "घं॰"
             },
             minute: {
                 wide: "मिनट",
-                short: "मि.",
-                narrow: "मि."
+                short: "मि॰",
+                narrow: "मि॰"
             },
             second: {
                 wide: "सेकंड",
-                short: "से.",
-                narrow: "से."
+                short: "से॰",
+                narrow: "से॰"
             },
             zone: {
                 wide: "समय क्षेत्र",
-                short: "समय क्षेत्र",
-                narrow: "समय क्षेत्र"
+                short: "क्षेत्र",
+                narrow: "क्षेत्र"
             }
         }
     },

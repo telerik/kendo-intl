@@ -37,7 +37,8 @@ const data = {
             ALK: {
                 displayName: "Arnavutluk Leki (1946–1965)",
                 "displayName-count-one": "Arnavutluk leki (1946–1965)",
-                "displayName-count-other": "Arnavutluk leki (1946–1965)"
+                "displayName-count-other": "Arnavutluk leki (1946–1965)",
+                symbol: "ALK"
             },
             ALL: {
                 displayName: "Arnavutluk Leki",
@@ -340,9 +341,9 @@ const data = {
                 symbol: "BYB"
             },
             BYN: {
-                displayName: "Beyaz Rusya Rublesi",
-                "displayName-count-one": "Beyaz Rusya rublesi",
-                "displayName-count-other": "Beyaz Rusya rublesi",
+                displayName: "Belarus Rublesi",
+                "displayName-count-one": "Belarus rublesi",
+                "displayName-count-other": "Belarus rublesi",
                 symbol: "BYN",
                 "symbol-alt-narrow": "р."
             },
@@ -409,10 +410,17 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "Çin Yuanı (offshore)",
+                "displayName-count-one": "Çin yuanı (offshore)",
+                "displayName-count-other": "Çin yuanı (offshore)",
+                symbol: "CNH"
+            },
             CNX: {
                 displayName: "Çin Halk Cumhuriyeti Merkez Bankası Doları",
                 "displayName-count-one": "Çin Halk Cumhuriyeti Merkez Bankası doları",
-                "displayName-count-other": "Çin Halk Cumhuriyeti Merkez Bankası doları"
+                "displayName-count-other": "Çin Halk Cumhuriyeti Merkez Bankası doları",
+                symbol: "CNX"
             },
             CNY: {
                 displayName: "Çin Yuanı",
@@ -762,7 +770,8 @@ const data = {
             ILR: {
                 displayName: "İsrail Şekeli (1980–1985)",
                 "displayName-count-one": "İsrail şekeli (1980–1985)",
-                "displayName-count-other": "İsrail şekeli (1980–1985)"
+                "displayName-count-other": "İsrail şekeli (1980–1985)",
+                symbol: "ILR"
             },
             ILS: {
                 displayName: "Yeni İsrail Şekeli",
@@ -793,7 +802,8 @@ const data = {
             ISJ: {
                 displayName: "İzlanda Kronu (1918–1981)",
                 "displayName-count-one": "İzlanda kronu (1918–1981)",
-                "displayName-count-other": "İzlanda kronu (1918–1981)"
+                "displayName-count-other": "İzlanda kronu (1918–1981)",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "İzlanda Kronu",
@@ -1085,7 +1095,8 @@ const data = {
             MVP: {
                 displayName: "Maldiv Rupisi",
                 "displayName-count-one": "Maldiv rupisi",
-                "displayName-count-other": "Maldiv rupisi"
+                "displayName-count-other": "Maldiv rupisi",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "Maldiv Rufiyaası",
@@ -1423,6 +1434,10 @@ const data = {
                 "displayName-count-other": "São Tomé ve Príncipe dobrası",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "Sovyet Rublesi",

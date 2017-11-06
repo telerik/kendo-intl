@@ -86,6 +86,10 @@ const data = {
                 "displayName-count-other": "আফগান আফগানি",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "আলবেনিয়ান লেক",
                 "displayName-count-one": "আলবেনিয়ান লেক",
@@ -178,9 +182,9 @@ const data = {
                 symbol: "BAD"
             },
             BAM: {
-                displayName: "বসনিয়া এবং হার্জেগোভিনা মার্ক",
-                "displayName-count-one": "বসনিয়া এবং হার্জেগোভিনা মার্ক",
-                "displayName-count-other": "বসনিয়া এবং হার্জেগোভিনা মার্ক",
+                displayName: "বসনিয়া এবং হার্জেগোভিনা বিনিমেয় মার্ক",
+                "displayName-count-one": "বসনিয়া এবং হার্জেগোভিনা বিনিমেয় মার্ক",
+                "displayName-count-other": "বসনিয়া এবং হার্জেগোভিনা বিনিমেয় মার্ক",
                 symbol: "BAM",
                 "symbol-alt-narrow": "KM"
             },
@@ -223,9 +227,9 @@ const data = {
                 symbol: "BGM"
             },
             BGN: {
-                displayName: "বুলগেরীয় নিউ লেভ",
-                "displayName-count-one": "বুলগেরীয় নিউ লেভ",
-                "displayName-count-other": "বুলগেরীয় নিউ লেভ",
+                displayName: "বুলগেরীয় লেভ",
+                "displayName-count-one": "বুলগেরীয় লেভ",
+                "displayName-count-other": "বুলগেরীয় লেভা",
                 symbol: "BGN"
             },
             BGO: {
@@ -398,6 +402,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "চাইনিজ ইউয়ান (অফশোর)",
+                "displayName-count-one": "চাইনিজ ইউয়ান (অফশোর)",
+                "displayName-count-other": "চাইনিজ ইউয়ান (অফশোর)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "চীনা য়ুয়ান",
                 "displayName-count-one": "চীনা য়ুয়ান",
@@ -477,8 +491,8 @@ const data = {
                 symbol: "DJF"
             },
             DKK: {
-                displayName: "ড্যানিশ ক্রৌন",
-                "displayName-count-one": "ড্যানিশ ক্রৌন",
+                displayName: "ড্যানিশ ক্রোন",
+                "displayName-count-one": "ড্যানিশ ক্রোন",
                 "displayName-count-other": "ড্যানিশ ক্রৌন",
                 symbol: "DKK",
                 "symbol-alt-narrow": "kr"
@@ -705,6 +719,10 @@ const data = {
                 displayName: "ইস্রাইলি পাউন্ড",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "ইস্রাইলি নতুন শেকেল",
                 "displayName-count-one": "ইস্রাইলি নতুন শেকেল",
@@ -731,9 +749,13 @@ const data = {
                 "displayName-count-other": "ইরানিয়ান রিয়াল",
                 symbol: "IRR"
             },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
+            },
             ISK: {
-                displayName: "আইসল্যান্ড ক্রৌন",
-                "displayName-count-one": "আইসল্যান্ড ক্রৌন",
+                displayName: "আইসল্যান্ডীয় ক্রোনা",
+                "displayName-count-one": "আইসল্যান্ডীয় ক্রোনা",
                 "displayName-count-other": "আইসল্যান্ড ক্রৌন",
                 symbol: "ISK",
                 "symbol-alt-narrow": "kr"
@@ -783,8 +805,8 @@ const data = {
             },
             KMF: {
                 displayName: "কম্বোরো ফ্রাঙ্ক",
-                "displayName-count-one": "কম্বোরো ফ্রাঙ্ক",
-                "displayName-count-other": "কম্বোরো ফ্রাঙ্ক",
+                "displayName-count-one": "কমোরিয়ান ফ্রাঙ্ক",
+                "displayName-count-other": "কমোরিয়ান ফ্রাঙ্ক",
                 symbol: "KMF",
                 "symbol-alt-narrow": "CF"
             },
@@ -897,9 +919,9 @@ const data = {
                 symbol: "LVR"
             },
             LYD: {
-                displayName: "লিবিয়ান ডলার",
-                "displayName-count-one": "লিবিয়ান ডলার",
-                "displayName-count-other": "লিবিয়ান ডলার",
+                displayName: "লিবিয়ান দিনার",
+                "displayName-count-one": "লিবিয়ান দিনার",
+                "displayName-count-other": "লিবিয়ান দিনার",
                 symbol: "LYD"
             },
             MAD: {
@@ -992,6 +1014,10 @@ const data = {
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
+            },
             MVR: {
                 displayName: "মালদিভিয়ান রুফিয়া",
                 "displayName-count-one": "মালদিভিয়ান রুফিয়া",
@@ -1070,9 +1096,9 @@ const data = {
                 symbol: "NLG"
             },
             NOK: {
-                displayName: "নরওয়ে ক্রৌন",
-                "displayName-count-one": "নরওয়ে ক্রৌন",
-                "displayName-count-other": "নরওয়ে ক্রৌন",
+                displayName: "নরওয়েজিয়ান ক্রোন",
+                "displayName-count-one": "নরওয়েজিয়ান ক্রোন",
+                "displayName-count-other": "নরওয়েজিয়ান ক্রোনার",
                 symbol: "NOK",
                 "symbol-alt-narrow": "kr"
             },
@@ -1161,9 +1187,9 @@ const data = {
                 "symbol-alt-narrow": "₲"
             },
             QAR: {
-                displayName: "কাতার রিয়্যাল",
-                "displayName-count-one": "কাতার রিয়্যাল",
-                "displayName-count-other": "কাতার রিয়্যাল",
+                displayName: "কাতার রিয়াল",
+                "displayName-count-one": "কাতার রিয়াল",
+                "displayName-count-other": "কাতার রিয়াল",
                 symbol: "QAR"
             },
             RHD: {
@@ -1207,9 +1233,9 @@ const data = {
                 "symbol-alt-narrow": "RF"
             },
             SAR: {
-                displayName: "সৌদি রিয়্যাল",
-                "displayName-count-one": "সৌদি রিয়্যাল",
-                "displayName-count-other": "সৌদি রিয়্যাল",
+                displayName: "সৌদি রিয়াল",
+                "displayName-count-one": "সৌদি রিয়াল",
+                "displayName-count-other": "সৌদি রিয়াল",
                 symbol: "SAR"
             },
             SBD: {
@@ -1304,6 +1330,10 @@ const data = {
                 "displayName-count-other": "সাও টোমে এবং প্রিন্সিপে ডোবরা",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "সোভিয়েত রুবল",
@@ -1584,8 +1614,8 @@ const data = {
             },
             XXX: {
                 displayName: "অজানা মুদ্রা",
-                "displayName-count-one": "অজানা বা ভুল মুদ্রা",
-                "displayName-count-other": "অজানা মুদ্রা",
+                "displayName-count-one": "(মুদ্রার অজানা একক)",
+                "displayName-count-other": "(অজানা মুদ্রা)",
                 symbol: "XXX"
             },
             YDD: {
@@ -1681,8 +1711,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "d E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -1725,8 +1760,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "y এর wতম সপ্তাহ",
-                "yw-count-other": "y এর wতম সপ্তাহ"
+                "yw-count-one": "Y এর wতম সপ্তাহ",
+                "yw-count-other": "Y এর wতম সপ্তাহ"
             }
         },
         timeFormats: {
@@ -1981,7 +2016,7 @@ const data = {
                     afternoon1: "দুপুর",
                     afternoon2: "বিকাল",
                     evening1: "সন্ধ্যা",
-                    night1: "রাত্রি"
+                    night1: "রাত্রিতে"
                 }
             },
             "stand-alone": {
@@ -2021,7 +2056,7 @@ const data = {
             format: {
                 wide: {
                     0: "খ্রিস্টপূর্ব",
-                    1: "খৃষ্টাব্দ",
+                    1: "খ্রীষ্টাব্দ",
                     "0-alt-variant": "খ্রিষ্টপূর্বাব্দ",
                     "1-alt-variant": "খ্রিষ্টাব্দ"
                 },
@@ -2068,9 +2103,9 @@ const data = {
                 narrow: "সপ্তাহ"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "মাসের সপ্তাহ",
+                short: "মাসের সপ্তাহ",
+                narrow: "মাসের সপ্তাহ"
             },
             day: {
                 wide: "দিন",
@@ -2078,9 +2113,9 @@ const data = {
                 narrow: "দিন"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "বছরের দিন",
+                short: "বছরের দিন",
+                narrow: "বছরের দিন"
             },
             weekday: {
                 wide: "সপ্তাহের দিন",
@@ -2088,9 +2123,9 @@ const data = {
                 narrow: "সপ্তাহের দিন"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "মাসের কার্য দিবস",
+                short: "মাসের কার্য দিবস",
+                narrow: "মাসের কার্য দিবস"
             },
             dayperiod: {
                 short: "AM/PM",
@@ -2098,9 +2133,9 @@ const data = {
                 narrow: "AM/PM"
             },
             hour: {
-                wide: "ঘন্টা",
-                short: "ঘন্টা",
-                narrow: "ঘন্টা"
+                wide: "ঘণ্টা",
+                short: "ঘণ্টা",
+                narrow: "ঘণ্টা"
             },
             minute: {
                 wide: "মিনিট",
@@ -2114,8 +2149,8 @@ const data = {
             },
             zone: {
                 wide: "সময় অঞ্চল",
-                short: "সময় অঞ্চল",
-                narrow: "সময় অঞ্চল"
+                short: "অঞ্চল",
+                narrow: "অঞ্চল"
             }
         }
     },

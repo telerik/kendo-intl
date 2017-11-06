@@ -33,6 +33,10 @@ const data = {
                 "displayName-count-other": "afghanske afghani",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "albansk lek",
                 "displayName-count-one": "albansk lek",
@@ -196,7 +200,7 @@ const data = {
             BGN: {
                 displayName: "bulgarsk lev",
                 "displayName-count-one": "bulgarsk lev",
-                "displayName-count-other": "bulgarske lev",
+                "displayName-count-other": "bulgarske leva",
                 symbol: "BGN"
             },
             BGO: {
@@ -206,7 +210,7 @@ const data = {
             BHD: {
                 displayName: "bahrainsk dinar",
                 "displayName-count-one": "bahrainsk dinar",
-                "displayName-count-other": "bahrainske dinar",
+                "displayName-count-other": "bahrainske dinarer",
                 symbol: "BHD"
             },
             BIF: {
@@ -273,7 +277,7 @@ const data = {
             BRL: {
                 displayName: "brasiliansk real",
                 "displayName-count-one": "brasiliansk real",
-                "displayName-count-other": "brasilianske real",
+                "displayName-count-other": "brasilianske realer",
                 symbol: "R$",
                 "symbol-alt-narrow": "R$"
             },
@@ -391,6 +395,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "kinesisk yuan (offshore)",
+                "displayName-count-one": "kinesisk yuan (offshore)",
+                "displayName-count-other": "kinesisk yuan (offshore)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "kinesisk yuan",
                 "displayName-count-one": "kinesisk yuan",
@@ -431,7 +445,7 @@ const data = {
             CUC: {
                 displayName: "cubansk konvertibel peso",
                 "displayName-count-one": "cubanske konvertible pesos",
-                "displayName-count-other": "Cubanske konvertible pesos",
+                "displayName-count-other": "cubanske konvertible pesos",
                 symbol: "CUC",
                 "symbol-alt-narrow": "$"
             },
@@ -445,7 +459,7 @@ const data = {
             CVE: {
                 displayName: "kapverdisk escudo",
                 "displayName-count-one": "kapverdisk escudo",
-                "displayName-count-other": "kapverdiske escodus",
+                "displayName-count-other": "kapverdiske escudos",
                 symbol: "CVE"
             },
             CYP: {
@@ -742,6 +756,10 @@ const data = {
                 "displayName-count-other": "Israelske pund",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "ny israelsk shekel",
                 "displayName-count-one": "ny israelsk shekel",
@@ -765,8 +783,12 @@ const data = {
             IRR: {
                 displayName: "iransk rial",
                 "displayName-count-one": "iransk rial",
-                "displayName-count-other": "iranske rial",
+                "displayName-count-other": "iranske rialer",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "islandsk krone",
@@ -1053,6 +1075,10 @@ const data = {
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
+            },
             MVR: {
                 displayName: "maldivisk rufiyaa",
                 "displayName-count-one": "maldivisk rufiyaa",
@@ -1200,7 +1226,7 @@ const data = {
             PHP: {
                 displayName: "filippinsk peso",
                 "displayName-count-one": "filippinsk peso",
-                "displayName-count-other": "filippinske peso",
+                "displayName-count-other": "filippinske pesos",
                 symbol: "PHP",
                 "symbol-alt-narrow": "₱"
             },
@@ -1256,7 +1282,7 @@ const data = {
             RON: {
                 displayName: "rumænsk leu",
                 "displayName-count-one": "rumænsk leu",
-                "displayName-count-other": "rumænske leu",
+                "displayName-count-other": "rumænske lei",
                 symbol: "RON",
                 "symbol-alt-narrow": "L"
             },
@@ -1395,6 +1421,10 @@ const data = {
                 "displayName-count-other": "dobra fra Sao Tome og Principe",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "Sovjetisk rubel",

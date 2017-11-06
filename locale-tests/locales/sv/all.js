@@ -88,7 +88,8 @@ const data = {
             ALK: {
                 displayName: "albansk lek (1946–1965)",
                 "displayName-count-one": "albansk lek (1946–1965)",
-                "displayName-count-other": "albanska lek (1946–1965)"
+                "displayName-count-other": "albanska lek (1946–1965)",
+                symbol: "ALK"
             },
             ALL: {
                 displayName: "albansk lek",
@@ -466,6 +467,12 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "CNH",
+                "displayName-count-one": "CNH",
+                "displayName-count-other": "CNH",
+                symbol: "CNH"
+            },
             CNX: {
                 displayName: "kinesisk dollar",
                 "displayName-count-one": "kinesisk dollar",
@@ -830,7 +837,8 @@ const data = {
             ILR: {
                 displayName: "israelisk shekel (1980–1985)",
                 "displayName-count-one": "israelisk shekel (1980–1985)",
-                "displayName-count-other": "israeliska shekel (1980–1985)"
+                "displayName-count-other": "israeliska shekel (1980–1985)",
+                symbol: "ILR"
             },
             ILS: {
                 displayName: "israelisk ny shekel",
@@ -1512,6 +1520,10 @@ const data = {
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
             },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
+            },
             SUR: {
                 displayName: "sovjetisk rubel",
                 "displayName-count-one": "sovjetisk rubel",
@@ -1972,8 +1984,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -2017,8 +2034,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'vecka' w, y",
-                "yw-count-other": "'vecka' w, y"
+                "yw-count-one": "'vecka' w, Y",
+                "yw-count-other": "'vecka' w, Y"
             }
         },
         timeFormats: {
@@ -2330,8 +2347,8 @@ const data = {
                 narrow: {
                     0: "f.Kr.",
                     1: "e.Kr.",
-                    "0-alt-variant": "fvt",
-                    "1-alt-variant": "vt"
+                    "0-alt-variant": "f.v.t.",
+                    "1-alt-variant": "v.t."
                 }
             }
         },
@@ -2364,9 +2381,9 @@ const data = {
                 narrow: "v"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "vecka i månaden",
+                short: "vk. i mån.",
+                narrow: "vk.i mån."
             },
             day: {
                 wide: "dag",
@@ -2374,9 +2391,9 @@ const data = {
                 narrow: "dag"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "dag under året",
+                short: "dag under året",
+                narrow: "dag under året"
             },
             weekday: {
                 wide: "veckodag",
@@ -2384,9 +2401,9 @@ const data = {
                 narrow: "veckodag"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "veckodag i månad",
+                short: "veckodag i mån.",
+                narrow: "veckodag i mån."
             },
             dayperiod: {
                 short: "fm/em",

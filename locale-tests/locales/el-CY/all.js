@@ -54,8 +54,7 @@ const data = {
         },
         accounting: {
             patterns: [
-                "n $",
-                "(n $)"
+                "n $"
             ],
             groupSize: [
                 3
@@ -85,6 +84,10 @@ const data = {
                 "displayName-count-one": "αφγάνι Αφγανιστάν",
                 "displayName-count-other": "αφγάνι Αφγανιστάν",
                 symbol: "AFN"
+            },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
             },
             ALL: {
                 displayName: "Λεκ Αλβανίας",
@@ -168,9 +171,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             AWG: {
-                displayName: "Φλορίνι Αρούμπα",
-                "displayName-count-one": "φλορίνι Αρούμπα",
-                "displayName-count-other": "φλορίνια Αρούμπα",
+                displayName: "Φλορίνι Αρούμπας",
+                "displayName-count-one": "φλορίνι Αρούμπας",
+                "displayName-count-other": "φλορίνια Αρούμπας",
                 symbol: "AWG"
             },
             AZM: {
@@ -444,6 +447,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "Γουάν Κίνας (υπεράκτιο)",
+                "displayName-count-one": "γουάν Κίνας (υπεράκτιο)",
+                "displayName-count-other": "γουάν Κίνας (υπεράκτια)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "Γουάν Κίνας",
                 "displayName-count-one": "γουάν Κίνας",
@@ -627,9 +640,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             FKP: {
-                displayName: "Λίρα Νησιών Φώκλαντ",
-                "displayName-count-one": "λίρα Νησιών Φώκλαντ",
-                "displayName-count-other": "λίρες Νησιών Φώκλαντ",
+                displayName: "Λίρα Νήσων Φόκλαντ",
+                "displayName-count-one": "λίρα Νήσων Φόκλαντ",
+                "displayName-count-other": "λίρες Νήσων Φόκλαντ",
                 symbol: "FKP",
                 "symbol-alt-narrow": "£"
             },
@@ -801,7 +814,8 @@ const data = {
             ILR: {
                 displayName: "παλιό σεκέλ Ισραήλ",
                 "displayName-count-one": "παλιό σεκέλ Ισραήλ",
-                "displayName-count-other": "παλιά σεκέλ Ισραήλ"
+                "displayName-count-other": "παλιά σεκέλ Ισραήλ",
+                symbol: "ILR"
             },
             ILS: {
                 displayName: "Νέο Σέκελ Ισραήλ",
@@ -832,7 +846,8 @@ const data = {
             ISJ: {
                 displayName: "Παλιά κορόνα Ισλανδίας",
                 "displayName-count-one": "Παλιά κορόνα Ισλανδίας",
-                "displayName-count-other": "παλιές κορόνες Ισλανδίας"
+                "displayName-count-other": "παλιές κορόνες Ισλανδίας",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Κορόνα Ισλανδίας",
@@ -1115,6 +1130,10 @@ const data = {
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
+            },
             MVR: {
                 displayName: "Ρουφίγια Μαλδίβων",
                 "displayName-count-one": "ρουφίγια Μαλδίβων",
@@ -1170,9 +1189,9 @@ const data = {
                 symbol: "MZN"
             },
             NAD: {
-                displayName: "Δολάριο Ναμίμπια",
-                "displayName-count-one": "δολάριο Ναμίμπια",
-                "displayName-count-other": "δολάρια Ναμίμπια",
+                displayName: "Δολάριο Ναμίμπιας",
+                "displayName-count-one": "δολάριο Ναμίμπιας",
+                "displayName-count-other": "δολάρια Ναμίμπιας",
                 symbol: "NAD",
                 "symbol-alt-narrow": "$"
             },
@@ -1244,7 +1263,7 @@ const data = {
             PEN: {
                 displayName: "Σολ Περού",
                 "displayName-count-one": "σολ Περού",
-                "displayName-count-other": "Σολ Περού",
+                "displayName-count-other": "σολ Περού",
                 symbol: "PEN"
             },
             PES: {
@@ -1455,10 +1474,14 @@ const data = {
             },
             STD: {
                 displayName: "Ντόμπρα Σάο Τομέ και Πρίνσιπε",
-                "displayName-count-one": "ντόμπρα Σάο Τόμε και Πρίνσιπε",
-                "displayName-count-other": "ντόμπρα Σάο Τόμε και Πρίνσιπε",
+                "displayName-count-one": "ντόμπρα Σάο Τομέ και Πρίνσιπε",
+                "displayName-count-other": "ντόμπρα Σάο Τομέ και Πρίνσιπε",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "Σοβιετικό Ρούβλι",
@@ -1523,9 +1546,9 @@ const data = {
                 symbol: "TND"
             },
             TOP: {
-                displayName: "Παάγκα νήσων Τόγκα",
-                "displayName-count-one": "παάγκα νήσων Τόγκα",
-                "displayName-count-other": "παάγκα νήσων Τόγκα",
+                displayName: "Παάγκα Τόνγκα",
+                "displayName-count-one": "παάγκα Τόνγκα",
+                "displayName-count-other": "παάγκα Τόνγκα",
                 symbol: "TOP",
                 "symbol-alt-narrow": "T$"
             },
@@ -1896,8 +1919,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -1938,8 +1966,8 @@ const data = {
                 yMMMM: "LLLL y",
                 yQQQ: "y QQQ",
                 yQQQQ: "y QQQQ",
-                "yw-count-one": "εβδομάδα w του y",
-                "yw-count-other": "εβδομάδα w του y"
+                "yw-count-one": "εβδομάδα w του Y",
+                "yw-count-other": "εβδομάδα w του Y"
             }
         },
         timeFormats: {
@@ -2201,8 +2229,8 @@ const data = {
                     night1: "βράδυ"
                 },
                 narrow: {
-                    am: "π.μ.",
-                    pm: "μ.μ.",
+                    am: "πμ",
+                    pm: "μμ",
                     morning1: "πρωί",
                     afternoon1: "μεσημ.",
                     evening1: "απόγ.",
@@ -2245,8 +2273,8 @@ const data = {
         dateFields: {
             era: {
                 wide: "περίοδος",
-                short: "περίοδος",
-                narrow: "περίοδος"
+                short: "περ.",
+                narrow: "περ."
             },
             year: {
                 wide: "έτος",
@@ -2269,54 +2297,54 @@ const data = {
                 narrow: "εβδ."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "εβδομάδα μήνα",
+                short: "εβδ. μήνα",
+                narrow: "εβδ. μήνα"
             },
             day: {
                 wide: "ημέρα",
-                short: "ημέρα",
-                narrow: "ημέρα"
+                short: "ημ.",
+                narrow: "ημ."
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "ημέρα έτους",
+                short: "ημ. έτους",
+                narrow: "ημ. έτους"
             },
             weekday: {
                 wide: "καθημερινή",
-                short: "καθημερινή",
-                narrow: "καθημερινή"
+                short: "καθημερ.",
+                narrow: "καθημερ."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "καθημερινή μήνα",
+                short: "καθημερ. μήνα",
+                narrow: "καθημερ. μήνα"
             },
             dayperiod: {
-                short: "π.μ./μ.μ.",
+                short: "πμ/μμ",
                 wide: "π.μ./μ.μ.",
-                narrow: "π.μ./μ.μ."
+                narrow: "πμ/μμ"
             },
             hour: {
                 wide: "ώρα",
-                short: "ώρ.",
-                narrow: "ώ"
+                short: "ώ.",
+                narrow: "ώ."
             },
             minute: {
                 wide: "λεπτό",
                 short: "λεπ.",
-                narrow: "λ"
+                narrow: "λ."
             },
             second: {
                 wide: "δευτερόλεπτο",
                 short: "δευτ.",
-                narrow: "δ"
+                narrow: "δ."
             },
             zone: {
                 wide: "ζώνη ώρας",
-                short: "ζώνη ώρας",
-                narrow: "ζώνη ώρας"
+                short: "ζώνη",
+                narrow: "ζώνη"
             }
         }
     },

@@ -33,6 +33,10 @@ const data = {
                 "displayName-count-other": "афганскага афгані",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "албанскі лек",
                 "displayName-count-one": "албанскі лек",
@@ -400,6 +404,18 @@ const data = {
                 "displayName-count-other": "чылійскага песа",
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
+            },
+            CNH: {
+                displayName: "афшорны кітайскі юань",
+                "displayName-count-one": "афшорны кітайскі юань",
+                "displayName-count-few": "афшорныя кітайскія юані",
+                "displayName-count-many": "афшорных кітайскіх юаняў",
+                "displayName-count-other": "афшорнага кітайскага юаня",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
             },
             CNY: {
                 displayName: "кітайскі юань",
@@ -770,6 +786,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "новы ізраільскі шэкель",
                 "displayName-count-one": "новы ізраільскі шэкель",
@@ -803,6 +823,10 @@ const data = {
                 "displayName-count-many": "іранскіх рыалаў",
                 "displayName-count-other": "іранскага рыала",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "ісландская крона",
@@ -1114,6 +1138,10 @@ const data = {
                 "displayName-count-other": "маўрыкійскай рупіі",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "мальдыўская руфія",
@@ -1498,6 +1526,10 @@ const data = {
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
             },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
+            },
             SUR: {
                 displayName: "SUR",
                 symbol: "SUR"
@@ -1618,11 +1650,11 @@ const data = {
                 symbol: "TZS"
             },
             UAH: {
-                displayName: "украінская грыўна",
-                "displayName-count-one": "украінская грыўна",
+                displayName: "украінская грыўня",
+                "displayName-count-one": "украінская грыўня",
                 "displayName-count-few": "украінскія грыўні",
-                "displayName-count-many": "украінскіх грыўнаў",
-                "displayName-count-other": "украінскай грыўны",
+                "displayName-count-many": "украінскіх грыўняў",
+                "displayName-count-other": "украінскай грыўні",
                 symbol: "UAH",
                 "symbol-alt-narrow": "₴"
             },

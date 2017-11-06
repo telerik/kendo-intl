@@ -30,8 +30,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -72,8 +77,8 @@ const data = {
                 yMMMM: "LLLL y",
                 yQQQ: "y QQQ",
                 yQQQQ: "y QQQQ",
-                "yw-count-one": "εβδομάδα w του y",
-                "yw-count-other": "εβδομάδα w του y"
+                "yw-count-one": "εβδομάδα w του Y",
+                "yw-count-other": "εβδομάδα w του Y"
             }
         },
         timeFormats: {
@@ -335,8 +340,8 @@ const data = {
                     night1: "βράδυ"
                 },
                 narrow: {
-                    am: "π.μ.",
-                    pm: "μ.μ.",
+                    am: "πμ",
+                    pm: "μμ",
                     morning1: "πρωί",
                     afternoon1: "μεσημ.",
                     evening1: "απόγ.",
@@ -379,8 +384,8 @@ const data = {
         dateFields: {
             era: {
                 wide: "περίοδος",
-                short: "περίοδος",
-                narrow: "περίοδος"
+                short: "περ.",
+                narrow: "περ."
             },
             year: {
                 wide: "έτος",
@@ -403,54 +408,54 @@ const data = {
                 narrow: "εβδ."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "εβδομάδα μήνα",
+                short: "εβδ. μήνα",
+                narrow: "εβδ. μήνα"
             },
             day: {
                 wide: "ημέρα",
-                short: "ημέρα",
-                narrow: "ημέρα"
+                short: "ημ.",
+                narrow: "ημ."
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "ημέρα έτους",
+                short: "ημ. έτους",
+                narrow: "ημ. έτους"
             },
             weekday: {
                 wide: "καθημερινή",
-                short: "καθημερινή",
-                narrow: "καθημερινή"
+                short: "καθημερ.",
+                narrow: "καθημερ."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "καθημερινή μήνα",
+                short: "καθημερ. μήνα",
+                narrow: "καθημερ. μήνα"
             },
             dayperiod: {
-                short: "π.μ./μ.μ.",
+                short: "πμ/μμ",
                 wide: "π.μ./μ.μ.",
-                narrow: "π.μ./μ.μ."
+                narrow: "πμ/μμ"
             },
             hour: {
                 wide: "ώρα",
-                short: "ώρ.",
-                narrow: "ώ"
+                short: "ώ.",
+                narrow: "ώ."
             },
             minute: {
                 wide: "λεπτό",
                 short: "λεπ.",
-                narrow: "λ"
+                narrow: "λ."
             },
             second: {
                 wide: "δευτερόλεπτο",
                 short: "δευτ.",
-                narrow: "δ"
+                narrow: "δ."
             },
             zone: {
                 wide: "ζώνη ώρας",
-                short: "ζώνη ώρας",
-                narrow: "ζώνη ώρας"
+                short: "ζώνη",
+                narrow: "ζώνη"
             }
         }
     },

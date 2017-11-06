@@ -29,8 +29,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h.mm B",
+                Bhms: "h.mm.ss B",
                 d: "d.",
                 E: "ccc",
+                EBhm: "E h.mm B",
+                EBhms: "E h.mm.ss B",
                 Ed: "E 'den' d.",
                 Ehm: "E h.mm a",
                 EHm: "E HH.mm",
@@ -73,8 +78,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'uge' w 'i' y",
-                "yw-count-other": "'uge' w 'i' y"
+                "yw-count-one": "'uge' w 'i' Y",
+                "yw-count-other": "'uge' w 'i' Y"
             }
         },
         timeFormats: {
@@ -416,9 +421,9 @@ const data = {
                 narrow: "uge"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "uge i måneden",
+                short: "uge i md.",
+                narrow: "uge i md."
             },
             day: {
                 wide: "dag",
@@ -426,9 +431,9 @@ const data = {
                 narrow: "dag"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "dag i året",
+                short: "dag i året",
+                narrow: "dag i året"
             },
             weekday: {
                 wide: "ugedag",
@@ -436,9 +441,9 @@ const data = {
                 narrow: "ugedag"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "ugedag i måneden",
+                short: "ugedag i md.",
+                narrow: "ugedag i md."
             },
             dayperiod: {
                 short: "AM/PM",
@@ -448,12 +453,12 @@ const data = {
             hour: {
                 wide: "time",
                 short: "t.",
-                narrow: "t"
+                narrow: "t."
             },
             minute: {
                 wide: "minut",
                 short: "min.",
-                narrow: "min"
+                narrow: "min."
             },
             second: {
                 wide: "sekund",
@@ -462,8 +467,8 @@ const data = {
             },
             zone: {
                 wide: "tidszone",
-                short: "tidszone",
-                narrow: "tidszone"
+                short: "zone",
+                narrow: "zone"
             }
         }
     },

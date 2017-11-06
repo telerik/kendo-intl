@@ -30,8 +30,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "ccc, h:mm B",
+                EBhms: "ccc, h:mm:ss B",
                 Ed: "ccc, d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -59,10 +64,10 @@ const data = {
                 MMMd: "d MMM",
                 MMMEd: "ccc, d MMM",
                 MMMMd: "d MMMM",
-                "MMMMW-count-one": "W-'я' 'неделя' MMM",
-                "MMMMW-count-few": "W-'я' 'неделя' MMM",
-                "MMMMW-count-many": "W-'я' 'неделя' MMM",
-                "MMMMW-count-other": "W-'я' 'неделя' MMM",
+                "MMMMW-count-one": "W-'я' 'неделя' MMMM",
+                "MMMMW-count-few": "W-'я' 'неделя' MMMM",
+                "MMMMW-count-many": "W-'я' 'неделя' MMMM",
+                "MMMMW-count-other": "W-'я' 'неделя' MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "MM.y",
@@ -75,10 +80,10 @@ const data = {
                 yMMMM: "LLLL y 'г'.",
                 yQQQ: "QQQ y 'г'.",
                 yQQQQ: "QQQQ y 'г'.",
-                "yw-count-one": "w-'я' 'неделя' y 'г'.",
-                "yw-count-few": "w-'я' 'неделя' y 'г'.",
-                "yw-count-many": "w-'я' 'неделя' y 'г'.",
-                "yw-count-other": "w-'я' 'неделя' y 'г'."
+                "yw-count-one": "w-'я' 'неделя' Y 'г'.",
+                "yw-count-few": "w-'я' 'неделя' Y 'г'.",
+                "yw-count-many": "w-'я' 'неделя' Y 'г'.",
+                "yw-count-other": "w-'я' 'неделя' Y 'г'."
             }
         },
         timeFormats: {
@@ -420,9 +425,9 @@ const data = {
                 narrow: "нед."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "неделя месяца",
+                short: "нед. месяца",
+                narrow: "нед. мес."
             },
             day: {
                 wide: "день",
@@ -430,28 +435,28 @@ const data = {
                 narrow: "дн."
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "день года",
+                short: "дн. года",
+                narrow: "дн. года"
             },
             weekday: {
                 wide: "день недели",
-                short: "день недели",
-                narrow: "день недели"
+                short: "дн. недели",
+                narrow: "дн. нед."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "день недели в месяце",
+                short: "дн. нед. в месяце",
+                narrow: "дн. нед. в мес."
             },
             dayperiod: {
-                short: "ДП/ПП",
-                wide: "ДП/ПП",
-                narrow: "ДП/ПП"
+                short: "AM/PM",
+                wide: "AM/PM",
+                narrow: "AM/PM"
             },
             hour: {
                 wide: "час",
-                short: "ч.",
+                short: "ч",
                 narrow: "ч"
             },
             minute: {
@@ -466,8 +471,8 @@ const data = {
             },
             zone: {
                 wide: "часовой пояс",
-                short: "часовой пояс",
-                narrow: "часовой пояс"
+                short: "час. пояс",
+                narrow: "час. пояс"
             }
         }
     },

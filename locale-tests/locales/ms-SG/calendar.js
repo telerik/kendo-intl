@@ -15,7 +15,7 @@ const data = {
             m: "d MMM",
             M: "d MMMM",
             y: "MMM y",
-            Y: "y MMMM",
+            Y: "MMMM y",
             F: "EEEE, d MMMM y h:mm:ss a",
             g: "d/M/y h:mm a",
             G: "d/M/y h:mm:ss a",
@@ -27,20 +27,25 @@ const data = {
         dateTimeFormats: {
             full: "{1} {0}",
             long: "{1} {0}",
-            medium: "{1} {0}",
-            short: "{1} {0}",
+            medium: "{1}, {0}",
+            short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "d E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
-                Gy: "G y",
-                GyMMM: "G y MMM",
-                GyMMMd: "G y MMM d",
-                GyMMMEd: "G y MMM d, E",
+                Gy: "y G",
+                GyMMM: "MMM y G",
+                GyMMMd: "d MMM y G",
+                GyMMMEd: "E, d MMM y G",
                 h: "h a",
                 H: "HH",
                 hm: "h:mm a",
@@ -68,10 +73,10 @@ const data = {
                 yMMM: "MMM y",
                 yMMMd: "d MMM y",
                 yMMMEd: "E, d MMM y",
-                yMMMM: "y MMMM",
+                yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-other": "'week' w 'of' y"
+                "yw-count-other": "'week' w 'of' Y"
             }
         },
         timeFormats: {
@@ -319,7 +324,7 @@ const data = {
                 wide: {
                     am: "PG",
                     pm: "PTG",
-                    morning1: "pagi",
+                    morning1: "tengah malam",
                     morning2: "pagi",
                     afternoon1: "tengah hari",
                     evening1: "petang",
@@ -382,27 +387,27 @@ const data = {
         gmtZeroFormat: "GMT",
         dateFields: {
             era: {
-                wide: "Era",
-                short: "Era",
-                narrow: "Era"
+                wide: "era",
+                short: "era",
+                narrow: "era"
             },
             year: {
-                wide: "Tahun",
+                wide: "tahun",
                 short: "thn",
                 narrow: "thn"
             },
             quarter: {
-                wide: "Suku Tahun",
+                wide: "suku tahun",
                 short: "suku",
                 narrow: "suku"
             },
             month: {
-                wide: "Bulan",
+                wide: "bulan",
                 short: "bln",
                 narrow: "bln"
             },
             week: {
-                wide: "Minggu",
+                wide: "minggu",
                 short: "mgu",
                 narrow: "mgu"
             },
@@ -412,7 +417,7 @@ const data = {
                 narrow: "Week Of Month"
             },
             day: {
-                wide: "Hari",
+                wide: "hari",
                 short: "hari",
                 narrow: "hari"
             },
@@ -437,24 +442,24 @@ const data = {
                 narrow: "PG/PTG"
             },
             hour: {
-                wide: "Jam",
+                wide: "jam",
                 short: "jam",
                 narrow: "jam"
             },
             minute: {
-                wide: "Minit",
+                wide: "minit",
                 short: "min",
                 narrow: "min"
             },
             second: {
-                wide: "Saat",
+                wide: "saat",
                 short: "saat",
                 narrow: "saat"
             },
             zone: {
-                wide: "Zon Waktu",
-                short: "Zon Waktu",
-                narrow: "Zon Waktu"
+                wide: "zon waktu",
+                short: "zon",
+                narrow: "zon"
             }
         }
     },

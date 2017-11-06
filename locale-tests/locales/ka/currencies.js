@@ -29,6 +29,10 @@ const data = {
                 "displayName-count-other": "ავღანური ავღანი",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "ალბანური ლეკი",
                 "displayName-count-one": "ალბანური ლეკი",
@@ -341,6 +345,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "ჩინური იუანი (ოფშორი)",
+                "displayName-count-one": "ჩინური იუანი (ოფშორი)",
+                "displayName-count-other": "ჩინური იუანი (ოფშორი)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "ჩინური იუანი",
                 "displayName-count-one": "ჩინური უანი",
@@ -647,6 +661,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "ისრაელის ახალი შეკელი",
                 "displayName-count-one": "ისრაელის ახალი შეკელი",
@@ -672,6 +690,10 @@ const data = {
                 "displayName-count-one": "ირანული რიალი",
                 "displayName-count-other": "ირანული რიალი",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "ისლანდიური კრონა",
@@ -933,6 +955,10 @@ const data = {
                 "displayName-count-other": "მავრიტანული რუპია",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "მალდივური რუფია",
@@ -1246,6 +1272,10 @@ const data = {
                 "displayName-count-other": "სან-ტომე და პრინსიპის დობრა",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "საბჭოთა რუბლი",

@@ -29,8 +29,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d.",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E d.",
                 Ehm: "E h:mm a",
                 EHm: "E H:mm",
@@ -77,10 +82,10 @@ const data = {
                 yMMMMEd: "E d. MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "w. 'týden' 'roku' y",
-                "yw-count-few": "w. 'týden' 'roku' y",
-                "yw-count-many": "w. 'týden' 'roku' y",
-                "yw-count-other": "w. 'týden' 'roku' y"
+                "yw-count-one": "w. 'týden' 'roku' Y",
+                "yw-count-few": "w. 'týden' 'roku' Y",
+                "yw-count-many": "w. 'týden' 'roku' Y",
+                "yw-count-other": "w. 'týden' 'roku' Y"
             }
         },
         timeFormats: {
@@ -380,10 +385,10 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "př. n. l.",
-                    1: "n. l.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    0: "před naším letopočtem",
+                    1: "našeho letopočtu",
+                    "0-alt-variant": "př. n. l.",
+                    "1-alt-variant": "n. l."
                 },
                 abbreviated: {
                     0: "př. n. l.",
@@ -404,8 +409,8 @@ const data = {
         dateFields: {
             era: {
                 wide: "letopočet",
-                short: "letopočet",
-                narrow: "letopočet"
+                short: "letop.",
+                narrow: "let."
             },
             year: {
                 wide: "rok",
@@ -428,9 +433,9 @@ const data = {
                 narrow: "týd."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "týden v měsíci",
+                short: "týd. v m.",
+                narrow: "týd. v m."
             },
             day: {
                 wide: "den",
@@ -438,24 +443,24 @@ const data = {
                 narrow: "den"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "den v roce",
+                short: "den v r.",
+                narrow: "d. v r."
             },
             weekday: {
                 wide: "den v týdnu",
-                short: "den v týdnu",
-                narrow: "den v týdnu"
+                short: "den v týd.",
+                narrow: "d. v týd."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "den týdne v měsíci",
+                short: "den týd. v měs.",
+                narrow: "d. týd. v měs."
             },
             dayperiod: {
                 short: "část dne",
                 wide: "část dne",
-                narrow: "část dne"
+                narrow: "část d."
             },
             hour: {
                 wide: "hodina",
@@ -474,8 +479,8 @@ const data = {
             },
             zone: {
                 wide: "časové pásmo",
-                short: "časové pásmo",
-                narrow: "časové pásmo"
+                short: "čas. pásmo",
+                narrow: "pásmo"
             }
         }
     },

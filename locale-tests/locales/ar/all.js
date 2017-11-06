@@ -93,6 +93,10 @@ const data = {
                 "displayName-count-other": "أفغاني أفغانستاني",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "ليك ألباني",
                 "displayName-count-zero": "ليك ألباني",
@@ -124,13 +128,13 @@ const data = {
                 symbol: "ANG"
             },
             AOA: {
-                displayName: "كوانزا أنجولي",
-                "displayName-count-zero": "كوانزا أنجولي",
-                "displayName-count-one": "كوانزا أنجولي",
-                "displayName-count-two": "كوانزا أنجولي",
-                "displayName-count-few": "كوانزا أنجولي",
-                "displayName-count-many": "كوانزا أنجولي",
-                "displayName-count-other": "كوانزا أنجولي",
+                displayName: "كوانزا أنغولي",
+                "displayName-count-zero": "كوانزا أنغولي",
+                "displayName-count-one": "كوانزا أنغولي",
+                "displayName-count-two": "كوانزا أنغولي",
+                "displayName-count-few": "كوانزا أنغولي",
+                "displayName-count-many": "كوانزا أنغولي",
+                "displayName-count-other": "كوانزا أنغولي",
                 symbol: "AOA",
                 "symbol-alt-narrow": "Kz"
             },
@@ -243,13 +247,13 @@ const data = {
                 "symbol-alt-narrow": "BB$"
             },
             BDT: {
-                displayName: "تاكا بنجلاديشي",
-                "displayName-count-zero": "تاكا بنجلاديشي",
-                "displayName-count-one": "تاكا بنجلاديشي",
-                "displayName-count-two": "تاكا بنجلاديشي",
-                "displayName-count-few": "تاكا بنجلاديشي",
-                "displayName-count-many": "تاكا بنجلاديشي",
-                "displayName-count-other": "تاكا بنجلاديشي",
+                displayName: "تاكا بنغلاديشي",
+                "displayName-count-zero": "تاكا بنغلاديشي",
+                "displayName-count-one": "تاكا بنغلاديشي",
+                "displayName-count-two": "تاكا بنغلاديشي",
+                "displayName-count-few": "تاكا بنغلاديشي",
+                "displayName-count-many": "تاكا بنغلاديشي",
+                "displayName-count-other": "تاكا بنغلاديشي",
                 symbol: "BDT",
                 "symbol-alt-narrow": "৳"
             },
@@ -507,15 +511,29 @@ const data = {
                 symbol: "CLF"
             },
             CLP: {
-                displayName: "بيزو شيلي",
-                "displayName-count-zero": "بيزو شيلي",
-                "displayName-count-one": "بيزو شيلي",
-                "displayName-count-two": "بيزو شيلي",
-                "displayName-count-few": "بيزو شيلي",
-                "displayName-count-many": "بيزو شيلي",
-                "displayName-count-other": "بيزو شيلي",
+                displayName: "بيزو تشيلي",
+                "displayName-count-zero": "بيزو تشيلي",
+                "displayName-count-one": "بيزو تشيلي",
+                "displayName-count-two": "بيزو تشيلي",
+                "displayName-count-few": "بيزو تشيلي",
+                "displayName-count-many": "بيزو تشيلي",
+                "displayName-count-other": "بيزو تشيلي",
                 symbol: "CLP",
                 "symbol-alt-narrow": "CL$"
+            },
+            CNH: {
+                displayName: "يوان صيني (في الخارج)",
+                "displayName-count-zero": "يوان صيني (في الخارج)",
+                "displayName-count-one": "يوان صيني (في الخارج)",
+                "displayName-count-two": "يوان صيني (في الخارج)",
+                "displayName-count-few": "يوان صيني (في الخارج)",
+                "displayName-count-many": "يوان صيني (في الخارج)",
+                "displayName-count-other": "يوان صيني (في الخارج)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
             },
             CNY: {
                 displayName: "يوان صيني",
@@ -544,13 +562,13 @@ const data = {
                 symbol: "COU"
             },
             CRC: {
-                displayName: "كولن كوستا ريكي",
-                "displayName-count-zero": "كولن كوستا ريكي",
-                "displayName-count-one": "كولن كوستا ريكي",
-                "displayName-count-two": "كولن كوستا ريكي",
-                "displayName-count-few": "كولن كوستا ريكي",
-                "displayName-count-many": "كولن كوستا ريكي",
-                "displayName-count-other": "كولن كوستا ريكي",
+                displayName: "كولن كوستاريكي",
+                "displayName-count-zero": "كولن كوستاريكي",
+                "displayName-count-one": "كولن كوستاريكي",
+                "displayName-count-two": "كولن كوستاريكي",
+                "displayName-count-few": "كولن كوستاريكي",
+                "displayName-count-many": "كولن كوستاريكي",
+                "displayName-count-other": "كولن كوستاريكي",
                 symbol: "CRC",
                 "symbol-alt-narrow": "₡"
             },
@@ -628,13 +646,13 @@ const data = {
                 symbol: "DJF"
             },
             DKK: {
-                displayName: "كرونة دانماركي",
-                "displayName-count-zero": "كرونة دانماركي",
-                "displayName-count-one": "كرونة دانماركي",
-                "displayName-count-two": "كرونة دانماركي",
-                "displayName-count-few": "كرونة دانماركي",
-                "displayName-count-many": "كرونة دانماركي",
-                "displayName-count-other": "كرونة دانماركي",
+                displayName: "كرونة دنماركية",
+                "displayName-count-zero": "كرونة دنماركية",
+                "displayName-count-one": "كرونة دنماركية",
+                "displayName-count-two": "كرونة دنماركية",
+                "displayName-count-few": "كرونة دنماركية",
+                "displayName-count-many": "كرونة دنماركية",
+                "displayName-count-other": "كرونة دنماركية",
                 symbol: "DKK",
                 "symbol-alt-narrow": "kr"
             },
@@ -809,13 +827,13 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             GMD: {
-                displayName: "دلاسي جامبي",
-                "displayName-count-zero": "دلاسي جامبي",
-                "displayName-count-one": "دلاسي جامبي",
-                "displayName-count-two": "دلاسي جامبي",
-                "displayName-count-few": "دلاسي جامبي",
-                "displayName-count-many": "دلاسي جامبي",
-                "displayName-count-other": "دلاسي جامبي",
+                displayName: "دلاسي غامبي",
+                "displayName-count-zero": "دلاسي غامبي",
+                "displayName-count-one": "دلاسي غامبي",
+                "displayName-count-two": "دلاسي غامبي",
+                "displayName-count-few": "دلاسي غامبي",
+                "displayName-count-many": "دلاسي غامبي",
+                "displayName-count-other": "دلاسي غامبي",
                 symbol: "GMD"
             },
             GNF: {
@@ -842,13 +860,13 @@ const data = {
                 symbol: "GRD"
             },
             GTQ: {
-                displayName: "كوتزال جواتيمالا",
-                "displayName-count-zero": "كوتزال جواتيمالا",
-                "displayName-count-one": "كوتزال جواتيمالا",
-                "displayName-count-two": "كوتزال جواتيمالا",
-                "displayName-count-few": "كوتزال جواتيمالا",
-                "displayName-count-many": "كوتزال جواتيمالا",
-                "displayName-count-other": "كوتزال جواتيمالا",
+                displayName: "كوتزال غواتيمالا",
+                "displayName-count-zero": "كوتزال غواتيمالا",
+                "displayName-count-one": "كوتزال غواتيمالا",
+                "displayName-count-two": "كوتزال غواتيمالا",
+                "displayName-count-few": "كوتزال غواتيمالا",
+                "displayName-count-many": "كوتزال غواتيمالا",
+                "displayName-count-other": "كوتزال غواتيمالا",
                 symbol: "GTQ",
                 "symbol-alt-narrow": "Q"
             },
@@ -919,13 +937,13 @@ const data = {
                 symbol: "HTG"
             },
             HUF: {
-                displayName: "فورينت مجري",
-                "displayName-count-zero": "فورينت مجري",
-                "displayName-count-one": "فورينت مجري",
-                "displayName-count-two": "فورينت مجري",
-                "displayName-count-few": "فورينت مجري",
-                "displayName-count-many": "فورينت مجري",
-                "displayName-count-other": "فورينت مجري",
+                displayName: "فورينت هنغاري",
+                "displayName-count-zero": "فورينت هنغاري",
+                "displayName-count-one": "فورينت هنغاري",
+                "displayName-count-two": "فورينت هنغاري",
+                "displayName-count-few": "فورينت هنغاري",
+                "displayName-count-many": "فورينت هنغاري",
+                "displayName-count-other": "فورينت هنغاري",
                 symbol: "HUF",
                 "symbol-alt-narrow": "Ft"
             },
@@ -947,6 +965,10 @@ const data = {
             ILP: {
                 displayName: "جنيه إسرائيلي",
                 symbol: "ILP"
+            },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
             },
             ILS: {
                 displayName: "شيكل إسرائيلي جديد",
@@ -990,14 +1012,18 @@ const data = {
                 "displayName-count-other": "ريال إيراني",
                 symbol: "ر.إ."
             },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
+            },
             ISK: {
-                displayName: "كرونه أيسلندي",
-                "displayName-count-zero": "كرونه أيسلندي",
-                "displayName-count-one": "كرونه أيسلندي",
-                "displayName-count-two": "كرونه أيسلندي",
-                "displayName-count-few": "كرونه أيسلندي",
-                "displayName-count-many": "كرونه أيسلندي",
-                "displayName-count-other": "كرونه أيسلندي",
+                displayName: "كرونة أيسلندية",
+                "displayName-count-zero": "كرونة أيسلندية",
+                "displayName-count-one": "كرونة أيسلندية",
+                "displayName-count-two": "كرونة أيسلندية",
+                "displayName-count-few": "كرونة أيسلندية",
+                "displayName-count-many": "كرونة أيسلندية",
+                "displayName-count-other": "كرونة أيسلندية",
                 symbol: "ISK",
                 "symbol-alt-narrow": "kr"
             },
@@ -1076,7 +1102,7 @@ const data = {
                 "displayName-count-few": "فرنك جزر القمر",
                 "displayName-count-many": "فرنك جزر القمر",
                 "displayName-count-other": "فرنك جزر القمر",
-                symbol: "ف.ج.ق.‏",
+                symbol: "KMF",
                 "symbol-alt-narrow": "CF"
             },
             KPW: {
@@ -1367,6 +1393,10 @@ const data = {
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
+            },
             MVR: {
                 displayName: "روفيه جزر المالديف",
                 "displayName-count-zero": "روفيه جزر المالديف",
@@ -1534,13 +1564,13 @@ const data = {
                 symbol: "PEI"
             },
             PEN: {
-                displayName: "سول البيرو",
-                "displayName-count-zero": "سول البيرو",
-                "displayName-count-one": "سول البيرو",
-                "displayName-count-two": "سول البيرو",
-                "displayName-count-few": "سول البيرو",
-                "displayName-count-many": "سول البيرو",
-                "displayName-count-other": "سول البيرو",
+                displayName: "سول بيروفي",
+                "displayName-count-zero": "سول بيروفي",
+                "displayName-count-one": "سول بيروفي",
+                "displayName-count-two": "سول بيروفي",
+                "displayName-count-few": "سول بيروفي",
+                "displayName-count-many": "سول بيروفي",
+                "displayName-count-other": "سول بيروفي",
                 symbol: "PEN"
             },
             PES: {
@@ -1599,13 +1629,13 @@ const data = {
                 symbol: "PTE"
             },
             PYG: {
-                displayName: "جواراني باراجواي",
-                "displayName-count-zero": "جواراني باراجواي",
-                "displayName-count-one": "جواراني باراجواي",
-                "displayName-count-two": "جواراني باراجواي",
-                "displayName-count-few": "جواراني باراجواي",
-                "displayName-count-many": "جواراني باراجواي",
-                "displayName-count-other": "جواراني باراجواي",
+                displayName: "غواراني باراغواي",
+                "displayName-count-zero": "غواراني باراغواي",
+                "displayName-count-one": "غواراني باراغواي",
+                "displayName-count-two": "غواراني باراغواي",
+                "displayName-count-few": "غواراني باراغواي",
+                "displayName-count-many": "غواراني باراغواي",
+                "displayName-count-other": "غواراني باراغواي",
                 symbol: "PYG",
                 "symbol-alt-narrow": "₲"
             },
@@ -1822,6 +1852,10 @@ const data = {
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
             },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
+            },
             SUR: {
                 displayName: "روبل سوفيتي",
                 symbol: "SUR"
@@ -1932,13 +1966,13 @@ const data = {
                 "symbol-alt-variant": "TL"
             },
             TTD: {
-                displayName: "دولار ترينداد وتوباجو",
-                "displayName-count-zero": "دولار ترينداد وتوباجو",
-                "displayName-count-one": "دولار ترينداد وتوباجو",
-                "displayName-count-two": "دولار ترينداد وتوباجو",
-                "displayName-count-few": "دولار ترينداد وتوباجو",
-                "displayName-count-many": "دولار ترينداد وتوباجو",
-                "displayName-count-other": "دولار ترينداد وتوباجو",
+                displayName: "دولار ترينداد وتوباغو",
+                "displayName-count-zero": "دولار ترينداد وتوباغو",
+                "displayName-count-one": "دولار ترينداد وتوباغو",
+                "displayName-count-two": "دولار ترينداد وتوباغو",
+                "displayName-count-few": "دولار ترينداد وتوباغو",
+                "displayName-count-many": "دولار ترينداد وتوباغو",
+                "displayName-count-other": "دولار ترينداد وتوباغو",
                 symbol: "TTD",
                 "symbol-alt-narrow": "TT$"
             },
@@ -2297,12 +2331,12 @@ const data = {
     calendar: {
         patterns: {
             d: "d‏/M‏/y",
-            D: "EEEE، d MMMM، y",
+            D: "EEEE، d MMMM y",
             m: "d MMM",
             M: "d MMMM",
             y: "MMM y",
             Y: "MMMM y",
-            F: "EEEE، d MMMM، y h:mm:ss a",
+            F: "EEEE، d MMMM y h:mm:ss a",
             g: "d‏/M‏/y h:mm a",
             G: "d‏/M‏/y h:mm:ss a",
             t: "h:mm a",
@@ -2316,8 +2350,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E، d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -2325,8 +2364,8 @@ const data = {
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
                 GyMMM: "MMM y G",
-                GyMMMd: "d MMM، y G",
-                GyMMMEd: "E، d MMM، y G",
+                GyMMMd: "d MMM y G",
+                GyMMMEd: "E، d MMM y G",
                 h: "h a",
                 H: "HH",
                 hm: "h:mm a",
@@ -2359,17 +2398,17 @@ const data = {
                 yMEd: "E، d/‏M/‏y",
                 yMM: "MM‏/y",
                 yMMM: "MMM y",
-                yMMMd: "d MMM، y",
-                yMMMEd: "E، d MMM، y",
+                yMMMd: "d MMM y",
+                yMMMEd: "E، d MMM y",
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-zero": "الأسبوع w من سنة y",
-                "yw-count-one": "الأسبوع w من سنة y",
-                "yw-count-two": "الأسبوع w من سنة y",
-                "yw-count-few": "الأسبوع w من سنة y",
-                "yw-count-many": "الأسبوع w من سنة y",
-                "yw-count-other": "الأسبوع w من سنة y"
+                "yw-count-zero": "الأسبوع w من سنة Y",
+                "yw-count-one": "الأسبوع w من سنة Y",
+                "yw-count-two": "الأسبوع w من سنة Y",
+                "yw-count-few": "الأسبوع w من سنة Y",
+                "yw-count-many": "الأسبوع w من سنة Y",
+                "yw-count-other": "الأسبوع w من سنة Y"
             }
         },
         timeFormats: {
@@ -2379,8 +2418,8 @@ const data = {
             short: "h:mm a"
         },
         dateFormats: {
-            full: "EEEE، d MMMM، y",
-            long: "d MMMM، y",
+            full: "EEEE، d MMMM y",
+            long: "d MMMM y",
             medium: "dd‏/MM‏/y",
             short: "d‏/M‏/y"
         },
@@ -2405,13 +2444,13 @@ const data = {
                     "س"
                 ],
                 short: [
-                    "الأحد",
-                    "الاثنين",
-                    "الثلاثاء",
-                    "الأربعاء",
-                    "الخميس",
-                    "الجمعة",
-                    "السبت"
+                    "أحد",
+                    "إثنين",
+                    "ثلاثاء",
+                    "أربعاء",
+                    "خميس",
+                    "جمعة",
+                    "سبت"
                 ],
                 wide: [
                     "الأحد",
@@ -2443,13 +2482,13 @@ const data = {
                     "س"
                 ],
                 short: [
-                    "الأحد",
-                    "الاثنين",
-                    "الثلاثاء",
-                    "الأربعاء",
-                    "الخميس",
-                    "الجمعة",
-                    "السبت"
+                    "أحد",
+                    "إثنين",
+                    "ثلاثاء",
+                    "أربعاء",
+                    "خميس",
+                    "جمعة",
+                    "سبت"
                 ],
                 wide: [
                     "الأحد",
@@ -2599,13 +2638,13 @@ const data = {
                 abbreviated: {
                     am: "ص",
                     pm: "م",
-                    morning1: "فجرا",
+                    morning1: "فجرًا",
                     morning2: "ص",
                     afternoon1: "ظهرًا",
                     afternoon2: "بعد الظهر",
                     evening1: "مساءً",
                     night1: "منتصف الليل",
-                    night2: "ل"
+                    night2: "ليلاً"
                 },
                 narrow: {
                     am: "ص",
@@ -2634,7 +2673,7 @@ const data = {
                 abbreviated: {
                     am: "ص",
                     pm: "م",
-                    morning1: "فجرا",
+                    morning1: "فجرًا",
                     morning2: "ص",
                     afternoon1: "ظهرًا",
                     afternoon2: "بعد الظهر",
@@ -2645,7 +2684,7 @@ const data = {
                 narrow: {
                     am: "ص",
                     pm: "م",
-                    morning1: "فجرا",
+                    morning1: "فجرًا",
                     morning2: "صباحًا",
                     afternoon1: "ظهرًا",
                     afternoon2: "بعد الظهر",
@@ -2671,25 +2710,25 @@ const data = {
                 wide: {
                     0: "قبل الميلاد",
                     1: "ميلادي",
-                    "0-alt-variant": "BCE",
+                    "0-alt-variant": "قبل الحقبة الحالية",
                     "1-alt-variant": "بعد الميلاد"
                 },
                 abbreviated: {
                     0: "ق.م",
                     1: "م",
-                    "0-alt-variant": "BCE",
+                    "0-alt-variant": "ق. م",
                     "1-alt-variant": "ب.م"
                 },
                 narrow: {
                     0: "ق.م",
                     1: "م",
-                    "0-alt-variant": "BCE",
+                    "0-alt-variant": "ق. م",
                     "1-alt-variant": "ب.م"
                 }
             }
         },
-        gmtFormat: "جرينتش{0}",
-        gmtZeroFormat: "جرينتش",
+        gmtFormat: "غرينتش{0}",
+        gmtZeroFormat: "غرينتش",
         dateFields: {
             era: {
                 wide: "العصر",
@@ -2717,9 +2756,9 @@ const data = {
                 narrow: "الأسبوع"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "الأسبوع من الشهر",
+                short: "أسبوع من شهر",
+                narrow: "أسبوع/شهر"
             },
             day: {
                 wide: "يوم",
@@ -2727,9 +2766,9 @@ const data = {
                 narrow: "يوم"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "يوم من السنة",
+                short: "يوم من سنة",
+                narrow: "يوم/سنة"
             },
             weekday: {
                 wide: "اليوم",
@@ -2737,9 +2776,9 @@ const data = {
                 narrow: "اليوم"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "يوم عمل من الشهر",
+                short: "يوم عمل من شهر",
+                narrow: "يوم عمل/شهر"
             },
             dayperiod: {
                 short: "ص/م",
@@ -2763,8 +2802,8 @@ const data = {
             },
             zone: {
                 wide: "التوقيت",
-                short: "التوقيت",
-                narrow: "التوقيت"
+                short: "توقيت",
+                narrow: "توقيت"
             }
         }
     },

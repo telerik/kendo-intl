@@ -16,11 +16,11 @@ const data = {
             M: "d 'de' MMMM",
             y: "MMMM 'de' y",
             Y: "MMMM 'de' y",
-            F: "EEEE, d 'de' MMMM 'de' y HH:mm:ss",
-            g: "d/M/y HH:mm",
-            G: "d/M/y HH:mm:ss",
-            t: "HH:mm",
-            T: "HH:mm:ss",
+            F: "EEEE, d 'de' MMMM 'de' y H:mm:ss",
+            g: "d/M/y H:mm",
+            G: "d/M/y H:mm:ss",
+            t: "H:mm",
+            T: "H:mm:ss",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
@@ -30,8 +30,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E d",
                 Ehm: "E h:mm a",
                 EHm: "E H:mm",
@@ -73,7 +78,7 @@ const data = {
                 y: "y",
                 yM: "M/y",
                 yMd: "d/M/y",
-                yMEd: "E d/M/y",
+                yMEd: "E, d/M/y",
                 yMM: "MM/y",
                 yMMM: "MMMM 'de' y",
                 yMMMd: "d 'de' MMMM 'de' y",
@@ -83,20 +88,20 @@ const data = {
                 yMMMMEd: "EEE, d 'de' MMMM 'de' y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ 'de' y",
-                "yw-count-one": "'semana' w 'de' y",
-                "yw-count-other": "'semana' w 'de' y"
+                "yw-count-one": "'semana' w 'de' Y",
+                "yw-count-other": "'semana' w 'de' Y"
             }
         },
         timeFormats: {
-            full: "HH:mm:ss zzzz",
-            long: "HH:mm:ss z",
-            medium: "HH:mm:ss",
-            short: "HH:mm"
+            full: "H:mm:ss zzzz",
+            long: "H:mm:ss z",
+            medium: "H:mm:ss",
+            short: "H:mm"
         },
         dateFormats: {
             full: "EEEE, d 'de' MMMM 'de' y",
             long: "d 'de' MMMM 'de' y",
-            medium: "dd/MM/y",
+            medium: "d MMM y",
             short: "dd/MM/yy"
         },
         days: {
@@ -194,18 +199,18 @@ const data = {
                     "dic"
                 ],
                 narrow: [
-                    "e",
-                    "f",
-                    "m",
-                    "a",
-                    "m",
-                    "j",
-                    "j",
-                    "a",
-                    "s",
-                    "o",
-                    "n",
-                    "d"
+                    "E",
+                    "F",
+                    "M",
+                    "A",
+                    "M",
+                    "J",
+                    "J",
+                    "A",
+                    "S",
+                    "O",
+                    "N",
+                    "D"
                 ],
                 wide: [
                     "enero",
@@ -282,9 +287,9 @@ const data = {
                     "4T"
                 ],
                 wide: [
-                    "1er. trimestre",
+                    "1.er trimestre",
                     "2º. trimestre",
-                    "3er. trimestre",
+                    "3.er trimestre",
                     "4o. trimestre"
                 ]
             },
@@ -302,9 +307,9 @@ const data = {
                     "4T"
                 ],
                 wide: [
-                    "1er. trimestre",
+                    "1.er trimestre",
                     "2º. trimestre",
-                    "3er. trimestre",
+                    "3.er trimestre",
                     "4º trimestre"
                 ]
             }
@@ -420,9 +425,9 @@ const data = {
                 narrow: "sem."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "semana del mes",
+                short: "sem. del mes",
+                narrow: "sem. del mes"
             },
             day: {
                 wide: "día",
@@ -430,19 +435,19 @@ const data = {
                 narrow: "d"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "día del año",
+                short: "día del a",
+                narrow: "día del a"
             },
             weekday: {
                 wide: "día de la semana",
-                short: "día de la semana",
-                narrow: "día de la semana"
+                short: "día de sem.",
+                narrow: "día de sem."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "día hábil del mes",
+                short: "día hábil del mes",
+                narrow: "día hábil del mes"
             },
             dayperiod: {
                 short: "a. m./p. m.",
@@ -465,9 +470,9 @@ const data = {
                 narrow: "s"
             },
             zone: {
-                wide: "Zona horaria",
-                short: "Zona horaria",
-                narrow: "Zona horaria"
+                wide: "zona horaria",
+                short: "zona",
+                narrow: "zona"
             }
         }
     },

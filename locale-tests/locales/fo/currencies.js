@@ -29,6 +29,10 @@ const data = {
                 "displayName-count-other": "Afganistan afghani",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "Albania lek",
                 "displayName-count-one": "Albania lek",
@@ -341,6 +345,14 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "CNH",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "kinesiskur yuan",
                 "displayName-count-one": "kinesiskur yuan",
@@ -647,6 +659,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "Ísrael new sheqel",
                 "displayName-count-one": "Ísrael new sheqel",
@@ -672,6 +688,10 @@ const data = {
                 "displayName-count-one": "iranskur rial",
                 "displayName-count-other": "iranskir rials",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "íslendsk króna",
@@ -930,6 +950,10 @@ const data = {
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
+            },
             MVR: {
                 displayName: "Maldivoyggjar rufiyaa",
                 "displayName-count-one": "Maldivoyggjar rufiyaa",
@@ -1113,7 +1137,7 @@ const data = {
             RON: {
                 displayName: "Rumenia leu",
                 "displayName-count-one": "Rumenia leu",
-                "displayName-count-other": "Rumenia leu",
+                "displayName-count-other": "Rumenia lei",
                 symbol: "RON",
                 "symbol-alt-narrow": "lei"
             },
@@ -1240,6 +1264,10 @@ const data = {
                 "displayName-count-other": "Sao Tome & Prinsipi dobra",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

@@ -30,8 +30,13 @@ const data = {
             medium: "{1} 'à' {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "E",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -59,8 +64,8 @@ const data = {
                 MMMd: "d MMM",
                 MMMEd: "E d MMM",
                 MMMMd: "d MMMM",
-                "MMMMW-count-one": "'semaine' W 'de' MMM",
-                "MMMMW-count-other": "'semaine' W 'de' MMM",
+                "MMMMW-count-one": "'semaine' W (MMMM)",
+                "MMMMW-count-other": "'semaine' W (MMMM)",
                 ms: "mm:ss",
                 y: "y",
                 yM: "MM.y",
@@ -72,8 +77,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'semaine' w 'de' y",
-                "yw-count-other": "'semaine' w 'de' y"
+                "yw-count-one": "'semaine' w 'de' Y",
+                "yw-count-other": "'semaine' w 'de' Y"
             }
         },
         timeFormats: {
@@ -415,9 +420,9 @@ const data = {
                 narrow: "sem."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "semaine (mois)",
+                short: "sem. (m.)",
+                narrow: "sem. (m.)"
             },
             day: {
                 wide: "jour",
@@ -425,19 +430,19 @@ const data = {
                 narrow: "j"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "jour (année)",
+                short: "j (an)",
+                narrow: "j (an)"
             },
             weekday: {
                 wide: "jour de la semaine",
-                short: "jour de la semaine",
-                narrow: "jour de la semaine"
+                short: "j (sem.)",
+                narrow: "j (sem.)"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "jour (mois)",
+                short: "jour (mois)",
+                narrow: "jour (mois)"
             },
             dayperiod: {
                 short: "cadran",

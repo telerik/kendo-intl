@@ -29,8 +29,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "d E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -59,7 +64,7 @@ const data = {
                 MMMEd: "E, d MMM",
                 MMMMd: "d MMMM",
                 "MMMMW-count-one": "'week' W 'of' MMM",
-                "MMMMW-count-other": "'week' W 'of' MMM",
+                "MMMMW-count-other": "'week' W 'of' MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M/y",
@@ -72,8 +77,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'week' w 'of' y",
-                "yw-count-other": "'week' w 'of' y"
+                "yw-count-one": "'week' w 'of' Y",
+                "yw-count-other": "'week' w 'of' Y"
             }
         },
         timeFormats: {
@@ -169,8 +174,8 @@ const data = {
         months: {
             format: {
                 abbreviated: [
-                    "ಜನ",
-                    "ಫೆಬ್ರ",
+                    "ಜನವರಿ",
+                    "ಫೆಬ್ರವರಿ",
                     "ಮಾರ್ಚ್",
                     "ಏಪ್ರಿ",
                     "ಮೇ",
@@ -409,9 +414,9 @@ const data = {
                 narrow: "ವಾರ"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "ತಿಂಗಳ ವಾರ",
+                short: "ತಿಂಗಳ ವಾರ",
+                narrow: "ತಿಂಗಳ ವಾರ"
             },
             day: {
                 wide: "ದಿನ",
@@ -419,9 +424,9 @@ const data = {
                 narrow: "ದಿನ"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "ವರ್ಷದ ದಿನ",
+                short: "ವರ್ಷದ ದಿನ",
+                narrow: "ವರ್ಷದ ದಿನ"
             },
             weekday: {
                 wide: "ವಾರದ ದಿನ",
@@ -429,14 +434,14 @@ const data = {
                 narrow: "ವಾರದ ದಿನ"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "ತಿಂಗಳ ವಾರದ ದಿನ",
+                short: "ತಿಂಗಳ ವಾರದ ದಿನ",
+                narrow: "ತಿಂಗಳ ವಾರದ ದಿನ"
             },
             dayperiod: {
                 short: "ಪೂರ್ವಾಹ್ನ/ಅಪರಾಹ್ನ",
-                wide: "ಪೂರ್ವಾಹ್ನ/ಅಪರಾಹ್ನ",
-                narrow: "ಪೂರ್ವಾಹ್ನ/ಅಪರಾಹ್ನ"
+                wide: "AM/PM",
+                narrow: "AM/PM"
             },
             hour: {
                 wide: "ಗಂಟೆ",
@@ -455,8 +460,8 @@ const data = {
             },
             zone: {
                 wide: "ಸಮಯ ವಲಯ",
-                short: "ಸಮಯ ವಲಯ",
-                narrow: "ಸಮಯ ವಲಯ"
+                short: "ವಲಯ",
+                narrow: "ವಲಯ"
             }
         }
     },

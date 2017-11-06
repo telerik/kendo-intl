@@ -84,6 +84,10 @@ const data = {
                 "displayName-count-other": "afgán afghani",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "albán lek",
                 "displayName-count-one": "albán lek",
@@ -434,6 +438,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "kínai jüan (offshore)",
+                "displayName-count-one": "kínai jüan (offshore)",
+                "displayName-count-other": "kínai jüan (offshore)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "kínai jüan",
                 "displayName-count-one": "kínai jüan",
@@ -743,6 +757,10 @@ const data = {
                 displayName: "Izraeli font",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "izraeli új sékel",
                 "displayName-count-one": "izraeli új sékel",
@@ -768,6 +786,10 @@ const data = {
                 "displayName-count-one": "iráni rial",
                 "displayName-count-other": "iráni rial",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "izlandi korona",
@@ -1029,6 +1051,10 @@ const data = {
                 "displayName-count-other": "mauritiusi rúpia",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "maldív-szigeteki rufiyaa",
@@ -1350,6 +1376,10 @@ const data = {
                 "displayName-count-other": "São Tomé és Príncipe-i dobra",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "Szovjet rubel",
@@ -1757,8 +1787,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "B h",
+                Bhm: "B h:mm",
+                Bhms: "B h:mm:ss",
                 d: "d",
                 E: "ccc",
+                EBhm: "E B h:mm",
+                EBhms: "E B h:mm:ss",
                 Ed: "d., E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -1774,9 +1809,9 @@ const data = {
                 Hm: "H:mm",
                 hms: "a h:mm:ss",
                 Hms: "H:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "a h:mm:ss v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "a h:mm v",
                 Hmv: "HH:mm v",
                 M: "L",
                 Md: "M. d.",
@@ -1799,8 +1834,8 @@ const data = {
                 yMMMM: "y. MMMM",
                 yQQQ: "y. QQQ",
                 yQQQQ: "y. QQQQ",
-                "yw-count-one": "y w. 'hete'",
-                "yw-count-other": "y w. 'hete'"
+                "yw-count-one": "Y w. 'hete'",
+                "yw-count-other": "Y w. 'hete'"
             }
         },
         timeFormats: {
@@ -1986,16 +2021,16 @@ const data = {
         quarters: {
             format: {
                 abbreviated: [
-                    "N1",
-                    "N2",
-                    "N3",
-                    "N4"
+                    "I. n.év",
+                    "II. n.év",
+                    "III. n.év",
+                    "IV. n.év"
                 ],
                 narrow: [
-                    "1.",
-                    "2.",
-                    "3.",
-                    "4."
+                    "I.",
+                    "II.",
+                    "III.",
+                    "IV."
                 ],
                 wide: [
                     "I. negyedév",
@@ -2006,10 +2041,10 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "N1",
-                    "N2",
-                    "N3",
-                    "N4"
+                    "1. n.év",
+                    "2. n.év",
+                    "3. n.év",
+                    "4. n.év"
                 ],
                 narrow: [
                     "1.",
@@ -2033,46 +2068,8 @@ const data = {
                     noon: "dél",
                     pm: "du.",
                     morning1: "reggel",
-                    morning2: "reggel",
-                    afternoon1: "délután",
-                    evening1: "este",
-                    night1: "éjszaka",
-                    night2: "éjszaka"
-                },
-                narrow: {
-                    midnight: "éjfél",
-                    am: "de.",
-                    noon: "dél",
-                    pm: "du.",
-                    morning1: "reggel",
-                    morning2: "reggel",
-                    afternoon1: "délután",
-                    evening1: "délután",
-                    night1: "éjszaka",
-                    night2: "éjszaka"
-                },
-                wide: {
-                    midnight: "éjfél",
-                    am: "de.",
-                    noon: "dél",
-                    pm: "du.",
-                    morning1: "reggel",
-                    morning2: "reggel",
-                    afternoon1: "délután",
-                    evening1: "este",
-                    night1: "éjszaka",
-                    night2: "éjszaka"
-                }
-            },
-            "stand-alone": {
-                abbreviated: {
-                    midnight: "éjfél",
-                    am: "de.",
-                    noon: "dél",
-                    pm: "du.",
-                    morning1: "reggel",
-                    morning2: "délelőtt",
-                    afternoon1: "délután",
+                    morning2: "de.",
+                    afternoon1: "du.",
                     evening1: "este",
                     night1: "éjjel",
                     night2: "hajnal"
@@ -2083,8 +2080,46 @@ const data = {
                     noon: "dél",
                     pm: "du.",
                     morning1: "reggel",
+                    morning2: "de.",
+                    afternoon1: "du.",
+                    evening1: "este",
+                    night1: "éjjel",
+                    night2: "hajnal"
+                },
+                wide: {
+                    midnight: "éjfél",
+                    am: "de.",
+                    noon: "dél",
+                    pm: "du.",
+                    morning1: "reggel",
                     morning2: "délelőtt",
                     afternoon1: "délután",
+                    evening1: "este",
+                    night1: "éjjel",
+                    night2: "hajnal"
+                }
+            },
+            "stand-alone": {
+                abbreviated: {
+                    midnight: "éjfél",
+                    am: "de.",
+                    noon: "dél",
+                    pm: "du.",
+                    morning1: "reggel",
+                    morning2: "de.",
+                    afternoon1: "du.",
+                    evening1: "este",
+                    night1: "éjjel",
+                    night2: "hajnal"
+                },
+                narrow: {
+                    midnight: "éjfél",
+                    am: "de.",
+                    noon: "dél",
+                    pm: "du.",
+                    morning1: "reggel",
+                    morning2: "de.",
+                    afternoon1: "du.",
                     evening1: "este",
                     night1: "éjjel",
                     night2: "hajnal"
@@ -2106,9 +2141,9 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "időszámításunk előtt",
+                    0: "Krisztus előtt",
                     1: "időszámításunk szerint",
-                    "0-alt-variant": "i. e.",
+                    "0-alt-variant": "időszámításunk előtt",
                     "1-alt-variant": "i. sz."
                 },
                 abbreviated: {
@@ -2140,8 +2175,8 @@ const data = {
             },
             quarter: {
                 wide: "negyedév",
-                short: "negyedév",
-                narrow: "negyedév"
+                short: "n.év",
+                narrow: "n.év"
             },
             month: {
                 wide: "hónap",
@@ -2154,9 +2189,9 @@ const data = {
                 narrow: "hét"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "hónap hete",
+                short: "hónap hete",
+                narrow: "hónap hete"
             },
             day: {
                 wide: "nap",
@@ -2164,9 +2199,9 @@ const data = {
                 narrow: "nap"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "év napja",
+                short: "év napja",
+                narrow: "év napja"
             },
             weekday: {
                 wide: "hét napja",
@@ -2174,9 +2209,9 @@ const data = {
                 narrow: "hét napja"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "hónap hétköznapja",
+                short: "hónap hétköznapja",
+                narrow: "hónap hétköznapja"
             },
             dayperiod: {
                 short: "napszak",

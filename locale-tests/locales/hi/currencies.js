@@ -29,6 +29,10 @@ const data = {
                 "displayName-count-other": "अफ़गान अफ़गानी",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "अल्बानियाई लेक",
                 "displayName-count-one": "अल्बानियाई लेक",
@@ -341,6 +345,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "चीनी यूआन",
+                "displayName-count-one": "चीनी यूआन",
+                "displayName-count-other": "चीनी यूआन",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "चीनी युआन",
                 "displayName-count-one": "चीनी युआन",
@@ -648,6 +662,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "इज़राइली न्यू शेकेल",
                 "displayName-count-one": "इज़राइली न्यू शेकेल",
@@ -673,6 +691,10 @@ const data = {
                 "displayName-count-one": "ईरानी रियाल",
                 "displayName-count-other": "ईरानी रियाल",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "आइसलैंडिक क्रोना",
@@ -935,6 +957,10 @@ const data = {
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
+            },
             MVR: {
                 displayName: "मालदीवी रुफ़िया",
                 "displayName-count-one": "मालदीवी रुफ़िया",
@@ -1120,7 +1146,7 @@ const data = {
                 "displayName-count-one": "रोमानियाई ल्यू",
                 "displayName-count-other": "रोमानियाई ल्यू",
                 symbol: "RON",
-                "symbol-alt-narrow": "lei"
+                "symbol-alt-narrow": "लेई"
             },
             RSD: {
                 displayName: "सर्बियन दिनार",
@@ -1245,6 +1271,10 @@ const data = {
                 "displayName-count-other": "साओ तोम और प्रिंसिपे डोबरा",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "सोवियत रूबल",
@@ -1435,9 +1465,9 @@ const data = {
                 symbol: "WST"
             },
             XAF: {
-                displayName: "[CFA] फ़्रैंक [BEAC]",
-                "displayName-count-one": "[CFA] फ़्रैंक [BEAC]",
-                "displayName-count-other": "[CFA] फ़्रैंक [BEAC]",
+                displayName: "केंद्रीय अफ़्रीकी CFA फ़्रैंक",
+                "displayName-count-one": "केंद्रीय अफ़्रीकी CFA फ़्रैंक",
+                "displayName-count-other": "केंद्रीय अफ़्रीकी CFA फ़्रैंक",
                 symbol: "FCFA"
             },
             XAG: {
@@ -1488,9 +1518,9 @@ const data = {
                 symbol: "XFU"
             },
             XOF: {
-                displayName: "पश्चिमी अफ़्रीकी CFA फ्रैंक",
-                "displayName-count-one": "[CFA] फ़्रैंक [BCEAO]",
-                "displayName-count-other": "[CFA] फ़्रैंक [BCEAO]",
+                displayName: "पश्चिमी अफ़्रीकी CFA फ़्रैंक",
+                "displayName-count-one": "पश्चिमी अफ़्रीकी CFA फ़्रैंक",
+                "displayName-count-other": "पश्चिमी अफ़्रीकी CFA फ़्रैंक",
                 symbol: "CFA"
             },
             XPD: {

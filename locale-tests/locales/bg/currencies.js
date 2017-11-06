@@ -33,6 +33,10 @@ const data = {
                 "displayName-count-other": "афганистански афгана",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "Албански лек",
                 "displayName-count-one": "албански лек",
@@ -377,6 +381,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "CLP"
             },
+            CNH: {
+                displayName: "Китайски ренминби юан (offshore)",
+                "displayName-count-one": "китайски ренминби юан (offshore)",
+                "displayName-count-other": "китайски ренминби юан (offshore)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "Китайски юан",
                 "displayName-count-one": "китайски юан",
@@ -710,6 +724,10 @@ const data = {
                 "displayName-count-other": "израелски лири",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "Израелски нов шекел",
                 "displayName-count-one": "израелски нов шекел",
@@ -735,6 +753,10 @@ const data = {
                 "displayName-count-one": "ирански риал",
                 "displayName-count-other": "ирански риала",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Исландска крона",
@@ -1011,6 +1033,10 @@ const data = {
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
+            },
             MVR: {
                 displayName: "Малдивска руфия",
                 "displayName-count-one": "малдивска руфия",
@@ -1214,7 +1240,7 @@ const data = {
                 "displayName-count-one": "румънска лея",
                 "displayName-count-other": "румънски леи",
                 symbol: "RON",
-                "symbol-alt-narrow": "lei"
+                "symbol-alt-narrow": "RON"
             },
             RSD: {
                 displayName: "Сръбски динар",
@@ -1349,6 +1375,10 @@ const data = {
                 "displayName-count-other": "добра на Сао Томе и Принсипи",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "Съветска рубла",

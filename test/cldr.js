@@ -96,11 +96,11 @@ describe('load calendar', () => {
         const patterns = cldr.bg.calendar.patterns;
         expect(patterns.d).toEqual("d.MM.y 'г'.");
         expect(patterns.D).toEqual("EEEE, d MMMM y 'г'.");
-        expect(patterns.F).toEqual("EEEE, d MMMM y 'г'. H:mm:ss");
-        expect(patterns.g).toEqual("d.MM.y 'г'. H:mm");
-        expect(patterns.G).toEqual("d.MM.y 'г'. H:mm:ss");
-        expect(patterns.t).toEqual("H:mm");
-        expect(patterns.T).toEqual("H:mm:ss");
+        expect(patterns.F).toEqual("EEEE, d MMMM y 'г'. H:mm:ss 'ч'.");
+        expect(patterns.g).toEqual("d.MM.y 'г'. H:mm 'ч'.");
+        expect(patterns.G).toEqual("d.MM.y 'г'. H:mm:ss 'ч'.");
+        expect(patterns.t).toEqual("H:mm 'ч'.");
+        expect(patterns.T).toEqual("H:mm:ss 'ч'.");
     });
 
     it('should set standard patterns', () => {
@@ -449,8 +449,8 @@ describe('dateFieldName', () => {
 
     it('should return localized placeholder for the weekday type', () => {
         expect(dateFieldName({ type: 'weekday', nameType: 'wide' }, 'bg')).toEqual("ден от седмицата");
-        expect(dateFieldName({ type: 'weekday', nameType: 'narrow' }, 'bg')).toEqual("ден от седмицата");
-        expect(dateFieldName({ type: 'weekday', nameType: 'short' }, 'bg')).toEqual("ден от седмицата");
+        expect(dateFieldName({ type: 'weekday', nameType: 'narrow' }, 'bg')).toEqual("ден от седм.");
+        expect(dateFieldName({ type: 'weekday', nameType: 'short' }, 'bg')).toEqual("ден от седм.");
     });
 
     it('should return placeholder for the dayperiod type', () => {

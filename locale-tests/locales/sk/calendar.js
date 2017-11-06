@@ -10,12 +10,12 @@ const data = {
     calendar: {
         patterns: {
             d: "d. M. y",
-            D: "EEEE, d. MMMM y",
+            D: "EEEE d. MMMM y",
             m: "d. M.",
             M: "d. MMMM",
             y: "M/y",
             Y: "LLLL y",
-            F: "EEEE, d. MMMM y H:mm:ss",
+            F: "EEEE d. MMMM y H:mm:ss",
             g: "d. M. y H:mm",
             G: "d. M. y H:mm:ss",
             t: "H:mm",
@@ -29,8 +29,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d.",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E d.",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -39,7 +44,7 @@ const data = {
                 Gy: "y G",
                 GyMMM: "LLLL y G",
                 GyMMMd: "d. M. y G",
-                GyMMMEd: "E, d. M. y G",
+                GyMMMEd: "E d. M. y G",
                 GyMMMMd: "d. M. y G",
                 h: "h a",
                 H: "H",
@@ -76,10 +81,10 @@ const data = {
                 yMMMMd: "d. MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "w. 'týždeň' 'v' 'roku' y",
-                "yw-count-few": "w. 'týždeň' 'v' 'roku' y",
-                "yw-count-many": "w. 'týždeň' 'v' 'roku' y",
-                "yw-count-other": "w. 'týždeň' 'v' 'roku' y"
+                "yw-count-one": "w. 'týždeň' 'v' 'roku' Y",
+                "yw-count-few": "w. 'týždeň' 'v' 'roku' Y",
+                "yw-count-many": "w. 'týždeň' 'v' 'roku' Y",
+                "yw-count-other": "w. 'týždeň' 'v' 'roku' Y"
             }
         },
         timeFormats: {
@@ -89,7 +94,7 @@ const data = {
             short: "H:mm"
         },
         dateFormats: {
-            full: "EEEE, d. MMMM y",
+            full: "EEEE d. MMMM y",
             long: "d. MMMM y",
             medium: "d. M. y",
             short: "d. M. y"
@@ -403,8 +408,8 @@ const data = {
         dateFields: {
             era: {
                 wide: "letopočet",
-                short: "letopočet",
-                narrow: "letopočet"
+                short: "letop.",
+                narrow: "letop."
             },
             year: {
                 wide: "rok",
@@ -427,9 +432,9 @@ const data = {
                 narrow: "týž."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "týždeň mesiaca",
+                short: "týž. mes.",
+                narrow: "týž. mes."
             },
             day: {
                 wide: "deň",
@@ -437,24 +442,24 @@ const data = {
                 narrow: "d."
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "deň roka",
+                short: "deň r.",
+                narrow: "deň r."
             },
             weekday: {
                 wide: "deň týždňa",
-                short: "deň týždňa",
-                narrow: "deň týždňa"
+                short: "deň týž.",
+                narrow: "deň týž."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "deň týždňa v mesiaci",
+                short: "d.  týž. v mes.",
+                narrow: "d.  týž. v mes."
             },
             dayperiod: {
-                short: "časť dňa",
-                wide: "časť dňa",
-                narrow: "časť dňa"
+                short: "AM/PM",
+                wide: "AM/PM",
+                narrow: "AM/PM"
             },
             hour: {
                 wide: "hodina",
@@ -473,8 +478,8 @@ const data = {
             },
             zone: {
                 wide: "časové pásmo",
-                short: "časové pásmo",
-                narrow: "časové pásmo"
+                short: "pásmo",
+                narrow: "pásmo"
             }
         }
     },

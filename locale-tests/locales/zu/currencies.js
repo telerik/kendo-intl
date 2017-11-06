@@ -29,6 +29,10 @@ const data = {
                 "displayName-count-other": "i-Afghan Afghani",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "i-Albanian Lek",
                 "displayName-count-one": "i-Albanian Lek",
@@ -341,6 +345,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "CNH",
+                "displayName-count-one": "CNH",
+                "displayName-count-other": "CNH",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "i-Chinese Yuan",
                 "displayName-count-one": "i-Chinese Yuan",
@@ -648,6 +662,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "i-Israeli New Sheqel",
                 "displayName-count-one": "i-Israeli New Sheqel",
@@ -673,6 +691,10 @@ const data = {
                 "displayName-count-one": "i-Iranian Rial",
                 "displayName-count-other": "i-Iranian Rial",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "i-Icelandic Króna",
@@ -930,6 +952,10 @@ const data = {
                 "displayName-count-other": "i-Mauritian Rupee",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "i-Maldivian Rufiyana",
@@ -1241,6 +1267,10 @@ const data = {
                 "displayName-count-other": "i-São Tomé kanye ne-Príncipe Dobra",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

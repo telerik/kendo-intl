@@ -29,6 +29,10 @@ const data = {
                 "displayName-count-other": "afganar",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "albanskt lek",
                 "displayName-count-one": "albanskt lek",
@@ -341,6 +345,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "kínverskt júan (utan heimalands)",
+                "displayName-count-one": "kínverskt júan (utan heimalands)",
+                "displayName-count-other": "kínverskt júan (utan heimalands)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "kínverskt júan",
                 "displayName-count-one": "kínverskt júan",
@@ -449,6 +463,8 @@ const data = {
             },
             EEK: {
                 displayName: "Eistnesk króna",
+                "displayName-count-one": "eistnesk króna",
+                "displayName-count-other": "eistneskar krónur",
                 symbol: "EEK"
             },
             EGP: {
@@ -543,7 +559,7 @@ const data = {
             },
             GIP: {
                 displayName: "Gíbraltarspund",
-                "displayName-count-one": "Gíbraltarpund",
+                "displayName-count-one": "Gíbraltarspund",
                 "displayName-count-other": "Gíbraltarspund",
                 symbol: "GIP",
                 "symbol-alt-narrow": "£"
@@ -648,6 +664,10 @@ const data = {
                 displayName: "Ísraelskt pund",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "nýr ísraelskur sikill",
                 "displayName-count-one": "nýr ísraelskur sikill",
@@ -673,6 +693,10 @@ const data = {
                 "displayName-count-one": "íranskt ríal",
                 "displayName-count-other": "írönsk ríöl",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "íslensk króna",
@@ -934,6 +958,10 @@ const data = {
                 "displayName-count-other": "máritískar rúpíur",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "maldíveysk rúpía",
@@ -1247,6 +1275,10 @@ const data = {
                 "displayName-count-other": "Saó Tóme og Prinsípe-dóbrur",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "Soviet Rouble",

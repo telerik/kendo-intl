@@ -76,10 +76,14 @@ const data = {
                 symbol: "AFA"
             },
             AFN: {
-                displayName: "ಅಫ್‌ಘನ್ ಅಫಗಾನಿ",
-                "displayName-count-one": "ಅಫ್‌ಘನ್ ಅಫಗಾನಿ",
-                "displayName-count-other": "ಅಫ್‌ಘನ್ ಅಫಗಾನಿಗಳು",
+                displayName: "ಅಫ್‌ಘನ್ ಅಫಘಾನಿ",
+                "displayName-count-one": "ಅಫ್‌ಘನ್ ಅಫಘಾನಿ",
+                "displayName-count-other": "ಅಫ್‌ಘನ್ ಅಫಘಾನಿಗಳು",
                 symbol: "AFN"
+            },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
             },
             ALL: {
                 displayName: "ಅಲ್‌ಬೇನಿಯನ್ ಲೆಕ್",
@@ -393,6 +397,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "CNH",
+                "displayName-count-one": "CNH",
+                "displayName-count-other": "CNH",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "ಚೈನೀಸ್ ಯುವಾನ್",
                 "displayName-count-one": "ಚೈನೀಸ್ ಯುವಾನ್",
@@ -700,6 +714,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "ಇಸ್ರೇಲಿ ನ್ಯೂ ಶೇಖಲ್",
                 "displayName-count-one": "ಇಸ್ರೇಲಿ ನ್ಯೂ ಶೇಖಲ್",
@@ -715,9 +733,9 @@ const data = {
                 "symbol-alt-narrow": "₹"
             },
             IQD: {
-                displayName: "ಇರಾಖಿಯನ್ ದಿನಾರ್",
+                displayName: "ಇರಾಕಿಯನ್ ದಿನಾರ್‌",
                 "displayName-count-one": "ಇರಾಖಿಯನ್ ದಿನಾರ್",
-                "displayName-count-other": "ಇರಾಖಿಯನ್ ದಿನಾರ್‌ಗಳು",
+                "displayName-count-other": "ಇರಾಕಿಯನ್ ದಿನಾರ್‌ಗಳು",
                 symbol: "IQD"
             },
             IRR: {
@@ -725,6 +743,10 @@ const data = {
                 "displayName-count-one": "ಇರಾನಿಯನ್ ರಿಯಲ್",
                 "displayName-count-other": "ಇರಾನಿಯನ್ ರಿಯಲ್‌ಗಳು",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "ಐಸ್‌ಲ್ಯಾಂಡಿಕ್ ಕ್ರೋನಾ",
@@ -758,9 +780,9 @@ const data = {
                 "symbol-alt-narrow": "¥"
             },
             KES: {
-                displayName: "ಕೆನ್ಯನ್ ಶಿಲ್ಲಿಂಗ್",
-                "displayName-count-one": "ಕೆನ್ಯನ್ ಶಿಲ್ಲಿಂಗ್",
-                "displayName-count-other": "ಕೆನ್ಯನ್ ಶಿಲ್ಲಿಂಗ್‍ಗಳು",
+                displayName: "ಕೀನ್ಯಾದ ಶಿಲ್ಲಿಂಗ್‌",
+                "displayName-count-one": "ಕೀನ್ಯಾದ ಶಿಲ್ಲಿಂಗ್‌",
+                "displayName-count-other": "ಕೀನ್ಯಾದ ಶಿಲ್ಲಿಂಗ್‌ಗಳು",
                 symbol: "KES"
             },
             KGS: {
@@ -987,6 +1009,10 @@ const data = {
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
+            },
             MVR: {
                 displayName: "ಮಾಲ್ಡೀವಿಯನ್ ರುಫಿಯಾ",
                 "displayName-count-one": "ಮಾಲ್ಡೀವಿಯನ್ ರುಫಿಯಾ",
@@ -1172,7 +1198,7 @@ const data = {
                 "displayName-count-one": "ರೊಮೇನಿಯನ್ ಲೆವು",
                 "displayName-count-other": "ರೊಮೇನಿಯನ್ ಲೆಯ್",
                 symbol: "RON",
-                "symbol-alt-narrow": "lei"
+                "symbol-alt-narrow": "ಲೀ"
             },
             RSD: {
                 displayName: "ಸೆರ್ಬಿಯನ್ ದಿನಾರ್",
@@ -1298,6 +1324,10 @@ const data = {
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
             },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
+            },
             SUR: {
                 displayName: "SUR",
                 symbol: "SUR"
@@ -1347,9 +1377,9 @@ const data = {
                 symbol: "TMT"
             },
             TND: {
-                displayName: "ತುನೀಸಿಯನ್ ದಿನಾರ್",
+                displayName: "ಟ್ಯುನೀಷಿಯನ್‌ ದಿನಾರ್",
                 "displayName-count-one": "ತುನೀಸಿಯನ್ ದಿನಾರ್",
-                "displayName-count-other": "ತುನೀಸಿಯನ್ ದಿನಾರ್‌ಗಳು",
+                "displayName-count-other": "ಟ್ಯುನೀಷಿಯನ್‌ ದಿನಾರ್‌ಗಳು",
                 symbol: "TND"
             },
             TOP: {
@@ -1487,9 +1517,9 @@ const data = {
                 symbol: "WST"
             },
             XAF: {
-                displayName: "CFA ಫ್ರಾಂಕ್ BEAC",
-                "displayName-count-one": "CFA ಫ್ರಾಂಕ್ BEAC",
-                "displayName-count-other": "CFA ಫ್ರಾಂಕ್ BEAC",
+                displayName: "ಮಧ್ಯ ಆಫ್ರಿಕನ್ CFA ಫ್ರಾಂಕ್",
+                "displayName-count-one": "ಮಧ್ಯ ಆಫ್ರಿಕನ್ CFA ಫ್ರಾಂಕ್",
+                "displayName-count-other": "ಮಧ್ಯ ಆಫ್ರಿಕನ್ CFA ಫ್ರಾಂಕ್‌ಗಳು",
                 symbol: "FCFA"
             },
             XAG: {
@@ -1674,8 +1704,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "d E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -1704,7 +1739,7 @@ const data = {
                 MMMEd: "E, d MMM",
                 MMMMd: "d MMMM",
                 "MMMMW-count-one": "'week' W 'of' MMM",
-                "MMMMW-count-other": "'week' W 'of' MMM",
+                "MMMMW-count-other": "'week' W 'of' MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M/y",
@@ -1717,8 +1752,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'week' w 'of' y",
-                "yw-count-other": "'week' w 'of' y"
+                "yw-count-one": "'week' w 'of' Y",
+                "yw-count-other": "'week' w 'of' Y"
             }
         },
         timeFormats: {
@@ -1814,8 +1849,8 @@ const data = {
         months: {
             format: {
                 abbreviated: [
-                    "ಜನ",
-                    "ಫೆಬ್ರ",
+                    "ಜನವರಿ",
+                    "ಫೆಬ್ರವರಿ",
                     "ಮಾರ್ಚ್",
                     "ಏಪ್ರಿ",
                     "ಮೇ",
@@ -2054,9 +2089,9 @@ const data = {
                 narrow: "ವಾರ"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "ತಿಂಗಳ ವಾರ",
+                short: "ತಿಂಗಳ ವಾರ",
+                narrow: "ತಿಂಗಳ ವಾರ"
             },
             day: {
                 wide: "ದಿನ",
@@ -2064,9 +2099,9 @@ const data = {
                 narrow: "ದಿನ"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "ವರ್ಷದ ದಿನ",
+                short: "ವರ್ಷದ ದಿನ",
+                narrow: "ವರ್ಷದ ದಿನ"
             },
             weekday: {
                 wide: "ವಾರದ ದಿನ",
@@ -2074,14 +2109,14 @@ const data = {
                 narrow: "ವಾರದ ದಿನ"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "ತಿಂಗಳ ವಾರದ ದಿನ",
+                short: "ತಿಂಗಳ ವಾರದ ದಿನ",
+                narrow: "ತಿಂಗಳ ವಾರದ ದಿನ"
             },
             dayperiod: {
                 short: "ಪೂರ್ವಾಹ್ನ/ಅಪರಾಹ್ನ",
-                wide: "ಪೂರ್ವಾಹ್ನ/ಅಪರಾಹ್ನ",
-                narrow: "ಪೂರ್ವಾಹ್ನ/ಅಪರಾಹ್ನ"
+                wide: "AM/PM",
+                narrow: "AM/PM"
             },
             hour: {
                 wide: "ಗಂಟೆ",
@@ -2100,8 +2135,8 @@ const data = {
             },
             zone: {
                 wide: "ಸಮಯ ವಲಯ",
-                short: "ಸಮಯ ವಲಯ",
-                narrow: "ಸಮಯ ವಲಯ"
+                short: "ವಲಯ",
+                narrow: "ವಲಯ"
             }
         }
     },

@@ -95,6 +95,10 @@ const data = {
                 "displayName-count-other": "afgani",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "lek albański",
                 "displayName-count-one": "lek albański",
@@ -495,6 +499,18 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "juan chiński (rynek zewnętrzny)",
+                "displayName-count-one": "juan chiński (rynek zewnętrzny)",
+                "displayName-count-few": "juany chińskie (rynek zewnętrzny)",
+                "displayName-count-many": "juanów chińskich (rynek zewnętrzny)",
+                "displayName-count-other": "juana chińskiego (rynek zewnętrzny)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "juan chiński",
                 "displayName-count-one": "juan chiński",
@@ -884,6 +900,10 @@ const data = {
                 displayName: "funt izraelski",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "nowy szekel izraelski",
                 "displayName-count-one": "nowy szekel izraelski",
@@ -917,6 +937,10 @@ const data = {
                 "displayName-count-many": "riali irańskich",
                 "displayName-count-other": "riala irańskiego",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "korona islandzka",
@@ -1241,6 +1265,10 @@ const data = {
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
+            },
             MVR: {
                 displayName: "rupia malediwska",
                 "displayName-count-one": "rupia malediwska",
@@ -1484,7 +1512,7 @@ const data = {
                 "displayName-count-many": "lejów rumuńskich",
                 "displayName-count-other": "leja rumuńskiego",
                 symbol: "RON",
-                "symbol-alt-narrow": "lei"
+                "symbol-alt-narrow": "lej"
             },
             RSD: {
                 displayName: "dinar serbski",
@@ -1655,6 +1683,10 @@ const data = {
                 "displayName-count-other": "dobry Wysp Świętego Tomasza i Książęcej",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "rubel radziecki",
@@ -2112,8 +2144,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E, d",
                 Ehm: "E, h:mm a",
                 EHm: "E, HH:mm",
@@ -2161,10 +2198,10 @@ const data = {
                 yMMMMEd: "E, d MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "y, 'tydz'. w",
-                "yw-count-few": "y, 'tydz'. w",
-                "yw-count-many": "y, 'tydz'. w",
-                "yw-count-other": "y, 'tydz'. w"
+                "yw-count-one": "Y, 'tydz'. w",
+                "yw-count-few": "Y, 'tydz'. w",
+                "yw-count-many": "Y, 'tydz'. w",
+                "yw-count-other": "Y, 'tydz'. w"
             }
         },
         timeFormats: {
@@ -2512,9 +2549,9 @@ const data = {
                 narrow: "tydz."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "tydzień miesiąca",
+                short: "tydz. mies.",
+                narrow: "tydz. mies."
             },
             day: {
                 wide: "dzień",
@@ -2522,24 +2559,24 @@ const data = {
                 narrow: "dzień"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "dzień roku",
+                short: "dz. roku",
+                narrow: "dz. r."
             },
             weekday: {
                 wide: "dzień tygodnia",
-                short: "dzień tygodnia",
-                narrow: "dzień tygodnia"
+                short: "dzień tyg.",
+                narrow: "dzień tyg."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "dzień miesiąca",
+                short: "dzień mies.",
+                narrow: "dzień mies."
             },
             dayperiod: {
                 short: "rano / po południu / wieczorem",
                 wide: "rano / po południu / wieczorem",
-                narrow: "rano / po południu / wieczorem"
+                narrow: "rano / po poł. / wiecz."
             },
             hour: {
                 wide: "godzina",
@@ -2558,8 +2595,8 @@ const data = {
             },
             zone: {
                 wide: "strefa czasowa",
-                short: "strefa czasowa",
-                narrow: "strefa czasowa"
+                short: "str. czasowa",
+                narrow: "str. czas."
             }
         }
     },

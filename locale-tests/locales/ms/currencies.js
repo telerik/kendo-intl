@@ -15,7 +15,7 @@ const data = {
             },
             AED: {
                 displayName: "Dirham Emiriah Arab Bersatu",
-                "displayName-count-other": "Dirham Emiriah Arab Bersatu",
+                "displayName-count-other": "Dirham UAE",
                 symbol: "AED"
             },
             AFA: {
@@ -26,6 +26,10 @@ const data = {
                 displayName: "Afghani Afghanistan",
                 "displayName-count-other": "Afghani Afghanistan",
                 symbol: "AFN"
+            },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
             },
             ALL: {
                 displayName: "Lek Albania",
@@ -38,8 +42,8 @@ const data = {
                 symbol: "AMD"
             },
             ANG: {
-                displayName: "Guilder Antillean Netherland",
-                "displayName-count-other": "Guilder Antillean Netherland",
+                displayName: "Guilder Antillen Belanda",
+                "displayName-count-other": "Guilder Antillen Belanda",
                 symbol: "ANG"
             },
             AOA: {
@@ -167,8 +171,8 @@ const data = {
                 symbol: "BHD"
             },
             BIF: {
-                displayName: "Franc Burundia",
-                "displayName-count-other": "Franc Burundia",
+                displayName: "Franc Burundi",
+                "displayName-count-other": "Franc Burundi",
                 symbol: "BIF"
             },
             BMD: {
@@ -257,14 +261,14 @@ const data = {
                 symbol: "BYB"
             },
             BYN: {
-                displayName: "Rubel Belarus",
-                "displayName-count-other": "Rubel Belarus",
+                displayName: "Rubel Belarus baharu",
+                "displayName-count-other": "rubel lama Belarus",
                 symbol: "BYN",
                 "symbol-alt-narrow": "р."
             },
             BYR: {
                 displayName: "Rubel Belarus (2000–2016)",
-                "displayName-count-other": "Rubel Belarus (2000–2016)",
+                "displayName-count-other": "Rubel Belarus",
                 symbol: "BYR"
             },
             BZD: {
@@ -310,6 +314,15 @@ const data = {
                 "displayName-count-other": "Peso Chile",
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
+            },
+            CNH: {
+                displayName: "Yuan China (luar pesisir)",
+                "displayName-count-other": "Yuan China (luar pesisir)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
             },
             CNY: {
                 displayName: "Yuan Cina",
@@ -586,9 +599,13 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
-                displayName: "Sheqel Baru Israel",
-                "displayName-count-other": "Sheqel Baru Israel",
+                displayName: "Syekel Baharu Israel",
+                "displayName-count-other": "Syekel baharu Israel",
                 symbol: "₪",
                 "symbol-alt-narrow": "₪"
             },
@@ -607,6 +624,10 @@ const data = {
                 displayName: "Rial Iran",
                 "displayName-count-other": "Rial Iran",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Krona Iceland",
@@ -835,10 +856,14 @@ const data = {
                 symbol: "MTP"
             },
             MUR: {
-                displayName: "Rupee Mauritia",
-                "displayName-count-other": "Rupee Mauritia",
+                displayName: "Rupee Mauritius",
+                "displayName-count-other": "Rupee Mauritius",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "Rufiyaa Maldives",
@@ -1115,6 +1140,10 @@ const data = {
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
             },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
+            },
             SUR: {
                 displayName: "SUR",
                 symbol: "SUR"
@@ -1164,8 +1193,8 @@ const data = {
                 symbol: "TND"
             },
             TOP: {
-                displayName: "Tongan Paʻanga",
-                "displayName-count-other": "Tongan Paʻanga",
+                displayName: "Pa’anga Tonga",
+                "displayName-count-other": "Pa’anga Tonga",
                 symbol: "TOP",
                 "symbol-alt-narrow": "T$"
             },
@@ -1243,7 +1272,7 @@ const data = {
                 symbol: "UYP"
             },
             UYU: {
-                displayName: "UYU",
+                displayName: "Peso Uruguay",
                 "displayName-count-other": "Peso Uruguay",
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"

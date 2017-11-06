@@ -84,6 +84,10 @@ const data = {
                 "displayName-count-other": "अफगाण अफगाणी",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "अल्बानियन लेक",
                 "displayName-count-one": "अल्बानियन लेक",
@@ -396,6 +400,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "चिनी युआन (ऑफशोर)",
+                "displayName-count-one": "चिनी युआन (ऑफशोर)",
+                "displayName-count-other": "चिनी युआन (ऑफशोर)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "चीनी युआन",
                 "displayName-count-one": "चीनी युआन",
@@ -703,6 +717,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "ईस्त्रायली न्यू शेकेल",
                 "displayName-count-one": "ईस्त्रायली न्यू शेकेल",
@@ -728,6 +746,10 @@ const data = {
                 "displayName-count-one": "इराणी रियाल",
                 "displayName-count-other": "इराणी रियाल",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "आइसलँडिक क्रोना",
@@ -989,6 +1011,10 @@ const data = {
                 "displayName-count-other": "मॉरिशियन रुपीज",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "मालदीवियन रुफिया",
@@ -1300,6 +1326,10 @@ const data = {
                 "displayName-count-other": "साओ टोम आणि प्रिन्सिपे डोबराज",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",
@@ -1677,8 +1707,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "B h",
+                Bhm: "B h:mm",
+                Bhms: "B h:mm:ss",
                 d: "d",
                 E: "ccc",
+                EBhm: "E B h:mm",
+                EBhms: "E B h:mm:ss",
                 Ed: "d E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -1720,8 +1755,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "y चा w रा आठवडा",
-                "yw-count-other": "y चा w रा आठवडा"
+                "yw-count-one": "Y चा w रा आठवडा",
+                "yw-count-other": "Y चा w रा आठवडा"
             }
         },
         timeFormats: {
@@ -2075,9 +2110,9 @@ const data = {
                 narrow: "आठवडा"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "महिन्याचा आठवडा",
+                short: "महिन्याचा आठ.",
+                narrow: "महिन्याचा आठ."
             },
             day: {
                 wide: "दिवस",
@@ -2085,9 +2120,9 @@ const data = {
                 narrow: "दिवस"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "वर्षातील दिवस",
+                short: "वर्षातील दिवस",
+                narrow: "वर्षातील दिवस"
             },
             weekday: {
                 wide: "आठवड्याचा दिवस",
@@ -2095,9 +2130,9 @@ const data = {
                 narrow: "आठवड्याचा दिवस"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "महिन्यातील साप्ताहिक दिवस",
+                short: "महिन्यातील साप्ता. दिवस",
+                narrow: "महिन्यातील साप्ता. दिवस"
             },
             dayperiod: {
                 short: "[म.पू./म.उ.]",
@@ -2121,8 +2156,8 @@ const data = {
             },
             zone: {
                 wide: "वेळ क्षेत्र",
-                short: "वेळ क्षेत्र",
-                narrow: "वेळ क्षेत्र"
+                short: "क्षेत्र",
+                narrow: "क्षेत्र"
             }
         }
     },

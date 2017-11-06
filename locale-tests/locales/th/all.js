@@ -78,6 +78,10 @@ const data = {
                 "displayName-count-other": "อัฟกานิอัฟกานิสถาน",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "เลกแอลเบเนีย",
                 "displayName-count-other": "เลกแอลเบเนีย",
@@ -362,6 +366,15 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "หยวน",
+                "displayName-count-other": "หยวน",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "หยวนจีน",
                 "displayName-count-other": "หยวนจีน",
@@ -638,6 +651,10 @@ const data = {
                 displayName: "ปอนด์อิสราเอล",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "นิวเชเกลอิสราเอล",
                 "displayName-count-other": "นิวเชเกลอิสราเอล",
@@ -659,6 +676,10 @@ const data = {
                 displayName: "เรียลอิหร่าน",
                 "displayName-count-other": "เรียลอิหร่าน",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "โครนาไอซ์แลนด์",
@@ -891,6 +912,10 @@ const data = {
                 "displayName-count-other": "รูปีมอริเชียส",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "รูฟิยามัลดีฟส์",
@@ -1169,6 +1194,10 @@ const data = {
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
             },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
+            },
             SUR: {
                 displayName: "รูเบิลโซเวียต",
                 symbol: "SUR"
@@ -1189,7 +1218,7 @@ const data = {
                 symbol: "SZL"
             },
             THB: {
-                displayName: "บาทไทย",
+                displayName: "บาท",
                 "displayName-count-other": "บาทไทย",
                 symbol: "THB",
                 "symbol-alt-narrow": "฿"
@@ -1519,8 +1548,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm น.",
@@ -1539,7 +1573,7 @@ const data = {
                 Hms: "HH:mm:ss",
                 hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm น. a v",
                 Hmv: "HH:mm v",
                 M: "L",
                 Md: "d/M",
@@ -1568,7 +1602,7 @@ const data = {
                 yMMMMEEEEd: "EEEEที่ d MMMM G y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ G y",
-                "yw-count-other": "สัปดาห์ที่ w ของ y"
+                "yw-count-other": "สัปดาห์ที่ w ของ Y"
             }
         },
         timeFormats: {
@@ -1922,9 +1956,9 @@ const data = {
                 narrow: "สัปดาห์"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "สัปดาห์ของเดือน",
+                short: "สัปดาห์ของเดือน",
+                narrow: "สัปดาห์ของเดือน"
             },
             day: {
                 wide: "วัน",
@@ -1932,19 +1966,19 @@ const data = {
                 narrow: "วัน"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "วันของปี",
+                short: "วันของปี",
+                narrow: "วันของปี"
             },
             weekday: {
                 wide: "วันในสัปดาห์",
-                short: "วันในสัปดาห์",
-                narrow: "วันในสัปดาห์"
+                short: "วันของสัปดาห์",
+                narrow: "วันของสัปดาห์"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "วันของเดือน",
+                short: "วันของเดือน",
+                narrow: "วันของเดือน"
             },
             dayperiod: {
                 short: "ช่วงวัน",
@@ -1968,7 +2002,7 @@ const data = {
             },
             zone: {
                 wide: "เขตเวลา",
-                short: "เขตเวลา",
+                short: "โซน",
                 narrow: "เขตเวลา"
             }
         }

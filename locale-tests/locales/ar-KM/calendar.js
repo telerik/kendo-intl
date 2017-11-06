@@ -11,12 +11,12 @@ const data = {
     calendar: {
         patterns: {
             d: "d‏/M‏/y",
-            D: "EEEE، d MMMM، y",
+            D: "EEEE، d MMMM y",
             m: "d MMM",
             M: "d MMMM",
             y: "MMM y",
             Y: "MMMM y",
-            F: "EEEE، d MMMM، y HH:mm:ss",
+            F: "EEEE، d MMMM y HH:mm:ss",
             g: "d‏/M‏/y HH:mm",
             G: "d‏/M‏/y HH:mm:ss",
             t: "HH:mm",
@@ -30,8 +30,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E، d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -39,8 +44,8 @@ const data = {
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
                 GyMMM: "MMM y G",
-                GyMMMd: "d MMM، y G",
-                GyMMMEd: "E، d MMM، y G",
+                GyMMMd: "d MMM y G",
+                GyMMMEd: "E، d MMM y G",
                 h: "h a",
                 H: "HH",
                 hm: "h:mm a",
@@ -73,17 +78,17 @@ const data = {
                 yMEd: "E، d/‏M/‏y",
                 yMM: "MM‏/y",
                 yMMM: "MMM y",
-                yMMMd: "d MMM، y",
-                yMMMEd: "E، d MMM، y",
+                yMMMd: "d MMM y",
+                yMMMEd: "E، d MMM y",
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-zero": "الأسبوع w من سنة y",
-                "yw-count-one": "الأسبوع w من سنة y",
-                "yw-count-two": "الأسبوع w من سنة y",
-                "yw-count-few": "الأسبوع w من سنة y",
-                "yw-count-many": "الأسبوع w من سنة y",
-                "yw-count-other": "الأسبوع w من سنة y"
+                "yw-count-zero": "الأسبوع w من سنة Y",
+                "yw-count-one": "الأسبوع w من سنة Y",
+                "yw-count-two": "الأسبوع w من سنة Y",
+                "yw-count-few": "الأسبوع w من سنة Y",
+                "yw-count-many": "الأسبوع w من سنة Y",
+                "yw-count-other": "الأسبوع w من سنة Y"
             }
         },
         timeFormats: {
@@ -93,8 +98,8 @@ const data = {
             short: "HH:mm"
         },
         dateFormats: {
-            full: "EEEE، d MMMM، y",
-            long: "d MMMM، y",
+            full: "EEEE، d MMMM y",
+            long: "d MMMM y",
             medium: "dd‏/MM‏/y",
             short: "d‏/M‏/y"
         },
@@ -119,13 +124,13 @@ const data = {
                     "س"
                 ],
                 short: [
-                    "الأحد",
-                    "الاثنين",
-                    "الثلاثاء",
-                    "الأربعاء",
-                    "الخميس",
-                    "الجمعة",
-                    "السبت"
+                    "أحد",
+                    "إثنين",
+                    "ثلاثاء",
+                    "أربعاء",
+                    "خميس",
+                    "جمعة",
+                    "سبت"
                 ],
                 wide: [
                     "الأحد",
@@ -157,13 +162,13 @@ const data = {
                     "س"
                 ],
                 short: [
-                    "الأحد",
-                    "الاثنين",
-                    "الثلاثاء",
-                    "الأربعاء",
-                    "الخميس",
-                    "الجمعة",
-                    "السبت"
+                    "أحد",
+                    "إثنين",
+                    "ثلاثاء",
+                    "أربعاء",
+                    "خميس",
+                    "جمعة",
+                    "سبت"
                 ],
                 wide: [
                     "الأحد",
@@ -313,13 +318,13 @@ const data = {
                 abbreviated: {
                     am: "ص",
                     pm: "م",
-                    morning1: "فجرا",
+                    morning1: "فجرًا",
                     morning2: "ص",
                     afternoon1: "ظهرًا",
                     afternoon2: "بعد الظهر",
                     evening1: "مساءً",
                     night1: "منتصف الليل",
-                    night2: "ل"
+                    night2: "ليلاً"
                 },
                 narrow: {
                     am: "ص",
@@ -348,7 +353,7 @@ const data = {
                 abbreviated: {
                     am: "ص",
                     pm: "م",
-                    morning1: "فجرا",
+                    morning1: "فجرًا",
                     morning2: "ص",
                     afternoon1: "ظهرًا",
                     afternoon2: "بعد الظهر",
@@ -359,7 +364,7 @@ const data = {
                 narrow: {
                     am: "ص",
                     pm: "م",
-                    morning1: "فجرا",
+                    morning1: "فجرًا",
                     morning2: "صباحًا",
                     afternoon1: "ظهرًا",
                     afternoon2: "بعد الظهر",
@@ -385,25 +390,25 @@ const data = {
                 wide: {
                     0: "قبل الميلاد",
                     1: "ميلادي",
-                    "0-alt-variant": "BCE",
+                    "0-alt-variant": "قبل الحقبة الحالية",
                     "1-alt-variant": "بعد الميلاد"
                 },
                 abbreviated: {
                     0: "ق.م",
                     1: "م",
-                    "0-alt-variant": "BCE",
+                    "0-alt-variant": "ق. م",
                     "1-alt-variant": "ب.م"
                 },
                 narrow: {
                     0: "ق.م",
                     1: "م",
-                    "0-alt-variant": "BCE",
+                    "0-alt-variant": "ق. م",
                     "1-alt-variant": "ب.م"
                 }
             }
         },
-        gmtFormat: "جرينتش{0}",
-        gmtZeroFormat: "جرينتش",
+        gmtFormat: "غرينتش{0}",
+        gmtZeroFormat: "غرينتش",
         dateFields: {
             era: {
                 wide: "العصر",
@@ -431,9 +436,9 @@ const data = {
                 narrow: "الأسبوع"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "الأسبوع من الشهر",
+                short: "أسبوع من شهر",
+                narrow: "أسبوع/شهر"
             },
             day: {
                 wide: "يوم",
@@ -441,9 +446,9 @@ const data = {
                 narrow: "يوم"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "يوم من السنة",
+                short: "يوم من سنة",
+                narrow: "يوم/سنة"
             },
             weekday: {
                 wide: "اليوم",
@@ -451,9 +456,9 @@ const data = {
                 narrow: "اليوم"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "يوم عمل من الشهر",
+                short: "يوم عمل من شهر",
+                narrow: "يوم عمل/شهر"
             },
             dayperiod: {
                 short: "ص/م",
@@ -477,8 +482,8 @@ const data = {
             },
             zone: {
                 wide: "التوقيت",
-                short: "التوقيت",
-                narrow: "التوقيت"
+                short: "توقيت",
+                narrow: "توقيت"
             }
         }
     },

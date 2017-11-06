@@ -29,6 +29,10 @@ const data = {
                 "displayName-count-other": "Afganistango afghani",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "Albaniako leka",
                 "displayName-count-one": "Albaniako lek",
@@ -341,6 +345,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "yuan txinatar (itsasoz haraindikoa)",
+                "displayName-count-one": "yuan txinatar (itsasoz haraindikoa)",
+                "displayName-count-other": "yuan txinatar (itsasoz haraindikoa)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "Txinako yuana",
                 "displayName-count-one": "Txinako yuan",
@@ -650,6 +664,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "Israelgo shekel berria",
                 "displayName-count-one": "Israelgo shekel berri",
@@ -675,6 +693,10 @@ const data = {
                 "displayName-count-one": "Irango rial",
                 "displayName-count-other": "Irango rial",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Islandiako koroa",
@@ -936,6 +958,10 @@ const data = {
                 "displayName-count-other": "Maurizio uharteetako errupia",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "Maldivetako rufiyaa",
@@ -1247,6 +1273,10 @@ const data = {
                 "displayName-count-other": "Sao Tomeko eta Principeko dobra",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

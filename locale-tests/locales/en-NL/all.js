@@ -90,7 +90,8 @@ const data = {
             ALK: {
                 displayName: "Albanian Lek (1946–1965)",
                 "displayName-count-one": "Albanian lek (1946–1965)",
-                "displayName-count-other": "Albanian lekë (1946–1965)"
+                "displayName-count-other": "Albanian lekë (1946–1965)",
+                symbol: "ALK"
             },
             ALL: {
                 displayName: "Albanian Lek",
@@ -468,10 +469,17 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "Chinese Yuan (offshore)",
+                "displayName-count-one": "Chinese yuan (offshore)",
+                "displayName-count-other": "Chinese yuan (offshore)",
+                symbol: "CNH"
+            },
             CNX: {
                 displayName: "Chinese People’s Bank Dollar",
                 "displayName-count-one": "Chinese People’s Bank dollar",
-                "displayName-count-other": "Chinese People’s Bank dollars"
+                "displayName-count-other": "Chinese People’s Bank dollars",
+                symbol: "CNX"
             },
             CNY: {
                 displayName: "Chinese Yuan",
@@ -831,7 +839,8 @@ const data = {
             ILR: {
                 displayName: "Israeli Shekel (1980–1985)",
                 "displayName-count-one": "Israeli shekel (1980–1985)",
-                "displayName-count-other": "Israeli shekels (1980–1985)"
+                "displayName-count-other": "Israeli shekels (1980–1985)",
+                symbol: "ILR"
             },
             ILS: {
                 displayName: "Israeli New Shekel",
@@ -862,7 +871,8 @@ const data = {
             ISJ: {
                 displayName: "Icelandic Króna (1918–1981)",
                 "displayName-count-one": "Icelandic króna (1918–1981)",
-                "displayName-count-other": "Icelandic krónur (1918–1981)"
+                "displayName-count-other": "Icelandic krónur (1918–1981)",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Icelandic Króna",
@@ -1162,7 +1172,8 @@ const data = {
             MVP: {
                 displayName: "Maldivian Rupee (1947–1981)",
                 "displayName-count-one": "Maldivian rupee (1947–1981)",
-                "displayName-count-other": "Maldivian rupees (1947–1981)"
+                "displayName-count-other": "Maldivian rupees (1947–1981)",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "Maldivian Rufiyaa",
@@ -1311,9 +1322,9 @@ const data = {
                 symbol: "PGK"
             },
             PHP: {
-                displayName: "Philippine Peso",
-                "displayName-count-one": "Philippine peso",
-                "displayName-count-other": "Philippine pesos",
+                displayName: "Philippine Piso",
+                "displayName-count-one": "Philippine piso",
+                "displayName-count-other": "Philippine pisos",
                 symbol: "PHP",
                 "symbol-alt-narrow": "₱"
             },
@@ -1510,6 +1521,12 @@ const data = {
                 "displayName-count-other": "São Tomé & Príncipe dobras",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "São Tomé & Príncipe Dobra (2018)",
+                "displayName-count-one": "São Tomé & Príncipe dobra (2018)",
+                "displayName-count-other": "São Tomé & Príncipe dobras (2018)",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "Soviet Rouble",
@@ -1971,8 +1988,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -2013,8 +2035,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'week' w 'of' y",
-                "yw-count-other": "'week' w 'of' y"
+                "yw-count-one": "'week' w 'of' Y",
+                "yw-count-other": "'week' w 'of' Y"
             }
         },
         timeFormats: {

@@ -33,6 +33,10 @@ const data = {
                 "displayName-count-other": "αφγάνι Αφγανιστάν",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "Λεκ Αλβανίας",
                 "displayName-count-one": "λεκ Αλβανίας",
@@ -115,9 +119,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             AWG: {
-                displayName: "Φλορίνι Αρούμπα",
-                "displayName-count-one": "φλορίνι Αρούμπα",
-                "displayName-count-other": "φλορίνια Αρούμπα",
+                displayName: "Φλορίνι Αρούμπας",
+                "displayName-count-one": "φλορίνι Αρούμπας",
+                "displayName-count-other": "φλορίνια Αρούμπας",
                 symbol: "AWG"
             },
             AZM: {
@@ -391,6 +395,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "Γουάν Κίνας (υπεράκτιο)",
+                "displayName-count-one": "γουάν Κίνας (υπεράκτιο)",
+                "displayName-count-other": "γουάν Κίνας (υπεράκτια)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "Γουάν Κίνας",
                 "displayName-count-one": "γουάν Κίνας",
@@ -574,9 +588,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             FKP: {
-                displayName: "Λίρα Νησιών Φώκλαντ",
-                "displayName-count-one": "λίρα Νησιών Φώκλαντ",
-                "displayName-count-other": "λίρες Νησιών Φώκλαντ",
+                displayName: "Λίρα Νήσων Φόκλαντ",
+                "displayName-count-one": "λίρα Νήσων Φόκλαντ",
+                "displayName-count-other": "λίρες Νήσων Φόκλαντ",
                 symbol: "FKP",
                 "symbol-alt-narrow": "£"
             },
@@ -748,7 +762,8 @@ const data = {
             ILR: {
                 displayName: "παλιό σεκέλ Ισραήλ",
                 "displayName-count-one": "παλιό σεκέλ Ισραήλ",
-                "displayName-count-other": "παλιά σεκέλ Ισραήλ"
+                "displayName-count-other": "παλιά σεκέλ Ισραήλ",
+                symbol: "ILR"
             },
             ILS: {
                 displayName: "Νέο Σέκελ Ισραήλ",
@@ -779,7 +794,8 @@ const data = {
             ISJ: {
                 displayName: "Παλιά κορόνα Ισλανδίας",
                 "displayName-count-one": "Παλιά κορόνα Ισλανδίας",
-                "displayName-count-other": "παλιές κορόνες Ισλανδίας"
+                "displayName-count-other": "παλιές κορόνες Ισλανδίας",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Κορόνα Ισλανδίας",
@@ -1062,6 +1078,10 @@ const data = {
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
+            },
             MVR: {
                 displayName: "Ρουφίγια Μαλδίβων",
                 "displayName-count-one": "ρουφίγια Μαλδίβων",
@@ -1117,9 +1137,9 @@ const data = {
                 symbol: "MZN"
             },
             NAD: {
-                displayName: "Δολάριο Ναμίμπια",
-                "displayName-count-one": "δολάριο Ναμίμπια",
-                "displayName-count-other": "δολάρια Ναμίμπια",
+                displayName: "Δολάριο Ναμίμπιας",
+                "displayName-count-one": "δολάριο Ναμίμπιας",
+                "displayName-count-other": "δολάρια Ναμίμπιας",
                 symbol: "NAD",
                 "symbol-alt-narrow": "$"
             },
@@ -1191,7 +1211,7 @@ const data = {
             PEN: {
                 displayName: "Σολ Περού",
                 "displayName-count-one": "σολ Περού",
-                "displayName-count-other": "Σολ Περού",
+                "displayName-count-other": "σολ Περού",
                 symbol: "PEN"
             },
             PES: {
@@ -1402,10 +1422,14 @@ const data = {
             },
             STD: {
                 displayName: "Ντόμπρα Σάο Τομέ και Πρίνσιπε",
-                "displayName-count-one": "ντόμπρα Σάο Τόμε και Πρίνσιπε",
-                "displayName-count-other": "ντόμπρα Σάο Τόμε και Πρίνσιπε",
+                "displayName-count-one": "ντόμπρα Σάο Τομέ και Πρίνσιπε",
+                "displayName-count-other": "ντόμπρα Σάο Τομέ και Πρίνσιπε",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "Σοβιετικό Ρούβλι",
@@ -1470,9 +1494,9 @@ const data = {
                 symbol: "TND"
             },
             TOP: {
-                displayName: "Παάγκα νήσων Τόγκα",
-                "displayName-count-one": "παάγκα νήσων Τόγκα",
-                "displayName-count-other": "παάγκα νήσων Τόγκα",
+                displayName: "Παάγκα Τόνγκα",
+                "displayName-count-one": "παάγκα Τόνγκα",
+                "displayName-count-other": "παάγκα Τόνγκα",
                 symbol: "TOP",
                 "symbol-alt-narrow": "T$"
             },

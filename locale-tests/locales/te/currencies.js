@@ -29,6 +29,10 @@ const data = {
                 "displayName-count-other": "ఆఫ్ఘాన్ ఆఫ్ఘాని",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "ఆల్బేనియన్ లేక్",
                 "displayName-count-one": "ఆల్బేనియన్ లేక్",
@@ -341,6 +345,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "చైనీస్ యూవాన్ (ఆఫ్‌షోర్)",
+                "displayName-count-one": "చైనీస్ యూవాన్ (ఆఫ్‌షోర్)",
+                "displayName-count-other": "చైనీస్ యూవాన్ (ఆఫ్‌షోర్)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "చైనా దేశ యువాన్",
                 "displayName-count-one": "చైనా దేశ యువాన్",
@@ -627,9 +641,9 @@ const data = {
                 symbol: "HTG"
             },
             HUF: {
-                displayName: "హంగేరియన్ ఫోరిన్ట్",
-                "displayName-count-one": "హంగేరియన్ ఫోరిన్ట్",
-                "displayName-count-other": "హంగేరియన్ ఫోరిన్ట్‌లు",
+                displayName: "హంగేరియన్ ఫోరింట్",
+                "displayName-count-one": "హంగేరియన్ ఫోరింట్",
+                "displayName-count-other": "హంగేరియన్ ఫోరింట్‌లు",
                 symbol: "HUF",
                 "symbol-alt-narrow": "Ft"
             },
@@ -647,6 +661,10 @@ const data = {
             ILP: {
                 displayName: "ILP",
                 symbol: "ILP"
+            },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
             },
             ILS: {
                 displayName: "ఐరాయిలి న్యూ షెక్యెల్",
@@ -673,6 +691,10 @@ const data = {
                 "displayName-count-one": "ఇరానియన్ రీయల్",
                 "displayName-count-other": "ఇరానియన్ రీయల్‌లు",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "ఐస్లాండిక్ క్రోనా",
@@ -934,6 +956,10 @@ const data = {
                 "displayName-count-other": "మారిషన్ రూపాయలు",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "మాల్దీవియన్ రుఫియా",
@@ -1245,6 +1271,10 @@ const data = {
                 "displayName-count-other": "సావో టోమ్ మరియు ప్రిన్సిపి డోబ్రాలు",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

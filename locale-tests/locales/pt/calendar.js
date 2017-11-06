@@ -29,8 +29,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E, d",
                 Ehm: "E, h:mm a",
                 EHm: "E, HH:mm",
@@ -59,7 +64,7 @@ const data = {
                 MMMEd: "E, d 'de' MMM",
                 MMMMd: "d 'de' MMMM",
                 MMMMEd: "E, d 'de' MMMM",
-                "MMMMW-count-one": "W'ª' 'semana' 'de' MMM",
+                "MMMMW-count-one": "W'ª' 'semana' 'de' MMMM",
                 "MMMMW-count-other": "W'ª' 'semana' 'de' MMMM",
                 ms: "mm:ss",
                 y: "y",
@@ -75,8 +80,8 @@ const data = {
                 yMMMMEd: "E, d 'de' MMMM 'de' y",
                 yQQQ: "QQQ 'de' y",
                 yQQQQ: "QQQQ 'de' y",
-                "yw-count-one": "w'ª' 'semana' 'de' y",
-                "yw-count-other": "w'ª' 'semana' 'de' y"
+                "yw-count-one": "w'ª' 'semana' 'de' Y",
+                "yw-count-other": "w'ª' 'semana' 'de' Y"
             }
         },
         timeFormats: {
@@ -418,9 +423,9 @@ const data = {
                 narrow: "sem."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "semana do mês",
+                short: "sem. do mês",
+                narrow: "sem. do mês"
             },
             day: {
                 wide: "dia",
@@ -428,19 +433,19 @@ const data = {
                 narrow: "dia"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "dia do ano",
+                short: "dia do ano",
+                narrow: "dia do ano"
             },
             weekday: {
                 wide: "dia da semana",
-                short: "dia da semana",
-                narrow: "dia da semana"
+                short: "dia da sem.",
+                narrow: "dia da sem."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "dia da semana do mês",
+                short: "dia da sem. do mês",
+                narrow: "dia da sem. do mês"
             },
             dayperiod: {
                 short: "AM/PM",
@@ -455,17 +460,17 @@ const data = {
             minute: {
                 wide: "minuto",
                 short: "min.",
-                narrow: "m"
+                narrow: "min."
             },
             second: {
                 wide: "segundo",
                 short: "seg.",
-                narrow: "s"
+                narrow: "seg."
             },
             zone: {
                 wide: "fuso horário",
-                short: "fuso horário",
-                narrow: "fuso horário"
+                short: "fuso",
+                narrow: "fuso"
             }
         }
     },

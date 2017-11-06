@@ -29,8 +29,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E, d.",
                 Ehm: "E h:mm a",
                 EHm: "E, HH:mm",
@@ -75,8 +80,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'Woche' w 'des' 'Jahres' y",
-                "yw-count-other": "'Woche' w 'des' 'Jahres' y"
+                "yw-count-one": "'Woche' w 'des' 'Jahres' Y",
+                "yw-count-other": "'Woche' w 'des' 'Jahres' Y"
             }
         },
         timeFormats: {
@@ -305,8 +310,8 @@ const data = {
             format: {
                 abbreviated: {
                     midnight: "Mitternacht",
-                    am: "vorm.",
-                    pm: "nachm.",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "morgens",
                     morning2: "vormittags",
                     afternoon1: "mittags",
@@ -327,8 +332,8 @@ const data = {
                 },
                 wide: {
                     midnight: "Mitternacht",
-                    am: "vorm.",
-                    pm: "nachm.",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "morgens",
                     morning2: "vormittags",
                     afternoon1: "mittags",
@@ -401,7 +406,7 @@ const data = {
             era: {
                 wide: "Epoche",
                 short: "Epoche",
-                narrow: "Epoche"
+                narrow: "E"
             },
             year: {
                 wide: "Jahr",
@@ -424,9 +429,9 @@ const data = {
                 narrow: "W"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "Woche des Monats",
+                short: "W/M",
+                narrow: "Wo. des Monats"
             },
             day: {
                 wide: "Tag",
@@ -434,24 +439,24 @@ const data = {
                 narrow: "Tag"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "Tag des Jahres",
+                short: "Tag des Jahres",
+                narrow: "T/J"
             },
             weekday: {
                 wide: "Wochentag",
                 short: "Wochentag",
-                narrow: "Wochentag"
+                narrow: "Wochent."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "Wochentag",
+                short: "Wochentag",
+                narrow: "WT"
             },
             dayperiod: {
                 short: "Tageshälfte",
                 wide: "Tageshälfte",
-                narrow: "Tageshälfte"
+                narrow: "Tagesh."
             },
             hour: {
                 wide: "Stunde",
@@ -471,7 +476,7 @@ const data = {
             zone: {
                 wide: "Zeitzone",
                 short: "Zeitzone",
-                narrow: "Zeitzone"
+                narrow: "Zeitz."
             }
         }
     },

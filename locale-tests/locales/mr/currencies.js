@@ -29,6 +29,10 @@ const data = {
                 "displayName-count-other": "अफगाण अफगाणी",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "अल्बानियन लेक",
                 "displayName-count-one": "अल्बानियन लेक",
@@ -341,6 +345,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "चिनी युआन (ऑफशोर)",
+                "displayName-count-one": "चिनी युआन (ऑफशोर)",
+                "displayName-count-other": "चिनी युआन (ऑफशोर)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "चीनी युआन",
                 "displayName-count-one": "चीनी युआन",
@@ -648,6 +662,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "ईस्त्रायली न्यू शेकेल",
                 "displayName-count-one": "ईस्त्रायली न्यू शेकेल",
@@ -673,6 +691,10 @@ const data = {
                 "displayName-count-one": "इराणी रियाल",
                 "displayName-count-other": "इराणी रियाल",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "आइसलँडिक क्रोना",
@@ -934,6 +956,10 @@ const data = {
                 "displayName-count-other": "मॉरिशियन रुपीज",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "मालदीवियन रुफिया",
@@ -1245,6 +1271,10 @@ const data = {
                 "displayName-count-other": "साओ टोम आणि प्रिन्सिपे डोबराज",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",
