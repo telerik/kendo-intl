@@ -36,7 +36,8 @@ const data = {
             ALK: {
                 displayName: "albansk lek (1946–1965)",
                 "displayName-count-one": "albansk lek (1946–1965)",
-                "displayName-count-other": "albanska lek (1946–1965)"
+                "displayName-count-other": "albanska lek (1946–1965)",
+                symbol: "ALK"
             },
             ALL: {
                 displayName: "albansk lek",
@@ -414,6 +415,12 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "CNH",
+                "displayName-count-one": "CNH",
+                "displayName-count-other": "CNH",
+                symbol: "CNH"
+            },
             CNX: {
                 displayName: "kinesisk dollar",
                 "displayName-count-one": "kinesisk dollar",
@@ -778,7 +785,8 @@ const data = {
             ILR: {
                 displayName: "israelisk shekel (1980–1985)",
                 "displayName-count-one": "israelisk shekel (1980–1985)",
-                "displayName-count-other": "israeliska shekel (1980–1985)"
+                "displayName-count-other": "israeliska shekel (1980–1985)",
+                symbol: "ILR"
             },
             ILS: {
                 displayName: "israelisk ny shekel",
@@ -1459,6 +1467,10 @@ const data = {
                 "displayName-count-other": "saotomeanska dobra",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "sovjetisk rubel",

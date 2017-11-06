@@ -29,6 +29,10 @@ const data = {
                 "displayName-count-other": "афганистан афгани",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "албанийн лек",
                 "displayName-count-one": "албанийн лек",
@@ -341,6 +345,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "Хятадын юань",
+                "displayName-count-one": "Хятадын юань",
+                "displayName-count-other": "Хятадын юань",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "хятад юань",
                 "displayName-count-one": "хятад юань",
@@ -647,6 +661,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "израилийн шинэ шекел",
                 "displayName-count-one": "израилийн шинэ шекел",
@@ -672,6 +690,10 @@ const data = {
                 "displayName-count-one": "иран риал",
                 "displayName-count-other": "иран риал",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "исландын крон",
@@ -933,6 +955,10 @@ const data = {
                 "displayName-count-other": "мавритын рупи",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "мальдив руфия",
@@ -1245,6 +1271,10 @@ const data = {
                 "displayName-count-other": "сан-томе ба принсипи добра",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

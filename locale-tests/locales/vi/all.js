@@ -43,7 +43,7 @@ const data = {
         },
         currency: {
             patterns: [
-                "$ n"
+                "n $"
             ],
             groupSize: [
                 3
@@ -77,6 +77,10 @@ const data = {
                 "displayName-count-other": "Afghani Afghanistan",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "Lek Albania",
                 "displayName-count-other": "Lek Albania",
@@ -88,8 +92,8 @@ const data = {
                 symbol: "AMD"
             },
             ANG: {
-                displayName: "Guilder Tây Ấn Hà Lan",
-                "displayName-count-other": "Guilder Tây Ấn Hà Lan",
+                displayName: "Guilder Antille Hà Lan",
+                "displayName-count-other": "Guilder Antille Hà Lan",
                 symbol: "ANG"
             },
             AOA: {
@@ -360,6 +364,15 @@ const data = {
                 "displayName-count-other": "Peso Chile",
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
+            },
+            CNH: {
+                displayName: "Nhân dân tệ (hải ngoại)",
+                "displayName-count-other": "Nhân dân tệ (hải ngoại)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
             },
             CNY: {
                 displayName: "Nhân dân tệ",
@@ -637,6 +650,10 @@ const data = {
                 displayName: "Pao Ixraen",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "Sheqel Israel mới",
                 "displayName-count-other": "Sheqel Israel mới",
@@ -658,6 +675,10 @@ const data = {
                 displayName: "Rial Iran",
                 "displayName-count-other": "Rial Iran",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Króna Iceland",
@@ -890,6 +911,10 @@ const data = {
                 "displayName-count-other": "Rupee Mauritius",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "Rufiyaa Maldives",
@@ -1165,6 +1190,10 @@ const data = {
                 "displayName-count-other": "Dobra São Tomé và Príncipe",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "Đồng Rúp Sô viết",
@@ -1515,8 +1544,13 @@ const data = {
             medium: "{0}, {1}",
             short: "{0}, {1}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E, 'ngày' d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -1559,7 +1593,7 @@ const data = {
                 yMMMM: "MMMM 'năm' y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ 'năm' y",
-                "yw-count-other": "'tuần' w 'của' 'năm' y"
+                "yw-count-other": "'tuần' w 'của' 'năm' Y"
             }
         },
         timeFormats: {
@@ -1876,9 +1910,9 @@ const data = {
         gmtZeroFormat: "GMT",
         dateFields: {
             era: {
-                wide: "Thời đại",
-                short: "Thời đại",
-                narrow: "Thời đại"
+                wide: "thời đại",
+                short: "thời đại",
+                narrow: "thời đại"
             },
             year: {
                 wide: "Năm",
@@ -1901,9 +1935,9 @@ const data = {
                 narrow: "Tuần"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "tuần trong tháng",
+                short: "tuần trong tháng",
+                narrow: "tuần trong tháng"
             },
             day: {
                 wide: "Ngày",
@@ -1911,19 +1945,19 @@ const data = {
                 narrow: "Ngày"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "ngày trong năm",
+                short: "ngày trong năm",
+                narrow: "ngày trong năm"
             },
             weekday: {
-                wide: "Ngày trong tuần",
-                short: "Ngày trong tuần",
-                narrow: "Ngày trong tuần"
+                wide: "ngày trong tuần",
+                short: "ngày trong tuần",
+                narrow: "ngày trong tuần"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "ngày thường trong tháng",
+                short: "ngày thường trong tháng",
+                narrow: "ngày thường trong tháng"
             },
             dayperiod: {
                 short: "SA/CH",

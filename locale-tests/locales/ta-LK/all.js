@@ -86,6 +86,10 @@ const data = {
                 "displayName-count-other": "ஆஃப்கான் ஆஃப்கானிகள்",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "அல்பேனியன் லெக்",
                 "displayName-count-one": "அல்பேனியன் லெக்",
@@ -398,6 +402,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "CNH",
+                "displayName-count-one": "CNH",
+                "displayName-count-other": "CNH",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "சீன யுவான்",
                 "displayName-count-one": "சீன யுவான்",
@@ -705,6 +719,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "இஸ்ரேலி நியூ ஷிகேல்",
                 "displayName-count-one": "இஸ்ரேலி நியூ ஷிகேல்",
@@ -730,6 +748,10 @@ const data = {
                 "displayName-count-one": "ஈரானியன் ரியால்",
                 "displayName-count-other": "ஈரானியன் ரியால்கள்",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "ஐஸ்லாண்டிக் க்ரோனா",
@@ -991,6 +1013,10 @@ const data = {
                 "displayName-count-other": "மொரீஷியன் ருபீக்கள்",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "மாலத்தீவு ருஃபியா",
@@ -1302,6 +1328,10 @@ const data = {
                 "displayName-count-other": "சாவ் டோமி மற்றும் பிரின்ஸ்பி டோப்ராக்கள்",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",
@@ -1679,8 +1709,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "B h",
+                Bhm: "B h:mm",
+                Bhms: "B h:mm:ss",
                 d: "d",
                 E: "ccc",
+                EBhm: "E B h:mm",
+                EBhms: "E B h:mm:ss",
                 Ed: "d E",
                 Ehm: "E a h:mm",
                 EHm: "E HH:mm",
@@ -1722,8 +1757,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "y ஆம் ஆண்டின் w -ஆம் வாரம்",
-                "yw-count-other": "y ஆம் ஆண்டின் w -ஆம் வாரம்"
+                "yw-count-one": "Y ஆம் ஆண்டின் w -ஆம் வாரம்",
+                "yw-count-other": "Y ஆம் ஆண்டின் w -ஆம் வாரம்"
             }
         },
         timeFormats: {
@@ -2083,9 +2118,9 @@ const data = {
                 narrow: "வா."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "மாதத்தின் வாரம்",
+                short: "மாத. வாரம்",
+                narrow: "மாத. வாரம்"
             },
             day: {
                 wide: "நாள்",
@@ -2093,24 +2128,24 @@ const data = {
                 narrow: "நா."
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "வருடத்தின் நாள்",
+                short: "வருட. நாள்",
+                narrow: "வருட. நாள்"
             },
             weekday: {
                 wide: "வாரத்தின் நாள்",
-                short: "வாரத்தின் நாள்",
-                narrow: "வாரத்தின் நாள்"
+                short: "வார. நாள்",
+                narrow: "வார. நாள்"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "மாதத்தின் வாரநாள்",
+                short: "மாத. வாரநாள்",
+                narrow: "மாத. வாரநாள்"
             },
             dayperiod: {
-                short: "முற்பகல்/பிற்பகல்",
+                short: "முற்./பிற்.",
                 wide: "முற்பகல்/பிற்பகல்",
-                narrow: "முற்பகல்/பிற்பகல்"
+                narrow: "முற்./பிற்."
             },
             hour: {
                 wide: "மணி",
@@ -2129,8 +2164,8 @@ const data = {
             },
             zone: {
                 wide: "நேர மண்டலம்",
-                short: "நேர மண்டலம்",
-                narrow: "நேர மண்டலம்"
+                short: "மண்டலம்",
+                narrow: "மண்டலம்"
             }
         }
     },

@@ -34,6 +34,10 @@ const data = {
                 "displayName-count-other": "afgani afgani",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "leka albaneză",
                 "displayName-count-one": "leka albaneză",
@@ -156,9 +160,9 @@ const data = {
             },
             BBD: {
                 displayName: "dolar din Barbados",
-                "displayName-count-one": "dolar Barbados",
-                "displayName-count-few": "dolari Barbados",
-                "displayName-count-other": "dolari Barbados",
+                "displayName-count-one": "dolar din Barbados",
+                "displayName-count-few": "dolari din Barbados",
+                "displayName-count-other": "dolari din Barbados",
                 symbol: "BBD",
                 "symbol-alt-narrow": "$"
             },
@@ -394,6 +398,17 @@ const data = {
                 "displayName-count-other": "pesos chilieni",
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
+            },
+            CNH: {
+                displayName: "yuan chinezesc (offshore)",
+                "displayName-count-one": "yuan chinezesc (offshore)",
+                "displayName-count-few": "yuani chinezești (offshore)",
+                "displayName-count-other": "yuani chinezești (offshore)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
             },
             CNY: {
                 displayName: "yuan chinezesc",
@@ -772,6 +787,10 @@ const data = {
                 "displayName-count-other": "lire israeliene",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "șechel israelian nou",
                 "displayName-count-one": "șechel israelian nou",
@@ -801,6 +820,10 @@ const data = {
                 "displayName-count-few": "riali iranieni",
                 "displayName-count-other": "riali iranieni",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "coroană islandeză",
@@ -1118,6 +1141,10 @@ const data = {
                 "displayName-count-other": "rupii mauritiene",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "rufiyaa maldiviană",
@@ -1498,6 +1525,10 @@ const data = {
                 "displayName-count-other": "dobre Sao Tome și Principe",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "rublă sovietică",

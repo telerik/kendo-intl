@@ -29,6 +29,10 @@ const data = {
                 "displayName-count-other": "Afgaanse afgani",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "Albanese lek",
                 "displayName-count-one": "Albanese lek",
@@ -341,6 +345,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "Chinese joean",
+                "displayName-count-one": "Chinese joean (buiteland)",
+                "displayName-count-other": "Chinese joean (buiteland)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "Sjinese joean renminbi",
                 "displayName-count-one": "Sjinese joean renminbi",
@@ -648,6 +662,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "Israeliese nuwe sikkel",
                 "displayName-count-one": "Israeliese nuwe sikkel",
@@ -673,6 +691,10 @@ const data = {
                 "displayName-count-one": "Iranse rial",
                 "displayName-count-other": "Iranse rial",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Yslandse kroon",
@@ -933,6 +955,10 @@ const data = {
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
+            },
             MVR: {
                 displayName: "Malediviese rufia",
                 "displayName-count-one": "Malediviese rufia",
@@ -1118,7 +1144,7 @@ const data = {
                 "displayName-count-one": "Roemeense leu",
                 "displayName-count-other": "Roemeense leu",
                 symbol: "RON",
-                "symbol-alt-narrow": "lei"
+                "symbol-alt-narrow": "leu"
             },
             RSD: {
                 displayName: "Serbiese dinar",
@@ -1244,6 +1270,10 @@ const data = {
                 "displayName-count-other": "São Tomé en Príncipe dobra",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

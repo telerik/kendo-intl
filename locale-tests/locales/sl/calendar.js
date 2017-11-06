@@ -29,8 +29,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d.",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E, d.",
                 Ehm: "E, h:mm a",
                 EHm: "E HH:mm",
@@ -73,10 +78,10 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "w. 'teden' 'v' y",
-                "yw-count-two": "w. 'teden' 'v' y",
-                "yw-count-few": "w. 'teden' 'v' y",
-                "yw-count-other": "w. 'teden' 'v' y"
+                "yw-count-one": "w. 'teden' 'v' Y",
+                "yw-count-two": "w. 'teden' 'v' Y",
+                "yw-count-few": "w. 'teden' 'v' Y",
+                "yw-count-other": "w. 'teden' 'v' Y"
             }
         },
         timeFormats: {
@@ -312,7 +317,7 @@ const data = {
                     morning2: "dop.",
                     afternoon1: "pop.",
                     evening1: "zveč.",
-                    night1: "noč"
+                    night1: "ponoči"
                 },
                 narrow: {
                     midnight: "24.00",
@@ -424,9 +429,9 @@ const data = {
                 narrow: "ted."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "teden meseca",
+                short: "ted. v mes.",
+                narrow: "teden meseca"
             },
             day: {
                 wide: "dan",
@@ -434,9 +439,9 @@ const data = {
                 narrow: "dan"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "dan leta",
+                short: "dan leta",
+                narrow: "dan leta"
             },
             weekday: {
                 wide: "dan v tednu",
@@ -444,9 +449,9 @@ const data = {
                 narrow: "dan v tednu"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "dan meseca",
+                short: "dan meseca",
+                narrow: "dan v mes."
             },
             dayperiod: {
                 short: "dop/pop",

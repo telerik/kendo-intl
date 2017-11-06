@@ -32,6 +32,10 @@ const data = {
                 "displayName-count-other": "afganis",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "lek",
                 "displayName-count-one": "lek",
@@ -120,9 +124,9 @@ const data = {
                 symbol: "AZM"
             },
             AZN: {
-                displayName: "manat azerí",
-                "displayName-count-one": "manat azerí",
-                "displayName-count-other": "manat azeríes",
+                displayName: "manat azerbaiyano",
+                "displayName-count-one": "manat azerbaiyano",
+                "displayName-count-other": "manat azerbaiyanos",
                 symbol: "AZN"
             },
             BAD: {
@@ -132,9 +136,9 @@ const data = {
                 symbol: "BAD"
             },
             BAM: {
-                displayName: "marco convertible de Bosnia-Herzegovina",
-                "displayName-count-one": "marco convertible de Bosnia-Herzegovina",
-                "displayName-count-other": "marcos convertibles de Bosnia-Herzegovina",
+                displayName: "marco convertible de Bosnia y Herzegovina",
+                "displayName-count-one": "marco convertible de Bosnia y Herzegovina",
+                "displayName-count-other": "marcos convertibles de Bosnia y Herzegovina",
                 symbol: "BAM",
                 "symbol-alt-narrow": "KM"
             },
@@ -384,6 +388,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "yuan chino (extracontinental)",
+                "displayName-count-one": "yuan chino (extracontinental)",
+                "displayName-count-other": "yuan chino (extracontinental)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "yuan",
                 "displayName-count-one": "yuan",
@@ -575,7 +589,7 @@ const data = {
                 "displayName-count-one": "libra malvinense",
                 "displayName-count-other": "libras malvinenses",
                 symbol: "FKP",
-                "symbol-alt-narrow": "£"
+                "symbol-alt-narrow": "FK£"
             },
             FRF: {
                 displayName: "franco francés",
@@ -584,9 +598,9 @@ const data = {
                 symbol: "FRF"
             },
             GBP: {
-                displayName: "libra británica",
-                "displayName-count-one": "libra británica",
-                "displayName-count-other": "libras británicas",
+                displayName: "libra esterlina",
+                "displayName-count-one": "libra esterlina",
+                "displayName-count-other": "libras esterlinas",
                 symbol: "GBP",
                 "symbol-alt-narrow": "£"
             },
@@ -729,6 +743,10 @@ const data = {
                 "displayName-count-other": "libras israelíes",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "nuevo séquel israelí",
                 "displayName-count-one": "nuevo séquel israelí",
@@ -754,6 +772,10 @@ const data = {
                 "displayName-count-one": "rial iraní",
                 "displayName-count-other": "riales iraníes",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "corona islandesa",
@@ -961,7 +983,7 @@ const data = {
             MDL: {
                 displayName: "leu moldavo",
                 "displayName-count-one": "leu moldavo",
-                "displayName-count-other": "leus moldavos",
+                "displayName-count-other": "lei moldavos",
                 symbol: "MDL"
             },
             MGA: {
@@ -1033,6 +1055,10 @@ const data = {
                 "displayName-count-other": "rupias mauricianas",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "rufiya",
@@ -1237,7 +1263,7 @@ const data = {
             RON: {
                 displayName: "leu rumano",
                 "displayName-count-one": "leu rumano",
-                "displayName-count-other": "leus rumanos",
+                "displayName-count-other": "lei rumanos",
                 symbol: "RON",
                 "symbol-alt-narrow": "L"
             },
@@ -1366,7 +1392,7 @@ const data = {
                 "displayName-count-one": "libra sursudanesa",
                 "displayName-count-other": "libras sursudanesas",
                 symbol: "SSP",
-                "symbol-alt-narrow": "£"
+                "symbol-alt-narrow": "SD£"
             },
             STD: {
                 displayName: "dobra",
@@ -1374,6 +1400,10 @@ const data = {
                 "displayName-count-other": "dobras",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "rublo soviético",
@@ -1392,7 +1422,7 @@ const data = {
                 "displayName-count-one": "libra siria",
                 "displayName-count-other": "libras sirias",
                 symbol: "SYP",
-                "symbol-alt-narrow": "£"
+                "symbol-alt-narrow": "S£"
             },
             SZL: {
                 displayName: "lilangeni",
@@ -1426,7 +1456,7 @@ const data = {
             TMT: {
                 displayName: "manat turcomano",
                 "displayName-count-one": "manat turcomano",
-                "displayName-count-other": "manats turcomanos",
+                "displayName-count-other": "manat turcomanos",
                 symbol: "TMT"
             },
             TND: {
@@ -1584,9 +1614,9 @@ const data = {
                 symbol: "WST"
             },
             XAF: {
-                displayName: "franco CFA BEAC",
-                "displayName-count-one": "franco CFA BEAC",
-                "displayName-count-other": "francos CFA BEAC",
+                displayName: "franco CFA de África Central",
+                "displayName-count-one": "franco CFA de África Central",
+                "displayName-count-other": "francos CFA de África Central",
                 symbol: "XAF"
             },
             XAG: {
@@ -1655,9 +1685,9 @@ const data = {
                 symbol: "XFU"
             },
             XOF: {
-                displayName: "franco CFA BCEAO",
-                "displayName-count-one": "franco CFA BCEAO",
-                "displayName-count-other": "francos CFA BCEAO",
+                displayName: "franco CFA de África Occidental",
+                "displayName-count-one": "franco CFA de África Occidental",
+                "displayName-count-other": "francos CFA de África Occidental",
                 symbol: "XOF"
             },
             XPD: {
@@ -1746,9 +1776,9 @@ const data = {
                 symbol: "ZMK"
             },
             ZMW: {
-                displayName: "kuacha zambiano",
-                "displayName-count-one": "kuacha zambiano",
-                "displayName-count-other": "kuachas zambianos",
+                displayName: "kwacha zambiano",
+                "displayName-count-one": "kwacha zambiano",
+                "displayName-count-other": "kwachas zambianos",
                 symbol: "ZMW",
                 "symbol-alt-narrow": "ZK"
             },

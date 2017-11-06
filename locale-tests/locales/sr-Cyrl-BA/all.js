@@ -92,6 +92,10 @@ const data = {
                 "displayName-count-other": "авганистанских авгана",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "Албански лек",
                 "displayName-count-one": "албански лек",
@@ -503,6 +507,17 @@ const data = {
                 "displayName-count-other": "чилеанских пезоса",
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
+            },
+            CNH: {
+                displayName: "Кинески јуан (острвски)",
+                "displayName-count-one": "кинески јуан (острвски)",
+                "displayName-count-few": "кинеска јуана (острвска)",
+                "displayName-count-other": "кинеских јуана (острвских)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
             },
             CNY: {
                 displayName: "Кинески јуан",
@@ -918,7 +933,8 @@ const data = {
                 displayName: "Стари израелски шекели",
                 "displayName-count-one": "стари израелски шекели",
                 "displayName-count-few": "стари израелски шекели",
-                "displayName-count-other": "стари израелски шекели"
+                "displayName-count-other": "стари израелски шекели",
+                symbol: "ILR"
             },
             ILS: {
                 displayName: "Израелски нови шекел",
@@ -954,7 +970,8 @@ const data = {
                 displayName: "Стара исландска круна",
                 "displayName-count-one": "стара исландска круна",
                 "displayName-count-few": "стара исландска круна",
-                "displayName-count-other": "стара исландска круна"
+                "displayName-count-other": "стара исландска круна",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Исландска круна",
@@ -1281,6 +1298,10 @@ const data = {
                 "displayName-count-other": "маурицијских рупија",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "Малдивска руфија",
@@ -1682,6 +1703,10 @@ const data = {
                 "displayName-count-other": "саотомских добри",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "Совјетска рубља",
@@ -2204,8 +2229,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "hh:mm B",
+                Bhms: "hh:mm:ss B",
                 d: "d",
                 E: "E",
+                EBhm: "E hh:mm B",
+                EBhms: "E hh:mm:ss B",
                 Ed: "E d.",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -2527,10 +2557,10 @@ const data = {
                     am: "а",
                     noon: "подне",
                     pm: "p",
-                    morning1: "ујутро",
-                    afternoon1: "по подне",
-                    evening1: "увече",
-                    night1: "ноћу"
+                    morning1: "јутро",
+                    afternoon1: "поподне",
+                    evening1: "вече",
+                    night1: "ноћ"
                 },
                 wide: {
                     midnight: "поноћ",
@@ -2595,9 +2625,9 @@ const data = {
                 narrow: "н."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "недеља у месецу",
+                short: "нед. у мес.",
+                narrow: "нед. у мес."
             },
             day: {
                 wide: "дан",
@@ -2605,9 +2635,9 @@ const data = {
                 narrow: "д."
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "дан у години",
+                short: "дан у год.",
+                narrow: "дан у год."
             },
             weekday: {
                 wide: "дан у недељи",
@@ -2615,9 +2645,9 @@ const data = {
                 narrow: "дан у недељи"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "дан у месецу",
+                short: "дан у месецу",
+                narrow: "дан у месецу"
             },
             dayperiod: {
                 short: "пре подне/по подне",

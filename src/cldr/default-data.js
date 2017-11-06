@@ -113,8 +113,13 @@ const defaultData = {
                 medium: "{1}, {0}",
                 short: "{1}, {0}",
                 availableFormats: {
+                    Bh: "h B",
+                    Bhm: "h:mm B",
+                    Bhms: "h:mm:ss B",
                     d: "d",
                     E: "ccc",
+                    EBhm: "E h:mm B",
+                    EBhms: "E h:mm:ss B",
                     Ed: "d E",
                     Ehm: "E h:mm a",
                     EHm: "E HH:mm",
@@ -154,8 +159,8 @@ const defaultData = {
                     yMMMM: "MMMM y",
                     yQQQ: "QQQ y",
                     yQQQQ: "QQQQ y",
-                    "yw-count-one": "'week' w 'of' y",
-                    "yw-count-other": "'week' w 'of' y"
+                    "yw-count-one": "'week' w 'of' Y",
+                    "yw-count-other": "'week' w 'of' Y"
                 }
             },
             timeFormats: {

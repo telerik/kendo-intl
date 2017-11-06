@@ -29,8 +29,13 @@ const data = {
             medium: "{0}, {1}",
             short: "{0}, {1}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E, 'ngày' d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -73,7 +78,7 @@ const data = {
                 yMMMM: "MMMM 'năm' y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ 'năm' y",
-                "yw-count-other": "'tuần' w 'của' 'năm' y"
+                "yw-count-other": "'tuần' w 'của' 'năm' Y"
             }
         },
         timeFormats: {
@@ -390,9 +395,9 @@ const data = {
         gmtZeroFormat: "GMT",
         dateFields: {
             era: {
-                wide: "Thời đại",
-                short: "Thời đại",
-                narrow: "Thời đại"
+                wide: "thời đại",
+                short: "thời đại",
+                narrow: "thời đại"
             },
             year: {
                 wide: "Năm",
@@ -415,9 +420,9 @@ const data = {
                 narrow: "Tuần"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "tuần trong tháng",
+                short: "tuần trong tháng",
+                narrow: "tuần trong tháng"
             },
             day: {
                 wide: "Ngày",
@@ -425,19 +430,19 @@ const data = {
                 narrow: "Ngày"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "ngày trong năm",
+                short: "ngày trong năm",
+                narrow: "ngày trong năm"
             },
             weekday: {
-                wide: "Ngày trong tuần",
-                short: "Ngày trong tuần",
-                narrow: "Ngày trong tuần"
+                wide: "ngày trong tuần",
+                short: "ngày trong tuần",
+                narrow: "ngày trong tuần"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "ngày thường trong tháng",
+                short: "ngày thường trong tháng",
+                narrow: "ngày thường trong tháng"
             },
             dayperiod: {
                 short: "SA/CH",

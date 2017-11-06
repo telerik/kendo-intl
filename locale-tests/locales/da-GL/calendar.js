@@ -16,11 +16,11 @@ const data = {
             M: "d. MMMM",
             y: "MMM y",
             Y: "MMMM y",
-            F: "EEEE 'den' d. MMMM y h.mm.ss a",
-            g: "d/M/y h.mm a",
-            G: "d/M/y h.mm.ss a",
-            t: "h.mm a",
-            T: "h.mm.ss a",
+            F: "EEEE 'den' d. MMMM y HH.mm.ss",
+            g: "d/M/y HH.mm",
+            G: "d/M/y HH.mm.ss",
+            t: "HH.mm",
+            T: "HH.mm.ss",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
@@ -30,8 +30,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h.mm B",
+                Bhms: "h.mm.ss B",
                 d: "d.",
                 E: "ccc",
+                EBhm: "E h.mm B",
+                EBhms: "E h.mm.ss B",
                 Ed: "E 'den' d.",
                 Ehm: "E h.mm a",
                 EHm: "E HH.mm",
@@ -74,15 +79,15 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'uge' w 'i' y",
-                "yw-count-other": "'uge' w 'i' y"
+                "yw-count-one": "'uge' w 'i' Y",
+                "yw-count-other": "'uge' w 'i' Y"
             }
         },
         timeFormats: {
-            full: "h.mm.ss a zzzz",
-            long: "h.mm.ss a z",
-            medium: "h.mm.ss a",
-            short: "h.mm a"
+            full: "HH.mm.ss zzzz",
+            long: "HH.mm.ss z",
+            medium: "HH.mm.ss",
+            short: "HH.mm"
         },
         dateFormats: {
             full: "EEEE 'den' d. MMMM y",
@@ -417,9 +422,9 @@ const data = {
                 narrow: "uge"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "uge i måneden",
+                short: "uge i md.",
+                narrow: "uge i md."
             },
             day: {
                 wide: "dag",
@@ -427,9 +432,9 @@ const data = {
                 narrow: "dag"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "dag i året",
+                short: "dag i året",
+                narrow: "dag i året"
             },
             weekday: {
                 wide: "ugedag",
@@ -437,9 +442,9 @@ const data = {
                 narrow: "ugedag"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "ugedag i måneden",
+                short: "ugedag i md.",
+                narrow: "ugedag i md."
             },
             dayperiod: {
                 short: "AM/PM",
@@ -449,12 +454,12 @@ const data = {
             hour: {
                 wide: "time",
                 short: "t.",
-                narrow: "t"
+                narrow: "t."
             },
             minute: {
                 wide: "minut",
                 short: "min.",
-                narrow: "min"
+                narrow: "min."
             },
             second: {
                 wide: "sekund",
@@ -463,8 +468,8 @@ const data = {
             },
             zone: {
                 wide: "tidszone",
-                short: "tidszone",
-                narrow: "tidszone"
+                short: "zone",
+                narrow: "zone"
             }
         }
     },

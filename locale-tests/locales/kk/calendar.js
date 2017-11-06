@@ -29,8 +29,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "B h",
+                Bhm: "B h:mm",
+                Bhms: "B h:mm:ss",
                 d: "d",
                 E: "ccc",
+                EBhm: "E, B h:mm",
+                EBhms: "E, B h:mm:ss",
                 Ed: "d, E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -70,8 +75,8 @@ const data = {
                 yMMMM: "y 'ж'. MMMM",
                 yQQQ: "y 'ж'. QQQ",
                 yQQQQ: "y 'ж'. QQQQ",
-                "yw-count-one": "y 'жылдың' w-'аптасы'",
-                "yw-count-other": "y 'жылдың' w-'аптасы'"
+                "yw-count-one": "Y 'жылдың' w-'аптасы'",
+                "yw-count-other": "Y 'жылдың' w-'аптасы'"
             }
         },
         timeFormats: {
@@ -257,10 +262,10 @@ const data = {
         quarters: {
             format: {
                 abbreviated: [
-                    "І ш.",
-                    "ІІ ш.",
-                    "ІІІ ш.",
-                    "IV ш."
+                    "І тқс.",
+                    "ІІ тқс.",
+                    "ІІІ тқс.",
+                    "IV тқс."
                 ],
                 narrow: [
                     "I",
@@ -269,18 +274,18 @@ const data = {
                     "IV"
                 ],
                 wide: [
-                    "І ширек",
-                    "ІІ ширек",
-                    "ІІІ ширек",
-                    "IV ширек"
+                    "І тоқсан",
+                    "ІІ тоқсан",
+                    "ІІІ тоқсан",
+                    "IV тоқсан"
                 ]
             },
             "stand-alone": {
                 abbreviated: [
-                    "І ш.",
-                    "ІІ ш.",
-                    "ІІІ ш.",
-                    "IV ш."
+                    "І тқс.",
+                    "ІІ тқс.",
+                    "ІІІ тқс.",
+                    "IV тқс."
                 ],
                 narrow: [
                     "I",
@@ -289,10 +294,10 @@ const data = {
                     "IV"
                 ],
                 wide: [
-                    "І ширек",
-                    "ІІ ширек",
-                    "ІІІ ширек",
-                    "IV ширек"
+                    "І тоқсан",
+                    "ІІ тоқсан",
+                    "ІІІ тоқсан",
+                    "IV тоқсан"
                 ]
             }
         },
@@ -366,8 +371,8 @@ const data = {
             format: {
                 wide: {
                     0: "Біздің заманымызға дейін",
-                    1: "Біздің заманымыз",
-                    "0-alt-variant": "BCE",
+                    1: "біздің заманымыз",
+                    "0-alt-variant": "біздің заманымызға дейін",
                     "1-alt-variant": "CE"
                 },
                 abbreviated: {
@@ -413,9 +418,9 @@ const data = {
                 narrow: "ап."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "айдағы апта",
+                short: "айдағы апта",
+                narrow: "айдағы апта"
             },
             day: {
                 wide: "күн",
@@ -423,9 +428,9 @@ const data = {
                 narrow: "күн"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "жылдағы күн",
+                short: "жылдағы күн",
+                narrow: "жылдағы күн"
             },
             weekday: {
                 wide: "апта күні",
@@ -433,9 +438,9 @@ const data = {
                 narrow: "апта күні"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "айдағы апта күні",
+                short: "айдағы ап. күні",
+                narrow: "айдағы ап. күні"
             },
             dayperiod: {
                 short: "АМ/РМ",
@@ -459,8 +464,8 @@ const data = {
             },
             zone: {
                 wide: "уақыт белдеуі",
-                short: "уақыт белдеуі",
-                narrow: "уақыт белдеуі"
+                short: "уақ. белдеуі",
+                narrow: "уақ. белдеуі"
             }
         }
     },

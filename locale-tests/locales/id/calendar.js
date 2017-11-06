@@ -29,8 +29,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h.mm B",
+                Bhms: "h.mm.ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h.mm B",
+                EBhms: "E h.mm.ss B",
                 Ed: "E, d",
                 Ehm: "E h.mm a",
                 EHm: "E HH.mm",
@@ -70,7 +75,7 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-other": "'minggu' 'ke'-w y"
+                "yw-count-other": "'minggu' 'ke'-w Y"
             }
         },
         timeFormats: {
@@ -387,54 +392,54 @@ const data = {
         gmtZeroFormat: "GMT",
         dateFields: {
             era: {
-                wide: "Era",
-                short: "Era",
-                narrow: "Era"
+                wide: "era",
+                short: "era",
+                narrow: "era"
             },
             year: {
-                wide: "Tahun",
+                wide: "tahun",
                 short: "thn.",
                 narrow: "thn."
             },
             quarter: {
-                wide: "Kuartal",
+                wide: "kuartal",
                 short: "krtl.",
                 narrow: "krtl."
             },
             month: {
-                wide: "Bulan",
+                wide: "bulan",
                 short: "bln.",
                 narrow: "bln."
             },
             week: {
-                wide: "Minggu",
+                wide: "minggu",
                 short: "mgg.",
                 narrow: "mgg."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "minggu",
+                short: "mgg.",
+                narrow: "mgg."
             },
             day: {
-                wide: "Hari",
+                wide: "hari",
                 short: "h",
                 narrow: "h"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "Hari dalam Setahun",
+                short: "Hari dalam Setahun",
+                narrow: "Hari dalam Setahun"
             },
             weekday: {
-                wide: "Hari dalam Seminggu",
-                short: "Hari dalam Seminggu",
-                narrow: "Hari dalam Seminggu"
+                wide: "hari dalam seminggu",
+                short: "hari dlm seminggu",
+                narrow: "hari dlm seminggu"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "hari kerja",
+                short: "hr kerja",
+                narrow: "hr kerja"
             },
             dayperiod: {
                 short: "AM/PM",
@@ -447,19 +452,19 @@ const data = {
                 narrow: "j"
             },
             minute: {
-                wide: "Menit",
+                wide: "menit",
                 short: "mnt.",
                 narrow: "m"
             },
             second: {
-                wide: "Detik",
+                wide: "detik",
                 short: "dtk.",
                 narrow: "d"
             },
             zone: {
-                wide: "Zona Waktu",
-                short: "Zona Waktu",
-                narrow: "Zona Waktu"
+                wide: "zona waktu",
+                short: "zona wkt",
+                narrow: "zona wkt"
             }
         }
     },

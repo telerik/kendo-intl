@@ -43,7 +43,7 @@ const data = {
         },
         currency: {
             patterns: [
-                "$n"
+                "$ n"
             ],
             groupSize: [
                 3
@@ -53,8 +53,7 @@ const data = {
         },
         accounting: {
             patterns: [
-                "$n",
-                "($n)"
+                "$ n"
             ],
             groupSize: [
                 3
@@ -88,7 +87,8 @@ const data = {
             ALK: {
                 displayName: "Lek Albanês (1946–1965)",
                 "displayName-count-one": "Lek Albanês (1946–1965)",
-                "displayName-count-other": "Leks Albaneses (1946–1965)"
+                "displayName-count-other": "Leks Albaneses (1946–1965)",
+                symbol: "ALK"
             },
             ALL: {
                 displayName: "Lek albanês",
@@ -202,9 +202,9 @@ const data = {
                 symbol: "BAD"
             },
             BAM: {
-                displayName: "Marco bósnio-herzegovino conversível",
-                "displayName-count-one": "Marco bósnio-herzegovino conversível",
-                "displayName-count-other": "Marco bósnio-herzegovino conversível",
+                displayName: "Marco conversível da Bósnia e Herzegovina",
+                "displayName-count-one": "Marco conversível da Bósnia e Herzegovina",
+                "displayName-count-other": "Marcos conversíveis da Bósnia e Herzegovina",
                 symbol: "BAM",
                 "symbol-alt-narrow": "KM"
             },
@@ -466,10 +466,17 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "Yuan (offshore)",
+                "displayName-count-one": "Yuan (offshore)",
+                "displayName-count-other": "Yuans (offshore)",
+                symbol: "CNH"
+            },
             CNX: {
                 displayName: "Dólar do Banco Popular da China",
                 "displayName-count-one": "Dólar do Banco Popular da China",
-                "displayName-count-other": "Dólares do Banco Popular da China"
+                "displayName-count-other": "Dólares do Banco Popular da China",
+                symbol: "CNX"
             },
             CNY: {
                 displayName: "Yuan chinês",
@@ -556,9 +563,9 @@ const data = {
                 symbol: "DEM"
             },
             DJF: {
-                displayName: "Franco djibutiense",
-                "displayName-count-one": "Franco djibutiense",
-                "displayName-count-other": "Francos djibutienses",
+                displayName: "Franco djiboutiano",
+                "displayName-count-one": "Franco djiboutiano",
+                "displayName-count-other": "Francos djiboutianos",
                 symbol: "DJF"
             },
             DKK: {
@@ -671,9 +678,9 @@ const data = {
                 symbol: "FRF"
             },
             GBP: {
-                displayName: "Libra britânica",
-                "displayName-count-one": "Libra britânica",
-                "displayName-count-other": "Libras britânicas",
+                displayName: "Libra esterlina",
+                "displayName-count-one": "Libra esterlina",
+                "displayName-count-other": "Libras esterlinas",
                 symbol: "£",
                 "symbol-alt-narrow": "£"
             },
@@ -742,9 +749,9 @@ const data = {
                 symbol: "GRD"
             },
             GTQ: {
-                displayName: "Quetzal guatemalense",
-                "displayName-count-one": "Quetzal guatemalense",
-                "displayName-count-other": "Quetzais guatemalenses",
+                displayName: "Quetzal guatemalteco",
+                "displayName-count-one": "Quetzal guatemalteco",
+                "displayName-count-other": "Quetzais guatemaltecos",
                 symbol: "GTQ",
                 "symbol-alt-narrow": "Q"
             },
@@ -801,9 +808,9 @@ const data = {
                 symbol: "HTG"
             },
             HUF: {
-                displayName: "Forint húngaro",
-                "displayName-count-one": "Forint húngaro",
-                "displayName-count-other": "Forints húngaros",
+                displayName: "Florim húngaro",
+                "displayName-count-one": "Florim húngaro",
+                "displayName-count-other": "Florins húngaros",
                 symbol: "HUF",
                 "symbol-alt-narrow": "Ft"
             },
@@ -829,7 +836,8 @@ const data = {
             ILR: {
                 displayName: "Sheqel antigo israelita",
                 "displayName-count-one": "Sheqel antigo israelita",
-                "displayName-count-other": "Sheqels antigos israelitas"
+                "displayName-count-other": "Sheqels antigos israelitas",
+                symbol: "ILR"
             },
             ILS: {
                 displayName: "Sheqel novo israelita",
@@ -860,7 +868,8 @@ const data = {
             ISJ: {
                 displayName: "Coroa antiga islandesa",
                 "displayName-count-one": "Coroa antiga islandesa",
-                "displayName-count-other": "Coroas antigas islandesas"
+                "displayName-count-other": "Coroas antigas islandesas",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Coroa islandesa",
@@ -915,9 +924,9 @@ const data = {
                 "symbol-alt-narrow": "៛"
             },
             KMF: {
-                displayName: "Franco comorense",
-                "displayName-count-one": "Franco comorense",
-                "displayName-count-other": "Francos comorenses",
+                displayName: "Franco comoriano",
+                "displayName-count-one": "Franco comoriano",
+                "displayName-count-other": "Francos comorianos",
                 symbol: "KMF",
                 "symbol-alt-narrow": "CF"
             },
@@ -954,9 +963,9 @@ const data = {
                 symbol: "KWD"
             },
             KYD: {
-                displayName: "Dólar das Ilhas Caiman",
-                "displayName-count-one": "Dólar das Ilhas Caiman",
-                "displayName-count-other": "Dólares das Ilhas Caiman",
+                displayName: "Dólar das Ilhas Cayman",
+                "displayName-count-one": "Dólar das Ilhas Cayman",
+                "displayName-count-other": "Dólares das Ilhas Cayman",
                 symbol: "KYD",
                 "symbol-alt-narrow": "$"
             },
@@ -1052,9 +1061,9 @@ const data = {
                 symbol: "LYD"
             },
             MAD: {
-                displayName: "Dirrã marroquino",
-                "displayName-count-one": "Dirrã marroquino",
-                "displayName-count-other": "Dirrãs marroquinos",
+                displayName: "Dirham marroquino",
+                "displayName-count-one": "Dirham marroquino",
+                "displayName-count-other": "Dirhams marroquinos",
                 symbol: "MAD"
             },
             MAF: {
@@ -1157,6 +1166,10 @@ const data = {
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
+            },
             MVR: {
                 displayName: "Rupia maldiva",
                 "displayName-count-one": "Rupia maldiva",
@@ -1164,9 +1177,9 @@ const data = {
                 symbol: "MVR"
             },
             MWK: {
-                displayName: "Kwacha malawiana",
-                "displayName-count-one": "Kwacha malawiana",
-                "displayName-count-other": "Kwachas malawianas",
+                displayName: "Kwacha malauiana",
+                "displayName-count-one": "Kwacha malauiana",
+                "displayName-count-other": "Kwachas malauianas",
                 symbol: "MWK"
             },
             MXN: {
@@ -1210,7 +1223,7 @@ const data = {
             MZN: {
                 displayName: "Metical moçambicano",
                 "displayName-count-one": "Metical moçambicano",
-                "displayName-count-other": "Meticales moçambicanos",
+                "displayName-count-other": "Meticais moçambicanos",
                 symbol: "MZN"
             },
             NAD: {
@@ -1274,9 +1287,9 @@ const data = {
                 symbol: "OMR"
             },
             PAB: {
-                displayName: "Balboa panamenha",
-                "displayName-count-one": "Balboa panamenha",
-                "displayName-count-other": "Balboas panamenhas",
+                displayName: "Balboa panamenho",
+                "displayName-count-one": "Balboa panamenho",
+                "displayName-count-other": "Balboas panamenhos",
                 symbol: "PAB"
             },
             PEI: {
@@ -1503,6 +1516,10 @@ const data = {
                 "displayName-count-other": "Dobras de São Tomé e Príncipe",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "Rublo soviético",
@@ -1960,8 +1977,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E, d",
                 Ehm: "E, h:mm a",
                 EHm: "E, HH:mm",
@@ -1990,7 +2012,7 @@ const data = {
                 MMMEd: "E, d 'de' MMM",
                 MMMMd: "d 'de' MMMM",
                 MMMMEd: "E, d 'de' MMMM",
-                "MMMMW-count-one": "W'ª' 'semana' 'de' MMM",
+                "MMMMW-count-one": "W'ª' 'semana' 'de' MMMM",
                 "MMMMW-count-other": "W'ª' 'semana' 'de' MMMM",
                 ms: "mm:ss",
                 y: "y",
@@ -2006,8 +2028,8 @@ const data = {
                 yMMMMEd: "E, d 'de' MMMM 'de' y",
                 yQQQ: "QQQ 'de' y",
                 yQQQQ: "QQQQ 'de' y",
-                "yw-count-one": "w'ª' 'semana' 'de' y",
-                "yw-count-other": "w'ª' 'semana' 'de' y"
+                "yw-count-one": "w'ª' 'semana' 'de' Y",
+                "yw-count-other": "w'ª' 'semana' 'de' Y"
             }
         },
         timeFormats: {
@@ -2349,9 +2371,9 @@ const data = {
                 narrow: "sem."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "semana do mês",
+                short: "sem. do mês",
+                narrow: "sem. do mês"
             },
             day: {
                 wide: "dia",
@@ -2359,19 +2381,19 @@ const data = {
                 narrow: "dia"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "dia do ano",
+                short: "dia do ano",
+                narrow: "dia do ano"
             },
             weekday: {
                 wide: "dia da semana",
-                short: "dia da semana",
-                narrow: "dia da semana"
+                short: "dia da sem.",
+                narrow: "dia da sem."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "dia da semana do mês",
+                short: "dia da sem. do mês",
+                narrow: "dia da sem. do mês"
             },
             dayperiod: {
                 short: "AM/PM",
@@ -2386,17 +2408,17 @@ const data = {
             minute: {
                 wide: "minuto",
                 short: "min.",
-                narrow: "m"
+                narrow: "min."
             },
             second: {
                 wide: "segundo",
                 short: "seg.",
-                narrow: "s"
+                narrow: "seg."
             },
             zone: {
                 wide: "fuso horário",
-                short: "fuso horário",
-                narrow: "fuso horário"
+                short: "fuso",
+                narrow: "fuso"
             }
         }
     },

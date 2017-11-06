@@ -29,8 +29,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "d, E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -73,10 +78,10 @@ const data = {
                 yMMMM: "LLLL y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "w 'тыдзень' y",
-                "yw-count-few": "w 'тыдзень' y",
-                "yw-count-many": "w 'тыдзень' y",
-                "yw-count-other": "w 'тыдзень' y"
+                "yw-count-one": "w 'тыдзень' Y",
+                "yw-count-few": "w 'тыдзень' Y",
+                "yw-count-many": "w 'тыдзень' Y",
+                "yw-count-other": "w 'тыдзень' Y"
             }
         },
         timeFormats: {
@@ -382,9 +387,9 @@ const data = {
                 narrow: "тыд"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "тыдзень месяца",
+                short: "тыдзень месяца",
+                narrow: "тыдзень месяца"
             },
             day: {
                 wide: "дзень",
@@ -392,9 +397,9 @@ const data = {
                 narrow: "д."
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "дзень года",
+                short: "дзень года",
+                narrow: "дзень года"
             },
             weekday: {
                 wide: "дзень тыдня",
@@ -402,9 +407,9 @@ const data = {
                 narrow: "дзень тыдня"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "дзень месяца",
+                short: "дзень месяца",
+                narrow: "дзень месяца"
             },
             dayperiod: {
                 short: "AM/PM",

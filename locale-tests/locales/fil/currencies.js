@@ -29,6 +29,10 @@ const data = {
                 "displayName-count-other": "Afghan Afghanis",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "Albanian Lek",
                 "displayName-count-one": "Albanian lek",
@@ -341,6 +345,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "CNH",
+                "displayName-count-one": "CNH",
+                "displayName-count-other": "CNH",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "Chinese Yuan",
                 "displayName-count-one": "Chinese yuan",
@@ -648,6 +662,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "Israeli New Sheqel",
                 "displayName-count-one": "Israeli new sheqel",
@@ -673,6 +691,10 @@ const data = {
                 "displayName-count-one": "Iranian rial",
                 "displayName-count-other": "Iranian rials",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Icelandic Króna",
@@ -934,6 +956,10 @@ const data = {
                 "displayName-count-other": "Mauritian rupees",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "Maldivian Rufiyaa",
@@ -1245,6 +1271,10 @@ const data = {
                 "displayName-count-other": "São Tomé & Príncipe dobras",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

@@ -31,6 +31,10 @@ const data = {
                 "displayName-count-other": "afganis afganos",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "Lek albanés",
                 "displayName-count-one": "lek albanés",
@@ -101,7 +105,7 @@ const data = {
                 displayName: "Dólar australiano",
                 "displayName-count-one": "dólar australiano",
                 "displayName-count-other": "dólares australianos",
-                symbol: "$A",
+                symbol: "A$",
                 "symbol-alt-narrow": "$"
             },
             AWG: {
@@ -254,8 +258,8 @@ const data = {
                 displayName: "Real brasileiro",
                 "displayName-count-one": "real brasileiro",
                 "displayName-count-other": "reais brasileiros",
-                symbol: "$R",
-                "symbol-alt-narrow": "$R"
+                symbol: "R$",
+                "symbol-alt-narrow": "R$"
             },
             BRN: {
                 displayName: "Cruzado novo brasileiro",
@@ -325,7 +329,7 @@ const data = {
                 displayName: "Dólar canadense",
                 "displayName-count-one": "dólar canadense",
                 "displayName-count-other": "dólares canadenses",
-                symbol: "$CA",
+                symbol: "CA$",
                 "symbol-alt-narrow": "$"
             },
             CDF: {
@@ -364,6 +368,16 @@ const data = {
                 "displayName-count-other": "pesos chilenos",
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
+            },
+            CNH: {
+                displayName: "Iuán chinés (extracontinental)",
+                "displayName-count-one": "iuán chinés (extracontinental)",
+                "displayName-count-other": "iuáns chineses (extracontinentais)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
             },
             CNY: {
                 displayName: "Iuán chinés",
@@ -685,6 +699,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "Novo shequel israelí",
                 "displayName-count-one": "novo shequel israelí",
@@ -710,6 +728,10 @@ const data = {
                 "displayName-count-one": "rial iraniano",
                 "displayName-count-other": "riais iranianos",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Coroa islandesa",
@@ -971,6 +993,10 @@ const data = {
                 "displayName-count-other": "rupias mauricianas",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "Rupia maldivana",
@@ -1286,6 +1312,10 @@ const data = {
                 "displayName-count-other": "dobras de São Tomé e Príncipe",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "Rublo soviético",

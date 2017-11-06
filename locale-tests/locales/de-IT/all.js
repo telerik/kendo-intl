@@ -88,7 +88,8 @@ const data = {
             ALK: {
                 displayName: "Albanischer Lek (1946–1965)",
                 "displayName-count-one": "Albanischer Lek (1946–1965)",
-                "displayName-count-other": "Albanische Lek (1946–1965)"
+                "displayName-count-other": "Albanische Lek (1946–1965)",
+                symbol: "ALK"
             },
             ALL: {
                 displayName: "Albanischer Lek",
@@ -297,8 +298,8 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             BOB: {
-                displayName: "Bolivanischer Boliviano",
-                "displayName-count-one": "Bolivanischer Boliviano",
+                displayName: "Bolivianischer Boliviano",
+                "displayName-count-one": "Bolivianischer Boliviano",
                 "displayName-count-other": "Bolivianische Bolivianos",
                 symbol: "BOB",
                 "symbol-alt-narrow": "Bs"
@@ -465,6 +466,12 @@ const data = {
                 "displayName-count-other": "Chilenische Pesos",
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
+            },
+            CNH: {
+                displayName: "Renminbi Yuan (Off–Shore)",
+                "displayName-count-one": "Renminbi Yuan (Off–Shore)",
+                "displayName-count-other": "Renminbi Yuan (Off–Shore)",
+                symbol: "CNH"
             },
             CNX: {
                 displayName: "Dollar der Chinesischen Volksbank",
@@ -707,7 +714,7 @@ const data = {
             GIP: {
                 displayName: "Gibraltar-Pfund",
                 "displayName-count-one": "Gibraltar-Pfund",
-                "displayName-count-other": "Gibraltar Pfund",
+                "displayName-count-other": "Gibraltar-Pfund",
                 symbol: "GIP",
                 "symbol-alt-narrow": "£"
             },
@@ -830,7 +837,8 @@ const data = {
             ILR: {
                 displayName: "Israelischer Schekel (1980–1985)",
                 "displayName-count-one": "Israelischer Schekel (1980–1985)",
-                "displayName-count-other": "Israelische Schekel (1980–1985)"
+                "displayName-count-other": "Israelische Schekel (1980–1985)",
+                symbol: "ILR"
             },
             ILS: {
                 displayName: "Israelischer Neuer Schekel",
@@ -861,7 +869,8 @@ const data = {
             ISJ: {
                 displayName: "Isländische Krone (1918–1981)",
                 "displayName-count-one": "Isländische Krone (1918–1981)",
-                "displayName-count-other": "Isländische Kronen (1918–1981)"
+                "displayName-count-other": "Isländische Kronen (1918–1981)",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Isländische Krone",
@@ -1161,7 +1170,8 @@ const data = {
             MVP: {
                 displayName: "Malediven-Rupie (alt)",
                 "displayName-count-one": "Malediven-Rupie (alt)",
-                "displayName-count-other": "Malediven-Rupien (alt)"
+                "displayName-count-other": "Malediven-Rupien (alt)",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "Malediven-Rufiyaa",
@@ -1509,6 +1519,10 @@ const data = {
                 "displayName-count-other": "São-toméische Dobra",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "Sowjetischer Rubel",
@@ -1970,8 +1984,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E, d.",
                 Ehm: "E h:mm a",
                 EHm: "E, HH:mm",
@@ -2016,8 +2035,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'Woche' w 'des' 'Jahres' y",
-                "yw-count-other": "'Woche' w 'des' 'Jahres' y"
+                "yw-count-one": "'Woche' w 'des' 'Jahres' Y",
+                "yw-count-other": "'Woche' w 'des' 'Jahres' Y"
             }
         },
         timeFormats: {
@@ -2246,8 +2265,8 @@ const data = {
             format: {
                 abbreviated: {
                     midnight: "Mitternacht",
-                    am: "vorm.",
-                    pm: "nachm.",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "morgens",
                     morning2: "vormittags",
                     afternoon1: "mittags",
@@ -2268,8 +2287,8 @@ const data = {
                 },
                 wide: {
                     midnight: "Mitternacht",
-                    am: "vorm.",
-                    pm: "nachm.",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "morgens",
                     morning2: "vormittags",
                     afternoon1: "mittags",
@@ -2342,7 +2361,7 @@ const data = {
             era: {
                 wide: "Epoche",
                 short: "Epoche",
-                narrow: "Epoche"
+                narrow: "E"
             },
             year: {
                 wide: "Jahr",
@@ -2365,9 +2384,9 @@ const data = {
                 narrow: "W"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "Woche des Monats",
+                short: "W/M",
+                narrow: "Wo. des Monats"
             },
             day: {
                 wide: "Tag",
@@ -2375,24 +2394,24 @@ const data = {
                 narrow: "Tag"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "Tag des Jahres",
+                short: "Tag des Jahres",
+                narrow: "T/J"
             },
             weekday: {
                 wide: "Wochentag",
                 short: "Wochentag",
-                narrow: "Wochentag"
+                narrow: "Wochent."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "Wochentag",
+                short: "Wochentag",
+                narrow: "WT"
             },
             dayperiod: {
                 short: "Tageshälfte",
                 wide: "Tageshälfte",
-                narrow: "Tageshälfte"
+                narrow: "Tagesh."
             },
             hour: {
                 wide: "Stunde",
@@ -2412,7 +2431,7 @@ const data = {
             zone: {
                 wide: "Zeitzone",
                 short: "Zeitzone",
-                narrow: "Zeitzone"
+                narrow: "Zeitz."
             }
         }
     },

@@ -13,7 +13,7 @@ const data = {
             d: "dd.MM.y",
             D: "d MMMM y, EEEE",
             m: "d MMM",
-            M: "MMMM d",
+            M: "d MMMM",
             y: "MMM y",
             Y: "MMMM y",
             F: "d MMMM y, EEEE HH:mm:ss",
@@ -30,8 +30,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "B h",
+                Bhm: "B h:mm",
+                Bhms: "B h:mm:ss",
                 d: "d",
                 E: "ccc",
+                EBhm: "E B h:mm",
+                EBhms: "E B h:mm:ss",
                 Ed: "d E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -57,7 +62,7 @@ const data = {
                 MMM: "LLL",
                 MMMd: "d MMM",
                 MMMEd: "d MMM, E",
-                MMMMd: "MMMM d",
+                MMMMd: "d MMMM",
                 "MMMMW-count-one": "MMM, W 'həftə'",
                 "MMMMW-count-other": "MMM, W 'həftə'",
                 ms: "mm:ss",
@@ -71,8 +76,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "y QQQ",
                 yQQQQ: "y QQQQ",
-                "yw-count-one": "y, w 'həftə'",
-                "yw-count-other": "y, w 'həftə'"
+                "yw-count-one": "Y, w 'həftə'",
+                "yw-count-other": "Y, w 'həftə'"
             }
         },
         timeFormats: {
@@ -426,9 +431,9 @@ const data = {
                 narrow: "həftə"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "Ayın həftəsi",
+                short: "ay hft.",
+                narrow: "ay hft."
             },
             day: {
                 wide: "Gün",
@@ -436,19 +441,19 @@ const data = {
                 narrow: "Gün"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "ilin günü",
+                short: "ilin günü",
+                narrow: "ilin günü"
             },
             weekday: {
                 wide: "Həftənin Günü",
-                short: "Həftənin Günü",
-                narrow: "Həftənin Günü"
+                short: "hft. günü",
+                narrow: "hft. günü"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "ayın həftə günü",
+                short: "ay hft. günü",
+                narrow: "ay hft. günü"
             },
             dayperiod: {
                 short: "AM/PM",
@@ -472,8 +477,8 @@ const data = {
             },
             zone: {
                 wide: "Saat Qurşağı",
-                short: "Saat Qurşağı",
-                narrow: "Saat Qurşağı"
+                short: "qurşaq",
+                narrow: "qurşaq"
             }
         }
     },

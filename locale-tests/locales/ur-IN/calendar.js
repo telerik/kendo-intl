@@ -11,12 +11,12 @@ const data = {
     calendar: {
         patterns: {
             d: "d/M/y",
-            D: "EEEE، d MMMM، y",
+            D: "EEEE, MMMM d, y",
             m: "d MMM",
             M: "MMMM d",
             y: "MMM y",
             Y: "MMMM y",
-            F: "EEEE، d MMMM، y h:mm:ss a",
+            F: "EEEE, MMMM d, y h:mm:ss a",
             g: "d/M/y h:mm a",
             G: "d/M/y h:mm:ss a",
             t: "h:mm a",
@@ -30,8 +30,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "d E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -58,8 +63,8 @@ const data = {
                 MMMd: "d MMM",
                 MMMEd: "E، d MMM",
                 MMMMd: "MMMM d",
-                "MMMMW-count-one": "MMM کے W ہفتے",
-                "MMMMW-count-other": "MMM کے W ہفتے",
+                "MMMMW-count-one": "MMMM کا ہفتہ W",
+                "MMMMW-count-other": "MMMM کا ہفتہ W",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M/y",
@@ -71,8 +76,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "y کا w ہفتہ",
-                "yw-count-other": "y کا w ہفتہ"
+                "yw-count-one": "Y کا w ہفتہ",
+                "yw-count-other": "Y کا w ہفتہ"
             }
         },
         timeFormats: {
@@ -82,9 +87,9 @@ const data = {
             short: "h:mm a"
         },
         dateFormats: {
-            full: "EEEE، d MMMM، y",
-            long: "d MMMM، y",
-            medium: "y MMM d",
+            full: "EEEE, MMMM d, y",
+            long: "MMMM d, y",
+            medium: "MMM d, y",
             short: "d/M/yy"
         },
         days: {
@@ -323,11 +328,11 @@ const data = {
                     midnight: "آدھی رات",
                     am: "AM",
                     pm: "PM",
-                    morning1: "صبح",
-                    afternoon1: "دوپہر",
+                    morning1: "صبح میں",
+                    afternoon1: "دوپہر میں",
                     afternoon2: "سہ پہر",
-                    evening1: "شام",
-                    night1: "رات"
+                    evening1: "شام میں",
+                    night1: "رات میں"
                 }
             },
             "stand-alone": {
@@ -390,8 +395,8 @@ const data = {
         dateFields: {
             era: {
                 wide: "دور",
-                short: "دور",
-                narrow: "دور"
+                short: "عہد",
+                narrow: "عہد"
             },
             year: {
                 wide: "سال",
@@ -414,9 +419,9 @@ const data = {
                 narrow: "ہفتہ"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "مہینے کا ہفتہ",
+                short: "مہینے کا ہفتہ",
+                narrow: "مہینے کا ہفتہ"
             },
             day: {
                 wide: "دن",
@@ -424,9 +429,9 @@ const data = {
                 narrow: "دن"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "یوم سال",
+                short: "یوم سال",
+                narrow: "یوم سال"
             },
             weekday: {
                 wide: "ہفتے کا دن",
@@ -434,9 +439,9 @@ const data = {
                 narrow: "ہفتے کا دن"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "مہینے کا یوم ہفتہ",
+                short: "مہینے کا یوم ہفتہ",
+                narrow: "مہینے کا یوم ہفتہ"
             },
             dayperiod: {
                 short: "قبل دوپہر/بعد دوپہر",

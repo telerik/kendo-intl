@@ -29,9 +29,14 @@ const data = {
             medium: "{1}, {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
-                Ed: "d E",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
+                Ed: "E d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
                 Ehms: "E h:mm:ss a",
@@ -71,7 +76,7 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "y QQQ",
                 yQQQQ: "y QQQQ",
-                "yw-count-other": "'week' w 'of' y"
+                "yw-count-other": "'week' w 'of' Y"
             }
         },
         timeFormats: {
@@ -377,9 +382,9 @@ const data = {
                 narrow: "uike"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "uike ʻo e māhina",
+                short: "uike ʻoe māhina",
+                narrow: "uk ʻoe mh"
             },
             day: {
                 wide: "ʻaho",
@@ -387,19 +392,19 @@ const data = {
                 narrow: "ʻaho"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "ʻaho ʻo e taʻu",
+                short: "ʻaho ʻoe taʻu",
+                narrow: "ʻaho ʻoe taʻu"
             },
             weekday: {
                 wide: "ʻaho ʻo e uike",
-                short: "ʻaho ʻo e uike",
-                narrow: "ʻaho ʻo e uike"
+                short: "ʻaho ʻoe uike",
+                narrow: "ʻaho ʻoe uike"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "ʻaho ʻo e mahina",
+                short: "ʻaho ʻo e mahina",
+                narrow: "ʻaho ʻo e mahina"
             },
             dayperiod: {
                 short: "AM/PM",

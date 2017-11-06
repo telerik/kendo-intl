@@ -29,8 +29,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -71,8 +76,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "y QQQ",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'wiki' w 'ya' y",
-                "yw-count-other": "'wiki' w 'ya' y"
+                "yw-count-one": "'wiki' w 'ya' Y",
+                "yw-count-other": "'wiki' w 'ya' Y"
             }
         },
         timeFormats: {
@@ -311,9 +316,9 @@ const data = {
                     night1: "usiku"
                 },
                 narrow: {
-                    midnight: "saa sita za usiku",
+                    midnight: "usiku",
                     am: "am",
-                    noon: "saa sita za mchana",
+                    noon: "mchana",
                     pm: "pm",
                     morning1: "alfajiri",
                     morning2: "asubuhi",
@@ -323,9 +328,9 @@ const data = {
                 },
                 wide: {
                     midnight: "saa sita za usiku",
-                    am: "Asubuhi",
+                    am: "AM",
                     noon: "saa sita za mchana",
-                    pm: "Mchana",
+                    pm: "PM",
                     morning1: "alfajiri",
                     morning2: "asubuhi",
                     afternoon1: "mchana",
@@ -341,15 +346,15 @@ const data = {
                     pm: "PM",
                     morning1: "alfajiri",
                     morning2: "asubuhi",
-                    afternoon1: "mchana",
+                    afternoon1: "alasiri",
                     evening1: "jioni",
                     night1: "usiku"
                 },
                 narrow: {
                     midnight: "saa sita za usiku",
-                    am: "am",
+                    am: "AM",
                     noon: "saa sita za mchana",
-                    pm: "pm",
+                    pm: "PM",
                     morning1: "alfajiri",
                     morning2: "asubuhi",
                     afternoon1: "mchana",
@@ -420,9 +425,9 @@ const data = {
                 narrow: "wiki"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "wiki ya mwezi",
+                short: "wiki ya mwezi",
+                narrow: "wiki ya mwezi"
             },
             day: {
                 wide: "siku",
@@ -430,9 +435,9 @@ const data = {
                 narrow: "siku"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "siku ya mwaka",
+                short: "siku ya mwaka",
+                narrow: "siku ya mwaka"
             },
             weekday: {
                 wide: "siku ya wiki",
@@ -440,9 +445,9 @@ const data = {
                 narrow: "siku ya wiki"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "siku ya mwezi",
+                short: "siku ya mwezi",
+                narrow: "siku ya mwezi"
             },
             dayperiod: {
                 short: "AM/PM",

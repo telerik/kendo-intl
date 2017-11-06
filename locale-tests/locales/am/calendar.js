@@ -29,8 +29,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -71,8 +76,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'week' w 'of' y",
-                "yw-count-other": "'week' w 'of' y"
+                "yw-count-one": "'week' w 'of' Y",
+                "yw-count-other": "'week' w 'of' Y"
             }
         },
         timeFormats: {
@@ -368,7 +373,7 @@ const data = {
                 wide: {
                     0: "ዓመተ ዓለም",
                     1: "ዓመተ ምሕረት",
-                    "0-alt-variant": "BCE",
+                    "0-alt-variant": "ዓ/ዓ",
                     "1-alt-variant": "ዓ/ም"
                 },
                 abbreviated: {
@@ -414,9 +419,9 @@ const data = {
                 narrow: "ሳምንት"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "የወሩ ሳምንት",
+                short: "የወሩ ሳምንት",
+                narrow: "የወሩ ሳምንት"
             },
             day: {
                 wide: "ቀን",
@@ -424,9 +429,9 @@ const data = {
                 narrow: "ቀን"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "የዓመቱ ቀን",
+                short: "የዓመቱ ቀን",
+                narrow: "የዓመቱ ቀን"
             },
             weekday: {
                 wide: "አዘቦት",
@@ -434,9 +439,9 @@ const data = {
                 narrow: "አዘቦት"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "የወሩ የሳምንት ቀን",
+                short: "የወሩ የሳምንት ቀን",
+                narrow: "የወሩ የሳምንት ቀን"
             },
             dayperiod: {
                 short: "ጥዋት/ከሰዓት",

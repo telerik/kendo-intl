@@ -36,7 +36,8 @@ const data = {
             ALK: {
                 displayName: "lek albanais (1947–1961)",
                 "displayName-count-one": "lek albanais (1947–1961)",
-                "displayName-count-other": "leks albanais (1947–1961)"
+                "displayName-count-other": "leks albanais (1947–1961)",
+                symbol: "ALK"
             },
             ALL: {
                 displayName: "lek albanais",
@@ -398,6 +399,16 @@ const data = {
                 symbol: "$CL",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "yuan chinois (zone extracôtière)",
+                "displayName-count-one": "yuan chinois (zone extracôtière)",
+                "displayName-count-other": "yuans chinois (zone extracôtière)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "yuan renminbi chinois",
                 "displayName-count-one": "yuan renminbi chinois",
@@ -753,6 +764,10 @@ const data = {
                 "displayName-count-other": "livres israéliennes",
                 symbol: "£IL"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "nouveau shekel israélien",
                 "displayName-count-one": "nouveau shekel israélien",
@@ -774,10 +789,14 @@ const data = {
                 symbol: "IQD"
             },
             IRR: {
-                displayName: "rial iranien",
-                "displayName-count-one": "rial iranien",
-                "displayName-count-other": "rials iraniens",
+                displayName: "riyal iranien",
+                "displayName-count-one": "riyal iranien",
+                "displayName-count-other": "riyals iraniens",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "couronne islandaise",
@@ -1064,6 +1083,10 @@ const data = {
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
+            },
             MVR: {
                 displayName: "rufiyaa maldivien",
                 "displayName-count-one": "rufiyaa maldivienne",
@@ -1175,9 +1198,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             OMR: {
-                displayName: "rial omanais",
-                "displayName-count-one": "rial omanais",
-                "displayName-count-other": "rials omanis",
+                displayName: "riyal omanais",
+                "displayName-count-one": "riyal omanais",
+                "displayName-count-other": "riyals omanis",
                 symbol: "OMR"
             },
             PAB: {
@@ -1251,9 +1274,9 @@ const data = {
                 "symbol-alt-narrow": "₲"
             },
             QAR: {
-                displayName: "rial qatari",
-                "displayName-count-one": "rial qatari",
-                "displayName-count-other": "rials qataris",
+                displayName: "riyal qatari",
+                "displayName-count-one": "riyal qatari",
+                "displayName-count-other": "riyals qataris",
                 symbol: "QAR"
             },
             RHD: {
@@ -1303,9 +1326,9 @@ const data = {
                 "symbol-alt-narrow": "FR"
             },
             SAR: {
-                displayName: "rial saoudien",
-                "displayName-count-one": "rial saoudien",
-                "displayName-count-other": "rials saoudiens",
+                displayName: "riyal saoudien",
+                "displayName-count-one": "riyal saoudien",
+                "displayName-count-other": "riyals saoudiens",
                 symbol: "SAR"
             },
             SBD: {
@@ -1410,6 +1433,10 @@ const data = {
                 "displayName-count-other": "dobras santoméens",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "rouble soviétique",
@@ -1753,9 +1780,9 @@ const data = {
                 symbol: "YDD"
             },
             YER: {
-                displayName: "rial yéménite",
-                "displayName-count-one": "rial yéménite",
-                "displayName-count-other": "rials yéménites",
+                displayName: "riyal yéménite",
+                "displayName-count-one": "riyal yéménite",
+                "displayName-count-other": "riyals yéménites",
                 symbol: "YER"
             },
             YUD: {

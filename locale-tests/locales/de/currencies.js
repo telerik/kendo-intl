@@ -36,7 +36,8 @@ const data = {
             ALK: {
                 displayName: "Albanischer Lek (1946–1965)",
                 "displayName-count-one": "Albanischer Lek (1946–1965)",
-                "displayName-count-other": "Albanische Lek (1946–1965)"
+                "displayName-count-other": "Albanische Lek (1946–1965)",
+                symbol: "ALK"
             },
             ALL: {
                 displayName: "Albanischer Lek",
@@ -245,8 +246,8 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             BOB: {
-                displayName: "Bolivanischer Boliviano",
-                "displayName-count-one": "Bolivanischer Boliviano",
+                displayName: "Bolivianischer Boliviano",
+                "displayName-count-one": "Bolivianischer Boliviano",
                 "displayName-count-other": "Bolivianische Bolivianos",
                 symbol: "BOB",
                 "symbol-alt-narrow": "Bs"
@@ -413,6 +414,12 @@ const data = {
                 "displayName-count-other": "Chilenische Pesos",
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
+            },
+            CNH: {
+                displayName: "Renminbi Yuan (Off–Shore)",
+                "displayName-count-one": "Renminbi Yuan (Off–Shore)",
+                "displayName-count-other": "Renminbi Yuan (Off–Shore)",
+                symbol: "CNH"
             },
             CNX: {
                 displayName: "Dollar der Chinesischen Volksbank",
@@ -655,7 +662,7 @@ const data = {
             GIP: {
                 displayName: "Gibraltar-Pfund",
                 "displayName-count-one": "Gibraltar-Pfund",
-                "displayName-count-other": "Gibraltar Pfund",
+                "displayName-count-other": "Gibraltar-Pfund",
                 symbol: "GIP",
                 "symbol-alt-narrow": "£"
             },
@@ -778,7 +785,8 @@ const data = {
             ILR: {
                 displayName: "Israelischer Schekel (1980–1985)",
                 "displayName-count-one": "Israelischer Schekel (1980–1985)",
-                "displayName-count-other": "Israelische Schekel (1980–1985)"
+                "displayName-count-other": "Israelische Schekel (1980–1985)",
+                symbol: "ILR"
             },
             ILS: {
                 displayName: "Israelischer Neuer Schekel",
@@ -809,7 +817,8 @@ const data = {
             ISJ: {
                 displayName: "Isländische Krone (1918–1981)",
                 "displayName-count-one": "Isländische Krone (1918–1981)",
-                "displayName-count-other": "Isländische Kronen (1918–1981)"
+                "displayName-count-other": "Isländische Kronen (1918–1981)",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Isländische Krone",
@@ -1109,7 +1118,8 @@ const data = {
             MVP: {
                 displayName: "Malediven-Rupie (alt)",
                 "displayName-count-one": "Malediven-Rupie (alt)",
-                "displayName-count-other": "Malediven-Rupien (alt)"
+                "displayName-count-other": "Malediven-Rupien (alt)",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "Malediven-Rufiyaa",
@@ -1457,6 +1467,10 @@ const data = {
                 "displayName-count-other": "São-toméische Dobra",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "Sowjetischer Rubel",

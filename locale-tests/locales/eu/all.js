@@ -11,7 +11,7 @@ const data = {
             list: ";",
             percentSign: "%",
             plusSign: "+",
-            minusSign: "-",
+            minusSign: "−",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -80,6 +80,10 @@ const data = {
                 "displayName-count-one": "Afganistango afghani",
                 "displayName-count-other": "Afganistango afghani",
                 symbol: "AFN"
+            },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
             },
             ALL: {
                 displayName: "Albaniako leka",
@@ -393,6 +397,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "yuan txinatar (itsasoz haraindikoa)",
+                "displayName-count-one": "yuan txinatar (itsasoz haraindikoa)",
+                "displayName-count-other": "yuan txinatar (itsasoz haraindikoa)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "Txinako yuana",
                 "displayName-count-one": "Txinako yuan",
@@ -702,6 +716,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "Israelgo shekel berria",
                 "displayName-count-one": "Israelgo shekel berri",
@@ -727,6 +745,10 @@ const data = {
                 "displayName-count-one": "Irango rial",
                 "displayName-count-other": "Irango rial",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Islandiako koroa",
@@ -988,6 +1010,10 @@ const data = {
                 "displayName-count-other": "Maurizio uharteetako errupia",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "Maldivetako rufiyaa",
@@ -1299,6 +1325,10 @@ const data = {
                 "displayName-count-other": "Sao Tomeko eta Principeko dobra",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",
@@ -1657,12 +1687,12 @@ const data = {
     calendar: {
         patterns: {
             d: "y/M/d",
-            D: "y('e')'ko' MMMM d, EEEE",
+            D: "y('e')'ko' MMMM'ren' d('a'), EEEE",
             m: "MMM d",
             M: "MMMM d",
             y: "y MMM",
             Y: "y('e')'ko' MMMM",
-            F: "y('e')'ko' MMMM d, EEEE HH:mm:ss",
+            F: "y('e')'ko' MMMM'ren' d('a'), EEEE HH:mm:ss",
             g: "y/M/d HH:mm",
             G: "y/M/d HH:mm:ss",
             t: "HH:mm",
@@ -1676,8 +1706,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "B h",
+                Bhm: "B h:mm",
+                Bhms: "B h:mm:ss",
                 d: "d",
                 E: "ccc",
+                EBhm: "E B h:mm",
+                EBhms: "E B h:mm:ss",
                 Ed: "d, E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -1704,8 +1739,8 @@ const data = {
                 MMMd: "MMM d",
                 MMMEd: "MMM d, E",
                 MMMMd: "MMMM d",
-                "MMMMW-count-one": "MMM W 'astea'",
-                "MMMMW-count-other": "MMM'ren' 'astea' W",
+                "MMMMW-count-one": "MMM W. 'astea'",
+                "MMMMW-count-other": "MMM W. 'astea'",
                 ms: "mm:ss",
                 y: "y",
                 yM: "y/M",
@@ -1715,12 +1750,12 @@ const data = {
                 yMMMd: "y MMM d",
                 yMMMEd: "y MMM d, E",
                 yMMMM: "y('e')'ko' MMMM",
-                yMMMMd: "y('e')'ko' MMMM d",
-                yMMMMEd: "y('e')'ko' MMMM d, E",
+                yMMMMd: "y('e')'ko' MMMM'ren' d",
+                yMMMMEd: "y('e')'ko' MMMM'k' d, E",
                 yQQQ: "y('e')'ko' QQQ",
                 yQQQQ: "y('e')'ko' QQQQ",
-                "yw-count-one": "y 'urteko' w 'astea'",
-                "yw-count-other": "w/y 'astea'"
+                "yw-count-one": "Y. 'urteko' w. 'astea'",
+                "yw-count-other": "Y. 'urteko' w. 'astea'"
             }
         },
         timeFormats: {
@@ -1730,8 +1765,8 @@ const data = {
             short: "HH:mm"
         },
         dateFormats: {
-            full: "y('e')'ko' MMMM d, EEEE",
-            long: "y('e')'ko' MMMM d",
+            full: "y('e')'ko' MMMM'ren' d('a'), EEEE",
+            long: "y('e')'ko' MMMM'ren' d('a')",
             medium: "y MMM d",
             short: "yy/M/d"
         },
@@ -1951,23 +1986,23 @@ const data = {
                     midnight: "gauerdia",
                     am: "AM",
                     pm: "PM",
-                    morning1: "goiz.",
+                    morning1: "goizald.",
                     morning2: "goizeko",
                     afternoon1: "eguerd.",
                     afternoon2: "arrats.",
                     evening1: "iluntz.",
-                    night1: "gau."
+                    night1: "gaueko"
                 },
                 narrow: {
                     midnight: "gauerdia",
-                    am: "AM",
-                    pm: "PM",
-                    morning1: "goiz.",
+                    am: "g",
+                    pm: "a",
+                    morning1: "goizald.",
                     morning2: "goizeko",
                     afternoon1: "eguerd.",
                     afternoon2: "arrats.",
                     evening1: "iluntz.",
-                    night1: "gau."
+                    night1: "gaueko"
                 },
                 wide: {
                     midnight: "gauerdia",
@@ -1997,7 +2032,7 @@ const data = {
                     midnight: "gauerdia",
                     am: "AM",
                     pm: "PM",
-                    morning1: "goiz.",
+                    morning1: "goizald.",
                     morning2: "goiza",
                     afternoon1: "eguerd.",
                     afternoon2: "arrats.",
@@ -2022,20 +2057,20 @@ const data = {
                 wide: {
                     0: "K.a.",
                     1: "Kristo ondoren",
-                    "0-alt-variant": "Gure aro aurretik",
+                    "0-alt-variant": "Gure aroaren aurretik",
                     "1-alt-variant": "Gure aroa"
                 },
                 abbreviated: {
                     0: "K.a.",
                     1: "K.o.",
-                    "0-alt-variant": "G.a.a",
-                    "1-alt-variant": "G.a"
+                    "0-alt-variant": "G.a.a.",
+                    "1-alt-variant": "G.a."
                 },
                 narrow: {
                     0: "K.a.",
                     1: "K.o.",
-                    "0-alt-variant": "G.a.a",
-                    "1-alt-variant": "G.a"
+                    "0-alt-variant": "G.a.a.",
+                    "1-alt-variant": "G.a."
                 }
             }
         },
@@ -2068,9 +2103,9 @@ const data = {
                 narrow: "ast."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "hileko #. astea",
+                short: "hileko #. astea",
+                narrow: "hileko #. astea"
             },
             day: {
                 wide: "eguna",
@@ -2078,9 +2113,9 @@ const data = {
                 narrow: "eg."
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "urteko #. eguna",
+                short: "urteko #. eguna",
+                narrow: "urteko #. eguna"
             },
             weekday: {
                 wide: "asteguna",
@@ -2088,14 +2123,14 @@ const data = {
                 narrow: "asteguna"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "hileko #. asteguna",
+                short: "hileko #. asteguna",
+                narrow: "hileko #. asteguna"
             },
             dayperiod: {
-                short: "AM//PM",
-                wide: "AM//PM",
-                narrow: "AM//PM"
+                short: "AM/PM",
+                wide: "AM/PM",
+                narrow: "AM/PM"
             },
             hour: {
                 wide: "ordua",

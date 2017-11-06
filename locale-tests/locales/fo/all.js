@@ -81,6 +81,10 @@ const data = {
                 "displayName-count-other": "Afganistan afghani",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "Albania lek",
                 "displayName-count-one": "Albania lek",
@@ -393,6 +397,14 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "CNH",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "kinesiskur yuan",
                 "displayName-count-one": "kinesiskur yuan",
@@ -699,6 +711,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "Ísrael new sheqel",
                 "displayName-count-one": "Ísrael new sheqel",
@@ -724,6 +740,10 @@ const data = {
                 "displayName-count-one": "iranskur rial",
                 "displayName-count-other": "iranskir rials",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "íslendsk króna",
@@ -982,6 +1002,10 @@ const data = {
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
+            },
             MVR: {
                 displayName: "Maldivoyggjar rufiyaa",
                 "displayName-count-one": "Maldivoyggjar rufiyaa",
@@ -1165,7 +1189,7 @@ const data = {
             RON: {
                 displayName: "Rumenia leu",
                 "displayName-count-one": "Rumenia leu",
-                "displayName-count-other": "Rumenia leu",
+                "displayName-count-other": "Rumenia lei",
                 symbol: "RON",
                 "symbol-alt-narrow": "lei"
             },
@@ -1292,6 +1316,10 @@ const data = {
                 "displayName-count-other": "Sao Tome & Prinsipi dobra",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",
@@ -1677,8 +1705,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d.",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E d.",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -1718,8 +1751,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ 'í' y",
                 yQQQQ: "QQQQ 'í' y",
-                "yw-count-one": "w. 'vika' 'í' y",
-                "yw-count-other": "w. 'vika' 'í' y"
+                "yw-count-one": "w. 'vika' 'í' Y",
+                "yw-count-other": "w. 'vika' 'í' Y"
             }
         },
         timeFormats: {
@@ -2025,9 +2058,9 @@ const data = {
                 narrow: "v."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "vika í mánaðinum",
+                short: "vi. í mnð.",
+                narrow: "vi. í mnð."
             },
             day: {
                 wide: "dagur",
@@ -2035,19 +2068,19 @@ const data = {
                 narrow: "d."
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "dagur í árinum",
+                short: "dagur í ár.",
+                narrow: "dagur í ár."
             },
             weekday: {
-                wide: "gerandisdagur",
-                short: "gerandisdagur",
-                narrow: "gerandisdagur"
+                wide: "vikudagur",
+                short: "vikudagur",
+                narrow: "vikudagur"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "vikudagur í mánaðinum",
+                short: "vikudagur í mnð.",
+                narrow: "vikudagur í mnð."
             },
             dayperiod: {
                 short: "AM/PM",

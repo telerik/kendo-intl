@@ -29,8 +29,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E d.",
                 Ehm: "E, h:mm a",
                 EHm: "E, HH:mm",
@@ -47,9 +52,9 @@ const data = {
                 hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
                 hmsv: "h:mm:ss a v",
-                Hmsv: "HH:mm:ss v",
+                Hmsv: "v – HH:mm:ss",
                 hmv: "h:mm a v",
-                Hmv: "HH:mm v",
+                Hmv: "v – HH:mm",
                 M: "L",
                 Md: "d.M.",
                 MEd: "E, d.M.",
@@ -71,8 +76,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'viku' w 'af' y",
-                "yw-count-other": "'viku' w 'af' y"
+                "yw-count-one": "'viku' w 'af' Y",
+                "yw-count-other": "'viku' w 'af' Y"
             }
         },
         timeFormats: {
@@ -300,13 +305,13 @@ const data = {
         dayPeriods: {
             format: {
                 abbreviated: {
-                    midnight: "miðn.",
+                    midnight: "miðnætti",
                     am: "f.h.",
-                    noon: "hád.",
+                    noon: "hádegi",
                     pm: "e.h.",
                     morning1: "að morgni",
-                    afternoon1: "síðd.",
-                    evening1: "að kv.",
+                    afternoon1: "síðdegis",
+                    evening1: "að kvöldi",
                     night1: "að nóttu"
                 },
                 narrow: {
@@ -332,13 +337,13 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: {
-                    midnight: "miðn.",
+                    midnight: "miðnætti",
                     am: "f.h.",
-                    noon: "hád.",
+                    noon: "hádegi",
                     pm: "e.h.",
-                    morning1: "morg.",
-                    afternoon1: "síðd.",
-                    evening1: "kv.",
+                    morning1: "morgunn",
+                    afternoon1: "síðdegis",
+                    evening1: "kvöld",
                     night1: "nótt"
                 },
                 narrow: {
@@ -414,29 +419,29 @@ const data = {
                 narrow: "v."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "vika í mánuði",
+                short: "vika í mánuði",
+                narrow: "vika í mánuði"
             },
             day: {
                 wide: "dagur",
                 short: "dagur",
-                narrow: "d."
+                narrow: "dagur"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "dagur í ári",
+                short: "dagur í ári",
+                narrow: "dagur í ári"
             },
             weekday: {
                 wide: "vikudagur",
-                short: "vikudagur",
-                narrow: "vikudagur"
+                short: "vikud.",
+                narrow: "vikud."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "vikudagur í mánuði",
+                short: "vikud. í mán.",
+                narrow: "vikud. í mán."
             },
             dayperiod: {
                 short: "f.h./e.h.",
@@ -460,8 +465,8 @@ const data = {
             },
             zone: {
                 wide: "tímabelti",
-                short: "tímabelti",
-                narrow: "tímabelti"
+                short: "tímab.",
+                narrow: "tímab."
             }
         }
     },

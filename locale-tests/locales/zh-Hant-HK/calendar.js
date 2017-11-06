@@ -31,8 +31,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "Bh時",
+                Bhm: "Bh:mm",
+                Bhms: "Bh:mm:ss",
                 d: "d日",
                 E: "ccc",
+                EBhm: "E Bh:mm",
+                EBhms: "E Bh:mm:ss",
                 Ed: "d日E",
                 Ehm: "E ah:mm",
                 EHm: "E HH:mm",
@@ -73,7 +78,7 @@ const data = {
                 yMMMM: "y年M月",
                 yQQQ: "y年QQQ",
                 yQQQQ: "y年QQQQ",
-                "yw-count-other": "y年第w週"
+                "yw-count-other": "Y年第w週"
             }
         },
         timeFormats: {
@@ -271,10 +276,10 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "第1季度",
-                    "第2季度",
-                    "第3季度",
-                    "第4季度"
+                    "第1季",
+                    "第2季",
+                    "第3季",
+                    "第4季"
                 ]
             },
             "stand-alone": {
@@ -291,10 +296,10 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "第1季度",
-                    "第2季度",
-                    "第3季度",
-                    "第4季度"
+                    "第1季",
+                    "第2季",
+                    "第3季",
+                    "第4季"
                 ]
             }
         },
@@ -304,7 +309,7 @@ const data = {
                     midnight: "午夜",
                     am: "上午",
                     pm: "下午",
-                    morning1: "清晨",
+                    morning1: "早上",
                     morning2: "上午",
                     afternoon1: "中午",
                     afternoon2: "下午",
@@ -315,7 +320,7 @@ const data = {
                     midnight: "午夜",
                     am: "上午",
                     pm: "下午",
-                    morning1: "清晨",
+                    morning1: "早上",
                     morning2: "上午",
                     afternoon1: "中午",
                     afternoon2: "下午",
@@ -326,7 +331,7 @@ const data = {
                     midnight: "午夜",
                     am: "上午",
                     pm: "下午",
-                    morning1: "清晨",
+                    morning1: "早上",
                     morning2: "上午",
                     afternoon1: "中午",
                     afternoon2: "下午",
@@ -339,7 +344,7 @@ const data = {
                     midnight: "午夜",
                     am: "上午",
                     pm: "下午",
-                    morning1: "清晨",
+                    morning1: "早上",
                     morning2: "上午",
                     afternoon1: "中午",
                     afternoon2: "下午",
@@ -350,7 +355,7 @@ const data = {
                     midnight: "午夜",
                     am: "上午",
                     pm: "下午",
-                    morning1: "清晨",
+                    morning1: "早上",
                     morning2: "上午",
                     afternoon1: "中午",
                     afternoon2: "下午",
@@ -361,7 +366,7 @@ const data = {
                     midnight: "午夜",
                     am: "上午",
                     pm: "下午",
-                    morning1: "清晨",
+                    morning1: "早上",
                     morning2: "上午",
                     afternoon1: "中午",
                     afternoon2: "下午",
@@ -421,9 +426,9 @@ const data = {
                 narrow: "週"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "週",
+                short: "週",
+                narrow: "週"
             },
             day: {
                 wide: "日",
@@ -431,9 +436,9 @@ const data = {
                 narrow: "日"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "年天",
+                short: "年天",
+                narrow: "年天"
             },
             weekday: {
                 wide: "星期幾",
@@ -441,9 +446,9 @@ const data = {
                 narrow: "星期幾"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "每月平日",
+                short: "每月平日",
+                narrow: "每月平日"
             },
             dayperiod: {
                 short: "上午/下午",

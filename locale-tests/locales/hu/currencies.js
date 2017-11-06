@@ -33,6 +33,10 @@ const data = {
                 "displayName-count-other": "afgán afghani",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "albán lek",
                 "displayName-count-one": "albán lek",
@@ -383,6 +387,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "kínai jüan (offshore)",
+                "displayName-count-one": "kínai jüan (offshore)",
+                "displayName-count-other": "kínai jüan (offshore)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "kínai jüan",
                 "displayName-count-one": "kínai jüan",
@@ -692,6 +706,10 @@ const data = {
                 displayName: "Izraeli font",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "izraeli új sékel",
                 "displayName-count-one": "izraeli új sékel",
@@ -717,6 +735,10 @@ const data = {
                 "displayName-count-one": "iráni rial",
                 "displayName-count-other": "iráni rial",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "izlandi korona",
@@ -978,6 +1000,10 @@ const data = {
                 "displayName-count-other": "mauritiusi rúpia",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "maldív-szigeteki rufiyaa",
@@ -1299,6 +1325,10 @@ const data = {
                 "displayName-count-other": "São Tomé és Príncipe-i dobra",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "Szovjet rubel",

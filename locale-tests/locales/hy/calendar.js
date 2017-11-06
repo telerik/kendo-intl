@@ -14,7 +14,7 @@ const data = {
             m: "d MMM",
             M: "MMMM d",
             y: "y թ. LLL",
-            Y: "yթ․ MMMM",
+            Y: "y թ․ LLLL",
             F: "y թ. MMMM d, EEEE HH:mm:ss",
             g: "dd.MM.y HH:mm",
             G: "dd.MM.y HH:mm:ss",
@@ -29,8 +29,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "B h-ին",
+                Bhm: "B h:mm-ին",
+                Bhms: "B h:mm:ss",
                 d: "d",
                 E: "ccc",
+                EBhm: "E B h:mm-ին",
+                EBhms: "E B h:mm:ss",
                 Ed: "d, ccc",
                 Ehm: "E, h:mm a",
                 EHm: "E, HH:mm",
@@ -57,7 +62,8 @@ const data = {
                 MMMd: "d MMM",
                 MMMEd: "d MMM, E",
                 MMMMd: "MMMM d",
-                "MMMMW-count-other": "'week' W 'of' MMMM",
+                "MMMMW-count-one": "MMM W շաբ",
+                "MMMMW-count-other": "MMM W շաբ",
                 ms: "mm:ss",
                 y: "y",
                 yM: "MM.y",
@@ -66,10 +72,11 @@ const data = {
                 yMMM: "y թ. LLL",
                 yMMMd: "d MMM, y թ.",
                 yMMMEd: "y թ. MMM d, E",
-                yMMMM: "yթ․ MMMM",
-                yQQQ: "y թ, QQQ",
-                yQQQQ: "y թ, QQQQ",
-                "yw-count-other": "'week' w 'of' y"
+                yMMMM: "y թ․ LLLL",
+                yQQQ: "y թ. QQQ",
+                yQQQQ: "y թ. QQQQ",
+                "yw-count-one": "Y w շաբ",
+                "yw-count-other": "Y w շաբ"
             }
         },
         timeFormats: {
@@ -317,10 +324,10 @@ const data = {
                     night1: "գշր"
                 },
                 wide: {
-                    midnight: "կեսգիշեր",
-                    am: "AM",
-                    noon: "կեսօր",
-                    pm: "PM",
+                    midnight: "կեսգիշերին",
+                    am: "ԿԱ",
+                    noon: "կեսօրին",
+                    pm: "ԿՀ",
                     morning1: "առավոտյան",
                     afternoon1: "ցերեկը",
                     evening1: "երեկոյան",
@@ -350,9 +357,9 @@ const data = {
                 },
                 wide: {
                     midnight: "կեսգիշեր",
-                    am: "AM",
+                    am: "ԿԱ",
                     noon: "կեսօր",
-                    pm: "PM",
+                    pm: "ԿՀ",
                     morning1: "առավոտ",
                     afternoon1: "ցերեկ",
                     evening1: "երեկո",
@@ -372,13 +379,13 @@ const data = {
                     0: "մ.թ.ա.",
                     1: "մ.թ.",
                     "0-alt-variant": "մ․թ․ա․",
-                    "1-alt-variant": "CE"
+                    "1-alt-variant": "մ․թ․"
                 },
                 narrow: {
                     0: "մ.թ.ա.",
                     1: "մ.թ.",
                     "0-alt-variant": "մ․թ․ա․",
-                    "1-alt-variant": "CE"
+                    "1-alt-variant": "մ․թ․"
                 }
             }
         },
@@ -387,8 +394,8 @@ const data = {
         dateFields: {
             era: {
                 wide: "թվարկություն",
-                short: "թվարկություն",
-                narrow: "թվարկություն"
+                short: "թ․",
+                narrow: "թ․"
             },
             year: {
                 wide: "տարի",
@@ -411,9 +418,9 @@ const data = {
                 narrow: "շաբ"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "ամսվա շաբաթ",
+                short: "ամսվա շաբ",
+                narrow: "ամս շաբ"
             },
             day: {
                 wide: "օր",
@@ -421,9 +428,9 @@ const data = {
                 narrow: "օր"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "տարվա օր",
+                short: "տարվա օր",
+                narrow: "տարվա օր"
             },
             weekday: {
                 wide: "շաբաթվա օր",
@@ -431,9 +438,9 @@ const data = {
                 narrow: "շաբաթվա օր"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "ամսվա օր",
+                short: "ամսվա օր",
+                narrow: "ամս օր"
             },
             dayperiod: {
                 short: "ԿԱ/ԿՀ",

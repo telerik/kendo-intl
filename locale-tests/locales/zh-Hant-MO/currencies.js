@@ -198,8 +198,8 @@ const data = {
                 symbol: "BIF"
             },
             BMD: {
-                displayName: "百慕達幣",
-                "displayName-count-other": "百慕達幣",
+                displayName: "百慕達元",
+                "displayName-count-other": "百慕達元",
                 symbol: "BMD",
                 "symbol-alt-narrow": "$"
             },
@@ -352,7 +352,12 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "人民幣（離岸）",
+                symbol: "CNH"
+            },
             CNX: {
+                displayName: "CNX",
                 symbol: "CNX"
             },
             CNY: {
@@ -433,7 +438,7 @@ const data = {
             },
             DKK: {
                 displayName: "丹麥克朗",
-                "displayName-count-other": "丹麥克羅納",
+                "displayName-count-other": "丹麥克朗",
                 symbol: "DKK",
                 "symbol-alt-narrow": "kr"
             },
@@ -754,8 +759,8 @@ const data = {
                 symbol: "KRO"
             },
             KRW: {
-                displayName: "韓圓",
-                "displayName-count-other": "韓圓",
+                displayName: "韓元",
+                "displayName-count-other": "韓元",
                 symbol: "₩",
                 "symbol-alt-narrow": "₩"
             },
@@ -1018,7 +1023,7 @@ const data = {
             },
             NOK: {
                 displayName: "挪威克朗",
-                "displayName-count-other": "挪威克羅納",
+                "displayName-count-other": "挪威克朗",
                 symbol: "NOK",
                 "symbol-alt-narrow": "kr"
             },
@@ -1175,7 +1180,7 @@ const data = {
             },
             SEK: {
                 displayName: "瑞典克朗",
-                "displayName-count-other": "瑞典克羅納",
+                "displayName-count-other": "瑞典克朗",
                 symbol: "SEK",
                 "symbol-alt-narrow": "kr"
             },
@@ -1233,6 +1238,10 @@ const data = {
                 "displayName-count-other": "聖多美和普林西比多布拉",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "蘇聯盧布",

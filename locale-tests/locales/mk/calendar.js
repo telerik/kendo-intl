@@ -29,8 +29,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "d E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -72,8 +77,8 @@ const data = {
                 yMMMM: "MMMM y 'г'.",
                 yQQQ: "QQQ y 'г'.",
                 yQQQQ: "QQQQ y 'г'.",
-                "yw-count-one": "w 'седмица' 'од' y",
-                "yw-count-other": "w 'седмица' 'од' y"
+                "yw-count-one": "w 'седмица' 'од' Y",
+                "yw-count-other": "w 'седмица' 'од' Y"
             }
         },
         timeFormats: {
@@ -352,8 +357,8 @@ const data = {
                     noon: "пладне",
                     pm: "попл.",
                     morning1: "наутро",
-                    morning2: "претпладне",
-                    afternoon1: "попладне",
+                    morning2: "претпл.",
+                    afternoon1: "попл.",
                     evening1: "навечер",
                     night1: "по полноќ"
                 },
@@ -376,18 +381,18 @@ const data = {
                     0: "пред нашата ера",
                     1: "од нашата ера",
                     "0-alt-variant": "пр. н.е.",
-                    "1-alt-variant": "CE"
+                    "1-alt-variant": "нашата ера"
                 },
                 abbreviated: {
                     0: "пр.н.е.",
                     1: "н.е.",
-                    "0-alt-variant": "пр. н.е.",
+                    "0-alt-variant": "п.н.е.",
                     "1-alt-variant": "CE"
                 },
                 narrow: {
                     0: "пр.н.е.",
                     1: "н.е.",
-                    "0-alt-variant": "пр. н.е.",
+                    "0-alt-variant": "п.н.е.",
                     "1-alt-variant": "CE"
                 }
             }
@@ -416,14 +421,14 @@ const data = {
                 narrow: "мес."
             },
             week: {
-                wide: "недела",
+                wide: "седмица",
                 short: "сед.",
                 narrow: "сед."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "седмица од месецот",
+                short: "седмица од месецот",
+                narrow: "седмица од месецот"
             },
             day: {
                 wide: "ден",
@@ -431,19 +436,19 @@ const data = {
                 narrow: "ден"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "ден од годината",
+                short: "ден од год.",
+                narrow: "ден од год."
             },
             weekday: {
-                wide: "ден во неделата",
+                wide: "ден од неделата",
                 short: "ден во неделата",
                 narrow: "ден во неделата"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "ден од месецот",
+                short: "ден од мес.",
+                narrow: "ден од мес."
             },
             dayperiod: {
                 short: "претпладне/попладне",
@@ -452,8 +457,8 @@ const data = {
             },
             hour: {
                 wide: "час",
-                short: "час",
-                narrow: "час"
+                short: "ч.",
+                narrow: "ч."
             },
             minute: {
                 wide: "минута",
@@ -467,8 +472,8 @@ const data = {
             },
             zone: {
                 wide: "временска зона",
-                short: "временска зона",
-                narrow: "временска зона"
+                short: "зона",
+                narrow: "зона"
             }
         }
     },

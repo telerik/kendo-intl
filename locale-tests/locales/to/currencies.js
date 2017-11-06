@@ -25,6 +25,10 @@ const data = {
                 displayName: "AFN",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "ALL",
                 symbol: "ALL"
@@ -80,7 +84,8 @@ const data = {
                 symbol: "ATS"
             },
             AUD: {
-                displayName: "AUD",
+                displayName: "Australian Dollar",
+                "displayName-count-other": "Australian Dollar",
                 symbol: "AUD$",
                 "symbol-alt-narrow": "$"
             },
@@ -280,6 +285,14 @@ const data = {
                 displayName: "CLP",
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
+            },
+            CNH: {
+                displayName: "CNH",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
             },
             CNY: {
                 displayName: "CNY",
@@ -526,6 +539,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "ILS",
                 symbol: "₪",
@@ -543,6 +560,10 @@ const data = {
             IRR: {
                 displayName: "IRR",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "ISK",
@@ -746,6 +767,10 @@ const data = {
                 displayName: "MUR",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "MVR",
@@ -985,6 +1010,10 @@ const data = {
                 displayName: "STD",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

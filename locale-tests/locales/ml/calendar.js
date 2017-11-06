@@ -29,8 +29,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "B h",
+                Bhm: "B h:mm",
+                Bhms: "B h:mm:ss",
                 d: "d",
                 E: "ccc",
+                EBhm: "E, B h:mm",
+                EBhms: "E, B h:mm:ss",
                 Ed: "d, E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -73,8 +78,8 @@ const data = {
                 yMMMM: "y MMMM",
                 yQQQ: "y QQQ",
                 yQQQQ: "y QQQQ",
-                "yw-count-one": "y-ലെ ആഴ്ച w",
-                "yw-count-other": "y-ലെ ആഴ്ച w"
+                "yw-count-one": "Y-ലെ ആഴ്ച w",
+                "yw-count-other": "Y-ലെ ആഴ്ച w"
             }
         },
         timeFormats: {
@@ -185,7 +190,7 @@ const data = {
                 ],
                 narrow: [
                     "ജ",
-                    "ഫ",
+                    "ഫെ",
                     "മാ",
                     "ഏ",
                     "മെ",
@@ -321,9 +326,9 @@ const data = {
                     pm: "PM",
                     morning1: "പുലർച്ചെ",
                     morning2: "രാവിലെ",
-                    afternoon1: "ഉച്ചയ്",
-                    afternoon2: "ഉച്ചതി",
-                    evening1: "വൈ",
+                    afternoon1: "ഉച്ചയ്ക്ക്",
+                    afternoon2: "ഉച്ചതിരിഞ്ഞ്",
+                    evening1: "വൈകുന്നേരം",
                     evening2: "സന്ധ്യ",
                     night1: "രാത്രി"
                 },
@@ -434,9 +439,9 @@ const data = {
                 narrow: "ആ."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "മാസത്തിലെ ആഴ്‌ച",
+                short: "മാസ. ആഴ്‌ച",
+                narrow: "മാസ. ആഴ്‌ച"
             },
             day: {
                 wide: "ദിവസം",
@@ -444,19 +449,19 @@ const data = {
                 narrow: "ദിവസം"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "വർഷത്തിലെ ദിവസം",
+                short: "വർഷ. ദിവസം",
+                narrow: "വർഷ. ദിവസം"
             },
             weekday: {
                 wide: "ആഴ്ചയിലെ ദിവസം",
-                short: "ആഴ്ചയിലെ ദിവസം",
-                narrow: "ആഴ്ചയിലെ ദിവസം"
+                short: "ആഴ്‌ച. ദിവസം",
+                narrow: "ആഴ്‌ച. ദിവസം"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "മാസത്തിലെ പ്രവർത്തിദിനം",
+                short: "മാസ. പ്രവർത്തിദിനം",
+                narrow: "മാസ. പ്രവർത്തിദിനം"
             },
             dayperiod: {
                 short: "AM/PM",

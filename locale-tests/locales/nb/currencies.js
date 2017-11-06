@@ -346,9 +346,9 @@ const data = {
                 symbol: "BYB"
             },
             BYN: {
-                displayName: "hviterussiske rubler",
-                "displayName-count-one": "hviterussisk rubel",
-                "displayName-count-other": "hviterussiske rubler",
+                displayName: "nye hviterussiske rubler",
+                "displayName-count-one": "ny hviterussisk rubel",
+                "displayName-count-other": "nye hviterussiske rubler",
                 symbol: "BYN",
                 "symbol-alt-narrow": "р."
             },
@@ -410,6 +410,12 @@ const data = {
                 "displayName-count-other": "chilenske pesos",
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
+            },
+            CNH: {
+                displayName: "kinesiske yuan (offshore)",
+                "displayName-count-one": "kinesisk yuan (offshore)",
+                "displayName-count-other": "kinesiske yuan (offshore)",
+                symbol: "CNH"
             },
             CNX: {
                 displayName: "Kinas folkebank dollar",
@@ -807,7 +813,8 @@ const data = {
             ISJ: {
                 displayName: "islandske kroner (1918–1981)",
                 "displayName-count-one": "islandsk krone (1918–1981)",
-                "displayName-count-other": "islandske kroner (1918–1981)"
+                "displayName-count-other": "islandske kroner (1918–1981)",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "islandske kroner",
@@ -1025,7 +1032,7 @@ const data = {
             MDL: {
                 displayName: "moldovske leu",
                 "displayName-count-one": "moldovsk leu",
-                "displayName-count-other": "moldovske leu",
+                "displayName-count-other": "moldovske lei",
                 symbol: "MDL"
             },
             MGA: {
@@ -1317,7 +1324,7 @@ const data = {
             RON: {
                 displayName: "rumenske leu",
                 "displayName-count-one": "rumensk leu",
-                "displayName-count-other": "rumenske leu",
+                "displayName-count-other": "rumenske lei",
                 symbol: "RON",
                 "symbol-alt-narrow": "L"
             },
@@ -1451,11 +1458,15 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
-                displayName: "São Tomé og Príncipe-dobra",
-                "displayName-count-one": "São Tomé og Príncipe-dobra",
-                "displayName-count-other": "São Tomé og Príncipe-dobra",
+                displayName: "saotomesiske dobra",
+                "displayName-count-one": "saotomesisk dobra",
+                "displayName-count-other": "saotomesiske dobra",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "sovjetiske rubler",

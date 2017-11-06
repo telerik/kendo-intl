@@ -53,8 +53,7 @@ const data = {
         },
         accounting: {
             patterns: [
-                "$n",
-                "($n)"
+                "$n"
             ],
             groupSize: [
                 3
@@ -80,6 +79,10 @@ const data = {
                 "displayName-count-one": "i-Afghan Afghani",
                 "displayName-count-other": "i-Afghan Afghani",
                 symbol: "AFN"
+            },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
             },
             ALL: {
                 displayName: "i-Albanian Lek",
@@ -393,6 +396,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "CNH",
+                "displayName-count-one": "CNH",
+                "displayName-count-other": "CNH",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "i-Chinese Yuan",
                 "displayName-count-one": "i-Chinese Yuan",
@@ -700,6 +713,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "i-Israeli New Sheqel",
                 "displayName-count-one": "i-Israeli New Sheqel",
@@ -725,6 +742,10 @@ const data = {
                 "displayName-count-one": "i-Iranian Rial",
                 "displayName-count-other": "i-Iranian Rial",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "i-Icelandic Króna",
@@ -982,6 +1003,10 @@ const data = {
                 "displayName-count-other": "i-Mauritian Rupee",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "i-Maldivian Rufiyana",
@@ -1293,6 +1318,10 @@ const data = {
                 "displayName-count-other": "i-São Tomé kanye ne-Príncipe Dobra",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",
@@ -1670,8 +1699,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "d E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -1699,7 +1733,7 @@ const data = {
                 MMMEd: "E, MMM d",
                 MMMMd: "MMMM d",
                 "MMMMW-count-one": "'week' W 'of' MMM",
-                "MMMMW-count-other": "'week' W 'of' MMM",
+                "MMMMW-count-other": "'week' W 'of' MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "y-MM",
@@ -1711,8 +1745,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'week' w 'of' y",
-                "yw-count-other": "'week' w 'of' y"
+                "yw-count-one": "'week' w 'of' Y",
+                "yw-count-other": "'week' w 'of' Y"
             }
         },
         timeFormats: {
@@ -1836,7 +1870,7 @@ const data = {
                     "D"
                 ],
                 wide: [
-                    "UMasingana",
+                    "Januwari",
                     "Februwari",
                     "Mashi",
                     "Ephreli",
@@ -1978,8 +2012,8 @@ const data = {
                     night1: "ebusuku"
                 },
                 narrow: {
-                    am: "a",
-                    pm: "p",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "entathakusa",
                     morning2: "ekuseni",
                     afternoon1: "emini",
@@ -2048,9 +2082,9 @@ const data = {
                 narrow: "Iviki"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "Iviki leNyanga",
+                short: "Iviki leNyanga",
+                narrow: "Iviki leNyanga"
             },
             day: {
                 wide: "Usuku",
@@ -2059,8 +2093,8 @@ const data = {
             },
             dayOfYear: {
                 wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                short: "usuku lonyaka",
+                narrow: "usuku lonyaka"
             },
             weekday: {
                 wide: "Usuku evikini",
@@ -2068,9 +2102,9 @@ const data = {
                 narrow: "Usuku evikini"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "usuku lwenyanga",
+                short: "usuku lwenyanga",
+                narrow: "usuku lwenyanga"
             },
             dayperiod: {
                 short: "AM/PM",

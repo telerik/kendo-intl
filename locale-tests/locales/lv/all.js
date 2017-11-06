@@ -83,6 +83,10 @@ const data = {
                 "displayName-count-other": "Afganistānas afgāni",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "Albānijas leks",
                 "displayName-count-zero": "Albānijas leki",
@@ -429,6 +433,17 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "Ķīnas juaņa (ofšors)",
+                "displayName-count-zero": "Ķīnas juaņa (ofšors)",
+                "displayName-count-one": "Ķīnas juaņa (ofšors)",
+                "displayName-count-other": "Ķīnas juaņas (ofšors)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "Ķīnas juaņs",
                 "displayName-count-zero": "Ķīnas juaņi",
@@ -767,6 +782,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "Izraēlas šekelis",
                 "displayName-count-zero": "Izraēlas šekeļi",
@@ -796,6 +815,10 @@ const data = {
                 "displayName-count-one": "Irānas riāls",
                 "displayName-count-other": "Irānas riāli",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Islandes krona",
@@ -1086,6 +1109,10 @@ const data = {
                 "displayName-count-other": "Maurīcijas rūpijas",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "Maldīvijas rūfija",
@@ -1439,6 +1466,10 @@ const data = {
                 "displayName-count-other": "Santome un Prinsipi dobras",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",
@@ -1871,8 +1902,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E, h:mm B",
+                EBhms: "E, h:mm:ss B",
                 Ed: "E, d.",
                 Ehm: "E, h:mm a",
                 EHm: "E, HH:mm",
@@ -1915,9 +1951,9 @@ const data = {
                 yMMMM: "y. 'g'. MMMM",
                 yQQQ: "y. 'g'. QQQ",
                 yQQQQ: "y. 'g'. QQQQ",
-                "yw-count-zero": "y. 'g'. w. 'nedēļa'",
-                "yw-count-one": "y. 'g'. w. 'nedēļa'",
-                "yw-count-other": "y. 'g'. w. 'nedēļa'"
+                "yw-count-zero": "Y. 'g'. w. 'nedēļa'",
+                "yw-count-one": "Y. 'g'. w. 'nedēļa'",
+                "yw-count-other": "Y. 'g'. w. 'nedēļa'"
             }
         },
         timeFormats: {
@@ -2160,7 +2196,7 @@ const data = {
                     noon: "pusd.",
                     pm: "pēcp.",
                     morning1: "no rīta",
-                    afternoon1: "pēcpusdienā",
+                    afternoon1: "pēcpusd.",
                     evening1: "vakarā",
                     night1: "naktī"
                 },
@@ -2190,7 +2226,7 @@ const data = {
                     midnight: "pusnakts",
                     am: "priekšp.",
                     noon: "pusd.",
-                    pm: "pēcp.",
+                    pm: "pēcpusd.",
                     morning1: "rīts",
                     afternoon1: "pēcpusd.",
                     evening1: "vakars",
@@ -2259,9 +2295,9 @@ const data = {
                 narrow: "ned."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "mēneša nedēļa",
+                short: "mēneša ned.",
+                narrow: "mēneša ned."
             },
             day: {
                 wide: "diena",
@@ -2269,9 +2305,9 @@ const data = {
                 narrow: "d."
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "gada diena",
+                short: "gada diena",
+                narrow: "gada diena"
             },
             weekday: {
                 wide: "nedēļas diena",
@@ -2279,14 +2315,14 @@ const data = {
                 narrow: "nedēļas diena"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "mēneša nedēļas diena",
+                short: "mēneša ned. diena",
+                narrow: "mēneša ned. diena"
             },
             dayperiod: {
-                short: "priekšpusdienā/pēcpusdienā",
+                short: "priekšpusd./pēcpusd.",
                 wide: "priekšpusdienā/pēcpusdienā",
-                narrow: "priekšpusdienā/pēcpusdienā"
+                narrow: "priekšpusd./pēcpusd."
             },
             hour: {
                 wide: "stundas",

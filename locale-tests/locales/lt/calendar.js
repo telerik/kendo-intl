@@ -29,8 +29,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "dd",
                 E: "ccc",
+                EBhm: "h:mm B, E",
+                EBhms: "h:mm:ss B, E",
                 Ed: "d, E",
                 Ehm: "hh:mm a, E",
                 EHm: "HH:mm, E",
@@ -80,10 +85,10 @@ const data = {
                 yMMMMEd: "y 'm'. MMMM d 'd'., E",
                 yQQQ: "y QQQ",
                 yQQQQ: "y QQQQ",
-                "yw-count-one": "y w 'sav'.",
-                "yw-count-few": "y w 'sav'.",
-                "yw-count-many": "y w 'sav'.",
-                "yw-count-other": "y w 'sav'."
+                "yw-count-one": "Y w 'sav'.",
+                "yw-count-few": "Y w 'sav'.",
+                "yw-count-many": "Y w 'sav'.",
+                "yw-count-other": "Y w 'sav'."
             }
         },
         timeFormats: {
@@ -425,9 +430,9 @@ const data = {
                 narrow: "sav."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "mėnesio savaitė",
+                short: "mėnesio savaitė",
+                narrow: "mėnesio savaitė"
             },
             day: {
                 wide: "diena",
@@ -435,9 +440,9 @@ const data = {
                 narrow: "d."
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "metų diena",
+                short: "metų diena",
+                narrow: "metų diena"
             },
             weekday: {
                 wide: "savaitės diena",
@@ -445,9 +450,9 @@ const data = {
                 narrow: "savaitės diena"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "mėnesio šiokiadienis",
+                short: "mėnesio šiokiadienis",
+                narrow: "mėnesio šiokiadienis"
             },
             dayperiod: {
                 short: "iki pietų / po pietų",

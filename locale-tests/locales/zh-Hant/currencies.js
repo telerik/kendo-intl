@@ -352,7 +352,12 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "人民幣（離岸）",
+                symbol: "CNH"
+            },
             CNX: {
+                displayName: "CNX",
                 symbol: "CNX"
             },
             CNY: {
@@ -738,8 +743,8 @@ const data = {
                 "symbol-alt-narrow": "CF"
             },
             KPW: {
-                displayName: "北韓圓",
-                "displayName-count-other": "北韓圓",
+                displayName: "北韓元",
+                "displayName-count-other": "北韓元",
                 symbol: "KPW",
                 "symbol-alt-narrow": "₩"
             },
@@ -754,8 +759,8 @@ const data = {
                 symbol: "KRO"
             },
             KRW: {
-                displayName: "韓圓",
-                "displayName-count-other": "韓圓",
+                displayName: "韓元",
+                "displayName-count-other": "韓元",
                 symbol: "￦",
                 "symbol-alt-narrow": "₩"
             },
@@ -771,8 +776,8 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             KZT: {
-                displayName: "卡扎克斯坦坦吉",
-                "displayName-count-other": "卡扎克斯坦坦吉",
+                displayName: "哈薩克堅戈",
+                "displayName-count-other": "哈薩克堅戈",
                 symbol: "KZT",
                 "symbol-alt-narrow": "₸"
             },
@@ -1233,6 +1238,10 @@ const data = {
                 "displayName-count-other": "聖多美島和普林西比島多布拉",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "蘇聯盧布",

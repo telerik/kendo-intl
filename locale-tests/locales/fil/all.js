@@ -81,6 +81,10 @@ const data = {
                 "displayName-count-other": "Afghan Afghanis",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "Albanian Lek",
                 "displayName-count-one": "Albanian lek",
@@ -393,6 +397,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "CNH",
+                "displayName-count-one": "CNH",
+                "displayName-count-other": "CNH",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "Chinese Yuan",
                 "displayName-count-one": "Chinese yuan",
@@ -700,6 +714,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "Israeli New Sheqel",
                 "displayName-count-one": "Israeli new sheqel",
@@ -725,6 +743,10 @@ const data = {
                 "displayName-count-one": "Iranian rial",
                 "displayName-count-other": "Iranian rials",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Icelandic Króna",
@@ -986,6 +1008,10 @@ const data = {
                 "displayName-count-other": "Mauritian rupees",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "Maldivian Rufiyaa",
@@ -1297,6 +1323,10 @@ const data = {
                 "displayName-count-other": "São Tomé & Príncipe dobras",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",
@@ -1674,8 +1704,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "d E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -1717,8 +1752,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'ika'-w 'linggo' 'ng' y",
-                "yw-count-other": "'linggo' w 'ng' y"
+                "yw-count-one": "'ika'-w 'linggo' 'ng' Y",
+                "yw-count-other": "'linggo' w 'ng' Y"
             }
         },
         timeFormats: {
@@ -1963,8 +1998,8 @@ const data = {
                     pm: "pm",
                     morning1: "umaga",
                     morning2: "madaling-araw",
-                    afternoon1: "tanghali",
-                    evening1: "ng hapon",
+                    afternoon1: "sa hapon",
+                    evening1: "sa gabi",
                     night1: "gabi"
                 },
                 wide: {
@@ -1999,7 +2034,7 @@ const data = {
                     morning1: "umaga",
                     morning2: "madaling-araw",
                     afternoon1: "tanghali",
-                    evening1: "hapon",
+                    evening1: "gabi",
                     night1: "gabi"
                 },
                 wide: {
@@ -2018,10 +2053,10 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "BC",
-                    1: "AD",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    0: "Before Christ",
+                    1: "Anno Domini",
+                    "0-alt-variant": "Before Common Era",
+                    "1-alt-variant": "Common Era"
                 },
                 abbreviated: {
                     0: "BC",
@@ -2066,9 +2101,9 @@ const data = {
                 narrow: "linggo"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "linggo ng buwan",
+                short: "linggo ng buwan",
+                narrow: "linggo ng buwan"
             },
             day: {
                 wide: "araw",
@@ -2076,9 +2111,9 @@ const data = {
                 narrow: "araw"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "araw ng taon",
+                short: "araw ng taon",
+                narrow: "araw ng taon"
             },
             weekday: {
                 wide: "araw ng linggo",
@@ -2087,8 +2122,8 @@ const data = {
             },
             weekdayOfMonth: {
                 wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                short: "karaniwang araw ng buwan",
+                narrow: "karaniwang araw ng buwan"
             },
             dayperiod: {
                 short: "AM/PM",

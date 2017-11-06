@@ -30,8 +30,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "B h",
+                Bhm: "B h:mm",
+                Bhms: "B h:mm:ss",
                 d: "d",
                 E: "ccc",
+                EBhm: "E B h:mm",
+                EBhms: "E B h:mm:ss",
                 Ed: "d E",
                 Ehm: "E a h:mm",
                 EHm: "E HH:mm",
@@ -73,8 +78,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "y ஆம் ஆண்டின் w -ஆம் வாரம்",
-                "yw-count-other": "y ஆம் ஆண்டின் w -ஆம் வாரம்"
+                "yw-count-one": "Y ஆம் ஆண்டின் w -ஆம் வாரம்",
+                "yw-count-other": "Y ஆம் ஆண்டின் w -ஆம் வாரம்"
             }
         },
         timeFormats: {
@@ -434,9 +439,9 @@ const data = {
                 narrow: "வா."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "மாதத்தின் வாரம்",
+                short: "மாத. வாரம்",
+                narrow: "மாத. வாரம்"
             },
             day: {
                 wide: "நாள்",
@@ -444,24 +449,24 @@ const data = {
                 narrow: "நா."
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "வருடத்தின் நாள்",
+                short: "வருட. நாள்",
+                narrow: "வருட. நாள்"
             },
             weekday: {
                 wide: "வாரத்தின் நாள்",
-                short: "வாரத்தின் நாள்",
-                narrow: "வாரத்தின் நாள்"
+                short: "வார. நாள்",
+                narrow: "வார. நாள்"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "மாதத்தின் வாரநாள்",
+                short: "மாத. வாரநாள்",
+                narrow: "மாத. வாரநாள்"
             },
             dayperiod: {
-                short: "முற்பகல்/பிற்பகல்",
+                short: "முற்./பிற்.",
                 wide: "முற்பகல்/பிற்பகல்",
-                narrow: "முற்பகல்/பிற்பகல்"
+                narrow: "முற்./பிற்."
             },
             hour: {
                 wide: "மணி",
@@ -480,8 +485,8 @@ const data = {
             },
             zone: {
                 wide: "நேர மண்டலம்",
-                short: "நேர மண்டலம்",
-                narrow: "நேர மண்டலம்"
+                short: "மண்டலம்",
+                narrow: "மண்டலம்"
             }
         }
     },

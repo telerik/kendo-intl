@@ -35,7 +35,7 @@ const data = {
         },
         percent: {
             patterns: [
-                "n %"
+                "n%"
             ],
             groupSize: [
                 3
@@ -79,6 +79,10 @@ const data = {
                 "displayName-count-one": "ავღანური ავღანი",
                 "displayName-count-other": "ავღანური ავღანი",
                 symbol: "AFN"
+            },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
             },
             ALL: {
                 displayName: "ალბანური ლეკი",
@@ -392,6 +396,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "ჩინური იუანი (ოფშორი)",
+                "displayName-count-one": "ჩინური იუანი (ოფშორი)",
+                "displayName-count-other": "ჩინური იუანი (ოფშორი)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "ჩინური იუანი",
                 "displayName-count-one": "ჩინური უანი",
@@ -698,6 +712,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "ისრაელის ახალი შეკელი",
                 "displayName-count-one": "ისრაელის ახალი შეკელი",
@@ -723,6 +741,10 @@ const data = {
                 "displayName-count-one": "ირანული რიალი",
                 "displayName-count-other": "ირანული რიალი",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "ისლანდიური კრონა",
@@ -984,6 +1006,10 @@ const data = {
                 "displayName-count-other": "მავრიტანული რუპია",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "მალდივური რუფია",
@@ -1297,6 +1323,10 @@ const data = {
                 "displayName-count-other": "სან-ტომე და პრინსიპის დობრა",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "საბჭოთა რუბლი",
@@ -1676,8 +1706,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "d E",
                 Ehm: "E, h:mm a",
                 EHm: "E, HH:mm",
@@ -1717,8 +1752,8 @@ const data = {
                 yMMMM: "MMMM, y",
                 yQQQ: "QQQ, y",
                 yQQQQ: "QQQQ, y",
-                "yw-count-one": "კვირა w, y",
-                "yw-count-other": "კვირა w, y"
+                "yw-count-one": "კვირა w, Y",
+                "yw-count-other": "კვირა w, Y"
             }
         },
         timeFormats: {
@@ -2060,9 +2095,9 @@ const data = {
                 narrow: "კვ."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "თვის კვირა",
+                short: "თვის კვირა",
+                narrow: "თვის კვირა"
             },
             day: {
                 wide: "დღე",
@@ -2070,9 +2105,9 @@ const data = {
                 narrow: "დღე"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "წლის დღე",
+                short: "წლის დღე",
+                narrow: "წლის დღე"
             },
             weekday: {
                 wide: "კვირის დღე",
@@ -2080,9 +2115,9 @@ const data = {
                 narrow: "კვირის დღე"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "კვირის დღე თვეში",
+                short: "კვირის დღე თვეში",
+                narrow: "კვირის დღე თვეში"
             },
             dayperiod: {
                 short: "დღის ნახევარი",

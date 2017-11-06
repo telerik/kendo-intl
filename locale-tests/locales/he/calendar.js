@@ -29,8 +29,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E ה-d",
                 Ehm: "E h:mm a",
                 EHm: "E H:mm",
@@ -73,10 +78,10 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "שבוע w בשנת y",
-                "yw-count-two": "שבוע w בשנת y",
-                "yw-count-many": "שבוע w בשנת y",
-                "yw-count-other": "שבוע w בשנת y"
+                "yw-count-one": "שבוע w בשנת Y",
+                "yw-count-two": "שבוע w בשנת Y",
+                "yw-count-many": "שבוע w בשנת Y",
+                "yw-count-other": "שבוע w בשנת Y"
             }
         },
         timeFormats: {
@@ -318,33 +323,33 @@ const data = {
                     midnight: "חצות",
                     am: "לפנה״צ",
                     pm: "אחה״צ",
-                    morning1: "בוקר",
-                    afternoon1: "צהריים",
-                    afternoon2: "אחר הצהריים",
-                    evening1: "ערב",
-                    night1: "לילה",
+                    morning1: "בבוקר",
+                    afternoon1: "בצהריים",
+                    afternoon2: "אחה״צ",
+                    evening1: "בערב",
+                    night1: "בלילה",
                     night2: "לפנות בוקר"
                 },
                 wide: {
                     midnight: "חצות",
                     am: "לפנה״צ",
                     pm: "אחה״צ",
-                    morning1: "בוקר",
-                    afternoon1: "צהריים",
+                    morning1: "בבוקר",
+                    afternoon1: "בצהריים",
                     afternoon2: "אחר הצהריים",
-                    evening1: "ערב",
-                    night1: "לילה",
+                    evening1: "בערב",
+                    night1: "בלילה",
                     night2: "לפנות בוקר"
                 }
             },
             "stand-alone": {
                 abbreviated: {
                     midnight: "חצות",
-                    am: "לפנה״צ",
-                    pm: "אחה״צ",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "בוקר",
                     afternoon1: "צהריים",
-                    afternoon2: "אחר הצהריים",
+                    afternoon2: "אחה״צ",
                     evening1: "ערב",
                     night1: "לילה",
                     night2: "לפנות בוקר"
@@ -355,15 +360,15 @@ const data = {
                     pm: "אחה״צ",
                     morning1: "בוקר",
                     afternoon1: "צהריים",
-                    afternoon2: "אחר הצהריים",
+                    afternoon2: "אחה״צ",
                     evening1: "ערב",
                     night1: "לילה",
                     night2: "לפנות בוקר"
                 },
                 wide: {
                     midnight: "חצות",
-                    am: "לפנה״צ",
-                    pm: "אחה״צ",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "בוקר",
                     afternoon1: "צהריים",
                     afternoon2: "אחר הצהריים",
@@ -424,9 +429,9 @@ const data = {
                 narrow: "שב׳"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "השבוע בחודש",
+                short: "השבוע בחודש",
+                narrow: "השבוע בחודש"
             },
             day: {
                 wide: "יום",
@@ -434,9 +439,9 @@ const data = {
                 narrow: "יום"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "יום בשנה",
+                short: "יום בשנה",
+                narrow: "יום בשנה"
             },
             weekday: {
                 wide: "יום בשבוע",
@@ -444,12 +449,12 @@ const data = {
                 narrow: "יום בשבוע"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "יום חול בחודש",
+                short: "יום בחודש",
+                narrow: "יום בחודש"
             },
             dayperiod: {
-                short: "לפנה״צ/אחה״צ",
+                short: "AM/PM",
                 wide: "לפנה״צ/אחה״צ",
                 narrow: "לפנה״צ/אחה״צ"
             },

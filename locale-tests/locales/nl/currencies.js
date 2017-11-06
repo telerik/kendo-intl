@@ -296,7 +296,7 @@ const data = {
                 "symbol-alt-narrow": "R$"
             },
             BRN: {
-                displayName: "Braziliaanse cruzado novo",
+                displayName: "Braziliaanse nieuwe cruzado (1989–1990)",
                 "displayName-count-one": "Braziliaanse cruzado novo",
                 "displayName-count-other": "Braziliaanse cruzado novo",
                 symbol: "BRN"
@@ -415,6 +415,12 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "Chinese renminbi (offshore)",
+                "displayName-count-one": "Chinese yuan (offshore)",
+                "displayName-count-other": "Chinese yuan (offshore)",
+                symbol: "CNH"
+            },
             CNX: {
                 displayName: "dollar van de Chinese Volksbank",
                 "displayName-count-one": "dollar van de Chinese Volksbank",
@@ -422,7 +428,7 @@ const data = {
                 symbol: "CNX"
             },
             CNY: {
-                displayName: "Chinese renminbi",
+                displayName: "Chinese Yuan",
                 "displayName-count-one": "Chinese yuan",
                 "displayName-count-other": "Chinese yuan",
                 symbol: "CN¥",
@@ -1461,6 +1467,10 @@ const data = {
                 "displayName-count-other": "Santomese dobra",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "Sovjet-roebel",

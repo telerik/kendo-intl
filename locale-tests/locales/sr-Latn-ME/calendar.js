@@ -31,8 +31,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "hh:mm B",
+                Bhms: "hh:mm:ss B",
                 d: "d",
                 E: "E",
+                EBhm: "E hh:mm B",
+                EBhms: "E hh:mm:ss B",
                 Ed: "E d.",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -354,10 +359,10 @@ const data = {
                     am: "a",
                     noon: "podne",
                     pm: "p",
-                    morning1: "ujutro",
-                    afternoon1: "po podne",
-                    evening1: "uveče",
-                    night1: "noću"
+                    morning1: "jutro",
+                    afternoon1: "popodne",
+                    evening1: "veče",
+                    night1: "noć"
                 },
                 wide: {
                     midnight: "ponoć",
@@ -422,9 +427,9 @@ const data = {
                 narrow: "n."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "nedelja u mesecu",
+                short: "ned. u mes.",
+                narrow: "ned. u mes."
             },
             day: {
                 wide: "dan",
@@ -432,9 +437,9 @@ const data = {
                 narrow: "d."
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "dan u godini",
+                short: "dan u god.",
+                narrow: "dan u god."
             },
             weekday: {
                 wide: "dan u nedelji",
@@ -442,9 +447,9 @@ const data = {
                 narrow: "dan u nedelji"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "dan u mesecu",
+                short: "dan u mesecu",
+                narrow: "dan u mesecu"
             },
             dayperiod: {
                 short: "pre podne/po podne",

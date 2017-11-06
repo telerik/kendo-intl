@@ -33,6 +33,10 @@ const data = {
                 "displayName-count-other": "അഫ്‌ഗാൻ അഫ്‌‌ഗാനി",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "അൽബേനിയൻ ലെക്",
                 "displayName-count-one": "അൽബേനിയൻ ലെക്",
@@ -152,9 +156,9 @@ const data = {
                 symbol: "BAN"
             },
             BBD: {
-                displayName: "ബാർബഡോസ് ഡോളർ",
-                "displayName-count-one": "ബാർബഡോസ് ഡോളർ",
-                "displayName-count-other": "ബാർബഡോസ് ഡോളർ",
+                displayName: "ബാർബേഡിയൻ ഡോളർ",
+                "displayName-count-one": "ബാർബേഡിയൻ ഡോളർ",
+                "displayName-count-other": "ബാർബേഡിയൻ ഡോളർ",
                 symbol: "BBD",
                 "symbol-alt-narrow": "$"
             },
@@ -392,6 +396,16 @@ const data = {
                 "displayName-count-other": "ചിലിയൻ പെസോ",
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
+            },
+            CNH: {
+                displayName: "ചൈനീസ് യുവാൻ (ഓഫ്‌ഷോർ)",
+                "displayName-count-one": "ചൈനീസ് യുവാൻ (ഓഫ്‌ഷോർ)",
+                "displayName-count-other": "ചൈനീസ് യുവാൻ (ഓഫ്‌ഷോർ)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
             },
             CNY: {
                 displayName: "ചൈനീസ് യുവാൻ",
@@ -748,6 +762,10 @@ const data = {
                 "displayName-count-other": "ഇസ്രയേലി പൌണ്ട്സ്",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "ഇസ്രായേലി ന്യൂ ഷെക്കെൽ",
                 "displayName-count-one": "ഇസ്രായേലി ന്യൂ ഷെക്കെൽ",
@@ -773,6 +791,10 @@ const data = {
                 "displayName-count-one": "ഇറാനിയൻ റിയാൽ",
                 "displayName-count-other": "ഇറാനിയൻ റിയാൽ",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "ഐസ്‌ലാൻഡിക് ക്രോണ",
@@ -1048,6 +1070,10 @@ const data = {
                 "displayName-count-other": "മൗറീഷ്യൻ റുപ്പീ",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "മാൽദീവിയൻ റുഫിയ",
@@ -1369,6 +1395,10 @@ const data = {
                 "displayName-count-other": "സാവോ ടോമി ആൻഡ് പ്രിൻസിപെ ഡോബ്ര",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "സോവിയറ്റ് റൂബിൾ",

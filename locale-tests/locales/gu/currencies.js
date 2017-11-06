@@ -29,6 +29,10 @@ const data = {
                 "displayName-count-other": "અફ્ગાન અફ્ગાની",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "અલ્બેનિયન લેક",
                 "displayName-count-one": "અલ્બેનિયન લેક",
@@ -341,6 +345,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "ચાઇનીઝ યુઆન (ઑફશોર)",
+                "displayName-count-one": "ચાઇનીઝ યુઆન (ઑફશોર)",
+                "displayName-count-other": "ચાઇનીઝ યુઆન (ઑફશોર)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "ચાઇનિઝ યુઆન",
                 "displayName-count-one": "ચાઇનિઝ યુઆન",
@@ -648,6 +662,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "ઇઝરાયેલી ન્યુ શેકલ",
                 "displayName-count-one": "ઇઝરાયેલી ન્યુ શેકલ",
@@ -673,6 +691,10 @@ const data = {
                 "displayName-count-one": "ઇરાનિયન રિયાલ",
                 "displayName-count-other": "ઇરાનિયન રિયાલ",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "આઇસલેન્ડિક ક્રોના",
@@ -934,6 +956,10 @@ const data = {
                 "displayName-count-other": "મોરેશીઅન રૂપી",
                 symbol: "MUR",
                 "symbol-alt-narrow": "રૂ."
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "માલ્દિવિયન રુફિયા",
@@ -1245,6 +1271,10 @@ const data = {
                 "displayName-count-other": "સાઓ ટૉમ એન્ડ પ્રિંસાઇપ ડોબ્રા",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

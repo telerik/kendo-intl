@@ -30,8 +30,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "B h",
+                Bhm: "B h:mm",
+                Bhms: "B h:mm:ss",
                 d: "d",
                 E: "ccc",
+                EBhm: "E, B h:mm",
+                EBhms: "E, B h:mm:ss",
                 Ed: "d, E",
                 Ehm: "E, h:mm a",
                 EHm: "E, HH:mm",
@@ -62,7 +67,7 @@ const data = {
                 "MMMMW-count-other": "MMM, W-'hafta'",
                 ms: "mm:ss",
                 y: "y",
-                yM: "MM/y",
+                yM: "MM.y",
                 yMd: "dd/MM/y",
                 yMEd: "E, dd/MM/y",
                 yMMM: "MMM, y",
@@ -71,8 +76,8 @@ const data = {
                 yMMMM: "MMMM, y",
                 yQQQ: "y, QQQ",
                 yQQQQ: "y, QQQQ",
-                "yw-count-one": "y, w-'hafta'",
-                "yw-count-other": "y, w-'hafta'"
+                "yw-count-one": "Y, w-'hafta'",
+                "yw-count-other": "Y, w-'hafta'"
             }
         },
         timeFormats: {
@@ -369,19 +374,19 @@ const data = {
                     0: "miloddan avvalgi",
                     1: "milodiy",
                     "0-alt-variant": "eramizdan avvalgi",
-                    "1-alt-variant": "CE"
+                    "1-alt-variant": "mil."
                 },
                 abbreviated: {
                     0: "m.a.",
                     1: "milodiy",
                     "0-alt-variant": "e.a.",
-                    "1-alt-variant": "CE"
+                    "1-alt-variant": "mil."
                 },
                 narrow: {
                     0: "m.a.",
                     1: "milodiy",
                     "0-alt-variant": "e.a.",
-                    "1-alt-variant": "CE"
+                    "1-alt-variant": "mil."
                 }
             }
         },
@@ -414,9 +419,9 @@ const data = {
                 narrow: "hafta"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "oyning haftasi",
+                short: "oyning haftasi",
+                narrow: "oyning haftasi"
             },
             day: {
                 wide: "kun",
@@ -434,9 +439,9 @@ const data = {
                 narrow: "hafta kuni"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "oyning hafta kuni",
+                short: "oyning hafta kuni",
+                narrow: "oyning hafta kuni"
             },
             dayperiod: {
                 short: "TO/TK",

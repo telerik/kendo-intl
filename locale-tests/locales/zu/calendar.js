@@ -29,8 +29,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "d E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -58,7 +63,7 @@ const data = {
                 MMMEd: "E, MMM d",
                 MMMMd: "MMMM d",
                 "MMMMW-count-one": "'week' W 'of' MMM",
-                "MMMMW-count-other": "'week' W 'of' MMM",
+                "MMMMW-count-other": "'week' W 'of' MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "y-MM",
@@ -70,8 +75,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'week' w 'of' y",
-                "yw-count-other": "'week' w 'of' y"
+                "yw-count-one": "'week' w 'of' Y",
+                "yw-count-other": "'week' w 'of' Y"
             }
         },
         timeFormats: {
@@ -195,7 +200,7 @@ const data = {
                     "D"
                 ],
                 wide: [
-                    "UMasingana",
+                    "Januwari",
                     "Februwari",
                     "Mashi",
                     "Ephreli",
@@ -337,8 +342,8 @@ const data = {
                     night1: "ebusuku"
                 },
                 narrow: {
-                    am: "a",
-                    pm: "p",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "entathakusa",
                     morning2: "ekuseni",
                     afternoon1: "emini",
@@ -407,9 +412,9 @@ const data = {
                 narrow: "Iviki"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "Iviki leNyanga",
+                short: "Iviki leNyanga",
+                narrow: "Iviki leNyanga"
             },
             day: {
                 wide: "Usuku",
@@ -418,8 +423,8 @@ const data = {
             },
             dayOfYear: {
                 wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                short: "usuku lonyaka",
+                narrow: "usuku lonyaka"
             },
             weekday: {
                 wide: "Usuku evikini",
@@ -427,9 +432,9 @@ const data = {
                 narrow: "Usuku evikini"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "usuku lwenyanga",
+                short: "usuku lwenyanga",
+                narrow: "usuku lwenyanga"
             },
             dayperiod: {
                 short: "AM/PM",

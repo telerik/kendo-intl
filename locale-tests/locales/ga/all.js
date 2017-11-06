@@ -84,6 +84,11 @@ const data = {
             },
             AFA: {
                 displayName: "Afgainí (1927–2002)",
+                "displayName-count-one": "Afgainí (1927–2002)",
+                "displayName-count-two": "Afgainí (1927–2002)",
+                "displayName-count-few": "Afgainí (1927–2002)",
+                "displayName-count-many": "Afgainí (1927–2002)",
+                "displayName-count-other": "Afgainí (1927–2002)",
                 symbol: "AFA"
             },
             AFN: {
@@ -101,7 +106,8 @@ const data = {
                 "displayName-count-two": "lek na hAlbáine (1946–1965)",
                 "displayName-count-few": "lek na hAlbáine (1946–1965)",
                 "displayName-count-many": "lek na hAlbáine (1946–1965)",
-                "displayName-count-other": "lek na hAlbáine (1946–1965)"
+                "displayName-count-other": "lek na hAlbáine (1946–1965)",
+                symbol: "ALK"
             },
             ALL: {
                 displayName: "Lek na hAlbáine",
@@ -109,7 +115,7 @@ const data = {
                 "displayName-count-two": "lek na hAlbáine",
                 "displayName-count-few": "lek na hAlbáine",
                 "displayName-count-many": "lek na hAlbáine",
-                "displayName-count-other": "lek na hAlbáine",
+                "displayName-count-other": "Lek na hAlbáine",
                 symbol: "ALL"
             },
             AMD: {
@@ -142,18 +148,38 @@ const data = {
             },
             AOK: {
                 displayName: "Kwanza Angólach (1977–1990)",
+                "displayName-count-one": "Kwanza Angólach (1977–1990)",
+                "displayName-count-two": "Kwanza Angólach (1977–1990)",
+                "displayName-count-few": "Kwanza Angólach (1977–1990)",
+                "displayName-count-many": "Kwanza Angólach (1977–1990)",
+                "displayName-count-other": "Kwanza Angólach (1977–1990)",
                 symbol: "AOK"
             },
             AON: {
                 displayName: "Kwanza Nua Angólach (1990–2000)",
+                "displayName-count-one": "Kwanza Nua Angólach (1990–2000)",
+                "displayName-count-two": "Kwanza Nua Angólach (1990–2000)",
+                "displayName-count-few": "Kwanza Nua Angólach (1990–2000)",
+                "displayName-count-many": "Kwanza Nua Angólach (1990–2000)",
+                "displayName-count-other": "Kwanza Nua Angólach (1990–2000)",
                 symbol: "AON"
             },
             AOR: {
                 displayName: "Kwanza Reajustado Angólach (1995–1999)",
+                "displayName-count-one": "Kwanza Reajustado Angólach (1995–1999)",
+                "displayName-count-two": "Kwanza Reajustado Angólach (1995–1999)",
+                "displayName-count-few": "Kwanza Reajustado Angólach (1995–1999)",
+                "displayName-count-many": "Kwanza Reajustado Angólach (1995–1999)",
+                "displayName-count-other": "Kwanza Reajustado Angólach (1995–1999)",
                 symbol: "AOR"
             },
             ARA: {
                 displayName: "Austral Airgintíneach",
+                "displayName-count-one": "Austral Airgintíneach",
+                "displayName-count-two": "Austral Airgintíneach",
+                "displayName-count-few": "Austral Airgintíneach",
+                "displayName-count-many": "Austral Airgintíneach",
+                "displayName-count-other": "Austral Airgintíneach",
                 symbol: "ARA"
             },
             ARL: {
@@ -189,7 +215,12 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             ATS: {
-                displayName: "Scilling Ostarach",
+                displayName: "ATS",
+                "displayName-count-one": "Scilling Ostarach",
+                "displayName-count-two": "Scilling Ostarach",
+                "displayName-count-few": "Scilling Ostarach",
+                "displayName-count-many": "Scilling Ostarach",
+                "displayName-count-other": "Scilling Ostarach",
                 symbol: "ATS"
             },
             AUD: {
@@ -231,6 +262,11 @@ const data = {
             },
             BAD: {
                 displayName: "Dínear Bhoisnia-Heirseagaivéin (1992–1994)",
+                "displayName-count-one": "Dínear Bhoisnia-Heirseagaivéin (1992–1994)",
+                "displayName-count-two": "Dínear Bhoisnia-Heirseagaivéin (1992–1994)",
+                "displayName-count-few": "Dínear Bhoisnia-Heirseagaivéin (1992–1994)",
+                "displayName-count-many": "Dínear Bhoisnia-Heirseagaivéin (1992–1994)",
+                "displayName-count-other": "Dínear Bhoisnia-Heirseagaivéin (1992–1994)",
                 symbol: "BAD"
             },
             BAM: {
@@ -268,15 +304,30 @@ const data = {
                 "symbol-alt-narrow": "৳"
             },
             BEC: {
-                displayName: "Franc Beilgeach (inathraithe)",
+                displayName: "BEC",
+                "displayName-count-one": "Franc Beilgeach (inathraithe)",
+                "displayName-count-two": "Franc Beilgeach (inathraithe)",
+                "displayName-count-few": "Franc Beilgeach (inathraithe)",
+                "displayName-count-many": "Franc Beilgeach (inathraithe)",
+                "displayName-count-other": "Franc Beilgeach (inathraithe)",
                 symbol: "BEC"
             },
             BEF: {
                 displayName: "Franc Beilgeach",
+                "displayName-count-one": "Franc Beilgeach",
+                "displayName-count-two": "Franc Beilgeach",
+                "displayName-count-few": "Franc Beilgeach",
+                "displayName-count-many": "Franc Beilgeach",
+                "displayName-count-other": "Franc Beilgeach",
                 symbol: "BEF"
             },
             BEL: {
-                displayName: "Franc Beilgeach (airgeadúil)",
+                displayName: "BEL",
+                "displayName-count-one": "Franc Beilgeach (airgeadúil)",
+                "displayName-count-two": "Franc Beilgeach (airgeadúil)",
+                "displayName-count-few": "Franc Beilgeach (airgeadúil)",
+                "displayName-count-many": "Franc Beilgeach (airgeadúil)",
+                "displayName-count-other": "Franc Beilgeach (airgeadúil)",
                 symbol: "BEL"
             },
             BGL: {
@@ -567,6 +618,11 @@ const data = {
             },
             CLF: {
                 displayName: "Unidades de Fomento na Sile",
+                "displayName-count-one": "Unidades de Fomento na Sile",
+                "displayName-count-two": "Unidades de Fomento na Sile",
+                "displayName-count-few": "Unidades de Fomento na Sile",
+                "displayName-count-many": "Unidades de Fomento na Sile",
+                "displayName-count-other": "Unidades de Fomento na Sile",
                 symbol: "CLF"
             },
             CLP: {
@@ -578,6 +634,19 @@ const data = {
                 "displayName-count-other": "peso na Sile",
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
+            },
+            CNH: {
+                displayName: "CNH",
+                "displayName-count-one": "CNH",
+                "displayName-count-two": "CNH",
+                "displayName-count-few": "CNH",
+                "displayName-count-many": "CNH",
+                "displayName-count-other": "CNH",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
             },
             CNY: {
                 displayName: "Yuan na Síne",
@@ -680,11 +749,21 @@ const data = {
                 "symbol-alt-narrow": "Kč"
             },
             DDM: {
-                displayName: "Ostmark na hOirGhearmáine",
+                displayName: "DDM",
+                "displayName-count-one": "Ostmark na hOirGhearmáine",
+                "displayName-count-two": "Ostmark na hOirGhearmáine",
+                "displayName-count-few": "Ostmark na hOirGhearmáine",
+                "displayName-count-many": "Ostmark na hOirGhearmáine",
+                "displayName-count-other": "Ostmark na hOirGhearmáine",
                 symbol: "DDM"
             },
             DEM: {
                 displayName: "Deutsche Mark",
+                "displayName-count-one": "Deutsche Mark",
+                "displayName-count-two": "Deutsche Mark",
+                "displayName-count-few": "Deutsche Mark",
+                "displayName-count-many": "Deutsche Mark",
+                "displayName-count-other": "Deutsche Mark",
                 symbol: "DEM"
             },
             DJF: {
@@ -727,14 +806,29 @@ const data = {
             },
             ECS: {
                 displayName: "Sucre Eacuadóir",
+                "displayName-count-one": "Sucre Eacuadóir",
+                "displayName-count-two": "Sucre Eacuadóir",
+                "displayName-count-few": "Sucre Eacuadóir",
+                "displayName-count-many": "Sucre Eacuadóir",
+                "displayName-count-other": "Sucre Eacuadóir",
                 symbol: "ECS"
             },
             ECV: {
                 displayName: "Unidad de Valor Constante (UVC) Eacuadóir",
+                "displayName-count-one": "Unidad de Valor Constante (UVC) Eacuadóir",
+                "displayName-count-two": "Unidad de Valor Constante (UVC) Eacuadóir",
+                "displayName-count-few": "Unidad de Valor Constante (UVC) Eacuadóir",
+                "displayName-count-many": "Unidad de Valor Constante (UVC) Eacuadóir",
+                "displayName-count-other": "Unidad de Valor Constante (UVC) Eacuadóir",
                 symbol: "ECV"
             },
             EEK: {
                 displayName: "Kroon na hEastóine",
+                "displayName-count-one": "Kroon na hEastóine",
+                "displayName-count-two": "Kroon na hEastóine",
+                "displayName-count-few": "Kroon na hEastóine",
+                "displayName-count-many": "Kroon na hEastóine",
+                "displayName-count-other": "Kroon na hEastóine",
                 symbol: "EEK"
             },
             EGP: {
@@ -795,6 +889,11 @@ const data = {
             },
             FIM: {
                 displayName: "Markka Fionnlannach",
+                "displayName-count-one": "Markka Fionnlannach",
+                "displayName-count-two": "Markka Fionnlannach",
+                "displayName-count-few": "Markka Fionnlannach",
+                "displayName-count-many": "Markka Fionnlannach",
+                "displayName-count-other": "Markka Fionnlannach",
                 symbol: "FIM"
             },
             FJD: {
@@ -818,7 +917,12 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             FRF: {
-                displayName: "Franc Francach",
+                displayName: "FRF",
+                "displayName-count-one": "Franc Francach",
+                "displayName-count-two": "Franc Francach",
+                "displayName-count-few": "Franc Francach",
+                "displayName-count-many": "Franc Francach",
+                "displayName-count-other": "Franc Francach",
                 symbol: "FRF"
             },
             GBP: {
@@ -833,6 +937,11 @@ const data = {
             },
             GEK: {
                 displayName: "Kupon Larit na Grúise",
+                "displayName-count-one": "Kupon Larit na Grúise",
+                "displayName-count-two": "Kupon Larit na Grúise",
+                "displayName-count-few": "Kupon Larit na Grúise",
+                "displayName-count-many": "Kupon Larit na Grúise",
+                "displayName-count-other": "Kupon Larit na Grúise",
                 symbol: "GEK"
             },
             GEL: {
@@ -894,14 +1003,29 @@ const data = {
             },
             GNS: {
                 displayName: "Syli Guine",
+                "displayName-count-one": "Syli Guine",
+                "displayName-count-two": "Syli Guine",
+                "displayName-count-few": "Syli Guine",
+                "displayName-count-many": "Syli Guine",
+                "displayName-count-other": "Syli Guine",
                 symbol: "GNS"
             },
             GQE: {
-                displayName: "Ekwele Guineana na Guine Meánchriosaí",
+                displayName: "Ekwele Guineana na Guine Meánchiorclaí",
+                "displayName-count-one": "Ekwele Guineana na Guine Meánchiorclaí",
+                "displayName-count-two": "Ekwele Guineana na Guine Meánchiorclaí",
+                "displayName-count-few": "Ekwele Guineana na Guine Meánchiorclaí",
+                "displayName-count-many": "Ekwele Guineana na Guine Meánchiorclaí",
+                "displayName-count-other": "Ekwele Guineana na Guine Meánchriosaí",
                 symbol: "GQE"
             },
             GRD: {
                 displayName: "Drachma Gréagach",
+                "displayName-count-one": "Drachma Gréagach",
+                "displayName-count-two": "Drachma Gréagach",
+                "displayName-count-few": "Drachma Gréagach",
+                "displayName-count-many": "Drachma Gréagach",
+                "displayName-count-other": "Drachma Gréagach",
                 symbol: "GRD"
             },
             GTQ: {
@@ -916,10 +1040,20 @@ const data = {
             },
             GWE: {
                 displayName: "Escudo na Guine Portaingéalaí",
+                "displayName-count-one": "Escudo na Guine Portaingéalaí",
+                "displayName-count-two": "Escudo na Guine Portaingéalaí",
+                "displayName-count-few": "Escudo na Guine Portaingéalaí",
+                "displayName-count-many": "Escudo na Guine Portaingéalaí",
+                "displayName-count-other": "Escudo na Guine Portaingéalaí",
                 symbol: "GWE"
             },
             GWP: {
                 displayName: "Peso Guine-Bhissau",
+                "displayName-count-one": "Peso Guine-Bhissau",
+                "displayName-count-two": "Peso Guine-Bhissau",
+                "displayName-count-few": "Peso Guine-Bhissau",
+                "displayName-count-many": "Peso Guine-Bhissau",
+                "displayName-count-other": "Peso Guine-Bhissau",
                 symbol: "GWP"
             },
             GYD: {
@@ -954,6 +1088,11 @@ const data = {
             },
             HRD: {
                 displayName: "Dínear na Cróite",
+                "displayName-count-one": "Dínear na Cróite",
+                "displayName-count-two": "Dínear na Cróite",
+                "displayName-count-few": "Dínear na Cróite",
+                "displayName-count-many": "Dínear na Cróite",
+                "displayName-count-other": "Dínear na Cróite",
                 symbol: "HRD"
             },
             HRK: {
@@ -997,11 +1136,25 @@ const data = {
             },
             IEP: {
                 displayName: "Punt Éireannach",
+                "displayName-count-one": "Punt Éireannach",
+                "displayName-count-two": "Punt Éireannach",
+                "displayName-count-few": "Punt Éireannach",
+                "displayName-count-many": "Punt Éireannach",
+                "displayName-count-other": "Punt Éireannach",
                 symbol: "IEP"
             },
             ILP: {
                 displayName: "Punt Iosraelach",
+                "displayName-count-one": "Punt Iosraelach",
+                "displayName-count-two": "Punt Iosraelach",
+                "displayName-count-few": "Punt Iosraelach",
+                "displayName-count-many": "Punt Iosraelach",
+                "displayName-count-other": "Punt Iosraelach",
                 symbol: "ILP"
+            },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
             },
             ILS: {
                 displayName: "Seiceal Nua Iosrael",
@@ -1040,6 +1193,10 @@ const data = {
                 "displayName-count-many": "rial na hIaráine",
                 "displayName-count-other": "rial na hIaráine",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Króna na hÍoslainne",
@@ -1226,6 +1383,11 @@ const data = {
             },
             LSL: {
                 displayName: "Loti Leosóta",
+                "displayName-count-one": "Loti Leosóta",
+                "displayName-count-two": "Loti Leosóta",
+                "displayName-count-few": "Loti Leosóta",
+                "displayName-count-many": "Loti Leosóta",
+                "displayName-count-other": "Loti Leosóta",
                 symbol: "LSL"
             },
             LTL: {
@@ -1240,14 +1402,29 @@ const data = {
             },
             LTT: {
                 displayName: "Talonas Liotuánach",
+                "displayName-count-one": "Talonas Liotuánach",
+                "displayName-count-two": "Talonas Liotuánach",
+                "displayName-count-few": "Talonas Liotuánach",
+                "displayName-count-many": "Talonas Liotuánach",
+                "displayName-count-other": "Talonas Liotuánach",
                 symbol: "LTT"
             },
             LUC: {
                 displayName: "LUC",
+                "displayName-count-one": "LUC",
+                "displayName-count-two": "LUC",
+                "displayName-count-few": "LUC",
+                "displayName-count-many": "LUC",
+                "displayName-count-other": "LUC",
                 symbol: "LUC"
             },
             LUF: {
                 displayName: "Franc Lucsamburg",
+                "displayName-count-one": "Franc Lucsamburg",
+                "displayName-count-two": "Franc Lucsamburg",
+                "displayName-count-few": "Franc Lucsamburg",
+                "displayName-count-many": "Franc Lucsamburg",
+                "displayName-count-other": "Franc Lucsamburg",
                 symbol: "LUF"
             },
             LUL: {
@@ -1265,7 +1442,12 @@ const data = {
                 "symbol-alt-narrow": "Ls"
             },
             LVR: {
-                displayName: "Rúbal Laitviach",
+                displayName: "LVR",
+                "displayName-count-one": "Rúbal Laitviach",
+                "displayName-count-two": "Rúbal Laitviach",
+                "displayName-count-few": "Rúbal Laitviach",
+                "displayName-count-many": "Rúbal Laitviach",
+                "displayName-count-other": "Rúbal Laitviach",
                 symbol: "LVR"
             },
             LYD: {
@@ -1324,6 +1506,11 @@ const data = {
             },
             MGF: {
                 displayName: "Franc Madagascar",
+                "displayName-count-one": "Franc Madagascar",
+                "displayName-count-two": "Franc Madagascar",
+                "displayName-count-few": "Franc Madagascar",
+                "displayName-count-many": "Franc Madagascar",
+                "displayName-count-other": "Franc Madagascar",
                 symbol: "MGF"
             },
             MKD: {
@@ -1341,6 +1528,11 @@ const data = {
             },
             MLF: {
                 displayName: "Franc Mhailí",
+                "displayName-count-one": "Franc Mhailí",
+                "displayName-count-two": "Franc Mhailí",
+                "displayName-count-few": "Franc Mhailí",
+                "displayName-count-many": "Franc Mhailí",
+                "displayName-count-other": "Franc Mhailí",
                 symbol: "MLF"
             },
             MMK: {
@@ -1415,7 +1607,8 @@ const data = {
                 "displayName-count-two": "rúipí Oileáin Mhaildíve",
                 "displayName-count-few": "rúipí Oileáin Mhaildíve",
                 "displayName-count-many": "rúipí Oileáin Mhaildíve",
-                "displayName-count-other": "rúipí Oileáin Mhaildíve"
+                "displayName-count-other": "rúipí Oileáin Mhaildíve",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "Rufiyaa Oileáin Mhaildíve",
@@ -1455,7 +1648,12 @@ const data = {
                 symbol: "MXP"
             },
             MXV: {
-                displayName: "Unidad de Inversion (UDI) Meicsiceo",
+                displayName: "MXV",
+                "displayName-count-one": "Unidad de Inversion (UDI) Meicsiceo",
+                "displayName-count-two": "Unidad de Inversion (UDI) Meicsiceo",
+                "displayName-count-few": "Unidad de Inversion (UDI) Meicsiceo",
+                "displayName-count-many": "Unidad de Inversion (UDI) Meicsiceo",
+                "displayName-count-other": "Unidad de Inversion (UDI) Meicsiceo",
                 symbol: "MXV"
             },
             MYR: {
@@ -1470,10 +1668,20 @@ const data = {
             },
             MZE: {
                 displayName: "Escudo Mósaimbíce",
+                "displayName-count-one": "Escudo Mósaimbíce",
+                "displayName-count-two": "Escudo Mósaimbíce",
+                "displayName-count-few": "Escudo Mósaimbíce",
+                "displayName-count-many": "Escudo Mósaimbíce",
+                "displayName-count-other": "Escudo Mósaimbíce",
                 symbol: "MZE"
             },
             MZM: {
                 displayName: "Metical Mósaimbíce",
+                "displayName-count-one": "Metical Mósaimbíce",
+                "displayName-count-two": "Metical Mósaimbíce",
+                "displayName-count-few": "Metical Mósaimbíce",
+                "displayName-count-many": "Metical Mósaimbíce",
+                "displayName-count-other": "Metical Mósaimbíce",
                 symbol: "MZM"
             },
             MZN: {
@@ -1526,6 +1734,11 @@ const data = {
             },
             NLG: {
                 displayName: "Guilder Ísiltíreach",
+                "displayName-count-one": "Guilder Ísiltíreach",
+                "displayName-count-two": "Guilder Ísiltíreach",
+                "displayName-count-few": "Guilder Ísiltíreach",
+                "displayName-count-many": "Guilder Ísiltíreach",
+                "displayName-count-other": "Guilder Ísiltíreach",
                 symbol: "NLG"
             },
             NOK: {
@@ -1578,15 +1791,20 @@ const data = {
             },
             PEI: {
                 displayName: "Inti Pheiriú",
+                "displayName-count-one": "Inti Pheiriú",
+                "displayName-count-two": "Inti Pheiriú",
+                "displayName-count-few": "Inti Pheiriú",
+                "displayName-count-many": "Inti Pheiriú",
+                "displayName-count-other": "Inti Pheiriú",
                 symbol: "PEI"
             },
             PEN: {
                 displayName: "Sol Pheiriú",
                 "displayName-count-one": "sol Pheiriú",
-                "displayName-count-two": "sol Pheiriú",
+                "displayName-count-two": "shol Pheiriú",
                 "displayName-count-few": "sol Pheiriú",
                 "displayName-count-many": "sol Pheiriú",
-                "displayName-count-other": "sol Pheiriú",
+                "displayName-count-other": "Sol Pheiriú",
                 symbol: "PEN"
             },
             PES: {
@@ -1639,6 +1857,11 @@ const data = {
             },
             PLZ: {
                 displayName: "Zloty Polannach (1950–1995)",
+                "displayName-count-one": "Zloty Polannach (1950–1995)",
+                "displayName-count-two": "Zloty Polannach (1950–1995)",
+                "displayName-count-few": "Zloty Polannach (1950–1995)",
+                "displayName-count-many": "Zloty Polannach (1950–1995)",
+                "displayName-count-other": "Zloty Polannach (1950–1995)",
                 symbol: "PLZ"
             },
             PTE: {
@@ -1891,6 +2114,10 @@ const data = {
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
             },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
+            },
             SUR: {
                 displayName: "Rúbal an Aontais Shóivéadaigh",
                 "displayName-count-one": "rúbal an Aontais Shóivéadaigh",
@@ -1940,6 +2167,11 @@ const data = {
             },
             TJR: {
                 displayName: "Rúbal na Táidsíceastáine",
+                "displayName-count-one": "Rúbal na Táidsíceastáine",
+                "displayName-count-two": "Rúbal na Táidsíceastáine",
+                "displayName-count-few": "Rúbal na Táidsíceastáine",
+                "displayName-count-many": "Rúbal na Táidsíceastáine",
+                "displayName-count-other": "Rúbal na Táidsíceastáine",
                 symbol: "TJR"
             },
             TJS: {
@@ -1952,7 +2184,12 @@ const data = {
                 symbol: "TJS"
             },
             TMM: {
-                displayName: "Manat na An Tuircméanastáine",
+                displayName: "Manat na Tuircméanastáine (1993–2009)",
+                "displayName-count-one": "Manat na Tuircméanastáine (1993–2009)",
+                "displayName-count-two": "Manat na Tuircméanastáine (1993–2009)",
+                "displayName-count-few": "Manat na Tuircméanastáine (1993–2009)",
+                "displayName-count-many": "Manat na Tuircméanastáine (1993–2009)",
+                "displayName-count-other": "Manat na Tuircméanastáine (1993–2009)",
                 symbol: "TMM"
             },
             TMT: {
@@ -1985,6 +2222,11 @@ const data = {
             },
             TPE: {
                 displayName: "Escudo Tíomóir",
+                "displayName-count-one": "Escudo Tíomóir",
+                "displayName-count-two": "Escudo Tíomóir",
+                "displayName-count-few": "Escudo Tíomóir",
+                "displayName-count-many": "Escudo Tíomóir",
+                "displayName-count-other": "Escudo Tíomóir",
                 symbol: "TPE"
             },
             TRL: {
@@ -2048,10 +2290,20 @@ const data = {
             },
             UAK: {
                 displayName: "Karbovanets Úcránach",
+                "displayName-count-one": "Karbovanets Úcránach",
+                "displayName-count-two": "Karbovanets Úcránach",
+                "displayName-count-few": "Karbovanets Úcránach",
+                "displayName-count-many": "Karbovanets Úcránach",
+                "displayName-count-other": "Karbovanets Úcránach",
                 symbol: "UAK"
             },
             UGS: {
                 displayName: "Scilling Uganda (1966–1987)",
+                "displayName-count-one": "Scilling Uganda (1966–1987)",
+                "displayName-count-two": "Scilling Uganda (1966–1987)",
+                "displayName-count-few": "Scilling Uganda (1966–1987)",
+                "displayName-count-many": "Scilling Uganda (1966–1987)",
+                "displayName-count-other": "Scilling Uganda (1966–1987)",
                 symbol: "UGS"
             },
             UGX: {
@@ -2148,7 +2400,7 @@ const data = {
                 "displayName-count-two": "dhong Vítneam",
                 "displayName-count-few": "dhong Vítneam",
                 "displayName-count-many": "ndong Vítneam",
-                "displayName-count-other": "dong Vítneam",
+                "displayName-count-other": "Dong Vítneam",
                 symbol: "₫",
                 "symbol-alt-narrow": "₫"
             },
@@ -2190,26 +2442,56 @@ const data = {
             },
             XAG: {
                 displayName: "Airgead",
+                "displayName-count-one": "unsa troí airgid",
+                "displayName-count-two": "unsa troí airgid",
+                "displayName-count-few": "unsaí troí airgid",
+                "displayName-count-many": "unsaí troí airgid",
+                "displayName-count-other": "unsaí troí airgid",
                 symbol: "XAG"
             },
             XAU: {
                 displayName: "Ór",
+                "displayName-count-one": "unsa troí óir",
+                "displayName-count-two": "unsa troí óir",
+                "displayName-count-few": "unsaí troí óir",
+                "displayName-count-many": "unsaí troí óir",
+                "displayName-count-other": "unsaí troí óir",
                 symbol: "XAU"
             },
             XBA: {
                 displayName: "Aonad Ilchodach Eorpach",
+                "displayName-count-one": "Aonad Ilchodach Eorpach",
+                "displayName-count-two": "Aonad Ilchodach Eorpach",
+                "displayName-count-few": "Aonad Ilchodach Eorpach",
+                "displayName-count-many": "Aonad Ilchodach Eorpach",
+                "displayName-count-other": "Aonad Ilchodach Eorpach",
                 symbol: "XBA"
             },
             XBB: {
                 displayName: "Aonad Airgeadaíochta Eorpach",
+                "displayName-count-one": "Aonad Airgeadaíochta Eorpach",
+                "displayName-count-two": "Aonad Airgeadaíochta Eorpach",
+                "displayName-count-few": "Aonad Airgeadaíochta Eorpach",
+                "displayName-count-many": "Aonad Airgeadaíochta Eorpach",
+                "displayName-count-other": "Aonad Airgeadaíochta Eorpach",
                 symbol: "XBB"
             },
             XBC: {
                 displayName: "Aonad Cuntais Eorpach (XBC)",
+                "displayName-count-one": "Aonad Cuntais Eorpach (XBC)",
+                "displayName-count-two": "Aonad Cuntais Eorpach (XBC)",
+                "displayName-count-few": "Aonad Cuntais Eorpach (XBC)",
+                "displayName-count-many": "Aonad Cuntais Eorpach (XBC)",
+                "displayName-count-other": "Aonad Cuntais Eorpach (XBC)",
                 symbol: "XBC"
             },
             XBD: {
                 displayName: "Aonad Cuntais Eorpach (XBD)",
+                "displayName-count-one": "Aonad Cuntais Eorpach (XBD)",
+                "displayName-count-two": "Aonad Cuntais Eorpach (XBD)",
+                "displayName-count-few": "Aonad Cuntais Eorpach (XBD)",
+                "displayName-count-many": "Aonad Cuntais Eorpach (XBD)",
+                "displayName-count-other": "Aonad Cuntais Eorpach (XBD)",
                 symbol: "XBD"
             },
             XCD: {
@@ -2224,18 +2506,38 @@ const data = {
             },
             XDR: {
                 displayName: "Cearta Speisialta Tarraingthe",
+                "displayName-count-one": "Cearta Speisialta Tarraingthe",
+                "displayName-count-two": "Cearta Speisialta Tarraingthe",
+                "displayName-count-few": "Cearta Speisialta Tarraingthe",
+                "displayName-count-many": "Cearta Speisialta Tarraingthe",
+                "displayName-count-other": "Cearta Speisialta Tarraingthe",
                 symbol: "XDR"
             },
             XEU: {
                 displayName: "Aonad Airgeadra Eorpach",
+                "displayName-count-one": "Aonad Airgeadra Eorpach",
+                "displayName-count-two": "Aonad Airgeadra Eorpach",
+                "displayName-count-few": "Aonad Airgeadra Eorpach",
+                "displayName-count-many": "Aonad Airgeadra Eorpach",
+                "displayName-count-other": "Aonad Airgeadra Eorpach",
                 symbol: "XEU"
             },
             XFO: {
                 displayName: "Franc Ór Francach",
+                "displayName-count-one": "Franc Ór Francach",
+                "displayName-count-two": "Franc Ór Francach",
+                "displayName-count-few": "Franc Ór Francach",
+                "displayName-count-many": "Franc Ór Francach",
+                "displayName-count-other": "Franc Ór Francach",
                 symbol: "XFO"
             },
             XFU: {
                 displayName: "UIC-Franc Francach",
+                "displayName-count-one": "UIC-Franc Francach",
+                "displayName-count-two": "UIC-Franc Francach",
+                "displayName-count-few": "UIC-Franc Francach",
+                "displayName-count-many": "UIC-Franc Francach",
+                "displayName-count-other": "UIC-Franc Francach",
                 symbol: "XFU"
             },
             XOF: {
@@ -2249,6 +2551,11 @@ const data = {
             },
             XPD: {
                 displayName: "Pallaidiam",
+                "displayName-count-one": "unsa troí pallaidiam",
+                "displayName-count-two": "unsa troí pallaidiam",
+                "displayName-count-few": "unsaí troí pallaidiam",
+                "displayName-count-many": "unsaí troí pallaidiam",
+                "displayName-count-other": "unsaí troí pallaidiam",
                 symbol: "XPD"
             },
             XPF: {
@@ -2262,6 +2569,11 @@ const data = {
             },
             XPT: {
                 displayName: "Platanam",
+                "displayName-count-one": "unsa troí platanaim",
+                "displayName-count-two": "unsa troí platanaim",
+                "displayName-count-few": "unsaí troí platanaim",
+                "displayName-count-many": "unsaí troí platanaim",
+                "displayName-count-other": "unsaí troí platanaim",
                 symbol: "XPT"
             },
             XRE: {
@@ -2291,6 +2603,11 @@ const data = {
             },
             YDD: {
                 displayName: "Dínear Éimin",
+                "displayName-count-one": "Dínear Éimin",
+                "displayName-count-two": "Dínear Éimin",
+                "displayName-count-few": "Dínear Éimin",
+                "displayName-count-many": "Dínear Éimin",
+                "displayName-count-other": "Dínear Éimin",
                 symbol: "YDD"
             },
             YER: {
@@ -2304,14 +2621,29 @@ const data = {
             },
             YUD: {
                 displayName: "Dínear Crua Iúgslavach (1966–1990)",
+                "displayName-count-one": "Dínear Crua Iúgslavach (1966–1990)",
+                "displayName-count-two": "Dínear Crua Iúgslavach (1966–1990)",
+                "displayName-count-few": "Dínear Crua Iúgslavach (1966–1990)",
+                "displayName-count-many": "Dínear Crua Iúgslavach (1966–1990)",
+                "displayName-count-other": "Dínear Crua Iúgslavach (1966–1990)",
                 symbol: "YUD"
             },
             YUM: {
                 displayName: "Dínear Nua Iúgslavach (1994–2002)",
+                "displayName-count-one": "Dínear Nua Iúgslavach (1994–2002)",
+                "displayName-count-two": "Dínear Nua Iúgslavach (1994–2002)",
+                "displayName-count-few": "Dínear Nua Iúgslavach (1994–2002)",
+                "displayName-count-many": "Dínear Nua Iúgslavach (1994–2002)",
+                "displayName-count-other": "Dínear Nua Iúgslavach (1994–2002)",
                 symbol: "YUM"
             },
             YUN: {
-                displayName: "Dínear Inathraithe Iúgslavach",
+                displayName: "YUN",
+                "displayName-count-one": "Dínear Inathraithe Iúgslavach",
+                "displayName-count-two": "Dínear Inathraithe Iúgslavach",
+                "displayName-count-few": "Dínear Inathraithe Iúgslavach",
+                "displayName-count-many": "Dínear Inathraithe Iúgslavach",
+                "displayName-count-other": "Dínear Inathraithe Iúgslavach",
                 symbol: "YUN"
             },
             YUR: {
@@ -2320,6 +2652,11 @@ const data = {
             },
             ZAL: {
                 displayName: "Rand na hAfraice Theas (airgeadúil)",
+                "displayName-count-one": "Rand na hAfraice Theas (airgeadúil)",
+                "displayName-count-two": "Rand na hAfraice Theas (airgeadúil)",
+                "displayName-count-few": "Rand na hAfraice Theas (airgeadúil)",
+                "displayName-count-many": "Rand na hAfraice Theas (airgeadúil)",
+                "displayName-count-other": "Rand na hAfraice Theas (airgeadúil)",
                 symbol: "ZAL"
             },
             ZAR: {
@@ -2334,6 +2671,11 @@ const data = {
             },
             ZMK: {
                 displayName: "Kwacha Saimbiach (1968–2012)",
+                "displayName-count-one": "Kwacha Saimbiach (1968–2012)",
+                "displayName-count-two": "Kwacha Saimbiach (1968–2012)",
+                "displayName-count-few": "Kwacha Saimbiach (1968–2012)",
+                "displayName-count-many": "Kwacha Saimbiach (1968–2012)",
+                "displayName-count-other": "Kwacha Saimbiach (1968–2012)",
                 symbol: "ZMK"
             },
             ZMW: {
@@ -2348,14 +2690,29 @@ const data = {
             },
             ZRN: {
                 displayName: "Zaire Nua Sáíreach",
+                "displayName-count-one": "Zaire Nua Sáíreach",
+                "displayName-count-two": "Zaire Nua Sáíreach",
+                "displayName-count-few": "Zaire Nua Sáíreach",
+                "displayName-count-many": "Zaire Nua Sáíreach",
+                "displayName-count-other": "Zaire Nua Sáíreach",
                 symbol: "ZRN"
             },
             ZRZ: {
                 displayName: "Zaire Sáíreach",
+                "displayName-count-one": "Zaire Sáíreach",
+                "displayName-count-two": "Zaire Sáíreach",
+                "displayName-count-few": "Zaire Sáíreach",
+                "displayName-count-many": "Zaire Sáíreach",
+                "displayName-count-other": "Zaire Sáíreach",
                 symbol: "ZRZ"
             },
             ZWD: {
                 displayName: "Dollar Siombábach (1980–2008)",
+                "displayName-count-one": "Dollar Siombábach (1980–2008)",
+                "displayName-count-two": "Dollar Siombábach (1980–2008)",
+                "displayName-count-few": "Dollar Siombábach (1980–2008)",
+                "displayName-count-many": "Dollar Siombábach (1980–2008)",
+                "displayName-count-other": "Dollar Siombábach (1980–2008)",
                 symbol: "ZWD"
             },
             ZWL: {
@@ -2391,8 +2748,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -2435,11 +2797,11 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'seachtain' 'a' w 'i' y",
-                "yw-count-two": "'seachtain' 'a' w 'i' y",
-                "yw-count-few": "'seachtain' 'a' w 'i' y",
-                "yw-count-many": "'seachtain' 'a' w 'i' y",
-                "yw-count-other": "'seachtain' 'a' w 'i' y"
+                "yw-count-one": "'seachtain' 'a' w 'i' Y",
+                "yw-count-two": "'seachtain' 'a' w 'i' Y",
+                "yw-count-few": "'seachtain' 'a' w 'i' Y",
+                "yw-count-many": "'seachtain' 'a' w 'i' Y",
+                "yw-count-other": "'seachtain' 'a' w 'i' Y"
             }
         },
         timeFormats: {
@@ -2667,16 +3029,16 @@ const data = {
         dayPeriods: {
             format: {
                 abbreviated: {
-                    am: "a.m.",
-                    pm: "p.m."
+                    am: "r.n.",
+                    pm: "i.n."
                 },
                 narrow: {
                     am: "a",
                     pm: "p"
                 },
                 wide: {
-                    am: "a.m.",
-                    pm: "p.m."
+                    am: "r.n.",
+                    pm: "i.n."
                 }
             },
             "stand-alone": {
@@ -2721,8 +3083,8 @@ const data = {
         dateFields: {
             era: {
                 wide: "Ré",
-                short: "Ré",
-                narrow: "Ré"
+                short: "ré",
+                narrow: "ré"
             },
             year: {
                 wide: "Bliain",
@@ -2745,9 +3107,9 @@ const data = {
                 narrow: "scht."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "Seachtain den mhí",
+                short: "7n den mhí",
+                narrow: "7n den mhí"
             },
             day: {
                 wide: "Lá",
@@ -2755,19 +3117,19 @@ const data = {
                 narrow: "Lá"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "Lá den bhliain",
+                short: "lá den bhl.",
+                narrow: "lá den bhl."
             },
             weekday: {
                 wide: "Lá na seachtaine",
-                short: "Lá na seachtaine",
-                narrow: "Lá na seachtaine"
+                short: "lá den t7n",
+                narrow: "lá den t7n"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "Lá oibre den mhí",
+                short: "lá oib. den mhí",
+                narrow: "lá oib. den mhí"
             },
             dayperiod: {
                 short: "a.m./p.m.",
@@ -2791,8 +3153,8 @@ const data = {
             },
             zone: {
                 wide: "Crios Ama",
-                short: "Crios Ama",
-                narrow: "Crios Ama"
+                short: "crios",
+                narrow: "crios"
             }
         }
     },

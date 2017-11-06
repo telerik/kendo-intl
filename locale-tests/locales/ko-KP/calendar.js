@@ -30,8 +30,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "B h시",
+                Bhm: "B h:mm",
+                Bhms: "B h:mm:ss",
                 d: "d일",
                 E: "ccc",
+                EBhm: "(E) B h:mm",
+                EBhms: "(E) B h:mm:ss",
                 Ed: "d일 (E)",
                 EEEEd: "d일 EEEE",
                 Ehm: "(E) a h:mm",
@@ -79,7 +84,7 @@ const data = {
                 yMMMM: "y년 MMMM",
                 yQQQ: "y년 QQQ",
                 yQQQQ: "y년 QQQQ",
-                "yw-count-other": "y년 w번째 주"
+                "yw-count-other": "Y년 w번째 주"
             }
         },
         timeFormats: {
@@ -427,9 +432,9 @@ const data = {
                 narrow: "주"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "월의 주",
+                short: "월의 주",
+                narrow: "월의 주"
             },
             day: {
                 wide: "일",
@@ -437,9 +442,9 @@ const data = {
                 narrow: "일"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "년의 일",
+                short: "년의 일",
+                narrow: "년의 일"
             },
             weekday: {
                 wide: "요일",
@@ -447,9 +452,9 @@ const data = {
                 narrow: "요일"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "월의 평일",
+                short: "월의 평일",
+                narrow: "월의 평일"
             },
             dayperiod: {
                 short: "오전/오후",

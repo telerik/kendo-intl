@@ -29,8 +29,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -74,9 +79,9 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'săptămâna' w 'din' y",
-                "yw-count-few": "'săptămâna' w 'din' y",
-                "yw-count-other": "'săptămâna' w 'din' y"
+                "yw-count-one": "'săptămâna' w 'din' Y",
+                "yw-count-few": "'săptămâna' w 'din' Y",
+                "yw-count-other": "'săptămâna' w 'din' Y"
             }
         },
         timeFormats: {
@@ -316,10 +321,10 @@ const data = {
                 narrow: {
                     midnight: "miezul nopții",
                     am: "a.m.",
-                    noon: "amiază",
+                    noon: "la amiază",
                     pm: "p.m.",
-                    morning1: "dimineață",
-                    afternoon1: "după-amiază",
+                    morning1: "dimineața",
+                    afternoon1: "după-amiaza",
                     evening1: "seara",
                     night1: "noaptea"
                 },
@@ -418,9 +423,9 @@ const data = {
                 narrow: "săpt."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "săptămâna din lună",
+                short: "săpt. din lună",
+                narrow: "săpt. din lună"
             },
             day: {
                 wide: "zi",
@@ -428,19 +433,19 @@ const data = {
                 narrow: "zi"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "ziua din an",
+                short: "ziua din an",
+                narrow: "ziua din an"
             },
             weekday: {
-                wide: "Zi a săptămânii",
-                short: "Zi a săptămânii",
-                narrow: "Zi a săptămânii"
+                wide: "ziua din săptămână",
+                short: "ziua din săpt.",
+                narrow: "ziua din săpt."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "ziua săptămânii din lună",
+                short: "ziua săpt. din lună",
+                narrow: "ziua săpt. din lună"
             },
             dayperiod: {
                 short: "a.m/p.m.",
@@ -464,8 +469,8 @@ const data = {
             },
             zone: {
                 wide: "fus orar",
-                short: "fus orar",
-                narrow: "fus orar"
+                short: "fus",
+                narrow: "fus"
             }
         }
     },

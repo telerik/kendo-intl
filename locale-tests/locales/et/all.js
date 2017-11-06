@@ -88,7 +88,8 @@ const data = {
             ALK: {
                 displayName: "Albaania lekk (1946–1965)",
                 "displayName-count-one": "Albaania lekk (1946–1965)",
-                "displayName-count-other": "Albaania lekki (1946–1965)"
+                "displayName-count-other": "Albaania lekki (1946–1965)",
+                symbol: "ALK"
             },
             ALL: {
                 displayName: "Albaania lekk",
@@ -442,6 +443,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "Hiina jüaan (välismaine turg)",
+                "displayName-count-one": "Hiina jüaan (välismaine turg)",
+                "displayName-count-other": "Hiina jüaani (välismaine turg)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "Hiina jüaan",
                 "displayName-count-one": "Hiina jüaan",
@@ -785,7 +796,8 @@ const data = {
             ILR: {
                 displayName: "Iisraeli seekel (1980–1985)",
                 "displayName-count-one": "Iisraeli seekel (1980–1985)",
-                "displayName-count-other": "Iisraeli seekelit (1980–1985)"
+                "displayName-count-other": "Iisraeli seekelit (1980–1985)",
+                symbol: "ILR"
             },
             ILS: {
                 displayName: "Iisraeli uus seekel",
@@ -816,7 +828,8 @@ const data = {
             ISJ: {
                 displayName: "Islandi kroon (1918–1981)",
                 "displayName-count-one": "Islandi kroon (1918–1981)",
-                "displayName-count-other": "Islandi krooni (1918–1981)"
+                "displayName-count-other": "Islandi krooni (1918–1981)",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Islandi kroon",
@@ -1108,7 +1121,8 @@ const data = {
             MVP: {
                 displayName: "Maldiivi ruupia (1947–1981)",
                 "displayName-count-one": "Maldiivi ruupia (1947–1981)",
-                "displayName-count-other": "Maldiivi ruupiat (1947–1981)"
+                "displayName-count-other": "Maldiivi ruupiat (1947–1981)",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "Maldiivi ruupia",
@@ -1451,6 +1465,10 @@ const data = {
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
             },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
+            },
             SUR: {
                 displayName: "NSVL-i rubla",
                 symbol: "SUR"
@@ -1546,9 +1564,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             TWD: {
-                displayName: "Taiwani dollar",
-                "displayName-count-one": "Taiwani dollar",
-                "displayName-count-other": "Taiwani dollarit",
+                displayName: "uus Taiwani dollar",
+                "displayName-count-one": "uus Taiwani dollar",
+                "displayName-count-other": "uut Taiwani dollarit",
                 symbol: "NT$",
                 "symbol-alt-narrow": "NT$"
             },
@@ -1871,8 +1889,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E, d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -1914,8 +1937,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "y (w. 'nädal')",
-                "yw-count-other": "y (w. 'nädal')"
+                "yw-count-one": "w. 'nädal' (Y)",
+                "yw-count-other": "w. 'nädal' (Y)"
             }
         },
         timeFormats: {
@@ -2228,7 +2251,7 @@ const data = {
                 }
             }
         },
-        gmtFormat: "GMT{0}",
+        gmtFormat: "GMT {0}",
         gmtZeroFormat: "GMT",
         dateFields: {
             era: {
@@ -2257,9 +2280,9 @@ const data = {
                 narrow: "näd"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "kuu nädal",
+                short: "kuu näd",
+                narrow: "kuu näd"
             },
             day: {
                 wide: "päev",
@@ -2267,19 +2290,19 @@ const data = {
                 narrow: "p"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "aasta päev",
+                short: "aasta p",
+                narrow: "aasta p"
             },
             weekday: {
                 wide: "nädalapäev",
-                short: "nädalapäev",
-                narrow: "nädalapäev"
+                short: "nädalap.",
+                narrow: "nädalap."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "kuu nädalapäev",
+                short: "kuu nädalap.",
+                narrow: "kuu nädalap."
             },
             dayperiod: {
                 short: "enne/pärast lõunat",
@@ -2303,8 +2326,8 @@ const data = {
             },
             zone: {
                 wide: "ajavöönd",
-                short: "ajavöönd",
-                narrow: "ajavöönd"
+                short: "vöönd",
+                narrow: "vöönd"
             }
         }
     },

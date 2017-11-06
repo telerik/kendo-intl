@@ -80,6 +80,10 @@ const data = {
                 "displayName-count-other": "afganar",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "albanskt lek",
                 "displayName-count-one": "albanskt lek",
@@ -392,6 +396,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "kínverskt júan (utan heimalands)",
+                "displayName-count-one": "kínverskt júan (utan heimalands)",
+                "displayName-count-other": "kínverskt júan (utan heimalands)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "kínverskt júan",
                 "displayName-count-one": "kínverskt júan",
@@ -500,6 +514,8 @@ const data = {
             },
             EEK: {
                 displayName: "Eistnesk króna",
+                "displayName-count-one": "eistnesk króna",
+                "displayName-count-other": "eistneskar krónur",
                 symbol: "EEK"
             },
             EGP: {
@@ -594,7 +610,7 @@ const data = {
             },
             GIP: {
                 displayName: "Gíbraltarspund",
-                "displayName-count-one": "Gíbraltarpund",
+                "displayName-count-one": "Gíbraltarspund",
                 "displayName-count-other": "Gíbraltarspund",
                 symbol: "GIP",
                 "symbol-alt-narrow": "£"
@@ -699,6 +715,10 @@ const data = {
                 displayName: "Ísraelskt pund",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "nýr ísraelskur sikill",
                 "displayName-count-one": "nýr ísraelskur sikill",
@@ -724,6 +744,10 @@ const data = {
                 "displayName-count-one": "íranskt ríal",
                 "displayName-count-other": "írönsk ríöl",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "íslensk króna",
@@ -985,6 +1009,10 @@ const data = {
                 "displayName-count-other": "máritískar rúpíur",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "maldíveysk rúpía",
@@ -1298,6 +1326,10 @@ const data = {
                 "displayName-count-other": "Saó Tóme og Prinsípe-dóbrur",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "Soviet Rouble",
@@ -1679,8 +1711,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E d.",
                 Ehm: "E, h:mm a",
                 EHm: "E, HH:mm",
@@ -1697,9 +1734,9 @@ const data = {
                 hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
                 hmsv: "h:mm:ss a v",
-                Hmsv: "HH:mm:ss v",
+                Hmsv: "v – HH:mm:ss",
                 hmv: "h:mm a v",
-                Hmv: "HH:mm v",
+                Hmv: "v – HH:mm",
                 M: "L",
                 Md: "d.M.",
                 MEd: "E, d.M.",
@@ -1721,8 +1758,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'viku' w 'af' y",
-                "yw-count-other": "'viku' w 'af' y"
+                "yw-count-one": "'viku' w 'af' Y",
+                "yw-count-other": "'viku' w 'af' Y"
             }
         },
         timeFormats: {
@@ -1950,13 +1987,13 @@ const data = {
         dayPeriods: {
             format: {
                 abbreviated: {
-                    midnight: "miðn.",
+                    midnight: "miðnætti",
                     am: "f.h.",
-                    noon: "hád.",
+                    noon: "hádegi",
                     pm: "e.h.",
                     morning1: "að morgni",
-                    afternoon1: "síðd.",
-                    evening1: "að kv.",
+                    afternoon1: "síðdegis",
+                    evening1: "að kvöldi",
                     night1: "að nóttu"
                 },
                 narrow: {
@@ -1982,13 +2019,13 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: {
-                    midnight: "miðn.",
+                    midnight: "miðnætti",
                     am: "f.h.",
-                    noon: "hád.",
+                    noon: "hádegi",
                     pm: "e.h.",
-                    morning1: "morg.",
-                    afternoon1: "síðd.",
-                    evening1: "kv.",
+                    morning1: "morgunn",
+                    afternoon1: "síðdegis",
+                    evening1: "kvöld",
                     night1: "nótt"
                 },
                 narrow: {
@@ -2064,29 +2101,29 @@ const data = {
                 narrow: "v."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "vika í mánuði",
+                short: "vika í mánuði",
+                narrow: "vika í mánuði"
             },
             day: {
                 wide: "dagur",
                 short: "dagur",
-                narrow: "d."
+                narrow: "dagur"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "dagur í ári",
+                short: "dagur í ári",
+                narrow: "dagur í ári"
             },
             weekday: {
                 wide: "vikudagur",
-                short: "vikudagur",
-                narrow: "vikudagur"
+                short: "vikud.",
+                narrow: "vikud."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "vikudagur í mánuði",
+                short: "vikud. í mán.",
+                narrow: "vikud. í mán."
             },
             dayperiod: {
                 short: "f.h./e.h.",
@@ -2110,8 +2147,8 @@ const data = {
             },
             zone: {
                 wide: "tímabelti",
-                short: "tímabelti",
-                narrow: "tímabelti"
+                short: "tímab.",
+                narrow: "tímab."
             }
         }
     },

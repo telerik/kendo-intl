@@ -9,15 +9,15 @@ const data = {
     territory: "MN",
     calendar: {
         patterns: {
-            d: "y-M-d",
-            D: "EEEE, y 'оны' MM 'сарын' d",
-            m: "MMM d",
-            M: "MMMM d",
-            y: "y MMM",
-            Y: "y MMMM",
-            F: "EEEE, y 'оны' MM 'сарын' d HH:mm:ss",
-            g: "y-M-d HH:mm",
-            G: "y-M-d HH:mm:ss",
+            d: "y.MM.dd",
+            D: "y 'оны' MMM'ын' d. EEEE 'гараг'.",
+            m: "MMM'ын' d",
+            M: "MMM'ын' d",
+            y: "y 'оны' MMM",
+            Y: "y 'оны' MMM",
+            F: "y 'оны' MMM'ын' d. EEEE 'гараг'. HH:mm:ss",
+            g: "y.MM.dd HH:mm",
+            G: "y.MM.dd HH:mm:ss",
             t: "HH:mm",
             T: "HH:mm:ss",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
@@ -27,21 +27,26 @@ const data = {
             full: "{1} {0}",
             long: "{1} {0}",
             medium: "{1} {0}",
-            short: "{1}, {0}",
+            short: "{1} {0}",
             availableFormats: {
+                Bh: "B h",
+                Bhm: "B h:mm",
+                Bhms: "B h:mm:ss",
                 d: "d",
                 E: "ccc",
+                EBhm: "E, B h:mm",
+                EBhms: "E, B h:mm:ss",
                 Ed: "dd E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
-                GyMMM: "G y MMM",
-                GyMMMd: "G y MMM d",
-                GyMMMEd: "E, G y MMM d",
+                GyMMM: "G y 'оны' MMM",
+                GyMMMd: "G y 'оны' MMM'ын' d",
+                GyMMMEd: "G y 'оны' MMM'ын' d, E",
                 h: "h a",
-                H: "HH",
+                H: "HH 'ц'",
                 hm: "h:mm a",
                 Hm: "HH:mm",
                 hms: "h:mm:ss a",
@@ -51,40 +56,40 @@ const data = {
                 hmv: "h:mm a v",
                 Hmv: "HH:mm v",
                 M: "L",
-                Md: "M-d",
-                MEd: "E, M-d",
+                Md: "MM/dd",
+                MEd: "MM/dd, E",
                 MMM: "LLL",
-                MMMd: "MMM d",
-                MMMEd: "E MMM d",
-                MMMMd: "MMMM d",
-                "MMMMW-count-one": "MMM-'ын' W 'долоо' 'хоног'",
-                "MMMMW-count-other": "MMM-'ын' W 'долоо' 'хоног'",
+                MMMd: "MMM'ын' d",
+                MMMEd: "MMM'ын' d, E",
+                MMMMd: "MMM'ын' d",
+                "MMMMW-count-one": "MMM'ын' W-'р' 'долоо' 'хоног'",
+                "MMMMW-count-other": "MMM'ын' W-'р' 'долоо' 'хоног'",
                 ms: "mm:ss",
                 y: "y",
-                yM: "y-M",
-                yMd: "y-M-d",
-                yMEd: "E, y-M-d",
-                yMMM: "y MMM",
-                yMMMd: "y MMM d",
-                yMMMEd: "E, y MMM d",
-                yMMMM: "y MMMM",
+                yM: "y M",
+                yMd: "y.MM.dd",
+                yMEd: "y.MM.dd, E",
+                yMMM: "y 'оны' MMM",
+                yMMMd: "y.MM.dd",
+                yMMMEd: "y.MM.dd, E",
+                yMMMM: "y 'оны' MMM",
                 yQQQ: "y QQQ",
                 yQQQQ: "y 'оны' QQQQ",
-                "yw-count-one": "y'жилийн' w 'долоо' 'хоног'",
-                "yw-count-other": "y 'жилийн' w 'долоо' 'хоног'"
+                "yw-count-one": "Y 'оны' w-'р' 'долоо' 'хоног'",
+                "yw-count-other": "Y 'оны' w-'р' 'долоо' 'хоног'"
             }
         },
         timeFormats: {
-            full: "HH:mm:ss zzzz",
-            long: "HH:mm:ss z",
+            full: "HH:mm:ss (zzzz)",
+            long: "HH:mm:ss (z)",
             medium: "HH:mm:ss",
             short: "HH:mm"
         },
         dateFormats: {
-            full: "EEEE, y 'оны' MM 'сарын' d",
-            long: "y'оны' MMMM'сарын' d'өдөр'",
-            medium: "y MMM d",
-            short: "y-MM-dd"
+            full: "y 'оны' MMM'ын' d. EEEE 'гараг'.",
+            long: "y 'оны' MMM'ын' d",
+            medium: "y.MM.dd",
+            short: "y.MM.dd"
         },
         days: {
             format: {
@@ -181,18 +186,18 @@ const data = {
                     "12-р сар"
                 ],
                 narrow: [
-                    "1",
-                    "2",
-                    "3",
-                    "4",
-                    "5",
-                    "6",
-                    "7",
-                    "8",
-                    "9",
-                    "10",
-                    "11",
-                    "12"
+                    "I",
+                    "II",
+                    "III",
+                    "IV",
+                    "V",
+                    "VI",
+                    "VII",
+                    "VIII",
+                    "IX",
+                    "X",
+                    "XI",
+                    "XII"
                 ],
                 wide: [
                     "Нэгдүгээр сар",
@@ -200,7 +205,7 @@ const data = {
                     "Гуравдугаар сар",
                     "Дөрөвдүгээр сар",
                     "Тавдугаар сар",
-                    "Зургадугаар сар",
+                    "Зургаадугаар сар",
                     "Долдугаар сар",
                     "Наймдугаар сар",
                     "Есдүгээр сар",
@@ -225,18 +230,18 @@ const data = {
                     "12-р сар"
                 ],
                 narrow: [
-                    "1",
-                    "2",
-                    "3",
-                    "4",
-                    "5",
-                    "6",
-                    "7",
-                    "8",
-                    "9",
-                    "10",
-                    "11",
-                    "12"
+                    "I",
+                    "II",
+                    "III",
+                    "IV",
+                    "V",
+                    "VI",
+                    "VII",
+                    "VIII",
+                    "IX",
+                    "X",
+                    "XI",
+                    "XII"
                 ],
                 wide: [
                     "Нэгдүгээр сар",
@@ -244,7 +249,7 @@ const data = {
                     "Гуравдугаар сар",
                     "Дөрөвдүгээр сар",
                     "Тавдугаар сар",
-                    "Зургадугаар сар",
+                    "Зургаадугаар сар",
                     "Долдугаар сар",
                     "Наймдугаар сар",
                     "Есдүгээр сар",
@@ -257,16 +262,16 @@ const data = {
         quarters: {
             format: {
                 abbreviated: [
-                    "У1",
-                    "У2",
-                    "У3",
-                    "У4"
+                    "I улирал",
+                    "II улирал",
+                    "III улирал",
+                    "IV улирал"
                 ],
                 narrow: [
-                    "1",
-                    "2",
-                    "3",
-                    "4"
+                    "I",
+                    "II",
+                    "III",
+                    "IV"
                 ],
                 wide: [
                     "1-р улирал",
@@ -277,16 +282,16 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "У1",
-                    "У2",
-                    "У3",
-                    "У4"
+                    "I",
+                    "II",
+                    "III",
+                    "IV"
                 ],
                 narrow: [
-                    "1",
-                    "2",
-                    "3",
-                    "4"
+                    "I",
+                    "II",
+                    "III",
+                    "IV"
                 ],
                 wide: [
                     "1-р улирал",
@@ -311,7 +316,7 @@ const data = {
                 narrow: {
                     midnight: "шөнө дунд",
                     am: "үө",
-                    noon: "үд",
+                    noon: "үд дунд",
                     pm: "үх",
                     morning1: "өглөө",
                     afternoon1: "өдөр",
@@ -371,8 +376,8 @@ const data = {
                     "1-alt-variant": "НТ"
                 },
                 abbreviated: {
-                    0: "м.э.ө",
-                    1: "м.э.",
+                    0: "МЭӨ",
+                    1: "МЭ",
                     "0-alt-variant": "НТӨ",
                     "1-alt-variant": "НТ"
                 },
@@ -413,9 +418,9 @@ const data = {
                 narrow: "7х"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "Сарын долоо хоног",
+                short: "Сарын долоо хоног",
+                narrow: "Сарын долоо хоног"
             },
             day: {
                 wide: "өдөр",
@@ -423,9 +428,9 @@ const data = {
                 narrow: "өдөр"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "Жилийн өдөр",
+                short: "Жилийн өдөр",
+                narrow: "Жилийн өдөр"
             },
             weekday: {
                 wide: "гараг",
@@ -433,9 +438,9 @@ const data = {
                 narrow: "гараг"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "Ажлын өдөр",
+                short: "Ажлын өдөр",
+                narrow: "Ажлын өдөр"
             },
             dayperiod: {
                 short: "ү.ө./ү.х.",

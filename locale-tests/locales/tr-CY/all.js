@@ -89,7 +89,8 @@ const data = {
             ALK: {
                 displayName: "Arnavutluk Leki (1946–1965)",
                 "displayName-count-one": "Arnavutluk leki (1946–1965)",
-                "displayName-count-other": "Arnavutluk leki (1946–1965)"
+                "displayName-count-other": "Arnavutluk leki (1946–1965)",
+                symbol: "ALK"
             },
             ALL: {
                 displayName: "Arnavutluk Leki",
@@ -392,9 +393,9 @@ const data = {
                 symbol: "BYB"
             },
             BYN: {
-                displayName: "Beyaz Rusya Rublesi",
-                "displayName-count-one": "Beyaz Rusya rublesi",
-                "displayName-count-other": "Beyaz Rusya rublesi",
+                displayName: "Belarus Rublesi",
+                "displayName-count-one": "Belarus rublesi",
+                "displayName-count-other": "Belarus rublesi",
                 symbol: "BYN",
                 "symbol-alt-narrow": "р."
             },
@@ -461,10 +462,17 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "Çin Yuanı (offshore)",
+                "displayName-count-one": "Çin yuanı (offshore)",
+                "displayName-count-other": "Çin yuanı (offshore)",
+                symbol: "CNH"
+            },
             CNX: {
                 displayName: "Çin Halk Cumhuriyeti Merkez Bankası Doları",
                 "displayName-count-one": "Çin Halk Cumhuriyeti Merkez Bankası doları",
-                "displayName-count-other": "Çin Halk Cumhuriyeti Merkez Bankası doları"
+                "displayName-count-other": "Çin Halk Cumhuriyeti Merkez Bankası doları",
+                symbol: "CNX"
             },
             CNY: {
                 displayName: "Çin Yuanı",
@@ -814,7 +822,8 @@ const data = {
             ILR: {
                 displayName: "İsrail Şekeli (1980–1985)",
                 "displayName-count-one": "İsrail şekeli (1980–1985)",
-                "displayName-count-other": "İsrail şekeli (1980–1985)"
+                "displayName-count-other": "İsrail şekeli (1980–1985)",
+                symbol: "ILR"
             },
             ILS: {
                 displayName: "Yeni İsrail Şekeli",
@@ -845,7 +854,8 @@ const data = {
             ISJ: {
                 displayName: "İzlanda Kronu (1918–1981)",
                 "displayName-count-one": "İzlanda kronu (1918–1981)",
-                "displayName-count-other": "İzlanda kronu (1918–1981)"
+                "displayName-count-other": "İzlanda kronu (1918–1981)",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "İzlanda Kronu",
@@ -1137,7 +1147,8 @@ const data = {
             MVP: {
                 displayName: "Maldiv Rupisi",
                 "displayName-count-one": "Maldiv rupisi",
-                "displayName-count-other": "Maldiv rupisi"
+                "displayName-count-other": "Maldiv rupisi",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "Maldiv Rufiyaası",
@@ -1475,6 +1486,10 @@ const data = {
                 "displayName-count-other": "São Tomé ve Príncipe dobrası",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "Sovyet Rublesi",
@@ -1905,8 +1920,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "B h",
+                Bhm: "B h:mm",
+                Bhms: "B h:mm:ss",
                 d: "d",
                 E: "ccc",
+                EBhm: "E B h:mm",
+                EBhms: "E B h:mm:ss",
                 Ed: "d E",
                 Ehm: "E a h:mm",
                 EHm: "E HH:mm",
@@ -1949,8 +1969,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "y QQQ",
                 yQQQQ: "y QQQQ",
-                "yw-count-one": "y 'yılının' w. 'haftası'",
-                "yw-count-other": "y 'yılının' w. 'haftası'"
+                "yw-count-one": "Y 'yılının' w. 'haftası'",
+                "yw-count-other": "Y 'yılının' w. 'haftası'"
             }
         },
         timeFormats: {
@@ -2279,9 +2299,9 @@ const data = {
         gmtZeroFormat: "GMT",
         dateFields: {
             era: {
-                wide: "Miladi Dönem",
-                short: "Miladi Dönem",
-                narrow: "Miladi Dönem"
+                wide: "çağ",
+                short: "çağ",
+                narrow: "çağ"
             },
             year: {
                 wide: "yıl",
@@ -2304,9 +2324,9 @@ const data = {
                 narrow: "hf."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "ayın haftası",
+                short: "ayın haftası",
+                narrow: "ayın haftası"
             },
             day: {
                 wide: "gün",
@@ -2314,9 +2334,9 @@ const data = {
                 narrow: "gün"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "yılın günü",
+                short: "yılın günü",
+                narrow: "yılın günü"
             },
             weekday: {
                 wide: "haftanın günü",
@@ -2324,9 +2344,9 @@ const data = {
                 narrow: "haftanın günü"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "ayın günü",
+                short: "ayın günü",
+                narrow: "ayın günü"
             },
             dayperiod: {
                 short: "ÖÖ/ÖS",
@@ -2350,8 +2370,8 @@ const data = {
             },
             zone: {
                 wide: "saat dilimi",
-                short: "saat dilimi",
-                narrow: "saat dilimi"
+                short: "dilim",
+                narrow: "dilim"
             }
         }
     },

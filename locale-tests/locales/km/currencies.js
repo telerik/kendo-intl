@@ -27,6 +27,10 @@ const data = {
                 "displayName-count-other": "អាហ្វហ្គានី​អាហ្វហ្គានីស្ថាន",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "លិក​អាល់បានី",
                 "displayName-count-other": "លិក​អាល់បានី",
@@ -311,6 +315,15 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "យ៉ន់ចិន (ក្រៅប្រទេស)",
+                "displayName-count-other": "យ៉ន់ចិន (ក្រៅប្រទេស)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "យ៉ន់​ចិន",
                 "displayName-count-other": "យ៉ន់​ចិន",
@@ -587,6 +600,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "ស៊ីគែលថ្មីអ៊ីស្រាអែល",
                 "displayName-count-other": "ស៊ីគែលថ្មីអ៊ីស្រាអែល",
@@ -608,6 +625,10 @@ const data = {
                 displayName: "រៀល​អ៊ីរ៉ង់",
                 "displayName-count-other": "រៀល អ៊ីរ៉ង់",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "ក្រូណា​អ៊ីស្លង់",
@@ -840,6 +861,10 @@ const data = {
                 "displayName-count-other": "រូពីម៉ូរីតានី",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "រ៉ូហ្វីយ៉ា​ម៉ាល់ឌីវ",
@@ -1115,6 +1140,10 @@ const data = {
                 "displayName-count-other": "ឌូប្រា​សៅតូម៉េ និងប្រាំងស៊ីប",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

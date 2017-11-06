@@ -88,6 +88,10 @@ const data = {
                 "displayName-count-other": "afgani afgani",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "leka albaneză",
                 "displayName-count-one": "leka albaneză",
@@ -210,9 +214,9 @@ const data = {
             },
             BBD: {
                 displayName: "dolar din Barbados",
-                "displayName-count-one": "dolar Barbados",
-                "displayName-count-few": "dolari Barbados",
-                "displayName-count-other": "dolari Barbados",
+                "displayName-count-one": "dolar din Barbados",
+                "displayName-count-few": "dolari din Barbados",
+                "displayName-count-other": "dolari din Barbados",
                 symbol: "BBD",
                 "symbol-alt-narrow": "$"
             },
@@ -448,6 +452,17 @@ const data = {
                 "displayName-count-other": "pesos chilieni",
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
+            },
+            CNH: {
+                displayName: "yuan chinezesc (offshore)",
+                "displayName-count-one": "yuan chinezesc (offshore)",
+                "displayName-count-few": "yuani chinezești (offshore)",
+                "displayName-count-other": "yuani chinezești (offshore)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
             },
             CNY: {
                 displayName: "yuan chinezesc",
@@ -826,6 +841,10 @@ const data = {
                 "displayName-count-other": "lire israeliene",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "șechel israelian nou",
                 "displayName-count-one": "șechel israelian nou",
@@ -855,6 +874,10 @@ const data = {
                 "displayName-count-few": "riali iranieni",
                 "displayName-count-other": "riali iranieni",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "coroană islandeză",
@@ -1172,6 +1195,10 @@ const data = {
                 "displayName-count-other": "rupii mauritiene",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "rufiyaa maldiviană",
@@ -1552,6 +1579,10 @@ const data = {
                 "displayName-count-other": "dobre Sao Tome și Principe",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "rublă sovietică",
@@ -2014,8 +2045,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -2059,9 +2095,9 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'săptămâna' w 'din' y",
-                "yw-count-few": "'săptămâna' w 'din' y",
-                "yw-count-other": "'săptămâna' w 'din' y"
+                "yw-count-one": "'săptămâna' w 'din' Y",
+                "yw-count-few": "'săptămâna' w 'din' Y",
+                "yw-count-other": "'săptămâna' w 'din' Y"
             }
         },
         timeFormats: {
@@ -2369,7 +2405,7 @@ const data = {
                 narrow: {
                     0: "î.Hr.",
                     1: "d.Hr.",
-                    "0-alt-variant": "î.e.n.",
+                    "0-alt-variant": "î.e.n",
                     "1-alt-variant": "e.n."
                 }
             }
@@ -2403,9 +2439,9 @@ const data = {
                 narrow: "săpt."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "săptămâna din lună",
+                short: "săpt. din lună",
+                narrow: "săpt. din lună"
             },
             day: {
                 wide: "zi",
@@ -2413,19 +2449,19 @@ const data = {
                 narrow: "zi"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "ziua din an",
+                short: "ziua din an",
+                narrow: "ziua din an"
             },
             weekday: {
-                wide: "Zi a săptămânii",
-                short: "Zi a săptămânii",
-                narrow: "Zi a săptămânii"
+                wide: "ziua din săptămână",
+                short: "ziua din săpt.",
+                narrow: "ziua din săpt."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "ziua săptămânii din lună",
+                short: "ziua săpt. din lună",
+                narrow: "ziua săpt. din lună"
             },
             dayperiod: {
                 short: "a.m/p.m.",
@@ -2449,8 +2485,8 @@ const data = {
             },
             zone: {
                 wide: "fus orar",
-                short: "fus orar",
-                narrow: "fus orar"
+                short: "fus",
+                narrow: "fus"
             }
         }
     },

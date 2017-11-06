@@ -18,7 +18,7 @@ const data = {
             },
             AED: {
                 displayName: "UAE dirham",
-                "displayName-count-one": "UAE diram",
+                "displayName-count-one": "UAE dirham",
                 "displayName-count-few": "UAE dirhama",
                 "displayName-count-other": "UAE dirhama",
                 symbol: "AED"
@@ -476,6 +476,13 @@ const data = {
                 "displayName-count-other": "čileanskih peza",
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
+            },
+            CNH: {
+                displayName: "kineski juan (offshore)",
+                "displayName-count-one": "kineski juan (offshore)",
+                "displayName-count-few": "kineska juana (offshore)",
+                "displayName-count-other": "kineskih juana (offshore)",
+                symbol: "CNH"
             },
             CNX: {
                 displayName: "kineski narodni dolar",
@@ -1683,6 +1690,10 @@ const data = {
                 "displayName-count-other": "dobri Svetog Tome i Principa",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "sovjetska rublja",

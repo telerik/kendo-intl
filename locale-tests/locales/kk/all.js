@@ -80,6 +80,10 @@ const data = {
                 "displayName-count-other": "Ауғанстан афганиі",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "Албания легі",
                 "displayName-count-one": "Албания легі",
@@ -392,6 +396,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "Қытай юані (офшор)",
+                "displayName-count-one": "Қытай юані (офшор)",
+                "displayName-count-other": "Қытай юані (офшор)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "Қытай юані",
                 "displayName-count-one": "Қытай юані",
@@ -699,6 +713,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "Израиль жаңа шекелі",
                 "displayName-count-one": "Израиль жаңа шекелі",
@@ -724,6 +742,10 @@ const data = {
                 "displayName-count-one": "Иран риалы",
                 "displayName-count-other": "Иран риалы",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Исландия кронасы",
@@ -985,6 +1007,10 @@ const data = {
                 "displayName-count-other": "Маврикий рупиясы",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "Мальдив руфиясы",
@@ -1296,6 +1322,10 @@ const data = {
                 "displayName-count-other": "Сант-Томе мен Принсипи добрасы",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",
@@ -1673,8 +1703,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "B h",
+                Bhm: "B h:mm",
+                Bhms: "B h:mm:ss",
                 d: "d",
                 E: "ccc",
+                EBhm: "E, B h:mm",
+                EBhms: "E, B h:mm:ss",
                 Ed: "d, E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -1714,8 +1749,8 @@ const data = {
                 yMMMM: "y 'ж'. MMMM",
                 yQQQ: "y 'ж'. QQQ",
                 yQQQQ: "y 'ж'. QQQQ",
-                "yw-count-one": "y 'жылдың' w-'аптасы'",
-                "yw-count-other": "y 'жылдың' w-'аптасы'"
+                "yw-count-one": "Y 'жылдың' w-'аптасы'",
+                "yw-count-other": "Y 'жылдың' w-'аптасы'"
             }
         },
         timeFormats: {
@@ -1901,10 +1936,10 @@ const data = {
         quarters: {
             format: {
                 abbreviated: [
-                    "І ш.",
-                    "ІІ ш.",
-                    "ІІІ ш.",
-                    "IV ш."
+                    "І тқс.",
+                    "ІІ тқс.",
+                    "ІІІ тқс.",
+                    "IV тқс."
                 ],
                 narrow: [
                     "I",
@@ -1913,18 +1948,18 @@ const data = {
                     "IV"
                 ],
                 wide: [
-                    "І ширек",
-                    "ІІ ширек",
-                    "ІІІ ширек",
-                    "IV ширек"
+                    "І тоқсан",
+                    "ІІ тоқсан",
+                    "ІІІ тоқсан",
+                    "IV тоқсан"
                 ]
             },
             "stand-alone": {
                 abbreviated: [
-                    "І ш.",
-                    "ІІ ш.",
-                    "ІІІ ш.",
-                    "IV ш."
+                    "І тқс.",
+                    "ІІ тқс.",
+                    "ІІІ тқс.",
+                    "IV тқс."
                 ],
                 narrow: [
                     "I",
@@ -1933,10 +1968,10 @@ const data = {
                     "IV"
                 ],
                 wide: [
-                    "І ширек",
-                    "ІІ ширек",
-                    "ІІІ ширек",
-                    "IV ширек"
+                    "І тоқсан",
+                    "ІІ тоқсан",
+                    "ІІІ тоқсан",
+                    "IV тоқсан"
                 ]
             }
         },
@@ -2010,8 +2045,8 @@ const data = {
             format: {
                 wide: {
                     0: "Біздің заманымызға дейін",
-                    1: "Біздің заманымыз",
-                    "0-alt-variant": "BCE",
+                    1: "біздің заманымыз",
+                    "0-alt-variant": "біздің заманымызға дейін",
                     "1-alt-variant": "CE"
                 },
                 abbreviated: {
@@ -2057,9 +2092,9 @@ const data = {
                 narrow: "ап."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "айдағы апта",
+                short: "айдағы апта",
+                narrow: "айдағы апта"
             },
             day: {
                 wide: "күн",
@@ -2067,9 +2102,9 @@ const data = {
                 narrow: "күн"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "жылдағы күн",
+                short: "жылдағы күн",
+                narrow: "жылдағы күн"
             },
             weekday: {
                 wide: "апта күні",
@@ -2077,9 +2112,9 @@ const data = {
                 narrow: "апта күні"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "айдағы апта күні",
+                short: "айдағы ап. күні",
+                narrow: "айдағы ап. күні"
             },
             dayperiod: {
                 short: "АМ/РМ",
@@ -2103,8 +2138,8 @@ const data = {
             },
             zone: {
                 wide: "уақыт белдеуі",
-                short: "уақыт белдеуі",
-                narrow: "уақыт белдеуі"
+                short: "уақ. белдеуі",
+                narrow: "уақ. белдеуі"
             }
         }
     },

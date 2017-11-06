@@ -29,8 +29,13 @@ const data = {
             medium: "{1}،‏ {0}",
             short: "{1}،‏ {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E d",
                 Ehm: "E h:mm a",
                 EHm: "E H:mm",
@@ -74,8 +79,8 @@ const data = {
                 yMMMMEEEEd: "EEEE d MMMM y",
                 yQQQ: "QQQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "هفته w از y",
-                "yw-count-other": "هفته w از y"
+                "yw-count-one": "هفته w از Y",
+                "yw-count-other": "هفته w از Y"
             }
         },
         timeFormats: {
@@ -328,7 +333,7 @@ const data = {
                     noon: "ظهر",
                     pm: "بعدازظهر",
                     morning1: "صبح",
-                    afternoon1: "عصر",
+                    afternoon1: "بعدازظهر",
                     evening1: "عصر",
                     night1: "شب"
                 }
@@ -337,10 +342,10 @@ const data = {
                 abbreviated: {
                     midnight: "نیمه‌شب",
                     am: "ق.ظ.",
-                    noon: "ظ",
+                    noon: "ظهر",
                     pm: "ب.ظ.",
                     morning1: "صبح",
-                    afternoon1: "ب.ظ.",
+                    afternoon1: "بعدازظهر",
                     evening1: "عصر",
                     night1: "شب"
                 },
@@ -417,9 +422,9 @@ const data = {
                 narrow: "هفته"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "هفتهٔ ماه",
+                short: "هفتهٔ ماه",
+                narrow: "هفتهٔ ماه"
             },
             day: {
                 wide: "روز",
@@ -427,9 +432,9 @@ const data = {
                 narrow: "روز"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "روز سال",
+                short: "روز سال",
+                narrow: "روز سال"
             },
             weekday: {
                 wide: "روز هفته",
@@ -437,9 +442,9 @@ const data = {
                 narrow: "روز هفته"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "روز کاری ماه",
+                short: "روز کاری ماه",
+                narrow: "روز کاری ماه"
             },
             dayperiod: {
                 short: "قبل/بعدازظهر",

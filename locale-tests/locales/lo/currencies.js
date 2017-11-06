@@ -27,6 +27,10 @@ const data = {
                 "displayName-count-other": "ອັຟ​ກັນ ອັຟ​ກາ​ນິ",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "ອັລ​ບາ​ນຽນ ເລກ",
                 "displayName-count-other": "ອັລ​ບາ​ນຽນ ເລກ",
@@ -311,6 +315,15 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "ຢວນຈີນ (ນອກປະເທດ)",
+                "displayName-count-other": "ຢວນຈີນ (ນອກປະເທດ)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "ຈີນ ຢວນ",
                 "displayName-count-other": "ຈີນ ຢວນ",
@@ -587,6 +600,10 @@ const data = {
                 displayName: "ປອນ ອີສະລາເອວ",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "ອິສ​ຣາ​ເອວ​ລິ ນິວ ເຊ​ເກວ",
                 "displayName-count-other": "ອິສ​ຣາ​ເອວ​ລິ ນິວ ເຊ​ເກວ",
@@ -608,6 +625,10 @@ const data = {
                 displayName: "ອິ​ຣາ​ນິ ຣຽວ",
                 "displayName-count-other": "ອິ​ຣາ​ນິ ຣຽວ",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "ໄອ​ສ໌​ແລນ​ດິກ ໂຄຣ​ນາ",
@@ -840,6 +861,10 @@ const data = {
                 "displayName-count-other": "ເມົາ​ຣິ​ທຽນ ຣູ​ປີ",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "ມັ​ລ​ດິ​ວຽນ ຣູ​ຟິ​ຢາ",
@@ -1115,6 +1140,10 @@ const data = {
                 "displayName-count-other": "ເຊົາ ໂທ​ເມ ແອນ ພ​ຣິນ​ຊິ​ປີ ໂດບຣາ",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "ຣູໂບ ໂຊວຽດ",

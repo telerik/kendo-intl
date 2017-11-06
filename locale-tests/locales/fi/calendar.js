@@ -29,8 +29,13 @@ const data = {
             medium: "{1} 'klo' {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h.mm B",
+                Bhms: "h.mm.ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h.mm B",
+                EBhms: "E h.mm.ss B",
                 Ed: "E d.",
                 Ehm: "E h.mm a",
                 EHm: "E H.mm",
@@ -72,8 +77,8 @@ const data = {
                 yMMMMccccd: "cccc d. MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'vuoden' y 'viikko' w",
-                "yw-count-other": "'vuoden' y 'viikko' w"
+                "yw-count-one": "'vuoden' Y 'viikko' w",
+                "yw-count-other": "'vuoden' Y 'viikko' w"
             }
         },
         timeFormats: {
@@ -421,9 +426,9 @@ const data = {
                 narrow: "vk"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "kuukauden viikko",
+                short: "kuukauden vk",
+                narrow: "kuukauden vk"
             },
             day: {
                 wide: "päivä",
@@ -431,9 +436,9 @@ const data = {
                 narrow: "pv"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "vuodenpäivä",
+                short: "vuodenpv",
+                narrow: "vuodenpv"
             },
             weekday: {
                 wide: "viikonpäivä",
@@ -441,9 +446,9 @@ const data = {
                 narrow: "viikonpäivä"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "kuukauden viikonpäivä",
+                short: "kuukauden vk päivä",
+                narrow: "kuukauden vk päivä"
             },
             dayperiod: {
                 short: "vuorokaudenaika",

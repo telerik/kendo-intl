@@ -29,8 +29,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "d E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -69,7 +74,7 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-other": "សប្តាហ៍ទី w នៃឆ្នាំ y"
+                "yw-count-other": "សប្តាហ៍ទី w នៃឆ្នាំ Y"
             }
         },
         timeFormats: {
@@ -411,9 +416,9 @@ const data = {
                 narrow: "សប្ដាហ៍"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "សប្ដាហ៍នៃខែ",
+                short: "សប្ដាហ៍នៃខែ",
+                narrow: "សប្ដាហ៍នៃខែ"
             },
             day: {
                 wide: "ថ្ងៃ",
@@ -421,9 +426,9 @@ const data = {
                 narrow: "ថ្ងៃ"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "ថ្ងៃនៃឆ្នាំ",
+                short: "ថ្ងៃនៃឆ្នាំ",
+                narrow: "ថ្ងៃនៃឆ្នាំ"
             },
             weekday: {
                 wide: "ថ្ងៃ​នៃ​សប្ដាហ៍",
@@ -431,9 +436,9 @@ const data = {
                 narrow: "ថ្ងៃ​នៃ​សប្ដាហ៍"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "ថ្ងៃសប្ដាហ៍នៃខែ",
+                short: "ថ្ងៃសប្ដាហ៍នៃខែ",
+                narrow: "ថ្ងៃសប្ដាហ៍នៃខែ"
             },
             dayperiod: {
                 short: "ព្រឹក/ល្ងាច",

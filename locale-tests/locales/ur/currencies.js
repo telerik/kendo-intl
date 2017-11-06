@@ -29,6 +29,10 @@ const data = {
                 "displayName-count-other": "افغان افغانی",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "البانیا کا لیک",
                 "displayName-count-one": "البانیا کا لیک",
@@ -341,6 +345,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "چینی یوآن (آف شور)",
+                "displayName-count-one": "چینی یوآن (آف شور)",
+                "displayName-count-other": "چینی یوآن (آف شور)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "چینی یوآن",
                 "displayName-count-one": "چینی یوآن",
@@ -648,6 +662,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "اسرائیلی نیا شیکل",
                 "displayName-count-one": "اسرائیلی نیا شیکل",
@@ -673,6 +691,10 @@ const data = {
                 "displayName-count-one": "ایرانی ریال",
                 "displayName-count-other": "ایرانی ریال",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "آئس لينڈی کرونا",
@@ -934,6 +956,10 @@ const data = {
                 "displayName-count-other": "ماریشس کا روپیہ",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "مالدیپ کا روفیہ",
@@ -1245,6 +1271,10 @@ const data = {
                 "displayName-count-other": "ساؤ ٹوم اور پرنسپے ڈوبرا",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

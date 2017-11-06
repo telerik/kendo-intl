@@ -29,6 +29,10 @@ const data = {
                 "displayName-count-other": "Ауғанстан афганиі",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "Албания легі",
                 "displayName-count-one": "Албания легі",
@@ -341,6 +345,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "Қытай юані (офшор)",
+                "displayName-count-one": "Қытай юані (офшор)",
+                "displayName-count-other": "Қытай юані (офшор)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "Қытай юані",
                 "displayName-count-one": "Қытай юані",
@@ -648,6 +662,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "Израиль жаңа шекелі",
                 "displayName-count-one": "Израиль жаңа шекелі",
@@ -673,6 +691,10 @@ const data = {
                 "displayName-count-one": "Иран риалы",
                 "displayName-count-other": "Иран риалы",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Исландия кронасы",
@@ -934,6 +956,10 @@ const data = {
                 "displayName-count-other": "Маврикий рупиясы",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "Мальдив руфиясы",
@@ -1245,6 +1271,10 @@ const data = {
                 "displayName-count-other": "Сант-Томе мен Принсипи добрасы",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

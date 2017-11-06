@@ -86,6 +86,10 @@ const data = {
                 "displayName-count-other": "афганскага афгані",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "албанскі лек",
                 "displayName-count-one": "албанскі лек",
@@ -453,6 +457,18 @@ const data = {
                 "displayName-count-other": "чылійскага песа",
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
+            },
+            CNH: {
+                displayName: "афшорны кітайскі юань",
+                "displayName-count-one": "афшорны кітайскі юань",
+                "displayName-count-few": "афшорныя кітайскія юані",
+                "displayName-count-many": "афшорных кітайскіх юаняў",
+                "displayName-count-other": "афшорнага кітайскага юаня",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
             },
             CNY: {
                 displayName: "кітайскі юань",
@@ -823,6 +839,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "новы ізраільскі шэкель",
                 "displayName-count-one": "новы ізраільскі шэкель",
@@ -856,6 +876,10 @@ const data = {
                 "displayName-count-many": "іранскіх рыалаў",
                 "displayName-count-other": "іранскага рыала",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "ісландская крона",
@@ -1167,6 +1191,10 @@ const data = {
                 "displayName-count-other": "маўрыкійскай рупіі",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "мальдыўская руфія",
@@ -1551,6 +1579,10 @@ const data = {
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
             },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
+            },
             SUR: {
                 displayName: "SUR",
                 symbol: "SUR"
@@ -1671,11 +1703,11 @@ const data = {
                 symbol: "TZS"
             },
             UAH: {
-                displayName: "украінская грыўна",
-                "displayName-count-one": "украінская грыўна",
+                displayName: "украінская грыўня",
+                "displayName-count-one": "украінская грыўня",
                 "displayName-count-few": "украінскія грыўні",
-                "displayName-count-many": "украінскіх грыўнаў",
-                "displayName-count-other": "украінскай грыўны",
+                "displayName-count-many": "украінскіх грыўняў",
+                "displayName-count-other": "украінскай грыўні",
                 symbol: "UAH",
                 "symbol-alt-narrow": "₴"
             },
@@ -1983,8 +2015,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "d, E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -2027,10 +2064,10 @@ const data = {
                 yMMMM: "LLLL y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "w 'тыдзень' y",
-                "yw-count-few": "w 'тыдзень' y",
-                "yw-count-many": "w 'тыдзень' y",
-                "yw-count-other": "w 'тыдзень' y"
+                "yw-count-one": "w 'тыдзень' Y",
+                "yw-count-few": "w 'тыдзень' Y",
+                "yw-count-many": "w 'тыдзень' Y",
+                "yw-count-other": "w 'тыдзень' Y"
             }
         },
         timeFormats: {
@@ -2336,9 +2373,9 @@ const data = {
                 narrow: "тыд"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "тыдзень месяца",
+                short: "тыдзень месяца",
+                narrow: "тыдзень месяца"
             },
             day: {
                 wide: "дзень",
@@ -2346,9 +2383,9 @@ const data = {
                 narrow: "д."
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "дзень года",
+                short: "дзень года",
+                narrow: "дзень года"
             },
             weekday: {
                 wide: "дзень тыдня",
@@ -2356,9 +2393,9 @@ const data = {
                 narrow: "дзень тыдня"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "дзень месяца",
+                short: "дзень месяца",
+                narrow: "дзень месяца"
             },
             dayperiod: {
                 short: "AM/PM",

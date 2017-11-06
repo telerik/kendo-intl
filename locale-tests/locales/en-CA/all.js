@@ -13,7 +13,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
-            exponential: "E",
+            exponential: "e",
             superscriptingExponent: "×",
             perMille: "‰",
             infinity: "∞",
@@ -89,7 +89,8 @@ const data = {
             ALK: {
                 displayName: "Albanian Lek (1946–1965)",
                 "displayName-count-one": "Albanian lek (1946–1965)",
-                "displayName-count-other": "Albanian lekë (1946–1965)"
+                "displayName-count-other": "Albanian lekë (1946–1965)",
+                symbol: "ALK"
             },
             ALL: {
                 displayName: "Albanian Lek",
@@ -467,10 +468,17 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "Chinese Yuan (offshore)",
+                "displayName-count-one": "Chinese yuan (offshore)",
+                "displayName-count-other": "Chinese yuan (offshore)",
+                symbol: "CNH"
+            },
             CNX: {
                 displayName: "Chinese People’s Bank Dollar",
                 "displayName-count-one": "Chinese People’s Bank dollar",
-                "displayName-count-other": "Chinese People’s Bank dollars"
+                "displayName-count-other": "Chinese People’s Bank dollars",
+                symbol: "CNX"
             },
             CNY: {
                 displayName: "Chinese Yuan",
@@ -829,7 +837,8 @@ const data = {
             ILR: {
                 displayName: "Israeli Shekel (1980–1985)",
                 "displayName-count-one": "Israeli shekel (1980–1985)",
-                "displayName-count-other": "Israeli shekels (1980–1985)"
+                "displayName-count-other": "Israeli shekels (1980–1985)",
+                symbol: "ILR"
             },
             ILS: {
                 displayName: "Israeli New Shekel",
@@ -860,7 +869,8 @@ const data = {
             ISJ: {
                 displayName: "Icelandic Króna (1918–1981)",
                 "displayName-count-one": "Icelandic króna (1918–1981)",
-                "displayName-count-other": "Icelandic krónur (1918–1981)"
+                "displayName-count-other": "Icelandic krónur (1918–1981)",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Icelandic Króna",
@@ -1160,7 +1170,8 @@ const data = {
             MVP: {
                 displayName: "Maldivian Rupee (1947–1981)",
                 "displayName-count-one": "Maldivian rupee (1947–1981)",
-                "displayName-count-other": "Maldivian rupees (1947–1981)"
+                "displayName-count-other": "Maldivian rupees (1947–1981)",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "Maldivian Rufiyaa",
@@ -1309,9 +1320,9 @@ const data = {
                 symbol: "PGK"
             },
             PHP: {
-                displayName: "Philippine Peso",
-                "displayName-count-one": "Philippine peso",
-                "displayName-count-other": "Philippine pesos",
+                displayName: "Philippine Piso",
+                "displayName-count-one": "Philippine piso",
+                "displayName-count-other": "Philippine pisos",
                 symbol: "PHP",
                 "symbol-alt-narrow": "₱"
             },
@@ -1508,6 +1519,12 @@ const data = {
                 "displayName-count-other": "São Tomé & Príncipe dobras",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "São Tomé & Príncipe Dobra (2018)",
+                "displayName-count-one": "São Tomé & Príncipe dobra (2018)",
+                "displayName-count-other": "São Tomé & Príncipe dobras (2018)",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "Soviet Rouble",
@@ -1969,8 +1986,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -2017,8 +2039,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'week' w 'of' y",
-                "yw-count-other": "'week' w 'of' y"
+                "yw-count-one": "'week' w 'of' Y",
+                "yw-count-other": "'week' w 'of' Y"
             }
         },
         timeFormats: {
@@ -2037,13 +2059,13 @@ const data = {
         days: {
             format: {
                 abbreviated: [
-                    "Sun",
-                    "Mon",
-                    "Tue",
-                    "Wed",
-                    "Thu",
-                    "Fri",
-                    "Sat"
+                    "Sun.",
+                    "Mon.",
+                    "Tue.",
+                    "Wed.",
+                    "Thu.",
+                    "Fri.",
+                    "Sat."
                 ],
                 narrow: [
                     "S",
@@ -2075,13 +2097,13 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "Sun",
-                    "Mon",
-                    "Tue",
-                    "Wed",
-                    "Thu",
-                    "Fri",
-                    "Sat"
+                    "Sun.",
+                    "Mon.",
+                    "Tue.",
+                    "Wed.",
+                    "Thu.",
+                    "Fri.",
+                    "Sat."
                 ],
                 narrow: [
                     "S",
@@ -2115,18 +2137,18 @@ const data = {
         months: {
             format: {
                 abbreviated: [
-                    "Jan",
-                    "Feb",
-                    "Mar",
-                    "Apr",
+                    "Jan.",
+                    "Feb.",
+                    "Mar.",
+                    "Apr.",
                     "May",
-                    "Jun",
-                    "Jul",
-                    "Aug",
-                    "Sep",
-                    "Oct",
-                    "Nov",
-                    "Dec"
+                    "Jun.",
+                    "Jul.",
+                    "Aug.",
+                    "Sep.",
+                    "Oct.",
+                    "Nov.",
+                    "Dec."
                 ],
                 narrow: [
                     "J",
@@ -2248,10 +2270,10 @@ const data = {
             format: {
                 abbreviated: {
                     midnight: "midnight",
-                    am: "AM",
+                    am: "a.m.",
                     "am-alt-variant": "am",
                     noon: "noon",
-                    pm: "PM",
+                    pm: "p.m.",
                     "pm-alt-variant": "pm",
                     morning1: "in the morning",
                     afternoon1: "in the afternoon",
@@ -2272,10 +2294,10 @@ const data = {
                 },
                 wide: {
                     midnight: "midnight",
-                    am: "AM",
+                    am: "a.m.",
                     "am-alt-variant": "am",
                     noon: "noon",
-                    pm: "PM",
+                    pm: "p.m.",
                     "pm-alt-variant": "pm",
                     morning1: "in the morning",
                     afternoon1: "in the afternoon",
@@ -2286,10 +2308,10 @@ const data = {
             "stand-alone": {
                 abbreviated: {
                     midnight: "midnight",
-                    am: "AM",
+                    am: "a.m.",
                     "am-alt-variant": "am",
                     noon: "noon",
-                    pm: "PM",
+                    pm: "p.m.",
                     "pm-alt-variant": "pm",
                     morning1: "morning",
                     afternoon1: "afternoon",
@@ -2298,10 +2320,10 @@ const data = {
                 },
                 narrow: {
                     midnight: "midnight",
-                    am: "AM",
+                    am: "a.m.",
                     "am-alt-variant": "am",
                     noon: "noon",
-                    pm: "PM",
+                    pm: "p.m.",
                     "pm-alt-variant": "pm",
                     morning1: "morning",
                     afternoon1: "afternoon",
@@ -2310,10 +2332,10 @@ const data = {
                 },
                 wide: {
                     midnight: "midnight",
-                    am: "AM",
+                    am: "a.m.",
                     "am-alt-variant": "am",
                     noon: "noon",
-                    pm: "PM",
+                    pm: "p.m.",
                     "pm-alt-variant": "pm",
                     morning1: "morning",
                     afternoon1: "afternoon",
@@ -2354,23 +2376,23 @@ const data = {
             },
             year: {
                 wide: "year",
-                short: "yr",
-                narrow: "yr"
+                short: "yr.",
+                narrow: "yr."
             },
             quarter: {
                 wide: "quarter",
-                short: "qtr",
-                narrow: "qtr"
+                short: "qtr.",
+                narrow: "qtr."
             },
             month: {
                 wide: "month",
-                short: "mo",
-                narrow: "mo"
+                short: "mo.",
+                narrow: "mo."
             },
             week: {
                 wide: "week",
-                short: "wk",
-                narrow: "wk"
+                short: "wk.",
+                narrow: "wk."
             },
             weekOfMonth: {
                 wide: "week of month",
@@ -2398,24 +2420,24 @@ const data = {
                 narrow: "wkday. of mo."
             },
             dayperiod: {
-                short: "AM/PM",
-                wide: "am/pm",
-                narrow: "AM/PM"
+                short: "a.m./p.m.",
+                wide: "a.m./p.m.",
+                narrow: "a.m./p.m."
             },
             hour: {
                 wide: "hour",
-                short: "hr",
-                narrow: "hr"
+                short: "hr.",
+                narrow: "hr."
             },
             minute: {
                 wide: "minute",
-                short: "min",
-                narrow: "min"
+                short: "min.",
+                narrow: "min."
             },
             second: {
                 wide: "second",
-                short: "sec",
-                narrow: "sec"
+                short: "sec.",
+                narrow: "sec."
             },
             zone: {
                 wide: "time zone",

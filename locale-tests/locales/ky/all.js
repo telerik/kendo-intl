@@ -80,6 +80,10 @@ const data = {
                 "displayName-count-other": "Афганстан афганиси",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "албан леги",
                 "displayName-count-one": "албан леги",
@@ -392,6 +396,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "CNH",
+                "displayName-count-one": "CNH",
+                "displayName-count-other": "CNH",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "Кытай юаны",
                 "displayName-count-one": "Кытай юаны",
@@ -699,6 +713,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "Израилдин жаңы шекели",
                 "displayName-count-one": "Израилдин жаңы шекели",
@@ -724,6 +742,10 @@ const data = {
                 "displayName-count-one": "Иран риалы",
                 "displayName-count-other": "Иран риалы",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "исландия крону",
@@ -985,6 +1007,10 @@ const data = {
                 "displayName-count-other": "Мавританий руписи",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "Малдив руфийасы",
@@ -1296,6 +1322,10 @@ const data = {
                 "displayName-count-other": "Сао Томе жана Принсипе добрасы",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",
@@ -1673,8 +1703,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "d, E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -1714,8 +1749,8 @@ const data = {
                 yMMMM: "y-'ж'., MMMM",
                 yQQQ: "y-'ж'., QQQ",
                 yQQQQ: "y-'ж'., QQQQ",
-                "yw-count-one": "y-'жылдын' w-'аптасы'",
-                "yw-count-other": "y-'жылдын' w-'аптасы'"
+                "yw-count-one": "Y-'жылдын' w-'аптасы'",
+                "yw-count-other": "Y-'жылдын' w-'аптасы'"
             }
         },
         timeFormats: {
@@ -2057,9 +2092,9 @@ const data = {
                 narrow: "апт"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "айдын жумасы",
+                short: "айдын жумасы",
+                narrow: "айдын жумасы"
             },
             day: {
                 wide: "күн",
@@ -2067,9 +2102,9 @@ const data = {
                 narrow: "күн"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "жылдын күнү",
+                short: "жылдын күнү",
+                narrow: "жылдын күнү"
             },
             weekday: {
                 wide: "аптанын күнү",
@@ -2077,9 +2112,9 @@ const data = {
                 narrow: "аптанын күнү"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "айдын жумуш күнү",
+                short: "айдын жумуш күнү",
+                narrow: "айдын жумуш күнү"
             },
             dayperiod: {
                 short: "ТЧ/ТК",

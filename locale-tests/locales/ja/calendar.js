@@ -29,8 +29,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "BK時",
+                Bhm: "BK:mm",
+                Bhms: "BK:mm:ss",
                 d: "d日",
                 E: "ccc",
+                EBhm: "BK:mm (E)",
+                EBhms: "BK:mm:ss (E)",
                 Ed: "d日(E)",
                 EEEEd: "d日EEEE",
                 Ehm: "aK:mm (E)",
@@ -76,7 +81,7 @@ const data = {
                 yMMMM: "y年M月",
                 yQQQ: "y/QQQ",
                 yQQQQ: "y年QQQQ",
-                "yw-count-other": "y年第w週"
+                "yw-count-other": "Y年第w週"
             }
         },
         timeFormats: {
@@ -424,9 +429,9 @@ const data = {
                 narrow: "週"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "月の週番号",
+                short: "月の週番号",
+                narrow: "月の週番号"
             },
             day: {
                 wide: "日",
@@ -434,9 +439,9 @@ const data = {
                 narrow: "日"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "年の通日",
+                short: "年の通日",
+                narrow: "通日"
             },
             weekday: {
                 wide: "曜日",
@@ -444,9 +449,9 @@ const data = {
                 narrow: "曜日"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "月の曜日番号",
+                short: "月の曜日番号",
+                narrow: "月の曜日番号"
             },
             dayperiod: {
                 short: "午前/午後",

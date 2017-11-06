@@ -29,6 +29,10 @@ const data = {
                 "displayName-count-other": "ඇෆ්ගනිථාන ඇෆ්ගනි",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "ඇල්බේනියානු ලෙක්",
                 "displayName-count-one": "ඇල්බේනියානු ලෙක්",
@@ -341,6 +345,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "චීන යුආන් (එතෙර)",
+                "displayName-count-one": "චීන යුආන් (එතෙර)",
+                "displayName-count-other": "චීන යුආන් (එතෙර)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "චීන යුආන්",
                 "displayName-count-one": "චීන යුආන්",
@@ -648,6 +662,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "ඊශ්‍රායල නව ශෙකල්",
                 "displayName-count-one": "ඊශ්‍රායල නව ශෙකල්",
@@ -673,6 +691,10 @@ const data = {
                 "displayName-count-one": "ඉරාන රියාල්",
                 "displayName-count-other": "ඉරාන රියාල්",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "අයිස්ලන්තික ක්‍රෝනා",
@@ -932,6 +954,10 @@ const data = {
                 "displayName-count-other": "මුරිසියානු රුපියල්",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "මාලදිවයින් රුෆියා",
@@ -1244,6 +1270,10 @@ const data = {
                 "displayName-count-other": "සාඕ තෝම් සහ ප්‍රින්සිප් දොබ්‍රා",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

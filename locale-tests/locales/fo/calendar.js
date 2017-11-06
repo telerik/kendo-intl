@@ -29,8 +29,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d.",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E d.",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -70,8 +75,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ 'í' y",
                 yQQQQ: "QQQQ 'í' y",
-                "yw-count-one": "w. 'vika' 'í' y",
-                "yw-count-other": "w. 'vika' 'í' y"
+                "yw-count-one": "w. 'vika' 'í' Y",
+                "yw-count-other": "w. 'vika' 'í' Y"
             }
         },
         timeFormats: {
@@ -377,9 +382,9 @@ const data = {
                 narrow: "v."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "vika í mánaðinum",
+                short: "vi. í mnð.",
+                narrow: "vi. í mnð."
             },
             day: {
                 wide: "dagur",
@@ -387,19 +392,19 @@ const data = {
                 narrow: "d."
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "dagur í árinum",
+                short: "dagur í ár.",
+                narrow: "dagur í ár."
             },
             weekday: {
-                wide: "gerandisdagur",
-                short: "gerandisdagur",
-                narrow: "gerandisdagur"
+                wide: "vikudagur",
+                short: "vikudagur",
+                narrow: "vikudagur"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "vikudagur í mánaðinum",
+                short: "vikudagur í mnð.",
+                narrow: "vikudagur í mnð."
             },
             dayperiod: {
                 short: "AM/PM",

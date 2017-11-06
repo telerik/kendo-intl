@@ -87,6 +87,10 @@ const data = {
                 "displayName-count-other": "אפגני אפגני",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "לק אלבני",
                 "displayName-count-one": "לק אלבני",
@@ -183,11 +187,11 @@ const data = {
                 symbol: "AZM"
             },
             AZN: {
-                displayName: "מאנאט אזרביג׳ני",
-                "displayName-count-one": "מאנאט אזרביג׳ני",
-                "displayName-count-two": "מאנאט אזרביג׳ני",
-                "displayName-count-many": "מאנאט אזרביג׳ני",
-                "displayName-count-other": "מאנאט אזרביג׳ני",
+                displayName: "מאנאט אזרבייג׳ני",
+                "displayName-count-one": "מאנאט אזרבייג׳ני",
+                "displayName-count-two": "מאנאט אזרבייג׳ני",
+                "displayName-count-many": "מאנאט אזרבייג׳ני",
+                "displayName-count-other": "מאנאט אזרבייג׳ני",
                 symbol: "AZN"
             },
             BAD: {
@@ -195,11 +199,11 @@ const data = {
                 symbol: "BAD"
             },
             BAM: {
-                displayName: "מארק בר המרה של בוסניה־הרצגובינה",
-                "displayName-count-one": "מארק בר המרה של בוסניה־הרצגובינה",
-                "displayName-count-two": "מארק בר המרה של בוסניה־הרצגובינה",
-                "displayName-count-many": "מארק בר המרה של בוסניה־הרצגובינה",
-                "displayName-count-other": "מארק בר המרה של בוסניה־הרצגובינה",
+                displayName: "מארק סחיר של בוסניה והרצגובינה",
+                "displayName-count-one": "מארק סחיר של בוסניה והרצגובינה",
+                "displayName-count-two": "מארק סחיר של בוסניה והרצגובינה",
+                "displayName-count-many": "מארק סחיר של בוסניה והרצגובינה",
+                "displayName-count-other": "מארק סחיר של בוסניה והרצגובינה",
                 symbol: "BAM",
                 "symbol-alt-narrow": "KM"
             },
@@ -367,11 +371,11 @@ const data = {
                 symbol: "BUK"
             },
             BWP: {
-                displayName: "פולה בוצוואני",
-                "displayName-count-one": "פולה בוצוואני",
-                "displayName-count-two": "פולה בוצוואני",
-                "displayName-count-many": "פולה בוצוואני",
-                "displayName-count-other": "פולה בוצוואני",
+                displayName: "פולה בוטסואני",
+                "displayName-count-one": "פולה בוטסואני",
+                "displayName-count-two": "פולה בוטסואני",
+                "displayName-count-many": "פולה בוטסואני",
+                "displayName-count-other": "פולה בוטסואני",
                 symbol: "BWP",
                 "symbol-alt-narrow": "P"
             },
@@ -454,6 +458,18 @@ const data = {
                 "displayName-count-other": "פסו צ׳ילאני",
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
+            },
+            CNH: {
+                displayName: "יואן סיני (CNH)",
+                "displayName-count-one": "יואן סיני (CNH)",
+                "displayName-count-two": "יואן סיני (CNH)",
+                "displayName-count-many": "יואן סיני (CNH)",
+                "displayName-count-other": "יואן סיני (CNH)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
             },
             CNY: {
                 displayName: "יואן סיני",
@@ -674,11 +690,11 @@ const data = {
                 symbol: "GEK"
             },
             GEL: {
-                displayName: "לרי גאורגי",
-                "displayName-count-one": "לרי גאורגי",
-                "displayName-count-two": "לרי גאורגי",
-                "displayName-count-many": "לרי גאורגי",
-                "displayName-count-other": "לרי גאורגי",
+                displayName: "לארי גאורגי",
+                "displayName-count-one": "לארי גאורגי",
+                "displayName-count-two": "לארי גאורגי",
+                "displayName-count-many": "לארי גאורגי",
+                "displayName-count-other": "לארי גאורגי",
                 symbol: "GEL",
                 "symbol-alt-narrow": "₾",
                 "symbol-alt-variant": "₾"
@@ -705,11 +721,11 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             GMD: {
-                displayName: "דלאסי גמבי",
-                "displayName-count-one": "דלאסי גמבי",
-                "displayName-count-two": "דלאסי גמבי",
-                "displayName-count-many": "דלאסי גמבי",
-                "displayName-count-other": "דלאסי גמבי",
+                displayName: "דלסי גמבי",
+                "displayName-count-one": "דלסי גמבי",
+                "displayName-count-two": "דלסי גמבי",
+                "displayName-count-many": "דלסי גמבי",
+                "displayName-count-other": "דלסי גמבי",
                 symbol: "GMD"
             },
             GNF: {
@@ -734,11 +750,11 @@ const data = {
                 symbol: "GRD"
             },
             GTQ: {
-                displayName: "קצל גואטמלי",
-                "displayName-count-one": "קצל גואטמלי",
-                "displayName-count-two": "קצל גואטמלי",
-                "displayName-count-many": "קצל גואטמלי",
-                "displayName-count-other": "קצל גואטמלי",
+                displayName: "קצאל גואטמלי",
+                "displayName-count-one": "קצאל גואטמלי",
+                "displayName-count-two": "קצאל גואטמלי",
+                "displayName-count-many": "קצאל גואטמלי",
+                "displayName-count-other": "קצאל גואטמלי",
                 symbol: "GTQ",
                 "symbol-alt-narrow": "Q"
             },
@@ -824,6 +840,10 @@ const data = {
                 displayName: "לירה ישראלית",
                 symbol: "ל״י"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "שקל חדש",
                 "displayName-count-one": "שקל חדש",
@@ -857,6 +877,10 @@ const data = {
                 "displayName-count-many": "ריאל איראני",
                 "displayName-count-other": "ריאל איראני",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "כתר איסלנדי",
@@ -898,11 +922,11 @@ const data = {
                 "symbol-alt-narrow": "¥"
             },
             KES: {
-                displayName: "שילינג קנייאתי",
-                "displayName-count-one": "שילינג קנייאתי",
-                "displayName-count-two": "שילינג קנייאתי",
-                "displayName-count-many": "שילינג קנייאתי",
-                "displayName-count-other": "שילינג קנייאתי",
+                displayName: "שילינג קנייתי",
+                "displayName-count-one": "שילינג קנייתי",
+                "displayName-count-two": "שילינג קנייתי",
+                "displayName-count-many": "שילינג קנייתי",
+                "displayName-count-other": "שילינג קנייתי",
                 symbol: "KES"
             },
             KGS: {
@@ -966,11 +990,11 @@ const data = {
                 symbol: "KWD"
             },
             KYD: {
-                displayName: "דולר קיימאני",
-                "displayName-count-one": "דולר קיימאני",
-                "displayName-count-two": "דולר קיימאני",
-                "displayName-count-many": "דולר קיימאני",
-                "displayName-count-other": "דולר קיימאני",
+                displayName: "דולר קיימני",
+                "displayName-count-one": "דולר קיימני",
+                "displayName-count-two": "דולר קיימני",
+                "displayName-count-many": "דולר קיימני",
+                "displayName-count-other": "דולר קיימני",
                 symbol: "KYD",
                 "symbol-alt-narrow": "$"
             },
@@ -1086,11 +1110,11 @@ const data = {
                 symbol: "MDC"
             },
             MDL: {
-                displayName: "ליאו מולדובני",
-                "displayName-count-one": "ליאו מולדובני",
-                "displayName-count-two": "ליאו מולדובני",
-                "displayName-count-many": "ליאו מולדובני",
-                "displayName-count-other": "ליאו מולדובני",
+                displayName: "לאו מולדובני",
+                "displayName-count-one": "לאו מולדובני",
+                "displayName-count-two": "לאו מולדובני",
+                "displayName-count-many": "לאו מולדובני",
+                "displayName-count-other": "לאו מולדובני",
                 symbol: "MDL"
             },
             MGA: {
@@ -1149,11 +1173,11 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
-                displayName: "אוגוויה מאוריטני",
-                "displayName-count-one": "אוגוויה מאוריטני",
-                "displayName-count-two": "אוגוויה מאוריטני",
-                "displayName-count-many": "אוגוויה מאוריטני",
-                "displayName-count-other": "אוגוויה מאוריטני",
+                displayName: "אואוגויה מאוריטני",
+                "displayName-count-one": "אואוגויה מאוריטני",
+                "displayName-count-two": "אואוגויה מאוריטני",
+                "displayName-count-many": "אואוגויה מאוריטני",
+                "displayName-count-other": "אואוגויה מאוריטני",
                 symbol: "MRO"
             },
             MTL: {
@@ -1173,6 +1197,10 @@ const data = {
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
+            },
             MVR: {
                 displayName: "רופיה מלדיבית",
                 "displayName-count-one": "רופיה מלדיבית",
@@ -1182,11 +1210,11 @@ const data = {
                 symbol: "MVR"
             },
             MWK: {
-                displayName: "קואצ׳ה מלאוי",
-                "displayName-count-one": "קואצ׳ה מלאוי",
-                "displayName-count-two": "קואצ׳ה מלאוי",
-                "displayName-count-many": "קואצ׳ה מלאוי",
-                "displayName-count-other": "קואצ׳ה מלאוי",
+                displayName: "קואצ׳ה מלאווי",
+                "displayName-count-one": "קואצ׳ה מלאווי",
+                "displayName-count-two": "קואצ׳ה מלאווי",
+                "displayName-count-many": "קואצ׳ה מלאווי",
+                "displayName-count-other": "קואצ׳ה מלאווי",
                 symbol: "MWK"
             },
             MXN: {
@@ -1373,11 +1401,11 @@ const data = {
                 symbol: "PTE"
             },
             PYG: {
-                displayName: "גוורני פראגוואי",
-                "displayName-count-one": "גוורני פראגוואי",
-                "displayName-count-two": "גוורני פראגוואי",
-                "displayName-count-many": "גוורני פראגוואי",
-                "displayName-count-other": "גוורני פראגוואי",
+                displayName: "גוארני פרגוואי",
+                "displayName-count-one": "גוארני פרגוואי",
+                "displayName-count-two": "גוארני פרגוואי",
+                "displayName-count-many": "גוארני פרגוואי",
+                "displayName-count-other": "גוארני פרגוואי",
                 symbol: "PYG",
                 "symbol-alt-narrow": "₲"
             },
@@ -1523,11 +1551,11 @@ const data = {
                 symbol: "SLL"
             },
             SOS: {
-                displayName: "שילינג סומאלי",
-                "displayName-count-one": "שילינג סומאלי",
-                "displayName-count-two": "שילינג סומאלי",
-                "displayName-count-many": "שילינג סומאלי",
-                "displayName-count-other": "שילינג סומאלי",
+                displayName: "שילינג סומלי",
+                "displayName-count-one": "שילינג סומלי",
+                "displayName-count-two": "שילינג סומלי",
+                "displayName-count-many": "שילינג סומלי",
+                "displayName-count-other": "שילינג סומלי",
                 symbol: "SOS"
             },
             SRD: {
@@ -1561,6 +1589,10 @@ const data = {
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
             },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
+            },
             SUR: {
                 displayName: "רובל סובייטי",
                 symbol: "SUR"
@@ -1583,11 +1615,11 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             SZL: {
-                displayName: "לילנגני סווזי",
-                "displayName-count-one": "לילנגני סווזי",
-                "displayName-count-two": "לילנגני סווזי",
-                "displayName-count-many": "לילנגני סווזי",
-                "displayName-count-other": "לילנגני סווזי",
+                displayName: "לילנגני סווזילנדי",
+                "displayName-count-one": "לילנגני סווזילנדי",
+                "displayName-count-two": "לילנגני סווזילנדי",
+                "displayName-count-many": "לילנגני סווזילנדי",
+                "displayName-count-other": "לילנגני סווזילנדי",
                 symbol: "SZL"
             },
             THB: {
@@ -1685,11 +1717,11 @@ const data = {
                 symbol: "TZS"
             },
             UAH: {
-                displayName: "גריבנה אוקראיני",
-                "displayName-count-one": "גריבנה אוקראיני",
-                "displayName-count-two": "גריבנה אוקראיני",
-                "displayName-count-many": "גריבנה אוקראיני",
-                "displayName-count-other": "גריבנה אוקראיני",
+                displayName: "הריבנה אוקראיני",
+                "displayName-count-one": "הריבנה אוקראיני",
+                "displayName-count-two": "הריבנה אוקראיני",
+                "displayName-count-many": "הריבנה אוקראיני",
+                "displayName-count-other": "הריבנה אוקראיני",
                 symbol: "UAH",
                 "symbol-alt-narrow": "₴"
             },
@@ -1794,11 +1826,11 @@ const data = {
                 symbol: "WST"
             },
             XAF: {
-                displayName: "פרנק CFA BEAC",
-                "displayName-count-one": "פרנק CFA BEAC",
-                "displayName-count-two": "פרנק CFA BEAC",
-                "displayName-count-many": "פרנק CFA BEAC",
-                "displayName-count-other": "פרנק CFA BEAC",
+                displayName: "פרנק CFA מרכז אפריקני",
+                "displayName-count-one": "פרנק CFA מרכז אפריקני",
+                "displayName-count-two": "פרנק CFA מרכז אפריקני",
+                "displayName-count-many": "פרנק CFA מרכז אפריקני",
+                "displayName-count-other": "פרנק CFA מרכז אפריקני",
                 symbol: "FCFA"
             },
             XAG: {
@@ -1851,11 +1883,11 @@ const data = {
                 symbol: "XFU"
             },
             XOF: {
-                displayName: "פרנק CFA BCEAO",
-                "displayName-count-one": "פרנק CFA BCEAO",
-                "displayName-count-two": "פרנק CFA BCEAO",
-                "displayName-count-many": "פרנק CFA BCEAO",
-                "displayName-count-other": "פרנק CFA BCEAO",
+                displayName: "פרנק CFA מערב אפריקני",
+                "displayName-count-one": "פרנק CFA מערב אפריקני",
+                "displayName-count-two": "פרנק CFA מערב אפריקני",
+                "displayName-count-many": "פרנק CFA מערב אפריקני",
+                "displayName-count-other": "פרנק CFA מערב אפריקני",
                 symbol: "CFA"
             },
             XPD: {
@@ -1944,11 +1976,11 @@ const data = {
                 symbol: "ZMK"
             },
             ZMW: {
-                displayName: "קוואצ׳ה זמבית",
-                "displayName-count-one": "קוואצ׳ה זמבית",
-                "displayName-count-two": "קוואצ׳ה זמבית",
-                "displayName-count-many": "קוואצ׳ה זמבית",
-                "displayName-count-other": "קוואצ׳ה זמבית",
+                displayName: "קוואצ׳ה זמבי",
+                "displayName-count-one": "קוואצ׳ה זמבי",
+                "displayName-count-two": "קוואצ׳ה זמבי",
+                "displayName-count-many": "קוואצ׳ה זמבי",
+                "displayName-count-other": "קוואצ׳ה זמבי",
                 symbol: "ZMW",
                 "symbol-alt-narrow": "ZK"
             },
@@ -1997,8 +2029,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E ה-d",
                 Ehm: "E h:mm a",
                 EHm: "E H:mm",
@@ -2041,10 +2078,10 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "שבוע w בשנת y",
-                "yw-count-two": "שבוע w בשנת y",
-                "yw-count-many": "שבוע w בשנת y",
-                "yw-count-other": "שבוע w בשנת y"
+                "yw-count-one": "שבוע w בשנת Y",
+                "yw-count-two": "שבוע w בשנת Y",
+                "yw-count-many": "שבוע w בשנת Y",
+                "yw-count-other": "שבוע w בשנת Y"
             }
         },
         timeFormats: {
@@ -2286,33 +2323,33 @@ const data = {
                     midnight: "חצות",
                     am: "לפנה״צ",
                     pm: "אחה״צ",
-                    morning1: "בוקר",
-                    afternoon1: "צהריים",
-                    afternoon2: "אחר הצהריים",
-                    evening1: "ערב",
-                    night1: "לילה",
+                    morning1: "בבוקר",
+                    afternoon1: "בצהריים",
+                    afternoon2: "אחה״צ",
+                    evening1: "בערב",
+                    night1: "בלילה",
                     night2: "לפנות בוקר"
                 },
                 wide: {
                     midnight: "חצות",
                     am: "לפנה״צ",
                     pm: "אחה״צ",
-                    morning1: "בוקר",
-                    afternoon1: "צהריים",
+                    morning1: "בבוקר",
+                    afternoon1: "בצהריים",
                     afternoon2: "אחר הצהריים",
-                    evening1: "ערב",
-                    night1: "לילה",
+                    evening1: "בערב",
+                    night1: "בלילה",
                     night2: "לפנות בוקר"
                 }
             },
             "stand-alone": {
                 abbreviated: {
                     midnight: "חצות",
-                    am: "לפנה״צ",
-                    pm: "אחה״צ",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "בוקר",
                     afternoon1: "צהריים",
-                    afternoon2: "אחר הצהריים",
+                    afternoon2: "אחה״צ",
                     evening1: "ערב",
                     night1: "לילה",
                     night2: "לפנות בוקר"
@@ -2323,15 +2360,15 @@ const data = {
                     pm: "אחה״צ",
                     morning1: "בוקר",
                     afternoon1: "צהריים",
-                    afternoon2: "אחר הצהריים",
+                    afternoon2: "אחה״צ",
                     evening1: "ערב",
                     night1: "לילה",
                     night2: "לפנות בוקר"
                 },
                 wide: {
                     midnight: "חצות",
-                    am: "לפנה״צ",
-                    pm: "אחה״צ",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "בוקר",
                     afternoon1: "צהריים",
                     afternoon2: "אחר הצהריים",
@@ -2392,9 +2429,9 @@ const data = {
                 narrow: "שב׳"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "השבוע בחודש",
+                short: "השבוע בחודש",
+                narrow: "השבוע בחודש"
             },
             day: {
                 wide: "יום",
@@ -2402,9 +2439,9 @@ const data = {
                 narrow: "יום"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "יום בשנה",
+                short: "יום בשנה",
+                narrow: "יום בשנה"
             },
             weekday: {
                 wide: "יום בשבוע",
@@ -2412,12 +2449,12 @@ const data = {
                 narrow: "יום בשבוע"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "יום חול בחודש",
+                short: "יום בחודש",
+                narrow: "יום בחודש"
             },
             dayperiod: {
-                short: "לפנה״צ/אחה״צ",
+                short: "AM/PM",
                 wide: "לפנה״צ/אחה״צ",
                 narrow: "לפנה״צ/אחה״צ"
             },

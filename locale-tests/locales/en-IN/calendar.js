@@ -11,12 +11,12 @@ const data = {
     calendar: {
         patterns: {
             d: "d/M/y",
-            D: "EEEE d MMMM y",
+            D: "EEEE, d MMMM, y",
             m: "d MMM",
             M: "d MMMM",
             y: "MMM y",
             Y: "MMMM y",
-            F: "EEEE d MMMM y h:mm:ss a",
+            F: "EEEE, d MMMM, y h:mm:ss a",
             g: "d/M/y h:mm a",
             G: "d/M/y h:mm:ss a",
             t: "h:mm a",
@@ -30,13 +30,18 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E, h:mm B",
+                EBhms: "E, h:mm:ss B",
                 Ed: "E d",
-                Ehm: "E h:mm a",
-                EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
-                EHms: "E HH:mm:ss",
+                Ehm: "E, h:mm a",
+                EHm: "E, HH:mm",
+                Ehms: "E, h:mm:ss a",
+                EHms: "E, HH:mm:ss",
                 Gy: "y G",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
@@ -65,15 +70,15 @@ const data = {
                 y: "y",
                 yM: "MM/y",
                 yMd: "d/M/y",
-                yMEd: "E d/M/y",
+                yMEd: "E, d/M/y",
                 yMMM: "MMM y",
                 yMMMd: "d MMM y",
-                yMMMEd: "E d MMM, y",
+                yMMMEd: "E, d MMM, y",
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'week' w 'of' y",
-                "yw-count-other": "'week' w 'of' y"
+                "yw-count-one": "'week' w 'of' Y",
+                "yw-count-other": "'week' w 'of' Y"
             }
         },
         timeFormats: {
@@ -83,7 +88,7 @@ const data = {
             short: "h:mm a"
         },
         dateFormats: {
-            full: "EEEE d MMMM y",
+            full: "EEEE, d MMMM, y",
             long: "d MMMM y",
             medium: "dd-MMM-y",
             short: "dd/MM/yy"
@@ -453,7 +458,7 @@ const data = {
             },
             dayperiod: {
                 short: "AM/PM",
-                wide: "am/pm",
+                wide: "AM/PM",
                 narrow: "AM/PM"
             },
             hour: {

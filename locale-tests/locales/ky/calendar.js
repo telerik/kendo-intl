@@ -29,8 +29,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "d, E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -70,8 +75,8 @@ const data = {
                 yMMMM: "y-'ж'., MMMM",
                 yQQQ: "y-'ж'., QQQ",
                 yQQQQ: "y-'ж'., QQQQ",
-                "yw-count-one": "y-'жылдын' w-'аптасы'",
-                "yw-count-other": "y-'жылдын' w-'аптасы'"
+                "yw-count-one": "Y-'жылдын' w-'аптасы'",
+                "yw-count-other": "Y-'жылдын' w-'аптасы'"
             }
         },
         timeFormats: {
@@ -413,9 +418,9 @@ const data = {
                 narrow: "апт"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "айдын жумасы",
+                short: "айдын жумасы",
+                narrow: "айдын жумасы"
             },
             day: {
                 wide: "күн",
@@ -423,9 +428,9 @@ const data = {
                 narrow: "күн"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "жылдын күнү",
+                short: "жылдын күнү",
+                narrow: "жылдын күнү"
             },
             weekday: {
                 wide: "аптанын күнү",
@@ -433,9 +438,9 @@ const data = {
                 narrow: "аптанын күнү"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "айдын жумуш күнү",
+                short: "айдын жумуш күнү",
+                narrow: "айдын жумуш күнү"
             },
             dayperiod: {
                 short: "ТЧ/ТК",

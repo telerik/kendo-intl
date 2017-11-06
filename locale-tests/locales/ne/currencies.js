@@ -29,6 +29,10 @@ const data = {
                 "displayName-count-other": "अफ्गान अफ्गानी",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "अल्बानियन लेक",
                 "displayName-count-one": "अल्बानियन लेक",
@@ -341,6 +345,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "चिनियाँ युआन(तटवर्ती)",
+                "displayName-count-one": "चिनियाँ युआन(तटवर्ती)",
+                "displayName-count-other": "चिनियाँ युआन(तटवर्ती)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "चिनिँया युआन",
                 "displayName-count-one": "चिनिँया युआन",
@@ -648,6 +662,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "इजरायली नयाँ शेकेल",
                 "displayName-count-one": "इजरायली नयाँ शेकेल",
@@ -673,6 +691,10 @@ const data = {
                 "displayName-count-one": "इरानियाली रियाल",
                 "displayName-count-other": "इरानियाली रियाल",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "आइसल्याण्डिक क्रोना",
@@ -895,7 +917,7 @@ const data = {
                 symbol: "MLF"
             },
             MMK: {
-                displayName: "म्यान्मा क्याट",
+                displayName: "म्यान्मार क्याट",
                 "displayName-count-one": "म्यान्मार क्याट",
                 "displayName-count-other": "म्यान्मार क्याट",
                 symbol: "MMK",
@@ -934,6 +956,10 @@ const data = {
                 "displayName-count-other": "माउरिटियन रूपी",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "मालडिभियाली रूफियाँ",
@@ -1246,6 +1272,10 @@ const data = {
                 "displayName-count-other": "साओ टोम र प्रिन्सिप डोब्रा",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

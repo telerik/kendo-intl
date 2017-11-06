@@ -78,6 +78,10 @@ const data = {
                 "displayName-count-other": "អាហ្វហ្គានី​អាហ្វហ្គានីស្ថាន",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "លិក​អាល់បានី",
                 "displayName-count-other": "លិក​អាល់បានី",
@@ -362,6 +366,15 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "យ៉ន់ចិន (ក្រៅប្រទេស)",
+                "displayName-count-other": "យ៉ន់ចិន (ក្រៅប្រទេស)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "យ៉ន់​ចិន",
                 "displayName-count-other": "យ៉ន់​ចិន",
@@ -638,6 +651,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "ស៊ីគែលថ្មីអ៊ីស្រាអែល",
                 "displayName-count-other": "ស៊ីគែលថ្មីអ៊ីស្រាអែល",
@@ -659,6 +676,10 @@ const data = {
                 displayName: "រៀល​អ៊ីរ៉ង់",
                 "displayName-count-other": "រៀល អ៊ីរ៉ង់",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "ក្រូណា​អ៊ីស្លង់",
@@ -891,6 +912,10 @@ const data = {
                 "displayName-count-other": "រូពីម៉ូរីតានី",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "រ៉ូហ្វីយ៉ា​ម៉ាល់ឌីវ",
@@ -1166,6 +1191,10 @@ const data = {
                 "displayName-count-other": "ឌូប្រា​សៅតូម៉េ និងប្រាំងស៊ីប",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",
@@ -1515,8 +1544,13 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "d E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -1555,7 +1589,7 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-other": "សប្តាហ៍ទី w នៃឆ្នាំ y"
+                "yw-count-other": "សប្តាហ៍ទី w នៃឆ្នាំ Y"
             }
         },
         timeFormats: {
@@ -1897,9 +1931,9 @@ const data = {
                 narrow: "សប្ដាហ៍"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "សប្ដាហ៍នៃខែ",
+                short: "សប្ដាហ៍នៃខែ",
+                narrow: "សប្ដាហ៍នៃខែ"
             },
             day: {
                 wide: "ថ្ងៃ",
@@ -1907,9 +1941,9 @@ const data = {
                 narrow: "ថ្ងៃ"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "ថ្ងៃនៃឆ្នាំ",
+                short: "ថ្ងៃនៃឆ្នាំ",
+                narrow: "ថ្ងៃនៃឆ្នាំ"
             },
             weekday: {
                 wide: "ថ្ងៃ​នៃ​សប្ដាហ៍",
@@ -1917,9 +1951,9 @@ const data = {
                 narrow: "ថ្ងៃ​នៃ​សប្ដាហ៍"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "ថ្ងៃសប្ដាហ៍នៃខែ",
+                short: "ថ្ងៃសប្ដាហ៍នៃខែ",
+                narrow: "ថ្ងៃសប្ដាហ៍នៃខែ"
             },
             dayperiod: {
                 short: "ព្រឹក/ល្ងាច",

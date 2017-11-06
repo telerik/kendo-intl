@@ -31,6 +31,10 @@ const data = {
                 "displayName-count-other": "Afganistānas afgāni",
                 symbol: "AFN"
             },
+            ALK: {
+                displayName: "ALK",
+                symbol: "ALK"
+            },
             ALL: {
                 displayName: "Albānijas leks",
                 "displayName-count-zero": "Albānijas leki",
@@ -377,6 +381,17 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "Ķīnas juaņa (ofšors)",
+                "displayName-count-zero": "Ķīnas juaņa (ofšors)",
+                "displayName-count-one": "Ķīnas juaņa (ofšors)",
+                "displayName-count-other": "Ķīnas juaņas (ofšors)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "Ķīnas juaņs",
                 "displayName-count-zero": "Ķīnas juaņi",
@@ -715,6 +730,10 @@ const data = {
                 displayName: "ILP",
                 symbol: "ILP"
             },
+            ILR: {
+                displayName: "ILR",
+                symbol: "ILR"
+            },
             ILS: {
                 displayName: "Izraēlas šekelis",
                 "displayName-count-zero": "Izraēlas šekeļi",
@@ -744,6 +763,10 @@ const data = {
                 "displayName-count-one": "Irānas riāls",
                 "displayName-count-other": "Irānas riāli",
                 symbol: "IRR"
+            },
+            ISJ: {
+                displayName: "ISJ",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Islandes krona",
@@ -1034,6 +1057,10 @@ const data = {
                 "displayName-count-other": "Maurīcijas rūpijas",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
+            },
+            MVP: {
+                displayName: "MVP",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "Maldīvijas rūfija",
@@ -1387,6 +1414,10 @@ const data = {
                 "displayName-count-other": "Santome un Prinsipi dobras",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

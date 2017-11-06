@@ -36,7 +36,8 @@ const data = {
             ALK: {
                 displayName: "Albaania lekk (1946–1965)",
                 "displayName-count-one": "Albaania lekk (1946–1965)",
-                "displayName-count-other": "Albaania lekki (1946–1965)"
+                "displayName-count-other": "Albaania lekki (1946–1965)",
+                symbol: "ALK"
             },
             ALL: {
                 displayName: "Albaania lekk",
@@ -390,6 +391,16 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "Hiina jüaan (välismaine turg)",
+                "displayName-count-one": "Hiina jüaan (välismaine turg)",
+                "displayName-count-other": "Hiina jüaani (välismaine turg)",
+                symbol: "CNH"
+            },
+            CNX: {
+                displayName: "CNX",
+                symbol: "CNX"
+            },
             CNY: {
                 displayName: "Hiina jüaan",
                 "displayName-count-one": "Hiina jüaan",
@@ -733,7 +744,8 @@ const data = {
             ILR: {
                 displayName: "Iisraeli seekel (1980–1985)",
                 "displayName-count-one": "Iisraeli seekel (1980–1985)",
-                "displayName-count-other": "Iisraeli seekelit (1980–1985)"
+                "displayName-count-other": "Iisraeli seekelit (1980–1985)",
+                symbol: "ILR"
             },
             ILS: {
                 displayName: "Iisraeli uus seekel",
@@ -764,7 +776,8 @@ const data = {
             ISJ: {
                 displayName: "Islandi kroon (1918–1981)",
                 "displayName-count-one": "Islandi kroon (1918–1981)",
-                "displayName-count-other": "Islandi krooni (1918–1981)"
+                "displayName-count-other": "Islandi krooni (1918–1981)",
+                symbol: "ISJ"
             },
             ISK: {
                 displayName: "Islandi kroon",
@@ -1056,7 +1069,8 @@ const data = {
             MVP: {
                 displayName: "Maldiivi ruupia (1947–1981)",
                 "displayName-count-one": "Maldiivi ruupia (1947–1981)",
-                "displayName-count-other": "Maldiivi ruupiat (1947–1981)"
+                "displayName-count-other": "Maldiivi ruupiat (1947–1981)",
+                symbol: "MVP"
             },
             MVR: {
                 displayName: "Maldiivi ruupia",
@@ -1399,6 +1413,10 @@ const data = {
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
             },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
+            },
             SUR: {
                 displayName: "NSVL-i rubla",
                 symbol: "SUR"
@@ -1494,9 +1512,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             TWD: {
-                displayName: "Taiwani dollar",
-                "displayName-count-one": "Taiwani dollar",
-                "displayName-count-other": "Taiwani dollarit",
+                displayName: "uus Taiwani dollar",
+                "displayName-count-one": "uus Taiwani dollar",
+                "displayName-count-other": "uut Taiwani dollarit",
                 symbol: "NT$",
                 "symbol-alt-narrow": "NT$"
             },

@@ -249,8 +249,8 @@ const data = {
                 symbol: "BIF"
             },
             BMD: {
-                displayName: "百慕達幣",
-                "displayName-count-other": "百慕達幣",
+                displayName: "百慕達元",
+                "displayName-count-other": "百慕達元",
                 symbol: "BMD",
                 "symbol-alt-narrow": "$"
             },
@@ -403,7 +403,12 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "人民幣（離岸）",
+                symbol: "CNH"
+            },
             CNX: {
+                displayName: "CNX",
                 symbol: "CNX"
             },
             CNY: {
@@ -484,7 +489,7 @@ const data = {
             },
             DKK: {
                 displayName: "丹麥克朗",
-                "displayName-count-other": "丹麥克羅納",
+                "displayName-count-other": "丹麥克朗",
                 symbol: "DKK",
                 "symbol-alt-narrow": "kr"
             },
@@ -805,8 +810,8 @@ const data = {
                 symbol: "KRO"
             },
             KRW: {
-                displayName: "韓圓",
-                "displayName-count-other": "韓圓",
+                displayName: "韓元",
+                "displayName-count-other": "韓元",
                 symbol: "₩",
                 "symbol-alt-narrow": "₩"
             },
@@ -1069,7 +1074,7 @@ const data = {
             },
             NOK: {
                 displayName: "挪威克朗",
-                "displayName-count-other": "挪威克羅納",
+                "displayName-count-other": "挪威克朗",
                 symbol: "NOK",
                 "symbol-alt-narrow": "kr"
             },
@@ -1226,7 +1231,7 @@ const data = {
             },
             SEK: {
                 displayName: "瑞典克朗",
-                "displayName-count-other": "瑞典克羅納",
+                "displayName-count-other": "瑞典克朗",
                 symbol: "SEK",
                 "symbol-alt-narrow": "kr"
             },
@@ -1284,6 +1289,10 @@ const data = {
                 "displayName-count-other": "聖多美和普林西比多布拉",
                 symbol: "STD",
                 "symbol-alt-narrow": "Db"
+            },
+            STN: {
+                displayName: "STN",
+                symbol: "STN"
             },
             SUR: {
                 displayName: "蘇聯盧布",
@@ -1675,8 +1684,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "Bh時",
+                Bhm: "Bh:mm",
+                Bhms: "Bh:mm:ss",
                 d: "d日",
                 E: "ccc",
+                EBhm: "E Bh:mm",
+                EBhms: "E Bh:mm:ss",
                 Ed: "d日E",
                 Ehm: "E ah:mm",
                 EHm: "E HH:mm",
@@ -1717,7 +1731,7 @@ const data = {
                 yMMMM: "y年M月",
                 yQQQ: "y年QQQ",
                 yQQQQ: "y年QQQQ",
-                "yw-count-other": "y年第w週"
+                "yw-count-other": "Y年第w週"
             }
         },
         timeFormats: {
@@ -1915,10 +1929,10 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "第1季度",
-                    "第2季度",
-                    "第3季度",
-                    "第4季度"
+                    "第1季",
+                    "第2季",
+                    "第3季",
+                    "第4季"
                 ]
             },
             "stand-alone": {
@@ -1935,10 +1949,10 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "第1季度",
-                    "第2季度",
-                    "第3季度",
-                    "第4季度"
+                    "第1季",
+                    "第2季",
+                    "第3季",
+                    "第4季"
                 ]
             }
         },
@@ -1948,7 +1962,7 @@ const data = {
                     midnight: "午夜",
                     am: "上午",
                     pm: "下午",
-                    morning1: "清晨",
+                    morning1: "早上",
                     morning2: "上午",
                     afternoon1: "中午",
                     afternoon2: "下午",
@@ -1959,7 +1973,7 @@ const data = {
                     midnight: "午夜",
                     am: "上午",
                     pm: "下午",
-                    morning1: "清晨",
+                    morning1: "早上",
                     morning2: "上午",
                     afternoon1: "中午",
                     afternoon2: "下午",
@@ -1970,7 +1984,7 @@ const data = {
                     midnight: "午夜",
                     am: "上午",
                     pm: "下午",
-                    morning1: "清晨",
+                    morning1: "早上",
                     morning2: "上午",
                     afternoon1: "中午",
                     afternoon2: "下午",
@@ -1983,7 +1997,7 @@ const data = {
                     midnight: "午夜",
                     am: "上午",
                     pm: "下午",
-                    morning1: "清晨",
+                    morning1: "早上",
                     morning2: "上午",
                     afternoon1: "中午",
                     afternoon2: "下午",
@@ -1994,7 +2008,7 @@ const data = {
                     midnight: "午夜",
                     am: "上午",
                     pm: "下午",
-                    morning1: "清晨",
+                    morning1: "早上",
                     morning2: "上午",
                     afternoon1: "中午",
                     afternoon2: "下午",
@@ -2005,7 +2019,7 @@ const data = {
                     midnight: "午夜",
                     am: "上午",
                     pm: "下午",
-                    morning1: "清晨",
+                    morning1: "早上",
                     morning2: "上午",
                     afternoon1: "中午",
                     afternoon2: "下午",
@@ -2065,9 +2079,9 @@ const data = {
                 narrow: "週"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "週",
+                short: "週",
+                narrow: "週"
             },
             day: {
                 wide: "日",
@@ -2075,9 +2089,9 @@ const data = {
                 narrow: "日"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "年天",
+                short: "年天",
+                narrow: "年天"
             },
             weekday: {
                 wide: "星期幾",
@@ -2085,9 +2099,9 @@ const data = {
                 narrow: "星期幾"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "每月平日",
+                short: "每月平日",
+                narrow: "每月平日"
             },
             dayperiod: {
                 short: "上午/下午",
