@@ -4,7 +4,7 @@ import { CURRENCY, ACCOUNTING, DECIMAL, CURRENCY_PLACEHOLDER, NUMBER_PLACEHOLDER
 const LATIN_NUMBER_FORMATS = "Formats-numberSystem-latn";
 const LATIN_NUMBER_SYMBOLS = "symbols-numberSystem-latn";
 
-const patternRegExp = /([ #,0. ]+)/g;
+const patternRegExp = /([#,0.]+)/g;
 const cldrCurrencyRegExp = /¤/g;
 
 function getPatterns(pattern) {
