@@ -63,6 +63,34 @@ describe('load numbers', () => {
         expect(percent.groupSize[0]).toEqual(3);
     });
 
+    it('preserve pattern spaces', () => {
+        load({
+            main: {
+                patternSpaces: {
+                    numbers: {
+                        "decimalFormats-numberSystem-latn": {
+                            standard: "foo #,##0.### bar;bar #,##0.### foo "
+                        },
+                        "currencyFormats-numberSystem-latn":{
+                            standard: "¤ #,##0.00 bar",
+                            accounting: "foo #,##0.00 ¤",
+                        },
+                        "percentFormats-numberSystem-latn": {
+                            standard: "% #,##0.00 bar",
+                        }
+                    }
+                }
+            }
+        });
+        const info = cldr.patternSpaces.numbers;
+
+        expect(info.decimal.patterns[0]).toEqual("foo n bar");
+        expect(info.decimal.patterns[1]).toEqual("bar n foo ");
+        expect(info.currency.patterns[0]).toEqual("$ n bar");
+        expect(info.accounting.patterns[0]).toEqual("foo n $");
+        expect(info.percent.patterns[0]).toEqual("% n bar");
+    });
+
     describe('load currencies', () => {
 
         it('should set currencies', () => {
