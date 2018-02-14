@@ -1,15 +1,14 @@
 {
   "name": "@telerik/kendo-intl",
   "description": "A package exporting functions for date and number parsing and formatting",
+  "author": "Telerik",
+  "license": "Apache-2.0",
   "version": "0.0.0-semantically-released",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/telerik/kendo-intl.git"
-  },
   "main": "dist/npm/main.js",
   "module": "dist/es/main.js",
   "jsnext:main": "dist/es/main.js",
-  "typings": "dist/es/main",
+  "es2015": "dist/es2015/main.js",
+  "typings": "dist/npm/main.d.ts",
   "scripts": {
     "build-package": "gulp build-rollup-package",
     "test": "gulp test",
@@ -21,13 +20,10 @@
     "Kendo",
     "Internationalization"
   ],
-  "dependencies": {
-  },
-  "author": "Telerik",
-  "license": "Apache-2.0",
+  "dependencies": {},
   "devDependencies": {
     "@telerik/eslint-config": "^1.0.0",
-    "@telerik/kendo-package-tasks": "^1.6.1",
+    "@telerik/kendo-package-tasks": "^2.0.0",
     "@telerik/semantic-prerelease": "^1.0.0",
     "cldr-data": "latest",
     "cz-conventional-changelog": "^1.1.5",
@@ -44,6 +40,10 @@
       "pre-commit": "npm run lint",
       "commit-msg": "validate-commit-msg"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/telerik/kendo-intl.git"
   },
   "release": {
     "debug": false,
