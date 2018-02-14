@@ -8,6 +8,5 @@
 /test
 CODEOWNERS.md
 CONTRIBUTING.md
-build-locales.js
 gulpfile.js
 tmp
