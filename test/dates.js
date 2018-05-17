@@ -927,7 +927,7 @@ describe('date parsing', () => {
     });
 
     it("parses iso8601 with 2 digit milliseconds and timezone without specified format", () => {
-        expect(parseDate("2000-10-10T14:30:00.03+02:00")).toEqual(new Date(2000, 9, 10, 15, 30, 0, 30));
+        expect(+parseDate("2000-10-10T14:30:00.03+02:00")).toEqual(Date.parse("2000-10-10T14:30:00.03+02:00"));
     });
 
     it("parses datetime with timezone offset (hours)", () => {
