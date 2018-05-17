@@ -926,6 +926,10 @@ describe('date parsing', () => {
         expect(+parseDate("2000-10-10T14:30+03:30", "yyyy-MM-ddTHH:mmXXX")).toEqual(Date.parse("2000-10-10T14:30+03:30"));
     });
 
+    it("parses iso8601 with 2 digit milliseconds and timezone without specified format", () => {
+        expect(parseDate("2000-10-10T14:30:00.03+02:00")).toEqual(new Date(2000, 9, 10, 15, 30, 0, 30));
+    });
+
     it("parses datetime with timezone offset (hours)", () => {
         expect(+parseDate("2000-10-10 14:30 +01", "yyyy-MM-dd HH:mm X")).toEqual(Date.parse("2000-10-10T14:30+01:00"));
     });
