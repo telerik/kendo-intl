@@ -25,6 +25,7 @@ const standardDateFormats = [
     "E MMM dd yyyy HH:mm:ss",
     "yyyy-MM-ddTHH:mm:ss.SSSSSSSXXX",
     "yyyy-MM-ddTHH:mm:ss.SSSXXX",
+    "yyyy-MM-ddTHH:mm:ss.SSXXX",
     "yyyy-MM-ddTHH:mm:ssXXX",
     "yyyy-MM-ddTHH:mm:ss.SSSSSSS",
     "yyyy-MM-ddTHH:mm:ss.SSS",
