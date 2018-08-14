@@ -844,9 +844,14 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "อูกียามอริเตเนีย (1973–2017)",
+                "displayName-count-other": "อูกียามอริเตเนีย (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "อูกียามอริเตเนีย",
                 "displayName-count-other": "อูกียามอริเตเนีย",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "ลีรามอลตา",
@@ -1138,14 +1143,15 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
-                displayName: "ดอบราเซาตูเมและปรินซิปี",
-                "displayName-count-other": "ดอบราเซาตูเมและปรินซิปี",
-                symbol: "STD",
-                "symbol-alt-narrow": "Db"
+                displayName: "ดอบราเซาตูเมและปรินซิปี (1977–2017)",
+                "displayName-count-other": "ดอบราเซาตูเมและปรินซิปี (1977–2017)",
+                symbol: "STD"
             },
             STN: {
-                displayName: "STN",
-                symbol: "STN"
+                displayName: "ดอบราเซาตูเมและปรินซิปี",
+                "displayName-count-other": "ดอบราเซาตูเมและปรินซิปี",
+                symbol: "STN",
+                "symbol-alt-narrow": "Db"
             },
             SUR: {
                 displayName: "รูเบิลโซเวียต",

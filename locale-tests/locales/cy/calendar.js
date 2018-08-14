@@ -313,12 +313,22 @@ const data = {
         dayPeriods: {
             format: {
                 abbreviated: {
+                    midnight: "canol nos",
                     am: "yb",
-                    pm: "yh"
+                    noon: "canol dydd",
+                    pm: "yh",
+                    morning1: "y bore",
+                    afternoon1: "y prynhawn",
+                    evening1: "yr hwyr"
                 },
                 narrow: {
+                    midnight: "canol nos",
                     am: "b",
-                    pm: "h"
+                    noon: "canol dydd",
+                    pm: "h",
+                    morning1: "yn y bore",
+                    afternoon1: "yn y prynhawn",
+                    evening1: "min nos"
                 },
                 wide: {
                     midnight: "canol nos",
@@ -332,12 +342,22 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: {
+                    midnight: "canol nos",
                     am: "yb",
-                    pm: "yh"
+                    noon: "canol dydd",
+                    pm: "yh",
+                    morning1: "bore",
+                    afternoon1: "prynhawn",
+                    evening1: "yr hwyr"
                 },
                 narrow: {
+                    midnight: "canol nos",
                     am: "yb",
-                    pm: "yh"
+                    noon: "canol dydd",
+                    pm: "yh",
+                    morning1: "bore",
+                    afternoon1: "prynhawn",
+                    evening1: "min nos"
                 },
                 wide: {
                     midnight: "canol nos",

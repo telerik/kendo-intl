@@ -1054,10 +1054,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "Ουγκίγια Μαυριτανίας (1973–2017)",
+                "displayName-count-one": "ουγκίγια Μαυριτανίας (1973–2017)",
+                "displayName-count-other": "ουγκίγια Μαυριτανίας (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "Ουγκίγια Μαυριτανίας",
                 "displayName-count-one": "ουγκίγια Μαυριτανίας",
                 "displayName-count-other": "ουγκίγια Μαυριτανίας",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "Λιρέτα Μάλτας",
@@ -1421,15 +1427,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "Ντόμπρα Σάο Τομέ και Πρίνσιπε (1977–2017)",
+                "displayName-count-one": "ντόμπρα Σάο Τομέ και Πρίνσιπε (1977–2017)",
+                "displayName-count-other": "ντόμπρα Σάο Τομέ και Πρίνσιπε (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "Ντόμπρα Σάο Τομέ και Πρίνσιπε",
                 "displayName-count-one": "ντόμπρα Σάο Τομέ και Πρίνσιπε",
                 "displayName-count-other": "ντόμπρα Σάο Τομέ και Πρίνσιπε",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "Σοβιετικό Ρούβλι",

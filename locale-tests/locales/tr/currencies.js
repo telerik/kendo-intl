@@ -1067,10 +1067,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "Moritanya Ouguiyası (1973–2017)",
+                "displayName-count-one": "Moritanya ouguiyası (1973–2017)",
+                "displayName-count-other": "Moritanya ouguiyası (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "Moritanya Ouguiyası",
                 "displayName-count-one": "Moritanya ouguiyası",
                 "displayName-count-other": "Moritanya ouguiyası",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "Malta Lirası",
@@ -1428,15 +1434,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "São Tomé ve Príncipe Dobrası (1977–2017)",
+                "displayName-count-one": "São Tomé ve Príncipe dobrası (1977–2017)",
+                "displayName-count-other": "São Tomé ve Príncipe dobrası (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "São Tomé ve Príncipe Dobrası",
                 "displayName-count-one": "São Tomé ve Príncipe dobrası",
                 "displayName-count-other": "São Tomé ve Príncipe dobrası",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "Sovyet Rublesi",

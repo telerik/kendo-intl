@@ -401,7 +401,13 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
+            CNH: {
+                displayName: "人民幣 (離岸)",
+                "displayName-count-other": "人民幣 (離岸)",
+                symbol: "CNH"
+            },
             CNX: {
+                displayName: "CNX",
                 symbol: "CNX"
             },
             CNY: {
@@ -965,9 +971,14 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "茅利塔尼亞烏吉亞 (1973–2017)",
+                "displayName-count-other": "茅利塔尼亞烏吉亞 (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "茅利塔尼亞烏吉亞",
                 "displayName-count-other": "茅利塔尼亞烏吉亞",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "馬爾他里拉",
@@ -1278,9 +1289,14 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "聖多美島和普林西比島多布拉 (1977–2017)",
+                "displayName-count-other": "聖多美島和普林西比島多布拉 (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "聖多美島和普林西比島多布拉",
                 "displayName-count-other": "聖多美島和普林西比島多布拉",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },
             SUR: {
@@ -1673,8 +1689,13 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
+                Bh: "Bh時",
+                Bhm: "Bh:mm",
+                Bhms: "Bh:mm:ss",
                 d: "d日",
                 E: "ccc",
+                EBhm: "E Bh:mm",
+                EBhms: "E Bh:mm:ss",
                 Ed: "d E",
                 Ehm: "E ah:mm",
                 EHm: "E HH:mm",
@@ -1715,7 +1736,7 @@ const data = {
                 yMMMM: "y年M月",
                 yQQQ: "y年QQQ",
                 yQQQQ: "y年QQQQ",
-                "yw-count-other": "y年第w個星期"
+                "yw-count-other": "Y年第w個星期"
             }
         },
         timeFormats: {
@@ -1733,13 +1754,13 @@ const data = {
         days: {
             format: {
                 abbreviated: [
-                    "週日",
-                    "週一",
-                    "週二",
-                    "週三",
-                    "週四",
-                    "週五",
-                    "週六"
+                    "星期日",
+                    "星期一",
+                    "星期二",
+                    "星期三",
+                    "星期四",
+                    "星期五",
+                    "星期六"
                 ],
                 narrow: [
                     "日",
@@ -1771,13 +1792,13 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "週日",
-                    "週一",
-                    "週二",
-                    "週三",
-                    "週四",
-                    "週五",
-                    "週六"
+                    "星期日",
+                    "星期一",
+                    "星期二",
+                    "星期三",
+                    "星期四",
+                    "星期五",
+                    "星期六"
                 ],
                 narrow: [
                     "日",
@@ -2063,9 +2084,9 @@ const data = {
                 narrow: "週"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "月週",
+                short: "月週",
+                narrow: "月週"
             },
             day: {
                 wide: "日",
@@ -2073,9 +2094,9 @@ const data = {
                 narrow: "日"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "年日",
+                short: "年日",
+                narrow: "年日"
             },
             weekday: {
                 wide: "週天",
@@ -2083,9 +2104,9 @@ const data = {
                 narrow: "週天"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "月平日",
+                short: "月平日",
+                narrow: "月平日"
             },
             dayperiod: {
                 short: "上午/下午",

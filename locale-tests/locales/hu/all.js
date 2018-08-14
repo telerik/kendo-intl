@@ -1032,10 +1032,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "mauritániai ouguiya (1973–2017)",
+                "displayName-count-one": "mauritániai ouguiya (1973–2017)",
+                "displayName-count-other": "mauritániai ouguiya (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "mauritániai ouguiya",
                 "displayName-count-one": "mauritániai ouguiya",
                 "displayName-count-other": "mauritániai ouguiya",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "Máltai líra",
@@ -1371,15 +1377,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "São Tomé és Príncipe-i dobra (1977–2017)",
+                "displayName-count-one": "São Tomé és Príncipe-i dobra (1977–2017)",
+                "displayName-count-other": "São Tomé és Príncipe-i dobra (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "São Tomé és Príncipe-i dobra",
                 "displayName-count-one": "São Tomé és Príncipe-i dobra",
                 "displayName-count-other": "São Tomé és Príncipe-i dobra",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "Szovjet rubel",

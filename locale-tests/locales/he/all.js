@@ -1173,12 +1173,20 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "אואוגויה מאוריטני (1973–2017)",
+                "displayName-count-one": "אואוגויה מאוריטני (1973–2017)",
+                "displayName-count-two": "אואוגויה מאוריטני (1973–2017)",
+                "displayName-count-many": "אואוגויה מאוריטני (1973–2017)",
+                "displayName-count-other": "אואוגויה מאוריטני (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "אואוגויה מאוריטני",
                 "displayName-count-one": "אואוגויה מאוריטני",
                 "displayName-count-two": "אואוגויה מאוריטני",
                 "displayName-count-many": "אואוגויה מאוריטני",
                 "displayName-count-other": "אואוגויה מאוריטני",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "לירה מלטית",
@@ -1581,17 +1589,21 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "דוברה של סן טומה ופרינסיפה (1977–2017)",
+                "displayName-count-one": "דוברה של סן טומה ופרינסיפה (1977–2017)",
+                "displayName-count-two": "דוברה של סן טומה ופרינסיפה (1977–2017)",
+                "displayName-count-many": "דוברה של סן טומה ופרינסיפה (1977–2017)",
+                "displayName-count-other": "דוברה של סן טומה ופרינסיפה (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "דוברה של סן טומה ופרינסיפה",
                 "displayName-count-one": "דוברה של סן טומה ופרינסיפה",
                 "displayName-count-two": "דוברה של סן טומה ופרינסיפה",
                 "displayName-count-many": "דוברה של סן טומה ופרינסיפה",
                 "displayName-count-other": "דוברה של סן טומה ופרינסיפה",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "רובל סובייטי",

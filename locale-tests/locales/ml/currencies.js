@@ -1051,10 +1051,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "മൗറിറ്റേനിയൻ ഔഗിയ (1973–2017)",
+                "displayName-count-one": "മൗറിറ്റേനിയൻ ഔഗിയ (1973–2017)",
+                "displayName-count-other": "മൗറിറ്റേനിയൻ ഔഗിയ (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "മൗറിറ്റേനിയൻ ഔഗിയ",
                 "displayName-count-one": "മൗറിറ്റേനിയൻ ഔഗിയ",
                 "displayName-count-other": "മൗറിറ്റേനിയൻ ഔഗിയ",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "മൽത്തീസ് ലിറ",
@@ -1390,15 +1396,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "സാവോ ടോമി ആൻഡ് പ്രിൻസിപെ ഡോബ്ര (1977–2017)",
+                "displayName-count-one": "സാവോ ടോമി ആൻഡ് പ്രിൻസിപെ ഡോബ്ര (1977–2017)",
+                "displayName-count-other": "സാവോ ടോമി ആൻഡ് പ്രിൻസിപെ ഡോബ്ര (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "സാവോ ടോമി ആൻഡ് പ്രിൻസിപെ ഡോബ്ര",
                 "displayName-count-one": "സാവോ ടോമി ആൻഡ് പ്രിൻസിപെ ഡോബ്ര",
                 "displayName-count-other": "സാവോ ടോമി ആൻഡ് പ്രിൻസിപെ ഡോബ്ര",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "സോവിയറ്റ് റൂബിൾ",

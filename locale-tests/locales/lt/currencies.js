@@ -1431,12 +1431,20 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "Mauritanijos ugija (1973–2017)",
+                "displayName-count-one": "Mauritanijos ugija (1973–2017)",
+                "displayName-count-few": "Mauritanijos ugijos (1973–2017)",
+                "displayName-count-many": "Mauritanijos ugijos (1973–2017)",
+                "displayName-count-other": "Mauritanijos ugijų (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "Mauritanijos ugija",
                 "displayName-count-one": "Mauritanijos ugija",
                 "displayName-count-few": "Mauritanijos ugijos",
                 "displayName-count-many": "Mauritanijos ugijos",
                 "displayName-count-other": "Mauritanijos ugijų",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "Maltos lira",
@@ -1919,17 +1927,21 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "San Tomės ir Principės dobra (1977–2017)",
+                "displayName-count-one": "San Tomės ir Principės dobra (1977–2017)",
+                "displayName-count-few": "San Tomės ir Principės dobros (1977–2017)",
+                "displayName-count-many": "San Tomės ir Principės dobros (1977–2017)",
+                "displayName-count-other": "Sao Tomės ir Principės dobrų (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "San Tomės ir Principės dobra",
                 "displayName-count-one": "San Tomės ir Principės dobra",
                 "displayName-count-few": "San Tomės ir Principės dobros",
                 "displayName-count-many": "San Tomės ir Principės dobros",
                 "displayName-count-other": "Sao Tomės ir Principės dobrų",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "Sovietų rublis",

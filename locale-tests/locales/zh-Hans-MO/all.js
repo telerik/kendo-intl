@@ -969,9 +969,14 @@ const data = {
                 symbol: "MOP$"
             },
             MRO: {
+                displayName: "毛里塔尼亚乌吉亚 (1973–2017)",
+                "displayName-count-other": "毛里塔尼亚乌吉亚 (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "毛里塔尼亚乌吉亚",
                 "displayName-count-other": "毛里塔尼亚乌吉亚",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "马耳他里拉",
@@ -1282,14 +1287,15 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
-                displayName: "圣多美和普林西比多布拉",
-                "displayName-count-other": "圣多美和普林西比多布拉",
-                symbol: "STD",
-                "symbol-alt-narrow": "Db"
+                displayName: "圣多美和普林西比多布拉 (1977–2017)",
+                "displayName-count-other": "圣多美和普林西比多布拉 (1977–2017)",
+                symbol: "STD"
             },
             STN: {
-                displayName: "STN",
-                symbol: "STN"
+                displayName: "圣多美和普林西比多布拉",
+                "displayName-count-other": "圣多美和普林西比多布拉",
+                symbol: "STN",
+                "symbol-alt-narrow": "Db"
             },
             SUR: {
                 displayName: "苏联卢布",

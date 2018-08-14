@@ -895,9 +895,14 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "모리타니 우기야 (1973–2017)",
+                "displayName-count-other": "모리타니 우기야 (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "모리타니 우기야",
                 "displayName-count-other": "모리타니 우기야",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "몰타 리라",
@@ -1187,14 +1192,15 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
-                displayName: "상투메 프린시페 도브라",
-                "displayName-count-other": "상투메 프린시페 도브라",
-                symbol: "STD",
-                "symbol-alt-narrow": "Db"
+                displayName: "상투메 프린시페 도브라 (1977–2017)",
+                "displayName-count-other": "상투메 프린시페 도브라 (1977–2017)",
+                symbol: "STD"
             },
             STN: {
-                displayName: "STN",
-                symbol: "STN"
+                displayName: "상투메 프린시페 도브라",
+                "displayName-count-other": "상투메 프린시페 도브라",
+                symbol: "STN",
+                "symbol-alt-narrow": "Db"
             },
             SUR: {
                 displayName: "소련 루블",

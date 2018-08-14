@@ -895,9 +895,14 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "អ៊ូហ្គីយ៉ា​ម៉ូរីតានី (1973–2017)",
+                "displayName-count-other": "អ៊ូហ្គីយ៉ា​ម៉ូរីតានី (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "អ៊ូហ្គីយ៉ា​ម៉ូរីតានី",
                 "displayName-count-other": "អ៊ូហ្គីយ៉ា​ម៉ូរីតានី",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "MTL",
@@ -1187,14 +1192,15 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
-                displayName: "ឌូប្រា​សៅតូម៉េ និងប្រាំងស៊ីប",
-                "displayName-count-other": "ឌូប្រា​សៅតូម៉េ និងប្រាំងស៊ីប",
-                symbol: "STD",
-                "symbol-alt-narrow": "Db"
+                displayName: "ឌូប្រា​សៅតូម៉េ និងប្រាំងស៊ីប (1977–2017)",
+                "displayName-count-other": "ឌូប្រា​សៅតូម៉េ និងប្រាំងស៊ីប (1977–2017)",
+                symbol: "STD"
             },
             STN: {
-                displayName: "STN",
-                symbol: "STN"
+                displayName: "ឌូប្រា​សៅតូម៉េ និងប្រាំងស៊ីប",
+                "displayName-count-other": "ឌូប្រា​សៅតូម៉េ និងប្រាំងស៊ីប",
+                symbol: "STN",
+                "symbol-alt-narrow": "Db"
             },
             SUR: {
                 displayName: "SUR",

@@ -1144,10 +1144,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "Mauritaanse ouguiya (1973–2017)",
+                "displayName-count-one": "Mauritaanse ouguiya (1973–2017)",
+                "displayName-count-other": "Mauritaanse ouguiya (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "Mauritaanse ouguiya",
                 "displayName-count-one": "Mauritaanse ouguiya",
                 "displayName-count-other": "Mauritaanse ouguiya",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "Maltese lire",
@@ -1515,15 +1521,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "Santomese dobra (1977–2017)",
+                "displayName-count-one": "Santomese dobra (1977–2017)",
+                "displayName-count-other": "Santomese dobra (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "Santomese dobra",
                 "displayName-count-one": "Santomese dobra",
                 "displayName-count-other": "Santomese dobra",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "Sovjet-roebel",

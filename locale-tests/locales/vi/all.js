@@ -894,9 +894,14 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "Ouguiya Mauritania (1973–2017)",
+                "displayName-count-other": "Ouguiya Mauritania (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "Ouguiya Mauritania",
                 "displayName-count-other": "Ouguiya Mauritania",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "Lia xứ Man-tơ",
@@ -1186,14 +1191,15 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
-                displayName: "Dobra São Tomé và Príncipe",
-                "displayName-count-other": "Dobra São Tomé và Príncipe",
-                symbol: "STD",
-                "symbol-alt-narrow": "Db"
+                displayName: "Dobra São Tomé và Príncipe (1977–2017)",
+                "displayName-count-other": "Dobra São Tomé và Príncipe (1977–2017)",
+                symbol: "STD"
             },
             STN: {
-                displayName: "STN",
-                symbol: "STN"
+                displayName: "Dobra São Tomé và Príncipe",
+                "displayName-count-other": "Dobra São Tomé và Príncipe",
+                symbol: "STN",
+                "symbol-alt-narrow": "Db"
             },
             SUR: {
                 displayName: "Đồng Rúp Sô viết",
@@ -1889,19 +1895,19 @@ const data = {
                 wide: {
                     0: "Trước CN",
                     1: "sau CN",
-                    "0-alt-variant": "BCE",
+                    "0-alt-variant": "trước CN",
                     "1-alt-variant": "CN"
                 },
                 abbreviated: {
                     0: "Trước CN",
                     1: "sau CN",
-                    "0-alt-variant": "BCE",
+                    "0-alt-variant": "trước CN",
                     "1-alt-variant": "CN"
                 },
                 narrow: {
                     0: "tr. CN",
                     1: "sau CN",
-                    "0-alt-variant": "BCE",
+                    "0-alt-variant": "trước CN",
                     "1-alt-variant": "CN"
                 }
             }

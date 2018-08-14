@@ -991,10 +991,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "Mauritaniako ouguiya (1973–2017)",
+                "displayName-count-one": "Mauritaniako ouguiya (1973–2017)",
+                "displayName-count-other": "Mauritaniako ouguiya (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "Mauritaniako ouguiya",
                 "displayName-count-one": "Mauritaniako ouguiya",
                 "displayName-count-other": "Mauritaniako ouguiya",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "MTL",
@@ -1320,15 +1326,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "Sao Tomeko eta Principeko dobra (1977–2017)",
+                "displayName-count-one": "Sao Tomeko eta Principeko dobra (1977–2017)",
+                "displayName-count-other": "Sao Tomeko eta Principeko dobra (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "Sao Tomeko eta Principeko dobra",
                 "displayName-count-one": "Sao Tomeko eta Principeko dobra",
                 "displayName-count-other": "Sao Tomeko eta Principeko dobra",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

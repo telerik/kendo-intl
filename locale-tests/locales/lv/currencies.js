@@ -1036,11 +1036,18 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "Mauritānijas ugija (1973–2017)",
+                "displayName-count-zero": "Mauritānijas ugijas (1973–2017)",
+                "displayName-count-one": "Mauritānijas ugija (1973–2017)",
+                "displayName-count-other": "Mauritānijas ugijas (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "Mauritānijas ugija",
                 "displayName-count-zero": "Mauritānijas ugijas",
                 "displayName-count-one": "Mauritānijas ugija",
                 "displayName-count-other": "Mauritānijas ugijas",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "Maltas lira",
@@ -1408,16 +1415,19 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "Santome un Prinsipi dobra (1977–2017)",
+                "displayName-count-zero": "Santome un Prinsipi dobras (1977–2017)",
+                "displayName-count-one": "Santome un Prinsipi dobra (1977–2017)",
+                "displayName-count-other": "Santome un Prinsipi dobras (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "Santome un Prinsipi dobra",
                 "displayName-count-zero": "Santome un Prinsipi dobras",
                 "displayName-count-one": "Santome un Prinsipi dobra",
                 "displayName-count-other": "Santome un Prinsipi dobras",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

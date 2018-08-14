@@ -1168,12 +1168,20 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "маўрытанская ўгія (1973–2017)",
+                "displayName-count-one": "маўрытанская ўгія (1973–2017)",
+                "displayName-count-few": "маўрытанскія ўгіі (1973–2017)",
+                "displayName-count-many": "маўрытанскіх угій (1973–2017)",
+                "displayName-count-other": "маўрытанскай ўгіі (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "маўрытанская ўгія",
                 "displayName-count-one": "маўрытанская ўгія",
                 "displayName-count-few": "маўрытанскія ўгіі",
                 "displayName-count-many": "маўрытанскіх угій",
                 "displayName-count-other": "маўрытанскай ўгіі",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "MTL",
@@ -1571,17 +1579,21 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "добра Сан-Тамэ і Прынсіпі (1977–2017)",
+                "displayName-count-one": "добра Сан-Тамэ і Прынсіпі (1977–2017)",
+                "displayName-count-few": "добры Сан-Тамэ і Прынсіпі (1977–2017)",
+                "displayName-count-many": "добраў Сан-Тамэ і Прынсіпі (1977–2017)",
+                "displayName-count-other": "добры Сан-Тамэ і Прынсіпі (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "добра Сан-Тамэ і Прынсіпі",
                 "displayName-count-one": "добра Сан-Тамэ і Прынсіпі",
                 "displayName-count-few": "добры Сан-Тамэ і Прынсіпі",
                 "displayName-count-many": "добраў Сан-Тамэ і Прынсіпі",
                 "displayName-count-other": "добры Сан-Тамэ і Прынсіпі",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

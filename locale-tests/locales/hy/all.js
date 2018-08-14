@@ -988,10 +988,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "մավրիտանական ուգիյա (1973–2017)",
+                "displayName-count-one": "մավրիտանական ուգիյա (1973–2017)",
+                "displayName-count-other": "մավրիտանական ուգիյա (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "մավրիտանական ուգիյա",
                 "displayName-count-one": "մավրիտանական ուգիյա",
                 "displayName-count-other": "մավրիտանական ուգիյա",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "MTL",
@@ -1317,15 +1323,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "Սան Տոմե և Փրինսիպիի դոբրա (1977–2017)",
+                "displayName-count-one": "Սան Տոմե և Փրինսիպիի դոբրա (1977–2017)",
+                "displayName-count-other": "Սան Տոմե և Փրինսիպիի դոբրա (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "Սան Տոմե և Փրինսիպիի դոբրա",
                 "displayName-count-one": "Սան Տոմե և Փրինսիպիի դոբրա",
                 "displayName-count-other": "Սան Տոմե և Փրինսիպիի դոբրա",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

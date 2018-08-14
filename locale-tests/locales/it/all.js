@@ -993,10 +993,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "ouguiya della Mauritania (1973–2017)",
+                "displayName-count-one": "ouguiya della Mauritania (1973–2017)",
+                "displayName-count-other": "ouguiya della Mauritania (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "ouguiya della Mauritania",
                 "displayName-count-one": "ouguiya della Mauritania",
                 "displayName-count-other": "ouguiya della Mauritania",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "lira maltese",
@@ -1326,15 +1332,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "dobra di Sao Tomé e Principe (1977–2017)",
+                "displayName-count-one": "dobra di Sao Tomé e Principe (1977–2017)",
+                "displayName-count-other": "dobra di Sao Tomé e Principe (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "dobra di Sao Tomé e Principe",
                 "displayName-count-one": "dobra di Sao Tomé e Principe",
                 "displayName-count-other": "dobra di Sao Tomé e Principe",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "rublo sovietico",

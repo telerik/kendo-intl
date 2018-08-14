@@ -1309,6 +1309,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "أوقية موريتانية - 1973-2017",
+                "displayName-count-zero": "أوقية موريتانية - 1973-2017",
+                "displayName-count-one": "أوقية موريتانية - 1973-2017",
+                "displayName-count-two": "أوقية موريتانية - 1973-2017",
+                "displayName-count-few": "أوقية موريتانية - 1973-2017",
+                "displayName-count-many": "أوقية موريتانية - 1973-2017",
+                "displayName-count-other": "أوقية موريتانية - 1973-2017",
+                symbol: "أ.م.‏"
+            },
+            MRU: {
                 displayName: "أوقية موريتانية",
                 "displayName-count-zero": "أوقية موريتانية",
                 "displayName-count-one": "أوقية موريتانية",
@@ -1316,7 +1326,7 @@ const data = {
                 "displayName-count-few": "أوقية موريتانية",
                 "displayName-count-many": "أوقية موريتانية",
                 "displayName-count-other": "أوقية موريتانية",
-                symbol: "أ.م.‏"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "ليرة مالطية",
@@ -1786,6 +1796,16 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "دوبرا ساو تومي وبرينسيبي - 1977-2017",
+                "displayName-count-zero": "دوبرا ساو تومي وبرينسيبي - 1977-2017",
+                "displayName-count-one": "دوبرا ساو تومي وبرينسيبي - 1977-2017",
+                "displayName-count-two": "دوبرا ساو تومي وبرينسيبي - 1977-2017",
+                "displayName-count-few": "دوبرا ساو تومي وبرينسيبي - 1977-2017",
+                "displayName-count-many": "دوبرا ساو تومي وبرينسيبي - 1977-2017",
+                "displayName-count-other": "دوبرا ساو تومي وبرينسيبي - 1977-2017",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "دوبرا ساو تومي وبرينسيبي",
                 "displayName-count-zero": "دوبرا ساو تومي وبرينسيبي",
                 "displayName-count-one": "دوبرا ساو تومي وبرينسيبي",
@@ -1793,12 +1813,8 @@ const data = {
                 "displayName-count-few": "دوبرا ساو تومي وبرينسيبي",
                 "displayName-count-many": "دوبرا ساو تومي وبرينسيبي",
                 "displayName-count-other": "دوبرا ساو تومي وبرينسيبي",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "روبل سوفيتي",

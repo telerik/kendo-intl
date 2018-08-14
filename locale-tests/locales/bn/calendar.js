@@ -472,7 +472,7 @@ const data = {
             }
         }
     },
-    firstDay: 5
+    firstDay: 0
 };
 export default data;
 

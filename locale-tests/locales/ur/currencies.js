@@ -937,10 +937,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "موریطانیائی اوگوئیا (1973–2017)",
+                "displayName-count-one": "موریطانیائی اوگوئیا (1973–2017)",
+                "displayName-count-other": "موریطانیائی اوگوئیا (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "موریطانیائی اوگوئیا",
                 "displayName-count-one": "موریطانیائی اوگوئیا",
                 "displayName-count-other": "موریطانیائی اوگوئیا",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "MTL",
@@ -1266,15 +1272,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "ساؤ ٹوم اور پرنسپے ڈوبرا (1977–2017)",
+                "displayName-count-one": "ساؤ ٹوم اور پرنسپے ڈوبرا (1977–2017)",
+                "displayName-count-other": "ساؤ ٹوم اور پرنسپے ڈوبرا (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "ساؤ ٹوم اور پرنسپے ڈوبرا",
                 "displayName-count-one": "ساؤ ٹوم اور پرنسپے ڈوبرا",
                 "displayName-count-other": "ساؤ ٹوم اور پرنسپے ڈوبرا",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

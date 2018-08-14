@@ -1510,13 +1510,22 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "Ouguiya na Máratáine (1973–2017)",
+                "displayName-count-one": "ouguiya na Máratáine (1973–2017)",
+                "displayName-count-two": "ouguiya na Máratáine (1973–2017)",
+                "displayName-count-few": "ouguiya na Máratáine (1973–2017)",
+                "displayName-count-many": "n-ouguiya na Máratáine (1973–2017)",
+                "displayName-count-other": "ouguiya na Máratáine (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "Ouguiya na Máratáine",
                 "displayName-count-one": "ouguiya na Máratáine",
                 "displayName-count-two": "ouguiya na Máratáine",
                 "displayName-count-few": "ouguiya na Máratáine",
                 "displayName-count-many": "n-ouguiya na Máratáine",
                 "displayName-count-other": "ouguiya na Máratáine",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "Lira Mhálta",
@@ -2050,18 +2059,23 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "Dobra São Tomé agus Príncipe (1977–2017)",
+                "displayName-count-one": "dobra São Tomé agus Príncipe (1977–2017)",
+                "displayName-count-two": "dhobra São Tomé agus Príncipe (1977–2017)",
+                "displayName-count-few": "dhobra São Tomé agus Príncipe (1977–2017)",
+                "displayName-count-many": "ndobra São Tomé agus Príncipe (1977–2017)",
+                "displayName-count-other": "dobra São Tomé agus Príncipe (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "Dobra São Tomé agus Príncipe",
                 "displayName-count-one": "dobra São Tomé agus Príncipe",
                 "displayName-count-two": "dhobra São Tomé agus Príncipe",
                 "displayName-count-few": "dhobra São Tomé agus Príncipe",
                 "displayName-count-many": "ndobra São Tomé agus Príncipe",
                 "displayName-count-other": "dobra São Tomé agus Príncipe",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "Rúbal an Aontais Shóivéadaigh",

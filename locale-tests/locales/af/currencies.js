@@ -935,10 +935,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "Mauritaniese ouguiya (1973–2017)",
+                "displayName-count-one": "Mauritaniese ouguiya (1973–2017)",
+                "displayName-count-other": "Mauritaniese ouguiya (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "Mauritaniese ouguiya",
                 "displayName-count-one": "Mauritaniese ouguiya",
                 "displayName-count-other": "Mauritaniese ouguiya",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "MTL",
@@ -1265,15 +1271,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "São Tomé en Príncipe dobra (1977–2017)",
+                "displayName-count-one": "São Tomé en Príncipe dobra (1977–2017)",
+                "displayName-count-other": "São Tomé en Príncipe dobra (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "São Tomé en Príncipe dobra",
                 "displayName-count-one": "São Tomé en Príncipe dobra",
                 "displayName-count-other": "São Tomé en Príncipe dobra",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

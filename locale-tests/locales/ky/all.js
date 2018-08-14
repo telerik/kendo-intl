@@ -988,10 +988,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "Мавритания угиясы (1973–2017)",
+                "displayName-count-one": "Мавритания угиясы (1973–2017)",
+                "displayName-count-other": "Мавритания угиясы (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "Мавритания угиясы",
                 "displayName-count-one": "Мавритания угиясы",
                 "displayName-count-other": "Мавритания угиясы",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "MTL",
@@ -1317,15 +1323,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "Сао Томе жана Принсипе добрасы (1977–2017)",
+                "displayName-count-one": "Сао Томе жана Принсипе добрасы (1977–2017)",
+                "displayName-count-other": "Сао Томе жана Принсипе добрасы (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "Сао Томе жана Принсипе добрасы",
                 "displayName-count-one": "Сао Томе жана Принсипе добрасы",
                 "displayName-count-other": "Сао Томе жана Принсипе добрасы",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

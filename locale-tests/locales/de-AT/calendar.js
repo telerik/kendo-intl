@@ -311,8 +311,8 @@ const data = {
             format: {
                 abbreviated: {
                     midnight: "Mitternacht",
-                    am: "AM",
-                    pm: "PM",
+                    am: "vorm.",
+                    pm: "nachm.",
                     morning1: "morgens",
                     morning2: "vormittags",
                     afternoon1: "mittags",
@@ -333,8 +333,8 @@ const data = {
                 },
                 wide: {
                     midnight: "Mitternacht",
-                    am: "AM",
-                    pm: "PM",
+                    am: "vorm.",
+                    pm: "nachm.",
                     morning1: "morgens",
                     morning2: "vormittags",
                     afternoon1: "mittags",

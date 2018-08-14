@@ -75,7 +75,7 @@ const data = {
                 yMMMM: "y MMMM",
                 yQQQ: "y QQQ",
                 yQQQQ: "y QQQQ",
-                "yw-count-other": "Y ခု w ပတ်မြောက်"
+                "yw-count-other": "y ခု w ပတ်မြောက်"
             }
         },
         timeFormats: {

@@ -990,10 +990,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "márítönsk úgía (1973–2017)",
+                "displayName-count-one": "máritönsk úgía (1973–2017)",
+                "displayName-count-other": "máritanskar úgíur (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "márítönsk úgía",
                 "displayName-count-one": "máritönsk úgía",
                 "displayName-count-other": "máritanskar úgíur",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "Meltnesk líra",
@@ -1321,15 +1327,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "Saó Tóme og Prinsípe-dóbra (1977–2017)",
+                "displayName-count-one": "Saó Tóme og Prinsípe-dóbra (1977–2017)",
+                "displayName-count-other": "Saó Tóme og Prinsípe-dóbrur (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "Saó Tóme og Prinsípe-dóbra",
                 "displayName-count-one": "Saó Tóme og Prinsípe-dóbra",
                 "displayName-count-other": "Saó Tóme og Prinsípe-dóbrur",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "Soviet Rouble",

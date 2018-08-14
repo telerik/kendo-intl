@@ -1308,11 +1308,18 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "mauritanijska ouguja (1973–2017)",
+                "displayName-count-one": "mauritanijska ouguja (1973–2017)",
+                "displayName-count-few": "mauritanijske ouguje (1973–2017)",
+                "displayName-count-other": "mauritanijskih ouguja (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "mauritanijska ouguja",
                 "displayName-count-one": "mauritanijska ouguja",
                 "displayName-count-few": "mauritanijske ouguje",
                 "displayName-count-other": "mauritanijskih ouguja",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "malteška lira",
@@ -1737,16 +1744,19 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "dobra Svetog Tome i Principa (1977–2017)",
+                "displayName-count-one": "dobra Svetog Tome i Principa (1977–2017)",
+                "displayName-count-few": "dobre Svetog Tome i Principa (1977–2017)",
+                "displayName-count-other": "dobri Svetog Tome i Principa (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "dobra Svetog Tome i Principa",
                 "displayName-count-one": "dobra Svetog Tome i Principa",
                 "displayName-count-few": "dobre Svetog Tome i Principa",
                 "displayName-count-other": "dobri Svetog Tome i Principa",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "sovjetska rublja",

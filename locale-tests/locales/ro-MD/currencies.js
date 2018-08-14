@@ -1118,11 +1118,18 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "ouguiya mauritană (1973–2017)",
+                "displayName-count-one": "ouguiya mauritană (1973–2017)",
+                "displayName-count-few": "ouguiya mauritane (1973–2017)",
+                "displayName-count-other": "ouguiya mauritane (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "ouguiya mauritană",
                 "displayName-count-one": "ouguiya mauritană",
                 "displayName-count-few": "ouguiya mauritane",
                 "displayName-count-other": "ouguiya mauritane",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "liră malteză",
@@ -1520,16 +1527,19 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "dobra Sao Tome și Principe (1977–2017)",
+                "displayName-count-one": "dobra Sao Tome și Principe (1977–2017)",
+                "displayName-count-few": "dobre Sao Tome și Principe (1977–2017)",
+                "displayName-count-other": "dobre Sao Tome și Principe (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "dobra Sao Tome și Principe",
                 "displayName-count-one": "dobra Sao Tome și Principe",
                 "displayName-count-few": "dobre Sao Tome și Principe",
                 "displayName-count-other": "dobre Sao Tome și Principe",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "rublă sovietică",

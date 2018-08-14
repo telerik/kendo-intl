@@ -993,10 +993,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "মৌরিতানিয়ান ওউগুইয়া (১৯৭৩–২০১৭)",
+                "displayName-count-one": "মৌরিতানিয়ান ওউগুইয়া (১৯৭৩–২০১৭)",
+                "displayName-count-other": "মৌরিতানিয়ান ওউগুইয়া (১৯৭৩–২০১৭)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "মৌরিতানিয়ান ওউগুইয়া",
                 "displayName-count-one": "মৌরিতানিয়ান ওউগুইয়া",
                 "displayName-count-other": "মৌরিতানিয়ান ওউগুইয়া",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "মাল্টা লিরা",
@@ -1324,15 +1330,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "সাও টোমে এবং প্রিন্সিপে ডোবরা (১৯৭৭–২০১৭)",
+                "displayName-count-one": "সাও টোমে এবং প্রিন্সিপে ডোবরা (১৯৭৭–২০১৭)",
+                "displayName-count-other": "সাও টোমে এবং প্রিন্সিপে ডোবরা (১৯৭৭–২০১৭)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "সাও টোমে এবং প্রিন্সিপে ডোবরা",
                 "displayName-count-one": "সাও টোমে এবং প্রিন্সিপে ডোবরা",
                 "displayName-count-other": "সাও টোমে এবং প্রিন্সিপে ডোবরা",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "সোভিয়েত রুবল",
@@ -2153,7 +2161,7 @@ const data = {
             }
         }
     },
-    firstDay: 5,
+    firstDay: 0,
     likelySubtags: {
         bn: "bn-Beng-BD"
     }

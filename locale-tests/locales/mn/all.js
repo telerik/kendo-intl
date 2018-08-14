@@ -464,9 +464,9 @@ const data = {
                 symbol: "CYP"
             },
             CZK: {
-                displayName: "чехийн коруна",
-                "displayName-count-one": "чехийн коруна",
-                "displayName-count-other": "чехийн коруна",
+                displayName: "Чех крон",
+                "displayName-count-one": "Чех крон",
+                "displayName-count-other": "Чех крон",
                 symbol: "CZK",
                 "symbol-alt-narrow": "Kč"
             },
@@ -987,10 +987,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "мавритан угия (1973–2017)",
+                "displayName-count-one": "мавритан угия (1973–2017)",
+                "displayName-count-other": "мавритан угия (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "мавритан угия",
                 "displayName-count-one": "мавритан угия",
                 "displayName-count-other": "мавритан угия",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "MTL",
@@ -1019,7 +1025,7 @@ const data = {
             },
             MWK: {
                 displayName: "малави квача",
-                "displayName-count-one": "малави квача",
+                "displayName-count-one": "Малавигийн квача",
                 "displayName-count-other": "малави квача",
                 symbol: "MWK"
             },
@@ -1317,15 +1323,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
-                displayName: "сан-томе ба принсипи добра",
-                "displayName-count-one": "сан-томе ба принсипи добра",
-                "displayName-count-other": "сан-томе ба принсипи добра",
-                symbol: "STD",
-                "symbol-alt-narrow": "Db"
+                displayName: "сан-томе ба принсипи добра (1977–2017)",
+                "displayName-count-one": "Сан-Томе Принсипигийн мөнгөн тэмдэгт добра (1977–2017)",
+                "displayName-count-other": "Сан-Томе Принсипигийн мөнгөн тэмдэгт добра (1977–2017)",
+                symbol: "STD"
             },
             STN: {
-                displayName: "STN",
-                symbol: "STN"
+                displayName: "сан-томе ба принсипи добра",
+                "displayName-count-one": "Сан-Томе Принсипигийн мөнгөн тэмдэгт добра",
+                "displayName-count-other": "Сан-Томе Принсипигийн мөнгөн тэмдэгт добра",
+                symbol: "STN",
+                "symbol-alt-narrow": "Db"
             },
             SUR: {
                 displayName: "SUR",
@@ -1686,12 +1694,12 @@ const data = {
     calendar: {
         patterns: {
             d: "y.MM.dd",
-            D: "y 'оны' MMM'ын' d. EEEE 'гараг'.",
+            D: "y.MM.dd, EEEE",
             m: "MMM'ын' d",
             M: "MMM'ын' d",
             y: "y 'оны' MMM",
             Y: "y 'оны' MMM",
-            F: "y 'оны' MMM'ын' d. EEEE 'гараг'. HH:mm:ss",
+            F: "y.MM.dd, EEEE HH:mm:ss",
             g: "y.MM.dd HH:mm",
             G: "y.MM.dd HH:mm:ss",
             t: "HH:mm",
@@ -1762,8 +1770,8 @@ const data = {
             short: "HH:mm"
         },
         dateFormats: {
-            full: "y 'оны' MMM'ын' d. EEEE 'гараг'.",
-            long: "y 'оны' MMM'ын' d",
+            full: "y.MM.dd, EEEE",
+            long: "y.MM.dd",
             medium: "y.MM.dd",
             short: "y.MM.dd"
         },

@@ -921,9 +921,14 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "モーリタニア ウギア (1973–2017)",
+                "displayName-count-other": "モーリタニア ウギア (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "モーリタニア ウギア",
                 "displayName-count-other": "モーリタニア ウギア",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "マルタ リラ",
@@ -1234,14 +1239,15 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
-                displayName: "サントメ・プリンシペ ドブラ",
-                "displayName-count-other": "サントメ・プリンシペ ドブラ",
-                symbol: "STD",
-                "symbol-alt-narrow": "Db"
+                displayName: "サントメ・プリンシペ ドブラ (1977–2017)",
+                "displayName-count-other": "サントメ・プリンシペ ドブラ (1977–2017)",
+                symbol: "STD"
             },
             STN: {
-                displayName: "STN",
-                symbol: "STN"
+                displayName: "サントメ・プリンシペ ドブラ",
+                "displayName-count-other": "サントメ・プリンシペ ドブラ",
+                symbol: "STN",
+                "symbol-alt-narrow": "Db"
             },
             SUR: {
                 displayName: "ソ連 ルーブル",

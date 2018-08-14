@@ -449,9 +449,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             CNH: {
-                displayName: "CNH",
-                "displayName-count-one": "CNH",
-                "displayName-count-other": "CNH",
+                displayName: "Çin Yuanı (ofşor)",
+                "displayName-count-one": "Çin yuanı (ofşor)",
+                "displayName-count-other": "Çin yuanı (ofşor)",
                 symbol: "CNH"
             },
             CNX: {
@@ -1110,10 +1110,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "Mavritaniya Ugiyası (1973–2017)",
+                "displayName-count-one": "Mavritaniya ugiyası (1973–2017)",
+                "displayName-count-other": "Mavritaniya ugiyası (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "Mavritaniya Ugiyası",
                 "displayName-count-one": "Mavritaniya ugiyası",
                 "displayName-count-other": "Mavritaniya ugiyası",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "MTL",
@@ -1469,15 +1475,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "San Tom və Prinsip Dobrası (1977–2017)",
+                "displayName-count-one": "San Tom və Prinsip dobrası (1977–2017)",
+                "displayName-count-other": "San Tom və Prinsip dobrası (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "San Tom və Prinsip Dobrası",
                 "displayName-count-one": "San Tom və Prinsip dobrası",
                 "displayName-count-other": "San Tom və Prinsip dobrası",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "Sovet Rublu",

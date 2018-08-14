@@ -937,10 +937,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "የሞሪቴኒያ ኦውጉያ (1973–2017)",
+                "displayName-count-one": "የሞሪቴኒያ ኦውጉያ (1973–2017)",
+                "displayName-count-other": "የሞሪቴኒያ ኦውጉያ (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "የሞሪቴኒያ ኦውጉያ",
                 "displayName-count-one": "የሞሪቴኒያ ኦውጉያ",
                 "displayName-count-other": "የሞሪቴኒያ ኦውጉያ",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "MTL",
@@ -1266,15 +1272,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "የሳኦ ቶሜ እና ፕሪንሲፔ ዶብራ (1977–2017)",
+                "displayName-count-one": "የሳኦ ቶሜ እና ፕሪንሲፔ ዶብራ (1977–2017)",
+                "displayName-count-other": "የሳኦ ቶሜ እና ፕሪንሲፔ ዶብራ (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "የሳኦ ቶሜ እና ፕሪንሲፔ ዶብራ",
                 "displayName-count-one": "የሳኦ ቶሜ እና ፕሪንሲፔ ዶብራ",
                 "displayName-count-other": "የሳኦ ቶሜ እና ፕሪንሲፔ ዶብራ",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",
