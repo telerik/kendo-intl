@@ -938,10 +938,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "Mavritaniya uqiyasi (1973–2017)",
+                "displayName-count-one": "Mavritaniya uqiyasi (1973–2017)",
+                "displayName-count-other": "Mavritaniya uqiyasi (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "Mavritaniya uqiyasi",
                 "displayName-count-one": "Mavritaniya uqiyasi",
                 "displayName-count-other": "Mavritaniya uqiyasi",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "MTL",
@@ -1267,15 +1273,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "San-Tome va Prinsipi dobrasi (1977–2017)",
+                "displayName-count-one": "San-Tome va Prinsipi dobrasi (1977–2017)",
+                "displayName-count-other": "San-Tome va Prinsipi dobrasi (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "San-Tome va Prinsipi dobrasi",
                 "displayName-count-one": "San-Tome va Prinsipi dobrasi",
                 "displayName-count-other": "San-Tome va Prinsipi dobrasi",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

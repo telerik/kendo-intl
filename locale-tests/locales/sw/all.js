@@ -989,10 +989,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "Ouguiya ya Mauritania (1973–2017)",
+                "displayName-count-one": "ouguiya ya Mauritania (1973–2017)",
+                "displayName-count-other": "ouguiya za Mauritania (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "Ouguiya ya Mauritania",
                 "displayName-count-one": "ouguiya ya Mauritania",
                 "displayName-count-other": "ouguiya za Mauritania",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "MTL",
@@ -1322,15 +1328,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "Dobra ya Sao Tome na Principe (1977–2017)",
+                "displayName-count-one": "dobra ya Sao Tome na Principe (1977–2017)",
+                "displayName-count-other": "dobra za Sao Tome na Principe (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "Dobra ya Sao Tome na Principe",
                 "displayName-count-one": "dobra ya Sao Tome na Principe",
                 "displayName-count-other": "dobra za Sao Tome na Principe",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

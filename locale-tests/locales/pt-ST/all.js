@@ -1144,10 +1144,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "Ouguiya da Mauritânia (1973–2017)",
+                "displayName-count-one": "Ouguiya da Mauritânia (1973–2017)",
+                "displayName-count-other": "Ouguiyas da Mauritânia (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "Ouguiya da Mauritânia",
                 "displayName-count-one": "Ouguiya da Mauritânia",
                 "displayName-count-other": "Ouguiyas da Mauritânia",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "Lira maltesa",
@@ -1515,15 +1521,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
-                displayName: "Dobra de São Tomé e Príncipe",
-                "displayName-count-one": "Dobra de São Tomé e Príncipe",
-                "displayName-count-other": "Dobras de São Tomé e Príncipe",
-                symbol: "Db",
-                "symbol-alt-narrow": "Db"
+                displayName: "Dobra de São Tomé e Príncipe (1977–2017)",
+                "displayName-count-one": "Dobra de São Tomé e Príncipe (1977–2017)",
+                "displayName-count-other": "Dobras de São Tomé e Príncipe (1977–2017)",
+                symbol: "STD"
             },
             STN: {
-                displayName: "STN",
-                symbol: "STN"
+                displayName: "São Tomé & Príncipe Dobra (2018)",
+                "displayName-count-one": "São Tomé & Príncipe dobra (2018)",
+                "displayName-count-other": "São Tomé & Príncipe dobras (2018)",
+                symbol: "Db",
+                "symbol-alt-narrow": "Db"
             },
             SUR: {
                 displayName: "Rublo soviético",

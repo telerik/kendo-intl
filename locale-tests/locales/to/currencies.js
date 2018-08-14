@@ -755,6 +755,10 @@ const data = {
                 displayName: "MRO",
                 symbol: "MRO"
             },
+            MRU: {
+                displayName: "MRU",
+                symbol: "MRU"
+            },
             MTL: {
                 displayName: "MTL",
                 symbol: "MTL"
@@ -1008,12 +1012,12 @@ const data = {
             },
             STD: {
                 displayName: "STD",
-                symbol: "STD",
-                "symbol-alt-narrow": "Db"
+                symbol: "STD"
             },
             STN: {
                 displayName: "STN",
-                symbol: "STN"
+                symbol: "STN",
+                "symbol-alt-narrow": "Db"
             },
             SUR: {
                 displayName: "SUR",

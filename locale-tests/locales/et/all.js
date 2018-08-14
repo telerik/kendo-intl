@@ -1094,10 +1094,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "Mauritaania ugia (1973–2017)",
+                "displayName-count-one": "Mauritaania ugia (1973–2017)",
+                "displayName-count-other": "Mauritaania ugiat (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "Mauritaania ugia",
                 "displayName-count-one": "Mauritaania ugia",
                 "displayName-count-other": "Mauritaania ugiat",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "Malta liir",
@@ -1459,15 +1465,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "São Tomé ja Príncipe dobra (1977–2017)",
+                "displayName-count-one": "São Tomé ja Príncipe dobra (1977–2017)",
+                "displayName-count-other": "São Tomé ja Príncipe dobrat (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "São Tomé ja Príncipe dobra",
                 "displayName-count-one": "São Tomé ja Príncipe dobra",
                 "displayName-count-other": "São Tomé ja Príncipe dobrat",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "NSVL-i rubla",

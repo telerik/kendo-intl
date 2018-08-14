@@ -1083,10 +1083,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "uguiya (1973–2017)",
+                "displayName-count-one": "uguiya (1973–2017)",
+                "displayName-count-other": "uguiyas (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "uguiya",
                 "displayName-count-one": "uguiya",
                 "displayName-count-other": "uguiyas",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "lira maltesa",
@@ -1446,15 +1452,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
-                displayName: "dobra",
-                "displayName-count-one": "dobra",
-                "displayName-count-other": "dobras",
-                symbol: "STD",
-                "symbol-alt-narrow": "Db"
+                displayName: "dobra (1977–2017)",
+                "displayName-count-one": "dobra (1977–2017)",
+                "displayName-count-other": "dobras (1977–2017)",
+                symbol: "STD"
             },
             STN: {
-                displayName: "STN",
-                symbol: "STN"
+                displayName: "dobra santotomense",
+                "displayName-count-one": "dobra santotomense",
+                "displayName-count-other": "dobra santotomense",
+                symbol: "STN",
+                "symbol-alt-narrow": "Db"
             },
             SUR: {
                 displayName: "rublo soviético",

@@ -990,10 +990,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "موریطانیائی اوگوئیا (1973–2017)",
+                "displayName-count-one": "موریطانیائی اوگوئیا (1973–2017)",
+                "displayName-count-other": "موریطانیائی اوگوئیا (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "موریطانیائی اوگوئیا",
                 "displayName-count-one": "موریطانیائی اوگوئیا",
                 "displayName-count-other": "موریطانیائی اوگوئیا",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "MTL",
@@ -1319,15 +1325,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "ساؤ ٹوم اور پرنسپے ڈوبرا (1977–2017)",
+                "displayName-count-one": "ساؤ ٹوم اور پرنسپے ڈوبرا (1977–2017)",
+                "displayName-count-other": "ساؤ ٹوم اور پرنسپے ڈوبرا (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "ساؤ ٹوم اور پرنسپے ڈوبرا",
                 "displayName-count-one": "ساؤ ٹوم اور پرنسپے ڈوبرا",
                 "displayName-count-other": "ساؤ ٹوم اور پرنسپے ڈوبرا",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",
@@ -1686,12 +1694,12 @@ const data = {
     calendar: {
         patterns: {
             d: "d/M/y",
-            D: "EEEE, MMMM d, y",
+            D: "EEEE، d MMMM، y",
             m: "d MMM",
-            M: "MMMM d",
+            M: "d MMMM",
             y: "MMM y",
             Y: "MMMM y",
-            F: "EEEE, MMMM d, y h:mm:ss a",
+            F: "EEEE، d MMMM، y h:mm:ss a",
             g: "d/M/y h:mm a",
             G: "d/M/y h:mm:ss a",
             t: "h:mm a",
@@ -1737,7 +1745,7 @@ const data = {
                 MMM: "LLL",
                 MMMd: "d MMM",
                 MMMEd: "E، d MMM",
-                MMMMd: "MMMM d",
+                MMMMd: "d MMMM",
                 "MMMMW-count-one": "MMMM کا ہفتہ W",
                 "MMMMW-count-other": "MMMM کا ہفتہ W",
                 ms: "mm:ss",
@@ -1762,9 +1770,9 @@ const data = {
             short: "h:mm a"
         },
         dateFormats: {
-            full: "EEEE, MMMM d, y",
-            long: "MMMM d, y",
-            medium: "MMM d, y",
+            full: "EEEE، d MMMM، y",
+            long: "d MMMM، y",
+            medium: "d MMM، y",
             short: "d/M/yy"
         },
         days: {

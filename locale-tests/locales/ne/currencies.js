@@ -937,10 +937,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "माउरिटानियानली औगुइया (१९७३–२०१७)",
+                "displayName-count-one": "माउरिटानियाली औगुइया (१९७३–२०१७)",
+                "displayName-count-other": "माउरिटानियानली औगुइया (१९७३–२०१७)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "माउरिटानियानली औगुइया",
                 "displayName-count-one": "माउरिटानियाली औगुइया",
                 "displayName-count-other": "माउरिटानियानली औगुइया",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "MTL",
@@ -1267,15 +1273,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "साओ टोम र प्रिन्सिप डोब्रा (१९७७–२०१७)",
+                "displayName-count-one": "साओ टोम र प्रिन्सिप डोब्रा (१९७७–२०१७)",
+                "displayName-count-other": "साओ टोम र प्रिन्सिप डोब्रा (१९७७–२०१७)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "साओ टोम र प्रिन्सिप डोब्रा",
                 "displayName-count-one": "साओ टोम र प्रिन्सिप डोब्रा",
                 "displayName-count-other": "साओ टोम र प्रिन्सिप डोब्रा",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

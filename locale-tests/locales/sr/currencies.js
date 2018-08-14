@@ -1216,11 +1216,18 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "Мауританијска oгија (1973–2017)",
+                "displayName-count-one": "мауританијска oгија (1973–2017)",
+                "displayName-count-few": "мауританијскe oгијe (1973–2017)",
+                "displayName-count-other": "мауританијских oгијa (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "Мауританијска oгија",
                 "displayName-count-one": "мауританијска oгија",
                 "displayName-count-few": "мауританијскe oгијe",
                 "displayName-count-other": "мауританијских oгијa",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "Малтешка лира",
@@ -1478,17 +1485,17 @@ const data = {
                 symbol: "RHD"
             },
             ROL: {
-                displayName: "Румунски леј",
-                "displayName-count-one": "румунски леј",
-                "displayName-count-few": "румунскa леја",
-                "displayName-count-other": "румунских леја",
-                symbol: "ROL"
-            },
-            RON: {
                 displayName: "Румунски леј (1952–2006)",
                 "displayName-count-one": "румунски леј (1952–2006)",
                 "displayName-count-few": "румунскa леја (1952–2006)",
                 "displayName-count-other": "румунских леја (1952–2006)",
+                symbol: "ROL"
+            },
+            RON: {
+                displayName: "Румунски леј",
+                "displayName-count-one": "румунски леј",
+                "displayName-count-few": "румунскa леја",
+                "displayName-count-other": "румунских леја",
                 symbol: "RON",
                 "symbol-alt-narrow": "lei"
             },
@@ -1642,16 +1649,19 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "Саотомска добра (1977–2017)",
+                "displayName-count-one": "саотомска добра (1977–2017)",
+                "displayName-count-few": "саотомске добре (1977–2017)",
+                "displayName-count-other": "саотомских добри (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "Саотомска добра",
                 "displayName-count-one": "саотомска добра",
                 "displayName-count-few": "саотомске добре",
                 "displayName-count-other": "саотомских добри",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "Совјетска рубља",

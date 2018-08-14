@@ -937,10 +937,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "મોરીશેનિયન ઓગુયા (1973–2017)",
+                "displayName-count-one": "મોરીશેનિયન ઓગુયા (1973–2017)",
+                "displayName-count-other": "મોરીશેનિયન ઓગુયા (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "મોરીશેનિયન ઓગુયા",
                 "displayName-count-one": "મોરીશેનિયન ઓગુયા",
                 "displayName-count-other": "મોરીશેનિયન ઓગુયા",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "MTL",
@@ -1266,15 +1272,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "સાઓ ટૉમ એન્ડ પ્રિંસાઇપ ડોબ્રા (1977–2017)",
+                "displayName-count-one": "સાઓ ટૉમ એન્ડ પ્રિંસાઇપ ડોબ્રા (1977–2017)",
+                "displayName-count-other": "સાઓ ટૉમ એન્ડ પ્રિંસાઇપ ડોબ્રા (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "સાઓ ટૉમ એન્ડ પ્રિંસાઇપ ડોબ્રા",
                 "displayName-count-one": "સાઓ ટૉમ એન્ડ પ્રિંસાઇપ ડોબ્રા",
                 "displayName-count-other": "સાઓ ટૉમ એન્ડ પ્રિંસાઇપ ડોબ્રા",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

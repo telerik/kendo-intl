@@ -937,10 +937,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "ಮೌರೀಶಿಯನಿಯನ್ ಒಗಿಯ (1973–2017)",
+                "displayName-count-one": "ಮೌರೀಶಿಯನಿಯನ್ ಒಗಿಯ (1973–2017)",
+                "displayName-count-other": "ಮೌರೀಶಿಯನಿಯನ್ ಒಗಿಯಗಳು (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "ಮೌರೀಶಿಯನಿಯನ್ ಒಗಿಯ",
                 "displayName-count-one": "ಮೌರೀಶಿಯನಿಯನ್ ಒಗಿಯ",
                 "displayName-count-other": "ಮೌರೀಶಿಯನಿಯನ್ ಒಗಿಯಗಳು",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "MTL",
@@ -1266,15 +1272,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "ಸಾವೊ ಟೋಮ್ ಮತ್ತು ಪ್ರಿನ್ಸಿಪ್ ದೊಬ್ರಾ (1977–2017)",
+                "displayName-count-one": "ಸಾವೊ ಟೋಮ್ ಮತ್ತು ಪ್ರಿನ್ಸಿಪ್ ದೊಬ್ರಾ (1977–2017)",
+                "displayName-count-other": "ಸಾವೊ ಟೋಮ್ ಮತ್ತು ಪ್ರಿನ್ಸಿಪ್ ದೊಬ್ರಾಗಳು (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "ಸಾವೊ ಟೋಮ್ ಮತ್ತು ಪ್ರಿನ್ಸಿಪ್ ದೊಬ್ರಾ",
                 "displayName-count-one": "ಸಾವೊ ಟೋಮ್ ಮತ್ತು ಪ್ರಿನ್ಸಿಪ್ ದೊಬ್ರಾ",
                 "displayName-count-other": "ಸಾವೊ ಟೋಮ್ ಮತ್ತು ಪ್ರಿನ್ಸಿಪ್ ದೊಬ್ರಾಗಳು",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

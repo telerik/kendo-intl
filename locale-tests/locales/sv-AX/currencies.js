@@ -1092,10 +1092,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "mauretansk ouguiya (1973–2017)",
+                "displayName-count-one": "mauretansk ouguiya (1973–2017)",
+                "displayName-count-other": "mauretanska ouguiya (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "mauretansk ouguiya",
                 "displayName-count-one": "mauretansk ouguiya",
                 "displayName-count-other": "mauretanska ouguiya",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "maltesisk lire",
@@ -1463,15 +1469,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "saotomeansk dobra (1977–2017)",
+                "displayName-count-one": "saotomeansk dobra (1977–2017)",
+                "displayName-count-other": "saotomeanska dobra (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "saotomeansk dobra",
                 "displayName-count-one": "saotomeansk dobra",
                 "displayName-count-other": "saotomeanska dobra",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "sovjetisk rubel",

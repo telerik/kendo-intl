@@ -937,10 +937,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "మౌరిటానియన్ ఒగ్యియా (1973–2017)",
+                "displayName-count-one": "మౌరిటానియన్ ఒగ్యియా (1973–2017)",
+                "displayName-count-other": "మౌరిటానియన్ ఒగ్యియాలు (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "మౌరిటానియన్ ఒగ్యియా",
                 "displayName-count-one": "మౌరిటానియన్ ఒగ్యియా",
                 "displayName-count-other": "మౌరిటానియన్ ఒగ్యియాలు",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "MTL",
@@ -1266,15 +1272,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "సావో టోమ్ మరియు ప్రిన్సిపి డోబ్రా (1977–2017)",
+                "displayName-count-one": "సావో టోమ్ మరియు ప్రిన్సిపి డోబ్రా (1977–2017)",
+                "displayName-count-other": "సావో టోమ్ మరియు ప్రిన్సిపి డోబ్రాలు (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "సావో టోమ్ మరియు ప్రిన్సిపి డోబ్రా",
                 "displayName-count-one": "సావో టోమ్ మరియు ప్రిన్సిపి డోబ్రా",
                 "displayName-count-other": "సావో టోమ్ మరియు ప్రిన్సిపి డోబ్రాలు",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

@@ -347,7 +347,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             CNH: {
-                displayName: "CNH",
+                displayName: "kinesiskur yuan (úr landi)",
+                "displayName-count-one": "kinesiskur yuan (úr landi)",
+                "displayName-count-other": "kinesiskur yuan (úr landi)",
                 symbol: "CNH"
             },
             CNX: {
@@ -665,9 +667,9 @@ const data = {
                 symbol: "ILR"
             },
             ILS: {
-                displayName: "Ísrael new sheqel",
-                "displayName-count-one": "Ísrael new sheqel",
-                "displayName-count-other": "Ísrael new sheqel",
+                displayName: "Ísrael new shekel",
+                "displayName-count-one": "Ísrael new shekel",
+                "displayName-count-other": "Ísrael new shekel",
                 symbol: "₪",
                 "symbol-alt-narrow": "₪"
             },
@@ -931,10 +933,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "Móritania ouguiya (1973–2017)",
+                "displayName-count-one": "Móritania ouguiya (1973–2017)",
+                "displayName-count-other": "Móritania ouguiya (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "Móritania ouguiya",
                 "displayName-count-one": "Móritania ouguiya",
                 "displayName-count-other": "Móritania ouguiya",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "MTL",
@@ -1260,15 +1268,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "Sao Tome & Prinsipi dobra (1977–2017)",
+                "displayName-count-one": "Sao Tome & Prinsipi dobra (1977–2017)",
+                "displayName-count-other": "Sao Tome & Prinsipi dobra (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "Sao Tome & Prinsipi dobra",
                 "displayName-count-one": "Sao Tome & Prinsipi dobra",
                 "displayName-count-other": "Sao Tome & Prinsipi dobra",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

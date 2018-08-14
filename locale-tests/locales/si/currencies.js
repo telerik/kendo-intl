@@ -935,10 +935,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "මුරුසි ඔයිගුයියා (1973–2017)",
+                "displayName-count-one": "මුරුසි ඔයිගුයියා (1973–2017)",
+                "displayName-count-other": "මුරුසි ඔයිගුයියා (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "මුරුසි ඔයිගුයියා",
                 "displayName-count-one": "මුරුසි ඔයිගුයියා",
                 "displayName-count-other": "මුරුසි ඔයිගුයියා",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "MTL",
@@ -1265,15 +1271,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "සාඕ තෝම් සහ ප්‍රින්සිප් දොබ්‍රා (1977–2017)",
+                "displayName-count-one": "සාඕ තෝම් සහ ප්‍රින්සිප් දොබ්‍රා (1977–2017)",
+                "displayName-count-other": "සාඕ තෝම් සහ ප්‍රින්සිප් දොබ්‍රා (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "සාඕ තෝම් සහ ප්‍රින්සිප් දොබ්‍රා",
                 "displayName-count-one": "සාඕ තෝම් සහ ප්‍රින්සිප් දොබ්‍රා",
                 "displayName-count-other": "සාඕ තෝම් සහ ප්‍රින්සිප් දොබ්‍රා",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

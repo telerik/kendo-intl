@@ -938,10 +938,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "மொரிஷானியன் ஒகுயா (1973–2017)",
+                "displayName-count-one": "மொரிஷானியன் ஒகுயா (1973–2017)",
+                "displayName-count-other": "மொரிஷானியன் ஒகுயாக்கள் (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "மொரிஷானியன் ஒகுயா",
                 "displayName-count-one": "மொரிஷானியன் ஒகுயா",
                 "displayName-count-other": "மொரிஷானியன் ஒகுயாக்கள்",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "MTL",
@@ -1267,15 +1273,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "சாவ் டோமி மற்றும் பிரின்ஸ்பி டோப்ரா (1977–2017)",
+                "displayName-count-one": "சாவ் டோமி மற்றும் பிரின்ஸ்பி டோப்ரா (1977–2017)",
+                "displayName-count-other": "சாவ் டோமி மற்றும் பிரின்ஸ்பி டோப்ராக்கள் (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "சாவ் டோமி மற்றும் பிரின்ஸ்பி டோப்ரா",
                 "displayName-count-one": "சாவ் டோமி மற்றும் பிரின்ஸ்பி டோப்ரா",
                 "displayName-count-other": "சாவ் டோமி மற்றும் பிரின்ஸ்பி டோப்ராக்கள்",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

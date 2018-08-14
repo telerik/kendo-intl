@@ -1144,10 +1144,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "Mauretanischer Ouguiya (1973–2017)",
+                "displayName-count-one": "Mauretanischer Ouguiya (1973–2017)",
+                "displayName-count-other": "Mauretanische Ouguiya (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "Mauretanischer Ouguiya",
                 "displayName-count-one": "Mauretanischer Ouguiya",
                 "displayName-count-other": "Mauretanische Ouguiya",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "Maltesische Lira",
@@ -1515,15 +1521,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
-                displayName: "São-toméischer Dobra",
-                "displayName-count-one": "São-toméischer Dobra",
-                "displayName-count-other": "São-toméische Dobra",
-                symbol: "STD",
-                "symbol-alt-narrow": "Db"
+                displayName: "São-toméischer Dobra (1977–2017)",
+                "displayName-count-one": "São-toméischer Dobra (1977–2017)",
+                "displayName-count-other": "São-toméische Dobra (1977–2017)",
+                symbol: "STD"
             },
             STN: {
-                displayName: "STN",
-                symbol: "STN"
+                displayName: "São-toméischer Dobra (2018)",
+                "displayName-count-one": "São-toméischer Dobra (2018)",
+                "displayName-count-other": "São-toméischer Dobra (2018)",
+                symbol: "STN",
+                "symbol-alt-narrow": "Db"
             },
             SUR: {
                 displayName: "Sowjetischer Rubel",
@@ -2266,8 +2274,8 @@ const data = {
             format: {
                 abbreviated: {
                     midnight: "Mitternacht",
-                    am: "AM",
-                    pm: "PM",
+                    am: "vorm.",
+                    pm: "nachm.",
                     morning1: "morgens",
                     morning2: "vormittags",
                     afternoon1: "mittags",
@@ -2288,8 +2296,8 @@ const data = {
                 },
                 wide: {
                     midnight: "Mitternacht",
-                    am: "AM",
-                    pm: "PM",
+                    am: "vorm.",
+                    pm: "nachm.",
                     morning1: "morgens",
                     morning2: "vormittags",
                     afternoon1: "mittags",

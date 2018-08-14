@@ -1177,12 +1177,20 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "mavretanska uguija (1973–2017)",
+                "displayName-count-one": "mavretanska uguija (1973–2017)",
+                "displayName-count-two": "mavretanski uguiji (1973–2017)",
+                "displayName-count-few": "mavretanske uguije (1973–2017)",
+                "displayName-count-other": "mavretanskih uguij (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "mavretanska uguija",
                 "displayName-count-one": "mavretanska uguija",
                 "displayName-count-two": "mavretanski uguiji",
                 "displayName-count-few": "mavretanske uguije",
                 "displayName-count-other": "mavretanskih uguij",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "malteška lira",
@@ -1584,17 +1592,21 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "saotomejska dobra (1977–2017)",
+                "displayName-count-one": "saotomejska dobra (1977–2017)",
+                "displayName-count-two": "saotomejski dobri (1977–2017)",
+                "displayName-count-few": "saotomejske dobre (1977–2017)",
+                "displayName-count-other": "saotomejskih dober (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "saotomejska dobra",
                 "displayName-count-one": "saotomejska dobra",
                 "displayName-count-two": "saotomejski dobri",
                 "displayName-count-few": "saotomejske dobre",
                 "displayName-count-other": "saotomejskih dober",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "sovjetski rubelj",

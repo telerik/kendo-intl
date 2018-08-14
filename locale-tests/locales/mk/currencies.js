@@ -937,10 +937,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "Мавританска угија (1973–2017)",
+                "displayName-count-one": "Мавританска угија (1973–2017)",
+                "displayName-count-other": "Мавритански угии (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "Мавританска угија",
                 "displayName-count-one": "Мавританска угија",
                 "displayName-count-other": "Мавритански угии",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "Малтешка лира",
@@ -1270,15 +1276,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "Добра на Саун Томе и Принсип (1977–2017)",
+                "displayName-count-one": "Добра на Саун Томе и Принсип (1977–2017)",
+                "displayName-count-other": "Добри на Саун Томе и Принсип (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "Добра на Саун Томе и Принсип",
                 "displayName-count-one": "Добра на Саун Томе и Принсип",
                 "displayName-count-other": "Добри на Саун Томе и Принсип",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "Советска рубља",

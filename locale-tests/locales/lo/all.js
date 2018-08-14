@@ -896,9 +896,14 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "ມົວ​ຣິ​ທາ​ນຽນ ອູ​ກິວ​ຢາ (1973–2017)",
+                "displayName-count-other": "ມົວ​ຣິ​ທາ​ນຽນ ອູ​ກິວ​ຢາ (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "ມົວ​ຣິ​ທາ​ນຽນ ອູ​ກິວ​ຢາ",
                 "displayName-count-other": "ມົວ​ຣິ​ທາ​ນຽນ ອູ​ກິວ​ຢາ",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "ລິຣາ ມອນຕາ",
@@ -1188,14 +1193,15 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
-                displayName: "ເຊົາ ໂທ​ເມ ແອນ ພ​ຣິນ​ຊິ​ປີ ໂດບຣາ",
-                "displayName-count-other": "ເຊົາ ໂທ​ເມ ແອນ ພ​ຣິນ​ຊິ​ປີ ໂດບຣາ",
-                symbol: "STD",
-                "symbol-alt-narrow": "Db"
+                displayName: "ເຊົາ ໂທ​ເມ ແອນ ພ​ຣິນ​ຊິ​ປີ ໂດບຣາ (1977–2017)",
+                "displayName-count-other": "ເຊົາ ໂທ​ເມ ແອນ ພ​ຣິນ​ຊິ​ປີ ໂດບຣາ (1977–2017)",
+                symbol: "STD"
             },
             STN: {
-                displayName: "STN",
-                symbol: "STN"
+                displayName: "ເຊົາ ໂທ​ເມ ແອນ ພ​ຣິນ​ຊິ​ປີ ໂດບຣາ",
+                "displayName-count-other": "ເຊົາ ໂທ​ເມ ແອນ ພ​ຣິນ​ຊິ​ປີ ໂດບຣາ",
+                symbol: "STN",
+                "symbol-alt-narrow": "Db"
             },
             SUR: {
                 displayName: "ຣູໂບ ໂຊວຽດ",

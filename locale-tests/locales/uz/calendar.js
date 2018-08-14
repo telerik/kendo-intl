@@ -75,8 +75,8 @@ const data = {
                 yMMMM: "MMMM, y",
                 yQQQ: "y, QQQ",
                 yQQQQ: "y, QQQQ",
-                "yw-count-one": "Y, w-'hafta'",
-                "yw-count-other": "Y, w-'hafta'"
+                "yw-count-one": "y, w-'hafta'",
+                "yw-count-other": "y, w-'hafta'"
             }
         },
         timeFormats: {
@@ -428,9 +428,9 @@ const data = {
                 narrow: "kun"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "yilning kuni",
+                short: "yilning kuni",
+                narrow: "yilning kuni"
             },
             weekday: {
                 wide: "hafta kuni",

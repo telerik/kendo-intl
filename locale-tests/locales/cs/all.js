@@ -1484,12 +1484,20 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "mauritánská ouguiya (1973–2017)",
+                "displayName-count-one": "mauritánská ouguiya (1973–2017)",
+                "displayName-count-few": "mauritánské ouguiye (1973–2017)",
+                "displayName-count-many": "mauritánské ouguiye (1973–2017)",
+                "displayName-count-other": "mauritánských ouguiyí (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "mauritánská ouguiya",
                 "displayName-count-one": "mauritánská ouguiya",
                 "displayName-count-few": "mauritánské ouguiye",
                 "displayName-count-many": "mauritánské ouguiye",
                 "displayName-count-other": "mauritánských ouguiyí",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "maltská lira",
@@ -1971,17 +1979,21 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "svatotomášská dobra (1977–2017)",
+                "displayName-count-one": "svatotomášská dobra (1977–2017)",
+                "displayName-count-few": "svatotomášské dobry (1977–2017)",
+                "displayName-count-many": "svatotomášské dobry (1977–2017)",
+                "displayName-count-other": "svatotomášských dober (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "svatotomášská dobra",
                 "displayName-count-one": "svatotomášská dobra",
                 "displayName-count-few": "svatotomášské dobry",
                 "displayName-count-many": "svatotomášské dobry",
                 "displayName-count-other": "svatotomášských dober",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "sovětský rubl",

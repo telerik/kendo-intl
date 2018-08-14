@@ -79,9 +79,9 @@ const data = {
                 yMMMM: "LLLL y.",
                 yQQQ: "QQQ y.",
                 yQQQQ: "QQQQ y.",
-                "yw-count-one": "w. 'sedmica' 'u' Y.",
-                "yw-count-few": "w. 'sedmica' 'u' Y.",
-                "yw-count-other": "w. 'sedmica' 'u' Y."
+                "yw-count-one": "w. 'sedmica' 'u' y.",
+                "yw-count-few": "w. 'sedmica' 'u' y.",
+                "yw-count-other": "w. 'sedmica' 'u' y."
             }
         },
         timeFormats: {
@@ -378,7 +378,7 @@ const data = {
                     0: "prije nove ere",
                     1: "nove ere",
                     "0-alt-variant": "BCE",
-                    "1-alt-variant": "n. e."
+                    "1-alt-variant": "CE"
                 },
                 abbreviated: {
                     0: "p. n. e.",
@@ -387,8 +387,8 @@ const data = {
                     "1-alt-variant": "CE"
                 },
                 narrow: {
-                    0: "p. n. e.",
-                    1: "n. e.",
+                    0: "p.n.e.",
+                    1: "n.e.",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 }

@@ -989,10 +989,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "Mavritaniya uqiyasi (1973–2017)",
+                "displayName-count-one": "Mavritaniya uqiyasi (1973–2017)",
+                "displayName-count-other": "Mavritaniya uqiyasi (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "Mavritaniya uqiyasi",
                 "displayName-count-one": "Mavritaniya uqiyasi",
                 "displayName-count-other": "Mavritaniya uqiyasi",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "MTL",
@@ -1318,15 +1324,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "San-Tome va Prinsipi dobrasi (1977–2017)",
+                "displayName-count-one": "San-Tome va Prinsipi dobrasi (1977–2017)",
+                "displayName-count-other": "San-Tome va Prinsipi dobrasi (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "San-Tome va Prinsipi dobrasi",
                 "displayName-count-one": "San-Tome va Prinsipi dobrasi",
                 "displayName-count-other": "San-Tome va Prinsipi dobrasi",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",
@@ -1750,8 +1758,8 @@ const data = {
                 yMMMM: "MMMM, y",
                 yQQQ: "y, QQQ",
                 yQQQQ: "y, QQQQ",
-                "yw-count-one": "Y, w-'hafta'",
-                "yw-count-other": "Y, w-'hafta'"
+                "yw-count-one": "y, w-'hafta'",
+                "yw-count-other": "y, w-'hafta'"
             }
         },
         timeFormats: {
@@ -2103,9 +2111,9 @@ const data = {
                 narrow: "kun"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "yilning kuni",
+                short: "yilning kuni",
+                narrow: "yilning kuni"
             },
             weekday: {
                 wide: "hafta kuni",

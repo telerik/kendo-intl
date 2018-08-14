@@ -10,12 +10,12 @@ const data = {
     calendar: {
         patterns: {
             d: "y.MM.dd",
-            D: "y 'оны' MMM'ын' d. EEEE 'гараг'.",
+            D: "y.MM.dd, EEEE",
             m: "MMM'ын' d",
             M: "MMM'ын' d",
             y: "y 'оны' MMM",
             Y: "y 'оны' MMM",
-            F: "y 'оны' MMM'ын' d. EEEE 'гараг'. HH:mm:ss",
+            F: "y.MM.dd, EEEE HH:mm:ss",
             g: "y.MM.dd HH:mm",
             G: "y.MM.dd HH:mm:ss",
             t: "HH:mm",
@@ -86,8 +86,8 @@ const data = {
             short: "HH:mm"
         },
         dateFormats: {
-            full: "y 'оны' MMM'ын' d. EEEE 'гараг'.",
-            long: "y 'оны' MMM'ын' d",
+            full: "y.MM.dd, EEEE",
+            long: "y.MM.dd",
             medium: "y.MM.dd",
             short: "y.MM.dd"
         },

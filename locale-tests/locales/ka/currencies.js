@@ -936,10 +936,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "მავრიტანული უგია (1973–2017)",
+                "displayName-count-one": "მავრიტანული უგია (1973–2017)",
+                "displayName-count-other": "მავრიტანული უგია (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "მავრიტანული უგია",
                 "displayName-count-one": "მავრიტანული უგია",
                 "displayName-count-other": "მავრიტანული უგია",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "მალტის ლირა",
@@ -1267,15 +1273,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "სან-ტომე და პრინსიპის დობრა (1977–2017)",
+                "displayName-count-one": "სან-ტომე და პრინსიპის დობრა (1977–2017)",
+                "displayName-count-other": "სან-ტომე და პრინსიპის დობრა (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "სან-ტომე და პრინსიპის დობრა",
                 "displayName-count-one": "სან-ტომე და პრინსიპის დობრა",
                 "displayName-count-other": "სან-ტომე და პრინსიპის დობრა",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "საბჭოთა რუბლი",

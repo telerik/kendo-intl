@@ -1025,10 +1025,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "ਮੋਰਿਟਾਨੀਆਈ ਊਗੀਆ (1973–2017)",
+                "displayName-count-one": "ਮੋਰਿਟਾਨੀਆਈ ਊਗੀਆ (1973–2017)",
+                "displayName-count-other": "ਮੋਰਿਟਾਨੀਆਈ ਊਗੀਆ (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "ਮੋਰਿਟਾਨੀਆਈ ਊਗੀਆ",
                 "displayName-count-one": "ਮੋਰਿਟਾਨੀਆਈ ਊਗੀਆ",
                 "displayName-count-other": "ਮੋਰਿਟਾਨੀਆਈ ਊਗੀਆ",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "MTL",
@@ -1354,15 +1360,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "ਸਾਉ ਟੋਮੀ ਐਂਡ ਪ੍ਰਿੰਸਪੀ ਡੋਬਰਾ (1977–2017)",
+                "displayName-count-one": "ਸਾਉ ਟੋਮੀ ਐਂਡ ਪ੍ਰਿੰਸਪੀ ਡੋਬਰਾ (1977–2017)",
+                "displayName-count-other": "ਸਾਉ ਟੋਮੀ ਐਂਡ ਪ੍ਰਿੰਸਪੀ ਡੋਬਰਾ (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "ਸਾਉ ਟੋਮੀ ਐਂਡ ਪ੍ਰਿੰਸਪੀ ਡੋਬਰਾ",
                 "displayName-count-one": "ਸਾਉ ਟੋਮੀ ਐਂਡ ਪ੍ਰਿੰਸਪੀ ਡੋਬਰਾ",
                 "displayName-count-other": "ਸਾਉ ਟੋਮੀ ਐਂਡ ਪ੍ਰਿੰਸਪੀ ਡੋਬਰਾ",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "ਸੋਵੀਅਤ ਰੂਬਲ",

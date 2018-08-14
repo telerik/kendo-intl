@@ -1657,6 +1657,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "Ouguiya Mauritania (1973–2017)",
+                "displayName-count-zero": "ouguiya Mauritania (1973–2017)",
+                "displayName-count-one": "ouguiya Mauritania (1973–2017)",
+                "displayName-count-two": "ouguiya Mauritania (1973–2017)",
+                "displayName-count-few": "ouguiya Mauritania (1973–2017)",
+                "displayName-count-many": "ouguiya Mauritania (1973–2017)",
+                "displayName-count-other": "ouguiya Mauritania (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "Ouguiya Mauritania",
                 "displayName-count-zero": "ouguiya Mauritania",
                 "displayName-count-one": "ouguiya Mauritania",
@@ -1664,7 +1674,7 @@ const data = {
                 "displayName-count-few": "ouguiya Mauritania",
                 "displayName-count-many": "ouguiya Mauritania",
                 "displayName-count-other": "ouguiya Mauritania",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "MTL",
@@ -2212,6 +2222,16 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "Dobra São Tomé a Príncipe (1977–2017)",
+                "displayName-count-zero": "dobra São Tomé a Príncipe (1977–2017)",
+                "displayName-count-one": "dobra São Tomé a Príncipe (1977–2017)",
+                "displayName-count-two": "dobra São Tomé a Príncipe (1977–2017)",
+                "displayName-count-few": "dobra São Tomé a Príncipe (1977–2017)",
+                "displayName-count-many": "dobra São Tomé a Príncipe (1977–2017)",
+                "displayName-count-other": "dobra São Tomé a Príncipe (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "Dobra São Tomé a Príncipe",
                 "displayName-count-zero": "dobra São Tomé a Príncipe",
                 "displayName-count-one": "dobra São Tomé a Príncipe",
@@ -2219,12 +2239,8 @@ const data = {
                 "displayName-count-few": "dobra São Tomé a Príncipe",
                 "displayName-count-many": "dobra São Tomé a Príncipe",
                 "displayName-count-other": "dobra São Tomé a Príncipe",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

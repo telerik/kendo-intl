@@ -413,9 +413,9 @@ const data = {
                 symbol: "CYP"
             },
             CZK: {
-                displayName: "чехийн коруна",
-                "displayName-count-one": "чехийн коруна",
-                "displayName-count-other": "чехийн коруна",
+                displayName: "Чех крон",
+                "displayName-count-one": "Чех крон",
+                "displayName-count-other": "Чех крон",
                 symbol: "CZK",
                 "symbol-alt-narrow": "Kč"
             },
@@ -936,10 +936,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "мавритан угия (1973–2017)",
+                "displayName-count-one": "мавритан угия (1973–2017)",
+                "displayName-count-other": "мавритан угия (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "мавритан угия",
                 "displayName-count-one": "мавритан угия",
                 "displayName-count-other": "мавритан угия",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "MTL",
@@ -968,7 +974,7 @@ const data = {
             },
             MWK: {
                 displayName: "малави квача",
-                "displayName-count-one": "малави квача",
+                "displayName-count-one": "Малавигийн квача",
                 "displayName-count-other": "малави квача",
                 symbol: "MWK"
             },
@@ -1266,15 +1272,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
-                displayName: "сан-томе ба принсипи добра",
-                "displayName-count-one": "сан-томе ба принсипи добра",
-                "displayName-count-other": "сан-томе ба принсипи добра",
-                symbol: "STD",
-                "symbol-alt-narrow": "Db"
+                displayName: "сан-томе ба принсипи добра (1977–2017)",
+                "displayName-count-one": "Сан-Томе Принсипигийн мөнгөн тэмдэгт добра (1977–2017)",
+                "displayName-count-other": "Сан-Томе Принсипигийн мөнгөн тэмдэгт добра (1977–2017)",
+                symbol: "STD"
             },
             STN: {
-                displayName: "STN",
-                symbol: "STN"
+                displayName: "сан-томе ба принсипи добра",
+                "displayName-count-one": "Сан-Томе Принсипигийн мөнгөн тэмдэгт добра",
+                "displayName-count-other": "Сан-Томе Принсипигийн мөнгөн тэмдэгт добра",
+                symbol: "STN",
+                "symbol-alt-narrow": "Db"
             },
             SUR: {
                 displayName: "SUR",

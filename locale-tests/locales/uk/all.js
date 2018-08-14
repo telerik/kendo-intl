@@ -1213,12 +1213,20 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "мавританська угія (1973–2017)",
+                "displayName-count-one": "мавританська угія (1973–2017)",
+                "displayName-count-few": "мавританські угії (1973–2017)",
+                "displayName-count-many": "мавританських угій (1973–2017)",
+                "displayName-count-other": "мавританської угії (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "мавританська угія",
                 "displayName-count-one": "мавританська угія",
                 "displayName-count-few": "мавританські угії",
                 "displayName-count-many": "мавританських угій",
                 "displayName-count-other": "мавританської угії",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "мальтійська ліра",
@@ -1628,17 +1636,21 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "добра Сан-Томе і Прінсіпі (1977–2017)",
+                "displayName-count-one": "добра Сан-Томе і Прінсіпі (1977–2017)",
+                "displayName-count-few": "добри Сан-Томе і Принсіпі (1977–2017)",
+                "displayName-count-many": "добр Сан-Томе і Принсіпі (1977–2017)",
+                "displayName-count-other": "добри Сан-Томе і Прінсіпі (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "добра Сан-Томе і Прінсіпі",
                 "displayName-count-one": "добра Сан-Томе і Прінсіпі",
                 "displayName-count-few": "добри Сан-Томе і Принсіпі",
                 "displayName-count-many": "добр Сан-Томе і Принсіпі",
                 "displayName-count-other": "добри Сан-Томе і Прінсіпі",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "радянський рубль",

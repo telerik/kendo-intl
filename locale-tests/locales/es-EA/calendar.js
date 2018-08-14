@@ -87,8 +87,8 @@ const data = {
                 yMMMMEd: "EEE, d 'de' MMMM 'de' y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ 'de' y",
-                "yw-count-one": "'semana' w 'de' Y",
-                "yw-count-other": "'semana' w 'de' Y"
+                "yw-count-one": "'semana' w 'de' y",
+                "yw-count-other": "'semana' w 'de' y"
             }
         },
         timeFormats: {

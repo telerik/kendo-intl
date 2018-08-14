@@ -97,8 +97,8 @@ const data = {
                 symbol: "NAf"
             },
             AOA: {
-                displayName: "အင်ဂိုလာ ကန်ဇာ",
-                "displayName-count-other": "အင်ဂိုလာ ကန်ဇာ",
+                displayName: "အန်ဂိုလာ ကွမ်ဇာ",
+                "displayName-count-other": "အန်ဂိုလာ ကွမ်ဇာ",
                 symbol: "AOA",
                 "symbol-alt-narrow": "Kz"
             },
@@ -893,9 +893,14 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "မော်ရီတေးနီးယား အူဂီးယာ (1973–2017)",
+                "displayName-count-other": "မော်ရီတေးနီးယား အူဂီးယာ (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "မော်ရီတေးနီးယား အူဂီးယာ",
                 "displayName-count-other": "မော်ရီတေးနီးယား အူဂီးယာ",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "MTL",
@@ -1185,14 +1190,15 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
-                displayName: "ဆောင်တူမေးနှင့် ပရင်စီပီ ဒိုဘရာ",
-                "displayName-count-other": "ဆောင်တူမေးနှင့် ပရင်စီပီ ဒိုဘရာ",
-                symbol: "STD",
-                "symbol-alt-narrow": "Db"
+                displayName: "ဆောင်တူမေးနှင့် ပရင်စီပီ ဒိုဘရာ (1977–2017)",
+                "displayName-count-other": "ဆောင်တူမေးနှင့် ပရင်စီပီ ဒိုဘရာ (1977–2017)",
+                symbol: "STD"
             },
             STN: {
-                displayName: "STN",
-                symbol: "STN"
+                displayName: "ဆောင်တူမေးနှင့် ပရင်စီပီ ဒိုဘရာ",
+                "displayName-count-other": "ဆောင်တူမေးနှင့် ပရင်စီပီ ဒိုဘရာ",
+                symbol: "STN",
+                "symbol-alt-narrow": "Db"
             },
             SUR: {
                 displayName: "ဆိုဗီယက် ရူဗယ်",
@@ -1588,7 +1594,7 @@ const data = {
                 yMMMM: "y MMMM",
                 yQQQ: "y QQQ",
                 yQQQQ: "y QQQQ",
-                "yw-count-other": "Y ခု w ပတ်မြောက်"
+                "yw-count-other": "y ခု w ပတ်မြောက်"
             }
         },
         timeFormats: {

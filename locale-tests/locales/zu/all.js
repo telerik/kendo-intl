@@ -984,10 +984,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "i-Mauritanian Ouguiya (1973–2017)",
+                "displayName-count-one": "i-Mauritanian Ouguiya (1973–2017)",
+                "displayName-count-other": "i-Mauritanian Ouguiya (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "i-Mauritanian Ouguiya",
                 "displayName-count-one": "i-Mauritanian Ouguiya",
                 "displayName-count-other": "i-Mauritanian Ouguiya",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "MTL",
@@ -1313,15 +1319,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "i-São Tomé kanye ne-Príncipe Dobra (1977–2017)",
+                "displayName-count-one": "i-São Tomé kanye ne-Príncipe Dobra (1977–2017)",
+                "displayName-count-other": "i-São Tomé kanye ne-Príncipe Dobra (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "i-São Tomé kanye ne-Príncipe Dobra",
                 "displayName-count-one": "i-São Tomé kanye ne-Príncipe Dobra",
                 "displayName-count-other": "i-São Tomé kanye ne-Príncipe Dobra",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

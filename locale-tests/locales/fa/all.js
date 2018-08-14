@@ -999,10 +999,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "اوگوئیای موریتانی (۱۹۷۳ تا ۲۰۱۷)",
+                "displayName-count-one": "اوگوئیای موریتانی (۱۹۷۳ تا ۲۰۱۷)",
+                "displayName-count-other": "اوگوئیای موریتانی (۱۹۷۳ تا ۲۰۱۷)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "اوگوئیای موریتانی",
                 "displayName-count-one": "اوگوئیای موریتانی",
                 "displayName-count-other": "اوگوئیای موریتانی",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "لیرهٔ مالت",
@@ -1333,15 +1339,17 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "دوبرای سائوتومه و پرنسیپ (۱۹۷۷ تا ۲۰۱۷)",
+                "displayName-count-one": "دوبرای سائوتومه و پرنسیپ (۱۹۷۷ تا ۲۰۱۷)",
+                "displayName-count-other": "دوبرای سائوتومه و پرنسیپ (۱۹۷۷ تا ۲۰۱۷)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "دوبرای سائوتومه و پرنسیپ",
                 "displayName-count-one": "دوبرای سائوتومه و پرنسیپ",
                 "displayName-count-other": "دوبرای سائوتومه و پرنسیپ",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "روبل شوروی",

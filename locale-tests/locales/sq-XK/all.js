@@ -168,9 +168,9 @@ const data = {
                 symbol: "AZM"
             },
             AZN: {
-                displayName: "Manata e Azerbajxhanit",
-                "displayName-count-one": "manatë azere",
-                "displayName-count-other": "manata azere",
+                displayName: "Manata azerbajxhanase",
+                "displayName-count-one": "manatë azerbajxhanase",
+                "displayName-count-other": "manata azerbajxhanase",
                 symbol: "AZN"
             },
             BAD: {
@@ -399,9 +399,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             CNH: {
-                displayName: "Juani kinez (tregu i jashtëm)",
-                "displayName-count-one": "juan kinez (tregu i jashtëm)",
-                "displayName-count-other": "juanë kinez (tregu i jashtëm)",
+                displayName: "Juani kinez (për treg të jashtëm)",
+                "displayName-count-one": "juan kinez (për treg të jashtëm)",
+                "displayName-count-other": "juanë kinez (për treg të jashtëm)",
                 symbol: "CNH"
             },
             CNX: {
@@ -466,7 +466,7 @@ const data = {
                 symbol: "CYP"
             },
             CZK: {
-                displayName: "Koruna e Republikës Çeke",
+                displayName: "Koruna e Çekisë",
                 "displayName-count-one": "korunë çeke",
                 "displayName-count-other": "koruna çeke",
                 symbol: "CZK",
@@ -519,9 +519,9 @@ const data = {
                 symbol: "EEK"
             },
             EGP: {
-                displayName: "Stërlina egjiptiane",
-                "displayName-count-one": "stërlinë egjiptiane",
-                "displayName-count-other": "stërlina egjiptiane",
+                displayName: "Sterlina egjiptiane",
+                "displayName-count-one": "sterlinë egjiptiane",
+                "displayName-count-other": "sterlina egjiptiane",
                 symbol: "EGP",
                 "symbol-alt-narrow": "E£"
             },
@@ -989,10 +989,16 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "Ugija mauritane (1973–2017)",
+                "displayName-count-one": "ugijë mauritane (1973–2017)",
+                "displayName-count-other": "ugija mauritane (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "Ugija mauritane",
                 "displayName-count-one": "ugijë mauritane",
                 "displayName-count-other": "ugija mauritane",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "MTL",
@@ -1249,9 +1255,9 @@ const data = {
                 symbol: "SDD"
             },
             SDG: {
-                displayName: "Stërlina sudaneze",
-                "displayName-count-one": "stërlinë sudaneze",
-                "displayName-count-other": "stërlina sudaneze",
+                displayName: "Sterlina sudaneze",
+                "displayName-count-one": "sterlinë sudaneze",
+                "displayName-count-other": "sterlina sudaneze",
                 symbol: "SDG"
             },
             SDP: {
@@ -1273,9 +1279,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             SHP: {
-                displayName: "Stërlina e Ishullit të Shën-Helenës",
-                "displayName-count-one": "stërlinë e Ishullit të Shën-Helenës",
-                "displayName-count-other": "stërlina të Ishullit të Shën-Helenës",
+                displayName: "Sterlina e Ishullit të Shën-Helenës",
+                "displayName-count-one": "sterlinë e Ishullit të Shën-Helenës",
+                "displayName-count-other": "sterlina e Ishullit të Shën-Helenës",
                 symbol: "SHP",
                 "symbol-alt-narrow": "£"
             },
@@ -1311,22 +1317,24 @@ const data = {
                 symbol: "SRG"
             },
             SSP: {
-                displayName: "Stërlina e Sudanit të Jugut",
-                "displayName-count-one": "stërlinë e Sudanit të Jugut",
-                "displayName-count-other": "stërlina të Sudanit të Jugut",
+                displayName: "Sterlina sudanezo-jugore",
+                "displayName-count-one": "sterlinë sudanezo-jugore",
+                "displayName-count-other": "sterlina sudanezo-jugore",
                 symbol: "SSP",
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "Dobra e Sao-Tomes dhe Prinsipes (1977–2017)",
+                "displayName-count-one": "dobër e Sao-Tomes dhe Prinsipes (1977–2017)",
+                "displayName-count-other": "dobra të Sao-Tomes dhe Prinsipes (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "Dobra e Sao-Tomes dhe Prinsipes",
                 "displayName-count-one": "dobër e Sao-Tomes dhe Prinsipes",
                 "displayName-count-other": "dobra të Sao-Tomes dhe Prinsipes",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "SUR",

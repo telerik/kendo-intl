@@ -1187,12 +1187,20 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
+                displayName: "ouguiya mauretańska (1973–2017)",
+                "displayName-count-one": "ouguiya mauretańska (1973–2017)",
+                "displayName-count-few": "ouguiya mauretańskie (1973–2017)",
+                "displayName-count-many": "ouguiya mauretańskich (1973–2017)",
+                "displayName-count-other": "ouguiya mauretańskiej (1973–2017)",
+                symbol: "MRO"
+            },
+            MRU: {
                 displayName: "ouguiya mauretańska",
                 "displayName-count-one": "ouguiya mauretańska",
                 "displayName-count-few": "ouguiya mauretańskie",
                 "displayName-count-many": "ouguiya mauretańskich",
                 "displayName-count-other": "ouguiya mauretańskiej",
-                symbol: "MRO"
+                symbol: "MRU"
             },
             MTL: {
                 displayName: "lira maltańska",
@@ -1622,17 +1630,21 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
+                displayName: "dobra Wysp Świętego Tomasza i Książęcej (1977–2017)",
+                "displayName-count-one": "dobra Wysp Świętego Tomasza i Książęcej (1977–2017)",
+                "displayName-count-few": "dobry Wysp Świętego Tomasza i Książęcej (1977–2017)",
+                "displayName-count-many": "dobr Wysp Świętego Tomasza i Książęcej (1977–2017)",
+                "displayName-count-other": "dobry Wysp Świętego Tomasza i Książęcej (1977–2017)",
+                symbol: "STD"
+            },
+            STN: {
                 displayName: "dobra Wysp Świętego Tomasza i Książęcej",
                 "displayName-count-one": "dobra Wysp Świętego Tomasza i Książęcej",
                 "displayName-count-few": "dobry Wysp Świętego Tomasza i Książęcej",
                 "displayName-count-many": "dobr Wysp Świętego Tomasza i Książęcej",
                 "displayName-count-other": "dobry Wysp Świętego Tomasza i Książęcej",
-                symbol: "STD",
+                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            STN: {
-                displayName: "STN",
-                symbol: "STN"
             },
             SUR: {
                 displayName: "rubel radziecki",
