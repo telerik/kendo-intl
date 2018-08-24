@@ -1,15 +1,5 @@
 import { cldr } from './info';
 
-function territoryFromName(name) {
-    const parts = name.split("-");
-    const length = parts.length;
-
-    if (length > 1) {
-        const territory = parts[ length - 1 ];
-        return territory.toUpperCase();
-    }
-}
-
 function territoryFromName(name, identity) {
     const likelySubtags = cldr.supplemental.likelySubtags;
     let parts = name.split("-");
