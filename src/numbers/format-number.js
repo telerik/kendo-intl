@@ -18,7 +18,7 @@ export default function formatNumber(number, format = NUMBER_PLACEHOLDER, locale
 
     let result;
     if (options) {
-        const style = (options || {}).style || DECIMAL;
+        const style = options.style || DECIMAL;
         result = standardNumberFormat(number, Object.assign({}, info.numbers[style], options), info);
     } else {
         result = customNumberFormat(number, format, info);
