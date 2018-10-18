@@ -1312,7 +1312,7 @@ const data = {
                 "symbol-alt-narrow": "RF"
             },
             SAR: {
-                displayName: "Saūda riāls",
+                displayName: "Saūda Arābijas riāls",
                 "displayName-count-zero": "Saūda riāli",
                 "displayName-count-one": "Saūda riāls",
                 "displayName-count-other": "Saūda riāli",
@@ -1598,6 +1598,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Uzbekistānas sums",
                 "displayName-count-zero": "Uzbekistānas sumi",
@@ -1613,12 +1617,19 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "Venecuēlas bolivārs (2008–2018)",
+                "displayName-count-zero": "Venecuēlas bolivāri (2008–2018)",
+                "displayName-count-one": "Venecuēlas bolivārs (2008–2018)",
+                "displayName-count-other": "Venecuēlas bolivāri (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "Venecuēlas bolivārs",
                 "displayName-count-zero": "Venecuēlas bolivāri",
                 "displayName-count-one": "Venecuēlas bolivārs",
                 "displayName-count-other": "Venecuēlas bolivāri",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "Vjetnamas dongi",
@@ -1756,7 +1767,7 @@ const data = {
                 "displayName-count-zero": "(nezināma valūta)",
                 "displayName-count-one": "(nezināma valūta)",
                 "displayName-count-other": "(nezināma valūta)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "YDD",

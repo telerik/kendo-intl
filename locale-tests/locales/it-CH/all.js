@@ -1340,9 +1340,9 @@ const data = {
                 symbol: "STD"
             },
             STN: {
-                displayName: "dobra di Sao Tomé e Principe",
-                "displayName-count-one": "dobra di Sao Tomé e Principe",
-                "displayName-count-other": "dobra di Sao Tomé e Principe",
+                displayName: "dobra di Sao Tomé e Príncipe",
+                "displayName-count-one": "dobra di Sao Tomé e Príncipe",
+                "displayName-count-other": "dobra di Sao Tomé e Príncipe",
                 symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },
@@ -1496,6 +1496,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "sum uzbeco",
                 "displayName-count-one": "sum uzbeco",
@@ -1509,11 +1513,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "bolívar venezuelano (2008–2018)",
+                "displayName-count-one": "bolívar venezuelano (2008–2018)",
+                "displayName-count-other": "bolívares venezuelani (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "bolívar venezuelano",
                 "displayName-count-one": "bolívar venezuelano",
                 "displayName-count-other": "bolívares venezuelani",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "dong vietnamita",
@@ -1631,7 +1641,7 @@ const data = {
                 displayName: "valuta sconosciuta",
                 "displayName-count-one": "(valuta sconosciuta)",
                 "displayName-count-other": "(valute sconosciute)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "dinaro dello Yemen",

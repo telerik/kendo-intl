@@ -840,9 +840,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             KZT: {
-                displayName: "Казакстан теӊгеси",
-                "displayName-count-one": "Казакстан теӊгеси",
-                "displayName-count-other": "Казакстан теӊгеси",
+                displayName: "Казакстан теңгеси",
+                "displayName-count-one": "Казакстан теңгеси",
+                "displayName-count-other": "Казакстан теңгеси",
                 symbol: "KZT",
                 "symbol-alt-narrow": "₸"
             },
@@ -1110,9 +1110,9 @@ const data = {
                 "symbol-alt-narrow": "Rs"
             },
             NZD: {
-                displayName: "Жаӊы Зеландия доллары",
-                "displayName-count-one": "Жаӊы Зеландия доллары",
-                "displayName-count-other": "Жаӊы Зеландия доллары",
+                displayName: "Жаңы Зеландия доллары",
+                "displayName-count-one": "Жаңы Зеландия доллары",
+                "displayName-count-other": "Жаңы Зеландия доллары",
                 symbol: "NZD",
                 "symbol-alt-narrow": "$"
             },
@@ -1143,9 +1143,9 @@ const data = {
                 symbol: "PES"
             },
             PGK: {
-                displayName: "Папуа Жаӊы Гвинея кинасы",
-                "displayName-count-one": "Папуа Жаӊы Гвинея кинасы",
-                "displayName-count-other": "Папуа Жаӊы Гвинея кинасы",
+                displayName: "Папуа Жаңы Гвинея кинасы",
+                "displayName-count-one": "Папуа Жаңы Гвинея кинасы",
+                "displayName-count-other": "Папуа Жаңы Гвинея кинасы",
                 symbol: "PGK"
             },
             PHP: {
@@ -1420,9 +1420,9 @@ const data = {
                 "symbol-alt-narrow": "TT$"
             },
             TWD: {
-                displayName: "Тайвань жаӊы доллары",
-                "displayName-count-one": "Тайвань жаӊы доллары",
-                "displayName-count-other": "Тайвань жаӊы доллары",
+                displayName: "Тайвань жаңы доллары",
+                "displayName-count-one": "Тайвань жаңы доллары",
+                "displayName-count-other": "Тайвань жаңы доллары",
                 symbol: "TWD",
                 "symbol-alt-narrow": "NT$"
             },
@@ -1483,6 +1483,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Өзбекстан суму",
                 "displayName-count-one": "Өзбекстан суму",
@@ -1494,16 +1498,22 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
-                displayName: "венесуэла боливары",
-                "displayName-count-one": "венесуэла боливары",
-                "displayName-count-other": "венесуэла боливары",
+                displayName: "венесуэла боливары (2008–2018)",
+                "displayName-count-one": "венесуэла боливары (2008–2018)",
+                "displayName-count-other": "венесуэла боливары (2008–2018)",
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
             },
+            VES: {
+                displayName: "VES",
+                "displayName-count-one": "VES",
+                "displayName-count-other": "VES",
+                symbol: "VES"
+            },
             VND: {
-                displayName: "Вьетнам доӊу",
-                "displayName-count-one": "Вьетнам доӊу",
-                "displayName-count-other": "Вьетнам доӊу",
+                displayName: "Вьетнам доңу",
+                "displayName-count-one": "Вьетнам доңу",
+                "displayName-count-other": "Вьетнам доңу",
                 symbol: "₫",
                 "symbol-alt-narrow": "₫"
             },
@@ -1616,7 +1626,7 @@ const data = {
                 displayName: "Белгисиз акча",
                 "displayName-count-one": "(белгисиз акча бирдиги)",
                 "displayName-count-other": "(белгисиз акча)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "YDD",
@@ -1794,13 +1804,13 @@ const data = {
                     "И"
                 ],
                 short: [
-                    "жек.",
-                    "дүй.",
-                    "шейш.",
-                    "шарш.",
-                    "бейш.",
-                    "жума",
-                    "ишм."
+                    "жш.",
+                    "дш.",
+                    "шш.",
+                    "шр.",
+                    "бш.",
+                    "жм.",
+                    "иш."
                 ],
                 wide: [
                     "жекшемби",
@@ -1832,7 +1842,7 @@ const data = {
                     "И"
                 ],
                 short: [
-                    "жк",
+                    "жш.",
                     "дш.",
                     "шш.",
                     "шр.",
@@ -2125,9 +2135,9 @@ const data = {
                 narrow: "айдын жумуш күнү"
             },
             dayperiod: {
-                short: "ТЧ/ТК",
+                short: "тң/тк",
                 wide: "ТЧ/ТК",
-                narrow: "ТЧ/ТК"
+                narrow: "тң/тк"
             },
             hour: {
                 wide: "саат",

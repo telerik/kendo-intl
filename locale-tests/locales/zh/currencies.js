@@ -1388,6 +1388,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "乌兹别克斯坦苏姆",
                 "displayName-count-other": "乌兹别克斯坦苏姆",
@@ -1399,10 +1403,15 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
-                displayName: "委内瑞拉玻利瓦尔",
-                "displayName-count-other": "委内瑞拉玻利瓦尔",
+                displayName: "委内瑞拉玻利瓦尔 (2008–2018)",
+                "displayName-count-other": "委内瑞拉玻利瓦尔 (2008–2018)",
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
+            },
+            VES: {
+                displayName: "委内瑞拉玻利瓦尔",
+                "displayName-count-other": "委内瑞拉玻利瓦尔",
+                symbol: "VES"
             },
             VND: {
                 displayName: "越南盾",

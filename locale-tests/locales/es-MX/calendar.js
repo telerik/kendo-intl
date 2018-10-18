@@ -39,9 +39,9 @@ const data = {
                 EBhms: "E h:mm:ss B",
                 Ed: "E d",
                 Ehm: "E h:mm a",
-                EHm: "E H:mm",
+                EHm: "E HH:mm",
                 Ehms: "E h:mm:ss a",
-                EHms: "E H:mm:ss",
+                EHms: "E HH:mm:ss",
                 Gy: "y G",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
@@ -56,11 +56,11 @@ const data = {
                 hms: "h:mm:ss a",
                 Hms: "H:mm:ss",
                 hmsv: "h:mm:ss a v",
-                Hmsv: "H:mm:ss v",
+                Hmsv: "HH:mm:ss v",
                 hmsvvvv: "h:mm:ss a (vvvv)",
-                Hmsvvvv: "H:mm:ss (vvvv)",
+                Hmsvvvv: "HH:mm:ss (vvvv)",
                 hmv: "h:mm a v",
-                Hmv: "H:mm v",
+                Hmv: "HH:mm v",
                 M: "L",
                 Md: "d/M",
                 MEd: "E, d/M",
@@ -426,8 +426,8 @@ const data = {
             },
             weekOfMonth: {
                 wide: "semana del mes",
-                short: "sem. del mes",
-                narrow: "sem. del mes"
+                short: "sem. de m",
+                narrow: "sem. de m"
             },
             day: {
                 wide: "día",

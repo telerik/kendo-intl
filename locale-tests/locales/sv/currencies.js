@@ -1652,6 +1652,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "uzbekisk sum",
                 "displayName-count-one": "uzbekisk sum",
@@ -1665,11 +1669,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "venezuelansk bolívar (2008–2018)",
+                "displayName-count-one": "venezuelansk bolívar (2008–2018)",
+                "displayName-count-other": "venezuelanska bolívar (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "venezuelansk bolívar",
                 "displayName-count-one": "venezuelansk bolívar",
                 "displayName-count-other": "venezuelanska bolívar",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "vietnamesisk dong",
@@ -1821,7 +1831,7 @@ const data = {
                 displayName: "okänd valuta",
                 "displayName-count-one": "(okänd valutaenhet)",
                 "displayName-count-other": "(okända valutaenheter)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "jemenitisk dinar",

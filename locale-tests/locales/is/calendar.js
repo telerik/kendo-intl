@@ -385,8 +385,8 @@ const data = {
                 narrow: {
                     0: "f.k.",
                     1: "e.k.",
-                    "0-alt-variant": "f.l.t.",
-                    "1-alt-variant": "l.t."
+                    "0-alt-variant": "f.v.t.",
+                    "1-alt-variant": "v.t."
                 }
             }
         },

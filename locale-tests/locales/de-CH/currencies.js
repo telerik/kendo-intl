@@ -1257,8 +1257,8 @@ const data = {
                 symbol: "PEI"
             },
             PEN: {
-                displayName: "Peruanischer Neuer Sol",
-                "displayName-count-one": "Peruanischer Neuer Sol",
+                displayName: "Peruanischer Sol",
+                "displayName-count-one": "Peruanischer Sol",
                 "displayName-count-other": "Peruanische Sol",
                 symbol: "PEN"
             },
@@ -1653,6 +1653,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Usbekistan-Sum",
                 "displayName-count-one": "Usbekistan-Sum",
@@ -1671,6 +1675,12 @@ const data = {
                 "displayName-count-other": "Venezolanische Bolívares",
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
+            },
+            VES: {
+                displayName: "VES",
+                "displayName-count-one": "VES",
+                "displayName-count-other": "VES",
+                symbol: "VES"
             },
             VND: {
                 displayName: "Vietnamesischer Dong",

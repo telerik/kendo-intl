@@ -518,7 +518,7 @@ const data = {
             CVE: {
                 displayName: "കേപ് വെർദിയൻ എസ്‌ക്യുഡോ",
                 "displayName-count-one": "കേപ് വെർദിയൻ എസ്‌ക്യുഡോ",
-                "displayName-count-other": "കേപ് വെർദിയൻ എസ്‌ക്യുഡോ",
+                "displayName-count-other": "കേപ് വെർദിയൻ എസ്‌ക്യുഡോസ്",
                 symbol: "CVE"
             },
             CYP: {
@@ -704,13 +704,13 @@ const data = {
             GMD: {
                 displayName: "ഗാംബിയൻ ദലാസി",
                 "displayName-count-one": "ഗാംബിയൻ ദലാസി",
-                "displayName-count-other": "ഗാംബിയൻ ദലാസി",
+                "displayName-count-other": "ഗാംബിയൻ ദലാസിസ്",
                 symbol: "GMD"
             },
             GNF: {
                 displayName: "ഗിനിയൻ ഫ്രാങ്ക്",
                 "displayName-count-one": "ഗിനിയൻ ഫ്രാങ്ക്",
-                "displayName-count-other": "ഗിനിയൻ ഫ്രാങ്ക്",
+                "displayName-count-other": "ഗിനിയൻ ഫ്രാങ്ക്സ്",
                 symbol: "GNF",
                 "symbol-alt-narrow": "FG"
             },
@@ -1108,13 +1108,13 @@ const data = {
             MRO: {
                 displayName: "മൗറിറ്റേനിയൻ ഔഗിയ (1973–2017)",
                 "displayName-count-one": "മൗറിറ്റേനിയൻ ഔഗിയ (1973–2017)",
-                "displayName-count-other": "മൗറിറ്റേനിയൻ ഔഗിയ (1973–2017)",
+                "displayName-count-other": "മൗറിറ്റേനിയൻ ഔഗിയസ് (1973–2017)",
                 symbol: "MRO"
             },
             MRU: {
                 displayName: "മൗറിറ്റേനിയൻ ഔഗിയ",
                 "displayName-count-one": "മൗറിറ്റേനിയൻ ഔഗിയ",
-                "displayName-count-other": "മൗറിറ്റേനിയൻ ഔഗിയ",
+                "displayName-count-other": "മൗറിറ്റേനിയൻ ഔഗിയസ്",
                 symbol: "MRU"
             },
             MTL: {
@@ -1423,7 +1423,7 @@ const data = {
             SLL: {
                 displayName: "സിയെറ ലിയോണിയൻ ലിയോൺ",
                 "displayName-count-one": "സിയെറ ലിയോണിയൻ ലിയോൺ",
-                "displayName-count-other": "സിയെറ ലിയോണിയൻ ലിയോൺ",
+                "displayName-count-other": "സിയെറ ലിയോണിയൻ ലിയോണസ്",
                 symbol: "SLL"
             },
             SOS: {
@@ -1627,6 +1627,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "ഉസ്‌ബെക്കിസ്ഥാനി സോം",
                 "displayName-count-one": "ഉസ്‌ബെക്കിസ്ഥാനി സോം",
@@ -1640,11 +1644,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "വെനിസ്വേലൻ ബൊളീവർ (2008–2018)",
+                "displayName-count-one": "വെനിസ്വേലൻ ബൊളീവർ (2008–2018)",
+                "displayName-count-other": "വെനിസ്വേലൻ ബൊളീവർ (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "വെനിസ്വേലൻ ബൊളീവർ",
                 "displayName-count-one": "വെനിസ്വേലൻ ബൊളീവർ",
                 "displayName-count-other": "വെനിസ്വേലൻ ബൊളീവർ",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "വിയറ്റ്നാമീസ് ഡോങ്",
@@ -1790,7 +1800,7 @@ const data = {
                 displayName: "അജ്ഞാത നാണയം",
                 "displayName-count-one": "(അജ്ഞാത നാണയം‌)",
                 "displayName-count-other": "(അജ്ഞാത നാണയം)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "യമനി ദിനാർ",

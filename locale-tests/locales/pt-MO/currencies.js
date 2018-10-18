@@ -59,9 +59,9 @@ const data = {
                 symbol: "ANG"
             },
             AOA: {
-                displayName: "Kwanza angolano",
-                "displayName-count-one": "Kwanza angolano",
-                "displayName-count-other": "Kwanzas angolanos",
+                displayName: "kwanza angolano",
+                "displayName-count-one": "kwanza angolano",
+                "displayName-count-other": "kwanzas angolanos",
                 symbol: "AOA",
                 "symbol-alt-narrow": "Kz"
             },
@@ -227,9 +227,9 @@ const data = {
                 symbol: "BHD"
             },
             BIF: {
-                displayName: "Franco burundiano",
-                "displayName-count-one": "Franco burundiano",
-                "displayName-count-other": "Francos burundianos",
+                displayName: "franco burundiano",
+                "displayName-count-one": "franco burundiano",
+                "displayName-count-other": "francos burundianos",
                 symbol: "BIF"
             },
             BMD: {
@@ -374,9 +374,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             CDF: {
-                displayName: "Franco congolês",
-                "displayName-count-one": "Franco congolês",
-                "displayName-count-other": "Francos congoleses",
+                displayName: "franco congolês",
+                "displayName-count-one": "franco congolês",
+                "displayName-count-other": "francos congoleses",
                 symbol: "CDF"
             },
             CHE: {
@@ -513,9 +513,9 @@ const data = {
                 symbol: "DEM"
             },
             DJF: {
-                displayName: "Franco jibutiano",
-                "displayName-count-one": "Franco jibutiano",
-                "displayName-count-other": "Francos jibutianos",
+                displayName: "franco jibutiano",
+                "displayName-count-one": "franco jibutiano",
+                "displayName-count-other": "francos jibutianos",
                 symbol: "DJF"
             },
             DKK: {
@@ -564,9 +564,9 @@ const data = {
                 "symbol-alt-narrow": "E£"
             },
             ERN: {
-                displayName: "Nakfa da Eritreia",
-                "displayName-count-one": "Nakfa da Eritreia",
-                "displayName-count-other": "Nakfas da Eritreia",
+                displayName: "nakfa eritreia",
+                "displayName-count-one": "nakfa eritreia",
+                "displayName-count-other": "nakfas eritreias",
                 symbol: "ERN"
             },
             ESA: {
@@ -589,9 +589,9 @@ const data = {
                 "symbol-alt-narrow": "₧"
             },
             ETB: {
-                displayName: "Birr etíope",
-                "displayName-count-one": "Birr etíope",
-                "displayName-count-other": "Birrs etíopes",
+                displayName: "birr etíope",
+                "displayName-count-one": "birr etíope",
+                "displayName-count-other": "birres etíopes",
                 symbol: "ETB"
             },
             EUR: {
@@ -655,9 +655,9 @@ const data = {
                 symbol: "GHC"
             },
             GHS: {
-                displayName: "Cedi de Gana",
-                "displayName-count-one": "Cedi de Gana",
-                "displayName-count-other": "Cedis de Gana",
+                displayName: "cedi ganês",
+                "displayName-count-one": "cedi ganês",
+                "displayName-count-other": "cedis ganeses",
                 symbol: "GHS"
             },
             GIP: {
@@ -668,15 +668,15 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             GMD: {
-                displayName: "Dalasi da Gâmbia",
-                "displayName-count-one": "Dalasi da Gâmbia",
-                "displayName-count-other": "Dalasis da Gâmbia",
+                displayName: "dalasi gambiano",
+                "displayName-count-one": "dalasi gambiano",
+                "displayName-count-other": "dalasis gambianos",
                 symbol: "GMD"
             },
             GNF: {
-                displayName: "Franco guineense",
-                "displayName-count-one": "Franco guineense",
-                "displayName-count-other": "Francos guineenses",
+                displayName: "franco guineense",
+                "displayName-count-one": "franco guineense",
+                "displayName-count-other": "francos guineenses",
                 symbol: "GNF",
                 "symbol-alt-narrow": "FG"
             },
@@ -855,9 +855,9 @@ const data = {
                 "symbol-alt-narrow": "¥"
             },
             KES: {
-                displayName: "Xelim queniano",
-                "displayName-count-one": "Xelim queniano",
-                "displayName-count-other": "Xelins quenianos",
+                displayName: "xelim queniano",
+                "displayName-count-one": "xelim queniano",
+                "displayName-count-other": "xelins quenianos",
                 symbol: "KES"
             },
             KGS: {
@@ -874,9 +874,9 @@ const data = {
                 "symbol-alt-narrow": "៛"
             },
             KMF: {
-                displayName: "Franco comoriano",
-                "displayName-count-one": "Franco comoriano",
-                "displayName-count-other": "Francos comorianos",
+                displayName: "franco comoriano",
+                "displayName-count-one": "franco comoriano",
+                "displayName-count-other": "francos comorianos",
                 symbol: "KMF",
                 "symbol-alt-narrow": "CF"
             },
@@ -948,9 +948,9 @@ const data = {
                 "symbol-alt-narrow": "Rs"
             },
             LRD: {
-                displayName: "Dólar liberiano",
-                "displayName-count-one": "Dólar liberiano",
-                "displayName-count-other": "Dólares liberianos",
+                displayName: "dólar liberiano",
+                "displayName-count-one": "dólar liberiano",
+                "displayName-count-other": "dólares liberianos",
                 symbol: "LRD",
                 "symbol-alt-narrow": "$"
             },
@@ -1041,9 +1041,9 @@ const data = {
                 symbol: "MDL"
             },
             MGA: {
-                displayName: "Ariari de Madagáscar",
-                "displayName-count-one": "Ariari de Madagáscar",
-                "displayName-count-other": "Ariaris de Madagáscar",
+                displayName: "ariari malgaxe",
+                "displayName-count-one": "ariari malgaxe",
+                "displayName-count-other": "ariaris malgaxes",
                 symbol: "MGA",
                 "symbol-alt-narrow": "Ar"
             },
@@ -1092,15 +1092,15 @@ const data = {
                 symbol: "MOP$"
             },
             MRO: {
-                displayName: "Ouguiya da Mauritânia (1973–2017)",
-                "displayName-count-one": "Ouguiya da Mauritânia (1973–2017)",
-                "displayName-count-other": "Ouguiyas da Mauritânia (1973–2017)",
+                displayName: "ouguiya mauritana (1973–2017)",
+                "displayName-count-one": "ouguiya mauritana (1973–2017)",
+                "displayName-count-other": "ouguiyas mauritanas (1973–2017)",
                 symbol: "MRO"
             },
             MRU: {
-                displayName: "Ouguiya da Mauritânia",
-                "displayName-count-one": "Ouguiya da Mauritânia",
-                "displayName-count-other": "Ouguiyas da Mauritânia",
+                displayName: "ouguiya mauritana",
+                "displayName-count-one": "ouguiya mauritana",
+                "displayName-count-other": "ouguiyas mauritanas",
                 symbol: "MRU"
             },
             MTL: {
@@ -1116,9 +1116,9 @@ const data = {
                 symbol: "MTP"
             },
             MUR: {
-                displayName: "Rupia mauriciana",
-                "displayName-count-one": "Rupia mauriciana",
-                "displayName-count-other": "Rupias mauricianas",
+                displayName: "rupia mauriciana",
+                "displayName-count-one": "rupia mauriciana",
+                "displayName-count-other": "rupias mauricianas",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
@@ -1133,9 +1133,9 @@ const data = {
                 symbol: "MVR"
             },
             MWK: {
-                displayName: "Kwacha do Malawi",
-                "displayName-count-one": "Kwacha do Malawi",
-                "displayName-count-other": "Kwachas do Malawi",
+                displayName: "kwacha malauiano",
+                "displayName-count-one": "kwacha malauiano",
+                "displayName-count-other": "kwachas malauianos",
                 symbol: "MWK"
             },
             MXN: {
@@ -1177,9 +1177,9 @@ const data = {
                 symbol: "MZM"
             },
             MZN: {
-                displayName: "Metical de Moçambique",
-                "displayName-count-one": "Metical de Moçambique",
-                "displayName-count-other": "Meticales de Moçambique",
+                displayName: "metical moçambicano",
+                "displayName-count-one": "metical moçambicano",
+                "displayName-count-other": "meticais moçambicanos",
                 symbol: "MZN"
             },
             NAD: {
@@ -1360,9 +1360,9 @@ const data = {
                 "symbol-alt-narrow": "р."
             },
             RWF: {
-                displayName: "Franco ruandês",
-                "displayName-count-one": "Franco ruandês",
-                "displayName-count-other": "Francos ruandeses",
+                displayName: "franco ruandês",
+                "displayName-count-one": "franco ruandês",
+                "displayName-count-other": "francos ruandeses",
                 symbol: "RWF",
                 "symbol-alt-narrow": "RF"
             },
@@ -1380,9 +1380,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             SCR: {
-                displayName: "Rupia seichelense",
-                "displayName-count-one": "Rupia seichelense",
-                "displayName-count-other": "Rupias seichelenses",
+                displayName: "rupia seichelense",
+                "displayName-count-one": "rupia seichelense",
+                "displayName-count-other": "rupias seichelenses",
                 symbol: "SCR"
             },
             SDD: {
@@ -1418,7 +1418,7 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             SHP: {
-                displayName: "Libra de Santa Helena",
+                displayName: "libra santa-helenense",
                 "displayName-count-one": "Libra de Santa Helena",
                 "displayName-count-other": "Libras de Santa Helena",
                 symbol: "SHP",
@@ -1443,9 +1443,9 @@ const data = {
                 symbol: "SLL"
             },
             SOS: {
-                displayName: "Xelim somali",
-                "displayName-count-one": "Xelim somali",
-                "displayName-count-other": "Xelins somalis",
+                displayName: "xelim somali",
+                "displayName-count-one": "xelim somali",
+                "displayName-count-other": "xelins somalis",
                 symbol: "SOS"
             },
             SRD: {
@@ -1462,9 +1462,9 @@ const data = {
                 symbol: "SRG"
             },
             SSP: {
-                displayName: "Libra sul-sudanesa",
-                "displayName-count-one": "Libra sul-sudanesa",
-                "displayName-count-other": "Libras sul-sudanesas",
+                displayName: "libra sul-sudanesa",
+                "displayName-count-one": "libra sul-sudanesa",
+                "displayName-count-other": "libras sul-sudanesas",
                 symbol: "SSP",
                 "symbol-alt-narrow": "£"
             },
@@ -1475,9 +1475,9 @@ const data = {
                 symbol: "STD"
             },
             STN: {
-                displayName: "São Tomé & Príncipe Dobra (2018)",
-                "displayName-count-one": "São Tomé & Príncipe dobra (2018)",
-                "displayName-count-other": "São Tomé & Príncipe dobras (2018)",
+                displayName: "dobra de São Tomé e Príncipe",
+                "displayName-count-one": "dobra de São Tomé e Príncipe",
+                "displayName-count-other": "dobras de São Tomé e Príncipe",
                 symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },
@@ -1653,6 +1653,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Som do Uzbequistão",
                 "displayName-count-one": "Som do Uzbequistão",
@@ -1666,11 +1670,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "bolívar (2008–2018)",
+                "displayName-count-one": "bolívar (2008–2018)",
+                "displayName-count-other": "bolívares (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "bolívar",
                 "displayName-count-one": "bolívar",
                 "displayName-count-other": "bolívares",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "Dong vietnamita",
@@ -1698,9 +1708,9 @@ const data = {
                 symbol: "WST"
             },
             XAF: {
-                displayName: "Franco CFA (BEAC)",
-                "displayName-count-one": "Franco CFA (BEAC)",
-                "displayName-count-other": "Francos CFA (BEAC)",
+                displayName: "franco CFA (BEAC)",
+                "displayName-count-one": "franco CFA (BEAC)",
+                "displayName-count-other": "francos CFA (BEAC)",
                 symbol: "FCFA"
             },
             XAG: {
@@ -1818,7 +1828,7 @@ const data = {
                 displayName: "moeda desconhecida",
                 "displayName-count-one": "(moeda desconhecida)",
                 "displayName-count-other": "(moedas desconhecidas)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "Dinar iemenita",

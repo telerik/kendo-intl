@@ -451,7 +451,7 @@ const data = {
             },
             dayperiod: {
                 short: "am/pm",
-                wide: "AM/PM",
+                wide: "am/pm",
                 narrow: "am/pm"
             },
             hour: {

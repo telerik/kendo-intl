@@ -105,22 +105,22 @@ const data = {
                     "Sht"
                 ],
                 narrow: [
-                    "D",
-                    "H",
-                    "M",
-                    "M",
-                    "E",
-                    "P",
-                    "Sh"
+                    "d",
+                    "h",
+                    "m",
+                    "m",
+                    "e",
+                    "p",
+                    "sh"
                 ],
                 short: [
-                    "Die",
-                    "Hën",
-                    "Mar",
-                    "Mër",
-                    "Enj",
-                    "Pre",
-                    "Sht"
+                    "die",
+                    "hën",
+                    "mar",
+                    "mër",
+                    "enj",
+                    "pre",
+                    "sht"
                 ],
                 wide: [
                     "e diel",
@@ -134,40 +134,40 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "Die",
-                    "Hën",
-                    "Mar",
-                    "Mër",
-                    "Enj",
-                    "Pre",
-                    "Sht"
+                    "die",
+                    "hën",
+                    "mar",
+                    "mër",
+                    "enj",
+                    "pre",
+                    "sht"
                 ],
                 narrow: [
-                    "D",
-                    "H",
-                    "M",
-                    "M",
-                    "E",
-                    "P",
-                    "Sh"
+                    "d",
+                    "h",
+                    "m",
+                    "m",
+                    "e",
+                    "p",
+                    "sh"
                 ],
                 short: [
-                    "Die",
-                    "Hën",
-                    "Mar",
-                    "Mër",
-                    "Enj",
-                    "Pre",
-                    "Sht"
+                    "die",
+                    "hën",
+                    "mar",
+                    "mër",
+                    "enj",
+                    "pre",
+                    "sht"
                 ],
                 wide: [
-                    "E diel",
-                    "E hënë",
-                    "E martë",
-                    "E mërkurë",
-                    "E enjte",
-                    "E premte",
-                    "E shtunë"
+                    "e diel",
+                    "e hënë",
+                    "e martë",
+                    "e mërkurë",
+                    "e enjte",
+                    "e premte",
+                    "e shtunë"
                 ]
             }
         },
@@ -218,46 +218,46 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "Jan",
-                    "Shk",
-                    "Mar",
-                    "Pri",
-                    "Maj",
-                    "Qer",
-                    "Korr",
-                    "Gush",
-                    "Sht",
-                    "Tet",
-                    "Nën",
-                    "Dhj"
+                    "jan",
+                    "shk",
+                    "mar",
+                    "pri",
+                    "maj",
+                    "qer",
+                    "korr",
+                    "gush",
+                    "sht",
+                    "tet",
+                    "nën",
+                    "dhj"
                 ],
                 narrow: [
-                    "J",
-                    "Sh",
-                    "M",
-                    "P",
-                    "M",
-                    "Q",
-                    "K",
-                    "G",
-                    "Sh",
-                    "T",
-                    "N",
-                    "Dh"
+                    "j",
+                    "sh",
+                    "m",
+                    "p",
+                    "m",
+                    "q",
+                    "k",
+                    "g",
+                    "sh",
+                    "t",
+                    "n",
+                    "dh"
                 ],
                 wide: [
-                    "Janar",
-                    "Shkurt",
-                    "Mars",
-                    "Prill",
-                    "Maj",
-                    "Qershor",
-                    "Korrik",
-                    "Gusht",
-                    "Shtator",
-                    "Tetor",
-                    "Nëntor",
-                    "Dhjetor"
+                    "janar",
+                    "shkurt",
+                    "mars",
+                    "prill",
+                    "maj",
+                    "qershor",
+                    "korrik",
+                    "gusht",
+                    "shtator",
+                    "tetor",
+                    "nëntor",
+                    "dhjetor"
                 ]
             }
         },
@@ -307,9 +307,9 @@ const data = {
             format: {
                 abbreviated: {
                     midnight: "e mesnatës",
-                    am: "e paradites",
+                    am: "p.d.",
                     noon: "e mesditës",
-                    pm: "e pasdites",
+                    pm: "m.d.",
                     morning1: "e mëngjesit",
                     morning2: "e paradites",
                     afternoon1: "e pasdites",
@@ -318,9 +318,9 @@ const data = {
                 },
                 narrow: {
                     midnight: "e mesnatës",
-                    am: "e paradites",
+                    am: "p.d.",
                     noon: "e mesditës",
-                    pm: "e pasdites",
+                    pm: "m.d.",
                     morning1: "e mëngjesit",
                     morning2: "e paradites",
                     afternoon1: "e pasdites",
@@ -342,9 +342,9 @@ const data = {
             "stand-alone": {
                 abbreviated: {
                     midnight: "mesnatë",
-                    am: "paradite",
+                    am: "p.d.",
                     noon: "mesditë",
-                    pm: "pasdite",
+                    pm: "m.d.",
                     morning1: "mëngjes",
                     morning2: "paradite",
                     afternoon1: "pasdite",
@@ -353,9 +353,9 @@ const data = {
                 },
                 narrow: {
                     midnight: "mesnatë",
-                    am: "paradite",
+                    am: "p.d.",
                     noon: "mesditë",
-                    pm: "pasdite",
+                    pm: "m.d.",
                     morning1: "mëngjes",
                     morning2: "paradite",
                     afternoon1: "pasdite",
@@ -462,13 +462,13 @@ const data = {
             },
             minute: {
                 wide: "minutë",
-                short: "min.",
-                narrow: "min."
+                short: "min",
+                narrow: "min"
             },
             second: {
                 wide: "sekondë",
-                short: "sek.",
-                narrow: "sek."
+                short: "sek",
+                narrow: "sek"
             },
             zone: {
                 wide: "brezi orar",

@@ -11,12 +11,12 @@ const data = {
     calendar: {
         patterns: {
             d: "y-MM-dd",
-            D: "EEEE, dd MMMM y",
+            D: "EEEE dd MMMM y",
             m: "d MMM",
             M: "d MMM",
             y: "MMM y",
             Y: "MMMM y",
-            F: "EEEE, dd MMMM y HH:mm:ss",
+            F: "EEEE dd MMMM y HH:mm:ss",
             g: "y-MM-dd HH:mm",
             G: "y-MM-dd HH:mm:ss",
             t: "HH:mm",
@@ -45,7 +45,7 @@ const data = {
                 Gy: "y G",
                 GyMMM: "MMM y G",
                 GyMMMd: "dd MMM y G",
-                GyMMMEd: "E, dd MMM y G",
+                GyMMMEd: "E dd MMM y G",
                 h: "h a",
                 H: "HH",
                 hm: "h:mm a",
@@ -58,7 +58,7 @@ const data = {
                 Hmv: "HH:mm v",
                 M: "L",
                 Md: "dd-MM",
-                MEd: "E, d/M",
+                MEd: "E d/M",
                 MMM: "LLL",
                 MMMd: "d MMM",
                 MMMEd: "E d MMM",
@@ -73,7 +73,7 @@ const data = {
                 yMEd: "E y-MM-dd",
                 yMMM: "MMM y",
                 yMMMd: "d MMM y",
-                yMMMEd: "E, d MMM y",
+                yMMMEd: "E d MMM y",
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
@@ -88,7 +88,7 @@ const data = {
             short: "HH:mm"
         },
         dateFormats: {
-            full: "EEEE, dd MMMM y",
+            full: "EEEE dd MMMM y",
             long: "dd MMMM y",
             medium: "dd MMM y",
             short: "y-MM-dd"
@@ -440,7 +440,7 @@ const data = {
             },
             dayperiod: {
                 short: "vm./nm.",
-                wide: "VM/NM",
+                wide: "vm./nm.",
                 narrow: "vm./nm."
             },
             hour: {
@@ -455,7 +455,7 @@ const data = {
             },
             second: {
                 wide: "sekonde",
-                short: "sek.",
+                short: "s.",
                 narrow: "s."
             },
             zone: {

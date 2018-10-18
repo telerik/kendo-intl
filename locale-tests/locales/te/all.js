@@ -776,9 +776,9 @@ const data = {
                 symbol: "JOD"
             },
             JPY: {
-                displayName: "జపాను దేశ యెస్",
-                "displayName-count-one": "జపాను దేశ యెస్",
-                "displayName-count-other": "జపాను దేశ యెస్",
+                displayName: "జపాను దేశ యెన్",
+                "displayName-count-one": "జపాను దేశ యెన్",
+                "displayName-count-other": "జపాను దేశ యెన్",
                 symbol: "JP¥",
                 "symbol-alt-narrow": "¥"
             },
@@ -1487,6 +1487,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "ఉజ్‌బెకిస్తాన్ సౌమ్",
                 "displayName-count-one": "ఉజ్‌బెకిస్తాన్ సౌమ్",
@@ -1498,11 +1502,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "వెనుజులా బోలివర్ (2008–2018)",
+                "displayName-count-one": "వెనుజులా బోలివర్ (2008–2018)",
+                "displayName-count-other": "వెనుజులా బోలివర్‌లు (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "వెనుజులా బోలివర్",
                 "displayName-count-one": "వెనుజులా బోలివర్",
                 "displayName-count-other": "వెనుజులా బోలివర్‌లు",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "వియత్నామీయుల డాంగ్",
@@ -1620,7 +1630,7 @@ const data = {
                 displayName: "తెలియని కరెన్సీ",
                 "displayName-count-one": "తెలియని కరెన్సీ ప్రమాణం",
                 "displayName-count-other": "తెలియని కరెన్సీ",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "YDD",

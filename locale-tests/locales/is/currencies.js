@@ -1440,6 +1440,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "úsbekskt súm",
                 "displayName-count-one": "úsbekskt súm",
@@ -1451,11 +1455,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "venesúelskur bólívari (2008–2018)",
+                "displayName-count-one": "venesúelskur bólívari (2008–2018)",
+                "displayName-count-other": "venesúelskir bólívarar (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "venesúelskur bólívari",
                 "displayName-count-one": "venesúelskur bólívari",
                 "displayName-count-other": "venesúelskir bólívarar",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "víetnamskt dong",
@@ -1573,7 +1583,7 @@ const data = {
                 displayName: "óþekktur gjaldmiðill",
                 "displayName-count-one": "(óþekkt mynteining gjaldmiðils)",
                 "displayName-count-other": "(óþekktur gjaldmiðill)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "Jemenskur denari",

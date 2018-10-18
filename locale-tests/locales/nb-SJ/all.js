@@ -1701,6 +1701,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "usbekiske som",
                 "displayName-count-one": "usbekisk som",
@@ -1714,11 +1718,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "venezuelanske bolivar (2008–2018)",
+                "displayName-count-one": "venezuelansk bolivar (2008–2018)",
+                "displayName-count-other": "venezuelanske bolivar (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "venezuelanske bolivar",
                 "displayName-count-one": "venezuelansk bolivar",
                 "displayName-count-other": "venezuelanske bolivar",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "vietnamesiske dong",

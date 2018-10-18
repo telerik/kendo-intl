@@ -35,8 +35,8 @@ const data = {
                 Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
-                EBhm: "E h:mm B",
-                EBhms: "E h:mm:ss B",
+                EBhm: "E, h:mm B",
+                EBhms: "E, h:mm:ss B",
                 Ed: "E d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -308,10 +308,10 @@ const data = {
             format: {
                 abbreviated: {
                     midnight: "midnight",
-                    am: "AM",
+                    am: "am",
                     "am-alt-variant": "am",
                     noon: "noon",
-                    pm: "PM",
+                    pm: "pm",
                     "pm-alt-variant": "pm",
                     morning1: "in the morning",
                     afternoon1: "in the afternoon",
@@ -332,10 +332,10 @@ const data = {
                 },
                 wide: {
                     midnight: "midnight",
-                    am: "AM",
+                    am: "am",
                     "am-alt-variant": "am",
                     noon: "noon",
-                    pm: "PM",
+                    pm: "pm",
                     "pm-alt-variant": "pm",
                     morning1: "in the morning",
                     afternoon1: "in the afternoon",
@@ -346,10 +346,10 @@ const data = {
             "stand-alone": {
                 abbreviated: {
                     midnight: "midnight",
-                    am: "AM",
+                    am: "am",
                     "am-alt-variant": "am",
                     noon: "noon",
-                    pm: "PM",
+                    pm: "pm",
                     "pm-alt-variant": "pm",
                     morning1: "morning",
                     afternoon1: "afternoon",
@@ -358,10 +358,10 @@ const data = {
                 },
                 narrow: {
                     midnight: "midnight",
-                    am: "AM",
+                    am: "am",
                     "am-alt-variant": "am",
                     noon: "noon",
-                    pm: "PM",
+                    pm: "pm",
                     "pm-alt-variant": "pm",
                     morning1: "morning",
                     afternoon1: "afternoon",
@@ -370,10 +370,10 @@ const data = {
                 },
                 wide: {
                     midnight: "midnight",
-                    am: "AM",
+                    am: "am",
                     "am-alt-variant": "am",
                     noon: "noon",
-                    pm: "PM",
+                    pm: "pm",
                     "pm-alt-variant": "pm",
                     morning1: "morning",
                     afternoon1: "afternoon",
@@ -434,8 +434,8 @@ const data = {
             },
             weekOfMonth: {
                 wide: "week of month",
-                short: "wk. of mo.",
-                narrow: "wk. of mo."
+                short: "wk of mo",
+                narrow: "wk of mo"
             },
             day: {
                 wide: "day",
@@ -444,23 +444,23 @@ const data = {
             },
             dayOfYear: {
                 wide: "day of year",
-                short: "day of yr.",
-                narrow: "day of yr."
+                short: "day of yr",
+                narrow: "day of yr"
             },
             weekday: {
                 wide: "day of the week",
-                short: "day of wk.",
-                narrow: "day of wk."
+                short: "day of wk",
+                narrow: "day of wk"
             },
             weekdayOfMonth: {
                 wide: "weekday of the month",
-                short: "wkday. of mo.",
-                narrow: "wkday. of mo."
+                short: "wkday of mo",
+                narrow: "wkday of mo"
             },
             dayperiod: {
-                short: "AM/PM",
+                short: "am/pm",
                 wide: "am/pm",
-                narrow: "AM/PM"
+                narrow: "am/pm"
             },
             hour: {
                 wide: "hour",

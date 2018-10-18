@@ -529,7 +529,7 @@ const data = {
             GBP: {
                 displayName: "ბრიტანული გირვანქა სტერლინგი",
                 "displayName-count-one": "ბრიტანული გირვანქა სტერლინგი",
-                "displayName-count-other": "ინგლისური გირვანქა სტერლინგი",
+                "displayName-count-other": "ბრიტანული გირვანქა სტერლინგი",
                 symbol: "£",
                 "symbol-alt-narrow": "£"
             },
@@ -1433,6 +1433,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "უზბეკური სუმი",
                 "displayName-count-one": "უზბეკური სუმი",
@@ -1444,11 +1448,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "ვენესუელის ბოლივარი (2008–2018)",
+                "displayName-count-one": "ვენესუელის ბოლივარი (2008–2018)",
+                "displayName-count-other": "ვენესუელის ბოლივარი (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "ვენესუელის ბოლივარი",
                 "displayName-count-one": "ვენესუელის ბოლივარი",
                 "displayName-count-other": "ვენესუელის ბოლივარი",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "ვიეტნამური დონგი",
@@ -1527,7 +1537,7 @@ const data = {
                 symbol: "XFU"
             },
             XOF: {
-                displayName: "(CFA) ფრანკი (BCEAO)",
+                displayName: "დასავლეთ აფრიკული CFA ფრანკი",
                 "displayName-count-one": "დასავლეთ აფრიკული CFA ფრანკი",
                 "displayName-count-other": "დასავლეთ აფრიკული CFA ფრანკი",
                 symbol: "CFA"
@@ -1566,7 +1576,7 @@ const data = {
                 displayName: "უცნობი ვალუტა",
                 "displayName-count-one": "(ვალუტის უცნობი ერთეული)",
                 "displayName-count-other": "(უცნობი ვალუტა)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "იემენის დინარი",

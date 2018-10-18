@@ -1786,6 +1786,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "sum Uzbekistan",
                 "displayName-count-one": "sum Uzbekistan",
@@ -1801,12 +1805,19 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "bolivar venezuelean (2008–2018)",
+                "displayName-count-one": "bolivar venezuelean (2008–2018)",
+                "displayName-count-few": "bolivari venezueleni (2008–2018)",
+                "displayName-count-other": "bolivari venezueleni (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "bolivar venezuelean",
                 "displayName-count-one": "bolivar venezuelean",
                 "displayName-count-few": "bolivari venezueleni",
                 "displayName-count-other": "bolivari venezueleni",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "dong vietnamez",
@@ -1935,7 +1946,7 @@ const data = {
                 "displayName-count-one": "(unitate monetară necunoscută)",
                 "displayName-count-few": "(monedă necunoscută)",
                 "displayName-count-other": "(monedă necunoscută)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "dinar Yemen",

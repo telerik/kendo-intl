@@ -1309,8 +1309,8 @@ const data = {
                 symbol: "PEI"
             },
             PEN: {
-                displayName: "Peruanischer Neuer Sol",
-                "displayName-count-one": "Peruanischer Neuer Sol",
+                displayName: "Peruanischer Sol",
+                "displayName-count-one": "Peruanischer Sol",
                 "displayName-count-other": "Peruanische Sol",
                 symbol: "PEN"
             },
@@ -1705,6 +1705,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Usbekistan-Sum",
                 "displayName-count-one": "Usbekistan-Sum",
@@ -1723,6 +1727,12 @@ const data = {
                 "displayName-count-other": "Venezolanische Bolívares",
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
+            },
+            VES: {
+                displayName: "VES",
+                "displayName-count-one": "VES",
+                "displayName-count-other": "VES",
+                symbol: "VES"
             },
             VND: {
                 displayName: "Vietnamesischer Dong",
@@ -2149,7 +2159,7 @@ const data = {
                     "Juni",
                     "Juli",
                     "Aug.",
-                    "Sep.",
+                    "Sept.",
                     "Okt.",
                     "Nov.",
                     "Dez."
@@ -2274,8 +2284,8 @@ const data = {
             format: {
                 abbreviated: {
                     midnight: "Mitternacht",
-                    am: "vorm.",
-                    pm: "nachm.",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "morgens",
                     morning2: "vormittags",
                     afternoon1: "mittags",
@@ -2285,8 +2295,8 @@ const data = {
                 },
                 narrow: {
                     midnight: "Mitternacht",
-                    am: "vm.",
-                    pm: "nm.",
+                    am: "a",
+                    pm: "p",
                     morning1: "morgens",
                     morning2: "vormittags",
                     afternoon1: "mittags",
@@ -2296,8 +2306,8 @@ const data = {
                 },
                 wide: {
                     midnight: "Mitternacht",
-                    am: "vorm.",
-                    pm: "nachm.",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "morgens",
                     morning2: "vormittags",
                     afternoon1: "mittags",
@@ -2309,8 +2319,8 @@ const data = {
             "stand-alone": {
                 abbreviated: {
                     midnight: "Mitternacht",
-                    am: "vorm.",
-                    pm: "nachm.",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "Morgen",
                     morning2: "Vormittag",
                     afternoon1: "Mittag",
@@ -2320,8 +2330,8 @@ const data = {
                 },
                 narrow: {
                     midnight: "Mitternacht",
-                    am: "vorm.",
-                    pm: "nachm.",
+                    am: "a",
+                    pm: "p",
                     morning1: "Morgen",
                     morning2: "Vormittag",
                     afternoon1: "Mittag",
@@ -2331,8 +2341,8 @@ const data = {
                 },
                 wide: {
                     midnight: "Mitternacht",
-                    am: "vorm.",
-                    pm: "nachm.",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "Morgen",
                     morning2: "Vormittag",
                     afternoon1: "Mittag",

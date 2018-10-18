@@ -81,10 +81,10 @@ const data = {
                 yMMMMd: "d. MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "w. 'týždeň' 'v' 'roku' Y",
-                "yw-count-few": "w. 'týždeň' 'v' 'roku' Y",
-                "yw-count-many": "w. 'týždeň' 'v' 'roku' Y",
-                "yw-count-other": "w. 'týždeň' 'v' 'roku' Y"
+                "yw-count-one": "w. 'týždeň' 'roka' Y",
+                "yw-count-few": "w. 'týždeň' 'roka' Y",
+                "yw-count-many": "w. 'týždeň' 'roka' Y",
+                "yw-count-other": "w. 'týždeň' 'roka' Y"
             }
         },
         timeFormats: {

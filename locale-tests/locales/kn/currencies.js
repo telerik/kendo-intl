@@ -1432,6 +1432,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "ಉಜ್ಬೇಕಿಸ್ತಾನ್ ಸೊಮ್",
                 "displayName-count-one": "ಉಜ್ಬೇಕಿಸ್ತಾನ್ ಸೊಮ್",
@@ -1443,11 +1447,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "ವೆನಿಜುಲಿಯನ್ ಬೊಲಿವರ್ (2008–2018)",
+                "displayName-count-one": "ವೆನಿಜುಲಿಯನ್ ಬೊಲಿವರ್ (2008–2018)",
+                "displayName-count-other": "ವೆನಿಜುಲಿಯನ್ ಬೊಲಿವರ್‌ಗಳು (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "ವೆನಿಜುಲಿಯನ್ ಬೊಲಿವರ್",
                 "displayName-count-one": "ವೆನಿಜುಲಿಯನ್ ಬೊಲಿವರ್",
                 "displayName-count-other": "ವೆನಿಜುಲಿಯನ್ ಬೊಲಿವರ್‌ಗಳು",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "ವಿಯೆಟ್ನಾಮೀಸ್ ಡಾಂಗ್",
@@ -1565,7 +1575,7 @@ const data = {
                 displayName: "ಅಪರಿಚಿತ ಕರೆನ್ಸಿ",
                 "displayName-count-one": "(ಅಪರಿಚಿತ ಕರೆನ್ಸಿ ಯುನಿಟ್)",
                 "displayName-count-other": "(ಅಪರಿಚಿತ ಕರೆನ್ಸಿ)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "YDD",

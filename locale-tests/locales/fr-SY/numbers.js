@@ -11,7 +11,7 @@ const data = {
     numbers: {
         symbols: {
             decimal: ",",
-            group: " ",
+            group: " ",
             list: ";",
             percentSign: "%",
             plusSign: "+",

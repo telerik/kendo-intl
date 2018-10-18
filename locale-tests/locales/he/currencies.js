@@ -1733,6 +1733,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "סום אוזבקי",
                 "displayName-count-one": "סום אוזבקי",
@@ -1746,13 +1750,21 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "בוליבר ונצואלי (2008–2018)",
+                "displayName-count-one": "בוליבר ונצואלי (2008–2018)",
+                "displayName-count-two": "בוליבר ונצואלי (2008–2018)",
+                "displayName-count-many": "בוליבר ונצואלי (2008–2018)",
+                "displayName-count-other": "בוליבר ונצואלי (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "בוליבר ונצואלי",
                 "displayName-count-one": "בוליבר ונצואלי",
                 "displayName-count-two": "בוליבר ונצואלי",
                 "displayName-count-many": "בוליבר ונצואלי",
                 "displayName-count-other": "בוליבר ונצואלי",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "דונג וייטנאמי",
@@ -1886,7 +1898,7 @@ const data = {
                 "displayName-count-two": "(מטבע שאינו ידוע)",
                 "displayName-count-many": "(מטבע שאינו ידוע)",
                 "displayName-count-other": "(מטבע שאינו ידוע)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "דינר תימני",

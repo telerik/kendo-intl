@@ -2325,6 +2325,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Sum na hÚisbéiceastáine",
                 "displayName-count-one": "sum na hÚisbéiceastáine",
@@ -2344,14 +2348,23 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "Bolívar Veiniséala (2008–2018)",
+                "displayName-count-one": "bholívar Veiniséala (2008–2018)",
+                "displayName-count-two": "bholívar Veiniséala (2008–2018)",
+                "displayName-count-few": "bholívar Veiniséala (2008–2018)",
+                "displayName-count-many": "mbolívar Veiniséala (2008–2018)",
+                "displayName-count-other": "bolívar Veiniséala (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "Bolívar Veiniséala",
                 "displayName-count-one": "bholívar Veiniséala",
                 "displayName-count-two": "bholívar Veiniséala",
                 "displayName-count-few": "bholívar Veiniséala",
                 "displayName-count-many": "mbolívar Veiniséala",
                 "displayName-count-other": "bolívar Veiniséala",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "Dong Vítneam",

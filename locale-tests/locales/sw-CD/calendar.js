@@ -472,8 +472,8 @@ const data = {
             },
             zone: {
                 wide: "Majira ya saa",
-                short: "saa za eneo",
-                narrow: "saa za eneo"
+                short: "eneo",
+                narrow: "eneo"
             }
         }
     },

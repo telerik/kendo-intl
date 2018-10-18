@@ -36,7 +36,7 @@ const data = {
         },
         percent: {
             patterns: [
-                "n%"
+                "n %"
             ],
             groupSize: [
                 3
@@ -1308,10 +1308,10 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
-                displayName: "mauritanijska ouguja (1973–2017)",
-                "displayName-count-one": "mauritanijska ouguja (1973–2017)",
-                "displayName-count-few": "mauritanijske ouguje (1973–2017)",
-                "displayName-count-other": "mauritanijskih ouguja (1973–2017)",
+                displayName: "mauritanijska ouguja (1973. – 2017.)",
+                "displayName-count-one": "mauritanijska ouguja (1973. – 2017.)",
+                "displayName-count-few": "mauritanijske ouguje (1973. – 2017.)",
+                "displayName-count-other": "mauritanijskih ouguja (1973. – 2017.)",
                 symbol: "MRO"
             },
             MRU: {
@@ -1957,6 +1957,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "uzbekistanski som",
                 "displayName-count-one": "uzbekistanski som",
@@ -1972,12 +1976,19 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "venezuelanski bolivar (2008. – 2018.)",
+                "displayName-count-one": "venezuelanski bolivar (2008. – 2018.)",
+                "displayName-count-few": "venezuelanska bolivara (2008. – 2018.)",
+                "displayName-count-other": "venezuelanskih bolivara (2008. – 2018.)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "venezuelanski bolivar",
                 "displayName-count-one": "venezuelanski bolivar",
                 "displayName-count-few": "venezuelanska bolivara",
                 "displayName-count-other": "venezuelanskih bolivara",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "vijetnamski dong",

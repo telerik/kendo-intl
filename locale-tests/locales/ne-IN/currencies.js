@@ -1434,6 +1434,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "उज्बेकिस्तान सोम",
                 "displayName-count-one": "उज्बेकिस्तान सोम",
@@ -1445,11 +1449,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
-                displayName: "भेनेजुएलन बोलिभर",
+                displayName: "भेनेजुएलन बोलिभर (२००८–२०१८)",
                 "displayName-count-one": "भेनेजुएलन बोलिभर",
                 "displayName-count-other": "भेनेजुएलन बोलिभर",
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
+            },
+            VES: {
+                displayName: "भेनेजुएलन बोलिभर-2",
+                "displayName-count-one": "भेनेजुएलन बोलिभर मुद्रा",
+                "displayName-count-other": "भेनेजुएलन बोलिभर-3",
+                symbol: "VES"
             },
             VND: {
                 displayName: "भियतनामी डङ्",
@@ -1567,7 +1577,7 @@ const data = {
                 displayName: "अज्ञात मुद्रा",
                 "displayName-count-one": "अज्ञात मुद्रा",
                 "displayName-count-other": "अज्ञात मुद्रा",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "YDD",

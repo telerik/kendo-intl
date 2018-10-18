@@ -491,7 +491,7 @@ const data = {
             DKK: {
                 displayName: "डॅनिश क्रोन",
                 "displayName-count-one": "डॅनिश क्रोन",
-                "displayName-count-other": "डॅनिश क्रोनर",
+                "displayName-count-other": "डॅनिश क्रोन",
                 symbol: "DKK",
                 "symbol-alt-narrow": "kr"
             },
@@ -1487,6 +1487,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "उझबेकिस्तानी सोम",
                 "displayName-count-one": "उझबेकिस्तानी सोम",
@@ -1498,11 +1502,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "व्हेनेझुएला बोलिव्हार (2008–2018)",
+                "displayName-count-one": "व्हेनेझुएला बोलिव्हार (2008–2018)",
+                "displayName-count-other": "व्हेनेझुएला बोलिव्हार्स (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "व्हेनेझुएला बोलिव्हार",
                 "displayName-count-one": "व्हेनेझुएला बोलिव्हार",
                 "displayName-count-other": "व्हेनेझुएला बोलिव्हार्स",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "व्हिएतनामी डोंग",
@@ -1620,7 +1630,7 @@ const data = {
                 displayName: "अज्ञात चलन",
                 "displayName-count-one": "(चलनाचे अज्ञात एकक)",
                 "displayName-count-other": "(अज्ञात चलन)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "YDD",

@@ -645,8 +645,7 @@ const data = {
                 "displayName-count-one": "Georgian lari",
                 "displayName-count-other": "Georgian lari",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "GEL"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "Ghanaian Cedi (1979–2007)",
@@ -1568,7 +1567,7 @@ const data = {
                 "displayName-count-other": "Turkish lire",
                 symbol: "TRY",
                 "symbol-alt-narrow": "₺",
-                "symbol-alt-variant": "TRY"
+                "symbol-alt-variant": "TL"
             },
             TTD: {
                 displayName: "Trinidad & Tobago Dollar",
@@ -1653,6 +1652,12 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$U"
             },
+            UYW: {
+                displayName: "Uruguayan Nominal Wage Index Unit",
+                "displayName-count-one": "Uruguayan nominal wage index unit",
+                "displayName-count-other": "Uruguayan nominal wage index units",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Uzbekistani Som",
                 "displayName-count-one": "Uzbekistani som",
@@ -1666,11 +1671,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
-                displayName: "Venezuelan Bolívar",
+                displayName: "Venezuelan Bolívar (2008–2018)",
                 "displayName-count-one": "Venezuelan bolívar",
                 "displayName-count-other": "Venezuelan bolívars",
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
+            },
+            VES: {
+                displayName: "Venezuelan Bolívar",
+                "displayName-count-one": "Venezuelan bolívar",
+                "displayName-count-other": "Venezuelan bolívars",
+                symbol: "VES"
             },
             VND: {
                 displayName: "Vietnamese Dong",
@@ -1822,7 +1833,7 @@ const data = {
                 displayName: "Unknown Currency",
                 "displayName-count-one": "(unknown unit of currency)",
                 "displayName-count-other": "(unknown currency)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "Yemeni Dinar",

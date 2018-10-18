@@ -356,7 +356,7 @@ const data = {
                 displayName: "dollar bahaméen",
                 "displayName-count-one": "dollar bahaméen",
                 "displayName-count-other": "dollars bahaméens",
-                symbol: "$BS",
+                symbol: "BSD",
                 "symbol-alt-narrow": "$"
             },
             BTN: {
@@ -1671,6 +1671,10 @@ const data = {
                 symbol: "$UY",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "sum ouzbek",
                 "displayName-count-one": "sum ouzbek",
@@ -1684,11 +1688,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "bolivar vénézuélien (2008–2018)",
+                "displayName-count-one": "bolivar vénézuélien (2008–2018)",
+                "displayName-count-other": "bolivars vénézuéliens (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "bolivar vénézuélien",
                 "displayName-count-one": "bolivar vénézuélien",
                 "displayName-count-other": "bolivars vénézuéliens",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "dông vietnamien",
@@ -1832,7 +1842,7 @@ const data = {
                 displayName: "devise inconnue ou non valide",
                 "displayName-count-one": "devise inconnue",
                 "displayName-count-other": "devises inconnues",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "dinar du Yémen",

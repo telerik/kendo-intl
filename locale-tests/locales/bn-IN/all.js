@@ -1491,6 +1491,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "উজবেকিস্তানি সোম",
                 "displayName-count-one": "উজবেকিস্তানি সোম",
@@ -1502,11 +1506,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "ভেনিজুয়েলীয় বলিভার (২০০৮–২০১৮)",
+                "displayName-count-one": "ভেনিজুয়েলীয় বলিভার (২০০৮–২০১৮)",
+                "displayName-count-other": "ভেনিজুয়েলীয় বলিভার (২০০৮–২০১৮)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "ভেনিজুয়েলীয় বলিভার",
                 "displayName-count-one": "ভেনিজুয়েলীয় বলিভার",
                 "displayName-count-other": "ভেনিজুয়েলীয় বলিভার",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "ভিয়েতনামি ডঙ্গ",
@@ -1624,7 +1634,7 @@ const data = {
                 displayName: "অজানা মুদ্রা",
                 "displayName-count-one": "(মুদ্রার অজানা একক)",
                 "displayName-count-other": "(অজানা মুদ্রা)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "ইয়েমেনি দিনার",
@@ -1811,7 +1821,7 @@ const data = {
                     "বুঃ",
                     "বৃঃ",
                     "শুঃ",
-                    "শোঃ"
+                    "শনি"
                 ],
                 wide: [
                     "রবিবার",
@@ -1856,7 +1866,7 @@ const data = {
                     "সোমবার",
                     "মঙ্গলবার",
                     "বুধবার",
-                    "বৃহষ্পতিবার",
+                    "বৃহস্পতিবার",
                     "শুক্রবার",
                     "শনিবার"
                 ]
@@ -1955,10 +1965,10 @@ const data = {
         quarters: {
             format: {
                 abbreviated: [
-                    "Q1",
-                    "Q2",
-                    "Q3",
-                    "Q4"
+                    "ত্রৈমাসিক",
+                    "দ্বিতীয় ত্রৈমাসিক",
+                    "তৃতীয় ত্রৈমাসিক",
+                    "চতুর্থ ত্রৈমাসিক"
                 ],
                 narrow: [
                     "১",

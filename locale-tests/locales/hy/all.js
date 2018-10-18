@@ -686,9 +686,9 @@ const data = {
                 "symbol-alt-narrow": "kn"
             },
             HTG: {
-                displayName: "հաիթյան գուրդ",
-                "displayName-count-one": "հաիթյան գուրդ",
-                "displayName-count-other": "հաիթյան գուրդ",
+                displayName: "հայիթյան գուրդ",
+                "displayName-count-one": "հայիթյան գուրդ",
+                "displayName-count-other": "հայիթյան գուրդ",
                 symbol: "HTG"
             },
             HUF: {
@@ -1483,6 +1483,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "ուզբեկական սոմ",
                 "displayName-count-one": "ուզբեկական սոմ",
@@ -1494,11 +1498,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "վենեսուելական բոլիվար (2008–2018)",
+                "displayName-count-one": "վենեսուելական բոլիվար (2008–2018)",
+                "displayName-count-other": "վենեսուելական բոլիվար (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "վենեսուելական բոլիվար",
                 "displayName-count-one": "վենեսուելական բոլիվար",
                 "displayName-count-other": "վենեսուելական բոլիվար",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "վիետնամական դոնգ",
@@ -1616,7 +1626,7 @@ const data = {
                 displayName: "անհայտ արժույթ",
                 "displayName-count-one": "(անհայտ արժույթ)",
                 "displayName-count-other": "(անհայտ արժույթ)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "YDD",
@@ -1989,9 +1999,9 @@ const data = {
             format: {
                 abbreviated: {
                     midnight: "կեսգիշեր",
-                    am: "ԿԱ",
+                    am: "AM",
                     noon: "կեսօր",
-                    pm: "ԿՀ",
+                    pm: "PM",
                     morning1: "առավոտյան",
                     afternoon1: "ցերեկը",
                     evening1: "երեկոյան",
@@ -2009,9 +2019,9 @@ const data = {
                 },
                 wide: {
                     midnight: "կեսգիշերին",
-                    am: "ԿԱ",
+                    am: "AM",
                     noon: "կեսօրին",
-                    pm: "ԿՀ",
+                    pm: "PM",
                     morning1: "առավոտյան",
                     afternoon1: "ցերեկը",
                     evening1: "երեկոյան",
@@ -2021,9 +2031,9 @@ const data = {
             "stand-alone": {
                 abbreviated: {
                     midnight: "կեսգիշեր",
-                    am: "ԿԱ",
+                    am: "AM",
                     noon: "կեսօր",
-                    pm: "ԿՀ",
+                    pm: "PM",
                     morning1: "առավոտ",
                     afternoon1: "ցերեկ",
                     evening1: "երեկո",
@@ -2031,9 +2041,9 @@ const data = {
                 },
                 narrow: {
                     midnight: "կեսգիշեր",
-                    am: "ԿԱ",
+                    am: "AM",
                     noon: "կեսօր",
-                    pm: "ԿՀ",
+                    pm: "PM",
                     morning1: "առավոտ",
                     afternoon1: "ցերեկ",
                     evening1: "երեկո",
@@ -2041,9 +2051,9 @@ const data = {
                 },
                 wide: {
                     midnight: "կեսգիշեր",
-                    am: "ԿԱ",
+                    am: "AM",
                     noon: "կեսօր",
-                    pm: "ԿՀ",
+                    pm: "PM",
                     morning1: "առավոտ",
                     afternoon1: "ցերեկ",
                     evening1: "երեկո",

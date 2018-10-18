@@ -35,8 +35,8 @@ const data = {
                 Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
-                EBhm: "E h:mm B",
-                EBhms: "E h:mm:ss B",
+                EBhm: "E, h:mm B",
+                EBhms: "E, h:mm:ss B",
                 Ed: "E d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -96,13 +96,13 @@ const data = {
         days: {
             format: {
                 abbreviated: [
-                    "Sun.",
-                    "Mon.",
-                    "Tue.",
-                    "Wed.",
-                    "Thu.",
-                    "Fri.",
-                    "Sat."
+                    "Sun",
+                    "Mon",
+                    "Tue",
+                    "Wed",
+                    "Thu",
+                    "Fri",
+                    "Sat"
                 ],
                 narrow: [
                     "Su.",
@@ -114,13 +114,13 @@ const data = {
                     "Sa."
                 ],
                 short: [
-                    "Su.",
-                    "Mon.",
-                    "Tu.",
-                    "Wed.",
-                    "Th.",
-                    "Fri.",
-                    "Sat."
+                    "Su",
+                    "Mon",
+                    "Tu",
+                    "Wed",
+                    "Th",
+                    "Fri",
+                    "Sat"
                 ],
                 wide: [
                     "Sunday",
@@ -134,13 +134,13 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "Sun.",
-                    "Mon.",
-                    "Tue.",
-                    "Wed.",
-                    "Thu.",
-                    "Fri.",
-                    "Sat."
+                    "Sun",
+                    "Mon",
+                    "Tue",
+                    "Wed",
+                    "Thu",
+                    "Fri",
+                    "Sat"
                 ],
                 narrow: [
                     "Su.",
@@ -152,13 +152,13 @@ const data = {
                     "Sa."
                 ],
                 short: [
-                    "Su.",
-                    "Mon.",
-                    "Tu.",
-                    "Wed.",
-                    "Th.",
-                    "Fri.",
-                    "Sat."
+                    "Su",
+                    "Mon",
+                    "Tu",
+                    "Wed",
+                    "Th",
+                    "Fri",
+                    "Sat"
                 ],
                 wide: [
                     "Sunday",
@@ -174,18 +174,18 @@ const data = {
         months: {
             format: {
                 abbreviated: [
-                    "Jan.",
-                    "Feb.",
-                    "Mar.",
-                    "Apr.",
+                    "Jan",
+                    "Feb",
+                    "Mar",
+                    "Apr",
                     "May",
-                    "Jun.",
-                    "Jul.",
-                    "Aug.",
-                    "Sep.",
-                    "Oct.",
-                    "Nov.",
-                    "Dec."
+                    "Jun",
+                    "Jul",
+                    "Aug",
+                    "Sep",
+                    "Oct",
+                    "Nov",
+                    "Dec"
                 ],
                 narrow: [
                     "J",
@@ -218,18 +218,18 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "Jan.",
-                    "Feb.",
-                    "Mar.",
-                    "Apr.",
+                    "Jan",
+                    "Feb",
+                    "Mar",
+                    "Apr",
                     "May",
-                    "Jun.",
-                    "Jul.",
-                    "Aug.",
-                    "Sep.",
-                    "Oct.",
-                    "Nov.",
-                    "Dec."
+                    "Jun",
+                    "Jul",
+                    "Aug",
+                    "Sep",
+                    "Oct",
+                    "Nov",
+                    "Dec"
                 ],
                 narrow: [
                     "J",
@@ -434,7 +434,7 @@ const data = {
             weekOfMonth: {
                 wide: "week of month",
                 short: "wk of mo.",
-                narrow: "wk of mo."
+                narrow: "wk of mo"
             },
             day: {
                 wide: "day",
@@ -454,7 +454,7 @@ const data = {
             weekdayOfMonth: {
                 wide: "weekday of the month",
                 short: "wkday of mo.",
-                narrow: "wkday of mo."
+                narrow: "wkday of mo"
             },
             dayperiod: {
                 short: "am/pm",

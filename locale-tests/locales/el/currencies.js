@@ -30,7 +30,7 @@ const data = {
             AFN: {
                 displayName: "Αφγάνι Αφγανιστάν",
                 "displayName-count-one": "αφγάνι Αφγανιστάν",
-                "displayName-count-other": "αφγάνι Αφγανιστάν",
+                "displayName-count-other": "αφγάνια Αφγανιστάν",
                 symbol: "AFN"
             },
             ALK: {
@@ -58,7 +58,7 @@ const data = {
             AOA: {
                 displayName: "Κουάνζα Ανγκόλας",
                 "displayName-count-one": "κουάνζα Ανγκόλας",
-                "displayName-count-other": "κουάνζες Ανγκόλας",
+                "displayName-count-other": "κουάνζα Ανγκόλας",
                 symbol: "AOA",
                 "symbol-alt-narrow": "Kz"
             },
@@ -1091,7 +1091,7 @@ const data = {
             MVR: {
                 displayName: "Ρουφίγια Μαλδίβων",
                 "displayName-count-one": "ρουφίγια Μαλδίβων",
-                "displayName-count-other": "ρουφίγια Μαλδίβων",
+                "displayName-count-other": "ρουφίγιες Μαλδίβων",
                 symbol: "MVR"
             },
             MWK: {
@@ -1609,6 +1609,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Σομ Ουζμπεκιστάν",
                 "displayName-count-one": "σομ Ουζμπεκιστάν",
@@ -1622,11 +1626,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "Μπολιβάρ Βενεζουέλας (2008–2018)",
+                "displayName-count-one": "μπολιβάρ Βενεζουέλας (2008–2018)",
+                "displayName-count-other": "μπολιβάρ Βενεζουέλας (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "Μπολιβάρ Βενεζουέλας",
                 "displayName-count-one": "μπολιβάρ Βενεζουέλας",
                 "displayName-count-other": "μπολιβάρ Βενεζουέλας",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "Ντονγκ Βιετνάμ",
@@ -1760,7 +1770,7 @@ const data = {
                 displayName: "Άγνωστο νόμισμα",
                 "displayName-count-one": "(άγνωστο νόμισμα)",
                 "displayName-count-other": "(άγνωστο νόμισμα)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "Δηνάριο Υεμένης",

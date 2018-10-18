@@ -2221,6 +2221,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "uzbecký sum",
                 "displayName-count-one": "uzbecký sum",
@@ -2238,13 +2242,21 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "venezuelský bolívar (2008–2018)",
+                "displayName-count-one": "venezuelský bolívar (2008–2018)",
+                "displayName-count-few": "venezuelské bolívary (2008–2018)",
+                "displayName-count-many": "venezuelského bolívaru (2008–2018)",
+                "displayName-count-other": "venezuelských bolívarů (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "venezuelský bolívar",
                 "displayName-count-one": "venezuelský bolívar",
                 "displayName-count-few": "venezuelské bolívary",
                 "displayName-count-many": "venezuelského bolívaru",
                 "displayName-count-other": "venezuelských bolívarů",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "vietnamský dong",

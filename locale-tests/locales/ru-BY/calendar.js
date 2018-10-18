@@ -16,11 +16,11 @@ const data = {
             M: "d MMMM",
             y: "LLL y 'г'.",
             Y: "LLLL y 'г'.",
-            F: "EEEE, d MMMM y 'г'. H:mm:ss",
-            g: "dd.MM.y H:mm",
-            G: "dd.MM.y H:mm:ss",
-            t: "H:mm",
-            T: "H:mm:ss",
+            F: "EEEE, d MMMM y 'г'. HH:mm:ss",
+            g: "dd.MM.y HH:mm",
+            G: "dd.MM.y HH:mm:ss",
+            t: "HH:mm",
+            T: "HH:mm:ss",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
@@ -47,15 +47,15 @@ const data = {
                 GyMMMd: "d MMM y 'г'. G",
                 GyMMMEd: "E, d MMM y 'г'. G",
                 h: "h a",
-                H: "H",
+                H: "HH",
                 hm: "h:mm a",
-                Hm: "H:mm",
+                Hm: "HH:mm",
                 hms: "h:mm:ss a",
-                Hms: "H:mm:ss",
+                Hms: "HH:mm:ss",
                 hmsv: "h:mm:ss a v",
-                Hmsv: "H:mm:ss v",
+                Hmsv: "HH:mm:ss v",
                 hmv: "h:mm a v",
-                Hmv: "H:mm v",
+                Hmv: "HH:mm v",
                 M: "L",
                 Md: "dd.MM",
                 MEd: "E, dd.MM",
@@ -87,10 +87,10 @@ const data = {
             }
         },
         timeFormats: {
-            full: "H:mm:ss zzzz",
-            long: "H:mm:ss z",
-            medium: "H:mm:ss",
-            short: "H:mm"
+            full: "HH:mm:ss zzzz",
+            long: "HH:mm:ss z",
+            medium: "HH:mm:ss",
+            short: "HH:mm"
         },
         dateFormats: {
             full: "EEEE, d MMMM y 'г'.",
@@ -386,13 +386,13 @@ const data = {
                     0: "до н. э.",
                     1: "н. э.",
                     "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "1-alt-variant": "н. э."
                 },
                 narrow: {
                     0: "до н.э.",
                     1: "н.э.",
                     "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "1-alt-variant": "н. э."
                 }
             }
         },

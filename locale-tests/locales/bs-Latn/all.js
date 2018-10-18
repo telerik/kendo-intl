@@ -1932,6 +1932,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Uzbekistanski som",
                 "displayName-count-one": "uzbekistanski som",
@@ -1947,12 +1951,19 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
-                displayName: "Venecuelanski bolivar",
-                "displayName-count-one": "venecuelanski bolivar",
-                "displayName-count-few": "venecuelanska bolivara",
-                "displayName-count-other": "venecuelanskih bolivara",
+                displayName: "venecuelanski bolivar (2008–2018)",
+                "displayName-count-one": "venecuelanski bolivar (2008–2018)",
+                "displayName-count-few": "venecuelanska bolivara (2008–2018)",
+                "displayName-count-other": "venecuelanskih bolivara (2008–2018)",
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
+            },
+            VES: {
+                displayName: "venecuelanski bolivar",
+                "displayName-count-one": "venecuelanskih bolivara",
+                "displayName-count-few": "venecuelanska bolivara",
+                "displayName-count-other": "venecuelanskih bolivara",
+                symbol: "VES"
             },
             VND: {
                 displayName: "Vijetnamski dong",
@@ -2123,7 +2134,7 @@ const data = {
                 "displayName-count-one": "nepoznata valuta",
                 "displayName-count-few": "nepoznate valute",
                 "displayName-count-other": "nepoznatih valuta",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "Jemenski dinar",
@@ -2304,9 +2315,9 @@ const data = {
                 yMMMM: "LLLL y.",
                 yQQQ: "QQQ y.",
                 yQQQQ: "QQQQ y.",
-                "yw-count-one": "w. 'sedmica' 'u' y.",
-                "yw-count-few": "w. 'sedmica' 'u' y.",
-                "yw-count-other": "w. 'sedmica' 'u' y."
+                "yw-count-one": "w. 'sedmica' 'u' Y.",
+                "yw-count-few": "w. 'sedmica' 'u' Y.",
+                "yw-count-other": "w. 'sedmica' 'u' Y."
             }
         },
         timeFormats: {
@@ -2319,7 +2330,7 @@ const data = {
             full: "EEEE, d. MMMM y.",
             long: "d. MMMM y.",
             medium: "d. MMM y.",
-            short: "d.M.yy."
+            short: "d. M. y."
         },
         days: {
             format: {
@@ -2409,7 +2420,7 @@ const data = {
                     "maj",
                     "jun",
                     "jul",
-                    "avg",
+                    "aug",
                     "sep",
                     "okt",
                     "nov",
@@ -2437,7 +2448,7 @@ const data = {
                     "maj",
                     "juni",
                     "juli",
-                    "avgust",
+                    "august",
                     "septembar",
                     "oktobar",
                     "novembar",
@@ -2453,7 +2464,7 @@ const data = {
                     "maj",
                     "jun",
                     "jul",
-                    "avg",
+                    "aug",
                     "sep",
                     "okt",
                     "nov",
@@ -2481,7 +2492,7 @@ const data = {
                     "maj",
                     "juni",
                     "juli",
-                    "avgust",
+                    "august",
                     "septembar",
                     "oktobar",
                     "novembar",
@@ -2535,9 +2546,9 @@ const data = {
             format: {
                 abbreviated: {
                     midnight: "ponoć",
-                    am: "prijepodne",
+                    am: "AM",
                     noon: "podne",
-                    pm: "popodne",
+                    pm: "PM",
                     morning1: "ujutro",
                     afternoon1: "poslijepodne",
                     evening1: "navečer",
@@ -2567,9 +2578,9 @@ const data = {
             "stand-alone": {
                 abbreviated: {
                     midnight: "ponoć",
-                    am: "prijepodne",
+                    am: "AM",
                     noon: "podne",
-                    pm: "popodne",
+                    pm: "PM",
                     morning1: "ujutro",
                     afternoon1: "poslijepodne",
                     evening1: "navečer",
@@ -2602,20 +2613,20 @@ const data = {
                 wide: {
                     0: "prije nove ere",
                     1: "nove ere",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "P.n.e.",
+                    "1-alt-variant": "Nove ere"
                 },
                 abbreviated: {
                     0: "p. n. e.",
                     1: "n. e.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "p.n.e.",
+                    "1-alt-variant": "n.e."
                 },
                 narrow: {
                     0: "p.n.e.",
                     1: "n.e.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "p.n.e.",
+                    "1-alt-variant": "n.e."
                 }
             }
         },

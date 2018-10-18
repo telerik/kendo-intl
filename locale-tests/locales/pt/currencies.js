@@ -16,9 +16,9 @@ const data = {
                 symbol: "ADP"
             },
             AED: {
-                displayName: "Dirrã dos Emirados Árabes Unidos",
-                "displayName-count-one": "Dirrã dos Emirados Árabes Unidos",
-                "displayName-count-other": "Dirrãs dos Emirados Árabes Unidos",
+                displayName: "Dirham dos Emirados Árabes Unidos",
+                "displayName-count-one": "Dirham dos EAU",
+                "displayName-count-other": "Dirhams dos EAU",
                 symbol: "AED"
             },
             AFA: {
@@ -171,9 +171,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             BDT: {
-                displayName: "Taka bengalesa",
-                "displayName-count-one": "Taka bengalesa",
-                "displayName-count-other": "Takas bengalesas",
+                displayName: "Taka bengali",
+                "displayName-count-one": "Taka bengali",
+                "displayName-count-other": "Takas bengalis",
                 symbol: "BDT",
                 "symbol-alt-narrow": "৳"
             },
@@ -246,9 +246,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             BOB: {
-                displayName: "Boliviano",
-                "displayName-count-one": "Boliviano",
-                "displayName-count-other": "Bolivianos",
+                displayName: "Boliviano da Bolívia",
+                "displayName-count-one": "Boliviano da Bolívia",
+                "displayName-count-other": "Bolivianos da Bolívia",
                 symbol: "BOB",
                 "symbol-alt-narrow": "Bs"
             },
@@ -416,9 +416,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             CNH: {
-                displayName: "Yuan (offshore)",
-                "displayName-count-one": "Yuan (offshore)",
-                "displayName-count-other": "Yuans (offshore)",
+                displayName: "Renminbi chinês (offshore)",
+                "displayName-count-one": "Yuan chinês (offshore)",
+                "displayName-count-other": "Yuans chineses (offshore)",
                 symbol: "CNH"
             },
             CNX: {
@@ -428,7 +428,7 @@ const data = {
                 symbol: "CNX"
             },
             CNY: {
-                displayName: "Yuan chinês",
+                displayName: "Renminbi chinês",
                 "displayName-count-one": "Yuan chinês",
                 "displayName-count-other": "Yuans chineses",
                 symbol: "CN¥",
@@ -789,9 +789,9 @@ const data = {
                 symbol: "ILR"
             },
             ILS: {
-                displayName: "Sheqel novo israelita",
-                "displayName-count-one": "Sheqel novo israelita",
-                "displayName-count-other": "Sheqels novos israelita",
+                displayName: "Novo shekel israelense",
+                "displayName-count-one": "Novo shekel israelense",
+                "displayName-count-other": "Novos shekels israelenses",
                 symbol: "₪",
                 "symbol-alt-narrow": "₪"
             },
@@ -940,9 +940,9 @@ const data = {
                 "symbol-alt-narrow": "L£"
             },
             LKR: {
-                displayName: "Rupia ceilandesa",
-                "displayName-count-one": "Rupia ceilandesa",
-                "displayName-count-other": "Rupias ceilandesas",
+                displayName: "Rupia do Sri Lanka",
+                "displayName-count-one": "Rupia do Sri Lanka",
+                "displayName-count-other": "Rupias do Sri Lanka",
                 symbol: "LKR",
                 "symbol-alt-narrow": "Rs"
             },
@@ -1071,9 +1071,9 @@ const data = {
                 symbol: "MLF"
             },
             MMK: {
-                displayName: "Kyat mianmarense",
-                "displayName-count-one": "Kyat mianmarense",
-                "displayName-count-other": "Kyats mianmarenses",
+                displayName: "Quiat de Myanmar",
+                "displayName-count-one": "Quiat de Myanmar",
+                "displayName-count-other": "Quiat de Myanmar",
                 symbol: "MMK",
                 "symbol-alt-narrow": "K"
             },
@@ -1085,9 +1085,9 @@ const data = {
                 "symbol-alt-narrow": "₮"
             },
             MOP: {
-                displayName: "Pataca macaense",
-                "displayName-count-one": "Pataca macaense",
-                "displayName-count-other": "Patacas macaenses",
+                displayName: "Pataca de Macau",
+                "displayName-count-one": "Pataca de Macau",
+                "displayName-count-other": "Patacas de Macau",
                 symbol: "MOP"
             },
             MRO: {
@@ -1126,9 +1126,9 @@ const data = {
                 symbol: "MVP"
             },
             MVR: {
-                displayName: "Rupia maldiva",
-                "displayName-count-one": "Rupia maldiva",
-                "displayName-count-other": "Rupias maldivas",
+                displayName: "Rupia maldivana",
+                "displayName-count-one": "Rupia maldivana",
+                "displayName-count-other": "Rupias maldivanas",
                 symbol: "MVR"
             },
             MWK: {
@@ -1254,9 +1254,9 @@ const data = {
                 symbol: "PEI"
             },
             PEN: {
-                displayName: "Sol peruano",
-                "displayName-count-one": "Sol peruano",
-                "displayName-count-other": "Sóis peruanos",
+                displayName: "Novo sol peruano",
+                "displayName-count-one": "Novo sol peruano",
+                "displayName-count-other": "Novos sóis peruanos",
                 symbol: "PEN"
             },
             PES: {
@@ -1286,9 +1286,9 @@ const data = {
                 "symbol-alt-narrow": "Rs"
             },
             PLN: {
-                displayName: "Zloti polonês",
-                "displayName-count-one": "Zloti polonês",
-                "displayName-count-other": "Zlotis poloneses",
+                displayName: "Zloty polonês",
+                "displayName-count-one": "Zloty polonês",
+                "displayName-count-other": "Zlotys poloneses",
                 symbol: "PLN",
                 "symbol-alt-narrow": "zł"
             },
@@ -1440,9 +1440,9 @@ const data = {
                 symbol: "SLL"
             },
             SOS: {
-                displayName: "Xelim somaliano",
-                "displayName-count-one": "Xelim somaliano",
-                "displayName-count-other": "Xelins somalianos",
+                displayName: "Xelim somali",
+                "displayName-count-one": "Xelim somali",
+                "displayName-count-other": "Xelins somalis",
                 symbol: "SOS"
             },
             SRD: {
@@ -1495,7 +1495,7 @@ const data = {
                 "displayName-count-one": "Libra síria",
                 "displayName-count-other": "Libras sírias",
                 symbol: "SYP",
-                "symbol-alt-narrow": "£"
+                "symbol-alt-narrow": "S£"
             },
             SZL: {
                 displayName: "Lilangeni suazi",
@@ -1650,6 +1650,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Som uzbeque",
                 "displayName-count-one": "Som uzbeque",
@@ -1663,11 +1667,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "Bolívar venezuelano (2008–2018)",
+                "displayName-count-one": "Bolívar venezuelano (2008–2018)",
+                "displayName-count-other": "Bolívares venezuelanos (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "Bolívar venezuelano",
                 "displayName-count-one": "Bolívar venezuelano",
                 "displayName-count-other": "Bolívares venezuelanos",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "Dong vietnamita",
@@ -1683,9 +1693,9 @@ const data = {
                 symbol: "VNN"
             },
             VUV: {
-                displayName: "Vatu vanuatuense",
-                "displayName-count-one": "Vatu vanuatuense",
-                "displayName-count-other": "Vatus vanuatuenses",
+                displayName: "Vatu de Vanuatu",
+                "displayName-count-one": "Vatu de Vanuatu",
+                "displayName-count-other": "Vatus de Vanuatu",
                 symbol: "VUV"
             },
             WST: {
@@ -1813,9 +1823,9 @@ const data = {
             },
             XXX: {
                 displayName: "Moeda desconhecida",
-                "displayName-count-one": "(moeda desconhecida)",
+                "displayName-count-one": "(unidade monetária desconhecida)",
                 "displayName-count-other": "(moedas desconhecidas)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "Dinar iemenita",

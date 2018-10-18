@@ -1917,6 +1917,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Uzbekistanski som",
                 "displayName-count-one": "uzbekistanski som",
@@ -1932,12 +1936,19 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "Venecuelanski bolivar (2008–2018)",
+                "displayName-count-one": "venecuelanski bolivar (2008–2018)",
+                "displayName-count-few": "venecuelanska bolivara (2008–2018)",
+                "displayName-count-other": "venecuelanskih bolivara (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "Venecuelanski bolivar",
                 "displayName-count-one": "venecuelanski bolivar",
                 "displayName-count-few": "venecuelanska bolivara",
                 "displayName-count-other": "venecuelanskih bolivara",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "Vijetnamski dong",
@@ -2108,7 +2119,7 @@ const data = {
                 "displayName-count-one": "nepoznata jedinica valute",
                 "displayName-count-few": "nepoznate valute",
                 "displayName-count-other": "nepoznatih valuta",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "Jemenski dinar",
@@ -2291,9 +2302,9 @@ const data = {
                 yMMMM: "MMMM y.",
                 yQQQ: "QQQ y.",
                 yQQQQ: "QQQQ y.",
-                "yw-count-one": "w. 'sjedmica' 'u' y.",
-                "yw-count-few": "w. 'sjedmica' 'u' y.",
-                "yw-count-other": "w. 'sjedmica' 'u' y."
+                "yw-count-one": "w. 'sjedmica' 'u' Y.",
+                "yw-count-few": "w. 'sjedmica' 'u' Y.",
+                "yw-count-other": "w. 'sjedmica' 'u' Y."
             }
         },
         timeFormats: {
@@ -2311,13 +2322,13 @@ const data = {
         days: {
             format: {
                 abbreviated: [
-                    "ned.",
-                    "pon.",
-                    "ut.",
-                    "sr.",
-                    "čet.",
-                    "pet.",
-                    "sub."
+                    "ned",
+                    "pon",
+                    "ut",
+                    "sr",
+                    "čet",
+                    "pet",
+                    "sub"
                 ],
                 narrow: [
                     "n",
@@ -2349,13 +2360,13 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "ned.",
-                    "pon.",
-                    "ut.",
-                    "sr.",
-                    "čet.",
-                    "pet.",
-                    "sub."
+                    "ned",
+                    "pon",
+                    "ut",
+                    "sr",
+                    "čet",
+                    "pet",
+                    "sub"
                 ],
                 narrow: [
                     "n",
@@ -2389,18 +2400,18 @@ const data = {
         months: {
             format: {
                 abbreviated: [
-                    "jan.",
-                    "feb.",
-                    "mart",
-                    "apr.",
+                    "jan",
+                    "feb",
+                    "mar",
+                    "apr",
                     "maj",
                     "jun",
                     "jul",
-                    "avg.",
-                    "sept.",
-                    "okt.",
-                    "nov.",
-                    "dec."
+                    "avg",
+                    "sep",
+                    "okt",
+                    "nov",
+                    "dec"
                 ],
                 narrow: [
                     "j",
@@ -2433,18 +2444,18 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "jan.",
-                    "feb.",
+                    "jan",
+                    "feb",
                     "mart",
-                    "apr.",
+                    "apr",
                     "maj",
                     "jun",
                     "jul",
-                    "avg.",
-                    "sept.",
-                    "okt.",
-                    "nov.",
-                    "dec."
+                    "avg",
+                    "sept",
+                    "okt",
+                    "nov",
+                    "dec"
                 ],
                 narrow: [
                     "j",

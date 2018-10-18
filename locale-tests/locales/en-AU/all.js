@@ -697,8 +697,7 @@ const data = {
                 "displayName-count-one": "Georgian lari",
                 "displayName-count-other": "Georgian lari",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "GEL"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "Ghanaian Cedi (1979–2007)",
@@ -1620,7 +1619,7 @@ const data = {
                 "displayName-count-other": "Turkish lire",
                 symbol: "TRY",
                 "symbol-alt-narrow": "₺",
-                "symbol-alt-variant": "TRY"
+                "symbol-alt-variant": "TL"
             },
             TTD: {
                 displayName: "Trinidad & Tobago Dollar",
@@ -1705,6 +1704,12 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$U"
             },
+            UYW: {
+                displayName: "Uruguayan Nominal Wage Index Unit",
+                "displayName-count-one": "Uruguayan nominal wage index unit",
+                "displayName-count-other": "Uruguayan nominal wage index units",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Uzbekistani Som",
                 "displayName-count-one": "Uzbekistani som",
@@ -1718,11 +1723,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
-                displayName: "Venezuelan Bolívar",
+                displayName: "Venezuelan Bolívar (2008–2018)",
                 "displayName-count-one": "Venezuelan bolívar",
                 "displayName-count-other": "Venezuelan bolívars",
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
+            },
+            VES: {
+                displayName: "Venezuelan Bolívar",
+                "displayName-count-one": "Venezuelan bolívar",
+                "displayName-count-other": "Venezuelan bolívars",
+                symbol: "VES"
             },
             VND: {
                 displayName: "Vietnamese Dong",
@@ -1874,7 +1885,7 @@ const data = {
                 displayName: "Unknown Currency",
                 "displayName-count-one": "(unknown unit of currency)",
                 "displayName-count-other": "(unknown currency)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "Yemeni Dinar",
@@ -1998,8 +2009,8 @@ const data = {
                 Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
-                EBhm: "E h:mm B",
-                EBhms: "E h:mm:ss B",
+                EBhm: "E, h:mm B",
+                EBhms: "E, h:mm:ss B",
                 Ed: "E d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -2059,13 +2070,13 @@ const data = {
         days: {
             format: {
                 abbreviated: [
-                    "Sun.",
-                    "Mon.",
-                    "Tue.",
-                    "Wed.",
-                    "Thu.",
-                    "Fri.",
-                    "Sat."
+                    "Sun",
+                    "Mon",
+                    "Tue",
+                    "Wed",
+                    "Thu",
+                    "Fri",
+                    "Sat"
                 ],
                 narrow: [
                     "Su.",
@@ -2077,13 +2088,13 @@ const data = {
                     "Sa."
                 ],
                 short: [
-                    "Su.",
-                    "Mon.",
-                    "Tu.",
-                    "Wed.",
-                    "Th.",
-                    "Fri.",
-                    "Sat."
+                    "Su",
+                    "Mon",
+                    "Tu",
+                    "Wed",
+                    "Th",
+                    "Fri",
+                    "Sat"
                 ],
                 wide: [
                     "Sunday",
@@ -2097,13 +2108,13 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "Sun.",
-                    "Mon.",
-                    "Tue.",
-                    "Wed.",
-                    "Thu.",
-                    "Fri.",
-                    "Sat."
+                    "Sun",
+                    "Mon",
+                    "Tue",
+                    "Wed",
+                    "Thu",
+                    "Fri",
+                    "Sat"
                 ],
                 narrow: [
                     "Su.",
@@ -2115,13 +2126,13 @@ const data = {
                     "Sa."
                 ],
                 short: [
-                    "Su.",
-                    "Mon.",
-                    "Tu.",
-                    "Wed.",
-                    "Th.",
-                    "Fri.",
-                    "Sat."
+                    "Su",
+                    "Mon",
+                    "Tu",
+                    "Wed",
+                    "Th",
+                    "Fri",
+                    "Sat"
                 ],
                 wide: [
                     "Sunday",
@@ -2137,18 +2148,18 @@ const data = {
         months: {
             format: {
                 abbreviated: [
-                    "Jan.",
-                    "Feb.",
-                    "Mar.",
-                    "Apr.",
+                    "Jan",
+                    "Feb",
+                    "Mar",
+                    "Apr",
                     "May",
-                    "Jun.",
-                    "Jul.",
-                    "Aug.",
-                    "Sep.",
-                    "Oct.",
-                    "Nov.",
-                    "Dec."
+                    "Jun",
+                    "Jul",
+                    "Aug",
+                    "Sep",
+                    "Oct",
+                    "Nov",
+                    "Dec"
                 ],
                 narrow: [
                     "J",
@@ -2181,18 +2192,18 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "Jan.",
-                    "Feb.",
-                    "Mar.",
-                    "Apr.",
+                    "Jan",
+                    "Feb",
+                    "Mar",
+                    "Apr",
                     "May",
-                    "Jun.",
-                    "Jul.",
-                    "Aug.",
-                    "Sep.",
-                    "Oct.",
-                    "Nov.",
-                    "Dec."
+                    "Jun",
+                    "Jul",
+                    "Aug",
+                    "Sep",
+                    "Oct",
+                    "Nov",
+                    "Dec"
                 ],
                 narrow: [
                     "J",
@@ -2397,7 +2408,7 @@ const data = {
             weekOfMonth: {
                 wide: "week of month",
                 short: "wk of mo.",
-                narrow: "wk of mo."
+                narrow: "wk of mo"
             },
             day: {
                 wide: "day",
@@ -2417,7 +2428,7 @@ const data = {
             weekdayOfMonth: {
                 wide: "weekday of the month",
                 short: "wkday of mo.",
-                narrow: "wkday of mo."
+                narrow: "wkday of mo"
             },
             dayperiod: {
                 short: "am/pm",

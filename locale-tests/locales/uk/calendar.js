@@ -361,7 +361,7 @@ const data = {
                     night1: "ніч"
                 },
                 wide: {
-                    midnight: "північ",
+                    midnight: "опівніч",
                     am: "дп",
                     noon: "полудень",
                     pm: "пп",
@@ -405,7 +405,7 @@ const data = {
             year: {
                 wide: "рік",
                 short: "р.",
-                narrow: "р."
+                narrow: "р"
             },
             quarter: {
                 wide: "квартал",
@@ -415,37 +415,37 @@ const data = {
             month: {
                 wide: "місяць",
                 short: "міс.",
-                narrow: "міс."
+                narrow: "м"
             },
             week: {
                 wide: "тиждень",
                 short: "тиж.",
-                narrow: "тиж."
+                narrow: "т"
             },
             weekOfMonth: {
                 wide: "тиждень місяця",
                 short: "тиж. місяця",
-                narrow: "тиж. місяця"
+                narrow: "тиж. міс."
             },
             day: {
                 wide: "день",
                 short: "д.",
-                narrow: "д."
+                narrow: "д"
             },
             dayOfYear: {
                 wide: "день року",
-                short: "день року",
+                short: "д. року",
                 narrow: "день року"
             },
             weekday: {
                 wide: "день тижня",
-                short: "день тижня",
-                narrow: "день тижня"
+                short: "д. тижня",
+                narrow: "д тижня"
             },
             weekdayOfMonth: {
                 wide: "день місяця",
-                short: "день місяця",
-                narrow: "день місяця"
+                short: "д. місяця",
+                narrow: "д місяця"
             },
             dayperiod: {
                 short: "дп/пп",
@@ -454,12 +454,12 @@ const data = {
             },
             hour: {
                 wide: "година",
-                short: "год",
+                short: "год.",
                 narrow: "год"
             },
             minute: {
                 wide: "хвилина",
-                short: "хв",
+                short: "хв.",
                 narrow: "хв"
             },
             second: {
@@ -469,8 +469,8 @@ const data = {
             },
             zone: {
                 wide: "часовий пояс",
-                short: "часовий пояс",
-                narrow: "часовий пояс"
+                short: "час. пояс",
+                narrow: "час. п."
             }
         }
     },

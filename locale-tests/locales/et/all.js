@@ -1639,6 +1639,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Usbekistani somm",
                 "displayName-count-one": "Usbekistani somm",
@@ -1652,11 +1656,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "Venezuela boliivar (2008–2018)",
+                "displayName-count-one": "Venezuela boliivar (2008–2018)",
+                "displayName-count-other": "Venezuela boliivarit (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "Venezuela boliivar",
                 "displayName-count-one": "Venezuela boliivar",
                 "displayName-count-other": "Venezuela boliivarit",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "Vietnami dong",
@@ -1788,7 +1798,7 @@ const data = {
                 displayName: "määramata rahaühik",
                 "displayName-count-one": "(määramata rahaühik)",
                 "displayName-count-other": "(määramata rahaühikut)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "Jeemeni dinaar",

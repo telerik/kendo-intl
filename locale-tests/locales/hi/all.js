@@ -1333,9 +1333,9 @@ const data = {
                 symbol: "STD"
             },
             STN: {
-                displayName: "साओ तोम और प्रिंसिपे डोबरा",
-                "displayName-count-one": "साओ तोम और प्रिंसिपे डोबरा",
-                "displayName-count-other": "साओ तोम और प्रिंसिपे डोबरा",
+                displayName: "साओ टोम और प्रिंसिपे डोबरा",
+                "displayName-count-one": "साओ टोम और प्रिंसिपे डोबरा",
+                "displayName-count-other": "साओ टोम और प्रिंसिपे डोबरा",
                 symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },
@@ -1487,6 +1487,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "उज़्बेकिस्तान सोम",
                 "displayName-count-one": "उज़्बेकिस्तान सोम",
@@ -1498,11 +1502,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "वेनेज़ुएला बोलिवर (2008–2018)",
+                "displayName-count-one": "वेनेज़ुएला बोलिवर (2008–2018)",
+                "displayName-count-other": "वेनेज़ुएला बोलिवर (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "वेनेज़ुएला बोलिवर",
                 "displayName-count-one": "वेनेज़ुएला बोलिवर",
                 "displayName-count-other": "वेनेज़ुएला बोलिवर",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "वियतनामी डोंग",
@@ -1620,7 +1630,7 @@ const data = {
                 displayName: "अज्ञात मुद्रा",
                 "displayName-count-one": "(मुद्रा की अज्ञात इकाई)",
                 "displayName-count-other": "(अज्ञात मुद्रा)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "YDD",

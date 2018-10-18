@@ -2222,6 +2222,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Uzbekistano sumas",
                 "displayName-count-one": "Uzbekistano sumas",
@@ -2239,13 +2243,21 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "Venesuelos bolivaras (2008–2018)",
+                "displayName-count-one": "Venesuelos bolivaras (2008–2018)",
+                "displayName-count-few": "Venesuelos bolivarai (2008–2018)",
+                "displayName-count-many": "Venesuelos bolivaro (2008–2018)",
+                "displayName-count-other": "Venesuelos bolivarų (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "Venesuelos bolivaras",
                 "displayName-count-one": "Venesuelos bolivaras",
                 "displayName-count-few": "Venesuelos bolivarai",
                 "displayName-count-many": "Venesuelos bolivaro",
                 "displayName-count-other": "Venesuelos bolivarų",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "Vietnamo dongas",
@@ -2443,7 +2455,7 @@ const data = {
                 "displayName-count-few": "(nežinoma valiuta)",
                 "displayName-count-many": "(nežinoma valiuta)",
                 "displayName-count-other": "(nežinoma valiuta)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "Jemeno dinaras",

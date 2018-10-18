@@ -1651,6 +1651,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "UYU"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Uzbekistanin som",
                 "displayName-count-one": "Uzbekistanin som",
@@ -1658,17 +1662,23 @@ const data = {
                 symbol: "UZS"
             },
             VEB: {
-                displayName: "Venezuelan bolivar (1871–2008)",
+                displayName: "Venezuelan bolívar (1871–2008)",
                 "displayName-count-one": "Venezuelan bolivar (1871–2008)",
                 "displayName-count-other": "Venezuelan bolivaria (1871–2008)",
                 symbol: "VEB"
             },
             VEF: {
-                displayName: "Venezuelan bolivar",
-                "displayName-count-one": "Venezuelan bolivar",
-                "displayName-count-other": "Venezuelan bolivaria",
+                displayName: "Venezuelan bolívar (2008–2018)",
+                "displayName-count-one": "Venezuelan bolívar (2008–2018)",
+                "displayName-count-other": "Venezuelan bolívaria (2008–2018)",
                 symbol: "VEF",
                 "symbol-alt-narrow": "VEF"
+            },
+            VES: {
+                displayName: "Venezuelan suvereeni bolívar",
+                "displayName-count-one": "Venezuelan suvereeni bolívar",
+                "displayName-count-other": "Venezuelan suvereenia bolívaria",
+                symbol: "VES"
             },
             VND: {
                 displayName: "Vietnamin dong",

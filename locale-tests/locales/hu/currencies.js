@@ -569,9 +569,9 @@ const data = {
                 symbol: "FRF"
             },
             GBP: {
-                displayName: "brit font",
-                "displayName-count-one": "brit font",
-                "displayName-count-other": "brit font",
+                displayName: "angol font",
+                "displayName-count-one": "angol font",
+                "displayName-count-other": "angol font",
                 symbol: "GBP",
                 "symbol-alt-narrow": "£"
             },
@@ -1496,6 +1496,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "üzbegisztáni szum",
                 "displayName-count-one": "üzbegisztáni szum",
@@ -1509,11 +1513,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "venezuelai bolivar (2008–2018)",
+                "displayName-count-one": "venezuelai bolivar (2008–2018)",
+                "displayName-count-other": "venezuelai bolivar (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "venezuelai bolivar",
                 "displayName-count-one": "venezuelai bolivar",
                 "displayName-count-other": "venezuelai bolivar",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "vietnami dong",
@@ -1645,7 +1655,7 @@ const data = {
                 displayName: "ismeretlen pénznem",
                 "displayName-count-one": "(ismeretlen pénznem)",
                 "displayName-count-other": "(ismeretlen pénznem)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "Jemeni dínár",

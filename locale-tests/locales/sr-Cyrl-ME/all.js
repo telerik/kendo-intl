@@ -1917,6 +1917,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Узбекистански сом",
                 "displayName-count-one": "узбекистански сом",
@@ -1932,12 +1936,19 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "Венецуелански боливар (2008–2018)",
+                "displayName-count-one": "венецуелански боливар (2008–2018)",
+                "displayName-count-few": "венецуеланска боливара (2008–2018)",
+                "displayName-count-other": "венецуеланских боливара (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "Венецуелански боливар",
                 "displayName-count-one": "венецуелански боливар",
                 "displayName-count-few": "венецуеланска боливара",
                 "displayName-count-other": "венецуеланских боливара",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "Вијетнамски донг",
@@ -2108,7 +2119,7 @@ const data = {
                 "displayName-count-one": "непозната јединица валуте",
                 "displayName-count-few": "непознате валуте",
                 "displayName-count-other": "непознатих валута",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "Јеменски динар",
@@ -2291,9 +2302,9 @@ const data = {
                 yMMMM: "MMMM y.",
                 yQQQ: "QQQ y.",
                 yQQQQ: "QQQQ y.",
-                "yw-count-one": "w. 'сједмица' 'у' y.",
-                "yw-count-few": "w. 'сједмица' 'у' y.",
-                "yw-count-other": "w. 'сједмица' 'у' y."
+                "yw-count-one": "w. 'сједмица' 'у' Y.",
+                "yw-count-few": "w. 'сједмица' 'у' Y.",
+                "yw-count-other": "w. 'сједмица' 'у' Y."
             }
         },
         timeFormats: {

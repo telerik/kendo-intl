@@ -384,8 +384,8 @@ const data = {
                 wide: {
                     0: "abans de Crist",
                     1: "després de Crist",
-                    "0-alt-variant": "abans de l’Era Comuna",
-                    "1-alt-variant": "Era Comuna"
+                    "0-alt-variant": "abans de l’era cristiana",
+                    "1-alt-variant": "era cristiana"
                 },
                 abbreviated: {
                     0: "aC",

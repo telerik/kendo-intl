@@ -186,7 +186,7 @@ const data = {
                     "Juni",
                     "Juli",
                     "Aug.",
-                    "Sep.",
+                    "Sept.",
                     "Okt.",
                     "Nov.",
                     "Dez."
@@ -311,8 +311,8 @@ const data = {
             format: {
                 abbreviated: {
                     midnight: "Mitternacht",
-                    am: "vorm.",
-                    pm: "nachm.",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "morgens",
                     morning2: "vormittags",
                     afternoon1: "mittags",
@@ -322,8 +322,8 @@ const data = {
                 },
                 narrow: {
                     midnight: "Mitternacht",
-                    am: "vm.",
-                    pm: "nm.",
+                    am: "a",
+                    pm: "p",
                     morning1: "morgens",
                     morning2: "vormittags",
                     afternoon1: "mittags",
@@ -333,8 +333,8 @@ const data = {
                 },
                 wide: {
                     midnight: "Mitternacht",
-                    am: "vorm.",
-                    pm: "nachm.",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "morgens",
                     morning2: "vormittags",
                     afternoon1: "mittags",
@@ -346,8 +346,8 @@ const data = {
             "stand-alone": {
                 abbreviated: {
                     midnight: "Mitternacht",
-                    am: "vorm.",
-                    pm: "nachm.",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "Morgen",
                     morning2: "Vormittag",
                     afternoon1: "Mittag",
@@ -368,8 +368,8 @@ const data = {
                 },
                 wide: {
                     midnight: "Mitternacht",
-                    am: "vorm.",
-                    pm: "nachm.",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "Morgen",
                     morning2: "Vormittag",
                     afternoon1: "Mittag",

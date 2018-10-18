@@ -12,7 +12,7 @@ const data = {
             d: "y.MM.dd",
             D: "y.MM.dd, EEEE",
             m: "MMM'ын' d",
-            M: "MMM'ын' d",
+            M: "MMMM'ын' d",
             y: "y 'оны' MMM",
             Y: "y 'оны' MMM",
             F: "y.MM.dd, EEEE HH:mm:ss",
@@ -29,51 +29,51 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
-                Bh: "B h",
+                Bh: "B h 'ц'",
                 Bhm: "B h:mm",
                 Bhms: "B h:mm:ss",
                 d: "d",
                 E: "ccc",
-                EBhm: "E, B h:mm",
-                EBhms: "E, B h:mm:ss",
-                Ed: "dd E",
-                Ehm: "E h:mm a",
-                EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
-                EHms: "E HH:mm:ss",
+                EBhm: "E. B h:mm",
+                EBhms: "E. B h:mm:ss",
+                Ed: "dd. E",
+                Ehm: "E. h:mm a",
+                EHm: "E. HH:mm",
+                Ehms: "E. h:mm:ss a",
+                EHms: "E. HH:mm:ss",
                 Gy: "G y",
                 GyMMM: "G y 'оны' MMM",
                 GyMMMd: "G y 'оны' MMM'ын' d",
-                GyMMMEd: "G y 'оны' MMM'ын' d, E",
-                h: "h a",
+                GyMMMEd: "G y 'оны' MMM'ын' d. E",
+                h: "h 'ц' a",
                 H: "HH 'ц'",
                 hm: "h:mm a",
                 Hm: "HH:mm",
                 hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
-                Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
-                Hmv: "HH:mm v",
-                M: "L",
-                Md: "MM/dd",
-                MEd: "MM/dd, E",
+                hmsv: "h:mm:ss a (v)",
+                Hmsv: "HH:mm:ss (v)",
+                hmv: "h:mm a (v)",
+                Hmv: "HH:mm (v)",
+                M: "LLLLL",
+                Md: "MMMMM/dd",
+                MEd: "MMMMM/dd. E",
                 MMM: "LLL",
                 MMMd: "MMM'ын' d",
-                MMMEd: "MMM'ын' d, E",
-                MMMMd: "MMM'ын' d",
-                "MMMMW-count-one": "MMM'ын' W-'р' 'долоо' 'хоног'",
-                "MMMMW-count-other": "MMM'ын' W-'р' 'долоо' 'хоног'",
+                MMMEd: "MMM'ын' d. E",
+                MMMMd: "MMMM'ын' d",
+                "MMMMW-count-one": "MMMM'ын' W-'р' 'долоо' 'хоног'",
+                "MMMMW-count-other": "MMMM'ын' W-'р' 'долоо' 'хоног'",
                 ms: "mm:ss",
                 y: "y",
-                yM: "y M",
+                yM: "y MMMMM",
                 yMd: "y.MM.dd",
-                yMEd: "y.MM.dd, E",
+                yMEd: "y.MM.dd. E",
                 yMMM: "y 'оны' MMM",
-                yMMMd: "y.MM.dd",
-                yMMMEd: "y.MM.dd, E",
+                yMMMd: "y 'оны' MMM'ын' d",
+                yMMMEd: "y 'оны' MMM'ын' d. E",
                 yMMMM: "y 'оны' MMM",
-                yQQQ: "y QQQ",
+                yQQQ: "y 'оны' QQQ",
                 yQQQQ: "y 'оны' QQQQ",
                 "yw-count-one": "Y 'оны' w-'р' 'долоо' 'хоног'",
                 "yw-count-other": "Y 'оны' w-'р' 'долоо' 'хоног'"
@@ -88,7 +88,7 @@ const data = {
         dateFormats: {
             full: "y.MM.dd, EEEE",
             long: "y.MM.dd",
-            medium: "y.MM.dd",
+            medium: "y 'оны' MMM'ын' d",
             short: "y.MM.dd"
         },
         days: {
@@ -159,13 +159,13 @@ const data = {
                     "Бя"
                 ],
                 wide: [
-                    "ням",
-                    "даваа",
-                    "мягмар",
-                    "лхагва",
-                    "пүрэв",
-                    "баасан",
-                    "бямба"
+                    "Ням",
+                    "Даваа",
+                    "Мягмар",
+                    "Лхагва",
+                    "Пүрэв",
+                    "Баасан",
+                    "Бямба"
                 ]
             }
         },
@@ -200,18 +200,18 @@ const data = {
                     "XII"
                 ],
                 wide: [
-                    "Нэгдүгээр сар",
-                    "Хоёрдугаар сар",
-                    "Гуравдугаар сар",
-                    "Дөрөвдүгээр сар",
-                    "Тавдугаар сар",
-                    "Зургаадугаар сар",
-                    "Долдугаар сар",
-                    "Наймдугаар сар",
-                    "Есдүгээр сар",
-                    "Аравдугаар сар",
-                    "Арван нэгдүгээр сар",
-                    "Арван хоёрдугаар сар"
+                    "нэгдүгээр сар",
+                    "хоёрдугаар сар",
+                    "гуравдугаар сар",
+                    "дөрөвдүгээр сар",
+                    "тавдугаар сар",
+                    "зургаадугаар сар",
+                    "долоодугаар сар",
+                    "наймдугаар сар",
+                    "есдүгээр сар",
+                    "аравдугаар сар",
+                    "арван нэгдүгээр сар",
+                    "арван хоёрдугаар сар"
                 ]
             },
             "stand-alone": {
@@ -250,7 +250,7 @@ const data = {
                     "Дөрөвдүгээр сар",
                     "Тавдугаар сар",
                     "Зургаадугаар сар",
-                    "Долдугаар сар",
+                    "Долоодугаар сар",
                     "Наймдугаар сар",
                     "Есдүгээр сар",
                     "Аравдугаар сар",
@@ -282,10 +282,10 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "I",
-                    "II",
-                    "III",
-                    "IV"
+                    "I улирал",
+                    "II улирал",
+                    "III улирал",
+                    "IV улирал"
                 ],
                 narrow: [
                     "I",
@@ -305,9 +305,9 @@ const data = {
             format: {
                 abbreviated: {
                     midnight: "шөнө дунд",
-                    am: "ҮӨ",
+                    am: "ү.ө.",
                     noon: "үд дунд",
-                    pm: "ҮХ",
+                    pm: "ү.х.",
                     morning1: "өглөө",
                     afternoon1: "өдөр",
                     evening1: "орой",
@@ -315,9 +315,9 @@ const data = {
                 },
                 narrow: {
                     midnight: "шөнө дунд",
-                    am: "үө",
+                    am: "ү.ө.",
                     noon: "үд дунд",
-                    pm: "үх",
+                    pm: "ү.х.",
                     morning1: "өглөө",
                     afternoon1: "өдөр",
                     evening1: "орой",
@@ -325,9 +325,9 @@ const data = {
                 },
                 wide: {
                     midnight: "шөнө дунд",
-                    am: "ү.ө",
+                    am: "ү.ө.",
                     noon: "үд дунд",
-                    pm: "ү.х",
+                    pm: "ү.х.",
                     morning1: "өглөө",
                     afternoon1: "өдөр",
                     evening1: "орой",
@@ -337,9 +337,9 @@ const data = {
             "stand-alone": {
                 abbreviated: {
                     midnight: "шөнө дунд",
-                    am: "ҮӨ",
+                    am: "ү.ө.",
                     noon: "үд дунд",
-                    pm: "ҮХ",
+                    pm: "ү.х.",
                     morning1: "өглөө",
                     afternoon1: "өдөр",
                     evening1: "орой",
@@ -347,9 +347,9 @@ const data = {
                 },
                 narrow: {
                     midnight: "шөнө дунд",
-                    am: "ҮӨ",
+                    am: "ү.ө.",
                     noon: "үд дунд",
-                    pm: "ҮХ",
+                    pm: "ү.х.",
                     morning1: "өглөө",
                     afternoon1: "өдөр",
                     evening1: "орой",
@@ -357,9 +357,9 @@ const data = {
                 },
                 wide: {
                     midnight: "шөнө дунд",
-                    am: "ҮӨ",
+                    am: "ү.ө.",
                     noon: "үд дунд",
-                    pm: "ҮХ",
+                    pm: "ү.х.",
                     morning1: "өглөө",
                     afternoon1: "өдөр",
                     evening1: "орой",
@@ -414,13 +414,13 @@ const data = {
             },
             week: {
                 wide: "долоо хоног",
-                short: "7х",
-                narrow: "7х"
+                short: "7 хоног",
+                narrow: "7 хоног"
             },
             weekOfMonth: {
-                wide: "Сарын долоо хоног",
-                short: "Сарын долоо хоног",
-                narrow: "Сарын долоо хоног"
+                wide: "сарын долоо хоног",
+                short: "сарын 7 хоног",
+                narrow: "сарын 7 хоног"
             },
             day: {
                 wide: "өдөр",
@@ -428,9 +428,9 @@ const data = {
                 narrow: "өдөр"
             },
             dayOfYear: {
-                wide: "Жилийн өдөр",
-                short: "Жилийн өдөр",
-                narrow: "Жилийн өдөр"
+                wide: "жилийн хоног",
+                short: "жилийн хоног",
+                narrow: "жилийн хоног"
             },
             weekday: {
                 wide: "гараг",
@@ -438,9 +438,9 @@ const data = {
                 narrow: "гараг"
             },
             weekdayOfMonth: {
-                wide: "Ажлын өдөр",
-                short: "Ажлын өдөр",
-                narrow: "Ажлын өдөр"
+                wide: "ажлын өдөр",
+                short: "ажлын өдөр",
+                narrow: "ажлын өдөр"
             },
             dayperiod: {
                 short: "ү.ө./ү.х.",
@@ -449,18 +449,18 @@ const data = {
             },
             hour: {
                 wide: "цаг",
-                short: "ц.",
-                narrow: "ц."
+                short: "ц",
+                narrow: "ц"
             },
             minute: {
                 wide: "минут",
-                short: "мин.",
-                narrow: "мин."
+                short: "мин",
+                narrow: "мин"
             },
             second: {
                 wide: "секунд",
-                short: "сек.",
-                narrow: "сек."
+                short: "сек",
+                narrow: "сек"
             },
             zone: {
                 wide: "цагийн бүс",

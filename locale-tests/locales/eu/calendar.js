@@ -90,7 +90,7 @@ const data = {
         dateFormats: {
             full: "y('e')'ko' MMMM'ren' d('a'), EEEE",
             long: "y('e')'ko' MMMM'ren' d('a')",
-            medium: "y MMM d",
+            medium: "y('e')'ko' MMM d('a')",
             short: "yy/M/d"
         },
         days: {
@@ -161,13 +161,13 @@ const data = {
                     "lr."
                 ],
                 wide: [
-                    "Igandea",
-                    "Astelehena",
-                    "Asteartea",
-                    "Asteazkena",
-                    "Osteguna",
-                    "Ostirala",
-                    "Larunbata"
+                    "igandea",
+                    "astelehena",
+                    "asteartea",
+                    "asteazkena",
+                    "osteguna",
+                    "ostirala",
+                    "larunbata"
                 ]
             }
         },
@@ -247,17 +247,17 @@ const data = {
                 ],
                 wide: [
                     "urtarrila",
-                    "Otsaila",
-                    "Martxoa",
-                    "Apirila",
-                    "Maiatza",
-                    "Ekaina",
-                    "Uztaila",
-                    "Abuztua",
-                    "Iraila",
-                    "Urria",
-                    "Azaroa",
-                    "Abendua"
+                    "otsaila",
+                    "martxoa",
+                    "apirila",
+                    "maiatza",
+                    "ekaina",
+                    "uztaila",
+                    "abuztua",
+                    "iraila",
+                    "urria",
+                    "azaroa",
+                    "abendua"
                 ]
             }
         },

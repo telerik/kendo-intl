@@ -1367,7 +1367,7 @@ const data = {
             },
             STN: {
                 displayName: "ਸਾਉ ਟੋਮੀ ਐਂਡ ਪ੍ਰਿੰਸਪੀ ਡੋਬਰਾ",
-                "displayName-count-one": "ਸਾਉ ਟੋਮੀ ਐਂਡ ਪ੍ਰਿੰਸਪੀ ਡੋਬਰਾ",
+                "displayName-count-one": "ਸਾਉ ਟੋਮੀ ਅਤੇ ਪ੍ਰਿੰਸਪੀ ਡੋਬਰਾ",
                 "displayName-count-other": "ਸਾਉ ਟੋਮੀ ਐਂਡ ਪ੍ਰਿੰਸਪੀ ਡੋਬਰਾ",
                 symbol: "STN",
                 "symbol-alt-narrow": "Db"
@@ -1524,6 +1524,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "ਉਜ਼ਬੇਕਿਸਤਾਨ ਸੋਮ",
                 "displayName-count-one": "ਉਜ਼ਬੇਕਿਸਤਾਨ ਸੋਮ",
@@ -1537,11 +1541,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "ਵੇਨੇਜ਼ੂਏਲਨ ਬੋਲੀਵਰ (2008–2018)",
+                "displayName-count-one": "ਵੇਨੇਜ਼ੂਏਲਨ ਬੋਲੀਵਰ (2008–2018)",
+                "displayName-count-other": "ਵੇਨੇਜ਼ੂਏਲਨ ਬੋਲੀਵਰ (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "ਵੇਨੇਜ਼ੂਏਲਨ ਬੋਲੀਵਰ",
                 "displayName-count-one": "ਵੇਨੇਜ਼ੂਏਲਨ ਬੋਲੀਵਰ",
                 "displayName-count-other": "ਵੇਨੇਜ਼ੂਏਲਨ ਬੋਲੀਵਰ",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "ਵੀਅਤਨਾਮੀ ਡੋਂਗ",

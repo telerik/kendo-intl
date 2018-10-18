@@ -1264,9 +1264,9 @@ const data = {
                 symbol: "PEI"
             },
             PEN: {
-                displayName: "peruviansk sol",
-                "displayName-count-one": "peruviansk sol",
-                "displayName-count-other": "peruvianske soles",
+                displayName: "peruansk sol",
+                "displayName-count-one": "peruansk sol",
+                "displayName-count-other": "peruanske soles",
                 symbol: "PEN"
             },
             PES: {
@@ -1656,6 +1656,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "usbekisk sum",
                 "displayName-count-one": "usbekisk sum",
@@ -1669,11 +1673,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
-                displayName: "venezuelansk bolivar",
-                "displayName-count-one": "venezuelansk bolivar",
-                "displayName-count-other": "venezuelanske bolivar",
+                displayName: "venezuelansk bolivar (2008–2018)",
+                "displayName-count-one": "venezuelansk bolivar (2008–2018)",
+                "displayName-count-other": "venezuelanske bolivarer (2008–2018)",
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
+            },
+            VES: {
+                displayName: "venezuelansk bolivar",
+                "displayName-count-one": "venezuelansk bolivar",
+                "displayName-count-other": "venezuelanske bolivarer",
+                symbol: "VES"
             },
             VND: {
                 displayName: "vietnamesisk dong",
@@ -1797,7 +1807,7 @@ const data = {
                 displayName: "ukendt valuta",
                 "displayName-count-one": "(ukendt valuta)",
                 "displayName-count-other": "(ukendt valuta)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "Yemenitisk dinar",
@@ -1894,15 +1904,15 @@ const data = {
     },
     calendar: {
         patterns: {
-            d: "d/M/y",
+            d: "d.M.y",
             D: "EEEE 'den' d. MMMM y",
             m: "d. MMM",
             M: "d. MMMM",
             y: "MMM y",
             Y: "MMMM y",
             F: "EEEE 'den' d. MMMM y HH.mm.ss",
-            g: "d/M/y HH.mm",
-            G: "d/M/y HH.mm.ss",
+            g: "d.M.y HH.mm",
+            G: "d.M.y HH.mm.ss",
             t: "HH.mm",
             T: "HH.mm.ss",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
@@ -1941,9 +1951,9 @@ const data = {
                 hmv: "h.mm a v",
                 Hmv: "HH.mm v",
                 M: "M",
-                Md: "d/M",
-                MEd: "E d/M",
-                MMdd: "dd/MM",
+                Md: "d.M",
+                MEd: "E d.M",
+                MMdd: "dd.MM",
                 MMM: "MMM",
                 MMMd: "d. MMM",
                 MMMEd: "E d. MMM",
@@ -1953,10 +1963,10 @@ const data = {
                 "MMMMW-count-other": "'uge' W 'i' MMM",
                 ms: "mm.ss",
                 y: "y",
-                yM: "M/y",
-                yMd: "d/M/y",
-                yMEd: "E d/M/y",
-                yMM: "MM/y",
+                yM: "M.y",
+                yMd: "d.M.y",
+                yMEd: "E d.M.y",
+                yMM: "MM.y",
                 yMMM: "MMM y",
                 yMMMd: "d. MMM y",
                 yMMMEd: "E d. MMM y",
@@ -1977,7 +1987,7 @@ const data = {
             full: "EEEE 'den' d. MMMM y",
             long: "d. MMMM y",
             medium: "d. MMM y",
-            short: "dd/MM/y"
+            short: "dd.MM.y"
         },
         days: {
             format: {

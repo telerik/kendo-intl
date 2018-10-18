@@ -76,8 +76,8 @@ const data = {
                 yMMMM: "MMMM, y",
                 yQQQ: "y, QQQ",
                 yQQQQ: "y, QQQQ",
-                "yw-count-one": "y, w-'hafta'",
-                "yw-count-other": "y, w-'hafta'"
+                "yw-count-one": "Y, w-'hafta'",
+                "yw-count-other": "Y, w-'hafta'"
             }
         },
         timeFormats: {

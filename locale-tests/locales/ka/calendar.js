@@ -419,8 +419,8 @@ const data = {
             },
             weekOfMonth: {
                 wide: "თვის კვირა",
-                short: "თვის კვირა",
-                narrow: "თვის კვირა"
+                short: "თვ. კვირა",
+                narrow: "თვ. კვირა"
             },
             day: {
                 wide: "დღე",
@@ -439,13 +439,13 @@ const data = {
             },
             weekdayOfMonth: {
                 wide: "კვირის დღე თვეში",
-                short: "კვირის დღე თვეში",
-                narrow: "კვირის დღე თვეში"
+                short: "კვ. დღე თვეში",
+                narrow: "კვ. დღე თვეში"
             },
             dayperiod: {
-                short: "დღის ნახევარი",
+                short: "დღ. ნახევარი",
                 wide: "დღის ნახევარი",
-                narrow: "დღის ნახევარი"
+                narrow: "დღ. ნახევარი"
             },
             hour: {
                 wide: "საათი",
@@ -464,8 +464,8 @@ const data = {
             },
             zone: {
                 wide: "დროის სარტყელი",
-                short: "დროის სარტყელი",
-                narrow: "დროის სარტყელი"
+                short: "დროის სარტყ.",
+                narrow: "დროის სარტყ."
             }
         }
     },

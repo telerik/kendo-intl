@@ -55,8 +55,7 @@ const data = {
         },
         accounting: {
             patterns: [
-                "n$",
-                "(n$)"
+                "n $"
             ],
             groupSize: [
                 3
@@ -1847,6 +1846,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "узбецький сум",
                 "displayName-count-one": "узбецький сум",
@@ -1860,13 +1863,21 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "венесуельський болівар (2008–2018)",
+                "displayName-count-one": "венесуельський болівар (2008–2018)",
+                "displayName-count-few": "венесуельські болівари (2008–2018)",
+                "displayName-count-many": "венесуельських боліварів (2008–2018)",
+                "displayName-count-other": "венесуельського болівара (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "венесуельський болівар",
                 "displayName-count-one": "венесуельський болівар",
                 "displayName-count-few": "венесуельські болівари",
                 "displayName-count-many": "венесуельських боліварів",
                 "displayName-count-other": "венесуельського болівара",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "вʼєтнамський донг",
@@ -2000,7 +2011,7 @@ const data = {
                 "displayName-count-few": "невідомі грошові одиниці",
                 "displayName-count-many": "невідомих грошових одиниць",
                 "displayName-count-other": "невідомої грошової одиниці",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "єменський динар",
@@ -2445,7 +2456,7 @@ const data = {
                     night1: "ніч"
                 },
                 wide: {
-                    midnight: "північ",
+                    midnight: "опівніч",
                     am: "дп",
                     noon: "полудень",
                     pm: "пп",
@@ -2489,7 +2500,7 @@ const data = {
             year: {
                 wide: "рік",
                 short: "р.",
-                narrow: "р."
+                narrow: "р"
             },
             quarter: {
                 wide: "квартал",
@@ -2499,37 +2510,37 @@ const data = {
             month: {
                 wide: "місяць",
                 short: "міс.",
-                narrow: "міс."
+                narrow: "м"
             },
             week: {
                 wide: "тиждень",
                 short: "тиж.",
-                narrow: "тиж."
+                narrow: "т"
             },
             weekOfMonth: {
                 wide: "тиждень місяця",
                 short: "тиж. місяця",
-                narrow: "тиж. місяця"
+                narrow: "тиж. міс."
             },
             day: {
                 wide: "день",
                 short: "д.",
-                narrow: "д."
+                narrow: "д"
             },
             dayOfYear: {
                 wide: "день року",
-                short: "день року",
+                short: "д. року",
                 narrow: "день року"
             },
             weekday: {
                 wide: "день тижня",
-                short: "день тижня",
-                narrow: "день тижня"
+                short: "д. тижня",
+                narrow: "д тижня"
             },
             weekdayOfMonth: {
                 wide: "день місяця",
-                short: "день місяця",
-                narrow: "день місяця"
+                short: "д. місяця",
+                narrow: "д місяця"
             },
             dayperiod: {
                 short: "дп/пп",
@@ -2538,12 +2549,12 @@ const data = {
             },
             hour: {
                 wide: "година",
-                short: "год",
+                short: "год.",
                 narrow: "год"
             },
             minute: {
                 wide: "хвилина",
-                short: "хв",
+                short: "хв.",
                 narrow: "хв"
             },
             second: {
@@ -2553,8 +2564,8 @@ const data = {
             },
             zone: {
                 wide: "часовий пояс",
-                short: "часовий пояс",
-                narrow: "часовий пояс"
+                short: "час. пояс",
+                narrow: "час. п."
             }
         }
     },

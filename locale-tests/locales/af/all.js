@@ -550,7 +550,7 @@ const data = {
                 symbol: "ETB"
             },
             EUR: {
-                displayName: "Euro",
+                displayName: "euro",
                 "displayName-count-one": "euro",
                 "displayName-count-other": "euro",
                 symbol: "€",
@@ -1483,6 +1483,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Oezbekiese som",
                 "displayName-count-one": "Oezbekiese som",
@@ -1495,10 +1499,16 @@ const data = {
             },
             VEF: {
                 displayName: "Venezolaanse bolivar",
-                "displayName-count-one": "Venezolaanse bolivar",
-                "displayName-count-other": "Venezolaanse bolivar",
+                "displayName-count-one": "Venezolaanse bolívar (2008–2018)",
+                "displayName-count-other": "Venezolaanse bolívare (2008–2018)",
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
+            },
+            VES: {
+                displayName: "Venezolaanse Bolívar",
+                "displayName-count-one": "Venezolaanse bolívar",
+                "displayName-count-other": "Venezolaanse bolívare",
+                symbol: "VES"
             },
             VND: {
                 displayName: "Viëtnamese dong",
@@ -1613,10 +1623,10 @@ const data = {
                 symbol: "XUA"
             },
             XXX: {
-                displayName: "Onbekende geldeenheid",
+                displayName: "onbekende geldeenheid",
                 "displayName-count-one": "(onbekende geldeenheid)",
                 "displayName-count-other": "(onbekende geldeenheid)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "YDD",
@@ -1692,12 +1702,12 @@ const data = {
     calendar: {
         patterns: {
             d: "y-MM-dd",
-            D: "EEEE, dd MMMM y",
+            D: "EEEE dd MMMM y",
             m: "d MMM",
             M: "d MMM",
             y: "MMM y",
             Y: "MMMM y",
-            F: "EEEE, dd MMMM y HH:mm:ss",
+            F: "EEEE dd MMMM y HH:mm:ss",
             g: "y-MM-dd HH:mm",
             G: "y-MM-dd HH:mm:ss",
             t: "HH:mm",
@@ -1726,7 +1736,7 @@ const data = {
                 Gy: "y G",
                 GyMMM: "MMM y G",
                 GyMMMd: "dd MMM y G",
-                GyMMMEd: "E, dd MMM y G",
+                GyMMMEd: "E dd MMM y G",
                 h: "h a",
                 H: "HH",
                 hm: "h:mm a",
@@ -1739,7 +1749,7 @@ const data = {
                 Hmv: "HH:mm v",
                 M: "L",
                 Md: "dd-MM",
-                MEd: "E, d/M",
+                MEd: "E d/M",
                 MMM: "LLL",
                 MMMd: "d MMM",
                 MMMEd: "E d MMM",
@@ -1754,7 +1764,7 @@ const data = {
                 yMEd: "E y-MM-dd",
                 yMMM: "MMM y",
                 yMMMd: "d MMM y",
-                yMMMEd: "E, d MMM y",
+                yMMMEd: "E d MMM y",
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
@@ -1769,7 +1779,7 @@ const data = {
             short: "HH:mm"
         },
         dateFormats: {
-            full: "EEEE, dd MMMM y",
+            full: "EEEE dd MMMM y",
             long: "dd MMMM y",
             medium: "dd MMM y",
             short: "y-MM-dd"
@@ -2121,7 +2131,7 @@ const data = {
             },
             dayperiod: {
                 short: "vm./nm.",
-                wide: "VM/NM",
+                wide: "vm./nm.",
                 narrow: "vm./nm."
             },
             hour: {
@@ -2136,7 +2146,7 @@ const data = {
             },
             second: {
                 wide: "sekonde",
-                short: "sek.",
+                short: "s.",
                 narrow: "s."
             },
             zone: {

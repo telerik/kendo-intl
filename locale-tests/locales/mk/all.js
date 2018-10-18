@@ -258,7 +258,7 @@ const data = {
             },
             BOB: {
                 displayName: "Боливиски боливиано",
-                "displayName-count-one": "Боливиски боливиани",
+                "displayName-count-one": "Боливиски боливиано",
                 "displayName-count-other": "Боливиски боливиани",
                 symbol: "BOB",
                 "symbol-alt-narrow": "Bs"
@@ -372,8 +372,8 @@ const data = {
                 symbol: "CHE"
             },
             CHF: {
-                displayName: "Швајцарски Франк",
-                "displayName-count-one": "Швајцарски Франк",
+                displayName: "Швајцарски франк",
+                "displayName-count-one": "Швајцарски франк",
                 "displayName-count-other": "Швајцарски франци",
                 symbol: "CHF"
             },
@@ -487,7 +487,7 @@ const data = {
             DKK: {
                 displayName: "Данска круна",
                 "displayName-count-one": "Данска круна",
-                "displayName-count-other": "Данска круна",
+                "displayName-count-other": "Дански круни",
                 symbol: "DKK",
                 "symbol-alt-narrow": "kr"
             },
@@ -568,7 +568,7 @@ const data = {
             },
             FKP: {
                 displayName: "Фолкландска фунта",
-                "displayName-count-one": "Фолкландски фунти",
+                "displayName-count-one": "Фолкландска фунта",
                 "displayName-count-other": "Фолкландски фунти",
                 symbol: "FKP",
                 "symbol-alt-narrow": "£"
@@ -578,8 +578,8 @@ const data = {
                 symbol: "FRF"
             },
             GBP: {
-                displayName: "Британска Фунта",
-                "displayName-count-one": "Британска Фунта",
+                displayName: "Британска фунта",
+                "displayName-count-one": "Британска фунта",
                 "displayName-count-other": "Британски фунти",
                 symbol: "GBP",
                 "symbol-alt-narrow": "£"
@@ -919,8 +919,8 @@ const data = {
                 symbol: "LYD"
             },
             MAD: {
-                displayName: "Марокански Дирхам",
-                "displayName-count-one": "Марокански Дирхам",
+                displayName: "Марокански дирхам",
+                "displayName-count-one": "Марокански дирхам",
                 "displayName-count-other": "Марокански дирхами",
                 symbol: "MAD"
             },
@@ -1137,7 +1137,7 @@ const data = {
             PEN: {
                 displayName: "Перуански сол",
                 "displayName-count-one": "Перуански сол",
-                "displayName-count-other": "Перуански сол",
+                "displayName-count-other": "Перуански соли",
                 symbol: "PEN"
             },
             PES: {
@@ -1182,7 +1182,7 @@ const data = {
             PYG: {
                 displayName: "Парагвајска гуарана",
                 "displayName-count-one": "Парагвајска гуарана",
-                "displayName-count-other": "Парагвајска гуарана",
+                "displayName-count-other": "Парагвајски гуарани",
                 symbol: "PYG",
                 "symbol-alt-narrow": "₲"
             },
@@ -1484,10 +1484,14 @@ const data = {
             },
             UYU: {
                 displayName: "Уругвајски пезос",
-                "displayName-count-one": "Уругвајски пезоси",
+                "displayName-count-one": "Уругвајски пезос",
                 "displayName-count-other": "Уругвајски пезоси",
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
+            },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
             },
             UZS: {
                 displayName: "Узбекистански сом",
@@ -1502,11 +1506,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "Венецуелски боливар (2008–2018)",
+                "displayName-count-one": "Венецуелски боливар (2008–2018)",
+                "displayName-count-other": "Венецуелски боливари (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "Венецуелски боливар",
                 "displayName-count-one": "Венецуелски боливар",
                 "displayName-count-other": "Венецуелски боливари",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "Виетнамски донг",
@@ -1624,7 +1634,7 @@ const data = {
                 displayName: "Непозната валута",
                 "displayName-count-one": "Непозната валута",
                 "displayName-count-other": "Непозната валута",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "Јеменски динар",

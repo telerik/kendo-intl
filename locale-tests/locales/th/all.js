@@ -1226,7 +1226,7 @@ const data = {
             THB: {
                 displayName: "บาท",
                 "displayName-count-other": "บาทไทย",
-                symbol: "THB",
+                symbol: "฿",
                 "symbol-alt-narrow": "฿"
             },
             TJR: {
@@ -1339,6 +1339,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "ซอมอุซเบกิสถาน",
                 "displayName-count-other": "ซอมอุซเบกิสถาน",
@@ -1353,6 +1357,11 @@ const data = {
                 "displayName-count-other": "โบลิวาร์เวเนซุเอลา",
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
+            },
+            VES: {
+                displayName: "โบลีวาร์เวเนซุเอลา",
+                "displayName-count-other": "โบลีวาร์แห่งเวเนซุเอลา",
+                symbol: "VES"
             },
             VND: {
                 displayName: "ดองเวียดนาม",
@@ -1460,8 +1469,8 @@ const data = {
                 symbol: "XUA"
             },
             XXX: {
-                displayName: "สกุลเงินที่ไม่รู้จัก",
-                "displayName-count-other": "(สกุลเงินที่ไม่รู้จัก)",
+                displayName: "ไม่ทราบชื่อสกุลเงิน",
+                "displayName-count-other": "(ไม่ทราบชื่อสกุลเงิน)",
                 symbol: "XXX"
             },
             YDD: {
@@ -1591,7 +1600,7 @@ const data = {
                 MMMMd: "d MMMM",
                 MMMMEd: "E d MMMM",
                 MMMMEEEEd: "EEEEที่ d MMMM",
-                "MMMMW-count-other": "สัปดาห์ที่ W ของ MMM",
+                "MMMMW-count-other": "สัปดาห์ที่ W ของเดือนMMMM",
                 mmss: "mm:ss",
                 ms: "mm:ss",
                 y: "y",
@@ -1608,7 +1617,7 @@ const data = {
                 yMMMMEEEEd: "EEEEที่ d MMMM G y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ G y",
-                "yw-count-other": "สัปดาห์ที่ w ของ Y"
+                "yw-count-other": "สัปดาห์ที่ w ของปี Y"
             }
         },
         timeFormats: {
@@ -1850,7 +1859,7 @@ const data = {
                 narrow: {
                     midnight: "เที่ยงคืน",
                     am: "a",
-                    noon: "n",
+                    noon: "เที่ยง",
                     pm: "p",
                     morning1: "เช้า",
                     afternoon1: "เที่ยง",
@@ -1914,13 +1923,13 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "ปีก่อนคริสต์ศักราช",
+                    0: "ปีก่อนคริสตกาล",
                     1: "คริสต์ศักราช",
                     "0-alt-variant": "ก่อนสามัญศักราช",
                     "1-alt-variant": "สามัญศักราช"
                 },
                 abbreviated: {
-                    0: "ปีก่อน ค.ศ.",
+                    0: "ก่อน ค.ศ.",
                     1: "ค.ศ.",
                     "0-alt-variant": "ก.ส.ศ.",
                     "1-alt-variant": "ส.ศ."
@@ -1977,7 +1986,7 @@ const data = {
                 narrow: "วันของปี"
             },
             weekday: {
-                wide: "วันในสัปดาห์",
+                wide: "วันของสัปดาห์",
                 short: "วันของสัปดาห์",
                 narrow: "วันของสัปดาห์"
             },

@@ -164,8 +164,8 @@ const data = {
                 symbol: "ARP"
             },
             ARS: {
-                displayName: "аргентинское песо",
-                "displayName-count-one": "аргентинское песо",
+                displayName: "аргентинский песо",
+                "displayName-count-one": "аргентинский песо",
                 "displayName-count-few": "аргентинских песо",
                 "displayName-count-many": "аргентинских песо",
                 "displayName-count-other": "аргентинского песо",
@@ -462,8 +462,8 @@ const data = {
                 symbol: "CLF"
             },
             CLP: {
-                displayName: "чилийское песо",
-                "displayName-count-one": "чилийское песо",
+                displayName: "чилийский песо",
+                "displayName-count-one": "чилийский песо",
                 "displayName-count-few": "чилийских песо",
                 "displayName-count-many": "чилийских песо",
                 "displayName-count-other": "чилийского песо",
@@ -492,8 +492,8 @@ const data = {
                 "symbol-alt-narrow": "¥"
             },
             COP: {
-                displayName: "колумбийское песо",
-                "displayName-count-one": "колумбийское песо",
+                displayName: "колумбийский песо",
+                "displayName-count-one": "колумбийский песо",
                 "displayName-count-few": "колумбийских песо",
                 "displayName-count-many": "колумбийских песо",
                 "displayName-count-other": "колумбийского песо",
@@ -522,8 +522,8 @@ const data = {
                 symbol: "CSK"
             },
             CUC: {
-                displayName: "кубинское конвертируемое песо",
-                "displayName-count-one": "кубинское конвертируемое песо",
+                displayName: "кубинский конвертируемый песо",
+                "displayName-count-one": "кубинский конвертируемый песо",
                 "displayName-count-few": "кубинских конвертируемых песо",
                 "displayName-count-many": "кубинских конвертируемых песо",
                 "displayName-count-other": "кубинского конвертируемого песо",
@@ -531,8 +531,8 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             CUP: {
-                displayName: "кубинское песо",
-                "displayName-count-one": "кубинское песо",
+                displayName: "кубинский песо",
+                "displayName-count-one": "кубинский песо",
                 "displayName-count-few": "кубинских песо",
                 "displayName-count-many": "кубинских песо",
                 "displayName-count-other": "кубинского песо",
@@ -586,8 +586,8 @@ const data = {
                 "symbol-alt-narrow": "kr"
             },
             DOP: {
-                displayName: "доминиканское песо",
-                "displayName-count-one": "доминиканское песо",
+                displayName: "доминиканский песо",
+                "displayName-count-one": "доминиканский песо",
                 "displayName-count-few": "доминиканских песо",
                 "displayName-count-many": "доминиканских песо",
                 "displayName-count-other": "доминиканского песо",
@@ -958,11 +958,11 @@ const data = {
                 "symbol-alt-narrow": "៛"
             },
             KMF: {
-                displayName: "франк Коморских островов",
-                "displayName-count-one": "франк Коморских островов",
-                "displayName-count-few": "франка Коморских островов",
-                "displayName-count-many": "франков Коморских островов",
-                "displayName-count-other": "франка Коморских островов",
+                displayName: "коморский франк",
+                "displayName-count-one": "коморский франк",
+                "displayName-count-few": "коморских франка",
+                "displayName-count-many": "коморских франков",
+                "displayName-count-other": "коморского франка",
                 symbol: "KMF",
                 "symbol-alt-narrow": "CF"
             },
@@ -1001,11 +1001,11 @@ const data = {
                 symbol: "KWD"
             },
             KYD: {
-                displayName: "доллар Каймановых островов",
-                "displayName-count-one": "доллар Каймановых островов",
-                "displayName-count-few": "доллара Каймановых островов",
-                "displayName-count-many": "долларов Каймановых островов",
-                "displayName-count-other": "доллара Каймановых островов",
+                displayName: "доллар Островов Кайман",
+                "displayName-count-one": "доллар Островов Кайман",
+                "displayName-count-few": "доллара Островов Кайман",
+                "displayName-count-many": "долларов Островов Кайман",
+                "displayName-count-other": "доллара Островов Кайман",
                 symbol: "KYD",
                 "symbol-alt-narrow": "$"
             },
@@ -1241,8 +1241,8 @@ const data = {
                 symbol: "MWK"
             },
             MXN: {
-                displayName: "мексиканское песо",
-                "displayName-count-one": "мексиканское песо",
+                displayName: "мексиканский песо",
+                "displayName-count-one": "мексиканский песо",
                 "displayName-count-few": "мексиканских песо",
                 "displayName-count-many": "мексиканских песо",
                 "displayName-count-other": "мексиканского песо",
@@ -1389,8 +1389,8 @@ const data = {
                 symbol: "PGK"
             },
             PHP: {
-                displayName: "филиппинское песо",
-                "displayName-count-one": "филиппинское песо",
+                displayName: "филиппинский песо",
+                "displayName-count-one": "филиппинский песо",
                 "displayName-count-few": "филиппинских песо",
                 "displayName-count-many": "филиппинских песо",
                 "displayName-count-other": "филиппинского песо",
@@ -1497,11 +1497,11 @@ const data = {
                 symbol: "SAR"
             },
             SBD: {
-                displayName: "доллар Соломоновых островов",
-                "displayName-count-one": "доллар Соломоновых островов",
-                "displayName-count-few": "доллара Соломоновых островов",
-                "displayName-count-many": "долларов Соломоновых островов",
-                "displayName-count-other": "доллара Соломоновых островов",
+                displayName: "доллар Соломоновых Островов",
+                "displayName-count-one": "доллар Соломоновых Островов",
+                "displayName-count-few": "доллара Соломоновых Островов",
+                "displayName-count-many": "долларов Соломоновых Островов",
+                "displayName-count-other": "доллара Соломоновых Островов",
                 symbol: "SBD",
                 "symbol-alt-narrow": "$"
             },
@@ -1794,13 +1794,17 @@ const data = {
                 symbol: "UYP"
             },
             UYU: {
-                displayName: "уругвайское песо",
-                "displayName-count-one": "уругвайское песо",
+                displayName: "уругвайский песо",
+                "displayName-count-one": "уругвайский песо",
                 "displayName-count-few": "уругвайских песо",
                 "displayName-count-many": "уругвайских песо",
                 "displayName-count-other": "уругвайского песо",
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
+            },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
             },
             UZS: {
                 displayName: "узбекский сум",
@@ -1815,13 +1819,21 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "венесуэльский боливар (2008–2018)",
+                "displayName-count-one": "венесуэльский боливар (2008–2018)",
+                "displayName-count-few": "венесуэльских боливара (2008–2018)",
+                "displayName-count-many": "венесуэльских боливаров (2008–2018)",
+                "displayName-count-other": "венесуэльского боливара (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "венесуэльский боливар",
                 "displayName-count-one": "венесуэльский боливар",
                 "displayName-count-few": "венесуэльских боливара",
                 "displayName-count-many": "венесуэльских боливаров",
                 "displayName-count-other": "венесуэльского боливара",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "вьетнамский донг",
@@ -2046,11 +2058,11 @@ const data = {
             M: "d MMMM",
             y: "LLL y 'г'.",
             Y: "LLLL y 'г'.",
-            F: "EEEE, d MMMM y 'г'. H:mm:ss",
-            g: "dd.MM.y H:mm",
-            G: "dd.MM.y H:mm:ss",
-            t: "H:mm",
-            T: "H:mm:ss",
+            F: "EEEE, d MMMM y 'г'. HH:mm:ss",
+            g: "dd.MM.y HH:mm",
+            G: "dd.MM.y HH:mm:ss",
+            t: "HH:mm",
+            T: "HH:mm:ss",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
@@ -2077,15 +2089,15 @@ const data = {
                 GyMMMd: "d MMM y 'г'. G",
                 GyMMMEd: "E, d MMM y 'г'. G",
                 h: "h a",
-                H: "H",
+                H: "HH",
                 hm: "h:mm a",
-                Hm: "H:mm",
+                Hm: "HH:mm",
                 hms: "h:mm:ss a",
-                Hms: "H:mm:ss",
+                Hms: "HH:mm:ss",
                 hmsv: "h:mm:ss a v",
-                Hmsv: "H:mm:ss v",
+                Hmsv: "HH:mm:ss v",
                 hmv: "h:mm a v",
-                Hmv: "H:mm v",
+                Hmv: "HH:mm v",
                 M: "L",
                 Md: "dd.MM",
                 MEd: "E, dd.MM",
@@ -2117,10 +2129,10 @@ const data = {
             }
         },
         timeFormats: {
-            full: "H:mm:ss zzzz",
-            long: "H:mm:ss z",
-            medium: "H:mm:ss",
-            short: "H:mm"
+            full: "HH:mm:ss zzzz",
+            long: "HH:mm:ss z",
+            medium: "HH:mm:ss",
+            short: "HH:mm"
         },
         dateFormats: {
             full: "EEEE, d MMMM y 'г'.",
@@ -2416,13 +2428,13 @@ const data = {
                     0: "до н. э.",
                     1: "н. э.",
                     "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "1-alt-variant": "н. э."
                 },
                 narrow: {
                     0: "до н.э.",
                     1: "н.э.",
                     "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "1-alt-variant": "н. э."
                 }
             }
         },

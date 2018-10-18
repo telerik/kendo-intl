@@ -405,6 +405,7 @@ const data = {
             },
             CNH: {
                 displayName: "人民幣（離岸）",
+                "displayName-count-other": "人民幣（離岸）",
                 symbol: "CNH"
             },
             CNX: {
@@ -1445,6 +1446,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "烏茲別克索姆",
                 "displayName-count-other": "烏茲別克索姆",
@@ -1456,10 +1461,15 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
-                displayName: "委內瑞拉玻利瓦",
-                "displayName-count-other": "委內瑞拉玻利瓦",
+                displayName: "委內瑞拉玻利瓦 (2008–2018)",
+                "displayName-count-other": "委內瑞拉玻利瓦 (2008–2018)",
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
+            },
+            VES: {
+                displayName: "VES",
+                "displayName-count-other": "委內瑞拉玻利瓦",
+                symbol: "VES"
             },
             VND: {
                 displayName: "越南盾",

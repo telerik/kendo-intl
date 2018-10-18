@@ -1606,6 +1606,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "UYU"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Узбекски сум",
                 "displayName-count-one": "узбекски сум",
@@ -1624,6 +1628,12 @@ const data = {
                 "displayName-count-other": "венецуелски боливара",
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
+            },
+            VES: {
+                displayName: "Венецуелски боливар (VES)",
+                "displayName-count-one": "венецуелски боливар (VES)",
+                "displayName-count-other": "венецуелски боливара (VES)",
+                symbol: "VES"
             },
             VND: {
                 displayName: "Виетнамски донг",
@@ -1743,7 +1753,7 @@ const data = {
                 displayName: "Непозната валута",
                 "displayName-count-one": "(непозната валута)",
                 "displayName-count-other": "(непозната валута)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "Йеменски динар",
@@ -2143,7 +2153,7 @@ const data = {
                     am: "am",
                     pm: "pm",
                     morning1: "сутринта",
-                    morning2: "на обед",
+                    morning2: "на обяд",
                     afternoon1: "следобед",
                     evening1: "вечерта",
                     night1: "през нощта"
@@ -2153,7 +2163,7 @@ const data = {
                     am: "am",
                     pm: "pm",
                     morning1: "сутринта",
-                    morning2: "на обед",
+                    morning2: "на обяд",
                     afternoon1: "следобед",
                     evening1: "вечерта",
                     night1: "през нощта"
@@ -2175,7 +2185,7 @@ const data = {
                     am: "am",
                     pm: "pm",
                     morning1: "сутринта",
-                    morning2: "на обед",
+                    morning2: "на обяд",
                     afternoon1: "следобед",
                     evening1: "вечерта",
                     night1: "през нощта"
@@ -2185,7 +2195,7 @@ const data = {
                     am: "am",
                     pm: "pm",
                     morning1: "сутринта",
-                    morning2: "наобед",
+                    morning2: "на обяд",
                     afternoon1: "следобед",
                     evening1: "вечерта",
                     night1: "през нощта"
@@ -2195,7 +2205,7 @@ const data = {
                     am: "am",
                     pm: "pm",
                     morning1: "сутринта",
-                    morning2: "на обед",
+                    morning2: "на обяд",
                     afternoon1: "следобед",
                     evening1: "вечерта",
                     night1: "през нощта"
@@ -2264,8 +2274,8 @@ const data = {
             },
             dayOfYear: {
                 wide: "ден от годината",
-                short: "ден от годината",
-                narrow: "ден от годината"
+                short: "ден от г.",
+                narrow: "ден от г."
             },
             weekday: {
                 wide: "ден от седмицата",
@@ -2274,8 +2284,8 @@ const data = {
             },
             weekdayOfMonth: {
                 wide: "работен ден от месеца",
-                short: "работен ден от месеца",
-                narrow: "работен ден от месеца"
+                short: "раб. ден от мес.",
+                narrow: "раб. ден от мес."
             },
             dayperiod: {
                 short: "пр.об./сл.об.",
@@ -2294,7 +2304,7 @@ const data = {
             },
             second: {
                 wide: "секунда",
-                short: "с",
+                short: "сек",
                 narrow: "с"
             },
             zone: {
