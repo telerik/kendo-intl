@@ -428,7 +428,7 @@ const data = {
                 symbol: "CNX"
             },
             CNY: {
-                displayName: "Chinese Yuan",
+                displayName: "Chinese yuan",
                 "displayName-count-one": "Chinese yuan",
                 "displayName-count-other": "Chinese yuan",
                 symbol: "CN¥",
@@ -1652,6 +1652,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Oezbeekse sum",
                 "displayName-count-one": "Oezbeekse sum",
@@ -1665,11 +1669,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "Venezolaanse bolivar (2008–2018)",
+                "displayName-count-one": "Venezolaanse bolivar (2008–2018)",
+                "displayName-count-other": "Venezolaanse bolivar (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "Venezolaanse bolivar",
                 "displayName-count-one": "Venezolaanse bolivar",
                 "displayName-count-other": "Venezolaanse bolivar",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "Vietnamese dong",

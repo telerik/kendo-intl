@@ -446,7 +446,7 @@ const data = {
                 narrow: "araw ng linggo"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
+                wide: "karaniwang araw ng buwan",
                 short: "karaniwang araw ng buwan",
                 narrow: "karaniwang araw ng buwan"
             },
@@ -472,8 +472,8 @@ const data = {
             },
             zone: {
                 wide: "time zone",
-                short: "time zone",
-                narrow: "time zone"
+                short: "zone",
+                narrow: "zone"
             }
         }
     },

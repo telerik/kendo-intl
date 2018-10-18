@@ -487,7 +487,7 @@ const data = {
             }
         }
     },
-    firstDay: 6
+    firstDay: 1
 };
 export default data;
 

@@ -1284,6 +1284,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "ອຸສເບກິສຖານິ ໂຊມ",
                 "displayName-count-other": "ອຸສເບກິສຖານິ ໂຊມ",
@@ -1294,10 +1298,15 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
-                displayName: "ເວ​ເນ​ຊູ​ເອ​ລັນ ໂບ​ລິ​ວາ",
-                "displayName-count-other": "ເວ​ເນ​ຊູ​ເອ​ລັນ ໂບ​ລິ​ວາ",
+                displayName: "ເວ​ເນ​ຊູ​ເອ​ລັນ ໂບ​ລິ​ວາ (2008–2018)",
+                "displayName-count-other": "ເວເນຊູເອລັນ ໂບລິວາສ໌",
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
+            },
+            VES: {
+                displayName: "ເວ​ເນ​ຊູ​ເອ​ລັນ ໂບ​ລິ​ວາ",
+                "displayName-count-other": "ເວ​ເນ​ຊູ​ເອ​ລັນ ໂບ​ລິ​ວາ",
+                symbol: "VES"
             },
             VND: {
                 displayName: "ຫວຽດ​ນາມ ດົງ",
@@ -1407,7 +1416,7 @@ const data = {
             XXX: {
                 displayName: "ສະກຸນເງິນທີ່ບໍ່ຮູ້ຈັກ",
                 "displayName-count-other": "(ສະກຸນເງິນທີ່ບໍ່ຮູ້ຈັກ)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "ດີນາ ເຢເມນ",

@@ -1840,6 +1840,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "som uzbecki",
                 "displayName-count-one": "som uzbecki",
@@ -1857,13 +1861,21 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "boliwar wenezuelski (2008–2018)",
+                "displayName-count-one": "boliwar wenezuelski (2008–2018)",
+                "displayName-count-few": "boliwary wenezuelskie (2008–2018)",
+                "displayName-count-many": "boliwarów wenezuelskich (2008–2018)",
+                "displayName-count-other": "boliwara wenezuelskiego (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "boliwar wenezuelski",
                 "displayName-count-one": "boliwar wenezuelski",
                 "displayName-count-few": "boliwary wenezuelskie",
                 "displayName-count-many": "boliwarów wenezuelskich",
                 "displayName-count-other": "boliwara wenezuelskiego",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "dong wietnamski",
@@ -1997,7 +2009,7 @@ const data = {
                 "displayName-count-few": "nieznanej waluty",
                 "displayName-count-many": "nieznanej waluty",
                 "displayName-count-other": "nieznanej waluty",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "dinar jemeński",

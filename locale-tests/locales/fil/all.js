@@ -995,7 +995,7 @@ const data = {
                 symbol: "MRO"
             },
             MRU: {
-                displayName: "Mauritanian Ouguiya",
+                displayName: "Ouguiya ng Mauritania",
                 "displayName-count-one": "Mauritanian ouguiya",
                 "displayName-count-other": "Mauritanian ouguiyas",
                 symbol: "MRU"
@@ -1330,7 +1330,7 @@ const data = {
                 symbol: "STD"
             },
             STN: {
-                displayName: "São Tomé & Príncipe Dobra",
+                displayName: "São Tomé & Príncipe Dobra (2018)",
                 "displayName-count-one": "São Tomé & Príncipe dobra",
                 "displayName-count-other": "São Tomé & Príncipe dobras",
                 symbol: "STN",
@@ -1484,6 +1484,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Uzbekistan Som",
                 "displayName-count-one": "Uzbekistan som",
@@ -1495,11 +1499,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "Bolívar ng Venezuela (2008–2018)",
+                "displayName-count-one": "bolívar ng Venezuela (2008–2018)",
+                "displayName-count-other": "bolívars ng Venezuela (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "Bolívar ng Venezuela",
                 "displayName-count-one": "bolívar ng Venezuela",
                 "displayName-count-other": "bolívars ng Venezuela",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "Vietnamese Dong",
@@ -1617,7 +1627,7 @@ const data = {
                 displayName: "Hindi Kilalang Pera",
                 "displayName-count-one": "(hindi kilalang unit ng currency)",
                 "displayName-count-other": "(hindi kilalang pera)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "YDD",
@@ -2129,7 +2139,7 @@ const data = {
                 narrow: "araw ng linggo"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
+                wide: "karaniwang araw ng buwan",
                 short: "karaniwang araw ng buwan",
                 narrow: "karaniwang araw ng buwan"
             },
@@ -2155,8 +2165,8 @@ const data = {
             },
             zone: {
                 wide: "time zone",
-                short: "time zone",
-                narrow: "time zone"
+                short: "zone",
+                narrow: "zone"
             }
         }
     },

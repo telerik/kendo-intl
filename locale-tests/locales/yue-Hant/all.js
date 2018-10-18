@@ -1445,6 +1445,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "烏茲別克索姆",
                 "displayName-count-other": "烏茲別克索姆",
@@ -1456,10 +1460,15 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
-                displayName: "委內瑞拉玻利瓦",
-                "displayName-count-other": "委內瑞拉玻利瓦",
+                displayName: "委內瑞拉玻利瓦 (VEF)",
+                "displayName-count-other": "委內瑞拉玻利瓦 (VEF)",
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
+            },
+            VES: {
+                displayName: "委內瑞拉玻利瓦",
+                "displayName-count-other": "委內瑞拉玻利瓦",
+                symbol: "VES"
             },
             VND: {
                 displayName: "越南盾",

@@ -1150,9 +1150,9 @@ const data = {
                 symbol: "MXV"
             },
             MYR: {
-                displayName: "ringit",
-                "displayName-count-one": "ringit",
-                "displayName-count-other": "ringits",
+                displayName: "ringgit malayo",
+                "displayName-count-one": "ringgit malayo",
+                "displayName-count-other": "ringgits malayos",
                 symbol: "MYR",
                 "symbol-alt-narrow": "RM"
             },
@@ -1491,9 +1491,9 @@ const data = {
                 symbol: "SZL"
             },
             THB: {
-                displayName: "bat",
-                "displayName-count-one": "bat",
-                "displayName-count-other": "bats",
+                displayName: "baht tailandes",
+                "displayName-count-one": "baht tailandes",
+                "displayName-count-other": "bahts tailandeses",
                 symbol: "THB",
                 "symbol-alt-narrow": "฿"
             },
@@ -1631,10 +1631,16 @@ const data = {
                 symbol: "$",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "unidad previsional uruguayo",
+                "displayName-count-one": "unidad previsional uruguayo",
+                "displayName-count-other": "unidades previsionales uruguayos",
+                symbol: "UP"
+            },
             UZS: {
-                displayName: "sum",
-                "displayName-count-one": "sum",
-                "displayName-count-other": "sums",
+                displayName: "som uzbeko",
+                "displayName-count-one": "som uzbeko",
+                "displayName-count-other": "soms uzbekos",
                 symbol: "UZS"
             },
             VEB: {
@@ -1649,6 +1655,12 @@ const data = {
                 "displayName-count-other": "bolívares venezolanos",
                 symbol: "VEF",
                 "symbol-alt-narrow": "BsF"
+            },
+            VES: {
+                displayName: "VES",
+                "displayName-count-one": "VES",
+                "displayName-count-other": "VES",
+                symbol: "VES"
             },
             VND: {
                 displayName: "dong",
@@ -1674,9 +1686,9 @@ const data = {
                 symbol: "WST"
             },
             XAF: {
-                displayName: "franco CFA de África Central",
-                "displayName-count-one": "franco CFA de África Central",
-                "displayName-count-other": "francos CFA de África Central",
+                displayName: "franco CFA BEAC",
+                "displayName-count-one": "franco CFA BEAC",
+                "displayName-count-other": "francos CFA BEAC",
                 symbol: "XAF"
             },
             XAG: {
@@ -1745,9 +1757,9 @@ const data = {
                 symbol: "XFU"
             },
             XOF: {
-                displayName: "franco CFA de África Occidental",
-                "displayName-count-one": "franco CFA de África Occidental",
-                "displayName-count-other": "francos CFA de África Occidental",
+                displayName: "franco CFA BCEAO",
+                "displayName-count-one": "franco CFA BCEAO",
+                "displayName-count-other": "francos CFA BCEAO",
                 symbol: "XOF"
             },
             XPD: {
@@ -1788,7 +1800,7 @@ const data = {
                 displayName: "moneda desconocida",
                 "displayName-count-one": "(unidad de moneda desconocida)",
                 "displayName-count-other": "(moneda desconocida)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "dinar yemení",
@@ -1836,9 +1848,9 @@ const data = {
                 symbol: "ZMK"
             },
             ZMW: {
-                displayName: "kwacha zambiano",
-                "displayName-count-one": "kwacha zambiano",
-                "displayName-count-other": "kwachas zambianos",
+                displayName: "kuacha zambiano",
+                "displayName-count-one": "kuacha zambiano",
+                "displayName-count-other": "kuachas zambianos",
                 symbol: "ZMW",
                 "symbol-alt-narrow": "ZK"
             },

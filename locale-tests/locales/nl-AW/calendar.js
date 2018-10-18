@@ -90,7 +90,7 @@ const data = {
             full: "EEEE d MMMM y",
             long: "d MMMM y",
             medium: "d MMM y",
-            short: "dd-MM-yy"
+            short: "dd-MM-y"
         },
         days: {
             format: {
@@ -308,28 +308,28 @@ const data = {
                     midnight: "middernacht",
                     am: "a.m.",
                     pm: "p.m.",
-                    morning1: "‘s ochtends",
-                    afternoon1: "‘s middags",
-                    evening1: "‘s avonds",
-                    night1: "‘s nachts"
+                    morning1: "’s ochtends",
+                    afternoon1: "’s middags",
+                    evening1: "’s avonds",
+                    night1: "’s nachts"
                 },
                 narrow: {
                     midnight: "middernacht",
                     am: "a.m.",
                     pm: "p.m.",
-                    morning1: "‘s ochtends",
-                    afternoon1: "‘s middags",
-                    evening1: "‘s avonds",
-                    night1: "‘s nachts"
+                    morning1: "’s ochtends",
+                    afternoon1: "’s middags",
+                    evening1: "’s avonds",
+                    night1: "’s nachts"
                 },
                 wide: {
                     midnight: "middernacht",
                     am: "a.m.",
                     pm: "p.m.",
-                    morning1: "‘s ochtends",
-                    afternoon1: "‘s middags",
-                    evening1: "‘s avonds",
-                    night1: "‘s nachts"
+                    morning1: "’s ochtends",
+                    afternoon1: "’s middags",
+                    evening1: "’s avonds",
+                    night1: "’s nachts"
                 }
             },
             "stand-alone": {

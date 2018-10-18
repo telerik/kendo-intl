@@ -1793,6 +1793,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "узбецький сум",
                 "displayName-count-one": "узбецький сум",
@@ -1806,13 +1810,21 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "венесуельський болівар (2008–2018)",
+                "displayName-count-one": "венесуельський болівар (2008–2018)",
+                "displayName-count-few": "венесуельські болівари (2008–2018)",
+                "displayName-count-many": "венесуельських боліварів (2008–2018)",
+                "displayName-count-other": "венесуельського болівара (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "венесуельський болівар",
                 "displayName-count-one": "венесуельський болівар",
                 "displayName-count-few": "венесуельські болівари",
                 "displayName-count-many": "венесуельських боліварів",
                 "displayName-count-other": "венесуельського болівара",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "вʼєтнамський донг",
@@ -1946,7 +1958,7 @@ const data = {
                 "displayName-count-few": "невідомі грошові одиниці",
                 "displayName-count-many": "невідомих грошових одиниць",
                 "displayName-count-other": "невідомої грошової одиниці",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "єменський динар",

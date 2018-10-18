@@ -43,7 +43,7 @@ const data = {
                 symbol: "ALL"
             },
             AMD: {
-                displayName: "dram armenio",
+                displayName: "dram",
                 "displayName-count-one": "dram",
                 "displayName-count-other": "drams",
                 symbol: "AMD"
@@ -1579,6 +1579,12 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "unidad previsional uruguayo",
+                "displayName-count-one": "unidad previsional uruguayo",
+                "displayName-count-other": "unidades previsionales uruguayos",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "sum",
                 "displayName-count-one": "sum",
@@ -1596,7 +1602,13 @@ const data = {
                 "displayName-count-one": "bolívar venezolano",
                 "displayName-count-other": "bolívares venezolanos",
                 symbol: "VEF",
-                "symbol-alt-narrow": "BsF"
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
+                displayName: "VES",
+                "displayName-count-one": "VES",
+                "displayName-count-other": "VES",
+                symbol: "VES"
             },
             VND: {
                 displayName: "dong",
@@ -1736,7 +1748,7 @@ const data = {
                 displayName: "moneda desconocida",
                 "displayName-count-one": "(unidad de moneda desconocida)",
                 "displayName-count-other": "(moneda desconocida)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "dinar yemení",
@@ -1784,9 +1796,9 @@ const data = {
                 symbol: "ZMK"
             },
             ZMW: {
-                displayName: "kwacha zambiano",
-                "displayName-count-one": "kwacha zambiano",
-                "displayName-count-other": "kwachas zambianos",
+                displayName: "kuacha zambiano",
+                "displayName-count-one": "kuacha zambiano",
+                "displayName-count-other": "kuachas zambianos",
                 symbol: "ZMW",
                 "symbol-alt-narrow": "ZK"
             },

@@ -1504,6 +1504,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "سوم ازبکستان",
                 "displayName-count-one": "سوم ازبکستان",
@@ -1517,11 +1521,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "بولیوار ونزوئلا (۲۰۰۸ تا ۲۰۱۸)",
+                "displayName-count-one": "بولیوار ونزوئلا (۲۰۰۸ تا ۲۰۱۸)",
+                "displayName-count-other": "بولیوار ونزوئلا (۲۰۰۸ تا ۲۰۱۸)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "بولیوار ونزوئلا",
                 "displayName-count-one": "بولیوار ونزوئلا",
                 "displayName-count-other": "بولیوار ونزوئلا",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "دانگ ویتنام",
@@ -1639,7 +1649,7 @@ const data = {
                 displayName: "ارز نامشخص",
                 "displayName-count-one": "(واحد ارز نامشخص)",
                 "displayName-count-other": "(ارز نامشخص)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "دینار یمن",

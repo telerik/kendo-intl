@@ -10,12 +10,12 @@ const data = {
     calendar: {
         patterns: {
             d: "d/M/y",
-            D: "EEEE ፣d MMMM y",
+            D: "y MMMM d, EEEE",
             m: "MMM d",
             M: "MMMM d",
             y: "MMM y",
             Y: "MMMM y",
-            F: "EEEE ፣d MMMM y h:mm:ss a",
+            F: "y MMMM d, EEEE h:mm:ss a",
             g: "d/M/y h:mm a",
             G: "d/M/y h:mm:ss a",
             t: "h:mm a",
@@ -43,8 +43,8 @@ const data = {
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
                 GyMMM: "MMM y G",
-                GyMMMd: "MMM d፣ y G",
-                GyMMMEd: "E፣ MMM d፣ y G",
+                GyMMMd: "G y MMM d",
+                GyMMMEd: "G y MMM d, E",
                 h: "h a",
                 H: "H",
                 hm: "h:mm a",
@@ -87,7 +87,7 @@ const data = {
             short: "h:mm a"
         },
         dateFormats: {
-            full: "EEEE ፣d MMMM y",
+            full: "y MMMM d, EEEE",
             long: "d MMMM y",
             medium: "d MMM y",
             short: "dd/MM/y"
@@ -310,7 +310,7 @@ const data = {
                     noon: "ቀትር",
                     pm: "ከሰዓት",
                     morning1: "ጥዋት1",
-                    afternoon1: "ከሰዓት1",
+                    afternoon1: "ከሰዓት 7",
                     evening1: "ማታ1",
                     night1: "ሌሊት1"
                 },
@@ -330,7 +330,7 @@ const data = {
                     noon: "ቀትር",
                     pm: "ከሰዓት",
                     morning1: "ጥዋት1",
-                    afternoon1: "ከሰዓት1",
+                    afternoon1: "ከሰዓት 7 ሰዓት",
                     evening1: "ማታ1",
                     night1: "ሌሊት1"
                 }

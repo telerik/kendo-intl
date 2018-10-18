@@ -642,7 +642,7 @@ const data = {
                 symbol: "GHS"
             },
             GIP: {
-                displayName: "libra xibraltareña",
+                displayName: "Libra xibraltareña",
                 "displayName-count-one": "libra xibraltareña",
                 "displayName-count-other": "libras xibraltareñas",
                 symbol: "GIP",
@@ -1528,6 +1528,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Som usbeco",
                 "displayName-count-one": "som usbeco",
@@ -1541,11 +1545,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "Bolívar venezolano (2008–2018)",
+                "displayName-count-one": "bolívar venezolano (2008–2018)",
+                "displayName-count-other": "bolívares venezolanos (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "Bolívar venezolano",
                 "displayName-count-one": "bolívar venezolano",
                 "displayName-count-other": "bolívares venezolanos",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "Dong vietnamita",
@@ -1663,7 +1673,7 @@ const data = {
                 displayName: "Moeda descoñecida",
                 "displayName-count-one": "(moeda descoñecida)",
                 "displayName-count-other": "(moedas descoñecidas)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "YDD",
@@ -1773,7 +1783,7 @@ const data = {
                 Gy: "y G",
                 GyMMM: "MMM 'de' y G",
                 GyMMMd: "d 'de' MMMM 'de' y G",
-                GyMMMEd: "E, d/MM/y G",
+                GyMMMEd: "E, d 'de' MMM 'de' y G",
                 h: "h a",
                 H: "HH",
                 hm: "h:mm a",
@@ -1820,7 +1830,7 @@ const data = {
         dateFormats: {
             full: "EEEE, d 'de' MMMM 'de' y",
             long: "d 'de' MMMM 'de' y",
-            medium: "dd/MM/y",
+            medium: "d 'de' MMM 'de' y",
             short: "dd/MM/yy"
         },
         days: {
@@ -2127,12 +2137,12 @@ const data = {
             era: {
                 wide: "era",
                 short: "era",
-                narrow: "e."
+                narrow: "era"
             },
             year: {
                 wide: "ano",
                 short: "ano",
-                narrow: "a."
+                narrow: "ano"
             },
             quarter: {
                 wide: "trimestre",
@@ -2142,7 +2152,7 @@ const data = {
             month: {
                 wide: "mes",
                 short: "mes",
-                narrow: "m."
+                narrow: "mes"
             },
             week: {
                 wide: "semana",
@@ -2152,27 +2162,27 @@ const data = {
             weekOfMonth: {
                 wide: "semana do mes",
                 short: "sem. do mes",
-                narrow: "sem. do m."
+                narrow: "sem. do mes"
             },
             day: {
                 wide: "día",
                 short: "día",
-                narrow: "d."
+                narrow: "día"
             },
             dayOfYear: {
                 wide: "día do ano",
                 short: "día do ano",
-                narrow: "d. do a."
+                narrow: "día do ano"
             },
             weekday: {
                 wide: "día da semana",
                 short: "día da sem.",
-                narrow: "d. da sem."
+                narrow: "día da sem."
             },
             weekdayOfMonth: {
                 wide: "semana do mes",
                 short: "sem. do mes",
-                narrow: "sem. do m."
+                narrow: "sem. do mes"
             },
             dayperiod: {
                 short: "a.m./p.m.",

@@ -580,7 +580,7 @@ const data = {
             GBP: {
                 displayName: "ბრიტანული გირვანქა სტერლინგი",
                 "displayName-count-one": "ბრიტანული გირვანქა სტერლინგი",
-                "displayName-count-other": "ინგლისური გირვანქა სტერლინგი",
+                "displayName-count-other": "ბრიტანული გირვანქა სტერლინგი",
                 symbol: "£",
                 "symbol-alt-narrow": "£"
             },
@@ -1484,6 +1484,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "უზბეკური სუმი",
                 "displayName-count-one": "უზბეკური სუმი",
@@ -1495,11 +1499,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "ვენესუელის ბოლივარი (2008–2018)",
+                "displayName-count-one": "ვენესუელის ბოლივარი (2008–2018)",
+                "displayName-count-other": "ვენესუელის ბოლივარი (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "ვენესუელის ბოლივარი",
                 "displayName-count-one": "ვენესუელის ბოლივარი",
                 "displayName-count-other": "ვენესუელის ბოლივარი",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "ვიეტნამური დონგი",
@@ -1578,7 +1588,7 @@ const data = {
                 symbol: "XFU"
             },
             XOF: {
-                displayName: "(CFA) ფრანკი (BCEAO)",
+                displayName: "დასავლეთ აფრიკული CFA ფრანკი",
                 "displayName-count-one": "დასავლეთ აფრიკული CFA ფრანკი",
                 "displayName-count-other": "დასავლეთ აფრიკული CFA ფრანკი",
                 symbol: "CFA"
@@ -1617,7 +1627,7 @@ const data = {
                 displayName: "უცნობი ვალუტა",
                 "displayName-count-one": "(ვალუტის უცნობი ერთეული)",
                 "displayName-count-other": "(უცნობი ვალუტა)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "იემენის დინარი",
@@ -2104,8 +2114,8 @@ const data = {
             },
             weekOfMonth: {
                 wide: "თვის კვირა",
-                short: "თვის კვირა",
-                narrow: "თვის კვირა"
+                short: "თვ. კვირა",
+                narrow: "თვ. კვირა"
             },
             day: {
                 wide: "დღე",
@@ -2124,13 +2134,13 @@ const data = {
             },
             weekdayOfMonth: {
                 wide: "კვირის დღე თვეში",
-                short: "კვირის დღე თვეში",
-                narrow: "კვირის დღე თვეში"
+                short: "კვ. დღე თვეში",
+                narrow: "კვ. დღე თვეში"
             },
             dayperiod: {
-                short: "დღის ნახევარი",
+                short: "დღ. ნახევარი",
                 wide: "დღის ნახევარი",
-                narrow: "დღის ნახევარი"
+                narrow: "დღ. ნახევარი"
             },
             hour: {
                 wide: "საათი",
@@ -2149,8 +2159,8 @@ const data = {
             },
             zone: {
                 wide: "დროის სარტყელი",
-                short: "დროის სარტყელი",
-                narrow: "დროის სარტყელი"
+                short: "დროის სარტყ.",
+                narrow: "დროის სარტყ."
             }
         }
     },

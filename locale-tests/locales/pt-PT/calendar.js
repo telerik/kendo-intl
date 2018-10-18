@@ -451,7 +451,7 @@ const data = {
             },
             dayperiod: {
                 short: "am/pm",
-                wide: "AM/PM",
+                wide: "am/pm",
                 narrow: "am/pm"
             },
             hour: {
@@ -476,7 +476,7 @@ const data = {
             }
         }
     },
-    firstDay: 1
+    firstDay: 0
 };
 export default data;
 

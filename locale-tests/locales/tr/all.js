@@ -1119,15 +1119,15 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
-                displayName: "Moritanya Ouguiyası (1973–2017)",
-                "displayName-count-one": "Moritanya ouguiyası (1973–2017)",
-                "displayName-count-other": "Moritanya ouguiyası (1973–2017)",
+                displayName: "Moritanya Ugiyası (1973–2017)",
+                "displayName-count-one": "Moritanya ugiyası (1973–2017)",
+                "displayName-count-other": "Moritanya ugiyası (1973–2017)",
                 symbol: "MRO"
             },
             MRU: {
-                displayName: "Moritanya Ouguiyası",
-                "displayName-count-one": "Moritanya ouguiyası",
-                "displayName-count-other": "Moritanya ouguiyası",
+                displayName: "Moritanya Ugiyası",
+                "displayName-count-one": "Moritanya ugiyası",
+                "displayName-count-other": "Moritanya ugiyası",
                 symbol: "MRU"
             },
             MTL: {
@@ -1669,6 +1669,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Özbekistan Somu",
                 "displayName-count-one": "Özbekistan somu",
@@ -1682,11 +1686,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "Venezuela Bolivarı (2008–2018)",
+                "displayName-count-one": "Venezuela bolivarı (2008–2018)",
+                "displayName-count-other": "Venezuela bolivarı (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "Venezuela Bolivarı",
                 "displayName-count-one": "Venezuela bolivarı",
                 "displayName-count-other": "Venezuela bolivarı",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "Vietnam Dongu",
@@ -1820,7 +1830,7 @@ const data = {
                 displayName: "Bilinmeyen Para Birimi",
                 "displayName-count-one": "(bilinmeyen para birimi)",
                 "displayName-count-other": "(bilinmeyen para birimi)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "Yemen Dinarı",

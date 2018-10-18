@@ -83,9 +83,9 @@ const data = {
                 yMMMM: "MMMM y.",
                 yQQQ: "QQQ y.",
                 yQQQQ: "QQQQ y.",
-                "yw-count-one": "w. 'sjedmica' 'u' y.",
-                "yw-count-few": "w. 'sjedmica' 'u' y.",
-                "yw-count-other": "w. 'sjedmica' 'u' y."
+                "yw-count-one": "w. 'sjedmica' 'u' Y.",
+                "yw-count-few": "w. 'sjedmica' 'u' Y.",
+                "yw-count-other": "w. 'sjedmica' 'u' Y."
             }
         },
         timeFormats: {
@@ -103,13 +103,13 @@ const data = {
         days: {
             format: {
                 abbreviated: [
-                    "ned.",
-                    "pon.",
-                    "ut.",
-                    "sr.",
-                    "čet.",
-                    "pet.",
-                    "sub."
+                    "ned",
+                    "pon",
+                    "ut",
+                    "sr",
+                    "čet",
+                    "pet",
+                    "sub"
                 ],
                 narrow: [
                     "n",
@@ -141,13 +141,13 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "ned.",
-                    "pon.",
-                    "ut.",
-                    "sr.",
-                    "čet.",
-                    "pet.",
-                    "sub."
+                    "ned",
+                    "pon",
+                    "ut",
+                    "sr",
+                    "čet",
+                    "pet",
+                    "sub"
                 ],
                 narrow: [
                     "n",
@@ -181,18 +181,18 @@ const data = {
         months: {
             format: {
                 abbreviated: [
-                    "jan.",
-                    "feb.",
-                    "mart",
-                    "apr.",
+                    "jan",
+                    "feb",
+                    "mar",
+                    "apr",
                     "maj",
                     "jun",
                     "jul",
-                    "avg.",
-                    "sept.",
-                    "okt.",
-                    "nov.",
-                    "dec."
+                    "avg",
+                    "sep",
+                    "okt",
+                    "nov",
+                    "dec"
                 ],
                 narrow: [
                     "j",
@@ -225,18 +225,18 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "jan.",
-                    "feb.",
+                    "jan",
+                    "feb",
                     "mart",
-                    "apr.",
+                    "apr",
                     "maj",
                     "jun",
                     "jul",
-                    "avg.",
-                    "sept.",
-                    "okt.",
-                    "nov.",
-                    "dec."
+                    "avg",
+                    "sept",
+                    "okt",
+                    "nov",
+                    "dec"
                 ],
                 narrow: [
                     "j",

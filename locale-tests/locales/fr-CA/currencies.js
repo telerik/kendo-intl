@@ -136,9 +136,9 @@ const data = {
                 symbol: "AZM"
             },
             AZN: {
-                displayName: "manat azéri",
-                "displayName-count-one": "manat azéri",
-                "displayName-count-other": "manats azéris",
+                displayName: "manat azerbaïdjanais",
+                "displayName-count-one": "manat azerbaïdjanais",
+                "displayName-count-other": "manats azerbaïdjanais",
                 symbol: "AZN"
             },
             BAD: {
@@ -464,9 +464,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             CVE: {
-                displayName: "escudo capverdien",
-                "displayName-count-one": "escudo capverdien",
-                "displayName-count-other": "escudos capverdiens",
+                displayName: "escudo cap-verdien",
+                "displayName-count-one": "escudo cap-verdien",
+                "displayName-count-other": "escudos cap-verdiens",
                 symbol: "CVE"
             },
             CYP: {
@@ -701,8 +701,8 @@ const data = {
             },
             GYD: {
                 displayName: "dollar du Guyana",
-                "displayName-count-one": "dollar du Guyana",
-                "displayName-count-other": "dollars du Guyana",
+                "displayName-count-one": "dollar guyanien",
+                "displayName-count-other": "dollars guyaniens",
                 symbol: "GYD",
                 "symbol-alt-narrow": "$"
             },
@@ -901,9 +901,9 @@ const data = {
                 "symbol-alt-narrow": "₸"
             },
             LAK: {
-                displayName: "kip loatien",
-                "displayName-count-one": "kip loatien",
-                "displayName-count-other": "kips loatiens",
+                displayName: "kip laotien",
+                "displayName-count-one": "kip laotien",
+                "displayName-count-other": "kips laotiens",
                 symbol: "LAK",
                 "symbol-alt-narrow": "₭"
             },
@@ -1223,9 +1223,9 @@ const data = {
                 symbol: "PEI"
             },
             PEN: {
-                displayName: "sol péruvien",
-                "displayName-count-one": "sol péruvien",
-                "displayName-count-other": "sols péruviens",
+                displayName: "nouveau sol péruvien",
+                "displayName-count-one": "nouveau sol péruvien",
+                "displayName-count-other": "nouveaux sols péruviens",
                 symbol: "PEN"
             },
             PES: {
@@ -1235,9 +1235,9 @@ const data = {
                 symbol: "PES"
             },
             PGK: {
-                displayName: "kina papouan-néo-guinéen",
-                "displayName-count-one": "kina papouan-néo-guinéen",
-                "displayName-count-other": "kinas papouan-néo-guinéens",
+                displayName: "kina papou-néo-guinéen",
+                "displayName-count-one": "kina papou-néo-guinéen",
+                "displayName-count-other": "kinas papou-néo-guinéens",
                 symbol: "PGK"
             },
             PHP: {
@@ -1281,9 +1281,9 @@ const data = {
                 "symbol-alt-narrow": "₲"
             },
             QAR: {
-                displayName: "riyal qatari",
-                "displayName-count-one": "riyal qatari",
-                "displayName-count-other": "riyals qataris",
+                displayName: "riyal du Qatar",
+                "displayName-count-one": "riyal du Qatar",
+                "displayName-count-other": "riyals du Qatar",
                 symbol: "QAR"
             },
             RHD: {
@@ -1415,9 +1415,9 @@ const data = {
                 symbol: "SOS"
             },
             SRD: {
-                displayName: "dollar surinamais",
-                "displayName-count-one": "dollar surinamais",
-                "displayName-count-other": "dollars surinamais",
+                displayName: "dollar du Suriname",
+                "displayName-count-one": "dollar du Suriname",
+                "displayName-count-other": "dollars du Suriname",
                 symbol: "SRD",
                 "symbol-alt-narrow": "$"
             },
@@ -1619,6 +1619,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "sum ouzbek",
                 "displayName-count-one": "sum ouzbek",
@@ -1632,11 +1636,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "bolivar vénézuélien (2008–2018)",
+                "displayName-count-one": "bolivar vénézuélien (2008–2018)",
+                "displayName-count-other": "bolivars vénézuéliens (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "bolivar vénézuélien",
                 "displayName-count-one": "bolivar vénézuélien",
                 "displayName-count-other": "bolivars vénézuéliens",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "dông vietnamien",
@@ -1650,16 +1660,16 @@ const data = {
                 symbol: "VNN"
             },
             VUV: {
-                displayName: "vatu vanuatuan",
-                "displayName-count-one": "vatu vanuatuan",
-                "displayName-count-other": "vatus vanuatuans",
+                displayName: "vatu",
+                "displayName-count-one": "vatu",
+                "displayName-count-other": "vatus",
                 symbol: "VUV"
             },
             WST: {
-                displayName: "tala samoan",
-                "displayName-count-one": "tala samoan",
-                "displayName-count-other": "talas samoans",
-                symbol: "WS$"
+                displayName: "tala",
+                "displayName-count-one": "tala",
+                "displayName-count-other": "talas",
+                symbol: "WST"
             },
             XAF: {
                 displayName: "franc CFA (BEAC)",
@@ -1780,7 +1790,7 @@ const data = {
                 displayName: "Devise inconnue",
                 "displayName-count-one": "(devise inconnue)",
                 "displayName-count-other": "(devise inconnue)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "dinar du Yémen",

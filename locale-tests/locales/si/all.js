@@ -1483,6 +1483,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "උස්බෙකිස්ථාන සම්",
                 "displayName-count-one": "උස්බෙකිස්ථාන සම්",
@@ -1494,11 +1498,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "වෙනිසියුලානු බොලිවර් (2008–2018)",
+                "displayName-count-one": "වෙනිසියුලානු බොලිවර් (2008–2018)",
+                "displayName-count-other": "වෙනිසියුලානු බොලිවර් (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "වෙනිසියුලානු බොලිවර්",
                 "displayName-count-one": "වෙනිසියුලානු බොලිවර්",
                 "displayName-count-other": "වෙනිසියුලානු බොලිවර්",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "වියට්නාම ඩොන්",
@@ -1616,7 +1626,7 @@ const data = {
                 displayName: "නොදත් මුදල්",
                 "displayName-count-one": "නොදත් මුදල්",
                 "displayName-count-other": "නොදත් මුදල්",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "YDD",

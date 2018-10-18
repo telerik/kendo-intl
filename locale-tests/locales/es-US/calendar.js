@@ -102,7 +102,7 @@ const data = {
             full: "EEEE, d 'de' MMMM 'de' y",
             long: "d 'de' MMMM 'de' y",
             medium: "d MMM y",
-            short: "d/M/yy"
+            short: "d/M/y"
         },
         days: {
             format: {
@@ -287,9 +287,9 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "1.º trimestre",
+                    "1.er trimestre",
                     "2.º trimestre",
-                    "3.º trimestre",
+                    "3.er trimestre",
                     "4.º trimestre"
                 ]
             },
@@ -307,9 +307,9 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "1.º trimestre",
+                    "1.er trimestre",
                     "2.º trimestre",
-                    "3.º trimestre",
+                    "3.er trimestre",
                     "4.º trimestre"
                 ]
             }
@@ -426,8 +426,8 @@ const data = {
             },
             weekOfMonth: {
                 wide: "semana del mes",
-                short: "sem. del mes",
-                narrow: "sem. del mes"
+                short: "sem. de m",
+                narrow: "sem. de m"
             },
             day: {
                 wide: "día",
@@ -445,7 +445,7 @@ const data = {
                 narrow: "día de sem."
             },
             weekdayOfMonth: {
-                wide: "día hábil del mes",
+                wide: "día de la semana del mes",
                 short: "día de sem. de mes",
                 narrow: "día de sem. de mes"
             },

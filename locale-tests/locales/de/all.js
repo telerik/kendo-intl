@@ -1527,7 +1527,7 @@ const data = {
             STN: {
                 displayName: "São-toméischer Dobra",
                 "displayName-count-one": "São-toméischer Dobra",
-                "displayName-count-other": "São-toméische Dobra",
+                "displayName-count-other": "São-toméische Dobras",
                 symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },
@@ -1703,6 +1703,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Usbekistan-Sum",
                 "displayName-count-one": "Usbekistan-Sum",
@@ -1716,11 +1720,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "Venezolanischer Bolívar (2008–2018)",
+                "displayName-count-one": "Venezolanischer Bolívar (2008–2018)",
+                "displayName-count-other": "Venezolanische Bolívares (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "Venezolanischer Bolívar",
                 "displayName-count-one": "Venezolanischer Bolívar",
                 "displayName-count-other": "Venezolanische Bolívares",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "Vietnamesischer Dong",
@@ -2147,7 +2157,7 @@ const data = {
                     "Juni",
                     "Juli",
                     "Aug.",
-                    "Sep.",
+                    "Sept.",
                     "Okt.",
                     "Nov.",
                     "Dez."
@@ -2272,8 +2282,8 @@ const data = {
             format: {
                 abbreviated: {
                     midnight: "Mitternacht",
-                    am: "vorm.",
-                    pm: "nachm.",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "morgens",
                     morning2: "vormittags",
                     afternoon1: "mittags",
@@ -2283,8 +2293,8 @@ const data = {
                 },
                 narrow: {
                     midnight: "Mitternacht",
-                    am: "vm.",
-                    pm: "nm.",
+                    am: "a",
+                    pm: "p",
                     morning1: "morgens",
                     morning2: "vormittags",
                     afternoon1: "mittags",
@@ -2294,8 +2304,8 @@ const data = {
                 },
                 wide: {
                     midnight: "Mitternacht",
-                    am: "vorm.",
-                    pm: "nachm.",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "morgens",
                     morning2: "vormittags",
                     afternoon1: "mittags",
@@ -2307,8 +2317,8 @@ const data = {
             "stand-alone": {
                 abbreviated: {
                     midnight: "Mitternacht",
-                    am: "vorm.",
-                    pm: "nachm.",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "Morgen",
                     morning2: "Vormittag",
                     afternoon1: "Mittag",
@@ -2318,8 +2328,8 @@ const data = {
                 },
                 narrow: {
                     midnight: "Mitternacht",
-                    am: "vorm.",
-                    pm: "nachm.",
+                    am: "a",
+                    pm: "p",
                     morning1: "Morgen",
                     morning2: "Vormittag",
                     afternoon1: "Mittag",
@@ -2329,8 +2339,8 @@ const data = {
                 },
                 wide: {
                     midnight: "Mitternacht",
-                    am: "vorm.",
-                    pm: "nachm.",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "Morgen",
                     morning2: "Vormittag",
                     afternoon1: "Mittag",

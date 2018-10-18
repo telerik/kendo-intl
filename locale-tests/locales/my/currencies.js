@@ -843,13 +843,13 @@ const data = {
                 symbol: "MOP"
             },
             MRO: {
-                displayName: "မော်ရီတေးနီးယား အူဂီးယာ (1973–2017)",
-                "displayName-count-other": "မော်ရီတေးနီးယား အူဂီးယာ (1973–2017)",
+                displayName: "မော်ရီတေးနီးယား အူဂီးယာ (၁၉၇၃–၂၀၁၇)",
+                "displayName-count-other": "မော်ရီတေးနီးယား အူဂီးယာ (၁၉၇၃–၂၀၁၇)",
                 symbol: "MRO"
             },
             MRU: {
-                displayName: "မော်ရီတေးနီးယား အူဂီးယာ",
-                "displayName-count-other": "မော်ရီတေးနီးယား အူဂီးယာ",
+                displayName: "မော်ရီတေးနီးယန်း အူဂီးယာ",
+                "displayName-count-other": "မော်ရီတေးနီးယန်း အူဂီးယာ",
                 symbol: "MRU"
             },
             MTL: {
@@ -881,8 +881,8 @@ const data = {
                 symbol: "MWK"
             },
             MXN: {
-                displayName: "မက္ကဆီကို ပီဆို",
-                "displayName-count-other": "မက္ကဆီကို ပီဆို",
+                displayName: "မက်ကဆီကို ပီဆို",
+                "displayName-count-other": "မက်ကဆီကို ပီဆို",
                 symbol: "MX$",
                 "symbol-alt-narrow": "$"
             },
@@ -963,8 +963,8 @@ const data = {
                 symbol: "OMR"
             },
             PAB: {
-                displayName: "ပနားမား ဘလ်ဘိုးအာ",
-                "displayName-count-other": "ပနားမား ဘလ်ဘိုးအာ",
+                displayName: "ပနားမား ဘလျဘိုးအာ",
+                "displayName-count-other": "ပနားမား ဘလျဘိုးအာ",
                 symbol: "B/."
             },
             PEI: {
@@ -1140,13 +1140,13 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
-                displayName: "ဆောင်တူမေးနှင့် ပရင်စီပီ ဒိုဘရာ (1977–2017)",
-                "displayName-count-other": "ဆောင်တူမေးနှင့် ပရင်စီပီ ဒိုဘရာ (1977–2017)",
+                displayName: "ဆောင်တူမေးနှင့် ပရင်စီပီ ဒိုဘရာ",
+                "displayName-count-other": "ဆောင်တူမေးနှင့် ပရင်စီပီ ဒိုဘရာ",
                 symbol: "STD"
             },
             STN: {
-                displayName: "ဆောင်တူမေးနှင့် ပရင်စီပီ ဒိုဘရာ",
-                "displayName-count-other": "ဆောင်တူမေးနှင့် ပရင်စီပီ ဒိုဘရာ",
+                displayName: "ဆောင်တူမေးနှင့် ပရင်စီပီ ဒိုဘရာ (၂၀၁၈)",
+                "displayName-count-other": "ဆောင်တူမေးနှင့် ပရင်စီပီ ဒိုဘရာစ် (၂၀၁၈)",
                 symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },
@@ -1283,6 +1283,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "ဥဇဘက်ကစ္စတန် ဆော်မ်",
                 "displayName-count-other": "ဥဇဘက်ကစ္စတန် ဆော်မ်",
@@ -1293,10 +1297,15 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
-                displayName: "ဗင်နီဇွဲလား ဘိုလီဗာ",
-                "displayName-count-other": "ဗင်နီဇွဲလား ဘိုလီဗာ",
+                displayName: "ဗင်နီဇွဲလား ဘိုလီဗာ (၂၀၀၈–၂၀၁၈)",
+                "displayName-count-other": "ဗင်နီဇွဲလား ဘိုလီဗာ (၂၀၀၈–၂၀၁၈)",
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
+            },
+            VES: {
+                displayName: "ဗင်နီဇွဲလန်း ဘိုလီဗာ",
+                "displayName-count-other": "ဗင်နီဇွဲလန်း ဘိုလီဗာ",
+                symbol: "VES"
             },
             VND: {
                 displayName: "ဗီယက်နမ် ဒေါင်",
@@ -1406,7 +1415,7 @@ const data = {
             XXX: {
                 displayName: "မသိသို့မဟုတ်မရှိသောငွေကြေး",
                 "displayName-count-other": "(မသိသို့မဟုတ်မရှိသောငွေကြေး)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "YDD",

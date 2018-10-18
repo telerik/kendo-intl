@@ -1332,9 +1332,9 @@ const data = {
                 symbol: "STD"
             },
             STN: {
-                displayName: "Sao Tomeko eta Principeko dobra",
-                "displayName-count-one": "Sao Tomeko eta Principeko dobra",
-                "displayName-count-other": "Sao Tomeko eta Principeko dobra",
+                displayName: "Sao Tome eta Principeko dobra",
+                "displayName-count-one": "Sao Tome eta Principeko dobra",
+                "displayName-count-other": "Sao Tome eta Principeko dobra",
                 symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },
@@ -1486,6 +1486,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Uzbekistango soma",
                 "displayName-count-one": "Uzbekistango som",
@@ -1497,11 +1501,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "Venezuelako bolivarra (2008–2018)",
+                "displayName-count-one": "Venezuelako bolivar (2008–2018)",
+                "displayName-count-other": "Venezuelako bolivar (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "Venezuelako bolivarra",
                 "displayName-count-one": "Venezuelako bolivar",
                 "displayName-count-other": "Venezuelako bolivar",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "Vietnameko donga",
@@ -1619,7 +1629,7 @@ const data = {
                 displayName: "Moneta ezezaguna",
                 "displayName-count-one": "(moneta ezezaguna)",
                 "displayName-count-other": "(moneta ezezaguna)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "YDD",
@@ -1775,7 +1785,7 @@ const data = {
         dateFormats: {
             full: "y('e')'ko' MMMM'ren' d('a'), EEEE",
             long: "y('e')'ko' MMMM'ren' d('a')",
-            medium: "y MMM d",
+            medium: "y('e')'ko' MMM d('a')",
             short: "yy/M/d"
         },
         days: {
@@ -1846,13 +1856,13 @@ const data = {
                     "lr."
                 ],
                 wide: [
-                    "Igandea",
-                    "Astelehena",
-                    "Asteartea",
-                    "Asteazkena",
-                    "Osteguna",
-                    "Ostirala",
-                    "Larunbata"
+                    "igandea",
+                    "astelehena",
+                    "asteartea",
+                    "asteazkena",
+                    "osteguna",
+                    "ostirala",
+                    "larunbata"
                 ]
             }
         },
@@ -1932,17 +1942,17 @@ const data = {
                 ],
                 wide: [
                     "urtarrila",
-                    "Otsaila",
-                    "Martxoa",
-                    "Apirila",
-                    "Maiatza",
-                    "Ekaina",
-                    "Uztaila",
-                    "Abuztua",
-                    "Iraila",
-                    "Urria",
-                    "Azaroa",
-                    "Abendua"
+                    "otsaila",
+                    "martxoa",
+                    "apirila",
+                    "maiatza",
+                    "ekaina",
+                    "uztaila",
+                    "abuztua",
+                    "iraila",
+                    "urria",
+                    "azaroa",
+                    "abendua"
                 ]
             }
         },

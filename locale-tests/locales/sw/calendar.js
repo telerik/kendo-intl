@@ -471,8 +471,8 @@ const data = {
             },
             zone: {
                 wide: "saa za eneo",
-                short: "saa za eneo",
-                narrow: "saa za eneo"
+                short: "eneo",
+                narrow: "eneo"
             }
         }
     },

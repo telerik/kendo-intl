@@ -298,9 +298,9 @@ const data = {
                 symbol: "BYR"
             },
             BZD: {
-                displayName: "بیلائز ڈالر",
-                "displayName-count-one": "بیلائز ڈالر",
-                "displayName-count-other": "بیلائز ڈالر",
+                displayName: "بیلیز ڈالر",
+                "displayName-count-one": "بیلیز ڈالر",
+                "displayName-count-other": "بیلیز ڈالرز",
                 symbol: "BZD",
                 "symbol-alt-narrow": "$"
             },
@@ -918,9 +918,9 @@ const data = {
                 symbol: "MLF"
             },
             MMK: {
-                displayName: "میانما کیاٹ",
-                "displayName-count-one": "میانما کیاٹ",
-                "displayName-count-other": "میانما کیاٹ",
+                displayName: "میانمار کیاٹ",
+                "displayName-count-one": "میانمار کیاٹ",
+                "displayName-count-other": "میانمار کیاٹ",
                 symbol: "MMK",
                 "symbol-alt-narrow": "K"
             },
@@ -1433,6 +1433,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "ازبکستان سوم",
                 "displayName-count-one": "ازبکستان سوم",
@@ -1444,11 +1448,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "وینزویلا بولیور (2008–2018)",
+                "displayName-count-one": "وینزویلا بولیور (2008–2018)",
+                "displayName-count-other": "وینزویلا بولیور (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "وینزویلا بولیور",
                 "displayName-count-one": "وینزویلا بولیور",
                 "displayName-count-other": "وینزویلا بولیور",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "ویتنامی ڈانگ",
@@ -1566,7 +1576,7 @@ const data = {
                 displayName: "نامعلوم کرنسی",
                 "displayName-count-one": "(کرنسی کی نامعلوم یونٹ)",
                 "displayName-count-other": "نامعلوم کرنسی",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "YDD",

@@ -456,7 +456,7 @@ const data = {
             dayperiod: {
                 short: "AM/PM",
                 wide: "לפנה״צ/אחה״צ",
-                narrow: "לפנה״צ/אחה״צ"
+                narrow: "AM/PM"
             },
             hour: {
                 wide: "שעה",

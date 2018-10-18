@@ -1280,9 +1280,9 @@ const data = {
                 symbol: "STD"
             },
             STN: {
-                displayName: "Sao Tomeko eta Principeko dobra",
-                "displayName-count-one": "Sao Tomeko eta Principeko dobra",
-                "displayName-count-other": "Sao Tomeko eta Principeko dobra",
+                displayName: "Sao Tome eta Principeko dobra",
+                "displayName-count-one": "Sao Tome eta Principeko dobra",
+                "displayName-count-other": "Sao Tome eta Principeko dobra",
                 symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },
@@ -1434,6 +1434,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Uzbekistango soma",
                 "displayName-count-one": "Uzbekistango som",
@@ -1445,11 +1449,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "Venezuelako bolivarra (2008–2018)",
+                "displayName-count-one": "Venezuelako bolivar (2008–2018)",
+                "displayName-count-other": "Venezuelako bolivar (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "Venezuelako bolivarra",
                 "displayName-count-one": "Venezuelako bolivar",
                 "displayName-count-other": "Venezuelako bolivar",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "Vietnameko donga",
@@ -1567,7 +1577,7 @@ const data = {
                 displayName: "Moneta ezezaguna",
                 "displayName-count-one": "(moneta ezezaguna)",
                 "displayName-count-other": "(moneta ezezaguna)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "YDD",

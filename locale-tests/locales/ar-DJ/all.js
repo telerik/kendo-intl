@@ -604,13 +604,13 @@ const data = {
                 "symbol-alt-narrow": "CU$"
             },
             CVE: {
-                displayName: "اسكودو الرأس الخضراء",
-                "displayName-count-zero": "اسكودو الرأس الخضراء",
-                "displayName-count-one": "اسكودو الرأس الخضراء",
-                "displayName-count-two": "اسكودو الرأس الخضراء",
-                "displayName-count-few": "اسكودو الرأس الخضراء",
-                "displayName-count-many": "اسكودو الرأس الخضراء",
-                "displayName-count-other": "اسكودو الرأس الخضراء",
+                displayName: "اسكودو الرأس الأخضر",
+                "displayName-count-zero": "اسكودو الرأس الأخضر",
+                "displayName-count-one": "اسكودو الرأس الأخضر",
+                "displayName-count-two": "اسكودو الرأس الأخضر",
+                "displayName-count-few": "اسكودو الرأس الأخضر",
+                "displayName-count-many": "اسكودو الرأس الأخضر",
+                "displayName-count-other": "اسكودو الرأس الأخضر",
                 symbol: "CVE"
             },
             CYP: {
@@ -1373,7 +1373,7 @@ const data = {
                 "displayName-count-few": "أوقية موريتانية - 1973-2017",
                 "displayName-count-many": "أوقية موريتانية - 1973-2017",
                 "displayName-count-other": "أوقية موريتانية - 1973-2017",
-                symbol: "أ.م.‏"
+                symbol: "MRO"
             },
             MRU: {
                 displayName: "أوقية موريتانية",
@@ -1383,7 +1383,7 @@ const data = {
                 "displayName-count-few": "أوقية موريتانية",
                 "displayName-count-many": "أوقية موريتانية",
                 "displayName-count-other": "أوقية موريتانية",
-                symbol: "MRU"
+                symbol: "أ.م."
             },
             MTL: {
                 displayName: "ليرة مالطية",
@@ -2081,6 +2081,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "UY$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "سوم أوزبكستاني",
                 "displayName-count-zero": "سوم أوزبكستاني",
@@ -2096,6 +2100,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "بوليفار فنزويلي - 2008–2018",
+                "displayName-count-zero": "بوليفار فنزويلي - 2008–2018",
+                "displayName-count-one": "بوليفار فنزويلي - 2008–2018",
+                "displayName-count-two": "بوليفار فنزويلي - 2008–2018",
+                "displayName-count-few": "بوليفار فنزويلي - 2008–2018",
+                "displayName-count-many": "بوليفار فنزويلي - 2008–2018",
+                "displayName-count-other": "بوليفار فنزويلي - 2008–2018",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "بوليفار فنزويلي",
                 "displayName-count-zero": "بوليفار فنزويلي",
                 "displayName-count-one": "بوليفار فنزويلي",
@@ -2103,8 +2118,7 @@ const data = {
                 "displayName-count-few": "بوليفار فنزويلي",
                 "displayName-count-many": "بوليفار فنزويلي",
                 "displayName-count-other": "بوليفار فنزويلي",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "دونج فيتنامي",

@@ -75,7 +75,7 @@ const data = {
                 yMMMM: "y MMMM",
                 yQQQ: "y QQQ",
                 yQQQQ: "y QQQQ",
-                "yw-count-other": "y ခု w ပတ်မြောက်"
+                "yw-count-other": "Y ခု w ပတ်မြောက်"
             }
         },
         timeFormats: {
@@ -376,13 +376,13 @@ const data = {
                 },
                 abbreviated: {
                     0: "ဘီစီ",
-                    1: "အေဒီ",
+                    1: "အဒေီ",
                     "0-alt-variant": "ဘီစီအီး",
                     "1-alt-variant": "စီအီး"
                 },
                 narrow: {
                     0: "ဘီစီ",
-                    1: "အေဒီ",
+                    1: "အဒေီ",
                     "0-alt-variant": "ဘီစီအီး",
                     "1-alt-variant": "စီအီး"
                 }

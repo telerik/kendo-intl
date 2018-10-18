@@ -1652,6 +1652,12 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "Uruguayan Nominal Wage Index Unit",
+                "displayName-count-one": "Uruguayan nominal wage index unit",
+                "displayName-count-other": "Uruguayan nominal wage index units",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Uzbekistani Som",
                 "displayName-count-one": "Uzbekistani som",
@@ -1670,6 +1676,12 @@ const data = {
                 "displayName-count-other": "Venezuelan bolívars",
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
+            },
+            VES: {
+                displayName: "VES",
+                "displayName-count-one": "VES",
+                "displayName-count-other": "VES",
+                symbol: "VES"
             },
             VND: {
                 displayName: "Vietnamese Dong",
@@ -1821,7 +1833,7 @@ const data = {
                 displayName: "Unknown Currency",
                 "displayName-count-one": "(unknown unit of currency)",
                 "displayName-count-other": "(unknown currency)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "Yemeni Dinar",

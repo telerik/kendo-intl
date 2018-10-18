@@ -94,7 +94,7 @@ const data = {
                 symbol: "ALL"
             },
             AMD: {
-                displayName: "dram armenio",
+                displayName: "dram",
                 "displayName-count-one": "dram",
                 "displayName-count-other": "drams",
                 symbol: "AMD"
@@ -1630,6 +1630,12 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "unidad previsional uruguayo",
+                "displayName-count-one": "unidad previsional uruguayo",
+                "displayName-count-other": "unidades previsionales uruguayos",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "sum",
                 "displayName-count-one": "sum",
@@ -1647,7 +1653,13 @@ const data = {
                 "displayName-count-one": "bolívar venezolano",
                 "displayName-count-other": "bolívares venezolanos",
                 symbol: "VEF",
-                "symbol-alt-narrow": "BsF"
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
+                displayName: "VES",
+                "displayName-count-one": "VES",
+                "displayName-count-other": "VES",
+                symbol: "VES"
             },
             VND: {
                 displayName: "dong",
@@ -1787,7 +1799,7 @@ const data = {
                 displayName: "moneda desconocida",
                 "displayName-count-one": "(unidad de moneda desconocida)",
                 "displayName-count-other": "(moneda desconocida)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "dinar yemení",
@@ -1835,9 +1847,9 @@ const data = {
                 symbol: "ZMK"
             },
             ZMW: {
-                displayName: "kwacha zambiano",
-                "displayName-count-one": "kwacha zambiano",
-                "displayName-count-other": "kwachas zambianos",
+                displayName: "kuacha zambiano",
+                "displayName-count-one": "kuacha zambiano",
+                "displayName-count-other": "kuachas zambianos",
                 symbol: "ZMW",
                 "symbol-alt-narrow": "ZK"
             },
@@ -1958,7 +1970,7 @@ const data = {
             full: "EEEE, d 'de' MMMM 'de' y",
             long: "d 'de' MMMM 'de' y",
             medium: "d MMM y",
-            short: "d/M/yy"
+            short: "d/M/y"
         },
         days: {
             format: {
@@ -2143,9 +2155,9 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "1.º trimestre",
+                    "1.er trimestre",
                     "2.º trimestre",
-                    "3.º trimestre",
+                    "3.er trimestre",
                     "4.º trimestre"
                 ]
             },
@@ -2163,9 +2175,9 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "1.º trimestre",
+                    "1.er trimestre",
                     "2.º trimestre",
-                    "3.º trimestre",
+                    "3.er trimestre",
                     "4.º trimestre"
                 ]
             }
@@ -2282,8 +2294,8 @@ const data = {
             },
             weekOfMonth: {
                 wide: "semana del mes",
-                short: "sem. del mes",
-                narrow: "sem. del mes"
+                short: "sem. de m",
+                narrow: "sem. de m"
             },
             day: {
                 wide: "día",
@@ -2301,7 +2313,7 @@ const data = {
                 narrow: "día de sem."
             },
             weekdayOfMonth: {
-                wide: "día hábil del mes",
+                wide: "día de la semana del mes",
                 short: "día de sem. de mes",
                 narrow: "día de sem. de mes"
             },

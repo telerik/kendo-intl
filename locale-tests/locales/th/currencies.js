@@ -1175,7 +1175,7 @@ const data = {
             THB: {
                 displayName: "บาท",
                 "displayName-count-other": "บาทไทย",
-                symbol: "THB",
+                symbol: "฿",
                 "symbol-alt-narrow": "฿"
             },
             TJR: {
@@ -1288,6 +1288,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "ซอมอุซเบกิสถาน",
                 "displayName-count-other": "ซอมอุซเบกิสถาน",
@@ -1302,6 +1306,11 @@ const data = {
                 "displayName-count-other": "โบลิวาร์เวเนซุเอลา",
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
+            },
+            VES: {
+                displayName: "โบลีวาร์เวเนซุเอลา",
+                "displayName-count-other": "โบลีวาร์แห่งเวเนซุเอลา",
+                symbol: "VES"
             },
             VND: {
                 displayName: "ดองเวียดนาม",
@@ -1409,8 +1418,8 @@ const data = {
                 symbol: "XUA"
             },
             XXX: {
-                displayName: "สกุลเงินที่ไม่รู้จัก",
-                "displayName-count-other": "(สกุลเงินที่ไม่รู้จัก)",
+                displayName: "ไม่ทราบชื่อสกุลเงิน",
+                "displayName-count-other": "(ไม่ทราบชื่อสกุลเงิน)",
                 symbol: "XXX"
             },
             YDD: {

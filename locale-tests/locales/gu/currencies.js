@@ -1432,6 +1432,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "ઉઝ્બેકિસ્તાન સોમ",
                 "displayName-count-one": "ઉઝ્બેકિસ્તાન સોમ",
@@ -1443,11 +1447,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "વેનેઝુએલન બોલિવર (2008–2018)",
+                "displayName-count-one": "વેનેઝુએલન બોલિવર (2008–2018)",
+                "displayName-count-other": "વેનેઝુએલન બોલિવર (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "વેનેઝુએલન બોલિવર",
                 "displayName-count-one": "વેનેઝુએલન બોલિવર",
                 "displayName-count-other": "વેનેઝુએલન બોલિવર",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "વિયેતનામીસ ડોંગ",
@@ -1565,7 +1575,7 @@ const data = {
                 displayName: "અજ્ઞાત ચલણ",
                 "displayName-count-one": "અજ્ઞાત ચલણ",
                 "displayName-count-other": "અજ્ઞાત ચલણ",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "YDD",

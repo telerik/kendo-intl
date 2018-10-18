@@ -391,14 +391,14 @@ const data = {
                 abbreviated: {
                     0: "i. e.",
                     1: "i. sz.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "i.e.",
+                    "1-alt-variant": "i.sz."
                 },
                 narrow: {
                     0: "ie.",
                     1: "isz.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "i.e.",
+                    "1-alt-variant": "i.sz."
                 }
             }
         },

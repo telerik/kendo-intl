@@ -35,8 +35,8 @@ const data = {
                 Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
-                EBhm: "E h:mm B",
-                EBhms: "E h:mm:ss B",
+                EBhm: "E, h:mm B",
+                EBhms: "E, h:mm:ss B",
                 Ed: "E d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -83,8 +83,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'week' w 'of' y",
-                "yw-count-other": "'week' w 'of' y"
+                "yw-count-one": "'week' w 'of' Y",
+                "yw-count-other": "'week' w 'of' Y"
             }
         },
         timeFormats: {
@@ -225,18 +225,18 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "Jan",
-                    "Feb",
-                    "Mar",
-                    "Apr",
+                    "Jan.",
+                    "Feb.",
+                    "Mar.",
+                    "Apr.",
                     "May",
-                    "Jun",
-                    "Jul",
-                    "Aug",
-                    "Sep",
-                    "Oct",
-                    "Nov",
-                    "Dec"
+                    "Jun.",
+                    "Jul.",
+                    "Aug.",
+                    "Sep.",
+                    "Oct.",
+                    "Nov.",
+                    "Dec."
                 ],
                 narrow: [
                     "J",
@@ -325,16 +325,16 @@ const data = {
                     night1: "at night"
                 },
                 narrow: {
-                    midnight: "mi",
-                    am: "a",
+                    midnight: "mid",
+                    am: "am",
                     "am-alt-variant": "am",
                     noon: "n",
-                    pm: "p",
+                    pm: "pm",
                     "pm-alt-variant": "pm",
-                    morning1: "in the morning",
-                    afternoon1: "in the afternoon",
-                    evening1: "in the evening",
-                    night1: "at night"
+                    morning1: "mor",
+                    afternoon1: "aft",
+                    evening1: "eve",
+                    night1: "night"
                 },
                 wide: {
                     midnight: "midnight",
@@ -363,15 +363,15 @@ const data = {
                     night1: "night"
                 },
                 narrow: {
-                    midnight: "midnight",
+                    midnight: "mid",
                     am: "a.m.",
                     "am-alt-variant": "am",
                     noon: "noon",
-                    pm: "p.m.",
+                    pm: "pm",
                     "pm-alt-variant": "pm",
-                    morning1: "morning",
-                    afternoon1: "afternoon",
-                    evening1: "evening",
+                    morning1: "mor",
+                    afternoon1: "aft",
+                    evening1: "eve",
                     night1: "night"
                 },
                 wide: {
@@ -440,8 +440,8 @@ const data = {
             },
             weekOfMonth: {
                 wide: "week of month",
-                short: "wk. of mo.",
-                narrow: "wk. of mo."
+                short: "wk of mo",
+                narrow: "wk of mo"
             },
             day: {
                 wide: "day",
@@ -450,18 +450,18 @@ const data = {
             },
             dayOfYear: {
                 wide: "day of year",
-                short: "day of yr.",
-                narrow: "day of yr."
+                short: "day of yr",
+                narrow: "day of yr"
             },
             weekday: {
                 wide: "day of the week",
-                short: "day of wk.",
-                narrow: "day of wk."
+                short: "day of wk",
+                narrow: "day of wk"
             },
             weekdayOfMonth: {
                 wide: "weekday of the month",
-                short: "wkday. of mo.",
-                narrow: "wkday. of mo."
+                short: "wkday of mo",
+                narrow: "wkday of mo"
             },
             dayperiod: {
                 short: "a.m./p.m.",

@@ -44,7 +44,7 @@ const data = {
                 Gy: "y G",
                 GyMMM: "MMM 'de' y G",
                 GyMMMd: "d 'de' MMMM 'de' y G",
-                GyMMMEd: "E, d/MM/y G",
+                GyMMMEd: "E, d 'de' MMM 'de' y G",
                 h: "h a",
                 H: "HH",
                 hm: "h:mm a",
@@ -91,7 +91,7 @@ const data = {
         dateFormats: {
             full: "EEEE, d 'de' MMMM 'de' y",
             long: "d 'de' MMMM 'de' y",
-            medium: "dd/MM/y",
+            medium: "d 'de' MMM 'de' y",
             short: "dd/MM/yy"
         },
         days: {
@@ -398,12 +398,12 @@ const data = {
             era: {
                 wide: "era",
                 short: "era",
-                narrow: "e."
+                narrow: "era"
             },
             year: {
                 wide: "ano",
                 short: "ano",
-                narrow: "a."
+                narrow: "ano"
             },
             quarter: {
                 wide: "trimestre",
@@ -413,7 +413,7 @@ const data = {
             month: {
                 wide: "mes",
                 short: "mes",
-                narrow: "m."
+                narrow: "mes"
             },
             week: {
                 wide: "semana",
@@ -423,27 +423,27 @@ const data = {
             weekOfMonth: {
                 wide: "semana do mes",
                 short: "sem. do mes",
-                narrow: "sem. do m."
+                narrow: "sem. do mes"
             },
             day: {
                 wide: "día",
                 short: "día",
-                narrow: "d."
+                narrow: "día"
             },
             dayOfYear: {
                 wide: "día do ano",
                 short: "día do ano",
-                narrow: "d. do a."
+                narrow: "día do ano"
             },
             weekday: {
                 wide: "día da semana",
                 short: "día da sem.",
-                narrow: "d. da sem."
+                narrow: "día da sem."
             },
             weekdayOfMonth: {
                 wide: "semana do mes",
                 short: "sem. do mes",
-                narrow: "sem. do m."
+                narrow: "sem. do mes"
             },
             dayperiod: {
                 short: "a.m./p.m.",

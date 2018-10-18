@@ -1336,6 +1336,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "우즈베키스탄 숨",
                 "displayName-count-other": "우즈베키스탄 숨",
@@ -1346,10 +1350,15 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
-                displayName: "베네수엘라 볼리바르",
-                "displayName-count-other": "베네수엘라 볼리바르",
+                displayName: "베네수엘라 볼리바르 (2008–2018)",
+                "displayName-count-other": "베네수엘라 볼리바르 (2008–2018)",
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
+            },
+            VES: {
+                displayName: "베네수엘라 볼리바르",
+                "displayName-count-other": "베네수엘라 볼리바르",
+                symbol: "VES"
             },
             VND: {
                 displayName: "베트남 동",
@@ -1459,7 +1468,7 @@ const data = {
             XXX: {
                 displayName: "알 수 없는 통화 단위",
                 "displayName-count-other": "(알 수 없는 통화 단위)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "예멘 디나르",

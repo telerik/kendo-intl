@@ -43,7 +43,7 @@ const data = {
         },
         currency: {
             patterns: [
-                "$n"
+                "$ n"
             ],
             groupSize: [
                 3
@@ -53,8 +53,7 @@ const data = {
         },
         accounting: {
             patterns: [
-                "$n",
-                "($n)"
+                "$ n"
             ],
             groupSize: [
                 3
@@ -500,9 +499,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             DZD: {
-                displayName: "Dinar ya Algeria",
-                "displayName-count-one": "dinar ya Algeria",
-                "displayName-count-other": "dinar za Algeria",
+                displayName: "Dinar ya Aljeria",
+                "displayName-count-one": "dinar ya Aljeria",
+                "displayName-count-other": "dinar za Aljeria",
                 symbol: "DZD"
             },
             ECS: {
@@ -1488,6 +1487,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Som ya Uzbekistan",
                 "displayName-count-one": "som ya Uzbekistan",
@@ -1499,11 +1502,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "Bolivar ya Venezuela (2008–2018)",
+                "displayName-count-one": "Bolivar ya Venezuela (2008–2018)",
+                "displayName-count-other": "Bolivar za Venezuela (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "Bolivar ya Venezuela",
                 "displayName-count-one": "Bolivar ya Venezuela",
                 "displayName-count-other": "Bolivar za Venezuela",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "Dong ya Vietnam",
@@ -1621,7 +1630,7 @@ const data = {
                 displayName: "Sarafu isiyojulikana",
                 "displayName-count-one": "(sarafu isiyojulikana)",
                 "displayName-count-other": "(sarafu isiyojulikana)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "YDD",
@@ -2158,8 +2167,8 @@ const data = {
             },
             zone: {
                 wide: "saa za eneo",
-                short: "saa za eneo",
-                narrow: "saa za eneo"
+                short: "eneo",
+                narrow: "eneo"
             }
         }
     },

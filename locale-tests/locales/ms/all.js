@@ -1334,6 +1334,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Som Uzbekistan",
                 "displayName-count-other": "Som Uzbekistan",
@@ -1344,10 +1348,15 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
-                displayName: "Bolivar Venezuela",
-                "displayName-count-other": "Bolivar Venezuela",
+                displayName: "Bolivar Venezuela (2008–2018)",
+                "displayName-count-other": "Bolivar Venezuela (2008–2018)",
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
+            },
+            VES: {
+                displayName: "Bolivar Venezuela",
+                "displayName-count-other": "Bolivar Venezuela",
+                symbol: "VES"
             },
             VND: {
                 displayName: "Dong Vietnam",
@@ -1457,7 +1466,7 @@ const data = {
             XXX: {
                 displayName: "Mata Wang Tidak Diketahui",
                 "displayName-count-other": "(mata wang tidak diketahui)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "YDD",

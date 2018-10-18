@@ -1476,7 +1476,7 @@ const data = {
             STN: {
                 displayName: "São-toméischer Dobra",
                 "displayName-count-one": "São-toméischer Dobra",
-                "displayName-count-other": "São-toméische Dobra",
+                "displayName-count-other": "São-toméische Dobras",
                 symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },
@@ -1652,6 +1652,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Usbekistan-Sum",
                 "displayName-count-one": "Usbekistan-Sum",
@@ -1665,11 +1669,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "Venezolanischer Bolívar (2008–2018)",
+                "displayName-count-one": "Venezolanischer Bolívar (2008–2018)",
+                "displayName-count-other": "Venezolanische Bolívares (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "Venezolanischer Bolívar",
                 "displayName-count-one": "Venezolanischer Bolívar",
                 "displayName-count-other": "Venezolanische Bolívares",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "Vietnamesischer Dong",

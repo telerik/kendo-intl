@@ -591,7 +591,7 @@ const data = {
                 symbol: "GHS"
             },
             GIP: {
-                displayName: "libra xibraltareña",
+                displayName: "Libra xibraltareña",
                 "displayName-count-one": "libra xibraltareña",
                 "displayName-count-other": "libras xibraltareñas",
                 symbol: "GIP",
@@ -1477,6 +1477,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Som usbeco",
                 "displayName-count-one": "som usbeco",
@@ -1490,11 +1494,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "Bolívar venezolano (2008–2018)",
+                "displayName-count-one": "bolívar venezolano (2008–2018)",
+                "displayName-count-other": "bolívares venezolanos (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "Bolívar venezolano",
                 "displayName-count-one": "bolívar venezolano",
                 "displayName-count-other": "bolívares venezolanos",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "Dong vietnamita",
@@ -1612,7 +1622,7 @@ const data = {
                 displayName: "Moeda descoñecida",
                 "displayName-count-one": "(moeda descoñecida)",
                 "displayName-count-other": "(moedas descoñecidas)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "YDD",

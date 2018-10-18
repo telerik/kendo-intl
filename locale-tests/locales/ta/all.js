@@ -1488,6 +1488,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "உஸ்பெக்கிஸ்தானி சோம்",
                 "displayName-count-one": "உஸ்பெக்கிஸ்தானி சோம்",
@@ -1499,11 +1503,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "வெனிசுலன் போலிவர் (2008–2018)",
+                "displayName-count-one": "வெனிசுலன் போலிவர் (2008–2018)",
+                "displayName-count-other": "வெனிசுலன் போலிவர்கள் (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "வெனிசுலன் போலிவர்",
                 "displayName-count-one": "வெனிசுலன் போலிவர்",
                 "displayName-count-other": "வெனிசுலன் போலிவர்கள்",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "வியட்நாமீஸ் டாங்",
@@ -1621,7 +1631,7 @@ const data = {
                 displayName: "தெரியாத நாணயம்",
                 "displayName-count-one": "(தெரியாத நாணய அலகு)",
                 "displayName-count-other": "(தெரியாத நாணயம்)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "YDD",

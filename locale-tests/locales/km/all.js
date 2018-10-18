@@ -1335,6 +1335,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "សុមអ៊ូបេគីស្ថាន",
                 "displayName-count-other": "សុមអ៊ូបេគីស្ថាន",
@@ -1345,10 +1349,15 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
-                displayName: "ប៊ូលីវ៉ា​វ៉េណេស៊ុយអេឡា",
-                "displayName-count-other": "ប៊ូលីវ៉ា​វ៉េណេស៊ុយអេឡា",
+                displayName: "ប៊ូលីវ៉ា​វ៉េណេស៊ុយអេឡា (2008–2018)",
+                "displayName-count-other": "ប៊ូលីវ៉ា​វ៉េណេស៊ុយអេឡា (2008–2018)",
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
+            },
+            VES: {
+                displayName: "ប៊ូលីវ៉ា​វ៉េណេស៊ុយអេឡា",
+                "displayName-count-other": "ប៊ូលីវ៉ា​វ៉េណេស៊ុយអេឡា",
+                symbol: "VES"
             },
             VND: {
                 displayName: "ដុង​វៀតណាម",
@@ -1458,7 +1467,7 @@ const data = {
             XXX: {
                 displayName: "រូបិយប័ណ្ណ​មិនស្គាល់",
                 "displayName-count-other": "(រូបិយប័ណ្ណ​មិនស្គាល់)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "YDD",
@@ -1562,10 +1571,10 @@ const data = {
                 EHm: "E HH:mm",
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
-                Gy: "y នៃ G",
-                GyMMM: "MMM y នៃ G",
-                GyMMMd: "d MMM y នៃ G",
-                GyMMMEd: "E d MMM y នៃ G",
+                Gy: "y G",
+                GyMMM: "MMM y G",
+                GyMMMd: "d MMM y G",
+                GyMMMEd: "E d MMM y G",
                 h: "h a",
                 H: "HH",
                 hm: "h:mm a",
@@ -1614,10 +1623,10 @@ const data = {
             format: {
                 abbreviated: [
                     "អាទិត្យ",
-                    "ច័ន្ទ",
+                    "ចន្ទ",
                     "អង្គារ",
                     "ពុធ",
-                    "ព្រហស្បតិ៍",
+                    "ព្រហ",
                     "សុក្រ",
                     "សៅរ៍"
                 ],
@@ -1652,10 +1661,10 @@ const data = {
             "stand-alone": {
                 abbreviated: [
                     "អាទិត្យ",
-                    "ច័ន្ទ",
+                    "ចន្ទ",
                     "អង្គារ",
                     "ពុធ",
-                    "ព្រហស្បតិ៍",
+                    "ព្រហ",
                     "សុក្រ",
                     "សៅរ៍"
                 ],
@@ -1679,7 +1688,7 @@ const data = {
                 ],
                 wide: [
                     "អាទិត្យ",
-                    "ច័ន្ទ",
+                    "ចន្ទ",
                     "អង្គារ",
                     "ពុធ",
                     "ព្រហស្បតិ៍",
@@ -1827,30 +1836,30 @@ const data = {
                     am: "AM",
                     noon: "ថ្ងៃត្រង់",
                     pm: "PM",
-                    morning1: "ព្រឹក",
-                    afternoon1: "រសៀល",
-                    evening1: "ល្ងាច",
-                    night1: "យប់"
+                    morning1: "នៅពេល​ព្រឹក",
+                    afternoon1: "នៅពេលរសៀល",
+                    evening1: "នៅពេល​ល្ងាច",
+                    night1: "នៅពេល​យប់"
                 },
                 narrow: {
                     midnight: "អធ្រាត្រ",
                     am: "a",
                     noon: "ថ្ងៃត្រង់",
                     pm: "p",
-                    morning1: "ព្រឹក",
-                    afternoon1: "រសៀល",
-                    evening1: "ល្ងាច",
-                    night1: "យប់"
+                    morning1: "នៅពេល​ព្រឹក",
+                    afternoon1: "នៅពេលរសៀល",
+                    evening1: "នៅពេល​ល្ងាច",
+                    night1: "នៅពេល​យប់"
                 },
                 wide: {
                     midnight: "អធ្រាត្រ",
                     am: "AM",
                     noon: "ថ្ងៃត្រង់",
                     pm: "PM",
-                    morning1: "ព្រឹក",
-                    afternoon1: "រសៀល",
-                    evening1: "ល្ងាច",
-                    night1: "យប់"
+                    morning1: "នៅពេល​ព្រឹក",
+                    afternoon1: "នៅពេលរសៀល",
+                    evening1: "នៅពេល​ល្ងាច",
+                    night1: "នៅពេល​យប់"
                 }
             },
             "stand-alone": {

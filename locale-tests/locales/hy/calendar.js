@@ -305,9 +305,9 @@ const data = {
             format: {
                 abbreviated: {
                     midnight: "կեսգիշեր",
-                    am: "ԿԱ",
+                    am: "AM",
                     noon: "կեսօր",
-                    pm: "ԿՀ",
+                    pm: "PM",
                     morning1: "առավոտյան",
                     afternoon1: "ցերեկը",
                     evening1: "երեկոյան",
@@ -325,9 +325,9 @@ const data = {
                 },
                 wide: {
                     midnight: "կեսգիշերին",
-                    am: "ԿԱ",
+                    am: "AM",
                     noon: "կեսօրին",
-                    pm: "ԿՀ",
+                    pm: "PM",
                     morning1: "առավոտյան",
                     afternoon1: "ցերեկը",
                     evening1: "երեկոյան",
@@ -337,9 +337,9 @@ const data = {
             "stand-alone": {
                 abbreviated: {
                     midnight: "կեսգիշեր",
-                    am: "ԿԱ",
+                    am: "AM",
                     noon: "կեսօր",
-                    pm: "ԿՀ",
+                    pm: "PM",
                     morning1: "առավոտ",
                     afternoon1: "ցերեկ",
                     evening1: "երեկո",
@@ -347,9 +347,9 @@ const data = {
                 },
                 narrow: {
                     midnight: "կեսգիշեր",
-                    am: "ԿԱ",
+                    am: "AM",
                     noon: "կեսօր",
-                    pm: "ԿՀ",
+                    pm: "PM",
                     morning1: "առավոտ",
                     afternoon1: "ցերեկ",
                     evening1: "երեկո",
@@ -357,9 +357,9 @@ const data = {
                 },
                 wide: {
                     midnight: "կեսգիշեր",
-                    am: "ԿԱ",
+                    am: "AM",
                     noon: "կեսօր",
-                    pm: "ԿՀ",
+                    pm: "PM",
                     morning1: "առավոտ",
                     afternoon1: "ցերեկ",
                     evening1: "երեկո",

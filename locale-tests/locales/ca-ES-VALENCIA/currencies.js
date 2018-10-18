@@ -420,7 +420,7 @@ const data = {
             CNH: {
                 displayName: "iuan xinès extracontinental",
                 "displayName-count-one": "iuan xinès extracontinental",
-                "displayName-count-other": "iuan xinès extracontinental",
+                "displayName-count-other": "iuans xinesos extracontinentals",
                 symbol: "CNH"
             },
             CNX: {
@@ -432,8 +432,8 @@ const data = {
             CNY: {
                 displayName: "iuan xinès",
                 "displayName-count-one": "iuan xinès",
-                "displayName-count-other": "iuan xinesos",
-                symbol: "¥",
+                "displayName-count-other": "iuans xinesos",
+                symbol: "CNY",
                 "symbol-alt-narrow": "¥"
             },
             COP: {
@@ -450,9 +450,9 @@ const data = {
                 symbol: "COU"
             },
             CRC: {
-                displayName: "colón costa-riqueny",
-                "displayName-count-one": "colón costa-riqueny",
-                "displayName-count-other": "colones costa-riquenys",
+                displayName: "colon costa-riqueny",
+                "displayName-count-one": "colon costa-riqueny",
+                "displayName-count-other": "colons costa-riquenys",
                 symbol: "CRC",
                 "symbol-alt-narrow": "₡"
             },
@@ -1139,7 +1139,7 @@ const data = {
             MWK: {
                 displayName: "kwacha malawià",
                 "displayName-count-one": "kwacha malawià",
-                "displayName-count-other": "kwachas malawians",
+                "displayName-count-other": "kwacha malawians",
                 symbol: "MWK"
             },
             MXN: {
@@ -1207,9 +1207,9 @@ const data = {
                 symbol: "NIC"
             },
             NIO: {
-                displayName: "córdoba oro nicaragüenca",
-                "displayName-count-one": "córdoba oro nicaragüenca",
-                "displayName-count-other": "córdobas oro nicaragüenques",
+                displayName: "córdoba nicaragüenc",
+                "displayName-count-one": "córdoba nicaragüenc",
+                "displayName-count-other": "córdobas nicaragüencs",
                 symbol: "NIO",
                 "symbol-alt-narrow": "C$"
             },
@@ -1319,7 +1319,7 @@ const data = {
             QAR: {
                 displayName: "rial de Qatar",
                 "displayName-count-one": "rial de Qatar",
-                "displayName-count-other": "rials qatarians",
+                "displayName-count-other": "rials de Qatar",
                 symbol: "QAR"
             },
             RHD: {
@@ -1490,7 +1490,7 @@ const data = {
                 symbol: "SUR"
             },
             SVC: {
-                displayName: "colón salvadorenc",
+                displayName: "colon salvadorenc",
                 "displayName-count-one": "colón salvadorenc",
                 "displayName-count-other": "colones salvadorencs",
                 symbol: "SVC"
@@ -1655,6 +1655,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "som uzbek",
                 "displayName-count-one": "som uzbek",
@@ -1668,11 +1672,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "bolívar veneçolà (2008–2018)",
+                "displayName-count-one": "bolívar veneçolà (2008–2018)",
+                "displayName-count-other": "bolívars veneçolans (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs F"
+            },
+            VES: {
                 displayName: "bolívar veneçolà",
                 "displayName-count-one": "bolívar veneçolà",
                 "displayName-count-other": "bolívars veneçolans",
-                symbol: "VEF",
-                "symbol-alt-narrow": "VEF"
+                symbol: "VES"
             },
             VND: {
                 displayName: "dong vietnamita",

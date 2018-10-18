@@ -1284,6 +1284,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "សុមអ៊ូបេគីស្ថាន",
                 "displayName-count-other": "សុមអ៊ូបេគីស្ថាន",
@@ -1294,10 +1298,15 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
-                displayName: "ប៊ូលីវ៉ា​វ៉េណេស៊ុយអេឡា",
-                "displayName-count-other": "ប៊ូលីវ៉ា​វ៉េណេស៊ុយអេឡា",
+                displayName: "ប៊ូលីវ៉ា​វ៉េណេស៊ុយអេឡា (2008–2018)",
+                "displayName-count-other": "ប៊ូលីវ៉ា​វ៉េណេស៊ុយអេឡា (2008–2018)",
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
+            },
+            VES: {
+                displayName: "ប៊ូលីវ៉ា​វ៉េណេស៊ុយអេឡា",
+                "displayName-count-other": "ប៊ូលីវ៉ា​វ៉េណេស៊ុយអេឡា",
+                symbol: "VES"
             },
             VND: {
                 displayName: "ដុង​វៀតណាម",
@@ -1407,7 +1416,7 @@ const data = {
             XXX: {
                 displayName: "រូបិយប័ណ្ណ​មិនស្គាល់",
                 "displayName-count-other": "(រូបិយប័ណ្ណ​មិនស្គាល់)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "YDD",

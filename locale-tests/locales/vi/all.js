@@ -1335,6 +1335,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Som Uzbekistan",
                 "displayName-count-other": "Som Uzbekistan",
@@ -1345,10 +1349,15 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
-                displayName: "Bolívar Venezuela",
-                "displayName-count-other": "Bolívar Venezuela",
+                displayName: "Bolívar Venezuela (2008–2018)",
+                "displayName-count-other": "Bolívar Venezuela (2008–2018)",
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
+            },
+            VES: {
+                displayName: "Bolívar Venezuela",
+                "displayName-count-other": "Bolívar Venezuela",
+                symbol: "VES"
             },
             VND: {
                 displayName: "Đồng Việt Nam",

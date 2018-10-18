@@ -1445,6 +1445,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "ウズベキスタン スム",
                 "displayName-count-other": "ウズベキスタン スム",
@@ -1456,10 +1460,15 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
-                displayName: "ベネズエラ ボリバル",
-                "displayName-count-other": "ベネズエラ ボリバル",
+                displayName: "ベネズエラ ボリバル (2008–2018)",
+                "displayName-count-other": "ベネズエラ ボリバル (2008–2018)",
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
+            },
+            VES: {
+                displayName: "ベネズエラ ボリバル",
+                "displayName-count-other": "ベネズエラ ボリバル",
+                symbol: "VES"
             },
             VND: {
                 displayName: "ベトナム ドン",

@@ -83,9 +83,9 @@ const data = {
                 yMMMM: "MMMM y.",
                 yQQQ: "QQQ y.",
                 yQQQQ: "QQQQ y.",
-                "yw-count-one": "w. 'sjedmica' 'u' y.",
-                "yw-count-few": "w. 'sjedmica' 'u' y.",
-                "yw-count-other": "w. 'sjedmica' 'u' y."
+                "yw-count-one": "w. 'sjedmica' 'u' Y.",
+                "yw-count-few": "w. 'sjedmica' 'u' Y.",
+                "yw-count-other": "w. 'sjedmica' 'u' Y."
             }
         },
         timeFormats: {

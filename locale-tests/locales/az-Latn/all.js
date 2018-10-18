@@ -44,7 +44,7 @@ const data = {
         },
         currency: {
             patterns: [
-                "$ n"
+                "n $"
             ],
             groupSize: [
                 3
@@ -54,7 +54,7 @@ const data = {
         },
         accounting: {
             patterns: [
-                "$ n"
+                "n $"
             ],
             groupSize: [
                 3
@@ -1660,6 +1660,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Özbəkistan Somu",
                 "displayName-count-one": "Özbəkistan somu",
@@ -1673,11 +1677,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "Venesuela Bolivarı (2008–2018)",
+                "displayName-count-one": "Venesuela bolivarı (2008–2018)",
+                "displayName-count-other": "Venesuela bolivarı (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "Venesuela Bolivarı",
                 "displayName-count-one": "Venesuela bolivarı",
                 "displayName-count-other": "Venesuela bolivarı",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "Vyetnam Donqu",
@@ -1809,7 +1819,7 @@ const data = {
                 displayName: "Naməlum Valyuta",
                 "displayName-count-one": "(naməlum valyuta vahidi)",
                 "displayName-count-other": "(naməlum valyuta)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "Yəmən Dinarı",

@@ -1704,6 +1704,12 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "Uruguayan Nominal Wage Index Unit",
+                "displayName-count-one": "Uruguayan nominal wage index unit",
+                "displayName-count-other": "Uruguayan nominal wage index units",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Uzbekistani Som",
                 "displayName-count-one": "Uzbekistani som",
@@ -1717,11 +1723,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "Venezuelan Bolívar (2008–2018)",
+                "displayName-count-one": "Venezuelan bolívar (2008–2018)",
+                "displayName-count-other": "Venezuelan bolívars (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "Venezuelan Bolívar",
                 "displayName-count-one": "Venezuelan bolívar",
                 "displayName-count-other": "Venezuelan bolívars",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "Vietnamese Dong",
@@ -1873,7 +1885,7 @@ const data = {
                 displayName: "Unknown Currency",
                 "displayName-count-one": "(unknown unit of currency)",
                 "displayName-count-other": "(unknown currency)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "Yemeni Dinar",
@@ -1993,12 +2005,12 @@ const data = {
             short: "{1}, {0}",
             availableFormats: {
                 Bh: "h B",
-                Bhm: "h.mm B",
-                Bhms: "h.mm.ss B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
-                EBhm: "E, h.mm B",
-                EBhms: "E, h.mm.ss B",
+                EBhm: "E, h:mm B",
+                EBhms: "E, h:mm:ss B",
                 Ed: "E d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
@@ -2020,11 +2032,11 @@ const data = {
                 Hmv: "HH:mm v",
                 M: "L",
                 Md: "dd/MM",
-                MEd: "E dd/MM",
+                MEd: "E, dd/MM",
                 MMdd: "dd/MM",
                 MMM: "LLL",
                 MMMd: "d MMM",
-                MMMEd: "E d MMM",
+                MMMEd: "E, d MMM",
                 MMMMd: "d MMMM",
                 "MMMMW-count-one": "'week' W 'of' MMMM",
                 "MMMMW-count-other": "'week' W 'of' MMMM",

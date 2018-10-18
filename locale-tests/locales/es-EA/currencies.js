@@ -1579,6 +1579,12 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "unidad previsional uruguayo",
+                "displayName-count-one": "unidad previsional uruguayo",
+                "displayName-count-other": "unidades previsionales uruguayos",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "sum",
                 "displayName-count-one": "sum",
@@ -1592,11 +1598,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "bolívar venezolano (2008–2018)",
+                "displayName-count-one": "bolívar venezolano (2008–2018)",
+                "displayName-count-other": "bolívares venezolanos (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "bolívar venezolano",
                 "displayName-count-one": "bolívar venezolano",
                 "displayName-count-other": "bolívares venezolanos",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "dong",
@@ -1736,7 +1748,7 @@ const data = {
                 displayName: "moneda desconocida",
                 "displayName-count-one": "(moneda desconocida)",
                 "displayName-count-other": "(moneda desconocida)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "dinar yemení",

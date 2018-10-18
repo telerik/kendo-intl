@@ -1702,6 +1702,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "UYU"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Uzbekistanin som",
                 "displayName-count-one": "Uzbekistanin som",
@@ -1709,17 +1713,23 @@ const data = {
                 symbol: "UZS"
             },
             VEB: {
-                displayName: "Venezuelan bolivar (1871–2008)",
+                displayName: "Venezuelan bolívar (1871–2008)",
                 "displayName-count-one": "Venezuelan bolivar (1871–2008)",
                 "displayName-count-other": "Venezuelan bolivaria (1871–2008)",
                 symbol: "VEB"
             },
             VEF: {
-                displayName: "Venezuelan bolivar",
-                "displayName-count-one": "Venezuelan bolivar",
-                "displayName-count-other": "Venezuelan bolivaria",
+                displayName: "Venezuelan bolívar (2008–2018)",
+                "displayName-count-one": "Venezuelan bolívar (2008–2018)",
+                "displayName-count-other": "Venezuelan bolívaria (2008–2018)",
                 symbol: "VEF",
                 "symbol-alt-narrow": "VEF"
+            },
+            VES: {
+                displayName: "Venezuelan suvereeni bolívar",
+                "displayName-count-one": "Venezuelan suvereeni bolívar",
+                "displayName-count-other": "Venezuelan suvereenia bolívaria",
+                symbol: "VES"
             },
             VND: {
                 displayName: "Vietnamin dong",
@@ -2006,6 +2016,8 @@ const data = {
                 GyMMM: "LLL y G",
                 GyMMMd: "d. MMM y G",
                 GyMMMEd: "E d. MMM y G",
+                GyMMMMd: "d. MMMM y G",
+                GyMMMMEd: "E d. MMMM y G",
                 h: "h a",
                 H: "H",
                 hm: "h.mm a",
@@ -2023,6 +2035,7 @@ const data = {
                 MMMd: "d. MMM",
                 MMMEd: "ccc d. MMM",
                 MMMMd: "d. MMMM",
+                MMMMEd: "ccc d. MMMM",
                 "MMMMW-count-one": "LLLL'n' W. 'viikko'",
                 "MMMMW-count-other": "LLLL'n' W. 'viikko'",
                 ms: "m.ss",
@@ -2036,6 +2049,8 @@ const data = {
                 yMMMEd: "E d. MMM y",
                 yMMMM: "LLLL y",
                 yMMMMccccd: "cccc d. MMMM y",
+                yMMMMd: "d. MMMM y",
+                yMMMMEd: "E d. MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
                 "yw-count-one": "'vuoden' Y 'viikko' w",

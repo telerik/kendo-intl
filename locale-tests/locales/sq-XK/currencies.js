@@ -1432,6 +1432,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Soma uzbeke",
                 "displayName-count-one": "somë uzbeke",
@@ -1443,11 +1447,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
-                displayName: "Bolivari venezuelian",
-                "displayName-count-one": "bolivar venezuelian",
-                "displayName-count-other": "bolivarë venezuelian",
+                displayName: "Bolivari venezuelian (2008–2018)",
+                "displayName-count-one": "bolivar venezuelian (2008–2018)",
+                "displayName-count-other": "bolivarë venezuelian (2008–2018)",
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
+            },
+            VES: {
+                displayName: "Bolivari venezuelas",
+                "displayName-count-one": "bolivar venezuelas",
+                "displayName-count-other": "bolivarë venezuelas",
+                symbol: "VES"
             },
             VND: {
                 displayName: "Donga vietnameze",
@@ -1565,7 +1575,7 @@ const data = {
                 displayName: "Valutë e panjohur",
                 "displayName-count-one": "(njësi e panjohur valutore)",
                 "displayName-count-other": "(njësi të panjohura valutore)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "YDD",

@@ -1432,6 +1432,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "Өзбекстан сомы",
                 "displayName-count-one": "Өзбекстан сомы",
@@ -1443,11 +1447,17 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
+                displayName: "Венесуэла боливары (2008–2018)",
+                "displayName-count-one": "Венесуэла боливары (2008–2018)",
+                "displayName-count-other": "Венесуэла боливары (2008–2018)",
+                symbol: "VEF",
+                "symbol-alt-narrow": "Bs"
+            },
+            VES: {
                 displayName: "Венесуэла боливары",
                 "displayName-count-one": "Венесуэла боливары",
                 "displayName-count-other": "Венесуэла боливары",
-                symbol: "VEF",
-                "symbol-alt-narrow": "Bs"
+                symbol: "VES"
             },
             VND: {
                 displayName: "Вьетнам донгі",
@@ -1565,7 +1575,7 @@ const data = {
                 displayName: "Белгісіз валюта",
                 "displayName-count-one": "(белгісіз валюта бірлігі)",
                 "displayName-count-other": "(белгісіз валюта)",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "YDD",
