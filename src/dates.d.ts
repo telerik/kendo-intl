@@ -81,6 +81,63 @@ export interface DateFormatOptions {
     timeZoneName?: 'short' | 'long';
 }
 
+/** A Date-like object that provides read-only access to the date parts. */
+export interface ImmutableDate {
+    /** Gets the time value in milliseconds. */
+    getTime(): number;
+
+    /** Gets the year, using local time. */
+    getFullYear(): number;
+
+    /** Gets the year using Universal Coordinated Time (UTC). */
+    getUTCFullYear(): number;
+
+    /** Gets the month, using local time. */
+    getMonth(): number;
+
+    /** Gets the month of a Date object using Universal Coordinated Time (UTC). */
+    getUTCMonth(): number;
+
+    /** Gets the day-of-the-month, using local time. */
+    getDate(): number;
+
+    /** Gets the day-of-the-month, using Universal Coordinated Time (UTC). */
+    getUTCDate(): number;
+
+    /** Gets the day of the week, using local time. */
+    getDay(): number;
+
+    /** Gets the day of the week using Universal Coordinated Time (UTC). */
+    getUTCDay(): number;
+
+    /** Gets the hours in a date, using local time. */
+    getHours(): number;
+
+    /** Gets the hours value in a Date object using Universal Coordinated Time (UTC). */
+    getUTCHours(): number;
+
+    /** Gets the minutes of a Date object, using local time. */
+    getMinutes(): number;
+
+    /** Gets the minutes of a Date object using Universal Coordinated Time (UTC). */
+    getUTCMinutes(): number;
+
+    /** Gets the seconds of a Date object, using local time. */
+    getSeconds(): number;
+
+    /** Gets the seconds of a Date object using Universal Coordinated Time (UTC). */
+    getUTCSeconds(): number;
+
+    /** Gets the milliseconds of a Date, using local time. */
+    getMilliseconds(): number;
+
+    /** Gets the milliseconds of a Date object using Universal Coordinated Time (UTC). */
+    getUTCMilliseconds(): number;
+
+    /** Gets the difference in minutes between the time on the local computer and Universal Coordinated Time (UTC). */
+    getTimezoneOffset(): number;
+}
+
 /**
  * Converts a `Date` object to a string based on the specified format and locale.
  *
@@ -89,7 +146,7 @@ export interface DateFormatOptions {
  * @param locale - The optional locale `id`. If not specified, the `id` of the `"en"` locale is used.
  * @returns - The formatted date.
  */
-export function formatDate(value: Date, format: string|DateFormatOptions, locale?: string): string;
+export function formatDate(value: Date | ImmutableDate, format: string|DateFormatOptions, locale?: string): string;
 
 /**
  * Converts a string to a `Date` object based on the specified format and locale.

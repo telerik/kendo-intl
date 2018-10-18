@@ -1,6 +1,7 @@
-const objectToString = {}.toString;
-const DATE_STRING = "[object Date]";
+function isFunction(fun) {
+    return typeof(fun) === 'function';
+}
 
 export default function isDate(value) {
-    return objectToString.call(value) === DATE_STRING;
+    return Boolean(value) && isFunction(value.getTime) && isFunction(value.getMonth);
 }
