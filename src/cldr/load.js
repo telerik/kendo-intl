@@ -30,7 +30,9 @@ export default function load() {
         } else if (entry.supplemental) {
             if (entry.supplemental.weekData) {
                 cldr.supplemental.weekData = {
-                    firstDay: entry.supplemental.weekData.firstDay
+                    firstDay: entry.supplemental.weekData.firstDay,
+                    weekendStart: entry.supplemental.weekData.weekendStart,
+                    weekendEnd: entry.supplemental.weekData.weekendEnd
                 };
             } else {
                 Object.assign(cldr.supplemental, entry.supplemental);
