@@ -1,4 +1,4 @@
-import { load, cldr, localeInfo, dateFieldName, dateFormatNames, firstDay, localeCurrency, currencyDisplay, currencyFractionOptions, currencyDisplays, numberSymbols } from '../src/cldr';
+import { load, cldr, localeInfo, dateFieldName, dateFormatNames, firstDay, weekendRange, localeCurrency, currencyDisplay, currencyFractionOptions, currencyDisplays, numberSymbols } from '../src/cldr';
 import { errors } from '../src/errors';
 
 const likelySubtags = require("cldr-data/supplemental/likelySubtags.json");
@@ -9,7 +9,8 @@ const currencies = require("cldr-data/main/bg/currencies.json");
 const dateFields = require("cldr-data/main/bg/dateFields.json");
 const weekData = require("cldr-data/supplemental/weekData.json");
 const currencyData = require("cldr-data/supplemental/currencyData.json");
-load(likelySubtags, weekData, currencyData, numbers, currencies, calendar, dateFields, timeZoneNames);
+const arCalendar = require("cldr-data/main/ar-AE/ca-gregorian.json");
+load(likelySubtags, weekData, currencyData, numbers, currencies, calendar, dateFields, timeZoneNames, arCalendar);
 
 describe('load', () => {
     it('should set territory', () => {
@@ -24,6 +25,8 @@ describe('load', () => {
         expect(cldr.supplemental.likelySubtags).toBeDefined();
         expect(cldr.supplemental.currencyData).toBeDefined();
         expect(cldr.supplemental.weekData.firstDay).toBeDefined();
+        expect(cldr.supplemental.weekData.weekendStart).toBeDefined();
+        expect(cldr.supplemental.weekData.weekendEnd).toBeDefined();
         expect(cldr.supplemental.weekData.minDays).not.toBeDefined();
     });
 });
@@ -546,6 +549,21 @@ describe('firstDay', () => {
 
         expect(cldr.en.firstDay).toBe(0);
         expect(cldr.bg.firstDay).toBe(1);
+    });
+});
+
+describe('weekendRange', () => {
+    it('should return weekend range index based on locale', () => {
+        expect(weekendRange('en')).toEqual({ start: 6, end: 0 });
+        expect(weekendRange('ar-AE')).toEqual({ start: 5, end: 6 });
+    });
+
+    it('stores weekend on locale info', () => {
+        weekendRange('en');
+        weekendRange('ar-AE');
+
+        expect(cldr.en.weekendRange).toEqual({ start: 6, end: 0 });
+        expect(cldr['ar-AE'].weekendRange).toEqual({ start: 5, end: 6 });
     });
 });
 
