@@ -13,9 +13,9 @@ cache:
 notifications:
   email: false
 node_js:
-  - '6'
+  - '10'
 before_install:
-  - npm i -g npm@^3.8.0
+  - npm i -g npm@^6.4.1
 before_script:
   - git fetch --unshallow origin refs/heads/master:refs/remotes/origin/master
   - npm prune
