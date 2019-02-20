@@ -9,6 +9,7 @@ const currencyData = require("cldr-data/supplemental/currencyData.json");
 const weekData = require("cldr-data/supplemental/weekData.json");
 const fs = require('fs');
 const { toJSObject, buildLocales } = require("./build-locales.js");
+const DEFAULT_TERRITORY = '001';
 
 require('@progress/kendo-package-tasks')(gulp, 'kendo-intl');
 
@@ -48,6 +49,12 @@ gulp.task("build-default-data", ["build-npm-package"], () => {
             weekData: {
                 firstDay: {
                     US: cldr.cldr.supplemental.weekData.firstDay.US
+                },
+                weekendStart: {
+                    [DEFAULT_TERRITORY]: cldr.cldr.supplemental.weekData.weekendStart[DEFAULT_TERRITORY]
+                },
+                weekendEnd: {
+                    [DEFAULT_TERRITORY]: cldr.cldr.supplemental.weekData.weekendEnd[DEFAULT_TERRITORY]
                 }
             }
         }
