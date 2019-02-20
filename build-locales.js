@@ -3,7 +3,7 @@ const currencyData = require("cldr-data/supplemental/currencyData.json");
 const weekData = require("cldr-data/supplemental/weekData.json");
 const fs = require('fs');
 const path = require('path');
-const jsonNameRegex = /"(\w+)":/g;
+const jsonNameRegex = /"([$A-Z\_a-z][$A-Z\_a-z0-9\\.]*)":/g;
 
 const LOCALES_PATH = path.join(process.cwd(), 'node_modules', 'cldr-data', 'main');
 
