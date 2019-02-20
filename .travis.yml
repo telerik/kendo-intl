@@ -1,12 +1,5 @@
-sudo: true
-dist: trusty
+dist: xenial
 language: node_js
-addons:
-  apt:
-    sources:
-      - git-core
-    packages:
-      - git
 cache:
   directories:
     - node_modules
@@ -14,8 +7,6 @@ notifications:
   email: false
 node_js:
   - '10'
-before_install:
-  - npm i -g npm@^6.4.1
 before_script:
   - git fetch --unshallow origin refs/heads/master:refs/remotes/origin/master
   - npm prune
