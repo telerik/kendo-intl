@@ -10,7 +10,7 @@ const weekData = require("cldr-data/supplemental/weekData.json");
 const fs = require('fs');
 const { toJSObject, buildLocales } = require("./build-locales.js");
 
-require('@telerik/kendo-package-tasks')(gulp, 'kendo-intl');
+require('@progress/kendo-package-tasks')(gulp, 'kendo-intl');
 
 const cleanupCurrencies = (locale) => {
     const currencies = locale.numbers.currencies;
