@@ -1,4 +1,4 @@
-import { cldr, formatNumber, parseNumber, formatDate, parseDate, firstDay, setData } from '../src/main';
+import { cldr, formatNumber, parseNumber, formatDate, parseDate, firstDay, weekendRange, setData } from '../src/main';
 
 const fs = require('fs');
 const path = require('path');
@@ -123,6 +123,12 @@ describe('generated-locales', () => {
                         firstDay(locale);
                     }).not.toThrow();
                 });
+
+                it('weekendRange', () => {
+                    expect(() => {
+                        weekendRange(locale);
+                    }).not.toThrow();
+                });
             });
 
             describe(`all`, () => {
@@ -188,6 +194,12 @@ describe('generated-locales', () => {
                 it('firstDay', () => {
                     expect(() => {
                         firstDay(locale);
+                    }).not.toThrow();
+                });
+
+                it('weekendRange', () => {
+                    expect(() => {
+                        weekendRange(locale);
                     }).not.toThrow();
                 });
             });

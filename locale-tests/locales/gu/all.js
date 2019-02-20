@@ -2063,20 +2063,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "ઈસવીસન પૂર્વે",
-                    1: "ઇસવીસન",
+                    "0": "ઈસવીસન પૂર્વે",
+                    "1": "ઇસવીસન",
                     "0-alt-variant": "સામાન્ય યુગ પહેલા",
                     "1-alt-variant": "સામાન્ય યુગ"
                 },
                 abbreviated: {
-                    0: "ઈ.સ.પૂર્વે",
-                    1: "ઈ.સ.",
+                    "0": "ઈ.સ.પૂર્વે",
+                    "1": "ઈ.સ.",
                     "0-alt-variant": "સા.યુ.પ.",
                     "1-alt-variant": "સા.યુ."
                 },
                 narrow: {
-                    0: "ઇ સ પુ",
-                    1: "ઇસ",
+                    "0": "ઇ સ પુ",
+                    "1": "ઇસ",
                     "0-alt-variant": "સા.યુ.પ.",
                     "1-alt-variant": "સા.યુ."
                 }
@@ -2163,6 +2163,10 @@ const data = {
         }
     },
     firstDay: 0,
+    weekendRange: {
+        start: 0,
+        end: 0
+    },
     likelySubtags: {
         gu: "gu-Gujr-IN"
     }

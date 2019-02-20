@@ -2250,20 +2250,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "enne Kristust",
-                    1: "pärast Kristust",
+                    "0": "enne Kristust",
+                    "1": "pärast Kristust",
                     "0-alt-variant": "enne meie ajaarvamist",
                     "1-alt-variant": "meie ajaarvamise järgi"
                 },
                 abbreviated: {
-                    0: "eKr",
-                    1: "pKr",
+                    "0": "eKr",
+                    "1": "pKr",
                     "0-alt-variant": "e.m.a",
                     "1-alt-variant": "m.a.j"
                 },
                 narrow: {
-                    0: "eKr",
-                    1: "pKr",
+                    "0": "eKr",
+                    "1": "pKr",
                     "0-alt-variant": "e.m.a",
                     "1-alt-variant": "m.a.j"
                 }
@@ -2350,6 +2350,10 @@ const data = {
         }
     },
     firstDay: 1,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         et: "et-Latn-EE"
     }

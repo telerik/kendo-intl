@@ -2303,20 +2303,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "avant Jésus-Christ",
-                    1: "après Jésus-Christ",
+                    "0": "avant Jésus-Christ",
+                    "1": "après Jésus-Christ",
                     "0-alt-variant": "avant l’ère chrétienne",
                     "1-alt-variant": "de l’ère chrétienne"
                 },
                 abbreviated: {
-                    0: "av. J.-C.",
-                    1: "ap. J.-C.",
+                    "0": "av. J.-C.",
+                    "1": "ap. J.-C.",
                     "0-alt-variant": "AEC",
                     "1-alt-variant": "EC"
                 },
                 narrow: {
-                    0: "av. J.-C.",
-                    1: "ap. J.-C.",
+                    "0": "av. J.-C.",
+                    "1": "ap. J.-C.",
                     "0-alt-variant": "AEC",
                     "1-alt-variant": "EC"
                 }
@@ -2403,6 +2403,10 @@ const data = {
         }
     },
     firstDay: 0,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         fr: "fr-Latn-FR"
     }

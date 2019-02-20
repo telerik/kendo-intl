@@ -2064,20 +2064,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "قبل مسیح",
-                    1: "عیسوی",
+                    "0": "قبل مسیح",
+                    "1": "عیسوی",
                     "0-alt-variant": "عام دور سے قبل",
                     "1-alt-variant": "عام دور"
                 },
                 abbreviated: {
-                    0: "قبل مسیح",
-                    1: "عیسوی",
+                    "0": "قبل مسیح",
+                    "1": "عیسوی",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 },
                 narrow: {
-                    0: "قبل مسیح",
-                    1: "عیسوی",
+                    "0": "قبل مسیح",
+                    "1": "عیسوی",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 }
@@ -2164,6 +2164,10 @@ const data = {
         }
     },
     firstDay: 0,
+    weekendRange: {
+        start: 0,
+        end: 0
+    },
     likelySubtags: {
         ur: "ur-Arab-PK"
     }

@@ -340,20 +340,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "Roimh Chríost",
-                    1: "Anno Domini",
+                    "0": "Roimh Chríost",
+                    "1": "Anno Domini",
                     "0-alt-variant": "Roimh Chomh-Ré",
                     "1-alt-variant": "Comh-Ré"
                 },
                 abbreviated: {
-                    0: "RC",
-                    1: "AD",
+                    "0": "RC",
+                    "1": "AD",
                     "0-alt-variant": "RCR",
                     "1-alt-variant": "CR"
                 },
                 narrow: {
-                    0: "RC",
-                    1: "AD",
+                    "0": "RC",
+                    "1": "AD",
                     "0-alt-variant": "RCR",
                     "1-alt-variant": "CR"
                 }

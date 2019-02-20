@@ -2024,20 +2024,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "Isadan öň",
-                    1: "Isadan soň",
+                    "0": "Isadan öň",
+                    "1": "Isadan soň",
                     "0-alt-variant": "Biziň eramyzdan öň",
                     "1-alt-variant": "Biziň eramyz"
                 },
                 abbreviated: {
-                    0: "B.e.öň",
-                    1: "B.e.",
+                    "0": "B.e.öň",
+                    "1": "B.e.",
                     "0-alt-variant": "b.e.öň",
                     "1-alt-variant": "b.e."
                 },
                 narrow: {
-                    0: "B.e.öň",
-                    1: "B.e.",
+                    "0": "B.e.öň",
+                    "1": "B.e.",
                     "0-alt-variant": "b.e.öň",
                     "1-alt-variant": "b.e."
                 }
@@ -2124,6 +2124,10 @@ const data = {
         }
     },
     firstDay: 1,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         tk: "tk-Latn-TM"
     }

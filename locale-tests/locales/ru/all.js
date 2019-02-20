@@ -2419,20 +2419,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "до Рождества Христова",
-                    1: "от Рождества Христова",
+                    "0": "до Рождества Христова",
+                    "1": "от Рождества Христова",
                     "0-alt-variant": "до нашей эры",
                     "1-alt-variant": "нашей эры"
                 },
                 abbreviated: {
-                    0: "до н. э.",
-                    1: "н. э.",
+                    "0": "до н. э.",
+                    "1": "н. э.",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "н. э."
                 },
                 narrow: {
-                    0: "до н.э.",
-                    1: "н.э.",
+                    "0": "до н.э.",
+                    "1": "н.э.",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "н. э."
                 }
@@ -2519,6 +2519,10 @@ const data = {
         }
     },
     firstDay: 1,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         ru: "ru-Cyrl-RU"
     }

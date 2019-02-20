@@ -377,20 +377,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "antes de Cristo",
-                    1: "después de Cristo",
+                    "0": "antes de Cristo",
+                    "1": "después de Cristo",
                     "0-alt-variant": "antes de la Era Común",
                     "1-alt-variant": "Era Común"
                 },
                 abbreviated: {
-                    0: "a. C.",
-                    1: "d. C.",
+                    "0": "a. C.",
+                    "1": "d. C.",
                     "0-alt-variant": "a. e. c.",
                     "1-alt-variant": "e. c."
                 },
                 narrow: {
-                    0: "a. C.",
-                    1: "d. C.",
+                    "0": "a. C.",
+                    "1": "d. C.",
                     "0-alt-variant": "a. e. c.",
                     "1-alt-variant": "e. c."
                 }

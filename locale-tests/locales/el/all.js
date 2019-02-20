@@ -2266,20 +2266,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "προ Χριστού",
-                    1: "μετά Χριστόν",
+                    "0": "προ Χριστού",
+                    "1": "μετά Χριστόν",
                     "0-alt-variant": "πριν από την Κοινή Χρονολογία",
                     "1-alt-variant": "Κοινή Χρονολογία"
                 },
                 abbreviated: {
-                    0: "π.Χ.",
-                    1: "μ.Χ.",
+                    "0": "π.Χ.",
+                    "1": "μ.Χ.",
                     "0-alt-variant": "π.Κ.Χ.",
                     "1-alt-variant": "ΚΧ"
                 },
                 narrow: {
-                    0: "π.Χ.",
-                    1: "μ.Χ.",
+                    "0": "π.Χ.",
+                    "1": "μ.Χ.",
                     "0-alt-variant": "π.Κ.Χ.",
                     "1-alt-variant": "ΚΧ"
                 }
@@ -2366,6 +2366,10 @@ const data = {
         }
     },
     firstDay: 1,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         el: "el-Grek-GR"
     }

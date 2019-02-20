@@ -386,20 +386,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "przed naszą erą",
-                    1: "naszej ery",
+                    "0": "przed naszą erą",
+                    "1": "naszej ery",
                     "0-alt-variant": "p.n.e.",
                     "1-alt-variant": "n.e."
                 },
                 abbreviated: {
-                    0: "p.n.e.",
-                    1: "n.e.",
+                    "0": "p.n.e.",
+                    "1": "n.e.",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 },
                 narrow: {
-                    0: "p.n.e.",
-                    1: "n.e.",
+                    "0": "p.n.e.",
+                    "1": "n.e.",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 }

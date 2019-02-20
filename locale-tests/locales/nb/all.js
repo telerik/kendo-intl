@@ -2343,20 +2343,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "før Kristus",
-                    1: "etter Kristus",
+                    "0": "før Kristus",
+                    "1": "etter Kristus",
                     "0-alt-variant": "før vår tidsregning",
                     "1-alt-variant": "etter vår tidsregning"
                 },
                 abbreviated: {
-                    0: "f.Kr.",
-                    1: "e.Kr.",
+                    "0": "f.Kr.",
+                    "1": "e.Kr.",
                     "0-alt-variant": "fvt.",
                     "1-alt-variant": "evt."
                 },
                 narrow: {
-                    0: "f.Kr.",
-                    1: "e.Kr.",
+                    "0": "f.Kr.",
+                    "1": "e.Kr.",
                     "0-alt-variant": "fvt.",
                     "1-alt-variant": "vt."
                 }
@@ -2443,6 +2443,10 @@ const data = {
         }
     },
     firstDay: 1,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         nb: "nb-Latn-NO"
     }

@@ -2738,20 +2738,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "قبل الميلاد",
-                    1: "ميلادي",
+                    "0": "قبل الميلاد",
+                    "1": "ميلادي",
                     "0-alt-variant": "قبل الحقبة الحالية",
                     "1-alt-variant": "بعد الميلاد"
                 },
                 abbreviated: {
-                    0: "ق.م",
-                    1: "م",
+                    "0": "ق.م",
+                    "1": "م",
                     "0-alt-variant": "ق. م",
                     "1-alt-variant": "ب.م"
                 },
                 narrow: {
-                    0: "ق.م",
-                    1: "م",
+                    "0": "ق.م",
+                    "1": "م",
                     "0-alt-variant": "ق. م",
                     "1-alt-variant": "ب.م"
                 }
@@ -2838,6 +2838,10 @@ const data = {
         }
     },
     firstDay: 6,
+    weekendRange: {
+        start: 5,
+        end: 6
+    },
     likelySubtags: {
         ar: "ar-Arab-EG"
     }

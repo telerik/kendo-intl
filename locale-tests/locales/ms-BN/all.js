@@ -1893,20 +1893,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "S.M.",
-                    1: "TM",
+                    "0": "S.M.",
+                    "1": "TM",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 },
                 abbreviated: {
-                    0: "S.M.",
-                    1: "TM",
+                    "0": "S.M.",
+                    "1": "TM",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 },
                 narrow: {
-                    0: "S.M.",
-                    1: "TM",
+                    "0": "S.M.",
+                    "1": "TM",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 }
@@ -1993,6 +1993,10 @@ const data = {
         }
     },
     firstDay: 1,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         ms: "ms-Latn-MY"
     }

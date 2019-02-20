@@ -378,20 +378,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "K.a.",
-                    1: "Kristo ondoren",
+                    "0": "K.a.",
+                    "1": "Kristo ondoren",
                     "0-alt-variant": "Gure aroaren aurretik",
                     "1-alt-variant": "Gure aroa"
                 },
                 abbreviated: {
-                    0: "K.a.",
-                    1: "K.o.",
+                    "0": "K.a.",
+                    "1": "K.o.",
                     "0-alt-variant": "G.a.a.",
                     "1-alt-variant": "G.a."
                 },
                 narrow: {
-                    0: "K.a.",
-                    1: "K.o.",
+                    "0": "K.a.",
+                    "1": "K.o.",
                     "0-alt-variant": "G.a.a.",
                     "1-alt-variant": "G.a."
                 }

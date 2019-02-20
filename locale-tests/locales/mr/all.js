@@ -2080,20 +2080,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "ईसवीसनपूर्व",
-                    1: "ईसवीसन",
+                    "0": "ईसवीसनपूर्व",
+                    "1": "ईसवीसन",
                     "0-alt-variant": "ईसापूर्व युग",
                     "1-alt-variant": "ख्रिस्तयुग"
                 },
                 abbreviated: {
-                    0: "इ. स. पू.",
-                    1: "इ. स.",
+                    "0": "इ. स. पू.",
+                    "1": "इ. स.",
                     "0-alt-variant": "इ. स. पू. युग",
                     "1-alt-variant": "ख्रि. यु."
                 },
                 narrow: {
-                    0: "इ. स. पू.",
-                    1: "इ. स.",
+                    "0": "इ. स. पू.",
+                    "1": "इ. स.",
                     "0-alt-variant": "इ. स. पू. युग",
                     "1-alt-variant": "ख्रि. यु."
                 }
@@ -2180,6 +2180,10 @@ const data = {
         }
     },
     firstDay: 0,
+    weekendRange: {
+        start: 0,
+        end: 0
+    },
     likelySubtags: {
         mr: "mr-Deva-IN"
     }

@@ -66,6 +66,7 @@ module.exports.buildLocales = (intl, { contentTemplate = defaultTemplate, extens
             loadLocale(name, intl);
 
             intl.firstDay(name);
+            intl.weekendRange(name);
 
             if (!NO_CURRENCY[name]) {
                 intl.localeCurrency(name);

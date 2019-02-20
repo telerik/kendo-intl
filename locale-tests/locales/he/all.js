@@ -2405,20 +2405,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "לפני הספירה",
-                    1: "לספירה",
+                    "0": "לפני הספירה",
+                    "1": "לספירה",
                     "0-alt-variant": "לפנה״ס",
                     "1-alt-variant": "CE"
                 },
                 abbreviated: {
-                    0: "לפנה״ס",
-                    1: "לספירה",
+                    "0": "לפנה״ס",
+                    "1": "לספירה",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 },
                 narrow: {
-                    0: "לפנה״ס",
-                    1: "לספירה",
+                    "0": "לפנה״ס",
+                    "1": "לספירה",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 }
@@ -2505,6 +2505,10 @@ const data = {
         }
     },
     firstDay: 0,
+    weekendRange: {
+        start: 5,
+        end: 6
+    },
     likelySubtags: {
         he: "he-Hebr-IL"
     }

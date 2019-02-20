@@ -2071,20 +2071,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "fyrir Krist",
-                    1: "eftir Krist",
+                    "0": "fyrir Krist",
+                    "1": "eftir Krist",
                     "0-alt-variant": "fyrir kristið tímatal",
                     "1-alt-variant": "kristið tímatal"
                 },
                 abbreviated: {
-                    0: "f.Kr.",
-                    1: "e.Kr.",
+                    "0": "f.Kr.",
+                    "1": "e.Kr.",
                     "0-alt-variant": "f.l.t.",
                     "1-alt-variant": "l.t."
                 },
                 narrow: {
-                    0: "f.k.",
-                    1: "e.k.",
+                    "0": "f.k.",
+                    "1": "e.k.",
                     "0-alt-variant": "f.v.t.",
                     "1-alt-variant": "v.t."
                 }
@@ -2171,6 +2171,10 @@ const data = {
         }
     },
     firstDay: 1,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         is: "is-Latn-IS"
     }

@@ -369,20 +369,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "Sebelum Masehi",
-                    1: "Masehi",
+                    "0": "Sebelum Masehi",
+                    "1": "Masehi",
                     "0-alt-variant": "Sebelum Era Umum",
                     "1-alt-variant": "Era Umum"
                 },
                 abbreviated: {
-                    0: "SM",
-                    1: "M",
+                    "0": "SM",
+                    "1": "M",
                     "0-alt-variant": "SEU",
                     "1-alt-variant": "EU"
                 },
                 narrow: {
-                    0: "SM",
-                    1: "M",
+                    "0": "SM",
+                    "1": "M",
                     "0-alt-variant": "SEU",
                     "1-alt-variant": "EU"
                 }

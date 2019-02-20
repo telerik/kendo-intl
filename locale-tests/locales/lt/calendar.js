@@ -382,20 +382,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "prieš Kristų",
-                    1: "po Kristaus",
+                    "0": "prieš Kristų",
+                    "1": "po Kristaus",
                     "0-alt-variant": "prieš mūsų erą",
                     "1-alt-variant": "mūsų eroje"
                 },
                 abbreviated: {
-                    0: "pr. Kr.",
-                    1: "po Kr.",
+                    "0": "pr. Kr.",
+                    "1": "po Kr.",
                     "0-alt-variant": "pr. m. e.",
                     "1-alt-variant": "mūsų eroje"
                 },
                 narrow: {
-                    0: "pr. Kr.",
-                    1: "po Kr.",
+                    "0": "pr. Kr.",
+                    "1": "po Kr.",
                     "0-alt-variant": "pr. m. e.",
                     "1-alt-variant": "mūsų eroje"
                 }

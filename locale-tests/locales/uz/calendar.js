@@ -370,20 +370,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "miloddan avvalgi",
-                    1: "milodiy",
+                    "0": "miloddan avvalgi",
+                    "1": "milodiy",
                     "0-alt-variant": "eramizdan avvalgi",
                     "1-alt-variant": "mil."
                 },
                 abbreviated: {
-                    0: "m.a.",
-                    1: "milodiy",
+                    "0": "m.a.",
+                    "1": "milodiy",
                     "0-alt-variant": "e.a.",
                     "1-alt-variant": "mil."
                 },
                 narrow: {
-                    0: "m.a.",
-                    1: "milodiy",
+                    "0": "m.a.",
+                    "1": "milodiy",
                     "0-alt-variant": "e.a.",
                     "1-alt-variant": "mil."
                 }

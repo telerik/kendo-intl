@@ -2215,20 +2215,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "преди Христа",
-                    1: "след Христа",
+                    "0": "преди Христа",
+                    "1": "след Христа",
                     "0-alt-variant": "преди новата ера",
                     "1-alt-variant": "след новата ера"
                 },
                 abbreviated: {
-                    0: "пр.Хр.",
-                    1: "сл.Хр.",
+                    "0": "пр.Хр.",
+                    "1": "сл.Хр.",
                     "0-alt-variant": "пр.н.е.",
                     "1-alt-variant": "сл.н.е."
                 },
                 narrow: {
-                    0: "пр.Хр.",
-                    1: "сл.Хр.",
+                    "0": "пр.Хр.",
+                    "1": "сл.Хр.",
                     "0-alt-variant": "пр.н.е.",
                     "1-alt-variant": "сл.н.е."
                 }
@@ -2315,6 +2315,10 @@ const data = {
         }
     },
     firstDay: 1,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         bg: "bg-Cyrl-BG"
     }

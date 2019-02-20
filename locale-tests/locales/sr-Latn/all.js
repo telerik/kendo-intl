@@ -2597,20 +2597,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "pre nove ere",
-                    1: "nove ere",
+                    "0": "pre nove ere",
+                    "1": "nove ere",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 },
                 abbreviated: {
-                    0: "p. n. e.",
-                    1: "n. e.",
+                    "0": "p. n. e.",
+                    "1": "n. e.",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 },
                 narrow: {
-                    0: "p.n.e.",
-                    1: "n.e.",
+                    "0": "p.n.e.",
+                    "1": "n.e.",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 }
@@ -2697,6 +2697,10 @@ const data = {
         }
     },
     firstDay: 1,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         sr: "sr-Cyrl-RS"
     }

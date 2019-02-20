@@ -370,20 +370,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "avanti Cristo",
-                    1: "dopo Cristo",
+                    "0": "avanti Cristo",
+                    "1": "dopo Cristo",
                     "0-alt-variant": "avanti Era Volgare",
                     "1-alt-variant": "Era Volgare"
                 },
                 abbreviated: {
-                    0: "a.C.",
-                    1: "d.C.",
+                    "0": "a.C.",
+                    "1": "d.C.",
                     "0-alt-variant": "a.E.V.",
                     "1-alt-variant": "E.V."
                 },
                 narrow: {
-                    0: "aC",
-                    1: "dC",
+                    "0": "aC",
+                    "1": "dC",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 }

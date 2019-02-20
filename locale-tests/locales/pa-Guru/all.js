@@ -2110,20 +2110,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "ਈਸਵੀ ਪੂਰਵ",
-                    1: "ਈਸਵੀ ਸੰਨ",
+                    "0": "ਈਸਵੀ ਪੂਰਵ",
+                    "1": "ਈਸਵੀ ਸੰਨ",
                     "0-alt-variant": "ਈਸਵੀ ਪੂਰਵ ਯੁੱਗ",
                     "1-alt-variant": "ਈਸਵੀ ਯੁੱਗ"
                 },
                 abbreviated: {
-                    0: "ਈ. ਪੂ.",
-                    1: "ਸੰਨ",
+                    "0": "ਈ. ਪੂ.",
+                    "1": "ਸੰਨ",
                     "0-alt-variant": "ਈ. ਪੂ. ਸੰ.",
                     "1-alt-variant": "ਈ. ਸੰ."
                 },
                 narrow: {
-                    0: "ਈ.ਪੂ.",
-                    1: "ਸੰਨ",
+                    "0": "ਈ.ਪੂ.",
+                    "1": "ਸੰਨ",
                     "0-alt-variant": "ਈ.ਪੂ.ਸੰ.",
                     "1-alt-variant": "ਈ.ਸੰ."
                 }
@@ -2210,6 +2210,10 @@ const data = {
         }
     },
     firstDay: 0,
+    weekendRange: {
+        start: 0,
+        end: 0
+    },
     likelySubtags: {
         pa: "pa-Guru-IN"
     }

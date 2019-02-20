@@ -2470,20 +2470,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "до нашої ери",
-                    1: "нашої ери",
+                    "0": "до нашої ери",
+                    "1": "нашої ери",
                     "0-alt-variant": "до нової ери",
                     "1-alt-variant": "нової ери"
                 },
                 abbreviated: {
-                    0: "до н. е.",
-                    1: "н. е.",
+                    "0": "до н. е.",
+                    "1": "н. е.",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 },
                 narrow: {
-                    0: "до н.е.",
-                    1: "н.е.",
+                    "0": "до н.е.",
+                    "1": "н.е.",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 }
@@ -2570,6 +2570,10 @@ const data = {
         }
     },
     firstDay: 1,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         uk: "uk-Cyrl-UA"
     }

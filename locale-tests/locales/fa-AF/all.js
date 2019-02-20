@@ -2089,20 +2089,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "قبل از میلاد",
-                    1: "میلادی",
+                    "0": "قبل از میلاد",
+                    "1": "میلادی",
                     "0-alt-variant": "قبل از دوران مشترک",
                     "1-alt-variant": "دوران مشترک"
                 },
                 abbreviated: {
-                    0: "ق.م.",
-                    1: "م.",
+                    "0": "ق.م.",
+                    "1": "م.",
                     "0-alt-variant": "ق.د.م",
                     "1-alt-variant": "د.م."
                 },
                 narrow: {
-                    0: "ق",
-                    1: "م",
+                    "0": "ق",
+                    "1": "م",
                     "0-alt-variant": "ق.د.م",
                     "1-alt-variant": "د.م."
                 }
@@ -2189,6 +2189,10 @@ const data = {
         }
     },
     firstDay: 6,
+    weekendRange: {
+        start: 4,
+        end: 5
+    },
     likelySubtags: {
         fa: "fa-Arab-IR"
     }

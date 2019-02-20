@@ -2070,20 +2070,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "para Krishtit",
-                    1: "mbas Krishtit",
+                    "0": "para Krishtit",
+                    "1": "mbas Krishtit",
                     "0-alt-variant": "para erës sonë",
                     "1-alt-variant": "erës sonë"
                 },
                 abbreviated: {
-                    0: "p.K.",
-                    1: "mb.K.",
+                    "0": "p.K.",
+                    "1": "mb.K.",
                     "0-alt-variant": "p.e.s.",
                     "1-alt-variant": "e.s."
                 },
                 narrow: {
-                    0: "p.K.",
-                    1: "mb.K.",
+                    "0": "p.K.",
+                    "1": "mb.K.",
                     "0-alt-variant": "p.e.s.",
                     "1-alt-variant": "e.s."
                 }
@@ -2170,6 +2170,10 @@ const data = {
         }
     },
     firstDay: 1,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         sq: "sq-Latn-AL"
     }

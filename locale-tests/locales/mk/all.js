@@ -2078,20 +2078,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "пред нашата ера",
-                    1: "од нашата ера",
+                    "0": "пред нашата ера",
+                    "1": "од нашата ера",
                     "0-alt-variant": "пр. н.е.",
                     "1-alt-variant": "нашата ера"
                 },
                 abbreviated: {
-                    0: "пр.н.е.",
-                    1: "н.е.",
+                    "0": "пр.н.е.",
+                    "1": "н.е.",
                     "0-alt-variant": "п.н.е.",
                     "1-alt-variant": "CE"
                 },
                 narrow: {
-                    0: "пр.н.е.",
-                    1: "н.е.",
+                    "0": "пр.н.е.",
+                    "1": "н.е.",
                     "0-alt-variant": "п.н.е.",
                     "1-alt-variant": "CE"
                 }
@@ -2178,6 +2178,10 @@ const data = {
         }
     },
     firstDay: 1,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         mk: "mk-Cyrl-MK"
     }

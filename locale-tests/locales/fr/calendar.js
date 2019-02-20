@@ -370,20 +370,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "avant Jésus-Christ",
-                    1: "après Jésus-Christ",
+                    "0": "avant Jésus-Christ",
+                    "1": "après Jésus-Christ",
                     "0-alt-variant": "avant l’ère commune",
                     "1-alt-variant": "de l’ère commune"
                 },
                 abbreviated: {
-                    0: "av. J.-C.",
-                    1: "ap. J.-C.",
+                    "0": "av. J.-C.",
+                    "1": "ap. J.-C.",
                     "0-alt-variant": "AEC",
                     "1-alt-variant": "EC"
                 },
                 narrow: {
-                    0: "av. J.-C.",
-                    1: "ap. J.-C.",
+                    "0": "av. J.-C.",
+                    "1": "ap. J.-C.",
                     "0-alt-variant": "AEC",
                     "1-alt-variant": "EC"
                 }

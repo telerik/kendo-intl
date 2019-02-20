@@ -1923,20 +1923,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "ปีก่อนคริสตกาล",
-                    1: "คริสต์ศักราช",
+                    "0": "ปีก่อนคริสตกาล",
+                    "1": "คริสต์ศักราช",
                     "0-alt-variant": "ก่อนสามัญศักราช",
                     "1-alt-variant": "สามัญศักราช"
                 },
                 abbreviated: {
-                    0: "ก่อน ค.ศ.",
-                    1: "ค.ศ.",
+                    "0": "ก่อน ค.ศ.",
+                    "1": "ค.ศ.",
                     "0-alt-variant": "ก.ส.ศ.",
                     "1-alt-variant": "ส.ศ."
                 },
                 narrow: {
-                    0: "ก่อน ค.ศ.",
-                    1: "ค.ศ.",
+                    "0": "ก่อน ค.ศ.",
+                    "1": "ค.ศ.",
                     "0-alt-variant": "ก.ส.ศ.",
                     "1-alt-variant": "ส.ศ."
                 }
@@ -2023,6 +2023,10 @@ const data = {
         }
     },
     firstDay: 0,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         th: "th-Thai-TH"
     }

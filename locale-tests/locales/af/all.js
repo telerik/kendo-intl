@@ -2057,20 +2057,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "voor Christus",
-                    1: "na Christus",
+                    "0": "voor Christus",
+                    "1": "na Christus",
                     "0-alt-variant": "voor die gewone jaartelling",
                     "1-alt-variant": "gewone jaartelling"
                 },
                 abbreviated: {
-                    0: "v.C.",
-                    1: "n.C.",
+                    "0": "v.C.",
+                    "1": "n.C.",
                     "0-alt-variant": "v.g.j.",
                     "1-alt-variant": "g.j."
                 },
                 narrow: {
-                    0: "v.C.",
-                    1: "n.C.",
+                    "0": "v.C.",
+                    "1": "n.C.",
                     "0-alt-variant": "v.g.j.",
                     "1-alt-variant": "g.j."
                 }
@@ -2157,6 +2157,10 @@ const data = {
         }
     },
     firstDay: 0,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         af: "af-Latn-ZA"
     }

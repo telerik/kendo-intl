@@ -2064,20 +2064,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "манай эриний өмнөх",
-                    1: "манай эриний",
+                    "0": "манай эриний өмнөх",
+                    "1": "манай эриний",
                     "0-alt-variant": "НТӨ",
                     "1-alt-variant": "НТ"
                 },
                 abbreviated: {
-                    0: "МЭӨ",
-                    1: "МЭ",
+                    "0": "МЭӨ",
+                    "1": "МЭ",
                     "0-alt-variant": "НТӨ",
                     "1-alt-variant": "НТ"
                 },
                 narrow: {
-                    0: "МЭӨ",
-                    1: "МЭ",
+                    "0": "МЭӨ",
+                    "1": "МЭ",
                     "0-alt-variant": "НТӨ",
                     "1-alt-variant": "НТ"
                 }
@@ -2164,6 +2164,10 @@ const data = {
         }
     },
     firstDay: 1,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         mn: "mn-Cyrl-MN"
     }

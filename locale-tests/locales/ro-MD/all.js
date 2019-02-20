@@ -2412,20 +2412,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "înainte de Hristos",
-                    1: "după Hristos",
+                    "0": "înainte de Hristos",
+                    "1": "după Hristos",
                     "0-alt-variant": "înaintea erei noastre",
                     "1-alt-variant": "era noastră"
                 },
                 abbreviated: {
-                    0: "î.Hr.",
-                    1: "d.Hr.",
+                    "0": "î.Hr.",
+                    "1": "d.Hr.",
                     "0-alt-variant": "î.e.n.",
                     "1-alt-variant": "e.n."
                 },
                 narrow: {
-                    0: "î.Hr.",
-                    1: "d.Hr.",
+                    "0": "î.Hr.",
+                    "1": "d.Hr.",
                     "0-alt-variant": "î.e.n",
                     "1-alt-variant": "e.n."
                 }
@@ -2512,6 +2512,10 @@ const data = {
         }
     },
     firstDay: 1,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         ro: "ro-Latn-RO"
     }
