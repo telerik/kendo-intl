@@ -31,7 +31,7 @@ describe('generated-locales', () => {
 
             describe(`numbers`, () => {
                 beforeAll(() => {
-                    const numbers = require(`./locales/${ locale }/numbers`).default;
+                    const numbers = require(`./locales/${ locale }/numbers`);
                     setData(numbers);
                 });
 
@@ -57,8 +57,8 @@ describe('generated-locales', () => {
 
                 describe(`currency`, () => {
                     beforeAll(() => {
-                        const numbers = require(`./locales/${ locale }/numbers`).default;
-                        const currencies = require(`./locales/${ locale }/currencies`).default;
+                        const numbers = require(`./locales/${ locale }/numbers`);
+                        const currencies = require(`./locales/${ locale }/currencies`);
 
                         setData(numbers);
                         setData(currencies);
@@ -98,7 +98,7 @@ describe('generated-locales', () => {
 
             describe(`calendar`, () => {
                 beforeAll(() => {
-                    const calendar = require(`./locales/${ locale }/calendar`).default;
+                    const calendar = require(`./locales/${ locale }/calendar`);
                     setData(calendar);
                 });
 
@@ -127,7 +127,7 @@ describe('generated-locales', () => {
 
             describe(`all`, () => {
                 beforeAll(() => {
-                    const all = require(`./locales/${ locale }/all`).default;
+                    const all = require(`./locales/${ locale }/all`);
                     setData(all);
                 });
 
