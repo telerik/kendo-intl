@@ -386,20 +386,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "Milattan Önce",
-                    1: "Milattan Sonra",
+                    "0": "Milattan Önce",
+                    "1": "Milattan Sonra",
                     "0-alt-variant": "İsa’dan Önce",
                     "1-alt-variant": "İsa’dan Sonra"
                 },
                 abbreviated: {
-                    0: "MÖ",
-                    1: "MS",
+                    "0": "MÖ",
+                    "1": "MS",
                     "0-alt-variant": "İÖ",
                     "1-alt-variant": "İS"
                 },
                 narrow: {
-                    0: "MÖ",
-                    1: "MS",
+                    "0": "MÖ",
+                    "1": "MS",
                     "0-alt-variant": "İÖ",
                     "1-alt-variant": "İS"
                 }

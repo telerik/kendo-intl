@@ -2071,20 +2071,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "Before Christ",
-                    1: "Anno Domini",
+                    "0": "Before Christ",
+                    "1": "Anno Domini",
                     "0-alt-variant": "Before Common Era",
                     "1-alt-variant": "Common Era"
                 },
                 abbreviated: {
-                    0: "BC",
-                    1: "AD",
+                    "0": "BC",
+                    "1": "AD",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 },
                 narrow: {
-                    0: "BC",
-                    1: "AD",
+                    "0": "BC",
+                    "1": "AD",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 }
@@ -2171,6 +2171,10 @@ const data = {
         }
     },
     firstDay: 0,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         fil: "fil-Latn-PH"
     }

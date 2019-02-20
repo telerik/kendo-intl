@@ -334,20 +334,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "مسيح کان اڳ",
-                    1: "عيسوي کان پهرين",
+                    "0": "مسيح کان اڳ",
+                    "1": "عيسوي کان پهرين",
                     "0-alt-variant": "عام دور کان پهرين",
                     "1-alt-variant": "عام دور"
                 },
                 abbreviated: {
-                    0: "BC",
-                    1: "CD",
+                    "0": "BC",
+                    "1": "CD",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 },
                 narrow: {
-                    0: "BC",
-                    1: "CD",
+                    "0": "BC",
+                    "1": "CD",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 }

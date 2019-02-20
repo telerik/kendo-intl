@@ -1898,20 +1898,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "មុន​គ្រិស្តសករាជ",
-                    1: "គ្រិស្តសករាជ",
+                    "0": "មុន​គ្រិស្តសករាជ",
+                    "1": "គ្រិស្តសករាជ",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 },
                 abbreviated: {
-                    0: "មុន គ.ស.",
-                    1: "គ.ស.",
+                    "0": "មុន គ.ស.",
+                    "1": "គ.ស.",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 },
                 narrow: {
-                    0: "មុន គ.ស.",
-                    1: "គ.ស.",
+                    "0": "មុន គ.ស.",
+                    "1": "គ.ស.",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 }
@@ -1998,6 +1998,10 @@ const data = {
         }
     },
     firstDay: 0,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         km: "km-Khmr-KH"
     }

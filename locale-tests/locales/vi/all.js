@@ -1902,20 +1902,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "Trước CN",
-                    1: "sau CN",
+                    "0": "Trước CN",
+                    "1": "sau CN",
                     "0-alt-variant": "trước CN",
                     "1-alt-variant": "CN"
                 },
                 abbreviated: {
-                    0: "Trước CN",
-                    1: "sau CN",
+                    "0": "Trước CN",
+                    "1": "sau CN",
                     "0-alt-variant": "trước CN",
                     "1-alt-variant": "CN"
                 },
                 narrow: {
-                    0: "tr. CN",
-                    1: "sau CN",
+                    "0": "tr. CN",
+                    "1": "sau CN",
                     "0-alt-variant": "trước CN",
                     "1-alt-variant": "CN"
                 }
@@ -2002,6 +2002,10 @@ const data = {
         }
     },
     firstDay: 1,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         vi: "vi-Latn-VN"
     }

@@ -1897,20 +1897,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "ခရစ်တော် မပေါ်မီနှစ်",
-                    1: "ခရစ်နှစ်",
+                    "0": "ခရစ်တော် မပေါ်မီနှစ်",
+                    "1": "ခရစ်နှစ်",
                     "0-alt-variant": "ဘုံခေတ် မတိုင်မီ",
                     "1-alt-variant": "ဘုံခေတ်"
                 },
                 abbreviated: {
-                    0: "ဘီစီ",
-                    1: "အဒေီ",
+                    "0": "ဘီစီ",
+                    "1": "အဒေီ",
                     "0-alt-variant": "ဘီစီအီး",
                     "1-alt-variant": "စီအီး"
                 },
                 narrow: {
-                    0: "ဘီစီ",
-                    1: "အဒေီ",
+                    "0": "ဘီစီ",
+                    "1": "အဒေီ",
                     "0-alt-variant": "ဘီစီအီး",
                     "1-alt-variant": "စီအီး"
                 }
@@ -1997,6 +1997,10 @@ const data = {
         }
     },
     firstDay: 0,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         my: "my-Mymr-MM"
     }

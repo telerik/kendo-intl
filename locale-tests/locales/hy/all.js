@@ -2064,20 +2064,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "Քրիստոսից առաջ",
-                    1: "Քրիստոսից հետո",
+                    "0": "Քրիստոսից առաջ",
+                    "1": "Քրիստոսից հետո",
                     "0-alt-variant": "մեր թվարկությունից առաջ",
                     "1-alt-variant": "մեր թվարկության"
                 },
                 abbreviated: {
-                    0: "մ.թ.ա.",
-                    1: "մ.թ.",
+                    "0": "մ.թ.ա.",
+                    "1": "մ.թ.",
                     "0-alt-variant": "մ․թ․ա․",
                     "1-alt-variant": "մ․թ․"
                 },
                 narrow: {
-                    0: "մ.թ.ա.",
-                    1: "մ.թ.",
+                    "0": "մ.թ.ա.",
+                    "1": "մ.թ.",
                     "0-alt-variant": "մ․թ․ա․",
                     "1-alt-variant": "մ․թ․"
                 }
@@ -2164,6 +2164,10 @@ const data = {
         }
     },
     firstDay: 1,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         hy: "hy-Armn-AM"
     }

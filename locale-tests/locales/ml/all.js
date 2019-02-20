@@ -2275,20 +2275,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "ക്രിസ്‌തുവിന് മുമ്പ്",
-                    1: "ആന്നോ ഡൊമിനി",
+                    "0": "ക്രിസ്‌തുവിന് മുമ്പ്",
+                    "1": "ആന്നോ ഡൊമിനി",
                     "0-alt-variant": "ബി.സി.ഇ.",
                     "1-alt-variant": "സി.ഇ."
                 },
                 abbreviated: {
-                    0: "ക്രി.മു.",
-                    1: "എഡി",
+                    "0": "ക്രി.മു.",
+                    "1": "എഡി",
                     "0-alt-variant": "ബിസിഇ",
                     "1-alt-variant": "സിഇ"
                 },
                 narrow: {
-                    0: "ക്രി.മു.",
-                    1: "എഡി",
+                    "0": "ക്രി.മു.",
+                    "1": "എഡി",
                     "0-alt-variant": "ബിസിഇ",
                     "1-alt-variant": "സിഇ"
                 }
@@ -2375,6 +2375,10 @@ const data = {
         }
     },
     firstDay: 0,
+    weekendRange: {
+        start: 0,
+        end: 0
+    },
     likelySubtags: {
         ml: "ml-Mlym-IN"
     }

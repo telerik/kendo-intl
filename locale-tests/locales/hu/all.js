@@ -2159,20 +2159,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "Krisztus előtt",
-                    1: "időszámításunk szerint",
+                    "0": "Krisztus előtt",
+                    "1": "időszámításunk szerint",
                     "0-alt-variant": "időszámításunk előtt",
                     "1-alt-variant": "i. sz."
                 },
                 abbreviated: {
-                    0: "i. e.",
-                    1: "i. sz.",
+                    "0": "i. e.",
+                    "1": "i. sz.",
                     "0-alt-variant": "i.e.",
                     "1-alt-variant": "i.sz."
                 },
                 narrow: {
-                    0: "ie.",
-                    1: "isz.",
+                    "0": "ie.",
+                    "1": "isz.",
                     "0-alt-variant": "i.e.",
                     "1-alt-variant": "i.sz."
                 }
@@ -2259,6 +2259,10 @@ const data = {
         }
     },
     firstDay: 1,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         hu: "hu-Latn-HU"
     }

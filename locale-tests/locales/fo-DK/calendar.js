@@ -335,20 +335,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "fyri Krist",
-                    1: "eftir Krist",
+                    "0": "fyri Krist",
+                    "1": "eftir Krist",
                     "0-alt-variant": "fyri okkara tíðarrokning",
                     "1-alt-variant": "okkara tíðarrokning"
                 },
                 abbreviated: {
-                    0: "f.Kr.",
-                    1: "e.Kr.",
+                    "0": "f.Kr.",
+                    "1": "e.Kr.",
                     "0-alt-variant": "f.o.tíðr.",
                     "1-alt-variant": "o.tíðr."
                 },
                 narrow: {
-                    0: "fKr",
-                    1: "eKr",
+                    "0": "fKr",
+                    "1": "eKr",
                     "0-alt-variant": "flt",
                     "1-alt-variant": "lt"
                 }

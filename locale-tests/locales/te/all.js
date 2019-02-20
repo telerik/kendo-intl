@@ -2062,20 +2062,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "క్రీస్తు పూర్వం",
-                    1: "క్రీస్తు శకం",
+                    "0": "క్రీస్తు పూర్వం",
+                    "1": "క్రీస్తు శకం",
                     "0-alt-variant": "ప్రస్తుత శకానికి పూర్వం",
                     "1-alt-variant": "ప్రస్తుత శకం"
                 },
                 abbreviated: {
-                    0: "క్రీపూ",
-                    1: "క్రీశ",
+                    "0": "క్రీపూ",
+                    "1": "క్రీశ",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 },
                 narrow: {
-                    0: "క్రీపూ",
-                    1: "క్రీశ",
+                    "0": "క్రీపూ",
+                    "1": "క్రీశ",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 }
@@ -2162,6 +2162,10 @@ const data = {
         }
     },
     firstDay: 0,
+    weekendRange: {
+        start: 0,
+        end: 0
+    },
     likelySubtags: {
         te: "te-Telu-IN"
     }

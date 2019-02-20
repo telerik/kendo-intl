@@ -2088,20 +2088,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "கிறிஸ்துவுக்கு முன்",
-                    1: "அன்னோ டோமினி",
+                    "0": "கிறிஸ்துவுக்கு முன்",
+                    "1": "அன்னோ டோமினி",
                     "0-alt-variant": "பொ.ச.மு",
                     "1-alt-variant": "பொ.ச"
                 },
                 abbreviated: {
-                    0: "கி.மு.",
-                    1: "கி.பி.",
+                    "0": "கி.மு.",
+                    "1": "கி.பி.",
                     "0-alt-variant": "பொ.ச.மு",
                     "1-alt-variant": "பொ.ச"
                 },
                 narrow: {
-                    0: "கி.மு.",
-                    1: "கி.பி.",
+                    "0": "கி.மு.",
+                    "1": "கி.பி.",
                     "0-alt-variant": "பொ.ச.மு",
                     "1-alt-variant": "பொ.ச"
                 }
@@ -2188,6 +2188,10 @@ const data = {
         }
     },
     firstDay: 1,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         ta: "ta-Taml-IN"
     }

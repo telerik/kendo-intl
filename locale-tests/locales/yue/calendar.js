@@ -376,20 +376,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "西元前",
-                    1: "西元",
+                    "0": "西元前",
+                    "1": "西元",
                     "0-alt-variant": "公元前",
                     "1-alt-variant": "公元"
                 },
                 abbreviated: {
-                    0: "西元前",
-                    1: "西元",
+                    "0": "西元前",
+                    "1": "西元",
                     "0-alt-variant": "公元前",
                     "1-alt-variant": "公元"
                 },
                 narrow: {
-                    0: "西元前",
-                    1: "西元",
+                    "0": "西元前",
+                    "1": "西元",
                     "0-alt-variant": "公元前",
                     "1-alt-variant": "公元"
                 }

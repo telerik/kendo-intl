@@ -2353,20 +2353,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "v. Chr.",
-                    1: "n. Chr.",
+                    "0": "v. Chr.",
+                    "1": "n. Chr.",
                     "0-alt-variant": "vor unserer Zeitrechnung",
                     "1-alt-variant": "unserer Zeitrechnung"
                 },
                 abbreviated: {
-                    0: "v. Chr.",
-                    1: "n. Chr.",
+                    "0": "v. Chr.",
+                    "1": "n. Chr.",
                     "0-alt-variant": "v. u. Z.",
                     "1-alt-variant": "u. Z."
                 },
                 narrow: {
-                    0: "v. Chr.",
-                    1: "n. Chr.",
+                    "0": "v. Chr.",
+                    "1": "n. Chr.",
                     "0-alt-variant": "v. u. Z.",
                     "1-alt-variant": "u. Z."
                 }
@@ -2453,6 +2453,10 @@ const data = {
         }
     },
     firstDay: 1,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         de: "de-Latn-DE"
     }

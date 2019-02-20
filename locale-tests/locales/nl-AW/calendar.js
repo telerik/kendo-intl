@@ -365,20 +365,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "voor Christus",
-                    1: "na Christus",
+                    "0": "voor Christus",
+                    "1": "na Christus",
                     "0-alt-variant": "vóór gewone jaartelling",
                     "1-alt-variant": "gewone jaartelling"
                 },
                 abbreviated: {
-                    0: "v.Chr.",
-                    1: "n.Chr.",
+                    "0": "v.Chr.",
+                    "1": "n.Chr.",
                     "0-alt-variant": "v.g.j.",
                     "1-alt-variant": "g.j."
                 },
                 narrow: {
-                    0: "v.C.",
-                    1: "n.C.",
+                    "0": "v.C.",
+                    "1": "n.C.",
                     "0-alt-variant": "vgj",
                     "1-alt-variant": "gj"
                 }

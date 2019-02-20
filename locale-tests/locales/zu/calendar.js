@@ -364,20 +364,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "BC",
-                    1: "AD",
+                    "0": "BC",
+                    "1": "AD",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 },
                 abbreviated: {
-                    0: "BC",
-                    1: "AD",
+                    "0": "BC",
+                    "1": "AD",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 },
                 narrow: {
-                    0: "BC",
-                    1: "AD",
+                    "0": "BC",
+                    "1": "AD",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 }

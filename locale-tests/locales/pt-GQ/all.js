@@ -2346,20 +2346,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "antes de Cristo",
-                    1: "depois de Cristo",
+                    "0": "antes de Cristo",
+                    "1": "depois de Cristo",
                     "0-alt-variant": "antes da Era Comum",
                     "1-alt-variant": "Era Comum"
                 },
                 abbreviated: {
-                    0: "a.C.",
-                    1: "d.C.",
+                    "0": "a.C.",
+                    "1": "d.C.",
                     "0-alt-variant": "a.E.C.",
                     "1-alt-variant": "E.C."
                 },
                 narrow: {
-                    0: "a.C.",
-                    1: "d.C.",
+                    "0": "a.C.",
+                    "1": "d.C.",
                     "0-alt-variant": "a.E.C.",
                     "1-alt-variant": "E.C."
                 }
@@ -2446,6 +2446,10 @@ const data = {
         }
     },
     firstDay: 1,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         pt: "pt-Latn-BR"
     }

@@ -2611,20 +2611,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "prije nove ere",
-                    1: "nove ere",
+                    "0": "prije nove ere",
+                    "1": "nove ere",
                     "0-alt-variant": "P.n.e.",
                     "1-alt-variant": "Nove ere"
                 },
                 abbreviated: {
-                    0: "p. n. e.",
-                    1: "n. e.",
+                    "0": "p. n. e.",
+                    "1": "n. e.",
                     "0-alt-variant": "p.n.e.",
                     "1-alt-variant": "n.e."
                 },
                 narrow: {
-                    0: "p.n.e.",
-                    1: "n.e.",
+                    "0": "p.n.e.",
+                    "1": "n.e.",
                     "0-alt-variant": "p.n.e.",
                     "1-alt-variant": "n.e."
                 }
@@ -2711,6 +2711,10 @@ const data = {
         }
     },
     firstDay: 1,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         bs: "bs-Latn-BA"
     }

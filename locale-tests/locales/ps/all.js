@@ -2021,20 +2021,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "له میلاد څخه وړاندې",
-                    1: "له میلاد څخه وروسته",
+                    "0": "له میلاد څخه وړاندې",
+                    "1": "له میلاد څخه وروسته",
                     "0-alt-variant": "له عام پېر دمخه",
                     "1-alt-variant": "CE"
                 },
                 abbreviated: {
-                    0: "له میلاد وړاندې",
-                    1: "م.",
+                    "0": "له میلاد وړاندې",
+                    "1": "م.",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "ع.پ"
                 },
                 narrow: {
-                    0: "له میلاد وړاندې",
-                    1: "م.",
+                    "0": "له میلاد وړاندې",
+                    "1": "م.",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "ع.پ"
                 }
@@ -2121,6 +2121,10 @@ const data = {
         }
     },
     firstDay: 6,
+    weekendRange: {
+        start: 4,
+        end: 5
+    },
     likelySubtags: {
         ps: "ps-Arab-AF"
     }

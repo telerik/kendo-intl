@@ -2354,20 +2354,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "ennen Kristuksen syntymää",
-                    1: "jälkeen Kristuksen syntymän",
+                    "0": "ennen Kristuksen syntymää",
+                    "1": "jälkeen Kristuksen syntymän",
                     "0-alt-variant": "ennen ajanlaskun alkua",
                     "1-alt-variant": "jälkeen ajanlaskun alun"
                 },
                 abbreviated: {
-                    0: "eKr.",
-                    1: "jKr.",
+                    "0": "eKr.",
+                    "1": "jKr.",
                     "0-alt-variant": "eaa.",
                     "1-alt-variant": "jaa."
                 },
                 narrow: {
-                    0: "eKr",
-                    1: "jKr",
+                    "0": "eKr",
+                    "1": "jKr",
                     "0-alt-variant": "eaa",
                     "1-alt-variant": "jaa"
                 }
@@ -2454,6 +2454,10 @@ const data = {
         }
     },
     firstDay: 1,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         fi: "fi-Latn-FI"
     }

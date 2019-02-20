@@ -383,20 +383,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "eramızdan əvvəl",
-                    1: "yeni era",
+                    "0": "eramızdan əvvəl",
+                    "1": "yeni era",
                     "0-alt-variant": "bizim eradan əvvəl",
                     "1-alt-variant": "bizim era"
                 },
                 abbreviated: {
-                    0: "e.ə.",
-                    1: "y.e.",
+                    "0": "e.ə.",
+                    "1": "y.e.",
                     "0-alt-variant": "b.e.ə.",
                     "1-alt-variant": "b.e."
                 },
                 narrow: {
-                    0: "e.ə.",
-                    1: "y.e.",
+                    "0": "e.ə.",
+                    "1": "y.e.",
                     "0-alt-variant": "b.e.ə.",
                     "1-alt-variant": "b.e."
                 }

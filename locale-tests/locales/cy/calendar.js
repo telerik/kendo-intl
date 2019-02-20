@@ -373,20 +373,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "Cyn Crist",
-                    1: "Oed Crist",
+                    "0": "Cyn Crist",
+                    "1": "Oed Crist",
                     "0-alt-variant": "Cyn Cyfnod Cyffredin",
                     "1-alt-variant": "Cyfnod Cyffredin"
                 },
                 abbreviated: {
-                    0: "CC",
-                    1: "OC",
+                    "0": "CC",
+                    "1": "OC",
                     "0-alt-variant": "CCC",
                     "1-alt-variant": "CYCY"
                 },
                 narrow: {
-                    0: "C",
-                    1: "O",
+                    "0": "C",
+                    "1": "O",
                     "0-alt-variant": "CCC",
                     "1-alt-variant": "CYCY"
                 }

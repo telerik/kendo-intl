@@ -2268,20 +2268,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "f.Kr.",
-                    1: "e.Kr.",
+                    "0": "f.Kr.",
+                    "1": "e.Kr.",
                     "0-alt-variant": "før vesterlandsk tidsregning",
                     "1-alt-variant": "vesterlandsk tidsregning"
                 },
                 abbreviated: {
-                    0: "f.Kr.",
-                    1: "e.Kr.",
+                    "0": "f.Kr.",
+                    "1": "e.Kr.",
                     "0-alt-variant": "f.v.t.",
                     "1-alt-variant": "v.t."
                 },
                 narrow: {
-                    0: "fKr",
-                    1: "eKr",
+                    "0": "fKr",
+                    "1": "eKr",
                     "0-alt-variant": "fvt",
                     "1-alt-variant": "vt"
                 }
@@ -2368,6 +2368,10 @@ const data = {
         }
     },
     firstDay: 1,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         da: "da-Latn-DK"
     }

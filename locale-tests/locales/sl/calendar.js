@@ -381,20 +381,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "pred Kristusom",
-                    1: "po Kristusu",
+                    "0": "pred Kristusom",
+                    "1": "po Kristusu",
                     "0-alt-variant": "pred našim štetjem",
                     "1-alt-variant": "po našem štetju"
                 },
                 abbreviated: {
-                    0: "pr. Kr.",
-                    1: "po Kr.",
+                    "0": "pr. Kr.",
+                    "1": "po Kr.",
                     "0-alt-variant": "pr. n. št.",
                     "1-alt-variant": "po n. št."
                 },
                 narrow: {
-                    0: "pr. Kr.",
-                    1: "po Kr.",
+                    "0": "pr. Kr.",
+                    "1": "po Kr.",
                     "0-alt-variant": "pr. n. št.",
                     "1-alt-variant": "po n. št."
                 }

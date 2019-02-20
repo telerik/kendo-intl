@@ -378,20 +378,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "före Kristus",
-                    1: "efter Kristus",
+                    "0": "före Kristus",
+                    "1": "efter Kristus",
                     "0-alt-variant": "före västerländsk tideräkning",
                     "1-alt-variant": "västerländsk tideräkning"
                 },
                 abbreviated: {
-                    0: "f.Kr.",
-                    1: "e.Kr.",
+                    "0": "f.Kr.",
+                    "1": "e.Kr.",
                     "0-alt-variant": "f.v.t.",
                     "1-alt-variant": "v.t."
                 },
                 narrow: {
-                    0: "f.Kr.",
-                    1: "e.Kr.",
+                    "0": "f.Kr.",
+                    "1": "e.Kr.",
                     "0-alt-variant": "f.v.t.",
                     "1-alt-variant": "v.t."
                 }

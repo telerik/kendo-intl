@@ -2062,20 +2062,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "биздин заманга чейин",
-                    1: "биздин заман",
+                    "0": "биздин заманга чейин",
+                    "1": "биздин заман",
                     "0-alt-variant": "б.з.ч.",
                     "1-alt-variant": "CE"
                 },
                 abbreviated: {
-                    0: "б.з.ч.",
-                    1: "б.з.",
+                    "0": "б.з.ч.",
+                    "1": "б.з.",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 },
                 narrow: {
-                    0: "б.з.ч.",
-                    1: "б.з.",
+                    "0": "б.з.ч.",
+                    "1": "б.з.",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 }
@@ -2162,6 +2162,10 @@ const data = {
         }
     },
     firstDay: 1,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         ky: "ky-Cyrl-KG"
     }

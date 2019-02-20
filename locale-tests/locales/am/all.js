@@ -2068,20 +2068,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "ዓመተ ዓለም",
-                    1: "ዓመተ ምሕረት",
+                    "0": "ዓመተ ዓለም",
+                    "1": "ዓመተ ምሕረት",
                     "0-alt-variant": "ዓ/ዓ",
                     "1-alt-variant": "ዓ/ም"
                 },
                 abbreviated: {
-                    0: "ዓ/ዓ",
-                    1: "ዓ/ም",
+                    "0": "ዓ/ዓ",
+                    "1": "ዓ/ም",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 },
                 narrow: {
-                    0: "ዓ/ዓ",
-                    1: "ዓ/ም",
+                    "0": "ዓ/ዓ",
+                    "1": "ዓ/ም",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 }
@@ -2168,6 +2168,10 @@ const data = {
         }
     },
     firstDay: 0,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         am: "am-Ethi-ET"
     }

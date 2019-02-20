@@ -2064,20 +2064,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "ईसा-पूर्व",
-                    1: "ईसवी सन",
+                    "0": "ईसा-पूर्व",
+                    "1": "ईसवी सन",
                     "0-alt-variant": "ईसवी पूर्व",
                     "1-alt-variant": "ईसवी"
                 },
                 abbreviated: {
-                    0: "ईसा-पूर्व",
-                    1: "ईस्वी",
+                    "0": "ईसा-पूर्व",
+                    "1": "ईस्वी",
                     "0-alt-variant": "ईसवी पूर्व",
                     "1-alt-variant": "ईसवी"
                 },
                 narrow: {
-                    0: "ईसा-पूर्व",
-                    1: "ईस्वी",
+                    "0": "ईसा-पूर्व",
+                    "1": "ईस्वी",
                     "0-alt-variant": "ईसवी पूर्व",
                     "1-alt-variant": "ईसवी"
                 }
@@ -2164,6 +2164,10 @@ const data = {
         }
     },
     firstDay: 0,
+    weekendRange: {
+        start: 0,
+        end: 0
+    },
     likelySubtags: {
         hi: "hi-Deva-IN"
     }

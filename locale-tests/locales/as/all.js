@@ -2025,20 +2025,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "খ্ৰীষ্টপূৰ্ব",
-                    1: "খ্ৰীষ্টাব্দ",
+                    "0": "খ্ৰীষ্টপূৰ্ব",
+                    "1": "খ্ৰীষ্টাব্দ",
                     "0-alt-variant": "খ্ৰীষ্টপূৰ্ব",
                     "1-alt-variant": "চি. ই."
                 },
                 abbreviated: {
-                    0: "খ্ৰীঃ পূঃ",
-                    1: "খ্ৰীঃ",
+                    "0": "খ্ৰীঃ পূঃ",
+                    "1": "খ্ৰীঃ",
                     "0-alt-variant": "খ্ৰীষ্টপূৰ্ব",
                     "1-alt-variant": "চি. ই."
                 },
                 narrow: {
-                    0: "খ্ৰীঃ পূঃ",
-                    1: "খ্ৰীঃ",
+                    "0": "খ্ৰীঃ পূঃ",
+                    "1": "খ্ৰীঃ",
                     "0-alt-variant": "খ্ৰীষ্টপূৰ্ব",
                     "1-alt-variant": "চি. ই."
                 }
@@ -2125,6 +2125,10 @@ const data = {
         }
     },
     firstDay: 0,
+    weekendRange: {
+        start: 0,
+        end: 0
+    },
     likelySubtags: {
         as: "as-Beng-IN"
     }
