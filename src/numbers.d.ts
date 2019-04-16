@@ -48,7 +48,8 @@ export interface NumberFormatOptions {
 }
 
 /**
- * Converts a string into a `Number` based on the specified locale.
+ * Converts a string into a `Number` based on the specified locale
+ * ([see example]({% slug parsingandformatting_intl %}#toc-number-parsing)).
  *
  * @param value - The string that will be parsed.
  * @param locale - The locale `id` that defines the locale whose information should be used to parse the string.
@@ -58,7 +59,8 @@ export interface NumberFormatOptions {
 export function parseNumber(value: string, locale?: string, format?: string|NumberFormatOptions): number;
 
 /**
- * Converts a `Number` into a string based on the specified format and locale.
+ * Converts a `Number` into a string based on the specified format and locale
+ * ([see example]({% slug parsingandformatting_intl %}#toc-number-formatting)).
  *
  * @param value - The number that will be formatted.
  * @param format - The format that will be applied.
