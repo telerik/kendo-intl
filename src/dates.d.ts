@@ -82,7 +82,8 @@ export interface DateFormatOptions {
 }
 
 /**
- * Converts a `Date` object into a string based on the specified format and locale.
+ * Converts a `Date` object into a string based on the specified format and locale
+ * ([see example]({% slug parsingandformatting_intl %}#toc-date-formatting)).
  *
  * @param value - Defines the date that will be formatted.
  * @param format - Defines a string that represents a predefined or custom date format, or a configuration object.
@@ -92,7 +93,8 @@ export interface DateFormatOptions {
 export function formatDate(value: Date, format: string|DateFormatOptions, locale?: string): string;
 
 /**
- * Converts a string into a `Date` object based on the specified format and locale.
+ * Converts a string into a `Date` object based on the specified format and locale
+ * ([see example]({% slug parsingandformatting_intl %}#toc-date-parsing)).
  *
  * @param value - Defines the string that will be parsed.
  * @param format - Defines a string that represents a predefined or custom date format, a configuration object, or an array of formats that should be used to parse the value.

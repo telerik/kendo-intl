@@ -14,7 +14,7 @@ Provides information about the exported methods from the Number Parsing module.
 
 ### parseNumber
 
-Converts a string into a `Number` based on the specified locale.
+Converts a string into a `Number` based on the specified locale ([see example]({% slug parsingandformatting_intl %}#toc-number-parsing)).
 
 ## Parameters
 

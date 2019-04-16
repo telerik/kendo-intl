@@ -14,7 +14,7 @@ Provides information about the exported methods from the Date Parsing module.
 
 #### parseDate
 
-Converts a string into a `Date` object based on the specified format and locale.
+Converts a string into a `Date` object based on the specified format and locale ([see example]({% slug parsingandformatting_intl %}#toc-date-parsing)).
 
 ## Parameters
 
