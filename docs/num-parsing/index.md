@@ -8,7 +8,7 @@ position: 1
 
 # Number Parsing
 
-Number parsing converts a string to a `Number` object by using the specific settings of the locale.
+Number parsing converts a string into a `Number` object by using the specific settings of the locale.
 
 ## Configuration
 

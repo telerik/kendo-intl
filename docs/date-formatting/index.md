@@ -8,7 +8,7 @@ position: 1
 
 # Date Formatting
 
-Date formatting converts a `Date` object to a human-readable string using the locale specific settings.
+Date formatting converts a `Date` object into a human-readable string using the locale specific settings.
 
 The `formatDate` method supports the usage of predefined and custom formats specified as strings, and standard formats specified as objects.
 

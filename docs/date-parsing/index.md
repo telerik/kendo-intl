@@ -8,7 +8,7 @@ position: 1
 
 # Date Parsing
 
-Date parsing converts a string to a `Date` object by using the locale specific settings.
+Date parsing converts a string into a `Date` object by using the locale specific settings.
 
 You can use the `parseDate` method to parse values based on the specified formats or implicitly based on the locale predefined formats and some of the standard date formats. If the formats are omitted, the locale predefined patterns and the standard ISO formats are used to parse the string.
 

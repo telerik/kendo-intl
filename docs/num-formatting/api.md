@@ -14,7 +14,7 @@ Provides information about the exported methods from the Number Formatting modul
 
 ### formatNumber
 
-Converts a `Number` to a string based on the specified format and locale.
+Converts a `Number` into a string based on the specified format and locale.
 
 ## Parameters
 
