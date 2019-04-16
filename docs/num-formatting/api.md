@@ -14,7 +14,7 @@ Provides information about the exported methods from the Number Formatting modul
 
 ### formatNumber
 
-Converts a `Number` into a string based on the specified format and locale ([see example]({% slug parsingandformatting_intl %}#toc-number-formatting)).
+Converts a `Number` into a string based on the specified format and locale ([see example](https://github.com/telerik/kendo-intl/blob/master/docs/num-formatting/index.md).
 
 ## Parameters
 

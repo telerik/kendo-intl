@@ -49,7 +49,7 @@ export interface NumberFormatOptions {
 
 /**
  * Converts a string into a `Number` based on the specified locale
- * ([see example]({% slug parsingandformatting_intl %}#toc-number-parsing)).
+ * (https://github.com/telerik/kendo-intl/blob/master/docs/num-parsing/index.md).
  *
  * @param value - The string that will be parsed.
  * @param locale - The locale `id` that defines the locale whose information should be used to parse the string.
@@ -60,7 +60,7 @@ export function parseNumber(value: string, locale?: string, format?: string|Numb
 
 /**
  * Converts a `Number` into a string based on the specified format and locale
- * ([see example]({% slug parsingandformatting_intl %}#toc-number-formatting)).
+ * (https://github.com/telerik/kendo-intl/blob/master/docs/num-formatting/index.md).
  *
  * @param value - The number that will be formatted.
  * @param format - The format that will be applied.

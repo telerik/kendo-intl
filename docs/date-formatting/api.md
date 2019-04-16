@@ -14,7 +14,7 @@ Provides information about the exported methods from the Date Formatting module.
 
 #### formatDate
 
-Converts a `Date` object into a string based on the specified format and locale ([see example]({% slug parsingandformatting_intl %}#toc-date-formatting)).
+Converts a `Date` object into a string based on the specified format and locale ([see example](https://github.com/telerik/kendo-intl/blob/master/docs/date-formatting/index.md).
 
 ## Parameters
 
