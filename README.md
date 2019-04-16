@@ -52,7 +52,7 @@ For more examples and available configuration options, refer to the article on [
 
 ### Date Parsing
 
-Date parsing converts a string to a `Date` object by using the specific settings of the locale.
+Date parsing converts a string into a `Date` object by using the specific settings of the locale.
 
 ```js
 import { parseDate } from '@telerik/kendo-intl';
@@ -66,7 +66,7 @@ For more examples and available configuration options, refer to the article on [
 
 ### Date Formatting
 
-Date formatting converts a `Date` object to a human-readable string by using the specific settings of the locale.
+Date formatting converts a `Date` object into a human-readable string by using the specific settings of the locale.
 
 ```js
 import { formatDate } from '@telerik/kendo-intl';
@@ -80,7 +80,7 @@ For more examples and available configuration options, refer to the article on [
 
 ### Number Parsing
 
-Number parsing converts a string to a `Number` object by using the specific settings of the locale.
+Number parsing converts a string into a `Number` object by using the specific settings of the locale.
 
 ```js
 import { parseNumber } from '@telerik/kendo-intl';
@@ -95,7 +95,7 @@ For more examples and available configuration options, refer to the article on [
 
 ### Number Formatting
 
-Number formatting converts a `Number` object to a human-readable string using the specific settings of the locale.
+Number formatting converts a `Number` object into a human-readable string using the specific settings of the locale.
 
 ```js
 import { formatNumber } from '@telerik/kendo-intl';

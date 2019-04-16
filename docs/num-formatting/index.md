@@ -8,7 +8,7 @@ position: 1
 
 # Number Formatting
 
-Number formatting converts a `Number` object to a human-readable string using the locale specific settings. The `formatNumber` method supports standard and custom numeric formats.
+Number formatting converts a `Number` object into a human-readable string using the locale specific settings. The `formatNumber` method supports standard and custom numeric formats.
 
 ## Types of Number Formats
 
