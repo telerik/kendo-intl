@@ -2,6 +2,10 @@ import { DateFormatNameOptions } from './cldr';
 
 /**
  * Settings for the `formatDate` and `parseDate` functions.
+ * {% platform_content angular %}
+ * For a runnable example, refer to the article on
+ * [date and number formatting and parsing]({% parsingandformatting_intl %}#toc-date-formatting).
+ * {% endplatform_content %}
  */
 export interface DateFormatOptions {
     /**
@@ -16,74 +20,77 @@ export interface DateFormatOptions {
     pattern?: string;
 
     /**
-     * Specifies which of the locale `dateFormats` should be used to format the value.
+     * Specifies which of the locale `dateFormats` will be used to format the value.
      */
     date?: 'short' | 'medium' | 'long' | 'full';
 
     /**
-     * Specifies which of the locale `timeFormats` should be used to format the value.
+     * Specifies which of the locale `timeFormats` will be used to format the value.
      */
     time?: 'short' | 'medium' | 'long' | 'full';
 
     /**
-     * Specifies which of the locale `dateTimeFormats` should be used to format the value.
+     * Specifies which of the locale `dateTimeFormats` will be used to format the value.
      */
     datetime?: 'short' | 'medium' | 'long' | 'full';
 
     /**
-     * Specifies how the date era should be formatted.
+     * Specifies how the date era will be formatted.
      */
     era?: 'narrow' | 'short' | 'long';
 
     /**
-     * Specifies how the date year should be formatted.
+     * Specifies how the date year will be formatted.
      */
     year?: 'numeric' | '2-digit';
 
     /**
-     * Specifies how the date month should be formatted.
+     * Specifies how the date month will be formatted.
      */
     month?: 'numeric' | '2-digit' | 'narrow' | 'short' | 'long';
 
     /**
-     * Specifies how the day of the month should be formatted.
+     * Specifies how the day of the month will be formatted.
      */
     day?: 'numeric' | '2-digit';
 
     /**
-     * Specifies how the day of the week should be formatted.
+     * Specifies how the day of the week will be formatted.
      */
     weekday?: 'narrow' | 'short' | 'long';
 
     /**
-     * Specifies how the hours should be formatted.
+     * Specifies how the hours will be formatted.
      */
     hour?: 'numeric' | '2-digit';
 
     /**
-     * Specifies whether a 12-hour time-set should be used for the formatting.
+     * Specifies whether a 12-hour time-set will be used for the formatting.
      */
     hour12?: boolean;
 
     /**
-     * Specifies how the minutes should be formatted.
+     * Specifies how the minutes will be formatted.
      */
     minute?: 'numeric' | '2-digit';
 
     /**
-     * Specifies how the seconds should be formatted.
+     * Specifies how the seconds will be formatted.
      */
     second?: 'numeric' | '2-digit';
 
     /**
-     * Specifies how the time-zone should be formatted.
+     * Specifies how the time-zone will be formatted.
      */
     timeZoneName?: 'short' | 'long';
 }
 
 /**
- * Converts a `Date` object into a string based on the specified format and locale
- * ([see example](https://github.com/telerik/kendo-intl/blob/master/docs/date-formatting/index.md).
+ * Converts a `Date` object into a string based on the specified format and locale.
+ * {% platform_content angular %}
+ * For a runnable example, refer to the article on
+ * [date and number formatting and parsing]({% parsingandformatting_intl %}#toc-date-formatting).
+ * {% endplatform_content %}
  *
  * @param value - Defines the date that will be formatted.
  * @param format - Defines a string that represents a predefined or custom date format, or a configuration object.
@@ -94,10 +101,13 @@ export function formatDate(value: Date, format: string|DateFormatOptions, locale
 
 /**
  * Converts a string into a `Date` object based on the specified format and locale
- * ([see example](https://github.com/telerik/kendo-intl/blob/master/docs/date-parsing/index.md).
+ * {% platform_content angular %}
+ * For a runnable example, refer to the article on
+ * [date and number formatting and parsing]({% parsingandformatting_intl %}#toc-date-parsing).
+ * {% endplatform_content %}
  *
  * @param value - Defines the string that will be parsed.
- * @param format - Defines a string that represents a predefined or custom date format, a configuration object, or an array of formats that should be used to parse the value.
+ * @param format - Defines a string that represents a predefined or custom date format, a configuration object, or an array of formats that will be used to parse the value.
  * @param locale - The optional locale `id`. If not specified, the `id` of the `"en"` locale is used.
  * @returns - The parsed date.
  */
@@ -123,7 +133,7 @@ export interface DateFormatPart {
     names?: DateFormatNameOptions;
 
     /**
-     * Specifies whether a 12-hour time-set should be used for the formatting.
+     * Specifies whether a 12-hour time-set will be used for the formatting.
      */
     hour12?: boolean;
 }
