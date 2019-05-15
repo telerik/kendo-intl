@@ -10,10 +10,6 @@ position: 2
 
 Provides information about the exported methods from the Number Parsing module.
 
-{% platform_content angular %}
-For a runnable example, refer to the article on [date and number formatting and parsing]({% parsingandformatting_intl %}#toc-number-parsing).
-{% endplatform_content %}
-
 ## Methods
 
 ### parseNumber

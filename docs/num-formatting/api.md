@@ -10,10 +10,6 @@ position: 2
 
 Provides information about the exported methods from the Number Formatting module.
 
-{% platform_content angular %}
-For a runnable example, refer to the article on [date and number formatting and parsing]({% parsingandformatting_intl %}#toc-number-formatting).
-{% endplatform_content %}
-
 ## Methods
 
 ### formatNumber
