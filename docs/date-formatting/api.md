@@ -10,11 +10,15 @@ position: 2
 
 Provides information about the exported methods from the Date Formatting module.
 
+{% platform_content angular %}
+For a runnable example, refer to the article on [date and number formatting and parsing]({% parsingandformatting_intl %}#toc-date-formatting).
+{% endplatform_content %}
+
 ## Methods
 
 #### formatDate
 
-Converts a `Date` object into a string based on the specified format and locale ([see example](https://github.com/telerik/kendo-intl/blob/master/docs/date-formatting/index.md).
+Converts a `Date` object into a string based on the specified format and locale ([more information](https://github.com/telerik/kendo-intl/blob/master/docs/date-formatting/index.md).
 
 ## Parameters
 
@@ -32,7 +36,7 @@ Defines the skeleton format used to get the pattern from the locale calendar [`a
 
 #### format.date `String`
 
-Specifies which of the locale `dateFormats` should be used to format the value.
+Specifies which of the locale `dateFormats` will be used to format the value.
 
 The supported values are:
 * `"short"`
@@ -42,7 +46,7 @@ The supported values are:
 
 #### format.time `String`
 
-Specifies which of the locale `timeFormats` should be used to format the value.
+Specifies which of the locale `timeFormats` will be used to format the value.
 
 The supported values are:
 * `"short"`
@@ -52,7 +56,7 @@ The supported values are:
 
 #### format.datetime `String`
 
-Specifies which of the locale `dateTimeFormats` should be used to format the value.
+Specifies which of the locale `dateTimeFormats` will be used to format the value.
 
 The supported values are:
 * `"short"`
@@ -62,7 +66,7 @@ The supported values are:
 
 #### format.era `String`
 
-Specifies how should the date era be formatted.
+Specifies how will the date era be formatted.
 
 The supported values are:
 * `"narrow"`
@@ -71,7 +75,7 @@ The supported values are:
 
 #### format.year `String`
 
-Specifies how the date year should be formatted.
+Specifies how the date year will be formatted.
 
 The supported values are:
 * `"numeric"`
@@ -79,7 +83,7 @@ The supported values are:
 
 #### format.month `String`
 
-Specifies how the date month should be formatted.
+Specifies how the date month will be formatted.
 
 The supported values are:
 * `"numeric"`
@@ -90,7 +94,7 @@ The supported values are:
 
 #### format.day `String`
 
-Specifies how the day of the month should be formatted.
+Specifies how the day of the month will be formatted.
 
 The supported values are:
 * `"numeric"`
@@ -98,7 +102,7 @@ The supported values are:
 
 #### format.weekday `String`
 
-Specifies how the day of the week should be formatted.
+Specifies how the day of the week will be formatted.
 
 The supported values are:
 * `"narrow"`
@@ -107,7 +111,7 @@ The supported values are:
 
 #### format.weekday `String`
 
-Specifies how the day of the week should be formatted.
+Specifies how the day of the week will be formatted.
 
 The supported values are:
 * `"narrow"`
@@ -116,7 +120,7 @@ The supported values are:
 
 #### format.hour `String`
 
-Specifies how the hours should be formatted.
+Specifies how the hours will be formatted.
 
 The supported values are:
 * `"numeric"`
@@ -124,11 +128,11 @@ The supported values are:
 
 #### format.hour12 `Boolean`
 
-Specifies if a 12-hour time set should be used for the formatting.
+Specifies if a 12-hour time set will be used for the formatting.
 
 #### format.minute `String`
 
-Specifies how the minutes should be formatted.
+Specifies how the minutes will be formatted.
 
 The supported values are:
 * `"numeric"`
@@ -136,7 +140,7 @@ The supported values are:
 
 #### format.second `String`
 
-Specifies how the seconds should be formatted.
+Specifies how the seconds will be formatted.
 
 The supported values are:
 * `"numeric"`
@@ -144,7 +148,7 @@ The supported values are:
 
 #### format.timeZoneName `String`
 
-Specifies how the timezone should be formatted.
+Specifies how the timezone will be formatted.
 
 The supported values are:
 * `"short"`
@@ -162,7 +166,7 @@ The formatted date.
 
 #### splitDateFormat
 
-Returns information about the individual segments of a format. The returned objects contain the segment type (for example, year or month), the pattern, and the information about the [dateFormatNames](https://github.com/telerik/kendo-intl/blob/master/docs/cldr/api.md#dateformatnames) that are used for the pattern.
+Returns information about the individual segments of a format. The returned objects contain the segment type (for example, year or month), the pattern, and the information about the [`dateFormatNames`](https://github.com/telerik/kendo-intl/blob/master/docs/cldr/api.md#dateformatnames) that are used for the pattern.
 
 ## Parameters
 

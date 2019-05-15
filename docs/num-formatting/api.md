@@ -10,11 +10,15 @@ position: 2
 
 Provides information about the exported methods from the Number Formatting module.
 
+{% platform_content angular %}
+For a runnable example, refer to the article on [date and number formatting and parsing]({% parsingandformatting_intl %}#toc-number-formatting).
+{% endplatform_content %}
+
 ## Methods
 
 ### formatNumber
 
-Converts a `Number` into a string based on the specified format and locale ([see example](https://github.com/telerik/kendo-intl/blob/master/docs/num-formatting/index.md).
+Converts a `Number` into a string based on the specified format and locale ([more information](https://github.com/telerik/kendo-intl/blob/master/docs/num-formatting/index.md).
 
 ## Parameters
 
