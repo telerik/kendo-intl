@@ -20,7 +20,7 @@ const data = {
             superscriptingExponent: "×",
             perMille: "‰",
             infinity: "∞",
-            nan: "¤¤¤",
+            nan: "NaN",
             timeSeparator: ":",
             "timeSeparator-alt-variant": "."
         },

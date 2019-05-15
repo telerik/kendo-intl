@@ -18,7 +18,7 @@ const data = {
             perMille: "‰",
             infinity: "∞",
             nan: "NaN",
-            timeSeparator: "."
+            timeSeparator: ":"
         },
         decimal: {
             patterns: [
@@ -1730,9 +1730,9 @@ const data = {
                 "symbol-alt-narrow": "Bs"
             },
             VES: {
-                displayName: "Venezuelan Bolívar",
-                "displayName-count-one": "Venezuelan bolívar",
-                "displayName-count-other": "Venezuelan bolívars",
+                displayName: "VES",
+                "displayName-count-one": "VES",
+                "displayName-count-other": "VES",
                 symbol: "VES"
             },
             VND: {

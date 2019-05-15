@@ -1072,8 +1072,6 @@ const data = {
             },
             MCF: {
                 displayName: "MCF",
-                "displayName-count-one": "MCF",
-                "displayName-count-other": "MCF",
                 symbol: "MCF"
             },
             MDC: {
@@ -2031,8 +2029,8 @@ const data = {
                 MMMd: "d. MMM",
                 MMMEd: "E d. MMM",
                 MMMMd: "d. MMMM",
-                "MMMMW-count-one": "W. 'uke' 'i' MMM",
-                "MMMMW-count-other": "W. 'uke' 'i' MMM",
+                "MMMMW-count-one": "W. 'uke' 'i' MMMM",
+                "MMMMW-count-other": "W. 'uke' 'i' MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M.y",

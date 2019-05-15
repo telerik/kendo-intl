@@ -64,7 +64,7 @@ const data = {
                 MMMd: "d MMM",
                 MMMEd: "E, d MMM",
                 MMMMd: "d MMMM",
-                "MMMMW-count-other": "'week' W 'of' MMM",
+                "MMMMW-count-other": "'week' W 'of' MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M-y",

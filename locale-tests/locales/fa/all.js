@@ -1778,8 +1778,8 @@ const data = {
                 MMMEd: "E d LLL",
                 MMMMd: "d LLLL",
                 MMMMEd: "E d LLLL",
-                "MMMMW-count-one": "هفته W از MMM",
-                "MMMMW-count-other": "هفته W از MMM",
+                "MMMMW-count-one": "هفتۀ W از LLLL",
+                "MMMMW-count-other": "هفتۀ W از LLLL",
                 mmss: "mm:ss",
                 ms: "mm:ss",
                 y: "y",
@@ -2022,66 +2022,66 @@ const data = {
         dayPeriods: {
             format: {
                 abbreviated: {
-                    midnight: "نیمه‌شب",
                     am: "ق.ظ.",
-                    noon: "ظهر",
                     pm: "ب.ظ.",
-                    morning1: "صبح",
-                    afternoon1: "ب.ظ.",
-                    evening1: "عصر",
-                    night1: "شب"
+                    morning1: "بامداد",
+                    morning2: "صبح",
+                    afternoon1: "ظهر",
+                    afternoon2: "عصر",
+                    night1: "شب",
+                    night2: "نیمه‌شب"
                 },
                 narrow: {
-                    midnight: "ن",
                     am: "ق",
-                    noon: "ظ",
                     pm: "ب",
-                    morning1: "ص",
-                    afternoon1: "ب.ظ.",
-                    evening1: "ع",
-                    night1: "ش"
+                    morning1: "ب",
+                    morning2: "ص",
+                    afternoon1: "ظ",
+                    afternoon2: "ع",
+                    night1: "ش",
+                    night2: "ن"
                 },
                 wide: {
-                    midnight: "نیمه‌شب",
                     am: "قبل‌ازظهر",
-                    noon: "ظهر",
                     pm: "بعدازظهر",
-                    morning1: "صبح",
-                    afternoon1: "بعدازظهر",
-                    evening1: "عصر",
-                    night1: "شب"
+                    morning1: "بامداد",
+                    morning2: "صبح",
+                    afternoon1: "ظهر",
+                    afternoon2: "عصر",
+                    night1: "شب",
+                    night2: "نیمه‌شب"
                 }
             },
             "stand-alone": {
                 abbreviated: {
-                    midnight: "نیمه‌شب",
                     am: "ق.ظ.",
-                    noon: "ظهر",
                     pm: "ب.ظ.",
-                    morning1: "صبح",
-                    afternoon1: "بعدازظهر",
-                    evening1: "عصر",
-                    night1: "شب"
+                    morning1: "بامداد",
+                    morning2: "صبح",
+                    afternoon1: "ظهر",
+                    afternoon2: "عصر",
+                    night1: "شب",
+                    night2: "نیمه‌شب"
                 },
                 narrow: {
-                    midnight: "ن",
-                    am: "ق.ظ.",
-                    noon: "ظ",
-                    pm: "ب.ظ.",
-                    morning1: "ص",
-                    afternoon1: "ب.ظ.",
-                    evening1: "ع",
-                    night1: "ش"
+                    am: "ق",
+                    pm: "ب",
+                    morning1: "ب",
+                    morning2: "ص",
+                    afternoon1: "ظ",
+                    afternoon2: "ع",
+                    night1: "ش",
+                    night2: "ن"
                 },
                 wide: {
-                    midnight: "نیمه‌شب",
                     am: "قبل‌ازظهر",
-                    noon: "ظهر",
                     pm: "بعدازظهر",
-                    morning1: "صبح",
-                    afternoon1: "بعدازظهر",
-                    evening1: "عصر",
-                    night1: "شب"
+                    morning1: "بامداد",
+                    morning2: "صبح",
+                    afternoon1: "ظهر",
+                    afternoon2: "عصر",
+                    night1: "شب",
+                    night2: "نیمه‌شب"
                 }
             }
         },

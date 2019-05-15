@@ -1707,7 +1707,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             UYW: {
-                displayName: "UYW",
+                displayName: "Uruguayaanse nominale salarisindexeenheid",
+                "displayName-count-one": "Uruguayaanse nominale salarisindexeenheid",
+                "displayName-count-other": "Uruguayaanse nominale salarisindexeenheid",
                 symbol: "UYW"
             },
             UZS: {
@@ -2037,8 +2039,8 @@ const data = {
                 MMMd: "d MMM",
                 MMMEd: "E d MMM",
                 MMMMd: "d MMMM",
-                "MMMMW-count-one": "'week' W 'van' MMM",
-                "MMMMW-count-other": "'week' W 'van' MMM",
+                "MMMMW-count-one": "'week' W 'van' MMMM",
+                "MMMMW-count-other": "'week' W 'van' MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M-y",

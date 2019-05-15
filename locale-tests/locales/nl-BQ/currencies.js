@@ -1654,7 +1654,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             UYW: {
-                displayName: "UYW",
+                displayName: "Uruguayaanse nominale salarisindexeenheid",
+                "displayName-count-one": "Uruguayaanse nominale salarisindexeenheid",
+                "displayName-count-other": "Uruguayaanse nominale salarisindexeenheid",
                 symbol: "UYW"
             },
             UZS: {

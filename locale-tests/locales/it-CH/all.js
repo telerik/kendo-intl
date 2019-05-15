@@ -1771,8 +1771,8 @@ const data = {
                 MMMd: "d MMM",
                 MMMEd: "E d MMM",
                 MMMMd: "d MMMM",
-                "MMMMW-count-one": "'settimana' W 'di' MMM",
-                "MMMMW-count-other": "'settimana' W 'di' MMM",
+                "MMMMW-count-one": "'settimana' W 'di' MMMM",
+                "MMMMW-count-other": "'settimana' W 'di' MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M/y",
@@ -2093,8 +2093,8 @@ const data = {
                 narrow: {
                     "0": "aC",
                     "1": "dC",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "a.E.V.",
+                    "1-alt-variant": "E.V."
                 }
             }
         },

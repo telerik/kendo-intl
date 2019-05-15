@@ -1760,8 +1760,8 @@ const data = {
                 MMMEd: "E, d MMM",
                 MMMMd: "d MMMM",
                 MMMMEd: "E, d MMMM",
-                "MMMMW-count-one": "MMM का सप्ताह W",
-                "MMMMW-count-other": "MMM का सप्ताह W",
+                "MMMMW-count-one": "MMMM का सप्ताह W",
+                "MMMMW-count-other": "MMMM का सप्ताह W",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M/y",
@@ -2005,28 +2005,28 @@ const data = {
             format: {
                 abbreviated: {
                     midnight: "मध्यरात्रि",
-                    am: "पूर्वाह्न",
-                    pm: "अपराह्न",
+                    am: "am",
+                    pm: "pm",
                     morning1: "सुबह",
-                    afternoon1: "अपराह्न",
+                    afternoon1: "दोपहर",
                     evening1: "शाम",
                     night1: "रात"
                 },
                 narrow: {
                     midnight: "मध्यरात्रि",
-                    am: "पू",
-                    pm: "अ",
+                    am: "am",
+                    pm: "pm",
                     morning1: "सुबह",
-                    afternoon1: "अपराह्न",
+                    afternoon1: "दोपहर",
                     evening1: "शाम",
                     night1: "रात"
                 },
                 wide: {
                     midnight: "मध्यरात्रि",
-                    am: "पूर्वाह्न",
-                    pm: "अपराह्न",
+                    am: "am",
+                    pm: "pm",
                     morning1: "सुबह",
-                    afternoon1: "अपराह्न",
+                    afternoon1: "दोपहर",
                     evening1: "शाम",
                     night1: "रात"
                 }
@@ -2034,8 +2034,8 @@ const data = {
             "stand-alone": {
                 abbreviated: {
                     midnight: "मध्यरात्रि",
-                    am: "पूर्वाह्न",
-                    pm: "अपराह्न",
+                    am: "am",
+                    pm: "pm",
                     morning1: "सुबह",
                     afternoon1: "दोपहर",
                     evening1: "शाम",
@@ -2043,17 +2043,17 @@ const data = {
                 },
                 narrow: {
                     midnight: "आधी रात",
-                    am: "पू",
-                    pm: "अ",
+                    am: "am",
+                    pm: "pm",
                     morning1: "सुबह",
-                    afternoon1: "अपराह्न",
+                    afternoon1: "दोपहर",
                     evening1: "शाम",
                     night1: "रात"
                 },
                 wide: {
                     midnight: "मध्यरात्रि",
-                    am: "पूर्वाह्न",
-                    pm: "अपराह्न",
+                    am: "am",
+                    pm: "pm",
                     morning1: "सुबह",
                     afternoon1: "दोपहर",
                     evening1: "शाम",

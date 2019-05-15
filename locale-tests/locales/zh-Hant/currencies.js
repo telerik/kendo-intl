@@ -1335,6 +1335,7 @@ const data = {
                 displayName: "新台幣",
                 "displayName-count-other": "新台幣",
                 symbol: "$",
+                "symbol-alt-formal": "NT$",
                 "symbol-alt-narrow": "$"
             },
             TZS: {

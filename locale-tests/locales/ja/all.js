@@ -2065,8 +2065,8 @@ const data = {
                 narrow: {
                     "0": "BC",
                     "1": "AD",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "西暦紀元前",
+                    "1-alt-variant": "西暦紀元"
                 }
             }
         },

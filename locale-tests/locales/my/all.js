@@ -1591,7 +1591,7 @@ const data = {
                 MMMEd: "MMM d၊ E",
                 MMMMd: "MMMM d",
                 MMMMEd: "MMMM d ရက် Eနေ့",
-                "MMMMW-count-other": "MMM လ W ပတ်မြောက်",
+                "MMMMW-count-other": "MMMM လ W ပတ်မြောက်",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M/y",

@@ -1440,7 +1440,8 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             UYW: {
-                displayName: "UYW",
+                displayName: "乌拉圭票面工资指数单位",
+                "displayName-count-other": "乌拉圭票面工资指数单位",
                 symbol: "UYW"
             },
             UZS: {
@@ -1559,7 +1560,8 @@ const data = {
                 symbol: "XRE"
             },
             XSU: {
-                displayName: "XSU",
+                displayName: "苏克雷",
+                "displayName-count-other": "苏克雷",
                 symbol: "XSU"
             },
             XTS: {
@@ -1567,7 +1569,8 @@ const data = {
                 symbol: "XTS"
             },
             XUA: {
-                displayName: "XUA",
+                displayName: "非洲开发银行记账单位",
+                "displayName-count-other": "非洲开发银行记账单位",
                 symbol: "XUA"
             },
             XXX: {
@@ -1711,7 +1714,7 @@ const data = {
                 MMMd: "M月d日",
                 MMMEd: "M月d日E",
                 MMMMd: "M月d日",
-                "MMMMW-count-other": "MMM第W周",
+                "MMMMW-count-other": "MMMM第W周",
                 ms: "mm:ss",
                 y: "y年",
                 yM: "y年M月",

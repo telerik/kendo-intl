@@ -153,8 +153,8 @@ const data = {
                 "symbol-alt-narrow": "৳"
             },
             BEC: {
-                displayName: "比利時法郎（可轉換）",
-                "displayName-count-other": "比利時法郎（可轉換）",
+                displayName: "比利時法郎（可兌換）",
+                "displayName-count-other": "比利時法郎（可兌換）",
                 symbol: "BEC"
             },
             BEF: {
@@ -1335,6 +1335,7 @@ const data = {
                 displayName: "新台幣",
                 "displayName-count-other": "新台幣",
                 symbol: "NT$",
+                "symbol-alt-formal": "NT$",
                 "symbol-alt-narrow": "$"
             },
             TZS: {

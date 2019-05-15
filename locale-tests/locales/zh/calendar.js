@@ -63,7 +63,7 @@ const data = {
                 MMMd: "M月d日",
                 MMMEd: "M月d日E",
                 MMMMd: "M月d日",
-                "MMMMW-count-other": "MMM第W周",
+                "MMMMW-count-other": "MMMM第W周",
                 ms: "mm:ss",
                 y: "y年",
                 yM: "y年M月",
