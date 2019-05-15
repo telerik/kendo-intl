@@ -313,8 +313,8 @@ const data = {
             format: {
                 abbreviated: {
                     midnight: "mitjanit",
-                    am: "a. m.",
-                    pm: "p. m.",
+                    am: "a. m.",
+                    pm: "p. m.",
                     morning1: "matinada",
                     morning2: "matí",
                     afternoon1: "migdia",
@@ -324,8 +324,8 @@ const data = {
                 },
                 narrow: {
                     midnight: "mitjanit",
-                    am: "a. m.",
-                    pm: "p. m.",
+                    am: "a. m.",
+                    pm: "p. m.",
                     morning1: "mat.",
                     morning2: "matí",
                     afternoon1: "md",
@@ -335,8 +335,8 @@ const data = {
                 },
                 wide: {
                     midnight: "mitjanit",
-                    am: "a. m.",
-                    pm: "p. m.",
+                    am: "a. m.",
+                    pm: "p. m.",
                     morning1: "matinada",
                     morning2: "matí",
                     afternoon1: "migdia",
@@ -348,8 +348,8 @@ const data = {
             "stand-alone": {
                 abbreviated: {
                     midnight: "mitjanit",
-                    am: "a. m.",
-                    pm: "p. m.",
+                    am: "a. m.",
+                    pm: "p. m.",
                     morning1: "matinada",
                     morning2: "matí",
                     afternoon1: "migdia",
@@ -359,8 +359,8 @@ const data = {
                 },
                 narrow: {
                     midnight: "mitjanit",
-                    am: "a. m.",
-                    pm: "p. m.",
+                    am: "a. m.",
+                    pm: "p. m.",
                     morning1: "matinada",
                     morning2: "matí",
                     afternoon1: "migdia",
@@ -370,8 +370,8 @@ const data = {
                 },
                 wide: {
                     midnight: "mitjanit",
-                    am: "a. m.",
-                    pm: "p. m.",
+                    am: "a. m.",
+                    pm: "p. m.",
                     morning1: "matinada",
                     morning2: "matí",
                     afternoon1: "migdia",
@@ -457,9 +457,9 @@ const data = {
                 narrow: "dia de la setm. del mes"
             },
             dayperiod: {
-                short: "a. m./p. m.",
-                wide: "a. m./p. m.",
-                narrow: "a. m./p. m."
+                short: "a. m./p. m.",
+                wide: "a. m./p. m.",
+                narrow: "a. m./p. m."
             },
             hour: {
                 wide: "hora",

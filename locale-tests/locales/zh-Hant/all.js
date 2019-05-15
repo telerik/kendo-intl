@@ -1385,6 +1385,7 @@ const data = {
                 displayName: "新台幣",
                 "displayName-count-other": "新台幣",
                 symbol: "$",
+                "symbol-alt-formal": "NT$",
                 "symbol-alt-narrow": "$"
             },
             TZS: {
@@ -1733,7 +1734,7 @@ const data = {
                 MMMd: "M月d日",
                 MMMEd: "M月d日 E",
                 MMMMd: "M月d日",
-                "MMMMW-count-other": "MMM的第W週",
+                "MMMMW-count-other": "MMMM的第W週",
                 ms: "mm:ss",
                 y: "y年",
                 yM: "y/M",

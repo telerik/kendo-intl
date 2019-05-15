@@ -63,7 +63,7 @@ const data = {
                 MMMEd: "E, d MMM",
                 MMMMd: "d MMMM",
                 MMMMEd: "E, d MMMM",
-                "MMMMW-count-other": "'minggu' 'ke'-W MMM",
+                "MMMMW-count-other": "'minggu' 'ke'-W MMMM",
                 ms: "mm.ss",
                 y: "y",
                 yM: "M/y",

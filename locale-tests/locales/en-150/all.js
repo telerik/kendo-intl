@@ -7,8 +7,8 @@ const data = {
     territory: "150",
     numbers: {
         symbols: {
-            decimal: ",",
-            group: ".",
+            decimal: ".",
+            group: ",",
             list: ";",
             percentSign: "%",
             plusSign: "+",

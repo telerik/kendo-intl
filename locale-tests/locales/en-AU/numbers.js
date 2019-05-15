@@ -21,7 +21,7 @@ const data = {
             perMille: "‰",
             infinity: "∞",
             nan: "NaN",
-            timeSeparator: "."
+            timeSeparator: ":"
         },
         decimal: {
             patterns: [

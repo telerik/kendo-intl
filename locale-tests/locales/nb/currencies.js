@@ -1019,8 +1019,6 @@ const data = {
             },
             MCF: {
                 displayName: "MCF",
-                "displayName-count-one": "MCF",
-                "displayName-count-other": "MCF",
                 symbol: "MCF"
             },
             MDC: {

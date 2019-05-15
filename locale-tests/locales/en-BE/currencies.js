@@ -595,6 +595,7 @@ const data = {
                 symbol: "ETB"
             },
             EUR: {
+                pattern: "¤#,##0.00",
                 displayName: "Euro",
                 "displayName-count-one": "euro",
                 "displayName-count-other": "euros",

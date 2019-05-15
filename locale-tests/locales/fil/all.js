@@ -399,8 +399,6 @@ const data = {
             },
             CNH: {
                 displayName: "CNH",
-                "displayName-count-one": "CNH",
-                "displayName-count-other": "CNH",
                 symbol: "CNH"
             },
             CNX: {
@@ -1756,8 +1754,8 @@ const data = {
                 MMMEd: "E, MMM d",
                 MMMMd: "MMMM d",
                 MMMMEd: "E, MMMM d",
-                "MMMMW-count-one": "'ika'-W 'linggo' 'ng' MMM",
-                "MMMMW-count-other": "'linggo' W 'ng' MMM",
+                "MMMMW-count-one": "'ika'-W 'linggo' 'ng' MMMM",
+                "MMMMW-count-other": "'linggo' W 'ng' MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M/y",

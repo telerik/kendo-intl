@@ -1939,8 +1939,8 @@ const data = {
                 MMMEd: "E, d MMM",
                 MMMMd: "d 'de' MMMM",
                 MMMMEd: "E, d 'de' MMMM",
-                "MMMMW-count-one": "'semana' W 'de' MMM",
-                "MMMMW-count-other": "'semana' W 'de' MMM",
+                "MMMMW-count-one": "'semana' W 'de' MMMM",
+                "MMMMW-count-other": "'semana' W 'de' MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M/y",
@@ -2193,9 +2193,9 @@ const data = {
                     night1: "de la noche"
                 },
                 narrow: {
-                    am: "a. m.",
+                    am: "a. m.",
                     noon: "del mediodía",
-                    pm: "p. m.",
+                    pm: "p. m.",
                     morning1: "de la madrugada",
                     morning2: "de la mañana",
                     evening1: "de la tarde",

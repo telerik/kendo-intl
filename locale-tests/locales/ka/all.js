@@ -1757,8 +1757,8 @@ const data = {
                 MMMd: "d MMM",
                 MMMEd: "E, d MMM",
                 MMMMd: "d MMMM",
-                "MMMMW-count-one": "MMM-ის კვირა W",
-                "MMMMW-count-other": "MMM-ის კვირა W",
+                "MMMMW-count-one": "MMMM-ის კვირა W",
+                "MMMMW-count-other": "MMMM-ის კვირა W",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M.y",
@@ -2124,13 +2124,13 @@ const data = {
             },
             dayOfYear: {
                 wide: "წლის დღე",
-                short: "წლის დღე",
-                narrow: "წლის დღე"
+                short: "წლ. დღე",
+                narrow: "წლ. დღე"
             },
             weekday: {
                 wide: "კვირის დღე",
-                short: "კვირის დღე",
-                narrow: "კვირის დღე"
+                short: "კვ. დღე",
+                narrow: "კვ. დღე"
             },
             weekdayOfMonth: {
                 wide: "კვირის დღე თვეში",

@@ -1990,11 +1990,11 @@ const data = {
             M: "d MMMM",
             y: "MMM y",
             Y: "MMMM y",
-            F: "EEEE, d MMMM y h:mm:ss a",
-            g: "dd/MM/y h:mm a",
-            G: "dd/MM/y h:mm:ss a",
-            t: "h:mm a",
-            T: "h:mm:ss a",
+            F: "EEEE, d MMMM y HH:mm:ss",
+            g: "dd/MM/y HH:mm",
+            G: "dd/MM/y HH:mm:ss",
+            t: "HH:mm",
+            T: "HH:mm:ss",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
@@ -2056,10 +2056,10 @@ const data = {
             }
         },
         timeFormats: {
-            full: "h:mm:ss a zzzz",
-            long: "h:mm:ss a z",
-            medium: "h:mm:ss a",
-            short: "h:mm a"
+            full: "HH:mm:ss zzzz",
+            long: "HH:mm:ss z",
+            medium: "HH:mm:ss",
+            short: "HH:mm"
         },
         dateFormats: {
             full: "EEEE, d MMMM y",

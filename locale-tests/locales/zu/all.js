@@ -1750,7 +1750,6 @@ const data = {
                 MMMd: "MMM d",
                 MMMEd: "E, MMM d",
                 MMMMd: "MMMM d",
-                "MMMMW-count-one": "'week' W 'of' MMM",
                 "MMMMW-count-other": "'week' W 'of' MMMM",
                 ms: "mm:ss",
                 y: "y",
@@ -1763,7 +1762,6 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'week' w 'of' Y",
                 "yw-count-other": "'week' w 'of' Y"
             }
         },

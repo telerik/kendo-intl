@@ -1592,7 +1592,7 @@ const data = {
                 MMMd: "d MMM",
                 MMMEd: "E d MMM",
                 MMMMd: "MMMM d",
-                "MMMMW-count-other": "សប្តាហ៍ទី W នៃខែ MMM",
+                "MMMMW-count-other": "សប្តាហ៍ទី W នៃខែ MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M/y",

@@ -67,7 +67,7 @@ const data = {
                 MMMEd: "MMM d일 (E)",
                 MMMEEEEd: "MMM d일 EEEE",
                 MMMMd: "MMMM d일",
-                "MMMMW-count-other": "MMM W번째 주",
+                "MMMMW-count-other": "MMMM W번째 주",
                 mmss: "mm:ss",
                 ms: "mm:ss",
                 y: "y년",

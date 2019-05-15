@@ -347,8 +347,6 @@ const data = {
             },
             CNH: {
                 displayName: "CNH",
-                "displayName-count-one": "CNH",
-                "displayName-count-other": "CNH",
                 symbol: "CNH"
             },
             CNX: {

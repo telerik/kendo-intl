@@ -1940,8 +1940,8 @@ const data = {
                 MMMEd: "E d 'de' MMM",
                 MMMMd: "d 'de' MMMM",
                 MMMMEd: "E, d 'de' MMMM",
-                "MMMMW-count-one": "'semana' W 'de' MMM",
-                "MMMMW-count-other": "'semana' W 'de' MMM",
+                "MMMMW-count-one": "'semana' W 'de' MMMM",
+                "MMMMW-count-other": "'semana' W 'de' MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M/y",
@@ -1993,13 +1993,13 @@ const data = {
                     "S"
                 ],
                 short: [
-                    "do",
-                    "lu",
-                    "ma",
-                    "mi",
-                    "ju",
-                    "vi",
-                    "sá"
+                    "DO",
+                    "LU",
+                    "MA",
+                    "MI",
+                    "JU",
+                    "VI",
+                    "SA"
                 ],
                 wide: [
                     "domingo",
@@ -2053,18 +2053,18 @@ const data = {
         months: {
             format: {
                 abbreviated: [
-                    "ene",
-                    "feb",
-                    "mar",
-                    "abr",
-                    "may",
-                    "jun",
-                    "jul",
-                    "ago",
-                    "sep",
-                    "oct",
-                    "nov",
-                    "dic"
+                    "ene.",
+                    "feb.",
+                    "mar.",
+                    "abr.",
+                    "may.",
+                    "jun.",
+                    "jul.",
+                    "ago.",
+                    "sep.",
+                    "oct.",
+                    "nov.",
+                    "dic."
                 ],
                 narrow: [
                     "E",
@@ -2185,27 +2185,27 @@ const data = {
         dayPeriods: {
             format: {
                 abbreviated: {
-                    am: "a. m.",
+                    am: "a. m.",
                     noon: "del mediodía",
-                    pm: "p. m.",
+                    pm: "p. m.",
                     morning1: "de la madrugada",
                     morning2: "de la mañana",
                     evening1: "de la tarde",
                     night1: "de la noche"
                 },
                 narrow: {
-                    am: "a. m.",
+                    am: "a. m.",
                     noon: "del mediodía",
-                    pm: "p. m.",
+                    pm: "p. m.",
                     morning1: "de la madrugada",
                     morning2: "mañana",
                     evening1: "de la tarde",
                     night1: "de la noche"
                 },
                 wide: {
-                    am: "a. m.",
+                    am: "a. m.",
                     noon: "del mediodía",
-                    pm: "p. m.",
+                    pm: "p. m.",
                     morning1: "de la madrugada",
                     morning2: "de la mañana",
                     evening1: "de la tarde",
@@ -2214,27 +2214,27 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: {
-                    am: "a. m.",
+                    am: "a. m.",
                     noon: "mediodía",
-                    pm: "p. m.",
+                    pm: "p. m.",
                     morning1: "madrugada",
                     morning2: "mañana",
                     evening1: "tarde",
                     night1: "noche"
                 },
                 narrow: {
-                    am: "a. m.",
+                    am: "a. m.",
                     noon: "mediodía",
-                    pm: "p. m.",
+                    pm: "p. m.",
                     morning1: "madrugada",
                     morning2: "mañana",
                     evening1: "tarde",
                     night1: "noche"
                 },
                 wide: {
-                    am: "a. m.",
+                    am: "a. m.",
                     noon: "mediodía",
-                    pm: "p. m.",
+                    pm: "p. m.",
                     morning1: "madrugada",
                     morning2: "mañana",
                     evening1: "tarde",
@@ -2318,9 +2318,9 @@ const data = {
                 narrow: "día hábil del mes"
             },
             dayperiod: {
-                short: "a. m./p. m.",
-                wide: "a. m./p. m.",
-                narrow: "a. m./p. m."
+                short: "a. m./p. m.",
+                wide: "a. m./p. m.",
+                narrow: "a. m./p. m."
             },
             hour: {
                 wide: "hora",
