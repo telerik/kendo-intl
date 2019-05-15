@@ -8,13 +8,17 @@ position: 2
 
 # General Formatting API
 
-Provides information about the exported methods from the format module.
+Provides information about the exported methods from the Format module.
+
+{% platform_content angular %}
+For a runnable example, refer to the article on [date and number formatting and parsing]({% parsingandformatting_intl %}#toc-general-formatting).
+{% endplatform_content %}
 
 ## Methods
 
 #### format
 
-Replaces the format string placeholders with the provided values based on the index.
+Replaces the format string placeholders with the provided values based on the index ([more information](https://github.com/telerik/kendo-intl/blob/master/docs/general-formatting/index.md).
 
 ## Parameters
 
@@ -24,7 +28,7 @@ The format string.
 
 #### values `Array`
 
-The values that should be replaced in the format string.
+The values that will be replaced in the format string.
 
 #### locale `String`
 

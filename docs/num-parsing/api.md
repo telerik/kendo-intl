@@ -10,11 +10,15 @@ position: 2
 
 Provides information about the exported methods from the Number Parsing module.
 
+{% platform_content angular %}
+For a runnable example, refer to the article on [date and number formatting and parsing]({% parsingandformatting_intl %}#toc-number-parsing).
+{% endplatform_content %}
+
 ## Methods
 
 ### parseNumber
 
-Converts a string into a `Number` based on the specified locale ([see example](https://github.com/telerik/kendo-intl/blob/master/docs/num-parsing/index.md).
+Converts a string into a `Number` based on the specified locale ([more information](https://github.com/telerik/kendo-intl/blob/master/docs/num-parsing/index.md).
 
 ## Parameters
 
