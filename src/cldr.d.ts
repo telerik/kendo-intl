@@ -104,20 +104,20 @@ export function dateFieldName(options: DateFieldNameOptions, locale?: string): s
 export function firstDay(locale: string): number;
 
 /**
- * The weekend start and end days
+ * The weekend start and end days.
  */
-export interface WeekendRange {
+export interface DayRange {
     start: number;
     end: number;
 }
 
 /**
- * Returns and object.
+ * Returns the weekend start and end days.
  *
  * @param locale - The locale `id`.
  * @returns - The weekend range.
  */
-export function weekendRange(locale: string): WeekendRange;
+export function weekendRange(locale: string): DayRange;
 
 /**
  * Loads CLDR data.
