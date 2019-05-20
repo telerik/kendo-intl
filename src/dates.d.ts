@@ -89,7 +89,7 @@ export interface DateFormatOptions {
  * Converts a `Date` object into a string based on the specified format and locale.
  * {% platform_content angular %}
  * For a runnable example, refer to the article on
- * [date and number formatting and parsing]({% parsingandformatting_intl %}#toc-date-formatting).
+ * [date and number formatting and parsing]({% slug parsingandformatting_intl %}#toc-date-formatting).
  * {% endplatform_content %}
  *
  * @param value - Defines the date that will be formatted.
@@ -103,7 +103,7 @@ export function formatDate(value: Date, format: string|DateFormatOptions, locale
  * Converts a string into a `Date` object based on the specified format and locale
  * {% platform_content angular %}
  * For a runnable example, refer to the article on
- * [date and number formatting and parsing]({% parsingandformatting_intl %}#toc-date-parsing).
+ * [date and number formatting and parsing]({% slug parsingandformatting_intl %}#toc-date-parsing).
  * {% endplatform_content %}
  *
  * @param value - Defines the string that will be parsed.
