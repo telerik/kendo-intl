@@ -2212,7 +2212,7 @@ const data = {
     },
     calendar: {
         patterns: {
-            d: "dd.MM.y.",
+            d: "d.M.y.",
             D: "EEEE, dd. MMMM y.",
             m: "dd. MMM",
             M: "MMMM d",

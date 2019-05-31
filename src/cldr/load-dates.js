@@ -4,8 +4,11 @@ const predefinedDatePatterns = {
     s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
     u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
 };
+
+const YEAR_REGEX = /y+/g;
+const SHORT_DATE = [ [ "dateFormats", "short" ] ];
+
 const datePatterns = {
-    d: [ [ "dateTimeFormats", "availableFormats", "yMd" ] ],
     D: [ [ "dateFormats", "full" ] ],
     m: [ [ "dateTimeFormats", "availableFormats", "MMMd" ] ],
     M: [ [ "dateTimeFormats", "availableFormats", "MMMMd" ] ],
@@ -103,6 +106,9 @@ function getPredefinedFormat(paths, calendar) {
 function loadCalendarPatterns(locale, calendar) {
     const cldrCalendar = cldr[locale].calendar;
     const patterns = cldrCalendar.patterns = {};
+
+    patterns.d = getPredefinedFormat(SHORT_DATE, calendar).replace(YEAR_REGEX, 'y');
+
     for (let pattern in datePatterns) {
         patterns[pattern] = getPredefinedFormat(datePatterns[pattern], calendar);
     }

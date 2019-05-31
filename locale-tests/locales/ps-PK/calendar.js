@@ -10,7 +10,7 @@ const data = {
     territory: "PK",
     calendar: {
         patterns: {
-            d: "y-MM-dd",
+            d: "y/M/d",
             D: "EEEE د y د MMMM d",
             m: "MMM d",
             M: "MMMM d",

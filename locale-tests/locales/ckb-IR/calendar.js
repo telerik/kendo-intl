@@ -10,7 +10,7 @@ const data = {
     territory: "IR",
     calendar: {
         patterns: {
-            d: "d/M/y",
+            d: "y-MM-dd",
             D: "y MMMM d, EEEE",
             m: "dی MMM",
             M: "MMMM d",
