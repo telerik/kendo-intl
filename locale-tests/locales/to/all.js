@@ -1188,6 +1188,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "UZS",
                 symbol: "UZS"
@@ -1200,6 +1204,10 @@ const data = {
                 displayName: "VEF",
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
+            },
+            VES: {
+                displayName: "VES",
+                symbol: "VES"
             },
             VND: {
                 displayName: "VND",
@@ -1303,7 +1311,7 @@ const data = {
             XXX: {
                 displayName: "Pa’anga Ta’e’ilo",
                 "displayName-count-other": "Pa’anga Ta’e’ilo",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "YDD",
@@ -1697,20 +1705,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "ki muʻa",
-                    1: "taʻu ʻo Sīsū",
+                    "0": "ki muʻa",
+                    "1": "taʻu ʻo Sīsū",
                     "0-alt-variant": "KM",
                     "1-alt-variant": "TS"
                 },
                 abbreviated: {
-                    0: "KM",
-                    1: "TS",
+                    "0": "KM",
+                    "1": "TS",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 },
                 narrow: {
-                    0: "KM",
-                    1: "TS",
+                    "0": "KM",
+                    "1": "TS",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 }
@@ -1797,6 +1805,10 @@ const data = {
         }
     },
     firstDay: 1,
+    weekendRange: {
+        start: 6,
+        end: 0
+    },
     likelySubtags: {
         to: "to-Latn-TO"
     }

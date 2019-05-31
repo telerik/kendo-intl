@@ -1138,6 +1138,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
+            UYW: {
+                displayName: "UYW",
+                symbol: "UYW"
+            },
             UZS: {
                 displayName: "UZS",
                 symbol: "UZS"
@@ -1150,6 +1154,10 @@ const data = {
                 displayName: "VEF",
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
+            },
+            VES: {
+                displayName: "VES",
+                symbol: "VES"
             },
             VND: {
                 displayName: "VND",
@@ -1253,7 +1261,7 @@ const data = {
             XXX: {
                 displayName: "Pa’anga Ta’e’ilo",
                 "displayName-count-other": "Pa’anga Ta’e’ilo",
-                symbol: "XXX"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "YDD",

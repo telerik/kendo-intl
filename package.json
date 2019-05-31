@@ -58,5 +58,6 @@
     "getLastRelease": "@telerik/semantic-prerelease/getLastRelease",
     "verifyConditions": "@telerik/semantic-prerelease/verifyConditions",
     "verifyRelease": "@telerik/semantic-prerelease/verifyRelease"
-  }
+  },
+  "cldr-data-coverage": "full"
 }

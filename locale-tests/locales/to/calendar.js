@@ -334,20 +334,20 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    0: "ki muʻa",
-                    1: "taʻu ʻo Sīsū",
+                    "0": "ki muʻa",
+                    "1": "taʻu ʻo Sīsū",
                     "0-alt-variant": "KM",
                     "1-alt-variant": "TS"
                 },
                 abbreviated: {
-                    0: "KM",
-                    1: "TS",
+                    "0": "KM",
+                    "1": "TS",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 },
                 narrow: {
-                    0: "KM",
-                    1: "TS",
+                    "0": "KM",
+                    "1": "TS",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 }
