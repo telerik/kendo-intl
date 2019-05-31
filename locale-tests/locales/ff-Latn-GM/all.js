@@ -1377,7 +1377,7 @@ const data = {
     },
     calendar: {
         patterns: {
-            d: "y-MM-dd",
+            d: "d/M/y",
             D: "EEEE d MMMM y",
             m: "d MMM",
             M: "d MMMM",

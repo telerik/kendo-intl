@@ -11,7 +11,7 @@ const data = {
     territory: "MO",
     calendar: {
         patterns: {
-            d: "y年M月d日",
+            d: "d/M/y",
             D: "y年M月d日EEEE",
             m: "M月d日",
             M: "M月d日",

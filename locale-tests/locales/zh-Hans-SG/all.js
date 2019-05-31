@@ -1662,7 +1662,7 @@ const data = {
     },
     calendar: {
         patterns: {
-            d: "y年M月d日",
+            d: "dd/MM/y",
             D: "y年M月d日EEEE",
             m: "M月d日",
             M: "M月d日",

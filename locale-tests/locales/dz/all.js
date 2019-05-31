@@ -1379,7 +1379,7 @@ const data = {
     },
     calendar: {
         patterns: {
-            d: "y-M-d",
+            d: "y-MM-dd",
             D: "EEEE, སྤྱི་ལོ་y MMMM ཚེས་dd",
             m: "སྤྱི་LLL ཚེ་d",
             M: "MMMM d",
