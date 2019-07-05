@@ -461,7 +461,7 @@ function createDate(state) {
 
 function addFormatSpaces(value, format) {
     const leadingSpaces = leadingSpacesRegex.exec(format)[0];
-    const trailingSpaces = trailingSpacesRegex.exec(format);
+    const trailingSpaces = trailingSpacesRegex.exec(format)[0];
 
     return `${ leadingSpaces }${ value }${ trailingSpaces }`;
 }
