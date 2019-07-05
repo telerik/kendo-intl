@@ -459,6 +459,11 @@ describe('date parsing', () => {
         expect(parseDate("12/23/29", "M/d/yy").getFullYear(), 2029);
     });
 
+    it('prases formats with leading and trailing spaces', function () {
+        const result = parseDate("  12/23/2000 ", "  MM/dd/yyyy ");
+        expect(isValidDate(2000, 12, 23, result)).toBe(true);
+    });
+
     it('prases G format time', function () {
         const result = parseDate("12/23/2000 8:12:22 pm", "G");
         expect(isValidDateTime(result, 2000, 12, 23, 20, 12, 22)).toBe(true);

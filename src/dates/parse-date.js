@@ -18,6 +18,9 @@ const numberRegExp = {
 const numberRegex = /\d+/;
 const PLACEHOLDER = "{0}";
 
+const leadingSpacesRegex = /^ +/;
+const trailingSpacesRegex = / +$/;
+
 const standardDateFormats = [
     "yyyy/MM/dd HH:mm:ss",
     "yyyy/MM/dd HH:mm",
@@ -456,13 +459,20 @@ function createDate(state) {
     return result;
 }
 
+function addFormatSpaces(value, format) {
+    const leadingSpaces = (leadingSpacesRegex.exec(format) || [])[0] || '';
+    const trailingSpaces = (trailingSpacesRegex.exec(format) || [])[0] || '';
+
+    return `${ leadingSpaces }${ value }${ trailingSpaces }`;
+}
+
 function parseExact(value, format, info) {
     let pattern = datePattern(format, info).split(EMPTY);
 
     const state = {
         format: pattern,
         idx: 0,
-        value: value,
+        value: addFormatSpaces(value, format),
         valueIdx: 0,
         year: null,
         month: null,
