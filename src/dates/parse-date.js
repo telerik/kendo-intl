@@ -18,8 +18,8 @@ const numberRegExp = {
 const numberRegex = /\d+/;
 const PLACEHOLDER = "{0}";
 
-const leadingSpacesRegex = /^ +/;
-const trailingSpacesRegex = / +$/;
+const leadingSpacesRegex = /^ */;
+const trailingSpacesRegex = / *$/;
 
 const standardDateFormats = [
     "yyyy/MM/dd HH:mm:ss",
@@ -460,8 +460,8 @@ function createDate(state) {
 }
 
 function addFormatSpaces(value, format) {
-    const leadingSpaces = (leadingSpacesRegex.exec(format) || [])[0] || '';
-    const trailingSpaces = (trailingSpacesRegex.exec(format) || [])[0] || '';
+    const leadingSpaces = leadingSpacesRegex.exec(format)[0];
+    const trailingSpaces = trailingSpacesRegex.exec(format);
 
     return `${ leadingSpaces }${ value }${ trailingSpaces }`;
 }
