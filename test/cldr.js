@@ -1,4 +1,5 @@
-import { load, cldr, localeInfo, dateFieldName, dateFormatNames, firstDay, weekendRange, localeCurrency, currencyDisplay, currencyFractionOptions, currencyDisplays, numberSymbols } from '../src/cldr';
+import { load, cldr, localeInfo, dateFieldName, dateFormatNames, firstDay, weekendRange,
+    localeCurrency, currencyDisplay, currencyFractionOptions, currencyDisplays, numberSymbols, setData } from '../src/cldr';
 import { errors } from '../src/errors';
 
 const likelySubtags = require("cldr-data/supplemental/likelySubtags.json");
@@ -28,6 +29,53 @@ describe('load', () => {
         expect(cldr.supplemental.weekData.weekendStart).toBeDefined();
         expect(cldr.supplemental.weekData.weekendEnd).toBeDefined();
         expect(cldr.supplemental.weekData.minDays).not.toBeDefined();
+    });
+});
+
+describe('setData', () => {
+    it('sets locale data', () => {
+        setData({
+            name: "foo",
+            numbers: {
+                bar: 'baz'
+            }
+        });
+        expect(cldr.foo.numbers.bar).toBe('baz');
+    });
+
+    it('extends numbers', () => {
+        setData({
+            name: "foo",
+            numbers: {
+                bar: 'qux'
+            }
+        });
+        expect(cldr.foo.numbers.bar).toBe('qux');
+    });
+
+    it('sets likelySubtags', () => {
+        setData({
+            name: "foo",
+            likelySubtags: {
+                foo: 'foo-bar-baz'
+            }
+        });
+        expect(cldr.supplemental.likelySubtags.bg).toBeDefined();
+        expect(cldr.supplemental.likelySubtags.foo).toBe('foo-bar-baz');
+    });
+
+    it('sets currencyData', () => {
+        setData({
+            name: "foo",
+            currencyData: {
+                FOO: {
+                    _digits: 0
+                }
+            }
+        });
+        expect(cldr.supplemental.currencyData.region).toBeDefined();
+        expect(cldr.supplemental.currencyData.fractions.JPY).toBeDefined();
+        expect(cldr.supplemental.currencyData.fractions.FOO._digits).toBe(0);
     });
 });
 
