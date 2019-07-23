@@ -1808,6 +1808,14 @@ const data = {
     likelySubtags: {
         pa: "pa-Guru-IN",
         "pa-Arab": "pa-Arab-PK"
+    },
+    currencyData: {
+        PKR: {
+            _rounding: "0",
+            _digits: "2",
+            _cashRounding: "0",
+            _cashDigits: "0"
+        }
     }
 };
 export default data;

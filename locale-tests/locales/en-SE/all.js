@@ -2464,6 +2464,14 @@ const data = {
     },
     likelySubtags: {
         en: "en-Latn-US"
+    },
+    currencyData: {
+        SEK: {
+            _rounding: "0",
+            _digits: "2",
+            _cashRounding: "0",
+            _cashDigits: "0"
+        }
     }
 };
 export default data;

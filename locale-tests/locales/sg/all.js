@@ -1809,6 +1809,12 @@ const data = {
     },
     likelySubtags: {
         sg: "sg-Latn-CF"
+    },
+    currencyData: {
+        XAF: {
+            _rounding: "0",
+            _digits: "0"
+        }
     }
 };
 export default data;

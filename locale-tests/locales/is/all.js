@@ -2177,6 +2177,12 @@ const data = {
     },
     likelySubtags: {
         is: "is-Latn-IS"
+    },
+    currencyData: {
+        ISK: {
+            _rounding: "0",
+            _digits: "0"
+        }
     }
 };
 export default data;

@@ -64,6 +64,12 @@ const data = {
                 3
             ]
         }
+    },
+    currencyData: {
+        BYN: {
+            _rounding: "0",
+            _digits: "2"
+        }
     }
 };
 export default data;

@@ -68,6 +68,12 @@ const data = {
                 3
             ]
         }
+    },
+    currencyData: {
+        KWD: {
+            _rounding: "0",
+            _digits: "3"
+        }
     }
 };
 export default data;

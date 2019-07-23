@@ -2845,6 +2845,12 @@ const data = {
     },
     likelySubtags: {
         ar: "ar-Arab-EG"
+    },
+    currencyData: {
+        YER: {
+            _rounding: "0",
+            _digits: "0"
+        }
     }
 };
 export default data;

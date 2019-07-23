@@ -1806,6 +1806,12 @@ const data = {
     likelySubtags: {
         uz: "uz-Latn-UZ",
         "uz-Arab": "uz-Arab-AF"
+    },
+    currencyData: {
+        AFN: {
+            _rounding: "0",
+            _digits: "0"
+        }
     }
 };
 export default data;

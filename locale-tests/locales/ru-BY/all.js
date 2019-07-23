@@ -2526,6 +2526,12 @@ const data = {
     },
     likelySubtags: {
         ru: "ru-Cyrl-RU"
+    },
+    currencyData: {
+        BYN: {
+            _rounding: "0",
+            _digits: "2"
+        }
     }
 };
 export default data;

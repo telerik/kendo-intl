@@ -1809,6 +1809,12 @@ const data = {
     },
     likelySubtags: {
         mg: "mg-Latn-MG"
+    },
+    currencyData: {
+        MGA: {
+            _rounding: "0",
+            _digits: "0"
+        }
     }
 };
 export default data;

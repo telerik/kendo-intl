@@ -56,6 +56,7 @@ module.exports.buildLocales = (intl, { contentTemplate = defaultTemplate, extens
 
     const data = intl.cldr;
     const likelySubtagsData = data.supplemental.likelySubtags;
+    const supplementalCurrency = data.supplemental.currencyData;
 
     const locales = fs.readdirSync(LOCALES_PATH);
 
@@ -80,12 +81,21 @@ module.exports.buildLocales = (intl, { contentTemplate = defaultTemplate, extens
             const language = name.split('-')[0];
             localeData.likelySubtags = {};
 
+            const localeCurrency = localeData.numbers.localeCurrency;
+            let localeCurrencyData;
+
             if (likelySubtagsData[language]) {
                 localeData.likelySubtags[language] = likelySubtagsData[language];
             }
 
             if (likelySubtagsData[name]) {
                 localeData.likelySubtags[name] = likelySubtagsData[name];
+            }
+
+            if (supplementalCurrency.fractions[localeCurrency]) {
+                localeData.currencyData = localeCurrencyData = {
+                    [localeData.numbers.localeCurrency]: supplementalCurrency.fractions[localeCurrency]
+                };
             }
 
             delete localeData.identity.version;
@@ -101,9 +111,11 @@ module.exports.buildLocales = (intl, { contentTemplate = defaultTemplate, extens
 
             delete localeData.numbers.currencies;
             delete localeData.numbers.localeCurrency;
+            delete localeData.currencyData;
 
             const numbers = Object.assign(localeInfo(localeData), {
-                numbers: localeData.numbers
+                numbers: localeData.numbers,
+                currencyData: localeCurrencyData
             });
 
             const calendar = Object.assign(localeInfo(localeData), {

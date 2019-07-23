@@ -2406,6 +2406,12 @@ const data = {
     },
     likelySubtags: {
         fr: "fr-Latn-FR"
+    },
+    currencyData: {
+        RWF: {
+            _rounding: "0",
+            _digits: "0"
+        }
     }
 };
 export default data;

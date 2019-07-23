@@ -1813,6 +1813,12 @@ const data = {
     },
     likelySubtags: {
         lrc: "lrc-Arab-IR"
+    },
+    currencyData: {
+        IRR: {
+            _rounding: "0",
+            _digits: "0"
+        }
     }
 };
 export default data;

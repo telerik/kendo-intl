@@ -2463,6 +2463,12 @@ const data = {
     },
     likelySubtags: {
         en: "en-Latn-US"
+    },
+    currencyData: {
+        BIF: {
+            _rounding: "0",
+            _digits: "0"
+        }
     }
 };
 export default data;

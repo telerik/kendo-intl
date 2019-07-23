@@ -68,6 +68,12 @@ const data = {
                 3
             ]
         }
+    },
+    currencyData: {
+        LYD: {
+            _rounding: "0",
+            _digits: "3"
+        }
     }
 };
 export default data;

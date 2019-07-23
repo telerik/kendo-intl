@@ -2373,6 +2373,13 @@ const data = {
     },
     likelySubtags: {
         da: "da-Latn-DK"
+    },
+    currencyData: {
+        DKK: {
+            _rounding: "0",
+            _digits: "2",
+            _cashRounding: "50"
+        }
     }
 };
 export default data;

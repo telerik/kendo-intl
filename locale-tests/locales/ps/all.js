@@ -1815,6 +1815,12 @@ const data = {
     },
     likelySubtags: {
         ps: "ps-Arab-AF"
+    },
+    currencyData: {
+        AFN: {
+            _rounding: "0",
+            _digits: "0"
+        }
     }
 };
 export default data;
