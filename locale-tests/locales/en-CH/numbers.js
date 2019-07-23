@@ -65,6 +65,13 @@ const data = {
                 3
             ]
         }
+    },
+    currencyData: {
+        CHF: {
+            _rounding: "0",
+            _digits: "2",
+            _cashRounding: "5"
+        }
     }
 };
 export default data;

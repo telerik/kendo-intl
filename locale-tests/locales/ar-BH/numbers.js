@@ -68,6 +68,12 @@ const data = {
                 3
             ]
         }
+    },
+    currencyData: {
+        BHD: {
+            _rounding: "0",
+            _digits: "3"
+        }
     }
 };
 export default data;

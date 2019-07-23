@@ -2408,6 +2408,13 @@ const data = {
     },
     likelySubtags: {
         fr: "fr-Latn-FR"
+    },
+    currencyData: {
+        CHF: {
+            _rounding: "0",
+            _digits: "2",
+            _cashRounding: "5"
+        }
     }
 };
 export default data;

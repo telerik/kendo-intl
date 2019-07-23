@@ -1807,6 +1807,12 @@ const data = {
     },
     likelySubtags: {
         ckb: "ckb-Arab-IQ"
+    },
+    currencyData: {
+        IQD: {
+            _rounding: "0",
+            _digits: "0"
+        }
     }
 };
 export default data;

@@ -2471,6 +2471,13 @@ const data = {
     },
     likelySubtags: {
         en: "en-Latn-US"
+    },
+    currencyData: {
+        CAD: {
+            _rounding: "0",
+            _digits: "2",
+            _cashRounding: "5"
+        }
     }
 };
 export default data;

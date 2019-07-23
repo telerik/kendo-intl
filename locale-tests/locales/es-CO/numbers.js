@@ -63,6 +63,14 @@ const data = {
                 3
             ]
         }
+    },
+    currencyData: {
+        COP: {
+            _rounding: "0",
+            _digits: "2",
+            _cashRounding: "0",
+            _cashDigits: "0"
+        }
     }
 };
 export default data;

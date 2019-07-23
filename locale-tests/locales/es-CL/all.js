@@ -2352,6 +2352,12 @@ const data = {
     },
     likelySubtags: {
         es: "es-Latn-ES"
+    },
+    currencyData: {
+        CLP: {
+            _rounding: "0",
+            _digits: "0"
+        }
     }
 };
 export default data;

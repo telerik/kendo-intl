@@ -2426,6 +2426,12 @@ const data = {
     },
     likelySubtags: {
         ee: "ee-Latn-GH"
+    },
+    currencyData: {
+        XOF: {
+            _rounding: "0",
+            _digits: "0"
+        }
     }
 };
 export default data;

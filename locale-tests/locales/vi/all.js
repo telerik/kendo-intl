@@ -2008,6 +2008,12 @@ const data = {
     },
     likelySubtags: {
         vi: "vi-Latn-VN"
+    },
+    currencyData: {
+        VND: {
+            _rounding: "0",
+            _digits: "0"
+        }
     }
 };
 export default data;

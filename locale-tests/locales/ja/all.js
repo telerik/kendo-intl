@@ -2157,6 +2157,12 @@ const data = {
     },
     likelySubtags: {
         ja: "ja-Jpan-JP"
+    },
+    currencyData: {
+        JPY: {
+            _rounding: "0",
+            _digits: "0"
+        }
     }
 };
 export default data;

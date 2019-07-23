@@ -64,6 +64,12 @@ const data = {
                 3
             ]
         }
+    },
+    currencyData: {
+        CLP: {
+            _rounding: "0",
+            _digits: "0"
+        }
     }
 };
 export default data;

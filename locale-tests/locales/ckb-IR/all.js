@@ -1808,6 +1808,12 @@ const data = {
     },
     likelySubtags: {
         ckb: "ckb-Arab-IQ"
+    },
+    currencyData: {
+        IRR: {
+            _rounding: "0",
+            _digits: "0"
+        }
     }
 };
 export default data;

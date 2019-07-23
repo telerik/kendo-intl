@@ -1804,6 +1804,12 @@ const data = {
     },
     likelySubtags: {
         rn: "rn-Latn-BI"
+    },
+    currencyData: {
+        BIF: {
+            _rounding: "0",
+            _digits: "0"
+        }
     }
 };
 export default data;

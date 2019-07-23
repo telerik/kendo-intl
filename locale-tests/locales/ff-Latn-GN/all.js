@@ -1810,6 +1810,12 @@ const data = {
     },
     likelySubtags: {
         ff: "ff-Latn-SN"
+    },
+    currencyData: {
+        GNF: {
+            _rounding: "0",
+            _digits: "0"
+        }
     }
 };
 export default data;

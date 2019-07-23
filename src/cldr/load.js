@@ -34,8 +34,12 @@ export default function load() {
                     weekendStart: entry.supplemental.weekData.weekendStart,
                     weekendEnd: entry.supplemental.weekData.weekendEnd
                 };
-            } else {
-                Object.assign(cldr.supplemental, entry.supplemental);
+            } else if (entry.supplemental.likelySubtags) {
+                cldr.supplemental.likelySubtags = Object.assign(cldr.supplemental.likelySubtags, entry.supplemental.likelySubtags);
+            } else if (entry.supplemental.currencyData) {
+                const currencyData = cldr.supplemental.currencyData;
+                currencyData.region = Object.assign(currencyData.region || {}, entry.supplemental.currencyData.region);
+                currencyData.fractions = Object.assign(currencyData.fractions || {}, entry.supplemental.currencyData.fractions);
             }
         }
     }

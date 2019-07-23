@@ -68,6 +68,12 @@ const data = {
                 3
             ]
         }
+    },
+    currencyData: {
+        KMF: {
+            _rounding: "0",
+            _digits: "0"
+        }
     }
 };
 export default data;

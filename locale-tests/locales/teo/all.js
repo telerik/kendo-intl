@@ -1806,6 +1806,12 @@ const data = {
     },
     likelySubtags: {
         teo: "teo-Latn-UG"
+    },
+    currencyData: {
+        UGX: {
+            _rounding: "0",
+            _digits: "0"
+        }
     }
 };
 export default data;

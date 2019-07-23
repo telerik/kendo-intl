@@ -2176,6 +2176,12 @@ const data = {
     },
     likelySubtags: {
         sq: "sq-Latn-AL"
+    },
+    currencyData: {
+        ALL: {
+            _rounding: "0",
+            _digits: "0"
+        }
     }
 };
 export default data;

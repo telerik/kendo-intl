@@ -1804,6 +1804,12 @@ const data = {
     },
     likelySubtags: {
         rw: "rw-Latn-RW"
+    },
+    currencyData: {
+        RWF: {
+            _rounding: "0",
+            _digits: "0"
+        }
     }
 };
 export default data;
