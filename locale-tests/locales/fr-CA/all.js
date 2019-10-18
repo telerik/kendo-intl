@@ -1566,7 +1566,7 @@ const data = {
                 "displayName-count-one": "pa’anga",
                 "displayName-count-other": "pa’angas",
                 symbol: "TOP",
-                "symbol-alt-narrow": "T$"
+                "symbol-alt-narrow": "$T"
             },
             TPE: {
                 displayName: "escudo timorais",
@@ -2022,7 +2022,7 @@ const data = {
             full: "EEEE d MMMM y",
             long: "d MMMM y",
             medium: "d MMM y",
-            short: "yy-MM-dd"
+            short: "y-MM-dd"
         },
         days: {
             format: {

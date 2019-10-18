@@ -49,7 +49,7 @@ const data = {
         },
         currency: {
             patterns: [
-                "$ n"
+                "$n"
             ],
             groupSize: [
                 3,

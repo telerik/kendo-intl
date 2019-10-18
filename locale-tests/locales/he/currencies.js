@@ -336,7 +336,7 @@ const data = {
                 "displayName-count-many": "רובל בלרוסי",
                 "displayName-count-other": "רובל בלרוסי",
                 symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                "symbol-alt-narrow": "р"
             },
             BYR: {
                 displayName: "רובל בלרוסי (2000–2016)",
@@ -1543,11 +1543,11 @@ const data = {
                 symbol: "STD"
             },
             STN: {
-                displayName: "דוברה של סן טומה ופרינסיפה",
-                "displayName-count-one": "דוברה של סן טומה ופרינסיפה",
-                "displayName-count-two": "דוברה של סן טומה ופרינסיפה",
-                "displayName-count-many": "דוברה של סן טומה ופרינסיפה",
-                "displayName-count-other": "דוברה של סן טומה ופרינסיפה",
+                displayName: "דוברה של סאו טומה ופרינסיפה",
+                "displayName-count-one": "דוברה של סאו טומה ופרינסיפה",
+                "displayName-count-two": "דוברה של סאו טומה ופרינסיפה",
+                "displayName-count-many": "דוברה של סאו טומה ופרינסיפה",
+                "displayName-count-other": "דוברה של סאו טומה ופרינסיפה",
                 symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },

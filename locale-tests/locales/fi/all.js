@@ -1703,7 +1703,9 @@ const data = {
                 "symbol-alt-narrow": "UYU"
             },
             UYW: {
-                displayName: "UYW",
+                displayName: "Uruguayn nimellinen palkkaindeksiyksikkö",
+                "displayName-count-one": "Uruguayn nimellinen palkkaindeksiyksikkö",
+                "displayName-count-other": "Uruguayn nimellistä palkkaindeksiyksikköä",
                 symbol: "UYW"
             },
             UZS: {

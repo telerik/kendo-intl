@@ -474,7 +474,7 @@ const data = {
                 narrow: "שנ׳"
             },
             zone: {
-                wide: "אזור",
+                wide: "אזור זמן",
                 short: "אזור",
                 narrow: "אזור"
             }

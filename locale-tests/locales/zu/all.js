@@ -53,7 +53,8 @@ const data = {
         },
         accounting: {
             patterns: [
-                "$n"
+                "$n",
+                "($n)"
             ],
             groupSize: [
                 3
@@ -1453,7 +1454,7 @@ const data = {
                 displayName: "i-US Dollar",
                 "displayName-count-one": "i-US Dollar",
                 "displayName-count-other": "i-US Dollar",
-                symbol: "US$",
+                symbol: "$",
                 "symbol-alt-narrow": "$"
             },
             USN: {
@@ -1750,6 +1751,7 @@ const data = {
                 MMMd: "MMM d",
                 MMMEd: "E, MMM d",
                 MMMMd: "MMMM d",
+                "MMMMW-count-one": "'week' W 'of' MMMM",
                 "MMMMW-count-other": "'week' W 'of' MMMM",
                 ms: "mm:ss",
                 y: "y",
@@ -1762,6 +1764,7 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
+                "yw-count-one": "'week' w 'of' Y",
                 "yw-count-other": "'week' w 'of' Y"
             }
         },

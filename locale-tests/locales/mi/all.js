@@ -255,7 +255,7 @@ const data = {
             },
             BRL: {
                 displayName: "Real Parahi",
-                "displayName-count-other": "Ngā real Parahi",
+                "displayName-count-other": "real Parahi",
                 symbol: "R$",
                 "symbol-alt-narrow": "R$"
             },
@@ -354,7 +354,7 @@ const data = {
             },
             CNY: {
                 displayName: "Yuan Haina",
-                "displayName-count-other": "Yuan Haina",
+                "displayName-count-other": "yuan Haina",
                 symbol: "CN¥",
                 "symbol-alt-narrow": "¥"
             },
@@ -473,7 +473,7 @@ const data = {
             },
             EUR: {
                 displayName: "Euro",
-                "displayName-count-other": "euros",
+                "displayName-count-other": "euro",
                 symbol: "€",
                 "symbol-alt-narrow": "€"
             },
@@ -497,7 +497,7 @@ const data = {
             },
             GBP: {
                 displayName: "Pāuna Piritene",
-                "displayName-count-other": "Ngā pāuna Piritene",
+                "displayName-count-other": "pāuna Piritene",
                 symbol: "£",
                 "symbol-alt-narrow": "£"
             },
@@ -616,8 +616,8 @@ const data = {
                 "symbol-alt-narrow": "₪"
             },
             INR: {
-                displayName: "Rupee Iniana",
-                "displayName-count-other": "Ngā rupee Iniana",
+                displayName: "Rupī Iniana",
+                "displayName-count-other": "rupī Iniana",
                 symbol: "₹",
                 "symbol-alt-narrow": "₹"
             },
@@ -654,7 +654,7 @@ const data = {
             },
             JPY: {
                 displayName: "Yen Hapanihi",
-                "displayName-count-other": "Yen Hapanihi",
+                "displayName-count-other": "yen Hapanihi",
                 symbol: "¥",
                 "symbol-alt-narrow": "¥"
             },
@@ -922,7 +922,7 @@ const data = {
             },
             NZD: {
                 displayName: "Tāra o Aotearoa",
-                "displayName-count-other": "Ngā tāra o Aotearoa",
+                "displayName-count-other": "tāra o Aotearoa",
                 symbol: "$",
                 "symbol-alt-narrow": "$"
             },
@@ -1002,7 +1002,7 @@ const data = {
             },
             RUB: {
                 displayName: "Rūpera Ruhiana",
-                "displayName-count-other": "Ngā rūpera Ruhiana",
+                "displayName-count-other": "rūpera Ruhiana",
                 symbol: "RUB",
                 "symbol-alt-narrow": "₽"
             },
@@ -1190,7 +1190,7 @@ const data = {
             },
             USD: {
                 displayName: "Tāra US",
-                "displayName-count-other": "Ngā tāra US",
+                "displayName-count-other": "tāra US",
                 symbol: "US$",
                 "symbol-alt-narrow": "$"
             },
@@ -1407,17 +1407,17 @@ const data = {
     },
     calendar: {
         patterns: {
-            d: "y-MM-dd",
-            D: "y MMMM d, EEEE",
-            m: "MMM d",
-            M: "MMMM d",
-            y: "y MMM",
-            Y: "y MMMM",
-            F: "y MMMM d, EEEE h:mm:ss",
-            g: "y-MM-dd h:mm",
-            G: "y-MM-dd h:mm:ss",
-            t: "h:mm",
-            T: "h:mm:ss",
+            d: "dd-MM-y",
+            D: "EEEE, d MMMM y",
+            m: "d MMM",
+            M: "d MMMM",
+            y: "MMM y",
+            Y: "MMMM y",
+            F: "EEEE, d MMMM y h:mm:ss a",
+            g: "dd-MM-y h:mm a",
+            G: "dd-MM-y h:mm:ss a",
+            t: "h:mm a",
+            T: "h:mm:ss a",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
@@ -1434,15 +1434,15 @@ const data = {
                 E: "ccc",
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
-                Ed: "d, E",
+                Ed: "E, d",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
-                Gy: "G y",
-                GyMMM: "G y MMM",
-                GyMMMd: "G y MMM d",
-                GyMMMEd: "G y MMM d, E",
+                Gy: "y G",
+                GyMMM: "MMM y G",
+                GyMMMd: "d MMM y G",
+                GyMMMEd: "E, d MMM y G",
                 h: "h a",
                 H: "HH",
                 hm: "h:mm a",
@@ -1454,38 +1454,38 @@ const data = {
                 hmv: "h:mm a v",
                 Hmv: "HH:mm v",
                 M: "L",
-                Md: "MM-dd",
-                MEd: "MM-dd, E",
+                Md: "dd-MM",
+                MEd: "E, dd-MM",
                 MMM: "LLL",
-                MMMd: "MMM d",
-                MMMEd: "MMM d, E",
-                MMMMd: "MMMM d",
-                "MMMMW-count-other": "'week' W 'of' MMMM",
+                MMMd: "d MMM",
+                MMMEd: "E, d MMM",
+                MMMMd: "d MMMM",
+                "MMMMW-count-other": "'wiki' W 'o' MMMM",
                 ms: "mm:ss",
                 y: "y",
-                yM: "y-MM",
-                yMd: "y-MM-dd",
-                yMEd: "y-MM-dd, E",
-                yMMM: "y MMM",
-                yMMMd: "y MMM d",
-                yMMMEd: "y MMM d, E",
-                yMMMM: "y MMMM",
-                yQQQ: "y QQQ",
-                yQQQQ: "y QQQQ",
-                "yw-count-other": "'week' w 'of' Y"
+                yM: "MM-y",
+                yMd: "dd-MM-y",
+                yMEd: "E, dd-MM-y",
+                yMMM: "MMM y",
+                yMMMd: "d MMM y",
+                yMMMEd: "E, d MMM y",
+                yMMMM: "MMMM y",
+                yQQQ: "QQQ y",
+                yQQQQ: "QQQQ y",
+                "yw-count-other": "'wiki' w 'o' Y"
             }
         },
         timeFormats: {
             full: "h:mm:ss a zzzz",
             long: "h:mm:ss a z",
-            medium: "h:mm:ss",
-            short: "h:mm"
+            medium: "h:mm:ss a",
+            short: "h:mm a"
         },
         dateFormats: {
-            full: "y MMMM d, EEEE",
-            long: "y MMMM d",
-            medium: "y MMM d",
-            short: "y-MM-dd"
+            full: "EEEE, d MMMM y",
+            long: "d MMMM y",
+            medium: "d MMM y",
+            short: "dd-MM-y"
         },
         days: {
             format: {

@@ -1514,7 +1514,7 @@ const data = {
                 "displayName-count-one": "pa’anga",
                 "displayName-count-other": "pa’angas",
                 symbol: "TOP",
-                "symbol-alt-narrow": "T$"
+                "symbol-alt-narrow": "$T"
             },
             TPE: {
                 displayName: "escudo timorais",

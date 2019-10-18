@@ -463,17 +463,17 @@ const data = {
             hour: {
                 wide: "óra",
                 short: "óra",
-                narrow: "óra"
+                narrow: "ó"
             },
             minute: {
                 wide: "perc",
                 short: "perc",
-                narrow: "perc"
+                narrow: "p"
             },
             second: {
                 wide: "másodperc",
                 short: "másodperc",
-                narrow: "másodperc"
+                narrow: "mp"
             },
             zone: {
                 wide: "időzóna",

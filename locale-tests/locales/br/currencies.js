@@ -263,11 +263,6 @@ const data = {
             },
             BEL: {
                 displayName: "BEL",
-                "displayName-count-one": "BEL",
-                "displayName-count-two": "BEL",
-                "displayName-count-few": "BEL",
-                "displayName-count-many": "BEL",
-                "displayName-count-other": "BEL",
                 symbol: "BEL"
             },
             BGL: {
@@ -2374,10 +2369,20 @@ const data = {
             },
             XAG: {
                 displayName: "arcʼhant",
+                "displayName-count-one": "oñs troy arcʼhant",
+                "displayName-count-two": "oñs troy arcʼhant",
+                "displayName-count-few": "oñs troy arcʼhant",
+                "displayName-count-many": "oñs troy arcʼhant",
+                "displayName-count-other": "oñs troy arcʼhant",
                 symbol: "XAG"
             },
             XAU: {
                 displayName: "aour",
+                "displayName-count-one": "oñs troy aour",
+                "displayName-count-two": "oñs troy aour",
+                "displayName-count-few": "oñs troy aour",
+                "displayName-count-many": "oñs troy aour",
+                "displayName-count-other": "oñs troy aour",
                 symbol: "XAU"
             },
             XBA: {
@@ -2473,6 +2478,11 @@ const data = {
             },
             XPD: {
                 displayName: "palladiom",
+                "displayName-count-one": "oñs troy palladiom",
+                "displayName-count-two": "oñs troy palladiom",
+                "displayName-count-few": "oñs troy palladiom",
+                "displayName-count-many": "oñs troy palladiom",
+                "displayName-count-other": "oñs troy palladiom",
                 symbol: "XPD"
             },
             XPF: {
@@ -2486,6 +2496,11 @@ const data = {
             },
             XPT: {
                 displayName: "platin",
+                "displayName-count-one": "oñs troy platin",
+                "displayName-count-two": "oñs troy platin",
+                "displayName-count-few": "oñs troy platin",
+                "displayName-count-many": "oñs troy platin",
+                "displayName-count-other": "oñs troy platin",
                 symbol: "XPT"
             },
             XRE: {

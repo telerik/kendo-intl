@@ -227,13 +227,13 @@ const data = {
                 abbreviated: [
                     "jan",
                     "feb",
-                    "mart",
+                    "mar",
                     "apr",
                     "maj",
                     "jun",
                     "jul",
                     "avg",
-                    "sept",
+                    "sep",
                     "okt",
                     "nov",
                     "dec"
@@ -381,20 +381,20 @@ const data = {
                 wide: {
                     "0": "prije nove ere",
                     "1": "nove ere",
-                    "0-alt-variant": "BCE",
+                    "0-alt-variant": "p. n. e.",
                     "1-alt-variant": "nove ere"
                 },
                 abbreviated: {
                     "0": "p. n. e.",
                     "1": "n. e.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "p. n. e.",
+                    "1-alt-variant": "n. e."
                 },
                 narrow: {
                     "0": "p.n.e.",
                     "1": "n.e.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "p. n. e.",
+                    "1-alt-variant": "n. e."
                 }
             }
         },

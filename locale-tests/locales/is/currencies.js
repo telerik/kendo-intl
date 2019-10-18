@@ -390,8 +390,8 @@ const data = {
             },
             CUC: {
                 displayName: "kúbverskur skiptanlegur pesi",
-                "displayName-count-one": "kúbverskur skiptanlegur pesói",
-                "displayName-count-other": "kúbverskir skiptanlegir pesóar",
+                "displayName-count-one": "kúbverskur skiptanlegur pesi",
+                "displayName-count-other": "kúbverskir skiptanlegir pesar",
                 symbol: "CUC",
                 "symbol-alt-narrow": "$"
             },
@@ -1032,7 +1032,9 @@ const data = {
                 "symbol-alt-narrow": "₦"
             },
             NIC: {
-                displayName: "NIC",
+                displayName: "Níkarögsk kordóva (1988–1991)",
+                "displayName-count-one": "Níkarögsk kordóva (1988–1991)",
+                "displayName-count-other": "Níkaragskar kordóvur (1988–1991)",
                 symbol: "NIC"
             },
             NIO: {

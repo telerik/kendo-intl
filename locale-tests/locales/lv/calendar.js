@@ -63,9 +63,9 @@ const data = {
                 MMMEd: "E, d. MMM",
                 MMMMd: "d. MMMM",
                 MMMMEd: "E, d. MMMM",
-                "MMMMW-count-zero": "MMMM W. 'nedēļa'",
-                "MMMMW-count-one": "MMMM W. 'nedēļa'",
-                "MMMMW-count-other": "MMMM W. 'nedēļa'",
+                "MMMMW-count-zero": "MMMM, W. 'nedēļa'",
+                "MMMMW-count-one": "MMMM, W. 'nedēļa'",
+                "MMMMW-count-other": "MMMM, W. 'nedēļa'",
                 mmss: "mm:ss",
                 ms: "mm:ss",
                 y: "y. 'g'.",
@@ -376,20 +376,20 @@ const data = {
                 wide: {
                     "0": "pirms mūsu ēras",
                     "1": "mūsu ērā",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "pirms mūsu ēras",
+                    "1-alt-variant": "mūsu ērā"
                 },
                 abbreviated: {
                     "0": "p.m.ē.",
                     "1": "m.ē.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "p.m.ē.",
+                    "1-alt-variant": "m.ē."
                 },
                 narrow: {
                     "0": "p.m.ē.",
                     "1": "m.ē.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "p.m.ē.",
+                    "1-alt-variant": "m.ē."
                 }
             }
         },

@@ -435,6 +435,7 @@ const data = {
             },
             EGP: {
                 displayName: "pọọn ti Orílẹ́ède Egipiti",
+                "displayName-count-other": "pọ́nùn",
                 symbol: "EGP",
                 "symbol-alt-narrow": "E£"
             },
@@ -872,6 +873,7 @@ const data = {
             },
             NGN: {
                 displayName: "Náìrà ti Orílẹ̀-èdè Nàìjíríà",
+                "displayName-count-other": "Náírà Nàìjíríà",
                 symbol: "₦",
                 "symbol-alt-narrow": "₦"
             },
@@ -1712,13 +1714,13 @@ const data = {
                 },
                 abbreviated: {
                     "0": "BCE",
-                    "1": "CE",
+                    "1": "AD",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 },
                 narrow: {
                     "0": "BCE",
-                    "1": "CE",
+                    "1": "AD",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 }
@@ -1745,7 +1747,7 @@ const data = {
             month: {
                 wide: "Osù",
                 short: "Osù",
-                narrow: "Osù"
+                narrow: "Oṣù"
             },
             week: {
                 wide: "Ọ̀sẹ̀",

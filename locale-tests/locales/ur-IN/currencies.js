@@ -414,9 +414,9 @@ const data = {
                 symbol: "CYP"
             },
             CZK: {
-                displayName: "جمہوریہ چیک کرونا",
-                "displayName-count-one": "جمہوریہ چیک کرونا",
-                "displayName-count-other": "جمہوریہ چیک کروناز",
+                displayName: "چیک کرونا",
+                "displayName-count-one": "چیک کرونا",
+                "displayName-count-other": "چیک کروناز",
                 symbol: "CZK",
                 "symbol-alt-narrow": "Kč"
             },
@@ -1083,9 +1083,9 @@ const data = {
                 symbol: "PEI"
             },
             PEN: {
-                displayName: "پیرو نیووسول",
-                "displayName-count-one": "پیرو نیووسول",
-                "displayName-count-other": "پیرو نیووسول",
+                displayName: "پیروویئن سول",
+                "displayName-count-one": "پیروویئن سول",
+                "displayName-count-other": "پیروویئن سول",
                 symbol: "PEN"
             },
             PES: {
@@ -1101,7 +1101,7 @@ const data = {
             PHP: {
                 displayName: "فلپائینی پیسہ",
                 "displayName-count-one": "فلپائینی پیسہ",
-                "displayName-count-other": "فلپائینی پیسہ",
+                "displayName-count-other": "فلپائنی پیسو",
                 symbol: "PHP",
                 "symbol-alt-narrow": "₱"
             },
@@ -1279,9 +1279,9 @@ const data = {
                 symbol: "STD"
             },
             STN: {
-                displayName: "ساؤ ٹوم اور پرنسپے ڈوبرا",
-                "displayName-count-one": "ساؤ ٹوم اور پرنسپے ڈوبرا",
-                "displayName-count-other": "ساؤ ٹوم اور پرنسپے ڈوبرا",
+                displayName: "ساؤ ٹومے اور پرنسپے ڈوبرا",
+                "displayName-count-one": "ساؤ ٹومے اور پرنسپے ڈوبرا",
+                "displayName-count-other": "ساؤ ٹومے اور پرنسپے ڈوبرا",
                 symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },
@@ -1438,9 +1438,9 @@ const data = {
                 symbol: "UYW"
             },
             UZS: {
-                displayName: "ازبکستان سوم",
-                "displayName-count-one": "ازبکستان سوم",
-                "displayName-count-other": "ازبکستان سوم",
+                displayName: "ازبکستانی سوم",
+                "displayName-count-one": "ازبکستانی سوم",
+                "displayName-count-other": "ازبکستانی سوم",
                 symbol: "UZS"
             },
             VEB: {

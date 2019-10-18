@@ -315,8 +315,8 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             CNH: {
-                displayName: "Yuan Cina (Jaban Rangkah)",
-                "displayName-count-other": "Yuan Cina (Jaban Rangkah)",
+                displayName: "Yuan Tyongkok (Jaban Rangkah)",
+                "displayName-count-other": "Yuan Tyongkok (Jaban Rangkah)",
                 symbol: "CNH"
             },
             CNX: {
@@ -324,8 +324,8 @@ const data = {
                 symbol: "CNX"
             },
             CNY: {
-                displayName: "Yuan Cina",
-                "displayName-count-other": "Yuan Cina",
+                displayName: "Yuan Tyongkok",
+                "displayName-count-other": "Yuan Tyongkok",
                 symbol: "CN¥",
                 "symbol-alt-narrow": "¥"
             },

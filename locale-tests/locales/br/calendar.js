@@ -62,11 +62,11 @@ const data = {
                 MMMd: "d MMM",
                 MMMEd: "E d MMM",
                 MMMMd: "d MMMM",
-                "MMMMW-count-one": "'sizhun' W MMMM",
-                "MMMMW-count-two": "'sizhun' W MMMM",
-                "MMMMW-count-few": "'sizhun' W MMMM",
-                "MMMMW-count-many": "'sizhun' W MMMM",
-                "MMMMW-count-other": "'sizhun' W MMMM",
+                "MMMMW-count-one": "'sizhun' W 'miz' MMMM",
+                "MMMMW-count-two": "'sizhun' W 'miz' MMMM",
+                "MMMMW-count-few": "'sizhun' W 'miz' MMMM",
+                "MMMMW-count-many": "'sizhun' W 'miz' MMMM",
+                "MMMMW-count-other": "'sizhun' W 'miz' MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "MM/y",
@@ -342,20 +342,20 @@ const data = {
                 wide: {
                     "0": "a-raok Jezuz-Krist",
                     "1": "goude Jezuz-Krist",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "a-raok an amzervezh kristen",
+                    "1-alt-variant": "an amzervezh kristen"
                 },
                 abbreviated: {
                     "0": "a-raok J.K.",
                     "1": "goude J.K.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "AAK",
+                    "1-alt-variant": "AK"
                 },
                 narrow: {
                     "0": "a-raok J.K.",
                     "1": "goude J.K.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "AAK",
+                    "1-alt-variant": "AK"
                 }
             }
         },
@@ -364,53 +364,53 @@ const data = {
         dateFields: {
             era: {
                 wide: "amzervezh",
-                short: "amzervezh",
-                narrow: "amzervezh"
+                short: "amzerv.",
+                narrow: "amzerv."
             },
             year: {
                 wide: "bloaz",
                 short: "bl.",
-                narrow: "bl."
+                narrow: "b."
             },
             quarter: {
                 wide: "trimiziad",
                 short: "trim.",
-                narrow: "trim."
+                narrow: "t."
             },
             month: {
                 wide: "miz",
                 short: "miz",
-                narrow: "miz"
+                narrow: "m."
             },
             week: {
                 wide: "sizhun",
-                short: "sizhun",
-                narrow: "sizhun"
+                short: "sizh.",
+                narrow: "sizh."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "sizhun ar miz",
+                short: "sizh. ar miz",
+                narrow: "sizh. ar m."
             },
             day: {
                 wide: "deiz",
-                short: "d",
-                narrow: "d"
+                short: "d.",
+                narrow: "d."
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "deiz ar bloaz",
+                short: "d. ar bl.",
+                narrow: "d. ar b."
             },
             weekday: {
                 wide: "deiz ar sizhun",
-                short: "deiz ar sizhun",
-                narrow: "deiz ar sizhun"
+                short: "d. ar sizh.",
+                narrow: "d. ar sizh."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "deiz ar miz",
+                short: "d. ar miz",
+                narrow: "d. ar m."
             },
             dayperiod: {
                 short: "AM/GM",
@@ -434,8 +434,8 @@ const data = {
             },
             zone: {
                 wide: "takad eur",
-                short: "takad eur",
-                narrow: "takad eur"
+                short: "takad",
+                narrow: "takad"
             }
         }
     },

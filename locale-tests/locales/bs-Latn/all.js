@@ -1959,8 +1959,8 @@ const data = {
                 "symbol-alt-narrow": "Bs"
             },
             VES: {
-                displayName: "venecuelanski bolivar",
-                "displayName-count-one": "venecuelanskih bolivara",
+                displayName: "Venecuelanski bolivar",
+                "displayName-count-one": "venecuelanski bolivar",
                 "displayName-count-few": "venecuelanska bolivara",
                 "displayName-count-other": "venecuelanskih bolivara",
                 symbol: "VES"
@@ -2300,9 +2300,9 @@ const data = {
                 MMMEd: "E, d. MMM",
                 MMMMd: "d. MMMM",
                 MMMMEd: "E, d. MMMM",
-                "MMMMW-count-one": "W. 'sedmica' 'u' MMMM",
-                "MMMMW-count-few": "W. 'sedmica' 'u' MMMM",
-                "MMMMW-count-other": "W. 'sedmica' 'u' MMMM",
+                "MMMMW-count-one": "W. 'sedmica' 'mjesec' MMMM",
+                "MMMMW-count-few": "W. 'sedmica' 'mjesec' MMMM",
+                "MMMMW-count-other": "W. 'sedmica' 'mjesec' MMMM",
                 ms: "mm:ss",
                 y: "y.",
                 yM: "MM/y",

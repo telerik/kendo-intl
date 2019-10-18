@@ -134,10 +134,10 @@ const data = {
                 symbol: "ATS"
             },
             AUD: {
-                displayName: "Australian Dollar",
-                "displayName-count-other": "Australian Dollar",
+                displayName: "Tola fakaʻaositelēlia",
+                "displayName-count-other": "Tola fakaʻaositelēlia",
                 symbol: "AUD$",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "AU$"
             },
             AWG: {
                 displayName: "AWG",
@@ -468,9 +468,10 @@ const data = {
                 symbol: "FIM"
             },
             FJD: {
-                displayName: "FJD",
+                displayName: "Tola fakafisi",
+                "displayName-count-other": "Tola fakafisi",
                 symbol: "FJD",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "F$"
             },
             FKP: {
                 displayName: "FKP",
@@ -898,9 +899,10 @@ const data = {
                 "symbol-alt-narrow": "Rs"
             },
             NZD: {
-                displayName: "NZD",
+                displayName: "Tola fakanuʻusila",
+                "displayName-count-other": "Tola fakanuʻusila",
                 symbol: "NZD$",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "NZ$"
             },
             OMR: {
                 displayName: "OMR",
@@ -923,7 +925,8 @@ const data = {
                 symbol: "PES"
             },
             PGK: {
-                displayName: "PGK",
+                displayName: "Kina fakapapuaniukini",
+                "displayName-count-other": "Kina fakapapuaniukini",
                 symbol: "PGK"
             },
             PHP: {
@@ -995,9 +998,10 @@ const data = {
                 symbol: "SAR"
             },
             SBD: {
-                displayName: "SBD",
+                displayName: "Tola fakaʻotusolomone",
+                "displayName-count-other": "Tola fakaʻotusolomone",
                 symbol: "SBD",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "S$"
             },
             SCR: {
                 displayName: "SCR",
@@ -1219,7 +1223,8 @@ const data = {
                 symbol: "VNN"
             },
             VUV: {
-                displayName: "VUV",
+                displayName: "Vatu fakavanuatu",
+                "displayName-count-other": "Vatu fakavanuatu",
                 symbol: "VUV"
             },
             WST: {
@@ -1285,7 +1290,8 @@ const data = {
                 symbol: "XPD"
             },
             XPF: {
-                displayName: "XPF",
+                displayName: "Falaniki fakapasifika",
+                "displayName-count-other": "Falaniki fakapasifika",
                 symbol: "CFPF"
             },
             XPT: {
@@ -1434,7 +1440,7 @@ const data = {
                 MMMEd: "E d MMM",
                 MMMMd: "d MMMM",
                 MMMMEd: "E d MMMM",
-                "MMMMW-count-other": "'week' W 'of' MMMM",
+                "MMMMW-count-other": "'uike' 'hono' W ʻ'o' MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M/y",
@@ -1447,7 +1453,7 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "y QQQ",
                 yQQQQ: "y QQQQ",
-                "yw-count-other": "'week' w 'of' Y"
+                "yw-count-other": "'uike' 'hono' w ʻ'o' Y"
             }
         },
         timeFormats: {

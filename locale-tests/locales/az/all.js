@@ -110,8 +110,8 @@ const data = {
             },
             AOA: {
                 displayName: "Anqola Kvanzası",
-                "displayName-count-one": "Anqola kvanzasi",
-                "displayName-count-other": "Anqola kvanzasi",
+                "displayName-count-one": "Anqola kvanzası",
+                "displayName-count-other": "Anqola kvanzası",
                 symbol: "AOA",
                 "symbol-alt-narrow": "Kz"
             },
@@ -351,9 +351,9 @@ const data = {
                 symbol: "BRZ"
             },
             BSD: {
-                displayName: "Bahama Dolları",
-                "displayName-count-one": "Bahama dolları",
-                "displayName-count-other": "Bahama dolları",
+                displayName: "Baham Dolları",
+                "displayName-count-one": "Baham dolları",
+                "displayName-count-other": "Baham dolları",
                 symbol: "BSD",
                 "symbol-alt-narrow": "$"
             },
@@ -654,9 +654,9 @@ const data = {
                 symbol: "FRF"
             },
             GBP: {
-                displayName: "Britaniya Funt",
-                "displayName-count-one": "Britaniya funt",
-                "displayName-count-other": "Britaniya funt",
+                displayName: "Britaniya Funtu",
+                "displayName-count-one": "Britaniya funtu",
+                "displayName-count-other": "Britaniya funtu",
                 symbol: "£",
                 "symbol-alt-narrow": "£"
             },
@@ -687,9 +687,9 @@ const data = {
                 symbol: "GHS"
             },
             GIP: {
-                displayName: "Gibraltar Funtu",
-                "displayName-count-one": "Gibraltar funtu",
-                "displayName-count-other": "Gibraltar funtu",
+                displayName: "Cəbəli-Tariq Funtu",
+                "displayName-count-one": "Cəbəli-Tariq funtu",
+                "displayName-count-other": "Cəbəli-Tariq funtu",
                 symbol: "GIP",
                 "symbol-alt-narrow": "£"
             },
@@ -887,9 +887,9 @@ const data = {
                 symbol: "KES"
             },
             KGS: {
-                displayName: "Kırğızıstan Somu",
-                "displayName-count-one": "Kırğızıstan somu",
-                "displayName-count-other": "Kırğızıstan somu",
+                displayName: "Qırğızıstan Somu",
+                "displayName-count-one": "Qırğızıstan somu",
+                "displayName-count-other": "Qırğızıstan somu",
                 symbol: "KGS"
             },
             KHR: {
@@ -2001,10 +2001,10 @@ const data = {
             format: {
                 abbreviated: [
                     "B.",
-                    "B.E.",
-                    "Ç.A.",
+                    "B.e.",
+                    "Ç.a.",
                     "Ç.",
-                    "C.A.",
+                    "C.a.",
                     "C.",
                     "Ş."
                 ],
@@ -2150,9 +2150,9 @@ const data = {
                     "12"
                 ],
                 wide: [
-                    "Yanvar",
+                    "yanvar",
                     "Fevral",
-                    "Mart",
+                    "mart",
                     "Aprel",
                     "May",
                     "İyun",
@@ -2161,7 +2161,7 @@ const data = {
                     "Sentyabr",
                     "Oktyabr",
                     "Noyabr",
-                    "Dekabr"
+                    "dekabr"
                 ]
             }
         },

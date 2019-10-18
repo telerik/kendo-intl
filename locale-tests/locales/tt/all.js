@@ -1709,20 +1709,20 @@ const data = {
                 wide: {
                     "0": "безнең эрага кадәр",
                     "1": "безнең эра",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "б.э.к.",
+                    "1-alt-variant": "б.э."
                 },
                 abbreviated: {
                     "0": "б.э.к.",
-                    "1": "б.э.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "1": "милади",
+                    "0-alt-variant": "б.э.к.",
+                    "1-alt-variant": "б.э."
                 },
                 narrow: {
                     "0": "б.э.к.",
-                    "1": "б.э.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "1": "милади",
+                    "0-alt-variant": "б.э.к.",
+                    "1-alt-variant": "б.э."
                 }
             }
         },

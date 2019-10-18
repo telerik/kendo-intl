@@ -379,20 +379,20 @@ const data = {
                 wide: {
                     "0": "пре нове ере",
                     "1": "нове ере",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "п. н. е.",
+                    "1-alt-variant": "н. е."
                 },
                 abbreviated: {
                     "0": "п. н. е.",
                     "1": "н. е.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "п. н. е.",
+                    "1-alt-variant": "н. е."
                 },
                 narrow: {
                     "0": "п.н.е.",
                     "1": "н.е.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "п. н. е.",
+                    "1-alt-variant": "н. е."
                 }
             }
         },

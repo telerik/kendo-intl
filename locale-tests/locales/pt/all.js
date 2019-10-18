@@ -467,7 +467,7 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             CNH: {
-                displayName: "Renminbi chinês (offshore)",
+                displayName: "Yuan chinês (offshore)",
                 "displayName-count-one": "Yuan chinês (offshore)",
                 "displayName-count-other": "Yuans chineses (offshore)",
                 symbol: "CNH"
@@ -479,7 +479,7 @@ const data = {
                 symbol: "CNX"
             },
             CNY: {
-                displayName: "Renminbi chinês",
+                displayName: "Yuan chinês",
                 "displayName-count-one": "Yuan chinês",
                 "displayName-count-other": "Yuans chineses",
                 symbol: "CN¥",
@@ -2065,13 +2065,13 @@ const data = {
         days: {
             format: {
                 abbreviated: [
-                    "dom",
-                    "seg",
-                    "ter",
-                    "qua",
-                    "qui",
-                    "sex",
-                    "sáb"
+                    "dom.",
+                    "seg.",
+                    "ter.",
+                    "qua.",
+                    "qui.",
+                    "sex.",
+                    "sáb."
                 ],
                 narrow: [
                     "D",
@@ -2083,13 +2083,13 @@ const data = {
                     "S"
                 ],
                 short: [
-                    "dom",
-                    "seg",
-                    "ter",
-                    "qua",
-                    "qui",
-                    "sex",
-                    "sáb"
+                    "dom.",
+                    "seg.",
+                    "ter.",
+                    "qua.",
+                    "qui.",
+                    "sex.",
+                    "sáb."
                 ],
                 wide: [
                     "domingo",
@@ -2103,13 +2103,13 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "dom",
-                    "seg",
-                    "ter",
-                    "qua",
-                    "qui",
-                    "sex",
-                    "sáb"
+                    "dom.",
+                    "seg.",
+                    "ter.",
+                    "qua.",
+                    "qui.",
+                    "sex.",
+                    "sáb."
                 ],
                 narrow: [
                     "D",
@@ -2121,13 +2121,13 @@ const data = {
                     "S"
                 ],
                 short: [
-                    "dom",
-                    "seg",
-                    "ter",
-                    "qua",
-                    "qui",
-                    "sex",
-                    "sáb"
+                    "dom.",
+                    "seg.",
+                    "ter.",
+                    "qua.",
+                    "qui.",
+                    "sex.",
+                    "sáb."
                 ],
                 wide: [
                     "domingo",
@@ -2143,18 +2143,18 @@ const data = {
         months: {
             format: {
                 abbreviated: [
-                    "jan",
-                    "fev",
-                    "mar",
-                    "abr",
-                    "mai",
-                    "jun",
-                    "jul",
-                    "ago",
-                    "set",
-                    "out",
-                    "nov",
-                    "dez"
+                    "jan.",
+                    "fev.",
+                    "mar.",
+                    "abr.",
+                    "mai.",
+                    "jun.",
+                    "jul.",
+                    "ago.",
+                    "set.",
+                    "out.",
+                    "nov.",
+                    "dez."
                 ],
                 narrow: [
                     "J",
@@ -2187,18 +2187,18 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "jan",
-                    "fev",
-                    "mar",
-                    "abr",
-                    "mai",
-                    "jun",
-                    "jul",
-                    "ago",
-                    "set",
-                    "out",
-                    "nov",
-                    "dez"
+                    "jan.",
+                    "fev.",
+                    "mar.",
+                    "abr.",
+                    "mai.",
+                    "jun.",
+                    "jul.",
+                    "ago.",
+                    "set.",
+                    "out.",
+                    "nov.",
+                    "dez."
                 ],
                 narrow: [
                     "J",

@@ -272,14 +272,14 @@ const data = {
                 symbol: "BYR"
             },
             BZD: {
-                displayName: "ໂດ​ລ່າ​ເບ​ລິ​ຊ",
-                "displayName-count-other": "ໂດ​ລ່າ​ເບ​ລິ​ຊ",
+                displayName: "ໂດ​ລ່າ​ເບ​ລີຊ",
+                "displayName-count-other": "ໂດ​ລ່າ​ເບ​ລີຊ",
                 symbol: "BZD",
                 "symbol-alt-narrow": "$"
             },
             CAD: {
-                displayName: "ໂດລ່າຄານາດາ",
-                "displayName-count-other": "ໂດລ່າຄານາດາ",
+                displayName: "ໂດລ່າແຄນາດາ",
+                "displayName-count-other": "ໂດລ່າແຄນາດາ",
                 symbol: "CA$",
                 "symbol-alt-narrow": "$"
             },
@@ -376,8 +376,8 @@ const data = {
                 symbol: "CYP"
             },
             CZK: {
-                displayName: "ໂຄ​ຣູ​ນາ ເຊກ",
-                "displayName-count-other": "ໂຄ​ຣູ​ນາ ເຊກ",
+                displayName: "ເຊກ ໂຄ​ຣູ​ນາ",
+                "displayName-count-other": "ເຊກ ໂຄ​ຣູ​ນາ",
                 symbol: "CZK",
                 "symbol-alt-narrow": "Kč"
             },
@@ -479,8 +479,8 @@ const data = {
                 symbol: "FRF"
             },
             GBP: {
-                displayName: "ປອນ ສະ​ເຕີ​ຣິງ (ອັງ​ກິດ)",
-                "displayName-count-other": "ປອນ ສະເຕີຣິງ (ອັງກິດ)",
+                displayName: "ອັງກິດ ປອນ",
+                "displayName-count-other": "ອັງກິດ ປອນ",
                 symbol: "£",
                 "symbol-alt-narrow": "£"
             },
@@ -500,8 +500,8 @@ const data = {
                 symbol: "GHC"
             },
             GHS: {
-                displayName: "ເຊ​ດິ ກາ​ນາ​ອຽນ",
-                "displayName-count-other": "ເຊ​ດິ ກາ​ນາ​ອຽນ",
+                displayName: "ກາ​ນາ​ອຽນ ເຊ​ດິ",
+                "displayName-count-other": "ກາ​ນາ​ອຽນ ເຊ​ດິ",
                 symbol: "GHS"
             },
             GIP: {
@@ -941,8 +941,8 @@ const data = {
                 symbol: "NLG"
             },
             NOK: {
-                displayName: "ນໍ​ເວ​ກຽນ ​ໂຄຣນ",
-                "displayName-count-other": "ນໍ​ເວ​ກຽນ ​ໂຄຣນ",
+                displayName: "ນໍ​ເວ​ຈຽນ ​ໂຄຣນ",
+                "displayName-count-other": "ນໍ​ເວ​ຈຽນ ​ໂຄຣນ",
                 symbol: "NOK",
                 "symbol-alt-narrow": "kr"
             },
@@ -1221,8 +1221,8 @@ const data = {
                 "symbol-alt-variant": "TL"
             },
             TTD: {
-                displayName: "ທ​ຣິ​ນິ​ແດດ ແອນ ໂທ​ບາ​ໂກ ໂດ​ລ່າ",
-                "displayName-count-other": "ທ​ຣິ​ນິ​ແດດ ແອນ ໂທ​ບາ​ໂກ ໂດ​ລ່າ",
+                displayName: "ທ​ຣິ​ນິ​ແດດ & ໂທ​ບາ​ໂກ ໂດ​ລ່າ",
+                "displayName-count-other": "ທ​ຣິ​ນິ​ແດດ & ໂທ​ບາ​ໂກ ໂດ​ລ່າ",
                 symbol: "TTD",
                 "symbol-alt-narrow": "$"
             },

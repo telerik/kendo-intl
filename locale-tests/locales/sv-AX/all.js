@@ -251,7 +251,7 @@ const data = {
             BGL: {
                 displayName: "bulgarisk hård lev (1962–1999)",
                 "displayName-count-one": "bulgarisk hård lev (1962–1999)",
-                "displayName-count-other": "bulgariska hård lev (1962–1999)",
+                "displayName-count-other": "bulgariska hårda lev (1962–1999)",
                 symbol: "BGL"
             },
             BGM: {
@@ -469,8 +469,8 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             CNH: {
-                displayName: "CNH",
-                "displayName-count-one": "CNH",
+                displayName: "kinesisk yuan (offshore)",
+                "displayName-count-one": "kinesisk yuan (offshore)",
                 "displayName-count-other": "CNH",
                 symbol: "CNH"
             },
@@ -1603,9 +1603,9 @@ const data = {
                 "symbol-alt-narrow": "T$"
             },
             TPE: {
-                displayName: "timoriansk escudo",
+                displayName: "östtimoresisk escudo",
                 "displayName-count-one": "östtimoresisk escudo",
-                "displayName-count-other": "timorianska escudos",
+                "displayName-count-other": "östtimoresiska escudos",
                 symbol: "TPE"
             },
             TRL: {
@@ -1779,19 +1779,19 @@ const data = {
             },
             XBA: {
                 displayName: "europeisk kompositenhet",
-                "displayName-count-one": "europeisk gammal kompositenhet",
+                "displayName-count-one": "europeisk kompositenhet",
                 "displayName-count-other": "europeiska kompositenheter",
                 symbol: "XBA"
             },
             XBB: {
                 displayName: "europeisk monetär enhet",
-                "displayName-count-one": "europeisk gammal monetär enhet",
+                "displayName-count-one": "europeisk monetär enhet",
                 "displayName-count-other": "europeiska monetära enheter",
                 symbol: "XBB"
             },
             XBC: {
                 displayName: "europeisk kontoenhet (XBC)",
-                "displayName-count-one": "europeisk gammal kontoenhet",
+                "displayName-count-one": "europeisk kontoenhet (XBC)",
                 "displayName-count-other": "europeiska kontoenheter (XBC)",
                 symbol: "XBC"
             },
@@ -1869,9 +1869,9 @@ const data = {
                 symbol: "XSU"
             },
             XTS: {
-                displayName: "test-valutakod",
-                "displayName-count-one": "(valutakod för teständamål)",
-                "displayName-count-other": "test-valutakod",
+                displayName: "testvalutaenhet",
+                "displayName-count-one": "testvalutaenhet",
+                "displayName-count-other": "testvalutaenheter",
                 symbol: "XTS"
             },
             XUA: {

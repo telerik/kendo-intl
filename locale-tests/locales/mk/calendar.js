@@ -9,13 +9,13 @@ const data = {
     territory: "MK",
     calendar: {
         patterns: {
-            d: "dd.M.y",
-            D: "EEEE, dd MMMM y",
+            d: "d.M.y",
+            D: "EEEE, d MMMM y",
             m: "d MMM",
             M: "d MMMM",
             y: "MMM y 'г'.",
             Y: "MMMM y 'г'.",
-            F: "EEEE, dd MMMM y HH:mm:ss",
+            F: "EEEE, d MMMM y HH:mm:ss",
             g: "d.M.y HH:mm",
             G: "d.M.y HH:mm:ss",
             t: "HH:mm",
@@ -43,8 +43,8 @@ const data = {
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
                 GyMMM: "MMM y G",
-                GyMMMd: "dd MMM y G",
-                GyMMMEd: "E, dd MMM y G",
+                GyMMMd: "d MMM y G",
+                GyMMMEd: "E, d MMM y G",
                 h: "h a",
                 H: "HH",
                 hm: "h:mm a",
@@ -57,15 +57,15 @@ const data = {
                 Hmv: "HH:mm v",
                 M: "L",
                 Md: "d.M",
-                Mdd: "dd.M",
+                Mdd: "d.M",
                 MEd: "E, d.M",
                 MMM: "LLL",
                 MMMd: "d MMM",
                 MMMEd: "E, d MMM",
                 MMMMd: "d MMMM",
                 MMMMEd: "E, d MMMM",
-                "MMMMW-count-one": "W 'седмица' 'од' MMMM",
-                "MMMMW-count-other": "W 'седмица' 'од' MMMM",
+                "MMMMW-count-one": "W. 'седмица' 'од' MMMM",
+                "MMMMW-count-other": "W. 'седмица' 'од' MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M.y",
@@ -88,10 +88,10 @@ const data = {
             short: "HH:mm"
         },
         dateFormats: {
-            full: "EEEE, dd MMMM y",
-            long: "dd MMMM y",
-            medium: "dd.M.y",
-            short: "dd.M.yy"
+            full: "EEEE, d MMMM y",
+            long: "d MMMM y",
+            medium: "d.M.y",
+            short: "d.M.yy"
         },
         days: {
             format: {
@@ -387,13 +387,13 @@ const data = {
                     "0": "пр.н.е.",
                     "1": "н.е.",
                     "0-alt-variant": "п.н.е.",
-                    "1-alt-variant": "CE"
+                    "1-alt-variant": "н.е."
                 },
                 narrow: {
                     "0": "пр.н.е.",
                     "1": "н.е.",
                     "0-alt-variant": "п.н.е.",
-                    "1-alt-variant": "CE"
+                    "1-alt-variant": "н.е."
                 }
             }
         },

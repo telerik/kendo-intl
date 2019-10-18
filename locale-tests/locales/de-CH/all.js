@@ -1722,16 +1722,16 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
-                displayName: "Venezolanischer Bolívar",
-                "displayName-count-one": "Venezolanischer Bolívar",
-                "displayName-count-other": "Venezolanische Bolívares",
+                displayName: "Venezolanischer Bolívar (2008–2018)",
+                "displayName-count-one": "Venezolanischer Bolívar (2008–2018)",
+                "displayName-count-other": "Venezolanische Bolívares (2008–2018)",
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
             },
             VES: {
-                displayName: "VES",
-                "displayName-count-one": "VES",
-                "displayName-count-other": "VES",
+                displayName: "Venezolanischer Bolívar",
+                "displayName-count-one": "Venezolanischer Bolívar",
+                "displayName-count-other": "Venezolanische Bolívares",
                 symbol: "VES"
             },
             VND: {
@@ -2295,8 +2295,8 @@ const data = {
                 },
                 narrow: {
                     midnight: "Mitternacht",
-                    am: "a",
-                    pm: "p",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "morgens",
                     morning2: "vorm.",
                     afternoon1: "mittags",
@@ -2330,8 +2330,8 @@ const data = {
                 },
                 narrow: {
                     midnight: "Mitternacht",
-                    am: "a",
-                    pm: "p",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "Morgen",
                     morning2: "Vorm.",
                     afternoon1: "Mittag",

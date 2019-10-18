@@ -13,9 +13,9 @@ const data = {
             d: "d.M.y.",
             D: "EEEE, dd. MMMM y.",
             m: "dd. MMM",
-            M: "MMMM d",
+            M: "d. MMMM",
             y: "MMM y.",
-            Y: "y MMMM",
+            Y: "MMMM y.",
             F: "EEEE, dd. MMMM y. HH:mm:ss",
             g: "dd.MM.y. HH:mm",
             G: "dd.MM.y. HH:mm:ss",
@@ -46,11 +46,11 @@ const data = {
                 GyMMM: "MMM y. G",
                 GyMMMd: "dd. MMM y. G",
                 GyMMMEd: "E, dd. MMM y. G",
-                h: "hh a",
+                h: "h a",
                 H: "HH",
-                hm: "hh:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "hh:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
                 hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
@@ -62,8 +62,10 @@ const data = {
                 MMM: "LLL",
                 MMMd: "dd. MMM",
                 MMMEd: "E, dd. MMM",
-                MMMMd: "MMMM d",
-                "MMMMW-count-other": "'week' W 'of' MMMM",
+                MMMMd: "d. MMMM",
+                "MMMMW-count-one": "'седмица' W 'мјесец' MMMM",
+                "MMMMW-count-few": "'седмица' W 'мјесец' MMMM",
+                "MMMMW-count-other": "'седмица' W 'мјесец' MMMM",
                 ms: "mm:ss",
                 y: "y.",
                 yM: "MM.y.",
@@ -72,10 +74,12 @@ const data = {
                 yMMM: "MMM y.",
                 yMMMd: "dd. MMM y.",
                 yMMMEd: "E, dd. MMM y.",
-                yMMMM: "y MMMM",
+                yMMMM: "MMMM y.",
                 yQQQ: "y QQQ",
                 yQQQQ: "y QQQQ",
-                "yw-count-other": "'week' w 'of' Y"
+                "yw-count-one": "'седмица' w 'година' Y",
+                "yw-count-few": "'седмица' w 'година' Y",
+                "yw-count-other": "'седмица' w 'година' Y"
             }
         },
         timeFormats: {
@@ -303,30 +307,66 @@ const data = {
         dayPeriods: {
             format: {
                 abbreviated: {
+                    midnight: "поноћ",
                     am: "пре подне",
-                    pm: "поподне"
+                    noon: "подне",
+                    pm: "поподне",
+                    morning1: "ујутру",
+                    afternoon1: "у подне",
+                    evening1: "увече",
+                    night1: "ноћу"
                 },
                 narrow: {
+                    midnight: "поноћ",
                     am: "пре подне",
-                    pm: "поподне"
+                    noon: "подне",
+                    pm: "поподне",
+                    morning1: "ујутру",
+                    afternoon1: "у подне",
+                    evening1: "увече",
+                    night1: "ноћу"
                 },
                 wide: {
-                    am: "пре подне",
-                    pm: "поподне"
+                    midnight: "поноћ",
+                    am: "прије подне",
+                    noon: "подне",
+                    pm: "послије подне",
+                    morning1: "ујутру",
+                    afternoon1: "у подне",
+                    evening1: "увече",
+                    night1: "ноћу"
                 }
             },
             "stand-alone": {
                 abbreviated: {
+                    midnight: "поноћ",
                     am: "пре подне",
-                    pm: "поподне"
+                    noon: "подне",
+                    pm: "поподне",
+                    morning1: "јутро",
+                    afternoon1: "послийеподне",
+                    evening1: "вече",
+                    night1: "ноћ"
                 },
                 narrow: {
+                    midnight: "поноћ",
                     am: "пре подне",
-                    pm: "поподне"
+                    noon: "подне",
+                    pm: "поподне",
+                    morning1: "јутро",
+                    afternoon1: "послийеподне",
+                    evening1: "вече",
+                    night1: "ноћ"
                 },
                 wide: {
-                    am: "пре подне",
-                    pm: "поподне"
+                    midnight: "поноћ",
+                    am: "прије подне",
+                    noon: "подне",
+                    pm: "послије подне",
+                    morning1: "јутро",
+                    afternoon1: "послийеподне",
+                    evening1: "вече",
+                    night1: "ноћ"
                 }
             }
         },
@@ -335,8 +375,8 @@ const data = {
                 wide: {
                     "0": "прије нове ере",
                     "1": "нове ере",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "п.н.е",
+                    "1-alt-variant": "н.е."
                 },
                 abbreviated: {
                     "0": "п. н. е.",
@@ -362,28 +402,28 @@ const data = {
             },
             year: {
                 wide: "година",
-                short: "година",
-                narrow: "година"
+                short: "год",
+                narrow: "год."
             },
             quarter: {
-                wide: "Quarter",
-                short: "Quarter",
-                narrow: "Quarter"
+                wide: "тромјесечје",
+                short: "тромје.",
+                narrow: "qtr."
             },
             month: {
-                wide: "месец",
-                short: "месец",
-                narrow: "месец"
+                wide: "мјесец",
+                short: "мјес.",
+                narrow: "мјес."
             },
             week: {
-                wide: "недеља",
-                short: "недеља",
-                narrow: "недеља"
+                wide: "седмица",
+                short: "седм.",
+                narrow: "седм."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "седмица у мјесецу",
+                short: "седм. у мјесецу",
+                narrow: "седм. у мјес."
             },
             day: {
                 wide: "дан",
@@ -391,39 +431,39 @@ const data = {
                 narrow: "дан"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "дан у години",
+                short: "дан у год.",
+                narrow: "дан у год."
             },
             weekday: {
-                wide: "дан у недељи",
-                short: "дан у недељи",
-                narrow: "дан у недељи"
+                wide: "дан у седмици",
+                short: "дан у седм.",
+                narrow: "дан у седм."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "радни дан у мјесецу",
+                short: "рад. дан у мјесецу",
+                narrow: "рад. дан у мјес."
             },
             dayperiod: {
-                short: "пре подне/поподне",
-                wide: "пре подне/поподне",
-                narrow: "пре подне/поподне"
+                short: "прије подне/послије подне",
+                wide: "прије подне/послије подне",
+                narrow: "прије подне/послије подне"
             },
             hour: {
-                wide: "час",
-                short: "час",
-                narrow: "час"
+                wide: "сат",
+                short: "сат",
+                narrow: "сат"
             },
             minute: {
                 wide: "минут",
-                short: "минут",
-                narrow: "минут"
+                short: "мин.",
+                narrow: "мин"
             },
             second: {
                 wide: "секунд",
-                short: "секунд",
-                narrow: "секунд"
+                short: "сек.",
+                narrow: "сек"
             },
             zone: {
                 wide: "зона",

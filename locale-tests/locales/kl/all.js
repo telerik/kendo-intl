@@ -1541,14 +1541,14 @@ const data = {
             format: {
                 abbreviated: [
                     "jan",
-                    "feb",
+                    "febr",
                     "mar",
                     "apr",
                     "maj",
                     "jun",
                     "jul",
                     "aug",
-                    "sep",
+                    "sept",
                     "okt",
                     "nov",
                     "dec"
@@ -1568,31 +1568,31 @@ const data = {
                     "12"
                 ],
                 wide: [
-                    "januari",
-                    "februari",
-                    "martsi",
-                    "aprili",
-                    "maji",
-                    "juni",
-                    "juli",
-                    "augustusi",
-                    "septemberi",
-                    "oktoberi",
-                    "novemberi",
-                    "decemberi"
+                    "januaarip",
+                    "februaarip",
+                    "marsip",
+                    "apriilip",
+                    "maajip",
+                    "juunip",
+                    "juulip",
+                    "aggustip",
+                    "septembarip",
+                    "oktobarip",
+                    "novembarip",
+                    "decembarip"
                 ]
             },
             "stand-alone": {
                 abbreviated: [
                     "jan",
-                    "feb",
+                    "febr",
                     "mar",
                     "apr",
                     "maj",
                     "jun",
                     "jul",
                     "aug",
-                    "sep",
+                    "sept",
                     "okt",
                     "nov",
                     "dec"
@@ -1612,18 +1612,18 @@ const data = {
                     "12"
                 ],
                 wide: [
-                    "januari",
-                    "februari",
-                    "martsi",
-                    "aprili",
-                    "maji",
-                    "juni",
-                    "juli",
-                    "augustusi",
-                    "septemberi",
-                    "oktoberi",
-                    "novemberi",
-                    "decemberi"
+                    "januaari",
+                    "februaari",
+                    "marsi",
+                    "apriili",
+                    "maaji",
+                    "juuni",
+                    "juuli",
+                    "aggusti",
+                    "septembari",
+                    "oktobari",
+                    "novembari",
+                    "decembari"
                 ]
             }
         },

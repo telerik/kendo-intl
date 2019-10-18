@@ -1124,9 +1124,9 @@ const data = {
                 symbol: "MVR"
             },
             MWK: {
-                displayName: "kwacha malauí",
-                "displayName-count-one": "kwacha malauí",
-                "displayName-count-other": "kwachas malauís",
+                displayName: "kuacha malauí",
+                "displayName-count-one": "kuacha malauí",
+                "displayName-count-other": "kuachas malauís",
                 symbol: "MWK"
             },
             MXN: {
@@ -1847,9 +1847,9 @@ const data = {
                 symbol: "ZMK"
             },
             ZMW: {
-                displayName: "kwacha zambiano",
-                "displayName-count-one": "kwacha zambiano",
-                "displayName-count-other": "kwachas zambianos",
+                displayName: "kuacha zambiano",
+                "displayName-count-one": "kuacha zambiano",
+                "displayName-count-other": "kuachas zambianos",
                 symbol: "ZMW",
                 "symbol-alt-narrow": "ZK"
             },

@@ -48,7 +48,6 @@ const data = {
             groupSize: [
                 3
             ],
-            "unitPattern-count-one": "n $",
             "unitPattern-count-other": "n $"
         },
         accounting: {
@@ -246,7 +245,7 @@ const data = {
             BMD: {
                 displayName: "Doolarka Barmuuda",
                 "displayName-count-one": "doolarka Barmuuda",
-                "displayName-count-other": "doolarada Barmuuda",
+                "displayName-count-other": "Doolarka Barmuuda",
                 symbol: "BMD",
                 "symbol-alt-narrow": "$"
             },
@@ -1779,7 +1778,7 @@ const data = {
                 abbreviated: [
                     "Axd",
                     "Isn",
-                    "Slsa",
+                    "Tldo",
                     "Arbc",
                     "Khms",
                     "Jmc",
@@ -1788,7 +1787,7 @@ const data = {
                 narrow: [
                     "A",
                     "I",
-                    "S",
+                    "T",
                     "A",
                     "Kh",
                     "J",
@@ -1797,7 +1796,7 @@ const data = {
                 short: [
                     "Axd",
                     "Isn",
-                    "Slsa",
+                    "Tldo",
                     "Arbc",
                     "Khms",
                     "Jmc",
@@ -1806,10 +1805,10 @@ const data = {
                 wide: [
                     "Axad",
                     "Isniin",
-                    "Salaasa",
-                    "Arbaca",
+                    "Talaado",
+                    "Arbaco",
                     "Khamiis",
-                    "Jimce",
+                    "Jimco",
                     "Sabti"
                 ]
             },
@@ -1817,7 +1816,7 @@ const data = {
                 abbreviated: [
                     "Axd",
                     "Isn",
-                    "Slsa",
+                    "Tldo",
                     "Arbc",
                     "Khms",
                     "Jmc",
@@ -1826,7 +1825,7 @@ const data = {
                 narrow: [
                     "A",
                     "I",
-                    "S",
+                    "T",
                     "A",
                     "Kh",
                     "J",
@@ -1835,7 +1834,7 @@ const data = {
                 short: [
                     "Axd",
                     "Isn",
-                    "Slsa",
+                    "Tldo",
                     "Arbc",
                     "Khms",
                     "Jmc",
@@ -1844,10 +1843,10 @@ const data = {
                 wide: [
                     "Axad",
                     "Isniin",
-                    "Salaasa",
-                    "Arbaca",
+                    "Talaado",
+                    "Arbaco",
                     "Khamiis",
-                    "Jimce",
+                    "Jimco",
                     "Sabti"
                 ]
             }
@@ -2056,8 +2055,8 @@ const data = {
             },
             month: {
                 wide: "Bil",
-                short: "Bil-gaaban",
-                narrow: "Bil-gaaban"
+                short: "Bil",
+                narrow: "bil"
             },
             week: {
                 wide: "Toddobaad",
@@ -2066,8 +2065,8 @@ const data = {
             },
             weekOfMonth: {
                 wide: "Toddobaadka Bisha",
-                short: "tdbdka bsha",
-                narrow: "tdbdka bsha"
+                short: "Toddobaadka Bisha",
+                narrow: "Toddobaadka Bisha"
             },
             day: {
                 wide: "maalin",

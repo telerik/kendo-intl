@@ -25,8 +25,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1}, {0}",
-            long: "{1}, {0}",
+            full: "{1} 'a' 'las' {0}",
+            long: "{1} 'a' 'las' {0}",
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
@@ -355,9 +355,9 @@ const data = {
                     night1: "noche"
                 },
                 narrow: {
-                    am: "a.m.",
+                    am: "a. m.",
                     noon: "mediodía",
-                    pm: "p.m.",
+                    pm: "p. m.",
                     morning1: "madrugada",
                     morning2: "mañana",
                     evening1: "tarde",

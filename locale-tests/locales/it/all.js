@@ -2016,7 +2016,7 @@ const data = {
                     noon: "mezzogiorno",
                     pm: "PM",
                     morning1: "di mattina",
-                    afternoon1: "del pomeriggio",
+                    afternoon1: "di pomeriggio",
                     evening1: "di sera",
                     night1: "di notte"
                 },
@@ -2026,7 +2026,7 @@ const data = {
                     noon: "mezzogiorno",
                     pm: "p.",
                     morning1: "di mattina",
-                    afternoon1: "del pomeriggio",
+                    afternoon1: "di pomeriggio",
                     evening1: "di sera",
                     night1: "di notte"
                 },

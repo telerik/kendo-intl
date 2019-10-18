@@ -615,10 +615,10 @@ const data = {
                 symbol: "DEM"
             },
             DJF: {
-                displayName: "Џибутански франак",
-                "displayName-count-one": "џибутански франак",
-                "displayName-count-few": "џибутанскa франкa",
-                "displayName-count-other": "џибутанских франакa",
+                displayName: "Џибутски франак",
+                "displayName-count-one": "џибутски франак",
+                "displayName-count-few": "џибутска франка",
+                "displayName-count-other": "џибутских франака",
                 symbol: "DJF"
             },
             DKK: {
@@ -1231,7 +1231,7 @@ const data = {
                 displayName: "Македонски денар",
                 "displayName-count-one": "македонски денар",
                 "displayName-count-few": "македонска денара",
-                "displayName-count-other": "македонских динара",
+                "displayName-count-other": "македонских денара",
                 symbol: "MKD"
             },
             MKN: {
@@ -1276,10 +1276,10 @@ const data = {
                 symbol: "MRO"
             },
             MRU: {
-                displayName: "Мауританијска oгија",
-                "displayName-count-one": "мауританијска oгија",
-                "displayName-count-few": "мауританијскe oгијe",
-                "displayName-count-other": "мауританијских oгијa",
+                displayName: "Мауританска огија",
+                "displayName-count-one": "мауританска огија",
+                "displayName-count-few": "мауританске огије",
+                "displayName-count-other": "мауританских огија",
                 symbol: "MRU"
             },
             MTL: {
@@ -1643,10 +1643,10 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             SHP: {
-                displayName: "Св. јеленска фунта",
-                "displayName-count-one": "св. јеленска фунта",
-                "displayName-count-few": "св. јеленске фунте",
-                "displayName-count-other": "св. јеленских фунти",
+                displayName: "Свете Јелене фунта",
+                "displayName-count-one": "Свете Јелене фунта",
+                "displayName-count-few": "Свете Јелене фунте",
+                "displayName-count-other": "Свете Јелене фунти",
                 symbol: "SHP",
                 "symbol-alt-narrow": "£"
             },
@@ -2598,20 +2598,20 @@ const data = {
                 wide: {
                     "0": "пре нове ере",
                     "1": "нове ере",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "п. н. е.",
+                    "1-alt-variant": "н. е."
                 },
                 abbreviated: {
                     "0": "п. н. е.",
                     "1": "н. е.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "п. н. е.",
+                    "1-alt-variant": "н. е."
                 },
                 narrow: {
                     "0": "п.н.е.",
                     "1": "н.е.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "п. н. е.",
+                    "1-alt-variant": "н. е."
                 }
             }
         },

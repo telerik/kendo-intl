@@ -722,9 +722,9 @@ const data = {
                 symbol: "ILR"
             },
             ILS: {
-                displayName: "ఐరాయిలి న్యూ షెక్యెల్",
-                "displayName-count-one": "ఐరాయిలి న్యూ షెక్యెల్",
-                "displayName-count-other": "ఐరాయిలి న్యూ షెక్యెల్‌లు",
+                displayName: "ఇజ్రాయేలీ న్యూ షెకెల్",
+                "displayName-count-one": "ఇజ్రాయేలీ న్యూ షెకెల్",
+                "displayName-count-other": "ఇజ్రాయేలీ న్యూ షెకెల్ లు",
                 symbol: "₪",
                 "symbol-alt-narrow": "₪"
             },
@@ -1409,9 +1409,9 @@ const data = {
                 symbol: "TRL"
             },
             TRY: {
-                displayName: "తుర్కిష్ లిరా",
-                "displayName-count-one": "తుర్కిష్ లిరా",
-                "displayName-count-other": "తుర్కిష్ లిరా",
+                displayName: "టర్కిస్ లీరా",
+                "displayName-count-one": "టర్కిస్ లీరా",
+                "displayName-count-other": "టర్కిస్ లీరా",
                 symbol: "TRY",
                 "symbol-alt-narrow": "₺",
                 "symbol-alt-variant": "TL"
@@ -2147,7 +2147,7 @@ const data = {
             minute: {
                 wide: "నిమిషము",
                 short: "నిమి.",
-                narrow: "ని"
+                narrow: "నిమి."
             },
             second: {
                 wide: "సెకను",

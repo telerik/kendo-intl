@@ -72,11 +72,11 @@ const data = {
                 symbol: "ADP"
             },
             AED: {
-                displayName: "dirham arabski",
-                "displayName-count-one": "dirham arabski",
-                "displayName-count-few": "dirhamy arabskie",
-                "displayName-count-many": "dirhamów arabskich",
-                "displayName-count-other": "dirhama arabskiego",
+                displayName: "dirham ZEA",
+                "displayName-count-one": "dirham ZEA",
+                "displayName-count-few": "dirhamy ZEA",
+                "displayName-count-many": "dirhamów ZEA",
+                "displayName-count-other": "dirhama ZEA",
                 symbol: "AED"
             },
             AFA: {
@@ -88,11 +88,11 @@ const data = {
                 symbol: "AFA"
             },
             AFN: {
-                displayName: "afgani",
-                "displayName-count-one": "afgani",
-                "displayName-count-few": "afgani",
-                "displayName-count-many": "afgani",
-                "displayName-count-other": "afgani",
+                displayName: "afgani afgańskie",
+                "displayName-count-one": "afgani afgańskie",
+                "displayName-count-few": "afgani afgańskie",
+                "displayName-count-many": "afgani afgańskich",
+                "displayName-count-other": "afgani afgańskiego",
                 symbol: "AFN"
             },
             ALK: {
@@ -124,11 +124,11 @@ const data = {
                 symbol: "ANG"
             },
             AOA: {
-                displayName: "kwanza angolańska",
-                "displayName-count-one": "kwanza angolańska",
-                "displayName-count-few": "kwanzy angolańskie",
-                "displayName-count-many": "kwanz angolańskich",
-                "displayName-count-other": "kwanzy angolańskiej",
+                displayName: "kwanza angolska",
+                "displayName-count-one": "kwanza angolska",
+                "displayName-count-few": "kwanzy angolskie",
+                "displayName-count-many": "kwanz angolskich",
+                "displayName-count-other": "kwanzy angolskiej",
                 symbol: "AOA",
                 "symbol-alt-narrow": "Kz"
             },
@@ -336,11 +336,11 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             BOB: {
-                displayName: "boliviano",
-                "displayName-count-one": "boliviano",
-                "displayName-count-few": "boliviano",
-                "displayName-count-many": "boliviano",
-                "displayName-count-other": "boliviano",
+                displayName: "boliviano boliwijskie",
+                "displayName-count-one": "boliviano boliwijskie",
+                "displayName-count-few": "boliviano boliwijskie",
+                "displayName-count-many": "boliviano boliwijskich",
+                "displayName-count-other": "boliviano boliwijskiego",
                 symbol: "BOB",
                 "symbol-alt-narrow": "Bs"
             },
@@ -692,8 +692,8 @@ const data = {
             ETB: {
                 displayName: "birr etiopski",
                 "displayName-count-one": "birr etiopski",
-                "displayName-count-few": "birra etiopskie",
-                "displayName-count-many": "birra etiopskich",
+                "displayName-count-few": "birry etiopskie",
+                "displayName-count-many": "birrów etiopskich",
                 "displayName-count-other": "birra etiopskiego",
                 symbol: "ETB"
             },
@@ -764,8 +764,8 @@ const data = {
                 symbol: "GHC"
             },
             GHS: {
-                displayName: "cedi ghański",
-                "displayName-count-one": "cedi ghański",
+                displayName: "cedi ghańskie",
+                "displayName-count-one": "cedi ghańskie",
                 "displayName-count-few": "cedi ghańskie",
                 "displayName-count-many": "cedi ghańskich",
                 "displayName-count-other": "cedi ghańskiego",
@@ -867,8 +867,8 @@ const data = {
                 "symbol-alt-narrow": "kn"
             },
             HTG: {
-                displayName: "gourde haitańskie",
-                "displayName-count-one": "gourde haitańskie",
+                displayName: "gourde haitański",
+                "displayName-count-one": "gourde haitański",
                 "displayName-count-few": "gourde haitańskie",
                 "displayName-count-many": "gourde haitańskich",
                 "displayName-count-other": "gourde haitańskiego",
@@ -1249,11 +1249,11 @@ const data = {
                 symbol: "MRO"
             },
             MRU: {
-                displayName: "ouguiya mauretańska",
-                "displayName-count-one": "ouguiya mauretańska",
-                "displayName-count-few": "ouguiya mauretańskie",
-                "displayName-count-many": "ouguiya mauretańskich",
-                "displayName-count-other": "ouguiya mauretańskiej",
+                displayName: "ugija mauretańska",
+                "displayName-count-one": "ugija mauretańska",
+                "displayName-count-few": "ugija mauretańskie",
+                "displayName-count-many": "ugija mauretańskich",
+                "displayName-count-other": "ugija mauretańskiej",
                 symbol: "MRU"
             },
             MTL: {
@@ -1438,7 +1438,7 @@ const data = {
                 symbol: "PES"
             },
             PGK: {
-                displayName: "kina Papua Nowa Gwinea",
+                displayName: "kina papuańska",
                 "displayName-count-one": "kina papuaska",
                 "displayName-count-few": "kina papuaskie",
                 "displayName-count-many": "kina papuaskich",
@@ -1621,11 +1621,11 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             SHP: {
-                displayName: "funt Wyspy Świętej Heleny",
-                "displayName-count-one": "funt Wyspy Świętej Heleny",
-                "displayName-count-few": "funty Wyspy Świętej Heleny",
-                "displayName-count-many": "funtów Wyspy Świętej Heleny",
-                "displayName-count-other": "funta Wyspy Świętej Heleny",
+                displayName: "funt Świętej Heleny",
+                "displayName-count-one": "funt Świętej Heleny",
+                "displayName-count-few": "funty Świętej Heleny",
+                "displayName-count-many": "funtów Świętej Heleny",
+                "displayName-count-other": "funta Świętej Heleny",
                 symbol: "SHP",
                 "symbol-alt-narrow": "£"
             },
@@ -2059,10 +2059,10 @@ const data = {
             },
             XXX: {
                 displayName: "nieznana waluta",
-                "displayName-count-one": "nieznana waluta",
-                "displayName-count-few": "nieznanej waluty",
-                "displayName-count-many": "nieznanej waluty",
-                "displayName-count-other": "nieznanej waluty",
+                "displayName-count-one": "(nieznana waluta)",
+                "displayName-count-few": "(nieznana waluta)",
+                "displayName-count-many": "(nieznana waluta)",
+                "displayName-count-other": "(nieznana waluta)",
                 symbol: "¤"
             },
             YDD: {
@@ -2117,9 +2117,9 @@ const data = {
             ZMW: {
                 displayName: "kwacha zambijska",
                 "displayName-count-one": "kwacha zambijska",
-                "displayName-count-few": "kwacha zambijskie",
-                "displayName-count-many": "kwacha zambijskich",
-                "displayName-count-other": "kwacha zambijskiej",
+                "displayName-count-few": "kwachy zambijskie",
+                "displayName-count-many": "kwach zambijskich",
+                "displayName-count-other": "kwachy zambijskiej",
                 symbol: "ZMW",
                 "symbol-alt-narrow": "ZK"
             },
@@ -2205,10 +2205,10 @@ const data = {
                 MMMEd: "E, d MMM",
                 MMMMd: "d MMMM",
                 MMMMEd: "E, d MMMM",
-                "MMMMW-count-one": "MMMM, 'tydz'. W",
-                "MMMMW-count-few": "MMMM, 'tydz'. W",
-                "MMMMW-count-many": "MMMM, 'tydz'. W",
-                "MMMMW-count-other": "MMMM, 'tydz'. W",
+                "MMMMW-count-one": "LLLL, 'tydz'. W",
+                "MMMMW-count-few": "LLLL, 'tydz'. W",
+                "MMMMW-count-many": "LLLL, 'tydz'. W",
+                "MMMMW-count-other": "LLLL, 'tydz'. W",
                 ms: "mm:ss",
                 y: "y",
                 yM: "MM.y",
@@ -2579,8 +2579,8 @@ const data = {
             },
             day: {
                 wide: "dzień",
-                short: "dzień",
-                narrow: "dzień"
+                short: "dz.",
+                narrow: "d."
             },
             dayOfYear: {
                 wide: "dzień roku",
@@ -2590,12 +2590,12 @@ const data = {
             weekday: {
                 wide: "dzień tygodnia",
                 short: "dzień tyg.",
-                narrow: "dzień tyg."
+                narrow: "dz. tyg."
             },
             weekdayOfMonth: {
                 wide: "dzień miesiąca",
                 short: "dzień mies.",
-                narrow: "dzień mies."
+                narrow: "dz. mies."
             },
             dayperiod: {
                 short: "rano / po południu / wieczorem",

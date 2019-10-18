@@ -314,8 +314,8 @@ const data = {
                     pm: "i.n."
                 },
                 narrow: {
-                    am: "a",
-                    pm: "p"
+                    am: "r.n.",
+                    pm: "i.n."
                 },
                 wide: {
                     am: "r.n.",
@@ -324,16 +324,16 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: {
-                    am: "a.m.",
-                    pm: "p.m."
+                    am: "r.n.",
+                    pm: "i.n."
                 },
                 narrow: {
-                    am: "a",
-                    pm: "p"
+                    am: "r.n.",
+                    pm: "i.n."
                 },
                 wide: {
-                    am: "a.m.",
-                    pm: "p.m."
+                    am: "r.n.",
+                    pm: "i.n."
                 }
             }
         },

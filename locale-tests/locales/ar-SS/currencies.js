@@ -1154,7 +1154,7 @@ const data = {
                 "displayName-count-many": "دولارًا ليبيريًا",
                 "displayName-count-other": "دولار ليبيري",
                 symbol: "LRD",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "$LR"
             },
             LSL: {
                 displayName: "لوتي ليسوتو",

@@ -62,7 +62,7 @@ const data = {
                 MMMd: "d MMM",
                 MMMEd: "E, d MMM",
                 MMMMd: "d MMMM",
-                "MMMMW-count-other": "'pekan' W 'saka' MMMM",
+                "MMMMW-count-other": "'pekan' W 'ing' MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "MM-y",
@@ -74,7 +74,7 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-other": "'pekan' w 'saka' Y"
+                "yw-count-other": "'pekan' w 'ing' Y"
             }
         },
         timeFormats: {
@@ -92,7 +92,7 @@ const data = {
         days: {
             format: {
                 abbreviated: [
-                    "Ahd",
+                    "Ahad",
                     "Sen",
                     "Sel",
                     "Rab",
@@ -110,7 +110,7 @@ const data = {
                     "S"
                 ],
                 short: [
-                    "Ahd",
+                    "Ahad",
                     "Sen",
                     "Sel",
                     "Rab",
@@ -130,7 +130,7 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "Ahd",
+                    "Ahad",
                     "Sen",
                     "Sel",
                     "Rab",
@@ -148,7 +148,7 @@ const data = {
                     "S"
                 ],
                 short: [
-                    "Ahd",
+                    "Ahad",
                     "Sen",
                     "Sel",
                     "Rab",
@@ -380,9 +380,9 @@ const data = {
                 narrow: "pekan"
             },
             weekOfMonth: {
-                wide: "minggu jroning sesasi",
-                short: "mgu ing sasi",
-                narrow: "mgu ing sasi"
+                wide: "pekan jroning sesasi",
+                short: "pekan jroning sasi",
+                narrow: "pekan jroning sasi"
             },
             day: {
                 wide: "dino",
@@ -390,9 +390,9 @@ const data = {
                 narrow: "dino"
             },
             dayOfYear: {
-                wide: "dina jroning setaun",
-                short: "dina ing taun",
-                narrow: "dn ing taun"
+                wide: "dina jroning taun",
+                short: "dina jroning taun",
+                narrow: "dina jroning taun"
             },
             weekday: {
                 wide: "dino sepekan",
@@ -401,8 +401,8 @@ const data = {
             },
             weekdayOfMonth: {
                 wide: "dina jroning sasi",
-                short: "dn jroning sasi",
-                narrow: "Weekday Of Month"
+                short: "dina jroning sasi",
+                narrow: "dino jroning sasi"
             },
             dayperiod: {
                 short: "isuk/wengi",

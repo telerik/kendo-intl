@@ -427,9 +427,9 @@ const data = {
                 narrow: "h"
             },
             dayOfYear: {
-                wide: "Hari dalam Setahun",
-                short: "Hari dalam Setahun",
-                narrow: "Hari dalam Setahun"
+                wide: "hari dalam setahun",
+                short: "hari dlm setahun",
+                narrow: "hari dlm 1 thn"
             },
             weekday: {
                 wide: "hari dalam seminggu",

@@ -356,7 +356,8 @@ const data = {
                 symbol: "CNH"
             },
             CNX: {
-                displayName: "CNX",
+                displayName: "中国人民银行元",
+                "displayName-count-other": "中国人民银行元",
                 symbol: "CNX"
             },
             CNY: {
