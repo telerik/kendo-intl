@@ -60,5 +60,8 @@
     "verifyRelease": "@telerik/semantic-prerelease/verifyRelease"
   },
   "cldr-data-coverage": "full",
-  "files": ["dist", "build-locales.js"]
+  "files": [
+    "dist",
+    "build-locales.js"
+  ]
 }

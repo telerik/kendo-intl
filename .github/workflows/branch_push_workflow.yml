@@ -29,4 +29,6 @@ jobs:
     - name: Test
       run: |
         npm run test
-        npm run locale-test
+        npm run locale-tests
+    - name: Release
+        npm run semantic-release
