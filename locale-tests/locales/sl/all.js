@@ -2086,10 +2086,10 @@ const data = {
                 MMMd: "d. MMM",
                 MMMEd: "E, d. MMM",
                 MMMMd: "d. MMMM",
-                "MMMMW-count-one": "W. 'teden' 'v' MMMM",
-                "MMMMW-count-two": "W. 'teden' 'v' MMMM",
-                "MMMMW-count-few": "W. 'teden' 'v' MMMM",
-                "MMMMW-count-other": "W. 'teden' 'v' MMMM",
+                "MMMMW-count-one": "MMMM: W. 'teden'",
+                "MMMMW-count-two": "MMMM: W. 'teden'",
+                "MMMMW-count-few": "MMMM: W. 'teden'",
+                "MMMMW-count-other": "MMMM: W. 'teden'",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M/y",
@@ -2101,10 +2101,10 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "w. 'teden' 'v' Y",
-                "yw-count-two": "w. 'teden' 'v' Y",
-                "yw-count-few": "w. 'teden' 'v' Y",
-                "yw-count-other": "w. 'teden' 'v' Y"
+                "yw-count-one": "w. 'teden' 'leta' Y",
+                "yw-count-two": "w. 'teden' 'leta' Y",
+                "yw-count-few": "w. 'teden' 'leta' Y",
+                "yw-count-other": "w. 'teden' 'leta' Y"
             }
         },
         timeFormats: {

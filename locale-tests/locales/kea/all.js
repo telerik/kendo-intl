@@ -449,8 +449,8 @@ const data = {
                 symbol: "EEK"
             },
             EGP: {
-                displayName: "Libra ejipsiu",
-                "displayName-count-other": "Libra ejipsiu",
+                displayName: "Libra ejípsiu",
+                "displayName-count-other": "Libra ejípsiu",
                 symbol: "EGP",
                 "symbol-alt-narrow": "E£"
             },
@@ -473,8 +473,8 @@ const data = {
                 "symbol-alt-narrow": "₧"
             },
             ETB: {
-                displayName: "Bir etiopi",
-                "displayName-count-other": "Bir etiopi",
+                displayName: "Bir etiópiku",
+                "displayName-count-other": "Bir etiópiku",
                 symbol: "ETB"
             },
             EUR: {
@@ -502,8 +502,8 @@ const data = {
                 symbol: "FRF"
             },
             GBP: {
-                displayName: "Libra britaniku",
-                "displayName-count-other": "Libra britaniku",
+                displayName: "Libra britániku",
+                "displayName-count-other": "Libra britániku",
                 symbol: "£",
                 "symbol-alt-narrow": "£"
             },
@@ -772,8 +772,8 @@ const data = {
                 symbol: "LVR"
             },
             LYD: {
-                displayName: "Dinar libiu",
-                "displayName-count-other": "Dinar libiu",
+                displayName: "Dinar líbiu",
+                "displayName-count-other": "Dinar líbiu",
                 symbol: "LYD"
             },
             MAD: {
@@ -1116,8 +1116,8 @@ const data = {
                 symbol: "STD"
             },
             STN: {
-                displayName: "Dobra di Sãu Tume i Prínsipi",
-                "displayName-count-other": "Dobra di Sãu Tume i Prinsipi",
+                displayName: "Dobra di San Tume i Prínsipi",
+                "displayName-count-other": "Dobra di San Tume i Prinsipi",
                 symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },
@@ -1442,12 +1442,12 @@ const data = {
     },
     calendar: {
         patterns: {
-            d: "d/M/y",
+            d: "dd/MM/y",
             D: "EEEE, d 'di' MMMM 'di' y",
             m: "d MMM",
             M: "d 'di' MMMM",
-            y: "MMM y",
-            Y: "MMMM 'di' y",
+            y: "LLL y",
+            Y: "LLLL 'di' y",
             F: "EEEE, d 'di' MMMM 'di' y HH:mm:ss",
             g: "dd/MM/y HH:mm",
             G: "dd/MM/y HH:mm:ss",
@@ -1457,25 +1457,25 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} {0}",
-            long: "{1} {0}",
-            medium: "{1} {0}",
-            short: "{1} {0}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
+            medium: "{1}, {0}",
+            short: "{1}, {0}",
             availableFormats: {
                 Bh: "h B",
                 Bhm: "h:mm B",
                 Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
-                EBhm: "E h:mm B",
-                EBhms: "E h:mm:ss B",
+                EBhm: "E, h:mm B",
+                EBhms: "E, h:mm:ss B",
                 Ed: "E, d",
                 Ehm: "E, h:mm a",
                 EHm: "E, HH:mm",
                 Ehms: "E, h:mm:ss a",
                 EHms: "E, HH:mm:ss",
                 Gy: "y G",
-                GyMMM: "MMM y G",
+                GyMMM: "LLL y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E, d MMM y G",
                 h: "h a",
@@ -1497,21 +1497,21 @@ const data = {
                 MMMEd: "E, d MMM",
                 MMMMd: "d 'di' MMMM",
                 MMMMEd: "E, d 'di' MMMM",
-                "MMMMW-count-other": "'week' W 'of' MMMM",
+                "MMMMW-count-other": "W'º' 'simana' 'di' MMMM",
                 mmss: "mm:ss",
                 ms: "mm:ss",
                 y: "y",
-                yM: "MM/y",
+                yM: "LL/y",
                 yMd: "dd/MM/y",
                 yMEd: "E, dd/MM/y",
-                yMM: "MM/y",
-                yMMM: "MMM y",
+                yMM: "LL/y",
+                yMMM: "LLL y",
                 yMMMd: "d MMM y",
                 yMMMEd: "E, d MMM y",
-                yMMMM: "MMMM 'di' y",
+                yMMMM: "LLLL 'di' y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ 'di' y",
-                "yw-count-other": "'week' w 'of' Y"
+                "yw-count-other": "w'º' 'simana' 'di' Y"
             }
         },
         timeFormats: {
@@ -1524,7 +1524,7 @@ const data = {
             full: "EEEE, d 'di' MMMM 'di' y",
             long: "d 'di' MMMM 'di' y",
             medium: "d MMM y",
-            short: "d/M/y"
+            short: "dd/MM/y"
         },
         days: {
             format: {
@@ -1743,8 +1743,8 @@ const data = {
                     pm: "pm"
                 },
                 narrow: {
-                    am: "a",
-                    pm: "p"
+                    am: "am",
+                    pm: "pm"
                 },
                 wide: {
                     am: "am",
@@ -1769,9 +1769,9 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    "0": "Antis di Kristu",
-                    "1": "Dispos di Kristu",
-                    "0-alt-variant": "Antis di Era Kumun",
+                    "0": "antis di Kristu",
+                    "1": "dispos di Kristu",
+                    "0-alt-variant": "antis di Era Kumun",
                     "1-alt-variant": "Era Kumun"
                 },
                 abbreviated: {
@@ -1792,54 +1792,54 @@ const data = {
         gmtZeroFormat: "GMT",
         dateFields: {
             era: {
-                wide: "Era",
-                short: "Era",
-                narrow: "Era"
+                wide: "era",
+                short: "era",
+                narrow: "era"
             },
             year: {
-                wide: "Anu",
+                wide: "anu",
                 short: "anu",
                 narrow: "anu"
             },
             quarter: {
-                wide: "Trimestri",
+                wide: "trimestri",
                 short: "trim.",
                 narrow: "trim."
             },
             month: {
-                wide: "Mes",
+                wide: "mes",
                 short: "mes",
                 narrow: "mes"
             },
             week: {
-                wide: "Simana",
+                wide: "simana",
                 short: "sim.",
                 narrow: "sim."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "simana di mes",
+                short: "sim. di mes",
+                narrow: "sim. di mes"
             },
             day: {
-                wide: "Dia",
+                wide: "dia",
                 short: "dia",
                 narrow: "dia"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "dia di anu",
+                short: "dia di anu",
+                narrow: "dia di anu"
             },
             weekday: {
-                wide: "Dia di simana",
-                short: "Dia di simana",
-                narrow: "Dia di simana"
+                wide: "dia di simana",
+                short: "dia di sim.",
+                narrow: "dia di sim."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "dia di simana di mes",
+                short: "dia di sim. di mes",
+                narrow: "dia di sim. di mes"
             },
             dayperiod: {
                 short: "am/pm",
@@ -1847,24 +1847,24 @@ const data = {
                 narrow: "am/pm"
             },
             hour: {
-                wide: "Ora",
+                wide: "ora",
                 short: "ora",
                 narrow: "h"
             },
             minute: {
-                wide: "Minutu",
+                wide: "minutu",
                 short: "min",
                 narrow: "m"
             },
             second: {
-                wide: "Sigundu",
+                wide: "sigundu",
                 short: "sig",
                 narrow: "s"
             },
             zone: {
-                wide: "Ora lokal",
-                short: "Ora lokal",
-                narrow: "Ora lokal"
+                wide: "ora lokal",
+                short: "ora lokal",
+                narrow: "ora lokal"
             }
         }
     },

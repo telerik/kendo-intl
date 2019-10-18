@@ -25,10 +25,10 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} 'saa' {0}",
-            long: "{1} 'saa' {0}",
-            medium: "{1}, {0}",
-            short: "{1}, {0}",
+            full: "{1} {0}",
+            long: "{1} {0}",
+            medium: "{1} {0}",
+            short: "{1} {0}",
             availableFormats: {
                 Bh: "h B",
                 Bhm: "h:mm B",
@@ -45,7 +45,7 @@ const data = {
                 Gy: "y G",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
-                GyMMMEd: "E, MMM d, y G",
+                GyMMMEd: "E, d MMM y G",
                 h: "h a",
                 H: "HH",
                 hm: "h:mm a",
@@ -73,7 +73,7 @@ const data = {
                 yMEd: "E, d/M/y",
                 yMMM: "MMM y",
                 yMMMd: "d MMM y",
-                yMMMEd: "E, MMM d, y",
+                yMMMEd: "E, d MMM y",
                 yMMMM: "MMMM y",
                 yQQQ: "y QQQ",
                 yQQQQ: "QQQQ y",
@@ -308,7 +308,7 @@ const data = {
                 abbreviated: {
                     midnight: "saa sita za usiku",
                     am: "AM",
-                    noon: "saa sita za mchana",
+                    noon: "adhuhuri",
                     pm: "PM",
                     morning1: "alfajiri",
                     morning2: "asubuhi",
@@ -343,7 +343,7 @@ const data = {
                 abbreviated: {
                     midnight: "saa sita za usiku",
                     am: "AM",
-                    noon: "saa sita za mchana",
+                    noon: "adhuhuri",
                     pm: "PM",
                     morning1: "alfajiri",
                     morning2: "asubuhi",

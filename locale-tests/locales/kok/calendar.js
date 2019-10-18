@@ -272,10 +272,10 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "Q1",
-                    "Q2",
-                    "Q3",
-                    "Q4"
+                    "1लें त्रैमासीक",
+                    "2रें त्रैमासीक",
+                    "3रें त्रैमासीक",
+                    "4थें त्रैमासीक"
                 ]
             },
             "stand-alone": {
@@ -292,40 +292,40 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "Q1",
-                    "Q2",
-                    "Q3",
-                    "Q4"
+                    "1लें त्रैमासीक",
+                    "2रें त्रैमासीक",
+                    "3रें त्रैमासीक",
+                    "4थें त्रैमासीक"
                 ]
             }
         },
         dayPeriods: {
             format: {
                 abbreviated: {
-                    am: "म.पू.",
-                    pm: "म.नं."
+                    am: "AM",
+                    pm: "PM"
                 },
                 narrow: {
-                    am: "म.पू.",
-                    pm: "म.नं."
+                    am: "a",
+                    pm: "p"
                 },
                 wide: {
-                    am: "म.पू.",
-                    pm: "म.नं."
+                    am: "AM",
+                    pm: "PM"
                 }
             },
             "stand-alone": {
                 abbreviated: {
-                    am: "म.पू.",
-                    pm: "म.नं."
+                    am: "AM",
+                    pm: "PM"
                 },
                 narrow: {
-                    am: "म.पू.",
-                    pm: "म.नं."
+                    am: "AM",
+                    pm: "PM"
                 },
                 wide: {
-                    am: "म.पू.",
-                    pm: "म.नं."
+                    am: "AM",
+                    pm: "PM"
                 }
             }
         },
@@ -405,9 +405,9 @@ const data = {
                 narrow: "म्हयन्यातलो सप्तकीय दीस"
             },
             dayperiod: {
-                short: "दिसाचोकालावधी",
-                wide: "दिसाचोकालावधी",
-                narrow: "दिसाचोकालावधी"
+                short: "AM/PM",
+                wide: "AM/PM",
+                narrow: "AM/PM"
             },
             hour: {
                 wide: "वर",
@@ -425,7 +425,7 @@ const data = {
                 narrow: "सेकंद"
             },
             zone: {
-                wide: "झोन",
+                wide: "वेळ झोन",
                 short: "झोन",
                 narrow: "झोन"
             }

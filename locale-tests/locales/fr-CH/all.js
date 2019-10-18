@@ -1567,7 +1567,7 @@ const data = {
                 "displayName-count-one": "pa’anga tongan",
                 "displayName-count-other": "pa’angas tongans",
                 symbol: "TOP",
-                "symbol-alt-narrow": "T$"
+                "symbol-alt-narrow": "$T"
             },
             TPE: {
                 displayName: "escudo timorais",
@@ -1722,7 +1722,7 @@ const data = {
                 displayName: "tala samoan",
                 "displayName-count-one": "tala samoan",
                 "displayName-count-other": "talas samoans",
-                symbol: "WS$"
+                symbol: "$WS"
             },
             XAF: {
                 displayName: "franc CFA (BEAC)",

@@ -53,9 +53,9 @@ const data = {
                 hms: "h:mm:ss a",
                 Hms: "H:mm:ss",
                 hmsv: "h:mm:ss a v",
-                Hmsv: "HH:mm:ss v",
+                Hmsv: "H:mm:ss v",
                 hmv: "h:mm a v",
-                Hmv: "HH:mm v",
+                Hmv: "H:mm v",
                 M: "L",
                 Md: "M/d",
                 MEd: "E M/d",
@@ -64,10 +64,10 @@ const data = {
                 MMMEd: "E d LLL",
                 MMMMd: "d LLLL",
                 MMMMEd: "E d LLLL",
-                "MMMMW-count-one": "هفتۀ W از LLLL",
-                "MMMMW-count-other": "هفتۀ W از LLLL",
+                "MMMMW-count-one": "هفتهٔ Wم LLLL",
+                "MMMMW-count-other": "هفتهٔ Wم LLLL",
                 mmss: "mm:ss",
-                ms: "mm:ss",
+                ms: "m:ss",
                 y: "y",
                 yM: "y/M",
                 yMd: "y/M/d",
@@ -79,8 +79,8 @@ const data = {
                 yMMMMEEEEd: "EEEE d MMMM y",
                 yQQQ: "QQQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "هفته w از Y",
-                "yw-count-other": "هفته w از Y"
+                "yw-count-one": "هفتهٔ wم Y",
+                "yw-count-other": "هفتهٔ wم Y"
             }
         },
         timeFormats: {

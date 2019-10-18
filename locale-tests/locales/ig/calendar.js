@@ -63,7 +63,7 @@ const data = {
                 MMMEd: "E, d MMM",
                 MMMMd: "d MMMM",
                 MMMMEd: "E, d MMMM",
-                "MMMMW-count-other": "'week' W 'of' MMMM",
+                "MMMMW-count-other": "'Izu' W 'n'‘'ime' MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M/y",
@@ -75,7 +75,7 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-other": "'week' w 'of' Y"
+                "yw-count-other": "'Izu' w 'n' 'ime' Y"
             }
         },
         timeFormats: {
@@ -99,7 +99,7 @@ const data = {
                     "Wen",
                     "Tọọ",
                     "Fraị",
-                    "Satọdee"
+                    "Sat"
                 ],
                 narrow: [
                     "S",
@@ -111,7 +111,7 @@ const data = {
                     "S"
                 ],
                 short: [
-                    "Ụka",
+                    "Sọn",
                     "Mọn",
                     "Tiu",
                     "Wen",
@@ -120,7 +120,7 @@ const data = {
                     "Sat"
                 ],
                 wide: [
-                    "Ụbọchị Ụka",
+                    "Sọndee",
                     "Mọnde",
                     "Tiuzdee",
                     "Wenezdee",
@@ -137,7 +137,7 @@ const data = {
                     "Wen",
                     "Tọọ",
                     "Fraị",
-                    "Satọdee"
+                    "Sat"
                 ],
                 narrow: [
                     "S",
@@ -149,7 +149,7 @@ const data = {
                     "S"
                 ],
                 short: [
-                    "Ụka",
+                    "Sọn",
                     "Mọn",
                     "Tiu",
                     "Wen",
@@ -158,7 +158,7 @@ const data = {
                     "Sat"
                 ],
                 wide: [
-                    "Ụbọchị Ụka",
+                    "Sọndee",
                     "Mọnde",
                     "Tiuzdee",
                     "Wenezdee",
@@ -333,10 +333,10 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    "0": "Tupu Kristi",
-                    "1": "Afọ Kristi",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0": "Tupu Kraist",
+                    "1": "Afọ Kraịst",
+                    "0-alt-variant": "Tupu Oge Afọ",
+                    "1-alt-variant": "Oge Afọ"
                 },
                 abbreviated: {
                     "0": "T.K.",
@@ -366,9 +366,9 @@ const data = {
                 narrow: "Afọ"
             },
             quarter: {
-                wide: "Nkeji Afọ",
-                short: "Nkeji Afọ",
-                narrow: "Nkeji Afọ"
+                wide: "Ọnwa atọ n’afọ",
+                short: "Ọnwa atọ n’afọ",
+                narrow: "Ọnwa atọ n’afọ"
             },
             month: {
                 wide: "Ọnwa",
@@ -421,9 +421,9 @@ const data = {
                 narrow: "Nkeji"
             },
             second: {
-                wide: "Sekọnd",
-                short: "Sekọnd",
-                narrow: "Sekọnd"
+                wide: "Tịm kọm",
+                short: "Tịm kọm",
+                narrow: "Tịm kọm"
             },
             zone: {
                 wide: "Mpaghara oge",

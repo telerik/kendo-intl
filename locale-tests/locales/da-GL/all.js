@@ -496,14 +496,14 @@ const data = {
             },
             CUC: {
                 displayName: "cubansk konvertibel peso",
-                "displayName-count-one": "cubanske konvertible pesos",
+                "displayName-count-one": "cubansk konvertibel peso",
                 "displayName-count-other": "cubanske konvertible pesos",
                 symbol: "CUC",
                 "symbol-alt-narrow": "$"
             },
             CUP: {
                 displayName: "cubansk peso",
-                "displayName-count-one": "cubanske pesos",
+                "displayName-count-one": "cubansk peso",
                 "displayName-count-other": "cubanske pesos",
                 symbol: "CUP",
                 "symbol-alt-narrow": "$"
@@ -523,7 +523,7 @@ const data = {
             CZK: {
                 displayName: "tjekkisk koruna",
                 "displayName-count-one": "tjekkisk koruna",
-                "displayName-count-other": "tjekkiske koruna",
+                "displayName-count-other": "tjekkiske korunaer",
                 symbol: "CZK",
                 "symbol-alt-narrow": "Kč"
             },
@@ -750,9 +750,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             HKD: {
-                displayName: "Hongkong dollar",
-                "displayName-count-one": "Hongkong dollar",
-                "displayName-count-other": "Hongkong dollar",
+                displayName: "hongkongsk dollar",
+                "displayName-count-one": "hongkongsk dollar",
+                "displayName-count-other": "hongkongske dollar",
                 symbol: "HK$",
                 "symbol-alt-narrow": "$"
             },
@@ -785,7 +785,7 @@ const data = {
             HUF: {
                 displayName: "ungarsk forint",
                 "displayName-count-one": "ungarsk forint",
-                "displayName-count-other": "ungarske forint",
+                "displayName-count-other": "ungarske forinter",
                 symbol: "HUF",
                 "symbol-alt-narrow": "Ft"
             },
@@ -932,7 +932,7 @@ const data = {
             KYD: {
                 displayName: "caymansk dollar",
                 "displayName-count-one": "caymansk dollar",
-                "displayName-count-other": "caymansk dollar",
+                "displayName-count-other": "caymanske dollar",
                 symbol: "KYD",
                 "symbol-alt-narrow": "$"
             },
@@ -1050,7 +1050,7 @@ const data = {
             MDL: {
                 displayName: "moldovisk leu",
                 "displayName-count-one": "moldovisk leu",
-                "displayName-count-other": "moldoviske leu",
+                "displayName-count-other": "moldoviske lei",
                 symbol: "MDL"
             },
             MGA: {
@@ -1624,7 +1624,7 @@ const data = {
                 displayName: "amerikansk dollar",
                 "displayName-count-one": "amerikansk dollar",
                 "displayName-count-other": "amerikanske dollar",
-                symbol: "$",
+                symbol: "US$",
                 "symbol-alt-narrow": "$"
             },
             USN: {

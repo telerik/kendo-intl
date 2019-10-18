@@ -416,7 +416,7 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             CNH: {
-                displayName: "Renminbi chinês (offshore)",
+                displayName: "Yuan chinês (offshore)",
                 "displayName-count-one": "Yuan chinês (offshore)",
                 "displayName-count-other": "Yuans chineses (offshore)",
                 symbol: "CNH"
@@ -428,7 +428,7 @@ const data = {
                 symbol: "CNX"
             },
             CNY: {
-                displayName: "Renminbi chinês",
+                displayName: "Yuan chinês",
                 "displayName-count-one": "Yuan chinês",
                 "displayName-count-other": "Yuans chineses",
                 symbol: "CN¥",

@@ -1719,7 +1719,7 @@ const data = {
                 "displayName-count-many": "нових тайванських доларів",
                 "displayName-count-other": "нового тайванського долара",
                 symbol: "TWD",
-                "symbol-alt-narrow": "NT$"
+                "symbol-alt-narrow": "$"
             },
             TZS: {
                 displayName: "танзанійський шилінг",

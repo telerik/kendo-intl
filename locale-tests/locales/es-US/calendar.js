@@ -25,8 +25,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1}, {0}",
-            long: "{1}, {0}",
+            full: "{1} 'a' 'las' {0}",
+            long: "{1} 'a' 'las' {0}",
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
@@ -275,42 +275,42 @@ const data = {
         quarters: {
             format: {
                 abbreviated: [
-                    "T1",
-                    "T2",
-                    "T3",
-                    "T4"
+                    "1er. trim.",
+                    "2º. trim.",
+                    "3er. trim.",
+                    "4º trim."
                 ],
                 narrow: [
-                    "1",
-                    "2",
-                    "3",
-                    "4"
+                    "1T",
+                    "2T",
+                    "3T",
+                    "4T"
                 ],
                 wide: [
                     "1.er trimestre",
-                    "2.º trimestre",
+                    "2º. trimestre",
                     "3.er trimestre",
-                    "4.º trimestre"
+                    "4o. trimestre"
                 ]
             },
             "stand-alone": {
                 abbreviated: [
-                    "T1",
-                    "T2",
-                    "T3",
-                    "T4"
+                    "1er. trim.",
+                    "2º. trim.",
+                    "3er. trim.",
+                    "4º trim."
                 ],
                 narrow: [
-                    "1",
-                    "2",
-                    "3",
-                    "4"
+                    "1T",
+                    "2T",
+                    "3T",
+                    "4T"
                 ],
                 wide: [
                     "1.er trimestre",
-                    "2.º trimestre",
+                    "2º. trimestre",
                     "3.er trimestre",
-                    "4.º trimestre"
+                    "4º trimestre"
                 ]
             }
         },

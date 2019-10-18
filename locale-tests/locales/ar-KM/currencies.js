@@ -727,7 +727,7 @@ const data = {
                 "displayName-count-few": "جنيه إسترليني",
                 "displayName-count-many": "جنيه إسترليني",
                 "displayName-count-other": "جنيه إسترليني",
-                symbol: "£",
+                symbol: "UK£",
                 "symbol-alt-narrow": "UK£"
             },
             GEK: {
@@ -1154,7 +1154,7 @@ const data = {
                 "displayName-count-many": "دولارًا ليبيريًا",
                 "displayName-count-other": "دولار ليبيري",
                 symbol: "LRD",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "$LR"
             },
             LSL: {
                 displayName: "لوتي ليسوتو",

@@ -294,10 +294,10 @@ const data = {
                     "Kɛr"
                 ],
                 wide: [
-                    "Ìdámɛ́rin kíní",
-                    "Ìdámɛ́rin Kejì",
+                    "Ìdámẹ́rin kíní",
+                    "Ìdámẹ́rin Kejì",
                     "Ìdámɛ́rin Kɛta",
-                    "Ìdámɛ́rin Kɛrin"
+                    "Ìdámẹ́rin Kẹrin"
                 ]
             }
         },
@@ -341,13 +341,13 @@ const data = {
                 },
                 abbreviated: {
                     "0": "BCE",
-                    "1": "CE",
+                    "1": "AD",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 },
                 narrow: {
                     "0": "BCE",
-                    "1": "CE",
+                    "1": "AD",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 }
@@ -374,7 +374,7 @@ const data = {
             month: {
                 wide: "Osù",
                 short: "Osù",
-                narrow: "Osù"
+                narrow: "Oshù"
             },
             week: {
                 wide: "Ɔ̀sɛ̀",

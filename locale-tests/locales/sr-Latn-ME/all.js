@@ -617,10 +617,10 @@ const data = {
                 symbol: "DEM"
             },
             DJF: {
-                displayName: "Džibutanski franak",
-                "displayName-count-one": "džibutanski franak",
-                "displayName-count-few": "džibutanska franka",
-                "displayName-count-other": "džibutanskih franaka",
+                displayName: "Džibutski franak",
+                "displayName-count-one": "džibutski franak",
+                "displayName-count-few": "džibutska franka",
+                "displayName-count-other": "džibutskih franaka",
                 symbol: "DJF"
             },
             DKK: {
@@ -1233,7 +1233,7 @@ const data = {
                 displayName: "Makedonski denar",
                 "displayName-count-one": "makedonski denar",
                 "displayName-count-few": "makedonska denara",
-                "displayName-count-other": "makedonskih dinara",
+                "displayName-count-other": "makedonskih denara",
                 symbol: "MKD"
             },
             MKN: {
@@ -1278,10 +1278,10 @@ const data = {
                 symbol: "MRO"
             },
             MRU: {
-                displayName: "Mauritanijska ogija",
-                "displayName-count-one": "mauritanijska ogija",
-                "displayName-count-few": "mauritanijske ogije",
-                "displayName-count-other": "mauritanijskih ogija",
+                displayName: "Mauritanska ogija",
+                "displayName-count-one": "mauritanska ogija",
+                "displayName-count-few": "mauritanske ogije",
+                "displayName-count-other": "mauritanskih ogija",
                 symbol: "MRU"
             },
             MTL: {
@@ -1645,10 +1645,10 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             SHP: {
-                displayName: "Sv. jelenska funta",
-                "displayName-count-one": "sv. jelenska funta",
-                "displayName-count-few": "sv. jelenske funte",
-                "displayName-count-other": "sv. jelenskih funti",
+                displayName: "Svete Jelene funta",
+                "displayName-count-one": "Svete Jelene funta",
+                "displayName-count-few": "Svete Jelene funte",
+                "displayName-count-other": "Svete Jelene funti",
                 symbol: "SHP",
                 "symbol-alt-narrow": "£"
             },
@@ -2322,13 +2322,13 @@ const data = {
         days: {
             format: {
                 abbreviated: [
-                    "ned.",
-                    "pon.",
-                    "ut.",
-                    "sr.",
-                    "čet.",
-                    "pet.",
-                    "sub."
+                    "ned",
+                    "pon",
+                    "uto",
+                    "sre",
+                    "čet",
+                    "pet",
+                    "sub"
                 ],
                 narrow: [
                     "n",
@@ -2360,13 +2360,13 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "ned.",
-                    "pon.",
-                    "ut.",
-                    "sr.",
-                    "čet.",
-                    "pet.",
-                    "sub."
+                    "ned",
+                    "pon",
+                    "uto",
+                    "sre",
+                    "čet",
+                    "pet",
+                    "sub"
                 ],
                 narrow: [
                     "n",
@@ -2400,18 +2400,18 @@ const data = {
         months: {
             format: {
                 abbreviated: [
-                    "jan.",
-                    "feb.",
+                    "jan",
+                    "feb",
                     "mart",
-                    "apr.",
+                    "apr",
                     "maj",
                     "jun",
                     "jul",
-                    "avg.",
-                    "sept.",
-                    "okt.",
-                    "nov.",
-                    "dec."
+                    "avg",
+                    "sept",
+                    "okt",
+                    "nov",
+                    "dec"
                 ],
                 narrow: [
                     "j",
@@ -2444,18 +2444,18 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "jan.",
-                    "feb.",
+                    "jan",
+                    "feb",
                     "mart",
-                    "apr.",
+                    "apr",
                     "maj",
                     "jun",
                     "jul",
-                    "avg.",
-                    "sept.",
-                    "okt.",
-                    "nov.",
-                    "dec."
+                    "avg",
+                    "sept",
+                    "okt",
+                    "nov",
+                    "dec"
                 ],
                 narrow: [
                     "j",
@@ -2600,20 +2600,20 @@ const data = {
                 wide: {
                     "0": "prije nove ere",
                     "1": "nove ere",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "p. n. e.",
+                    "1-alt-variant": "n. e."
                 },
                 abbreviated: {
                     "0": "p. n. e.",
                     "1": "n. e.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "p. n. e.",
+                    "1-alt-variant": "n. e."
                 },
                 narrow: {
                     "0": "p.n.e.",
                     "1": "n.e.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "p. n. e.",
+                    "1-alt-variant": "n. e."
                 }
             }
         },

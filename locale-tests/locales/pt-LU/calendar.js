@@ -119,13 +119,13 @@ const data = {
                     "S"
                 ],
                 short: [
-                    "dom",
-                    "seg",
-                    "ter",
-                    "qua",
-                    "qui",
-                    "sex",
-                    "sáb"
+                    "domingo",
+                    "segunda",
+                    "terça",
+                    "quarta",
+                    "quinta",
+                    "sexta",
+                    "sábado"
                 ],
                 wide: [
                     "domingo",
@@ -157,13 +157,13 @@ const data = {
                     "S"
                 ],
                 short: [
-                    "dom",
-                    "seg",
-                    "ter",
-                    "qua",
-                    "qui",
-                    "sex",
-                    "sáb"
+                    "domingo",
+                    "segunda",
+                    "terça",
+                    "quarta",
+                    "quinta",
+                    "sexta",
+                    "sábado"
                 ],
                 wide: [
                     "domingo",
@@ -179,18 +179,18 @@ const data = {
         months: {
             format: {
                 abbreviated: [
-                    "jan",
-                    "fev",
-                    "mar",
-                    "abr",
-                    "mai",
-                    "jun",
-                    "jul",
-                    "ago",
-                    "set",
-                    "out",
-                    "nov",
-                    "dez"
+                    "jan.",
+                    "fev.",
+                    "mar.",
+                    "abr.",
+                    "mai.",
+                    "jun.",
+                    "jul.",
+                    "ago.",
+                    "set.",
+                    "out.",
+                    "nov.",
+                    "dez."
                 ],
                 narrow: [
                     "J",
@@ -223,18 +223,18 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "jan",
-                    "fev",
-                    "mar",
-                    "abr",
-                    "mai",
-                    "jun",
-                    "jul",
-                    "ago",
-                    "set",
-                    "out",
-                    "nov",
-                    "dez"
+                    "jan.",
+                    "fev.",
+                    "mar.",
+                    "abr.",
+                    "mai.",
+                    "jun.",
+                    "jul.",
+                    "ago.",
+                    "set.",
+                    "out.",
+                    "nov.",
+                    "dez."
                 ],
                 narrow: [
                     "J",

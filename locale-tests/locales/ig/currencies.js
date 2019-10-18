@@ -160,7 +160,8 @@ const data = {
                 symbol: "BIF"
             },
             BMD: {
-                displayName: "BMD",
+                displayName: "Dollar Bermuda",
+                "displayName-count-other": "Dollars Bermuda",
                 symbol: "BMD",
                 "symbol-alt-narrow": "$"
             },
@@ -248,12 +249,14 @@ const data = {
                 symbol: "BYR"
             },
             BZD: {
-                displayName: "BZD",
+                displayName: "Dollar Belize",
+                "displayName-count-other": "Dollars Belize",
                 symbol: "BZD",
                 "symbol-alt-narrow": "$"
             },
             CAD: {
-                displayName: "CAD",
+                displayName: "Dollar Canada",
+                "displayName-count-other": "Dollars Canada",
                 symbol: "CA$",
                 "symbol-alt-narrow": "$"
             },
@@ -1002,7 +1005,8 @@ const data = {
                 symbol: "SOS"
             },
             SRD: {
-                displayName: "SRD",
+                displayName: "Dollar Surinamese",
+                "displayName-count-other": "Dollar Surinamese",
                 symbol: "SRD",
                 "symbol-alt-narrow": "$"
             },
@@ -1086,7 +1090,8 @@ const data = {
                 "symbol-alt-variant": "TL"
             },
             TTD: {
-                displayName: "TTD",
+                displayName: "Dollar Trinidad & Tobago",
+                "displayName-count-other": "Dollars Trinidad & Tobago",
                 symbol: "TTD",
                 "symbol-alt-narrow": "$"
             },
@@ -1118,7 +1123,7 @@ const data = {
             },
             USD: {
                 displayName: "Dollar US",
-                "displayName-count-other": "dollar US",
+                "displayName-count-other": "Dollars US",
                 symbol: "$",
                 "symbol-alt-narrow": "$"
             },

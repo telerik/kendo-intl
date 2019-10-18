@@ -25,8 +25,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1}, {0}",
-            long: "{1}, {0}",
+            full: "{1} 'a' 'las' {0}",
+            long: "{1} 'a' 'las' {0}",
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
@@ -476,7 +476,7 @@ const data = {
             }
         }
     },
-    firstDay: 0
+    firstDay: 1
 };
 export default data;
 

@@ -315,9 +315,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             BTN: {
-                displayName: "Bhutan Ngultrumu",
-                "displayName-count-one": "Bhutan ngultrumu",
-                "displayName-count-other": "Bhutan ngultrumu",
+                displayName: "Butan Ngultrumu",
+                "displayName-count-one": "Butan ngultrumu",
+                "displayName-count-other": "Butan ngultrumu",
                 symbol: "BTN"
             },
             BUK: {
@@ -487,9 +487,9 @@ const data = {
                 symbol: "CYP"
             },
             CZK: {
-                displayName: "Çek Cumhuriyeti Korunası",
-                "displayName-count-one": "Çek Cumhuriyeti korunası",
-                "displayName-count-other": "Çek Cumhuriyeti korunası",
+                displayName: "Çek Korunası",
+                "displayName-count-one": "Çek korunası",
+                "displayName-count-other": "Çek korunası",
                 symbol: "CZK",
                 "symbol-alt-narrow": "Kč"
             },
@@ -748,9 +748,9 @@ const data = {
                 "symbol-alt-narrow": "Ft"
             },
             IDR: {
-                displayName: "Endonezya Rupiahı",
-                "displayName-count-one": "Endonezya rupiahı",
-                "displayName-count-other": "Endonezya rupiahı",
+                displayName: "Endonezya Rupisi",
+                "displayName-count-one": "Endonezya rupisi",
+                "displayName-count-other": "Endonezya rupisi",
                 symbol: "IDR",
                 "symbol-alt-narrow": "Rp"
             },
@@ -1440,9 +1440,9 @@ const data = {
                 symbol: "STD"
             },
             STN: {
-                displayName: "São Tomé ve Príncipe Dobrası",
-                "displayName-count-one": "São Tomé ve Príncipe dobrası",
-                "displayName-count-other": "São Tomé ve Príncipe dobrası",
+                displayName: "Sao Tome ve Principe Dobrası",
+                "displayName-count-one": "Sao Tome ve Principe dobrası",
+                "displayName-count-other": "Sao Tome ve Principe dobrası",
                 symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },
@@ -1672,9 +1672,9 @@ const data = {
                 symbol: "WST"
             },
             XAF: {
-                displayName: "CFA Frangı BEAC",
-                "displayName-count-one": "CFA frangı BEAC",
-                "displayName-count-other": "CFA frangı BEAC",
+                displayName: "Orta Afrika CFA Frangı",
+                "displayName-count-one": "Orta Afrika CFA frangı",
+                "displayName-count-other": "Orta Afrika CFA frangı",
                 symbol: "FCFA"
             },
             XAG: {
@@ -1731,9 +1731,9 @@ const data = {
                 symbol: "XFU"
             },
             XOF: {
-                displayName: "CFA Frangı BCEAO",
-                "displayName-count-one": "CFA frangı BCEAO",
-                "displayName-count-other": "CFA frangı BCEAO",
+                displayName: "Batı Afrika CFA Frangı",
+                "displayName-count-one": "Batı Afrika CFA frangı",
+                "displayName-count-other": "Batı Afrika CFA frangı",
                 symbol: "CFA"
             },
             XPD: {

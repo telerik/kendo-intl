@@ -1624,8 +1624,8 @@ const data = {
             },
             XXX: {
                 displayName: "නොදත් මුදල්",
-                "displayName-count-one": "නොදත් මුදල්",
-                "displayName-count-other": "නොදත් මුදල්",
+                "displayName-count-one": "(නොදත් මුදල් ඒකකය)",
+                "displayName-count-other": "(නොදත් මුදල්)",
                 symbol: "¤"
             },
             YDD: {

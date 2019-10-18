@@ -44,8 +44,8 @@ const data = {
             },
             AMD: {
                 displayName: "dram",
-                "displayName-count-one": "dram",
-                "displayName-count-other": "drams",
+                "displayName-count-one": "dram armenio",
+                "displayName-count-other": "drams armenios",
                 symbol: "AMD"
             },
             ANG: {
@@ -154,9 +154,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             BDT: {
-                displayName: "taka",
-                "displayName-count-one": "taka",
-                "displayName-count-other": "takas",
+                displayName: "taka bangladesí",
+                "displayName-count-one": "taka bangladesí",
+                "displayName-count-other": "takas bangladesíes",
                 symbol: "BDT",
                 "symbol-alt-narrow": "৳"
             },
@@ -296,9 +296,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             BTN: {
-                displayName: "gultrum",
-                "displayName-count-one": "gultrum",
-                "displayName-count-other": "gultrums",
+                displayName: "ngultrum butanés",
+                "displayName-count-one": "ngultrum butanés",
+                "displayName-count-other": "gultrums bultaneses",
                 symbol: "BTN"
             },
             BUK: {
@@ -325,7 +325,7 @@ const data = {
                 "displayName-count-one": "rublo bielorruso",
                 "displayName-count-other": "rublos bielorrusos",
                 symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                "symbol-alt-narrow": "p."
             },
             BYR: {
                 displayName: "rublo bielorruso (2000–2016)",
@@ -534,7 +534,7 @@ const data = {
                 "symbol-alt-narrow": "E£"
             },
             ERN: {
-                displayName: "nafka",
+                displayName: "nakfa",
                 "displayName-count-one": "nakfa",
                 "displayName-count-other": "nakfas",
                 symbol: "ERN"
@@ -817,15 +817,15 @@ const data = {
                 symbol: "KES"
             },
             KGS: {
-                displayName: "som",
+                displayName: "som kirguís",
                 "displayName-count-one": "som",
                 "displayName-count-other": "soms",
                 symbol: "KGS"
             },
             KHR: {
                 displayName: "riel",
-                "displayName-count-one": "riel",
-                "displayName-count-other": "rieles",
+                "displayName-count-one": "riel camboyano",
+                "displayName-count-other": "rieles camboyanos",
                 symbol: "KHR",
                 "symbol-alt-narrow": "៛"
             },
@@ -879,9 +879,9 @@ const data = {
                 "symbol-alt-narrow": "₸"
             },
             LAK: {
-                displayName: "kip",
-                "displayName-count-one": "kip",
-                "displayName-count-other": "kips",
+                displayName: "kip laosiano",
+                "displayName-count-one": "kip laosiano",
+                "displayName-count-other": "kips laosianos",
                 symbol: "LAK",
                 "symbol-alt-narrow": "₭"
             },
@@ -1598,22 +1598,22 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
-                displayName: "bolívar venezolano",
-                "displayName-count-one": "bolívar venezolano",
-                "displayName-count-other": "bolívares venezolanos",
+                displayName: "bolívar venezolano (2008–2018)",
+                "displayName-count-one": "bolívar venezolano (2008–2018)",
+                "displayName-count-other": "bolívares venezolanos (2008–2018)",
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
             },
             VES: {
-                displayName: "VES",
-                "displayName-count-one": "VES",
-                "displayName-count-other": "VES",
+                displayName: "bolívar venezolano",
+                "displayName-count-one": "bolívar venezolano",
+                "displayName-count-other": "bolivares venezolanos",
                 symbol: "VES"
             },
             VND: {
-                displayName: "dong",
-                "displayName-count-one": "dong",
-                "displayName-count-other": "dongs",
+                displayName: "dong vietnamita",
+                "displayName-count-one": "dong vietnamita",
+                "displayName-count-other": "dongs vietnamitas",
                 symbol: "VND",
                 "symbol-alt-narrow": "₫"
             },
@@ -1796,9 +1796,9 @@ const data = {
                 symbol: "ZMK"
             },
             ZMW: {
-                displayName: "kuacha zambiano",
-                "displayName-count-one": "kuacha zambiano",
-                "displayName-count-other": "kuachas zambianos",
+                displayName: "kwacha zambiano",
+                "displayName-count-one": "kwacha zambiano",
+                "displayName-count-other": "kwachas zambianos",
                 symbol: "ZMW",
                 "symbol-alt-narrow": "ZK"
             },

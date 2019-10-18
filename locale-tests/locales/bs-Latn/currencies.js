@@ -1907,8 +1907,8 @@ const data = {
                 "symbol-alt-narrow": "Bs"
             },
             VES: {
-                displayName: "venecuelanski bolivar",
-                "displayName-count-one": "venecuelanskih bolivara",
+                displayName: "Venecuelanski bolivar",
+                "displayName-count-one": "venecuelanski bolivar",
                 "displayName-count-few": "venecuelanska bolivara",
                 "displayName-count-other": "venecuelanskih bolivara",
                 symbol: "VES"

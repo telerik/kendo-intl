@@ -2168,7 +2168,11 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             UYW: {
-                displayName: "UYW",
+                displayName: "aonad inneacs tuarastail ainmeach Uruguaidh",
+                "displayName-count-one": "aonad inneacs tuarastail ainmeach Uruguaidh",
+                "displayName-count-two": "aonad inneacs tuarastail ainmeach Uruguaidh",
+                "displayName-count-few": "aonadan inneacs tuarastail ainmeach Uruguaidh",
+                "displayName-count-other": "aonad inneacs tuarastail ainmeach Uruguaidh",
                 symbol: "UYW"
             },
             UZS: {

@@ -312,10 +312,10 @@ const data = {
                     night1: "ກາງຄືນ"
                 },
                 narrow: {
-                    midnight: "ທຄ",
-                    am: "ກທ",
-                    noon: "ທ",
-                    pm: "ຫຼທ",
+                    midnight: "ທ່ຽງຄືນ",
+                    am: "ກ່ອນທ່ຽງ",
+                    noon: "ຕອນທ່ຽງ",
+                    pm: "ຫຼັງທ່ຽງ",
                     morning1: "ຕອນເຊົ້າ",
                     afternoon1: "ຕອນທ່ຽງ",
                     evening1: "ຕອນແລງ",
@@ -344,14 +344,14 @@ const data = {
                     night1: "​ກາງ​ຄືນ"
                 },
                 narrow: {
-                    midnight: "ທຄ",
-                    am: "ກທ",
+                    midnight: "ທ່ຽງ​ຄືນ",
+                    am: "ກ່ອນທ່ຽງ",
                     noon: "ຕອນທ່ຽງ",
-                    pm: "ຫຼທ",
-                    morning1: "ຊ",
+                    pm: "ຫຼັງທ່ຽງ",
+                    morning1: "​ເຊົ້າ",
                     afternoon1: "ສ",
-                    evening1: "ລ",
-                    night1: "ກຄ"
+                    evening1: "ແລງ",
+                    night1: "​ກາງ​ຄືນ"
                 },
                 wide: {
                     midnight: "ທ່ຽງຄືນ",

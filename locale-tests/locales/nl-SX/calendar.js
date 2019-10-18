@@ -445,7 +445,7 @@ const data = {
             hour: {
                 wide: "uur",
                 short: "uur",
-                narrow: "uur"
+                narrow: "u"
             },
             minute: {
                 wide: "minuut",

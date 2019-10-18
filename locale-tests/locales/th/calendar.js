@@ -397,7 +397,7 @@ const data = {
                 abbreviated: {
                     "0": "ก่อน ค.ศ.",
                     "1": "ค.ศ.",
-                    "0-alt-variant": "ก.ส.ศ.",
+                    "0-alt-variant": "ก่อน ส.ศ.",
                     "1-alt-variant": "ส.ศ."
                 },
                 narrow: {
@@ -473,8 +473,8 @@ const data = {
             },
             minute: {
                 wide: "นาที",
-                short: "น.",
-                narrow: "น."
+                short: "นาที",
+                narrow: "นาที"
             },
             second: {
                 wide: "วินาที",

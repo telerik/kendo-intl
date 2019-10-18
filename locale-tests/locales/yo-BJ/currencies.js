@@ -385,6 +385,7 @@ const data = {
             },
             EGP: {
                 displayName: "pɔɔn ti Orílɛ́ède Egipiti",
+                "displayName-count-other": "pɔ́nùn",
                 symbol: "EGP",
                 "symbol-alt-narrow": "E£"
             },
@@ -822,6 +823,7 @@ const data = {
             },
             NGN: {
                 displayName: "Náìrà ti Orílɛ̀-èdè Nàìjíríà",
+                "displayName-count-other": "Náírà Nàìjíríà",
                 symbol: "₦",
                 "symbol-alt-narrow": "₦"
             },

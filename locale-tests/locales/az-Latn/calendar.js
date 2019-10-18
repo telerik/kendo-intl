@@ -96,10 +96,10 @@ const data = {
             format: {
                 abbreviated: [
                     "B.",
-                    "B.E.",
-                    "Ç.A.",
+                    "B.e.",
+                    "Ç.a.",
                     "Ç.",
-                    "C.A.",
+                    "C.a.",
                     "C.",
                     "Ş."
                 ],
@@ -245,9 +245,9 @@ const data = {
                     "12"
                 ],
                 wide: [
-                    "Yanvar",
+                    "yanvar",
                     "Fevral",
-                    "Mart",
+                    "mart",
                     "Aprel",
                     "May",
                     "İyun",
@@ -256,7 +256,7 @@ const data = {
                     "Sentyabr",
                     "Oktyabr",
                     "Noyabr",
-                    "Dekabr"
+                    "dekabr"
                 ]
             }
         },

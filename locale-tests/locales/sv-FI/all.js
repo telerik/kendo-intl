@@ -18,8 +18,8 @@ const data = {
             perMille: "‰",
             infinity: "∞",
             nan: "NaN",
-            timeSeparator: ":",
-            "timeSeparator-alt-variant": "."
+            timeSeparator: ".",
+            "timeSeparator-alt-variant": ":"
         },
         decimal: {
             patterns: [
@@ -251,7 +251,7 @@ const data = {
             BGL: {
                 displayName: "bulgarisk hård lev (1962–1999)",
                 "displayName-count-one": "bulgarisk hård lev (1962–1999)",
-                "displayName-count-other": "bulgariska hård lev (1962–1999)",
+                "displayName-count-other": "bulgariska hårda lev (1962–1999)",
                 symbol: "BGL"
             },
             BGM: {
@@ -469,8 +469,8 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             CNH: {
-                displayName: "CNH",
-                "displayName-count-one": "CNH",
+                displayName: "kinesisk yuan (offshore)",
+                "displayName-count-one": "kinesisk yuan (offshore)",
                 "displayName-count-other": "CNH",
                 symbol: "CNH"
             },
@@ -1603,9 +1603,9 @@ const data = {
                 "symbol-alt-narrow": "T$"
             },
             TPE: {
-                displayName: "timoriansk escudo",
+                displayName: "östtimoresisk escudo",
                 "displayName-count-one": "östtimoresisk escudo",
-                "displayName-count-other": "timorianska escudos",
+                "displayName-count-other": "östtimoresiska escudos",
                 symbol: "TPE"
             },
             TRL: {
@@ -1779,19 +1779,19 @@ const data = {
             },
             XBA: {
                 displayName: "europeisk kompositenhet",
-                "displayName-count-one": "europeisk gammal kompositenhet",
+                "displayName-count-one": "europeisk kompositenhet",
                 "displayName-count-other": "europeiska kompositenheter",
                 symbol: "XBA"
             },
             XBB: {
                 displayName: "europeisk monetär enhet",
-                "displayName-count-one": "europeisk gammal monetär enhet",
+                "displayName-count-one": "europeisk monetär enhet",
                 "displayName-count-other": "europeiska monetära enheter",
                 symbol: "XBB"
             },
             XBC: {
                 displayName: "europeisk kontoenhet (XBC)",
-                "displayName-count-one": "europeisk gammal kontoenhet",
+                "displayName-count-one": "europeisk kontoenhet (XBC)",
                 "displayName-count-other": "europeiska kontoenheter (XBC)",
                 symbol: "XBC"
             },
@@ -1869,9 +1869,9 @@ const data = {
                 symbol: "XSU"
             },
             XTS: {
-                displayName: "test-valutakod",
-                "displayName-count-one": "(valutakod för teständamål)",
-                "displayName-count-other": "test-valutakod",
+                displayName: "testvalutaenhet",
+                "displayName-count-one": "testvalutaenhet",
+                "displayName-count-other": "testvalutaenheter",
                 symbol: "XTS"
             },
             XUA: {
@@ -1983,7 +1983,7 @@ const data = {
     },
     calendar: {
         patterns: {
-            d: "dd-MM-y",
+            d: "y-MM-dd",
             D: "EEEE d MMMM y",
             m: "d MMM",
             M: "d MMMM",
@@ -2004,36 +2004,36 @@ const data = {
             short: "{1} {0}",
             availableFormats: {
                 Bh: "h B",
-                Bhm: "h:mm B",
-                Bhms: "h:mm:ss B",
+                Bhm: "h.mm B",
+                Bhms: "h.mm.ss B",
                 d: "d",
                 E: "ccc",
-                EBhm: "E h:mm B",
-                EBhms: "E h:mm:ss B",
+                EBhm: "E h.mm B",
+                EBhms: "E h.mm.ss B",
                 Ed: "E d",
-                Ehm: "E h:mm a",
-                EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
-                EHms: "E HH:mm:ss",
+                Ehm: "E h.mm a",
+                EHm: "E HH.mm",
+                Ehms: "E h.mm.ss a",
+                EHms: "E HH.mm.ss",
                 Gy: "y G",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E d MMM y G",
                 h: "h a",
                 H: "HH",
-                hm: "h:mm a",
-                Hm: "HH:mm",
-                hms: "h:mm:ss a",
-                Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
-                Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
-                Hmv: "HH:mm v",
+                hm: "h.mm a",
+                Hm: "HH.mm",
+                hms: "h.mm.ss a",
+                Hms: "HH.mm.ss",
+                hmsv: "h.mm.ss a v",
+                Hmsv: "HH.mm.ss v",
+                hmv: "h.mm a v",
+                Hmv: "HH.mm v",
                 M: "L",
-                Md: "d/M",
-                MEd: "E d/M",
-                MMd: "d/M",
-                MMdd: "dd/MM",
+                Md: "d.M",
+                MEd: "E d.M",
+                MMd: "d.M",
+                MMdd: "dd.MM",
                 MMM: "LLL",
                 MMMd: "d MMM",
                 MMMEd: "E d MMM",
@@ -2041,7 +2041,7 @@ const data = {
                 MMMMEd: "E d MMMM",
                 "MMMMW-count-one": "'vecka' W 'i' MMMM",
                 "MMMMW-count-other": "'vecka' W 'i' MMMM",
-                ms: "mm:ss",
+                ms: "mm.ss",
                 y: "y",
                 yM: "y-MM",
                 yMd: "y-MM-dd",
@@ -2071,7 +2071,7 @@ const data = {
             full: "EEEE d MMMM y",
             long: "d MMMM y",
             medium: "d MMM y",
-            short: "dd-MM-y"
+            short: "y-MM-dd"
         },
         days: {
             format: {

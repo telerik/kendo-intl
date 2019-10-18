@@ -1471,9 +1471,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             SHP: {
-                displayName: "St. Helena Pound",
-                "displayName-count-one": "St. Helena pound",
-                "displayName-count-other": "St. Helena pounds",
+                displayName: "St Helena Pound",
+                "displayName-count-one": "St Helena pound",
+                "displayName-count-other": "St Helena pounds",
                 symbol: "SHP",
                 "symbol-alt-narrow": "£"
             },

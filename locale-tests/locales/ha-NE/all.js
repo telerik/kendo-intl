@@ -49,7 +49,6 @@ const data = {
             groupSize: [
                 3
             ],
-            "unitPattern-count-one": "n $",
             "unitPattern-count-other": "n $"
         },
         accounting: {
@@ -489,7 +488,7 @@ const data = {
             GBP: {
                 displayName: "Fam na Ingila",
                 "displayName-count-one": "Fam na Ingila",
-                "displayName-count-other": "Faman na Ingila",
+                "displayName-count-other": "Fam na Ingila",
                 symbol: "£",
                 "symbol-alt-narrow": "£"
             },
@@ -878,7 +877,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             NGN: {
-                displayName: "Naira",
+                displayName: "Nairar Najeriya",
+                "displayName-count-one": "Nairar Najeriya",
+                "displayName-count-other": "Nairorin Najeriya",
                 symbol: "₦",
                 "symbol-alt-narrow": "₦"
             },
@@ -1445,7 +1446,6 @@ const data = {
                 MMMEd: "E, MMM d",
                 MMMMd: "MMMM d",
                 MMMMEd: "E, MMMM d",
-                "MMMMW-count-one": "'week' W 'of' MMMM",
                 "MMMMW-count-other": "'week' W 'of' MMMM",
                 ms: "mm:ss",
                 y: "y",
@@ -1458,7 +1458,6 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'week' w 'of' Y",
                 "yw-count-other": "'week' w 'of' Y"
             }
         },
@@ -1765,9 +1764,9 @@ const data = {
                 narrow: "Mako"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "Makon Wata",
+                short: "Makon Wata",
+                narrow: "Makon Wata"
             },
             day: {
                 wide: "Kwana",
@@ -1775,9 +1774,9 @@ const data = {
                 narrow: "Kwana"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "Kwanan Shekara",
+                short: "Kwanan Shekara",
+                narrow: "Kwanan Shekara"
             },
             weekday: {
                 wide: "Rana mako",
@@ -1785,9 +1784,9 @@ const data = {
                 narrow: "Rana mako"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "Ranar Aikin Wata",
+                short: "Ranar Aikin Wata",
+                narrow: "Ranar Aikin Wata"
             },
             dayperiod: {
                 short: "Lokuttan rana",

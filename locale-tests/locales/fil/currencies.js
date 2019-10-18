@@ -346,7 +346,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             CNH: {
-                displayName: "CNH",
+                displayName: "Chinese Yuan (offshore)",
+                "displayName-count-one": "Chinese yuan (offshore)",
+                "displayName-count-other": "Chinese yuan (offshore)",
                 symbol: "CNH"
             },
             CNX: {

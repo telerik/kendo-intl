@@ -1800,7 +1800,7 @@ const data = {
     },
     firstDay: 1,
     weekendRange: {
-        start: 6,
+        start: 0,
         end: 0
     },
     likelySubtags: {

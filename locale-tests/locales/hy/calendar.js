@@ -62,8 +62,8 @@ const data = {
                 MMMd: "d MMM",
                 MMMEd: "d MMM, E",
                 MMMMd: "MMMM d",
-                "MMMMW-count-one": "MMMM W շաբ",
-                "MMMMW-count-other": "MMMM W շաբ",
+                "MMMMW-count-one": "MMMM W-ին շաբաթ",
+                "MMMMW-count-other": "MMMM W-րդ շաբաթ",
                 ms: "mm:ss",
                 y: "y",
                 yM: "MM.y",
@@ -75,8 +75,8 @@ const data = {
                 yMMMM: "y թ․ LLLL",
                 yQQQ: "y թ. QQQ",
                 yQQQQ: "y թ. QQQQ",
-                "yw-count-one": "Y w շաբ",
-                "yw-count-other": "Y w շաբ"
+                "yw-count-one": "Y թ․ w-ին շաբաթ",
+                "yw-count-other": "Y թ․ w-րդ շաբաթ"
             }
         },
         timeFormats: {
@@ -329,9 +329,9 @@ const data = {
                     noon: "կեսօրին",
                     pm: "PM",
                     morning1: "առավոտյան",
-                    afternoon1: "ցերեկը",
+                    afternoon1: "ցերեկվա",
                     evening1: "երեկոյան",
-                    night1: "գիշերը"
+                    night1: "գիշերվա"
                 }
             },
             "stand-alone": {
