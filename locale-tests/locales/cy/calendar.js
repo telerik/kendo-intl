@@ -184,7 +184,7 @@ const data = {
                     "Ion",
                     "Chwef",
                     "Maw",
-                    "Ebrill",
+                    "Ebr",
                     "Mai",
                     "Meh",
                     "Gorff",
@@ -314,9 +314,9 @@ const data = {
             format: {
                 abbreviated: {
                     midnight: "canol nos",
-                    am: "yb",
+                    am: "AM",
                     noon: "canol dydd",
-                    pm: "yh",
+                    pm: "PM",
                     morning1: "y bore",
                     afternoon1: "y prynhawn",
                     evening1: "yr hwyr"
@@ -343,27 +343,27 @@ const data = {
             "stand-alone": {
                 abbreviated: {
                     midnight: "canol nos",
-                    am: "yb",
+                    am: "AM",
                     noon: "canol dydd",
-                    pm: "yh",
+                    pm: "PM",
                     morning1: "bore",
                     afternoon1: "prynhawn",
                     evening1: "yr hwyr"
                 },
                 narrow: {
                     midnight: "canol nos",
-                    am: "yb",
+                    am: "AM",
                     noon: "canol dydd",
-                    pm: "yh",
+                    pm: "PM",
                     morning1: "bore",
                     afternoon1: "prynhawn",
                     evening1: "min nos"
                 },
                 wide: {
                     midnight: "canol nos",
-                    am: "yb",
+                    am: "AM",
                     noon: "canol dydd",
-                    pm: "yh",
+                    pm: "PM",
                     morning1: "y bore",
                     afternoon1: "y prynhawn",
                     evening1: "yr hwyr"

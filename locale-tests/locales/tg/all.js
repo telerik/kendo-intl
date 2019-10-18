@@ -1686,8 +1686,8 @@ const data = {
                     pm: "PM"
                 },
                 wide: {
-                    am: "пе. чо.",
-                    pm: "па. чо."
+                    am: "AM",
+                    pm: "PM"
                 }
             },
             "stand-alone": {
@@ -1781,9 +1781,9 @@ const data = {
                 narrow: "Weekday Of Month"
             },
             dayperiod: {
-                short: "пе. чо./па. чо.",
-                wide: "пе. чо./па. чо.",
-                narrow: "пе. чо./па. чо."
+                short: "AM/PM",
+                wide: "AM/PM",
+                narrow: "AM/PM"
             },
             hour: {
                 wide: "соат",

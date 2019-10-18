@@ -94,7 +94,7 @@ const data = {
                 symbol: "ALL"
             },
             AMD: {
-                displayName: "dram armenio",
+                displayName: "dram",
                 "displayName-count-one": "dram armenio",
                 "displayName-count-other": "drams armenios",
                 symbol: "AMD"
@@ -242,7 +242,7 @@ const data = {
             BGN: {
                 displayName: "lev búlgaro",
                 "displayName-count-one": "lev búlgaro",
-                "displayName-count-other": "levas búlgaras",
+                "displayName-count-other": "leva búlgaros",
                 symbol: "BGN"
             },
             BGO: {
@@ -440,9 +440,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             CNH: {
-                displayName: "CNH",
-                "displayName-count-one": "CNH",
-                "displayName-count-other": "CNH",
+                displayName: "yuan chino (extracontinental)",
+                "displayName-count-one": "yuan chino (extracontinental)",
+                "displayName-count-other": "yuan chino (extracontinental)",
                 symbol: "CNH"
             },
             CNX: {
@@ -1637,9 +1637,9 @@ const data = {
                 symbol: "UYW"
             },
             UZS: {
-                displayName: "sum",
-                "displayName-count-one": "sum",
-                "displayName-count-other": "sums",
+                displayName: "som uzbeko",
+                "displayName-count-one": "som uzbeko",
+                "displayName-count-other": "soms uzbekos",
                 symbol: "UZS"
             },
             VEB: {
@@ -1685,9 +1685,9 @@ const data = {
                 symbol: "WST"
             },
             XAF: {
-                displayName: "franco CFA BEAC",
-                "displayName-count-one": "franco CFA BEAC",
-                "displayName-count-other": "francos CFA BEAC",
+                displayName: "franco CFA de África Central",
+                "displayName-count-one": "franco CFA de África Central",
+                "displayName-count-other": "francos CFA de África Central",
                 symbol: "XAF"
             },
             XAG: {
@@ -1756,9 +1756,9 @@ const data = {
                 symbol: "XFU"
             },
             XOF: {
-                displayName: "franco CFA BCEAO",
-                "displayName-count-one": "franco CFA BCEAO",
-                "displayName-count-other": "francos CFA BCEAO",
+                displayName: "franco CFA de África Occidental",
+                "displayName-count-one": "franco CFA de África Occidental",
+                "displayName-count-other": "francos CFA de África Occidental",
                 symbol: "XOF"
             },
             XPD: {
@@ -1893,8 +1893,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1}, {0}",
-            long: "{1}, {0}",
+            full: "{1} 'a' 'las' {0}",
+            long: "{1} 'a' 'las' {0}",
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
@@ -2143,30 +2143,30 @@ const data = {
         quarters: {
             format: {
                 abbreviated: [
-                    "1er. trim.",
-                    "2º. trim.",
-                    "3er. trim.",
-                    "4º trim."
+                    "T1",
+                    "T2",
+                    "T3",
+                    "T4"
                 ],
                 narrow: [
-                    "1T",
-                    "2T",
-                    "3T",
-                    "4T"
+                    "1",
+                    "2",
+                    "3",
+                    "4"
                 ],
                 wide: [
                     "1.er trimestre",
-                    "2º. trimestre",
+                    "2.º trimestre",
                     "3.er trimestre",
-                    "4o. trimestre"
+                    "4.º trimestre"
                 ]
             },
             "stand-alone": {
                 abbreviated: [
-                    "1er. trim.",
-                    "2º. trim.",
-                    "3er. trim.",
-                    "4º trim."
+                    "T1",
+                    "T2",
+                    "T3",
+                    "T4"
                 ],
                 narrow: [
                     "1T",
@@ -2176,9 +2176,9 @@ const data = {
                 ],
                 wide: [
                     "1.er trimestre",
-                    "2º. trimestre",
+                    "2.º trimestre",
                     "3.er trimestre",
-                    "4º trimestre"
+                    "4.º trimestre"
                 ]
             }
         },

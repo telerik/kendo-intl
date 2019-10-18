@@ -67,8 +67,8 @@ const data = {
             },
             AED: {
                 displayName: "ಸಂಯುಕ್ತ ಅರಬ್‌ ಎಮಿರೇಟ್‌‌ಗಳ ದಿರಾಮ್‌‌",
-                "displayName-count-one": "ಸಂಯುಕ್ತ ಅರಬ್‌ ಎಮಿರೇಟ್‌‌ಗಳ ದಿರಾಮ್‌‌",
-                "displayName-count-other": "ಸಂಯುಕ್ತ ಅರಬ್‌ ಎಮಿರೇಟ್‌‌ಗಳ ದಿರಾಮ್‌‌‍ಗಳು",
+                "displayName-count-one": "ಯುಎಇ ದಿರಾಮ್",
+                "displayName-count-other": "ಯುಎಇ ದಿರಾಮ್‌ಗಳು",
                 symbol: "AED"
             },
             AFA: {
@@ -398,9 +398,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             CNH: {
-                displayName: "CNH",
-                "displayName-count-one": "CNH",
-                "displayName-count-other": "CNH",
+                displayName: "ಚೈನೀಸ್ ಯುವಾನ್ (ಆಫ್‌ಶೋರ್)",
+                "displayName-count-one": "ಚೈನೀಸ್ ಯುವಾನ್ (ಆಫ್‌ಶೋರ್)",
+                "displayName-count-other": "ಚೈನೀಸ್ ಯುವಾನ್ (ಆಫ್‌ಶೋರ್)",
                 symbol: "CNH"
             },
             CNX: {
@@ -500,9 +500,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             DZD: {
-                displayName: "ಅಲ್ಗೇರಿಯನ್ ದಿನಾರ್",
-                "displayName-count-one": "ಅಲ್ಗೇರಿಯನ್ ದಿನಾರ್",
-                "displayName-count-other": "ಅಲ್ಗೇರಿಯನ್ ದಿನಾರ್‌‍ಗಳು",
+                displayName: "ಅಲ್ಜೀರಿಯನ್ ದಿನಾರ್",
+                "displayName-count-one": "ಅಲ್ಜೀರಿಯನ್ ದಿನಾರ್",
+                "displayName-count-other": "ಅಲ್ಜೀರಿಯನ್ ದಿನಾರ್‌ಗಳು",
                 symbol: "DZD"
             },
             ECS: {
@@ -552,7 +552,7 @@ const data = {
             EUR: {
                 displayName: "ಯೂರೊ",
                 "displayName-count-one": "ಯೂರೊ",
-                "displayName-count-other": "ಯೂರೊ",
+                "displayName-count-other": "ಯೂರೊಗಳು",
                 symbol: "€",
                 "symbol-alt-narrow": "€"
             },
@@ -592,7 +592,7 @@ const data = {
             GEL: {
                 displayName: "ಜಾರ್ಜಿಯಾದ ಲಾರಿ",
                 "displayName-count-one": "ಜಾರ್ಜಿಯಾದ ಲಾರಿ",
-                "displayName-count-other": "ಜಾರ್ಜಿಯಾದ ಲಾರಿ",
+                "displayName-count-other": "ಜಾರ್ಜಿಯಾದ ಲಾರಿಗಳು",
                 symbol: "GEL",
                 "symbol-alt-narrow": "₾",
                 "symbol-alt-variant": "₾"
@@ -733,9 +733,9 @@ const data = {
                 "symbol-alt-narrow": "₹"
             },
             IQD: {
-                displayName: "ಇರಾಕಿಯನ್ ದಿನಾರ್‌",
-                "displayName-count-one": "ಇರಾಖಿಯನ್ ದಿನಾರ್",
-                "displayName-count-other": "ಇರಾಕಿಯನ್ ದಿನಾರ್‌ಗಳು",
+                displayName: "ಇರಾಕಿ ದಿನಾರ್",
+                "displayName-count-one": "ಇರಾಕಿ ದಿನಾರ್",
+                "displayName-count-other": "ಇರಾಕಿ ದಿನಾರ್‌ಗಳು",
                 symbol: "IQD"
             },
             IRR: {
@@ -842,7 +842,7 @@ const data = {
             },
             KZT: {
                 displayName: "ಕಜಾಕಿಸ್ತಾನಿ ತೆಂಗೆ",
-                "displayName-count-one": "ಕಜಕಿಸ್ತಾನ್ ತೆಂಗೇ",
+                "displayName-count-one": "ಕಜಾಕಿಸ್ತಾನಿ ತೆಂಗೆ",
                 "displayName-count-other": "ಕಜಾಕಿಸ್ತಾನಿ ತೆಂಗೆಗಳು",
                 symbol: "KZT",
                 "symbol-alt-narrow": "₸"
@@ -983,9 +983,9 @@ const data = {
                 "symbol-alt-narrow": "₮"
             },
             MOP: {
-                displayName: "ಮಕ್ಯೂದ ಪಟಕಾ",
-                "displayName-count-one": "ಮಕ್ಯೂದ ಪಟಕಾ",
-                "displayName-count-other": "ಮಕ್ಯೂದ ಪಟಕಾಗಳು",
+                displayName: "ಮಕಾನಿಸ್ ಪಟಾಕಾ",
+                "displayName-count-one": "ಮಕಾನಿಸ್ ಪಟಾಕಾ",
+                "displayName-count-other": "ಮಕಾನಿಸ್ ಪಟಾಕಾಗಳು",
                 symbol: "MOP"
             },
             MRO: {
@@ -1047,9 +1047,9 @@ const data = {
                 symbol: "MXV"
             },
             MYR: {
-                displayName: "ಮಲೇಶಿಯನ್ ರಿಂಗಿಟ್ಟ್",
-                "displayName-count-one": "ಮಲೇಶಿಯನ್ ರಿಂಗಿಟ್ಟ್",
-                "displayName-count-other": "ಮಲೇಶಿಯನ್ ರಿಂಗಿಟ್ಟ್‌ಗಳು",
+                displayName: "ಮಲೇಶಿಯನ್ ರಿಂಗಿಟ್",
+                "displayName-count-one": "ಮಲೇಶಿಯನ್ ರಿಂಗಿಟ್",
+                "displayName-count-other": "ಮಲೇಶಿಯನ್ ರಿಂಗಿಟ್‌ಗಳು",
                 symbol: "MYR",
                 "symbol-alt-narrow": "RM"
             },
@@ -1150,9 +1150,9 @@ const data = {
                 symbol: "PGK"
             },
             PHP: {
-                displayName: "ಫಿಲಿಪ್ಪೈನ್ ಪೆಸೊ",
-                "displayName-count-one": "ಫಿಲಿಪ್ಪೈನ್ ಪೆಸೊ",
-                "displayName-count-other": "ಫಿಲಿಪ್ಪೈನ್ ಪೆಸೊಗಳು",
+                displayName: "ಫಿಲಿಪ್ಪೈನ್ ಪಿಸೊ",
+                "displayName-count-one": "ಫಿಲಿಪ್ಪೈನ್ ಪಿಸೊ",
+                "displayName-count-other": "ಫಿಲಿಪ್ಪೈನ್ ಪಿಸೊಗಳು",
                 symbol: "PHP",
                 "symbol-alt-narrow": "₱"
             },
@@ -1281,7 +1281,7 @@ const data = {
             SHP: {
                 displayName: "ಸೇಂಟ್ ಹೆಲೇನಾ ಪೌಂಡ್",
                 "displayName-count-one": "ಸೇಂಟ್ ಹೆಲೇನಾ ಪೌಂಡ್",
-                "displayName-count-other": "ಸೇಂಟ್ ಹೆಲೇನಾ ಪೌಂಡ್",
+                "displayName-count-other": "ಸೇಂಟ್ ಹೆಲೇನಾ ಪೌಂಡ್‌ಗಳು",
                 symbol: "SHP",
                 "symbol-alt-narrow": "£"
             },
@@ -1588,9 +1588,9 @@ const data = {
                 symbol: "XFU"
             },
             XOF: {
-                displayName: "ಪಶ್ಚಿಮ ಆಫ್ರಿಕಾದ [CFA] ಫ್ರಾಂಕ್",
-                "displayName-count-one": "ಪಶ್ಚಿಮ ಆಫ್ರಿಕಾದ [CFA] ಫ್ರಾಂಕ್‌",
-                "displayName-count-other": "ಪಶ್ಚಿಮ ಆಫ್ರಿಕಾದ [CFA] ಫ್ರಾಂಕ್‌ಗಳು",
+                displayName: "ಪಶ್ಚಿಮ ಆಫ್ರಿಕಾದ CFA ಫ್ರಾಂಕ್",
+                "displayName-count-one": "ಪಶ್ಚಿಮ ಆಫ್ರಿಕಾದ CFA ಫ್ರಾಂಕ್",
+                "displayName-count-other": "ಪಶ್ಚಿಮ ಆಫ್ರಿಕಾದ CFA ಫ್ರಾಂಕ್‌ಗಳು",
                 symbol: "CFA"
             },
             XPD: {
@@ -1756,6 +1756,7 @@ const data = {
                 MMMd: "MMM d",
                 MMMEd: "E, d MMM",
                 MMMMd: "d MMMM",
+                "MMMMW-count-one": "'week' W 'of' MMMM",
                 "MMMMW-count-other": "'week' W 'of' MMMM",
                 ms: "mm:ss",
                 y: "y",
@@ -1769,6 +1770,7 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
+                "yw-count-one": "'week' w 'of' Y",
                 "yw-count-other": "'week' w 'of' Y"
             }
         },

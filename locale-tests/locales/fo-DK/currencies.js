@@ -55,7 +55,7 @@ const data = {
             AOA: {
                 displayName: "Angola kwanza",
                 "displayName-count-one": "Angola kwanza",
-                "displayName-count-other": "Angola kwanza",
+                "displayName-count-other": "Angola kwanzar",
                 symbol: "AOA",
                 "symbol-alt-narrow": "Kz"
             },
@@ -276,7 +276,7 @@ const data = {
             BWP: {
                 displayName: "Botsvana pula",
                 "displayName-count-one": "Botsvana pula",
-                "displayName-count-other": "Botsvana pula",
+                "displayName-count-other": "Botsvana pular",
                 symbol: "BWP",
                 "symbol-alt-narrow": "P"
             },
@@ -476,7 +476,7 @@ const data = {
             ERN: {
                 displayName: "Eritrea nakfa",
                 "displayName-count-one": "Eritrea nakfa",
-                "displayName-count-other": "Eritrea nakfa",
+                "displayName-count-other": "Eritrea nakfar",
                 symbol: "ERN"
             },
             ESA: {
@@ -941,7 +941,7 @@ const data = {
             MRU: {
                 displayName: "Móritania ouguiya",
                 "displayName-count-one": "Móritania ouguiya",
-                "displayName-count-other": "Móritania ouguiya",
+                "displayName-count-other": "Móritania ouguiyar",
                 symbol: "MRU"
             },
             MTL: {
@@ -1276,7 +1276,7 @@ const data = {
             STN: {
                 displayName: "Sao Tome & Prinsipi dobra",
                 "displayName-count-one": "Sao Tome & Prinsipi dobra",
-                "displayName-count-other": "Sao Tome & Prinsipi dobra",
+                "displayName-count-other": "Sao Tome & Prinsipi dobrar",
                 symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },

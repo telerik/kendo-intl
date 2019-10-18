@@ -109,7 +109,7 @@ const data = {
                 "displayName-count-one": "kuanzë angole",
                 "displayName-count-other": "kuanza angole",
                 symbol: "AOA",
-                "symbol-alt-narrow": "Kz"
+                "symbol-alt-narrow": "AOA"
             },
             AOK: {
                 displayName: "AOK",
@@ -144,7 +144,7 @@ const data = {
                 "displayName-count-one": "peso argjentinase",
                 "displayName-count-other": "peso argjentinase",
                 symbol: "ARS",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "ARS"
             },
             ATS: {
                 displayName: "ATS",
@@ -155,7 +155,7 @@ const data = {
                 "displayName-count-one": "dollar australian",
                 "displayName-count-other": "dollarë australian",
                 symbol: "A$",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "AUD"
             },
             AWG: {
                 displayName: "Florini aruban",
@@ -182,7 +182,7 @@ const data = {
                 "displayName-count-one": "markë e Bosnjë-Hercegovinës [e shkëmbyeshme]",
                 "displayName-count-other": "marka të Bosnjë-Hercegovinës [të shkëmbyeshme]",
                 symbol: "BAM",
-                "symbol-alt-narrow": "KM"
+                "symbol-alt-narrow": "BAM"
             },
             BAN: {
                 displayName: "BAN",
@@ -193,14 +193,14 @@ const data = {
                 "displayName-count-one": "dollar barbadian",
                 "displayName-count-other": "dollarë barbadian",
                 symbol: "BBD",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "BBD"
             },
             BDT: {
                 displayName: "Taka e Bangladeshit",
                 "displayName-count-one": "takë bangladeshi",
                 "displayName-count-other": "taka bangladeshi",
                 symbol: "BDT",
-                "symbol-alt-narrow": "৳"
+                "symbol-alt-narrow": "BDT"
             },
             BEC: {
                 displayName: "BEC",
@@ -249,21 +249,21 @@ const data = {
                 "displayName-count-one": "dollar bermude",
                 "displayName-count-other": "dollarë bermude",
                 symbol: "BMD",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "BMD"
             },
             BND: {
                 displayName: "Dollari i Bruneit",
                 "displayName-count-one": "dollar brunei",
                 "displayName-count-other": "dollarë brunei",
                 symbol: "BND",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "BND"
             },
             BOB: {
                 displayName: "Boliviani i Bolivisë",
                 "displayName-count-one": "bolivian i Bolivisë",
                 "displayName-count-other": "bolivianë të Bolivisë",
                 symbol: "BOB",
-                "symbol-alt-narrow": "Bs"
+                "symbol-alt-narrow": "BOB"
             },
             BOL: {
                 displayName: "BOL",
@@ -293,8 +293,8 @@ const data = {
                 displayName: "Reali brazilian",
                 "displayName-count-one": "real brazilian",
                 "displayName-count-other": "realë brazilian",
-                symbol: "R$",
-                "symbol-alt-narrow": "R$"
+                symbol: "BRL",
+                "symbol-alt-narrow": "BRL"
             },
             BRN: {
                 displayName: "BRN",
@@ -313,7 +313,7 @@ const data = {
                 "displayName-count-one": "dollar bahamez",
                 "displayName-count-other": "dollarë bahamez",
                 symbol: "BSD",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "BSD"
             },
             BTN: {
                 displayName: "Ngultrumi butanez",
@@ -330,7 +330,7 @@ const data = {
                 "displayName-count-one": "pulë botsuane",
                 "displayName-count-other": "pula botsuane",
                 symbol: "BWP",
-                "symbol-alt-narrow": "P"
+                "symbol-alt-narrow": "BWP"
             },
             BYB: {
                 displayName: "BYB",
@@ -341,7 +341,7 @@ const data = {
                 "displayName-count-one": "rubël bjelloruse",
                 "displayName-count-other": "rubla bjelloruse",
                 symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                "symbol-alt-narrow": "BYN"
             },
             BYR: {
                 displayName: "Rubla bjelloruse (2000–2016)",
@@ -354,14 +354,14 @@ const data = {
                 "displayName-count-one": "dollar belize",
                 "displayName-count-other": "dollarë belize",
                 symbol: "BZD",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "BZD"
             },
             CAD: {
                 displayName: "Dollari kanadez",
                 "displayName-count-one": "dollar kanadez",
                 "displayName-count-other": "dollarë kanadez",
                 symbol: "CA$",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "CAD"
             },
             CDF: {
                 displayName: "Franga kongole",
@@ -396,7 +396,7 @@ const data = {
                 "displayName-count-one": "peso kiliane",
                 "displayName-count-other": "peso kiliane",
                 symbol: "CLP",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "CLP"
             },
             CNH: {
                 displayName: "Juani kinez (për treg të jashtëm)",
@@ -413,14 +413,14 @@ const data = {
                 "displayName-count-one": "juan kinez",
                 "displayName-count-other": "juanë kinez",
                 symbol: "CN¥",
-                "symbol-alt-narrow": "¥"
+                "symbol-alt-narrow": "CNY"
             },
             COP: {
                 displayName: "Pesoja kolumbiane",
                 "displayName-count-one": "peso kolumbiane",
                 "displayName-count-other": "peso kolumbiane",
                 symbol: "COP",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "COP"
             },
             COU: {
                 displayName: "COU",
@@ -431,7 +431,7 @@ const data = {
                 "displayName-count-one": "kolon kostarikan",
                 "displayName-count-other": "kolonë kostarikan",
                 symbol: "CRC",
-                "symbol-alt-narrow": "₡"
+                "symbol-alt-narrow": "CRC"
             },
             CSD: {
                 displayName: "CSD",
@@ -446,14 +446,14 @@ const data = {
                 "displayName-count-one": "peso kubaneze e shkëmbyeshme",
                 "displayName-count-other": "peso kubaneze e shkëmbyeshme",
                 symbol: "CUC",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "CUC"
             },
             CUP: {
                 displayName: "Pesoja kubaneze",
                 "displayName-count-one": "peso kubaneze",
                 "displayName-count-other": "peso kubaneze",
                 symbol: "CUP",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "CUP"
             },
             CVE: {
                 displayName: "Eskudoja e Kepit të Gjelbër",
@@ -470,7 +470,7 @@ const data = {
                 "displayName-count-one": "korunë çeke",
                 "displayName-count-other": "koruna çeke",
                 symbol: "CZK",
-                "symbol-alt-narrow": "Kč"
+                "symbol-alt-narrow": "CZK"
             },
             DDM: {
                 displayName: "DDM",
@@ -491,14 +491,14 @@ const data = {
                 "displayName-count-one": "koronë daneze",
                 "displayName-count-other": "korona daneze",
                 symbol: "DKK",
-                "symbol-alt-narrow": "kr"
+                "symbol-alt-narrow": "DKK"
             },
             DOP: {
                 displayName: "Pesoja dominikane",
                 "displayName-count-one": "peso dominikane",
                 "displayName-count-other": "peso dominikane",
                 symbol: "DOP",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "DOP"
             },
             DZD: {
                 displayName: "Dinari algjerian",
@@ -523,7 +523,7 @@ const data = {
                 "displayName-count-one": "sterlinë egjiptiane",
                 "displayName-count-other": "sterlina egjiptiane",
                 symbol: "EGP",
-                "symbol-alt-narrow": "E£"
+                "symbol-alt-narrow": "EGP"
             },
             ERN: {
                 displayName: "Nakfa e Eritresë",
@@ -555,7 +555,7 @@ const data = {
                 "displayName-count-one": "euro",
                 "displayName-count-other": "euro",
                 symbol: "€",
-                "symbol-alt-narrow": "€"
+                "symbol-alt-narrow": "EUR"
             },
             FIM: {
                 displayName: "FIM",
@@ -566,14 +566,14 @@ const data = {
                 "displayName-count-one": "dollar fixhi",
                 "displayName-count-other": "dollarë fixhi",
                 symbol: "FJD",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "FJD"
             },
             FKP: {
                 displayName: "Stërlina e Ishujve Falkland",
                 "displayName-count-one": "stërlinë e Ishujve Falkland",
                 "displayName-count-other": "stërlina të Ishujve Falkland",
                 symbol: "FKP",
-                "symbol-alt-narrow": "£"
+                "symbol-alt-narrow": "FKP"
             },
             FRF: {
                 displayName: "FRF",
@@ -584,7 +584,7 @@ const data = {
                 "displayName-count-one": "sterlinë britanike",
                 "displayName-count-other": "sterlina britanike",
                 symbol: "£",
-                "symbol-alt-narrow": "£"
+                "symbol-alt-narrow": "GBP"
             },
             GEK: {
                 displayName: "GEK",
@@ -595,7 +595,7 @@ const data = {
                 "displayName-count-one": "lari gjeorgjian",
                 "displayName-count-other": "lari gjeorgjiane",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾"
+                "symbol-alt-narrow": "GEL"
             },
             GHC: {
                 displayName: "GHC",
@@ -612,7 +612,7 @@ const data = {
                 "displayName-count-one": "sterlinë gjibraltari",
                 "displayName-count-other": "sterlina gjibraltari",
                 symbol: "GIP",
-                "symbol-alt-narrow": "£"
+                "symbol-alt-narrow": "GIP"
             },
             GMD: {
                 displayName: "Dalasi gambian",
@@ -625,7 +625,7 @@ const data = {
                 "displayName-count-one": "frangë guineje",
                 "displayName-count-other": "franga guineje",
                 symbol: "GNF",
-                "symbol-alt-narrow": "FG"
+                "symbol-alt-narrow": "GNF"
             },
             GNS: {
                 displayName: "GNS",
@@ -644,7 +644,7 @@ const data = {
                 "displayName-count-one": "kuecal guatemalas",
                 "displayName-count-other": "kuecalë guatemalas",
                 symbol: "GTQ",
-                "symbol-alt-narrow": "Q"
+                "symbol-alt-narrow": "GTQ"
             },
             GWE: {
                 displayName: "GWE",
@@ -659,21 +659,21 @@ const data = {
                 "displayName-count-one": "dollar guajanez",
                 "displayName-count-other": "dollarë guajanez",
                 symbol: "GYD",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "GYD"
             },
             HKD: {
                 displayName: "Dollari i Hong-Kongut",
                 "displayName-count-one": "dollar hong-kongu",
                 "displayName-count-other": "dollarë hong-kongu",
                 symbol: "HK$",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "HKS"
             },
             HNL: {
                 displayName: "Lempira hondurase",
                 "displayName-count-one": "lempirë hondurase",
                 "displayName-count-other": "lempira hondurase",
                 symbol: "HNL",
-                "symbol-alt-narrow": "L"
+                "symbol-alt-narrow": "HNL"
             },
             HRD: {
                 displayName: "HRD",
@@ -684,7 +684,7 @@ const data = {
                 "displayName-count-one": "kunë kroate",
                 "displayName-count-other": "kuna kroate",
                 symbol: "HRK",
-                "symbol-alt-narrow": "kn"
+                "symbol-alt-narrow": "HRK"
             },
             HTG: {
                 displayName: "Gurdi haitian",
@@ -697,14 +697,14 @@ const data = {
                 "displayName-count-one": "forintë hungareze",
                 "displayName-count-other": "forinta hungareze",
                 symbol: "HUF",
-                "symbol-alt-narrow": "Ft"
+                "symbol-alt-narrow": "HUF"
             },
             IDR: {
                 displayName: "Rupia indoneziane",
                 "displayName-count-one": "rupi indoneziane",
                 "displayName-count-other": "rupi indoneziane",
                 symbol: "IDR",
-                "symbol-alt-narrow": "Rp"
+                "symbol-alt-narrow": "IDR"
             },
             IEP: {
                 displayName: "IEP",
@@ -723,14 +723,14 @@ const data = {
                 "displayName-count-one": "shekel izrealit",
                 "displayName-count-other": "shekelë izrealit",
                 symbol: "₪",
-                "symbol-alt-narrow": "₪"
+                "symbol-alt-narrow": "ILS"
             },
             INR: {
                 displayName: "Rupia indiane",
                 "displayName-count-one": "rupi indiane",
                 "displayName-count-other": "rupi indiane",
                 symbol: "₹",
-                "symbol-alt-narrow": "₹"
+                "symbol-alt-narrow": "INR"
             },
             IQD: {
                 displayName: "Dinari irakian",
@@ -753,7 +753,7 @@ const data = {
                 "displayName-count-one": "koronë islandeze",
                 "displayName-count-other": "korona islandeze",
                 symbol: "ISK",
-                "symbol-alt-narrow": "kr"
+                "symbol-alt-narrow": "ISK"
             },
             ITL: {
                 displayName: "ITL",
@@ -764,7 +764,7 @@ const data = {
                 "displayName-count-one": "dollar xhamajkan",
                 "displayName-count-other": "dollarë xhamajkan",
                 symbol: "JMD",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "JMD"
             },
             JOD: {
                 displayName: "Dinari jordanez",
@@ -777,7 +777,7 @@ const data = {
                 "displayName-count-one": "jen japonez",
                 "displayName-count-other": "jenë japonez",
                 symbol: "JP¥",
-                "symbol-alt-narrow": "¥"
+                "symbol-alt-narrow": "JPY"
             },
             KES: {
                 displayName: "Shilinga keniane",
@@ -796,21 +796,21 @@ const data = {
                 "displayName-count-one": "rial kamboxhian",
                 "displayName-count-other": "rialë kamboxhian",
                 symbol: "KHR",
-                "symbol-alt-narrow": "៛"
+                "symbol-alt-narrow": "KHR"
             },
             KMF: {
                 displayName: "Franga komore",
                 "displayName-count-one": "frangë komore",
                 "displayName-count-other": "franga komori",
                 symbol: "KMF",
-                "symbol-alt-narrow": "CF"
+                "symbol-alt-narrow": "KMF"
             },
             KPW: {
                 displayName: "Uoni koreano-verior",
                 "displayName-count-one": "uon koreano-verior",
                 "displayName-count-other": "uonë koreano-verior",
                 symbol: "KPW",
-                "symbol-alt-narrow": "₩"
+                "symbol-alt-narrow": "KPW"
             },
             KRH: {
                 displayName: "KRH",
@@ -825,7 +825,7 @@ const data = {
                 "displayName-count-one": "uon koreano-jugor",
                 "displayName-count-other": "uonë koreano-jugor",
                 symbol: "₩",
-                "symbol-alt-narrow": "₩"
+                "symbol-alt-narrow": "KRW"
             },
             KWD: {
                 displayName: "Dinari kuvajtian",
@@ -838,42 +838,42 @@ const data = {
                 "displayName-count-one": "dollar i Ishujve Kajman",
                 "displayName-count-other": "dollarë të Ishujve Kajman",
                 symbol: "KYD",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "KYD"
             },
             KZT: {
                 displayName: "Tenga kazake",
                 "displayName-count-one": "tengë kazake",
                 "displayName-count-other": "tenga kazake",
                 symbol: "KZT",
-                "symbol-alt-narrow": "₸"
+                "symbol-alt-narrow": "KZT"
             },
             LAK: {
                 displayName: "Kipa e Laosit",
                 "displayName-count-one": "kipë laosi",
                 "displayName-count-other": "kipa laosi",
                 symbol: "LAK",
-                "symbol-alt-narrow": "₭"
+                "symbol-alt-narrow": "LAK"
             },
             LBP: {
                 displayName: "Sterlina libaneze",
                 "displayName-count-one": "sterlinë libaneze",
                 "displayName-count-other": "sterlina libaneze",
                 symbol: "LBP",
-                "symbol-alt-narrow": "L£"
+                "symbol-alt-narrow": "LBP"
             },
             LKR: {
                 displayName: "Rupia e Sri-Lankës",
                 "displayName-count-one": "rupi sri-lanke",
                 "displayName-count-other": "rupi sri-lanke",
                 symbol: "LKR",
-                "symbol-alt-narrow": "Rs"
+                "symbol-alt-narrow": "LKR"
             },
             LRD: {
                 displayName: "Dollari liberian",
                 "displayName-count-one": "dollar liberian",
                 "displayName-count-other": "dollarë liberian",
                 symbol: "LRD",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "LRD"
             },
             LSL: {
                 displayName: "LSL",
@@ -948,7 +948,7 @@ const data = {
                 "displayName-count-one": "arier malagez",
                 "displayName-count-other": "arierë malagez",
                 symbol: "MGA",
-                "symbol-alt-narrow": "Ar"
+                "symbol-alt-narrow": "MGA"
             },
             MGF: {
                 displayName: "MGF",
@@ -973,14 +973,14 @@ const data = {
                 "displayName-count-one": "kiatë mianmari",
                 "displayName-count-other": "kiata mianmari",
                 symbol: "MMK",
-                "symbol-alt-narrow": "K"
+                "symbol-alt-narrow": "MMK"
             },
             MNT: {
                 displayName: "Tugrika mongole",
                 "displayName-count-one": "tugrikë mongole",
                 "displayName-count-other": "tugrika mongole",
                 symbol: "MNT",
-                "symbol-alt-narrow": "₮"
+                "symbol-alt-narrow": "MNT"
             },
             MOP: {
                 displayName: "Pataka e Makaos",
@@ -1013,7 +1013,7 @@ const data = {
                 "displayName-count-one": "rupi mauritiane",
                 "displayName-count-other": "rupi mauritiane",
                 symbol: "MUR",
-                "symbol-alt-narrow": "Rs"
+                "symbol-alt-narrow": "MUR"
             },
             MVP: {
                 displayName: "MVP",
@@ -1036,7 +1036,7 @@ const data = {
                 "displayName-count-one": "peso meksikane",
                 "displayName-count-other": "peso meksikane",
                 symbol: "MX$",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "MXN"
             },
             MXP: {
                 displayName: "MXP",
@@ -1051,7 +1051,7 @@ const data = {
                 "displayName-count-one": "ringit malajzian",
                 "displayName-count-other": "ringitë malajzian",
                 symbol: "MYR",
-                "symbol-alt-narrow": "RM"
+                "symbol-alt-narrow": "MYR"
             },
             MZE: {
                 displayName: "MZE",
@@ -1072,14 +1072,14 @@ const data = {
                 "displayName-count-one": "dollar namibie",
                 "displayName-count-other": "dollarë namibie",
                 symbol: "NAD",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "NAD"
             },
             NGN: {
                 displayName: "Naira nigeriane",
                 "displayName-count-one": "nairë nigeriane",
                 "displayName-count-other": "naira nigeriane",
                 symbol: "NGN",
-                "symbol-alt-narrow": "₦"
+                "symbol-alt-narrow": "NGN"
             },
             NIC: {
                 displayName: "NIC",
@@ -1090,7 +1090,7 @@ const data = {
                 "displayName-count-one": "kordobë nikaraguane",
                 "displayName-count-other": "kordoba nikaraguane",
                 symbol: "NIO",
-                "symbol-alt-narrow": "C$"
+                "symbol-alt-narrow": "NIO"
             },
             NLG: {
                 displayName: "NLG",
@@ -1101,21 +1101,21 @@ const data = {
                 "displayName-count-one": "koronë norvegjeze",
                 "displayName-count-other": "korona norvegjeze",
                 symbol: "NOK",
-                "symbol-alt-narrow": "kr"
+                "symbol-alt-narrow": "NOK"
             },
             NPR: {
                 displayName: "Rupia nepaleze",
                 "displayName-count-one": "rupi nepaleze",
                 "displayName-count-other": "rupi nepaleze",
                 symbol: "NPR",
-                "symbol-alt-narrow": "Rs"
+                "symbol-alt-narrow": "NPR"
             },
             NZD: {
                 displayName: "Dollari i Zelandës së Re",
                 "displayName-count-one": "dollar i Zelandës së Re",
                 "displayName-count-other": "dollarë të Zelandës së Re",
                 symbol: "NZ$",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "NZD"
             },
             OMR: {
                 displayName: "Riali i Omanit",
@@ -1154,21 +1154,21 @@ const data = {
                 "displayName-count-one": "peso filipinase",
                 "displayName-count-other": "peso filipinase",
                 symbol: "PHP",
-                "symbol-alt-narrow": "₱"
+                "symbol-alt-narrow": "PHP"
             },
             PKR: {
                 displayName: "Rupia pakistaneze",
                 "displayName-count-one": "rupi pakistaneze",
                 "displayName-count-other": "rupi pakistaneze",
                 symbol: "PKR",
-                "symbol-alt-narrow": "Rs"
+                "symbol-alt-narrow": "PKR"
             },
             PLN: {
                 displayName: "Zllota polake",
                 "displayName-count-one": "zllotë polake",
                 "displayName-count-other": "zllota polake",
                 symbol: "PLN",
-                "symbol-alt-narrow": "zł"
+                "symbol-alt-narrow": "PLN"
             },
             PLZ: {
                 displayName: "PLZ",
@@ -1183,7 +1183,7 @@ const data = {
                 "displayName-count-one": "guaran paraguaian",
                 "displayName-count-other": "guaranë paraguaian",
                 symbol: "PYG",
-                "symbol-alt-narrow": "₲"
+                "symbol-alt-narrow": "PYG"
             },
             QAR: {
                 displayName: "Riali i Katarit",
@@ -1204,7 +1204,7 @@ const data = {
                 "displayName-count-one": "leu rumune",
                 "displayName-count-other": "leu rumune",
                 symbol: "RON",
-                "symbol-alt-narrow": "lei"
+                "symbol-alt-narrow": "RON"
             },
             RSD: {
                 displayName: "Dinari serb",
@@ -1217,7 +1217,7 @@ const data = {
                 "displayName-count-one": "rubël ruse",
                 "displayName-count-other": "rubla ruse",
                 symbol: "RUB",
-                "symbol-alt-narrow": "₽"
+                "symbol-alt-narrow": "RUB"
             },
             RUR: {
                 displayName: "RUR",
@@ -1229,7 +1229,7 @@ const data = {
                 "displayName-count-one": "frangë ruandeze",
                 "displayName-count-other": "franga ruandeze",
                 symbol: "RWF",
-                "symbol-alt-narrow": "RF"
+                "symbol-alt-narrow": "RWF"
             },
             SAR: {
                 displayName: "Riali saudit",
@@ -1242,7 +1242,7 @@ const data = {
                 "displayName-count-one": "dollar i Ishujve Solomonë",
                 "displayName-count-other": "dollarë të Ishujve Solomonë",
                 symbol: "SBD",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "SBD"
             },
             SCR: {
                 displayName: "Rupia e Ishujve Sishelë",
@@ -1269,21 +1269,21 @@ const data = {
                 "displayName-count-one": "koronë suedeze",
                 "displayName-count-other": "korona suedeze",
                 symbol: "SEK",
-                "symbol-alt-narrow": "kr"
+                "symbol-alt-narrow": "SEK"
             },
             SGD: {
                 displayName: "Dollari i Singaporit",
                 "displayName-count-one": "dollar singapori",
                 "displayName-count-other": "dollarë singapori",
                 symbol: "SGD",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "SGD"
             },
             SHP: {
                 displayName: "Sterlina e Ishullit të Shën-Helenës",
                 "displayName-count-one": "sterlinë e Ishullit të Shën-Helenës",
                 "displayName-count-other": "sterlina e Ishullit të Shën-Helenës",
                 symbol: "SHP",
-                "symbol-alt-narrow": "£"
+                "symbol-alt-narrow": "SHP"
             },
             SIT: {
                 displayName: "SIT",
@@ -1310,7 +1310,7 @@ const data = {
                 "displayName-count-one": "dollar surinamez",
                 "displayName-count-other": "dollarë surinamez",
                 symbol: "SRD",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "SRD"
             },
             SRG: {
                 displayName: "SRG",
@@ -1321,7 +1321,7 @@ const data = {
                 "displayName-count-one": "sterlinë sudanezo-jugore",
                 "displayName-count-other": "sterlina sudanezo-jugore",
                 symbol: "SSP",
-                "symbol-alt-narrow": "£"
+                "symbol-alt-narrow": "SSP"
             },
             STD: {
                 displayName: "Dobra e Sao-Tomes dhe Prinsipes (1977–2017)",
@@ -1334,7 +1334,7 @@ const data = {
                 "displayName-count-one": "dobër e Sao-Tomes dhe Prinsipes",
                 "displayName-count-other": "dobra të Sao-Tomes dhe Prinsipes",
                 symbol: "STN",
-                "symbol-alt-narrow": "Db"
+                "symbol-alt-narrow": "STN"
             },
             SUR: {
                 displayName: "SUR",
@@ -1349,7 +1349,7 @@ const data = {
                 "displayName-count-one": "sterlinë siriane",
                 "displayName-count-other": "sterlina siriane",
                 symbol: "SYP",
-                "symbol-alt-narrow": "£"
+                "symbol-alt-narrow": "SYP"
             },
             SZL: {
                 displayName: "Lilangeni i Suazilandës",
@@ -1362,7 +1362,7 @@ const data = {
                 "displayName-count-one": "batë tajlandeze",
                 "displayName-count-other": "bata tajlandeze",
                 symbol: "฿",
-                "symbol-alt-narrow": "฿"
+                "symbol-alt-narrow": "THB"
             },
             TJR: {
                 displayName: "TJR",
@@ -1395,7 +1395,7 @@ const data = {
                 "displayName-count-one": "pangë tongane",
                 "displayName-count-other": "panga tongane",
                 symbol: "TOP",
-                "symbol-alt-narrow": "T$"
+                "symbol-alt-narrow": "TOP"
             },
             TPE: {
                 displayName: "TPE",
@@ -1410,22 +1410,22 @@ const data = {
                 "displayName-count-one": "lirë turke",
                 "displayName-count-other": "lira turke",
                 symbol: "TRY",
-                "symbol-alt-narrow": "₺",
-                "symbol-alt-variant": "TL"
+                "symbol-alt-narrow": "TRY",
+                "symbol-alt-variant": "TRY"
             },
             TTD: {
                 displayName: "Dollari i Trinidadit dhe Tobagos",
                 "displayName-count-one": "dollar i Trinidadit dhe Tobagos",
                 "displayName-count-other": "dollarë të Trinidadit dhe Tobagos",
                 symbol: "TTD",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "TTD"
             },
             TWD: {
                 displayName: "Dollari tajvanez",
                 "displayName-count-one": "dollar tajvanez",
                 "displayName-count-other": "dollarë tajvanez",
                 symbol: "NT$",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "TWD"
             },
             TZS: {
                 displayName: "Shilinga e Tanzanisë",
@@ -1438,7 +1438,7 @@ const data = {
                 "displayName-count-one": "rivni ukrainase",
                 "displayName-count-other": "rivni ukrainase",
                 symbol: "UAH",
-                "symbol-alt-narrow": "₴"
+                "symbol-alt-narrow": "UAH"
             },
             UAK: {
                 displayName: "UAK",
@@ -1459,7 +1459,7 @@ const data = {
                 "displayName-count-one": "dollar amerikan",
                 "displayName-count-other": "dollarë amerikan",
                 symbol: "US$",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "USD"
             },
             USN: {
                 displayName: "USN",
@@ -1482,7 +1482,7 @@ const data = {
                 "displayName-count-one": "peso uruguaiane",
                 "displayName-count-other": "peso uruguaiane",
                 symbol: "UYU",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "UYU"
             },
             UYW: {
                 displayName: "UYW",
@@ -1516,7 +1516,7 @@ const data = {
                 "displayName-count-one": "dongë vietnameze",
                 "displayName-count-other": "donga vietnameze",
                 symbol: "₫",
-                "symbol-alt-narrow": "₫"
+                "symbol-alt-narrow": "VND"
             },
             VNN: {
                 displayName: "VNN",
@@ -1569,7 +1569,7 @@ const data = {
                 "displayName-count-one": "dollar i Karaibeve Lindore",
                 "displayName-count-other": "dollarë të Karaibeve Lindore",
                 symbol: "EC$",
-                "symbol-alt-narrow": "$"
+                "symbol-alt-narrow": "XCD"
             },
             XDR: {
                 displayName: "XDR",
@@ -1664,7 +1664,7 @@ const data = {
                 "displayName-count-one": "rand afrikano-jugor",
                 "displayName-count-other": "randë afrikano-jugor",
                 symbol: "ZAR",
-                "symbol-alt-narrow": "R"
+                "symbol-alt-narrow": "ZAR"
             },
             ZMK: {
                 displayName: "ZMK",
@@ -1675,7 +1675,7 @@ const data = {
                 "displayName-count-one": "kuaçë zambiku",
                 "displayName-count-other": "kuaça zambiku",
                 symbol: "ZMW",
-                "symbol-alt-narrow": "ZK"
+                "symbol-alt-narrow": "ZMW"
             },
             ZRN: {
                 displayName: "ZRN",

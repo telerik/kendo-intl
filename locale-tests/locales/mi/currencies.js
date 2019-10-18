@@ -205,7 +205,7 @@ const data = {
             },
             BRL: {
                 displayName: "Real Parahi",
-                "displayName-count-other": "Ngā real Parahi",
+                "displayName-count-other": "real Parahi",
                 symbol: "R$",
                 "symbol-alt-narrow": "R$"
             },
@@ -304,7 +304,7 @@ const data = {
             },
             CNY: {
                 displayName: "Yuan Haina",
-                "displayName-count-other": "Yuan Haina",
+                "displayName-count-other": "yuan Haina",
                 symbol: "CN¥",
                 "symbol-alt-narrow": "¥"
             },
@@ -423,7 +423,7 @@ const data = {
             },
             EUR: {
                 displayName: "Euro",
-                "displayName-count-other": "euros",
+                "displayName-count-other": "euro",
                 symbol: "€",
                 "symbol-alt-narrow": "€"
             },
@@ -447,7 +447,7 @@ const data = {
             },
             GBP: {
                 displayName: "Pāuna Piritene",
-                "displayName-count-other": "Ngā pāuna Piritene",
+                "displayName-count-other": "pāuna Piritene",
                 symbol: "£",
                 "symbol-alt-narrow": "£"
             },
@@ -566,8 +566,8 @@ const data = {
                 "symbol-alt-narrow": "₪"
             },
             INR: {
-                displayName: "Rupee Iniana",
-                "displayName-count-other": "Ngā rupee Iniana",
+                displayName: "Rupī Iniana",
+                "displayName-count-other": "rupī Iniana",
                 symbol: "₹",
                 "symbol-alt-narrow": "₹"
             },
@@ -604,7 +604,7 @@ const data = {
             },
             JPY: {
                 displayName: "Yen Hapanihi",
-                "displayName-count-other": "Yen Hapanihi",
+                "displayName-count-other": "yen Hapanihi",
                 symbol: "¥",
                 "symbol-alt-narrow": "¥"
             },
@@ -872,7 +872,7 @@ const data = {
             },
             NZD: {
                 displayName: "Tāra o Aotearoa",
-                "displayName-count-other": "Ngā tāra o Aotearoa",
+                "displayName-count-other": "tāra o Aotearoa",
                 symbol: "$",
                 "symbol-alt-narrow": "$"
             },
@@ -952,7 +952,7 @@ const data = {
             },
             RUB: {
                 displayName: "Rūpera Ruhiana",
-                "displayName-count-other": "Ngā rūpera Ruhiana",
+                "displayName-count-other": "rūpera Ruhiana",
                 symbol: "RUB",
                 "symbol-alt-narrow": "₽"
             },
@@ -1140,7 +1140,7 @@ const data = {
             },
             USD: {
                 displayName: "Tāra US",
-                "displayName-count-other": "Ngā tāra US",
+                "displayName-count-other": "tāra US",
                 symbol: "US$",
                 "symbol-alt-narrow": "$"
             },

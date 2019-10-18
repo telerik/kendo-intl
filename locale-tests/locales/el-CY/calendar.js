@@ -324,10 +324,10 @@ const data = {
                 wide: {
                     am: "π.μ.",
                     pm: "μ.μ.",
-                    morning1: "πρωί",
-                    afternoon1: "μεσημέρι",
-                    evening1: "απόγευμα",
-                    night1: "βράδυ"
+                    morning1: "το πρωί",
+                    afternoon1: "το μεσημέρι",
+                    evening1: "το απόγευμα",
+                    night1: "το βράδυ"
                 }
             },
             "stand-alone": {

@@ -173,13 +173,14 @@ describe('load calendar', () => {
 
     it('should set predefined patterns', () => {
         const patterns = cldr.bg.calendar.patterns;
+
         expect(patterns.d).toEqual("d.MM.y 'г'.");
         expect(patterns.D).toEqual("EEEE, d MMMM y 'г'.");
-        expect(patterns.F).toEqual("EEEE, d MMMM y 'г'. H:mm:ss 'ч'.");
-        expect(patterns.g).toEqual("d.MM.y 'г'. H:mm 'ч'.");
-        expect(patterns.G).toEqual("d.MM.y 'г'. H:mm:ss 'ч'.");
-        expect(patterns.t).toEqual("H:mm 'ч'.");
-        expect(patterns.T).toEqual("H:mm:ss 'ч'.");
+        expect(patterns.F).toEqual("EEEE, d MMMM y 'г'. H:mm:ss");
+        expect(patterns.g).toEqual("d.MM.y 'г'. H:mm");
+        expect(patterns.G).toEqual("d.MM.y 'г'. H:mm:ss");
+        expect(patterns.t).toEqual("H:mm");
+        expect(patterns.T).toEqual("H:mm:ss");
     });
 
     it('should set standard patterns', () => {

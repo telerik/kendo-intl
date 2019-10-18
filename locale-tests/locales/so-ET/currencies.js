@@ -195,7 +195,7 @@ const data = {
             BMD: {
                 displayName: "Doolarka Barmuuda",
                 "displayName-count-one": "doolarka Barmuuda",
-                "displayName-count-other": "doolarada Barmuuda",
+                "displayName-count-other": "Doolarka Barmuuda",
                 symbol: "BMD",
                 "symbol-alt-narrow": "$"
             },

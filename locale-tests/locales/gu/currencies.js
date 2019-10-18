@@ -143,8 +143,8 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             BDT: {
-                displayName: "બાંગલાદેશી ટાકા",
-                "displayName-count-one": "બાંગલાદેશી ટાકા",
+                displayName: "બાંગ્લાદેશી ટાકા",
+                "displayName-count-one": "બાંગ્લાદેશી ટાકા",
                 "displayName-count-other": "બાંગલાદેશી ટાકા",
                 symbol: "BDT",
                 "symbol-alt-narrow": "৳"

@@ -41,9 +41,9 @@ const data = {
                 symbol: "ALL"
             },
             AMD: {
-                displayName: "ਅਰਮੀਨੀਆਈ ਦਰਮ",
-                "displayName-count-one": "ਅਰਮੀਨੀਆਈ ਦਰਮ",
-                "displayName-count-other": "ਅਰਮੀਨੀਆਈ ਦਰਮ",
+                displayName: "ਅਰਮੀਨੀਆਈ ਦਰਾਮ",
+                "displayName-count-one": "ਅਰਮੀਨੀਆਈ ਦਰਾਮ",
+                "displayName-count-other": "ਅਰਮੀਨੀਆਈ ਦਰਾਮ",
                 symbol: "AMD"
             },
             ANG: {
@@ -730,9 +730,9 @@ const data = {
                 symbol: "ISJ"
             },
             ISK: {
-                displayName: "ਆਈਸਲੈਂਡਿਕ ਕਰੌਨ",
+                displayName: "ਆਈਸਲੈਂਡੀ ਕਰੋਨਾ",
                 "displayName-count-one": "ਆਈਸਲੈਂਡਿਕ ਕਰੌਨ",
-                "displayName-count-other": "ਆਈਸਲੈਂਡਿਕ ਕਰੌਨ",
+                "displayName-count-other": "ਆਈਸਲੈਂਡੀ ਕਰੋਨਾ",
                 symbol: "ISK",
                 "symbol-alt-narrow": "kr"
             },
@@ -895,9 +895,9 @@ const data = {
                 symbol: "LVR"
             },
             LYD: {
-                displayName: "ਲੀਬੀਅਨ ਦਿਨਾਰ",
-                "displayName-count-one": "ਲੀਬੀਅਨ ਦਿਨਾਰ",
-                "displayName-count-other": "ਲੀਬੀਅਨ ਦਿਨਾਰ",
+                displayName: "ਲੀਬੀਆਈ ਦਿਨਾਰ",
+                "displayName-count-one": "ਲੀਬੀਆਈ ਦਿਨਾਰ",
+                "displayName-count-other": "ਲੀਬੀਆਈ ਦਿਨਾਰ",
                 symbol: "LYD"
             },
             MAD: {

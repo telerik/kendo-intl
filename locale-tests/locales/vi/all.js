@@ -539,8 +539,8 @@ const data = {
                 symbol: "GEK"
             },
             GEL: {
-                displayName: "Lari Gruzia",
-                "displayName-count-other": "Lari Gruzia",
+                displayName: "Lari Georgia",
+                "displayName-count-other": "Lari Georgia",
                 symbol: "GEL",
                 "symbol-alt-narrow": "₾",
                 "symbol-alt-variant": "₾"
@@ -667,8 +667,8 @@ const data = {
                 "symbol-alt-narrow": "₹"
             },
             IQD: {
-                displayName: "Dinar I-rắc",
-                "displayName-count-other": "Dinar I-rắc",
+                displayName: "Dinar Iraq",
+                "displayName-count-other": "Dinar Iraq",
                 symbol: "IQD"
             },
             IRR: {
@@ -1032,8 +1032,8 @@ const data = {
                 symbol: "PES"
             },
             PGK: {
-                displayName: "Kina Papua New Guinean",
-                "displayName-count-other": "Kina Papua New Guinean",
+                displayName: "Kina Papua New Guinea",
+                "displayName-count-other": "Kina Papua New Guinea",
                 symbol: "PGK"
             },
             PHP: {
@@ -1289,7 +1289,7 @@ const data = {
                 symbol: "TZS"
             },
             UAH: {
-                displayName: "Hryvnia Ucraina",
+                displayName: "Hryvnia Ukraina",
                 "displayName-count-other": "Hryvnia Ucraina",
                 symbol: "UAH",
                 "symbol-alt-narrow": "₴"

@@ -272,10 +272,10 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "Q1",
-                    "Q2",
-                    "Q3",
-                    "Q4"
+                    "Çarêka 1em",
+                    "Çarêka 2em",
+                    "Çarêka 3em",
+                    "Çarêka 4em"
                 ]
             },
             "stand-alone": {
@@ -292,40 +292,40 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "Q1",
-                    "Q2",
-                    "Q3",
-                    "Q4"
+                    "Çarêka 1em",
+                    "Çarêka 2em",
+                    "Çarêka 3em",
+                    "Çarêka 4em"
                 ]
             }
         },
         dayPeriods: {
             format: {
                 abbreviated: {
-                    am: "AM",
-                    pm: "PM"
+                    am: "BN",
+                    pm: "PN"
                 },
                 narrow: {
-                    am: "AM",
-                    pm: "PM"
+                    am: "BN",
+                    pm: "PN"
                 },
                 wide: {
-                    am: "AM",
-                    pm: "PM"
+                    am: "BN",
+                    pm: "PN"
                 }
             },
             "stand-alone": {
                 abbreviated: {
-                    am: "AM",
-                    pm: "PM"
+                    am: "BN",
+                    pm: "PN"
                 },
                 narrow: {
-                    am: "AM",
-                    pm: "PM"
+                    am: "BN",
+                    pm: "PN"
                 },
                 wide: {
-                    am: "AM",
-                    pm: "PM"
+                    am: "BN",
+                    pm: "PN"
                 }
             }
         },
@@ -334,20 +334,20 @@ const data = {
                 wide: {
                     "0": "berî zayînê",
                     "1": "piştî zayînê",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "berî zayînê",
+                    "1-alt-variant": "piştî zayînê"
                 },
                 abbreviated: {
                     "0": "BZ",
                     "1": "PZ",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "BZ",
+                    "1-alt-variant": "PZ"
                 },
                 narrow: {
                     "0": "BZ",
                     "1": "PZ",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "BZ",
+                    "1-alt-variant": "PZ"
                 }
             }
         },
@@ -380,9 +380,9 @@ const data = {
                 narrow: "hf."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "hefteya mehê",
+                short: "hefteya mehê",
+                narrow: "hefteya mehê"
             },
             day: {
                 wide: "roj",
@@ -390,24 +390,24 @@ const data = {
                 narrow: "r."
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "roja salê",
+                short: "roja salê",
+                narrow: "roja salê"
             },
             weekday: {
-                wide: "Day of the Week",
-                short: "Day of the Week",
-                narrow: "Day of the Week"
+                wide: "roja hefteyê",
+                short: "roja hefteyê",
+                narrow: "roja hefteyê"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "roja mehê",
+                short: "roja mehê",
+                narrow: "roja mehê"
             },
             dayperiod: {
-                short: "Dayperiod",
-                wide: "Dayperiod",
-                narrow: "Dayperiod"
+                short: "BN/PN",
+                wide: "BN/PN",
+                narrow: "BN/PN"
             },
             hour: {
                 wide: "saet",
@@ -425,9 +425,9 @@ const data = {
                 narrow: "s."
             },
             zone: {
-                wide: "Zone",
-                short: "Zone",
-                narrow: "Zone"
+                wide: "qada demê",
+                short: "qad",
+                narrow: "qad"
             }
         }
     },

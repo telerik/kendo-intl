@@ -95,7 +95,7 @@ const data = {
                 symbol: "ALL"
             },
             AMD: {
-                displayName: "dram armenio",
+                displayName: "dram",
                 "displayName-count-one": "dram",
                 "displayName-count-other": "drams",
                 symbol: "AMD"
@@ -586,7 +586,7 @@ const data = {
                 "symbol-alt-narrow": "E£"
             },
             ERN: {
-                displayName: "nafka",
+                displayName: "nakfa",
                 "displayName-count-one": "nakfa",
                 "displayName-count-other": "nakfas",
                 symbol: "ERN"
@@ -1150,9 +1150,9 @@ const data = {
                 symbol: "MXV"
             },
             MYR: {
-                displayName: "ringgit malayo",
-                "displayName-count-one": "ringgit malayo",
-                "displayName-count-other": "ringgits malayos",
+                displayName: "ringit",
+                "displayName-count-one": "ringit",
+                "displayName-count-other": "ringits",
                 symbol: "MYR",
                 "symbol-alt-narrow": "RM"
             },
@@ -1650,9 +1650,9 @@ const data = {
                 symbol: "VEB"
             },
             VEF: {
-                displayName: "bolívar venezolano",
-                "displayName-count-one": "bolívar venezolano",
-                "displayName-count-other": "bolívares venezolanos",
+                displayName: "bolívar venezolano (2008–2018)",
+                "displayName-count-one": "bolívar venezolano (2008–2018)",
+                "displayName-count-other": "bolívares venezolanos (2008–2018)",
                 symbol: "Bs.",
                 "symbol-alt-narrow": "Bs."
             },
@@ -1687,9 +1687,9 @@ const data = {
                 symbol: "WST"
             },
             XAF: {
-                displayName: "franco CFA BEAC",
-                "displayName-count-one": "franco CFA BEAC",
-                "displayName-count-other": "francos CFA BEAC",
+                displayName: "franco CFA de África Central",
+                "displayName-count-one": "franco CFA de África Central",
+                "displayName-count-other": "francos CFA de África Central",
                 symbol: "XAF"
             },
             XAG: {
@@ -1758,9 +1758,9 @@ const data = {
                 symbol: "XFU"
             },
             XOF: {
-                displayName: "franco CFA BCEAO",
-                "displayName-count-one": "franco CFA BCEAO",
-                "displayName-count-other": "francos CFA BCEAO",
+                displayName: "franco CFA de África Occidental",
+                "displayName-count-one": "franco CFA de África Occidental",
+                "displayName-count-other": "francos CFA de África Occidental",
                 symbol: "XOF"
             },
             XPD: {
@@ -1895,8 +1895,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1}, {0}",
-            long: "{1}, {0}",
+            full: "{1} 'a' 'las' {0}",
+            long: "{1} 'a' 'las' {0}",
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {

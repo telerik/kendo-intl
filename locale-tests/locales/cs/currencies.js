@@ -1039,7 +1039,7 @@ const data = {
                 "displayName-count-one": "izraelský nový šekel",
                 "displayName-count-few": "izraelské nové šekely",
                 "displayName-count-many": "izraelského nového šekelu",
-                "displayName-count-other": "izraelských nový šekelů",
+                "displayName-count-other": "izraelských nových šekelů",
                 symbol: "ILS",
                 "symbol-alt-narrow": "₪"
             },

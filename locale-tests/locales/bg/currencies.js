@@ -570,7 +570,7 @@ const data = {
                 "displayName-count-one": "фолклендска лира",
                 "displayName-count-other": "фолклендски лири",
                 symbol: "FKP",
-                "symbol-alt-narrow": "£"
+                "symbol-alt-narrow": "FKP"
             },
             FRF: {
                 displayName: "Френски франк",
@@ -1276,9 +1276,9 @@ const data = {
                 "symbol-alt-narrow": "RF"
             },
             SAR: {
-                displayName: "Саудитскоарабски риал",
-                "displayName-count-one": "саудитскоарабски риал",
-                "displayName-count-other": "саудитскоарабски риала",
+                displayName: "саудитски риал",
+                "displayName-count-one": "саудитски риал",
+                "displayName-count-other": "саудитски риала",
                 symbol: "SAR"
             },
             SBD: {
@@ -1672,9 +1672,9 @@ const data = {
                 symbol: "XPD"
             },
             XPF: {
-                displayName: "Френскополинезийски франк",
-                "displayName-count-one": "френскополинезийски франк",
-                "displayName-count-other": "френскополинезийски франка",
+                displayName: "CFP франк",
+                "displayName-count-one": "CFP франк",
+                "displayName-count-other": "CFP франка",
                 symbol: "CFPF"
             },
             XPT: {

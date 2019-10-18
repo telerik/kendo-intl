@@ -402,9 +402,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             CNH: {
-                displayName: "CNH",
-                "displayName-count-one": "CNH",
-                "displayName-count-other": "CNH",
+                displayName: "சீன யுவான் (ஆஃப்ஷோர்)",
+                "displayName-count-one": "சீன யுவான் (ஆஃப்ஷோர்)",
+                "displayName-count-other": "சீன யுவான் (ஆஃப்ஷோர்)",
                 symbol: "CNH"
             },
             CNX: {

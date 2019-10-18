@@ -384,13 +384,13 @@ const data = {
                 abbreviated: {
                     "0": "до н. э.",
                     "1": "н. э.",
-                    "0-alt-variant": "BCE",
+                    "0-alt-variant": "до н. э.",
                     "1-alt-variant": "н. э."
                 },
                 narrow: {
                     "0": "до н.э.",
                     "1": "н.э.",
-                    "0-alt-variant": "BCE",
+                    "0-alt-variant": "до н. э.",
                     "1-alt-variant": "н. э."
                 }
             }

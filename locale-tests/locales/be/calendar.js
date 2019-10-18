@@ -347,14 +347,14 @@ const data = {
                 abbreviated: {
                     "0": "да н.э.",
                     "1": "н.э.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "да н.э.",
+                    "1-alt-variant": "н.э."
                 },
                 narrow: {
                     "0": "да н.э.",
                     "1": "н.э.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "да н.э.",
+                    "1-alt-variant": "н.э."
                 }
             }
         },

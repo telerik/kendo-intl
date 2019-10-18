@@ -103,13 +103,13 @@ const data = {
         days: {
             format: {
                 abbreviated: [
-                    "ned.",
-                    "pon.",
-                    "ut.",
-                    "sr.",
-                    "čet.",
-                    "pet.",
-                    "sub."
+                    "ned",
+                    "pon",
+                    "uto",
+                    "sre",
+                    "čet",
+                    "pet",
+                    "sub"
                 ],
                 narrow: [
                     "n",
@@ -141,13 +141,13 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "ned.",
-                    "pon.",
-                    "ut.",
-                    "sr.",
-                    "čet.",
-                    "pet.",
-                    "sub."
+                    "ned",
+                    "pon",
+                    "uto",
+                    "sre",
+                    "čet",
+                    "pet",
+                    "sub"
                 ],
                 narrow: [
                     "n",
@@ -181,18 +181,18 @@ const data = {
         months: {
             format: {
                 abbreviated: [
-                    "jan.",
-                    "feb.",
+                    "jan",
+                    "feb",
                     "mart",
-                    "apr.",
+                    "apr",
                     "maj",
                     "jun",
                     "jul",
-                    "avg.",
-                    "sept.",
-                    "okt.",
-                    "nov.",
-                    "dec."
+                    "avg",
+                    "sept",
+                    "okt",
+                    "nov",
+                    "dec"
                 ],
                 narrow: [
                     "j",
@@ -225,18 +225,18 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "jan.",
-                    "feb.",
+                    "jan",
+                    "feb",
                     "mart",
-                    "apr.",
+                    "apr",
                     "maj",
                     "jun",
                     "jul",
-                    "avg.",
-                    "sept.",
-                    "okt.",
-                    "nov.",
-                    "dec."
+                    "avg",
+                    "sept",
+                    "okt",
+                    "nov",
+                    "dec"
                 ],
                 narrow: [
                     "j",
@@ -381,20 +381,20 @@ const data = {
                 wide: {
                     "0": "pre nove ere",
                     "1": "nove ere",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "p. n. e.",
+                    "1-alt-variant": "n. e."
                 },
                 abbreviated: {
                     "0": "p. n. e.",
                     "1": "n. e.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "p. n. e.",
+                    "1-alt-variant": "n. e."
                 },
                 narrow: {
                     "0": "p.n.e.",
                     "1": "n.e.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "p. n. e.",
+                    "1-alt-variant": "n. e."
                 }
             }
         },

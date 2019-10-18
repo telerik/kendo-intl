@@ -63,7 +63,7 @@ const data = {
                 MMMEd: "E d MMM",
                 MMMMd: "d MMMM",
                 MMMMEd: "E d MMMM",
-                "MMMMW-count-other": "'week' W 'of' MMMM",
+                "MMMMW-count-other": "'uike' 'hono' W ʻ'o' MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M/y",
@@ -76,7 +76,7 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "y QQQ",
                 yQQQQ: "y QQQQ",
-                "yw-count-other": "'week' w 'of' Y"
+                "yw-count-other": "'uike' 'hono' w ʻ'o' Y"
             }
         },
         timeFormats: {

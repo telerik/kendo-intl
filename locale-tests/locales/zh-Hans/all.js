@@ -406,13 +406,14 @@ const data = {
                 symbol: "CNH"
             },
             CNX: {
-                displayName: "CNX",
+                displayName: "中国人民银行元",
+                "displayName-count-other": "中国人民银行元",
                 symbol: "CNX"
             },
             CNY: {
                 displayName: "人民币",
                 "displayName-count-other": "人民币",
-                symbol: "￥",
+                symbol: "¥",
                 "symbol-alt-narrow": "¥"
             },
             COP: {

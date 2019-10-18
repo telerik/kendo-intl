@@ -854,7 +854,7 @@ const data = {
                 displayName: "ien japonès",
                 "displayName-count-one": "ien japonès",
                 "displayName-count-other": "iens japonesos",
-                symbol: "JP¥",
+                symbol: "¥",
                 "symbol-alt-narrow": "¥"
             },
             KES: {
@@ -1495,9 +1495,9 @@ const data = {
                 symbol: "SVC"
             },
             SYP: {
-                displayName: "lliura síria",
-                "displayName-count-one": "lliura síria",
-                "displayName-count-other": "lliures síries",
+                displayName: "lliura siriana",
+                "displayName-count-one": "lliura siriana",
+                "displayName-count-other": "lliures sirianes",
                 symbol: "SYP",
                 "symbol-alt-narrow": "£"
             },

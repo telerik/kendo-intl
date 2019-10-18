@@ -1155,7 +1155,7 @@ const data = {
             NIO: {
                 displayName: "Nicaragua kordoba",
                 "displayName-count-one": "Nicaragua kordoba",
-                "displayName-count-other": "Nicaragua kordobad",
+                "displayName-count-other": "Nicaragua kordobat",
                 symbol: "NIO",
                 "symbol-alt-narrow": "C$"
             },

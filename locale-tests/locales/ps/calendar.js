@@ -60,9 +60,9 @@ const data = {
                 MEd: "MM-dd, E",
                 MMM: "LLL",
                 MMMd: "MMM d",
-                MMMEd: "MMM d, E",
+                MMMEd: "E, MMM d",
                 MMMMd: "MMMM d",
-                "MMMMW-count-one": "اونۍ W د MMMM",
+                "MMMMW-count-one": "اونۍ‘ W د MMMM‘",
                 "MMMMW-count-other": "اونۍ W د MMMM",
                 ms: "mm:ss",
                 y: "y",
@@ -179,7 +179,7 @@ const data = {
                     "مۍ",
                     "جون",
                     "جولای",
-                    "اگست",
+                    "اګست",
                     "سېپتمبر",
                     "اکتوبر",
                     "نومبر",
@@ -207,7 +207,7 @@ const data = {
                     "مۍ",
                     "جون",
                     "جولای",
-                    "اگست",
+                    "اګست",
                     "سېپتمبر",
                     "اکتوبر",
                     "نومبر",
@@ -223,7 +223,7 @@ const data = {
                     "مۍ",
                     "جون",
                     "جولای",
-                    "اگست",
+                    "اګست",
                     "سپتمبر",
                     "اکتوبر",
                     "نومبر",
@@ -251,7 +251,7 @@ const data = {
                     "مۍ",
                     "جون",
                     "جولای",
-                    "اگست",
+                    "اګست",
                     "سپتمبر",
                     "اکتوبر",
                     "نومبر",
@@ -337,7 +337,7 @@ const data = {
                     "0": "له میلاد څخه وړاندې",
                     "1": "له میلاد څخه وروسته",
                     "0-alt-variant": "له عام پېر دمخه",
-                    "1-alt-variant": "CE"
+                    "1-alt-variant": "عام پېر"
                 },
                 abbreviated: {
                     "0": "له میلاد وړاندې",
@@ -367,9 +367,9 @@ const data = {
                 narrow: "کال"
             },
             quarter: {
-                wide: "Quarter",
-                short: "Quarter",
-                narrow: "Quarter"
+                wide: "څلورمه برخه",
+                short: "څلورمه برخه",
+                narrow: "څلورمه برخه"
             },
             month: {
                 wide: "مياشت",

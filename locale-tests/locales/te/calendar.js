@@ -451,7 +451,7 @@ const data = {
             minute: {
                 wide: "నిమిషము",
                 short: "నిమి.",
-                narrow: "ని"
+                narrow: "నిమి."
             },
             second: {
                 wide: "సెకను",

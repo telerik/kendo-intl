@@ -398,8 +398,8 @@ const data = {
                 symbol: "EEK"
             },
             EGP: {
-                displayName: "Libra ejipsiu",
-                "displayName-count-other": "Libra ejipsiu",
+                displayName: "Libra ejípsiu",
+                "displayName-count-other": "Libra ejípsiu",
                 symbol: "EGP",
                 "symbol-alt-narrow": "E£"
             },
@@ -422,8 +422,8 @@ const data = {
                 "symbol-alt-narrow": "₧"
             },
             ETB: {
-                displayName: "Bir etiopi",
-                "displayName-count-other": "Bir etiopi",
+                displayName: "Bir etiópiku",
+                "displayName-count-other": "Bir etiópiku",
                 symbol: "ETB"
             },
             EUR: {
@@ -451,8 +451,8 @@ const data = {
                 symbol: "FRF"
             },
             GBP: {
-                displayName: "Libra britaniku",
-                "displayName-count-other": "Libra britaniku",
+                displayName: "Libra britániku",
+                "displayName-count-other": "Libra britániku",
                 symbol: "£",
                 "symbol-alt-narrow": "£"
             },
@@ -721,8 +721,8 @@ const data = {
                 symbol: "LVR"
             },
             LYD: {
-                displayName: "Dinar libiu",
-                "displayName-count-other": "Dinar libiu",
+                displayName: "Dinar líbiu",
+                "displayName-count-other": "Dinar líbiu",
                 symbol: "LYD"
             },
             MAD: {
@@ -1065,8 +1065,8 @@ const data = {
                 symbol: "STD"
             },
             STN: {
-                displayName: "Dobra di Sãu Tume i Prínsipi",
-                "displayName-count-other": "Dobra di Sãu Tume i Prinsipi",
+                displayName: "Dobra di San Tume i Prínsipi",
+                "displayName-count-other": "Dobra di San Tume i Prinsipi",
                 symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },

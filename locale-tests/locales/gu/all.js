@@ -199,8 +199,8 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             BDT: {
-                displayName: "બાંગલાદેશી ટાકા",
-                "displayName-count-one": "બાંગલાદેશી ટાકા",
+                displayName: "બાંગ્લાદેશી ટાકા",
+                "displayName-count-one": "બાંગ્લાદેશી ટાકા",
                 "displayName-count-other": "બાંગલાદેશી ટાકા",
                 symbol: "BDT",
                 "symbol-alt-narrow": "৳"
@@ -1760,8 +1760,8 @@ const data = {
                 MMMd: "d MMM",
                 MMMEd: "E, d MMM",
                 MMMMd: "d MMMM",
-                "MMMMW-count-one": "MMMM ના W અઠવાડિયા",
-                "MMMMW-count-other": "MMMM ના W અઠવાડિયા",
+                "MMMMW-count-one": "MMMMના W અઠવાડિયા",
+                "MMMMW-count-other": "MMMMના W અઠવાડિયા",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M/y",

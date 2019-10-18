@@ -25,8 +25,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1}, {0}",
-            long: "{1}, {0}",
+            full: "{1} 'a' 'las' {0}",
+            long: "{1} 'a' 'las' {0}",
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
@@ -275,30 +275,30 @@ const data = {
         quarters: {
             format: {
                 abbreviated: [
-                    "1er. trim.",
-                    "2º. trim.",
-                    "3er. trim.",
-                    "4º trim."
+                    "T1",
+                    "T2",
+                    "T3",
+                    "T4"
                 ],
                 narrow: [
-                    "1T",
-                    "2T",
-                    "3T",
-                    "4T"
+                    "1",
+                    "2",
+                    "3",
+                    "4"
                 ],
                 wide: [
                     "1.er trimestre",
-                    "2º. trimestre",
+                    "2.º trimestre",
                     "3.er trimestre",
-                    "4o. trimestre"
+                    "4.º trimestre"
                 ]
             },
             "stand-alone": {
                 abbreviated: [
-                    "1er. trim.",
-                    "2º. trim.",
-                    "3er. trim.",
-                    "4º trim."
+                    "T1",
+                    "T2",
+                    "T3",
+                    "T4"
                 ],
                 narrow: [
                     "1T",
@@ -308,9 +308,9 @@ const data = {
                 ],
                 wide: [
                     "1.er trimestre",
-                    "2º. trimestre",
+                    "2.º trimestre",
                     "3.er trimestre",
-                    "4º trimestre"
+                    "4.º trimestre"
                 ]
             }
         },

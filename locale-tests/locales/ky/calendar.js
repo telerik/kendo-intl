@@ -373,19 +373,19 @@ const data = {
                     "0": "биздин заманга чейин",
                     "1": "биздин заман",
                     "0-alt-variant": "б.з.ч.",
-                    "1-alt-variant": "CE"
+                    "1-alt-variant": "б.з."
                 },
                 abbreviated: {
                     "0": "б.з.ч.",
                     "1": "б.з.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "б.з.ч.",
+                    "1-alt-variant": "б.з."
                 },
                 narrow: {
                     "0": "б.з.ч.",
                     "1": "б.з.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "б.з.ч.",
+                    "1-alt-variant": "б.з."
                 }
             }
         },

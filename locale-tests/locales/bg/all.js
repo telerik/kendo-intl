@@ -622,7 +622,7 @@ const data = {
                 "displayName-count-one": "фолклендска лира",
                 "displayName-count-other": "фолклендски лири",
                 symbol: "FKP",
-                "symbol-alt-narrow": "£"
+                "symbol-alt-narrow": "FKP"
             },
             FRF: {
                 displayName: "Френски франк",
@@ -1328,9 +1328,9 @@ const data = {
                 "symbol-alt-narrow": "RF"
             },
             SAR: {
-                displayName: "Саудитскоарабски риал",
-                "displayName-count-one": "саудитскоарабски риал",
-                "displayName-count-other": "саудитскоарабски риала",
+                displayName: "саудитски риал",
+                "displayName-count-one": "саудитски риал",
+                "displayName-count-other": "саудитски риала",
                 symbol: "SAR"
             },
             SBD: {
@@ -1724,9 +1724,9 @@ const data = {
                 symbol: "XPD"
             },
             XPF: {
-                displayName: "Френскополинезийски франк",
-                "displayName-count-one": "френскополинезийски франк",
-                "displayName-count-other": "френскополинезийски франка",
+                displayName: "CFP франк",
+                "displayName-count-one": "CFP франк",
+                "displayName-count-other": "CFP франка",
                 symbol: "CFPF"
             },
             XPT: {
@@ -1852,11 +1852,11 @@ const data = {
             M: "d MMMM",
             y: "MM.y 'г'.",
             Y: "MMMM y 'г'.",
-            F: "EEEE, d MMMM y 'г'. H:mm:ss 'ч'.",
-            g: "d.MM.y 'г'. H:mm 'ч'.",
-            G: "d.MM.y 'г'. H:mm:ss 'ч'.",
-            t: "H:mm 'ч'.",
-            T: "H:mm:ss 'ч'.",
+            F: "EEEE, d MMMM y 'г'. H:mm:ss",
+            g: "d.MM.y 'г'. H:mm",
+            G: "d.MM.y 'г'. H:mm:ss",
+            t: "H:mm",
+            T: "H:mm:ss",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
@@ -1866,18 +1866,18 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
-                Bh: "h 'ч'. B",
-                Bhm: "h:mm 'ч'. B",
-                Bhms: "h:mm:ss 'ч'. B",
+                Bh: "h B",
+                Bhm: "h:mm B",
+                Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
-                EBhm: "E, h:mm 'ч'. B",
-                EBhms: "E, h:mm:ss 'ч'. B",
+                EBhm: "E, h:mm B",
+                EBhms: "E, h:mm:ss B",
                 Ed: "E, d",
-                Ehm: "E, h:mm 'ч'. a",
-                EHm: "E, HH:mm 'ч'.",
-                Ehms: "E, h:mm:ss 'ч'. a",
-                EHms: "E, H:mm:ss 'ч'.",
+                Ehm: "E, h:mm a",
+                EHm: "E, HH:mm",
+                Ehms: "E, h:mm:ss a",
+                EHms: "E, H:mm:ss",
                 Gy: "y 'г'. G",
                 GyMMM: "MM.y 'г'. G",
                 GyMMMd: "d.MM.y 'г'. G",
@@ -1885,16 +1885,16 @@ const data = {
                 GyMMMM: "MMMM y 'г'. G",
                 GyMMMMd: "d MMMM y 'г'. G",
                 GyMMMMEd: "E, d MMMM y 'г'. G",
-                h: "h 'ч'. a",
-                H: "H 'ч'.",
-                hm: "h:mm 'ч'. a",
-                Hm: "H:mm 'ч'.",
-                hms: "h:mm:ss 'ч'. a",
-                Hms: "H:mm:ss 'ч'.",
-                hmsv: "h:mm:ss 'ч'. a v",
-                Hmsv: "HH:mm:ss 'ч'. v",
-                hmv: "h:mm 'ч'. a v",
-                Hmv: "HH:mm 'ч'. v",
+                h: "h a",
+                H: "H",
+                hm: "h:mm a",
+                Hm: "H:mm",
+                hms: "h:mm:ss a",
+                Hms: "H:mm:ss",
+                hmsv: "h:mm:ss a v",
+                Hmsv: "HH:mm:ss v",
+                hmv: "h:mm a v",
+                Hmv: "HH:mm v",
                 M: "L",
                 Md: "d.MM",
                 MEd: "E, d.MM",
@@ -1925,10 +1925,10 @@ const data = {
             }
         },
         timeFormats: {
-            full: "H:mm:ss 'ч'. zzzz",
-            long: "H:mm:ss 'ч'. z",
-            medium: "H:mm:ss 'ч'.",
-            short: "H:mm 'ч'."
+            full: "H:mm:ss zzzz",
+            long: "H:mm:ss z",
+            medium: "H:mm:ss",
+            short: "H:mm"
         },
         dateFormats: {
             full: "EEEE, d MMMM y 'г'.",

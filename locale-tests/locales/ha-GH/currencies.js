@@ -438,7 +438,7 @@ const data = {
             GBP: {
                 displayName: "Fam na Ingila",
                 "displayName-count-one": "Fam na Ingila",
-                "displayName-count-other": "Faman na Ingila",
+                "displayName-count-other": "Fam na Ingila",
                 symbol: "£",
                 "symbol-alt-narrow": "£"
             },
@@ -827,7 +827,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             NGN: {
-                displayName: "Naira",
+                displayName: "Nairar Najeriya",
+                "displayName-count-one": "Nairar Najeriya",
+                "displayName-count-other": "Nairorin Najeriya",
                 symbol: "₦",
                 "symbol-alt-narrow": "₦"
             },

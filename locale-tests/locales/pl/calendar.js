@@ -66,10 +66,10 @@ const data = {
                 MMMEd: "E, d MMM",
                 MMMMd: "d MMMM",
                 MMMMEd: "E, d MMMM",
-                "MMMMW-count-one": "MMMM, 'tydz'. W",
-                "MMMMW-count-few": "MMMM, 'tydz'. W",
-                "MMMMW-count-many": "MMMM, 'tydz'. W",
-                "MMMMW-count-other": "MMMM, 'tydz'. W",
+                "MMMMW-count-one": "LLLL, 'tydz'. W",
+                "MMMMW-count-few": "LLLL, 'tydz'. W",
+                "MMMMW-count-many": "LLLL, 'tydz'. W",
+                "MMMMW-count-other": "LLLL, 'tydz'. W",
                 ms: "mm:ss",
                 y: "y",
                 yM: "MM.y",
@@ -440,8 +440,8 @@ const data = {
             },
             day: {
                 wide: "dzień",
-                short: "dzień",
-                narrow: "dzień"
+                short: "dz.",
+                narrow: "d."
             },
             dayOfYear: {
                 wide: "dzień roku",
@@ -451,12 +451,12 @@ const data = {
             weekday: {
                 wide: "dzień tygodnia",
                 short: "dzień tyg.",
-                narrow: "dzień tyg."
+                narrow: "dz. tyg."
             },
             weekdayOfMonth: {
                 wide: "dzień miesiąca",
                 short: "dzień mies.",
-                narrow: "dzień mies."
+                narrow: "dz. mies."
             },
             dayperiod: {
                 short: "rano / po południu / wieczorem",

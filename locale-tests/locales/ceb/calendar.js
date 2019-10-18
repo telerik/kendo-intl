@@ -62,7 +62,8 @@ const data = {
                 MMMd: "MMM d",
                 MMMEd: "E, MMM d",
                 MMMMd: "MMMM d",
-                "MMMMW-count-other": "'week' W 'of' MMMM",
+                "MMMMW-count-one": "'semana' W 'sa' MMMM",
+                "MMMMW-count-other": "'semana' W 'sa' MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M/y",
@@ -74,7 +75,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-other": "'week' w 'of' Y"
+                "yw-count-one": "'semana' w 'sa' Y",
+                "yw-count-other": "'semana' w 'sa' Y"
             }
         },
         timeFormats: {
@@ -113,10 +115,10 @@ const data = {
                     "Dom",
                     "Lun",
                     "Mar",
-                    "Mks",
-                    "Hu",
-                    "Bi",
-                    "Sa"
+                    "Miy",
+                    "Huw",
+                    "Biy",
+                    "Sab"
                 ],
                 wide: [
                     "Domingo",
@@ -151,10 +153,10 @@ const data = {
                     "Dom",
                     "Lun",
                     "Mar",
-                    "Mks",
-                    "Hu",
-                    "Bi",
-                    "Sa"
+                    "Miy",
+                    "Huw",
+                    "Biy",
+                    "Sab"
                 ],
                 wide: [
                     "Domingo",
@@ -201,7 +203,7 @@ const data = {
                     "Enero",
                     "Pebrero",
                     "Marso",
-                    "April",
+                    "Abril",
                     "Mayo",
                     "Hunyo",
                     "Hulyo",
@@ -245,7 +247,7 @@ const data = {
                     "Enero",
                     "Pebrero",
                     "Marso",
-                    "April",
+                    "Abril",
                     "Mayo",
                     "Hunyo",
                     "Hulyo",
@@ -272,10 +274,10 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "Una sa matag-tulo ka bulan",
-                    "Ikaduha sa matag-tulo ka bulan",
-                    "Ikatulo sa matag-tulo ka bulan",
-                    "Ikaupat sa matag-tulo ka bulan"
+                    "unang quarter",
+                    "ika-2 nga quarter",
+                    "ika-3 nga quarter",
+                    "ika-4 nga quarter"
                 ]
             },
             "stand-alone": {
@@ -292,10 +294,10 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "Una sa matag-tulo ka bulan",
-                    "Ikaduha sa matag-tulo ka bulan",
-                    "Ikatulo sa matag-tulo ka bulan",
-                    "Ikaupat sa matag-tulo ka bulan"
+                    "unang quarter",
+                    "ika-2 nga quarter",
+                    "ika-3 nga quarter",
+                    "ika-4 nga quarter"
                 ]
             }
         },
@@ -306,8 +308,8 @@ const data = {
                     pm: "PM"
                 },
                 narrow: {
-                    am: "AM",
-                    pm: "PM"
+                    am: "a",
+                    pm: "p"
                 },
                 wide: {
                     am: "AM",
@@ -334,8 +336,8 @@ const data = {
                 wide: {
                     "0": "WK",
                     "1": "KP",
-                    "0-alt-variant": "WKP",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "Sa Wala Pa ang Common Era",
+                    "1-alt-variant": "Common Era"
                 },
                 abbreviated: {
                     "0": "WK",
@@ -355,9 +357,9 @@ const data = {
         gmtZeroFormat: "GMT",
         dateFields: {
             era: {
-                wide: "Panahon",
-                short: "Panahon",
-                narrow: "Panahon"
+                wide: "era",
+                short: "era",
+                narrow: "era"
             },
             year: {
                 wide: "tuig",
@@ -365,19 +367,19 @@ const data = {
                 narrow: "tuig"
             },
             quarter: {
-                wide: "Ikaupat",
-                short: "Ikaupat",
-                narrow: "Ikaupat"
+                wide: "quarter",
+                short: "qtr.",
+                narrow: "qtr."
             },
             month: {
-                wide: "Bulan",
-                short: "Bulan",
-                narrow: "Bulan"
+                wide: "buwan",
+                short: "buwan",
+                narrow: "buwan"
             },
             week: {
-                wide: "Semana",
-                short: "Semana",
-                narrow: "Semana"
+                wide: "semana",
+                short: "semana",
+                narrow: "semana"
             },
             weekOfMonth: {
                 wide: "Week Of Month",
@@ -385,9 +387,9 @@ const data = {
                 narrow: "Week Of Month"
             },
             day: {
-                wide: "Adlaw",
-                short: "Adlaw",
-                narrow: "Adlaw"
+                wide: "adlaw",
+                short: "adlaw",
+                narrow: "adlaw"
             },
             dayOfYear: {
                 wide: "Day Of Year",
@@ -395,9 +397,9 @@ const data = {
                 narrow: "Day Of Year"
             },
             weekday: {
-                wide: "Adlaw sa Semana",
-                short: "Adlaw sa Semana",
-                narrow: "Adlaw sa Semana"
+                wide: "adlaw sa semana",
+                short: "adlaw sa semana",
+                narrow: "adlaw sa semana"
             },
             weekdayOfMonth: {
                 wide: "Weekday Of Month",
@@ -410,24 +412,24 @@ const data = {
                 narrow: "AM/PM"
             },
             hour: {
-                wide: "Oras",
-                short: "Oras",
-                narrow: "Oras"
+                wide: "oras",
+                short: "oras",
+                narrow: "oras"
             },
             minute: {
-                wide: "Minuto",
-                short: "Minuto",
-                narrow: "Minuto"
+                wide: "minuto",
+                short: "minuto",
+                narrow: "minuto"
             },
             second: {
-                wide: "Segundo",
-                short: "Segundo",
-                narrow: "Segundo"
+                wide: "segundo",
+                short: "segundo",
+                narrow: "segundo"
             },
             zone: {
-                wide: "Sona sa Panahon",
-                short: "Sona sa Panahon",
-                narrow: "Sona sa Panahon"
+                wide: "time zone",
+                short: "time zone",
+                narrow: "time zone"
             }
         }
     },

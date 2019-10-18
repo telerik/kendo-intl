@@ -2295,8 +2295,8 @@ const data = {
                 },
                 narrow: {
                     midnight: "Mitternacht",
-                    am: "a",
-                    pm: "p",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "morgens",
                     morning2: "vorm.",
                     afternoon1: "mittags",

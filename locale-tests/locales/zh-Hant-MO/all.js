@@ -1708,7 +1708,7 @@ const data = {
                 E: "ccc",
                 EBhm: "E Bh:mm",
                 EBhms: "E Bh:mm:ss",
-                Ed: "d日E",
+                Ed: "d E",
                 Ehm: "E ah:mm",
                 EHm: "E HH:mm",
                 Ehms: "E ah:mm:ss",

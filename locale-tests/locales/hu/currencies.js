@@ -312,6 +312,8 @@ const data = {
             },
             BUK: {
                 displayName: "Burmai kyat",
+                "displayName-count-one": "burmai kjap",
+                "displayName-count-other": "burmai kjap",
                 symbol: "BUK"
             },
             BWP: {
@@ -326,9 +328,9 @@ const data = {
                 symbol: "BYB"
             },
             BYN: {
-                displayName: "fehérorosz rubel",
-                "displayName-count-one": "fehérorosz rubel",
-                "displayName-count-other": "fehérorosz rubel",
+                displayName: "belarusz rubel",
+                "displayName-count-one": "belarusz rubel",
+                "displayName-count-other": "belarusz rubel",
                 symbol: "BYN",
                 "symbol-alt-narrow": "р."
             },
@@ -1354,9 +1356,9 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             SZL: {
-                displayName: "szváziföldi lilangeni",
-                "displayName-count-one": "szváziföldi lilangeni",
-                "displayName-count-other": "szváziföldi lilangeni",
+                displayName: "szvázi lilangeni",
+                "displayName-count-one": "szvázi lilangeni",
+                "displayName-count-other": "szvázi lilangeni",
                 symbol: "SZL"
             },
             THB: {
@@ -1403,6 +1405,8 @@ const data = {
             },
             TPE: {
                 displayName: "Timori escudo",
+                "displayName-count-one": "timori escudo",
+                "displayName-count-other": "timori escudo",
                 symbol: "TPE"
             },
             TRL: {
@@ -1526,14 +1530,16 @@ const data = {
                 symbol: "VES"
             },
             VND: {
-                displayName: "vietnami dong",
-                "displayName-count-one": "vietnami dong",
-                "displayName-count-other": "vietnami dong",
+                displayName: "vietnámi dong",
+                "displayName-count-one": "vietnámi dong",
+                "displayName-count-other": "vietnámi dong",
                 symbol: "VND",
                 "symbol-alt-narrow": "₫"
             },
             VNN: {
-                displayName: "VNN",
+                displayName: "vietnámi dong (1978–1985)",
+                "displayName-count-one": "vietnámi dong (1978–1985)",
+                "displayName-count-other": "vietnámi dong (1978–1985)",
                 symbol: "VNN"
             },
             VUV: {

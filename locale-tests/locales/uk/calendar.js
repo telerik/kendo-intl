@@ -383,14 +383,14 @@ const data = {
                 abbreviated: {
                     "0": "до н. е.",
                     "1": "н. е.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "до н. е.",
+                    "1-alt-variant": "н. е."
                 },
                 narrow: {
                     "0": "до н.е.",
                     "1": "н.е.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "до н. е.",
+                    "1-alt-variant": "н. е."
                 }
             }
         },
@@ -410,7 +410,7 @@ const data = {
             quarter: {
                 wide: "квартал",
                 short: "кв.",
-                narrow: "кв."
+                narrow: "кв"
             },
             month: {
                 wide: "місяць",

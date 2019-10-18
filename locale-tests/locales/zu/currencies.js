@@ -1402,7 +1402,7 @@ const data = {
                 displayName: "i-US Dollar",
                 "displayName-count-one": "i-US Dollar",
                 "displayName-count-other": "i-US Dollar",
-                symbol: "US$",
+                symbol: "$",
                 "symbol-alt-narrow": "$"
             },
             USN: {
