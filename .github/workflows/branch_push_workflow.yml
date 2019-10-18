@@ -31,4 +31,5 @@ jobs:
         npm run test
         npm run locale-tests
     - name: Release
+      run: |
         npm run semantic-release
