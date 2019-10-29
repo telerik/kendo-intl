@@ -33,7 +33,7 @@ jobs:
     - name: Release
       if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/develop'
       env:
-        GITHUB_ACTION=true
+        GITHUB_ACTION: true
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       run: |
