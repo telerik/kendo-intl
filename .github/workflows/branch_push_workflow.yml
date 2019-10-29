@@ -33,10 +33,10 @@ jobs:
     - name: Release
       if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/develop'
       env:
-        TRAVIS: true
+        GITHUB_ACTION: true
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
         NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       run: |
         git reset --hard HEAD
         git checkout "${GITHUB_REF:11}"
-        GITHUB_ACTION=true npm run semantic-release
+        npm run semantic-release
