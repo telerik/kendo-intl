@@ -31,5 +31,12 @@ jobs:
         npm run test
         npm run locale-tests
     - name: Release
+      if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/develop'
+      env:
+        TRAVIS: true
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       run: |
-        npm run semantic-release
+        git reset --hard HEAD
+        git checkout "${GITHUB_REF:11}"
+        GITHUB_ACTION=true npm run semantic-release
