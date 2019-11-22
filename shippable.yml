@@ -10,7 +10,7 @@ env:
 build:
   # http://docs.shippable.com/ci/shippableyml/#ci
   ci:
-    - npm install --no-audit --ignore-scripts
+    - npm install --no-audit
     - npm run lint
     - npm run test
     - npm run locale-tests
