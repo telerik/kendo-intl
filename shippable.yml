@@ -1,0 +1,41 @@
+language: node_js
+
+node_js:
+  - 10
+
+env:
+  global:
+    - PATH=$PATH:./node_modules/.bin
+    - secure: IU0V0Y57y7dTRnA+Ea/LC7Efx/zznulLsl4qWoH1etm8/l3JzZCiJlXJ8wJk1i6X0gzGLWlkO+710DJyWuajchUP0IfD77LwFVKCazybSnn3tS2r2o/EgUB+iysI1yPyAKomqsFixtVyv+qwGdCjwnmE8NxSC3iSZ1FhBc0/w5dtz5e6ateOHgkcoREl1K87al9UsTljcRQph1LMgkQqv4LlVxDQ9TqpgMRO0nThfgZybvs1MYmI9n/1QzlmOQGHCvsyiY/eUmXy/Dn8LBqRs/fYaOTyqMUEmMCB80TRtgasF702boAHrPkfjbmjD5Ca1uKMYzpMqbXDr8AVXe0yxg==
+build:
+  # http://docs.shippable.com/ci/shippableyml/#ci
+  ci:
+    - npm install --no-audit
+    - npm run lint
+    - npm run test
+    - npm run locale-tests
+    - npm run build-package
+  on_success:
+    - npx ci-semantic-release
+
+resources:
+    - name:             kendo-intl-repo
+      type:             gitRepo
+      integration:      github-telerik
+      versionTemplate:
+        sourceName:       telerik/kendo-intl
+        branch:           develop
+jobs:
+  - name: kendo-intl-publish_develop_as_latest
+    type: runSh
+    steps:
+      - IN: kendo-intl-repo
+        switch: off
+      - IN: kendo-intl_ciRepo
+        switch: off
+      - TASK:
+          name: kendo-intl-publish_develop
+          script:
+            - ssh-add $KENDOINTLREPO_KEYPATH
+            - cd $KENDOINTLREPO_STATE && git checkout master && git pull --rebase
+            - npm install @telerik/semantic-prerelease@1 --no-save && npx release-master
