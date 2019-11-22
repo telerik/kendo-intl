@@ -13,26 +13,30 @@ build:
   ci:
     - npm install --no-audit --ignore-scripts
     - npm run lint
+    - npm run test
+    - npm run locale-tests
+    - npm run build-package
   on_success:
     - npx ci-semantic-release
 
 resources:
-    - name:             kendo-angular-messages-repo
+    - name:             kendo-intl-repo
       type:             gitRepo
       integration:      github-telerik
       versionTemplate:
-        sourceName:       telerik/kendo-angular-messages
+        sourceName:       telerik/kendo-intl
         branch:           develop
 jobs:
-  - name: kendo-angular-messages-publish_develop_as_latest
+  - name: kendo-intl-publish_develop_as_latest
     type: runSh
     steps:
-      - IN: kendo-angular-messages-repo
-      - IN: kendo-angular-messages_ciRepo
+      - IN: kendo-intl-repo
+        switch: off
+      - IN: kendo-intl_ciRepo
         switch: off
       - TASK:
-          name: kendo-angular-messages-publish_develop
+          name: kendo-intl-publish_develop
           script:
-            - ssh-add $KENDOANGULARMESSAGESREPO_KEYPATH
-            - cd $KENDOANGULARMESSAGESREPO_STATE && git checkout master && git pull --rebase
+            - ssh-add $KENDOINTLREPO_KEYPATH
+            - cd $KENDOINTLREPO_STATE && git checkout master && git pull --rebase
             - npm install @telerik/semantic-prerelease@1 --no-save && npx release-master
