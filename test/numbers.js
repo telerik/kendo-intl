@@ -41,6 +41,10 @@ describe('formatNumber', () => {
         expect(formatNumber(10000)).toEqual("10,000");
     });
 
+    it('should support minus zero', () => {
+        expect(formatNumber(-0)).toEqual("-0");
+    });
+
     it('should return empty string if no value is passed', () => {
         expect(formatNumber()).toEqual("");
     });
@@ -401,6 +405,10 @@ describe('custom formatting', () => {
         expect(formatNumber(10.9, '#')).toEqual("11");
     });
 
+    it('replaces whole part of the number', () => {
+        expect(formatNumber(-0, '#')).toEqual("-0");
+    });
+
     it('replaces # after 0 with 0', () => {
         expect(formatNumber(10.1, '#0####')).toEqual("00010");
     });
@@ -614,6 +622,22 @@ describe('parseNumber', () => {
     it('returns zero if zero is passed', () => {
         const value = 0;
         expect(parseNumber(value)).toEqual(value);
+    });
+
+    it('returns zero if zero string is passed', () => {
+        expect(1 / parseNumber('0')).toEqual(Infinity);
+    });
+
+    it('returns negative zero if negative zero string is passed', () => {
+        expect(1 / parseNumber('-0')).toEqual(-Infinity);
+    });
+
+    it('returns negative zero if negative zero is passed', () => {
+        expect(1 / parseNumber(-0)).toEqual(-Infinity);
+    });
+
+    it('returns negative zero with accounting format', () => {
+        expect(1 / parseNumber('$(0.00)', undefined, '$0.00;$(0.00)')).toEqual(-Infinity);
     });
 
     it('returns number if number is passed', () => {
