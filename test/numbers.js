@@ -341,6 +341,10 @@ describe('standard accounting formatting', () => {
         delete cldr.custom;
     });
 
+    it('should support minus zero', () => {
+        expect(formatNumber(-0, 'a2')).toEqual("($0.00)");
+    });
+
     it('should apply format', () => {
         expect(formatNumber(10, 'a', 'custom')).toEqual("10.00$");
     });
@@ -403,6 +407,10 @@ describe('custom formatting', () => {
 
     it('replaces whole part of the number', () => {
         expect(formatNumber(10.9, '#')).toEqual("11");
+    });
+
+    it('should support minus zero with custom format', () => {
+        expect(formatNumber(-0, '0.00;(0.00)')).toEqual("(0.00)");
     });
 
     it('replaces whole part of the number', () => {

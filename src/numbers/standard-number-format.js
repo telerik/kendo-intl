@@ -1,4 +1,5 @@
 import { PERCENT, SCIENTIFIC, NUMBER_PLACEHOLDER, CURRENCY_PLACEHOLDER, PERCENT_PLACEHOLDER, EMPTY, POINT } from '../common/constants';
+import isNegativeZero from '../common/is-negative-zero';
 import formatCurrencySymbol from './format-currency-symbol';
 import groupInteger from './group-integer';
 import isCurrencyStyle from './is-currency-style';
@@ -95,7 +96,7 @@ export default function standardNumberFormat(number, options, info) {
     value = round(value, maximumFractionDigits);
 
     const negative = value < 0;
-    const negativeZero = (1 / number === -Infinity);
+    const negativeZero = isNegativeZero(number);
 
     const parts = value.split(POINT);
 
