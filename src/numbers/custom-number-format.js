@@ -87,7 +87,7 @@ function roundNumber(formatOptions) {
         number = round(number);
     }
 
-    if (formatOptions.negative && (number * -1) >= 0) {
+    if (formatOptions.negative && (number * -1) >= 0 && !formatOptions.negativeZero) {
         formatOptions.negative = false;
     }
 
@@ -102,7 +102,7 @@ function isConstantFormat(format) {
 function setValueSpecificFormat(formatOptions) {
     let { number, format } = formatOptions;
     format = format.split(LIST_SEPARATOR);
-    if (formatOptions.negative && format[1]) {
+    if ((formatOptions.negative || formatOptions.negativeZero) && format[1]) {
         format = format[1];
         formatOptions.hasNegativeFormat = true;
     } else if (number === 0) {
@@ -198,7 +198,7 @@ function replaceLiterals(number, literals) {
 }
 
 function replacePlaceHolders(formatOptions, info) {
-    const { start, end, negative, format, decimalIndex, lastZeroIndex, hasNegativeFormat, hasGroup } = formatOptions;
+    const { start, end, negative, negativeZero, format, decimalIndex, lastZeroIndex, hasNegativeFormat, hasGroup } = formatOptions;
     let number = formatOptions.number;
     const value = number.toString().split(POINT);
     const length = format.length;
@@ -209,7 +209,7 @@ function replacePlaceHolders(formatOptions, info) {
 
     number = format.substring(0, start);
 
-    if (negative && !hasNegativeFormat) {
+    if ((negative || negativeZero) && !hasNegativeFormat) {
         number += "-";
     }
 
@@ -273,6 +273,7 @@ export default function customNumberFormat(number, format, info) {
     const formatOptions = {
         negative: number < 0,
         number: Math.abs(number),
+        negativeZero: (1 / number === -Infinity),
         format: format
     };
 

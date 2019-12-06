@@ -95,6 +95,7 @@ export default function standardNumberFormat(number, options, info) {
     value = round(value, maximumFractionDigits);
 
     const negative = value < 0;
+    const negativeZero = (1 / number === -Infinity);
 
     const parts = value.split(POINT);
 
@@ -122,7 +123,7 @@ export default function standardNumberFormat(number, options, info) {
         pattern = currencyUnitPattern(info, number);
     } else {
         const patterns = options.patterns;
-        pattern = negative ? patterns[1] || ("-" + patterns[0]) : patterns[0];
+        pattern = (negative || negativeZero) ? patterns[1] || ("-" + patterns[0]) : patterns[0];
     }
 
     if (pattern === NUMBER_PLACEHOLDER && !negative) {
