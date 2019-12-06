@@ -1,4 +1,5 @@
 import { CURRENCY, PERCENT, LIST_SEPARATOR, GROUP_SEPARATOR, CURRENCY_PLACEHOLDER, PERCENT_PLACEHOLDER, POINT, EMPTY } from '../common/constants';
+import isNegativeZero from '../common/is-negative-zero';
 import formatCurrencySymbol from './format-currency-symbol';
 import groupInteger from './group-integer';
 import round from '../common/round';
@@ -273,7 +274,7 @@ export default function customNumberFormat(number, format, info) {
     const formatOptions = {
         negative: number < 0,
         number: Math.abs(number),
-        negativeZero: (1 / number === -Infinity),
+        negativeZero: isNegativeZero(number),
         format: format
     };
 
