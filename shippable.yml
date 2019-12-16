@@ -28,6 +28,9 @@ resources:
       versionTemplate:
         sourceName:       telerik/kendo-intl
         branch:           develop
+    - name: shippable-push-public-repos
+      type: integration
+      integration: shippable-push-public-repos
 jobs:
   - name: kendo-intl-publish_develop_as_latest
     type: runSh
@@ -36,12 +39,12 @@ jobs:
         switch: off
       - IN: kendo-intl_ciRepo
         switch: off
+      - IN: shippable-push-public-repos
       - TASK:
           name: kendo-intl-publish_develop
           script:
             - env
-            - tree /tmp/ssh
-            - ssh-add /tmp/ssh/shippable-push-public-repos
+            - ls /tmp/ssh
             - ssh -T git@github.com -v
             - cd $KENDOINTLREPO_STATE && git checkout master && git pull --rebase
             - npm install @telerik/semantic-prerelease@1 --no-save && npx release-master
