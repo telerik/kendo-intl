@@ -43,8 +43,7 @@ jobs:
       - TASK:
           name: kendo-intl-publish_develop
           script:
-            - env
-            - ls /tmp/ssh
+            - ssh-add $SHIPPABLEPUSHPUBLICREPOS_PRIVATE_KEY_PATH
             - ssh -T git@github.com -v
             - cd $KENDOINTLREPO_STATE && git checkout master && git pull --rebase
             - npm install @telerik/semantic-prerelease@1 --no-save && npx release-master
