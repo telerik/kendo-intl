@@ -44,5 +44,5 @@ jobs:
           name: kendo-intl-publish_develop
           script:
             - ssh-add $SHIPPABLEPUSHPUBLICREPOS_PRIVATE_KEY_PATH
-            - cd $KENDOINTLREPO_STATE && git checkout master && git pull --rebase
+            - cd $KENDOINTLREPO_STATE && git remote set-url --push origin git@github.com:telerik/kendo-intl.git && git checkout master && git pull --rebase
             - npm install @telerik/semantic-prerelease@1 --no-save && npx release-master
