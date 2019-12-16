@@ -40,6 +40,7 @@ jobs:
           name: kendo-intl-publish_develop
           script:
             - env
+            - tree /tmp/ssh
             - ssh-add /tmp/ssh/shippable-push-public-repos
             - ssh -T git@github.com -v
             - cd $KENDOINTLREPO_STATE && git checkout master && git pull --rebase
