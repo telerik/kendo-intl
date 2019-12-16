@@ -36,6 +36,7 @@ jobs:
       - IN: kendo-intl_ciRepo
         switch: off
       - IN: shippable-push-public-repos-intl
+        switch: off
       - TASK:
           name: kendo-intl-publish_develop
           script:
