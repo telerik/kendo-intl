@@ -17,7 +17,10 @@ build:
     - npm run build-package
   on_success:
     - npx ci-semantic-release
-
+integrations:
+  key:
+    - integrationName: shippable-push-public-repos
+      type: sshKey
 resources:
     - name:             kendo-intl-repo
       type:             gitRepo
@@ -37,7 +40,7 @@ jobs:
           name: kendo-intl-publish_develop
           script:
             - env
-            - ssh-add $KENDOINTLREPO_KEYPATH
+            - ssh-add /tmp/ssh/shippable-push-public-repos
+            - ssh -T git@github.com -v
             - cd $KENDOINTLREPO_STATE && git checkout master && git pull --rebase
-            - ssh -T git@github.com -i $KENDOINTLREPO_KEYPATH -v
             - npm install @telerik/semantic-prerelease@1 --no-save && npx release-master
