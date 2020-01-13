@@ -736,6 +736,21 @@ describe('parseNumber', () => {
         expect(parseNumber("-1 123 112,13 лв.", "bg")).toEqual(-1123112.13);
     });
 
+    it("parses currency with custom format", () => {
+        expect(parseNumber("$12", 'en', '$#.#')).toEqual(12);
+        expect(parseNumber("-$12", 'en', '$#.#')).toEqual(-12);
+    });
+
+    it("parses percent with custom format", () => {
+        expect(parseNumber("% 12", 'en', '% #.#')).toEqual(0.12);
+        expect(parseNumber("% -12", 'en', '% #.#')).toEqual(-0.12);
+    });
+
+    it("parses number with custom format literals", () => {
+        expect(parseNumber("foo12", 'en', '"foo"#.#')).toEqual(12);
+        expect(parseNumber("T12", 'en', '\\T#.#')).toEqual(12);
+    });
+
     it("parses currency numbers with negative format", () => {
         loadCustom({ currencyPattern: "¤#,##0.00;(¤#,##0.00)", currencies: { USD: { symbol: "$" }}});
         expect(parseNumber("($1,123,112.13)", "custom", { style: "currency", currency: "USD" })).toEqual(-1123112.13);
