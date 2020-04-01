@@ -28,7 +28,7 @@
     "cldr-data": "latest",
     "cz-conventional-changelog": "^1.1.5",
     "ghooks": "^1.0.3",
-    "gulp": "3.9.1",
+    "gulp": "^4.0.0",
     "semantic-release": "^6.3.6",
     "validate-commit-msg": "^1.1.1"
   },
