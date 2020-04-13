@@ -23,7 +23,7 @@
   "dependencies": {},
   "devDependencies": {
     "@telerik/eslint-config": "^1.0.0",
-    "@progress/kendo-package-tasks": "vinylfix",
+    "@progress/kendo-package-tasks": "^4.0.1",
     "@telerik/semantic-prerelease": "^1.3.3",
     "cldr-data": "latest",
     "cz-conventional-changelog": "^1.1.5",
