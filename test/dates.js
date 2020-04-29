@@ -161,6 +161,7 @@ describe('date formatting', () => {
     it('supports 0-11 hour clock formatting', () => {
         const hourZero = date(2000, 1, 1, 0);
         const hourSmall = date(2000, 1, 1, 1);
+        
         const hour12 = date(2000, 1, 1, 12);
         const hourBig = date(2000, 1, 1, 13);
 
