@@ -124,7 +124,7 @@ The supported format specifiers are:
 
 * **The `"%"` specifier**&mdash;A percentage placeholder. It multiplies a number by 100 and inserts a localized percentage symbol in the result string.
 
-  > The `%` symbol is interpreted as a format specifier in the format string. To prevent this, precede the `%` symbol with a double backslash&mdash;`formatNumber(12, "# \\\%")` resulting in `12 %`.
+  > The `%` symbol is interpreted as a format specifier in the format string. To prevent this, precede the `%` symbol with four backslashes&mdash;`formatNumber(12, "# \\\\%")` resulting in `12 %`.
 
         import { formatNumber } from '@telerik/kendo-intl';
 
