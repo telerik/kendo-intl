@@ -535,6 +535,11 @@ const defaultData = {
                     short: "sec.",
                     narrow: "sec."
                 },
+                millisecond: {
+                    wide: "millisecond",
+                    short: "ms",
+                    narrow: "ms"
+                },
                 zone: {
                     wide: "time zone"
                 }
