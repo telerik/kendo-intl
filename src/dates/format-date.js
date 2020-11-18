@@ -123,7 +123,7 @@ formatters.S = function(date, formatLength) {
     const milliseconds = date.getMilliseconds();
     let result;
     if (milliseconds !== 0) {
-        result = String(date.getMilliseconds() / 1000).split(".")[1].substr(0, formatLength);
+        result = pad(String(milliseconds / 1000).split(".")[1].substr(0, formatLength), formatLength, true);
     } else {
         result = pad(EMPTY, formatLength);
     }

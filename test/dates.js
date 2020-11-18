@@ -236,6 +236,10 @@ describe('date formatting', () => {
         expect(formatDate(date(2000, 1, 1, 1, 1, 1, 100), "hh:mm:S")).toEqual('01:01:1');
     });
 
+    it('supports SSS with round numbers', () => {
+        expect(formatDate(date(2000, 1, 1, 1, 1, 1, 100), "hh:mm:SSS")).toEqual('01:01:100');
+    });
+
     it('supports S less than 100', () => {
         expect(formatDate(date(2000, 1, 1, 1, 1, 1, 99), "hh:mm:S")).toEqual('01:01:0');
     });
