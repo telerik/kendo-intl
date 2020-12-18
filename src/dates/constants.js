@@ -21,6 +21,7 @@ const DATE_FIELD_MAP = {
     'K': HOUR,
     'm': 'minute',
     's': 'second',
+    'S': 'millisecond',
     'a': 'dayperiod',
     'x': ZONE,
     'X': ZONE,

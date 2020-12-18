@@ -569,6 +569,12 @@ describe('dateFieldName', () => {
         expect(dateFieldName({ type: 'second', nameType: 'short' })).toEqual("sec.");
     });
 
+    it('should return placeholder for millisecond type', () => {
+        expect(dateFieldName({ type: 'millisecond', nameType: 'wide' })).toEqual("millisecond");
+        expect(dateFieldName({ type: 'millisecond', nameType: 'narrow' })).toEqual("ms");
+        expect(dateFieldName({ type: 'millisecond', nameType: 'short' })).toEqual("ms");
+    });
+    
     it('should return placeholder for zone type', () => {
         expect(dateFieldName({ type: 'zone', nameType: 'wide' })).toEqual("time zone");
         expect(dateFieldName({ type: 'zone', nameType: 'narrow' })).toEqual("time zone");
@@ -576,9 +582,9 @@ describe('dateFieldName', () => {
     });
 
     it('should return undefined for missing fieldName type', () => {
-        expect(dateFieldName({ type: 'millisecond', nameType: 'wide' })).toEqual(undefined);
-        expect(dateFieldName({ type: 'millisecond', nameType: 'narrow' })).toEqual(undefined);
-        expect(dateFieldName({ type: 'millisecond', nameType: 'short' })).toEqual(undefined);
+        expect(dateFieldName({ type: 'turbosecond', nameType: 'wide' })).toEqual(undefined);
+        expect(dateFieldName({ type: 'turbosecond', nameType: 'narrow' })).toEqual(undefined);
+        expect(dateFieldName({ type: 'turbosecond', nameType: 'short' })).toEqual(undefined);
     });
 
     it('should return wide placeholder by default', () => {
