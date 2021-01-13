@@ -927,6 +927,12 @@ describe('date parsing', () => {
         expect(parseDate("2000-10-10T14:30:0.0400000Z", "yyyy-MM-ddTHH:mm:ss.SSSSSSSX").getMilliseconds()).toEqual(40);
     });
 
+    it('parses first digit of ISO date string milliseconds as hundreds', () => {
+        expect(parseDate("2000-01-01T00:00:00.1Z").getMilliseconds()).toEqual(100);
+        expect(parseDate("2000-01-01T00:00:00.10Z").getMilliseconds()).toEqual(100);
+        expect(parseDate("2000-01-01T00:00:00.100Z").getMilliseconds()).toEqual(100);
+    });
+
     it("parses UTC milliseconds without specified format", () => {
         const utcDate = new Date(Date.UTC(2000, 9, 10, 14, 30, 0, 450));
         expect(parseDate("2000-10-10T14:30:0.45Z").getMilliseconds()).toEqual(utcDate.getMilliseconds());
