@@ -581,7 +581,7 @@ describe('dateFieldName', () => {
         expect(dateFieldName({ type: 'zone', nameType: 'short' })).toEqual("time zone");
     });
 
-    it('should return undefined for missing fieldName type', () => {
+    it('should not support non-existent units of time as fieldName type', () => {
         expect(dateFieldName({ type: 'turbosecond', nameType: 'wide' })).toEqual(undefined);
         expect(dateFieldName({ type: 'turbosecond', nameType: 'narrow' })).toEqual(undefined);
         expect(dateFieldName({ type: 'turbosecond', nameType: 'short' })).toEqual(undefined);
