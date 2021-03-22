@@ -1,0 +1,41 @@
+# Builds package and publishes it on npm.
+# Triggered on pushes to develop, master and release branches
+name: CD
+
+on:
+  push:
+    branches:
+      - master
+      - develop
+      - release-*
+
+jobs:
+  build:
+    runs-on: kendo
+
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0 # Fetch all branches
+
+      - name: Install modules
+        run: npm install --no-audit --ignore-scripts
+
+      - name: Activate Kendo UI License
+        run: npx kendo-ui-license activate
+        env:
+          KENDO_UI_LICENSE: ${{ secrets.KENDO_UI_LICENSE }}
+
+      - name: Build package
+        run: npm run build-package
+
+      - name: Run unit tests
+        run: npm run test:ci
+
+      - name: Publish release
+        run: npx ci-semantic-release
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
