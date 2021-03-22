@@ -22,16 +22,11 @@ jobs:
       - name: Install modules
         run: npm install --no-audit --ignore-scripts
 
-      - name: Activate Kendo UI License
-        run: npx kendo-ui-license activate
-        env:
-          KENDO_UI_LICENSE: ${{ secrets.KENDO_UI_LICENSE }}
-
       - name: Build package
         run: npm run build-package
 
       - name: Run unit tests
-        run: npm run test:ci
+        run: npm run test
 
       - name: Publish release
         run: npx ci-semantic-release

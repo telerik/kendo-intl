@@ -24,28 +24,15 @@ jobs:
       - name: Install modules
         run: npm install --no-audit
 
-      - name: Activate Kendo UI License
-        run: npx kendo-ui-license activate
-        env:
-          KENDO_UI_LICENSE: ${{ secrets.KENDO_UI_LICENSE }}
-
       - name: Lint
         run: npm run lint
-
-      - name: Check API docs
-        run: npm run api-check
 
       - name: Build package
         run: npm run build-package
 
       - name: Run unit tests
-        run: npm run test:ci
+        run: npm run test
 
-      - name: Run E2E tests
-        run: npm run e2e:ci
-
-      - name: Run E2E tests (visual)
-        run: npm run e2e_visual:ci --if-present
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      - name: Run locale tests
+        run: npm run locale-tests
 
