@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-    runs-on: kendo
+    runs-on: ubuntu-latest
 
     steps:
       - name: Check out branch
