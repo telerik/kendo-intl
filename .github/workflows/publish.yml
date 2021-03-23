@@ -1,0 +1,25 @@
+# Publishes changes from develop to master.
+#
+# * Triggers the CD workflow to publish the package if needed.
+# * Documentation will be published on the official site.
+name: Publish
+
+on: workflow_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out master
+        uses: actions/checkout@v2
+        with:
+          ref: master
+          fetch-depth: 0 # Fetch all branches
+          token: ${{ secrets.GH_TOKEN }}
+
+      - name: Install modules
+        run: npm install @telerik/semantic-prerelease@1 --no-save
+
+      - name: Fast-forward master to develop
+        run: npx release-master
