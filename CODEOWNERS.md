@@ -1,2 +1,1 @@
-* @danielkaradachki
-docs/* @dmihaylo
+* @telerik/kendo-intl-reviewers
