@@ -20,7 +20,7 @@ jobs:
           fetch-depth: 0 # Fetch all branches
 
       - name: Install modules
-        run: npm install --no-audit --ignore-scripts
+        run: npm install --no-audit
 
       - name: Build package
         run: npm run build-package
