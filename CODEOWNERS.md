@@ -1,2 +1,0 @@
-* @danielkaradachki
-docs/* @dmihaylo
