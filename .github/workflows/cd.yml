@@ -32,6 +32,6 @@ jobs:
       - name: Publish release
         run: npx ci-semantic-release
         env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN_TELERIK }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
 
