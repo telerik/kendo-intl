@@ -33,7 +33,7 @@ Additionally, the library requires you to load:
 * The `weekData` for the day of week formatting.
 
 ```javascript
-import { load } from '@telerik/kendo-intl';
+import { load } from '@progress/kendo-intl';
 
 load(
     require("cldr-data/supplemental/likelySubtags.json"),
@@ -55,7 +55,7 @@ For more examples and available configuration options, refer to the article on [
 Date parsing converts a string into a `Date` object by using the specific settings of the locale.
 
 ```js
-import { parseDate } from '@telerik/kendo-intl';
+import { parseDate } from '@progress/kendo-intl';
 
 parseDate("11/6/2000", ["G", "d"]); // Mon Nov 06 2000
 parseDate("Montag, 6.11.2000", "EEEE, d.MM.y", "de"); // Mon Nov 06 2000
@@ -69,7 +69,7 @@ For more examples and available configuration options, refer to the article on [
 Date formatting converts a `Date` object into a human-readable string by using the specific settings of the locale.
 
 ```js
-import { formatDate } from '@telerik/kendo-intl';
+import { formatDate } from '@progress/kendo-intl';
 
 formatDate(new Date(2000, 10, 6), "d"); // 11/6/2000
 formatDate(new Date(2000, 10, 6), "yMd", "de"); // 6.11.2000
@@ -83,7 +83,7 @@ For more examples and available configuration options, refer to the article on [
 Number parsing converts a string into a `Number` object by using the specific settings of the locale.
 
 ```js
-import { parseNumber } from '@telerik/kendo-intl';
+import { parseNumber } from '@progress/kendo-intl';
 
 parseNumber("12.22"); // 12.22
 parseNumber("1.212,22 €", "de"); // 1212.22
@@ -98,7 +98,7 @@ For more examples and available configuration options, refer to the article on [
 Number formatting converts a `Number` object into a human-readable string using the specific settings of the locale.
 
 ```js
-import { formatNumber } from '@telerik/kendo-intl';
+import { formatNumber } from '@progress/kendo-intl';
 
 formatNumber(1234.567, "n2"); // 1,234.57
 
@@ -120,7 +120,7 @@ For more examples and available configuration options, refer to the article on [
 General formatting provides methods for independent placeholder and type formatting by using the specific settings of the locale.
 
 ```js
-import { format, toString } from '@telerik/kendo-intl';
+import { format, toString } from '@progress/kendo-intl';
 
 format('Date: {0:d} - Price: {1:c}', [new Date(), 10.5], "en") // Date: 1/5/2017 - Price: $10.50
 
@@ -138,20 +138,20 @@ For more examples and available configuration options, refer to the article on [
 2. Download and install the module:
 
     ```bash
-    npm install --save '@telerik/kendo-intl';
+    npm install --save '@progress/kendo-intl';
     ```
 
 3. Once installed, import the Internationalization in your application root module:
 
     ```javascript
     // ES2015 module syntax
-    import { formatDate, parseDate } from '@telerik/kendo-intl';
+    import { formatDate, parseDate } from '@progress/kendo-intl';
     //or
-    import { formatNumber, parseNumber } from '@telerik/kendo-intl';
+    import { formatNumber, parseNumber } from '@progress/kendo-intl';
     ```
     ```javascript
     // CommonJS format
-    var numbers = require('@telerik/kendo-intl/number').numbers;
+    var numbers = require('@progress/kendo-intl/number').numbers;
     //or
-    var dates = require('@telerik/kendo-intl/dates').dates;
+    var dates = require('@progress/kendo-intl/dates').dates;
     ```

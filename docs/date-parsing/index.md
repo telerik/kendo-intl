@@ -48,7 +48,7 @@ You can pass the formats that have to be used to parse the value as parameters t
 
 The following example demonstrates how to specify the parse formats.
 
-    import { parseDate } from '@telerik/kendo-intl';
+    import { parseDate } from '@progress/kendo-intl';
 
     parseDate("2000/11/06", "yyyy/MM/dd");
 
