@@ -21,7 +21,7 @@ The supported types of general formatting are:
 
 To replace the format string placeholders (`{index}`) with the provided values based on the index, use the `format` method. You can also set a specific format specified for `Date` and `Number` values by adding `:format` after the index.
 
-    import { format } from '@telerik/kendo-intl';
+    import { format } from '@progress/kendo-intl';
 
     format('Date: {0:d} - Price: {1:c}', [new Date(), 10.5], "en"); // Date: 1/5/2017 - Price: $10.50
 
@@ -29,7 +29,7 @@ To replace the format string placeholders (`{index}`) with the provided values b
 
 To format both the `Date` and `Number` values by using the locale specific settings, apply the `toString` method. If you pass a string as a value, it is returned without any modification.
 
-    import { toString } from '@telerik/kendo-intl';
+    import { toString } from '@progress/kendo-intl';
 
     toString(new Date(), "d", "en"); // 1/5/2017
 

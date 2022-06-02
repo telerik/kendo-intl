@@ -1,5 +1,5 @@
 {
-  "name": "@telerik/kendo-intl",
+  "name": "@progress/kendo-intl",
   "description": "A package exporting functions for date and number parsing and formatting",
   "author": "Telerik",
   "license": "Apache-2.0",
@@ -13,20 +13,21 @@
     "build-package": "gulp build-rollup-package build-cdn",
     "test": "gulp test",
     "locale-tests": "gulp test --tests=\"locale-tests/generated-locales.js\"",
-    "lint": "gulp lint",
+    "lint": "eslint ./src",
     "semantic-release": "semantic-release pre && semantic-prerelease publish && semantic-release post"
   },
   "keywords": [
     "Kendo",
     "Internationalization"
   ],
-  "dependencies": {},
   "devDependencies": {
-    "@telerik/eslint-config": "^1.0.0",
-    "@progress/kendo-package-tasks": "^4.0.34",
-    "@telerik/semantic-prerelease": "^1.3.3",
+    "@progress/kendo-package-tasks": "dev",
+    "@progress/semantic-prerelease": "^3.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.27.0",
+    "@typescript-eslint/parser": "^5.27.0",
     "cldr-data": "latest",
     "cz-conventional-changelog": "^1.1.5",
+    "eslint": "^8.16.0",
     "ghooks": "^1.0.3",
     "gulp": "^4.0.0",
     "semantic-release": "^6.3.6",
@@ -53,11 +54,11 @@
     "fallbackTags": {
       "dev": "latest"
     },
-    "analyzeCommits": "@telerik/semantic-prerelease/analyzeCommits",
-    "generateNotes": "@telerik/semantic-prerelease/generateNotes",
-    "getLastRelease": "@telerik/semantic-prerelease/getLastRelease",
-    "verifyConditions": "@telerik/semantic-prerelease/verifyConditions",
-    "verifyRelease": "@telerik/semantic-prerelease/verifyRelease"
+    "analyzeCommits": "@progress/semantic-prerelease/analyzeCommits",
+    "generateNotes": "@progress/semantic-prerelease/generateNotes",
+    "getLastRelease": "@progress/semantic-prerelease/getLastRelease",
+    "verifyConditions": "@progress/semantic-prerelease/verifyConditions",
+    "verifyRelease": "@progress/semantic-prerelease/verifyRelease"
   },
   "cldr-data-coverage": "full",
   "files": [

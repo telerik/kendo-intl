@@ -19,7 +19,7 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
 
       - name: Install modules
-        run: npm install @telerik/semantic-prerelease@1 --no-save
+        run: npm install @progress/semantic-prerelease --no-save
 
       - name: Fast-forward master to develop
         run: npx release-master

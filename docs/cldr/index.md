@@ -39,7 +39,7 @@ To load the CLDR data, use the [`load`](https://github.com/telerik/kendo-intl/bl
 > Before other culture scripts, you have to load the supplemental data first. It requires you to load it just once.
 
 ```
-import { cldr, load } from '@telerik/kendo-intl';
+import { cldr, load } from '@progress/kendo-intl';
 
 const likelySubtags = require("cldr-data/supplemental/likelySubtags.json");
 const weekData      = require("cldr-data/supplemental/weekData.json");
@@ -75,8 +75,8 @@ The `build` method the kendo-intl package provides generates the files which use
 The following example demonstrates how to generate the data for typescript projects.
 
 ```
-const { buildLocales, toJSObject } = require('@telerik/kendo-intl/build-locales');
-const intl = require('@telerik/kendo-intl');
+const { buildLocales, toJSObject } = require('@progress/kendo-intl/build-locales');
+const intl = require('@progress/kendo-intl');
 
 const localeTemplate = (data) => {
     return `export const data = ${ toJSObject(data) };`;
@@ -95,7 +95,7 @@ The method outputs four files in the destination locale folder. These are:
 To set the generated data, use the [`setData`](https://github.com/telerik/kendo-intl/blob/master/docs/cldr/api.md#setdata) method.
 
 ```
-import { setData } from '@telerik/kendo-intl';
+import { setData } from '@progress/kendo-intl';
 import { data } from './locales/bg/all';
 
 setData(data);
