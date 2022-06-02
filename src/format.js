@@ -4,7 +4,7 @@ import { EMPTY } from './common/constants';
 import isDate from './common/is-date';
 import isNumber from './common/is-number';
 
-const formatRegExp = /\{(\d+)(:[^\}]+)?\}/g;
+const formatRegExp = /\{(\d+)(:[^}]+)?\}/g;
 
 export function toString(value, format, locale) {
     if (format) {

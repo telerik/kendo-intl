@@ -7,7 +7,7 @@ import datePattern from './date-pattern';
 import round from '../common/round';
 import isDate from '../common/is-date';
 
-const timeZoneOffsetRegExp = /([+|\-]\d{1,2})(:?)(\d{2})?/;
+const timeZoneOffsetRegExp = /([+|-]\d{1,2})(:?)(\d{2})?/;
 const dateRegExp = /^\/Date\((.*?)\)\/$/;
 const offsetRegExp = /[+-]\d*/;
 const numberRegExp = {

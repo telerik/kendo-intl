@@ -6,7 +6,7 @@ import isCurrencyStyle from './is-currency-style';
 import formatOptions from './format-options';
 import isString from '../common/is-string';
 
-const exponentRegExp = /[eE][\-+]?[0-9]+/;
+const exponentRegExp = /[eE][-+]?[0-9]+/;
 const nonBreakingSpaceRegExp = /\u00A0/g;
 
 function cleanNegativePattern(number, patterns) {
