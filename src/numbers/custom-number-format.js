@@ -9,7 +9,7 @@ const ZERO = "0";
 
 const trailingZerosRegExp = /(\.(?:[0-9]*[1-9])?)0+$/g;
 const trailingPointRegExp = /\.$/;
-const commaRegExp = /\,/g;
+const commaRegExp = /,/g;
 
 function trimTrailingZeros(value, lastZero) {
     let trimRegex;

@@ -114,7 +114,7 @@ export function currencyDisplay(locale, options) {
     if (currencyDisplay === SYMBOL) {
         result = currencyInfo["symbol-alt-narrow"] || currencyInfo[SYMBOL];
     } else {
-        if (typeof value === undefined || value !== 1) {
+        if (typeof value === "undefined" || value !== 1) {
             result = currencyInfo["displayName-count-other"];
         } else {
             result = currencyInfo["displayName-count-one"];
