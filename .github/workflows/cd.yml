@@ -20,6 +20,11 @@ jobs:
         with:
           fetch-depth: 0 # Fetch all branches
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
       - name: Install modules
         run: npm install --no-audit
 
