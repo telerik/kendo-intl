@@ -18,6 +18,11 @@ jobs:
           fetch-depth: 0 # Fetch all branches
           token: ${{ secrets.GH_TOKEN }}
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
       - name: Install modules
         run: npm install @progress/semantic-prerelease --no-save
 
