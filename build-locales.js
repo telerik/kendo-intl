@@ -100,6 +100,12 @@ module.exports.buildLocales = (intl, { contentTemplate = defaultTemplate, extens
 
             delete localeData.identity.version;
 
+            localeData.calendar.dateFields = { ...localeData.calendar.dateFields, millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
+            }}
+
             fs.writeFileSync(path.join(localePath, `all.${ extension }`), contentTemplate(localeData));
 
             const currencies = Object.assign(localeInfo(localeData), {
