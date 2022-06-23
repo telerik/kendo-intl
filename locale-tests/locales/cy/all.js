@@ -3378,6 +3378,11 @@ const data = {
                 wide: "cylchfa amser",
                 short: "cylchfa amser",
                 narrow: "cylchfa"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

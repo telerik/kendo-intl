@@ -2566,6 +2566,11 @@ const data = {
                 wide: "часовий пояс",
                 short: "час. пояс",
                 narrow: "час. п."
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

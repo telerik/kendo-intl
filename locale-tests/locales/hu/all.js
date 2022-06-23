@@ -2261,6 +2261,11 @@ const data = {
                 wide: "időzóna",
                 short: "időzóna",
                 narrow: "időzóna"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

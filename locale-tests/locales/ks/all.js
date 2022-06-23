@@ -1799,6 +1799,11 @@ const data = {
                 wide: "زون",
                 short: "زون",
                 narrow: "زون"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

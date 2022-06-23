@@ -429,6 +429,11 @@ const data = {
                 wide: "Isikhathi",
                 short: "Isikhathi",
                 narrow: "Isikhathi"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

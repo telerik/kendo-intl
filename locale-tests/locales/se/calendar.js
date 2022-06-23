@@ -428,6 +428,11 @@ const data = {
                 wide: "áigeavádat",
                 short: "áigeavádat",
                 narrow: "áigeavádat"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

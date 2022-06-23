@@ -1993,6 +1993,11 @@ const data = {
                 wide: "ဇုန်",
                 short: "ဇုန်",
                 narrow: "ဇုန်"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

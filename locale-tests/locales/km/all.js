@@ -1994,6 +1994,11 @@ const data = {
                 wide: "ល្វែងម៉ោង",
                 short: "ល្វែងម៉ោង",
                 narrow: "ល្វែងម៉ោង"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

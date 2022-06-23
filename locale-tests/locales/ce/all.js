@@ -2114,6 +2114,11 @@ const data = {
                 wide: "сахьтан аса",
                 short: "сахьтан аса",
                 narrow: "сахьтан аса"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

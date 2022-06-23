@@ -433,6 +433,11 @@ const data = {
                 wide: "zona d’urari",
                 short: "zona d’urari",
                 narrow: "zona d’urari"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

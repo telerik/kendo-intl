@@ -1795,6 +1795,11 @@ const data = {
                 wide: "Waŋ cok comme",
                 short: "Waŋ cok comme",
                 narrow: "Waŋ cok comme"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

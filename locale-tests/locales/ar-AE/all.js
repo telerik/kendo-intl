@@ -2835,6 +2835,11 @@ const data = {
                 wide: "التوقيت",
                 short: "توقيت",
                 narrow: "توقيت"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

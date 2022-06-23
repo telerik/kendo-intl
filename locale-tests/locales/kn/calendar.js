@@ -462,6 +462,11 @@ const data = {
                 wide: "ಸಮಯ ವಲಯ",
                 short: "ವಲಯ",
                 narrow: "ವಲಯ"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

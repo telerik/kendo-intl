@@ -1795,6 +1795,11 @@ const data = {
                 wide: "ǁAeb ǀharib",
                 short: "ǁAeb ǀharib",
                 narrow: "ǁAeb ǀharib"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

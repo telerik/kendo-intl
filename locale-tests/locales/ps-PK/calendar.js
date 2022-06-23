@@ -431,6 +431,11 @@ const data = {
                 wide: "وخت سيمه",
                 short: "وخت سيمه",
                 narrow: "وخت سيمه"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

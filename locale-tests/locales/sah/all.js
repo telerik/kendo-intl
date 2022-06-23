@@ -1796,6 +1796,11 @@ const data = {
                 wide: "Кэм балаһата",
                 short: "Кэм балаһата",
                 narrow: "Кэм балаһата"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

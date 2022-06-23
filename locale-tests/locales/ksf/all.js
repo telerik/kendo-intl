@@ -1794,6 +1794,11 @@ const data = {
                 wide: "Wáas",
                 short: "Wáas",
                 narrow: "Wáas"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

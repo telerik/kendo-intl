@@ -431,6 +431,11 @@ const data = {
                 wide: "tíðarøki",
                 short: "tíðarøki",
                 narrow: "tíðarøki"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

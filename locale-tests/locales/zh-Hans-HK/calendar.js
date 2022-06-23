@@ -476,6 +476,11 @@ const data = {
                 wide: "时区",
                 short: "时区",
                 narrow: "时区"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

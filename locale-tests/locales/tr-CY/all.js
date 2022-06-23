@@ -2390,6 +2390,11 @@ const data = {
                 wide: "saat dilimi",
                 short: "dilim",
                 narrow: "dilim"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

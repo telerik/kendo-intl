@@ -1798,6 +1798,11 @@ const data = {
                 wide: "Peryod letan",
                 short: "Peryod letan",
                 narrow: "Peryod letan"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

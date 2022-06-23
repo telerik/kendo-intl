@@ -2407,6 +2407,11 @@ const data = {
                 wide: "żona tal-ħin",
                 short: "żona",
                 narrow: "żona"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

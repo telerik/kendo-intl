@@ -1800,6 +1800,11 @@ const data = {
                 wide: "ክልል",
                 short: "ክልል",
                 narrow: "ክልል"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

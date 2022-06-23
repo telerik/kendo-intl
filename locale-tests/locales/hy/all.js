@@ -2160,6 +2160,11 @@ const data = {
                 wide: "ժամային գոտի",
                 short: "ժամային գոտի",
                 narrow: "ժամային գոտի"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

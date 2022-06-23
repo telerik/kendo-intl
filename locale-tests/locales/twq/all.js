@@ -1794,6 +1794,11 @@ const data = {
                 wide: "Leerazuu",
                 short: "Leerazuu",
                 narrow: "Leerazuu"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

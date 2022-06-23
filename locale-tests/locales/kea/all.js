@@ -1865,6 +1865,11 @@ const data = {
                 wide: "ora lokal",
                 short: "ora lokal",
                 narrow: "ora lokal"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

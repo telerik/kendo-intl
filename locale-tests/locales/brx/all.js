@@ -1799,6 +1799,11 @@ const data = {
                 wide: "ओनसोल",
                 short: "ओनसोल",
                 narrow: "ओनसोल"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

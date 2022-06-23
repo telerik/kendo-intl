@@ -1794,6 +1794,11 @@ const data = {
                 wide: "Uluhaavi lwa lisaa",
                 short: "Uluhaavi lwa lisaa",
                 narrow: "Uluhaavi lwa lisaa"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

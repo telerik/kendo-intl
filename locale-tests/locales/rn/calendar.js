@@ -428,6 +428,11 @@ const data = {
                 wide: "Isaha yo mukarere",
                 short: "Isaha yo mukarere",
                 narrow: "Isaha yo mukarere"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

@@ -2400,6 +2400,11 @@ const data = {
                 wide: "ۋاقىت رايونى",
                 short: "ۋاقىت رايونى",
                 narrow: "ۋاقىت رايونى"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

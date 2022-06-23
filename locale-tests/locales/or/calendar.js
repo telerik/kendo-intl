@@ -432,6 +432,11 @@ const data = {
                 wide: "ସମୟ କ୍ଷେତ୍ର",
                 short: "କ୍ଷେତ୍ର",
                 narrow: "କ୍ଷେତ୍ର"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

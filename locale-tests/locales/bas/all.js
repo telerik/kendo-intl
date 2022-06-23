@@ -1794,6 +1794,11 @@ const data = {
                 wide: "komboo i ŋgɛŋ",
                 short: "komboo i ŋgɛŋ",
                 narrow: "komboo i ŋgɛŋ"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

@@ -429,6 +429,11 @@ const data = {
                 wide: "Kĩsio kya ĩsaa",
                 short: "Kĩsio kya ĩsaa",
                 narrow: "Kĩsio kya ĩsaa"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

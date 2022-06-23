@@ -428,6 +428,11 @@ const data = {
                 wide: "वेळ झोन",
                 short: "झोन",
                 narrow: "झोन"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

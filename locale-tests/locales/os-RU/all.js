@@ -1810,6 +1810,11 @@ const data = {
                 wide: "Рӕстӕджы зонӕ",
                 short: "Рӕстӕджы зонӕ",
                 narrow: "Рӕстӕджы зонӕ"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

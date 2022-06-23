@@ -432,6 +432,11 @@ const data = {
                 wide: "sagat guşaklygy",
                 short: "guşaklyk",
                 narrow: "guşaklyk"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

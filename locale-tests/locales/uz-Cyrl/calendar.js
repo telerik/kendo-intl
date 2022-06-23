@@ -467,6 +467,11 @@ const data = {
                 wide: "Минтақа",
                 short: "Минтақа",
                 narrow: "Минтақа"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

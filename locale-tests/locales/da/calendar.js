@@ -469,6 +469,11 @@ const data = {
                 wide: "tidszone",
                 short: "zone",
                 narrow: "zone"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

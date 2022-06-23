@@ -2161,6 +2161,11 @@ const data = {
                 wide: "დროის სარტყელი",
                 short: "დროის სარტყ.",
                 narrow: "დროის სარტყ."
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

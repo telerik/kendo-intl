@@ -430,6 +430,11 @@ const data = {
                 wide: "time zone",
                 short: "time zone",
                 narrow: "time zone"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

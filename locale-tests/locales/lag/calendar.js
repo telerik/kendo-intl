@@ -429,6 +429,11 @@ const data = {
                 wide: "Mpɨɨndɨ ja mɨɨtʉ",
                 short: "Mpɨɨndɨ ja mɨɨtʉ",
                 narrow: "Mpɨɨndɨ ja mɨɨtʉ"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

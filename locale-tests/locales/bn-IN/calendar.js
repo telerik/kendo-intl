@@ -470,6 +470,11 @@ const data = {
                 wide: "সময় অঞ্চল",
                 short: "অঞ্চল",
                 narrow: "অঞ্চল"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

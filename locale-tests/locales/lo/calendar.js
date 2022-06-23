@@ -464,6 +464,11 @@ const data = {
                 wide: "ເຂດເວລາ",
                 short: "ເຂດເວລາ",
                 narrow: "ເຂດເວລາ"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

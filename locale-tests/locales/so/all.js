@@ -2112,6 +2112,11 @@ const data = {
                 wide: "wakhtiga aagga",
                 short: "aagga",
                 narrow: "Aagga"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

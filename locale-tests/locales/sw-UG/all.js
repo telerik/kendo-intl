@@ -2170,6 +2170,11 @@ const data = {
                 wide: "saa za eneo",
                 short: "eneo",
                 narrow: "eneo"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

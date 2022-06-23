@@ -466,6 +466,11 @@ const data = {
                 wide: "منطقۂ وقت",
                 short: "منطقۂ وقت",
                 narrow: "منطقۂ وقت"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

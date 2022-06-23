@@ -2180,6 +2180,11 @@ const data = {
                 wide: "நேர மண்டலம்",
                 short: "மண்டலம்",
                 narrow: "மண்டலம்"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

@@ -487,6 +487,11 @@ const data = {
                 wide: "സമയ മേഖല",
                 short: "സമയ മേഖല",
                 narrow: "സമയ മേഖല"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

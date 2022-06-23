@@ -1795,6 +1795,11 @@ const data = {
                 wide: "Eshaaha za",
                 short: "Eshaaha za",
                 narrow: "Eshaaha za"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

@@ -431,6 +431,11 @@ const data = {
                 wide: "Zukangbonga",
                 short: "Zukangbonga",
                 narrow: "Zukangbonga"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

@@ -2677,6 +2677,11 @@ const data = {
                 wide: "зона",
                 short: "зона",
                 narrow: "зона"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

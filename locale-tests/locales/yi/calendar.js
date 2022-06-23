@@ -429,6 +429,11 @@ const data = {
                 wide: "צײַטזאנע",
                 short: "צײַטזאנע",
                 narrow: "צײַטזאנע"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

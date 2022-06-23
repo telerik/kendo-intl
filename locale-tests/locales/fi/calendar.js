@@ -479,6 +479,11 @@ const data = {
                 wide: "aikavyöhyke",
                 short: "aikavyöhyke",
                 narrow: "aikavyöhyke"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

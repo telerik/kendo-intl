@@ -2415,6 +2415,11 @@ const data = {
                 wide: "nutomegaƒoƒo",
                 short: "nutomegaƒoƒo",
                 narrow: "nutomegaƒoƒo"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

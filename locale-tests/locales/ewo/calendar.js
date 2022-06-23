@@ -428,6 +428,11 @@ const data = {
                 wide: "Nkɔŋ Awola",
                 short: "Nkɔŋ Awola",
                 narrow: "Nkɔŋ Awola"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

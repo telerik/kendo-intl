@@ -2385,6 +2385,11 @@ const data = {
                 wide: "Saat Qurşağı",
                 short: "qurşaq",
                 narrow: "qurşaq"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

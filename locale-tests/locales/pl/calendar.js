@@ -482,6 +482,11 @@ const data = {
                 wide: "strefa czasowa",
                 short: "str. czasowa",
                 narrow: "str. czas."
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

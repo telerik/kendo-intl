@@ -2159,6 +2159,11 @@ const data = {
                 wide: "સમય ઝોન",
                 short: "સમય ઝોન",
                 narrow: "સમય ઝોન"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

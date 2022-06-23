@@ -429,6 +429,11 @@ const data = {
                 wide: "Bere apaamu",
                 short: "Bere apaamu",
                 narrow: "Bere apaamu"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

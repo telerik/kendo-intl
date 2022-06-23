@@ -436,6 +436,11 @@ const data = {
                 wide: "Crios Ama",
                 short: "crios",
                 narrow: "crios"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

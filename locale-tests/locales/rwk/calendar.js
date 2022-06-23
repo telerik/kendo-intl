@@ -429,6 +429,11 @@ const data = {
                 wide: "Mfiri o saa",
                 short: "Mfiri o saa",
                 narrow: "Mfiri o saa"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

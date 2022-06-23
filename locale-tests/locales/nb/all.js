@@ -2439,6 +2439,11 @@ const data = {
                 wide: "tidssone",
                 short: "tidssone",
                 narrow: "tidssone"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

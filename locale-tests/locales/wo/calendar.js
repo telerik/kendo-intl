@@ -428,6 +428,11 @@ const data = {
                 wide: "goxu waxtu",
                 short: "goxu waxtu",
                 narrow: "goxu waxtu"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

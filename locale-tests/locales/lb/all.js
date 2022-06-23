@@ -2351,6 +2351,11 @@ const data = {
                 wide: "Zäitzon",
                 short: "Zäitzon",
                 narrow: "Zäitzon"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

@@ -2343,6 +2343,11 @@ const data = {
                 wide: "zona horaria",
                 short: "zona",
                 narrow: "zona"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

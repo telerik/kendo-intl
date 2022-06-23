@@ -1944,6 +1944,11 @@ const data = {
                 wide: "زمونی منقطه",
                 short: "زمونی منقطه",
                 narrow: "زمونی منقطه"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

@@ -428,6 +428,11 @@ const data = {
                 wide: "qada demê",
                 short: "qad",
                 narrow: "qad"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

@@ -428,6 +428,11 @@ const data = {
                 wide: "kinúki kisikɛl ɔ́ pitɔŋ",
                 short: "kinúki kisikɛl ɔ́ pitɔŋ",
                 narrow: "kinúki kisikɛl ɔ́ pitɔŋ"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

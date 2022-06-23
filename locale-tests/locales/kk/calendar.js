@@ -466,6 +466,11 @@ const data = {
                 wide: "уақыт белдеуі",
                 short: "уақ. белдеуі",
                 narrow: "уақ. белдеуі"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

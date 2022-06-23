@@ -2141,6 +2141,11 @@ const data = {
                 wide: "時區",
                 short: "時區",
                 narrow: "時區"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

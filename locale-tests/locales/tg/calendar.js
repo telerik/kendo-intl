@@ -428,6 +428,11 @@ const data = {
                 wide: "минтақаи вақт",
                 short: "минтақаи вақт",
                 narrow: "минтақаи вақт"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

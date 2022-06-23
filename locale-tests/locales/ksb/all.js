@@ -1795,6 +1795,11 @@ const data = {
                 wide: "Majila",
                 short: "Majila",
                 narrow: "Majila"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

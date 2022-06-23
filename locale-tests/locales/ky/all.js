@@ -2158,6 +2158,11 @@ const data = {
                 wide: "убакыт алкагы",
                 short: "убакыт алкагы",
                 narrow: "убакыт алкагы"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

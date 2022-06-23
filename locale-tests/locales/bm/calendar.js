@@ -432,6 +432,11 @@ const data = {
                 wide: "sigikun tilena",
                 short: "sigikun tilena",
                 narrow: "sigikun tilena"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

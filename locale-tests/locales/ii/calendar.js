@@ -428,6 +428,11 @@ const data = {
                 wide: "ꃅꄷꄮꈉ",
                 short: "ꃅꄷꄮꈉ",
                 narrow: "ꃅꄷꄮꈉ"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

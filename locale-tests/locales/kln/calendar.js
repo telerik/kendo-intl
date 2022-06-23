@@ -429,6 +429,11 @@ const data = {
                 wide: "Saitab sonit",
                 short: "Saitab sonit",
                 narrow: "Saitab sonit"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

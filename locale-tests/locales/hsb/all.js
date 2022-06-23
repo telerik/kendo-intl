@@ -2545,6 +2545,11 @@ const data = {
                 wide: "časowe pasmo",
                 short: "časowe pasmo",
                 narrow: "časowe pasmo"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

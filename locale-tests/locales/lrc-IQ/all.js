@@ -1804,6 +1804,11 @@ const data = {
                 wide: "راساگە",
                 short: "راساگە",
                 narrow: "راساگە"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

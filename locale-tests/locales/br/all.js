@@ -3136,6 +3136,11 @@ const data = {
                 wide: "takad eur",
                 short: "takad",
                 narrow: "takad"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

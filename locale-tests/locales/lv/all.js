@@ -2364,6 +2364,11 @@ const data = {
                 wide: "laika josla",
                 short: "laika josla",
                 narrow: "laika josla"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

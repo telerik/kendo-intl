@@ -2174,6 +2174,11 @@ const data = {
                 wide: "временска зона",
                 short: "зона",
                 narrow: "зона"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

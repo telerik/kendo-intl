@@ -474,6 +474,11 @@ const data = {
                 wide: "Majira ya saa",
                 short: "eneo",
                 narrow: "eneo"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },

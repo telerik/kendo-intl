@@ -3018,6 +3018,11 @@ const data = {
                 wide: "roinn-tìde",
                 short: "roinn",
                 narrow: "roinn"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecond"
             }
         }
     },
