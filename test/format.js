@@ -1,8 +1,8 @@
 import { load } from '../src/cldr';
 import { toString, format } from '../src/format';
 
-const likelySubtags = require("cldr-data/supplemental/likelySubtags.json");
-const calendar = require("cldr-data/main/bg/ca-gregorian.json");
+const likelySubtags = require("cldr-core/supplemental/likelySubtags.json");
+const calendar = require("cldr-dates-full/main/bg/ca-gregorian.json");
 
 load(likelySubtags, calendar);
 

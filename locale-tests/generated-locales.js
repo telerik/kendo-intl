@@ -2,7 +2,7 @@ import { cldr, formatNumber, parseNumber, formatDate, parseDate, firstDay, weeke
 
 const fs = require('fs');
 const path = require('path');
-const locales = fs.readdirSync(path.join('./node_modules', 'cldr-data', 'main'));
+const locales = fs.readdirSync(path.join('./node_modules', 'cldr-localenames-full', 'main'));
 const defaultDataClone = clone(cldr);
 const NO_CURRENCY_LOCALE = 'es-419';
 
