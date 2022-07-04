@@ -1,10 +1,10 @@
 import { load, cldr } from '../src/cldr';
 import { formatNumber, parseNumber } from '../src/numbers';
 
-const likelySubtags = require("cldr-data/supplemental/likelySubtags.json");
-const numbers = require("cldr-data/main/bg/numbers.json");
-const currencies = require("cldr-data/main/bg/currencies.json");
-const currencyData = require("cldr-data/supplemental/currencyData.json");
+const likelySubtags = require("cldr-core/supplemental/likelySubtags.json");
+const numbers = require("cldr-numbers-full/main/bg/numbers.json");
+const currencies = require("cldr-numbers-full/main/bg/currencies.json");
+const currencyData = require("cldr-core/supplemental/currencyData.json");
 
 load(likelySubtags, currencyData, numbers, currencies);
 

@@ -3,11 +3,11 @@ import { formatDate, parseDate, splitDateFormat } from '../src/dates';
 import { convertTimeZone } from '../src/dates/time-utils';
 import pad from '../src/common/pad';
 
-const likelySubtags = require("cldr-data/supplemental/likelySubtags.json");
-const timeZoneNames = require("cldr-data/main/bg/timeZoneNames.json");
-const calendar = require("cldr-data/main/bg/ca-gregorian.json");
+const likelySubtags = require("cldr-core/supplemental/likelySubtags.json");
+const timeZoneNames = require("cldr-dates-full/main/bg/timeZoneNames.json");
+const calendar = require("cldr-dates-full/main/bg/ca-gregorian.json");
 
-load(likelySubtags, timeZoneNames, calendar, require("cldr-data/main/ko/timeZoneNames.json"), require("cldr-data/main/ko/ca-gregorian.json"), require("cldr-data/supplemental/weekData.json"));
+load(likelySubtags, timeZoneNames, calendar, require("cldr-dates-full/main/ko/timeZoneNames.json"), require("cldr-dates-full/main/ko/ca-gregorian.json"), require("cldr-core/supplemental/weekData.json"));
 
 Date.prototype.getTimezoneOffset = function() {
     return -120;

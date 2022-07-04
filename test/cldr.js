@@ -2,15 +2,15 @@ import { load, cldr, localeInfo, dateFieldName, dateFormatNames, firstDay, weeke
     localeCurrency, currencyDisplay, currencyFractionOptions, currencyDisplays, numberSymbols, setData } from '../src/cldr';
 import { errors } from '../src/errors';
 
-const likelySubtags = require("cldr-data/supplemental/likelySubtags.json");
-const numbers = require("cldr-data/main/bg/numbers.json");
-const timeZoneNames = require("cldr-data/main/bg/timeZoneNames.json");
-const calendar = require("cldr-data/main/bg/ca-gregorian.json");
-const currencies = require("cldr-data/main/bg/currencies.json");
-const dateFields = require("cldr-data/main/bg/dateFields.json");
-const weekData = require("cldr-data/supplemental/weekData.json");
-const currencyData = require("cldr-data/supplemental/currencyData.json");
-const arCalendar = require("cldr-data/main/ar-AE/ca-gregorian.json");
+const likelySubtags = require("cldr-core/supplemental/likelySubtags.json");
+const numbers = require("cldr-numbers-full/main/bg/numbers.json");
+const timeZoneNames = require("cldr-dates-full/main/bg/timeZoneNames.json");
+const calendar = require("cldr-dates-full/main/bg/ca-gregorian.json");
+const currencies = require("cldr-numbers-full/main/bg/currencies.json");
+const dateFields = require("cldr-dates-full/main/bg/dateFields.json");
+const weekData = require("cldr-core/supplemental/weekData.json");
+const currencyData = require("cldr-core/supplemental/currencyData.json");
+const arCalendar = require("cldr-dates-full/main/ar-AE/ca-gregorian.json");
 load(likelySubtags, weekData, currencyData, numbers, currencies, calendar, dateFields, timeZoneNames, arCalendar);
 
 describe('load', () => {
