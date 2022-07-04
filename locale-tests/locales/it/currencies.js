@@ -27,7 +27,8 @@ const data = {
                 displayName: "afghani",
                 "displayName-count-one": "afghani",
                 "displayName-count-other": "afghani",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -43,12 +44,13 @@ const data = {
                 displayName: "dram armeno",
                 "displayName-count-one": "dram armeno",
                 "displayName-count-other": "dram armeni",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "fiorino delle Antille olandesi",
                 "displayName-count-one": "fiorino delle Antille olandesi",
-                "displayName-count-other": "fiorino delle Antille olandesi",
+                "displayName-count-other": "fiorini delle Antille olandesi",
                 symbol: "ANG"
             },
             AOA: {
@@ -118,7 +120,8 @@ const data = {
                 displayName: "manat azero",
                 "displayName-count-one": "manat azero",
                 "displayName-count-other": "manat azeri",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "dinar Bosnia-Herzegovina",
@@ -348,9 +351,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             CNH: {
-                displayName: "CNH",
-                "displayName-count-one": "CNH",
-                "displayName-count-other": "CNH",
+                displayName: "renmimbi cinese offshore",
+                "displayName-count-one": "renmimbi cinese offshore",
+                "displayName-count-other": "renmimbi cinesi offshore",
                 symbol: "CNH"
             },
             CNX: {
@@ -544,8 +547,7 @@ const data = {
                 "displayName-count-one": "lari georgiano",
                 "displayName-count-other": "lari georgiani",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "ლ"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "cedi del Ghana",
@@ -555,7 +557,8 @@ const data = {
                 displayName: "cedi ghanese",
                 "displayName-count-one": "cedi ghanese",
                 "displayName-count-other": "cedi ghanesi",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "sterlina di Gibilterra",
@@ -679,7 +682,7 @@ const data = {
                 displayName: "rupia indiana",
                 "displayName-count-one": "rupia indiana",
                 "displayName-count-other": "rupie indiane",
-                symbol: "₹",
+                symbol: "INR",
                 "symbol-alt-narrow": "₹"
             },
             IQD: {
@@ -708,6 +711,8 @@ const data = {
             ITL: {
                 pattern: "¤ #,##0.00",
                 displayName: "lira italiana",
+                "displayName-count-one": "lire italiane",
+                "displayName-count-other": "lire italiane",
                 symbol: "ITL",
                 decimal: ",",
                 group: "."
@@ -735,7 +740,7 @@ const data = {
             KES: {
                 displayName: "scellino keniota",
                 "displayName-count-one": "scellino keniota",
-                "displayName-count-other": "scellini keniota",
+                "displayName-count-other": "scellini kenioti",
                 symbol: "KES"
             },
             KGS: {
@@ -830,6 +835,8 @@ const data = {
             },
             LSL: {
                 displayName: "loti del Lesotho",
+                "displayName-count-one": "loti del Lesotho",
+                "displayName-count-other": "maloti del Lesotho",
                 symbol: "LSL"
             },
             LTL: {
@@ -908,13 +915,15 @@ const data = {
                 symbol: "MGF"
             },
             MKD: {
-                displayName: "denar macedone",
+                displayName: "dinaro macedone",
                 "displayName-count-one": "dinaro macedone",
                 "displayName-count-other": "dinari macedoni",
                 symbol: "MKD"
             },
             MKN: {
-                displayName: "MKN",
+                displayName: "dinaro macedone (1992–1993)",
+                "displayName-count-one": "dinaro macedone (1992–1993)",
+                "displayName-count-other": "dinari macedoni (1992–1993)",
                 symbol: "MKN"
             },
             MLF: {
@@ -1108,7 +1117,7 @@ const data = {
                 displayName: "peso filippino",
                 "displayName-count-one": "peso filippino",
                 "displayName-count-other": "pesos filippini",
-                symbol: "PHP",
+                symbol: "₱",
                 "symbol-alt-narrow": "₱"
             },
             PKR: {
@@ -1178,8 +1187,7 @@ const data = {
             },
             RUR: {
                 displayName: "rublo della CSI",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "franco ruandese",
@@ -1249,6 +1257,10 @@ const data = {
             SKK: {
                 displayName: "corona slovacca",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "leone della Sierra Leone",
@@ -1459,6 +1471,10 @@ const data = {
                 "displayName-count-other": "bolivares venezuelani (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "bolívar venezuelano (2008–2018)",
                 "displayName-count-one": "bolívar venezuelano (2008–2018)",
@@ -1476,7 +1492,7 @@ const data = {
                 displayName: "dong vietnamita",
                 "displayName-count-one": "dong vietnamita",
                 "displayName-count-other": "dong vietnamiti",
-                symbol: "₫",
+                symbol: "VND",
                 "symbol-alt-narrow": "₫"
             },
             VNN: {
@@ -1552,7 +1568,7 @@ const data = {
                 displayName: "franco CFA BCEAO",
                 "displayName-count-one": "franco CFA BCEAO",
                 "displayName-count-other": "franchi CFA BCEAO",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "palladio",
@@ -1634,7 +1650,7 @@ const data = {
                 symbol: "ZMK"
             },
             ZMW: {
-                displayName: "kwacha dello Zambia",
+                displayName: "kwacha zambiano",
                 "displayName-count-one": "kwacha zambiano",
                 "displayName-count-other": "kwacha zambiani",
                 symbol: "ZMW",

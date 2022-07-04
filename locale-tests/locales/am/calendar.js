@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "M/d/y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "G y MMM d",
                 GyMMMEd: "G y MMM d, E",
@@ -63,7 +64,8 @@ const data = {
                 MMMEd: "E፣ MMM d",
                 MMMMd: "MMMM d",
                 MMMMEd: "E፣ MMMM d",
-                "MMMMW-count-other": "'week' W 'of' MMMM",
+                "MMMMW-count-one": "ሳምንት W የ MMMM",
+                "MMMMW-count-other": "ሳምንት W የ MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M/y",
@@ -378,13 +380,13 @@ const data = {
                 abbreviated: {
                     "0": "ዓ/ዓ",
                     "1": "ዓ/ም",
-                    "0-alt-variant": "BCE",
+                    "0-alt-variant": "ዓ/ዓ",
                     "1-alt-variant": "CE"
                 },
                 narrow: {
                     "0": "ዓ/ዓ",
                     "1": "ዓ/ም",
-                    "0-alt-variant": "BCE",
+                    "0-alt-variant": "ዓ/ዓ",
                     "1-alt-variant": "CE"
                 }
             }

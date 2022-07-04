@@ -9,7 +9,7 @@ const data = {
     territory: "PL",
     calendar: {
         patterns: {
-            d: "dd.MM.y",
+            d: "d.MM.y",
             D: "EEEE, d MMMM y",
             m: "d MMM",
             M: "d MMMM",
@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E, h:mm:ss a",
                 EHms: "E, HH:mm:ss",
                 Gy: "y G",
+                GyMd: "d.MM.y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E, d MMM y G",
@@ -99,7 +100,7 @@ const data = {
             full: "EEEE, d MMMM y",
             long: "d MMMM y",
             medium: "d MMM y",
-            short: "dd.MM.y"
+            short: "d.MM.y"
         },
         days: {
             format: {

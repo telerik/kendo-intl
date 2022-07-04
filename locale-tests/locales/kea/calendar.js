@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E, h:mm:ss a",
                 EHms: "E, HH:mm:ss",
                 Gy: "y G",
+                GyMd: "dd/MM/y GGGGG",
                 GyMMM: "LLL y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E, d MMM y G",
@@ -129,7 +130,7 @@ const data = {
                     "kuarta-fera",
                     "kinta-fera",
                     "sesta-fera",
-                    "sabadu"
+                    "sábadu"
                 ]
             },
             "stand-alone": {

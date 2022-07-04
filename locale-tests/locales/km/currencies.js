@@ -25,7 +25,8 @@ const data = {
             AFN: {
                 displayName: "អាហ្វហ្គានី​អាហ្វហ្គានីស្ថាន",
                 "displayName-count-other": "អាហ្វហ្គានី​អាហ្វហ្គានីស្ថាន",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -38,8 +39,8 @@ const data = {
             },
             AMD: {
                 displayName: "ដ្រាំ​អាមេនី",
-                "displayName-count-other": "ដ្រាំ អាមេនី",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "ហ្គីឌិន​ហុល្លង់​អង់ទីលៀន",
@@ -108,7 +109,8 @@ const data = {
             AZN: {
                 displayName: "ម៉ាណាត​អាស៊ែបៃហ្សង់",
                 "displayName-count-other": "ម៉ាណាត​អាស៊ែបៃហ្សង់",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -182,8 +184,8 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             BND: {
-                displayName: "ដុល្លារ​ប្រុយណេ",
-                "displayName-count-other": "ដុល្លារ​ប្រុយណេ",
+                displayName: "ដុល្លារព្រុយណេ",
+                "displayName-count-other": "ដុល្លារព្រុយណេ",
                 symbol: "BND",
                 "symbol-alt-narrow": "$"
             },
@@ -316,8 +318,8 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             CNH: {
-                displayName: "យ៉ន់ចិន (ក្រៅប្រទេស)",
-                "displayName-count-other": "យ៉ន់ចិន (ក្រៅប្រទេស)",
+                displayName: "យ័នចិន (ក្រៅប្រទេស)",
+                "displayName-count-other": "យ័នចិន (ក្រៅប្រទេស)",
                 symbol: "CNH"
             },
             CNX: {
@@ -325,8 +327,8 @@ const data = {
                 symbol: "CNX"
             },
             CNY: {
-                displayName: "យ៉ន់​ចិន",
-                "displayName-count-other": "យ៉ន់​ចិន",
+                displayName: "យ័នចិន",
+                "displayName-count-other": "យ័នចិន",
                 symbol: "CN¥",
                 "symbol-alt-narrow": "¥"
             },
@@ -492,8 +494,7 @@ const data = {
                 displayName: "ឡារី​​ហ្សកហ្ស៊ី",
                 "displayName-count-other": "ឡារី​​ហ្សកហ្ស៊ី",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "GHC",
@@ -502,7 +503,8 @@ const data = {
             GHS: {
                 displayName: "ស៊ីឌី​ហ្គាណា",
                 "displayName-count-other": "ស៊ីឌី​ហ្គាណា",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "ផោន​ហ្ស៊ីប្រាល់តា",
@@ -741,8 +743,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "LSL",
-                symbol: "LSL"
+                displayName: "ឡូទីឡេសូតូ",
+                "displayName-count-other": "ឡូទីឡេសូតូ",
+                symbol: "ឡូទី"
             },
             LTL: {
                 displayName: "លីតា​លីទុយអានី",
@@ -931,8 +934,8 @@ const data = {
                 symbol: "NIC"
             },
             NIO: {
-                displayName: "ខឌូបា​នីការ៉ាហ្គា",
-                "displayName-count-other": "ខឌូបា​នីការ៉ាហ្គា",
+                displayName: "ខឌូបា​នីការ៉ាហ្កា",
+                "displayName-count-other": "ខឌូបា​នីការ៉ាហ្កា",
                 symbol: "NIO",
                 "symbol-alt-narrow": "C$"
             },
@@ -1050,8 +1053,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "ហ្វ្រង់​រវ៉ាន់ដា",
@@ -1113,6 +1115,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "លីអ៊ុន​សៀរ៉ាឡេអូន",
@@ -1297,6 +1303,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "ប៊ូលីវ៉ា​វ៉េណេស៊ុយអេឡា (2008–2018)",
                 "displayName-count-other": "ប៊ូលីវ៉ា​វ៉េណេស៊ុយអេឡា (2008–2018)",
@@ -1382,7 +1392,7 @@ const data = {
             XOF: {
                 displayName: "ហ្វ្រង់ CFA អាហ្វ្រិកខាងលិច",
                 "displayName-count-other": "ហ្វ្រង់ CFA អាហ្វ្រិកខាងលិច",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",

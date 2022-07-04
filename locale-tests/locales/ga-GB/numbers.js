@@ -16,11 +16,12 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
             infinity: "∞",
-            nan: "NaN",
+            nan: "Nuimh",
             timeSeparator: ":"
         },
         decimal: {

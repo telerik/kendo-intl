@@ -27,7 +27,8 @@ const data = {
                 displayName: "ОвхӀан-пачхьалкхан афгани",
                 "displayName-count-one": "ОвхӀан-пачхьалкхан афгани",
                 "displayName-count-other": "ОвхӀан-пачхьалкхан афганиш",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -43,7 +44,8 @@ const data = {
                 displayName: "Эрмалойчоьнан драм",
                 "displayName-count-one": "Эрмалойчоьнан драм",
                 "displayName-count-other": "Эрмалойчоьнан драмаш",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Нидерландин Антилин гульден",
@@ -118,7 +120,8 @@ const data = {
                 displayName: "Азербайджанан манат",
                 "displayName-count-one": "Азербайджанан манат",
                 "displayName-count-other": "Азербайджанан манаташ",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -540,8 +543,7 @@ const data = {
                 "displayName-count-one": "Гуьржийчоьнан лари",
                 "displayName-count-other": "Гуьржийчоьнан лариш",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "GHC",
@@ -551,7 +553,8 @@ const data = {
                 displayName: "Ганан седи",
                 "displayName-count-one": "Ганан седи",
                 "displayName-count-other": "Ганан седиш",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Гибралтаран фунт",
@@ -1163,8 +1166,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Руандан франк",
@@ -1234,6 +1236,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Леоне",
@@ -1440,6 +1446,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "Венесуэлан боливар (2008–2018)",
                 "displayName-count-one": "Венесуэлан боливар (2008–2018)",
@@ -1533,7 +1543,7 @@ const data = {
                 displayName: "Малхбузен Африкан КФА франк",
                 "displayName-count-one": "Малхбузен Африкан КФА франк",
                 "displayName-count-other": "Малхбузен Африкан КФА франк",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",

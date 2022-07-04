@@ -13,6 +13,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "≈",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -84,7 +85,8 @@ const data = {
                 displayName: "afghani afghan",
                 "displayName-count-one": "afghani afghan",
                 "displayName-count-other": "afghanis afghan",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "lek albanais (1947–1961)",
@@ -102,7 +104,8 @@ const data = {
                 displayName: "dram arménien",
                 "displayName-count-one": "dram arménien",
                 "displayName-count-other": "drams arméniens",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "florin antillais",
@@ -191,7 +194,8 @@ const data = {
                 displayName: "manat azerbaïdjanais",
                 "displayName-count-one": "manat azerbaïdjanais",
                 "displayName-count-other": "manats azerbaïdjanais",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "dinar bosniaque",
@@ -649,9 +653,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             FKP: {
-                displayName: "livre des Îles Malouines",
-                "displayName-count-one": "livre des Îles Malouines",
-                "displayName-count-other": "livres des Îles Malouines",
+                displayName: "livre des îles Malouines",
+                "displayName-count-one": "livre des îles Malouines",
+                "displayName-count-other": "livres des îles Malouines",
                 symbol: "FKP",
                 "symbol-alt-narrow": "£"
             },
@@ -679,8 +683,7 @@ const data = {
                 "displayName-count-one": "lari géorgien",
                 "displayName-count-other": "lari géorgiens",
                 symbol: "GEL",
-                "symbol-alt-narrow": "GEL",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "GEL"
             },
             GHC: {
                 displayName: "cédi",
@@ -692,7 +695,8 @@ const data = {
                 displayName: "cédi ghanéen",
                 "displayName-count-one": "cédi ghanéen",
                 "displayName-count-other": "cédis ghanéens",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "livre de Gibraltar",
@@ -1374,8 +1378,7 @@ const data = {
                 displayName: "rouble russe (1991–1998)",
                 "displayName-count-one": "rouble russe (1991–1998)",
                 "displayName-count-other": "roubles russes (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "franc rwandais",
@@ -1453,6 +1456,10 @@ const data = {
                 "displayName-count-one": "couronne slovaque",
                 "displayName-count-other": "couronnes slovaques",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "leone sierra-léonais",
@@ -1686,6 +1693,10 @@ const data = {
                 "displayName-count-one": "bolivar vénézuélien (1871–2008)",
                 "displayName-count-other": "bolivar vénézuélien (1871–2008)",
                 symbol: "VEB"
+            },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
             },
             VEF: {
                 displayName: "bolivar vénézuélien (2008–2018)",
@@ -1956,7 +1967,7 @@ const data = {
         dateTimeFormats: {
             full: "{1} 'à' {0}",
             long: "{1} 'à' {0}",
-            medium: "{1} {0}",
+            medium: "{1}, {0}",
             short: "{1} {0}",
             availableFormats: {
                 Bh: "h 'h' B",
@@ -1972,6 +1983,7 @@ const data = {
                 Ehms: "E h 'h' mm 'min' ss 's' a",
                 EHms: "E HH 'h' mm 'min' ss 's'",
                 Gy: "y G",
+                GyMd: "y-MM-dd GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E d MMM y G",

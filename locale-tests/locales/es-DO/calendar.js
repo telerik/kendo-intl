@@ -14,7 +14,7 @@ const data = {
             D: "EEEE, d 'de' MMMM 'de' y",
             m: "d MMM",
             M: "d 'de' MMMM",
-            y: "MMMM 'de' y",
+            y: "MMM y",
             Y: "MMMM 'de' y",
             F: "EEEE, d 'de' MMMM 'de' y h:mm:ss a",
             g: "d/M/y h:mm a",
@@ -25,10 +25,10 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} 'a' 'las' {0}",
-            long: "{1} 'a' 'las' {0}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1} {0}",
-            short: "{1} {0}",
+            short: "{1}, {0}",
             availableFormats: {
                 Bh: "h B",
                 Bhm: "h:mm B",
@@ -43,6 +43,7 @@ const data = {
                 Ehms: "E, h:mm:ss a",
                 EHms: "E, HH:mm:ss",
                 Gy: "y G",
+                GyMd: "d/M/y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d 'de' MMM 'de' y G",
                 GyMMMEd: "E, d MMM y G",
@@ -56,11 +57,11 @@ const data = {
                 hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
                 hmsv: "h:mm:ss a v",
-                Hmsv: "H:mm:ss v",
+                Hmsv: "HH:mm:ss v",
                 hmsvvvv: "h:mm:ss a (vvvv)",
-                Hmsvvvv: "H:mm:ss (vvvv)",
+                Hmsvvvv: "HH:mm:ss vvvv",
                 hmv: "h:mm a v",
-                Hmv: "H:mm v",
+                Hmv: "HH:mm v",
                 M: "L",
                 Md: "d/M",
                 MEd: "E, d/M",
@@ -80,9 +81,9 @@ const data = {
                 yMd: "d/M/y",
                 yMEd: "E d/M/y",
                 yMM: "M/y",
-                yMMM: "MMMM 'de' y",
+                yMMM: "MMM y",
                 yMMMd: "d MMM 'de' y",
-                yMMMEd: "E, d 'de' MMM 'de' y",
+                yMMMEd: "E, d MMM y",
                 yMMMM: "MMMM 'de' y",
                 yMMMMd: "d 'de' MMMM 'de' y",
                 yMMMMEd: "EEE, d 'de' MMMM 'de' y",
@@ -107,13 +108,13 @@ const data = {
         days: {
             format: {
                 abbreviated: [
-                    "dom.",
-                    "lun.",
-                    "mar.",
-                    "mié.",
-                    "jue.",
-                    "vie.",
-                    "sáb."
+                    "dom",
+                    "lun",
+                    "mar",
+                    "mié",
+                    "jue",
+                    "vie",
+                    "sáb"
                 ],
                 narrow: [
                     "D",
@@ -145,13 +146,13 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "dom.",
-                    "lun.",
-                    "mar.",
-                    "mié.",
-                    "jue.",
-                    "vie.",
-                    "sáb."
+                    "dom",
+                    "lun",
+                    "mar",
+                    "mié",
+                    "jue",
+                    "vie",
+                    "sáb"
                 ],
                 narrow: [
                     "D",
@@ -185,18 +186,18 @@ const data = {
         months: {
             format: {
                 abbreviated: [
-                    "ene.",
-                    "feb.",
-                    "mar.",
-                    "abr.",
-                    "may.",
-                    "jun.",
-                    "jul.",
-                    "ago.",
-                    "sep.",
-                    "oct.",
-                    "nov.",
-                    "dic."
+                    "ene",
+                    "feb",
+                    "mar",
+                    "abr",
+                    "may",
+                    "jun",
+                    "jul",
+                    "ago",
+                    "sept",
+                    "oct",
+                    "nov",
+                    "dic"
                 ],
                 narrow: [
                     "E",
@@ -229,18 +230,18 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "ene.",
-                    "feb.",
-                    "mar.",
-                    "abr.",
-                    "may.",
-                    "jun.",
-                    "jul.",
-                    "ago.",
-                    "sep.",
-                    "oct.",
-                    "nov.",
-                    "dic."
+                    "ene",
+                    "feb",
+                    "mar",
+                    "abr",
+                    "may",
+                    "jun",
+                    "jul",
+                    "ago",
+                    "sept",
+                    "oct",
+                    "nov",
+                    "dic"
                 ],
                 narrow: [
                     "E",

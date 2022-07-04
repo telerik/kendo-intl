@@ -25,9 +25,9 @@ const data = {
         },
         dateTimeFormats: {
             full: "{1} {0}",
-            long: "{1} {0}",
-            medium: "{1} {0}",
-            short: "{1} {0}",
+            long: "{1} 'da' {0}",
+            medium: "{1}, {0}",
+            short: "{1}, {0}",
             availableFormats: {
                 Bh: "h B",
                 Bhm: "h:mm B",
@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "G y MMM",
                 GyMMMd: "G y MMM d",
                 GyMMMEd: "G y MMM d, E",
@@ -63,7 +64,8 @@ const data = {
                 MMMEd: "E, MMM d",
                 MMMMd: "MMMM d",
                 MMMMEd: "E, MMMM d",
-                "MMMMW-count-other": "'week' W 'of' MMMM",
+                "MMMMW-count-one": "'satin' W 'cikin' MMMM",
+                "MMMMW-count-other": "'satin' W 'cikin' MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M/y",
@@ -75,7 +77,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-other": "'week' w 'of' Y"
+                "yw-count-one": "'sati' w 'cikin' Y",
+                "yw-count-other": "'sati' w 'cikin' Y"
             }
         },
         timeFormats: {
@@ -303,12 +306,12 @@ const data = {
         dayPeriods: {
             format: {
                 abbreviated: {
-                    am: "AM",
-                    pm: "PM"
+                    am: "SF",
+                    pm: "YM"
                 },
                 narrow: {
-                    am: "AM",
-                    pm: "PM"
+                    am: "SF",
+                    pm: "YM"
                 },
                 wide: {
                     am: "Safiya",
@@ -317,16 +320,16 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: {
-                    am: "AM",
-                    pm: "PM"
+                    am: "SF",
+                    pm: "YM"
                 },
                 narrow: {
-                    am: "AM",
-                    pm: "PM"
+                    am: "SF",
+                    pm: "YM"
                 },
                 wide: {
-                    am: "AM",
-                    pm: "PM"
+                    am: "SF",
+                    pm: "YM"
                 }
             }
         },
@@ -336,7 +339,7 @@ const data = {
                     "0": "Kafin haihuwar annab",
                     "1": "Bayan haihuwar annab",
                     "0-alt-variant": "K.H.Y",
-                    "1-alt-variant": "sananne Zamani"
+                    "1-alt-variant": "Sanannen Zamani"
                 },
                 abbreviated: {
                     "0": "K.H",
@@ -356,29 +359,29 @@ const data = {
         gmtZeroFormat: "GMT",
         dateFields: {
             era: {
-                wide: "Zamani",
-                short: "Zamani",
-                narrow: "Zamani"
+                wide: "zamani",
+                short: "zamani",
+                narrow: "zamani"
             },
             year: {
-                wide: "Shekara",
-                short: "Shekara",
-                narrow: "Shekara"
+                wide: "shekara",
+                short: "shekara",
+                narrow: "shekara"
             },
             quarter: {
-                wide: "Kwata",
-                short: "Kwata",
-                narrow: "Kwata"
+                wide: "kwata",
+                short: "kwata",
+                narrow: "kwata"
             },
             month: {
-                wide: "Wata",
-                short: "Wata",
-                narrow: "Wata"
+                wide: "wata",
+                short: "wata",
+                narrow: "wata"
             },
             week: {
-                wide: "Mako",
-                short: "Mako",
-                narrow: "Mako"
+                wide: "mako",
+                short: "mako",
+                narrow: "mako"
             },
             weekOfMonth: {
                 wide: "Makon Wata",
@@ -386,9 +389,9 @@ const data = {
                 narrow: "Makon Wata"
             },
             day: {
-                wide: "Kwana",
-                short: "Kwana",
-                narrow: "Kwana"
+                wide: "kwana",
+                short: "kwana",
+                narrow: "kwana"
             },
             dayOfYear: {
                 wide: "Kwanan Shekara",
@@ -396,9 +399,9 @@ const data = {
                 narrow: "Kwanan Shekara"
             },
             weekday: {
-                wide: "Rana mako",
-                short: "Rana mako",
-                narrow: "Rana mako"
+                wide: "ranar mako",
+                short: "ranar mako",
+                narrow: "ranar mako"
             },
             weekdayOfMonth: {
                 wide: "Ranar Aikin Wata",
@@ -406,24 +409,24 @@ const data = {
                 narrow: "Ranar Aikin Wata"
             },
             dayperiod: {
-                short: "Lokuttan rana",
-                wide: "Lokuttan rana",
-                narrow: "Lokuttan rana"
+                short: "SF/YM",
+                wide: "SF/YM",
+                narrow: "SF/YM"
             },
             hour: {
-                wide: "Awa",
-                short: "Awa",
-                narrow: "Awa"
+                wide: "awa",
+                short: "awa",
+                narrow: "awa"
             },
             minute: {
-                wide: "Minti",
-                short: "Minti",
-                narrow: "Minti"
+                wide: "minti",
+                short: "minti",
+                narrow: "minti"
             },
             second: {
-                wide: "Daƙiƙa",
-                short: "Daƙiƙa",
-                narrow: "Daƙiƙa"
+                wide: "daƙiƙa",
+                short: "daƙiƙa",
+                narrow: "daƙiƙa"
             },
             zone: {
                 wide: "Lokacin yanki",

@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -82,7 +83,8 @@ const data = {
                 displayName: "আফগান আফগানী",
                 "displayName-count-one": "আফগান আফগানী",
                 "displayName-count-other": "আফগান আফগানী",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -98,7 +100,8 @@ const data = {
                 displayName: "আৰ্মেনিয়ান ড্ৰাম",
                 "displayName-count-one": "আৰ্মেনিয়ান ড্ৰাম",
                 "displayName-count-other": "আৰ্মেনিয়ান ড্ৰাম",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "নেডাৰলেণ্ডছ এণ্টিলিয়েন গিল্ডাৰ",
@@ -173,7 +176,8 @@ const data = {
                 displayName: "আজেৰবাইজানী মানাত",
                 "displayName-count-one": "আজেৰবাইজানী মানাত",
                 "displayName-count-other": "আজেৰবাইজানী মানাত",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -605,7 +609,8 @@ const data = {
                 displayName: "ঘানাৰ চেডি",
                 "displayName-count-one": "ঘানাৰ চেডি",
                 "displayName-count-other": "ঘানাৰ চেডি",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "জিব্ৰাল্টৰ পাউণ্ড",
@@ -876,7 +881,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "LSL",
+                displayName: "লেচোথো লোটি",
+                "displayName-count-one": "লেচোথো লোটি",
+                "displayName-count-other": "লেচোথো লোটিচ",
                 symbol: "LSL"
             },
             LTL: {
@@ -1217,8 +1224,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "ৰোৱান্দান ফ্ৰেংক",
@@ -1288,6 +1294,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "চিয়েৰা লিঅ’নৰ লিঅ’ন",
@@ -1496,6 +1506,10 @@ const data = {
                 "displayName-count-other": "ভেনিজুৱেলান বলিভাৰ (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "ভেনিজুৱেলান বলিভাৰ (2008–2018)",
                 "displayName-count-one": "ভেনিজুৱেলান বলিভাৰ (2008–2018)",
@@ -1589,7 +1603,7 @@ const data = {
                 displayName: "পশ্চিম আফ্ৰিকান CFA ফ্ৰেংক",
                 "displayName-count-one": "পশ্চিম আফ্ৰিকান CFA ফ্ৰেংক",
                 "displayName-count-other": "পশ্চিম আফ্ৰিকান CFA ফ্ৰেংক",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",
@@ -1733,6 +1747,7 @@ const data = {
                 Ehms: "E a h:mm:ss",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "d/M/y GGGGG",
                 GyMMM: "G y MMM",
                 GyMMMd: "G y MMM d",
                 GyMMMEd: "G y MMM d, E",

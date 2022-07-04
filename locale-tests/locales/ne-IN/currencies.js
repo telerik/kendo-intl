@@ -28,7 +28,8 @@ const data = {
                 displayName: "अफ्गान अफ्गानी",
                 "displayName-count-one": "अफ्गान अफ्गानी",
                 "displayName-count-other": "अफ्गान अफ्गानी",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -44,7 +45,8 @@ const data = {
                 displayName: "आर्मेनियाली ड्राम",
                 "displayName-count-one": "आर्मेनियाली ड्राम",
                 "displayName-count-other": "आर्मेनियाली ड्राम",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "नेदरल्याण्ड्स एन्टिलियन गिल्डर",
@@ -119,7 +121,8 @@ const data = {
                 displayName: "अजरबैजानी मानात",
                 "displayName-count-one": "अजरबैजानी मानात",
                 "displayName-count-other": "अजरबैजानी मानात",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -543,8 +546,7 @@ const data = {
                 "displayName-count-one": "जर्जियाली लारी",
                 "displayName-count-other": "जर्जियन लारी",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "GHC",
@@ -554,7 +556,8 @@ const data = {
                 displayName: "घानाली सेडी",
                 "displayName-count-one": "घानाली सेडी",
                 "displayName-count-other": "घानाली सेडी",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "जिब्राल्टर पाउण्ड",
@@ -825,7 +828,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "LSL",
+                displayName: "लेसोथो लोटी",
+                "displayName-count-one": "लेसोथो लोटी",
+                "displayName-count-other": "लेसोथो लोटिस",
                 symbol: "LSL"
             },
             LTL: {
@@ -1171,8 +1176,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "र्‌वाण्डाली फ्रान्क",
@@ -1242,6 +1246,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "सियरा लियोनेन लियोन",
@@ -1448,6 +1456,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "भेनेजुएलन बोलिभर (२००८–२०१८)",
                 "displayName-count-one": "भेनेजुएलन बोलिभर",
@@ -1541,7 +1553,7 @@ const data = {
                 displayName: "सीएफ्‌ए फ्रान्क बीसीइएओ",
                 "displayName-count-one": "सीएफ्‌ए फ्रान्क बीसीइएओ",
                 "displayName-count-other": "सीऐफ्‌ए फ्रान्क्स बीसीइएओ",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",

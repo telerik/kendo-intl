@@ -44,6 +44,7 @@ const data = {
                 Ehms: "(E) a h:mm:ss",
                 EHms: "(E) HH:mm:ss",
                 Gy: "G y년",
+                GyMd: "GGGGG y/M/d",
                 GyMMM: "G y년 MMM",
                 GyMMMd: "G y년 MMM d일",
                 GyMMMEd: "G y년 MMM d일 (E)",

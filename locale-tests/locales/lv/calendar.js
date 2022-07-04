@@ -16,8 +16,8 @@ const data = {
             y: "y. 'g'. MMM",
             Y: "y. 'g'. MMMM",
             F: "EEEE, y. 'gada' d. MMMM HH:mm:ss",
-            g: "y.MM.d. HH:mm",
-            G: "y.MM.d. HH:mm:ss",
+            g: "d.MM.y. HH:mm",
+            G: "d.MM.y. HH:mm:ss",
             t: "HH:mm",
             T: "HH:mm:ss",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E, h:mm:ss a",
                 EHms: "E, HH:mm:ss",
                 Gy: "G y. 'g'.",
+                GyMd: "GGGGG dd-MM-y",
                 GyMMM: "G y. 'g'. MMM",
                 GyMMMd: "G y. 'g'. d. MMM",
                 GyMMMEd: "E, G y. 'g'. d. MMM",
@@ -70,7 +71,7 @@ const data = {
                 ms: "mm:ss",
                 y: "y. 'g'.",
                 yM: "MM.y.",
-                yMd: "y.MM.d.",
+                yMd: "d.MM.y.",
                 yMEd: "E, d.M.y.",
                 yMMM: "y. 'g'. MMM",
                 yMMMd: "y. 'g'. d. MMM",
@@ -345,7 +346,7 @@ const data = {
                     noon: "pusd.",
                     pm: "pēcpusd.",
                     morning1: "rīts",
-                    afternoon1: "pēcpusdiena",
+                    afternoon1: "pēcpusd.",
                     evening1: "vakars",
                     night1: "nakts"
                 },
@@ -458,7 +459,7 @@ const data = {
             },
             minute: {
                 wide: "minūtes",
-                short: "min.",
+                short: "min",
                 narrow: "min"
             },
             second: {

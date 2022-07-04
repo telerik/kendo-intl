@@ -25,7 +25,8 @@ const data = {
             AFN: {
                 displayName: "Afghani Afghanistan",
                 "displayName-count-other": "Afghani Afghanistan",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -39,7 +40,8 @@ const data = {
             AMD: {
                 displayName: "Dram Armenia",
                 "displayName-count-other": "Dram Armenia",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Guilder Antillen Belanda",
@@ -108,7 +110,8 @@ const data = {
             AZN: {
                 displayName: "Manat Azerbaijan",
                 "displayName-count-other": "Manat Azerbaijan",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -430,7 +433,7 @@ const data = {
                 "symbol-alt-narrow": "E£"
             },
             ERN: {
-                displayName: "ERN",
+                displayName: "Nakfa Eritrea",
                 "displayName-count-other": "Nakfa Eritrea",
                 symbol: "ERN"
             },
@@ -501,7 +504,8 @@ const data = {
             GHS: {
                 displayName: "Cedi Ghana",
                 "displayName-count-other": "Cedi Ghana",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Paun Gibraltar",
@@ -809,7 +813,7 @@ const data = {
                 "symbol-alt-narrow": "Ar"
             },
             MGF: {
-                displayName: "MGF",
+                displayName: "Franc Malagasy",
                 symbol: "MGF"
             },
             MKD: {
@@ -901,11 +905,13 @@ const data = {
                 "symbol-alt-narrow": "RM"
             },
             MZE: {
-                displayName: "MZE",
+                displayName: "Escudo Mozambique",
+                "displayName-count-other": "Escudo Mozambique",
                 symbol: "MZE"
             },
             MZM: {
-                displayName: "MZM",
+                displayName: "Metical Mozambique (1980–2006)",
+                "displayName-count-other": "Metical Mozambique (1980–2006)",
                 symbol: "MZM"
             },
             MZN: {
@@ -1023,7 +1029,8 @@ const data = {
                 symbol: "QAR"
             },
             RHD: {
-                displayName: "RHD",
+                displayName: "Dolar Rhodesia",
+                "displayName-count-other": "Dolar Rhodesia",
                 symbol: "RHD"
             },
             ROL: {
@@ -1049,8 +1056,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Franc Rwanda",
@@ -1112,6 +1118,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Leone Sierra Leone",
@@ -1247,7 +1257,8 @@ const data = {
                 symbol: "UAK"
             },
             UGS: {
-                displayName: "UGS",
+                displayName: "Shilling Uganda (1966–1987)",
+                "displayName-count-other": "Shilling Uganda (1966–1987)",
                 symbol: "UGS"
             },
             UGX: {
@@ -1295,6 +1306,10 @@ const data = {
             VEB: {
                 displayName: "VEB",
                 symbol: "VEB"
+            },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
             },
             VEF: {
                 displayName: "Bolivar Venezuela (2008–2018)",
@@ -1381,7 +1396,7 @@ const data = {
             XOF: {
                 displayName: "Franc CFA BCEAO",
                 "displayName-count-other": "Franc CFA BCEAO",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",
@@ -1471,15 +1486,18 @@ const data = {
                 symbol: "ZRZ"
             },
             ZWD: {
-                displayName: "ZWD",
+                displayName: "Dolar Zimbabwe (1980–2008)",
+                "displayName-count-other": "Dolar Zimbabwe (1980–2008)",
                 symbol: "ZWD"
             },
             ZWL: {
-                displayName: "ZWL",
+                displayName: "Dolar Zimbabwe (2009)",
+                "displayName-count-other": "Dolar Zimbabwe (2009)",
                 symbol: "ZWL"
             },
             ZWR: {
-                displayName: "ZWR",
+                displayName: "Dolar Zimbabwe (2008)",
+                "displayName-count-other": "Dolar Zimbabwe (2008)",
                 symbol: "ZWR"
             }
         },

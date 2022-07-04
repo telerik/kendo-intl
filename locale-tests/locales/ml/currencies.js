@@ -31,7 +31,8 @@ const data = {
                 displayName: "അഫ്‌ഗാൻ അഫ്‌‌ഗാനി",
                 "displayName-count-one": "അഫ്‌ഗാൻ അഫ്‌‌ഗാനി",
                 "displayName-count-other": "അഫ്‌ഗാൻ അഫ്‌‌ഗാനി",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -47,7 +48,8 @@ const data = {
                 displayName: "അർമേനിയൻ ഡ്രാം",
                 "displayName-count-one": "അർമേനിയൻ ഡ്രാം",
                 "displayName-count-other": "അർമേനിയൻ ഡ്രാം",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "നെതർലാൻഡ്‌സ് ആന്റിലൻ ഗിൽഡർ",
@@ -136,7 +138,8 @@ const data = {
                 displayName: "അസർബൈജാനി മനത്",
                 "displayName-count-one": "അസർബൈജാനി മനത്",
                 "displayName-count-other": "അസർബൈജാനി മനത്",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "ബോസ്നിയ-ഹെർസഗോവിന ദിനാർ",
@@ -624,8 +627,7 @@ const data = {
                 "displayName-count-one": "ജോർജ്ജിയൻ ലാറി",
                 "displayName-count-other": "ജോർജ്ജിയൻ ലാറിസ്",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "ഘാന കെഡി (1979–2007)",
@@ -637,7 +639,8 @@ const data = {
                 displayName: "ഘാനയൻ കെഡി",
                 "displayName-count-one": "ഘാനയൻ കെഡി",
                 "displayName-count-other": "ഘാനയൻ കെഡി",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "ജിബ്രാൾട്ടർ പൗണ്ട്",
@@ -1293,8 +1296,7 @@ const data = {
             },
             RUR: {
                 displayName: "റഷ്യൻ റൂബിൾ (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "റുവാണ്ടൻ ഫ്രാങ്ക്",
@@ -1364,6 +1366,10 @@ const data = {
             SKK: {
                 displayName: "സ്ലോവാക് കൊരൂന",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "സിയെറ ലിയോണിയൻ ലിയോൺ",
@@ -1588,6 +1594,10 @@ const data = {
                 "displayName-count-other": "വെനസ്വേലൻ ബോലിവർസ് (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "വെനിസ്വേലൻ ബൊളീവർ (2008–2018)",
                 "displayName-count-one": "വെനിസ്വേലൻ ബൊളീവർ (2008–2018)",
@@ -1701,7 +1711,7 @@ const data = {
                 displayName: "പശ്ചിമ ആഫ്രിക്കൻ [CFA] ഫ്രാങ്ക്",
                 "displayName-count-one": "പശ്ചിമ ആഫ്രിക്കൻ [CFA] ഫ്രാങ്ക്",
                 "displayName-count-other": "പശ്ചിമ ആഫ്രിക്കൻ [CFA] ഫ്രാങ്ക്",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "പലാഡിയം",

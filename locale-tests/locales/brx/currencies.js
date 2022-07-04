@@ -23,7 +23,8 @@ const data = {
             },
             AFN: {
                 displayName: "अफ़ग़ानी",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -35,7 +36,8 @@ const data = {
             },
             AMD: {
                 displayName: "आरमिनियाई दिर्हाम",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "नेदरलैण्ड एन्टीलीज़ का गील्डर",
@@ -98,7 +100,8 @@ const data = {
             },
             AZN: {
                 displayName: "आज़रबैजानी मनात",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "बोसनिया हेर्ज़ेगोविना का दीनार",
@@ -199,7 +202,9 @@ const data = {
                 symbol: "BRE"
             },
             BRL: {
-                displayName: "ब्रज़ीली रेयाल",
+                displayName: "ब्राजिलनि रीयाल",
+                "displayName-count-one": "ब्राजिलनि रीयाल",
+                "displayName-count-other": "ब्राजिलनि रीयालफोर",
                 symbol: "R$",
                 "symbol-alt-narrow": "R$"
             },
@@ -239,8 +244,7 @@ const data = {
             },
             BYN: {
                 displayName: "बेलारुसी रूबल",
-                symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                symbol: "BYN"
             },
             BYR: {
                 displayName: "बेलारुसी रूबल (2000–2016)",
@@ -294,8 +298,10 @@ const data = {
                 symbol: "CNX"
             },
             CNY: {
-                displayName: "चीनी युआन रेनमीनबी",
-                symbol: "CN¥",
+                displayName: "चाइनीज युवान",
+                "displayName-count-one": "चाइनीज युवान",
+                "displayName-count-other": "चाइनीज युवान",
+                symbol: "सिएन¥",
                 "symbol-alt-narrow": "¥"
             },
             COP: {
@@ -409,6 +415,8 @@ const data = {
             },
             EUR: {
                 displayName: "युरो",
+                "displayName-count-one": "युरोस",
+                "displayName-count-other": "युरोस",
                 symbol: "€",
                 "symbol-alt-narrow": "€"
             },
@@ -431,7 +439,9 @@ const data = {
                 symbol: "FRF"
             },
             GBP: {
-                displayName: "ब्रितन का पौण्ड स्टर्लिग",
+                displayName: "ब्रिटिश पाउण्ड",
+                "displayName-count-one": "ब्रिटिश पाउण्ड",
+                "displayName-count-other": "ब्रिटिश पाउण्डफोर",
                 symbol: "£",
                 "symbol-alt-narrow": "£"
             },
@@ -450,7 +460,8 @@ const data = {
             },
             GHS: {
                 displayName: "घाना चेदी",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "जीब्रालटर का पौण्ड",
@@ -547,7 +558,9 @@ const data = {
                 "symbol-alt-narrow": "₪"
             },
             INR: {
-                displayName: "रां",
+                displayName: "भारतनि रुपी",
+                "displayName-count-one": "भारतनि रुपी",
+                "displayName-count-other": "भारतनि रुपी",
                 symbol: "₹",
                 "symbol-alt-narrow": "₹"
             },
@@ -583,6 +596,8 @@ const data = {
             },
             JPY: {
                 displayName: "जापानी येन",
+                "displayName-count-one": "जापानीज येन",
+                "displayName-count-other": "जापानीज येन",
                 symbol: "JP¥",
                 "symbol-alt-narrow": "¥"
             },
@@ -876,7 +891,7 @@ const data = {
             },
             PHP: {
                 displayName: "फ़िलिपीन का पेसो",
-                symbol: "PHP",
+                symbol: "₱",
                 "symbol-alt-narrow": "₱"
             },
             PKR: {
@@ -924,14 +939,15 @@ const data = {
                 symbol: "RSD"
             },
             RUB: {
-                displayName: "रूसी रूबल",
-                symbol: "RUB",
+                displayName: "रासियानि रूबल",
+                "displayName-count-one": "रासियानि रूबल",
+                "displayName-count-other": "रासियानि रूबलफोर",
+                symbol: "रूब",
                 "symbol-alt-narrow": "₽"
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "रुआँदा फ्राँ",
@@ -985,6 +1001,10 @@ const data = {
             SKK: {
                 displayName: "स्लोवाकी कोरुना",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "सीयेरा लीयोनेई लीयोने",
@@ -1110,8 +1130,10 @@ const data = {
                 symbol: "UGX"
             },
             USD: {
-                displayName: "अमरिकी डॉलर",
-                symbol: "US$",
+                displayName: "इउ.एस डलार",
+                "displayName-count-one": "इउ.एस डलार",
+                "displayName-count-other": "इउ.एस डलारफोर",
+                symbol: "$",
                 "symbol-alt-narrow": "$"
             },
             USN: {
@@ -1146,6 +1168,10 @@ const data = {
             VEB: {
                 displayName: "वेनेज़ुएलाई बोलिवार (1871–2008)",
                 symbol: "VEB"
+            },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
             },
             VEF: {
                 displayName: "वेनेज़ुएलाई बोलिवार (2008–2018)",
@@ -1224,7 +1250,7 @@ const data = {
             },
             XOF: {
                 displayName: "फ्रानसीसी फेदेरेशनी बीसीएआओ फ्राँ",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "पैलेडियम",
@@ -1256,6 +1282,8 @@ const data = {
             },
             XXX: {
                 displayName: "अज्ञात या अवैध मुद्रा",
+                "displayName-count-one": "मिथियै रां",
+                "displayName-count-other": "मिथियै रां",
                 symbol: "¤"
             },
             YDD: {

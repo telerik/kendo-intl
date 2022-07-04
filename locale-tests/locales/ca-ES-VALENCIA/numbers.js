@@ -1,5 +1,5 @@
 const data = {
-    name: "ca-ES-VALENCIA",
+    name: "ca-ES-valencia",
     likelySubtags: {
         ca: "ca-Latn-ES"
     },
@@ -17,6 +17,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",

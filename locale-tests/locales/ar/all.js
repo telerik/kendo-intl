@@ -12,6 +12,7 @@ const data = {
             percentSign: "‎%‎",
             plusSign: "‎+",
             minusSign: "‎-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -91,7 +92,8 @@ const data = {
                 "displayName-count-few": "أفغاني أفغانستاني",
                 "displayName-count-many": "أفغاني أفغانستاني",
                 "displayName-count-other": "أفغاني أفغانستاني",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -115,7 +117,8 @@ const data = {
                 "displayName-count-few": "درام أرميني",
                 "displayName-count-many": "درام أرميني",
                 "displayName-count-other": "درام أرميني",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "غيلدر أنتيلي هولندي",
@@ -214,7 +217,8 @@ const data = {
                 "displayName-count-few": "مانت أذربيجاني",
                 "displayName-count-many": "مانت أذربيجاني",
                 "displayName-count-other": "مانت أذربيجاني",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "دينار البوسنة والهرسك",
@@ -798,8 +802,7 @@ const data = {
                 "displayName-count-many": "لاري جورجي",
                 "displayName-count-other": "لاري جورجي",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "سيدي غاني",
@@ -813,7 +816,8 @@ const data = {
                 "displayName-count-few": "سيدي غانا",
                 "displayName-count-many": "سيدي غانا",
                 "displayName-count-other": "سيدي غانا",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "جنيه جبل طارق",
@@ -1213,6 +1217,12 @@ const data = {
             },
             LSL: {
                 displayName: "لوتي ليسوتو",
+                "displayName-count-zero": "لوتي ليسوتو",
+                "displayName-count-one": "لوتي ليسوتو",
+                "displayName-count-two": "لوتي ليسوتو",
+                "displayName-count-few": "لوتي ليسوتو",
+                "displayName-count-many": "لوتي ليسوتو",
+                "displayName-count-other": "لوتي ليسوتو",
                 symbol: "LSL"
             },
             LTL: {
@@ -1701,8 +1711,7 @@ const data = {
             },
             RUR: {
                 displayName: "روبل روسي - 1991-1998",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "فرنك رواندي",
@@ -1804,6 +1813,10 @@ const data = {
             SKK: {
                 displayName: "كرونة سلوفاكية",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "ليون سيراليوني",
@@ -2098,6 +2111,10 @@ const data = {
                 displayName: "بوليفار فنزويلي - 1871-2008",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "بوليفار فنزويلي - 2008–2018",
                 "displayName-count-zero": "بوليفار فنزويلي - 2008–2018",
@@ -2223,7 +2240,7 @@ const data = {
                 "displayName-count-few": "فرنك غرب أفريقي",
                 "displayName-count-many": "فرنك غرب أفريقي",
                 "displayName-count-other": "فرنك غرب أفريقي",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "بالاديوم",
@@ -2267,7 +2284,7 @@ const data = {
                 "displayName-count-few": "(عملة غير معروفة)",
                 "displayName-count-many": "(عملة غير معروفة)",
                 "displayName-count-other": "(عملة غير معروفة)",
-                symbol: "***"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "دينار يمني",
@@ -2375,10 +2392,10 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} {0}",
-            long: "{1} {0}",
-            medium: "{1} {0}",
-            short: "{1} {0}",
+            full: "{1} في {0}",
+            long: "{1} في {0}",
+            medium: "{1}, {0}",
+            short: "{1}, {0}",
             availableFormats: {
                 Bh: "h B",
                 Bhm: "h:mm B",
@@ -2393,6 +2410,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "dd-MM-y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E، d MMM y G",
@@ -2408,7 +2426,7 @@ const data = {
                 Hmv: "HH:mm v",
                 M: "L",
                 Md: "d/‏M",
-                MEd: "E، d/M",
+                MEd: "E، d/‏M",
                 MMdd: "dd‏/MM",
                 MMM: "LLL",
                 MMMd: "d MMM",
@@ -2673,7 +2691,7 @@ const data = {
                     afternoon1: "ظهرًا",
                     afternoon2: "بعد الظهر",
                     evening1: "مساءً",
-                    night1: "منتصف الليل",
+                    night1: "في المساء",
                     night2: "ليلاً"
                 },
                 narrow: {
@@ -2690,12 +2708,12 @@ const data = {
                 wide: {
                     am: "ص",
                     pm: "م",
-                    morning1: "فجرًا",
+                    morning1: "في الصباح",
                     morning2: "صباحًا",
                     afternoon1: "ظهرًا",
                     afternoon2: "بعد الظهر",
                     evening1: "مساءً",
-                    night1: "منتصف الليل",
+                    night1: "في المساء",
                     night2: "ليلاً"
                 }
             },

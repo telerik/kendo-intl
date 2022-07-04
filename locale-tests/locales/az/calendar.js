@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "GGGGG d MMM y",
                 GyMMM: "G MMM y",
                 GyMMMd: "G d MMM y",
                 GyMMMEd: "G d MMM y, E",
@@ -245,16 +246,16 @@ const data = {
                 ],
                 wide: [
                     "yanvar",
-                    "Fevral",
+                    "fevral",
                     "mart",
-                    "Aprel",
-                    "May",
-                    "İyun",
-                    "İyul",
-                    "Avqust",
-                    "Sentyabr",
-                    "Oktyabr",
-                    "Noyabr",
+                    "aprel",
+                    "may",
+                    "iyun",
+                    "iyul",
+                    "avqust",
+                    "sentyabr",
+                    "oktyabr",
+                    "noyabr",
                     "dekabr"
                 ]
             }

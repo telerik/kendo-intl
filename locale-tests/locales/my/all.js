@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -75,7 +76,8 @@ const data = {
             AFN: {
                 displayName: "အာဖဂန် အာဖဂါနီ",
                 "displayName-count-other": "အာဖဂန် အာဖဂါနီ",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -89,7 +91,8 @@ const data = {
             AMD: {
                 displayName: "အာမေးနီးယား ဒရမ်",
                 "displayName-count-other": "အာမေးနီးယား ဒရမ်",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "နယ်သာလန် အန်တီလန် ဂင်းဒါး",
@@ -158,7 +161,8 @@ const data = {
             AZN: {
                 displayName: "အဇာဘိုင်ဂျန် မာနတ်",
                 "displayName-count-other": "အဇာဘိုင်ဂျန် မာနတ်",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -175,8 +179,8 @@ const data = {
                 symbol: "BAN"
             },
             BBD: {
-                displayName: "ဘာဘေးဒီယန်း ဒေါ်လာ",
-                "displayName-count-other": "ဘာဘေးဒီယန်း ဒေါ်လာ",
+                displayName: "ဘာဘေးဒိုးစ် ဒေါ်လာ",
+                "displayName-count-other": "ဘာဘေးဒိုးစ် ဒေါ်လာ",
                 symbol: "BBD",
                 "symbol-alt-narrow": "Bds$"
             },
@@ -551,7 +555,8 @@ const data = {
             GHS: {
                 displayName: "ဂါနာ ဆဲဒီ",
                 "displayName-count-other": "ဂါနာ ဆဲဒီ",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "ဂျီဘရော်လ်တာ ပေါင်",
@@ -790,7 +795,8 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "LSL",
+                displayName: "လီဆိုသို လိုတီ",
+                "displayName-count-other": "လီဆိုသို လိုတီစ်",
                 symbol: "LSL"
             },
             LTL: {
@@ -1099,8 +1105,7 @@ const data = {
             },
             RUR: {
                 displayName: "ရုရှ ရူဘယ် (၁၉၉၁–၁၉၉၈)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "ရဝန်ဒါ ဖရန့်",
@@ -1162,6 +1167,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "ဆီယာရာလီယွန်း လီအိုနီ",
@@ -1346,6 +1355,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "ဗင်နီဇွဲလား ဘိုလီဗာ (၂၀၀၈–၂၀၁၈)",
                 "displayName-count-other": "ဗင်နီဇွဲလား ဘိုလီဗာ (၂၀၀၈–၂၀၁၈)",
@@ -1429,17 +1442,17 @@ const data = {
                 symbol: "XFU"
             },
             XOF: {
-                displayName: "အနောက် အာဖရိက CFA ဖရန့်",
-                "displayName-count-other": "အနောက် အာဖရိက CFA ဖရန့်",
-                symbol: "CFA"
+                displayName: "အနောက် အာဖရိက [CFA ]ဖရန့်",
+                "displayName-count-other": "အနောက် အာဖရိက [CFA] ဖရန့်",
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",
                 symbol: "XPD"
             },
             XPF: {
-                displayName: "CFP ဖရန့်",
-                "displayName-count-other": "CFP ဖရန့်",
+                displayName: "[CFP] ဖရန့်",
+                "displayName-count-other": "[CFP] ဖရန့်",
                 symbol: "CFPF"
             },
             XPT: {
@@ -1538,16 +1551,16 @@ const data = {
     calendar: {
         patterns: {
             d: "dd-MM-y",
-            D: "y၊ MMMM d၊ EEEE",
+            D: "y- MMMM d- EEEE",
             m: "d MMM",
             M: "MMMM d",
             y: "MMM y",
             Y: "y MMMM",
-            F: "y၊ MMMM d၊ EEEE B HH:mm:ss",
-            g: "dd-MM-y B H:mm",
-            G: "dd-MM-y B HH:mm:ss",
-            t: "B H:mm",
-            T: "B HH:mm:ss",
+            F: "y- MMMM d- EEEE H:mm:ss",
+            g: "dd-MM-y H:mm",
+            G: "dd-MM-y H:mm:ss",
+            t: "H:mm",
+            T: "H:mm:ss",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
@@ -1570,9 +1583,10 @@ const data = {
                 Ehms: "E B h:mm:ss",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "G y MMM",
-                GyMMMd: "G y၊ MMM d",
-                GyMMMEd: "G y၊ MMM d၊ E",
+                GyMMMd: "G y- MMM d",
+                GyMMMEd: "G y- MMM d- E",
                 h: "B h",
                 H: "HH",
                 hm: "B h:mm",
@@ -1585,10 +1599,10 @@ const data = {
                 Hmv: "v HH:mm",
                 M: "L",
                 Md: "d/M",
-                MEd: "d/M၊ E",
+                MEd: "d-M- E",
                 MMM: "LLL",
                 MMMd: "d MMM",
-                MMMEd: "MMM d၊ E",
+                MMMEd: "MMM d- E",
                 MMMMd: "MMMM d",
                 MMMMEd: "MMMM d ရက် Eနေ့",
                 "MMMMW-count-other": "MMMM လ W ပတ်မြောက်",
@@ -1596,10 +1610,10 @@ const data = {
                 y: "y",
                 yM: "M/y",
                 yMd: "dd-MM-y",
-                yMEd: "d/M/y၊ E",
+                yMEd: "d/M/y- E",
                 yMMM: "MMM y",
-                yMMMd: "y၊ MMM d",
-                yMMMEd: "y၊ MMM d၊ E",
+                yMMMd: "y- MMM d",
+                yMMMEd: "y- MMM d- E",
                 yMMMM: "y MMMM",
                 yQQQ: "y QQQ",
                 yQQQQ: "y QQQQ",
@@ -1609,13 +1623,13 @@ const data = {
         timeFormats: {
             full: "zzzz HH:mm:ss",
             long: "z HH:mm:ss",
-            medium: "B HH:mm:ss",
-            short: "B H:mm"
+            medium: "H:mm:ss",
+            short: "H:mm"
         },
         dateFormats: {
-            full: "y၊ MMMM d၊ EEEE",
-            long: "y၊ d MMMM",
-            medium: "y၊ MMM d",
+            full: "y- MMMM d- EEEE",
+            long: "y- MMMM d",
+            medium: "y- MMM d",
             short: "dd-MM-yy"
         },
         days: {

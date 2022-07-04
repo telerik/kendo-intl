@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -84,7 +85,8 @@ const data = {
                 displayName: "Afghaanske afghani",
                 "displayName-count-one": "Afghaanske afghani",
                 "displayName-count-other": "Afghaanske afghani",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -100,7 +102,8 @@ const data = {
                 displayName: "Armeense dram",
                 "displayName-count-one": "Armeense dram",
                 "displayName-count-other": "Armeense dram",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Nederlânsk-Antilliaanske gûne",
@@ -193,7 +196,8 @@ const data = {
                 displayName: "Azerbeidzjaanske manat",
                 "displayName-count-one": "Azerbeidzjaanske manat",
                 "displayName-count-other": "Azerbeidzjaanske manat",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "Bosnyske dinar",
@@ -400,8 +404,7 @@ const data = {
                 displayName: "Wit-Russyske roebel",
                 "displayName-count-one": "Wit-Russyske roebel",
                 "displayName-count-other": "Wit-Russyske roebel",
-                symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                symbol: "BYN"
             },
             BYR: {
                 displayName: "Wit-Russyske roebel (2000–2016)",
@@ -703,7 +706,8 @@ const data = {
                 displayName: "Ghanese cedi",
                 "displayName-count-one": "Ghanese cedi",
                 "displayName-count-other": "Ghanese cedi",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Gibraltarees pûn",
@@ -1317,7 +1321,7 @@ const data = {
                 displayName: "Filipynske peso",
                 "displayName-count-one": "Filipynske peso",
                 "displayName-count-other": "Filipynske peso",
-                symbol: "PHP",
+                symbol: "₱",
                 "symbol-alt-narrow": "₱"
             },
             PKR: {
@@ -1395,8 +1399,7 @@ const data = {
                 displayName: "Russyske roebel (1991–1998)",
                 "displayName-count-one": "Russyske roebel (1991–1998)",
                 "displayName-count-other": "Russyske roebel (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Rwandese frank",
@@ -1474,6 +1477,10 @@ const data = {
                 "displayName-count-one": "Slowaakse koruna",
                 "displayName-count-other": "Slowaakse koruna",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Sierraleoonse leone",
@@ -1708,6 +1715,10 @@ const data = {
                 "displayName-count-other": "Fenezolaanske bolivar (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "Fenezolaanske bolivar (2008–2018)",
                 "displayName-count-one": "Fenezolaanske bolivar (2008–2018)",
@@ -1823,7 +1834,7 @@ const data = {
                 displayName: "CFA-franc BCEAO",
                 "displayName-count-one": "CFA-franc BCEAO",
                 "displayName-count-other": "CFA-franc BCEAO",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "Palladium",
@@ -2003,6 +2014,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E d MMM y G",

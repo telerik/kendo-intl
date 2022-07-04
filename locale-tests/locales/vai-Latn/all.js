@@ -13,6 +13,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -75,7 +76,8 @@ const data = {
             },
             AFN: {
                 displayName: "AFN",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -87,7 +89,8 @@ const data = {
             },
             AMD: {
                 displayName: "AMD",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "ANG",
@@ -150,7 +153,8 @@ const data = {
             },
             AZN: {
                 displayName: "AZN",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -291,8 +295,7 @@ const data = {
             },
             BYN: {
                 displayName: "BYN",
-                symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                symbol: "BYN"
             },
             BYR: {
                 displayName: "BYR",
@@ -502,7 +505,8 @@ const data = {
             },
             GHS: {
                 displayName: "GHS",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "GIP",
@@ -928,7 +932,7 @@ const data = {
             },
             PHP: {
                 displayName: "PHP",
-                symbol: "PHP",
+                symbol: "₱",
                 "symbol-alt-narrow": "₱"
             },
             PKR: {
@@ -982,8 +986,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Rawunda Furaŋki",
@@ -1037,6 +1040,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Liyɔɔ̀",
@@ -1199,6 +1206,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "VEF",
                 symbol: "VEF",
@@ -1276,7 +1287,7 @@ const data = {
             },
             XOF: {
                 displayName: "Áfíríka Tele Jíí Sifa",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",
@@ -1410,6 +1421,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "G y MMM",
                 GyMMMd: "G y MMM d",
                 GyMMMEd: "G y MMM d, E",
@@ -1538,18 +1550,18 @@ const data = {
         months: {
             format: {
                 abbreviated: [
-                    "luukao kemã",
-                    "ɓandaɓu",
-                    "vɔɔ",
-                    "fulu",
-                    "goo",
-                    "6",
-                    "7",
-                    "kɔnde",
-                    "saah",
-                    "galo",
-                    "kenpkato ɓololɔ",
-                    "luukao lɔma"
+                    "M01",
+                    "M02",
+                    "M03",
+                    "M04",
+                    "M05",
+                    "M06",
+                    "M07",
+                    "M08",
+                    "M09",
+                    "M10",
+                    "M11",
+                    "M12"
                 ],
                 narrow: [
                     "1",
@@ -1566,34 +1578,34 @@ const data = {
                     "12"
                 ],
                 wide: [
-                    "luukao kemã",
-                    "ɓandaɓu",
-                    "vɔɔ",
-                    "fulu",
-                    "goo",
-                    "6",
-                    "7",
-                    "kɔnde",
-                    "saah",
-                    "galo",
-                    "kenpkato ɓololɔ",
-                    "luukao lɔma"
+                    "M01",
+                    "M02",
+                    "M03",
+                    "M04",
+                    "M05",
+                    "M06",
+                    "M07",
+                    "M08",
+                    "M09",
+                    "M10",
+                    "M11",
+                    "M12"
                 ]
             },
             "stand-alone": {
                 abbreviated: [
-                    "luukao kemã",
-                    "ɓandaɓu",
-                    "vɔɔ",
-                    "fulu",
-                    "goo",
-                    "6",
-                    "7",
-                    "kɔnde",
-                    "saah",
-                    "galo",
-                    "kenpkato ɓololɔ",
-                    "luukao lɔma"
+                    "M01",
+                    "M02",
+                    "M03",
+                    "M04",
+                    "M05",
+                    "M06",
+                    "M07",
+                    "M08",
+                    "M09",
+                    "M10",
+                    "M11",
+                    "M12"
                 ],
                 narrow: [
                     "1",
@@ -1610,18 +1622,18 @@ const data = {
                     "12"
                 ],
                 wide: [
-                    "luukao kemã",
-                    "ɓandaɓu",
-                    "vɔɔ",
-                    "fulu",
-                    "goo",
-                    "6",
-                    "7",
-                    "kɔnde",
-                    "saah",
-                    "galo",
-                    "kenpkato ɓololɔ",
-                    "luukao lɔma"
+                    "M01",
+                    "M02",
+                    "M03",
+                    "M04",
+                    "M05",
+                    "M06",
+                    "M07",
+                    "M08",
+                    "M09",
+                    "M10",
+                    "M11",
+                    "M12"
                 ]
             }
         },

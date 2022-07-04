@@ -43,6 +43,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "d/M/y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "dd MMM y G",
                 GyMMMEd: "E, dd MMM y G",
@@ -182,7 +183,7 @@ const data = {
                     "Jun",
                     "Jul",
                     "Aug",
-                    "Sep",
+                    "Sept",
                     "Oct",
                     "Nov",
                     "Dec"
@@ -226,7 +227,7 @@ const data = {
                     "Jun",
                     "Jul",
                     "Aug",
-                    "Sep",
+                    "Sept",
                     "Oct",
                     "Nov",
                     "Dec"

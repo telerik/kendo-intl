@@ -43,6 +43,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "d/M/y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E, d MMM y G",
@@ -179,10 +180,10 @@ const data = {
                     "Mar",
                     "Apr",
                     "May",
-                    "Jun",
-                    "Jul",
+                    "June",
+                    "July",
                     "Aug",
-                    "Sep",
+                    "Sept",
                     "Oct",
                     "Nov",
                     "Dec"
@@ -483,7 +484,7 @@ const data = {
             }
         }
     },
-    firstDay: 0
+    firstDay: 1
 };
 export default data;
 

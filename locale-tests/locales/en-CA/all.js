@@ -13,7 +13,8 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
-            exponential: "e",
+            approximatelySign: "~",
+            exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
             infinity: "∞",
@@ -70,8 +71,8 @@ const data = {
             },
             AED: {
                 displayName: "United Arab Emirates Dirham",
-                "displayName-count-one": "UAE dirham",
-                "displayName-count-other": "UAE dirhams",
+                "displayName-count-one": "U.A.E. dirham",
+                "displayName-count-other": "U.A.E. dirhams",
                 symbol: "AED"
             },
             AFA: {
@@ -82,9 +83,10 @@ const data = {
             },
             AFN: {
                 displayName: "Afghan Afghani",
-                "displayName-count-one": "Afghan Afghani",
-                "displayName-count-other": "Afghan Afghanis",
-                symbol: "AFN"
+                "displayName-count-one": "Afghan afghani",
+                "displayName-count-other": "Afghan afghanis",
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "Albanian Lek (1946–1965)",
@@ -102,7 +104,8 @@ const data = {
                 displayName: "Armenian Dram",
                 "displayName-count-one": "Armenian dram",
                 "displayName-count-other": "Armenian drams",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Netherlands Antillean Guilder",
@@ -195,7 +198,8 @@ const data = {
                 displayName: "Azerbaijani Manat",
                 "displayName-count-one": "Azerbaijani manat",
                 "displayName-count-other": "Azerbaijani manats",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "Bosnia-Herzegovina Dinar (1992–1994)",
@@ -285,9 +289,9 @@ const data = {
                 symbol: "BIF"
             },
             BMD: {
-                displayName: "Bermudan Dollar",
-                "displayName-count-one": "Bermudan dollar",
-                "displayName-count-other": "Bermudan dollars",
+                displayName: "Bermudian Dollar",
+                "displayName-count-one": "Bermudian dollar",
+                "displayName-count-other": "Bermudian dollars",
                 symbol: "BMD",
                 "symbol-alt-narrow": "$"
             },
@@ -402,8 +406,7 @@ const data = {
                 displayName: "Belarusian Rouble",
                 "displayName-count-one": "Belarusian rouble",
                 "displayName-count-other": "Belarusian roubles",
-                symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                symbol: "BYN"
             },
             BYR: {
                 displayName: "Belarusian Rouble (2000–2016)",
@@ -643,7 +646,7 @@ const data = {
             ETB: {
                 displayName: "Ethiopian Birr",
                 "displayName-count-one": "Ethiopian birr",
-                "displayName-count-other": "Ethiopian birrs",
+                "displayName-count-other": "Ethiopian birr",
                 symbol: "ETB"
             },
             EUR: {
@@ -709,7 +712,8 @@ const data = {
                 displayName: "Ghanaian Cedi",
                 "displayName-count-one": "Ghanaian cedi",
                 "displayName-count-other": "Ghanaian cedis",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Gibraltar Pound",
@@ -842,8 +846,8 @@ const data = {
             },
             ILS: {
                 displayName: "Israeli New Shekel",
-                "displayName-count-one": "Israeli new sheqel",
-                "displayName-count-other": "Israeli new sheqels",
+                "displayName-count-one": "Israeli new shekel",
+                "displayName-count-other": "Israeli new shekels",
                 symbol: "₪",
                 "symbol-alt-narrow": "₪"
             },
@@ -1008,7 +1012,7 @@ const data = {
             LSL: {
                 displayName: "Lesotho Loti",
                 "displayName-count-one": "Lesotho loti",
-                "displayName-count-other": "Lesotho lotis",
+                "displayName-count-other": "Lesotho maloti",
                 symbol: "LSL"
             },
             LTL: {
@@ -1094,7 +1098,7 @@ const data = {
             MGA: {
                 displayName: "Malagasy Ariary",
                 "displayName-count-one": "Malagasy ariary",
-                "displayName-count-other": "Malagasy ariaries",
+                "displayName-count-other": "Malagasy ariary",
                 symbol: "MGA",
                 "symbol-alt-narrow": "Ar"
             },
@@ -1182,7 +1186,7 @@ const data = {
             MVR: {
                 displayName: "Maldivian Rufiyaa",
                 "displayName-count-one": "Maldivian rufiyaa",
-                "displayName-count-other": "Maldivian rufiyaas",
+                "displayName-count-other": "Maldivian rufiyaa",
                 symbol: "MVR"
             },
             MWK: {
@@ -1326,10 +1330,10 @@ const data = {
                 symbol: "PGK"
             },
             PHP: {
-                displayName: "Philippine Piso",
-                "displayName-count-one": "Philippine piso",
-                "displayName-count-other": "Philippine pisos",
-                symbol: "PHP",
+                displayName: "Philippine Peso",
+                "displayName-count-one": "Philippine peso",
+                "displayName-count-other": "Philippine pesos",
+                symbol: "₱",
                 "symbol-alt-narrow": "₱"
             },
             PKR: {
@@ -1407,8 +1411,7 @@ const data = {
                 displayName: "Russian Rouble (1991–1998)",
                 "displayName-count-one": "Russian rouble (1991–1998)",
                 "displayName-count-other": "Russian roubles (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Rwandan Franc",
@@ -1487,6 +1490,12 @@ const data = {
                 "displayName-count-other": "Slovak korunas",
                 symbol: "SKK"
             },
+            SLE: {
+                displayName: "Sierra Leonean New Leone",
+                "displayName-count-one": "Sierra Leonean new leone",
+                "displayName-count-other": "Sierra Leonean new leones",
+                symbol: "SLE"
+            },
             SLL: {
                 displayName: "Sierra Leonean Leone",
                 "displayName-count-one": "Sierra Leonean leone",
@@ -1526,9 +1535,9 @@ const data = {
                 symbol: "STD"
             },
             STN: {
-                displayName: "São Tomé & Príncipe Dobra",
-                "displayName-count-one": "São Tomé & Príncipe dobra",
-                "displayName-count-other": "São Tomé & Príncipe dobras",
+                displayName: "São Tomé and Príncipe Dobra",
+                "displayName-count-one": "São Tomé and Príncipe dobra",
+                "displayName-count-other": "São Tomé and Príncipe dobras",
                 symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },
@@ -1622,9 +1631,9 @@ const data = {
                 "symbol-alt-variant": "TL"
             },
             TTD: {
-                displayName: "Trinidad & Tobago Dollar",
-                "displayName-count-one": "Trinidad & Tobago dollar",
-                "displayName-count-other": "Trinidad & Tobago dollars",
+                displayName: "Trinidad and Tobago Dollar",
+                "displayName-count-one": "Trinidad and Tobago dollar",
+                "displayName-count-other": "Trinidad and Tobago dollars",
                 symbol: "TTD",
                 "symbol-alt-narrow": "$"
             },
@@ -1667,9 +1676,9 @@ const data = {
                 symbol: "UGX"
             },
             USD: {
-                displayName: "US Dollar",
-                "displayName-count-one": "US dollar",
-                "displayName-count-other": "US dollars",
+                displayName: "U.S. Dollar",
+                "displayName-count-one": "U.S. dollar",
+                "displayName-count-other": "U.S. dollars",
                 symbol: "US$",
                 "symbol-alt-narrow": "$"
             },
@@ -1722,6 +1731,12 @@ const data = {
                 "displayName-count-other": "Venezuelan bolívars (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "Bolívar Soberano",
+                "displayName-count-one": "Bolívar Soberano",
+                "displayName-count-other": "Bolívar Soberanos",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "Venezuelan Bolívar (2008–2018)",
                 "displayName-count-one": "Venezuelan bolívar (2008–2018)",
@@ -1751,7 +1766,7 @@ const data = {
             VUV: {
                 displayName: "Vanuatu Vatu",
                 "displayName-count-one": "Vanuatu vatu",
-                "displayName-count-other": "Vanuatu vatus",
+                "displayName-count-other": "Vanuatu vatu",
                 symbol: "VUV"
             },
             WST: {
@@ -1837,7 +1852,7 @@ const data = {
                 displayName: "West African CFA Franc",
                 "displayName-count-one": "West African CFA franc",
                 "displayName-count-other": "West African CFA francs",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "Palladium",
@@ -2017,6 +2032,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "M/d/y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "MMM d, y G",
                 GyMMMEd: "E, MMM d, y G",
@@ -2045,8 +2061,7 @@ const data = {
                 "MMMMW-count-other": "'week' W 'of' MMMM",
                 ms: "mm:ss",
                 y: "y",
-                yM: "y-MM",
-                "yM-alt-variant": "M/y",
+                yM: "MM/y",
                 yMd: "y-MM-dd",
                 "yMd-alt-variant": "d/M/y",
                 yMEd: "E, y-MM-dd",
@@ -2077,13 +2092,13 @@ const data = {
         days: {
             format: {
                 abbreviated: [
-                    "Sun.",
-                    "Mon.",
-                    "Tue.",
-                    "Wed.",
-                    "Thu.",
-                    "Fri.",
-                    "Sat."
+                    "Sun",
+                    "Mon",
+                    "Tue",
+                    "Wed",
+                    "Thu",
+                    "Fri",
+                    "Sat"
                 ],
                 narrow: [
                     "S",
@@ -2115,13 +2130,13 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "Sun.",
-                    "Mon.",
-                    "Tue.",
-                    "Wed.",
-                    "Thu.",
-                    "Fri.",
-                    "Sat."
+                    "Sun",
+                    "Mon",
+                    "Tue",
+                    "Wed",
+                    "Thu",
+                    "Fri",
+                    "Sat"
                 ],
                 narrow: [
                     "S",
@@ -2155,18 +2170,18 @@ const data = {
         months: {
             format: {
                 abbreviated: [
-                    "Jan.",
-                    "Feb.",
-                    "Mar.",
-                    "Apr.",
+                    "Jan",
+                    "Feb",
+                    "Mar",
+                    "Apr",
                     "May",
-                    "Jun.",
-                    "Jul.",
-                    "Aug.",
-                    "Sep.",
-                    "Oct.",
-                    "Nov.",
-                    "Dec."
+                    "Jun",
+                    "Jul",
+                    "Aug",
+                    "Sept",
+                    "Oct",
+                    "Nov",
+                    "Dec"
                 ],
                 narrow: [
                     "J",
@@ -2199,18 +2214,18 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "Jan.",
-                    "Feb.",
-                    "Mar.",
-                    "Apr.",
+                    "Jan",
+                    "Feb",
+                    "Mar",
+                    "Apr",
                     "May",
-                    "Jun.",
-                    "Jul.",
-                    "Aug.",
-                    "Sep.",
-                    "Oct.",
-                    "Nov.",
-                    "Dec."
+                    "Jun",
+                    "Jul",
+                    "Aug",
+                    "Sept",
+                    "Oct",
+                    "Nov",
+                    "Dec"
                 ],
                 narrow: [
                     "J",
@@ -2394,23 +2409,23 @@ const data = {
             },
             year: {
                 wide: "year",
-                short: "yr.",
-                narrow: "yr."
+                short: "yr",
+                narrow: "yr"
             },
             quarter: {
                 wide: "quarter",
-                short: "qtr.",
-                narrow: "qtr."
+                short: "qtr",
+                narrow: "qtr"
             },
             month: {
                 wide: "month",
-                short: "mo.",
-                narrow: "mo."
+                short: "mo",
+                narrow: "mo"
             },
             week: {
                 wide: "week",
-                short: "wk.",
-                narrow: "wk."
+                short: "wk",
+                narrow: "wk"
             },
             weekOfMonth: {
                 wide: "week of month",
@@ -2444,18 +2459,18 @@ const data = {
             },
             hour: {
                 wide: "hour",
-                short: "hr.",
-                narrow: "hr."
+                short: "hr",
+                narrow: "hr"
             },
             minute: {
                 wide: "minute",
-                short: "min.",
-                narrow: "min."
+                short: "min",
+                narrow: "min"
             },
             second: {
                 wide: "second",
-                short: "sec.",
-                narrow: "sec."
+                short: "sec",
+                narrow: "sec"
             },
             zone: {
                 wide: "time zone",

@@ -42,8 +42,9 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "d/M/GGGGG y",
                 GyMMM: "MMM, G y",
-                GyMMMd: "d MMM y",
+                GyMMMd: "d MMM, G y",
                 GyMMMEd: "E d MMM, G y",
                 h: "h a",
                 H: "HH",
@@ -373,13 +374,13 @@ const data = {
                 abbreviated: {
                     "0": "ਈ. ਪੂ.",
                     "1": "ਸੰਨ",
-                    "0-alt-variant": "ਈ. ਪੂ. ਸੰ.",
+                    "0-alt-variant": "ਈ. ਪੂ.",
                     "1-alt-variant": "ਈ. ਸੰ."
                 },
                 narrow: {
                     "0": "ਈ.ਪੂ.",
                     "1": "ਸੰਨ",
-                    "0-alt-variant": "ਈ.ਪੂ.ਸੰ.",
+                    "0-alt-variant": "ਈ. ਪੂ.",
                     "1-alt-variant": "ਈ.ਸੰ."
                 }
             }

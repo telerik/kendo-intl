@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -77,7 +78,8 @@ const data = {
             },
             AFN: {
                 displayName: "अफ़ग़ानी",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -89,7 +91,8 @@ const data = {
             },
             AMD: {
                 displayName: "आरमिनियाई दिर्हाम",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "नेदरलैण्ड एन्टीलीज़ का गील्डर",
@@ -152,7 +155,8 @@ const data = {
             },
             AZN: {
                 displayName: "आज़रबैजानी मनात",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "बोसनिया हेर्ज़ेगोविना का दीनार",
@@ -253,7 +257,9 @@ const data = {
                 symbol: "BRE"
             },
             BRL: {
-                displayName: "ब्रज़ीली रेयाल",
+                displayName: "ब्राजिलनि रीयाल",
+                "displayName-count-one": "ब्राजिलनि रीयाल",
+                "displayName-count-other": "ब्राजिलनि रीयालफोर",
                 symbol: "R$",
                 "symbol-alt-narrow": "R$"
             },
@@ -293,8 +299,7 @@ const data = {
             },
             BYN: {
                 displayName: "बेलारुसी रूबल",
-                symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                symbol: "BYN"
             },
             BYR: {
                 displayName: "बेलारुसी रूबल (2000–2016)",
@@ -348,8 +353,10 @@ const data = {
                 symbol: "CNX"
             },
             CNY: {
-                displayName: "चीनी युआन रेनमीनबी",
-                symbol: "CN¥",
+                displayName: "चाइनीज युवान",
+                "displayName-count-one": "चाइनीज युवान",
+                "displayName-count-other": "चाइनीज युवान",
+                symbol: "सिएन¥",
                 "symbol-alt-narrow": "¥"
             },
             COP: {
@@ -463,6 +470,8 @@ const data = {
             },
             EUR: {
                 displayName: "युरो",
+                "displayName-count-one": "युरोस",
+                "displayName-count-other": "युरोस",
                 symbol: "€",
                 "symbol-alt-narrow": "€"
             },
@@ -485,7 +494,9 @@ const data = {
                 symbol: "FRF"
             },
             GBP: {
-                displayName: "ब्रितन का पौण्ड स्टर्लिग",
+                displayName: "ब्रिटिश पाउण्ड",
+                "displayName-count-one": "ब्रिटिश पाउण्ड",
+                "displayName-count-other": "ब्रिटिश पाउण्डफोर",
                 symbol: "£",
                 "symbol-alt-narrow": "£"
             },
@@ -504,7 +515,8 @@ const data = {
             },
             GHS: {
                 displayName: "घाना चेदी",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "जीब्रालटर का पौण्ड",
@@ -601,7 +613,9 @@ const data = {
                 "symbol-alt-narrow": "₪"
             },
             INR: {
-                displayName: "रां",
+                displayName: "भारतनि रुपी",
+                "displayName-count-one": "भारतनि रुपी",
+                "displayName-count-other": "भारतनि रुपी",
                 symbol: "₹",
                 "symbol-alt-narrow": "₹"
             },
@@ -637,6 +651,8 @@ const data = {
             },
             JPY: {
                 displayName: "जापानी येन",
+                "displayName-count-one": "जापानीज येन",
+                "displayName-count-other": "जापानीज येन",
                 symbol: "JP¥",
                 "symbol-alt-narrow": "¥"
             },
@@ -930,7 +946,7 @@ const data = {
             },
             PHP: {
                 displayName: "फ़िलिपीन का पेसो",
-                symbol: "PHP",
+                symbol: "₱",
                 "symbol-alt-narrow": "₱"
             },
             PKR: {
@@ -978,14 +994,15 @@ const data = {
                 symbol: "RSD"
             },
             RUB: {
-                displayName: "रूसी रूबल",
-                symbol: "RUB",
+                displayName: "रासियानि रूबल",
+                "displayName-count-one": "रासियानि रूबल",
+                "displayName-count-other": "रासियानि रूबलफोर",
+                symbol: "रूब",
                 "symbol-alt-narrow": "₽"
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "रुआँदा फ्राँ",
@@ -1039,6 +1056,10 @@ const data = {
             SKK: {
                 displayName: "स्लोवाकी कोरुना",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "सीयेरा लीयोनेई लीयोने",
@@ -1164,8 +1185,10 @@ const data = {
                 symbol: "UGX"
             },
             USD: {
-                displayName: "अमरिकी डॉलर",
-                symbol: "US$",
+                displayName: "इउ.एस डलार",
+                "displayName-count-one": "इउ.एस डलार",
+                "displayName-count-other": "इउ.एस डलारफोर",
+                symbol: "$",
                 "symbol-alt-narrow": "$"
             },
             USN: {
@@ -1200,6 +1223,10 @@ const data = {
             VEB: {
                 displayName: "वेनेज़ुएलाई बोलिवार (1871–2008)",
                 symbol: "VEB"
+            },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
             },
             VEF: {
                 displayName: "वेनेज़ुएलाई बोलिवार (2008–2018)",
@@ -1278,7 +1305,7 @@ const data = {
             },
             XOF: {
                 displayName: "फ्रानसीसी फेदेरेशनी बीसीएआओ फ्राँ",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "पैलेडियम",
@@ -1310,6 +1337,8 @@ const data = {
             },
             XXX: {
                 displayName: "अज्ञात या अवैध मुद्रा",
+                "displayName-count-one": "मिथियै रां",
+                "displayName-count-other": "मिथियै रां",
                 symbol: "¤"
             },
             YDD: {
@@ -1379,51 +1408,52 @@ const data = {
     },
     calendar: {
         patterns: {
-            d: "M/d/y",
-            D: "EEEE, MMMM d, y",
+            d: "y-MM-dd",
+            D: "y MMMM d, EEEE",
             m: "d-MMM",
             M: "MMMM d",
             y: "MMM y",
             Y: "MMMM y",
-            F: "EEEE, MMMM d, y h:mm:ss a",
-            g: "y-MM-dd h:mm a",
-            G: "y-MM-dd h:mm:ss a",
-            t: "h:mm a",
-            T: "h:mm:ss a",
+            F: "y MMMM d, EEEE a h:mm:ss",
+            g: "y-MM-dd a नि h:mm",
+            G: "y-MM-dd a h:mm:ss",
+            t: "a नि h:mm",
+            T: "a h:mm:ss",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} {0}",
-            long: "{1} {0}",
-            medium: "{1} {0}",
-            short: "{1} {0}",
+            full: "{1} नि {0} याव",
+            long: "{1} नि {0} याव",
+            medium: "{1}, {0}",
+            short: "{1}, {0}",
             availableFormats: {
-                Bh: "h B",
-                Bhm: "h:mm B",
-                Bhms: "h:mm:ss B",
+                Bh: "B नि h",
+                Bhm: "B नि h:mm",
+                Bhms: "B नि h:mm:ss",
                 d: "d",
                 E: "ccc",
-                EBhm: "E h:mm B",
-                EBhms: "E h:mm:ss B",
+                EBhm: "E B नि h:mm",
+                EBhms: "E B नि h:mm:ss",
                 Ed: "d, E",
-                Ehm: "E h:mm a",
+                Ehm: "E, a h:mm",
                 EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E a h:mm:ss",
                 EHms: "E HH:mm:ss",
-                Gy: "y G",
-                GyMMM: "MMM, y G",
-                GyMMMd: "MMM d, y G",
-                GyMMMEd: "E, MMM d, y G",
-                h: "h a",
+                Gy: "Gy",
+                GyMd: "GGGGG y-MM-dd",
+                GyMMM: "G y MMM",
+                GyMMMd: "G y MMM d",
+                GyMMMEd: "G y MMM E d",
+                h: "a नि h",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "a नि h:mm",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "a h:mm:ss",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "a नि h:mm:ss v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "a h:mm v",
                 Hmv: "HH:mm v",
                 M: "L",
                 Md: "M/d",
@@ -1440,7 +1470,7 @@ const data = {
                 yMd: "y-MM-dd",
                 yMEd: "E, M/d/y",
                 yMMM: "MMM y",
-                yMMMd: "y MMM d",
+                yMMMd: "MMM d, y",
                 yMMMEd: "E, MMM d, y",
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
@@ -1449,16 +1479,16 @@ const data = {
             }
         },
         timeFormats: {
-            full: "h:mm:ss a zzzz",
-            long: "h:mm:ss a z",
-            medium: "h:mm:ss a",
-            short: "h:mm a"
+            full: "a h:mm:ss zzzz",
+            long: "a h:mm:ss z",
+            medium: "a h:mm:ss",
+            short: "a नि h:mm"
         },
         dateFormats: {
-            full: "EEEE, MMMM d, y",
+            full: "y MMMM d, EEEE",
             long: "MMMM d, y",
             medium: "MMM d, y",
-            short: "M/d/yy"
+            short: "y-MM-dd"
         },
         days: {
             format: {
@@ -1466,8 +1496,8 @@ const data = {
                     "रबि",
                     "सम",
                     "मंगल",
-                    "बुद",
-                    "बिसथि",
+                    "बुध",
+                    "बिस्थि",
                     "सुखुर",
                     "सुनि"
                 ],
@@ -1484,8 +1514,8 @@ const data = {
                     "रबि",
                     "सम",
                     "मंगल",
-                    "बुद",
-                    "बिसथि",
+                    "बुध",
+                    "बिस्थि",
                     "सुखुर",
                     "सुनि"
                 ],
@@ -1493,8 +1523,8 @@ const data = {
                     "रबिबार",
                     "समबार",
                     "मंगलबार",
-                    "बुदबार",
-                    "बिसथिबार",
+                    "बुधबार",
+                    "बिस्थिबार",
                     "सुखुरबार",
                     "सुनिबार"
                 ]
@@ -1504,8 +1534,8 @@ const data = {
                     "रबि",
                     "सम",
                     "मंगल",
-                    "बुद",
-                    "बिसथि",
+                    "बुध",
+                    "बिस्थि",
                     "सुखुर",
                     "सुनि"
                 ],
@@ -1522,8 +1552,8 @@ const data = {
                     "रबि",
                     "सम",
                     "मंगल",
-                    "बुद",
-                    "बिसथि",
+                    "बुध",
+                    "बिस्थि",
                     "सुखुर",
                     "सुनि"
                 ],
@@ -1531,8 +1561,8 @@ const data = {
                     "रबिबार",
                     "समबार",
                     "मंगलबार",
-                    "बुदबार",
-                    "बिसथिबार",
+                    "बुधबार",
+                    "बिस्थिबार",
                     "सुखुरबार",
                     "सुनिबार"
                 ]
@@ -1541,100 +1571,100 @@ const data = {
         months: {
             format: {
                 abbreviated: [
-                    "जानुवारी",
-                    "फेब्रुवारी",
-                    "मार्स",
-                    "एफ्रिल",
+                    "जान",
+                    "फेब",
+                    "मार्च",
+                    "एप्रि",
                     "मे",
                     "जुन",
-                    "जुलाइ",
-                    "आगस्थ",
-                    "सेबथेज्ब़र",
-                    "अखथबर",
-                    "नबेज्ब़र",
-                    "दिसेज्ब़र"
+                    "जुल",
+                    "आग",
+                    "सेप",
+                    "अक्ट’",
+                    "नवे",
+                    "डिसे"
                 ],
                 narrow: [
                     "ज",
-                    "फे",
-                    "मा",
+                    "फ",
+                    "म",
                     "ए",
-                    "मे",
-                    "जु",
-                    "जु",
+                    "म",
+                    "ज",
+                    "ज",
                     "आ",
-                    "से",
+                    "स",
                     "अ",
                     "न",
-                    "दि"
+                    "ड"
                 ],
                 wide: [
                     "जानुवारी",
-                    "फेब्रुवारी",
-                    "मार्स",
-                    "एफ्रिल",
+                    "फेब्रूवारी",
+                    "मार्च",
+                    "एप्रिल",
                     "मे",
                     "जुन",
-                    "जुलाइ",
-                    "आगस्थ",
-                    "सेबथेज्ब़र",
-                    "अखथबर",
-                    "नबेज्ब़र",
-                    "दिसेज्ब़र"
+                    "जुलाई",
+                    "आगष्ट",
+                    "सेप्थेम्बर",
+                    "अक्ट’बर",
+                    "नवेम्बर",
+                    "डिसेम्बर"
                 ]
             },
             "stand-alone": {
                 abbreviated: [
-                    "जानुवारी",
-                    "फेब्रुवारी",
-                    "मार्स",
-                    "एफ्रिल",
+                    "जान",
+                    "फेब",
+                    "मार्च",
+                    "एप्रि",
                     "मे",
                     "जुन",
-                    "जुलाइ",
-                    "आगस्थ",
-                    "सेबथेज्ब़र",
-                    "अखथबर",
-                    "नबेज्ब़र",
-                    "दिसेज्ब़र"
+                    "जुल",
+                    "आग",
+                    "सेप",
+                    "अक्ट’",
+                    "नवे",
+                    "डिसे"
                 ],
                 narrow: [
                     "ज",
-                    "फे",
-                    "मा",
+                    "फ",
+                    "म",
                     "ए",
-                    "मे",
-                    "जु",
-                    "जु",
+                    "म",
+                    "ज",
+                    "ज",
                     "आ",
-                    "से",
+                    "स",
                     "अ",
                     "न",
-                    "दि"
+                    "ड"
                 ],
                 wide: [
                     "जानुवारी",
-                    "फेब्रुवारी",
-                    "मार्स",
-                    "एफ्रिल",
+                    "फेब्रूवारी",
+                    "मार्च",
+                    "एप्रिल",
                     "मे",
                     "जुन",
-                    "जुलाइ",
-                    "आगस्थ",
-                    "सेबथेज्ब़र",
-                    "अखथबर",
-                    "नबेज्ब़र",
-                    "दिसेज्ब़र"
+                    "जुलाई",
+                    "आगष्ट",
+                    "सेप्थेम्बर",
+                    "अक्ट’बर",
+                    "नवेम्बर",
+                    "डिसेम्बर"
                 ]
             }
         },
         quarters: {
             format: {
                 abbreviated: [
-                    "सिथासे/खोन्दोसे/बाहागोसे",
-                    "खावसे/खोन्दोनै/बाहागोनै",
-                    "खावथाम/खोन्दोथाम/बाहागोथाम",
-                    "खावब्रै/खोन्दोब्रै/फुरा/आबुं"
+                    "किउ 1",
+                    "किउ 2",
+                    "किउ 3",
+                    "किउ 4"
                 ],
                 narrow: [
                     "1",
@@ -1643,18 +1673,18 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "सिथासे/खोन्दोसे/बाहागोसे",
-                    "खावसे/खोन्दोनै/बाहागोनै",
-                    "खावथाम/खोन्दोथाम/बाहागोथाम",
-                    "खावब्रै/खोन्दोब्रै/फुरा/आबुं"
+                    "ब्रै बाहागोनि सेथि खोन्दो",
+                    "ब्रै बाहागोनि नैथि खोन्दो",
+                    "ब्रै बाहागोनि थामथि खोन्दो",
+                    "ब्रै बाहागोनि ब्रैथि खोन्दो"
                 ]
             },
             "stand-alone": {
                 abbreviated: [
-                    "सिथासे/खोन्दोसे/बाहागोसे",
-                    "खावसे/खोन्दोनै/बाहागोनै",
-                    "खावथाम/खोन्दोथाम/बाहागोथाम",
-                    "खावब्रै/खोन्दोब्रै/फुरा/आबुं"
+                    "किउ 1",
+                    "किउ 2",
+                    "किउ 3",
+                    "किउ 4"
                 ],
                 narrow: [
                     "1",
@@ -1663,10 +1693,10 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "सिथासे/खोन्दोसे/बाहागोसे",
-                    "खावसे/खोन्दोनै/बाहागोनै",
-                    "खावथाम/खोन्दोथाम/बाहागोथाम",
-                    "खावब्रै/खोन्दोब्रै/फुरा/आबुं"
+                    "ब्रै बाहागोनि सेथि खोन्दो",
+                    "ब्रै बाहागोनि नैथि खोन्दो",
+                    "ब्रै बाहागोनि थामथि खोन्दो",
+                    "ब्रै बाहागोनि ब्रैथि खोन्दो"
                 ]
             }
         },
@@ -1703,32 +1733,32 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    "0": "ईसा.पूर्व",
-                    "1": "सन",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0": "बि.सि.",
+                    "1": "ए.दि",
+                    "0-alt-variant": "बिसिइ",
+                    "1-alt-variant": "सि.इ."
                 },
                 abbreviated: {
-                    "0": "ईसा.पूर्व",
-                    "1": "सन",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0": "बि.सि.",
+                    "1": "ए.दि",
+                    "0-alt-variant": "बिसिइ",
+                    "1-alt-variant": "सि.इ."
                 },
                 narrow: {
-                    "0": "ईसा.पूर्व",
-                    "1": "सन",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0": "बि.सि.",
+                    "1": "ए.दि",
+                    "0-alt-variant": "बिसिइ",
+                    "1-alt-variant": "सि.इ."
                 }
             }
         },
-        gmtFormat: "GMT{0}",
-        gmtZeroFormat: "GMT",
+        gmtFormat: "जि.एम.ति {0}",
+        gmtZeroFormat: "जि.एम.ति",
         dateFields: {
             era: {
-                wide: "जौथाय",
-                short: "जौथाय",
-                narrow: "जौथाय"
+                wide: "मुगा",
+                short: "मुगा",
+                narrow: "मुगा"
             },
             year: {
                 wide: "बोसोर",
@@ -1736,9 +1766,9 @@ const data = {
                 narrow: "बोसोर"
             },
             quarter: {
-                wide: "Quarter",
-                short: "Quarter",
-                narrow: "Quarter"
+                wide: "ब्रै बाहागो खोन्दोेसे",
+                short: "खोन्दोेसे",
+                narrow: "खोन्दोेसे"
             },
             month: {
                 wide: "दान",
@@ -1746,9 +1776,9 @@ const data = {
                 narrow: "दान"
             },
             week: {
-                wide: "सबथा/हबथा",
-                short: "सबथा/हबथा",
-                narrow: "सबथा/हबथा"
+                wide: "सप्थाह",
+                short: "सप्थाह",
+                narrow: "सप्थाह"
             },
             weekOfMonth: {
                 wide: "Week Of Month",
@@ -1766,9 +1796,9 @@ const data = {
                 narrow: "Day Of Year"
             },
             weekday: {
-                wide: "सप्ताह के दिन",
-                short: "सप्ताह के दिन",
-                narrow: "सप्ताह के दिन"
+                wide: "सप्थाहनि सान",
+                short: "सप्थाहनि सान",
+                narrow: "सप्थाहनि सान"
             },
             weekdayOfMonth: {
                 wide: "Weekday Of Month",
@@ -1781,24 +1811,24 @@ const data = {
                 narrow: "फुं/बेलासे"
             },
             hour: {
-                wide: "रिंगा",
-                short: "रिंगा",
-                narrow: "रिंगा"
+                wide: "घन्टा",
+                short: "घन्टा",
+                narrow: "घन्टा"
             },
             minute: {
-                wide: "मिनिथ",
-                short: "मिनिथ",
-                narrow: "मिनिथ"
+                wide: "मिनित",
+                short: "मिनित",
+                narrow: "मिनित"
             },
             second: {
-                wide: "सेखेन्द",
-                short: "सेखेन्द",
-                narrow: "सेखेन्द"
+                wide: "सेकेण्ड",
+                short: "सेकेण्ड",
+                narrow: "सेकेण्ड"
             },
             zone: {
-                wide: "ओनसोल",
-                short: "ओनसोल",
-                narrow: "ओनसोल"
+                wide: "सम मण्डल",
+                short: "सम मण्डल",
+                narrow: "सम मण्डल"
             }
         }
     },

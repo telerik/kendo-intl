@@ -27,7 +27,8 @@ const data = {
                 displayName: "ಅಫ್‌ಘನ್ ಅಫಘಾನಿ",
                 "displayName-count-one": "ಅಫ್‌ಘನ್ ಅಫಘಾನಿ",
                 "displayName-count-other": "ಅಫ್‌ಘನ್ ಅಫಘಾನಿಗಳು",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -43,7 +44,8 @@ const data = {
                 displayName: "ಅರ್ಮೆನಿಯನ್ ಡ್ರಾಮ್",
                 "displayName-count-one": "ಅರ್ಮೆನಿಯನ್ ಡ್ರಾಮ್",
                 "displayName-count-other": "ಅರ್‌ಮೇನಿಯನ್ ಡ್ರಾಮ್‌ಗಳು",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "ನೆದರ್ಲೆಂಡ್ಸ್ ಆಂಟಿಲಿಯನ್ ಗಿಲ್ಡರ್",
@@ -118,7 +120,8 @@ const data = {
                 displayName: "ಅಝರ್‌ಬೈಜಾನಿ ಮನಾತ್",
                 "displayName-count-one": "ಅಝರ್‌ಬೈಜಾನಿ ಮನಾತ್",
                 "displayName-count-other": "ಅಝರ್‌ಬೈಜಾನಿ ಮನಾತ್‌ಗಳು",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -516,9 +519,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             FKP: {
-                displayName: "ಫಾಲ್ಕ್‌ಲ್ಯಾಂಡ್ ದ್ವೀಪಗಳ ಪೌಂಡ್",
-                "displayName-count-one": "ಫಾಲ್ಕ್‌ಲ್ಯಾಂಡ್ ದ್ವೀಪಗಳ ಪೌಂಡ್",
-                "displayName-count-other": "ಫಾಲ್ಕ್‌ಲ್ಯಾಂಡ್ ದ್ವೀಪಗಳ ಪೌಂಡ್‍ಗಳು",
+                displayName: "ಫಾಕ್‌ಲ್ಯಾಂಡ್ ದ್ವೀಪಗಳ ಪೌಂಡ್",
+                "displayName-count-one": "ಫಾಕ್‌ಲ್ಯಾಂಡ್ ದ್ವೀಪಗಳ ಪೌಂಡ್",
+                "displayName-count-other": "ಫಾಕ್‌ಲ್ಯಾಂಡ್ ದ್ವೀಪಗಳ ಪೌಂಡ್‍ಗಳು",
                 symbol: "FKP",
                 "symbol-alt-narrow": "£"
             },
@@ -542,8 +545,7 @@ const data = {
                 "displayName-count-one": "ಜಾರ್ಜಿಯಾದ ಲಾರಿ",
                 "displayName-count-other": "ಜಾರ್ಜಿಯಾದ ಲಾರಿಗಳು",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "GHC",
@@ -553,7 +555,8 @@ const data = {
                 displayName: "ಘಾನಾದ ಸೆದಿ",
                 "displayName-count-one": "ಘಾನಾದ ಸೆದಿ",
                 "displayName-count-other": "ಘಾನಾದ ಸೆದಿಗಳು",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "ಗಿಬ್ರಾಲ್ಟರ್ ಪೌಂಡ್",
@@ -1169,8 +1172,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "ರುವಾಂಡನ್ ಫ್ರಾಂಕ್",
@@ -1240,6 +1242,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "ಸಿಯೆರಾ ಲಿಯೋನಿಯನ್ ಲಿಯೋನ್",
@@ -1446,6 +1452,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "ವೆನಿಜುಲಿಯನ್ ಬೊಲಿವರ್ (2008–2018)",
                 "displayName-count-one": "ವೆನಿಜುಲಿಯನ್ ಬೊಲಿವರ್ (2008–2018)",
@@ -1539,7 +1549,7 @@ const data = {
                 displayName: "ಪಶ್ಚಿಮ ಆಫ್ರಿಕಾದ CFA ಫ್ರಾಂಕ್",
                 "displayName-count-one": "ಪಶ್ಚಿಮ ಆಫ್ರಿಕಾದ CFA ಫ್ರಾಂಕ್",
                 "displayName-count-other": "ಪಶ್ಚಿಮ ಆಫ್ರಿಕಾದ CFA ಫ್ರಾಂಕ್‌ಗಳು",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",

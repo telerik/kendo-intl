@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -82,10 +83,13 @@ const data = {
                 displayName: "afgán afghani",
                 "displayName-count-one": "afgán afghani",
                 "displayName-count-other": "afgán afghani",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
-                displayName: "ALK",
+                displayName: "albán lek (1946–1965)",
+                "displayName-count-one": "albán lek (1946–1965)",
+                "displayName-count-other": "albán lek (1946–1965)",
                 symbol: "ALK"
             },
             ALL: {
@@ -98,7 +102,8 @@ const data = {
                 displayName: "örmény dram",
                 "displayName-count-one": "örmény dram",
                 "displayName-count-other": "örmény dram",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "holland antilláki forint",
@@ -187,7 +192,8 @@ const data = {
                 displayName: "azerbajdzsáni manat",
                 "displayName-count-one": "azerbajdzsáni manat",
                 "displayName-count-other": "azerbajdzsáni manat",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "Bosznia-hercegovinai dínár (1992–1994)",
@@ -203,7 +209,9 @@ const data = {
                 "symbol-alt-narrow": "KM"
             },
             BAN: {
-                displayName: "BAN",
+                displayName: "bosznia-hercegovinai új dínár (1994–1997)",
+                "displayName-count-one": "bosznia-hercegovinai új dínár (1994–1997)",
+                "displayName-count-other": "bosznia-hercegovinai új dínár (1994–1997)",
                 symbol: "BAN"
             },
             BBD: {
@@ -245,7 +253,9 @@ const data = {
                 symbol: "BGL"
             },
             BGM: {
-                displayName: "BGM",
+                displayName: "bolgár szocialista leva",
+                "displayName-count-one": "bolgár szocialista leva",
+                "displayName-count-other": "bolgár szocialista leva",
                 symbol: "BGM"
             },
             BGN: {
@@ -255,7 +265,9 @@ const data = {
                 symbol: "BGN"
             },
             BGO: {
-                displayName: "BGO",
+                displayName: "bolgár leva (1879–1952)",
+                "displayName-count-one": "bolgár leva (1879–1952)",
+                "displayName-count-other": "bolgár leva (1879–1952)",
                 symbol: "BGO"
             },
             BHD: {
@@ -376,6 +388,8 @@ const data = {
             },
             BYB: {
                 displayName: "Fehérorosz új rubel (1994–1999)",
+                "displayName-count-one": "fehérorosz új rubel (1994–1999)",
+                "displayName-count-other": "fehérorosz új rubel (1994–1999)",
                 symbol: "BYB"
             },
             BYN: {
@@ -477,10 +491,14 @@ const data = {
             },
             CSD: {
                 displayName: "szerb dinár",
+                "displayName-count-one": "szerb dinár (2002–2006)",
+                "displayName-count-other": "szerb dinár (2002–2006)",
                 symbol: "CSD"
             },
             CSK: {
                 displayName: "Csehszlovák kemény korona",
+                "displayName-count-one": "csehszlovák kemény korona",
+                "displayName-count-other": "csehszlovák kemény korona",
                 symbol: "CSK"
             },
             CUC: {
@@ -498,9 +516,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             CVE: {
-                displayName: "Cape Verde-i escudo",
-                "displayName-count-one": "Cape Verde-i escudo",
-                "displayName-count-other": "Cape Verde-i escudo",
+                displayName: "Zöld-foki escudo",
+                "displayName-count-one": "Zöld-foki escudo",
+                "displayName-count-other": "Zöld-foki escudo",
                 symbol: "CVE"
             },
             CYP: {
@@ -575,6 +593,8 @@ const data = {
             },
             ESA: {
                 displayName: "spanyol peseta (A–kontó)",
+                "displayName-count-one": "spanyol peseta (A–kontó)",
+                "displayName-count-other": "spanyol peseta (A–kontó)",
                 symbol: "ESA"
             },
             ESB: {
@@ -583,6 +603,8 @@ const data = {
             },
             ESP: {
                 displayName: "Spanyol peseta",
+                "displayName-count-one": "spanyol peseta",
+                "displayName-count-other": "spanyol peseta",
                 symbol: "ESP",
                 "symbol-alt-narrow": "₧"
             },
@@ -637,8 +659,7 @@ const data = {
                 "displayName-count-one": "grúz lari",
                 "displayName-count-other": "grúz lari",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "Ghánai cedi (1979–2007)",
@@ -648,7 +669,8 @@ const data = {
                 displayName: "ghánai cedi",
                 "displayName-count-one": "ghánai cedi",
                 "displayName-count-other": "ghánai cedi",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "gibraltári font",
@@ -682,6 +704,8 @@ const data = {
             },
             GRD: {
                 displayName: "Görög drachma",
+                "displayName-count-one": "görög drachma",
+                "displayName-count-other": "görög drachma",
                 symbol: "GRD"
             },
             GTQ: {
@@ -722,6 +746,8 @@ const data = {
             },
             HRD: {
                 displayName: "Horvát dínár",
+                "displayName-count-one": "horvát dínár",
+                "displayName-count-other": "horvát dínár",
                 symbol: "HRD"
             },
             HRK: {
@@ -802,6 +828,8 @@ const data = {
             },
             ITL: {
                 displayName: "Olasz líra",
+                "displayName-count-one": "olasz líra",
+                "displayName-count-other": "olasz líra",
                 symbol: "ITL"
             },
             JMD: {
@@ -921,7 +949,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "Lesothoi loti",
+                displayName: "lesothoi loti",
+                "displayName-count-one": "lesothoi loti",
+                "displayName-count-other": "lesothoi loti",
                 symbol: "LSL"
             },
             LTL: {
@@ -979,7 +1009,9 @@ const data = {
                 symbol: "MCF"
             },
             MDC: {
-                displayName: "MDC",
+                displayName: "moldáv kupon",
+                "displayName-count-one": "moldáv kupon",
+                "displayName-count-other": "moldáv kupon",
                 symbol: "MDC"
             },
             MDL: {
@@ -1006,7 +1038,9 @@ const data = {
                 symbol: "MKD"
             },
             MKN: {
-                displayName: "MKN",
+                displayName: "macedón dénár (1992–1993)",
+                "displayName-count-one": "macedón dénár (1992–1993)",
+                "displayName-count-other": "macedón dénár (1992–1993)",
                 symbol: "MKN"
             },
             MLF: {
@@ -1047,10 +1081,14 @@ const data = {
             },
             MTL: {
                 displayName: "Máltai líra",
+                "displayName-count-one": "máltai líra",
+                "displayName-count-other": "máltai líra",
                 symbol: "MTL"
             },
             MTP: {
                 displayName: "Máltai font",
+                "displayName-count-one": "máltai font",
+                "displayName-count-other": "máltai font",
                 symbol: "MTP"
             },
             MUR: {
@@ -1217,10 +1255,14 @@ const data = {
             },
             PLZ: {
                 displayName: "Lengyel zloty (1950–1995)",
+                "displayName-count-one": "lengyel zloty (PLZ)",
+                "displayName-count-other": "lengyel zloty (PLZ)",
                 symbol: "PLZ"
             },
             PTE: {
                 displayName: "Portugál escudo",
+                "displayName-count-one": "portugál escudo",
+                "displayName-count-other": "portugál escudo",
                 symbol: "PTE"
             },
             PYG: {
@@ -1272,8 +1314,7 @@ const data = {
                 displayName: "orosz rubel (1991–1998)",
                 "displayName-count-one": "orosz rubel (1991–1998)",
                 "displayName-count-other": "orosz rubel (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "ruandai frank",
@@ -1342,11 +1383,19 @@ const data = {
             },
             SIT: {
                 displayName: "Szlovén tolar",
+                "displayName-count-one": "szlovén tolár",
+                "displayName-count-other": "szlovén tolár",
                 symbol: "SIT"
             },
             SKK: {
                 displayName: "Szlovák korona",
+                "displayName-count-one": "szlovák korona",
+                "displayName-count-other": "szlovák korona",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Sierra Leone-i leone",
@@ -1393,6 +1442,8 @@ const data = {
             },
             SUR: {
                 displayName: "Szovjet rubel",
+                "displayName-count-one": "szovjet rubel",
+                "displayName-count-other": "szovjet rubel",
                 symbol: "SUR"
             },
             SVC: {
@@ -1503,6 +1554,8 @@ const data = {
             },
             UAK: {
                 displayName: "Ukrán karbovanec",
+                "displayName-count-one": "ukrán karbovanec",
+                "displayName-count-other": "ukrán karbovanec",
                 symbol: "UAK"
             },
             UGS: {
@@ -1566,6 +1619,10 @@ const data = {
                 "displayName-count-one": "Venezuelai bolivar (1871–2008)",
                 "displayName-count-other": "Venezuelai bolivar (1871–2008)",
                 symbol: "VEB"
+            },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
             },
             VEF: {
                 displayName: "venezuelai bolivar (2008–2018)",
@@ -1672,7 +1729,7 @@ const data = {
                 displayName: "CFA frank BCEAO",
                 "displayName-count-one": "CFA frank BCEAO",
                 "displayName-count-other": "CFA frank BCEAO",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "palládium",
@@ -1726,18 +1783,26 @@ const data = {
             },
             YUD: {
                 displayName: "Jugoszláv kemény dínár",
+                "displayName-count-one": "jugoszláv kemény dinár (1966–1990)",
+                "displayName-count-other": "jugoszláv kemény dinár (1966–1990)",
                 symbol: "YUD"
             },
             YUM: {
                 displayName: "Jugoszláv új dínár",
+                "displayName-count-one": "jugoszláv új dinár (1994–2002)",
+                "displayName-count-other": "jugoszláv új dinár (1994–2002)",
                 symbol: "YUM"
             },
             YUN: {
                 displayName: "Jugoszláv konvertibilis dínár",
+                "displayName-count-one": "jugoszláv konvertibilis dinár (1990–1992)",
+                "displayName-count-other": "jugoszláv konvertibilis dinár (1990–1992)",
                 symbol: "YUN"
             },
             YUR: {
-                displayName: "YUR",
+                displayName: "jugoszláv reformált dinár (1992–1993)",
+                "displayName-count-one": "jugoszláv reformált dinár (1992–1993)",
+                "displayName-count-other": "jugoszláv reformált dinár (1992–1993)",
                 symbol: "YUR"
             },
             ZAL: {
@@ -1824,6 +1889,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y.",
+                GyMd: "GGGGG y. MM. dd.",
                 GyMMM: "G y. MMM",
                 GyMMMd: "G y. MMM d.",
                 GyMMMEd: "G y. MMM d., E",

@@ -27,7 +27,8 @@ const data = {
                 displayName: "ଆଫଗାନ ଆଫଗାନି",
                 "displayName-count-one": "ଆଫଗାନ ଆଫଗାନି",
                 "displayName-count-other": "ଆଫଗାନ ଆଫଗାନି",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -43,7 +44,8 @@ const data = {
                 displayName: "ଅର୍ମେନୀୟ ଡ୍ରାମ୍",
                 "displayName-count-one": "ଅର୍ମେନୀୟ ଡ୍ରାମ୍",
                 "displayName-count-other": "ଅର୍ମେନୀୟ ଡ୍ରାମ୍",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "ନେଦରଲ୍ୟାଣ୍ଡ୍ ଆଣ୍ଟିଲିୟ ଗିଲଡର୍",
@@ -118,7 +120,8 @@ const data = {
                 displayName: "ଆଜେରବାଇଜାନି ମନତ୍",
                 "displayName-count-one": "ଆଜେରବାଇଜାନି ମନତ୍",
                 "displayName-count-other": "ଆଜେରବାଇଜାନି ମନତ୍",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -550,7 +553,8 @@ const data = {
                 displayName: "ଘାନିୟ ସେଡି",
                 "displayName-count-one": "ଘାନିୟ ସେଡି",
                 "displayName-count-other": "ଘାନିୟ ସେଡି",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "ଗିବ୍ରାଲଟର୍ ପାଉଣ୍ଡ୍",
@@ -821,7 +825,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "LSL",
+                displayName: "ଲେସୋଥୋ ଲୋଟି",
+                "displayName-count-one": "ଲେସୋଥୋ ଲୋଟି",
+                "displayName-count-other": "ଲେସୋଥୋ ଲୋଟିସ୍",
                 symbol: "LSL"
             },
             LTL: {
@@ -1162,8 +1168,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "ରୁୱାଣ୍ଡା ଫ୍ରାଙ୍କ୍",
@@ -1233,6 +1238,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "ସିଏରା ଲିଓନୀୟ ଲେଓନ୍",
@@ -1439,6 +1448,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "ଭେନେଜୁଏଲାନ୍ ବୋଲିଭାର୍ (2008–2018)",
                 "displayName-count-one": "ଭେନେଜୁଏଲାନ୍ ବୋଲିଭାର୍ (2008–2018)",
@@ -1532,7 +1545,7 @@ const data = {
                 displayName: "ପଶ୍ଚିମ ଆଫ୍ରିକିୟ CFA ଫ୍ରାଙ୍କ୍",
                 "displayName-count-one": "ପଶ୍ଚିମ ଆଫ୍ରିକିୟ CFA ଫ୍ରାଙ୍କ୍",
                 "displayName-count-other": "ପଶ୍ଚିମ ଆଫ୍ରିକିୟ CFA ଫ୍ରାଙ୍କ୍",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",

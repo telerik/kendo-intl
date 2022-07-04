@@ -43,6 +43,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "M/d/y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "MMM d, y G",
                 GyMMMEd: "E, MMM d, y G",
@@ -71,8 +72,7 @@ const data = {
                 "MMMMW-count-other": "'week' W 'of' MMMM",
                 ms: "mm:ss",
                 y: "y",
-                yM: "y-MM",
-                "yM-alt-variant": "M/y",
+                yM: "MM/y",
                 yMd: "y-MM-dd",
                 "yMd-alt-variant": "d/M/y",
                 yMEd: "E, y-MM-dd",
@@ -103,13 +103,13 @@ const data = {
         days: {
             format: {
                 abbreviated: [
-                    "Sun.",
-                    "Mon.",
-                    "Tue.",
-                    "Wed.",
-                    "Thu.",
-                    "Fri.",
-                    "Sat."
+                    "Sun",
+                    "Mon",
+                    "Tue",
+                    "Wed",
+                    "Thu",
+                    "Fri",
+                    "Sat"
                 ],
                 narrow: [
                     "S",
@@ -141,13 +141,13 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "Sun.",
-                    "Mon.",
-                    "Tue.",
-                    "Wed.",
-                    "Thu.",
-                    "Fri.",
-                    "Sat."
+                    "Sun",
+                    "Mon",
+                    "Tue",
+                    "Wed",
+                    "Thu",
+                    "Fri",
+                    "Sat"
                 ],
                 narrow: [
                     "S",
@@ -181,18 +181,18 @@ const data = {
         months: {
             format: {
                 abbreviated: [
-                    "Jan.",
-                    "Feb.",
-                    "Mar.",
-                    "Apr.",
+                    "Jan",
+                    "Feb",
+                    "Mar",
+                    "Apr",
                     "May",
-                    "Jun.",
-                    "Jul.",
-                    "Aug.",
-                    "Sep.",
-                    "Oct.",
-                    "Nov.",
-                    "Dec."
+                    "Jun",
+                    "Jul",
+                    "Aug",
+                    "Sept",
+                    "Oct",
+                    "Nov",
+                    "Dec"
                 ],
                 narrow: [
                     "J",
@@ -225,18 +225,18 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "Jan.",
-                    "Feb.",
-                    "Mar.",
-                    "Apr.",
+                    "Jan",
+                    "Feb",
+                    "Mar",
+                    "Apr",
                     "May",
-                    "Jun.",
-                    "Jul.",
-                    "Aug.",
-                    "Sep.",
-                    "Oct.",
-                    "Nov.",
-                    "Dec."
+                    "Jun",
+                    "Jul",
+                    "Aug",
+                    "Sept",
+                    "Oct",
+                    "Nov",
+                    "Dec"
                 ],
                 narrow: [
                     "J",
@@ -420,23 +420,23 @@ const data = {
             },
             year: {
                 wide: "year",
-                short: "yr.",
-                narrow: "yr."
+                short: "yr",
+                narrow: "yr"
             },
             quarter: {
                 wide: "quarter",
-                short: "qtr.",
-                narrow: "qtr."
+                short: "qtr",
+                narrow: "qtr"
             },
             month: {
                 wide: "month",
-                short: "mo.",
-                narrow: "mo."
+                short: "mo",
+                narrow: "mo"
             },
             week: {
                 wide: "week",
-                short: "wk.",
-                narrow: "wk."
+                short: "wk",
+                narrow: "wk"
             },
             weekOfMonth: {
                 wide: "week of month",
@@ -470,18 +470,18 @@ const data = {
             },
             hour: {
                 wide: "hour",
-                short: "hr.",
-                narrow: "hr."
+                short: "hr",
+                narrow: "hr"
             },
             minute: {
                 wide: "minute",
-                short: "min.",
-                narrow: "min."
+                short: "min",
+                narrow: "min"
             },
             second: {
                 wide: "second",
-                short: "sec.",
-                narrow: "sec."
+                short: "sec",
+                narrow: "sec"
             },
             zone: {
                 wide: "time zone",

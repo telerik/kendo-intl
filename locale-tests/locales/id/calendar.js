@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h.mm.ss a",
                 EHms: "E HH.mm.ss",
                 Gy: "y G",
+                GyMd: "d/M/y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E, d MMM y G",
@@ -423,7 +424,7 @@ const data = {
             },
             day: {
                 wide: "hari",
-                short: "h",
+                short: "hr",
                 narrow: "h"
             },
             dayOfYear: {
@@ -447,7 +448,7 @@ const data = {
                 narrow: "AM/PM"
             },
             hour: {
-                wide: "Jam",
+                wide: "jam",
                 short: "jam",
                 narrow: "j"
             },

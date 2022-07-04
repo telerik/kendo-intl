@@ -27,7 +27,8 @@ const data = {
                 displayName: "अफ़गान अफ़गानी",
                 "displayName-count-one": "अफ़गान अफ़गानी",
                 "displayName-count-other": "अफ़गान अफ़गानी",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -43,7 +44,8 @@ const data = {
                 displayName: "आर्मेनियाई द्राम",
                 "displayName-count-one": "आर्मेनियाई द्राम",
                 "displayName-count-other": "आर्मेनियाई द्राम",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "नीदरलैंड एंटीलियन गिल्डर",
@@ -118,7 +120,8 @@ const data = {
                 displayName: "अज़रबैजानी मैनेट",
                 "displayName-count-one": "अज़रबैजानी मैनेट",
                 "displayName-count-other": "अज़रबैजानी मैनेट",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -269,7 +272,7 @@ const data = {
                 symbol: "BTN"
             },
             BUK: {
-                displayName: "BUK",
+                displayName: "बर्मी क्यात",
                 symbol: "BUK"
             },
             BWP: {
@@ -553,7 +556,8 @@ const data = {
                 displayName: "घानियन सेडी",
                 "displayName-count-one": "घानियन सेडी",
                 "displayName-count-other": "घानियन सेडी",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "जिब्राल्टर पाउंड",
@@ -1169,8 +1173,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "रवांडाई फ़्रैंक",
@@ -1240,6 +1243,10 @@ const data = {
             SKK: {
                 displayName: "स्लोवाक कोरुना",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "सिएरा लियोनियन लियोन",
@@ -1346,7 +1353,7 @@ const data = {
                 "symbol-alt-narrow": "T$"
             },
             TPE: {
-                displayName: "TPE",
+                displayName: "तिमोरी एस्कूडो",
                 symbol: "TPE"
             },
             TRL: {
@@ -1446,6 +1453,10 @@ const data = {
                 displayName: "वेनेज़ुएला बोलिवर (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "वेनेज़ुएला बोलिवर (2008–2018)",
                 "displayName-count-one": "वेनेज़ुएला बोलिवर (2008–2018)",
@@ -1467,7 +1478,7 @@ const data = {
                 "symbol-alt-narrow": "₫"
             },
             VNN: {
-                displayName: "VNN",
+                displayName: "वियतनामी डोंग (1978–1985)",
                 symbol: "VNN"
             },
             VUV: {
@@ -1524,7 +1535,9 @@ const data = {
                 symbol: "XDR"
             },
             XEU: {
-                displayName: "XEU",
+                displayName: "यूरोपीय मुद्रा इकाई",
+                "displayName-count-one": "यूरोपीय मुद्रा इकाई",
+                "displayName-count-other": "यूरोपीय मुद्रा इकाई",
                 symbol: "XEU"
             },
             XFO: {
@@ -1539,7 +1552,7 @@ const data = {
                 displayName: "पश्चिमी अफ़्रीकी CFA फ़्रैंक",
                 "displayName-count-one": "पश्चिमी अफ़्रीकी CFA फ़्रैंक",
                 "displayName-count-other": "पश्चिमी अफ़्रीकी CFA फ़्रैंक",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",

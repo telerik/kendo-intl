@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "M/d/y GGGGG",
                 GyMMM: "G y MMM",
                 GyMMMd: "G y MMM d",
                 GyMMMEd: "G y MMM d, E",
@@ -416,7 +417,7 @@ const data = {
             era: {
                 wide: "കാലഘട്ടം",
                 short: "കാലഘട്ടം",
-                narrow: "കാലഘട്ടം"
+                narrow: "കാല."
             },
             year: {
                 wide: "വർഷം",
@@ -459,9 +460,9 @@ const data = {
                 narrow: "ആഴ്‌ച. ദിവസം"
             },
             weekdayOfMonth: {
-                wide: "മാസത്തിലെ പ്രവർത്തിദിനം",
-                short: "മാസ. പ്രവർത്തിദിനം",
-                narrow: "മാസ. പ്രവർത്തിദിനം"
+                wide: "മാസത്തിലെ പ്രവൃത്തി ദിവസം",
+                short: "മാസ. പ്രവൃത്തി ദിവസം",
+                narrow: "മാസ. പ്രവൃത്തി ദിവസം"
             },
             dayperiod: {
                 short: "AM/PM",
@@ -485,8 +486,8 @@ const data = {
             },
             zone: {
                 wide: "സമയ മേഖല",
-                short: "സമയ മേഖല",
-                narrow: "സമയ മേഖല"
+                short: "മേഖല",
+                narrow: "മേഖല"
             }
         }
     },

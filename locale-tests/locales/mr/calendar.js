@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "d/M/y GGGGG",
                 GyMMM: "MMM G y",
                 GyMMMd: "d MMM, G y",
                 GyMMMEd: "E, d MMM, G y",
@@ -307,9 +308,9 @@ const data = {
             format: {
                 abbreviated: {
                     midnight: "मध्यरात्र",
-                    am: "म.पू.",
+                    am: "AM",
                     noon: "मध्यान्ह",
-                    pm: "म.उ.",
+                    pm: "PM",
                     morning1: "पहाट",
                     morning2: "सकाळ",
                     afternoon1: "दुपार",
@@ -319,9 +320,9 @@ const data = {
                 },
                 narrow: {
                     midnight: "म.रा.",
-                    am: "स",
+                    am: "a",
                     noon: "दु",
-                    pm: "सं",
+                    pm: "p",
                     morning1: "प",
                     morning2: "स",
                     afternoon1: "दु",
@@ -331,9 +332,9 @@ const data = {
                 },
                 wide: {
                     midnight: "मध्यरात्र",
-                    am: "म.पू.",
+                    am: "AM",
                     noon: "मध्यान्ह",
-                    pm: "म.उ.",
+                    pm: "PM",
                     morning1: "पहाट",
                     morning2: "सकाळ",
                     afternoon1: "दुपार",
@@ -345,9 +346,9 @@ const data = {
             "stand-alone": {
                 abbreviated: {
                     midnight: "मध्यरात्र",
-                    am: "म.पू.",
+                    am: "AM",
                     noon: "मध्यान्ह",
-                    pm: "म.उ.",
+                    pm: "PM",
                     morning1: "पहाट",
                     morning2: "सकाळ",
                     afternoon1: "दुपार",
@@ -357,9 +358,9 @@ const data = {
                 },
                 narrow: {
                     midnight: "म.रा.",
-                    am: "म.पू.",
+                    am: "AM",
                     noon: "म",
-                    pm: "म.उ.",
+                    pm: "PM",
                     morning1: "प",
                     morning2: "स",
                     afternoon1: "दु",
@@ -369,9 +370,9 @@ const data = {
                 },
                 wide: {
                     midnight: "मध्यरात्र",
-                    am: "म.पू.",
+                    am: "AM",
                     noon: "मध्यान्ह",
-                    pm: "म.उ.",
+                    pm: "PM",
                     morning1: "पहाट",
                     morning2: "सकाळ",
                     afternoon1: "दुपार",
@@ -457,9 +458,9 @@ const data = {
                 narrow: "महिन्यातील साप्ता. दिवस"
             },
             dayperiod: {
-                short: "[म.पू./म.उ.]",
-                wide: "[म.पू./म.उ.]",
-                narrow: "[म.पू./म.उ.]"
+                short: "AM/PM",
+                wide: "AM/PM",
+                narrow: "AM/PM"
             },
             hour: {
                 wide: "तास",

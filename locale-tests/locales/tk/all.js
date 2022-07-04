@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -78,7 +79,8 @@ const data = {
                 displayName: "Owgan afganisi",
                 "displayName-count-one": "owgan afganisi",
                 "displayName-count-other": "owgan afganisi",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -94,7 +96,8 @@ const data = {
                 displayName: "Ermeni dramy",
                 "displayName-count-one": "ermeni dramy",
                 "displayName-count-other": "ermeni dramy",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Niderland antil guldeni",
@@ -169,7 +172,8 @@ const data = {
                 displayName: "Azerbaýjan manady",
                 "displayName-count-one": "azerbaýjan manady",
                 "displayName-count-other": "azerbaýjan manady",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -593,8 +597,7 @@ const data = {
                 "displayName-count-one": "gruzin larisi",
                 "displayName-count-other": "gruzin larisi",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "GHC",
@@ -604,7 +607,8 @@ const data = {
                 displayName: "Gano sedisi",
                 "displayName-count-one": "gano sedisi",
                 "displayName-count-other": "gano sedisi",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Gibraltar funty",
@@ -875,7 +879,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "LSL",
+                displayName: "Lesoto lotisi",
+                "displayName-count-one": "Lesoto lotisi",
+                "displayName-count-other": "Lesoto lotisi",
                 symbol: "LSL"
             },
             LTL: {
@@ -1216,8 +1222,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Ruanda franky",
@@ -1287,6 +1292,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Sýerra-Leone leony",
@@ -1493,6 +1502,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "Wenesuela boliwary (2008–2018)",
                 "displayName-count-one": "wenesuela boliwary (2008–2018)",
@@ -1586,7 +1599,7 @@ const data = {
                 displayName: "KFA BCEAO franky",
                 "displayName-count-one": "KFA BCEAO franky",
                 "displayName-count-other": "KFA BCEAO franky",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",
@@ -1730,9 +1743,10 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
-                GyMMM: "G y MMM",
-                GyMMMd: "G y MMM d",
-                GyMMMEd: "G y MMM d, E",
+                GyMd: "GGGGG dd.MM.y",
+                GyMMM: "G MMM y",
+                GyMMMd: "G d MMM y",
+                GyMMMEd: "G d MMM y E",
                 h: "h a",
                 H: "HH",
                 hm: "h:mm a",

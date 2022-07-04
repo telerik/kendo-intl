@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -83,7 +84,8 @@ const data = {
                 displayName: "Afganistan Afganisi",
                 "displayName-count-one": "Afganistan afganisi",
                 "displayName-count-other": "Afganistan afganisi",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "Arnavutluk Leki (1946–1965)",
@@ -101,7 +103,8 @@ const data = {
                 displayName: "Ermenistan Dramı",
                 "displayName-count-one": "Ermenistan dramı",
                 "displayName-count-other": "Ermenistan dramı",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Hollanda Antilleri Guldeni",
@@ -188,7 +191,8 @@ const data = {
                 displayName: "Azerbaycan Manatı",
                 "displayName-count-one": "Azerbaycan manatı",
                 "displayName-count-other": "Azerbaycan manatı",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "Bosna Hersek Dinarı",
@@ -690,8 +694,7 @@ const data = {
                 "displayName-count-one": "Gürcistan larisi",
                 "displayName-count-other": "Gürcistan larisi",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "Gana Sedisi (1979–2007)",
@@ -701,7 +704,8 @@ const data = {
                 displayName: "Gana Sedisi",
                 "displayName-count-one": "Gana sedisi",
                 "displayName-count-other": "Gana sedisi",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Cebelitarık Lirası",
@@ -991,6 +995,8 @@ const data = {
             },
             LSL: {
                 displayName: "Lesotho Lotisi",
+                "displayName-count-one": "Lesotho lotisi",
+                "displayName-count-other": "Lesotho lotisi",
                 symbol: "LSL"
             },
             LTL: {
@@ -1453,6 +1459,10 @@ const data = {
                 "displayName-count-other": "Slovak Korunası",
                 symbol: "SKK"
             },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
+            },
             SLL: {
                 displayName: "Sierra Leone Leonesi",
                 "displayName-count-one": "Sierra Leone leonesi",
@@ -1685,6 +1695,10 @@ const data = {
                 "displayName-count-other": "Venezuela Bolivarı (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "Venezuela Bolivarı (2008–2018)",
                 "displayName-count-one": "Venezuela bolivarı (2008–2018)",
@@ -1786,7 +1800,7 @@ const data = {
                 displayName: "Batı Afrika CFA Frangı",
                 "displayName-count-one": "Batı Afrika CFA frangı",
                 "displayName-count-other": "Batı Afrika CFA frangı",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "Paladyum",
@@ -1950,6 +1964,7 @@ const data = {
                 Ehms: "E a h:mm:ss",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "d/M/y GGGGG",
                 GyMMM: "G MMM y",
                 GyMMMd: "G d MMM y",
                 GyMMMEd: "G d MMM y E",

@@ -13,6 +13,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -81,7 +82,8 @@ const data = {
                 displayName: "afgani",
                 "displayName-count-one": "afgani",
                 "displayName-count-other": "afganis",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -90,14 +92,15 @@ const data = {
             ALL: {
                 displayName: "lek",
                 "displayName-count-one": "lek",
-                "displayName-count-other": "lekes",
+                "displayName-count-other": "leks",
                 symbol: "ALL"
             },
             AMD: {
                 displayName: "dram",
-                "displayName-count-one": "dram armenio",
-                "displayName-count-other": "drams armenios",
-                symbol: "AMD"
+                "displayName-count-one": "dram",
+                "displayName-count-other": "drams",
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "florín de las Antillas Neerlandesas",
@@ -177,8 +180,9 @@ const data = {
             AZN: {
                 displayName: "manat azerbaiyano",
                 "displayName-count-one": "manat azerbaiyano",
-                "displayName-count-other": "manat azerbaiyanos",
-                symbol: "AZN"
+                "displayName-count-other": "manats azerbaiyanos",
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "dinar bosnio",
@@ -240,9 +244,9 @@ const data = {
                 symbol: "BGM"
             },
             BGN: {
-                displayName: "lev búlgaro",
-                "displayName-count-one": "lev búlgaro",
-                "displayName-count-other": "leva búlgaros",
+                displayName: "leva búlgara",
+                "displayName-count-one": "leva búlgara",
+                "displayName-count-other": "levas búlgaras",
                 symbol: "BGN"
             },
             BGO: {
@@ -250,9 +254,9 @@ const data = {
                 symbol: "BGO"
             },
             BHD: {
-                displayName: "dinar bahreiní",
-                "displayName-count-one": "dinar bahreiní",
-                "displayName-count-other": "dinares bahreiníes",
+                displayName: "dinar bareiní",
+                "displayName-count-one": "dinar bareiní",
+                "displayName-count-other": "dinares bareiníes",
                 symbol: "BHD"
             },
             BIF: {
@@ -376,7 +380,7 @@ const data = {
                 "displayName-count-one": "rublo bielorruso",
                 "displayName-count-other": "rublos bielorrusos",
                 symbol: "BYN",
-                "symbol-alt-narrow": "p."
+                "symbol-alt-narrow": "р."
             },
             BYR: {
                 displayName: "rublo bielorruso (2000–2016)",
@@ -442,7 +446,7 @@ const data = {
             CNH: {
                 displayName: "yuan chino (extracontinental)",
                 "displayName-count-one": "yuan chino (extracontinental)",
-                "displayName-count-other": "yuan chino (extracontinental)",
+                "displayName-count-other": "yuanes chinos (extracontinentales)",
                 symbol: "CNH"
             },
             CNX: {
@@ -610,9 +614,9 @@ const data = {
                 "symbol-alt-narrow": "₧"
             },
             ETB: {
-                displayName: "bir",
-                "displayName-count-one": "bir",
-                "displayName-count-other": "bires",
+                displayName: "birr",
+                "displayName-count-one": "birr",
+                "displayName-count-other": "birres",
                 symbol: "ETB"
             },
             EUR: {
@@ -664,8 +668,7 @@ const data = {
                 "displayName-count-one": "lari",
                 "displayName-count-other": "laris",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "cedi ghanés (1979–2007)",
@@ -675,7 +678,8 @@ const data = {
                 displayName: "cedi",
                 "displayName-count-one": "cedi",
                 "displayName-count-other": "cedis",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "libra gibraltareña",
@@ -868,15 +872,15 @@ const data = {
                 symbol: "KES"
             },
             KGS: {
-                displayName: "som kirguís",
+                displayName: "som",
                 "displayName-count-one": "som",
                 "displayName-count-other": "soms",
                 symbol: "KGS"
             },
             KHR: {
                 displayName: "riel",
-                "displayName-count-one": "riel camboyano",
-                "displayName-count-other": "rieles camboyanos",
+                "displayName-count-one": "riel",
+                "displayName-count-other": "rieles",
                 symbol: "KHR",
                 "symbol-alt-narrow": "៛"
             },
@@ -923,9 +927,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             KZT: {
-                displayName: "tenge kazako",
-                "displayName-count-one": "tenge kazako",
-                "displayName-count-other": "tenges kazakos",
+                displayName: "tenge kazajo",
+                "displayName-count-one": "tenge kazajo",
+                "displayName-count-other": "tengues kazajos",
                 symbol: "KZT",
                 "symbol-alt-narrow": "₸"
             },
@@ -958,7 +962,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "loti lesothense",
+                displayName: "loti lesotense",
+                "displayName-count-one": "loti lesotense",
+                "displayName-count-other": "lotis lesotenses",
                 symbol: "LSL"
             },
             LTL: {
@@ -1034,7 +1040,7 @@ const data = {
             MDL: {
                 displayName: "leu moldavo",
                 "displayName-count-one": "leu moldavo",
-                "displayName-count-other": "lei moldavos",
+                "displayName-count-other": "leus moldavos",
                 symbol: "MDL"
             },
             MGA: {
@@ -1126,7 +1132,7 @@ const data = {
             MWK: {
                 displayName: "kwacha malauí",
                 "displayName-count-one": "kwacha malauí",
-                "displayName-count-other": "kwachas malauís",
+                "displayName-count-other": "kwachas malauíes",
                 symbol: "MWK"
             },
             MXN: {
@@ -1320,7 +1326,7 @@ const data = {
             RON: {
                 displayName: "leu rumano",
                 "displayName-count-one": "leu rumano",
-                "displayName-count-other": "lei rumanos",
+                "displayName-count-other": "leus rumanos",
                 symbol: "RON",
                 "symbol-alt-narrow": "lei"
             },
@@ -1341,8 +1347,7 @@ const data = {
                 displayName: "rublo ruso (1991–1998)",
                 "displayName-count-one": "rublo ruso (RUR)",
                 "displayName-count-other": "rublos rusos (RUR)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "franco ruandés",
@@ -1421,6 +1426,10 @@ const data = {
                 "displayName-count-other": "coronas eslovacas",
                 symbol: "SKK"
             },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
+            },
             SLL: {
                 displayName: "leona",
                 "displayName-count-one": "leona",
@@ -1458,9 +1467,9 @@ const data = {
                 symbol: "STD"
             },
             STN: {
-                displayName: "dobra santotomense",
-                "displayName-count-one": "dobra santotomense",
-                "displayName-count-other": "dobra santotomense",
+                displayName: "dobra",
+                "displayName-count-one": "dobra",
+                "displayName-count-other": "dobras",
                 symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },
@@ -1515,7 +1524,7 @@ const data = {
             TMT: {
                 displayName: "manat turcomano",
                 "displayName-count-one": "manat turcomano",
-                "displayName-count-other": "manat turcomanos",
+                "displayName-count-other": "manats turcomanos",
                 symbol: "TMT"
             },
             TND: {
@@ -1648,6 +1657,10 @@ const data = {
                 "displayName-count-other": "bolívares venezolanos (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "bolívar venezolano (2008–2018)",
                 "displayName-count-one": "bolívar venezolano (2008–2018)",
@@ -1658,7 +1671,7 @@ const data = {
             VES: {
                 displayName: "bolívar venezolano",
                 "displayName-count-one": "bolívar venezolano",
-                "displayName-count-other": "bolivares venezolanos",
+                "displayName-count-other": "bolívares venezolanos",
                 symbol: "VES"
             },
             VND: {
@@ -1882,7 +1895,7 @@ const data = {
             D: "EEEE, d 'de' MMMM 'de' y",
             m: "d MMM",
             M: "d 'de' MMMM",
-            y: "MMMM 'de' y",
+            y: "MMM y",
             Y: "MMMM 'de' y",
             F: "EEEE, d 'de' MMMM 'de' y h:mm:ss a",
             g: "d/M/y h:mm a",
@@ -1893,10 +1906,10 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} 'a' 'las' {0}",
-            long: "{1} 'a' 'las' {0}",
-            medium: "{1} {0}",
-            short: "{1} {0}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
+            medium: "{1}, {0}",
+            short: "{1}, {0}",
             availableFormats: {
                 Bh: "h B",
                 Bhm: "h:mm B",
@@ -1911,6 +1924,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "d/M/y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E, d MMM y G",
@@ -1948,9 +1962,9 @@ const data = {
                 yMd: "d/M/y",
                 yMEd: "E, d/M/y",
                 yMM: "MM/y",
-                yMMM: "MMMM 'de' y",
-                yMMMd: "d 'de' MMMM 'de' y",
-                yMMMEd: "EEE, d 'de' MMMM 'de' y",
+                yMMM: "MMM y",
+                yMMMd: "d MMM y",
+                yMMMEd: "EEE, d 'de' MMM 'de' y",
                 yMMMM: "MMMM 'de' y",
                 yMMMMd: "d 'de' MMMM 'de' y",
                 yMMMMEd: "EEE, d 'de' MMMM 'de' y",
@@ -1975,13 +1989,13 @@ const data = {
         days: {
             format: {
                 abbreviated: [
-                    "dom.",
-                    "lun.",
-                    "mar.",
-                    "mié.",
-                    "jue.",
-                    "vie.",
-                    "sáb."
+                    "dom",
+                    "lun",
+                    "mar",
+                    "mié",
+                    "jue",
+                    "vie",
+                    "sáb"
                 ],
                 narrow: [
                     "D",
@@ -2013,13 +2027,13 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "dom.",
-                    "lun.",
-                    "mar.",
-                    "mié.",
-                    "jue.",
-                    "vie.",
-                    "sáb."
+                    "dom",
+                    "lun",
+                    "mar",
+                    "mié",
+                    "jue",
+                    "vie",
+                    "sáb"
                 ],
                 narrow: [
                     "D",
@@ -2053,18 +2067,18 @@ const data = {
         months: {
             format: {
                 abbreviated: [
-                    "ene.",
-                    "feb.",
-                    "mar.",
-                    "abr.",
-                    "may.",
-                    "jun.",
-                    "jul.",
-                    "ago.",
-                    "sep.",
-                    "oct.",
-                    "nov.",
-                    "dic."
+                    "ene",
+                    "feb",
+                    "mar",
+                    "abr",
+                    "may",
+                    "jun",
+                    "jul",
+                    "ago",
+                    "sept",
+                    "oct",
+                    "nov",
+                    "dic"
                 ],
                 narrow: [
                     "E",
@@ -2097,18 +2111,18 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "ene.",
-                    "feb.",
-                    "mar.",
-                    "abr.",
-                    "may.",
-                    "jun.",
-                    "jul.",
-                    "ago.",
-                    "sep.",
-                    "oct.",
-                    "nov.",
-                    "dic."
+                    "ene",
+                    "feb",
+                    "mar",
+                    "abr",
+                    "may",
+                    "jun",
+                    "jul",
+                    "ago",
+                    "sept",
+                    "oct",
+                    "nov",
+                    "dic"
                 ],
                 narrow: [
                     "E",
@@ -2143,42 +2157,42 @@ const data = {
         quarters: {
             format: {
                 abbreviated: [
-                    "1er. trim.",
-                    "2º. trim.",
-                    "3er. trim.",
-                    "4º trim."
+                    "T1",
+                    "T2",
+                    "T3",
+                    "T4"
                 ],
                 narrow: [
-                    "1T",
-                    "2T",
-                    "3T",
-                    "4T"
+                    "1",
+                    "2",
+                    "3",
+                    "4"
                 ],
                 wide: [
-                    "1.er trimestre",
-                    "2º. trimestre",
-                    "3.er trimestre",
-                    "4o. trimestre"
+                    "1.º trimestre",
+                    "2.º trimestre",
+                    "3.º trimestre",
+                    "4.º trimestre"
                 ]
             },
             "stand-alone": {
                 abbreviated: [
-                    "1er. trim.",
-                    "2º. trim.",
-                    "3er. trim.",
-                    "4º trim."
+                    "T1",
+                    "T2",
+                    "T3",
+                    "T4"
                 ],
                 narrow: [
-                    "1T",
-                    "2T",
-                    "3T",
-                    "4T"
+                    "1",
+                    "2",
+                    "3",
+                    "4"
                 ],
                 wide: [
-                    "1.er trimestre",
-                    "2º. trimestre",
-                    "3.er trimestre",
-                    "4º trimestre"
+                    "1.º trimestre",
+                    "2.º trimestre",
+                    "3.º trimestre",
+                    "4.º trimestre"
                 ]
             }
         },
@@ -2198,7 +2212,7 @@ const data = {
                     noon: "del mediodía",
                     pm: "p. m.",
                     morning1: "de la madrugada",
-                    morning2: "mañana",
+                    morning2: "de la mañana",
                     evening1: "de la tarde",
                     night1: "de la noche"
                 },
@@ -2314,8 +2328,8 @@ const data = {
             },
             weekdayOfMonth: {
                 wide: "día de la semana del mes",
-                short: "día de sem. de mes",
-                narrow: "día de sem. de mes"
+                short: "día sem. de m",
+                narrow: "día sem. de m"
             },
             dayperiod: {
                 short: "a. m./p. m.",

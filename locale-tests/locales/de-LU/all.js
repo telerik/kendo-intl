@@ -13,6 +13,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "≈",
             exponential: "E",
             superscriptingExponent: "·",
             perMille: "‰",
@@ -83,7 +84,8 @@ const data = {
                 displayName: "Afghanischer Afghani",
                 "displayName-count-one": "Afghanischer Afghani",
                 "displayName-count-other": "Afghanische Afghani",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "Albanischer Lek (1946–1965)",
@@ -101,7 +103,8 @@ const data = {
                 displayName: "Armenischer Dram",
                 "displayName-count-one": "Armenischer Dram",
                 "displayName-count-other": "Armenische Dram",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Niederländische-Antillen-Gulden",
@@ -194,7 +197,8 @@ const data = {
                 displayName: "Aserbaidschan-Manat",
                 "displayName-count-one": "Aserbaidschan-Manat",
                 "displayName-count-other": "Aserbaidschan-Manat",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "Bosnien und Herzegowina Dinar (1992–1994)",
@@ -203,9 +207,9 @@ const data = {
                 symbol: "BAD"
             },
             BAM: {
-                displayName: "Bosnien und Herzegowina Konvertierbare Mark",
-                "displayName-count-one": "Bosnien und Herzegowina Konvertierbare Mark",
-                "displayName-count-other": "Bosnien und Herzegowina Konvertierbare Mark",
+                displayName: "Konvertible Mark Bosnien und Herzegowina",
+                "displayName-count-one": "Konvertible Mark Bosnien und Herzegowina",
+                "displayName-count-other": "Konvertible Mark Bosnien und Herzegowina",
                 symbol: "BAM",
                 "symbol-alt-narrow": "KM"
             },
@@ -468,9 +472,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             CNH: {
-                displayName: "Renminbi Yuan (Off–Shore)",
-                "displayName-count-one": "Renminbi Yuan (Off–Shore)",
-                "displayName-count-other": "Renminbi Yuan (Off–Shore)",
+                displayName: "Renminbi-Yuan (Offshore)",
+                "displayName-count-one": "Renminbi-Yuan (Offshore)",
+                "displayName-count-other": "Renminbi-Yuan (Offshore)",
                 symbol: "CNH"
             },
             CNX: {
@@ -696,8 +700,7 @@ const data = {
                 "displayName-count-one": "Georgischer Lari",
                 "displayName-count-other": "Georgische Lari",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "Ghanaischer Cedi (1979–2007)",
@@ -709,7 +712,8 @@ const data = {
                 displayName: "Ghanaischer Cedi",
                 "displayName-count-one": "Ghanaischer Cedi",
                 "displayName-count-other": "Ghanaische Cedi",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "₵"
             },
             GIP: {
                 displayName: "Gibraltar-Pfund",
@@ -1322,9 +1326,9 @@ const data = {
                 symbol: "PES"
             },
             PGK: {
-                displayName: "Papua-Neuguineischer Kina",
-                "displayName-count-one": "Papua-Neuguineischer Kina",
-                "displayName-count-other": "Papua-Neuguineische Kina",
+                displayName: "Papua-neuguineischer Kina",
+                "displayName-count-one": "Papua-neuguineischer Kina",
+                "displayName-count-other": "Papua-neuguineischer Kina",
                 symbol: "PGK"
             },
             PHP: {
@@ -1471,9 +1475,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             SHP: {
-                displayName: "St. Helena-Pfund",
-                "displayName-count-one": "St. Helena-Pfund",
-                "displayName-count-other": "St. Helena-Pfund",
+                displayName: "St.-Helena-Pfund",
+                "displayName-count-one": "St.-Helena-Pfund",
+                "displayName-count-other": "St.-Helena-Pfund",
                 symbol: "SHP",
                 "symbol-alt-narrow": "£"
             },
@@ -1488,6 +1492,10 @@ const data = {
                 "displayName-count-one": "Slowakische Kronen",
                 "displayName-count-other": "Slowakische Kronen",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Sierra-leonischer Leone",
@@ -1624,9 +1632,9 @@ const data = {
                 "symbol-alt-variant": "TL"
             },
             TTD: {
-                displayName: "Trinidad und Tobago-Dollar",
-                "displayName-count-one": "Trinidad und Tobago-Dollar",
-                "displayName-count-other": "Trinidad und Tobago-Dollar",
+                displayName: "Trinidad-und-Tobago-Dollar",
+                "displayName-count-one": "Trinidad-und-Tobago-Dollar",
+                "displayName-count-other": "Trinidad-und-Tobago-Dollar",
                 symbol: "TTD",
                 "symbol-alt-narrow": "$"
             },
@@ -1721,6 +1729,10 @@ const data = {
                 "displayName-count-one": "Venezolanischer Bolívar (1871–2008)",
                 "displayName-count-other": "Venezolanische Bolívares (1871–2008)",
                 symbol: "VEB"
+            },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
             },
             VEF: {
                 displayName: "Venezolanischer Bolívar (2008–2018)",
@@ -1837,7 +1849,7 @@ const data = {
                 displayName: "CFA-Franc (BCEAO)",
                 "displayName-count-one": "CFA-Franc (BCEAO)",
                 "displayName-count-other": "CFA-Francs (BCEAO)",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "Unze Palladium",
@@ -2017,6 +2029,7 @@ const data = {
                 Ehms: "E, h:mm:ss a",
                 EHms: "E, HH:mm:ss",
                 Gy: "y G",
+                GyMd: "dd.MM.y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d. MMM y G",
                 GyMMMEd: "E, d. MMM y G",

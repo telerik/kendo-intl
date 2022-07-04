@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "−",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -82,7 +83,8 @@ const data = {
                 displayName: "Afganistanin afgaani",
                 "displayName-count-one": "Afganistanin afgaani",
                 "displayName-count-other": "Afganistanin afgaania",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "Albanian lek (1946–1965)",
@@ -100,7 +102,8 @@ const data = {
                 displayName: "Armenian dram",
                 "displayName-count-one": "Armenian dram",
                 "displayName-count-other": "Armenian dramia",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Alankomaiden Antillien guldeni",
@@ -193,7 +196,8 @@ const data = {
                 displayName: "Azerbaidžanin manat",
                 "displayName-count-one": "Azerbaidžanin manat",
                 "displayName-count-other": "Azerbaidžanin manatia",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "Bosnia-Hertsegovinan dinaari (1992–1994)",
@@ -707,7 +711,8 @@ const data = {
                 displayName: "Ghanan cedi",
                 "displayName-count-one": "Ghanan cedi",
                 "displayName-count-other": "Ghanan cediä",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Gibraltarin punta",
@@ -1405,8 +1410,7 @@ const data = {
                 displayName: "Venäjän rupla (1991–1998)",
                 "displayName-count-one": "Venäjän rupla (1991–1998)",
                 "displayName-count-other": "Venäjän ruplaa (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "RUR"
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Ruandan frangi",
@@ -1484,6 +1488,10 @@ const data = {
                 "displayName-count-one": "Slovakian koruna",
                 "displayName-count-other": "Slovakian korunaa",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Sierra Leonen leone",
@@ -1720,6 +1728,10 @@ const data = {
                 "displayName-count-other": "Venezuelan bolivaria (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "Venezuelan bolívar (2008–2018)",
                 "displayName-count-one": "Venezuelan bolívar (2008–2018)",
@@ -1835,7 +1847,7 @@ const data = {
                 displayName: "CFA-frangi BCEAO",
                 "displayName-count-one": "CFA-frangi BCEAO",
                 "displayName-count-other": "CFA-frangia BCEAO",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "palladium",
@@ -2015,6 +2027,7 @@ const data = {
                 Ehms: "E h.mm.ss a",
                 EHms: "E H.mm.ss",
                 Gy: "y G",
+                GyMd: "M.d.y G",
                 GyMMM: "LLL y G",
                 GyMMMd: "d. MMM y G",
                 GyMMMEd: "E d. MMM y G",

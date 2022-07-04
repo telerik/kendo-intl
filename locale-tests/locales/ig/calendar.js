@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "MMM G y",
                 GyMMMd: "d MMM, G y",
                 GyMMMEd: "E, d MMM, G y",
@@ -93,7 +94,7 @@ const data = {
         days: {
             format: {
                 abbreviated: [
-                    "Ụka",
+                    "Sọn",
                     "Mọn",
                     "Tiu",
                     "Wen",
@@ -131,7 +132,7 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "Ụka",
+                    "Sọn",
                     "Mọn",
                     "Tiu",
                     "Wen",
@@ -381,9 +382,9 @@ const data = {
                 narrow: "Izu"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "ịzụ ọnwa",
+                short: "ịzụ ọnwa",
+                narrow: "ịzụ ọnwa"
             },
             day: {
                 wide: "Ụbọchị",
@@ -391,19 +392,19 @@ const data = {
                 narrow: "Ụbọchị"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "ụbọchị na afọ",
+                short: "Ụbọchị na afọ",
+                narrow: "Ụbọchị na afọ"
             },
             weekday: {
                 wide: "Ụbọchị izu",
-                short: "Ụbọchị izu",
-                narrow: "Ụbọchị izu"
+                short: "Ụbọchị ịzụ",
+                narrow: "Ụbọchị ịzụ"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "Ụbọchị ịzụ na ọnwa",
+                short: "Ụbọchị ịzụ na ọnwa",
+                narrow: "Ụbọchị ịzụ na ọnwa"
             },
             dayperiod: {
                 short: "N’ụtụtụ/N’abalị",

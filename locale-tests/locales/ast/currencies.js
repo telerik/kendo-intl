@@ -31,7 +31,8 @@ const data = {
                 displayName: "Afganí afganistanu",
                 "displayName-count-one": "afganí afganistanu",
                 "displayName-count-other": "afganís afganistanos",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "Lek albanés (1946–1965)",
@@ -49,7 +50,8 @@ const data = {
                 displayName: "Dram armeniu",
                 "displayName-count-one": "dram armeniu",
                 "displayName-count-other": "drams armenios",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Guílder de les Antilles Neerlandeses",
@@ -142,7 +144,8 @@ const data = {
                 displayName: "Manat azerbaixanu",
                 "displayName-count-one": "manat azerbaixanu",
                 "displayName-count-other": "manats azerbaixanos",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "Dinar de Bosnia-Herzegovina (1992–1994)",
@@ -349,8 +352,7 @@ const data = {
                 displayName: "Rublu bielorrusu",
                 "displayName-count-one": "rublu bielorrusu",
                 "displayName-count-other": "rublos bielorrusos",
-                symbol: "BYN",
-                "symbol-alt-narrow": "BYN"
+                symbol: "BYN"
             },
             BYR: {
                 displayName: "Rublu bielorrusu (2000–2016)",
@@ -654,7 +656,8 @@ const data = {
                 displayName: "cedi ghanianu",
                 "displayName-count-one": "cedi ghanianu",
                 "displayName-count-other": "cedis ghanianos",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "llibra de Xibraltar",
@@ -1353,8 +1356,7 @@ const data = {
                 displayName: "Rublu rusu (1991–1998)",
                 "displayName-count-one": "rublu rusu (1991–1998)",
                 "displayName-count-other": "rublos rusos (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "RUR"
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Francu ruandés",
@@ -1432,6 +1434,10 @@ const data = {
                 "displayName-count-one": "corona eslovaca",
                 "displayName-count-other": "corones eslovaques",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "leone sierralleonés",
@@ -1666,6 +1672,10 @@ const data = {
                 "displayName-count-other": "bolívares venezolanos (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "bolívar venezolanu (2008–2018)",
                 "displayName-count-one": "bolívar venezolanu (2008–2018)",
@@ -1781,7 +1791,7 @@ const data = {
                 displayName: "francu CFA BCEAO",
                 "displayName-count-one": "francu CFA BCEAO",
                 "displayName-count-other": "francos CFA BCEAO",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "Paladiu",

@@ -43,6 +43,7 @@ const data = {
                 Ehms: "E, h:mm:ss a",
                 EHms: "E, HH:mm:ss",
                 Gy: "y G",
+                GyMd: "d/M/y GGGGG",
                 GyMMM: "MMM 'de' y G",
                 GyMMMd: "d 'de' MMM 'de' y G",
                 GyMMMEd: "E, d 'de' MMM 'de' y G",
@@ -119,13 +120,13 @@ const data = {
                     "S"
                 ],
                 short: [
-                    "domingo",
-                    "segunda",
-                    "terça",
-                    "quarta",
-                    "quinta",
-                    "sexta",
-                    "sábado"
+                    "dom.",
+                    "seg.",
+                    "ter.",
+                    "qua.",
+                    "qui.",
+                    "sex.",
+                    "sáb."
                 ],
                 wide: [
                     "domingo",
@@ -157,13 +158,13 @@ const data = {
                     "S"
                 ],
                 short: [
-                    "domingo",
-                    "segunda",
-                    "terça",
-                    "quarta",
-                    "quinta",
-                    "sexta",
-                    "sábado"
+                    "dom.",
+                    "seg.",
+                    "ter.",
+                    "qua.",
+                    "qui.",
+                    "sex.",
+                    "sáb."
                 ],
                 wide: [
                     "domingo",
@@ -441,8 +442,8 @@ const data = {
             },
             weekday: {
                 wide: "dia da semana",
-                short: "dia da semana",
-                narrow: "dia da semana"
+                short: "dia da sem.",
+                narrow: "dia da sem."
             },
             weekdayOfMonth: {
                 wide: "dia da semana do mês",

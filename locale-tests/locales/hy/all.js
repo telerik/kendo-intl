@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -78,7 +79,8 @@ const data = {
                 displayName: "աֆղանական աֆղանի",
                 "displayName-count-one": "աֆղանական աֆղանի",
                 "displayName-count-other": "աֆղանական աֆղանի",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -95,6 +97,7 @@ const data = {
                 "displayName-count-one": "հայկական դրամ",
                 "displayName-count-other": "հայկական դրամ",
                 symbol: "֏",
+                "symbol-alt-narrow": "֏",
                 "symbol-alt-variant": "դր."
             },
             ANG: {
@@ -170,7 +173,8 @@ const data = {
                 displayName: "ադրբեջանական մանաթ",
                 "displayName-count-one": "ադրբեջանական մանաթ",
                 "displayName-count-other": "ադրբեջանական մանաթ",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -398,9 +402,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             CNH: {
-                displayName: "CNH",
-                "displayName-count-one": "CNH",
-                "displayName-count-other": "CNH",
+                displayName: "չինական օֆշորային յուան",
+                "displayName-count-one": "չինական օֆշորային յուան",
+                "displayName-count-other": "չինական օֆշորային յուան",
                 symbol: "CNH"
             },
             CNX: {
@@ -604,7 +608,8 @@ const data = {
                 displayName: "գայանական սեդի",
                 "displayName-count-one": "գանայական սեդի",
                 "displayName-count-other": "գանայական սեդի",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Ջիբրալթարի ֆունտ",
@@ -875,7 +880,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "LSL",
+                displayName: "լեսոթոյական լոտի",
+                "displayName-count-one": "լեսոթոյական լոտի",
+                "displayName-count-other": "լեսոթոյական լոտի",
                 symbol: "LSL"
             },
             LTL: {
@@ -1220,8 +1227,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "ռուանդական ֆրանկ",
@@ -1291,6 +1297,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Սիեռա Լեոնեի լեոնե",
@@ -1497,6 +1507,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "վենեսուելական բոլիվար (2008–2018)",
                 "displayName-count-one": "վենեսուելական բոլիվար (2008–2018)",
@@ -1590,7 +1604,7 @@ const data = {
                 displayName: "Արևմտյան Աֆրիկայի ԿՖԱ ֆրանկ",
                 "displayName-count-one": "Արևմտյան Աֆրիկայի ԿՖԱ ֆրանկ",
                 "displayName-count-other": "Արևմտյան Աֆրիկայի ԿՖԱ ֆրանկ",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",
@@ -1736,8 +1750,9 @@ const data = {
                 Ehms: "E, h:mm:ss a",
                 EHms: "E, HH:mm:ss",
                 Gy: "G y թ.",
+                GyMd: "dd.MM.y GGGGG",
                 GyMMM: "G y թ. MMM",
-                GyMMMd: "d MMM, y թ.",
+                GyMMMd: "d MMM, y թ. G",
                 GyMMMEd: "G y թ. MMM d, E",
                 h: "h a",
                 H: "H",

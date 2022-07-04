@@ -25,7 +25,8 @@ const data = {
             AFN: {
                 displayName: "افغانستون ِافغانی",
                 "displayName-count-other": "افغانستون ِافغانی",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -39,7 +40,8 @@ const data = {
             AMD: {
                 displayName: "ارمنستون درهم",
                 "displayName-count-other": "ارمنستون درهم",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "هلند ِآنتیل ِجزایر ِگویلدر",
@@ -107,7 +109,8 @@ const data = {
             AZN: {
                 displayName: "آذربایجون ِمنات",
                 "displayName-count-other": "آذربایجون ِمنات",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -489,8 +492,7 @@ const data = {
                 displayName: "گرجستون ِلاری",
                 "displayName-count-other": "گرجستون ِلاری",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "GHC",
@@ -499,7 +501,8 @@ const data = {
             GHS: {
                 displayName: "غنای ِسدی",
                 "displayName-count-other": "غنای ِسدی",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "جبل‌طارق ِپوند",
@@ -1043,8 +1046,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "روآندای ِفرانک",
@@ -1105,6 +1107,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "سیرالئون ِلئون",
@@ -1288,6 +1294,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "ونزوئلایِ بولیوار (2008–2018)",
                 "displayName-count-other": "ونزوئلایِ بولیوار (2008–2018)",
@@ -1371,7 +1381,7 @@ const data = {
             XOF: {
                 displayName: "غربی آفریقای ِسی‌اف‌ای فرانک",
                 "displayName-count-other": "غربی آفریقای ِسی‌اف‌ای فرانک",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",

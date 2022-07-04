@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -79,7 +80,8 @@ const data = {
                 displayName: "የአፍጋን አፍጋኒ",
                 "displayName-count-one": "የአፍጋን አፍጋኒ",
                 "displayName-count-other": "የአፍጋን አፍጋኒ",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -95,7 +97,8 @@ const data = {
                 displayName: "የአርመን ድራም",
                 "displayName-count-one": "የአርመን ድራም",
                 "displayName-count-other": "የአርመን ድራም",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "ኔዘርላንድስ አንቲሊአን ጊልደር",
@@ -170,7 +173,8 @@ const data = {
                 displayName: "የአዛርባጃን ማናት",
                 "displayName-count-one": "የአዛርባጃን ማናት",
                 "displayName-count-other": "የአዛርባጃን ማናት",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -594,8 +598,7 @@ const data = {
                 "displayName-count-one": "የጆርጅያ ላሪ",
                 "displayName-count-other": "የጆርጅያ ላሪ",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "የጋና ሴዲ",
@@ -605,7 +608,8 @@ const data = {
                 displayName: "የጋና ሲዲ",
                 "displayName-count-one": "የጋና ሲዲ",
                 "displayName-count-other": "የጋና ሲዲ",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "ጂብራልተር ፓውንድ",
@@ -680,7 +684,7 @@ const data = {
                 symbol: "HRD"
             },
             HRK: {
-                displayName: "HRK",
+                displayName: "የክሮሽያ ኩና",
                 "displayName-count-one": "የክሮሽያ ኩና",
                 "displayName-count-other": "የክሮሽያ ኩና",
                 symbol: "HRK",
@@ -1221,8 +1225,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "የሩዋንዳ ፍራንክ",
@@ -1294,6 +1297,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "የሴራሊዎን ሊዎን",
@@ -1500,6 +1507,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "የቬንዝዌላ ቦሊቫር (2008–2018)",
                 "displayName-count-one": "የቬንዝዌላ ቦሊቫር (2008–2018)",
@@ -1593,7 +1604,7 @@ const data = {
                 displayName: "የምዕራብ አፍሪካ ሴፋ ፍራንክ",
                 "displayName-count-one": "የምዕራብ አፍሪካ ሴፋ ፍራንክ",
                 "displayName-count-other": "የምዕራብ አፍሪካ ሴፋ ፍራንክ",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",
@@ -1739,6 +1750,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "M/d/y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "G y MMM d",
                 GyMMMEd: "G y MMM d, E",
@@ -1760,7 +1772,8 @@ const data = {
                 MMMEd: "E፣ MMM d",
                 MMMMd: "MMMM d",
                 MMMMEd: "E፣ MMMM d",
-                "MMMMW-count-other": "'week' W 'of' MMMM",
+                "MMMMW-count-one": "ሳምንት W የ MMMM",
+                "MMMMW-count-other": "ሳምንት W የ MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M/y",
@@ -2075,13 +2088,13 @@ const data = {
                 abbreviated: {
                     "0": "ዓ/ዓ",
                     "1": "ዓ/ም",
-                    "0-alt-variant": "BCE",
+                    "0-alt-variant": "ዓ/ዓ",
                     "1-alt-variant": "CE"
                 },
                 narrow: {
                     "0": "ዓ/ዓ",
                     "1": "ዓ/ም",
-                    "0-alt-variant": "BCE",
+                    "0-alt-variant": "ዓ/ዓ",
                     "1-alt-variant": "CE"
                 }
             }

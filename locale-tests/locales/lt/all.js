@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "−",
+            approximatelySign: "∼",
             exponential: "×10^",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -92,7 +93,8 @@ const data = {
                 "displayName-count-few": "Afganistano afganiai",
                 "displayName-count-many": "Afganistano afganio",
                 "displayName-count-other": "Afganistano afganių",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "Albanijos lekas (1946–1965)",
@@ -116,7 +118,8 @@ const data = {
                 "displayName-count-few": "Armėnijos dramai",
                 "displayName-count-many": "Armėnijos dramo",
                 "displayName-count-other": "Armėnijos dramų",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Olandijos Antilų guldenas",
@@ -239,7 +242,8 @@ const data = {
                 "displayName-count-few": "Azerbaidžano manatai",
                 "displayName-count-many": "Azerbaidžano manato",
                 "displayName-count-other": "Azerbaidžano manatų",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "Bosnijos ir Hercegovinos dinaras (1992–1994)",
@@ -899,8 +903,7 @@ const data = {
                 "displayName-count-many": "Gruzijos lario",
                 "displayName-count-other": "Gruzijos larių",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "Ganos sedis (1979–2007)",
@@ -916,7 +919,8 @@ const data = {
                 "displayName-count-few": "Ganos sedžiai",
                 "displayName-count-many": "Ganos sedžio",
                 "displayName-count-other": "Ganos sedžių",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Gibraltaro svaras",
@@ -1304,7 +1308,7 @@ const data = {
             },
             LSL: {
                 displayName: "Lesoto lotis",
-                "displayName-count-one": "Lesoto loti",
+                "displayName-count-one": "Lesoto lotis",
                 "displayName-count-few": "Lesoto lotis",
                 "displayName-count-many": "Lesoto lotis",
                 "displayName-count-other": "Lesoto lotis",
@@ -1833,8 +1837,7 @@ const data = {
                 "displayName-count-few": "Rusijos rubliai (1991–1998)",
                 "displayName-count-many": "Rusijos rublio (1991–1998)",
                 "displayName-count-other": "Rusijos rublių (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Ruandos frankas",
@@ -1936,6 +1939,10 @@ const data = {
                 "displayName-count-many": "Slovakijos kronos",
                 "displayName-count-other": "Slovakijos kronų",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Siera Leonės leonė",
@@ -2241,6 +2248,10 @@ const data = {
                 "displayName-count-many": "Venesuelos bolivaro (1871–2008)",
                 "displayName-count-other": "Venesuelos bolivarų (1871–2008)",
                 symbol: "VEB"
+            },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
             },
             VEF: {
                 displayName: "Venesuelos bolivaras (2008–2018)",
@@ -2617,6 +2628,7 @@ const data = {
                 Ehms: "hh:mm:ss a, E",
                 EHms: "HH:mm:ss, E",
                 Gy: "y 'm'. G",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "y-MM G",
                 GyMMMd: "y-MM-dd G",
                 GyMMMEd: "y-MM-dd G, E",

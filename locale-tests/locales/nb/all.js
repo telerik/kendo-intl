@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "−",
+            approximatelySign: "ca.",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -44,7 +45,8 @@ const data = {
         },
         currency: {
             patterns: [
-                "$ n"
+                "$ n",
+                "$ -n"
             ],
             groupSize: [
                 3
@@ -54,7 +56,8 @@ const data = {
         },
         accounting: {
             patterns: [
-                "$ n"
+                "$ n",
+                "($ n)"
             ],
             groupSize: [
                 3
@@ -83,7 +86,8 @@ const data = {
                 displayName: "afghanske afghani",
                 "displayName-count-one": "afghansk afghani",
                 "displayName-count-other": "afghanske afghani",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "albanske lek (1946–1965)",
@@ -101,7 +105,8 @@ const data = {
                 displayName: "armenske dram",
                 "displayName-count-one": "armensk dram",
                 "displayName-count-other": "armenske dram",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "nederlandske antillegylden",
@@ -194,7 +199,8 @@ const data = {
                 displayName: "aserbajdsjanske manat",
                 "displayName-count-one": "aserbajdsjansk manat",
                 "displayName-count-other": "aserbajdsjanske manat",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "bosnisk-hercegovinske dinarer (1992–1994)",
@@ -692,8 +698,7 @@ const data = {
                 "displayName-count-one": "georgisk lari",
                 "displayName-count-other": "georgiske lari",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "ghanesisk cedi (1979–2007)",
@@ -705,7 +710,8 @@ const data = {
                 displayName: "ghanesiske cedi",
                 "displayName-count-one": "ghanesisk cedi",
                 "displayName-count-other": "ghanesiske cedi",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "gibraltarske pund",
@@ -1070,9 +1076,9 @@ const data = {
                 symbol: "MAF"
             },
             MCF: {
-                displayName: "MCF",
-                "displayName-count-one": "MCF",
-                "displayName-count-other": "MCF",
+                displayName: "monegaskiske franc",
+                "displayName-count-one": "monegaskisk franc",
+                "displayName-count-other": "monegaskiske franc",
                 symbol: "MCF"
             },
             MDC: {
@@ -1403,8 +1409,7 @@ const data = {
                 displayName: "russiske rubler (1991–1998)",
                 "displayName-count-one": "russisk rubel (1991–1998)",
                 "displayName-count-other": "russiske rubler (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "rwandiske franc",
@@ -1482,6 +1487,10 @@ const data = {
                 "displayName-count-one": "slovakisk koruna",
                 "displayName-count-other": "slovakiske koruna",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "sierraleonske leone",
@@ -1716,6 +1725,10 @@ const data = {
                 "displayName-count-other": "venezuelanske bolivar (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "venezuelanske bolivar (2008–2018)",
                 "displayName-count-one": "venezuelansk bolivar (2008–2018)",
@@ -1831,7 +1844,7 @@ const data = {
                 displayName: "vestafrikanske CFA-franc",
                 "displayName-count-one": "vestafrikansk CFA-franc",
                 "displayName-count-other": "vestafrikanske CFA-franc",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "palladium",
@@ -1991,7 +2004,7 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} {0}",
+            full: "{1} 'kl'. {0}",
             long: "{1} 'kl'. {0}",
             medium: "{1}, {0}",
             short: "{1}, {0}",
@@ -2005,10 +2018,11 @@ const data = {
                 EBhms: "E h:mm:ss B",
                 Ed: "E d.",
                 Ehm: "E h:mm a",
-                EHm: "E HH:mm",
+                EHm: "E 'kl'. HH:mm",
                 Ehms: "E h:mm:ss a",
-                EHms: "E HH:mm:ss",
+                EHms: "E 'kl'. HH:mm:ss",
                 Gy: "y G",
+                GyMd: "dd.MM.y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d. MMM y G",
                 GyMMMEd: "E d. MMM y G",
@@ -2030,13 +2044,13 @@ const data = {
                 MMMd: "d. MMM",
                 MMMEd: "E d. MMM",
                 MMMMd: "d. MMMM",
-                "MMMMW-count-one": "W. 'uke' 'i' MMMM",
-                "MMMMW-count-other": "W. 'uke' 'i' MMMM",
+                "MMMMW-count-one": "'den' W. 'uken' 'i' MMMM",
+                "MMMMW-count-other": "'den' W. 'uken' 'i' MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M.y",
                 yMd: "d.M.y",
-                yMEd: "E d.MM.y",
+                yMEd: "E d.M.y",
                 yMM: "MM.y",
                 yMMM: "MMM y",
                 yMMMd: "d. MMM y",
@@ -2300,11 +2314,11 @@ const data = {
                     midnight: "midnatt",
                     am: "a.m.",
                     pm: "p.m.",
-                    morning1: "morgenen",
-                    morning2: "formiddagen",
-                    afternoon1: "ettermiddagen",
-                    evening1: "kvelden",
-                    night1: "natten"
+                    morning1: "på morgenen",
+                    morning2: "på formiddagen",
+                    afternoon1: "på ettermiddagen",
+                    evening1: "på kvelden",
+                    night1: "på natten"
                 }
             },
             "stand-alone": {

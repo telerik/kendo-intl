@@ -43,6 +43,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "y/M/d GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "MMM d, y G",
                 GyMMMEd: "E, MMM d, y G",
@@ -448,9 +449,9 @@ const data = {
                 narrow: "روز کاری ماه"
             },
             dayperiod: {
-                short: "قبل/بعدازظهر",
-                wide: "قبل/بعدازظهر",
-                narrow: "قبل/بعدازظهر"
+                short: "ق.ظ/ب.ظ",
+                wide: "ق.ظ/ب.ظ",
+                narrow: "ق.ظ/ب.ظ"
             },
             hour: {
                 wide: "ساعت",

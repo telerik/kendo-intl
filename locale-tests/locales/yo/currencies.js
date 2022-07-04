@@ -22,27 +22,32 @@ const data = {
                 symbol: "AFA"
             },
             AFN: {
-                displayName: "AFN",
-                symbol: "AFN"
+                displayName: "Afugánì Afuganísítàànì",
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
                 symbol: "ALK"
             },
             ALL: {
-                displayName: "ALL",
+                displayName: "Lẹ́ẹ̀kì Àlìbáníà",
+                "displayName-count-other": "lẹ́kè Àlìbéníà",
                 symbol: "ALL"
             },
             AMD: {
-                displayName: "AMD",
-                symbol: "AMD"
+                displayName: "Dírààmù Àmẹ́níà",
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
-                displayName: "ANG",
+                displayName: "Gílídà Netherlands Antillean",
+                "displayName-count-other": "àwọn gílídà Netherlands Antillean",
                 symbol: "ANG"
             },
             AOA: {
-                displayName: "Wansa ti Orílẹ́ède Àngólà",
+                displayName: "kíwánsà Angola",
+                "displayName-count-other": "àwọn kíwánsà Angola",
                 symbol: "AOA",
                 "symbol-alt-narrow": "Kz"
             },
@@ -75,7 +80,8 @@ const data = {
                 symbol: "ARP"
             },
             ARS: {
-                displayName: "ARS",
+                displayName: "Pẹ́sò Agẹntínà",
+                "displayName-count-other": "àwọn pẹ́sò Agẹntínà",
                 symbol: "ARS",
                 "symbol-alt-narrow": "$"
             },
@@ -89,7 +95,8 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             AWG: {
-                displayName: "AWG",
+                displayName: "Fuloríìnì Àrúbà",
+                "displayName-count-other": "àwọn fuloríìnì Àrúbà",
                 symbol: "AWG"
             },
             AZM: {
@@ -97,15 +104,17 @@ const data = {
                 symbol: "AZM"
             },
             AZN: {
-                displayName: "AZN",
-                symbol: "AZN"
+                displayName: "Mánààtì Àsàbáíjáì",
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
                 symbol: "BAD"
             },
             BAM: {
-                displayName: "BAM",
+                displayName: "Àmi Yíyípadà Bosnia-Herzegovina",
+                "displayName-count-other": "àwọn àmi Yíyípadà Bosnia-Herzegovina",
                 symbol: "BAM",
                 "symbol-alt-narrow": "KM"
             },
@@ -114,12 +123,13 @@ const data = {
                 symbol: "BAN"
             },
             BBD: {
-                displayName: "BBD",
+                displayName: "Dọ́là Bábádọ̀ọ̀sì",
+                "displayName-count-other": "àwọn dọ́là Bábádọ̀ọ̀sì",
                 symbol: "BBD",
                 "symbol-alt-narrow": "$"
             },
             BDT: {
-                displayName: "BDT",
+                displayName: "Tákà Báńgíládẹ̀ẹ̀ṣì",
                 symbol: "BDT",
                 "symbol-alt-narrow": "৳"
             },
@@ -144,7 +154,8 @@ const data = {
                 symbol: "BGM"
             },
             BGN: {
-                displayName: "BGN",
+                displayName: "Owó Lẹ́fì Bọ̀lìgéríà",
+                "displayName-count-other": "Lẹ́fà Bọ̀lìgéríà",
                 symbol: "BGN"
             },
             BGO: {
@@ -156,21 +167,24 @@ const data = {
                 symbol: "BHD"
             },
             BIF: {
-                displayName: "Faransi ti Orílẹ́ède Bùùrúndì",
+                displayName: "Faransi Bùùrúndì",
+                "displayName-count-other": "àwọn faransi Bùùrúndì",
                 symbol: "BIF"
             },
             BMD: {
-                displayName: "BMD",
+                displayName: "Dọ́là Bẹ̀múdà",
+                "displayName-count-other": "àwọ́n dọ́là Bẹ̀múdà",
                 symbol: "BMD",
                 "symbol-alt-narrow": "$"
             },
             BND: {
-                displayName: "BND",
+                displayName: "Dọ́là Bùrùnéì",
                 symbol: "BND",
                 "symbol-alt-narrow": "$"
             },
             BOB: {
-                displayName: "BOB",
+                displayName: "Bọlifiánò Bọ̀lífíà",
+                "displayName-count-other": "àwọn bọlifiánò Bọ̀lífíà",
                 symbol: "BOB",
                 "symbol-alt-narrow": "Bs"
             },
@@ -217,12 +231,13 @@ const data = {
                 symbol: "BRZ"
             },
             BSD: {
-                displayName: "BSD",
+                displayName: "Dọ́là Bàhámà",
+                "displayName-count-other": "àwọn dọ́là Bàhámà",
                 symbol: "BSD",
                 "symbol-alt-narrow": "$"
             },
             BTN: {
-                displayName: "BTN",
+                displayName: "Ìngọ́tírọ̀mù Bútàànì",
                 symbol: "BTN"
             },
             BUK: {
@@ -230,7 +245,8 @@ const data = {
                 symbol: "BUK"
             },
             BWP: {
-                displayName: "Pula ti Orílẹ́ède Bọ̀tìsúwánà",
+                displayName: "Pula Bọ̀tìsúwánà",
+                "displayName-count-other": "àwọn pula Bọ̀tìsúwánà",
                 symbol: "BWP",
                 "symbol-alt-narrow": "P"
             },
@@ -239,26 +255,29 @@ const data = {
                 symbol: "BYB"
             },
             BYN: {
-                displayName: "BYN",
-                symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                displayName: "Rọ́bù Bẹ̀lárùùsì",
+                "displayName-count-other": "àwọn rọ́bù Bẹ̀lárùùsì",
+                symbol: "BYN"
             },
             BYR: {
                 displayName: "BYR",
                 symbol: "BYR"
             },
             BZD: {
-                displayName: "BZD",
+                displayName: "Dọ́là Bẹ̀lísè",
+                "displayName-count-other": "àwọn Dọ́là Bẹ́lìsè",
                 symbol: "BZD",
                 "symbol-alt-narrow": "$"
             },
             CAD: {
-                displayName: "Dọla ti Orílẹ́ède Kánádà",
+                displayName: "Dọ́là Kánádà",
+                "displayName-count-other": "àwọn dọ́là Kánádà",
                 symbol: "CA$",
                 "symbol-alt-narrow": "$"
             },
             CDF: {
-                displayName: "Faransi ti Orílẹ́ède Kóngò",
+                displayName: "Firanki Kongo",
+                "displayName-count-other": "àwọn firanki Kongo",
                 symbol: "CDF"
             },
             CHE: {
@@ -266,7 +285,8 @@ const data = {
                 symbol: "CHE"
             },
             CHF: {
-                displayName: "Faransi ti Orílẹ́ède Siwisi",
+                displayName: "Faransí Síwíìsì",
+                "displayName-count-other": "Faransi Siwisi",
                 symbol: "CHF"
             },
             CHW: {
@@ -282,12 +302,13 @@ const data = {
                 symbol: "CLF"
             },
             CLP: {
-                displayName: "CLP",
+                displayName: "Pẹ́sò Ṣílè",
+                "displayName-count-other": "àwọn pẹ́sò Ṣílè",
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
             CNH: {
-                displayName: "CNH",
+                displayName: "Yúànì Sháínà",
                 symbol: "CNH"
             },
             CNX: {
@@ -300,7 +321,8 @@ const data = {
                 "symbol-alt-narrow": "¥"
             },
             COP: {
-                displayName: "COP",
+                displayName: "Pẹ́sò Kòlóḿbíà",
+                "displayName-count-other": "àwọn pẹ́sò Kòlóḿbíà",
                 symbol: "COP",
                 "symbol-alt-narrow": "$"
             },
@@ -309,7 +331,8 @@ const data = {
                 symbol: "COU"
             },
             CRC: {
-                displayName: "CRC",
+                displayName: "Kólọ́ọ̀nì Kosita Ríkà",
+                "displayName-count-other": "àwọ́n kólọ́ọ̀nì Kosita Ríkà",
                 symbol: "CRC",
                 "symbol-alt-narrow": "₡"
             },
@@ -322,17 +345,19 @@ const data = {
                 symbol: "CSK"
             },
             CUC: {
-                displayName: "CUC",
+                displayName: "Pẹ́sò Yíyípadà Kúbà",
+                "displayName-count-other": "àwọn pẹ́sò yíyípadà Kúbà",
                 symbol: "CUC",
                 "symbol-alt-narrow": "$"
             },
             CUP: {
-                displayName: "CUP",
+                displayName: "Pẹ́sò Kúbà",
                 symbol: "CUP",
                 "symbol-alt-narrow": "$"
             },
             CVE: {
-                displayName: "Kabofediano ti Orílẹ́ède Esuodo",
+                displayName: "Èsìkúdò Kapú Faadì",
+                "displayName-count-other": "àwọn èsìkúdò Kapú Faadì",
                 symbol: "CVE"
             },
             CYP: {
@@ -340,7 +365,8 @@ const data = {
                 symbol: "CYP"
             },
             CZK: {
-                displayName: "CZK",
+                displayName: "Koruna Ṣẹ́ẹ̀kì",
+                "displayName-count-other": "àwọn koruna Ṣẹ́ẹ̀kì",
                 symbol: "CZK",
                 "symbol-alt-narrow": "Kč"
             },
@@ -353,21 +379,25 @@ const data = {
                 symbol: "DEM"
             },
             DJF: {
-                displayName: "Faransi ti Orílẹ́ède Dibouti",
+                displayName: "Faransi Dibouti",
+                "displayName-count-other": "àwọn faransi Dibouti",
                 symbol: "DJF"
             },
             DKK: {
-                displayName: "DKK",
+                displayName: "Kírónì Dáníṣì",
+                "displayName-count-other": "Kírònà Dáníìṣì",
                 symbol: "DKK",
                 "symbol-alt-narrow": "kr"
             },
             DOP: {
-                displayName: "DOP",
+                displayName: "Pẹ́sò Dòníníkà",
+                "displayName-count-other": "àwọn pẹ́sò Dòníníkà",
                 symbol: "DOP",
                 "symbol-alt-narrow": "$"
             },
             DZD: {
                 displayName: "Dina ti Orílẹ́ède Àlùgèríánì",
+                "displayName-count-other": "àwọn dínà Àlùgèríánì",
                 symbol: "DZD"
             },
             ECS: {
@@ -384,12 +414,13 @@ const data = {
             },
             EGP: {
                 displayName: "pọọn ti Orílẹ́ède Egipiti",
-                "displayName-count-other": "pọ́nùn",
+                "displayName-count-other": "àwọn pọ́n-ún Ejipítì",
                 symbol: "EGP",
                 "symbol-alt-narrow": "E£"
             },
             ERN: {
-                displayName: "Nakifa ti Orílẹ́ède Eriteriani",
+                displayName: "Nakifasì Eritira",
+                "displayName-count-other": "àwọn nakifasì Eritira",
                 symbol: "ERN"
             },
             ESA: {
@@ -406,7 +437,8 @@ const data = {
                 "symbol-alt-narrow": "₧"
             },
             ETB: {
-                displayName: "Biri ti Orílẹ́ède Eutopia",
+                displayName: "Báà Etópíà",
+                "displayName-count-other": "àwọn báà Etópíà",
                 symbol: "ETB"
             },
             EUR: {
@@ -420,12 +452,13 @@ const data = {
                 symbol: "FIM"
             },
             FJD: {
-                displayName: "FJD",
+                displayName: "Dọ́là Fíjì",
                 symbol: "FJD",
                 "symbol-alt-narrow": "$"
             },
             FKP: {
-                displayName: "FKP",
+                displayName: "Pọ́n-ùn Erékùsù Falkland",
+                "displayName-count-other": "àwọn Pọ́n-ùn Erékùsù Falkland [ Pɔ́n-ùn Erékùsù Falkland ] 1.23 Pọ́n-ùn Erékùsù Falkland 0.00 pọ́n-ùn Erékùsù Falkland",
                 symbol: "FKP",
                 "symbol-alt-narrow": "£"
             },
@@ -443,7 +476,7 @@ const data = {
                 symbol: "GEK"
             },
             GEL: {
-                displayName: "GEL",
+                displayName: "Lárì Jọ́jíà",
                 symbol: "GEL",
                 "symbol-alt-narrow": "₾"
             },
@@ -452,20 +485,25 @@ const data = {
                 symbol: "GHC"
             },
             GHS: {
-                displayName: "GHS",
-                symbol: "GHS"
+                displayName: "sídì Gana",
+                "displayName-count-other": "àwọn sídì Gana",
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
-                displayName: "GIP",
+                displayName: "Pọ́n-ùn Gibúrátà",
+                "displayName-count-other": "àwọn pọ́n-ùn Gibúrátà",
                 symbol: "GIP",
                 "symbol-alt-narrow": "£"
             },
             GMD: {
-                displayName: "Dalasi ti Orílẹ́ède Gamibia",
+                displayName: "Dalasi Gamibia",
+                "displayName-count-other": "àwọn dalasi Gamibia",
                 symbol: "GMD"
             },
             GNF: {
-                displayName: "GNF",
+                displayName: "Fírànkì Gínì",
+                "displayName-count-other": "àwọn fírànkì Gínì",
                 symbol: "GNF",
                 "symbol-alt-narrow": "FG"
             },
@@ -482,7 +520,8 @@ const data = {
                 symbol: "GRD"
             },
             GTQ: {
-                displayName: "GTQ",
+                displayName: "Kúẹ́tísààlì Guatimílà",
+                "displayName-count-other": "àwọn kúẹ́tísààlì Guatimílà",
                 symbol: "GTQ",
                 "symbol-alt-narrow": "Q"
             },
@@ -495,17 +534,19 @@ const data = {
                 symbol: "GWP"
             },
             GYD: {
-                displayName: "GYD",
+                displayName: "Dọ́là Gùyánà",
+                "displayName-count-other": "àwọn dọ́là Gùyánà",
                 symbol: "GYD",
                 "symbol-alt-narrow": "$"
             },
             HKD: {
-                displayName: "HKD",
+                displayName: "Dọ́là Hong Kong",
                 symbol: "HK$",
                 "symbol-alt-narrow": "$"
             },
             HNL: {
-                displayName: "HNL",
+                displayName: "Lẹmipírà Ọ́ńdúrà",
+                "displayName-count-other": "àwọn Lẹmipírà Ọ́ńdúrà",
                 symbol: "HNL",
                 "symbol-alt-narrow": "L"
             },
@@ -514,21 +555,24 @@ const data = {
                 symbol: "HRD"
             },
             HRK: {
-                displayName: "HRK",
+                displayName: "Kúnà Kúróṣíà",
+                "displayName-count-other": "àwọn kúnà Kúróṣíà",
                 symbol: "HRK",
                 "symbol-alt-narrow": "kn"
             },
             HTG: {
-                displayName: "HTG",
+                displayName: "Gọ́dì Àítì",
+                "displayName-count-other": "àwọn gọ́dì Àítì",
                 symbol: "HTG"
             },
             HUF: {
-                displayName: "HUF",
+                displayName: "Fọ́ríǹtì Họ̀ngérí",
+                "displayName-count-other": "àwọn fọ́ríǹtì Họ̀ngérí",
                 symbol: "HUF",
                 "symbol-alt-narrow": "Ft"
             },
             IDR: {
-                displayName: "IDR",
+                displayName: "Rúpìyá Indonésíà",
                 symbol: "IDR",
                 "symbol-alt-narrow": "Rp"
             },
@@ -545,7 +589,7 @@ const data = {
                 symbol: "ILR"
             },
             ILS: {
-                displayName: "ILS",
+                displayName: "Ṣékélì Tuntun Ísírẹ̀ẹ̀lì",
                 symbol: "₪",
                 "symbol-alt-narrow": "₪"
             },
@@ -555,11 +599,11 @@ const data = {
                 "symbol-alt-narrow": "₹"
             },
             IQD: {
-                displayName: "IQD",
+                displayName: "Dínárì Ìráákì",
                 symbol: "IQD"
             },
             IRR: {
-                displayName: "IRR",
+                displayName: "Rial Iranian",
                 symbol: "IRR"
             },
             ISJ: {
@@ -567,7 +611,8 @@ const data = {
                 symbol: "ISJ"
             },
             ISK: {
-                displayName: "ISK",
+                displayName: "Kòrónà Icelandic",
+                "displayName-count-other": "kórónọ̀ Áílándíìkì",
                 symbol: "ISK",
                 "symbol-alt-narrow": "kr"
             },
@@ -576,12 +621,13 @@ const data = {
                 symbol: "ITL"
             },
             JMD: {
-                displayName: "JMD",
+                displayName: "Dọ́là Jàmáíkà",
+                "displayName-count-other": "àwọn dọ́là Jàmáíkà",
                 symbol: "JMD",
                 "symbol-alt-narrow": "$"
             },
             JOD: {
-                displayName: "JOD",
+                displayName: "Dínárì Jọ́dàànì",
                 symbol: "JOD"
             },
             JPY: {
@@ -590,25 +636,27 @@ const data = {
                 "symbol-alt-narrow": "¥"
             },
             KES: {
-                displayName: "ṣiili ti Orílẹ́ède Kenya",
+                displayName: "Ṣiili Kenya",
+                "displayName-count-other": "àwọ́n ṣiili Kenya",
                 symbol: "KES"
             },
             KGS: {
-                displayName: "KGS",
+                displayName: "Sómú Kirijísítàànì",
                 symbol: "KGS"
             },
             KHR: {
-                displayName: "KHR",
+                displayName: "Ráyò Kàm̀bọ́díà",
                 symbol: "KHR",
                 "symbol-alt-narrow": "៛"
             },
             KMF: {
-                displayName: "Faransi ti Orílẹ́ède ṣomoriani",
+                displayName: "Faransi Komori",
+                "displayName-count-other": "àwọn faransi Komori",
                 symbol: "KMF",
                 "symbol-alt-narrow": "CF"
             },
             KPW: {
-                displayName: "KPW",
+                displayName: "Wọ́ọ̀nù Àríwá Kòríà",
                 symbol: "KPW",
                 "symbol-alt-narrow": "₩"
             },
@@ -621,46 +669,49 @@ const data = {
                 symbol: "KRO"
             },
             KRW: {
-                displayName: "KRW",
+                displayName: "Wọ́ọ̀nù Gúúsù Kòríà",
                 symbol: "₩",
                 "symbol-alt-narrow": "₩"
             },
             KWD: {
-                displayName: "KWD",
+                displayName: "Dínárì Kuwaiti",
                 symbol: "KWD"
             },
             KYD: {
-                displayName: "KYD",
+                displayName: "Dọ́là Erékùsù Cayman",
+                "displayName-count-other": "àwọn dọ́là Erékùsù Cayman",
                 symbol: "KYD",
                 "symbol-alt-narrow": "$"
             },
             KZT: {
-                displayName: "KZT",
+                displayName: "Tẹngé Kasakísítàànì",
                 symbol: "KZT",
                 "symbol-alt-narrow": "₸"
             },
             LAK: {
-                displayName: "LAK",
+                displayName: "Kíììpù Làótì",
                 symbol: "LAK",
                 "symbol-alt-narrow": "₭"
             },
             LBP: {
-                displayName: "LBP",
+                displayName: "Pọ́n-ùn Lebanese",
                 symbol: "LBP",
                 "symbol-alt-narrow": "L£"
             },
             LKR: {
-                displayName: "LKR",
+                displayName: "Rúpìì Siri Láńkà",
                 symbol: "LKR",
                 "symbol-alt-narrow": "Rs"
             },
             LRD: {
-                displayName: "Dọla ti Orílẹ́ède Liberia",
+                displayName: "Dọla Liberia",
+                "displayName-count-other": "àwọn dọla Liberia",
                 symbol: "LRD",
                 "symbol-alt-narrow": "$"
             },
             LSL: {
                 displayName: "Loti ti Orílẹ́ède Lesoto",
+                "displayName-count-other": "Lótì ti Lẹ̀sótò",
                 symbol: "LSL"
             },
             LTL: {
@@ -694,11 +745,13 @@ const data = {
                 symbol: "LVR"
             },
             LYD: {
-                displayName: "Dina ti Orílẹ́ède Libiya",
+                displayName: "Dínà Líbíyà",
+                "displayName-count-other": "àwọn dínà Líbíyà",
                 symbol: "LYD"
             },
             MAD: {
-                displayName: "Dirami ti Orílẹ́ède Moroko",
+                displayName: "Dírámì Morokò",
+                "displayName-count-other": "àwọn dírámì Morokò",
                 symbol: "MAD"
             },
             MAF: {
@@ -714,11 +767,13 @@ const data = {
                 symbol: "MDC"
             },
             MDL: {
-                displayName: "MDL",
+                displayName: "Owó Léhù Moldovan",
+                "displayName-count-other": "Léhì Moldovan",
                 symbol: "MDL"
             },
             MGA: {
-                displayName: "Faransi ti Orílẹ́ède Malagasi",
+                displayName: "Faransi Malagasi",
+                "displayName-count-other": "àwọn faransi Malagasi",
                 symbol: "MGA",
                 "symbol-alt-narrow": "Ar"
             },
@@ -727,7 +782,8 @@ const data = {
                 symbol: "MGF"
             },
             MKD: {
-                displayName: "MKD",
+                displayName: "Dẹ́nà Masidóníà",
+                "displayName-count-other": "dẹ́nàrì Masidóníà",
                 symbol: "MKD"
             },
             MKN: {
@@ -739,17 +795,17 @@ const data = {
                 symbol: "MLF"
             },
             MMK: {
-                displayName: "MMK",
+                displayName: "Kíyàtì Myanmar",
                 symbol: "MMK",
                 "symbol-alt-narrow": "K"
             },
             MNT: {
-                displayName: "MNT",
+                displayName: "Túgúrììkì Mòǹgólíà",
                 symbol: "MNT",
                 "symbol-alt-narrow": "₮"
             },
             MOP: {
-                displayName: "MOP",
+                displayName: "Pàtákà Màkáò",
                 symbol: "MOP"
             },
             MRO: {
@@ -769,7 +825,8 @@ const data = {
                 symbol: "MTP"
             },
             MUR: {
-                displayName: "Rupi ti Orílẹ́ède Maritiusi",
+                displayName: "Rupi Maritusi",
+                "displayName-count-other": "àwọn rupi Maritusi",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
@@ -778,15 +835,17 @@ const data = {
                 symbol: "MVP"
             },
             MVR: {
-                displayName: "MVR",
+                displayName: "Rúfìyá Mọ̀lìdífà",
                 symbol: "MVR"
             },
             MWK: {
-                displayName: "Kaṣa ti Orílẹ́ède Malawi",
+                displayName: "Kásà Màláwì",
+                "displayName-count-other": "àwọn kásà Màláwì",
                 symbol: "MWK"
             },
             MXN: {
-                displayName: "MXN",
+                displayName: "Pẹ́sò Mẹ́síkò",
+                "displayName-count-other": "àwọn pẹ́sò Mẹ́síkò",
                 symbol: "MX$",
                 "symbol-alt-narrow": "$"
             },
@@ -799,7 +858,7 @@ const data = {
                 symbol: "MXV"
             },
             MYR: {
-                displayName: "MYR",
+                displayName: "Ríngìtì Màléṣíà",
                 symbol: "MYR",
                 "symbol-alt-narrow": "RM"
             },
@@ -812,16 +871,18 @@ const data = {
                 symbol: "MZM"
             },
             MZN: {
-                displayName: "MZN",
+                displayName: "Mẹ́tíkààlì Mòsáḿbíìkì",
+                "displayName-count-other": "àwọn mẹ́tíkààlì Mòsáḿbíìkì",
                 symbol: "MZN"
             },
             NAD: {
-                displayName: "Dọla ti Orílẹ́ède Namibia",
+                displayName: "Dọla Namibíà",
+                "displayName-count-other": "àwọn dọla Namibíà",
                 symbol: "NAD",
                 "symbol-alt-narrow": "$"
             },
             NGN: {
-                displayName: "Náìrà ti Orílẹ̀-èdè Nàìjíríà",
+                displayName: "Náírà Nàìjíríà",
                 "displayName-count-other": "Náírà Nàìjíríà",
                 symbol: "₦",
                 "symbol-alt-narrow": "₦"
@@ -831,7 +892,8 @@ const data = {
                 symbol: "NIC"
             },
             NIO: {
-                displayName: "NIO",
+                displayName: "Kọ̀dóbà Naikarágúà",
+                "displayName-count-other": "àwọn kọ̀dóbà Naikarágúà",
                 symbol: "NIO",
                 "symbol-alt-narrow": "C$"
             },
@@ -840,26 +902,28 @@ const data = {
                 symbol: "NLG"
             },
             NOK: {
-                displayName: "NOK",
+                displayName: "kórónì Nọ́wè",
+                "displayName-count-other": "kórónà Nọ́wè",
                 symbol: "NOK",
                 "symbol-alt-narrow": "kr"
             },
             NPR: {
-                displayName: "NPR",
+                displayName: "Rúpìì Nẹ̵́pààlì",
                 symbol: "NPR",
                 "symbol-alt-narrow": "Rs"
             },
             NZD: {
-                displayName: "NZD",
+                displayName: "Dọ́là New Zealand",
                 symbol: "NZ$",
                 "symbol-alt-narrow": "$"
             },
             OMR: {
-                displayName: "OMR",
+                displayName: "Ráyò Omani",
                 symbol: "OMR"
             },
             PAB: {
-                displayName: "PAB",
+                displayName: "Bálíbóà Pànámà",
+                "displayName-count-other": "àwọn bálíbóà Pànámà",
                 symbol: "PAB"
             },
             PEI: {
@@ -867,7 +931,8 @@ const data = {
                 symbol: "PEI"
             },
             PEN: {
-                displayName: "PEN",
+                displayName: "Sólì Pèrúù",
+                "displayName-count-other": "àwọn sólì Pèrúù",
                 symbol: "PEN"
             },
             PES: {
@@ -875,21 +940,22 @@ const data = {
                 symbol: "PES"
             },
             PGK: {
-                displayName: "PGK",
+                displayName: "Kínà Papua Guinea Tuntun",
                 symbol: "PGK"
             },
             PHP: {
-                displayName: "PHP",
-                symbol: "PHP",
+                displayName: "Písò Fílípìnì",
+                symbol: "₱",
                 "symbol-alt-narrow": "₱"
             },
             PKR: {
-                displayName: "PKR",
+                displayName: "Rúpìì Pakisitánì",
                 symbol: "PKR",
                 "symbol-alt-narrow": "Rs"
             },
             PLN: {
-                displayName: "PLN",
+                displayName: "Sílọ̀tì Pọ́líṣì",
+                "displayName-count-other": "àwọn sílọ̀tì Pọ́líṣì",
                 symbol: "PLN",
                 "symbol-alt-narrow": "zł"
             },
@@ -902,12 +968,13 @@ const data = {
                 symbol: "PTE"
             },
             PYG: {
-                displayName: "PYG",
+                displayName: "Gúáránì Párágúwè",
+                "displayName-count-other": "àwọn gúáránì Párágúwè",
                 symbol: "PYG",
                 "symbol-alt-narrow": "₲"
             },
             QAR: {
-                displayName: "QAR",
+                displayName: "Ráyò Kàtárì",
                 symbol: "QAR"
             },
             RHD: {
@@ -919,12 +986,14 @@ const data = {
                 symbol: "ROL"
             },
             RON: {
-                displayName: "RON",
+                displayName: "Léhù Ròméníà",
+                "displayName-count-other": "Léhì Ròméníà",
                 symbol: "RON",
                 "symbol-alt-narrow": "lei"
             },
             RSD: {
-                displayName: "RSD",
+                displayName: "Dínárì Sàbíà",
+                "displayName-count-other": "àwọn dínárì Sàbíà",
                 symbol: "RSD"
             },
             RUB: {
@@ -935,11 +1004,11 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
-                displayName: "Faransi ti Orílẹ́ède Ruwanda",
+                displayName: "Faransi Ruwanda",
+                "displayName-count-other": "àwọn faransi Ruwanda",
                 symbol: "RWF",
                 "symbol-alt-narrow": "RF"
             },
@@ -948,12 +1017,13 @@ const data = {
                 symbol: "SAR"
             },
             SBD: {
-                displayName: "SBD",
+                displayName: "Dọ́là Erékùsù Sọ́lómọ́nì",
                 symbol: "SBD",
                 "symbol-alt-narrow": "$"
             },
             SCR: {
-                displayName: "Rupi ti Orílẹ́ède Sayiselesi",
+                displayName: "Rúpì Sayiselesi",
+                "displayName-count-other": "àwọ́n rúpì Sayiselesi",
                 symbol: "SCR"
             },
             SDD: {
@@ -961,7 +1031,8 @@ const data = {
                 symbol: "SDD"
             },
             SDG: {
-                displayName: "Dina ti Orílẹ́ède Sudani",
+                displayName: "Pọ́n-ùn Sùdáànì",
+                "displayName-count-other": "àwọn pọ́n-ùn Sùdáànì",
                 symbol: "SDG"
             },
             SDP: {
@@ -969,17 +1040,19 @@ const data = {
                 symbol: "SDP"
             },
             SEK: {
-                displayName: "SEK",
+                displayName: "Kòrónà Súwídìn",
+                "displayName-count-other": "Kòrónọ̀ Súwídìn",
                 symbol: "SEK",
                 "symbol-alt-narrow": "kr"
             },
             SGD: {
-                displayName: "SGD",
+                displayName: "Dọ́là Síngápọ̀",
                 symbol: "SGD",
                 "symbol-alt-narrow": "$"
             },
             SHP: {
-                displayName: "Pọọun ti Orílẹ́ède ̣Elena",
+                displayName: "Pọ́n-un Elena",
+                "displayName-count-other": "àwọn pọ́n-un Elena",
                 symbol: "SHP",
                 "symbol-alt-narrow": "£"
             },
@@ -991,16 +1064,23 @@ const data = {
                 displayName: "SKK",
                 symbol: "SKK"
             },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
+            },
             SLL: {
-                displayName: "Lioni",
+                displayName: "Líónì Sira Líonì",
+                "displayName-count-other": "àwọn líónì Sira Líonì",
                 symbol: "SLL"
             },
             SOS: {
-                displayName: "Sile ti Orílẹ́ède Somali",
+                displayName: "Ṣílè Somali",
+                "displayName-count-other": "àwọ́n ṣílè Somali",
                 symbol: "SOS"
             },
             SRD: {
-                displayName: "SRD",
+                displayName: "Dọ́là Súrínámì",
+                "displayName-count-other": "àwọn Dọ́là Súrínámì",
                 symbol: "SRD",
                 "symbol-alt-narrow": "$"
             },
@@ -1009,7 +1089,8 @@ const data = {
                 symbol: "SRG"
             },
             SSP: {
-                displayName: "SSP",
+                displayName: "Pọ́n-un Gúúsù Sùdáànì",
+                "displayName-count-other": "àwọn pọ́n-un Gúúsù Sùdáànì",
                 symbol: "SSP",
                 "symbol-alt-narrow": "£"
             },
@@ -1018,7 +1099,7 @@ const data = {
                 symbol: "STD"
             },
             STN: {
-                displayName: "Dobira ti Orílẹ́ède Sao tome Ati Pirisipe",
+                displayName: "Dọbíra Sao tome àti Pirisipi",
                 symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },
@@ -1031,16 +1112,17 @@ const data = {
                 symbol: "SVC"
             },
             SYP: {
-                displayName: "SYP",
+                displayName: "Pọ́n-ùn Sírìà",
                 symbol: "SYP",
                 "symbol-alt-narrow": "£"
             },
             SZL: {
-                displayName: "Lilangeni",
+                displayName: "Lilangeni Suwasi",
+                "displayName-count-other": "emalangeni Suwasi",
                 symbol: "SZL"
             },
             THB: {
-                displayName: "THB",
+                displayName: "Báàtì Tháì",
                 symbol: "THB",
                 "symbol-alt-narrow": "฿"
             },
@@ -1049,7 +1131,7 @@ const data = {
                 symbol: "TJR"
             },
             TJS: {
-                displayName: "TJS",
+                displayName: "Sómónì Tajikístàànì",
                 symbol: "TJS"
             },
             TMM: {
@@ -1057,15 +1139,16 @@ const data = {
                 symbol: "TMM"
             },
             TMT: {
-                displayName: "TMT",
+                displayName: "Mánààtì Tọkimẹnístàànì",
                 symbol: "TMT"
             },
             TND: {
-                displayName: "Dina ti Orílẹ́ède Tunisia",
+                displayName: "Dínà Tuniṣíà",
+                "displayName-count-other": "àwọn dínà Tuniṣíà",
                 symbol: "TND"
             },
             TOP: {
-                displayName: "TOP",
+                displayName: "Pàángà Tóńgà",
                 symbol: "TOP",
                 "symbol-alt-narrow": "T$"
             },
@@ -1078,27 +1161,29 @@ const data = {
                 symbol: "TRL"
             },
             TRY: {
-                displayName: "TRY",
+                displayName: "Lírà Tọ́kì",
                 symbol: "TRY",
                 "symbol-alt-narrow": "₺",
                 "symbol-alt-variant": "TL"
             },
             TTD: {
-                displayName: "TTD",
+                displayName: "Dọ́là Trinidad & Tobago",
+                "displayName-count-other": "àwọn dọ́là Trinidad àti Tobago",
                 symbol: "TTD",
                 "symbol-alt-narrow": "$"
             },
             TWD: {
-                displayName: "TWD",
+                displayName: "Dọ́là Tàìwánì Tuntun",
                 symbol: "NT$",
                 "symbol-alt-narrow": "$"
             },
             TZS: {
-                displayName: "Sile ti Orílẹ́ède Tansania",
+                displayName: "Sile Tansania",
+                "displayName-count-other": "àwọn ṣile Tansania",
                 symbol: "TZS"
             },
             UAH: {
-                displayName: "UAH",
+                displayName: "Ọrifiníyà Yukiréníà",
                 symbol: "UAH",
                 "symbol-alt-narrow": "₴"
             },
@@ -1111,7 +1196,8 @@ const data = {
                 symbol: "UGS"
             },
             UGX: {
-                displayName: "Siile ti Orílẹ́ède Uganda",
+                displayName: "Ṣile Uganda",
+                "displayName-count-other": "àwọn ṣile Uganda",
                 symbol: "UGX"
             },
             USD: {
@@ -1137,7 +1223,8 @@ const data = {
                 symbol: "UYP"
             },
             UYU: {
-                displayName: "UYU",
+                displayName: "Pẹ́sò Úrúgúwè",
+                "displayName-count-other": "àwọn pẹ́sò Úrúgúwè",
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
@@ -1146,12 +1233,16 @@ const data = {
                 symbol: "UYW"
             },
             UZS: {
-                displayName: "UZS",
+                displayName: "Sómú Usibẹkísítàànì",
                 symbol: "UZS"
             },
             VEB: {
                 displayName: "VEB",
                 symbol: "VEB"
+            },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
             },
             VEF: {
                 displayName: "VEF",
@@ -1159,11 +1250,12 @@ const data = {
                 "symbol-alt-narrow": "Bs"
             },
             VES: {
-                displayName: "VES",
+                displayName: "Bọ̀lífà Fẹnẹsuẹ́là",
+                "displayName-count-other": "àwọn bọ̀lífà Fẹnẹsuẹ́là",
                 symbol: "VES"
             },
             VND: {
-                displayName: "VND",
+                displayName: "Dáhùn Vietnamese",
                 symbol: "₫",
                 "symbol-alt-narrow": "₫"
             },
@@ -1172,15 +1264,16 @@ const data = {
                 symbol: "VNN"
             },
             VUV: {
-                displayName: "VUV",
+                displayName: "Fátù Vanuatu",
                 symbol: "VUV"
             },
             WST: {
-                displayName: "WST",
+                displayName: "Tálà Sàmóà",
                 symbol: "WST"
             },
             XAF: {
-                displayName: "Faransi ti Orílẹ́ède BEKA",
+                displayName: "Firanki àárín Afíríkà",
+                "displayName-count-other": "àwọn firanki àárín Afíríkà",
                 symbol: "FCFA"
             },
             XAG: {
@@ -1208,7 +1301,8 @@ const data = {
                 symbol: "XBD"
             },
             XCD: {
-                displayName: "XCD",
+                displayName: "Dọ́là Ilà Oòrùn Karíbíà",
+                "displayName-count-other": "àwọn dọ́là Ilà Oòrùn Karíbíà",
                 symbol: "EC$",
                 "symbol-alt-narrow": "$"
             },
@@ -1229,15 +1323,16 @@ const data = {
                 symbol: "XFU"
             },
             XOF: {
-                displayName: "Faransi ti Orílẹ́ède BIKEAO",
-                symbol: "CFA"
+                displayName: "Faransì ìwọ̀-oorùn Afíríkà",
+                "displayName-count-other": "àwọn faransì ìwọ̀-oorùn Afíríkà",
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",
                 symbol: "XPD"
             },
             XPF: {
-                displayName: "XPF",
+                displayName: "Fírànkì CFP",
                 symbol: "CFPF"
             },
             XPT: {
@@ -1270,7 +1365,7 @@ const data = {
                 symbol: "YDD"
             },
             YER: {
-                displayName: "YER",
+                displayName: "Ráyò Yẹ́mẹ̀nì",
                 symbol: "YER"
             },
             YUD: {
@@ -1294,7 +1389,8 @@ const data = {
                 symbol: "ZAL"
             },
             ZAR: {
-                displayName: "Randi ti Orílẹ́ède Ariwa Afirika",
+                displayName: "Rándì Gúúsù Afíríkà",
+                "displayName-count-other": "rándì Gúúsù Afíríkà",
                 symbol: "ZAR",
                 "symbol-alt-narrow": "R"
             },
@@ -1303,7 +1399,8 @@ const data = {
                 symbol: "ZMK"
             },
             ZMW: {
-                displayName: "Kawaṣa ti Orílẹ́ède Saabia",
+                displayName: "Kàwasà Sámbíà",
+                "displayName-count-other": "àwọn kàwasà Sámbíà",
                 symbol: "ZMW",
                 "symbol-alt-narrow": "ZK"
             },

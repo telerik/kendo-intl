@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E ah:mm:ss",
                 EHms: "E HH:mm:ss",
                 Gy: "Gy年",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "Gy年M月",
                 GyMMMd: "Gy年M月d日",
                 GyMMMEd: "Gy年M月d日 E",

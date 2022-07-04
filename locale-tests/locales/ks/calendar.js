@@ -11,23 +11,23 @@ const data = {
         patterns: {
             d: "M/d/y",
             D: "EEEE, MMMM d, y",
-            m: "d-MMM",
+            m: "MMM d",
             M: "MMMM d",
             y: "MMM y",
             Y: "MMMM y",
             F: "EEEE, MMMM d, y h:mm:ss a",
-            g: "y-MM-dd h:mm a",
-            G: "y-MM-dd h:mm:ss a",
+            g: "M/d/y h:mm a",
+            G: "M/d/y h:mm:ss a",
             t: "h:mm a",
             T: "h:mm:ss a",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} {0}",
-            long: "{1} {0}",
-            medium: "{1} {0}",
-            short: "{1} {0}",
+            full: "{0} پٮ۪ٹھۍ {1}",
+            long: "{0} پٮ۪ٹھۍ {1}",
+            medium: "{1}, {0}",
+            short: "{1}, {0}",
             availableFormats: {
                 Bh: "h B",
                 Bhm: "h:mm B",
@@ -36,15 +36,16 @@ const data = {
                 E: "ccc",
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
-                Ed: "d, E",
+                Ed: "d E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
-                Gy: "Gy",
-                GyMMM: "MMM Gy",
-                GyMMMd: "MMM d, Gy",
-                GyMMMEd: "EEE, MMM d, Gy",
+                Gy: "y G",
+                GyMd: "M/d/y GGGGG",
+                GyMMM: "MMM y G",
+                GyMMMd: "MMM d, y G",
+                GyMMMEd: "E, MMM d, y G",
                 h: "h a",
                 H: "HH",
                 hm: "h:mm a",
@@ -59,7 +60,7 @@ const data = {
                 Md: "M/d",
                 MEd: "E, M/d",
                 MMM: "LLL",
-                MMMd: "d-MMM",
+                MMMd: "MMM d",
                 MMMEd: "E, MMM d",
                 MMMMd: "MMMM d",
                 MMMMEd: "E, MMMM d",
@@ -67,11 +68,11 @@ const data = {
                 ms: "mm:ss",
                 y: "y",
                 yM: "M/y",
-                yMd: "y-MM-dd",
-                yMEd: "EEE, M/d/y",
+                yMd: "M/d/y",
+                yMEd: "E, M/d/y",
                 yMMM: "MMM y",
-                yMMMd: "y MMM d",
-                yMMMEd: "EEE, MMM d, y",
+                yMMMd: "MMM d, y",
+                yMMMEd: "E, MMM d, y",
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
@@ -175,7 +176,7 @@ const data = {
                     "فرؤری",
                     "مارٕچ",
                     "اپریل",
-                    "میٔ",
+                    "مئی",
                     "جوٗن",
                     "جوٗلایی",
                     "اگست",
@@ -203,7 +204,7 @@ const data = {
                     "فرؤری",
                     "مارٕچ",
                     "اپریل",
-                    "میٔ",
+                    "مئی",
                     "جوٗن",
                     "جوٗلایی",
                     "اگست",
@@ -219,7 +220,7 @@ const data = {
                     "فرؤری",
                     "مارٕچ",
                     "اپریل",
-                    "میٔ",
+                    "مئی",
                     "جوٗن",
                     "جوٗلایی",
                     "اگست",
@@ -247,7 +248,7 @@ const data = {
                     "فرؤری",
                     "مارٕچ",
                     "اپریل",
-                    "میٔ",
+                    "مئی",
                     "جوٗن",
                     "جوٗلایی",
                     "اگست",
@@ -261,10 +262,10 @@ const data = {
         quarters: {
             format: {
                 abbreviated: [
-                    "ژۄباگ",
-                    "دۆیِم ژۄباگ",
-                    "تریِم ژۄباگ",
-                    "ژوٗرِم ژۄباگ"
+                    "کیو 1",
+                    "کیو 2",
+                    "کیو 3",
+                    "کیو 4"
                 ],
                 narrow: [
                     "1",
@@ -281,10 +282,10 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "ژۄباگ",
-                    "دۆیِم ژۄباگ",
-                    "تریِم ژۄباگ",
-                    "ژوٗرِم ژۄباگ"
+                    "کیو 1",
+                    "کیو 2",
+                    "کیو 3",
+                    "کیو 4"
                 ],
                 narrow: [
                     "1",
@@ -335,20 +336,20 @@ const data = {
                 wide: {
                     "0": "قبٕل مسیٖح",
                     "1": "عیٖسوی سنہٕ",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "بی سی ای",
+                    "1-alt-variant": "سی ای"
                 },
                 abbreviated: {
                     "0": "بی سی",
                     "1": "اے ڈی",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "بی سی ای",
+                    "1-alt-variant": "سی ای"
                 },
                 narrow: {
                     "0": "بی سی",
                     "1": "اے ڈی",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "بی سی ای",
+                    "1-alt-variant": "سی ای"
                 }
             }
         },
@@ -366,9 +367,9 @@ const data = {
                 narrow: "ؤری"
             },
             quarter: {
-                wide: "Quarter",
-                short: "Quarter",
-                narrow: "Quarter"
+                wide: "کوارٹر",
+                short: "کوارٹر",
+                narrow: "کوارٹر"
             },
             month: {
                 wide: "رؠتھ",
@@ -406,9 +407,9 @@ const data = {
                 narrow: "Weekday Of Month"
             },
             dayperiod: {
-                short: "صبح/رات",
-                wide: "صبح/رات",
-                narrow: "صبح/رات"
+                short: "صُبح/راتھ",
+                wide: "صُبح/راتھ",
+                narrow: "صُبح/راتھ"
             },
             hour: {
                 wide: "گٲنٹہٕ",
@@ -421,14 +422,14 @@ const data = {
                 narrow: "مِنَٹ"
             },
             second: {
-                wide: "سؠکَنڑ",
-                short: "سؠکَنڑ",
-                narrow: "سؠکَنڑ"
+                wide: "سؠکَنڈ",
+                short: "سؠکَنڈ",
+                narrow: "سؠکَنڈ"
             },
             zone: {
-                wide: "زون",
-                short: "زون",
-                narrow: "زون"
+                wide: "وَکھ زون",
+                short: "وَکھ زون",
+                narrow: "وَکھ زون"
             }
         }
     },

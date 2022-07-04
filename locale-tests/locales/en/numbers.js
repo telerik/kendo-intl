@@ -20,7 +20,8 @@ const data = {
             perMille: "‰",
             infinity: "∞",
             nan: "NaN",
-            timeSeparator: ":"
+            timeSeparator: ":",
+            approximatelySign: "~"
         },
         decimal: {
             patterns: [

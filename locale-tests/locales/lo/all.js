@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -77,7 +78,8 @@ const data = {
             AFN: {
                 displayName: "ອັຟ​ກັນ ອັຟ​ກາ​ນິ",
                 "displayName-count-other": "ອັຟ​ກັນ ອັຟ​ກາ​ນິ",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -91,7 +93,8 @@ const data = {
             AMD: {
                 displayName: "ອາ​ເມ​ນຽນ ແດຣມ",
                 "displayName-count-other": "ອາ​ເມ​ນຽນ ແດຣມ",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "ເນ​ເທີ​ແລນ ແອນ​ຕິ​ລຽນ ກິວ​ເດີ",
@@ -160,7 +163,8 @@ const data = {
             AZN: {
                 displayName: "ອາ​ເຊີ​ໄບ​ຈາ​ນິ ມາ​ນັດ",
                 "displayName-count-other": "ອາ​ເຊີ​ໄບ​ຈາ​ນິ ມາ​ນັດ",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "ດີນາ ບອສເນຍ ເຮີເຊໂບວາເນຍ (1992–1994)",
@@ -554,7 +558,8 @@ const data = {
             GHS: {
                 displayName: "ກາ​ນາ​ອຽນ ເຊ​ດິ",
                 "displayName-count-other": "ກາ​ນາ​ອຽນ ເຊ​ດິ",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "ກິບ​ຣາ​ທາ ພາ​ວດ໌",
@@ -1102,8 +1107,7 @@ const data = {
             },
             RUR: {
                 displayName: "ຣູໂບ ຣັດເຊຍ (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "ຣະ​ວັນ​ດັນ ຟຣັງ",
@@ -1165,6 +1169,10 @@ const data = {
             SKK: {
                 displayName: "ຄູໂຣນາ ສະໂລວັກ",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "ເຊຍ​ນາ ​ເລໂອ​ນຽນ ເລ​ໂອນ",
@@ -1349,6 +1357,10 @@ const data = {
                 displayName: "ໂບລີວາ ເວເນຊູເອລາ (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "ເວ​ເນ​ຊູ​ເອ​ລັນ ໂບ​ລິ​ວາ (2008–2018)",
                 "displayName-count-other": "ເວເນຊູເອລັນ ໂບລິວາສ໌",
@@ -1434,7 +1446,7 @@ const data = {
             XOF: {
                 displayName: "ຟັງເຊຟານ ອາຟຣິກາຕາເວັນຕົກ",
                 "displayName-count-other": "ຟັງເຊຟານ ອາຟຣິກາຕາເວັນຕົກ",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "ແພເລດຽມ",
@@ -1573,6 +1585,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "d/M/GGGGG y",
                 GyMMM: "MMM, G y",
                 GyMMMd: "d MMMM, G y",
                 GyMMMEd: "E d MMMM, G y",

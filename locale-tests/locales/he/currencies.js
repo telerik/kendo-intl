@@ -31,7 +31,8 @@ const data = {
                 "displayName-count-two": "אפגני אפגני",
                 "displayName-count-many": "אפגני אפגני",
                 "displayName-count-other": "אפגני אפגני",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -51,7 +52,8 @@ const data = {
                 "displayName-count-two": "דראם ארמני",
                 "displayName-count-many": "דראם ארמני",
                 "displayName-count-other": "דראם ארמני",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "גילדר של האנטילים ההולנדיים",
@@ -138,7 +140,8 @@ const data = {
                 "displayName-count-two": "מאנאט אזרבייג׳ני",
                 "displayName-count-many": "מאנאט אזרבייג׳ני",
                 "displayName-count-other": "מאנאט אזרבייג׳ני",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "דינר של בוסניה־הרצגובינה",
@@ -457,20 +460,20 @@ const data = {
                 symbol: "CSK"
             },
             CUC: {
-                displayName: "פזו קובני להמרה",
-                "displayName-count-one": "פזו קובני להמרה",
-                "displayName-count-two": "פזו קובני להמרה",
-                "displayName-count-many": "פזו קובני להמרה",
-                "displayName-count-other": "פזו קובני להמרה",
+                displayName: "פסו קובני להמרה",
+                "displayName-count-one": "פסו קובני להמרה",
+                "displayName-count-two": "פסו קובני להמרה",
+                "displayName-count-many": "פסו קובני להמרה",
+                "displayName-count-other": "פסו קובני להמרה",
                 symbol: "CUC",
                 "symbol-alt-narrow": "$"
             },
             CUP: {
-                displayName: "פזו קובני",
-                "displayName-count-one": "פזו קובני",
-                "displayName-count-two": "פזו קובני",
-                "displayName-count-many": "פזו קובני",
-                "displayName-count-other": "פזו קובני",
+                displayName: "פסו קובני",
+                "displayName-count-one": "פסו קובני",
+                "displayName-count-two": "פסו קובני",
+                "displayName-count-many": "פסו קובני",
+                "displayName-count-other": "פסו קובני",
                 symbol: "CUP",
                 "symbol-alt-narrow": "$"
             },
@@ -521,11 +524,11 @@ const data = {
                 "symbol-alt-narrow": "kr"
             },
             DOP: {
-                displayName: "פזו דומיניקני",
-                "displayName-count-one": "פזו דומיניקני",
-                "displayName-count-two": "פזו דומיניקני",
-                "displayName-count-many": "פזו דומיניקני",
-                "displayName-count-other": "פזו דומיניקני",
+                displayName: "פסו דומיניקני",
+                "displayName-count-one": "פסו דומיניקני",
+                "displayName-count-two": "פסו דומיניקני",
+                "displayName-count-many": "פסו דומיניקני",
+                "displayName-count-other": "פסו דומיניקני",
                 symbol: "DOP",
                 "symbol-alt-narrow": "$"
             },
@@ -642,8 +645,7 @@ const data = {
                 "displayName-count-many": "לארי גאורגי",
                 "displayName-count-other": "לארי גאורגי",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "GHC",
@@ -655,7 +657,8 @@ const data = {
                 "displayName-count-two": "סדי גאני",
                 "displayName-count-many": "סדי גאני",
                 "displayName-count-other": "סדי גאני",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "פאונד גיברלטר",
@@ -1172,20 +1175,28 @@ const data = {
                 symbol: "MWK"
             },
             MXN: {
-                displayName: "פזו מקסיקני",
-                "displayName-count-one": "פזו מקסיקני",
-                "displayName-count-two": "פזו מקסיקני",
-                "displayName-count-many": "פזו מקסיקני",
-                "displayName-count-other": "פזו מקסיקני",
+                displayName: "פסו מקסיקני",
+                "displayName-count-one": "פסו מקסיקני",
+                "displayName-count-two": "פסו מקסיקני",
+                "displayName-count-many": "פסו מקסיקני",
+                "displayName-count-other": "פסו מקסיקני",
                 symbol: "MX$",
                 "symbol-alt-narrow": "$"
             },
             MXP: {
                 displayName: "פזו מקסיקני (1861 – 1992)",
+                "displayName-count-one": "פסו מקסיקני (1861 – 1992)",
+                "displayName-count-two": "פסו מקסיקני (1861 – 1992)",
+                "displayName-count-many": "פסו מקסיקני (1861 – 1992)",
+                "displayName-count-other": "פסו מקסיקני (1861 – 1992)",
                 symbol: "MXP"
             },
             MXV: {
-                displayName: "MXV",
+                displayName: "יחידת השקעות מקסיקנית",
+                "displayName-count-one": "יחידת השקעות מקסיקנית",
+                "displayName-count-two": "יחידות השקעות מקסיקניות",
+                "displayName-count-many": "יחידות השקעות מקסיקניות",
+                "displayName-count-other": "יחידות השקעות מקסיקניות",
                 symbol: "MXV"
             },
             MYR: {
@@ -1236,7 +1247,11 @@ const data = {
                 "symbol-alt-narrow": "₦"
             },
             NIC: {
-                displayName: "NIC",
+                displayName: "קורדובה (1988–1991)",
+                "displayName-count-one": "קורדובה (1988–1991)",
+                "displayName-count-two": "קורדובות (1988–1991)",
+                "displayName-count-many": "קורדובות (1988–1991)",
+                "displayName-count-other": "קורדובות (1988–1991)",
                 symbol: "NIC"
             },
             NIO: {
@@ -1408,8 +1423,7 @@ const data = {
             },
             RUR: {
                 displayName: "רובל רוסי (1991 – 1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "פרנק רואנדי",
@@ -1495,6 +1509,10 @@ const data = {
             SKK: {
                 displayName: "קורונה סלובקי",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "ליאון סיירה לאוני",
@@ -1749,6 +1767,10 @@ const data = {
                 displayName: "בוליבר ונצואלי (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "בוליבר ונצואלי (2008–2018)",
                 "displayName-count-one": "בוליבר ונצואלי (2008–2018)",
@@ -1858,7 +1880,7 @@ const data = {
                 "displayName-count-two": "פרנק CFA מערב אפריקני",
                 "displayName-count-many": "פרנק CFA מערב אפריקני",
                 "displayName-count-other": "פרנק CFA מערב אפריקני",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "פלדיום",

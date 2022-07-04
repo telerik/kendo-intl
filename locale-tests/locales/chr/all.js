@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -79,7 +80,8 @@ const data = {
                 displayName: "ᎠᏫᎨᏂᏍᏖᏂ ᎠᏕᎳ",
                 "displayName-count-one": "ᎠᏫᎨᏂᏍᏖᏂ ᎠᏕᎳ",
                 "displayName-count-other": "ᎠᏫᎨᏂᏍᏖᏂ ᎠᏕᎳ",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -95,7 +97,8 @@ const data = {
                 displayName: "ᎠᎵᎻᏂᎠ ᎠᏕᎳ",
                 "displayName-count-one": "ᎠᎵᎻᏂᎠ ᎠᏕᎳ",
                 "displayName-count-other": "ᎠᎵᎻᏂᎠ ᎠᏕᎳ",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "ᎾᏍᎩᏁᏛᎳᏂ ᎠᏂᏘᎵᏏ ᎠᏕᎳ",
@@ -170,7 +173,8 @@ const data = {
                 displayName: "ᎠᏏᎵᏆᏌᏂ ᎠᏕᎳ",
                 "displayName-count-one": "ᎠᏏᎵᏆᏌᏂ ᎠᏕᎳ",
                 "displayName-count-other": "ᎠᏏᎵᏆᏌᏂ ᎠᏕᎳ",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -604,7 +608,8 @@ const data = {
                 displayName: "ᎦᎠᎾ ᎠᏕᎳ",
                 "displayName-count-one": "ᎦᎠᎾ ᎠᏕᎳ",
                 "displayName-count-other": "ᎦᎠᎾ ᎠᏕᎳ",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "ᏥᏆᎵᏓ ᎠᏕᎳ",
@@ -875,7 +880,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "LSL",
+                displayName: "ᎴᏐᏠ ᎶᏘ",
+                "displayName-count-one": "ᎴᏐᏠ ᎶᏘ",
+                "displayName-count-other": "ᎴᏐᏠ ᎶᏘᏍ",
                 symbol: "LSL"
             },
             LTL: {
@@ -1216,8 +1223,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "ᎶᏩᏂᏓ ᎠᏕᎳ",
@@ -1287,6 +1293,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "ᏏᎡᎳᎴᎣᏂ ᎠᏕᎳ",
@@ -1493,6 +1503,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "ᏪᏁᏑᏪ ᎠᏕᎳ (2008–2018)",
                 "displayName-count-one": "ᏪᏁᏑᏪᎳ ᎠᏕᎳ",
@@ -1586,7 +1600,7 @@ const data = {
                 displayName: "ᏭᏕᎵᎬ ᎬᎿᎨᏍᏛ CFA ᎠᏕᎳ",
                 "displayName-count-one": "ᏭᏕᎵᎬ ᎬᎿᎨᏍᏛ CFA ᎠᏕᎳ",
                 "displayName-count-other": "ᏭᏕᎵᎬ ᎬᎿᎨᏍᏛ CFA ᎠᏕᎳ",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",
@@ -1730,6 +1744,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "M/d/y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "MMM d, y G",
                 GyMMMEd: "E, MMM d, y G",

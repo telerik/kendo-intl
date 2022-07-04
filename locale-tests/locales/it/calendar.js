@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "d/M/y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E d MMM y G",
@@ -424,8 +425,8 @@ const data = {
             },
             day: {
                 wide: "giorno",
-                short: "g",
-                narrow: "g"
+                short: "g.",
+                narrow: "g."
             },
             dayOfYear: {
                 wide: "giorno dell’anno",
@@ -449,7 +450,7 @@ const data = {
             },
             hour: {
                 wide: "ora",
-                short: "h.",
+                short: "h",
                 narrow: "h"
             },
             minute: {

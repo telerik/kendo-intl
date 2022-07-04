@@ -15,7 +15,8 @@ const data = {
                 symbol: "ADP"
             },
             AED: {
-                displayName: "AED",
+                displayName: "Dirham de Emiratos Árabes Unidos",
+                "displayName-count-other": "UAE dirhams",
                 symbol: "AED"
             },
             AFA: {
@@ -25,7 +26,8 @@ const data = {
             AFN: {
                 displayName: "Afgani Afgano",
                 "displayName-count-other": "Afgani afgano",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -37,8 +39,10 @@ const data = {
                 symbol: "ALL"
             },
             AMD: {
-                displayName: "AMD",
-                symbol: "AMD"
+                displayName: "Dram Armenio",
+                "displayName-count-other": "drams Armenios",
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Florín Antillano Neerlandés",
@@ -105,8 +109,10 @@ const data = {
                 symbol: "AZM"
             },
             AZN: {
-                displayName: "AZN",
-                symbol: "AZN"
+                displayName: "Manat Azerbaiyano",
+                "displayName-count-other": "manats Azerbaiyanos",
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -261,8 +267,7 @@ const data = {
             BYN: {
                 displayName: "Nuevo Rublo Bielorruso",
                 "displayName-count-other": "Nuevo rublo bielorruso",
-                symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                symbol: "BYN"
             },
             BYR: {
                 displayName: "BYR",
@@ -497,7 +502,8 @@ const data = {
             GHS: {
                 displayName: "Cedi Ganés",
                 "displayName-count-other": "Cedi ganés",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GHC"
             },
             GIP: {
                 displayName: "Libra Gibraltareña",
@@ -736,7 +742,8 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "LSL",
+                displayName: "Lesoto Loti Qullqi",
+                "displayName-count-other": "Lesoto lotis qullqi",
                 symbol: "LSL"
             },
             LTL: {
@@ -1042,8 +1049,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Franco Ruandés",
@@ -1105,6 +1111,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Leone de Sierra Leona",
@@ -1288,6 +1298,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "VEF",
                 symbol: "VEF",
@@ -1372,7 +1386,7 @@ const data = {
             XOF: {
                 displayName: "Franco CFA de África Occidental",
                 "displayName-count-other": "Franco CFA de áfrica occidental",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",

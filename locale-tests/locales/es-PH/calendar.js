@@ -27,8 +27,8 @@ const data = {
         dateTimeFormats: {
             full: "{1}, {0}",
             long: "{1}, {0}",
-            medium: "{1} {0}",
-            short: "{1} {0}",
+            medium: "{1}, {0}",
+            short: "{1}, {0}",
             availableFormats: {
                 Bh: "h B",
                 Bhm: "h:mm B",
@@ -43,6 +43,7 @@ const data = {
                 Ehms: "E, h:mm:ss a",
                 EHms: "E, H:mm:ss",
                 Gy: "y G",
+                GyMd: "d/M/y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E, d MMM y G",
@@ -106,13 +107,13 @@ const data = {
         days: {
             format: {
                 abbreviated: [
-                    "dom.",
-                    "lun.",
-                    "mar.",
-                    "mié.",
-                    "jue.",
-                    "vie.",
-                    "sáb."
+                    "dom",
+                    "lun",
+                    "mar",
+                    "mié",
+                    "jue",
+                    "vie",
+                    "sáb"
                 ],
                 narrow: [
                     "D",
@@ -144,13 +145,13 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "dom.",
-                    "lun.",
-                    "mar.",
-                    "mié.",
-                    "jue.",
-                    "vie.",
-                    "sáb."
+                    "dom",
+                    "lun",
+                    "mar",
+                    "mié",
+                    "jue",
+                    "vie",
+                    "sáb"
                 ],
                 narrow: [
                     "D",
@@ -184,18 +185,18 @@ const data = {
         months: {
             format: {
                 abbreviated: [
-                    "ene.",
-                    "feb.",
-                    "mar.",
-                    "abr.",
-                    "may.",
-                    "jun.",
-                    "jul.",
-                    "ago.",
-                    "sept.",
-                    "oct.",
-                    "nov.",
-                    "dic."
+                    "ene",
+                    "feb",
+                    "mar",
+                    "abr",
+                    "may",
+                    "jun",
+                    "jul",
+                    "ago",
+                    "sept",
+                    "oct",
+                    "nov",
+                    "dic"
                 ],
                 narrow: [
                     "E",
@@ -228,18 +229,18 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "ene.",
-                    "feb.",
-                    "mar.",
-                    "abr.",
-                    "may.",
-                    "jun.",
-                    "jul.",
-                    "ago.",
-                    "sept.",
-                    "oct.",
-                    "nov.",
-                    "dic."
+                    "ene",
+                    "feb",
+                    "mar",
+                    "abr",
+                    "may",
+                    "jun",
+                    "jul",
+                    "ago",
+                    "sept",
+                    "oct",
+                    "nov",
+                    "dic"
                 ],
                 narrow: [
                     "E",

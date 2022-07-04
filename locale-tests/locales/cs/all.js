@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -92,7 +93,8 @@ const data = {
                 "displayName-count-few": "afghánské afghány",
                 "displayName-count-many": "afghánského afghánu",
                 "displayName-count-other": "afghánských afghánů",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "albánský lek (1946–1965)",
@@ -116,7 +118,8 @@ const data = {
                 "displayName-count-few": "arménské dramy",
                 "displayName-count-many": "arménského dramu",
                 "displayName-count-other": "arménských dramů",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "nizozemskoantilský gulden",
@@ -239,7 +242,8 @@ const data = {
                 "displayName-count-few": "ázerbájdžánské manaty",
                 "displayName-count-many": "ázerbájdžánského manatu",
                 "displayName-count-other": "ázerbájdžánských manatů",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "bosenský dinár (1992–1994)",
@@ -899,8 +903,7 @@ const data = {
                 "displayName-count-many": "gruzínského lari",
                 "displayName-count-other": "gruzínských lari",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "ghanský cedi (1979–2007)",
@@ -916,7 +919,8 @@ const data = {
                 "displayName-count-few": "ghanské cedi",
                 "displayName-count-many": "ghanského cedi",
                 "displayName-count-other": "ghanských cedi",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "gibraltarská libra",
@@ -1936,6 +1940,10 @@ const data = {
                 "displayName-count-other": "slovenských korun",
                 symbol: "SKK"
             },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
+            },
             SLL: {
                 displayName: "sierro-leonský leone",
                 "displayName-count-one": "sierro-leonský leone",
@@ -2241,6 +2249,10 @@ const data = {
                 "displayName-count-other": "venezuelských bolívarů (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "venezuelský bolívar (2008–2018)",
                 "displayName-count-one": "venezuelský bolívar (2008–2018)",
@@ -2390,7 +2402,7 @@ const data = {
                 "displayName-count-few": "CFA/BCEAO franky",
                 "displayName-count-many": "CFA/BCEAO franku",
                 "displayName-count-other": "CFA/BCEAO franků",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "palladium",
@@ -2612,6 +2624,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E H:mm:ss",
                 Gy: "y G",
+                GyMd: "d. M. y GGGGG",
                 GyMMM: "LLLL y G",
                 GyMMMd: "d. M. y G",
                 GyMMMEd: "E d. M. y G",

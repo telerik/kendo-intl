@@ -31,7 +31,8 @@ const data = {
                 displayName: "afghanistanga afghani",
                 "displayName-count-one": "afghanistanga afghani",
                 "displayName-count-other": "afghanistanga afghani",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "albaniaga lek (1946–1965)",
@@ -49,7 +50,8 @@ const data = {
                 displayName: "armeniaga dram",
                 "displayName-count-one": "armeniaga dram",
                 "displayName-count-other": "armeniaga dram",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "netherlands antilleaga guilder",
@@ -142,7 +144,8 @@ const data = {
                 displayName: "azerbaidzanga manat",
                 "displayName-count-one": "azerbaidzanga manat",
                 "displayName-count-other": "azerbaidzanga manat",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "bosnia-herzegovinaga dinar (1992–1994)",
@@ -654,7 +657,8 @@ const data = {
                 displayName: "ghana siɖi",
                 "displayName-count-one": "ghana siɖi",
                 "displayName-count-other": "ghana siɖi",
-                symbol: "GH₵"
+                symbol: "GH₵",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "gilbratarga pound",
@@ -1258,7 +1262,7 @@ const data = {
                 displayName: "filipiniga peso",
                 "displayName-count-one": "filipinga peso",
                 "displayName-count-other": "filipinga peso",
-                symbol: "PHP",
+                symbol: "₱",
                 "symbol-alt-narrow": "₱"
             },
             PKR: {
@@ -1336,8 +1340,7 @@ const data = {
                 displayName: "rɔtsiaga ruble (1991–1998)",
                 "displayName-count-one": "rɔtsiaga ruble (1991–1998)",
                 "displayName-count-other": "rɔtsiaga ruble (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "rwandaga franc",
@@ -1415,6 +1418,10 @@ const data = {
                 "displayName-count-one": "slovakiaga koruna",
                 "displayName-count-other": "slovakiaga koruna",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "sierra leonega leone",
@@ -1647,6 +1654,10 @@ const data = {
                 "displayName-count-other": "venezuelaga bolívar (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "venezuelaga bolívar (2008–2018)",
                 "displayName-count-one": "venezuelaga bolívar (2008–2018)",
@@ -1762,7 +1773,7 @@ const data = {
                 displayName: "ɣetoɖofe afrikaga CFA franc BCEAO",
                 "displayName-count-one": "ɣetoɖofe afrikaga CFA franc BCEAO",
                 "displayName-count-other": "ɣetoɖofe afrikaga CFA franc BCEAO",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "palladiumga",

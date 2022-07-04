@@ -27,7 +27,8 @@ const data = {
                 displayName: "ავღანური ავღანი",
                 "displayName-count-one": "ავღანური ავღანი",
                 "displayName-count-other": "ავღანური ავღანი",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -43,7 +44,8 @@ const data = {
                 displayName: "სომხური დრამი",
                 "displayName-count-one": "სომხური დრამი",
                 "displayName-count-other": "სომხური დრამი",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "ნიდერლანდების ანტილების გულდენი",
@@ -118,7 +120,8 @@ const data = {
                 displayName: "აზერბაიჯანული მანათი",
                 "displayName-count-one": "აზერბაიჯანული მანათი",
                 "displayName-count-other": "აზერბაიჯანული მანათი",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "ბოსნია-ჰერცოგოვინას დინარი",
@@ -552,7 +555,8 @@ const data = {
                 displayName: "განური სედი",
                 "displayName-count-one": "განური სედი",
                 "displayName-count-other": "განური სედი",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "გიბრალტარული ფუნტი",
@@ -823,7 +827,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "LSL",
+                displayName: "ლესოთოს ლოტი",
+                "displayName-count-one": "ლესოთოს ლოტი",
+                "displayName-count-other": "ლესოთოს ლოტი",
                 symbol: "LSL"
             },
             LTL: {
@@ -1035,7 +1041,7 @@ const data = {
                 symbol: "NIC"
             },
             NIO: {
-                displayName: "ნიკარაგუული კორდობა",
+                displayName: "ნიკარაგუას ოქროს კორდობა",
                 "displayName-count-one": "ნიკარაგუას ოქროს კორდობა",
                 "displayName-count-other": "ნიკარაგუას ოქროს კორდობა",
                 symbol: "NIO",
@@ -1170,8 +1176,7 @@ const data = {
             },
             RUR: {
                 displayName: "რუსული რუბლი (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "რუანდული ფრანკი",
@@ -1241,6 +1246,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "სიერა-ლეონეს ლეონე",
@@ -1447,6 +1456,10 @@ const data = {
                 displayName: "ვენესუელის ბოლივარი (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "ვენესუელის ბოლივარი (2008–2018)",
                 "displayName-count-one": "ვენესუელის ბოლივარი (2008–2018)",
@@ -1540,7 +1553,7 @@ const data = {
                 displayName: "დასავლეთ აფრიკული CFA ფრანკი",
                 "displayName-count-one": "დასავლეთ აფრიკული CFA ფრანკი",
                 "displayName-count-other": "დასავლეთ აფრიკული CFA ფრანკი",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",

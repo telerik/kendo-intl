@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "dd-MM-y GGGGG",
                 GyMMM: "LLL y G",
                 GyMMMd: "dd-MM-y GGGGG",
                 GyMMMEd: "E, dd-MM-y GGGGG",
@@ -65,7 +66,8 @@ const data = {
                 MMMEd: "E, dd-MM",
                 MMMMd: "d MMMM",
                 MMMMEd: "E, d MMMM",
-                "MMMMW-count-other": "'week' W 'of' MMMM",
+                "MMMMW-count-one": "W. 'emna' MMMM",
+                "MMMMW-count-other": "W. 'emna' MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "LL-y",
@@ -79,7 +81,8 @@ const data = {
                 yMMMMEd: "E, d MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-other": "'week' w 'of' Y"
+                "yw-count-one": "w. 'dal' Y",
+                "yw-count-other": "w. 'emna' 'dal' Y"
             }
         },
         timeFormats: {
@@ -370,9 +373,9 @@ const data = {
                 narrow: "onn"
             },
             quarter: {
-                wide: "Quarter",
-                short: "Quarter",
-                narrow: "Quarter"
+                wide: "quartal",
+                short: "qrtl",
+                narrow: "qrtl"
             },
             month: {
                 wide: "mais",
@@ -390,9 +393,9 @@ const data = {
                 narrow: "Week Of Month"
             },
             day: {
-                wide: "Tag",
-                short: "Tag",
-                narrow: "Tag"
+                wide: "di",
+                short: "di",
+                narrow: "d"
             },
             dayOfYear: {
                 wide: "Day Of Year",
@@ -421,13 +424,13 @@ const data = {
             },
             minute: {
                 wide: "minuta",
-                short: "minuta",
-                narrow: "minuta"
+                short: "min",
+                narrow: "min"
             },
             second: {
                 wide: "secunda",
-                short: "secunda",
-                narrow: "secunda"
+                short: "s",
+                narrow: "s"
             },
             zone: {
                 wide: "zona d’urari",

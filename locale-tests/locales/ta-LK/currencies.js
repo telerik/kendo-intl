@@ -28,7 +28,8 @@ const data = {
                 displayName: "ஆஃப்கான் ஆஃப்கானி",
                 "displayName-count-one": "ஆஃப்கான் ஆஃப்கானி",
                 "displayName-count-other": "ஆஃப்கான் ஆஃப்கானிகள்",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -44,7 +45,8 @@ const data = {
                 displayName: "ஆர்மேனியன் ட்ராம்",
                 "displayName-count-one": "ஆர்மேனியன் ட்ராம்",
                 "displayName-count-other": "ஆர்மேனியன் ட்ராம்கள்",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "நெதர்லேண்ட்ஸ் அன்டிலியன் கில்டர்",
@@ -119,7 +121,8 @@ const data = {
                 displayName: "அசர்பைஜானி மனத்",
                 "displayName-count-one": "அஜர்பைசானி மனத்",
                 "displayName-count-other": "அசர்பைஜானி மனத்கள்",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -543,8 +546,7 @@ const data = {
                 "displayName-count-one": "ஜார்ஜியன் லாரி",
                 "displayName-count-other": "ஜார்ஜியன் லாரிகள்",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "GHC",
@@ -554,7 +556,8 @@ const data = {
                 displayName: "கானயன் சேடி",
                 "displayName-count-one": "கானயன் சேடி",
                 "displayName-count-other": "கானயன் சேடிகள்",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "ஜிப்ரால்டர் பவுண்டு",
@@ -826,6 +829,8 @@ const data = {
             },
             LSL: {
                 displayName: "லெசோதோ லோட்டி",
+                "displayName-count-one": "லெசோதோ லோட்டி",
+                "displayName-count-other": "லெசோதோ லோட்டிகள்",
                 symbol: "LSL"
             },
             LTL: {
@@ -1170,8 +1175,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "ருவாண்டன் ஃப்ராங்க்",
@@ -1241,6 +1245,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "சியாரா லியோனியன் லியோன்",
@@ -1447,6 +1455,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "வெனிசுலன் போலிவர் (2008–2018)",
                 "displayName-count-one": "வெனிசுலன் போலிவர் (2008–2018)",
@@ -1540,7 +1552,7 @@ const data = {
                 displayName: "மேற்கு ஆப்பிரிக்க CFA ஃப்ராங்க்",
                 "displayName-count-one": "மேற்கு ஆப்பிரிக்க CFA ஃப்ராங்க்",
                 "displayName-count-other": "மேற்கு ஆப்பிரிக்க CFA ஃப்ராங்க்குகள்",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",

@@ -23,7 +23,8 @@ const data = {
             },
             AFN: {
                 displayName: "افغان افغٲنی",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -35,7 +36,8 @@ const data = {
             },
             AMD: {
                 displayName: "اَرمانؠن ڈرؠم",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "نایدَرلینڑ اؠنٹٕلیٖیَن گِلڑَر",
@@ -98,7 +100,8 @@ const data = {
             },
             AZN: {
                 displayName: "آزَرباجانی مَنَٹ",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "بوزنِیاہَرزِگووِنا دیٖنار",
@@ -199,7 +202,9 @@ const data = {
                 symbol: "BRE"
             },
             BRL: {
-                displayName: "برازیٖلین رِیَل",
+                displayName: "برازیٖلی رِیَل",
+                "displayName-count-one": "برازیٖلی رِیَل",
+                "displayName-count-other": "برازیٖلی رِیَلز",
                 symbol: "R$",
                 "symbol-alt-narrow": "R$"
             },
@@ -239,8 +244,7 @@ const data = {
             },
             BYN: {
                 displayName: "بِلیروشِیَن رِبٕل",
-                symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                symbol: "BYN"
             },
             BYR: {
                 displayName: "بِلیروشِیَن رِبٕل (۲۰۰۰–۲۰۱۶)",
@@ -294,7 +298,9 @@ const data = {
                 symbol: "CNX"
             },
             CNY: {
-                displayName: "چینیٖز یَن رِنمِنبی",
+                displayName: "چیٖنی یُوان",
+                "displayName-count-one": "چیٖنی یُوان",
+                "displayName-count-other": "چیٖنی یُوان",
                 symbol: "CN¥",
                 "symbol-alt-narrow": "¥"
             },
@@ -431,7 +437,9 @@ const data = {
                 symbol: "FRF"
             },
             GBP: {
-                displayName: "برطٲنوی پاونڑ سٹٔرلِنگ",
+                displayName: "برطٲنوی پوٗنڈ",
+                "displayName-count-one": "برطٲنوی پوٗنڈ",
+                "displayName-count-other": "برطٲنوی پوٗنڈ",
                 symbol: "£",
                 "symbol-alt-narrow": "£"
             },
@@ -450,7 +458,8 @@ const data = {
             },
             GHS: {
                 displayName: "گَنییَن سؠڑی",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "گِبریلٹَر پَاونڑ",
@@ -583,7 +592,9 @@ const data = {
             },
             JPY: {
                 displayName: "جاپانُک یَن",
-                symbol: "JP¥",
+                "displayName-count-one": "جاپٲن یَن",
+                "displayName-count-other": "جاپٲن یَن",
+                symbol: "¥",
                 "symbol-alt-narrow": "¥"
             },
             KES: {
@@ -876,7 +887,7 @@ const data = {
             },
             PHP: {
                 displayName: "پھِلِپایِٔن پؠسو",
-                symbol: "PHP",
+                symbol: "₱",
                 "symbol-alt-narrow": "₱"
             },
             PKR: {
@@ -924,14 +935,15 @@ const data = {
                 symbol: "RSD"
             },
             RUB: {
-                displayName: "رٔشیَن رَبٕل",
+                displayName: "روٗسی رَبٕل",
+                "displayName-count-one": "روٗسی رَبٕل",
+                "displayName-count-other": "روٗسی رَبٕلز",
                 symbol: "RUB",
                 "symbol-alt-narrow": "₽"
             },
             RUR: {
                 displayName: "رٔشیَن رَبٕل(۱۹۹۱–۱۹۹۸)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "روانڑَن فرانک",
@@ -985,6 +997,10 @@ const data = {
             SKK: {
                 displayName: "سلووَک کَرونا",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "SLL",
@@ -1110,8 +1126,10 @@ const data = {
                 symbol: "UGX"
             },
             USD: {
-                displayName: "یوٗ ایس ڈالَر",
-                symbol: "US$",
+                displayName: "US ڈالر",
+                "displayName-count-one": "US ڈالر",
+                "displayName-count-other": "US ڈالرس",
+                symbol: "$",
                 "symbol-alt-narrow": "$"
             },
             USN: {
@@ -1146,6 +1164,10 @@ const data = {
             VEB: {
                 displayName: "وینٕزوٗلیُک بولِوَر (۱۸۷۱–۲۰۰۸)",
                 symbol: "VEB"
+            },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
             },
             VEF: {
                 displayName: "وینٕزوٗلیُک بولِوَر (2008–2018)",
@@ -1224,7 +1246,7 @@ const data = {
             },
             XOF: {
                 displayName: "سی ایف اے فرینک بی سی ایٖ اے او",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "پُلیڈیَم",
@@ -1255,7 +1277,9 @@ const data = {
                 symbol: "XUA"
             },
             XXX: {
-                displayName: "اَنزٲنۍ یا نالَگہٕ ہار سِکہٕ",
+                displayName: "نامولوٗم کرنسی",
+                "displayName-count-one": "﴿کرنسی ہُنٛد نامولوٗم سِکٕہ﴾",
+                "displayName-count-other": "﴿نانولوٗم کرنسی﴾",
                 symbol: "¤"
             },
             YDD: {

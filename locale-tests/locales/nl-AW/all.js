@@ -13,6 +13,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -85,7 +86,8 @@ const data = {
                 displayName: "Afghaanse afghani",
                 "displayName-count-one": "Afghaanse afghani",
                 "displayName-count-other": "Afghaanse afghani",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "Albanese lek (1946–1965)",
@@ -103,7 +105,8 @@ const data = {
                 displayName: "Armeense dram",
                 "displayName-count-one": "Armeense dram",
                 "displayName-count-other": "Armeense dram",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Nederlands-Antilliaanse gulden",
@@ -196,7 +199,8 @@ const data = {
                 displayName: "Azerbeidzjaanse manat",
                 "displayName-count-one": "Azerbeidzjaanse manat",
                 "displayName-count-other": "Azerbeidzjaanse manat",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "Bosnische dinar",
@@ -400,9 +404,9 @@ const data = {
                 symbol: "BYB"
             },
             BYN: {
-                displayName: "Wit-Russische roebel",
-                "displayName-count-one": "Wit-Russische roebel",
-                "displayName-count-other": "Wit-Russische roebel",
+                displayName: "Belarussische roebel",
+                "displayName-count-one": "Belarussische roebel",
+                "displayName-count-other": "Belarussische roebel",
                 symbol: "BYN",
                 "symbol-alt-narrow": "р."
             },
@@ -711,7 +715,8 @@ const data = {
                 displayName: "Ghanese cedi",
                 "displayName-count-one": "Ghanese cedi",
                 "displayName-count-other": "Ghanese cedi",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Gibraltarees pond",
@@ -1489,6 +1494,10 @@ const data = {
                 "displayName-count-other": "Slowaakse koruna",
                 symbol: "SKK"
             },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
+            },
             SLL: {
                 displayName: "Sierraleoonse leone",
                 "displayName-count-one": "Sierraleoonse leone",
@@ -1724,6 +1733,10 @@ const data = {
                 "displayName-count-other": "Venezolaanse bolivar (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "Venezolaanse bolivar (2008–2018)",
                 "displayName-count-one": "Venezolaanse bolivar (2008–2018)",
@@ -1839,7 +1852,7 @@ const data = {
                 displayName: "CFA-franc BCEAO",
                 "displayName-count-one": "CFA-franc BCEAO",
                 "displayName-count-other": "CFA-franc BCEAO",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "Palladium",
@@ -2019,6 +2032,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "d/M/y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E d MMM y G",

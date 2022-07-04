@@ -12,7 +12,8 @@ const data = {
             list: ";",
             percentSign: "%",
             plusSign: "+",
-            minusSign: "-",
+            minusSign: "−",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -88,7 +89,8 @@ const data = {
                 "displayName-count-one": "afganistanski afgan",
                 "displayName-count-few": "afganistanska afgana",
                 "displayName-count-other": "afganistanskih afgana",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "stari albanski lek",
@@ -109,7 +111,8 @@ const data = {
                 "displayName-count-one": "armenski dram",
                 "displayName-count-few": "armenska drama",
                 "displayName-count-other": "armenskih drama",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "nizozemskoantilski gulden",
@@ -217,7 +220,8 @@ const data = {
                 "displayName-count-one": "azerbajdžanski manat",
                 "displayName-count-few": "azerbajdžanska manata",
                 "displayName-count-other": "azerbajdžanskih manata",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "bosansko-hercegovački dinar",
@@ -795,8 +799,7 @@ const data = {
                 "displayName-count-few": "gruzijska lara",
                 "displayName-count-other": "gruzijskih lara",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "ganski cedi (1979.–2007.)",
@@ -810,7 +813,8 @@ const data = {
                 "displayName-count-one": "ganski cedi",
                 "displayName-count-few": "ganska ceda",
                 "displayName-count-other": "ganskih ceda",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "gibraltarska funta",
@@ -914,7 +918,7 @@ const data = {
                 "displayName-count-one": "hrvatska kuna",
                 "displayName-count-few": "hrvatske kune",
                 "displayName-count-other": "hrvatskih kuna",
-                symbol: "HRK",
+                symbol: "kn",
                 "symbol-alt-narrow": "kn"
             },
             HTG: {
@@ -1152,10 +1156,10 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "lesoto loti",
-                "displayName-count-one": "lesoto loti",
-                "displayName-count-few": "lesoto lotija",
-                "displayName-count-other": "lesoto lotija",
+                displayName: "lesotski loti",
+                "displayName-count-one": "lesotski loti",
+                "displayName-count-few": "lesotska lotija",
+                "displayName-count-other": "lesotskih lotija",
                 symbol: "LSL"
             },
             LTL: {
@@ -1706,6 +1710,10 @@ const data = {
                 "displayName-count-other": "slovačkih kruna",
                 symbol: "SKK"
             },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
+            },
             SLL: {
                 displayName: "sijeraleonski leone",
                 "displayName-count-one": "sijeraleonski leon",
@@ -1975,6 +1983,10 @@ const data = {
                 "displayName-count-other": "venezuelanskih bolivara (1871.–2008.)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "venezuelanski bolivar (2008. – 2018.)",
                 "displayName-count-one": "venezuelanski bolivar (2008. – 2018.)",
@@ -2109,7 +2121,7 @@ const data = {
                 "displayName-count-one": "CFA franak BCEAO",
                 "displayName-count-few": "CFA franka BCEAO",
                 "displayName-count-other": "CFA franaka BCEAO",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "paladij",
@@ -2162,9 +2174,9 @@ const data = {
             },
             XXX: {
                 displayName: "nepoznata valuta",
-                "displayName-count-one": "nepoznata valuta",
-                "displayName-count-few": "nepoznata valuta",
-                "displayName-count-other": "nepoznata valuta",
+                "displayName-count-one": "(nepoznata valuta)",
+                "displayName-count-few": "(nepoznata valuta)",
+                "displayName-count-other": "(nepoznata valuta)",
                 symbol: "XXX"
             },
             YDD: {
@@ -2312,6 +2324,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y. G",
+                GyMd: "d. M. y. GGGGG",
                 GyMMM: "LLL y. G",
                 GyMMMd: "d. MMM y. G",
                 GyMMMEd: "E, d. MMM y. G",

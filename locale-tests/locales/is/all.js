@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -78,7 +79,8 @@ const data = {
                 displayName: "afgani",
                 "displayName-count-one": "afgani",
                 "displayName-count-other": "afganar",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -94,7 +96,8 @@ const data = {
                 displayName: "armenskt dramm",
                 "displayName-count-one": "armenskt dramm",
                 "displayName-count-other": "armensk drömm",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "hollenskt Antillugyllini",
@@ -169,7 +172,8 @@ const data = {
                 displayName: "aserskt manat",
                 "displayName-count-one": "aserskt manat",
                 "displayName-count-other": "asersk manöt",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -338,8 +342,7 @@ const data = {
                 displayName: "hvítrússnesk rúbla",
                 "displayName-count-one": "hvítrússnesk rúbla",
                 "displayName-count-other": "hvítrússneskar rúblur",
-                symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                symbol: "BYN"
             },
             BYR: {
                 displayName: "hvítrússnesk rúbla (2000–2016)",
@@ -595,8 +598,7 @@ const data = {
                 "displayName-count-one": "georgískur lari",
                 "displayName-count-other": "georgískir larar",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "GHC",
@@ -606,7 +608,8 @@ const data = {
                 displayName: "ganverskur sedi",
                 "displayName-count-one": "ganverskur sedi",
                 "displayName-count-other": "ganverskir sedar",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Gíbraltarspund",
@@ -877,7 +880,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "Lesotho Loti",
+                displayName: "lesótóskur lóti",
+                "displayName-count-one": "lesótóskur lóti",
+                "displayName-count-other": "lesótóskir lótar",
                 symbol: "LSL"
             },
             LTL: {
@@ -1089,7 +1094,7 @@ const data = {
                 symbol: "NIC"
             },
             NIO: {
-                displayName: "níkaraögsk kordóva",
+                displayName: "níkarögsk kordóva",
                 "displayName-count-one": "níkarögsk kordóva",
                 "displayName-count-other": "níkaragskar kordóvur",
                 symbol: "NIO",
@@ -1226,8 +1231,7 @@ const data = {
             },
             RUR: {
                 displayName: "Rússnesk rúbla (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "rúandskur franki",
@@ -1297,6 +1301,10 @@ const data = {
             SKK: {
                 displayName: "Slóvakísk króna",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "síerraleónsk ljóna",
@@ -1507,6 +1515,10 @@ const data = {
                 displayName: "Bolívar í Venesúela (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "venesúelskur bólívari (2008–2018)",
                 "displayName-count-one": "venesúelskur bólívari (2008–2018)",
@@ -1600,7 +1612,7 @@ const data = {
                 displayName: "vesturafrískur franki",
                 "displayName-count-one": "vesturafrískur franki",
                 "displayName-count-other": "vesturafrískir frankar",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",
@@ -1744,6 +1756,7 @@ const data = {
                 Ehms: "E, h:mm:ss a",
                 EHms: "E, HH:mm:ss",
                 Gy: "y G",
+                GyMd: "d/M/y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d. MMM y G",
                 GyMMMEd: "E, d. MMM y G",

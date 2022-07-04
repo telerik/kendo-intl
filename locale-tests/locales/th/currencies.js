@@ -25,7 +25,8 @@ const data = {
             AFN: {
                 displayName: "อัฟกานิอัฟกานิสถาน",
                 "displayName-count-other": "อัฟกานิอัฟกานิสถาน",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -39,7 +40,8 @@ const data = {
             AMD: {
                 displayName: "แดรมอาร์เมเนีย",
                 "displayName-count-other": "แดรมอาร์เมเนีย",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "กิลเดอร์เนเธอร์แลนด์แอนทิลลิส",
@@ -108,7 +110,8 @@ const data = {
             AZN: {
                 displayName: "มานัตอาเซอร์ไบจาน",
                 "displayName-count-other": "มานัตอาเซอร์ไบจาน",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "ดีนาร์บอสเนีย-เฮอร์เซโกวีนา",
@@ -492,8 +495,7 @@ const data = {
                 displayName: "ลารีจอร์เจีย",
                 "displayName-count-other": "ลารีจอร์เจีย",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "เซดีกานา (1979–2007)",
@@ -502,7 +504,8 @@ const data = {
             GHS: {
                 displayName: "เซดีกานา",
                 "displayName-count-other": "เซดีกานา",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "ปอนด์ยิบรอลตาร์",
@@ -1052,8 +1055,7 @@ const data = {
             },
             RUR: {
                 displayName: "รูเบิลรัสเซีย (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "ฟรังก์รวันดา",
@@ -1115,6 +1117,10 @@ const data = {
             SKK: {
                 displayName: "โครูนาสโลวัก",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "ลีโอนเซียร์ราลีโอน",
@@ -1301,6 +1307,10 @@ const data = {
                 displayName: "โบลิวาร์เวเนซุเอลา (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "โบลิวาร์เวเนซุเอลา",
                 "displayName-count-other": "โบลิวาร์เวเนซุเอลา",
@@ -1386,7 +1396,7 @@ const data = {
             XOF: {
                 displayName: "ฟรังก์เซฟาธนาคารกลางรัฐแอฟริกาตะวันตก",
                 "displayName-count-other": "ฟรังก์เซฟาธนาคารกลางรัฐแอฟริกาตะวันตก",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "พัลเลเดียม",

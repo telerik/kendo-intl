@@ -27,7 +27,8 @@ const data = {
                 displayName: "अफगाण अफगाणी",
                 "displayName-count-one": "अफगाण अफगाणी",
                 "displayName-count-other": "अफगाण अफगाणी",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -43,7 +44,8 @@ const data = {
                 displayName: "आर्मेनियन द्रॅम",
                 "displayName-count-one": "आर्मेनियन द्रॅम",
                 "displayName-count-other": "आर्मेनियन द्रॅम",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "नेदरलँडचा अँटिलीन गिल्डर",
@@ -118,7 +120,8 @@ const data = {
                 displayName: "अझरबैझानी मानाट",
                 "displayName-count-one": "अझरबैझानी मानाट",
                 "displayName-count-other": "अझरबैझानी मानाट",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -287,8 +290,7 @@ const data = {
                 displayName: "बेलारुशियन रुबल",
                 "displayName-count-one": "बेलारुशियन रुबल",
                 "displayName-count-other": "बेलारुशियन रुबल्स",
-                symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                symbol: "BYN"
             },
             BYR: {
                 displayName: "बेलारुशियन रुबल (2000–2016)",
@@ -374,9 +376,9 @@ const data = {
                 symbol: "COU"
             },
             CRC: {
-                displayName: "कोस्टा रिका कोलोन",
-                "displayName-count-one": "कोस्टा रिका कोलोन",
-                "displayName-count-other": "कोस्टा रिका कोलोन्स",
+                displayName: "कोस्टारिकन कोलोन",
+                "displayName-count-one": "कोस्टारिकन कोलोन",
+                "displayName-count-other": "कोस्टारिकन कोलोन्स",
                 symbol: "CRC",
                 "symbol-alt-narrow": "₡"
             },
@@ -553,7 +555,8 @@ const data = {
                 displayName: "घानीयन सेडी",
                 "displayName-count-one": "घानीयन सेडी",
                 "displayName-count-other": "घानीयन सेडीस",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "जिब्राल्टर पाउंड",
@@ -1169,8 +1172,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "रवांडा फ्रँक",
@@ -1240,6 +1242,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "सिएरा लिऑनचा लिऑन",
@@ -1446,6 +1452,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "व्हेनेझुएला बोलिव्हार (2008–2018)",
                 "displayName-count-one": "व्हेनेझुएला बोलिव्हार (2008–2018)",
@@ -1539,7 +1549,7 @@ const data = {
                 displayName: "पश्चिम आफ्रिकन [CFA] फ्रँक",
                 "displayName-count-one": "पश्चिम आफ्रिकन [CFA] फ्रँक",
                 "displayName-count-other": "पश्चिम आफ्रिकन [CFA] फ्रँक्स",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",

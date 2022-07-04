@@ -27,7 +27,8 @@ const data = {
                 displayName: "અફ્ગાન અફ્ગાની",
                 "displayName-count-one": "અફ્ગાન અફ્ગાની",
                 "displayName-count-other": "અફ્ગાન અફ્ગાની",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -43,7 +44,8 @@ const data = {
                 displayName: "અર્મેનિયન ડ્રેમ",
                 "displayName-count-one": "અર્મેનિયન ડ્રેમ",
                 "displayName-count-other": "અર્મેનિયન ડ્રેમ",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "નેધરલેંડ એંટિલિન ગિલ્ડર",
@@ -118,7 +120,8 @@ const data = {
                 displayName: "અઝરબૈજાની મનાત",
                 "displayName-count-one": "અઝરબૈજાની મનાત",
                 "displayName-count-other": "અઝરબૈજાની મનાત",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -542,8 +545,7 @@ const data = {
                 "displayName-count-one": "જ્યોર્જિઅન લારી",
                 "displayName-count-other": "જ્યોર્જિઅન લારી",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "GHC",
@@ -553,7 +555,8 @@ const data = {
                 displayName: "ઘાનાઇયન સેડી",
                 "displayName-count-one": "ઘાનાઇયન સેડી",
                 "displayName-count-other": "ઘાનાઇયન સેડી",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "જીબ્રાલ્ટર પાઉન્ડ",
@@ -1169,8 +1172,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "રવાંડન ફ્રેંક",
@@ -1240,6 +1242,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "સિએરા લિઓનિઅન લિઓન",
@@ -1446,6 +1452,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "વેનેઝુએલન બોલિવર (2008–2018)",
                 "displayName-count-one": "વેનેઝુએલન બોલિવર (2008–2018)",
@@ -1539,7 +1549,7 @@ const data = {
                 displayName: "પશ્ચિમી આફ્રિકન [CFA] ફ્રેંક",
                 "displayName-count-one": "પશ્ચિમી આફ્રિકન [CFA] ફ્રેંક",
                 "displayName-count-other": "પશ્ચિમી આફ્રિકન [CFA] ફ્રેંક્સ",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",

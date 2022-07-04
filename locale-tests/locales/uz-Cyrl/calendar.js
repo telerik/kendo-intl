@@ -43,6 +43,7 @@ const data = {
                 Ehms: "E, h:mm:ss a",
                 EHms: "E, HH:mm:ss",
                 Gy: "G y",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "MMM, G y",
                 GyMMMd: "d MMM, G y",
                 GyMMMEd: "E, d-MMM, G y",

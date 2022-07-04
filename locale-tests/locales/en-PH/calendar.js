@@ -10,15 +10,15 @@ const data = {
     territory: "PH",
     calendar: {
         patterns: {
-            d: "dd/MM/y",
-            D: "EEEE, d MMMM y",
-            m: "d MMM",
-            M: "d MMMM",
+            d: "M/d/y",
+            D: "EEEE, MMMM d, y",
+            m: "MMM d",
+            M: "MMMM d",
             y: "MMM y",
             Y: "MMMM y",
-            F: "EEEE, d MMMM y h:mm:ss a",
-            g: "dd/MM/y h:mm a",
-            G: "dd/MM/y h:mm:ss a",
+            F: "EEEE, MMMM d, y h:mm:ss a",
+            g: "M/d/y h:mm a",
+            G: "M/d/y h:mm:ss a",
             t: "h:mm a",
             T: "h:mm:ss a",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
@@ -35,17 +35,18 @@ const data = {
                 Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
-                EBhm: "E, h:mm B",
-                EBhms: "E, h:mm:ss B",
-                Ed: "E d",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
+                Ed: "d E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "M/d/y GGGGG",
                 GyMMM: "MMM y G",
-                GyMMMd: "d MMM y G",
-                GyMMMEd: "E, d MMM y G",
+                GyMMMd: "MMM d, y G",
+                GyMMMEd: "E, MMM d, y G",
                 h: "h a",
                 H: "HH",
                 hm: "h:mm a",
@@ -57,23 +58,22 @@ const data = {
                 hmv: "h:mm a v",
                 Hmv: "HH:mm v",
                 M: "L",
-                Md: "dd/MM",
-                MEd: "E, dd/MM",
-                MMdd: "dd/MM",
+                Md: "M/d",
+                MEd: "E, M/d",
                 MMM: "LLL",
-                MMMd: "d MMM",
-                MMMEd: "E, d MMM",
-                MMMMd: "d MMMM",
+                MMMd: "MMM d",
+                MMMEd: "E, MMM d",
+                MMMMd: "MMMM d",
                 "MMMMW-count-one": "'week' W 'of' MMMM",
                 "MMMMW-count-other": "'week' W 'of' MMMM",
                 ms: "mm:ss",
                 y: "y",
-                yM: "MM/y",
-                yMd: "dd/MM/y",
-                yMEd: "E, dd/MM/y",
+                yM: "M/y",
+                yMd: "M/d/y",
+                yMEd: "E, M/d/y",
                 yMMM: "MMM y",
-                yMMMd: "d MMM y",
-                yMMMEd: "E, d MMM y",
+                yMMMd: "MMM d, y",
+                yMMMEd: "E, MMM d, y",
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
@@ -88,10 +88,10 @@ const data = {
             short: "h:mm a"
         },
         dateFormats: {
-            full: "EEEE, d MMMM y",
-            long: "d MMMM y",
-            medium: "d MMM y",
-            short: "dd/MM/y"
+            full: "EEEE, MMMM d, y",
+            long: "MMMM d, y",
+            medium: "MMM d, y",
+            short: "M/d/yy"
         },
         days: {
             format: {
@@ -307,10 +307,10 @@ const data = {
             format: {
                 abbreviated: {
                     midnight: "midnight",
-                    am: "am",
+                    am: "AM",
                     "am-alt-variant": "am",
                     noon: "noon",
-                    pm: "pm",
+                    pm: "PM",
                     "pm-alt-variant": "pm",
                     morning1: "in the morning",
                     afternoon1: "in the afternoon",
@@ -331,10 +331,10 @@ const data = {
                 },
                 wide: {
                     midnight: "midnight",
-                    am: "am",
+                    am: "AM",
                     "am-alt-variant": "am",
                     noon: "noon",
-                    pm: "pm",
+                    pm: "PM",
                     "pm-alt-variant": "pm",
                     morning1: "in the morning",
                     afternoon1: "in the afternoon",
@@ -345,10 +345,10 @@ const data = {
             "stand-alone": {
                 abbreviated: {
                     midnight: "midnight",
-                    am: "am",
+                    am: "AM",
                     "am-alt-variant": "am",
                     noon: "noon",
-                    pm: "pm",
+                    pm: "PM",
                     "pm-alt-variant": "pm",
                     morning1: "morning",
                     afternoon1: "afternoon",
@@ -357,10 +357,10 @@ const data = {
                 },
                 narrow: {
                     midnight: "midnight",
-                    am: "am",
+                    am: "AM",
                     "am-alt-variant": "am",
                     noon: "noon",
-                    pm: "pm",
+                    pm: "PM",
                     "pm-alt-variant": "pm",
                     morning1: "morning",
                     afternoon1: "afternoon",
@@ -369,10 +369,10 @@ const data = {
                 },
                 wide: {
                     midnight: "midnight",
-                    am: "am",
+                    am: "AM",
                     "am-alt-variant": "am",
                     noon: "noon",
-                    pm: "pm",
+                    pm: "PM",
                     "pm-alt-variant": "pm",
                     morning1: "morning",
                     afternoon1: "afternoon",
@@ -413,28 +413,28 @@ const data = {
             },
             year: {
                 wide: "year",
-                short: "yr",
-                narrow: "yr"
+                short: "yr.",
+                narrow: "yr."
             },
             quarter: {
                 wide: "quarter",
-                short: "qtr",
-                narrow: "qtr"
+                short: "qtr.",
+                narrow: "qtr."
             },
             month: {
                 wide: "month",
-                short: "mo",
-                narrow: "mo"
+                short: "mo.",
+                narrow: "mo."
             },
             week: {
                 wide: "week",
-                short: "wk",
-                narrow: "wk"
+                short: "wk.",
+                narrow: "wk."
             },
             weekOfMonth: {
                 wide: "week of month",
-                short: "wk of mo",
-                narrow: "wk of mo"
+                short: "wk. of mo.",
+                narrow: "wk. of mo."
             },
             day: {
                 wide: "day",
@@ -443,38 +443,38 @@ const data = {
             },
             dayOfYear: {
                 wide: "day of year",
-                short: "day of yr",
-                narrow: "day of yr"
+                short: "day of yr.",
+                narrow: "day of yr."
             },
             weekday: {
                 wide: "day of the week",
-                short: "day of wk",
-                narrow: "day of wk"
+                short: "day of wk.",
+                narrow: "day of wk."
             },
             weekdayOfMonth: {
                 wide: "weekday of the month",
-                short: "wkday of mo",
-                narrow: "wkday of mo"
+                short: "wkday. of mo.",
+                narrow: "wkday. of mo."
             },
             dayperiod: {
-                short: "am/pm",
-                wide: "am/pm",
-                narrow: "am/pm"
+                short: "AM/PM",
+                wide: "AM/PM",
+                narrow: "AM/PM"
             },
             hour: {
                 wide: "hour",
-                short: "hr",
-                narrow: "hr"
+                short: "hr.",
+                narrow: "hr."
             },
             minute: {
                 wide: "minute",
-                short: "min",
-                narrow: "min"
+                short: "min.",
+                narrow: "min."
             },
             second: {
                 wide: "second",
-                short: "sec",
-                narrow: "sec"
+                short: "sec.",
+                narrow: "sec."
             },
             zone: {
                 wide: "time zone",

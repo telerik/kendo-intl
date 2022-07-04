@@ -29,7 +29,8 @@ const data = {
                 "displayName-count-zero": "Afganistānas afgāni",
                 "displayName-count-one": "Afganistānas afgāns",
                 "displayName-count-other": "Afganistānas afgāni",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -47,7 +48,8 @@ const data = {
                 "displayName-count-zero": "Armēnijas drami",
                 "displayName-count-one": "Armēnijas drams",
                 "displayName-count-other": "Armēnijas drami",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Nīderlandes Antiļu guldenis",
@@ -131,7 +133,8 @@ const data = {
                 "displayName-count-zero": "Azerbaidžānas manati",
                 "displayName-count-one": "Azerbaidžānas manats",
                 "displayName-count-other": "Azerbaidžānas manati",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -598,8 +601,7 @@ const data = {
                 "displayName-count-one": "Gruzijas lari",
                 "displayName-count-other": "Gruzijas lari",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "GHC",
@@ -610,7 +612,8 @@ const data = {
                 "displayName-count-zero": "Ganas sedi",
                 "displayName-count-one": "Ganas sedi",
                 "displayName-count-other": "Ganas sedi",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GHS"
             },
             GIP: {
                 displayName: "Gibraltāra mārciņa",
@@ -1300,8 +1303,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Ruandas franks",
@@ -1379,6 +1381,10 @@ const data = {
             SKK: {
                 displayName: "Slovakijas krona",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Sjerraleones leone",
@@ -1616,6 +1622,10 @@ const data = {
                 "displayName-count-other": "Venecuēlas bolivāri (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "Venecuēlas bolivārs (2008–2018)",
                 "displayName-count-zero": "Venecuēlas bolivāri (2008–2018)",
@@ -1726,7 +1736,7 @@ const data = {
                 "displayName-count-zero": "Rietumāfrikas CFA franki",
                 "displayName-count-one": "Rietumāfrikas CFA franks",
                 "displayName-count-other": "Rietumāfrikas CFA franki",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "pallādijs",

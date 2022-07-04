@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "−",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -82,7 +83,8 @@ const data = {
                 displayName: "Afghani",
                 "displayName-count-one": "Afghani",
                 "displayName-count-other": "Afghani",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -98,7 +100,8 @@ const data = {
                 displayName: "Dram",
                 "displayName-count-one": "Dram",
                 "displayName-count-other": "Dram",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Niderländischi-Antille-Gulde",
@@ -183,7 +186,8 @@ const data = {
                 displayName: "Aserbeidschanische Manat",
                 "displayName-count-one": "Aserbeidschanische Manat",
                 "displayName-count-other": "Aserbeidschanischi Manat",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "Bosnie-und-Herzegowina-Dinar",
@@ -378,8 +382,7 @@ const data = {
                 displayName: "Belarus Rubel",
                 "displayName-count-one": "Belarus-Rubel",
                 "displayName-count-other": "Belarus-Rubel",
-                symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                symbol: "BYN"
             },
             BYR: {
                 displayName: "Belarus Rubel (2000–2016)",
@@ -669,7 +672,8 @@ const data = {
                 displayName: "Ghanaische Cedi (GHS)",
                 "displayName-count-one": "Ghanaische Cedi (GHS)",
                 "displayName-count-other": "Ghanaischi Cedi (GHS)",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Gibraltar-Pfund",
@@ -1273,7 +1277,7 @@ const data = {
                 displayName: "Philippiinische Peso",
                 "displayName-count-one": "Philippiinische Peso",
                 "displayName-count-other": "Philippiinischi Pesos",
-                symbol: "PHP",
+                symbol: "₱",
                 "symbol-alt-narrow": "₱"
             },
             PKR: {
@@ -1351,8 +1355,7 @@ const data = {
                 displayName: "Russische Rubel (alt)",
                 "displayName-count-one": "Russischi Rubel (alt)",
                 "displayName-count-other": "Russischi Rubel (alt)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Ruanda-Franc",
@@ -1430,6 +1433,10 @@ const data = {
                 "displayName-count-one": "Slowakischi Chroone",
                 "displayName-count-other": "Slowakischi Chroone",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Leone",
@@ -1660,6 +1667,10 @@ const data = {
                 "displayName-count-other": "Bolivar (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "Bolivar (2008–2018)",
                 "displayName-count-one": "Bolivar (2008–2018)",
@@ -1771,7 +1782,7 @@ const data = {
                 displayName: "CFA-Franc (Wescht)",
                 "displayName-count-one": "CFA-Franc (Wescht)",
                 "displayName-count-other": "CFA-Franc (Wescht)",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "Palladium",
@@ -1939,6 +1950,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "G y MMM",
                 GyMMMd: "G y MMM d",
                 GyMMMEd: "G y MMM d, E",
@@ -2273,20 +2285,20 @@ const data = {
                 wide: {
                     "0": "v. Chr.",
                     "1": "n. Chr.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "v. Chr.",
+                    "1-alt-variant": "n. Chr."
                 },
                 abbreviated: {
                     "0": "v. Chr.",
                     "1": "n. Chr.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "v. Chr.",
+                    "1-alt-variant": "n. Chr."
                 },
                 narrow: {
                     "0": "v. Chr.",
                     "1": "n. Chr.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "v. Chr.",
+                    "1-alt-variant": "n. Chr."
                 }
             }
         },

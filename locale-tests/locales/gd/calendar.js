@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "d/M/y GGGGG",
                 GyMMM: "LLL y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E, d MMM y G",
@@ -342,20 +343,20 @@ const data = {
                 wide: {
                     "0": "Ro Chrìosta",
                     "1": "An dèidh Chrìosta",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "RC",
+                    "1-alt-variant": "AD"
                 },
                 abbreviated: {
                     "0": "RC",
                     "1": "AD",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "RC",
+                    "1-alt-variant": "AD"
                 },
                 narrow: {
                     "0": "R",
                     "1": "A",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "RC",
+                    "1-alt-variant": "AD"
                 }
             }
         },

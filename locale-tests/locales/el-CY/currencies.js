@@ -32,7 +32,8 @@ const data = {
                 displayName: "Αφγάνι Αφγανιστάν",
                 "displayName-count-one": "αφγάνι Αφγανιστάν",
                 "displayName-count-other": "αφγάνια Αφγανιστάν",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -48,7 +49,8 @@ const data = {
                 displayName: "Ντραμ Αρμενίας",
                 "displayName-count-one": "ντραμ Αρμενίας",
                 "displayName-count-other": "ντραμ Αρμενίας",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Γκίλντα Ολλανδικών Αντιλλών",
@@ -135,7 +137,8 @@ const data = {
                 displayName: "Μανάτ Αζερμπαϊτζάν",
                 "displayName-count-one": "μανάτ Αζερμπαϊτζάν",
                 "displayName-count-other": "μανάτ Αζερμπαϊτζάν",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "Δηνάριο Βοσνίας-Ερζεγοβίνης",
@@ -619,8 +622,7 @@ const data = {
                 "displayName-count-one": "λάρι Γεωργίας",
                 "displayName-count-other": "λάρι Γεωργίας",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "Σέντι Γκάνας (1979–2007)",
@@ -632,7 +634,8 @@ const data = {
                 displayName: "Σέντι Γκάνας",
                 "displayName-count-one": "σέντι Γκάνας",
                 "displayName-count-other": "σέντι Γκάνας",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Λίρα Γιβραλτάρ",
@@ -929,8 +932,8 @@ const data = {
             },
             LSL: {
                 displayName: "Λότι Λεσότο",
-                "displayName-count-one": "λότι Λεσόθο",
-                "displayName-count-other": "λότι Λεσόθο",
+                "displayName-count-one": "λότι Λεσότο",
+                "displayName-count-other": "λότι Λεσότο",
                 symbol: "LSL"
             },
             LTL: {
@@ -1315,8 +1318,7 @@ const data = {
                 displayName: "Ρούβλι Ρωσίας (1991–1998)",
                 "displayName-count-one": "ρούβλι Ρωσίας (RUR)",
                 "displayName-count-other": "ρούβλια Ρωσίας (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Φράγκο Ρουάντας",
@@ -1394,6 +1396,10 @@ const data = {
                 "displayName-count-one": "κορόνα Σλοβενίας",
                 "displayName-count-other": "κορόνες Σλοβενίας",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Λεόνε Σιέρα Λεόνε",
@@ -1626,6 +1632,10 @@ const data = {
                 "displayName-count-other": "μπολιβάρ Βενεζουέλας (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "Μπολιβάρ Βενεζουέλας (2008–2018)",
                 "displayName-count-one": "μπολιβάρ Βενεζουέλας (2008–2018)",
@@ -1735,7 +1745,7 @@ const data = {
                 displayName: "Φράγκο CFA Δυτικής Αφρικής",
                 "displayName-count-one": "φράγκο CFA Δυτικής Αφρικής",
                 "displayName-count-other": "φράγκα CFA Δυτικής Αφρικής",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",

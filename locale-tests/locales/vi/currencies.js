@@ -25,7 +25,8 @@ const data = {
             AFN: {
                 displayName: "Afghani Afghanistan",
                 "displayName-count-other": "Afghani Afghanistan",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -39,7 +40,8 @@ const data = {
             AMD: {
                 displayName: "Dram Armenia",
                 "displayName-count-other": "Dram Armenia",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Guilder Antille Hà Lan",
@@ -108,7 +110,8 @@ const data = {
             AZN: {
                 displayName: "Manat Azerbaijan",
                 "displayName-count-other": "Manat Azerbaijan",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "Đồng Dinar của Bosnia-Herzegovina (1992–1994)",
@@ -492,8 +495,7 @@ const data = {
                 displayName: "Lari Georgia",
                 "displayName-count-other": "Lari Georgia",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "Cedi Ghana (1979–2007)",
@@ -502,7 +504,8 @@ const data = {
             GHS: {
                 displayName: "Cedi Ghana",
                 "displayName-count-other": "Cedi Ghana",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Bảng Gibraltar",
@@ -654,7 +657,7 @@ const data = {
             JPY: {
                 displayName: "Yên Nhật",
                 "displayName-count-other": "Yên Nhật",
-                symbol: "JP¥",
+                symbol: "¥",
                 "symbol-alt-narrow": "¥"
             },
             KES: {
@@ -742,6 +745,7 @@ const data = {
             },
             LSL: {
                 displayName: "Ioti Lesotho",
+                "displayName-count-other": "Loti Lesotho",
                 symbol: "LSL"
             },
             LTL: {
@@ -1050,8 +1054,7 @@ const data = {
             },
             RUR: {
                 displayName: "Đồng Rúp Nga (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Franc Rwanda",
@@ -1113,6 +1116,10 @@ const data = {
             SKK: {
                 displayName: "Cuaron Xlôvác",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Leone Sierra Leone",
@@ -1298,6 +1305,10 @@ const data = {
                 displayName: "Đồng bolívar của Venezuela (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "Bolívar Venezuela (2008–2018)",
                 "displayName-count-other": "Bolívar Venezuela (2008–2018)",
@@ -1383,7 +1394,7 @@ const data = {
             XOF: {
                 displayName: "Franc CFA Tây Phi",
                 "displayName-count-other": "franc CFA Tây Phi",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "Paladi",

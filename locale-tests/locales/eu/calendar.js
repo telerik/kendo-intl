@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "G y. 'urteko' MMM",
                 GyMMMd: "G y. 'urteko' MMM d",
                 GyMMMEd: "G y. 'urteko' MMM d, E",
@@ -202,18 +203,18 @@ const data = {
                     "A"
                 ],
                 wide: [
-                    "urtarrila",
-                    "otsaila",
-                    "martxoa",
-                    "apirila",
-                    "maiatza",
-                    "ekaina",
-                    "uztaila",
-                    "abuztua",
-                    "iraila",
-                    "urria",
-                    "azaroa",
-                    "abendua"
+                    "urtarrilak",
+                    "otsailak",
+                    "martxoak",
+                    "apirilak",
+                    "maiatzak",
+                    "ekainak",
+                    "uztailak",
+                    "abuztuak",
+                    "irailak",
+                    "urriak",
+                    "azaroak",
+                    "abenduak"
                 ]
             },
             "stand-alone": {
@@ -390,8 +391,8 @@ const data = {
                     "1-alt-variant": "G.a."
                 },
                 narrow: {
-                    "0": "K.a.",
-                    "1": "K.o.",
+                    "0": "a",
+                    "1": "o",
                     "0-alt-variant": "G.a.a.",
                     "1-alt-variant": "G.a."
                 }

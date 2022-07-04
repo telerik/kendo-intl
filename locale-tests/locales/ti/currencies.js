@@ -23,7 +23,8 @@ const data = {
             },
             AFN: {
                 displayName: "AFN",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -35,7 +36,8 @@ const data = {
             },
             AMD: {
                 displayName: "AMD",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "ANG",
@@ -98,7 +100,8 @@ const data = {
             },
             AZN: {
                 displayName: "AZN",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -239,8 +242,7 @@ const data = {
             },
             BYN: {
                 displayName: "BYN",
-                symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                symbol: "BYN"
             },
             BYR: {
                 displayName: "BYR",
@@ -294,8 +296,10 @@ const data = {
                 symbol: "CNX"
             },
             CNY: {
-                displayName: "የቻይና ዩአን ረንሚንቢ",
-                symbol: "CN¥",
+                displayName: "ዩዋን ቻይና",
+                "displayName-count-one": "ዩዋን ቻይና",
+                "displayName-count-other": "ዩዋን ቻይና",
+                symbol: "CNY",
                 "symbol-alt-narrow": "¥"
             },
             COP: {
@@ -387,7 +391,9 @@ const data = {
                 "symbol-alt-narrow": "E£"
             },
             ERN: {
-                displayName: "ERN",
+                displayName: "ናቕፋ",
+                "displayName-count-one": "ናቕፋ",
+                "displayName-count-other": "ናቕፋ",
                 symbol: "ERN"
             },
             ESA: {
@@ -404,11 +410,15 @@ const data = {
                 "symbol-alt-narrow": "₧"
             },
             ETB: {
-                displayName: "የኢትዮጵያ ብር",
+                displayName: "ብር",
+                "displayName-count-one": "ብር",
+                "displayName-count-other": "ብር",
                 symbol: "Br"
             },
             EUR: {
-                displayName: "አውሮ",
+                displayName: "ዩሮ",
+                "displayName-count-one": "ዩሮ",
+                "displayName-count-other": "ዩሮ",
                 symbol: "€",
                 "symbol-alt-narrow": "€"
             },
@@ -450,7 +460,8 @@ const data = {
             },
             GHS: {
                 displayName: "GHS",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "GIP",
@@ -582,8 +593,10 @@ const data = {
                 symbol: "JOD"
             },
             JPY: {
-                displayName: "የጃፓን የን",
-                symbol: "JP¥",
+                displayName: "የን ጃፓን",
+                "displayName-count-one": "የን ጃፓን",
+                "displayName-count-other": "የን ጃፓን",
+                symbol: "JPY",
                 "symbol-alt-narrow": "¥"
             },
             KES: {
@@ -876,7 +889,7 @@ const data = {
             },
             PHP: {
                 displayName: "PHP",
-                symbol: "PHP",
+                symbol: "₱",
                 "symbol-alt-narrow": "₱"
             },
             PKR: {
@@ -930,8 +943,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "RWF",
@@ -985,6 +997,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "SLL",
@@ -1110,7 +1126,9 @@ const data = {
                 symbol: "UGX"
             },
             USD: {
-                displayName: "የአሜሪካን ዶላር",
+                displayName: "ዶላር ኣመሪካ",
+                "displayName-count-one": "ዶላር ኣመሪካ",
+                "displayName-count-other": "ዶላር ኣመሪካ",
                 symbol: "US$",
                 "symbol-alt-narrow": "$"
             },
@@ -1147,6 +1165,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "VEF",
                 symbol: "VEF",
@@ -1178,11 +1200,15 @@ const data = {
                 symbol: "FCFA"
             },
             XAG: {
-                displayName: "XAG",
+                displayName: "ብሩር",
+                "displayName-count-one": "ብሩር",
+                "displayName-count-other": "ብሩር",
                 symbol: "XAG"
             },
             XAU: {
-                displayName: "XAU",
+                displayName: "ወርቂ",
+                "displayName-count-one": "ወርቂ",
+                "displayName-count-other": "ወርቂ",
                 symbol: "XAU"
             },
             XBA: {
@@ -1224,7 +1250,7 @@ const data = {
             },
             XOF: {
                 displayName: "XOF",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",
@@ -1255,7 +1281,9 @@ const data = {
                 symbol: "XUA"
             },
             XXX: {
-                displayName: "XXX",
+                displayName: "ዘይተፈልጠ ባጤራ",
+                "displayName-count-one": "(ዘይተፈልጠ ባጤራ)",
+                "displayName-count-other": "(ዘይተፈልጠ ባጤራ)",
                 symbol: "¤"
             },
             YDD: {

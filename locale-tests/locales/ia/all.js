@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -75,7 +76,8 @@ const data = {
             },
             AFN: {
                 displayName: "AFN",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -89,17 +91,18 @@ const data = {
             },
             AMD: {
                 displayName: "AMD",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "florino antillan",
-                "displayName-count-one": "florinos antillan",
+                "displayName-count-one": "florino antillan",
                 "displayName-count-other": "florinos antillan",
                 symbol: "ANG"
             },
             AOA: {
                 displayName: "kwanza angolan",
-                "displayName-count-one": "kwanzas angolan",
+                "displayName-count-one": "kwanza angolan",
                 "displayName-count-other": "kwanzas angolan",
                 symbol: "AOA",
                 "symbol-alt-narrow": "Kz"
@@ -134,7 +137,7 @@ const data = {
             },
             ARS: {
                 displayName: "peso argentin",
-                "displayName-count-one": "pesos argentin",
+                "displayName-count-one": "peso argentin",
                 "displayName-count-other": "pesos argentin",
                 symbol: "ARS",
                 "symbol-alt-narrow": "$"
@@ -145,14 +148,14 @@ const data = {
             },
             AUD: {
                 displayName: "dollar australian",
-                "displayName-count-one": "dollares australian",
+                "displayName-count-one": "dollar australian",
                 "displayName-count-other": "dollares australian",
                 symbol: "A$",
                 "symbol-alt-narrow": "$"
             },
             AWG: {
                 displayName: "florino aruban",
-                "displayName-count-one": "florinos aruban",
+                "displayName-count-one": "florino aruban",
                 "displayName-count-other": "florinos aruban",
                 symbol: "AWG"
             },
@@ -162,7 +165,8 @@ const data = {
             },
             AZN: {
                 displayName: "AZN",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -181,7 +185,7 @@ const data = {
             },
             BBD: {
                 displayName: "dollar barbadian",
-                "displayName-count-one": "dollares barbadian",
+                "displayName-count-one": "dollar barbadian",
                 "displayName-count-other": "dollares barbadian",
                 symbol: "BBD",
                 "symbol-alt-narrow": "$"
@@ -227,13 +231,13 @@ const data = {
             },
             BIF: {
                 displayName: "franco burundese",
-                "displayName-count-one": "francos burundese",
+                "displayName-count-one": "franco burundese",
                 "displayName-count-other": "francos burundese",
                 symbol: "BIF"
             },
             BMD: {
                 displayName: "dollar bermudan",
-                "displayName-count-one": "dollares bermudan",
+                "displayName-count-one": "dollar bermudan",
                 "displayName-count-other": "dollares bermudan",
                 symbol: "BMD",
                 "symbol-alt-narrow": "$"
@@ -245,7 +249,7 @@ const data = {
             },
             BOB: {
                 displayName: "boliviano bolivian",
-                "displayName-count-one": "bolivianos bolivian",
+                "displayName-count-one": "boliviano bolivian",
                 "displayName-count-other": "bolivianos bolivian",
                 symbol: "BOB",
                 "symbol-alt-narrow": "Bs"
@@ -276,7 +280,7 @@ const data = {
             },
             BRL: {
                 displayName: "real brasilian",
-                "displayName-count-one": "reales brasilian",
+                "displayName-count-one": "real brasilian",
                 "displayName-count-other": "reales brasilian",
                 symbol: "R$",
                 "symbol-alt-narrow": "R$"
@@ -295,7 +299,7 @@ const data = {
             },
             BSD: {
                 displayName: "dollar bahamian",
-                "displayName-count-one": "dollares bahamian",
+                "displayName-count-one": "dollar bahamian",
                 "displayName-count-other": "dollares bahamian",
                 symbol: "BSD",
                 "symbol-alt-narrow": "$"
@@ -311,7 +315,7 @@ const data = {
             BWP: {
                 displayName: "pula botswanese",
                 "displayName-count-one": "pula botswanese",
-                "displayName-count-other": "pula botswanese",
+                "displayName-count-other": "pulas botswanese",
                 symbol: "BWP",
                 "symbol-alt-narrow": "P"
             },
@@ -323,8 +327,7 @@ const data = {
                 displayName: "rublo bielorusse",
                 "displayName-count-one": "rublos bielorusse",
                 "displayName-count-other": "rublos bielorusse",
-                symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                symbol: "BYN"
             },
             BYR: {
                 displayName: "BYR",
@@ -332,21 +335,21 @@ const data = {
             },
             BZD: {
                 displayName: "dollar belizan",
-                "displayName-count-one": "dollares belizan",
+                "displayName-count-one": "dollar belizan",
                 "displayName-count-other": "dollares belizan",
                 symbol: "BZD",
                 "symbol-alt-narrow": "$"
             },
             CAD: {
                 displayName: "dollar canadian",
-                "displayName-count-one": "dollares canadian",
+                "displayName-count-one": "dollar canadian",
                 "displayName-count-other": "dollares canadian",
                 symbol: "CA$",
                 "symbol-alt-narrow": "$"
             },
             CDF: {
                 displayName: "franco congolese",
-                "displayName-count-one": "francos congolese",
+                "displayName-count-one": "franco congolese",
                 "displayName-count-other": "francos congolese",
                 symbol: "CDF"
             },
@@ -356,7 +359,7 @@ const data = {
             },
             CHF: {
                 displayName: "franco suisse",
-                "displayName-count-one": "francos suisse",
+                "displayName-count-one": "franco suisse",
                 "displayName-count-other": "francos suisse",
                 symbol: "CHF"
             },
@@ -374,7 +377,7 @@ const data = {
             },
             CLP: {
                 displayName: "peso chilen",
-                "displayName-count-one": "pesos chilen",
+                "displayName-count-one": "peso chilen",
                 "displayName-count-other": "pesos chilen",
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
@@ -396,7 +399,7 @@ const data = {
             },
             COP: {
                 displayName: "peso colombian",
-                "displayName-count-one": "pesos colombian",
+                "displayName-count-one": "peso colombian",
                 "displayName-count-other": "pesos colombian",
                 symbol: "COP",
                 "symbol-alt-narrow": "$"
@@ -407,7 +410,7 @@ const data = {
             },
             CRC: {
                 displayName: "colon costarican",
-                "displayName-count-one": "colones costarican",
+                "displayName-count-one": "colon costarican",
                 "displayName-count-other": "colones costarican",
                 symbol: "CRC",
                 "symbol-alt-narrow": "₡"
@@ -422,21 +425,21 @@ const data = {
             },
             CUC: {
                 displayName: "peso cuban convertibile",
-                "displayName-count-one": "pesos cuban convertibile",
+                "displayName-count-one": "peso cuban convertibile",
                 "displayName-count-other": "pesos cuban convertibile",
                 symbol: "CUC",
                 "symbol-alt-narrow": "$"
             },
             CUP: {
                 displayName: "peso cuban",
-                "displayName-count-one": "pesos cuban",
+                "displayName-count-one": "peso cuban",
                 "displayName-count-other": "pesos cuban",
                 symbol: "CUP",
                 "symbol-alt-narrow": "$"
             },
             CVE: {
                 displayName: "escudo capoverdian",
-                "displayName-count-one": "escudos capoverdian",
+                "displayName-count-one": "escudo capoverdian",
                 "displayName-count-other": "escudos capoverdian",
                 symbol: "CVE"
             },
@@ -457,33 +460,33 @@ const data = {
             },
             DEM: {
                 displayName: "Marco geman",
-                "displayName-count-one": "marcos german",
+                "displayName-count-one": "marco german",
                 "displayName-count-other": "marcos german",
                 symbol: "DEM"
             },
             DJF: {
                 displayName: "franco djibutian",
-                "displayName-count-one": "francos djibutian",
+                "displayName-count-one": "franco djibutian",
                 "displayName-count-other": "francos djibutian",
                 symbol: "DJF"
             },
             DKK: {
                 displayName: "corona danese",
-                "displayName-count-one": "coronas danese",
+                "displayName-count-one": "corona danese",
                 "displayName-count-other": "coronas danese",
                 symbol: "DKK",
                 "symbol-alt-narrow": "kr"
             },
             DOP: {
                 displayName: "peso dominican",
-                "displayName-count-one": "pesos dominican",
+                "displayName-count-one": "peso dominican",
                 "displayName-count-other": "pesos dominican",
                 symbol: "DOP",
                 "symbol-alt-narrow": "$"
             },
             DZD: {
                 displayName: "dinar algerin",
-                "displayName-count-one": "dinares algerin",
+                "displayName-count-one": "dinar algerin",
                 "displayName-count-other": "dinares algerin",
                 symbol: "DZD"
             },
@@ -497,20 +500,20 @@ const data = {
             },
             EEK: {
                 displayName: "Corona estonian",
-                "displayName-count-one": "coronas estonian",
+                "displayName-count-one": "corona estonian",
                 "displayName-count-other": "coronas estonian",
                 symbol: "EEK"
             },
             EGP: {
                 displayName: "libra egyptie",
-                "displayName-count-one": "libras egyptie",
+                "displayName-count-one": "libra egyptie",
                 "displayName-count-other": "libras egyptie",
                 symbol: "EGP",
                 "symbol-alt-narrow": "E£"
             },
             ERN: {
                 displayName: "nakfa eritree",
-                "displayName-count-one": "nakfas eritree",
+                "displayName-count-one": "nakfa eritree",
                 "displayName-count-other": "nakfas eritree",
                 symbol: "ERN"
             },
@@ -529,46 +532,46 @@ const data = {
             },
             ETB: {
                 displayName: "birr ethiope",
-                "displayName-count-one": "birres ethiope",
+                "displayName-count-one": "birr ethiope",
                 "displayName-count-other": "birres ethiope",
                 symbol: "ETB"
             },
             EUR: {
                 displayName: "euro",
-                "displayName-count-one": "euros",
+                "displayName-count-one": "euro",
                 "displayName-count-other": "euros",
                 symbol: "€",
                 "symbol-alt-narrow": "€"
             },
             FIM: {
                 displayName: "Marco finnese",
-                "displayName-count-one": "marcos finnese",
+                "displayName-count-one": "marco finnese",
                 "displayName-count-other": "marcos finnese",
                 symbol: "FIM"
             },
             FJD: {
                 displayName: "dollar fijian",
-                "displayName-count-one": "dollares fijian",
+                "displayName-count-one": "dollar fijian",
                 "displayName-count-other": "dollares fijian",
                 symbol: "FJD",
                 "symbol-alt-narrow": "$"
             },
             FKP: {
                 displayName: "libra falklandese",
-                "displayName-count-one": "libras falklandese",
+                "displayName-count-one": "libra falklandese",
                 "displayName-count-other": "libras falklandese",
                 symbol: "FKP",
                 "symbol-alt-narrow": "£"
             },
             FRF: {
                 displayName: "Franco francese",
-                "displayName-count-one": "francos francese",
+                "displayName-count-one": "franco francese",
                 "displayName-count-other": "francos francese",
                 symbol: "FRF"
             },
             GBP: {
                 displayName: "libra sterling",
-                "displayName-count-one": "libras sterling",
+                "displayName-count-one": "libra sterling",
                 "displayName-count-other": "libras sterling",
                 symbol: "£",
                 "symbol-alt-narrow": "£"
@@ -588,9 +591,10 @@ const data = {
             },
             GHS: {
                 displayName: "cedi ghanese",
-                "displayName-count-one": "cedis ghanese",
+                "displayName-count-one": "cedi ghanese",
                 "displayName-count-other": "cedis ghanese",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "libra de Gibraltar",
@@ -626,7 +630,7 @@ const data = {
             },
             GTQ: {
                 displayName: "quetzal guatemaltec",
-                "displayName-count-one": "quetzales guatemaltec",
+                "displayName-count-one": "quetzal guatemaltec",
                 "displayName-count-other": "quetzales guatemaltec",
                 symbol: "GTQ",
                 "symbol-alt-narrow": "Q"
@@ -641,7 +645,7 @@ const data = {
             },
             GYD: {
                 displayName: "dollar guyanese",
-                "displayName-count-one": "dollares guyanese",
+                "displayName-count-one": "dollar guyanese",
                 "displayName-count-other": "dollares guyanese",
                 symbol: "GYD",
                 "symbol-alt-narrow": "$"
@@ -653,7 +657,7 @@ const data = {
             },
             HNL: {
                 displayName: "lempira hondurese",
-                "displayName-count-one": "lempiras hondurese",
+                "displayName-count-one": "lempira hondurese",
                 "displayName-count-other": "lempiras hondurese",
                 symbol: "HNL",
                 "symbol-alt-narrow": "L"
@@ -671,7 +675,7 @@ const data = {
             },
             HTG: {
                 displayName: "gourde haitian",
-                "displayName-count-one": "gourdes haitian",
+                "displayName-count-one": "gourde haitian",
                 "displayName-count-other": "gourdes haitian",
                 symbol: "HTG"
             },
@@ -689,7 +693,7 @@ const data = {
             },
             IEP: {
                 displayName: "Libra irlandese",
-                "displayName-count-one": "libras irlandese",
+                "displayName-count-one": "libra irlandese",
                 "displayName-count-other": "libras irlandese",
                 symbol: "IEP"
             },
@@ -708,7 +712,7 @@ const data = {
             },
             INR: {
                 displayName: "rupia indian",
-                "displayName-count-one": "rupias indian",
+                "displayName-count-one": "rupia indian",
                 "displayName-count-other": "rupias indian",
                 symbol: "₹",
                 "symbol-alt-narrow": "₹"
@@ -727,7 +731,7 @@ const data = {
             },
             ISK: {
                 displayName: "corona islandese",
-                "displayName-count-one": "coronas islandese",
+                "displayName-count-one": "corona islandese",
                 "displayName-count-other": "coronas islandese",
                 symbol: "ISK",
                 "symbol-alt-narrow": "kr"
@@ -738,7 +742,7 @@ const data = {
             },
             JMD: {
                 displayName: "dollar jamaican",
-                "displayName-count-one": "dollares jamaican",
+                "displayName-count-one": "dollar jamaican",
                 "displayName-count-other": "dollares jamaican",
                 symbol: "JMD",
                 "symbol-alt-narrow": "$"
@@ -756,7 +760,7 @@ const data = {
             },
             KES: {
                 displayName: "shilling kenyan",
-                "displayName-count-one": "shillings kenyan",
+                "displayName-count-one": "shilling kenyan",
                 "displayName-count-other": "shillings kenyan",
                 symbol: "KES"
             },
@@ -771,7 +775,7 @@ const data = {
             },
             KMF: {
                 displayName: "franco comorian",
-                "displayName-count-one": "francos comorian",
+                "displayName-count-one": "franco comorian",
                 "displayName-count-other": "francos comorian",
                 symbol: "KMF",
                 "symbol-alt-narrow": "CF"
@@ -800,7 +804,7 @@ const data = {
             },
             KYD: {
                 displayName: "dollar del Insulas Caiman",
-                "displayName-count-one": "dollares del Insulas Caiman",
+                "displayName-count-one": "dollar del Insulas Caiman",
                 "displayName-count-other": "dollares del Insulas Caiman",
                 symbol: "KYD",
                 "symbol-alt-narrow": "$"
@@ -827,7 +831,7 @@ const data = {
             },
             LRD: {
                 displayName: "dollar liberian",
-                "displayName-count-one": "dollares liberian",
+                "displayName-count-one": "dollar liberian",
                 "displayName-count-other": "dollares liberian",
                 symbol: "LRD",
                 "symbol-alt-narrow": "$"
@@ -868,13 +872,13 @@ const data = {
             },
             LYD: {
                 displayName: "dinar libyc",
-                "displayName-count-one": "dinares libyc",
+                "displayName-count-one": "dinar libyc",
                 "displayName-count-other": "dinares libyc",
                 symbol: "LYD"
             },
             MAD: {
                 displayName: "dirham marocchin",
-                "displayName-count-one": "dirhams marocchin",
+                "displayName-count-one": "dirham marocchin",
                 "displayName-count-other": "dirhams marocchin",
                 symbol: "MAD"
             },
@@ -937,7 +941,7 @@ const data = {
             },
             MRO: {
                 displayName: "ouguiya mauritan (1973–2017)",
-                "displayName-count-one": "ouguiyas mauritan (1973–2017)",
+                "displayName-count-one": "ouguiya mauritan (1973–2017)",
                 "displayName-count-other": "ouguiyas mauritan (1973–2017)",
                 symbol: "MRO"
             },
@@ -957,7 +961,7 @@ const data = {
             },
             MUR: {
                 displayName: "rupia mauritian",
-                "displayName-count-one": "rupias mauritian",
+                "displayName-count-one": "rupia mauritian",
                 "displayName-count-other": "rupias mauritian",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
@@ -978,7 +982,7 @@ const data = {
             },
             MXN: {
                 displayName: "peso mexican",
-                "displayName-count-one": "pesos mexican",
+                "displayName-count-one": "peso mexican",
                 "displayName-count-other": "pesos mexican",
                 symbol: "MX$",
                 "symbol-alt-narrow": "$"
@@ -1006,13 +1010,13 @@ const data = {
             },
             MZN: {
                 displayName: "metical mozambican",
-                "displayName-count-one": "meticales mozambican",
+                "displayName-count-one": "metical mozambican",
                 "displayName-count-other": "meticales mozambican",
                 symbol: "MZN"
             },
             NAD: {
                 displayName: "dollar namibian",
-                "displayName-count-one": "dollares namibian",
+                "displayName-count-one": "dollar namibian",
                 "displayName-count-other": "dollares namibian",
                 symbol: "NAD",
                 "symbol-alt-narrow": "$"
@@ -1030,20 +1034,20 @@ const data = {
             },
             NIO: {
                 displayName: "cordoba nicaraguan",
-                "displayName-count-one": "cordobas nicaraguan",
+                "displayName-count-one": "cordoba nicaraguan",
                 "displayName-count-other": "cordobas nicaraguan",
                 symbol: "NIO",
                 "symbol-alt-narrow": "C$"
             },
             NLG: {
                 displayName: "Florino nederlandese",
-                "displayName-count-one": "florinos nederlandese",
+                "displayName-count-one": "florino nederlandese",
                 "displayName-count-other": "florinos nederlandese",
                 symbol: "ƒ"
             },
             NOK: {
                 displayName: "corona norvegian",
-                "displayName-count-one": "coronas norvegian",
+                "displayName-count-one": "corona norvegian",
                 "displayName-count-other": "coronas norvegian",
                 symbol: "NOK",
                 "symbol-alt-narrow": "kr"
@@ -1055,7 +1059,7 @@ const data = {
             },
             NZD: {
                 displayName: "dollar neozelandese",
-                "displayName-count-one": "dollares neozelandese",
+                "displayName-count-one": "dollar neozelandese",
                 "displayName-count-other": "dollares neozelandese",
                 symbol: "NZ$",
                 "symbol-alt-narrow": "$"
@@ -1066,7 +1070,7 @@ const data = {
             },
             PAB: {
                 displayName: "balboa panamen",
-                "displayName-count-one": "balboas panamen",
+                "displayName-count-one": "balboa panamen",
                 "displayName-count-other": "balboas panamen",
                 symbol: "PAB"
             },
@@ -1076,7 +1080,7 @@ const data = {
             },
             PEN: {
                 displayName: "sol peruvian",
-                "displayName-count-one": "soles peruvian",
+                "displayName-count-one": "sol peruvian",
                 "displayName-count-other": "soles peruvian",
                 symbol: "PEN"
             },
@@ -1086,13 +1090,13 @@ const data = {
             },
             PGK: {
                 displayName: "kina papuan",
-                "displayName-count-one": "kinas papuan",
+                "displayName-count-one": "kina papuan",
                 "displayName-count-other": "kinas papuan",
                 symbol: "PGK"
             },
             PHP: {
                 displayName: "PHP",
-                symbol: "PHP",
+                symbol: "₱",
                 "symbol-alt-narrow": "₱"
             },
             PKR: {
@@ -1117,7 +1121,7 @@ const data = {
             },
             PYG: {
                 displayName: "guarani paraguayan",
-                "displayName-count-one": "guaranis paraguayan",
+                "displayName-count-one": "guarani paraguayan",
                 "displayName-count-other": "guaranis paraguayan",
                 symbol: "PYG",
                 "symbol-alt-narrow": "₲"
@@ -1156,12 +1160,11 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "franco ruandese",
-                "displayName-count-one": "francos ruandese",
+                "displayName-count-one": "franco ruandese",
                 "displayName-count-other": "francos ruandese",
                 symbol: "RWF",
                 "symbol-alt-narrow": "RF"
@@ -1172,14 +1175,14 @@ const data = {
             },
             SBD: {
                 displayName: "dollar del insulas Salomon",
-                "displayName-count-one": "dollares del insulas Salomon",
+                "displayName-count-one": "dollar del insulas Salomon",
                 "displayName-count-other": "dollares del insulas Salomon",
                 symbol: "SBD",
                 "symbol-alt-narrow": "$"
             },
             SCR: {
                 displayName: "rupia seychellese",
-                "displayName-count-one": "rupias seychellese",
+                "displayName-count-one": "rupia seychellese",
                 "displayName-count-other": "rupias seychellese",
                 symbol: "SCR"
             },
@@ -1189,7 +1192,7 @@ const data = {
             },
             SDG: {
                 displayName: "libra sudanese",
-                "displayName-count-one": "libras sudanese",
+                "displayName-count-one": "libra sudanese",
                 "displayName-count-other": "libras sudanese",
                 symbol: "SDG"
             },
@@ -1199,7 +1202,7 @@ const data = {
             },
             SEK: {
                 displayName: "corona svedese",
-                "displayName-count-one": "coronas svedese",
+                "displayName-count-one": "corona svedese",
                 "displayName-count-other": "coronas svedese",
                 symbol: "SEK",
                 "symbol-alt-narrow": "kr"
@@ -1211,7 +1214,7 @@ const data = {
             },
             SHP: {
                 displayName: "libra de St. Helena",
-                "displayName-count-one": "libras de St. Helena",
+                "displayName-count-one": "libra de St. Helena",
                 "displayName-count-other": "libras de St. Helena",
                 symbol: "SHP",
                 "symbol-alt-narrow": "£"
@@ -1224,6 +1227,10 @@ const data = {
                 displayName: "SKK",
                 symbol: "SKK"
             },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
+            },
             SLL: {
                 displayName: "leone sierraleonese",
                 "displayName-count-one": "leones sierraleonese",
@@ -1232,13 +1239,13 @@ const data = {
             },
             SOS: {
                 displayName: "shilling somali",
-                "displayName-count-one": "shillings somali",
+                "displayName-count-one": "shilling somali",
                 "displayName-count-other": "shillings somali",
                 symbol: "SOS"
             },
             SRD: {
                 displayName: "dollar surinamese",
-                "displayName-count-one": "dollares surinamese",
+                "displayName-count-one": "dollar surinamese",
                 "displayName-count-other": "dollares surinamese",
                 symbol: "SRD",
                 "symbol-alt-narrow": "$"
@@ -1249,7 +1256,7 @@ const data = {
             },
             SSP: {
                 displayName: "libra sud-sudanese",
-                "displayName-count-one": "libras sud-sudanese",
+                "displayName-count-one": "libra sud-sudanese",
                 "displayName-count-other": "libras sud-sudanese",
                 symbol: "SSP",
                 "symbol-alt-narrow": "£"
@@ -1260,7 +1267,7 @@ const data = {
             },
             STN: {
                 displayName: "dobra de São Tomé e Príncipe",
-                "displayName-count-one": "dobras de São Tomé e Príncipe",
+                "displayName-count-one": "dobra de São Tomé e Príncipe",
                 "displayName-count-other": "dobras de São Tomé e Príncipe",
                 symbol: "STN",
                 "symbol-alt-narrow": "Db"
@@ -1280,7 +1287,7 @@ const data = {
             },
             SZL: {
                 displayName: "lilangeni swazilandese",
-                "displayName-count-one": "emalangeni swazilandese",
+                "displayName-count-one": "lilangeni swazilandese",
                 "displayName-count-other": "emalangeni swazilandese",
                 symbol: "SZL"
             },
@@ -1307,13 +1314,13 @@ const data = {
             },
             TND: {
                 displayName: "dinar tunisian",
-                "displayName-count-one": "dinares tunisian",
+                "displayName-count-one": "dinar tunisian",
                 "displayName-count-other": "dinares tunisian",
                 symbol: "TND"
             },
             TOP: {
                 displayName: "paʻanga tongan",
-                "displayName-count-one": "paʻangas tongan",
+                "displayName-count-one": "paʻanga tongan",
                 "displayName-count-other": "paʻangas tongan",
                 symbol: "TOP",
                 "symbol-alt-narrow": "T$"
@@ -1334,7 +1341,7 @@ const data = {
             },
             TTD: {
                 displayName: "dollar de Trinidad e Tobago",
-                "displayName-count-one": "dollares de Trinidad e Tobago",
+                "displayName-count-one": "dollar de Trinidad e Tobago",
                 "displayName-count-other": "dollares de Trinidad e Tobago",
                 symbol: "TTD",
                 "symbol-alt-narrow": "$"
@@ -1346,7 +1353,7 @@ const data = {
             },
             TZS: {
                 displayName: "shilling tanzanian",
-                "displayName-count-one": "shillings tanzanian",
+                "displayName-count-one": "shilling tanzanian",
                 "displayName-count-other": "shillings tanzanian",
                 symbol: "TZS"
             },
@@ -1367,13 +1374,13 @@ const data = {
             },
             UGX: {
                 displayName: "shilling ugandese",
-                "displayName-count-one": "shillings ugandese",
+                "displayName-count-one": "shilling ugandese",
                 "displayName-count-other": "shillings ugandese",
                 symbol: "UGX"
             },
             USD: {
                 displayName: "dollar statounitese",
-                "displayName-count-one": "dollares statounitese",
+                "displayName-count-one": "dollar statounitese",
                 "displayName-count-other": "dollares statounitese",
                 symbol: "US$",
                 "symbol-alt-narrow": "$"
@@ -1396,7 +1403,7 @@ const data = {
             },
             UYU: {
                 displayName: "peso uruguayan",
-                "displayName-count-one": "pesos uruguayan",
+                "displayName-count-one": "peso uruguayan",
                 "displayName-count-other": "pesos uruguayan",
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
@@ -1413,16 +1420,20 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "bolivar venezuelan (2008–2018)",
-                "displayName-count-one": "bolivares venezuelan (2008–2018)",
+                "displayName-count-one": "bolivar venezuelan (2008–2018)",
                 "displayName-count-other": "bolivares venezuelan (2008–2018)",
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
             },
             VES: {
                 displayName: "bolivar venezuelan",
-                "displayName-count-one": "bolivares venezuelan",
+                "displayName-count-one": "bolivar venezuelan",
                 "displayName-count-other": "bolivares venezuelan",
                 symbol: "VES"
             },
@@ -1437,19 +1448,19 @@ const data = {
             },
             VUV: {
                 displayName: "vatu vanuatuan",
-                "displayName-count-one": "vatus vanuatuan",
+                "displayName-count-one": "vatu vanuatuan",
                 "displayName-count-other": "vatus vanuatuan",
                 symbol: "VUV"
             },
             WST: {
                 displayName: "tala samoan",
-                "displayName-count-one": "talas samoan",
+                "displayName-count-one": "tala samoan",
                 "displayName-count-other": "talas samoan",
                 symbol: "WST"
             },
             XAF: {
                 displayName: "franco CFA de Africa Central",
-                "displayName-count-one": "francos CFA de Africa Central",
+                "displayName-count-one": "franco CFA de Africa Central",
                 "displayName-count-other": "francos CFA de Africa Central",
                 symbol: "FCFA"
             },
@@ -1479,7 +1490,7 @@ const data = {
             },
             XCD: {
                 displayName: "dollar del Caribes Oriental",
-                "displayName-count-one": "dollares del Caribes Oriental",
+                "displayName-count-one": "dollar del Caribes Oriental",
                 "displayName-count-other": "dollares del Caribes Oriental",
                 symbol: "EC$",
                 "symbol-alt-narrow": "$"
@@ -1504,7 +1515,7 @@ const data = {
                 displayName: "franco CFA de Africa Occidental",
                 "displayName-count-one": "francos CFA de Africa Occidental",
                 "displayName-count-other": "francos CFA de Africa Occidental",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",
@@ -1512,7 +1523,7 @@ const data = {
             },
             XPF: {
                 displayName: "franco CFP",
-                "displayName-count-one": "francos CFP",
+                "displayName-count-one": "franco CFP",
                 "displayName-count-other": "francos CFP",
                 symbol: "CFPF"
             },
@@ -1646,6 +1657,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E d MMM y G",

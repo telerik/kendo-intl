@@ -25,7 +25,8 @@ const data = {
             AFN: {
                 displayName: "अफगाण अफगाणी",
                 "displayName-count-other": "अफगाण अफगाणीस",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -39,7 +40,8 @@ const data = {
             AMD: {
                 displayName: "अर्मेनियन ड्राम",
                 "displayName-count-other": "अर्मेनियन ड्राम्स",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "नॅदरलँड अँटिलियन गिल्डर",
@@ -108,7 +110,8 @@ const data = {
             AZN: {
                 displayName: "अज़रबैजानी मनात",
                 "displayName-count-other": "अज़रबैजानी मनात्स",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -252,7 +255,7 @@ const data = {
             },
             BWP: {
                 displayName: "बोत्सवाना पुला",
-                "displayName-count-other": "Vote बोत्सवाना पुलास",
+                "displayName-count-other": "बोत्सवाना पुलास",
                 symbol: "BWP",
                 "symbol-alt-narrow": "P"
             },
@@ -500,7 +503,8 @@ const data = {
             GHS: {
                 displayName: "घानाई सेडी",
                 "displayName-count-other": "घानाई सेडीस",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "जिब्राल्टर पावंड",
@@ -610,7 +614,6 @@ const data = {
             },
             INR: {
                 displayName: "भारतीय रुपया",
-                "displayName-count-other": "भारतीय रुपया",
                 symbol: "₹",
                 "symbol-alt-narrow": "₹"
             },
@@ -739,7 +742,8 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "LSL",
+                displayName: "लिसोथो लोटि",
+                "displayName-count-other": "लिसोथो लोटिस",
                 symbol: "LSL"
             },
             LTL: {
@@ -1045,8 +1049,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "रवांडा फ्रँक",
@@ -1108,6 +1111,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "सिएरा लियॉनी लियॉन",
@@ -1291,6 +1298,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "VEF",
                 symbol: "VEF",
@@ -1375,7 +1386,7 @@ const data = {
             XOF: {
                 displayName: "अस्तंत आफ्रिकी सीएफए फ्रँक",
                 "displayName-count-other": "अस्तंत आफ्रिकी सीएफए फ्रँक्स",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",

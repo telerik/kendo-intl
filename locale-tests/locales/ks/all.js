@@ -7,11 +7,12 @@ const data = {
     numbers: {
         symbols: {
             decimal: ".",
-            group: ",",
+            group: "،",
             list: ";",
             percentSign: "%",
-            plusSign: "‎+",
-            minusSign: "‎-",
+            plusSign: "+",
+            minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -24,8 +25,7 @@ const data = {
                 "n"
             ],
             groupSize: [
-                3,
-                2
+                3
             ]
         },
         scientific: {
@@ -39,27 +39,24 @@ const data = {
                 "n%"
             ],
             groupSize: [
-                3,
-                2
+                3
             ]
         },
         currency: {
             patterns: [
-                "$ n"
+                "$n"
             ],
             groupSize: [
-                3,
-                2
+                3
             ],
             "unitPattern-count-other": "n $"
         },
         accounting: {
             patterns: [
-                "$ n"
+                "$n"
             ],
             groupSize: [
-                3,
-                2
+                3
             ]
         },
         currencies: {
@@ -77,7 +74,8 @@ const data = {
             },
             AFN: {
                 displayName: "افغان افغٲنی",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -89,7 +87,8 @@ const data = {
             },
             AMD: {
                 displayName: "اَرمانؠن ڈرؠم",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "نایدَرلینڑ اؠنٹٕلیٖیَن گِلڑَر",
@@ -152,7 +151,8 @@ const data = {
             },
             AZN: {
                 displayName: "آزَرباجانی مَنَٹ",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "بوزنِیاہَرزِگووِنا دیٖنار",
@@ -253,7 +253,9 @@ const data = {
                 symbol: "BRE"
             },
             BRL: {
-                displayName: "برازیٖلین رِیَل",
+                displayName: "برازیٖلی رِیَل",
+                "displayName-count-one": "برازیٖلی رِیَل",
+                "displayName-count-other": "برازیٖلی رِیَلز",
                 symbol: "R$",
                 "symbol-alt-narrow": "R$"
             },
@@ -293,8 +295,7 @@ const data = {
             },
             BYN: {
                 displayName: "بِلیروشِیَن رِبٕل",
-                symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                symbol: "BYN"
             },
             BYR: {
                 displayName: "بِلیروشِیَن رِبٕل (۲۰۰۰–۲۰۱۶)",
@@ -348,7 +349,9 @@ const data = {
                 symbol: "CNX"
             },
             CNY: {
-                displayName: "چینیٖز یَن رِنمِنبی",
+                displayName: "چیٖنی یُوان",
+                "displayName-count-one": "چیٖنی یُوان",
+                "displayName-count-other": "چیٖنی یُوان",
                 symbol: "CN¥",
                 "symbol-alt-narrow": "¥"
             },
@@ -485,7 +488,9 @@ const data = {
                 symbol: "FRF"
             },
             GBP: {
-                displayName: "برطٲنوی پاونڑ سٹٔرلِنگ",
+                displayName: "برطٲنوی پوٗنڈ",
+                "displayName-count-one": "برطٲنوی پوٗنڈ",
+                "displayName-count-other": "برطٲنوی پوٗنڈ",
                 symbol: "£",
                 "symbol-alt-narrow": "£"
             },
@@ -504,7 +509,8 @@ const data = {
             },
             GHS: {
                 displayName: "گَنییَن سؠڑی",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "گِبریلٹَر پَاونڑ",
@@ -637,7 +643,9 @@ const data = {
             },
             JPY: {
                 displayName: "جاپانُک یَن",
-                symbol: "JP¥",
+                "displayName-count-one": "جاپٲن یَن",
+                "displayName-count-other": "جاپٲن یَن",
+                symbol: "¥",
                 "symbol-alt-narrow": "¥"
             },
             KES: {
@@ -930,7 +938,7 @@ const data = {
             },
             PHP: {
                 displayName: "پھِلِپایِٔن پؠسو",
-                symbol: "PHP",
+                symbol: "₱",
                 "symbol-alt-narrow": "₱"
             },
             PKR: {
@@ -978,14 +986,15 @@ const data = {
                 symbol: "RSD"
             },
             RUB: {
-                displayName: "رٔشیَن رَبٕل",
+                displayName: "روٗسی رَبٕل",
+                "displayName-count-one": "روٗسی رَبٕل",
+                "displayName-count-other": "روٗسی رَبٕلز",
                 symbol: "RUB",
                 "symbol-alt-narrow": "₽"
             },
             RUR: {
                 displayName: "رٔشیَن رَبٕل(۱۹۹۱–۱۹۹۸)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "روانڑَن فرانک",
@@ -1039,6 +1048,10 @@ const data = {
             SKK: {
                 displayName: "سلووَک کَرونا",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "SLL",
@@ -1164,8 +1177,10 @@ const data = {
                 symbol: "UGX"
             },
             USD: {
-                displayName: "یوٗ ایس ڈالَر",
-                symbol: "US$",
+                displayName: "US ڈالر",
+                "displayName-count-one": "US ڈالر",
+                "displayName-count-other": "US ڈالرس",
+                symbol: "$",
                 "symbol-alt-narrow": "$"
             },
             USN: {
@@ -1200,6 +1215,10 @@ const data = {
             VEB: {
                 displayName: "وینٕزوٗلیُک بولِوَر (۱۸۷۱–۲۰۰۸)",
                 symbol: "VEB"
+            },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
             },
             VEF: {
                 displayName: "وینٕزوٗلیُک بولِوَر (2008–2018)",
@@ -1278,7 +1297,7 @@ const data = {
             },
             XOF: {
                 displayName: "سی ایف اے فرینک بی سی ایٖ اے او",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "پُلیڈیَم",
@@ -1309,7 +1328,9 @@ const data = {
                 symbol: "XUA"
             },
             XXX: {
-                displayName: "اَنزٲنۍ یا نالَگہٕ ہار سِکہٕ",
+                displayName: "نامولوٗم کرنسی",
+                "displayName-count-one": "﴿کرنسی ہُنٛد نامولوٗم سِکٕہ﴾",
+                "displayName-count-other": "﴿نانولوٗم کرنسی﴾",
                 symbol: "¤"
             },
             YDD: {
@@ -1381,23 +1402,23 @@ const data = {
         patterns: {
             d: "M/d/y",
             D: "EEEE, MMMM d, y",
-            m: "d-MMM",
+            m: "MMM d",
             M: "MMMM d",
             y: "MMM y",
             Y: "MMMM y",
             F: "EEEE, MMMM d, y h:mm:ss a",
-            g: "y-MM-dd h:mm a",
-            G: "y-MM-dd h:mm:ss a",
+            g: "M/d/y h:mm a",
+            G: "M/d/y h:mm:ss a",
             t: "h:mm a",
             T: "h:mm:ss a",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} {0}",
-            long: "{1} {0}",
-            medium: "{1} {0}",
-            short: "{1} {0}",
+            full: "{0} پٮ۪ٹھۍ {1}",
+            long: "{0} پٮ۪ٹھۍ {1}",
+            medium: "{1}, {0}",
+            short: "{1}, {0}",
             availableFormats: {
                 Bh: "h B",
                 Bhm: "h:mm B",
@@ -1406,15 +1427,16 @@ const data = {
                 E: "ccc",
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
-                Ed: "d, E",
+                Ed: "d E",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
-                Gy: "Gy",
-                GyMMM: "MMM Gy",
-                GyMMMd: "MMM d, Gy",
-                GyMMMEd: "EEE, MMM d, Gy",
+                Gy: "y G",
+                GyMd: "M/d/y GGGGG",
+                GyMMM: "MMM y G",
+                GyMMMd: "MMM d, y G",
+                GyMMMEd: "E, MMM d, y G",
                 h: "h a",
                 H: "HH",
                 hm: "h:mm a",
@@ -1429,7 +1451,7 @@ const data = {
                 Md: "M/d",
                 MEd: "E, M/d",
                 MMM: "LLL",
-                MMMd: "d-MMM",
+                MMMd: "MMM d",
                 MMMEd: "E, MMM d",
                 MMMMd: "MMMM d",
                 MMMMEd: "E, MMMM d",
@@ -1437,11 +1459,11 @@ const data = {
                 ms: "mm:ss",
                 y: "y",
                 yM: "M/y",
-                yMd: "y-MM-dd",
-                yMEd: "EEE, M/d/y",
+                yMd: "M/d/y",
+                yMEd: "E, M/d/y",
                 yMMM: "MMM y",
-                yMMMd: "y MMM d",
-                yMMMEd: "EEE, MMM d, y",
+                yMMMd: "MMM d, y",
+                yMMMEd: "E, MMM d, y",
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
@@ -1545,7 +1567,7 @@ const data = {
                     "فرؤری",
                     "مارٕچ",
                     "اپریل",
-                    "میٔ",
+                    "مئی",
                     "جوٗن",
                     "جوٗلایی",
                     "اگست",
@@ -1573,7 +1595,7 @@ const data = {
                     "فرؤری",
                     "مارٕچ",
                     "اپریل",
-                    "میٔ",
+                    "مئی",
                     "جوٗن",
                     "جوٗلایی",
                     "اگست",
@@ -1589,7 +1611,7 @@ const data = {
                     "فرؤری",
                     "مارٕچ",
                     "اپریل",
-                    "میٔ",
+                    "مئی",
                     "جوٗن",
                     "جوٗلایی",
                     "اگست",
@@ -1617,7 +1639,7 @@ const data = {
                     "فرؤری",
                     "مارٕچ",
                     "اپریل",
-                    "میٔ",
+                    "مئی",
                     "جوٗن",
                     "جوٗلایی",
                     "اگست",
@@ -1631,10 +1653,10 @@ const data = {
         quarters: {
             format: {
                 abbreviated: [
-                    "ژۄباگ",
-                    "دۆیِم ژۄباگ",
-                    "تریِم ژۄباگ",
-                    "ژوٗرِم ژۄباگ"
+                    "کیو 1",
+                    "کیو 2",
+                    "کیو 3",
+                    "کیو 4"
                 ],
                 narrow: [
                     "1",
@@ -1651,10 +1673,10 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "ژۄباگ",
-                    "دۆیِم ژۄباگ",
-                    "تریِم ژۄباگ",
-                    "ژوٗرِم ژۄباگ"
+                    "کیو 1",
+                    "کیو 2",
+                    "کیو 3",
+                    "کیو 4"
                 ],
                 narrow: [
                     "1",
@@ -1705,20 +1727,20 @@ const data = {
                 wide: {
                     "0": "قبٕل مسیٖح",
                     "1": "عیٖسوی سنہٕ",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "بی سی ای",
+                    "1-alt-variant": "سی ای"
                 },
                 abbreviated: {
                     "0": "بی سی",
                     "1": "اے ڈی",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "بی سی ای",
+                    "1-alt-variant": "سی ای"
                 },
                 narrow: {
                     "0": "بی سی",
                     "1": "اے ڈی",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "بی سی ای",
+                    "1-alt-variant": "سی ای"
                 }
             }
         },
@@ -1736,9 +1758,9 @@ const data = {
                 narrow: "ؤری"
             },
             quarter: {
-                wide: "Quarter",
-                short: "Quarter",
-                narrow: "Quarter"
+                wide: "کوارٹر",
+                short: "کوارٹر",
+                narrow: "کوارٹر"
             },
             month: {
                 wide: "رؠتھ",
@@ -1776,9 +1798,9 @@ const data = {
                 narrow: "Weekday Of Month"
             },
             dayperiod: {
-                short: "صبح/رات",
-                wide: "صبح/رات",
-                narrow: "صبح/رات"
+                short: "صُبح/راتھ",
+                wide: "صُبح/راتھ",
+                narrow: "صُبح/راتھ"
             },
             hour: {
                 wide: "گٲنٹہٕ",
@@ -1791,14 +1813,14 @@ const data = {
                 narrow: "مِنَٹ"
             },
             second: {
-                wide: "سؠکَنڑ",
-                short: "سؠکَنڑ",
-                narrow: "سؠکَنڑ"
+                wide: "سؠکَنڈ",
+                short: "سؠکَنڈ",
+                narrow: "سؠکَنڈ"
             },
             zone: {
-                wide: "زون",
-                short: "زون",
-                narrow: "زون"
+                wide: "وَکھ زون",
+                short: "وَکھ زون",
+                narrow: "وَکھ زون"
             }
         }
     },

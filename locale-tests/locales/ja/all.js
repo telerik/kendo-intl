@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "約",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -78,7 +79,8 @@ const data = {
             AFN: {
                 displayName: "アフガニスタン アフガニー",
                 "displayName-count-other": "アフガニスタン アフガニー",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "アルバニア レク (1946–1965)",
@@ -93,7 +95,8 @@ const data = {
             AMD: {
                 displayName: "アルメニア ドラム",
                 "displayName-count-other": "アルメニア ドラム",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "オランダ領アンティル ギルダー",
@@ -159,8 +162,8 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             AWG: {
-                displayName: "アルバ ギルダー",
-                "displayName-count-other": "アルバ ギルダー",
+                displayName: "アルバ フロリン",
+                "displayName-count-other": "アルバ フロリン",
                 symbol: "AWG"
             },
             AZM: {
@@ -171,7 +174,8 @@ const data = {
             AZN: {
                 displayName: "アゼルバイジャン マナト",
                 "displayName-count-other": "アゼルバイジャン マナト",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "ボスニア・ヘルツェゴビナ ディナール (1992–1994)",
@@ -594,8 +598,7 @@ const data = {
                 displayName: "ジョージア ラリ",
                 "displayName-count-other": "ジョージア ラリ",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "ガーナ セディ (1979–2007)",
@@ -605,7 +608,8 @@ const data = {
             GHS: {
                 displayName: "ガーナ セディ",
                 "displayName-count-other": "ガーナ セディ",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "ジブラルタル ポンド",
@@ -1194,8 +1198,7 @@ const data = {
             RUR: {
                 displayName: "ロシア ルーブル (1991–1998)",
                 "displayName-count-other": "ロシア ルーブル (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "ルワンダ フラン",
@@ -1261,6 +1264,10 @@ const data = {
                 displayName: "スロバキア コルナ",
                 "displayName-count-other": "スロバキア コルナ",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "シエラレオネ レオン",
@@ -1459,6 +1466,10 @@ const data = {
                 "displayName-count-other": "ベネズエラ ボリバル (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "ベネズエラ ボリバル (2008–2018)",
                 "displayName-count-other": "ベネズエラ ボリバル (2008–2018)",
@@ -1555,7 +1566,7 @@ const data = {
             XOF: {
                 displayName: "西アフリカ CFA フラン",
                 "displayName-count-other": "西アフリカ CFA フラン",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "パラジウム",
@@ -1713,6 +1724,7 @@ const data = {
                 Ehms: "aK:mm:ss (E)",
                 EHms: "H:mm:ss (E)",
                 Gy: "Gy年",
+                GyMd: "Gy/M/d",
                 GyMMM: "Gy年M月",
                 GyMMMd: "Gy年M月d日",
                 GyMMMEd: "Gy年M月d日(E)",

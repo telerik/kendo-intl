@@ -24,10 +24,10 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} {0}",
-            long: "{1} {0}",
-            medium: "{1} {0}",
-            short: "{1} {0}",
+            full: "{1}, 'во' {0}",
+            long: "{1}, 'во' {0}",
+            medium: "{1}, 'во' {0}",
+            short: "{1}, 'во' {0}",
             availableFormats: {
                 Bh: "h B",
                 Bhm: "h:mm B",
@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "d.M.y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E, d MMM y G",
@@ -77,8 +78,8 @@ const data = {
                 yMMMM: "MMMM y 'г'.",
                 yQQQ: "QQQ y 'г'.",
                 yQQQQ: "QQQQ y 'г'.",
-                "yw-count-one": "w 'седмица' 'од' Y",
-                "yw-count-other": "w 'седмица' 'од' Y"
+                "yw-count-one": "w. 'седмица' 'од' Y",
+                "yw-count-other": "w. 'седмица' 'од' Y"
             }
         },
         timeFormats: {
@@ -98,7 +99,7 @@ const data = {
                 abbreviated: [
                     "нед.",
                     "пон.",
-                    "вт.",
+                    "вто.",
                     "сре.",
                     "чет.",
                     "пет.",
@@ -311,8 +312,8 @@ const data = {
                     noon: "напладне",
                     pm: "попл.",
                     morning1: "наутро",
-                    morning2: "претпл.",
-                    afternoon1: "попл.",
+                    morning2: "претпладне",
+                    afternoon1: "попладне",
                     evening1: "навечер",
                     night1: "ноќе"
                 },
@@ -384,13 +385,13 @@ const data = {
                     "1-alt-variant": "нашата ера"
                 },
                 abbreviated: {
-                    "0": "пр.н.е.",
+                    "0": "п.н.е.",
                     "1": "н.е.",
                     "0-alt-variant": "п.н.е.",
                     "1-alt-variant": "н.е."
                 },
                 narrow: {
-                    "0": "пр.н.е.",
+                    "0": "п.н.е.",
                     "1": "н.е.",
                     "0-alt-variant": "п.н.е.",
                     "1-alt-variant": "н.е."

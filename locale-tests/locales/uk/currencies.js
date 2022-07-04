@@ -35,7 +35,8 @@ const data = {
                 "displayName-count-few": "афганські афгані",
                 "displayName-count-many": "афганських афгані",
                 "displayName-count-other": "афганського афгані",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -55,7 +56,8 @@ const data = {
                 "displayName-count-few": "вірменські драми",
                 "displayName-count-many": "вірменських драмів",
                 "displayName-count-other": "вірменського драма",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "нідерландський антильський гульден",
@@ -162,7 +164,8 @@ const data = {
                 "displayName-count-few": "азербайджанські манати",
                 "displayName-count-many": "азербайджанських манатів",
                 "displayName-count-other": "азербайджанського маната",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "динар (Боснія і Герцеговина)",
@@ -497,7 +500,7 @@ const data = {
                 displayName: "кубинський песо",
                 "displayName-count-one": "кубинський песо",
                 "displayName-count-few": "кубинські песо",
-                "displayName-count-many": "кубинськх песо",
+                "displayName-count-many": "кубинських песо",
                 "displayName-count-other": "кубинського песо",
                 symbol: "CUP",
                 "symbol-alt-narrow": "$"
@@ -678,8 +681,7 @@ const data = {
                 "displayName-count-many": "грузинських ларі",
                 "displayName-count-other": "грузинського ларі",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "ганський седі (1979–2007)",
@@ -691,7 +693,8 @@ const data = {
                 "displayName-count-few": "ганські седі",
                 "displayName-count-many": "ганських седі",
                 "displayName-count-other": "ганського седі",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "гібралтарський фунт",
@@ -1027,6 +1030,10 @@ const data = {
             },
             LSL: {
                 displayName: "лесотський лоті",
+                "displayName-count-one": "лесотський лоті",
+                "displayName-count-few": "лесотські лоті",
+                "displayName-count-many": "лесотських лоті",
+                "displayName-count-other": "лесотського лоті",
                 symbol: "LSL"
             },
             LTL: {
@@ -1543,6 +1550,10 @@ const data = {
                 displayName: "словацька крона",
                 symbol: "SKK"
             },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
+            },
             SLL: {
                 displayName: "леоне Сьєрра-Леоне",
                 "displayName-count-one": "леоне Сьєрра-Леоне",
@@ -1673,11 +1684,11 @@ const data = {
                 symbol: "TND"
             },
             TOP: {
-                displayName: "тонґанська паанга",
-                "displayName-count-one": "тонґанська паанга",
-                "displayName-count-few": "тонґанські паанги",
-                "displayName-count-many": "тонґанських паанг",
-                "displayName-count-other": "тонґанської паанги",
+                displayName: "тонганська паанга",
+                "displayName-count-one": "тонганська паанга",
+                "displayName-count-few": "тонганські паанги",
+                "displayName-count-many": "тонганських паанг",
+                "displayName-count-other": "тонганської паанги",
                 symbol: "TOP",
                 "symbol-alt-narrow": "T$"
             },
@@ -1704,11 +1715,11 @@ const data = {
                 "symbol-alt-variant": "TL"
             },
             TTD: {
-                displayName: "долар Трінідаду і Тобаґо",
-                "displayName-count-one": "долар Трінідаду і Тобаґо",
+                displayName: "долар Тринідаду і Тобаго",
+                "displayName-count-one": "долар Тринідаду і Тобаго",
                 "displayName-count-few": "долари Тринідаду і Тобаго",
                 "displayName-count-many": "доларів Тринідаду і Тобаго",
-                "displayName-count-other": "долара Трінідаду і Тобаґо",
+                "displayName-count-other": "долара Тринідаду і Тобаго",
                 symbol: "TTD",
                 "symbol-alt-narrow": "$"
             },
@@ -1731,13 +1742,13 @@ const data = {
             },
             UAH: {
                 displayName: "українська гривня",
-                "displayName-count-one": "гривня",
-                "displayName-count-few": "гривні",
-                "displayName-count-many": "гривень",
-                "displayName-count-other": "гривні",
+                "displayName-count-one": "українська гривня",
+                "displayName-count-few": "українські гривні",
+                "displayName-count-many": "українських гривень",
+                "displayName-count-other": "української гривні",
                 symbol: "₴",
                 "symbol-alt-narrow": "₴",
-                "symbol-alt-variant": "грн."
+                "symbol-alt-variant": "грн"
             },
             UAK: {
                 displayName: "український карбованець",
@@ -1808,6 +1819,10 @@ const data = {
             VEB: {
                 displayName: "венесуельський болівар (1871–2008)",
                 symbol: "VEB"
+            },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
             },
             VEF: {
                 displayName: "венесуельський болівар (2008–2018)",
@@ -1918,7 +1933,7 @@ const data = {
                 "displayName-count-few": "західноафриканські франки",
                 "displayName-count-many": "західноафриканських франків",
                 "displayName-count-other": "західноафриканського франка",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "паладій",

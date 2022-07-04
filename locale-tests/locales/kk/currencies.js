@@ -27,7 +27,8 @@ const data = {
                 displayName: "Ауғанстан афганиі",
                 "displayName-count-one": "Ауғанстан афганиі",
                 "displayName-count-other": "Ауғанстан афганиі",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -43,7 +44,8 @@ const data = {
                 displayName: "Армения драмы",
                 "displayName-count-one": "Армения драмы",
                 "displayName-count-other": "Армения драмы",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Нидерланд антиль гульдені",
@@ -118,7 +120,8 @@ const data = {
                 displayName: "Әзірбайжан манаты",
                 "displayName-count-one": "Әзірбайжан манаты",
                 "displayName-count-other": "Әзірбайжан манаты",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -542,8 +545,7 @@ const data = {
                 "displayName-count-one": "Грузия лариі",
                 "displayName-count-other": "Грузия лариі",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "GHC",
@@ -553,7 +555,8 @@ const data = {
                 displayName: "Гана седиі",
                 "displayName-count-one": "Гана седиі",
                 "displayName-count-other": "Гана седиі",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Гибралтар фунты",
@@ -824,8 +827,10 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "LSL",
-                symbol: "LSL"
+                displayName: "Лесото лотиі",
+                "displayName-count-one": "Лесото лотиі",
+                "displayName-count-other": "Лесото лотиі",
+                symbol: "ЛСЛ"
             },
             LTL: {
                 displayName: "Литва литы",
@@ -1169,8 +1174,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Руанда франкі",
@@ -1240,6 +1244,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Сьерра-Леоне леонесі",
@@ -1446,6 +1454,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "Венесуэла боливары (2008–2018)",
                 "displayName-count-one": "Венесуэла боливары (2008–2018)",
@@ -1539,7 +1551,7 @@ const data = {
                 displayName: "КФА ВСЕАО франкі",
                 "displayName-count-one": "КФА ВСЕАО франкі",
                 "displayName-count-other": "КФА ВСЕАО франкі",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",

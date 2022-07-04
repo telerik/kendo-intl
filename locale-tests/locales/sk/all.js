@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "e",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -93,7 +94,8 @@ const data = {
                 "displayName-count-few": "afganské afgání",
                 "displayName-count-many": "afganského afgání",
                 "displayName-count-other": "afganských afgání",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "albánsky lek (1946 – 1965)",
@@ -117,7 +119,8 @@ const data = {
                 "displayName-count-few": "arménske dramy",
                 "displayName-count-many": "arménskeho dramu",
                 "displayName-count-other": "arménskych dramov",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "antilský gulden",
@@ -240,7 +243,8 @@ const data = {
                 "displayName-count-few": "azerbajdžanské manaty",
                 "displayName-count-many": "azerbajdžanského manatu",
                 "displayName-count-other": "azerbajdžanských manatov",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "bosniansko-hercegovinský dinár (1992 – 1994)",
@@ -900,8 +904,7 @@ const data = {
                 "displayName-count-many": "gruzínskeho lari",
                 "displayName-count-other": "gruzínskych lari",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "ghanské cedi (1979 – 2007)",
@@ -917,7 +920,8 @@ const data = {
                 "displayName-count-few": "ghanské cedi",
                 "displayName-count-many": "ghanského cedi",
                 "displayName-count-other": "ghanských cedi",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "gibraltárska libra",
@@ -1938,6 +1942,10 @@ const data = {
                 "displayName-count-other": "slovenských korún",
                 symbol: "SKK"
             },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
+            },
             SLL: {
                 displayName: "sierraleonský leone",
                 "displayName-count-one": "sierraleonský leone",
@@ -2243,6 +2251,10 @@ const data = {
                 "displayName-count-other": "venezuelských bolívarov (1871 – 2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "venezuelský bolívar (2008–2018)",
                 "displayName-count-one": "venezuelský bolívar (2008–2018)",
@@ -2396,7 +2408,7 @@ const data = {
                 "displayName-count-few": "západoafrické franky",
                 "displayName-count-many": "západoafrického franku",
                 "displayName-count-other": "západoafrických frankov",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "paládium",
@@ -2622,6 +2634,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "d. M. y GGGGG",
                 GyMMM: "LLLL y G",
                 GyMMMd: "d. M. y G",
                 GyMMMEd: "E d. M. y G",
@@ -3033,8 +3046,8 @@ const data = {
             },
             weekdayOfMonth: {
                 wide: "deň týždňa v mesiaci",
-                short: "d.  týž. v mes.",
-                narrow: "d.  týž. v mes."
+                short: "d. týž. v mes.",
+                narrow: "d. týž. v mes."
             },
             dayperiod: {
                 short: "AM/PM",

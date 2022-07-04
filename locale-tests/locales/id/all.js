@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -76,7 +77,8 @@ const data = {
             AFN: {
                 displayName: "Afgani Afganistan",
                 "displayName-count-other": "Afgani Afganistan",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -90,7 +92,8 @@ const data = {
             AMD: {
                 displayName: "Dram Armenia",
                 "displayName-count-other": "Dram Armenia",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Guilder Antilla Belanda",
@@ -166,7 +169,8 @@ const data = {
             AZN: {
                 displayName: "Manat Azerbaijan",
                 "displayName-count-other": "Manat Azerbaijan",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "Dinar Bosnia-Herzegovina (1992–1994)",
@@ -446,8 +450,8 @@ const data = {
                 symbol: "CYP"
             },
             CZK: {
-                displayName: "Koruna Cheska",
-                "displayName-count-other": "Koruna Cheska",
+                displayName: "Koruna Ceko",
+                "displayName-count-other": "Koruna Ceko",
                 symbol: "CZK",
                 "symbol-alt-narrow": "Kč"
             },
@@ -477,8 +481,8 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             DZD: {
-                displayName: "Dinar Algeria",
-                "displayName-count-other": "Dinar Algeria",
+                displayName: "Dinar Aljazair",
+                "displayName-count-other": "Dinar Aljazair",
                 symbol: "DZD"
             },
             ECS: {
@@ -572,7 +576,8 @@ const data = {
             GHS: {
                 displayName: "Cedi Ghana",
                 "displayName-count-other": "Cedi Ghana",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Pound Gibraltar",
@@ -735,8 +740,8 @@ const data = {
                 symbol: "KES"
             },
             KGS: {
-                displayName: "Som Kirgistan",
-                "displayName-count-other": "Som Kirgistan",
+                displayName: "Som Kirgizstan",
+                "displayName-count-other": "Som Kirgizstan",
                 symbol: "KGS"
             },
             KHR: {
@@ -785,8 +790,8 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             KZT: {
-                displayName: "Tenge Kazakstan",
-                "displayName-count-other": "Tenge Kazakstan",
+                displayName: "Tenge Kazakhstan",
+                "displayName-count-other": "Tenge Kazakhstan",
                 symbol: "KZT",
                 "symbol-alt-narrow": "₸"
             },
@@ -1079,8 +1084,8 @@ const data = {
                 "symbol-alt-narrow": "Rs"
             },
             PLN: {
-                displayName: "Polandia Zloty",
-                "displayName-count-other": "Polandia Zloty",
+                displayName: "Zloty Polandia",
+                "displayName-count-other": "Zloty Polandia",
                 symbol: "PLN",
                 "symbol-alt-narrow": "zł"
             },
@@ -1133,8 +1138,7 @@ const data = {
             RUR: {
                 displayName: "Rubel Rusia (1991–1998)",
                 "displayName-count-other": "Rubel Rusia (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Franc Rwanda",
@@ -1198,6 +1202,10 @@ const data = {
             SKK: {
                 displayName: "Koruna Slovakia",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Leone Sierra Leone",
@@ -1276,8 +1284,8 @@ const data = {
                 symbol: "TMM"
             },
             TMT: {
-                displayName: "Manat Turkimenistan",
-                "displayName-count-other": "Manat Turkimenistan",
+                displayName: "Manat Turkmenistan",
+                "displayName-count-other": "Manat Turkmenistan",
                 symbol: "TMT"
             },
             TND: {
@@ -1387,6 +1395,10 @@ const data = {
                 "displayName-count-other": "Bolivar Venezuela (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "Bolivar Venezuela (2008–2018)",
                 "displayName-count-other": "Bolivar Venezuela (2008–2018)",
@@ -1420,8 +1432,8 @@ const data = {
                 symbol: "WST"
             },
             XAF: {
-                displayName: "Franc CFA BEAC",
-                "displayName-count-other": "Franc CFA BEAC",
+                displayName: "Franc CFA Afrika Tengah",
+                "displayName-count-other": "Franc CFA Afrika Tengah",
                 symbol: "FCFA"
             },
             XAG: {
@@ -1471,9 +1483,9 @@ const data = {
                 symbol: "XFU"
             },
             XOF: {
-                displayName: "Franc CFA BCEAO",
-                "displayName-count-other": "Franc CFA BCEAO",
-                symbol: "CFA"
+                displayName: "Franc CFA Afrika Barat",
+                "displayName-count-other": "Franc CFA Afrika Barat",
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "Palladium",
@@ -1620,6 +1632,7 @@ const data = {
                 Ehms: "E h.mm.ss a",
                 EHms: "E HH.mm.ss",
                 Gy: "y G",
+                GyMd: "d/M/y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E, d MMM y G",
@@ -2001,7 +2014,7 @@ const data = {
             },
             day: {
                 wide: "hari",
-                short: "h",
+                short: "hr",
                 narrow: "h"
             },
             dayOfYear: {
@@ -2025,7 +2038,7 @@ const data = {
                 narrow: "AM/PM"
             },
             hour: {
-                wide: "Jam",
+                wide: "jam",
                 short: "jam",
                 narrow: "j"
             },
