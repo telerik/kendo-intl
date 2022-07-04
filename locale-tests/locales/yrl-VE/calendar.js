@@ -473,6 +473,11 @@ const data = {
                 wide: "eimã hura suí",
                 short: "eimã",
                 narrow: "eimã"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "mirisegũdu rupi"
             }
         }
     },

@@ -2136,6 +2136,11 @@ const data = {
                 wide: "সময় ক্ষেত্ৰ",
                 short: "ক্ষেত্ৰ",
                 narrow: "ক্ষেত্ৰ"
+            },
+            millisecond: {
+                narrow: "মিঃ ছেঃ",
+                short: "মিঃ ছেঃ",
+                wide: "মিলিছেকেণ্ড"
             }
         }
     },

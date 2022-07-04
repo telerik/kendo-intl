@@ -1830,6 +1830,11 @@ const data = {
                 wide: "ዞባ ግዜ",
                 short: "ዞባ",
                 narrow: "ዞባ"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },

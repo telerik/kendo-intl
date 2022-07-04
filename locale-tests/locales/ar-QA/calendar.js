@@ -485,6 +485,11 @@ const data = {
                 wide: "التوقيت",
                 short: "توقيت",
                 narrow: "توقيت"
+            },
+            millisecond: {
+                narrow: "ملي ث",
+                short: "ملي ث",
+                wide: "ملي ثانية"
             }
         }
     },

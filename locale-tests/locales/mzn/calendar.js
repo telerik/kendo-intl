@@ -429,6 +429,11 @@ const data = {
                 wide: "زمونی منقطه",
                 short: "زمونی منقطه",
                 narrow: "زمونی منقطه"
+            },
+            millisecond: {
+                narrow: "میلی‌ثانیه",
+                short: "میلی‌ثانیه",
+                wide: "میلی‌ثانیه"
             }
         }
     },

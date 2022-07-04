@@ -430,6 +430,11 @@ const data = {
                 wide: "Essawa edha",
                 short: "Essawa edha",
                 narrow: "Essawa edha"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },

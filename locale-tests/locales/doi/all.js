@@ -1827,6 +1827,11 @@ const data = {
                 wide: "समां खेत्तर",
                 short: "समां खेत्तर",
                 narrow: "समां खेत्तर"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },

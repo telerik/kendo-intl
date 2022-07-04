@@ -1810,6 +1810,11 @@ const data = {
                 wide: "Diiwaan waktu",
                 short: "Diiwaan waktu",
                 narrow: "Diiwaan waktu"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },

@@ -2031,6 +2031,11 @@ const data = {
                 wide: "เขตเวลา",
                 short: "โซน",
                 narrow: "เขตเวลา"
+            },
+            millisecond: {
+                narrow: "มิลลิวิ",
+                short: "มิลลิวินาที",
+                wide: "มิลลิวินาที"
             }
         }
     },

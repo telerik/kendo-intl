@@ -1807,6 +1807,11 @@ const data = {
                 wide: "kar saa",
                 short: "kar saa",
                 narrow: "kar saa"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },

@@ -2322,6 +2322,11 @@ const data = {
                 wide: "часова зона",
                 short: "час. зона",
                 narrow: "час. зона"
+            },
+            millisecond: {
+                narrow: "мсек",
+                short: "мсек",
+                wide: "милисекунди"
             }
         }
     },

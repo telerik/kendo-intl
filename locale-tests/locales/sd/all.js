@@ -2128,6 +2128,11 @@ const data = {
                 wide: "ٽائيم زون",
                 short: "ٽائيم زون",
                 narrow: "ٽائيم زون"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ملي سيڪنڊ",
+                wide: "ملي سيڪنڊ"
             }
         }
     },

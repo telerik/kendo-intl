@@ -463,6 +463,11 @@ const data = {
                 wide: "tydsone",
                 short: "sone",
                 narrow: "sone"
+            },
+            millisecond: {
+                narrow: "ms.",
+                short: "ms",
+                wide: "millisekondes"
             }
         }
     },

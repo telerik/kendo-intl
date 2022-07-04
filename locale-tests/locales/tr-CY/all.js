@@ -2405,6 +2405,11 @@ const data = {
                 wide: "saat dilimi",
                 short: "dilim",
                 narrow: "dilim"
+            },
+            millisecond: {
+                narrow: "msn",
+                short: "msn",
+                wide: "milisaniye"
             }
         }
     },

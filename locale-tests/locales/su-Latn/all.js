@@ -1817,6 +1817,11 @@ const data = {
                 wide: "zona waktu",
                 short: "zona waktu",
                 narrow: "zona waktu"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },

@@ -431,6 +431,11 @@ const data = {
                 wide: "ۋاقىت رايونى",
                 short: "ۋاقىت رايونى",
                 narrow: "ۋاقىت رايونى"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "مىللىسېكۇنت",
+                wide: "مىللى سېكۇنت"
             }
         }
     },

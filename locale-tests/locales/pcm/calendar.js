@@ -431,6 +431,11 @@ const data = {
                 wide: "Taím Zon",
                 short: "Taím Zon",
                 narrow: "Taím Zon"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "Mílisẹ́kọn",
+                wide: "Mílisẹ́kọn"
             }
         }
     },

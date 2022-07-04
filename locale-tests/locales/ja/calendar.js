@@ -478,6 +478,11 @@ const data = {
                 wide: "タイムゾーン",
                 short: "タイムゾーン",
                 narrow: "タイムゾーン"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ミリ秒"
             }
         }
     },

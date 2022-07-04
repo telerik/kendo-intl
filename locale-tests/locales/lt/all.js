@@ -3065,6 +3065,11 @@ const data = {
                 wide: "laiko juosta",
                 short: "laiko juosta",
                 narrow: "laiko juosta"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "milisekundžių"
             }
         }
     },

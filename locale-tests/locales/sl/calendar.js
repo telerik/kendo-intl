@@ -478,6 +478,11 @@ const data = {
                 wide: "časovni pas",
                 short: "časovni pas",
                 narrow: "časovni pas"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "milisekund"
             }
         }
     },

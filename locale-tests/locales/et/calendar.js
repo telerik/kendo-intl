@@ -469,6 +469,11 @@ const data = {
                 wide: "ajavöönd",
                 short: "vöönd",
                 narrow: "vöönd"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisekundit"
             }
         }
     },

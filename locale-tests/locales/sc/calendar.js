@@ -431,6 +431,11 @@ const data = {
                 wide: "fusu oràriu",
                 short: "fusu",
                 narrow: "fusu"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisegundos"
             }
         }
     },

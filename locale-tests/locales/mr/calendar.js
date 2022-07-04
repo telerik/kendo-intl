@@ -481,6 +481,11 @@ const data = {
                 wide: "वेळ क्षेत्र",
                 short: "क्षेत्र",
                 narrow: "क्षेत्र"
+            },
+            millisecond: {
+                narrow: "मिलिसे",
+                short: "मिलिसे",
+                wide: "मिलिसेकंद"
             }
         }
     },

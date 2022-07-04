@@ -430,6 +430,11 @@ const data = {
                 wide: "Gĩthaa",
                 short: "Gĩthaa",
                 narrow: "Gĩthaa"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },

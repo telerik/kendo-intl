@@ -2192,6 +2192,11 @@ const data = {
                 wide: "fuso orario",
                 short: "fuso",
                 narrow: "fuso"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecondi"
             }
         }
     },

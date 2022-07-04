@@ -467,6 +467,11 @@ const data = {
                 wide: "убакыт алкагы",
                 short: "убакыт алкагы",
                 narrow: "убакыт алкагы"
+            },
+            millisecond: {
+                narrow: "мсек",
+                short: "мсек",
+                wide: "миллисекунд"
             }
         }
     },

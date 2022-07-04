@@ -1808,6 +1808,11 @@ const data = {
                 wide: "Ɛ́sáâ o inkuapí",
                 short: "Ɛ́sáâ o inkuapí",
                 narrow: "Ɛ́sáâ o inkuapí"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },

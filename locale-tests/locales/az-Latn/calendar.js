@@ -480,6 +480,11 @@ const data = {
                 wide: "Saat Qurşağı",
                 short: "qurşaq",
                 narrow: "qurşaq"
+            },
+            millisecond: {
+                narrow: "msan",
+                short: "msan",
+                wide: "millisaniyə"
             }
         }
     },

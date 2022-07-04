@@ -1807,6 +1807,11 @@ const data = {
                 wide: "Amajira ga saa",
                 short: "Amajira ga saa",
                 narrow: "Amajira ga saa"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },

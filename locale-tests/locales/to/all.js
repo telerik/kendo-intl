@@ -1819,6 +1819,11 @@ const data = {
                 wide: "taimi fakavahe",
                 short: "taimi fakavahe",
                 narrow: "taimi fakavahe"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms ʻe ",
+                wide: "milisekoni ʻe "
             }
         }
     },

@@ -2449,6 +2449,11 @@ const data = {
                 wide: "ẽmã ũ tá óra",
                 short: "tá óra",
                 narrow: "tá óra"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "mĩrisigũnu "
             }
         }
     },

@@ -1815,6 +1815,11 @@ const data = {
                 wide: "টাইম জোন",
                 short: "টাইম জোন",
                 narrow: "টাইম জোন"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },

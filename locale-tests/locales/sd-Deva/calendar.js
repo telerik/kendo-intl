@@ -431,6 +431,11 @@ const data = {
                 wide: "वक्तु जो दायरो",
                 short: "वक्तु जो दायरो",
                 narrow: "वक्तु जो दायरो"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },

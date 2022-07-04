@@ -1810,6 +1810,11 @@ const data = {
                 wide: "akud n ugmmaḍ",
                 short: "akud n ugmmaḍ",
                 narrow: "akud n ugmmaḍ"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },

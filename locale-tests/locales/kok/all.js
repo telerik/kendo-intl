@@ -1964,6 +1964,11 @@ const data = {
                 wide: "वेळ झोन",
                 short: "झोन",
                 narrow: "झोन"
+            },
+            millisecond: {
+                narrow: "मिसे",
+                short: "मिलिसेकंद",
+                wide: "मिलिसेकंदांनी"
             }
         }
     },

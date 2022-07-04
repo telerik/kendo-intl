@@ -2374,6 +2374,11 @@ const data = {
                 wide: "ζώνη ώρας",
                 short: "ζώνη",
                 narrow: "ζώνη"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "χιλιοστά του δευτερολέπτου"
             }
         }
     },

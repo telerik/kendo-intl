@@ -1825,6 +1825,11 @@ const data = {
                 wide: "वख ज़ून",
                 short: "वख ज़ून",
                 narrow: "वख ज़ून"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },

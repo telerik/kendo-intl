@@ -2462,6 +2462,11 @@ const data = {
                 wide: "ordu-zona",
                 short: "ordu-zona",
                 narrow: "ordu-zona"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "milisegundo"
             }
         }
     },

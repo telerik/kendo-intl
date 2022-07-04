@@ -2571,6 +2571,11 @@ const data = {
                 wide: "casowe pasmo",
                 short: "casowe pasmo",
                 narrow: "cas. pasmo"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "milisekundow"
             }
         }
     },

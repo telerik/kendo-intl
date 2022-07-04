@@ -467,6 +467,11 @@ const data = {
                 wide: "ժամային գոտի",
                 short: "ժամային գոտի",
                 narrow: "ժամային գոտի"
+            },
+            millisecond: {
+                narrow: "մվ",
+                short: "մվ",
+                wide: "միլիվայրկյան"
             }
         }
     },

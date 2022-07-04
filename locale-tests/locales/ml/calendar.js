@@ -488,6 +488,11 @@ const data = {
                 wide: "സമയ മേഖല",
                 short: "മേഖല",
                 narrow: "മേഖല"
+            },
+            millisecond: {
+                narrow: "മി.സെ.",
+                short: "മി.സെ.",
+                wide: "മില്ലിസെക്കൻഡ്"
             }
         }
     },

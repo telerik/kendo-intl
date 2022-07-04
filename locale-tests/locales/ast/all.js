@@ -2412,6 +2412,11 @@ const data = {
                 wide: "estaya horaria",
                 short: "estaya horaria",
                 narrow: "estaya horaria"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "milisegundos"
             }
         }
     },
