@@ -430,6 +430,11 @@ const data = {
                 wide: "Mũcooro wa mathaa",
                 short: "Mũcooro wa mathaa",
                 narrow: "Mũcooro wa mathaa"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },

@@ -2139,6 +2139,11 @@ const data = {
                 wide: "时区",
                 short: "时区",
                 narrow: "时区"
+            },
+            millisecond: {
+                narrow: "毫秒",
+                short: "毫秒",
+                wide: "毫秒"
             }
         }
     },

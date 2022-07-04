@@ -429,6 +429,11 @@ const data = {
                 wide: "rohe wā",
                 short: "rohe wā",
                 narrow: "rohe wā"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },

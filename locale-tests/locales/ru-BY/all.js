@@ -2532,6 +2532,11 @@ const data = {
                 wide: "часовой пояс",
                 short: "час. пояс",
                 narrow: "час. пояс"
+            },
+            millisecond: {
+                narrow: "мс",
+                short: "мс",
+                wide: "миллисекунды"
             }
         }
     },

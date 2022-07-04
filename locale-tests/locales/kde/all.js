@@ -1808,6 +1808,11 @@ const data = {
                 wide: "Npanda wa muda",
                 short: "Npanda wa muda",
                 narrow: "Npanda wa muda"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },

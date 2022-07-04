@@ -429,6 +429,11 @@ const data = {
                 wide: "समय मण्डल",
                 short: "समय मण्डल",
                 narrow: "समय मण्डल"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },

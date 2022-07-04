@@ -2523,6 +2523,11 @@ const data = {
                 wide: "fus orar",
                 short: "fus",
                 narrow: "fus"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "de milisecunde"
             }
         }
     },

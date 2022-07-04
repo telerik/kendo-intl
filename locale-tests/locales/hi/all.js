@@ -2175,6 +2175,11 @@ const data = {
                 wide: "समय क्षेत्र",
                 short: "क्षेत्र",
                 narrow: "क्षेत्र"
+            },
+            millisecond: {
+                narrow: "मि॰से॰",
+                short: "मि॰से॰",
+                wide: "मिलीसेकंड"
             }
         }
     },

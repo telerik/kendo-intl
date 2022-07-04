@@ -2007,6 +2007,11 @@ const data = {
                 wide: "ဇုန်",
                 short: "ဇုန်",
                 narrow: "ဇုန်"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "မီလီစက္ကန့်",
+                wide: "မီလီစက္ကန့်"
             }
         }
     },

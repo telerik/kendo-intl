@@ -1807,6 +1807,11 @@ const data = {
                 wide: "དུས་ཚོད།",
                 short: "དུས་ཚོད།",
                 narrow: "དུས་ཚོད།"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },

@@ -1809,6 +1809,11 @@ const data = {
                 wide: "Nguva",
                 short: "Nguva",
                 narrow: "Nguva"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },

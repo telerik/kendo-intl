@@ -1806,6 +1806,11 @@ const data = {
                 wide: "Ntáká ya ngonga",
                 short: "Ntáká ya ngonga",
                 narrow: "Ntáká ya ngonga"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },

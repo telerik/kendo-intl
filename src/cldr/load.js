@@ -2,6 +2,7 @@ import { cldr } from './info';
 import loadNumbersInfo from './load-numbers';
 import loadCalendarInfo from './load-dates';
 import localeTerritory from './territory';
+import loadUnits from './load-units';
 
 function loadLocale(locale, info) {
     for (let field in info) {
@@ -22,11 +23,15 @@ export default function load() {
             let info = entry.main[locale];
             let localeInfo = cldr[locale] = cldr[locale] || {};
 
-            localeInfo.name = localeInfo.name || locale;
-            localeInfo.identity = localeInfo.identity || info.identity;
+            if (info.units) {
+                loadUnits(localeInfo, info.units);
+            } else {
+                localeInfo.name = localeInfo.name || locale;
+                localeInfo.identity = localeInfo.identity || info.identity;
 
-            localeTerritory(localeInfo);
-            loadLocale(locale, info);
+                localeTerritory(localeInfo);
+                loadLocale(locale, info);
+            }
         } else if (entry.supplemental) {
             if (entry.supplemental.weekData) {
                 cldr.supplemental.weekData = {

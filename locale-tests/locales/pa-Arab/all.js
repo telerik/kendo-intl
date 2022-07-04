@@ -1809,6 +1809,11 @@ const data = {
                 wide: "ٹپہ",
                 short: "ٹپہ",
                 narrow: "ٹپہ"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },

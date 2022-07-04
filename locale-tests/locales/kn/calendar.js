@@ -463,6 +463,11 @@ const data = {
                 wide: "ಸಮಯ ವಲಯ",
                 short: "ವಲಯ",
                 narrow: "ವಲಯ"
+            },
+            millisecond: {
+                narrow: "ಮಿ.ಸೆ.",
+                short: "ಮಿ.ಸೆ.",
+                wide: "ಮಿಲಿಸೆಕೆಂಡುಗಳು"
             }
         }
     },

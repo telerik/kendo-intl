@@ -483,6 +483,11 @@ const data = {
                 wide: "fus horari",
                 short: "fus horari",
                 narrow: "fus horari"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "mil·lisegons"
             }
         }
     },

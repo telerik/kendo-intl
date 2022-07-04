@@ -2161,6 +2161,11 @@ const data = {
                 wide: "Isikhathi sendawo",
                 short: "Isikhathi sendawo",
                 narrow: "Isikhathi sendawo"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },

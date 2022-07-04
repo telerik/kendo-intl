@@ -429,6 +429,11 @@ const data = {
                 wide: "Zitzóna",
                 short: "Zitzóna",
                 narrow: "Zitzóna"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },

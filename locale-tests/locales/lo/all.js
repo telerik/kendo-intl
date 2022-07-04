@@ -2008,6 +2008,11 @@ const data = {
                 wide: "ເຂດເວລາ",
                 short: "ເຂດເວລາ",
                 narrow: "ເຂດເວລາ"
+            },
+            millisecond: {
+                narrow: "ມລ. ວິ.",
+                short: "ມລວ",
+                wide: "ມິນລີວິນາທີ"
             }
         }
     },

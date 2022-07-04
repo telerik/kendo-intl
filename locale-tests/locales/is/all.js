@@ -2182,6 +2182,11 @@ const data = {
                 wide: "tímabelti",
                 short: "tímab.",
                 narrow: "tímab."
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisekúndur"
             }
         }
     },

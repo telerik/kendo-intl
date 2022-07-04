@@ -469,6 +469,11 @@ const data = {
                 wide: "Múi giờ",
                 short: "Múi giờ",
                 narrow: "Múi giờ"
+            },
+            millisecond: {
+                narrow: "miligiây",
+                short: "mili giây",
+                wide: "mili giây"
             }
         }
     },

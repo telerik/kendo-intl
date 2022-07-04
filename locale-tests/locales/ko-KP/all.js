@@ -2023,6 +2023,11 @@ const data = {
                 wide: "시간대",
                 short: "시간대",
                 narrow: "시간대"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "밀리초"
             }
         }
     },

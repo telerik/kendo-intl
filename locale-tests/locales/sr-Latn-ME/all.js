@@ -2706,6 +2706,11 @@ const data = {
                 wide: "vremenska zona",
                 short: "vremenska zona",
                 narrow: "vremenska zona"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "milisekundi"
             }
         }
     },

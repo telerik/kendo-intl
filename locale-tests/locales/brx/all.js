@@ -1829,6 +1829,11 @@ const data = {
                 wide: "सम मण्डल",
                 short: "सम मण्डल",
                 narrow: "सम मण्डल"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },

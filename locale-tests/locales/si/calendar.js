@@ -479,6 +479,11 @@ const data = {
                 wide: "වේලා කලාපය",
                 short: "කලාපය",
                 narrow: "කලාපය"
+            },
+            millisecond: {
+                narrow: "මිලිතත් ",
+                short: "මිලිතත් ",
+                wide: "මිලිතත්පර "
             }
         }
     },

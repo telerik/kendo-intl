@@ -1808,6 +1808,11 @@ const data = {
                 wide: "Chinse ‘chimo",
                 short: "Chinse ‘chimo",
                 narrow: "Chinse ‘chimo"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },

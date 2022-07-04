@@ -433,6 +433,11 @@ const data = {
                 wide: "Aseglem asergan",
                 short: "Aseglem asergan",
                 narrow: "Aseglem asergan"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },

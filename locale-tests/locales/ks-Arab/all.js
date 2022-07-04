@@ -1822,6 +1822,11 @@ const data = {
                 wide: "وَکھ زون",
                 short: "وَکھ زون",
                 narrow: "وَکھ زون"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },

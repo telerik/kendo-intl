@@ -1809,6 +1809,11 @@ const data = {
                 wide: "Havundu",
                 short: "Havundu",
                 narrow: "Havundu"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },

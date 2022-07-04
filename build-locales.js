@@ -42,8 +42,9 @@ const loadLocale = (name, intl) => {
     const calendar = require(`cldr-dates-full/main/${ name }/ca-gregorian.json`);
     const timeZoneNames = require(`cldr-dates-full/main/${ name }/timeZoneNames.json`);
     const dateFields = require(`cldr-dates-full/main/${ name }/dateFields.json`);
+    const units = require(`cldr-units-full/main/${ name }/units.json`);
 
-    intl.load(numbers, currencies, calendar, timeZoneNames, dateFields);
+    intl.load(numbers, currencies, calendar, timeZoneNames, dateFields, units);
 };
 
 module.exports.buildLocales = (intl, { contentTemplate = defaultTemplate, extension = 'js', destFolder = 'locales' }) => {

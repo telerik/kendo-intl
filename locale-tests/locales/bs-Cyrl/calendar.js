@@ -470,6 +470,11 @@ const data = {
                 wide: "зона",
                 short: "зона",
                 narrow: "зона"
+            },
+            millisecond: {
+                narrow: "мс",
+                short: "мс",
+                wide: "милисекунди"
             }
         }
     },

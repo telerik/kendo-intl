@@ -1806,6 +1806,11 @@ const data = {
                 wide: "Nzeepu",
                 short: "Nzeepu",
                 narrow: "Nzeepu"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },

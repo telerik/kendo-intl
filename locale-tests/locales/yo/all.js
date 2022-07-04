@@ -1902,6 +1902,11 @@ const data = {
                 wide: "Agbègbè àkókò",
                 short: "Agbègbè àkókò",
                 narrow: "Agbègbè àkókò"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },

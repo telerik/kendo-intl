@@ -465,6 +465,11 @@ const data = {
                 wide: "ល្វែងម៉ោង",
                 short: "ល្វែងម៉ោង",
                 narrow: "ល្វែងម៉ោង"
+            },
+            millisecond: {
+                narrow: "ម.វិ",
+                short: "ម.វិ",
+                wide: "មីលី​វិនាទី"
             }
         }
     },

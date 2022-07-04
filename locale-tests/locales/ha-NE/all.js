@@ -2056,6 +2056,11 @@ const data = {
                 wide: "Lokacin yanki",
                 short: "Lokacin yanki",
                 narrow: "Lokacin yanki"
+            },
+            millisecond: {
+                narrow: "ms ",
+                short: "ms ",
+                wide: "millisakans "
             }
         }
     },

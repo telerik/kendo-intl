@@ -2173,6 +2173,11 @@ const data = {
                 wide: "vaqt mintaqasi",
                 short: "vaqt mintaqasi",
                 narrow: "vaqt mintaqasi"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisoniya"
             }
         }
     },

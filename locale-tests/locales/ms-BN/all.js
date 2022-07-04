@@ -2009,6 +2009,11 @@ const data = {
                 wide: "zon waktu",
                 short: "zon",
                 narrow: "zon"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "milisaat"
             }
         }
     },

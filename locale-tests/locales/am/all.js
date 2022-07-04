@@ -2176,6 +2176,11 @@ const data = {
                 wide: "የሰዓት ሰቅ",
                 short: "የሰዓት ሰቅ",
                 narrow: "የሰዓት ሰቅ"
+            },
+            millisecond: {
+                narrow: "ሚሴ",
+                short: "ሚሴ",
+                wide: "ሚሊሰከንድ"
             }
         }
     },

@@ -478,6 +478,11 @@ const data = {
                 wide: "אזור זמן",
                 short: "אזור",
                 narrow: "אזור"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "אלפיות שנייה"
             }
         }
     },

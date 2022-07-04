@@ -2410,6 +2410,11 @@ const data = {
                 wide: "fuseau horaire",
                 short: "fuseau horaire",
                 narrow: "fuseau horaire"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "millisecondes"
             }
         }
     },

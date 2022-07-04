@@ -429,6 +429,11 @@ const data = {
                 wide: "Кэм балаһата",
                 short: "Кэм балаһата",
                 narrow: "Кэм балаһата"
+            },
+            millisecond: {
+                narrow: "мс",
+                short: "мс",
+                wide: "миллисөкүүндэ"
             }
         }
     },

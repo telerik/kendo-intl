@@ -2175,6 +2175,11 @@ const data = {
                 wide: "цагийн бүс",
                 short: "цагийн бүс",
                 narrow: "цагийн бүс"
+            },
+            millisecond: {
+                narrow: "мс",
+                short: "мс",
+                wide: "миллисекунд"
             }
         }
     },

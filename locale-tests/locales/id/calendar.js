@@ -466,6 +466,11 @@ const data = {
                 wide: "zona waktu",
                 short: "zona wkt",
                 narrow: "zona wkt"
+            },
+            millisecond: {
+                narrow: "md",
+                short: "md",
+                wide: "milidetik"
             }
         }
     },

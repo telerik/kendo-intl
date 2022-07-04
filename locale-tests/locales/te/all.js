@@ -2172,6 +2172,11 @@ const data = {
                 wide: "సమయ మండలి",
                 short: "సమయ మండలి",
                 narrow: "సమయ మండలి"
+            },
+            millisecond: {
+                narrow: "మి.సె",
+                short: "మి.సె",
+                wide: "మిల్లీసెకన్లు"
             }
         }
     },

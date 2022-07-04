@@ -2220,6 +2220,11 @@ const data = {
                 wide: "ਇਲਾਕਾਈ ਵੇਲਾ",
                 short: "ਇਲਾਕਾਈ ਵੇਲਾ",
                 narrow: "ਇਲਾਕਾਈ ਵੇਲਾ"
+            },
+            millisecond: {
+                narrow: "ਮਿ.ਸ.",
+                short: "ਮਿਲੀਸਕਿੰਟ",
+                wide: "ਮਿਲੀਸਕਿੰਟ"
             }
         }
     },

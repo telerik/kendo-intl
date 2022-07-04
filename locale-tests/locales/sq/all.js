@@ -2180,6 +2180,11 @@ const data = {
                 wide: "brezi orar",
                 short: "brezi orar",
                 narrow: "brezi orar"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "milisek.",
+                wide: "milisekonda"
             }
         }
     },

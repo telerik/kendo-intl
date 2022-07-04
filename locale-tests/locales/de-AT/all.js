@@ -2464,6 +2464,11 @@ const data = {
                 wide: "Zeitzone",
                 short: "Zeitzone",
                 narrow: "Zeitz."
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "Millisekunden"
             }
         }
     },

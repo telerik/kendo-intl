@@ -1862,6 +1862,11 @@ const data = {
                 wide: "Mpaghara oge",
                 short: "Mpaghara oge",
                 narrow: "Mpaghara oge"
+            },
+            millisecond: {
+                narrow: "ms",
+                short: "ms",
+                wide: "ms"
             }
         }
     },
