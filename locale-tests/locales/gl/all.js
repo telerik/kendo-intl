@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -80,7 +81,8 @@ const data = {
                 displayName: "afgani afgán",
                 "displayName-count-one": "afgani afgán",
                 "displayName-count-other": "afganis afgáns",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -96,7 +98,8 @@ const data = {
                 displayName: "dram armenio",
                 "displayName-count-one": "dram armenio",
                 "displayName-count-other": "drams armenios",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "florín das Antillas Neerlandesas",
@@ -173,7 +176,8 @@ const data = {
                 displayName: "manat acerbaixano",
                 "displayName-count-one": "manat acerbaixano",
                 "displayName-count-other": "manats acerbaixanos",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -628,8 +632,7 @@ const data = {
                 "displayName-count-one": "lari xeorxiano",
                 "displayName-count-other": "laris xeorxianos",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "GHC",
@@ -639,7 +642,8 @@ const data = {
                 displayName: "cedi ghanés",
                 "displayName-count-one": "cedi ghanés",
                 "displayName-count-other": "cedis ghaneses",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "libra xibraltareña",
@@ -912,7 +916,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "Loti de Lesoto",
+                displayName: "loti de Lesoto",
+                "displayName-count-one": "loti de Lesoto",
+                "displayName-count-other": "lotis de Lesoto",
                 symbol: "LSL"
             },
             LTL: {
@@ -974,9 +980,9 @@ const data = {
                 symbol: "MDC"
             },
             MDL: {
-                displayName: "Leu moldavo",
+                displayName: "leu moldavo",
                 "displayName-count-one": "leu moldavo",
-                "displayName-count-other": "leus moldavos",
+                "displayName-count-other": "lei moldavos",
                 symbol: "MDL"
             },
             MGA: {
@@ -1261,8 +1267,7 @@ const data = {
             },
             RUR: {
                 displayName: "Rublo ruso (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "franco ruandés",
@@ -1333,6 +1338,10 @@ const data = {
                 displayName: "SKK",
                 symbol: "SKK"
             },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
+            },
             SLL: {
                 displayName: "leone de Serra Leoa",
                 "displayName-count-one": "leone de Serra Leoa",
@@ -1396,9 +1405,9 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             SZL: {
-                displayName: "lilangeni de Eswatini",
-                "displayName-count-one": "lilangeni de Suacilandia",
-                "displayName-count-other": "lilangenis de Eswatini",
+                displayName: "lilangeni de Swazilandia",
+                "displayName-count-one": "lilangeni de Swazilandia",
+                "displayName-count-other": "lilangenis de Swazilandia",
                 symbol: "SZL"
             },
             THB: {
@@ -1544,6 +1553,10 @@ const data = {
                 "displayName-count-other": "bolívares venezolanos (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "Bolívar venezolano (2008–2018)",
                 "displayName-count-one": "bolívar venezolano (2008–2018)",
@@ -1637,7 +1650,7 @@ const data = {
                 displayName: "franco CFA (BCEAO)",
                 "displayName-count-one": "franco CFA (BCEAO)",
                 "displayName-count-other": "francos CFA (BCEAO)",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "Paladio",
@@ -1781,6 +1794,7 @@ const data = {
                 Ehms: "E, h:mm:ss a",
                 EHms: "E, HH:mm:ss",
                 Gy: "y G",
+                GyMd: "d/M/y GGGGG",
                 GyMMM: "MMM 'de' y G",
                 GyMMMd: "d 'de' MMM 'de' y G",
                 GyMMMEd: "E, d 'de' MMM 'de' y G",

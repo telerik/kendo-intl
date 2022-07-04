@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -97,7 +98,8 @@ const data = {
                 "displayName-count-few": "afghani Afghanistan",
                 "displayName-count-many": "afghani Afghanistan",
                 "displayName-count-other": "afghani Afghanistan",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -121,7 +123,8 @@ const data = {
                 "displayName-count-few": "dram Armenia",
                 "displayName-count-many": "dram Armenia",
                 "displayName-count-other": "dram Armenia",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Guilder Antilles yr Iseldiroedd",
@@ -274,7 +277,8 @@ const data = {
                 "displayName-count-few": "manat Azerbaijan",
                 "displayName-count-many": "manat Azerbaijan",
                 "displayName-count-other": "manat Azerbaijan",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -616,7 +620,7 @@ const data = {
             CAD: {
                 displayName: "Doler Canada",
                 "displayName-count-zero": "doler Canada",
-                "displayName-count-one": "ddoler Canada",
+                "displayName-count-one": "doler Canada",
                 "displayName-count-two": "doler Canada",
                 "displayName-count-few": "doler Canada",
                 "displayName-count-many": "doler Canada",
@@ -914,7 +918,7 @@ const data = {
             EGP: {
                 displayName: "Punt Yr Aifft",
                 "displayName-count-zero": "punt yr Aifft",
-                "displayName-count-one": "bunt yr Aifft",
+                "displayName-count-one": "punt yr Aifft",
                 "displayName-count-two": "bunt yr Aifft",
                 "displayName-count-few": "punt yr Aifft",
                 "displayName-count-many": "punt yr Aifft",
@@ -1038,8 +1042,7 @@ const data = {
                 "displayName-count-many": "lari Georgia",
                 "displayName-count-other": "lari Georgia",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "Cedi Ghana (1979–2007)",
@@ -1059,7 +1062,8 @@ const data = {
                 "displayName-count-few": "cedi Ghana",
                 "displayName-count-many": "cedi Ghana",
                 "displayName-count-other": "cedi Ghana",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Punt Gibraltar",
@@ -1703,7 +1707,7 @@ const data = {
                 "symbol-alt-narrow": "₮"
             },
             MOP: {
-                displayName: "Pataca Macau",
+                displayName: "pataca Macau",
                 "displayName-count-zero": "pataca Macau",
                 "displayName-count-one": "pataca Macau",
                 "displayName-count-two": "pataca Macau",
@@ -2109,8 +2113,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Ffranc Rwanda",
@@ -2167,7 +2170,7 @@ const data = {
             SDG: {
                 displayName: "Punt Sudan",
                 "displayName-count-zero": "punt Sudan",
-                "displayName-count-one": "bunt Sudan",
+                "displayName-count-one": "punt Sudan",
                 "displayName-count-two": "bunt Sudan",
                 "displayName-count-few": "punt Sudan",
                 "displayName-count-many": "punt Sudan",
@@ -2209,7 +2212,7 @@ const data = {
             SHP: {
                 displayName: "Punt St Helena",
                 "displayName-count-zero": "punt St. Helena",
-                "displayName-count-one": "bunt St. Helena",
+                "displayName-count-one": "punt St. Helena",
                 "displayName-count-two": "bunt St. Helena",
                 "displayName-count-few": "punt St. Helena",
                 "displayName-count-many": "punt St. Helena",
@@ -2224,6 +2227,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Leone Sierra Leone",
@@ -2584,6 +2591,10 @@ const data = {
                 "displayName-count-other": "bolívar Venezuela (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "Bolívar Venezuela (2008–2018)",
                 "displayName-count-zero": "bolívar Venezuela (2008–2018)",
@@ -2733,7 +2744,7 @@ const data = {
                 "displayName-count-few": "ffranc CFA Gorllewin Affrica",
                 "displayName-count-many": "ffranc CFA Gorllewin Affrica",
                 "displayName-count-other": "ffranc CFA Gorllewin Affrica",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "Paladiwm",
@@ -2951,6 +2962,7 @@ const data = {
                 Ehms: "E, h:mm:ss a",
                 EHms: "E, HH:mm:ss",
                 Gy: "y G",
+                GyMd: "M/d/y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E, d MMM y G",
@@ -3316,7 +3328,7 @@ const data = {
             },
             quarter: {
                 wide: "chwarter",
-                short: "chwarter",
+                short: "chw.",
                 narrow: "chw."
             },
             month: {

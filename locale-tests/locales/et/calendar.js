@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "d.MM.y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d. MMM y G",
                 GyMMMEd: "E, d. MMMM y G",
@@ -123,13 +124,13 @@ const data = {
                     "L"
                 ],
                 wide: [
-                    "pühapäev",
-                    "esmaspäev",
-                    "teisipäev",
-                    "kolmapäev",
-                    "neljapäev",
-                    "reede",
-                    "laupäev"
+                    "Pühapäev",
+                    "Esmaspäev",
+                    "Teisipäev",
+                    "Kolmapäev",
+                    "Neljapäev",
+                    "Reede",
+                    "Laupäev"
                 ]
             },
             "stand-alone": {
@@ -161,13 +162,13 @@ const data = {
                     "L"
                 ],
                 wide: [
-                    "pühapäev",
-                    "esmaspäev",
-                    "teisipäev",
-                    "kolmapäev",
-                    "neljapäev",
-                    "reede",
-                    "laupäev"
+                    "Pühapäev",
+                    "Esmaspäev",
+                    "Teisipäev",
+                    "Kolmapäev",
+                    "Neljapäev",
+                    "Reede",
+                    "Laupäev"
                 ]
             }
         },

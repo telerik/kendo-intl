@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "G y MMM",
                 GyMMMd: "G y MMM d",
                 GyMMMEd: "G y MMM d, E",
@@ -341,13 +342,13 @@ const data = {
                     "0": "в. э. тӀ. я",
                     "1": "в. э",
                     "0-alt-variant": "МАССО",
-                    "1-alt-variant": "CE"
+                    "1-alt-variant": "в. э"
                 },
                 narrow: {
                     "0": "в. э. тӀ. я",
                     "1": "в. э",
                     "0-alt-variant": "МАССО",
-                    "1-alt-variant": "CE"
+                    "1-alt-variant": "в. э"
                 }
             }
         },

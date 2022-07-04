@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -93,7 +94,8 @@ const data = {
                 "displayName-count-two": "afghani Afghanach",
                 "displayName-count-few": "afghani Afghanach",
                 "displayName-count-other": "afghani Afghanach",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "Lek Albàineach (1946–1965)",
@@ -117,7 +119,8 @@ const data = {
                 "displayName-count-two": "dhram Airmeineach",
                 "displayName-count-few": "dram Airmeineach",
                 "displayName-count-other": "dram Airmeineach",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Gulden Eileanan Aintilia nan Tìrean Ìsle",
@@ -240,7 +243,8 @@ const data = {
                 "displayName-count-two": "mhanat Asarbaideànach",
                 "displayName-count-few": "manat Asarbaideànach",
                 "displayName-count-other": "manat Asarbaideànach",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "Dinar Bhosna agus Hearsagobhana (1992–1994)",
@@ -916,7 +920,8 @@ const data = {
                 "displayName-count-two": "chedi Gànach",
                 "displayName-count-few": "cedi Gànach",
                 "displayName-count-other": "cedi Gànach",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Punnd Diobraltarach",
@@ -1936,6 +1941,10 @@ const data = {
                 "displayName-count-other": "koruna Slòbhacach",
                 symbol: "SKK"
             },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
+            },
             SLL: {
                 displayName: "Leone Siarra Leòmhannach",
                 "displayName-count-one": "leone Siarra Leòmhannach",
@@ -2222,7 +2231,7 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             UYW: {
-                displayName: "aonad inneacs tuarastail ainmeach Uruguaidh",
+                displayName: "Aonad inneacs tuarastail ainmeach Uruguaidh",
                 "displayName-count-one": "aonad inneacs tuarastail ainmeach Uruguaidh",
                 "displayName-count-two": "aonad inneacs tuarastail ainmeach Uruguaidh",
                 "displayName-count-few": "aonadan inneacs tuarastail ainmeach Uruguaidh",
@@ -2244,6 +2253,10 @@ const data = {
                 "displayName-count-few": "bolívar Bheinisealach (1871–2008)",
                 "displayName-count-other": "bolívar Bheinisealach (1871–2008)",
                 symbol: "VEB"
+            },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
             },
             VEF: {
                 displayName: "Bolívar Bheinisealach (2008–2018)",
@@ -2398,7 +2411,7 @@ const data = {
                 "displayName-count-two": "fhranc CFA Afraga an Iar",
                 "displayName-count-few": "franc CFA Afraga an Iar",
                 "displayName-count-other": "franc CFA Afraga an Iar",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "Pallaideam",
@@ -2624,6 +2637,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "d/M/y GGGGG",
                 GyMMM: "LLL y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E, d MMM y G",
@@ -2924,20 +2938,20 @@ const data = {
                 wide: {
                     "0": "Ro Chrìosta",
                     "1": "An dèidh Chrìosta",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "RC",
+                    "1-alt-variant": "AD"
                 },
                 abbreviated: {
                     "0": "RC",
                     "1": "AD",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "RC",
+                    "1-alt-variant": "AD"
                 },
                 narrow: {
                     "0": "R",
                     "1": "A",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "RC",
+                    "1-alt-variant": "AD"
                 }
             }
         },

@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "d/M/y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM, y G",
                 GyMMMEd: "E, d MMM, y G",
@@ -332,22 +333,22 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    "0": "BCE",
-                    "1": "d.C.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0": "ñawpa cristu",
+                    "1": "chanta cristu",
+                    "0-alt-variant": "Ñawpa Kaqlla Era",
+                    "1-alt-variant": "kaqlla era"
                 },
                 abbreviated: {
-                    "0": "BCE",
+                    "0": "a.d.",
                     "1": "d.C.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "ACE",
+                    "1-alt-variant": "ec"
                 },
                 narrow: {
-                    "0": "BCE",
+                    "0": "a.d.",
                     "1": "dC",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "ACE",
+                    "1-alt-variant": "ec"
                 }
             }
         },

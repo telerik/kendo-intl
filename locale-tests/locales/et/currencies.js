@@ -31,7 +31,8 @@ const data = {
                 displayName: "Afganistani afgaani",
                 "displayName-count-one": "Afganistani afgaani",
                 "displayName-count-other": "Afganistani afgaanit",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "Albaania lekk (1946–1965)",
@@ -49,7 +50,8 @@ const data = {
                 displayName: "Armeenia dramm",
                 "displayName-count-one": "Armeenia dramm",
                 "displayName-count-other": "Armeenia drammi",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Hollandi Antillide kulden",
@@ -136,7 +138,8 @@ const data = {
                 displayName: "Aserbaidžaani manat",
                 "displayName-count-one": "Aserbaidžaani manat",
                 "displayName-count-other": "Aserbaidžaani manatit",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "Bosnia ja Hertsegoviina dinaar (1992–1994)",
@@ -331,8 +334,7 @@ const data = {
                 displayName: "Valgevene rubla",
                 "displayName-count-one": "Valgevene rubla",
                 "displayName-count-other": "Valgevene rubla",
-                symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                symbol: "BYN"
             },
             BYR: {
                 displayName: "Valgevene rubla (2000–2016)",
@@ -620,7 +622,8 @@ const data = {
                 displayName: "Ghana sedi",
                 "displayName-count-one": "Ghana sedi",
                 "displayName-count-other": "Ghana sedit",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Gibraltari nael",
@@ -998,8 +1001,8 @@ const data = {
                 "symbol-alt-narrow": "Ar"
             },
             MGF: {
-                displayName: "Madagaskar frank",
-                "displayName-count-one": "Madagaskar frank",
+                displayName: "Madagaskari frank",
+                "displayName-count-one": "Madagaskari frank",
                 "displayName-count-other": "Madagaskar franki",
                 symbol: "MGF"
             },
@@ -1300,8 +1303,7 @@ const data = {
             },
             RUR: {
                 displayName: "Venemaa rubla (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Rwanda frank",
@@ -1379,6 +1381,10 @@ const data = {
                 "displayName-count-one": "Slovaki kroon",
                 "displayName-count-other": "Slovaki krooni",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Sierra Leone leoone",
@@ -1603,6 +1609,10 @@ const data = {
                 "displayName-count-other": "Venezuela boliivarit (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "Venezuela boliivar (2008–2018)",
                 "displayName-count-one": "Venezuela boliivar (2008–2018)",
@@ -1706,7 +1716,7 @@ const data = {
                 displayName: "Lääne-Aafrika CFA frank",
                 "displayName-count-one": "Lääne-Aafrika CFA frank",
                 "displayName-count-other": "Lääne-Aafrika CFA franki",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "pallaadium",

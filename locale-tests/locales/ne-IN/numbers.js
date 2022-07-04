@@ -16,6 +16,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -28,7 +29,8 @@ const data = {
                 "n"
             ],
             groupSize: [
-                3
+                3,
+                2
             ]
         },
         scientific: {
@@ -42,7 +44,8 @@ const data = {
                 "n%"
             ],
             groupSize: [
-                3
+                3,
+                2
             ]
         },
         currency: {
@@ -50,7 +53,8 @@ const data = {
                 "$ n"
             ],
             groupSize: [
-                3
+                3,
+                2
             ],
             "unitPattern-count-one": "n $",
             "unitPattern-count-other": "n $"
@@ -60,7 +64,8 @@ const data = {
                 "$ n"
             ],
             groupSize: [
-                3
+                3,
+                2
             ]
         }
     }

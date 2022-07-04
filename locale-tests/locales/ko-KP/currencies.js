@@ -26,7 +26,8 @@ const data = {
             AFN: {
                 displayName: "아프가니스탄 아프가니",
                 "displayName-count-other": "아프가니스탄 아프가니",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -40,7 +41,8 @@ const data = {
             AMD: {
                 displayName: "아르메니아 드람",
                 "displayName-count-other": "아르메니아 드람",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "네덜란드령 안틸레스 길더",
@@ -109,7 +111,8 @@ const data = {
             AZN: {
                 displayName: "아제르바이잔 마나트",
                 "displayName-count-other": "아제르바이잔 마나트",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "보스니아-헤르체고비나 디나르",
@@ -220,7 +223,7 @@ const data = {
             },
             BRL: {
                 displayName: "브라질 레알",
-                "displayName-count-other": "브라질 헤알",
+                "displayName-count-other": "브라질 레알",
                 symbol: "R$",
                 "symbol-alt-narrow": "R$"
             },
@@ -480,8 +483,8 @@ const data = {
                 symbol: "FRF"
             },
             GBP: {
-                displayName: "파운드",
-                "displayName-count-other": "영국령 파운드 스털링",
+                displayName: "영국 파운드",
+                "displayName-count-other": "영국 파운드",
                 symbol: "£",
                 "symbol-alt-narrow": "£"
             },
@@ -493,8 +496,7 @@ const data = {
                 displayName: "조지아 라리",
                 "displayName-count-other": "조지아 라리",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "가나 시디 (1979–2007)",
@@ -503,7 +505,8 @@ const data = {
             GHS: {
                 displayName: "가나 시디",
                 "displayName-count-other": "가나 시디",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "지브롤터 파운드",
@@ -743,6 +746,7 @@ const data = {
             },
             LSL: {
                 displayName: "레소토 로티",
+                "displayName-count-other": "레소토 로티",
                 symbol: "LSL"
             },
             LTL: {
@@ -1051,8 +1055,7 @@ const data = {
             },
             RUR: {
                 displayName: "러시아 루블 (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "르완다 프랑",
@@ -1114,6 +1117,10 @@ const data = {
             SKK: {
                 displayName: "슬로바키아 코루나",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "시에라리온 리온",
@@ -1298,6 +1305,10 @@ const data = {
                 displayName: "베네주엘라 볼리바르 (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "베네수엘라 볼리바르 (2008–2018)",
                 "displayName-count-other": "베네수엘라 볼리바르 (2008–2018)",
@@ -1383,7 +1394,7 @@ const data = {
             XOF: {
                 displayName: "서아프리카 CFA 프랑",
                 "displayName-count-other": "서아프리카 CFA 프랑",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "팔라듐",

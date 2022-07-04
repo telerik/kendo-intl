@@ -43,6 +43,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "G y MMM",
                 GyMMMd: "G y MMM d",
                 GyMMMEd: "G y MMM d, E",
@@ -171,18 +172,18 @@ const data = {
         months: {
             format: {
                 abbreviated: [
-                    "luukao kemã",
-                    "ɓandaɓu",
-                    "vɔɔ",
-                    "fulu",
-                    "goo",
-                    "6",
-                    "7",
-                    "kɔnde",
-                    "saah",
-                    "galo",
-                    "kenpkato ɓololɔ",
-                    "luukao lɔma"
+                    "M01",
+                    "M02",
+                    "M03",
+                    "M04",
+                    "M05",
+                    "M06",
+                    "M07",
+                    "M08",
+                    "M09",
+                    "M10",
+                    "M11",
+                    "M12"
                 ],
                 narrow: [
                     "1",
@@ -199,34 +200,34 @@ const data = {
                     "12"
                 ],
                 wide: [
-                    "luukao kemã",
-                    "ɓandaɓu",
-                    "vɔɔ",
-                    "fulu",
-                    "goo",
-                    "6",
-                    "7",
-                    "kɔnde",
-                    "saah",
-                    "galo",
-                    "kenpkato ɓololɔ",
-                    "luukao lɔma"
+                    "M01",
+                    "M02",
+                    "M03",
+                    "M04",
+                    "M05",
+                    "M06",
+                    "M07",
+                    "M08",
+                    "M09",
+                    "M10",
+                    "M11",
+                    "M12"
                 ]
             },
             "stand-alone": {
                 abbreviated: [
-                    "luukao kemã",
-                    "ɓandaɓu",
-                    "vɔɔ",
-                    "fulu",
-                    "goo",
-                    "6",
-                    "7",
-                    "kɔnde",
-                    "saah",
-                    "galo",
-                    "kenpkato ɓololɔ",
-                    "luukao lɔma"
+                    "M01",
+                    "M02",
+                    "M03",
+                    "M04",
+                    "M05",
+                    "M06",
+                    "M07",
+                    "M08",
+                    "M09",
+                    "M10",
+                    "M11",
+                    "M12"
                 ],
                 narrow: [
                     "1",
@@ -243,18 +244,18 @@ const data = {
                     "12"
                 ],
                 wide: [
-                    "luukao kemã",
-                    "ɓandaɓu",
-                    "vɔɔ",
-                    "fulu",
-                    "goo",
-                    "6",
-                    "7",
-                    "kɔnde",
-                    "saah",
-                    "galo",
-                    "kenpkato ɓololɔ",
-                    "luukao lɔma"
+                    "M01",
+                    "M02",
+                    "M03",
+                    "M04",
+                    "M05",
+                    "M06",
+                    "M07",
+                    "M08",
+                    "M09",
+                    "M10",
+                    "M11",
+                    "M12"
                 ]
             }
         },

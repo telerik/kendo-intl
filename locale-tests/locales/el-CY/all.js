@@ -13,6 +13,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "e",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -83,7 +84,8 @@ const data = {
                 displayName: "Αφγάνι Αφγανιστάν",
                 "displayName-count-one": "αφγάνι Αφγανιστάν",
                 "displayName-count-other": "αφγάνια Αφγανιστάν",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -99,7 +101,8 @@ const data = {
                 displayName: "Ντραμ Αρμενίας",
                 "displayName-count-one": "ντραμ Αρμενίας",
                 "displayName-count-other": "ντραμ Αρμενίας",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Γκίλντα Ολλανδικών Αντιλλών",
@@ -186,7 +189,8 @@ const data = {
                 displayName: "Μανάτ Αζερμπαϊτζάν",
                 "displayName-count-one": "μανάτ Αζερμπαϊτζάν",
                 "displayName-count-other": "μανάτ Αζερμπαϊτζάν",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "Δηνάριο Βοσνίας-Ερζεγοβίνης",
@@ -670,8 +674,7 @@ const data = {
                 "displayName-count-one": "λάρι Γεωργίας",
                 "displayName-count-other": "λάρι Γεωργίας",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "Σέντι Γκάνας (1979–2007)",
@@ -683,7 +686,8 @@ const data = {
                 displayName: "Σέντι Γκάνας",
                 "displayName-count-one": "σέντι Γκάνας",
                 "displayName-count-other": "σέντι Γκάνας",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Λίρα Γιβραλτάρ",
@@ -980,8 +984,8 @@ const data = {
             },
             LSL: {
                 displayName: "Λότι Λεσότο",
-                "displayName-count-one": "λότι Λεσόθο",
-                "displayName-count-other": "λότι Λεσόθο",
+                "displayName-count-one": "λότι Λεσότο",
+                "displayName-count-other": "λότι Λεσότο",
                 symbol: "LSL"
             },
             LTL: {
@@ -1366,8 +1370,7 @@ const data = {
                 displayName: "Ρούβλι Ρωσίας (1991–1998)",
                 "displayName-count-one": "ρούβλι Ρωσίας (RUR)",
                 "displayName-count-other": "ρούβλια Ρωσίας (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Φράγκο Ρουάντας",
@@ -1445,6 +1448,10 @@ const data = {
                 "displayName-count-one": "κορόνα Σλοβενίας",
                 "displayName-count-other": "κορόνες Σλοβενίας",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Λεόνε Σιέρα Λεόνε",
@@ -1677,6 +1684,10 @@ const data = {
                 "displayName-count-other": "μπολιβάρ Βενεζουέλας (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "Μπολιβάρ Βενεζουέλας (2008–2018)",
                 "displayName-count-one": "μπολιβάρ Βενεζουέλας (2008–2018)",
@@ -1786,7 +1797,7 @@ const data = {
                 displayName: "Φράγκο CFA Δυτικής Αφρικής",
                 "displayName-count-one": "φράγκο CFA Δυτικής Αφρικής",
                 "displayName-count-other": "φράγκα CFA Δυτικής Αφρικής",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",
@@ -1918,12 +1929,12 @@ const data = {
     calendar: {
         patterns: {
             d: "d/M/y",
-            D: "EEEE, d MMMM y",
+            D: "EEEE d MMMM y",
             m: "d MMM",
             M: "d MMMM",
             y: "MMM y",
             Y: "LLLL y",
-            F: "EEEE, d MMMM y h:mm:ss a",
+            F: "EEEE d MMMM y h:mm:ss a",
             g: "d/M/y h:mm a",
             G: "d/M/y h:mm:ss a",
             t: "h:mm a",
@@ -1950,9 +1961,10 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "d/M/y GGGGG",
                 GyMMM: "LLL y G",
                 GyMMMd: "d MMM y G",
-                GyMMMEd: "E, d MMM y G",
+                GyMMMEd: "E d MMM y G",
                 h: "h a",
                 H: "HH",
                 hm: "h:mm a",
@@ -1965,25 +1977,25 @@ const data = {
                 Hmv: "HH:mm v",
                 M: "L",
                 Md: "d/M",
-                MEd: "E, d/M",
+                MEd: "E d/M",
                 MMM: "MMM",
                 MMMd: "d MMM",
-                MMMEd: "E, d MMM",
+                MMMEd: "E d MMM",
                 MMMMd: "d MMMM",
-                MMMMEd: "E, d MMMM",
+                MMMMEd: "E d MMMM",
                 "MMMMW-count-one": "εβδομάδα W του MMMM",
                 "MMMMW-count-other": "εβδομάδα W του MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M/y",
                 yMd: "d/M/y",
-                yMEd: "E, d/M/y",
+                yMEd: "E d/M/y",
                 yMMM: "MMM y",
                 yMMMd: "d MMM y",
-                yMMMEd: "E, d MMM y",
+                yMMMEd: "E d MMM y",
                 yMMMM: "LLLL y",
-                yQQQ: "y QQQ",
-                yQQQQ: "y QQQQ",
+                yQQQ: "QQQ y",
+                yQQQQ: "QQQQ y",
                 "yw-count-one": "εβδομάδα w του Y",
                 "yw-count-other": "εβδομάδα w του Y"
             }
@@ -1995,7 +2007,7 @@ const data = {
             short: "h:mm a"
         },
         dateFormats: {
-            full: "EEEE, d MMMM y",
+            full: "EEEE d MMMM y",
             long: "d MMMM y",
             medium: "d MMM y",
             short: "d/M/yy"

@@ -43,6 +43,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "dd/MM/y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E d MMM y G",
@@ -79,11 +80,11 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'seachtain' 'a' w 'i' Y",
-                "yw-count-two": "'seachtain' 'a' w 'i' Y",
-                "yw-count-few": "'seachtain' 'a' w 'i' Y",
-                "yw-count-many": "'seachtain' 'a' w 'i' Y",
-                "yw-count-other": "'seachtain' 'a' w 'i' Y"
+                "yw-count-one": "'seachtain' 'a' w 'in' Y",
+                "yw-count-two": "'seachtain' 'a' w 'in' Y",
+                "yw-count-few": "'seachtain' 'a' w 'in' Y",
+                "yw-count-many": "'seachtain' 'a' w 'in' Y",
+                "yw-count-other": "'seachtain' 'a' w 'in' Y"
             }
         },
         timeFormats: {
@@ -364,27 +365,27 @@ const data = {
         gmtZeroFormat: "MAG",
         dateFields: {
             era: {
-                wide: "Ré",
+                wide: "ré",
                 short: "ré",
                 narrow: "ré"
             },
             year: {
-                wide: "Bliain",
+                wide: "bliain",
                 short: "bl.",
                 narrow: "bl."
             },
             quarter: {
-                wide: "Ráithe",
+                wide: "ráithe",
                 short: "ráithe",
                 narrow: "ráithe"
             },
             month: {
-                wide: "Mí",
+                wide: "mí",
                 short: "mí",
                 narrow: "mí"
             },
             week: {
-                wide: "Seachtain",
+                wide: "seachtain",
                 short: "scht.",
                 narrow: "scht."
             },

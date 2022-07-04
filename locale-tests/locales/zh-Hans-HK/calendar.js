@@ -44,6 +44,7 @@ const data = {
                 Ehms: "Eah:mm:ss",
                 EHms: "EHH:mm:ss",
                 Gy: "Gy年",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "Gy年M月",
                 GyMMMd: "Gy年M月d日",
                 GyMMMEd: "Gy年M月d日E",
@@ -73,6 +74,7 @@ const data = {
                 yM: "M/y",
                 yMd: "d/M/y",
                 yMEd: "d/M/y（E）",
+                yMEEEEd: "y年M月d日EEEE",
                 yMM: "MM/y",
                 yMMM: "y年M月",
                 yMMMd: "y年M月d日",
@@ -382,20 +384,20 @@ const data = {
                 wide: {
                     "0": "公元前",
                     "1": "公元",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "公元前",
+                    "1-alt-variant": "公元"
                 },
                 abbreviated: {
                     "0": "公元前",
                     "1": "公元",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "公元前",
+                    "1-alt-variant": "公元"
                 },
                 narrow: {
                     "0": "公元前",
                     "1": "公元",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "公元前",
+                    "1-alt-variant": "公元"
                 }
             }
         },

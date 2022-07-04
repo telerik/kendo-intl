@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E H:mm:ss",
                 Gy: "y G",
+                GyMd: "y/M/d GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E d MMM y G",
@@ -176,13 +177,13 @@ const data = {
         months: {
             format: {
                 abbreviated: [
-                    "ژانویهٔ",
-                    "فوریهٔ",
+                    "ژانویه",
+                    "فوریه",
                     "مارس",
                     "آوریل",
-                    "مهٔ",
+                    "مه",
                     "ژوئن",
-                    "ژوئیهٔ",
+                    "ژوئیه",
                     "اوت",
                     "سپتامبر",
                     "اکتبر",
@@ -332,7 +333,7 @@ const data = {
                     pm: "بعدازظهر",
                     morning1: "بامداد",
                     morning2: "صبح",
-                    afternoon1: "ظهر",
+                    afternoon1: "بعدازظهر",
                     afternoon2: "عصر",
                     night1: "شب",
                     night2: "نیمه‌شب"
@@ -447,9 +448,9 @@ const data = {
                 narrow: "روز کاری ماه"
             },
             dayperiod: {
-                short: "قبل/بعدازظهر",
-                wide: "قبل/بعدازظهر",
-                narrow: "قبل/بعدازظهر"
+                short: "ق.ظ/ب.ظ",
+                wide: "ق.ظ/ب.ظ",
+                narrow: "ق.ظ/ب.ظ"
             },
             hour: {
                 wide: "ساعت",

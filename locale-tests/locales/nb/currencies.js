@@ -31,7 +31,8 @@ const data = {
                 displayName: "afghanske afghani",
                 "displayName-count-one": "afghansk afghani",
                 "displayName-count-other": "afghanske afghani",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "albanske lek (1946–1965)",
@@ -49,7 +50,8 @@ const data = {
                 displayName: "armenske dram",
                 "displayName-count-one": "armensk dram",
                 "displayName-count-other": "armenske dram",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "nederlandske antillegylden",
@@ -142,7 +144,8 @@ const data = {
                 displayName: "aserbajdsjanske manat",
                 "displayName-count-one": "aserbajdsjansk manat",
                 "displayName-count-other": "aserbajdsjanske manat",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "bosnisk-hercegovinske dinarer (1992–1994)",
@@ -640,8 +643,7 @@ const data = {
                 "displayName-count-one": "georgisk lari",
                 "displayName-count-other": "georgiske lari",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "ghanesisk cedi (1979–2007)",
@@ -653,7 +655,8 @@ const data = {
                 displayName: "ghanesiske cedi",
                 "displayName-count-one": "ghanesisk cedi",
                 "displayName-count-other": "ghanesiske cedi",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "gibraltarske pund",
@@ -1018,9 +1021,9 @@ const data = {
                 symbol: "MAF"
             },
             MCF: {
-                displayName: "MCF",
-                "displayName-count-one": "MCF",
-                "displayName-count-other": "MCF",
+                displayName: "monegaskiske franc",
+                "displayName-count-one": "monegaskisk franc",
+                "displayName-count-other": "monegaskiske franc",
                 symbol: "MCF"
             },
             MDC: {
@@ -1351,8 +1354,7 @@ const data = {
                 displayName: "russiske rubler (1991–1998)",
                 "displayName-count-one": "russisk rubel (1991–1998)",
                 "displayName-count-other": "russiske rubler (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "rwandiske franc",
@@ -1430,6 +1432,10 @@ const data = {
                 "displayName-count-one": "slovakisk koruna",
                 "displayName-count-other": "slovakiske koruna",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "sierraleonske leone",
@@ -1664,6 +1670,10 @@ const data = {
                 "displayName-count-other": "venezuelanske bolivar (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "venezuelanske bolivar (2008–2018)",
                 "displayName-count-one": "venezuelansk bolivar (2008–2018)",
@@ -1779,7 +1789,7 @@ const data = {
                 displayName: "vestafrikanske CFA-franc",
                 "displayName-count-one": "vestafrikansk CFA-franc",
                 "displayName-count-other": "vestafrikanske CFA-franc",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "palladium",

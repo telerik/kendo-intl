@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -82,7 +83,8 @@ const data = {
                 displayName: "Afghanesch Afghani",
                 "displayName-count-one": "Afghanesch Afghani",
                 "displayName-count-other": "Afghanesch Afghani",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -98,7 +100,8 @@ const data = {
                 displayName: "Armeneschen Dram",
                 "displayName-count-one": "Armeneschen Dram",
                 "displayName-count-other": "Armenesch Dram",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Antillen-Gulden",
@@ -187,7 +190,8 @@ const data = {
                 displayName: "Aserbaidschan-Manat",
                 "displayName-count-one": "Aserbaidschan-Manat",
                 "displayName-count-other": "Aserbaidschan-Manat",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "Bosnien an Herzegowina Dinar (1992–1994)",
@@ -386,8 +390,7 @@ const data = {
                 displayName: "Wäissrussesche Rubel",
                 "displayName-count-one": "Wäissrussesche Rubel",
                 "displayName-count-other": "Wäissrussesch Rubel",
-                symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                symbol: "BYN"
             },
             BYR: {
                 displayName: "Wäissrussesche Rubel (2000–2016)",
@@ -685,7 +688,8 @@ const data = {
                 displayName: "Ghanaeschen Cedi",
                 "displayName-count-one": "Ghanaeschen Cedi",
                 "displayName-count-other": "Ghanaesch Cedi",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Gibraltar-Pond",
@@ -1367,8 +1371,7 @@ const data = {
                 displayName: "Russesche Rubel (1991–1998)",
                 "displayName-count-one": "Russesche Rubel (1991–1998)",
                 "displayName-count-other": "Russesch Rubel (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Ruanda-Frang",
@@ -1446,6 +1449,10 @@ const data = {
                 "displayName-count-one": "Slowakesch Kroun",
                 "displayName-count-other": "Slowakesch Krounen",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Sierra-leonesche Leone",
@@ -1678,6 +1685,10 @@ const data = {
                 "displayName-count-other": "Venezolanesch Bolívares (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "Venezolanesche Bolívar (2008–2018)",
                 "displayName-count-one": "Venezolanesche Bolívar (2008–2018)",
@@ -1791,7 +1802,7 @@ const data = {
                 displayName: "CFA-Frang (BCEAO)",
                 "displayName-count-one": "CFA-Frang (BCEAO)",
                 "displayName-count-other": "CFA-Frang (BCEAO)",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "Onz Palladium",
@@ -1965,6 +1976,7 @@ const data = {
                 Ehms: "E, h:mm:ss a",
                 EHms: "E, HH:mm:ss",
                 Gy: "y G",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "MMM y G",
                 GyMMMd: "d. MMM y G",
                 GyMMMEd: "E, d. MMM y G",

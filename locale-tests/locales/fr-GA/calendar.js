@@ -27,7 +27,7 @@ const data = {
         dateTimeFormats: {
             full: "{1} 'à' {0}",
             long: "{1} 'à' {0}",
-            medium: "{1} 'à' {0}",
+            medium: "{1}, {0}",
             short: "{1} {0}",
             availableFormats: {
                 Bh: "h B",
@@ -43,6 +43,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "dd/MM/y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E d MMM y G",

@@ -43,6 +43,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "d/M/y GGGGG",
                 GyMMM: "G y MMM",
                 GyMMMd: "G y MMM d",
                 GyMMMEd: "G y MMM d, E",
@@ -112,13 +113,13 @@ const data = {
                     "À"
                 ],
                 short: [
-                    "Àìkú",
-                    "Ajé",
-                    "Ìsɛ́gun",
-                    "Ɔjɔ́rú",
-                    "Ɔjɔ́bɔ",
-                    "Ɛtì",
-                    "Àbámɛ́ta"
+                    "Àìk",
+                    "Aj",
+                    "Ìsɛ́g",
+                    "Ɔjɔ́r",
+                    "Ɔjɔ́b",
+                    "Ɛt",
+                    "Àbám"
                 ],
                 wide: [
                     "Ɔjɔ́ Àìkú",
@@ -150,13 +151,13 @@ const data = {
                     "À"
                 ],
                 short: [
-                    "Àìkú",
-                    "Ajé",
-                    "Ìsɛ́gun",
-                    "Ɔjɔ́rú",
-                    "Ɔjɔ́bɔ",
-                    "Ɛtì",
-                    "Àbámɛ́ta"
+                    "Àìk",
+                    "Aj",
+                    "Ìsɛ́g",
+                    "Ɔjɔ́r",
+                    "Ɔjɔ́b",
+                    "Ɛt",
+                    "Àbám"
                 ],
                 wide: [
                     "Àìkú",
@@ -336,7 +337,7 @@ const data = {
                 wide: {
                     "0": "Saju Kristi",
                     "1": "Lehin Kristi",
-                    "0-alt-variant": "BCE",
+                    "0-alt-variant": "Sáájú ìgbà mímɔ̀",
                     "1-alt-variant": "CE"
                 },
                 abbreviated: {
@@ -357,9 +358,9 @@ const data = {
         gmtZeroFormat: "WAT",
         dateFields: {
             era: {
-                wide: "Ìgbà",
-                short: "Ìgbà",
-                narrow: "Ìgbà"
+                wide: "sáà",
+                short: "sáà",
+                narrow: "Sáà"
             },
             year: {
                 wide: "Ɔdún",
@@ -382,9 +383,9 @@ const data = {
                 narrow: "Ɔ̀sɛ̀"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "Ɔshɛ̀ inú Oshù",
+                short: "Ɔshɛ̀ inú Oshù",
+                narrow: "Ɔshɛ̀ inú Oshù"
             },
             day: {
                 wide: "Ɔjɔ́",
@@ -392,19 +393,19 @@ const data = {
                 narrow: "Ɔjɔ́"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "Ɔjɔ́ inú ɔdún",
+                short: "Ɔjɔ́ inú ɔd.",
+                narrow: "Ɔjɔ́ inú ɔd."
             },
             weekday: {
                 wide: "Ɔjɔ́ tó wà láàárín ɔ̀sɛ̀",
-                short: "Ɔjɔ́ tó wà láàárín ɔ̀sɛ̀",
-                narrow: "Ɔjɔ́ tó wà láàárín ɔ̀sɛ̀"
+                short: "ɔjɔ́ inú ɔshɛ̀.",
+                narrow: "ɔjɔ́ inú ɔshɛ̀."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "ɔjɔ́ ɔshɛ̀ inú oshù",
+                short: "ɔjɔ́ ɔshɛ̀ inú oshù",
+                narrow: "ɔjɔ́ ɔshɛ̀ inú oshù"
             },
             dayperiod: {
                 short: "Àárɔ̀/ɔ̀sán",

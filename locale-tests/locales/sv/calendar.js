@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "y-MM-dd GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E d MMM y G",
@@ -84,7 +85,7 @@ const data = {
             }
         },
         timeFormats: {
-            full: "'kl'. HH:mm:ss zzzz",
+            full: "HH:mm:ss zzzz",
             "full-alt-variant": "'kl'. HH.mm.ss zzzz",
             long: "HH:mm:ss z",
             "long-alt-variant": "HH.mm.ss z",

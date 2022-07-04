@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -79,7 +80,8 @@ const data = {
                 displayName: "i-Afghan Afghani",
                 "displayName-count-one": "i-Afghan Afghani",
                 "displayName-count-other": "i-Afghan Afghani",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -95,7 +97,8 @@ const data = {
                 displayName: "i-Armenian Dram",
                 "displayName-count-one": "i-Armenian Dram",
                 "displayName-count-other": "i-Armenian Dram",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "i-Netherlands Antillean Guilder",
@@ -170,7 +173,8 @@ const data = {
                 displayName: "i-Azerbaijani Manat",
                 "displayName-count-one": "i-Azerbaijani Manat",
                 "displayName-count-other": "i-Azerbaijani Manat",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -398,9 +402,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             CNH: {
-                displayName: "CNH",
-                "displayName-count-one": "CNH",
-                "displayName-count-other": "CNH",
+                displayName: "i-CNH",
+                "displayName-count-one": "i-Chinese yuan (offshore)",
+                "displayName-count-other": "i-CNH",
                 symbol: "CNH"
             },
             CNX: {
@@ -594,8 +598,7 @@ const data = {
                 "displayName-count-one": "i-Georgian Lari",
                 "displayName-count-other": "i-Georgian Lari",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "GHC",
@@ -605,7 +608,8 @@ const data = {
                 displayName: "i-Ghanaian Cedi",
                 "displayName-count-one": "i-Ghanaian Cedi",
                 "displayName-count-other": "i-Ghanaian cedis",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "i-Gibraltar Pound",
@@ -1217,8 +1221,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "i-Rwandan Franc",
@@ -1288,6 +1291,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "i-Sierra Leonean Leone",
@@ -1494,6 +1501,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "i-Venezuelan Bolívar (2008–2018)",
                 "displayName-count-one": "i-Venezuelan Bolívar (2008–2018)",
@@ -1587,7 +1598,7 @@ const data = {
                 displayName: "i-West African CFA Franc",
                 "displayName-count-one": "i-West African CFA Franc",
                 "displayName-count-other": "i-West African CFA francs",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",
@@ -1731,6 +1742,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "M/d/y GGGGG",
                 GyMMM: "G y MMM",
                 GyMMMd: "G y MMM d",
                 GyMMMEd: "G y MMM d, E",

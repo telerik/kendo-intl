@@ -10,12 +10,12 @@ const data = {
     calendar: {
         patterns: {
             d: "d. MM. y",
-            D: "EEEE, dd. MMMM y",
+            D: "EEEE, d. MMMM y",
             m: "d. MMM",
             M: "d. MMMM",
             y: "MMM y",
             Y: "MMMM y",
-            F: "EEEE, dd. MMMM y HH:mm:ss",
+            F: "EEEE, d. MMMM y HH:mm:ss",
             g: "d. M. y HH:mm",
             G: "d. M. y HH:mm:ss",
             t: "HH:mm",
@@ -26,8 +26,8 @@ const data = {
         dateTimeFormats: {
             full: "{1} {0}",
             long: "{1} {0}",
-            medium: "{1} {0}",
-            short: "{1} {0}",
+            medium: "{1}, {0}",
+            short: "{1}, {0}",
             availableFormats: {
                 Bh: "h B",
                 Bhm: "h:mm B",
@@ -43,6 +43,7 @@ const data = {
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
                 GyM: "MMM y G",
+                GyMd: "d. M. y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d. MMM y G",
                 GyMMMEd: "E, d. MMM y G",
@@ -91,8 +92,8 @@ const data = {
             short: "HH:mm"
         },
         dateFormats: {
-            full: "EEEE, dd. MMMM y",
-            long: "dd. MMMM y",
+            full: "EEEE, d. MMMM y",
+            long: "d. MMMM y",
             medium: "d. MMM y",
             short: "d. MM. yy"
         },

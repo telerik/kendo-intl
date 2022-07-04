@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -79,7 +80,8 @@ const data = {
                 displayName: "Afghan Afghani",
                 "displayName-count-one": "Afghan Afghani",
                 "displayName-count-other": "Afghan Afghanis",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -95,7 +97,8 @@ const data = {
                 displayName: "Armenian Dram",
                 "displayName-count-one": "Armenian dram",
                 "displayName-count-other": "Armenian drams",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Antillean Guilder ng Netherlands",
@@ -170,7 +173,8 @@ const data = {
                 displayName: "Azerbaijani Manat",
                 "displayName-count-one": "Azerbaijani manat",
                 "displayName-count-other": "Azerbaijani manats",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -594,8 +598,7 @@ const data = {
                 "displayName-count-one": "Georgian lari",
                 "displayName-count-other": "Georgian laris",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "GHC",
@@ -605,7 +608,8 @@ const data = {
                 displayName: "Ghanaian Cedi",
                 "displayName-count-one": "Ghanaian cedi",
                 "displayName-count-other": "Ghanian cedis",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Gibraltar Pound",
@@ -877,6 +881,8 @@ const data = {
             },
             LSL: {
                 displayName: "Lesotho Loti",
+                "displayName-count-one": "Lesotho loti",
+                "displayName-count-other": "Lesotho lotis",
                 symbol: "LSL"
             },
             LTL: {
@@ -1221,8 +1227,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Rwandan Franc",
@@ -1293,6 +1298,10 @@ const data = {
                 displayName: "Slovak Koruna",
                 symbol: "SKK"
             },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
+            },
             SLL: {
                 displayName: "Sierra Leonean Leone",
                 "displayName-count-one": "Sierra Leonean leone",
@@ -1330,7 +1339,7 @@ const data = {
                 symbol: "STD"
             },
             STN: {
-                displayName: "São Tomé & Príncipe Dobra (2018)",
+                displayName: "São Tomé & Príncipe Dobra",
                 "displayName-count-one": "São Tomé & Príncipe dobra",
                 "displayName-count-other": "São Tomé & Príncipe dobras",
                 symbol: "STN",
@@ -1498,6 +1507,10 @@ const data = {
                 displayName: "Venezuelan Bolívar (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "Bolívar ng Venezuela (2008–2018)",
                 "displayName-count-one": "bolívar ng Venezuela (2008–2018)",
@@ -1591,7 +1604,7 @@ const data = {
                 displayName: "CFA Franc ng Kanlurang Africa",
                 "displayName-count-one": "CFA franc ng Kanlurang Africa",
                 "displayName-count-other": "CFA francs ng Kanlurang Africa",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",
@@ -1735,6 +1748,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "M/d/y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "MMM d, y G",
                 GyMMMEd: "E, MMM d, y G",
@@ -2104,7 +2118,7 @@ const data = {
                 narrow: "taon"
             },
             quarter: {
-                wide: "Quarter",
+                wide: "quarter",
                 short: "qtr.",
                 narrow: "qtr."
             },

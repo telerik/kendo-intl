@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -78,7 +79,8 @@ const data = {
                 displayName: "افغاني افغاني",
                 "displayName-count-one": "افغاني افغاني",
                 "displayName-count-other": "افغاني افغاني",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -94,7 +96,8 @@ const data = {
                 displayName: "ارماني ڊرم",
                 "displayName-count-one": "ارماني ڊرم",
                 "displayName-count-other": "ارماني ڊرم",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "نيڌرلينڊ انٽليئن گلڊر",
@@ -169,7 +172,8 @@ const data = {
                 displayName: "آذربائيجاني منت",
                 "displayName-count-one": "آذربائيجاني منت",
                 "displayName-count-other": "آذربائيجاني منت",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -325,7 +329,7 @@ const data = {
             },
             BWP: {
                 displayName: "بوستواني پولا",
-                "displayName-count-one": "بوستواني پولا",
+                "displayName-count-one": "بوٽسواني پولا",
                 "displayName-count-other": "بوستواني پولا",
                 symbol: "BWP",
                 "symbol-alt-narrow": "P"
@@ -343,8 +347,6 @@ const data = {
             },
             BYR: {
                 displayName: "BYR",
-                "displayName-count-one": "BYR",
-                "displayName-count-other": "BYR",
                 symbol: "BYR"
             },
             BZD: {
@@ -486,7 +488,7 @@ const data = {
             },
             DKK: {
                 displayName: "دانش ڪرون",
-                "displayName-count-one": "دانش ڪرون",
+                "displayName-count-one": "ڊينش ڪرون",
                 "displayName-count-other": "دانش ڪرون",
                 symbol: "DKK",
                 "symbol-alt-narrow": "kr"
@@ -603,7 +605,8 @@ const data = {
                 displayName: "گهانين سيدي",
                 "displayName-count-one": "گهانين سيدي",
                 "displayName-count-other": "گهانين سيدي",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "جبرالٽر پائونڊ",
@@ -700,7 +703,7 @@ const data = {
             IDR: {
                 displayName: "انڊونيشيائي رپيه",
                 "displayName-count-one": "انڊونيشيائي رپيه",
-                "displayName-count-other": "انڊونيشيائي رپيه",
+                "displayName-count-other": "انڊونيشيائي رپيو",
                 symbol: "IDR",
                 "symbol-alt-narrow": "Rp"
             },
@@ -779,7 +782,7 @@ const data = {
             },
             KES: {
                 displayName: "ڪينيائي سلنگ",
-                "displayName-count-one": "ڪينيائي سلنگ",
+                "displayName-count-one": "ڪينيائي شلنگ",
                 "displayName-count-other": "ڪينيائي سلنگ",
                 symbol: "KES"
             },
@@ -1063,14 +1066,14 @@ const data = {
             },
             NAD: {
                 displayName: "نميبائي ڊالر",
-                "displayName-count-one": "نميبائي ڊالر",
+                "displayName-count-one": "نميبيائي ڊالر",
                 "displayName-count-other": "نميبائي ڊالر",
                 symbol: "NAD",
                 "symbol-alt-narrow": "$"
             },
             NGN: {
                 displayName: "نائجريائي نائرا",
-                "displayName-count-one": "نائجريائي نائرا",
+                "displayName-count-one": "نائجيريائي نائرا",
                 "displayName-count-other": "نائجريائي نائرا",
                 symbol: "NGN",
                 "symbol-alt-narrow": "₦"
@@ -1215,8 +1218,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "روانڊا فرينڪ",
@@ -1287,6 +1289,10 @@ const data = {
                 displayName: "SKK",
                 symbol: "SKK"
             },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
+            },
             SLL: {
                 displayName: "سیرا لیونيائي لیون",
                 "displayName-count-one": "سیرا لیونيائي لیون",
@@ -1340,7 +1346,7 @@ const data = {
             },
             SYP: {
                 displayName: "سيريائي پائونڊ",
-                "displayName-count-one": "سيريائي پائونڊ",
+                "displayName-count-one": "شامي پائونڊ",
                 "displayName-count-other": "سيريائي پائونڊ",
                 symbol: "SYP",
                 "symbol-alt-narrow": "£"
@@ -1374,7 +1380,7 @@ const data = {
             },
             TMT: {
                 displayName: "ترڪمانستان منت",
-                "displayName-count-one": "ترڪمانستان منت",
+                "displayName-count-one": "ترڪمانستاني منت",
                 "displayName-count-other": "ترڪمانستان منت",
                 symbol: "TMT"
             },
@@ -1492,6 +1498,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "Venezuelan Bolívar (2008–2018)",
                 "displayName-count-one": "وینزویلا بولیور (2008–2018)",
@@ -1585,7 +1595,7 @@ const data = {
                 displayName: "اولهه آفريڪا فرينڪ",
                 "displayName-count-one": "اولهه آفريڪا فرينڪ",
                 "displayName-count-other": "اولهه آفريڪا فرينڪ",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",
@@ -1729,6 +1739,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "M/d/y GGGGG",
                 GyMMM: "G y MMM",
                 GyMMMd: "G y MMM d",
                 GyMMMEd: "G y MMM d, E",
@@ -2021,7 +2032,7 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    "0": "مسيح کان اڳ",
+                    "0": "قبل مسيح",
                     "1": "عيسوي کان پهرين",
                     "0-alt-variant": "عام دور کان پهرين",
                     "1-alt-variant": "عام دور"

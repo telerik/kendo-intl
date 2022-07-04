@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "G y MMM",
                 GyMMMd: "G y MMM d",
                 GyMMMEd: "G y MMM d, E",
@@ -335,20 +336,20 @@ const data = {
                 wide: {
                     "0": "Amait kesich Jesu",
                     "1": "Kokakesich Jesu",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "AM",
+                    "1-alt-variant": "KO"
                 },
                 abbreviated: {
                     "0": "AM",
                     "1": "KO",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "AM",
+                    "1-alt-variant": "KO"
                 },
                 narrow: {
                     "0": "AM",
                     "1": "KO",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "AM",
+                    "1-alt-variant": "KO"
                 }
             }
         },

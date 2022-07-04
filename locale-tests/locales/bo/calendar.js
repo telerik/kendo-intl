@@ -15,11 +15,11 @@ const data = {
             M: "MMMMའི་ཚེས་d",
             y: "y LLL",
             Y: "y MMMM",
-            F: "y MMMMའི་ཚེས་d, EEEE h:mm:ss a",
-            g: "y-MM-dd h:mm a",
-            G: "y-MM-dd h:mm:ss a",
-            t: "h:mm a",
-            T: "h:mm:ss a",
+            F: "y MMMMའི་ཚེས་d, EEEE HH:mm:ss",
+            g: "y-MM-dd HH:mm",
+            G: "y-MM-dd HH:mm:ss",
+            t: "HH:mm",
+            T: "HH:mm:ss",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "G y LLLL",
                 GyMMMd: "G y MMM d",
                 GyMMMEd: "G y MMM d, E",
@@ -79,10 +80,10 @@ const data = {
             }
         },
         timeFormats: {
-            full: "h:mm:ss a zzzz",
-            long: "h:mm:ss a z",
-            medium: "h:mm:ss a",
-            short: "h:mm a"
+            full: "HH:mm:ss zzzz",
+            long: "HH:mm:ss z",
+            medium: "HH:mm:ss",
+            short: "HH:mm"
         },
         dateFormats: {
             full: "y MMMMའི་ཚེས་d, EEEE",
@@ -335,20 +336,20 @@ const data = {
                 wide: {
                     "0": "སྤྱི་ལོ་སྔོན་",
                     "1": "སྤྱི་ལོ་",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "སྤྱི་ལོ་སྔོན་",
+                    "1-alt-variant": "སྤྱི་ལོ་"
                 },
                 abbreviated: {
                     "0": "སྤྱི་ལོ་སྔོན་",
                     "1": "སྤྱི་ལོ་",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "སྤྱི་ལོ་སྔོན་",
+                    "1-alt-variant": "སྤྱི་ལོ་"
                 },
                 narrow: {
                     "0": "སྤྱི་ལོ་སྔོན་",
                     "1": "སྤྱི་ལོ་",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "སྤྱི་ལོ་སྔོན་",
+                    "1-alt-variant": "སྤྱི་ལོ་"
                 }
             }
         },

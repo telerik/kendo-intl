@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "G y MMM",
                 GyMMMd: "G y MMM d",
                 GyMMMEd: "G y MMM d, E",
@@ -334,20 +335,20 @@ const data = {
                 wide: {
                     "0": "bisū bi Yesù Krǐstò",
                     "1": "i mbūs Yesù Krǐstò",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "b.Y.K",
+                    "1-alt-variant": "m.Y.K"
                 },
                 abbreviated: {
                     "0": "b.Y.K",
                     "1": "m.Y.K",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "b.Y.K",
+                    "1-alt-variant": "m.Y.K"
                 },
                 narrow: {
                     "0": "b.Y.K",
                     "1": "m.Y.K",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "b.Y.K",
+                    "1-alt-variant": "m.Y.K"
                 }
             }
         },

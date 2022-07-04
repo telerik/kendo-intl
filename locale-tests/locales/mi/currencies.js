@@ -23,7 +23,8 @@ const data = {
             },
             AFN: {
                 displayName: "AFN",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -35,11 +36,11 @@ const data = {
             },
             AMD: {
                 displayName: "AMD",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "ANG",
-                "displayName-count-other": "ANG",
                 symbol: "ANG"
             },
             AOA: {
@@ -77,7 +78,6 @@ const data = {
             },
             ARS: {
                 displayName: "ARS",
-                "displayName-count-other": "ARS",
                 symbol: "ARS",
                 "symbol-alt-narrow": "$"
             },
@@ -92,7 +92,6 @@ const data = {
             },
             AWG: {
                 displayName: "AWG",
-                "displayName-count-other": "AWG",
                 symbol: "AWG"
             },
             AZM: {
@@ -101,7 +100,8 @@ const data = {
             },
             AZN: {
                 displayName: "AZN",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -118,7 +118,6 @@ const data = {
             },
             BBD: {
                 displayName: "BBD",
-                "displayName-count-other": "BBD",
                 symbol: "BBD",
                 "symbol-alt-narrow": "$"
             },
@@ -165,7 +164,6 @@ const data = {
             },
             BMD: {
                 displayName: "BMD",
-                "displayName-count-other": "BMD",
                 symbol: "BMD",
                 "symbol-alt-narrow": "$"
             },
@@ -223,7 +221,6 @@ const data = {
             },
             BSD: {
                 displayName: "BSD",
-                "displayName-count-other": "BSD",
                 symbol: "BSD",
                 "symbol-alt-narrow": "$"
             },
@@ -246,8 +243,7 @@ const data = {
             },
             BYN: {
                 displayName: "BYN",
-                symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                symbol: "BYN"
             },
             BYR: {
                 displayName: "BYR",
@@ -255,13 +251,11 @@ const data = {
             },
             BZD: {
                 displayName: "BZD",
-                "displayName-count-other": "BZD",
                 symbol: "BZD",
                 "symbol-alt-narrow": "$"
             },
             CAD: {
                 displayName: "CAD",
-                "displayName-count-other": "CAD",
                 symbol: "CA$",
                 "symbol-alt-narrow": "$"
             },
@@ -319,7 +313,6 @@ const data = {
             },
             CRC: {
                 displayName: "CRC",
-                "displayName-count-other": "CRC",
                 symbol: "CRC",
                 "symbol-alt-narrow": "₡"
             },
@@ -333,13 +326,11 @@ const data = {
             },
             CUC: {
                 displayName: "CUC",
-                "displayName-count-other": "CUC",
                 symbol: "CUC",
                 "symbol-alt-narrow": "$"
             },
             CUP: {
                 displayName: "CUP",
-                "displayName-count-other": "CUP",
                 symbol: "CUP",
                 "symbol-alt-narrow": "$"
             },
@@ -375,7 +366,6 @@ const data = {
             },
             DOP: {
                 displayName: "DOP",
-                "displayName-count-other": "DOP",
                 symbol: "DOP",
                 "symbol-alt-narrow": "$"
             },
@@ -466,7 +456,8 @@ const data = {
             },
             GHS: {
                 displayName: "GHS",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "GIP",
@@ -496,7 +487,6 @@ const data = {
             },
             GTQ: {
                 displayName: "GTQ",
-                "displayName-count-other": "GTQ",
                 symbol: "GTQ",
                 "symbol-alt-narrow": "Q"
             },
@@ -520,7 +510,6 @@ const data = {
             },
             HNL: {
                 displayName: "HNL",
-                "displayName-count-other": "HNL",
                 symbol: "HNL",
                 "symbol-alt-narrow": "L"
             },
@@ -535,7 +524,6 @@ const data = {
             },
             HTG: {
                 displayName: "HTG",
-                "displayName-count-other": "HTG",
                 symbol: "HTG"
             },
             HUF: {
@@ -594,7 +582,6 @@ const data = {
             },
             JMD: {
                 displayName: "JMD",
-                "displayName-count-other": "JMD",
                 symbol: "JMD",
                 "symbol-alt-narrow": "$"
             },
@@ -650,7 +637,6 @@ const data = {
             },
             KYD: {
                 displayName: "KYD",
-                "displayName-count-other": "KYD",
                 symbol: "KYD",
                 "symbol-alt-narrow": "$"
             },
@@ -807,7 +793,6 @@ const data = {
             },
             MXN: {
                 displayName: "MXN",
-                "displayName-count-other": "MXN",
                 symbol: "MX$",
                 "symbol-alt-narrow": "$"
             },
@@ -852,7 +837,6 @@ const data = {
             },
             NIO: {
                 displayName: "NIO",
-                "displayName-count-other": "NIO",
                 symbol: "NIO",
                 "symbol-alt-narrow": "C$"
             },
@@ -882,7 +866,6 @@ const data = {
             },
             PAB: {
                 displayName: "PAB",
-                "displayName-count-other": "PAB",
                 symbol: "PAB"
             },
             PEI: {
@@ -903,7 +886,7 @@ const data = {
             },
             PHP: {
                 displayName: "PHP",
-                symbol: "PHP",
+                symbol: "₱",
                 "symbol-alt-narrow": "₱"
             },
             PKR: {
@@ -958,8 +941,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "RWF",
@@ -1013,6 +995,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "SLL",
@@ -1108,7 +1094,6 @@ const data = {
             },
             TTD: {
                 displayName: "TTD",
-                "displayName-count-other": "TTD",
                 symbol: "TTD",
                 "symbol-alt-narrow": "$"
             },
@@ -1177,6 +1162,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "VEF",
                 symbol: "VEF",
@@ -1233,7 +1222,6 @@ const data = {
             },
             XCD: {
                 displayName: "XCD",
-                "displayName-count-other": "XCD",
                 symbol: "EC$",
                 "symbol-alt-narrow": "$"
             },
@@ -1255,7 +1243,7 @@ const data = {
             },
             XOF: {
                 displayName: "XOF",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",

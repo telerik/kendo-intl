@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -75,7 +76,8 @@ const data = {
             },
             AFN: {
                 displayName: "AFN",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -87,7 +89,8 @@ const data = {
             },
             AMD: {
                 displayName: "AMD",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "ANG",
@@ -152,7 +155,8 @@ const data = {
             },
             AZN: {
                 displayName: "AZN",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -297,8 +301,7 @@ const data = {
             },
             BYN: {
                 displayName: "BYN",
-                symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                symbol: "BYN"
             },
             BYR: {
                 displayName: "BYR",
@@ -478,8 +481,8 @@ const data = {
                 symbol: "ETB"
             },
             EUR: {
-                displayName: "Euro",
-                "displayName-count-other": "Euro",
+                displayName: "euro",
+                "displayName-count-other": "euro",
                 symbol: "€",
                 "symbol-alt-narrow": "€"
             },
@@ -522,7 +525,8 @@ const data = {
             },
             GHS: {
                 displayName: "GHS",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "GIP",
@@ -968,7 +972,7 @@ const data = {
             },
             PHP: {
                 displayName: "PHP",
-                symbol: "PHP",
+                symbol: "₱",
                 "symbol-alt-narrow": "₱"
             },
             PKR: {
@@ -1024,8 +1028,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Franku ruandes",
@@ -1086,6 +1089,10 @@ const data = {
                 displayName: "SKK",
                 symbol: "SKK"
             },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
+            },
             SLL: {
                 displayName: "Leone di Sera Leoa",
                 "displayName-count-other": "Leone di Sera Leoa",
@@ -1111,13 +1118,12 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             STD: {
-                displayName: "Dobra di Sãu Tume i Prínsipi (1977–2017)",
-                "displayName-count-other": "Dobra di Sãu Tume i Prinsipi (1977–2017)",
+                displayName: "Dobra di San Tume i Prínsipi (1977–2017)",
+                "displayName-count-other": "Dobra di San Tume i Prínsipi (1977–2017)",
                 symbol: "STD"
             },
             STN: {
                 displayName: "Dobra di San Tume i Prínsipi",
-                "displayName-count-other": "Dobra di San Tume i Prinsipi",
                 symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },
@@ -1198,8 +1204,8 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             TZS: {
-                displayName: "Xelin di Tanzania",
-                "displayName-count-other": "Xelin di Tanzania",
+                displayName: "Xelin di Tanzánia",
+                "displayName-count-other": "Xelin di Tanzánia",
                 symbol: "TZS"
             },
             UAH: {
@@ -1258,6 +1264,10 @@ const data = {
             VEB: {
                 displayName: "VEB",
                 symbol: "VEB"
+            },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
             },
             VEF: {
                 displayName: "VEF",
@@ -1338,7 +1348,7 @@ const data = {
             XOF: {
                 displayName: "Franku CFA (BCEAO)",
                 "displayName-count-other": "Franku CFA (BCEAO)",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",
@@ -1475,6 +1485,7 @@ const data = {
                 Ehms: "E, h:mm:ss a",
                 EHms: "E, HH:mm:ss",
                 Gy: "y G",
+                GyMd: "dd/MM/y GGGGG",
                 GyMMM: "LLL y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E, d MMM y G",
@@ -1562,7 +1573,7 @@ const data = {
                     "kuarta-fera",
                     "kinta-fera",
                     "sesta-fera",
-                    "sabadu"
+                    "sábadu"
                 ]
             },
             "stand-alone": {

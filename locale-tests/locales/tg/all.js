@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -73,7 +74,8 @@ const data = {
             },
             AFN: {
                 displayName: "AFN",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -85,7 +87,8 @@ const data = {
             },
             AMD: {
                 displayName: "AMD",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "ANG",
@@ -148,7 +151,8 @@ const data = {
             },
             AZN: {
                 displayName: "AZN",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -290,8 +294,7 @@ const data = {
             },
             BYN: {
                 displayName: "BYN",
-                symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                symbol: "BYN"
             },
             BYR: {
                 displayName: "BYR",
@@ -504,7 +507,8 @@ const data = {
             },
             GHS: {
                 displayName: "GHS",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "GIP",
@@ -932,7 +936,7 @@ const data = {
             },
             PHP: {
                 displayName: "PHP",
-                symbol: "PHP",
+                symbol: "₱",
                 "symbol-alt-narrow": "₱"
             },
             PKR: {
@@ -987,8 +991,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "RWF",
@@ -1042,6 +1045,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "SLL",
@@ -1206,6 +1213,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "VEF",
                 symbol: "VEF",
@@ -1283,7 +1294,7 @@ const data = {
             },
             XOF: {
                 displayName: "XOF",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",
@@ -1418,6 +1429,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM, y G",
                 GyMMMEd: "E, d MMM, y G",
@@ -1709,21 +1721,21 @@ const data = {
             format: {
                 wide: {
                     "0": "Пеш аз милод",
-                    "1": "ПаМ",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "1": "Пас аз милод",
+                    "0-alt-variant": "То милод",
+                    "1-alt-variant": "Милод"
                 },
                 abbreviated: {
                     "0": "ПеМ",
                     "1": "ПаМ",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "ТоМ",
+                    "1-alt-variant": "М"
                 },
                 narrow: {
                     "0": "ПеМ",
                     "1": "ПаМ",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "ТоМ",
+                    "1-alt-variant": "М"
                 }
             }
         },
@@ -1756,9 +1768,9 @@ const data = {
                 narrow: "ҳ."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "ҳафтаи моҳ",
+                short: "ҳ. м.",
+                narrow: "ҳ. м."
             },
             day: {
                 wide: "рӯз",
@@ -1766,19 +1778,19 @@ const data = {
                 narrow: "рӯз"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "рӯзи сол",
+                short: "рӯзи с.",
+                narrow: "рӯзи с."
             },
             weekday: {
                 wide: "рӯзи ҳафта",
-                short: "рӯзи ҳафта",
-                narrow: "рӯзи ҳафта"
+                short: "рӯзи ҳ.",
+                narrow: "рӯзи ҳ."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "рӯзи ҳафтаи моҳ",
+                short: "рӯзи ҳ. м.",
+                narrow: "рӯзи ҳ. м."
             },
             dayperiod: {
                 short: "AM/PM",

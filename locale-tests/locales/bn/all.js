@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -83,7 +84,8 @@ const data = {
                 displayName: "আফগান আফগানি",
                 "displayName-count-one": "আফগান আফগানি",
                 "displayName-count-other": "আফগান আফগানি",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -99,7 +101,8 @@ const data = {
                 displayName: "আরমেনিয়ান দ্রাম",
                 "displayName-count-one": "আরমেনিয়ান দ্রাম",
                 "displayName-count-other": "আরমেনিয়ান দ্রাম",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "নেদারল্যান্ড এ্যান্টিলিয়ান গুল্ডের",
@@ -174,7 +177,8 @@ const data = {
                 displayName: "আজারবাইজান মানাত",
                 "displayName-count-one": "আজারবাইজান মানাত",
                 "displayName-count-other": "আজারবাইজান মানাত",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "বসনিয়া এবং হার্জেগোভিনা দিনার",
@@ -598,8 +602,7 @@ const data = {
                 "displayName-count-one": "জর্জিয়ান লারি",
                 "displayName-count-other": "জর্জিয়ান লারি",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "ঘানা সেডি (১৯৭৯–২০০৭)",
@@ -609,7 +612,8 @@ const data = {
                 displayName: "ঘানা সেডি",
                 "displayName-count-one": "ঘানা সেডি",
                 "displayName-count-other": "ঘানা সেডি",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "জিব্রাল্টার পাউন্ড",
@@ -1227,8 +1231,7 @@ const data = {
             },
             RUR: {
                 displayName: "রাশিয়ান রুবল (১৯৯১–১৯৯৮)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "রুয়ান্ডান ফ্রাঙ্ক",
@@ -1298,6 +1301,10 @@ const data = {
             SKK: {
                 displayName: "স্লোভাক কোরুনা",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "সিয়েরালিয়ন লিয়ন",
@@ -1504,6 +1511,10 @@ const data = {
                 displayName: "ভেনিজুয়েলান বলিভার (১৮৭১–২০০৮)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "ভেনিজুয়েলীয় বলিভার (২০০৮–২০১৮)",
                 "displayName-count-one": "ভেনিজুয়েলীয় বলিভার (২০০৮–২০১৮)",
@@ -1597,7 +1608,7 @@ const data = {
                 displayName: "পশ্চিম আফ্রিকান [CFA] ফ্র্যাঙ্ক",
                 "displayName-count-one": "পশ্চিম আফ্রিকান [CFA] ফ্র্যাঙ্ক",
                 "displayName-count-other": "পশ্চিম আফ্রিকান [CFA] ফ্র্যাঙ্ক",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "প্যালেডিয়াম",
@@ -1741,6 +1752,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "GGGGG dd-MM-y",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM, y G",
                 GyMMMEd: "E, d MMM, y G",

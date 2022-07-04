@@ -41,10 +41,11 @@ const data = {
                 EHm: "E HH:mm",
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
-                Gy: "G y",
-                GyMMM: "G y MMM",
-                GyMMMd: "G y MMM d",
-                GyMMMEd: "G y MMM d, E",
+                Gy: "y G",
+                GyMd: "M/d/y GGGGG",
+                GyMMM: "MMM y G",
+                GyMMMd: "MMM d, y G",
+                GyMMMEd: "E, MMM d, y G",
                 h: "h a",
                 H: "HH",
                 hm: "h:mm a",
@@ -97,10 +98,10 @@ const data = {
                     "Dom",
                     "Lun",
                     "Mar",
-                    "Mks",
-                    "Hu",
-                    "Bi",
-                    "Sa"
+                    "Miy",
+                    "Huw",
+                    "Biy",
+                    "Sab"
                 ],
                 narrow: [
                     "D",
@@ -135,10 +136,10 @@ const data = {
                     "Dom",
                     "Lun",
                     "Mar",
-                    "Mks",
-                    "Hu",
-                    "Bi",
-                    "Sa"
+                    "Miy",
+                    "Huw",
+                    "Biy",
+                    "Sab"
                 ],
                 narrow: [
                     "D",
@@ -172,14 +173,14 @@ const data = {
         months: {
             format: {
                 abbreviated: [
-                    "En",
+                    "Ene",
                     "Peb",
                     "Mar",
-                    "Apr",
+                    "Abr",
                     "May",
                     "Hun",
                     "Hul",
-                    "Ag",
+                    "Ago",
                     "Set",
                     "Okt",
                     "Nob",
@@ -216,14 +217,14 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "En",
+                    "Ene",
                     "Peb",
                     "Mar",
-                    "Apr",
+                    "Abr",
                     "May",
                     "Hun",
                     "Hul",
-                    "Ag",
+                    "Ago",
                     "Set",
                     "Okt",
                     "Nob",
@@ -334,21 +335,21 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    "0": "WK",
-                    "1": "KP",
-                    "0-alt-variant": "Sa Wala Pa ang Common Era",
-                    "1-alt-variant": "Common Era"
+                    "0": "Sa Wala Pa Si Kristo",
+                    "1": "Anno Domini",
+                    "0-alt-variant": "Wala Pa ang Komong Panahon",
+                    "1-alt-variant": "Komong Panahon"
                 },
                 abbreviated: {
-                    "0": "WK",
-                    "1": "KP",
-                    "0-alt-variant": "WKP",
+                    "0": "BC",
+                    "1": "AD",
+                    "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 },
                 narrow: {
-                    "0": "WK",
-                    "1": "KP",
-                    "0-alt-variant": "WKP",
+                    "0": "BC",
+                    "1": "AD",
+                    "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 }
             }
@@ -357,9 +358,9 @@ const data = {
         gmtZeroFormat: "GMT",
         dateFields: {
             era: {
-                wide: "era",
-                short: "era",
-                narrow: "era"
+                wide: "panahon",
+                short: "panahon",
+                narrow: "panahon"
             },
             year: {
                 wide: "tuig",

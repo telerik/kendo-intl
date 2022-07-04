@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -73,7 +74,8 @@ const data = {
             },
             AFN: {
                 displayName: "AFN",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -85,7 +87,8 @@ const data = {
             },
             AMD: {
                 displayName: "AMD",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "ANG",
@@ -148,7 +151,8 @@ const data = {
             },
             AZN: {
                 displayName: "AZN",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -290,8 +294,7 @@ const data = {
             },
             BYN: {
                 displayName: "BYN",
-                symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                symbol: "BYN"
             },
             BYR: {
                 displayName: "BYR",
@@ -504,7 +507,8 @@ const data = {
             },
             GHS: {
                 displayName: "GHS",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "GIP",
@@ -932,7 +936,7 @@ const data = {
             },
             PHP: {
                 displayName: "PHP",
-                symbol: "PHP",
+                symbol: "₱",
                 "symbol-alt-narrow": "₱"
             },
             PKR: {
@@ -987,8 +991,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "RWF",
@@ -1042,6 +1045,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "SLL",
@@ -1205,6 +1212,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "VEF",
                 symbol: "VEF",
@@ -1282,7 +1293,7 @@ const data = {
             },
             XOF: {
                 displayName: "XOF",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",
@@ -1388,8 +1399,8 @@ const data = {
             D: "d MMMM, y 'ел', EEEE",
             m: "d MMM",
             M: "d MMMM",
-            y: "MMM, y 'ел'",
-            Y: "MMMM, y 'ел'",
+            y: "y 'ел', MMM",
+            Y: "y 'ел', MMMM",
             F: "d MMMM, y 'ел', EEEE H:mm:ss",
             g: "dd.MM.y H:mm",
             G: "dd.MM.y H:mm:ss",
@@ -1411,15 +1422,16 @@ const data = {
                 E: "ccc",
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
-                Ed: "E, d",
+                Ed: "d, E",
                 Ehm: "E h:mm a",
                 EHm: "E, HH:mm",
                 Ehms: "E h:mm:ss a",
                 EHms: "E, HH:mm:ss",
                 Gy: "G y 'ел'",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "G y 'ел', MMM",
-                GyMMMd: "G d MMM y 'ел'",
-                GyMMMEd: "E, G d MMM y 'ел'",
+                GyMMMd: "G y 'ел', d MMM",
+                GyMMMEd: "G y 'ел', d MMM, E",
                 h: "h a",
                 H: "HH",
                 hm: "h:mm a",
@@ -1432,23 +1444,23 @@ const data = {
                 Hmv: "HH:mm v",
                 M: "L",
                 Md: "dd.MM",
-                MEd: "E, dd.MM",
+                MEd: "dd.MM, E",
                 MMM: "LLL",
                 MMMd: "d MMM",
-                MMMEd: "E, d MMM",
+                MMMEd: "d MMM, E",
                 MMMMd: "d MMMM",
                 "MMMMW-count-other": "MMMM 'аеның' W 'атнасы'",
                 ms: "mm:ss",
                 y: "y",
                 yM: "MM.y",
                 yMd: "dd.MM.y",
-                yMEd: "E, dd.MM.y",
-                yMMM: "MMM, y 'ел'",
-                yMMMd: "d MMM, y 'ел'",
-                yMMMEd: "E, d MMM, y 'ел'",
-                yMMMM: "MMMM, y 'ел'",
-                yQQQ: "QQQ, y 'ел'",
-                yQQQQ: "QQQQ, y 'ел'",
+                yMEd: "dd.MM.y, E",
+                yMMM: "y 'ел', MMM",
+                yMMMd: "y 'ел', d MMM",
+                yMMMEd: "y 'ел', d MMM, E",
+                yMMMM: "y 'ел', MMMM",
+                yQQQ: "y 'ел', QQQ",
+                yQQQQ: "y 'ел', QQQQ",
                 "yw-count-other": "Y 'елның' w 'атнасы'"
             }
         },
@@ -1708,9 +1720,9 @@ const data = {
             format: {
                 wide: {
                     "0": "безнең эрага кадәр",
-                    "1": "безнең эра",
-                    "0-alt-variant": "б.э.к.",
-                    "1-alt-variant": "б.э."
+                    "1": "милади",
+                    "0-alt-variant": "безнең эрага кадәр",
+                    "1-alt-variant": "безнең эра"
                 },
                 abbreviated: {
                     "0": "б.э.к.",
@@ -1755,9 +1767,9 @@ const data = {
                 narrow: "атна"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "ай атнасы",
+                short: "ай атнасы",
+                narrow: "ай атнасы"
             },
             day: {
                 wide: "көн",
@@ -1765,9 +1777,9 @@ const data = {
                 narrow: "көн"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "елның көне",
+                short: "елның көне",
+                narrow: "елның көне"
             },
             weekday: {
                 wide: "атна көне",
@@ -1775,9 +1787,9 @@ const data = {
                 narrow: "атна көне"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "айның эш көне",
+                short: "айның эш көне",
+                narrow: "айның эш көне"
             },
             dayperiod: {
                 short: "AM/PM",

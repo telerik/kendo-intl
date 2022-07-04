@@ -13,6 +13,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "≈",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -89,7 +90,8 @@ const data = {
                 "displayName-count-few": "афгани",
                 "displayName-count-many": "афгани",
                 "displayName-count-other": "афгани",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -109,7 +111,8 @@ const data = {
                 "displayName-count-few": "армянских драма",
                 "displayName-count-many": "армянских драмов",
                 "displayName-count-other": "армянского драма",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "нидерландский антильский гульден",
@@ -204,7 +207,8 @@ const data = {
                 "displayName-count-few": "азербайджанских маната",
                 "displayName-count-many": "азербайджанских манатов",
                 "displayName-count-other": "азербайджанского маната",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "Динар Боснии и Герцеговины",
@@ -708,8 +712,7 @@ const data = {
                 "displayName-count-many": "грузинских лари",
                 "displayName-count-other": "грузинского лари",
                 symbol: "GEL",
-                "symbol-alt-narrow": "ლ",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "ლ"
             },
             GHC: {
                 displayName: "Ганский седи (1979–2007)",
@@ -721,7 +724,8 @@ const data = {
                 "displayName-count-few": "ганских седи",
                 "displayName-count-many": "ганских седи",
                 "displayName-count-other": "ганского седи",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "гибралтарский фунт",
@@ -1056,7 +1060,11 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "Лоти",
+                displayName: "лоти",
+                "displayName-count-one": "лоти",
+                "displayName-count-few": "лоти",
+                "displayName-count-many": "лоти",
+                "displayName-count-other": "лоти",
                 symbol: "LSL"
             },
             LTL: {
@@ -1477,8 +1485,7 @@ const data = {
             },
             RUR: {
                 displayName: "Российский рубль (1991–1998)",
-                symbol: "р.",
-                "symbol-alt-narrow": "р."
+                symbol: "р."
             },
             RWF: {
                 displayName: "франк Руанды",
@@ -1564,6 +1571,10 @@ const data = {
             SKK: {
                 displayName: "Словацкая крона",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "леоне",
@@ -1819,6 +1830,10 @@ const data = {
                 displayName: "Венесуэльский боливар (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "венесуэльский боливар (2008–2018)",
                 "displayName-count-one": "венесуэльский боливар (2008–2018)",
@@ -1928,7 +1943,7 @@ const data = {
                 "displayName-count-few": "франка КФА ВСЕАО",
                 "displayName-count-many": "франков КФА ВСЕАО",
                 "displayName-count-other": "франка КФА ВСЕАО",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "Палладий",
@@ -2086,7 +2101,8 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y 'г'. G",
-                GyMMM: "LLL y G",
+                GyMd: "dd.MM.y GGGGG",
+                GyMMM: "LLL y 'г'. G",
                 GyMMMd: "d MMM y 'г'. G",
                 GyMMMEd: "E, d MMM y 'г'. G",
                 h: "h a",
@@ -2153,13 +2169,13 @@ const data = {
                     "сб"
                 ],
                 narrow: [
-                    "вс",
-                    "пн",
-                    "вт",
-                    "ср",
-                    "чт",
-                    "пт",
-                    "сб"
+                    "В",
+                    "П",
+                    "В",
+                    "С",
+                    "Ч",
+                    "П",
+                    "С"
                 ],
                 short: [
                     "вс",

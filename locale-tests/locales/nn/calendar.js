@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "dd.MM.y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d. MMM y G",
                 GyMMMEd: "E d. MMM y G",
@@ -310,52 +311,88 @@ const data = {
         dayPeriods: {
             format: {
                 abbreviated: {
+                    midnight: "midn.",
                     am: "f.m.",
-                    pm: "e.m."
+                    pm: "e.m.",
+                    morning1: "morg.",
+                    morning2: "form.",
+                    afternoon1: "etterm.",
+                    evening1: "kveld",
+                    night1: "natt"
                 },
                 narrow: {
-                    am: "f.m.",
-                    pm: "e.m."
+                    midnight: "mn.",
+                    am: "a",
+                    pm: "p",
+                    morning1: "mg.",
+                    morning2: "fm.",
+                    afternoon1: "em.",
+                    evening1: "kv.",
+                    night1: "nt."
                 },
                 wide: {
-                    am: "formiddag",
-                    pm: "ettermiddag"
+                    midnight: "midnatt",
+                    am: "a.m.",
+                    pm: "p.m.",
+                    morning1: "på morgonen",
+                    morning2: "på formiddagen",
+                    afternoon1: "på ettermiddagen",
+                    evening1: "på kvelden",
+                    night1: "på natta"
                 }
             },
             "stand-alone": {
                 abbreviated: {
-                    am: "f.m.",
-                    pm: "e.m."
+                    midnight: "midn.",
+                    am: "a.m.",
+                    pm: "p.m.",
+                    morning1: "morg.",
+                    morning2: "form.",
+                    afternoon1: "etterm.",
+                    evening1: "kveld",
+                    night1: "natt"
                 },
                 narrow: {
+                    midnight: "mn.",
                     am: "f.m.",
-                    pm: "e.m."
+                    pm: "e.m.",
+                    morning1: "mg.",
+                    morning2: "fm.",
+                    afternoon1: "em.",
+                    evening1: "kv.",
+                    night1: "nt."
                 },
                 wide: {
-                    am: "f.m.",
-                    pm: "e.m."
+                    midnight: "midnatt",
+                    am: "a.m.",
+                    pm: "p.m.",
+                    morning1: "morgon",
+                    morning2: "formiddag",
+                    afternoon1: "ettermiddag",
+                    evening1: "kveld",
+                    night1: "natt"
                 }
             }
         },
         eras: {
             format: {
                 wide: {
-                    "0": "f.Kr.",
-                    "1": "e.Kr.",
-                    "0-alt-variant": "f.v.t.",
-                    "1-alt-variant": "v.t."
+                    "0": "før Kristus",
+                    "1": "etter Kristus",
+                    "0-alt-variant": "før vår tidsrekning",
+                    "1-alt-variant": "etter vår tidsrekning"
                 },
                 abbreviated: {
                     "0": "f.Kr.",
                     "1": "e.Kr.",
-                    "0-alt-variant": "f.v.t.",
-                    "1-alt-variant": "v.t."
+                    "0-alt-variant": "fvt.",
+                    "1-alt-variant": "evt."
                 },
                 narrow: {
                     "0": "f.Kr.",
                     "1": "e.Kr.",
-                    "0-alt-variant": "f.v.t.",
-                    "1-alt-variant": "v.t."
+                    "0-alt-variant": "fvt.",
+                    "1-alt-variant": "vt."
                 }
             }
         },
@@ -379,7 +416,7 @@ const data = {
             },
             month: {
                 wide: "månad",
-                short: "mnd.",
+                short: "md.",
                 narrow: "md."
             },
             week: {
@@ -389,7 +426,7 @@ const data = {
             },
             weekOfMonth: {
                 wide: "veke i månaden",
-                short: "veke i mnd.",
+                short: "veke i md.",
                 narrow: "veke i md."
             },
             day: {
@@ -409,13 +446,13 @@ const data = {
             },
             weekdayOfMonth: {
                 wide: "vekedag i månaden",
-                short: "veked. i mnd.",
+                short: "veked. i md.",
                 narrow: "veked. i md."
             },
             dayperiod: {
-                short: "f.m./e.m.",
-                wide: "f.m./e.m.",
-                narrow: "f.m./e.m."
+                short: "am/pm",
+                wide: "a.m./p.m.",
+                narrow: "am/pm"
             },
             hour: {
                 wide: "time",

@@ -16,11 +16,11 @@ const data = {
             M: "M月d日",
             y: "y年M月",
             Y: "y年M月",
-            F: "y年M月d日EEEE ah:mm:ss",
-            g: "y/M/d ah:mm",
-            G: "y/M/d ah:mm:ss",
-            t: "ah:mm",
-            T: "ah:mm:ss",
+            F: "y年M月d日EEEE HH:mm:ss",
+            g: "y/M/d HH:mm",
+            G: "y/M/d HH:mm:ss",
+            t: "HH:mm",
+            T: "HH:mm:ss",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
@@ -43,6 +43,7 @@ const data = {
                 Ehms: "Eah:mm:ss",
                 EHms: "EHH:mm:ss",
                 Gy: "Gy年",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "Gy年M月",
                 GyMMMd: "Gy年M月d日",
                 GyMMMEd: "Gy年M月d日E",
@@ -70,6 +71,7 @@ const data = {
                 yM: "y年M月",
                 yMd: "y/M/d",
                 yMEd: "y/M/dE",
+                yMEEEEd: "y年M月d日EEEE",
                 yMM: "y年M月",
                 yMMM: "y年M月",
                 yMMMd: "y年M月d日",
@@ -81,10 +83,10 @@ const data = {
             }
         },
         timeFormats: {
-            full: "zzzz ah:mm:ss",
-            long: "z ah:mm:ss",
-            medium: "ah:mm:ss",
-            short: "ah:mm"
+            full: "zzzz HH:mm:ss",
+            long: "z HH:mm:ss",
+            medium: "HH:mm:ss",
+            short: "HH:mm"
         },
         dateFormats: {
             full: "y年M月d日EEEE",
@@ -379,20 +381,20 @@ const data = {
                 wide: {
                     "0": "公元前",
                     "1": "公元",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "公元前",
+                    "1-alt-variant": "公元"
                 },
                 abbreviated: {
                     "0": "公元前",
                     "1": "公元",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "公元前",
+                    "1-alt-variant": "公元"
                 },
                 narrow: {
                     "0": "公元前",
                     "1": "公元",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "公元前",
+                    "1-alt-variant": "公元"
                 }
             }
         },

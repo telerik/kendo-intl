@@ -23,7 +23,8 @@ const data = {
             },
             AFN: {
                 displayName: "Afjahni",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -35,7 +36,8 @@ const data = {
             },
             AMD: {
                 displayName: "armeenesche Dram",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "neederlängsch antillesche Jullde",
@@ -101,7 +103,8 @@ const data = {
             },
             AZN: {
                 displayName: "Asserbaidschaani Manat",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -254,8 +257,7 @@ const data = {
             },
             BYN: {
                 displayName: "wiißrußesche Rubel",
-                symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                symbol: "BYN"
             },
             BYR: {
                 displayName: "wiißrußesche Rubel (2000–2016)",
@@ -498,7 +500,8 @@ const data = {
             },
             GHS: {
                 displayName: "janaaesche Cedi",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "jibraltaa’sche Pongk",
@@ -954,7 +957,7 @@ const data = {
                 "displayName-count-zero": "fillipiinesche Pesos",
                 "displayName-count-one": "fillipiinesche Pesos",
                 "displayName-count-other": "fillipiinesche Pesos",
-                symbol: "PHP",
+                symbol: "₱",
                 "symbol-alt-narrow": "₱"
             },
             PKR: {
@@ -1011,8 +1014,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "ruandesche Frang",
@@ -1069,6 +1071,10 @@ const data = {
             SKK: {
                 displayName: "ßlovaakesche Kruhne",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "ẞjärra-lejoneesesche Leone",
@@ -1258,6 +1264,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "venezuelaanesche Bolívar (2008–2018)",
                 symbol: "VEF",
@@ -1335,7 +1345,7 @@ const data = {
             },
             XOF: {
                 displayName: "Frang uß de Älfebeinköß",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "Palladijum",

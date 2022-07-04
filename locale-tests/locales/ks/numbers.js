@@ -10,11 +10,12 @@ const data = {
     numbers: {
         symbols: {
             decimal: ".",
-            group: ",",
+            group: "،",
             list: ";",
             percentSign: "%",
-            plusSign: "‎+",
-            minusSign: "‎-",
+            plusSign: "+",
+            minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -27,8 +28,7 @@ const data = {
                 "n"
             ],
             groupSize: [
-                3,
-                2
+                3
             ]
         },
         scientific: {
@@ -42,27 +42,24 @@ const data = {
                 "n%"
             ],
             groupSize: [
-                3,
-                2
+                3
             ]
         },
         currency: {
             patterns: [
-                "$ n"
+                "$n"
             ],
             groupSize: [
-                3,
-                2
+                3
             ],
             "unitPattern-count-other": "n $"
         },
         accounting: {
             patterns: [
-                "$ n"
+                "$n"
             ],
             groupSize: [
-                3,
-                2
+                3
             ]
         }
     }

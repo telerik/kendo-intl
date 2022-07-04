@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "G y MMM",
                 GyMMMd: "G y MMM d",
                 GyMMMEd: "G y MMM d, E",
@@ -338,20 +339,20 @@ const data = {
                 wide: {
                     "0": "avan Zezi-Krist",
                     "1": "apre Zezi-Krist",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "av. Z-K",
+                    "1-alt-variant": "ap. Z-K"
                 },
                 abbreviated: {
                     "0": "av. Z-K",
                     "1": "ap. Z-K",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "av. Z-K",
+                    "1-alt-variant": "ap. Z-K"
                 },
                 narrow: {
                     "0": "av. Z-K",
                     "1": "ap. Z-K",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "av. Z-K",
+                    "1-alt-variant": "ap. Z-K"
                 }
             }
         },

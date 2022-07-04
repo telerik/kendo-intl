@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "M/d/y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "MMM d, y G",
                 GyMMMEd: "E, MMM d, y G",
@@ -411,7 +412,7 @@ const data = {
                 narrow: "taon"
             },
             quarter: {
-                wide: "Quarter",
+                wide: "quarter",
                 short: "qtr.",
                 narrow: "qtr."
             },

@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -78,7 +79,8 @@ const data = {
                 displayName: "Афганистаны афгани",
                 "displayName-count-one": "Афганистаны афгани",
                 "displayName-count-other": "Афганистаны афгани",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -94,7 +96,8 @@ const data = {
                 displayName: "Арменийн драм",
                 "displayName-count-one": "Арменийн драм",
                 "displayName-count-other": "Арменийн драм",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Нидерландын Антиллийн гулдер",
@@ -169,7 +172,8 @@ const data = {
                 displayName: "Азербайжаны манат",
                 "displayName-count-one": "Азербайжаны манат",
                 "displayName-count-other": "Азербайжаны манат",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -603,7 +607,8 @@ const data = {
                 displayName: "Ганагийн седи",
                 "displayName-count-one": "Ганагийн седи",
                 "displayName-count-other": "Ганагийн седи",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Гибралтарын фунт",
@@ -874,7 +879,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "LSL",
+                displayName: "Лесото лоти",
+                "displayName-count-one": "Лесото лоти",
+                "displayName-count-other": "Лесото лоти",
                 symbol: "LSL"
             },
             LTL: {
@@ -1220,8 +1227,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Руандагийн франк",
@@ -1291,6 +1297,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Сьерра-Леоны леон",
@@ -1497,6 +1507,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "венесуэлийн боливар (2008–2018)",
                 "displayName-count-one": "венесуэлийн боливар (2008–2018)",
@@ -1590,7 +1604,7 @@ const data = {
                 displayName: "Баруун Африкийн франк",
                 "displayName-count-one": "Баруун Африкийн франк",
                 "displayName-count-other": "Баруун Африкийн франк",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",
@@ -1736,6 +1750,7 @@ const data = {
                 Ehms: "E. h:mm:ss a",
                 EHms: "E. HH:mm:ss",
                 Gy: "G y",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "G y 'оны' MMM",
                 GyMMMd: "G y 'оны' MMM'ын' d",
                 GyMMMEd: "G y 'оны' MMM'ын' d. E",

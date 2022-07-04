@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "M/d/y GGGGG",
                 GyMMM: "G y MMM",
                 GyMMMd: "G y MMM d",
                 GyMMMEd: "G y MMM d, E",
@@ -334,7 +335,7 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    "0": "مسيح کان اڳ",
+                    "0": "قبل مسيح",
                     "1": "عيسوي کان پهرين",
                     "0-alt-variant": "عام دور کان پهرين",
                     "1-alt-variant": "عام دور"

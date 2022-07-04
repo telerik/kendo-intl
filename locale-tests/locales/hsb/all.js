@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "≈",
             exponential: "E",
             superscriptingExponent: "·",
             perMille: "‰",
@@ -88,7 +89,8 @@ const data = {
                 "displayName-count-two": "afghaniskej afghanijej",
                 "displayName-count-few": "afghaniske afghanije",
                 "displayName-count-other": "afghaniskich afghanijow",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -108,7 +110,8 @@ const data = {
                 "displayName-count-two": "armenskej dramaj",
                 "displayName-count-few": "armenske dramy",
                 "displayName-count-other": "armenskich dramow",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "nižozemsko-antilski gulden",
@@ -223,7 +226,8 @@ const data = {
                 "displayName-count-two": "azerbajdźanski manataj",
                 "displayName-count-few": "azerbajdźanski manaty",
                 "displayName-count-other": "azerbajdźanski manatow",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "bosniski dinar",
@@ -476,8 +480,7 @@ const data = {
                 "displayName-count-two": "běłoruskej rublej",
                 "displayName-count-few": "běłoruske ruble",
                 "displayName-count-other": "běłoruskich rublow",
-                symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                symbol: "BYN"
             },
             BYR: {
                 displayName: "běłoruski rubl (2000–2016)",
@@ -547,7 +550,11 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             CNH: {
-                displayName: "CNH",
+                displayName: "chinski yuan (offshore)",
+                "displayName-count-one": "chinski yuan (offshore)",
+                "displayName-count-two": "chinskej yuanaj (offshore)",
+                "displayName-count-few": "chinske yuany (offshore)",
+                "displayName-count-other": "chinskich yuanow (offshore)",
                 symbol: "CNH"
             },
             CNX: {
@@ -791,7 +798,8 @@ const data = {
                 "displayName-count-two": "ghanaskej cedaj",
                 "displayName-count-few": "ghanaske cedije",
                 "displayName-count-other": "ghanaskich cedijow",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "gibraltarski punt",
@@ -1130,7 +1138,11 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "LSL",
+                displayName: "lesothiski loti",
+                "displayName-count-one": "lesothiski loti",
+                "displayName-count-two": "lesothiskej lotijej",
+                "displayName-count-few": "lesothiske lotije",
+                "displayName-count-other": "lesothiskich lotijow",
                 symbol: "LSL"
             },
             LTL: {
@@ -1473,7 +1485,7 @@ const data = {
                 "displayName-count-two": "filipinskej pesaj",
                 "displayName-count-few": "filipinske pesa",
                 "displayName-count-other": "filipinskich pesow",
-                symbol: "PHP",
+                symbol: "₱",
                 "symbol-alt-narrow": "₱"
             },
             PKR: {
@@ -1555,8 +1567,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "ruandiski frank",
@@ -1642,6 +1653,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "sierra-leoneski leone",
@@ -1896,6 +1911,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "venezuelski bolívar (2008–2018)",
                 "displayName-count-one": "venezuelski bolívar (2008–2018)",
@@ -2005,7 +2024,7 @@ const data = {
                 "displayName-count-two": "CFA-frankaj (BCEAO)",
                 "displayName-count-few": "CFA-franki (BCEAO)",
                 "displayName-count-other": "CFA-frankow (BCEAO)",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",
@@ -2129,9 +2148,9 @@ const data = {
             d: "d.M.y",
             D: "EEEE, d. MMMM y",
             m: "d. MMM",
-            M: "MMMM d",
+            M: "d MMMM",
             y: "MMM y",
-            Y: "y MMMM",
+            Y: "LLLL y",
             F: "EEEE, d. MMMM y H:mm:ss",
             g: "d.M.y H:mm 'hodź'.",
             G: "d.M.y H:mm:ss",
@@ -2159,6 +2178,7 @@ const data = {
                 Ehms: "E, h:mm:ss a",
                 EHms: "E, HH:mm:ss",
                 Gy: "y G",
+                GyMd: "d.M.y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d. MMM y G",
                 GyMMMEd: "E, d. MMM y G",
@@ -2169,17 +2189,20 @@ const data = {
                 hms: "h:mm:ss a",
                 Hms: "H:mm:ss",
                 hmsv: "h:mm:ss a v",
-                Hmsv: "HH:mm:ss v",
+                Hmsv: "H:mm:ss v",
                 hmv: "h:mm a v",
-                Hmv: "HH:mm v",
+                Hmv: "H:mm v",
                 M: "L",
                 Md: "d.M.",
                 MEd: "E, d.M.",
                 MMM: "LLL",
                 MMMd: "d. MMM",
                 MMMEd: "E, d. MMM",
-                MMMMd: "MMMM d",
-                "MMMMW-count-other": "'week' W 'of' MMMM",
+                MMMMd: "d MMMM",
+                "MMMMW-count-one": "'tydźeń' W MMMM",
+                "MMMMW-count-two": "'tydźeń' W MMMM",
+                "MMMMW-count-few": "'tydźeń' W MMMM",
+                "MMMMW-count-other": "'tydźeń' W MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M.y",
@@ -2188,10 +2211,13 @@ const data = {
                 yMMM: "MMM y",
                 yMMMd: "d. MMM y",
                 yMMMEd: "E, d. MMM y",
-                yMMMM: "y MMMM",
+                yMMMM: "LLLL y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-other": "'week' w 'of' Y"
+                "yw-count-one": "'tydźeń' w 'lěta' Y",
+                "yw-count-two": "'tydźeń' w 'lěta' Y",
+                "yw-count-few": "'tydźeń' w 'lěta' Y",
+                "yw-count-other": "'tydźeń' w 'lěta' Y"
             }
         },
         timeFormats: {
@@ -2433,12 +2459,12 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: {
-                    am: "dopołdnja",
-                    pm: "popołdnju"
+                    am: "am",
+                    pm: "pm"
                 },
                 narrow: {
-                    am: "dopołdnja",
-                    pm: "popołdnju"
+                    am: "am",
+                    pm: "pm"
                 },
                 wide: {
                     am: "dopołdnja",
@@ -2497,9 +2523,9 @@ const data = {
                 narrow: "tydź."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "tydźeń měsaca",
+                short: "tydź. měs.",
+                narrow: "t. měs."
             },
             day: {
                 wide: "dźeń",
@@ -2507,24 +2533,24 @@ const data = {
                 narrow: "d"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "dźeń lěta",
+                short: "dźeń l.",
+                narrow: "dźeń l."
             },
             weekday: {
                 wide: "dźeń tydźenja",
                 short: "dźeń tydźenja",
-                narrow: "dźeń tydźenja"
+                narrow: "dź. tydźenja"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "dźeń tydźenja w měsacu",
+                short: "dn. tydź. w měs.",
+                narrow: "d. t. w měs."
             },
             dayperiod: {
                 short: "połojca dnja",
                 wide: "połojca dnja",
-                narrow: "połojca dnja"
+                narrow: "poł. dnja"
             },
             hour: {
                 wide: "hodźina",
@@ -2544,7 +2570,7 @@ const data = {
             zone: {
                 wide: "časowe pasmo",
                 short: "časowe pasmo",
-                narrow: "časowe pasmo"
+                narrow: "čas. pasmo"
             }
         }
     },

@@ -10,22 +10,22 @@ const data = {
     calendar: {
         patterns: {
             d: "dd/MM/y",
-            D: "EEEE፣ dd MMMM መዓልቲ y G",
-            m: "MMM d",
-            M: "MMMM d",
-            y: "y MMM",
+            D: "EEEE፣ d MMMM y",
+            m: "d MMM",
+            M: "d MMMM",
+            y: "MMM y",
             Y: "MMMM y",
-            F: "EEEE፣ dd MMMM መዓልቲ y G h:mm:ss a",
-            g: "y-MM-dd h:mm a",
-            G: "y-MM-dd h:mm:ss a",
+            F: "EEEE፣ d MMMM y h:mm:ss a",
+            g: "d/M/y h:mm a",
+            G: "d/M/y h:mm:ss a",
             t: "h:mm a",
             T: "h:mm:ss a",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} {0}",
-            long: "{1} {0}",
+            full: "{1} ሰዓት {0}",
+            long: "{1} ሰዓት {0}",
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
@@ -36,15 +36,16 @@ const data = {
                 E: "ccc",
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
-                Ed: "d, E",
-                Ehm: "E h:mm a",
-                EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
-                EHms: "E HH:mm:ss",
-                Gy: "G y",
-                GyMMM: "G y MMM",
-                GyMMMd: "G y MMM d",
-                GyMMMEd: "G y MMM d, E",
+                Ed: "E d",
+                Ehm: "E፣ h:mm a",
+                EHm: "E፣ HH:mm",
+                Ehms: "E፣ h:mm:ss a",
+                EHms: "E፣ HH:mm:ss",
+                Gy: "y G",
+                GyMd: "d/M/y GGGGG",
+                GyMMM: "MMM y G",
+                GyMMMd: "d MMM y G",
+                GyMMMEd: "E፣ d MMM y G",
                 h: "h a",
                 H: "HH",
                 hm: "h:mm a",
@@ -56,30 +57,30 @@ const data = {
                 hmv: "h:mm a v",
                 Hmv: "HH:mm v",
                 M: "L",
-                Md: "MM-dd",
-                MEd: "MM-dd, E",
-                MMdd: "dd/MM",
+                Md: "d/M",
+                MEd: "E፣ d/M",
+                MMdd: "d/M",
                 MMM: "LLL",
-                MMMd: "MMM d",
-                MMMEd: "MMM d, E",
-                MMMMd: "MMMM d",
-                MMMMdd: "dd MMMM",
+                MMMd: "d MMM",
+                MMMEd: "E፣ d MMM",
+                MMMMd: "d MMMM",
+                MMMMdd: "d MMMM",
                 "MMMMW-count-one": "ሰሙን W ናይ MMMM",
                 "MMMMW-count-other": "ሰሙን W ናይ MMMM",
                 ms: "mm:ss",
                 y: "y",
-                yM: "y-MM",
-                yMd: "y-MM-dd",
-                yMEd: "y-MM-dd, E",
-                yMM: "MM/y",
-                yMMM: "y MMM",
-                yMMMd: "y MMM d",
+                yM: "M/y",
+                yMd: "d/M/y",
+                yMEd: "E፣ d/M/y",
+                yMM: "M/y",
+                yMMM: "MMM y",
+                yMMMd: "d MMM y",
                 yMMMEd: "y MMM d, E",
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
-                yQQQQ: "y QQQQ",
-                "yw-count-one": "መበል w ሰሙን ናይ Y",
-                "yw-count-other": "መበል w ሰሙን ናይ Y"
+                yQQQQ: "QQQQ y",
+                "yw-count-one": "ሰሙን w ናይ Y",
+                "yw-count-other": "ሰሙን w ናይ Y"
             }
         },
         timeFormats: {
@@ -89,9 +90,9 @@ const data = {
             short: "h:mm a"
         },
         dateFormats: {
-            full: "EEEE፣ dd MMMM መዓልቲ y G",
-            long: "dd MMMM y",
-            medium: "dd-MMM-y",
+            full: "EEEE፣ d MMMM y",
+            long: "d MMMM y",
+            medium: "d MMM y",
             short: "dd/MM/yy"
         },
         days: {
@@ -126,9 +127,9 @@ const data = {
                 wide: [
                     "ሰንበት",
                     "ሰኑይ",
-                    "ሠሉስ",
+                    "ሰሉስ",
                     "ረቡዕ",
-                    "ኃሙስ",
+                    "ሓሙስ",
                     "ዓርቢ",
                     "ቀዳም"
                 ]
@@ -146,7 +147,7 @@ const data = {
                 narrow: [
                     "ሰ",
                     "ሰ",
-                    "ሠ",
+                    "ሰ",
                     "ረ",
                     "ሓ",
                     "ዓ",
@@ -164,9 +165,9 @@ const data = {
                 wide: [
                     "ሰንበት",
                     "ሰኑይ",
-                    "ሠሉስ",
+                    "ሰሉስ",
                     "ረቡዕ",
-                    "ኃሙስ",
+                    "ሓሙስ",
                     "ዓርቢ",
                     "ቀዳም"
                 ]
@@ -277,10 +278,10 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "ቀዳማይ ርብዒ",
-                    "ካልኣይ ርብዒ",
-                    "ሳልሳይ ርብዒ",
-                    "ራብዓይ ርብዒ"
+                    "1ይ ርብዒ",
+                    "2ይ ርብዒ",
+                    "3ይ ርብዒ",
+                    "4ይ ርብዒ"
                 ]
             },
             "stand-alone": {
@@ -297,48 +298,48 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "ቀዳማይ ርብዒ",
-                    "ካልኣይ ርብዒ",
-                    "ሳልሳይ ርብዒ",
-                    "ራብዓይ ርብዒ"
+                    "1ይ ርብዒ",
+                    "2ይ ርብዒ",
+                    "3ይ ርብዒ",
+                    "4ይ ርብዒ"
                 ]
             }
         },
         dayPeriods: {
             format: {
                 abbreviated: {
-                    am: "ንጉሆ ሰዓተ",
-                    pm: "ድሕር ሰዓት"
+                    am: "ቅ.ቀ.",
+                    pm: "ድ.ቀ."
                 },
                 narrow: {
-                    am: "ንጉሆ ሰዓተ",
-                    pm: "ድሕር ሰዓት"
+                    am: "ቅ.ቀ.",
+                    pm: "ድ.ቀ."
                 },
                 wide: {
-                    am: "ንጉሆ ሰዓተ",
-                    pm: "ድሕር ሰዓት"
+                    am: "ቅ.ቀ.",
+                    pm: "ድ.ቀ."
                 }
             },
             "stand-alone": {
                 abbreviated: {
-                    am: "ንጉሆ ሰዓተ",
-                    pm: "ድሕር ሰዓት"
+                    am: "ቅ.ቀ.",
+                    pm: "ድ.ቀ."
                 },
                 narrow: {
-                    am: "ንጉሆ ሰዓተ",
-                    pm: "ድሕር ሰዓት"
+                    am: "ቅ.ቀ.",
+                    pm: "ድ.ቀ."
                 },
                 wide: {
-                    am: "ንጉሆ ሰዓተ",
-                    pm: "ድሕር ሰዓት"
+                    am: "ቅ.ቀ.",
+                    pm: "ድ.ቀ."
                 }
             }
         },
         eras: {
             format: {
                 wide: {
-                    "0": "ዓ/ዓ",
-                    "1": "ዓመተ ምህረት",
+                    "0": "ቅድመ ክርስቶስ",
+                    "1": "ዓመተ ምሕረት",
                     "0-alt-variant": "ቅ.ል.ክ",
                     "1-alt-variant": "ድ.ል.ክ"
                 },
@@ -385,7 +386,7 @@ const data = {
                 narrow: "ሰሙን"
             },
             weekOfMonth: {
-                wide: "ሰን ናይ ወርሒ",
+                wide: "ሰሙን ናይ ወርሒ",
                 short: "ሰሙ. ናይ ወር.",
                 narrow: "ሰሙ. ናይ ወር."
             },
@@ -410,9 +411,9 @@ const data = {
                 narrow: "መ.ስራሕ ናይ ወርሒ"
             },
             dayperiod: {
-                short: "ክፍለ መዓልቲ",
-                wide: "ክፍለ መዓልቲ",
-                narrow: "ክፍለ መዓልቲ"
+                short: "ቅ.ቀ./ድ.ቀ.",
+                wide: "ቅ.ቀ./ድ.ቀ.",
+                narrow: "ቅ.ቀ./ድ.ቀ."
             },
             hour: {
                 wide: "ሰዓት",
@@ -430,9 +431,9 @@ const data = {
                 narrow: "ካልኢት"
             },
             zone: {
-                wide: "ክልል",
-                short: "ክልል",
-                narrow: "ክልል"
+                wide: "ዞባ ግዜ",
+                short: "ዞባ",
+                narrow: "ዞባ"
             }
         }
     },

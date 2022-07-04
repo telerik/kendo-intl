@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -82,7 +83,8 @@ const data = {
                 displayName: "Əfqanıstan Əfqanisi",
                 "displayName-count-one": "Əfqanıstan əfqanisi",
                 "displayName-count-other": "Əfqanıstan əfqanisi",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "Albaniya Leki (1946–1965)",
@@ -100,7 +102,8 @@ const data = {
                 displayName: "Ermənistan Dramı",
                 "displayName-count-one": "Ermənistan dramı",
                 "displayName-count-other": "Ermənistan dramı",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Niderland Antilyası Gilderi",
@@ -189,7 +192,8 @@ const data = {
                 displayName: "Azərbaycan Manatı",
                 "displayName-count-one": "Azərbaycan manatı",
                 "displayName-count-other": "Azərbaycan manatı",
-                symbol: "₼"
+                symbol: "₼",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "Bosniya-Herseqovina Dinarı",
@@ -671,8 +675,7 @@ const data = {
                 "displayName-count-one": "Gürcüstan larisi",
                 "displayName-count-other": "Gürcüstan larisi",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "Qana Sedisi (1979–2007)",
@@ -684,7 +687,8 @@ const data = {
                 displayName: "Qana Sedisi",
                 "displayName-count-one": "Qana sedisi",
                 "displayName-count-other": "Qana sedisi",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Cəbəli-Tariq Funtu",
@@ -1368,8 +1372,7 @@ const data = {
                 displayName: "Rusiya Rublu (1991–1998)",
                 "displayName-count-one": "Rusiya rublu (1991–1998)",
                 "displayName-count-other": "Rusiya rublu (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Ruanda Frankı",
@@ -1443,6 +1446,10 @@ const data = {
                 "displayName-count-one": "Slovak korunası",
                 "displayName-count-other": "Slovak korunası",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Sierra Leon Leonu",
@@ -1675,6 +1682,10 @@ const data = {
                 "displayName-count-other": "Venesuela bolivarı (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "Venesuela Bolivarı (2008–2018)",
                 "displayName-count-one": "Venesuela bolivarı (2008–2018)",
@@ -1778,7 +1789,7 @@ const data = {
                 displayName: "Fil Dişi Sahili Frankı",
                 "displayName-count-one": "Fil Dişi Sahili frankı",
                 "displayName-count-other": "Fil Dişi Sahili frankı",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "Palladium",
@@ -1948,6 +1959,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "GGGGG d MMM y",
                 GyMMM: "G MMM y",
                 GyMMMd: "G d MMM y",
                 GyMMMEd: "G d MMM y, E",
@@ -2151,16 +2163,16 @@ const data = {
                 ],
                 wide: [
                     "yanvar",
-                    "Fevral",
+                    "fevral",
                     "mart",
-                    "Aprel",
-                    "May",
-                    "İyun",
-                    "İyul",
-                    "Avqust",
-                    "Sentyabr",
-                    "Oktyabr",
-                    "Noyabr",
+                    "aprel",
+                    "may",
+                    "iyun",
+                    "iyul",
+                    "avqust",
+                    "sentyabr",
+                    "oktyabr",
+                    "noyabr",
                     "dekabr"
                 ]
             }

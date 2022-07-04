@@ -27,7 +27,8 @@ const data = {
                 displayName: "Afgan Afgani",
                 "displayName-count-one": "Afgan Afgani",
                 "displayName-count-other": "Afgan Afgani",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -43,7 +44,8 @@ const data = {
                 displayName: "Daraamka Armeniya",
                 "displayName-count-one": "daraamka Armeniya",
                 "displayName-count-other": "daraamka Armeniya",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Galdarka Nadarlaan Antiliyaan",
@@ -71,19 +73,27 @@ const data = {
                 symbol: "AOR"
             },
             ARA: {
-                displayName: "ARA",
+                displayName: "Argentine Austral",
+                "displayName-count-one": "Argentine Austral",
+                "displayName-count-other": "Argentine Australs",
                 symbol: "ARA"
             },
             ARL: {
-                displayName: "ARL",
+                displayName: "Beesada Ley ee Arjentiin (1970–1983)",
+                "displayName-count-one": "Beesada Ley ee Arjentiin (1970–1983)",
+                "displayName-count-other": "Beesada Ley ee Arjentiin (1970–1983)",
                 symbol: "ARL"
             },
             ARM: {
-                displayName: "ARM",
+                displayName: "Beesada Ley ee Arjentiin (1881–1970)",
+                "displayName-count-one": "Beesada Ley ee Arjentiin (1881–1970)",
+                "displayName-count-other": "Beesada Ley ee Arjentiin (1881–1970)",
                 symbol: "ARM"
             },
             ARP: {
-                displayName: "ARP",
+                displayName: "Beesada Ley ee Arjentiin (1883–1985)",
+                "displayName-count-one": "Beesada Ley ee Arjentiin (1883–1985)",
+                "displayName-count-other": "Beesada Ley ee Arjentiin (1883–1985)",
                 symbol: "ARP"
             },
             ARS: {
@@ -118,10 +128,13 @@ const data = {
                 displayName: "Manaata Asarbeyjan",
                 "displayName-count-one": "manaata Asarbeyjan",
                 "displayName-count-other": "manaata Asarbeyjan",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
-                displayName: "BAD",
+                displayName: "Diinaarka BBosnia-Hersogofina 1.00 konfatibal maakta Bosnia-Hersogofina 1 konfatibal maaka Bosnia-Hersogofina (1992–1994)",
+                "displayName-count-one": "Diinaarka BBosnia-Hersogofina (1992–1994)",
+                "displayName-count-other": "Diinaarka BBosnia-Hersogofina 1.00 konfatibal maakta Bosnia-Hersogofina 1 konfatibal maaka Bosnia-Hersogofina (1992–1994)",
                 symbol: "BAD"
             },
             BAM: {
@@ -213,7 +226,9 @@ const data = {
                 "symbol-alt-narrow": "Bs"
             },
             BOL: {
-                displayName: "BOL",
+                displayName: "Bolifiyaabka Bolifiyaano(1863–1963)",
+                "displayName-count-one": "Bolifiyaabka Bolifiyaano(1863–1963)",
+                "displayName-count-other": "Bolifiyaabka Bolifiyaano(1863–1963)",
                 symbol: "BOL"
             },
             BOP: {
@@ -287,8 +302,7 @@ const data = {
                 displayName: "Rubalka Belarus",
                 "displayName-count-one": "rubalka Belarus",
                 "displayName-count-other": "rubalka Belarus",
-                symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                symbol: "BYN"
             },
             BYR: {
                 displayName: "BYR",
@@ -460,7 +474,9 @@ const data = {
                 symbol: "ECV"
             },
             EEK: {
-                displayName: "EEK",
+                displayName: "Kroonka Estooniya",
+                "displayName-count-one": "Kroonka Estooniya",
+                "displayName-count-other": "Kroonka Estooniya",
                 symbol: "EEK"
             },
             EGP: {
@@ -503,7 +519,9 @@ const data = {
                 "symbol-alt-narrow": "€"
             },
             FIM: {
-                displayName: "FIM",
+                displayName: "Markkada Fiinishka ah",
+                "displayName-count-one": "Markkada Fiinishka ah",
+                "displayName-count-other": "Markkada Fiinishka ah",
                 symbol: "FIM"
             },
             FJD: {
@@ -550,7 +568,8 @@ const data = {
                 displayName: "Sedida Gana",
                 "displayName-count-one": "sedida Gana",
                 "displayName-count-other": "sedida Gana",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Bowndka Gibraltar",
@@ -652,7 +671,9 @@ const data = {
                 "symbol-alt-narrow": "Rp"
             },
             IEP: {
-                displayName: "IEP",
+                displayName: "baawnka Ayrishka",
+                "displayName-count-one": "baawnka Ayrishka",
+                "displayName-count-other": "baawnka Ayrishka",
                 symbol: "IEP"
             },
             ILP: {
@@ -691,6 +712,8 @@ const data = {
             },
             ISJ: {
                 displayName: "ISJ",
+                "displayName-count-one": "krónaha Iceland (1918–1981)",
+                "displayName-count-other": "krónaha Iceland (1918–1981)",
                 symbol: "ISJ"
             },
             ISK: {
@@ -821,7 +844,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "LSL",
+                displayName: "Lesotho Loti",
+                "displayName-count-one": "Lesotho loti",
+                "displayName-count-other": "Lesotho lotis",
                 symbol: "LSL"
             },
             LTL: {
@@ -851,7 +876,9 @@ const data = {
                 "symbol-alt-narrow": "Ls"
             },
             LVR: {
-                displayName: "LVR",
+                displayName: "Rubalka Latfiya",
+                "displayName-count-one": "rubalka Latvia",
+                "displayName-count-other": "rubalka Latfiya",
                 symbol: "LVR"
             },
             LYD: {
@@ -1094,7 +1121,7 @@ const data = {
                 displayName: "Biso Filibin",
                 "displayName-count-one": "biso Filibin",
                 "displayName-count-other": "biso Filibin",
-                symbol: "PHP",
+                symbol: "₱",
                 "symbol-alt-narrow": "₱"
             },
             PKR: {
@@ -1162,8 +1189,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Faranka Ruwanda",
@@ -1233,6 +1259,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Leonka Sira Leon",
@@ -1435,6 +1465,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "Bolifar Fenesuala (2008–2018)",
                 "displayName-count-one": "Bolifar Fenesuala (2008–2018)",
@@ -1528,7 +1562,7 @@ const data = {
                 displayName: "Faranka CFA Galbeedka Afrika",
                 "displayName-count-one": "faranka CFA Galbeedka Afrika",
                 "displayName-count-other": "faranka CFA Galbeedka Afrika",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",

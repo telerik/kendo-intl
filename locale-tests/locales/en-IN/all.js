@@ -13,6 +13,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -86,9 +87,10 @@ const data = {
             },
             AFN: {
                 displayName: "Afghan Afghani",
-                "displayName-count-one": "Afghan Afghani",
-                "displayName-count-other": "Afghan Afghanis",
-                symbol: "AFN"
+                "displayName-count-one": "Afghan afghani",
+                "displayName-count-other": "Afghan afghanis",
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "Albanian Lek (1946–1965)",
@@ -106,7 +108,8 @@ const data = {
                 displayName: "Armenian Dram",
                 "displayName-count-one": "Armenian dram",
                 "displayName-count-other": "Armenian drams",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Netherlands Antillean Guilder",
@@ -199,7 +202,8 @@ const data = {
                 displayName: "Azerbaijani Manat",
                 "displayName-count-one": "Azerbaijani manat",
                 "displayName-count-other": "Azerbaijani manats",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "Bosnia-Herzegovina Dinar (1992–1994)",
@@ -289,9 +293,9 @@ const data = {
                 symbol: "BIF"
             },
             BMD: {
-                displayName: "Bermudan Dollar",
-                "displayName-count-one": "Bermudan dollar",
-                "displayName-count-other": "Bermudan dollars",
+                displayName: "Bermudian Dollar",
+                "displayName-count-one": "Bermudian dollar",
+                "displayName-count-other": "Bermudian dollars",
                 symbol: "BMD",
                 "symbol-alt-narrow": "$"
             },
@@ -406,8 +410,7 @@ const data = {
                 displayName: "Belarusian Rouble",
                 "displayName-count-one": "Belarusian rouble",
                 "displayName-count-other": "Belarusian roubles",
-                symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                symbol: "BYN"
             },
             BYR: {
                 displayName: "Belarusian Rouble (2000–2016)",
@@ -647,7 +650,7 @@ const data = {
             ETB: {
                 displayName: "Ethiopian Birr",
                 "displayName-count-one": "Ethiopian birr",
-                "displayName-count-other": "Ethiopian birrs",
+                "displayName-count-other": "Ethiopian birr",
                 symbol: "ETB"
             },
             EUR: {
@@ -713,7 +716,8 @@ const data = {
                 displayName: "Ghanaian Cedi",
                 "displayName-count-one": "Ghanaian cedi",
                 "displayName-count-other": "Ghanaian cedis",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Gibraltar Pound",
@@ -1012,7 +1016,7 @@ const data = {
             LSL: {
                 displayName: "Lesotho Loti",
                 "displayName-count-one": "Lesotho loti",
-                "displayName-count-other": "Lesotho lotis",
+                "displayName-count-other": "Lesotho maloti",
                 symbol: "LSL"
             },
             LTL: {
@@ -1098,7 +1102,7 @@ const data = {
             MGA: {
                 displayName: "Malagasy Ariary",
                 "displayName-count-one": "Malagasy ariary",
-                "displayName-count-other": "Malagasy ariaries",
+                "displayName-count-other": "Malagasy ariary",
                 symbol: "MGA",
                 "symbol-alt-narrow": "Ar"
             },
@@ -1186,7 +1190,7 @@ const data = {
             MVR: {
                 displayName: "Maldivian Rufiyaa",
                 "displayName-count-one": "Maldivian rufiyaa",
-                "displayName-count-other": "Maldivian rufiyaas",
+                "displayName-count-other": "Maldivian rufiyaa",
                 symbol: "MVR"
             },
             MWK: {
@@ -1330,10 +1334,10 @@ const data = {
                 symbol: "PGK"
             },
             PHP: {
-                displayName: "Philippine Piso",
-                "displayName-count-one": "Philippine piso",
-                "displayName-count-other": "Philippine pisos",
-                symbol: "PHP",
+                displayName: "Philippine Peso",
+                "displayName-count-one": "Philippine peso",
+                "displayName-count-other": "Philippine pesos",
+                symbol: "₱",
                 "symbol-alt-narrow": "₱"
             },
             PKR: {
@@ -1411,8 +1415,7 @@ const data = {
                 displayName: "Russian Rouble (1991–1998)",
                 "displayName-count-one": "Russian rouble (1991–1998)",
                 "displayName-count-other": "Russian roubles (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Rwandan Franc",
@@ -1490,6 +1493,12 @@ const data = {
                 "displayName-count-one": "Slovak koruna",
                 "displayName-count-other": "Slovak korunas",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "Sierra Leonean New Leone",
+                "displayName-count-one": "Sierra Leonean new leone",
+                "displayName-count-other": "Sierra Leonean new leones",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Sierra Leonean Leone",
@@ -1674,7 +1683,7 @@ const data = {
                 displayName: "US Dollar",
                 "displayName-count-one": "US dollar",
                 "displayName-count-other": "US dollars",
-                symbol: "US$",
+                symbol: "$",
                 "symbol-alt-narrow": "$"
             },
             USN: {
@@ -1726,6 +1735,12 @@ const data = {
                 "displayName-count-other": "Venezuelan bolívars (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "Bolívar Soberano",
+                "displayName-count-one": "Bolívar Soberano",
+                "displayName-count-other": "Bolívar Soberanos",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "Venezuelan Bolívar",
                 "displayName-count-one": "Venezuelan bolívar",
@@ -1755,7 +1770,7 @@ const data = {
             VUV: {
                 displayName: "Vanuatu Vatu",
                 "displayName-count-one": "Vanuatu vatu",
-                "displayName-count-other": "Vanuatu vatus",
+                "displayName-count-other": "Vanuatu vatu",
                 symbol: "VUV"
             },
             WST: {
@@ -1841,7 +1856,7 @@ const data = {
                 displayName: "West African CFA Franc",
                 "displayName-count-one": "West African CFA franc",
                 "displayName-count-other": "West African CFA francs",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "Palladium",
@@ -2021,6 +2036,7 @@ const data = {
                 Ehms: "E, h:mm:ss a",
                 EHms: "E, HH:mm:ss",
                 Gy: "y G",
+                GyMd: "d/M/y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E, d MMM y G",
@@ -2160,7 +2176,7 @@ const data = {
                     "Jun",
                     "Jul",
                     "Aug",
-                    "Sep",
+                    "Sept",
                     "Oct",
                     "Nov",
                     "Dec"
@@ -2204,7 +2220,7 @@ const data = {
                     "Jun",
                     "Jul",
                     "Aug",
-                    "Sep",
+                    "Sept",
                     "Oct",
                     "Nov",
                     "Dec"

@@ -27,7 +27,8 @@ const data = {
                 displayName: "ਅਫ਼ਗਾਨ ਅਫ਼ਗਾਨੀ",
                 "displayName-count-one": "ਅਫ਼ਗਾਨ ਅਫ਼ਗਾਨੀ",
                 "displayName-count-other": "ਅਫ਼ਗਾਨ ਅਫ਼ਗਾਨੀ",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -43,7 +44,8 @@ const data = {
                 displayName: "ਅਰਮੀਨੀਆਈ ਦਰਾਮ",
                 "displayName-count-one": "ਅਰਮੀਨੀਆਈ ਦਰਾਮ",
                 "displayName-count-other": "ਅਰਮੀਨੀਆਈ ਦਰਾਮ",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "ਨੀਦਰਲੈਂਡਸ ਐਂਟੀਲੀਅਨ ਗਿਲਡਰ",
@@ -126,7 +128,8 @@ const data = {
                 displayName: "ਅਜ਼ਰਬਾਈਜਾਨ ਮਾਨਤ",
                 "displayName-count-one": "ਅਜ਼ਰਬਾਈਜਾਨ ਮਾਨਤ",
                 "displayName-count-other": "ਅਜ਼ਰਬਾਈਜਾਨ ਮਾਨਤ",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -570,8 +573,7 @@ const data = {
                 "displayName-count-one": "ਜਾਰਜੀਆਈ ਲਾਰੀ",
                 "displayName-count-other": "ਜਾਰਜੀਆਈ ਲਾਰੀ",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "GHC",
@@ -581,7 +583,8 @@ const data = {
                 displayName: "ਘਾਨਾਈ ਸੇਡੀ",
                 "displayName-count-one": "ਘਾਨਾਈ ਸੇਡੀ",
                 "displayName-count-other": "ਘਾਨਾਈ ਸੇਡੀ",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "ਜਿਬਰਾਲਟਰ ਪੌਂਡ",
@@ -730,7 +733,7 @@ const data = {
             },
             ISK: {
                 displayName: "ਆਈਸਲੈਂਡੀ ਕਰੋਨਾ",
-                "displayName-count-one": "ਆਈਸਲੈਂਡਿਕ ਕਰੌਨ",
+                "displayName-count-one": "ਆਈਸਲੈਂਡੀ ਕਰੋਨਾ",
                 "displayName-count-other": "ਆਈਸਲੈਂਡੀ ਕਰੋਨਾ",
                 symbol: "ISK",
                 "symbol-alt-narrow": "kr"
@@ -856,7 +859,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "LSL",
+                displayName: "ਲੇਸੋਥੋ ਲੋਟੀ",
+                "displayName-count-one": "ਲੇਸੋਥੋ ਲੋਟੀ",
+                "displayName-count-other": "ਲੇਸੋਥੋ ਲੋਟੀ",
                 symbol: "LSL"
             },
             LTL: {
@@ -1201,8 +1206,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "ਰਵਾਂਡਨ ਫ੍ਰੈਂਕ",
@@ -1273,6 +1277,10 @@ const data = {
                 displayName: "SKK",
                 symbol: "SKK"
             },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
+            },
             SLL: {
                 displayName: "ਸਿਏਰਾ ਲਿਓਨੀਅਨ ਲਿਓਨ",
                 "displayName-count-one": "ਸਿਏਰਾ ਲਿਓਨੀਅਨ ਲਿਓਨ",
@@ -1311,7 +1319,7 @@ const data = {
             },
             STN: {
                 displayName: "ਸਾਉ ਟੋਮੀ ਐਂਡ ਪ੍ਰਿੰਸਪੀ ਡੋਬਰਾ",
-                "displayName-count-one": "ਸਾਉ ਟੋਮੀ ਅਤੇ ਪ੍ਰਿੰਸਪੀ ਡੋਬਰਾ",
+                "displayName-count-one": "ਸਾਉ ਟੋਮੀ ਐਂਡ ਪ੍ਰਿੰਸਪੀ ਡੋਬਰਾ",
                 "displayName-count-other": "ਸਾਉ ਟੋਮੀ ਐਂਡ ਪ੍ਰਿੰਸਪੀ ਡੋਬਰਾ",
                 symbol: "STN",
                 "symbol-alt-narrow": "Db"
@@ -1484,6 +1492,10 @@ const data = {
                 "displayName-count-other": "ਵੇਨੇਜ਼ੂਏਲਨ ਬੋਲੀਵਰ (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "ਵੇਨੇਜ਼ੂਏਲਨ ਬੋਲੀਵਰ (2008–2018)",
                 "displayName-count-one": "ਵੇਨੇਜ਼ੂਏਲਨ ਬੋਲੀਵਰ (2008–2018)",
@@ -1571,7 +1583,7 @@ const data = {
             },
             XEU: {
                 displayName: "ਯੂਰਪੀ ਮੁਦਰਾ ਇਕਾਈ",
-                "displayName-count-one": "XEU",
+                "displayName-count-one": "ਯੂਰਪੀਅਨ ਮੁਦਰਾ ਇਕਾਈ",
                 "displayName-count-other": "ਯੂਰਪੀ ਮੁਦਰਾ ਇਕਾਈ",
                 symbol: "XEU"
             },
@@ -1587,7 +1599,7 @@ const data = {
                 displayName: "ਪੱਛਮੀ ਅਫ਼ਰੀਕੀ (CFA) ਫ੍ਰੈਂਕ",
                 "displayName-count-one": "ਪੱਛਮੀ ਅਫ਼ਰੀਕੀ (CFA) ਫ੍ਰੈਂਕ",
                 "displayName-count-other": "ਪੱਛਮੀ ਅਫ਼ਰੀਕੀ (CFA) ਫ੍ਰੈਂਕ",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",

@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -93,7 +94,8 @@ const data = {
                 "displayName-count-few": "afgani afgańskie",
                 "displayName-count-many": "afgani afgańskich",
                 "displayName-count-other": "afgani afgańskiego",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -109,11 +111,12 @@ const data = {
             },
             AMD: {
                 displayName: "dram armeński",
-                "displayName-count-one": "dram ormiański",
+                "displayName-count-one": "dram armeński",
                 "displayName-count-few": "dramy armeńskie",
                 "displayName-count-many": "dramów armeńskich",
-                "displayName-count-other": "dramy ormiańskiej",
-                symbol: "AMD"
+                "displayName-count-other": "drama armeńskiego",
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "gulden antylski",
@@ -216,7 +219,8 @@ const data = {
                 "displayName-count-few": "manaty azerskie",
                 "displayName-count-many": "manatów azerskich",
                 "displayName-count-other": "manata azerskiego",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "dinar Bośni i Hercegowiny",
@@ -236,11 +240,11 @@ const data = {
                 symbol: "BAN"
             },
             BBD: {
-                displayName: "dolar Barbadosu",
-                "displayName-count-one": "dolar Barbadosu",
-                "displayName-count-few": "dolary Barbadosu",
-                "displayName-count-many": "dolarów Barbadosu",
-                "displayName-count-other": "dolara Barbadosu",
+                displayName: "dolar barbadoski",
+                "displayName-count-one": "dolar barbadoski",
+                "displayName-count-few": "dolary barbadoskie",
+                "displayName-count-many": "dolarów barbadoskich",
+                "displayName-count-other": "dolara barbadoskiego",
                 symbol: "BBD",
                 "symbol-alt-narrow": "$"
             },
@@ -429,8 +433,7 @@ const data = {
                 "displayName-count-few": "ruble białoruskie",
                 "displayName-count-many": "rubli białoruskich",
                 "displayName-count-other": "rubla białoruskiego",
-                symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                symbol: "BYN"
             },
             BYR: {
                 displayName: "rubel białoruski (2000–2016)",
@@ -756,8 +759,7 @@ const data = {
                 "displayName-count-many": "lari gruzińskich",
                 "displayName-count-other": "lari gruzińskiego",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "cedi ghańskie (1979–2007)",
@@ -769,7 +771,8 @@ const data = {
                 "displayName-count-few": "cedi ghańskie",
                 "displayName-count-many": "cedi ghańskich",
                 "displayName-count-other": "cedi ghańskiego",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "funt gibraltarski",
@@ -1104,7 +1107,11 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "loti Lesoto",
+                displayName: "loti lesotyjskie",
+                "displayName-count-one": "loti lesotyjskie",
+                "displayName-count-few": "loti lesotyjskie",
+                "displayName-count-many": "loti lesotyjskich",
+                "displayName-count-other": "loti lesotyjskiego",
                 symbol: "LSL"
             },
             LTL: {
@@ -1288,9 +1295,9 @@ const data = {
             MWK: {
                 displayName: "kwacha malawijska",
                 "displayName-count-one": "kwacha malawijska",
-                "displayName-count-few": "kwacha malawijskie",
-                "displayName-count-many": "kwacha malawijskich",
-                "displayName-count-other": "kwacha malawijskiej",
+                "displayName-count-few": "kwachy malawijskie",
+                "displayName-count-many": "kwach malawijskich",
+                "displayName-count-other": "kwachy malawijskiej",
                 symbol: "MWK"
             },
             MXN: {
@@ -1545,8 +1552,7 @@ const data = {
                 "displayName-count-few": "ruble rosyjskie (1991–1998)",
                 "displayName-count-many": "rubli rosyjskich (1991–1998)",
                 "displayName-count-other": "rubla rosyjskiego (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "frank ruandyjski",
@@ -1644,6 +1650,10 @@ const data = {
                 "displayName-count-many": "koron słowackich",
                 "displayName-count-other": "korona słowacka",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "leone sierraleoński",
@@ -1806,11 +1816,11 @@ const data = {
                 "symbol-alt-variant": "TL"
             },
             TTD: {
-                displayName: "dolar Trynidadu i Tobago",
-                "displayName-count-one": "dolar Trynidadu i Tobago",
-                "displayName-count-few": "dolary Trynidadu i Tobago",
-                "displayName-count-many": "dolarów Trynidadu i Tobago",
-                "displayName-count-other": "dolara Trynidadu i Tobago",
+                displayName: "dolar trynidadzki",
+                "displayName-count-one": "dolar trynidadzki",
+                "displayName-count-few": "dolary trynidadzkie",
+                "displayName-count-many": "dolarów trynidadzkich",
+                "displayName-count-other": "dolara trynidadzkiego",
                 symbol: "TTD",
                 "symbol-alt-narrow": "$"
             },
@@ -1913,6 +1923,10 @@ const data = {
                 "displayName-count-many": "boliwarów wenezuelskich (1871–2008)",
                 "displayName-count-other": "boliwary wenezuelskiego (1871–2008)",
                 symbol: "VEB"
+            },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
             },
             VEF: {
                 displayName: "boliwar wenezuelski (2008–2018)",
@@ -2023,7 +2037,7 @@ const data = {
                 "displayName-count-few": "franki CFA",
                 "displayName-count-many": "franków CFA",
                 "displayName-count-other": "franka CFA",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "pallad",
@@ -2148,7 +2162,7 @@ const data = {
     },
     calendar: {
         patterns: {
-            d: "dd.MM.y",
+            d: "d.MM.y",
             D: "EEEE, d MMMM y",
             m: "d MMM",
             M: "d MMMM",
@@ -2181,6 +2195,7 @@ const data = {
                 Ehms: "E, h:mm:ss a",
                 EHms: "E, HH:mm:ss",
                 Gy: "y G",
+                GyMd: "d.MM.y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E, d MMM y G",
@@ -2238,7 +2253,7 @@ const data = {
             full: "EEEE, d MMMM y",
             long: "d MMMM y",
             medium: "d MMM y",
-            short: "dd.MM.y"
+            short: "d.MM.y"
         },
         days: {
             format: {

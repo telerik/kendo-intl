@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -97,7 +98,8 @@ const data = {
                 "displayName-count-few": "afghani Afghanistan",
                 "displayName-count-many": "a afghanioù Afghanistan",
                 "displayName-count-other": "afghani Afghanistan",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "lek Albania (1946–1965)",
@@ -124,7 +126,8 @@ const data = {
                 "displayName-count-few": "dram Armenia",
                 "displayName-count-many": "a zramoù Armenia",
                 "displayName-count-other": "dram Armenia",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "florin Antilhez nederlandat",
@@ -247,7 +250,8 @@ const data = {
                 "displayName-count-few": "manat Azerbaidjan",
                 "displayName-count-many": "a vanatoù Azerbaidjan",
                 "displayName-count-other": "manat Azerbaidjan",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "dinar Bosnia ha Herzegovina (1992–1994)",
@@ -605,7 +609,12 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             CNH: {
-                displayName: "CNH",
+                displayName: "yuan Sina (diavaez)",
+                "displayName-count-one": "yuan Sina (diavaez)",
+                "displayName-count-two": "yuan Sina (diavaez)",
+                "displayName-count-few": "yuan Sina (diavaez)",
+                "displayName-count-many": "a yuanoù Sina (diavaez)",
+                "displayName-count-other": "yuan Sina (diavaez)",
                 symbol: "CNH"
             },
             CNX: {
@@ -919,7 +928,8 @@ const data = {
                 "displayName-count-few": "cedi Ghana",
                 "displayName-count-many": "cedi Ghana",
                 "displayName-count-other": "cedi Ghana",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "lur Jibraltar",
@@ -2035,6 +2045,10 @@ const data = {
                 "displayName-count-other": "kurunenn Slovakia",
                 symbol: "SKK"
             },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
+            },
             SLL: {
                 displayName: "leone Sierra Leone",
                 "displayName-count-one": "leone Sierra Leone",
@@ -2356,6 +2370,10 @@ const data = {
                 "displayName-count-other": "bolivar Venezuela (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "bolivar Venezuela (2008–2018)",
                 "displayName-count-one": "bolivar Venezuela (2008–2018)",
@@ -2528,7 +2546,7 @@ const data = {
                 "displayName-count-few": "lur CFA BCEAO",
                 "displayName-count-many": "a lurioù CFA BCEAO",
                 "displayName-count-other": "lur CFA Afrika ar Cʼhornôg",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "palladiom",
@@ -2575,7 +2593,12 @@ const data = {
                 symbol: "XTS"
             },
             XUA: {
-                displayName: "XUA",
+                displayName: "unanenn jediñ BAD",
+                "displayName-count-one": "unanenn jediñ BAD",
+                "displayName-count-two": "unanenn jediñ BAD",
+                "displayName-count-few": "unanenn jediñ BAD",
+                "displayName-count-many": "a unanennoù jediñ BAD",
+                "displayName-count-other": "unanenn jediñ BAD",
                 symbol: "XUA"
             },
             XXX: {
@@ -2742,6 +2765,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E d MMM y G",

@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "≈",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -78,7 +79,8 @@ const data = {
                 displayName: "Авганистански авгани",
                 "displayName-count-one": "Авгани",
                 "displayName-count-other": "Авгани",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -94,7 +96,8 @@ const data = {
                 displayName: "Ерменски драм",
                 "displayName-count-one": "Ерменски драм",
                 "displayName-count-other": "Ерменски драми",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Холандски антилски гилдер",
@@ -169,7 +172,8 @@ const data = {
                 displayName: "Азербејџански манат",
                 "displayName-count-one": "Азербејџански манат",
                 "displayName-count-other": "Азербејџански манати",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "Босанско-Херцеговски Динар",
@@ -440,9 +444,9 @@ const data = {
                 symbol: "CSK"
             },
             CUC: {
-                displayName: "Кубански пезос (конвертибилен)",
-                "displayName-count-one": "Кубански пезос (конвертибилен)",
-                "displayName-count-other": "Кубански пезоси (конвертибилни)",
+                displayName: "Кубански конвертибилен пезос",
+                "displayName-count-one": "Кубански конвертибилен пезос",
+                "displayName-count-other": "Кубански конвертибилни пезоси",
                 symbol: "CUC",
                 "symbol-alt-narrow": "$"
             },
@@ -593,8 +597,7 @@ const data = {
                 "displayName-count-one": "Грузиски лари",
                 "displayName-count-other": "Грузиски лари",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "Ганајски Седи",
@@ -604,7 +607,8 @@ const data = {
                 displayName: "Гански седи",
                 "displayName-count-one": "Гански седи",
                 "displayName-count-other": "Гански седи",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Гибралтарска фунта",
@@ -833,9 +837,9 @@ const data = {
                 symbol: "KWD"
             },
             KYD: {
-                displayName: "Долар на кајмански острови",
-                "displayName-count-one": "Долар на кајмански острови",
-                "displayName-count-other": "Долари на кајмански острови",
+                displayName: "Кајмански долар",
+                "displayName-count-one": "Кајмански долар",
+                "displayName-count-other": "Кајмански долари",
                 symbol: "KYD",
                 "symbol-alt-narrow": "$"
             },
@@ -876,6 +880,8 @@ const data = {
             },
             LSL: {
                 displayName: "Лесотско лоти",
+                "displayName-count-one": "Лесотски лоти",
+                "displayName-count-other": "Лесотски лоти",
                 symbol: "LSL"
             },
             LTL: {
@@ -1019,7 +1025,7 @@ const data = {
                 symbol: "MVP"
             },
             MVR: {
-                displayName: "Малдивиска руфија",
+                displayName: "Малдивска руфија",
                 "displayName-count-one": "Малдивска руфија",
                 "displayName-count-other": "Малдивски руфии",
                 symbol: "MVR"
@@ -1224,8 +1230,7 @@ const data = {
             },
             RUR: {
                 displayName: "Руска рубља (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Руандски франк",
@@ -1295,6 +1300,10 @@ const data = {
             SKK: {
                 displayName: "Словачка круна",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Сиералеонско леоне",
@@ -1505,6 +1514,10 @@ const data = {
                 "displayName-count-other": "Венецуелски боливар (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "Венецуелски боливар (2008–2018)",
                 "displayName-count-one": "Венецуелски боливар (2008–2018)",
@@ -1572,9 +1585,9 @@ const data = {
                 symbol: "XBD"
             },
             XCD: {
-                displayName: "Источно карипски долар",
-                "displayName-count-one": "Источно карипски долар",
-                "displayName-count-other": "Источно карипски долари",
+                displayName: "Источнокарипски долар",
+                "displayName-count-one": "Источнокарипски долар",
+                "displayName-count-other": "Источнокарипски долари",
                 symbol: "EC$",
                 "symbol-alt-narrow": "$"
             },
@@ -1598,7 +1611,7 @@ const data = {
                 displayName: "Западноафрикански франк",
                 "displayName-count-one": "Западноафрикански франк",
                 "displayName-count-other": "Западноафрикански франци",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",
@@ -1724,10 +1737,10 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} {0}",
-            long: "{1} {0}",
-            medium: "{1} {0}",
-            short: "{1} {0}",
+            full: "{1}, 'во' {0}",
+            long: "{1}, 'во' {0}",
+            medium: "{1}, 'во' {0}",
+            short: "{1}, 'во' {0}",
             availableFormats: {
                 Bh: "h B",
                 Bhm: "h:mm B",
@@ -1742,6 +1755,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "d.M.y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E, d MMM y G",
@@ -1777,8 +1791,8 @@ const data = {
                 yMMMM: "MMMM y 'г'.",
                 yQQQ: "QQQ y 'г'.",
                 yQQQQ: "QQQQ y 'г'.",
-                "yw-count-one": "w 'седмица' 'од' Y",
-                "yw-count-other": "w 'седмица' 'од' Y"
+                "yw-count-one": "w. 'седмица' 'од' Y",
+                "yw-count-other": "w. 'седмица' 'од' Y"
             }
         },
         timeFormats: {
@@ -1798,7 +1812,7 @@ const data = {
                 abbreviated: [
                     "нед.",
                     "пон.",
-                    "вт.",
+                    "вто.",
                     "сре.",
                     "чет.",
                     "пет.",
@@ -2011,8 +2025,8 @@ const data = {
                     noon: "напладне",
                     pm: "попл.",
                     morning1: "наутро",
-                    morning2: "претпл.",
-                    afternoon1: "попл.",
+                    morning2: "претпладне",
+                    afternoon1: "попладне",
                     evening1: "навечер",
                     night1: "ноќе"
                 },
@@ -2084,13 +2098,13 @@ const data = {
                     "1-alt-variant": "нашата ера"
                 },
                 abbreviated: {
-                    "0": "пр.н.е.",
+                    "0": "п.н.е.",
                     "1": "н.е.",
                     "0-alt-variant": "п.н.е.",
                     "1-alt-variant": "н.е."
                 },
                 narrow: {
-                    "0": "пр.н.е.",
+                    "0": "п.н.е.",
                     "1": "н.е.",
                     "0-alt-variant": "п.н.е.",
                     "1-alt-variant": "н.е."

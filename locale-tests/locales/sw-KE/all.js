@@ -13,6 +13,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -79,7 +80,8 @@ const data = {
                 displayName: "Afghani ya Afghanistani",
                 "displayName-count-one": "afghani ya Afghanistani",
                 "displayName-count-other": "afghani za Afghanistani",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -95,7 +97,8 @@ const data = {
                 displayName: "Dram ya Armenia",
                 "displayName-count-one": "dram ya Armenia",
                 "displayName-count-other": "dram za Armenia",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Gilda ya Antili ya Uholanzi",
@@ -170,7 +173,8 @@ const data = {
                 displayName: "Manati ya Azabajani",
                 "displayName-count-one": "manati ya Azabajani",
                 "displayName-count-other": "manati za Azabajani",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -594,8 +598,7 @@ const data = {
                 "displayName-count-one": "lari ya Jiojia",
                 "displayName-count-other": "lari za Jiojia",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "Sedi ya Ghana",
@@ -605,7 +608,8 @@ const data = {
                 displayName: "Sidi ya Ghana",
                 "displayName-count-one": "sidi ya Ghana",
                 "displayName-count-other": "sidi za Ghana",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Pauni ya Jibrata",
@@ -877,6 +881,8 @@ const data = {
             },
             LSL: {
                 displayName: "Loti ya Lesoto",
+                "displayName-count-one": "Loti za Lesoto",
+                "displayName-count-other": "Loti za Lesoto",
                 symbol: "LSL"
             },
             LTL: {
@@ -995,9 +1001,9 @@ const data = {
                 symbol: "MRO"
             },
             MRU: {
-                displayName: "Ouguiya ya Mauritania",
-                "displayName-count-one": "ouguiya ya Mauritania",
-                "displayName-count-other": "ouguiya za Mauritania",
+                displayName: "Ouguiya ya Moritania",
+                "displayName-count-one": "ouguiya ya Moritania",
+                "displayName-count-other": "ouguiya za Moritania",
                 symbol: "MRU"
             },
             MTL: {
@@ -1009,9 +1015,9 @@ const data = {
                 symbol: "MTP"
             },
             MUR: {
-                displayName: "Rupia ya Mauritius",
-                "displayName-count-one": "rupia ya Mauritius",
-                "displayName-count-other": "rupia za Mauritius",
+                displayName: "Rupia ya Morisi",
+                "displayName-count-one": "rupia ya Morisi",
+                "displayName-count-other": "rupia za Morisi",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
@@ -1065,8 +1071,8 @@ const data = {
             },
             MZN: {
                 displayName: "Metikali ya Msumbiji",
-                "displayName-count-one": "Metikali ya Msumbiji",
-                "displayName-count-other": "Metikali za Msumbiji",
+                "displayName-count-one": "metikali ya Msumbiji",
+                "displayName-count-other": "metikali za Msumbiji",
                 symbol: "MZN"
             },
             NAD: {
@@ -1223,8 +1229,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Faranga ya Rwanda",
@@ -1296,6 +1301,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Leoni ya Siera Leoni",
@@ -1502,6 +1511,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "Bolivar ya Venezuela (2008–2018)",
                 "displayName-count-one": "Bolivar ya Venezuela (2008–2018)",
@@ -1595,7 +1608,7 @@ const data = {
                 displayName: "Faranga ya CFA ya Afrika Magharibi",
                 "displayName-count-one": "faranga ya CFA ya Afrika Magharibi",
                 "displayName-count-other": "faranga za CFA ya Afrika Magharibi",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",
@@ -1739,6 +1752,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "d/M/y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E, d MMM y G",

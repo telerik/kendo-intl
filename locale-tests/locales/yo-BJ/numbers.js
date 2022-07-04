@@ -16,6 +16,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "dáàshì",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",

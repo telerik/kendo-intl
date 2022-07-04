@@ -35,7 +35,8 @@ const data = {
                 "displayName-count-two": "afghaniskej afganija",
                 "displayName-count-few": "afghaniske afganije",
                 "displayName-count-other": "afghaniskich afganijow",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -55,7 +56,8 @@ const data = {
                 "displayName-count-two": "armeńskej drama",
                 "displayName-count-few": "armeńske dramy",
                 "displayName-count-other": "armeńskich dramow",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "nižozemsko-antilski gulden",
@@ -170,7 +172,8 @@ const data = {
                 "displayName-count-two": "azerbajdžaniskej manata",
                 "displayName-count-few": "azerbajdžaniske manaty",
                 "displayName-count-other": "azerbajdžaniskich manatow",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "bosniski dinar",
@@ -423,8 +426,7 @@ const data = {
                 "displayName-count-two": "běłoruskej rubla",
                 "displayName-count-few": "běłoruske ruble",
                 "displayName-count-other": "běłoruskich rublow",
-                symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                symbol: "BYN"
             },
             BYR: {
                 displayName: "běłoruski rubl (2000–2016)",
@@ -494,7 +496,11 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             CNH: {
-                displayName: "CNH",
+                displayName: "chinski yuan (offshore)",
+                "displayName-count-one": "chinski yuan (offshore)",
+                "displayName-count-two": "chinskej yuanaj (offshore)",
+                "displayName-count-few": "chinske yuany (offshore)",
+                "displayName-count-other": "chinskich yuanow (offshore)",
                 symbol: "CNH"
             },
             CNX: {
@@ -738,7 +744,8 @@ const data = {
                 "displayName-count-two": "ghanaskej cedi",
                 "displayName-count-few": "ghanaske cedi",
                 "displayName-count-other": "ghanaskich cedi",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "gibraltiski punt",
@@ -1077,7 +1084,11 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "LSL",
+                displayName: "lesothiski loti",
+                "displayName-count-one": "lesothiski loti",
+                "displayName-count-two": "lesothiskej lotija",
+                "displayName-count-few": "lesothiske lotije",
+                "displayName-count-other": "lesothiskich lotijow",
                 symbol: "LSL"
             },
             LTL: {
@@ -1420,7 +1431,7 @@ const data = {
                 "displayName-count-two": "filipinskej peso",
                 "displayName-count-few": "filipinske peso",
                 "displayName-count-other": "filipinskich peso",
-                symbol: "PHP",
+                symbol: "₱",
                 "symbol-alt-narrow": "₱"
             },
             PKR: {
@@ -1502,8 +1513,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "ruandiski frank",
@@ -1589,6 +1599,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "sierra-leoneski leone",
@@ -1843,6 +1857,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "venezuelski bolívar (2008–2018)",
                 "displayName-count-one": "venezuelski bolívar (2008–2018)",
@@ -1952,7 +1970,7 @@ const data = {
                 "displayName-count-two": "CFA-franka (BCEAO)",
                 "displayName-count-few": "CFA-franki (BCEAO)",
                 "displayName-count-other": "CFA-frankow (BCEAO)",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",

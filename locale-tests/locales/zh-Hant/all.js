@@ -13,6 +13,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -79,7 +80,8 @@ const data = {
             AFN: {
                 displayName: "阿富汗尼",
                 "displayName-count-other": "阿富汗尼",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "阿爾巴尼亞列克 (1946–1965)",
@@ -94,7 +96,8 @@ const data = {
             AMD: {
                 displayName: "亞美尼亞德拉姆",
                 "displayName-count-other": "亞美尼亞德拉姆",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "荷屬安地列斯盾",
@@ -172,7 +175,8 @@ const data = {
             AZN: {
                 displayName: "亞塞拜然馬納特",
                 "displayName-count-other": "亞塞拜然馬納特",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "波士尼亞-赫塞哥維納第納爾",
@@ -594,8 +598,7 @@ const data = {
                 displayName: "喬治亞拉里",
                 "displayName-count-other": "喬治亞拉里",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "迦納賽地 (1979–2007)",
@@ -605,7 +608,8 @@ const data = {
             GHS: {
                 displayName: "迦納塞地",
                 "displayName-count-other": "迦納塞地",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "直布羅陀鎊",
@@ -1262,6 +1266,10 @@ const data = {
                 "displayName-count-other": "斯洛伐克克朗",
                 symbol: "SKK"
             },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
+            },
             SLL: {
                 displayName: "獅子山利昂",
                 "displayName-count-other": "獅子山利昂",
@@ -1460,6 +1468,10 @@ const data = {
                 "displayName-count-other": "委內瑞拉玻利瓦 (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "委內瑞拉玻利瓦 (2008–2018)",
                 "displayName-count-other": "委內瑞拉玻利瓦 (2008–2018)",
@@ -1556,7 +1568,7 @@ const data = {
             XOF: {
                 displayName: "法郎 (CFA–BCEAO)",
                 "displayName-count-other": "法郎 (CFA–BCEAO)",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "帕拉狄昂",
@@ -1686,11 +1698,11 @@ const data = {
             M: "M月d日",
             y: "y年M月",
             Y: "y年M月",
-            F: "y年M月d日 EEEE ah:mm:ss",
-            g: "y/M/d ah:mm",
-            G: "y/M/d ah:mm:ss",
-            t: "ah:mm",
-            T: "ah:mm:ss",
+            F: "y年M月d日 EEEE Bh:mm:ss",
+            g: "y/M/d Bh:mm",
+            G: "y/M/d Bh:mm:ss",
+            t: "Bh:mm",
+            T: "Bh:mm:ss",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
@@ -1708,23 +1720,24 @@ const data = {
                 EBhm: "E Bh:mm",
                 EBhms: "E Bh:mm:ss",
                 Ed: "d E",
-                Ehm: "E ah:mm",
+                Ehm: "E Bh:mm",
                 EHm: "E HH:mm",
-                Ehms: "E ah:mm:ss",
+                Ehms: "E Bh:mm:ss",
                 EHms: "E HH:mm:ss",
                 Gy: "Gy年",
+                GyMd: "G y/M/d",
                 GyMMM: "Gy年M月",
                 GyMMMd: "Gy年M月d日",
                 GyMMMEd: "Gy年M月d日 E",
-                h: "ah時",
+                h: "Bh時",
                 H: "H時",
-                hm: "ah:mm",
+                hm: "Bh:mm",
                 Hm: "HH:mm",
-                hms: "ah:mm:ss",
+                hms: "Bh:mm:ss",
                 Hms: "HH:mm:ss",
-                hmsv: "ah:mm:ss [v]",
+                hmsv: "Bh:mm:ss [v]",
                 Hmsv: "HH:mm:ss [v]",
-                hmv: "ah:mm [v]",
+                hmv: "Bh:mm [v]",
                 Hmv: "HH:mm [v]",
                 M: "M月",
                 Md: "M/d",
@@ -1740,6 +1753,7 @@ const data = {
                 yM: "y/M",
                 yMd: "y/M/d",
                 yMEd: "y/M/d（E）",
+                yMEEEEd: "y年M月d日 EEEE",
                 yMM: "y/MM",
                 yMMM: "y年M月",
                 yMMMd: "y年M月d日",
@@ -1751,10 +1765,10 @@ const data = {
             }
         },
         timeFormats: {
-            full: "ah:mm:ss [zzzz]",
-            long: "ah:mm:ss [z]",
-            medium: "ah:mm:ss",
-            short: "ah:mm"
+            full: "Bh:mm:ss [zzzz]",
+            long: "Bh:mm:ss [z]",
+            medium: "Bh:mm:ss",
+            short: "Bh:mm"
         },
         dateFormats: {
             full: "y年M月d日 EEEE",

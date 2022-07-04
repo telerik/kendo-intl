@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -82,7 +83,8 @@ const data = {
                 displayName: "Afegane afegão",
                 "displayName-count-one": "Afegane afegão",
                 "displayName-count-other": "Afeganes afegãos",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "Lek Albanês (1946–1965)",
@@ -100,7 +102,8 @@ const data = {
                 displayName: "Dram armênio",
                 "displayName-count-one": "Dram armênio",
                 "displayName-count-other": "Drams armênios",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Florim das Antilhas Holandesas",
@@ -193,7 +196,8 @@ const data = {
                 displayName: "Manat azeri",
                 "displayName-count-one": "Manat azeri",
                 "displayName-count-other": "Manats azeris",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "Dinar da Bósnia-Herzegovina (1992–1994)",
@@ -695,8 +699,7 @@ const data = {
                 "displayName-count-one": "Lari georgiano",
                 "displayName-count-other": "Laris georgianos",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "Cedi de Gana (1979–2007)",
@@ -708,7 +711,8 @@ const data = {
                 displayName: "Cedi ganês",
                 "displayName-count-one": "Cedi ganês",
                 "displayName-count-other": "Cedis ganeses",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Libra de Gibraltar",
@@ -991,9 +995,9 @@ const data = {
                 "symbol-alt-narrow": "L£"
             },
             LKR: {
-                displayName: "Rupia do Sri Lanka",
-                "displayName-count-one": "Rupia do Sri Lanka",
-                "displayName-count-other": "Rupias do Sri Lanka",
+                displayName: "Rupia cingalesa",
+                "displayName-count-one": "Rupia cingalesa",
+                "displayName-count-other": "Rupias cingalesas",
                 symbol: "LKR",
                 "symbol-alt-narrow": "Rs"
             },
@@ -1005,9 +1009,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "Loti do Lesoto",
-                "displayName-count-one": "Loti do Lesoto",
-                "displayName-count-other": "Lotis do Lesoto",
+                displayName: "Loti lesotiano",
+                "displayName-count-one": "Loti lesotiano",
+                "displayName-count-other": "Lotis lesotianos",
                 symbol: "LSL"
             },
             LTL: {
@@ -1122,9 +1126,9 @@ const data = {
                 symbol: "MLF"
             },
             MMK: {
-                displayName: "Quiat de Myanmar",
-                "displayName-count-one": "Quiat de Myanmar",
-                "displayName-count-other": "Quiat de Myanmar",
+                displayName: "Quiate mianmarense",
+                "displayName-count-one": "Quiate mianmarense",
+                "displayName-count-other": "Quiates mianmarenses",
                 symbol: "MMK",
                 "symbol-alt-narrow": "K"
             },
@@ -1136,9 +1140,9 @@ const data = {
                 "symbol-alt-narrow": "₮"
             },
             MOP: {
-                displayName: "Pataca de Macau",
-                "displayName-count-one": "Pataca de Macau",
-                "displayName-count-other": "Patacas de Macau",
+                displayName: "Pataca macaense",
+                "displayName-count-one": "Pataca macaense",
+                "displayName-count-other": "Patacas macaenses",
                 symbol: "MOP"
             },
             MRO: {
@@ -1404,8 +1408,7 @@ const data = {
                 displayName: "Rublo russo (1991–1998)",
                 "displayName-count-one": "Rublo russo (1991–1998)",
                 "displayName-count-other": "Rublos russos (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Franco ruandês",
@@ -1483,6 +1486,10 @@ const data = {
                 "displayName-count-one": "Coroa eslovaca",
                 "displayName-count-other": "Coroas eslovacas",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Leone de Serra Leoa",
@@ -1717,6 +1724,10 @@ const data = {
                 "displayName-count-other": "Bolívares venezuelanos (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "Bolívar venezuelano (2008–2018)",
                 "displayName-count-one": "Bolívar venezuelano (2008–2018)",
@@ -1832,7 +1843,7 @@ const data = {
                 displayName: "Franco CFA de BCEAO",
                 "displayName-count-one": "Franco CFA de BCEAO",
                 "displayName-count-other": "Francos CFA de BCEAO",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "Paládio",
@@ -2008,6 +2019,7 @@ const data = {
                 Ehms: "E, h:mm:ss a",
                 EHms: "E, HH:mm:ss",
                 Gy: "y G",
+                GyMd: "d/M/y GGGGG",
                 GyMMM: "MMM 'de' y G",
                 GyMMMd: "d 'de' MMM 'de' y G",
                 GyMMMEd: "E, d 'de' MMM 'de' y G",

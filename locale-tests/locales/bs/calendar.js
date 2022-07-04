@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y. G",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "MMM y. G",
                 GyMMMd: "d. MMM y. G",
                 GyMMMEd: "E, d. MMM y. G",
@@ -383,13 +384,13 @@ const data = {
                 abbreviated: {
                     "0": "p. n. e.",
                     "1": "n. e.",
-                    "0-alt-variant": "p.n.e.",
+                    "0-alt-variant": "p. n. e.",
                     "1-alt-variant": "n.e."
                 },
                 narrow: {
                     "0": "p.n.e.",
-                    "1": "n.e.",
-                    "0-alt-variant": "p.n.e.",
+                    "1": "n. e.",
+                    "0-alt-variant": "p. n. e.",
                     "1-alt-variant": "n.e."
                 }
             }
@@ -459,7 +460,7 @@ const data = {
             },
             minute: {
                 wide: "minuta",
-                short: "min.",
+                short: "min",
                 narrow: "min."
             },
             second: {

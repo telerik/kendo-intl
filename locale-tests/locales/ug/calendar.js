@@ -15,11 +15,11 @@ const data = {
             M: "d-MMMM",
             y: "y MMM",
             Y: "y MMMM",
-            F: "y d-MMMM، EEEE h:mm:ss a",
-            g: "y-d-M h:mm a",
-            G: "y-d-M h:mm:ss a",
-            t: "h:mm a",
-            T: "h:mm:ss a",
+            F: "y d-MMMM، EEEE HH:mm:ss",
+            g: "y-d-M HH:mm",
+            G: "y-d-M HH:mm:ss",
+            t: "HH:mm",
+            T: "HH:mm:ss",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "y MMM G",
                 GyMMMd: "y d-MMM G",
                 GyMMMEd: "y d-MMM، E G",
@@ -80,10 +81,10 @@ const data = {
             }
         },
         timeFormats: {
-            full: "h:mm:ss a zzzz",
-            long: "h:mm:ss a z",
-            medium: "h:mm:ss a",
-            short: "h:mm a"
+            full: "HH:mm:ss zzzz",
+            long: "HH:mm:ss z",
+            medium: "HH:mm:ss",
+            short: "HH:mm"
         },
         dateFormats: {
             full: "y d-MMMM، EEEE",
@@ -337,19 +338,19 @@ const data = {
                     "0": "مىلادىيەدىن بۇرۇن",
                     "1": "مىلادىيە",
                     "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "1-alt-variant": "مىلادىيە"
                 },
                 abbreviated: {
                     "0": "BCE",
                     "1": "مىلادىيە",
                     "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "1-alt-variant": "مىلادىيە"
                 },
                 narrow: {
                     "0": "BCE",
                     "1": "مىلادىيە",
                     "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "1-alt-variant": "مىلادىيە"
                 }
             }
         },

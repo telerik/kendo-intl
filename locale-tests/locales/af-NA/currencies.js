@@ -28,7 +28,8 @@ const data = {
                 displayName: "Afgaanse afgani",
                 "displayName-count-one": "Afgaanse afgani",
                 "displayName-count-other": "Afgaanse afgani",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -44,7 +45,8 @@ const data = {
                 displayName: "Armeense dram",
                 "displayName-count-one": "Armeense dram",
                 "displayName-count-other": "Armeense dram",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Nederlands-Antilliaanse gulde",
@@ -119,7 +121,8 @@ const data = {
                 displayName: "Azerbeidjaanse manat",
                 "displayName-count-one": "Azerbeidjaanse manat",
                 "displayName-count-other": "Azerbeidjaanse manat",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -499,7 +502,7 @@ const data = {
                 symbol: "ETB"
             },
             EUR: {
-                displayName: "euro",
+                displayName: "Euro",
                 "displayName-count-one": "euro",
                 "displayName-count-other": "euro",
                 symbol: "€",
@@ -543,8 +546,7 @@ const data = {
                 "displayName-count-one": "Georgiese lari",
                 "displayName-count-other": "Georgiese lari",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "Ghanese cedi (1979–2007)",
@@ -554,7 +556,8 @@ const data = {
                 displayName: "Ghanese cedi",
                 "displayName-count-one": "Ghanese cedi",
                 "displayName-count-other": "Ghanese cedi",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Gibraltarese pond",
@@ -1169,8 +1172,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Rwandese frank",
@@ -1240,6 +1242,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Sierra Leoniese leone",
@@ -1446,6 +1452,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "Venezolaanse bolivar",
                 "displayName-count-one": "Venezolaanse bolívar (2008–2018)",
@@ -1539,7 +1549,7 @@ const data = {
                 displayName: "Wes-Afrikaanse CFA-frank",
                 "displayName-count-one": "Wes-Afrikaanse CFA-frank",
                 "displayName-count-other": "Wes-Afrikaanse CFA-frank",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",
@@ -1572,7 +1582,7 @@ const data = {
                 symbol: "XUA"
             },
             XXX: {
-                displayName: "onbekende geldeenheid",
+                displayName: "Onbekende geldeenheid",
                 "displayName-count-one": "(onbekende geldeenheid)",
                 "displayName-count-other": "(onbekende geldeenheid)",
                 symbol: "¤"

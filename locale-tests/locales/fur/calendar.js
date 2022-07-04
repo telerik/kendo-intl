@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "G y MMM",
                 GyMMMd: "G y MMM d",
                 GyMMMEd: "G y MMM d, E",
@@ -336,20 +337,20 @@ const data = {
                 wide: {
                     "0": "pdC",
                     "1": "ddC",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "pdC",
+                    "1-alt-variant": "ddC"
                 },
                 abbreviated: {
                     "0": "pdC",
                     "1": "ddC",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "pdC",
+                    "1-alt-variant": "ddC"
                 },
                 narrow: {
                     "0": "pdC",
                     "1": "ddC",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "pdC",
+                    "1-alt-variant": "ddC"
                 }
             }
         },
@@ -427,9 +428,9 @@ const data = {
                 narrow: "secont"
             },
             zone: {
-                wide: "zone",
-                short: "zone",
-                narrow: "zone"
+                wide: "Zone",
+                short: "Zone",
+                narrow: "Zone"
             }
         }
     },

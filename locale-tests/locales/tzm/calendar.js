@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "G y MMM",
                 GyMMMd: "G y MMM d",
                 GyMMMEd: "G y MMM d, E",
@@ -335,20 +336,20 @@ const data = {
                 wide: {
                     "0": "Zdat Ɛisa (TAƔ)",
                     "1": "Ḍeffir Ɛisa (TAƔ)",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "ZƐ",
+                    "1-alt-variant": "ḌƐ"
                 },
                 abbreviated: {
                     "0": "ZƐ",
                     "1": "ḌƐ",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "ZƐ",
+                    "1-alt-variant": "ḌƐ"
                 },
                 narrow: {
                     "0": "ZƐ",
                     "1": "ḌƐ",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "ZƐ",
+                    "1-alt-variant": "ḌƐ"
                 }
             }
         },

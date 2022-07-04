@@ -28,7 +28,8 @@ const data = {
                 displayName: "Afganistan afghani",
                 "displayName-count-one": "Afganistan afghani",
                 "displayName-count-other": "Afganistan afghani",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -44,7 +45,8 @@ const data = {
                 displayName: "Armenia dram",
                 "displayName-count-one": "Armenia dram",
                 "displayName-count-other": "Armenia dram",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "Niðurlonds Karibia gyllin",
@@ -119,7 +121,8 @@ const data = {
                 displayName: "Aserbadjan manat",
                 "displayName-count-one": "Aserbadjan manat",
                 "displayName-count-other": "Aserbadjan manat",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -171,9 +174,9 @@ const data = {
                 symbol: "BGM"
             },
             BGN: {
-                displayName: "Bulgaria lev",
-                "displayName-count-one": "Bulgaria lev",
-                "displayName-count-other": "Bulgaria lev",
+                displayName: "Bulgarskur Lev",
+                "displayName-count-one": "bulgarskur lev",
+                "displayName-count-other": "bulgarskir leva",
                 symbol: "BGN"
             },
             BGO: {
@@ -285,9 +288,9 @@ const data = {
                 symbol: "BYB"
             },
             BYN: {
-                displayName: "Hvítarussland ruble",
-                "displayName-count-one": "Hvítarussland ruble",
-                "displayName-count-other": "Hvítarussland ruble",
+                displayName: "Hvítarussiskur Ruble",
+                "displayName-count-one": "hvítarussiskur ruble",
+                "displayName-count-other": "hvítarussiskir ruble",
                 symbol: "BYN",
                 "symbol-alt-narrow": "р."
             },
@@ -305,9 +308,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             CAD: {
-                displayName: "Kanada dollari",
-                "displayName-count-one": "Kanada dollari",
-                "displayName-count-other": "Kanada dollarar",
+                displayName: "Kanadiskur dollari",
+                "displayName-count-one": "kanadiskur dollari",
+                "displayName-count-other": "kanadiskir dollarar",
                 symbol: "CA$",
                 "symbol-alt-narrow": "$"
             },
@@ -414,9 +417,9 @@ const data = {
                 symbol: "CYP"
             },
             CZK: {
-                displayName: "Kekkia koruna",
-                "displayName-count-one": "Kekkia koruna",
-                "displayName-count-other": "Kekkia koruna",
+                displayName: "Kekkiskt Koruna",
+                "displayName-count-one": "kekkiskt koruna",
+                "displayName-count-other": "kekkiskar korunur",
                 symbol: "CZK",
                 "symbol-alt-narrow": "Kč"
             },
@@ -553,7 +556,8 @@ const data = {
                 displayName: "Gana cedi",
                 "displayName-count-one": "Gana cedi",
                 "displayName-count-other": "Gana cedi",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Gibraltar pund",
@@ -641,9 +645,9 @@ const data = {
                 symbol: "HTG"
             },
             HUF: {
-                displayName: "Ungarn forint",
-                "displayName-count-one": "Ungarn forint",
-                "displayName-count-other": "Ungarn forint",
+                displayName: "Ungarskur Forintur",
+                "displayName-count-one": "ungarskur forintur",
+                "displayName-count-other": "ungarskir forintar",
                 symbol: "HUF",
                 "symbol-alt-narrow": "Ft"
             },
@@ -882,9 +886,9 @@ const data = {
                 symbol: "MDC"
             },
             MDL: {
-                displayName: "Moldova leu",
-                "displayName-count-one": "Moldova leu",
-                "displayName-count-other": "Moldova leu",
+                displayName: "Moldovanskur Leu",
+                "displayName-count-one": "moldovanskur leu",
+                "displayName-count-other": "moldovanskir lei",
                 symbol: "MDL"
             },
             MGA: {
@@ -1108,9 +1112,9 @@ const data = {
                 "symbol-alt-narrow": "Rs"
             },
             PLN: {
-                displayName: "Pólland zloty",
-                "displayName-count-one": "Pólland zloty",
-                "displayName-count-other": "Pólland zloty",
+                displayName: "Pólskur Zloty",
+                "displayName-count-one": "pólskur zloty",
+                "displayName-count-other": "pólskir zloty",
                 symbol: "PLN",
                 "symbol-alt-narrow": "zł"
             },
@@ -1165,8 +1169,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Ruanda frankur",
@@ -1236,6 +1239,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Sierra Leona leone",
@@ -1442,6 +1449,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "Venesuela bolívar (2008–2018)",
                 "displayName-count-one": "Venesuela bolívar (2008–2018)",
@@ -1539,7 +1550,7 @@ const data = {
                 displayName: "Vesturafrika CFA frankur",
                 "displayName-count-one": "Vesturafrika CFA frankur",
                 "displayName-count-other": "Vesturafrika CFA frankar",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "unse palladium",

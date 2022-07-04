@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM, y G",
                 GyMMMEd: "E, d MMM, y G",
@@ -333,21 +334,21 @@ const data = {
             format: {
                 wide: {
                     "0": "Пеш аз милод",
-                    "1": "ПаМ",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "1": "Пас аз милод",
+                    "0-alt-variant": "То милод",
+                    "1-alt-variant": "Милод"
                 },
                 abbreviated: {
                     "0": "ПеМ",
                     "1": "ПаМ",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "ТоМ",
+                    "1-alt-variant": "М"
                 },
                 narrow: {
                     "0": "ПеМ",
                     "1": "ПаМ",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "ТоМ",
+                    "1-alt-variant": "М"
                 }
             }
         },
@@ -380,9 +381,9 @@ const data = {
                 narrow: "ҳ."
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "ҳафтаи моҳ",
+                short: "ҳ. м.",
+                narrow: "ҳ. м."
             },
             day: {
                 wide: "рӯз",
@@ -390,19 +391,19 @@ const data = {
                 narrow: "рӯз"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "рӯзи сол",
+                short: "рӯзи с.",
+                narrow: "рӯзи с."
             },
             weekday: {
                 wide: "рӯзи ҳафта",
-                short: "рӯзи ҳафта",
-                narrow: "рӯзи ҳафта"
+                short: "рӯзи ҳ.",
+                narrow: "рӯзи ҳ."
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "рӯзи ҳафтаи моҳ",
+                short: "рӯзи ҳ. м.",
+                narrow: "рӯзи ҳ. м."
             },
             dayperiod: {
                 short: "AM/PM",

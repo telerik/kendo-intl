@@ -13,6 +13,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -84,7 +85,8 @@ const data = {
                 displayName: "afegâni afegão",
                 "displayName-count-one": "afegâni afegão",
                 "displayName-count-other": "afegânis afegãos",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "Lek Albanês (1946–1965)",
@@ -102,7 +104,8 @@ const data = {
                 displayName: "dram arménio",
                 "displayName-count-one": "dram arménio",
                 "displayName-count-other": "drams arménios",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "florim das Antilhas Holandesas",
@@ -195,7 +198,8 @@ const data = {
                 displayName: "manat azeri",
                 "displayName-count-one": "manat azeri",
                 "displayName-count-other": "manats azeris",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "Dinar da Bósnia-Herzegóvina",
@@ -698,8 +702,7 @@ const data = {
                 "displayName-count-one": "lari georgiano",
                 "displayName-count-other": "laris georgianos",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "Cedi de Gana (1979–2007)",
@@ -711,7 +714,8 @@ const data = {
                 displayName: "cedi ganês",
                 "displayName-count-one": "cedi ganês",
                 "displayName-count-other": "cedis ganeses",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "libra de Gibraltar",
@@ -1008,9 +1012,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "Loti do Lesoto",
-                "displayName-count-one": "Loti do Lesoto",
-                "displayName-count-other": "Lotis do Lesoto",
+                displayName: "loti lesotiano",
+                "displayName-count-one": "loti lesotiano",
+                "displayName-count-other": "lotis lesotianos",
                 symbol: "LSL"
             },
             LTL: {
@@ -1356,7 +1360,7 @@ const data = {
                 displayName: "escudo português",
                 "displayName-count-one": "escudo português",
                 "displayName-count-other": "escudos portugueses",
-                symbol: "​PTE",
+                symbol: "PTE",
                 decimal: "$",
                 group: ","
             },
@@ -1409,8 +1413,7 @@ const data = {
                 displayName: "Rublo russo (1991–1998)",
                 "displayName-count-one": "Rublo russo (1991–1998)",
                 "displayName-count-other": "Rublos russos (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "franco ruandês",
@@ -1488,6 +1491,10 @@ const data = {
                 "displayName-count-one": "Coroa eslovaca",
                 "displayName-count-other": "Coroas eslovacas",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "leone de Serra Leoa",
@@ -1722,6 +1729,10 @@ const data = {
                 "displayName-count-other": "Bolívares venezuelanos (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "bolívar (2008–2018)",
                 "displayName-count-one": "bolívar (2008–2018)",
@@ -1837,7 +1848,7 @@ const data = {
                 displayName: "franco CFA (BCEAO)",
                 "displayName-count-one": "franco CFA (BCEAO)",
                 "displayName-count-other": "francos CFA (BCEAO)",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "Paládio",
@@ -2013,6 +2024,7 @@ const data = {
                 Ehms: "E, h:mm:ss a",
                 EHms: "E, HH:mm:ss",
                 Gy: "y G",
+                GyMd: "d/M/y GGGGG",
                 GyMMM: "MMM 'de' y G",
                 GyMMMd: "d 'de' MMM 'de' y G",
                 GyMMMEd: "E, d 'de' MMM 'de' y G",
@@ -2089,13 +2101,13 @@ const data = {
                     "S"
                 ],
                 short: [
-                    "domingo",
-                    "segunda",
-                    "terça",
-                    "quarta",
-                    "quinta",
-                    "sexta",
-                    "sábado"
+                    "dom.",
+                    "seg.",
+                    "ter.",
+                    "qua.",
+                    "qui.",
+                    "sex.",
+                    "sáb."
                 ],
                 wide: [
                     "domingo",
@@ -2127,13 +2139,13 @@ const data = {
                     "S"
                 ],
                 short: [
-                    "domingo",
-                    "segunda",
-                    "terça",
-                    "quarta",
-                    "quinta",
-                    "sexta",
-                    "sábado"
+                    "dom.",
+                    "seg.",
+                    "ter.",
+                    "qua.",
+                    "qui.",
+                    "sex.",
+                    "sáb."
                 ],
                 wide: [
                     "domingo",
@@ -2411,8 +2423,8 @@ const data = {
             },
             weekday: {
                 wide: "dia da semana",
-                short: "dia da semana",
-                narrow: "dia da semana"
+                short: "dia da sem.",
+                narrow: "dia da sem."
             },
             weekdayOfMonth: {
                 wide: "dia da semana do mês",

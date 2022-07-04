@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "dd/MM/y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "dd MMM, y G",
                 GyMMMEd: "E, dd/MM/y G",
@@ -372,14 +373,14 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    "0": "Trước CN",
-                    "1": "sau CN",
-                    "0-alt-variant": "trước CN",
-                    "1-alt-variant": "CN"
+                    "0": "Trước Thiên Chúa",
+                    "1": "Sau Công Nguyên",
+                    "0-alt-variant": "Trước Công Nguyên",
+                    "1-alt-variant": "Công Nguyên"
                 },
                 abbreviated: {
                     "0": "Trước CN",
-                    "1": "sau CN",
+                    "1": "Sau CN",
                     "0-alt-variant": "trước CN",
                     "1-alt-variant": "CN"
                 },

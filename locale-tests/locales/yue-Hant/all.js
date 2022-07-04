@@ -13,6 +13,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -79,7 +80,8 @@ const data = {
             AFN: {
                 displayName: "阿富汗尼",
                 "displayName-count-other": "阿富汗尼",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "阿爾巴尼亞列克 (1946–1965)",
@@ -94,7 +96,8 @@ const data = {
             AMD: {
                 displayName: "亞美尼亞德拉姆",
                 "displayName-count-other": "亞美尼亞德拉姆",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "荷屬安地列斯盾",
@@ -172,7 +175,8 @@ const data = {
             AZN: {
                 displayName: "亞塞拜然馬納特",
                 "displayName-count-other": "亞塞拜然馬納特",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "波士尼亞-赫塞哥維納第納爾",
@@ -594,8 +598,7 @@ const data = {
                 displayName: "喬治亞拉里",
                 "displayName-count-other": "喬治亞拉里",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "迦納賽地 (1979–2007)",
@@ -605,7 +608,8 @@ const data = {
             GHS: {
                 displayName: "迦納塞地",
                 "displayName-count-other": "迦納塞地",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "直布羅陀鎊",
@@ -1262,6 +1266,10 @@ const data = {
                 "displayName-count-other": "斯洛伐克克朗",
                 symbol: "SKK"
             },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
+            },
             SLL: {
                 displayName: "獅子山利昂",
                 "displayName-count-other": "獅子山利昂",
@@ -1459,6 +1467,10 @@ const data = {
                 "displayName-count-other": "委內瑞拉玻利瓦 (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "委內瑞拉玻利瓦 (VEF)",
                 "displayName-count-other": "委內瑞拉玻利瓦 (VEF)",
@@ -1555,7 +1567,7 @@ const data = {
             XOF: {
                 displayName: "法郎 (CFA–BCEAO)",
                 "displayName-count-other": "法郎 (CFA–BCEAO)",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "帕拉狄昂",
@@ -1712,6 +1724,7 @@ const data = {
                 Ehms: "E ah:mm:ss",
                 EHms: "E HH:mm:ss",
                 Gy: "Gy年",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "Gy年M月",
                 GyMMMd: "Gy年M月d日",
                 GyMMMEd: "Gy年M月d日 E",

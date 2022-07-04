@@ -10,12 +10,12 @@ const data = {
     calendar: {
         patterns: {
             d: "dd/MM/y",
-            D: "EEEE, MMMM dd, y",
+            D: "EEEE, MMMM d, y",
             m: "MMM d",
             M: "MMMM d",
             y: "MMM y",
             Y: "MMMM y",
-            F: "EEEE, MMMM dd, y h:mm:ss a",
+            F: "EEEE, MMMM d, y h:mm:ss a",
             g: "M/d/y h:mm a",
             G: "M/d/y h:mm:ss a",
             t: "h:mm a",
@@ -24,9 +24,9 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} {0}",
-            long: "{1} {0}",
-            medium: "{1} {0}",
+            full: "{1} 'ee' {0}",
+            long: "{1} 'ee' {0}",
+            medium: "{1} 'ee' {0}",
             short: "{1} {0}",
             availableFormats: {
                 Bh: "h B",
@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "M/d/y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "MMM d, y G",
                 GyMMMEd: "E, MMM d, y G",
@@ -87,8 +88,8 @@ const data = {
             short: "h:mm a"
         },
         dateFormats: {
-            full: "EEEE, MMMM dd, y",
-            long: "dd MMMM y",
+            full: "EEEE, MMMM d, y",
+            long: "MMMM d, y",
             medium: "dd-MMM-y",
             short: "dd/MM/yy"
         },
@@ -154,7 +155,7 @@ const data = {
                     "Axd",
                     "Isn",
                     "Tldo",
-                    "Arbc",
+                    "Arbaco",
                     "Khms",
                     "Jmc",
                     "Sbti"
@@ -319,11 +320,11 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: {
-                    am: "GH",
+                    am: "AM",
                     pm: "GD"
                 },
                 narrow: {
-                    am: "GH",
+                    am: "AM",
                     pm: "GD"
                 },
                 wide: {
@@ -341,16 +342,16 @@ const data = {
                     "1-alt-variant": "Taariikhda Miilaadiga"
                 },
                 abbreviated: {
-                    "0": "CH",
-                    "1": "CD",
+                    "0": "BC",
+                    "1": "AD",
                     "0-alt-variant": "KTM",
-                    "1-alt-variant": "TM"
+                    "1-alt-variant": "CE"
                 },
                 narrow: {
-                    "0": "CH",
-                    "1": "CD",
+                    "0": "B",
+                    "1": "A",
                     "0-alt-variant": "KTM",
-                    "1-alt-variant": "TM"
+                    "1-alt-variant": "CE"
                 }
             }
         },
@@ -359,8 +360,8 @@ const data = {
         dateFields: {
             era: {
                 wide: "saman",
-                short: "smn",
-                narrow: "smn"
+                short: "saman",
+                narrow: "saman"
             },
             year: {
                 wide: "Sannad",

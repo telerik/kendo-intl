@@ -25,10 +25,10 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} {0}",
-            long: "{1} {0}",
-            medium: "{1} {0}",
-            short: "{1} {0}",
+            full: "{1} في {0}",
+            long: "{1} في {0}",
+            medium: "{1}, {0}",
+            short: "{1}, {0}",
             availableFormats: {
                 Bh: "h B",
                 Bhm: "h:mm B",
@@ -43,6 +43,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "dd-MM-y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E، d MMM y G",
@@ -58,7 +59,7 @@ const data = {
                 Hmv: "HH:mm v",
                 M: "L",
                 Md: "d/‏M",
-                MEd: "E، d/M",
+                MEd: "E، d/‏M",
                 MMdd: "dd‏/MM",
                 MMM: "LLL",
                 MMMd: "d MMM",
@@ -323,7 +324,7 @@ const data = {
                     afternoon1: "ظهرًا",
                     afternoon2: "بعد الظهر",
                     evening1: "مساءً",
-                    night1: "منتصف الليل",
+                    night1: "في المساء",
                     night2: "ل"
                 },
                 narrow: {
@@ -340,12 +341,12 @@ const data = {
                 wide: {
                     am: "ص",
                     pm: "م",
-                    morning1: "فجرًا",
+                    morning1: "في الصباح",
                     morning2: "صباحًا",
                     afternoon1: "ظهرًا",
                     afternoon2: "بعد الظهر",
                     evening1: "مساءً",
-                    night1: "منتصف الليل",
+                    night1: "في المساء",
                     night2: "ليلاً"
                 }
             },

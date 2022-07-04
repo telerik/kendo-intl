@@ -36,7 +36,8 @@ const data = {
                 "displayName-count-few": "أفغاني أفغانستاني",
                 "displayName-count-many": "أفغاني أفغانستاني",
                 "displayName-count-other": "أفغاني أفغانستاني",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -60,7 +61,8 @@ const data = {
                 "displayName-count-few": "درام أرميني",
                 "displayName-count-many": "درام أرميني",
                 "displayName-count-other": "درام أرميني",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "غيلدر أنتيلي هولندي",
@@ -159,7 +161,8 @@ const data = {
                 "displayName-count-few": "مانت أذربيجاني",
                 "displayName-count-many": "مانت أذربيجاني",
                 "displayName-count-other": "مانت أذربيجاني",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "دينار البوسنة والهرسك",
@@ -743,8 +746,7 @@ const data = {
                 "displayName-count-many": "لاري جورجي",
                 "displayName-count-other": "لاري جورجي",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "سيدي غاني",
@@ -758,7 +760,8 @@ const data = {
                 "displayName-count-few": "سيدي غانا",
                 "displayName-count-many": "سيدي غانا",
                 "displayName-count-other": "سيدي غانا",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "جنيه جبل طارق",
@@ -1158,6 +1161,12 @@ const data = {
             },
             LSL: {
                 displayName: "لوتي ليسوتو",
+                "displayName-count-zero": "لوتي ليسوتو",
+                "displayName-count-one": "لوتي ليسوتو",
+                "displayName-count-two": "لوتي ليسوتو",
+                "displayName-count-few": "لوتي ليسوتو",
+                "displayName-count-many": "لوتي ليسوتو",
+                "displayName-count-other": "لوتي ليسوتو",
                 symbol: "LSL"
             },
             LTL: {
@@ -1646,8 +1655,7 @@ const data = {
             },
             RUR: {
                 displayName: "روبل روسي - 1991-1998",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "فرنك رواندي",
@@ -1749,6 +1757,10 @@ const data = {
             SKK: {
                 displayName: "كرونة سلوفاكية",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "ليون سيراليوني",
@@ -2043,6 +2055,10 @@ const data = {
                 displayName: "بوليفار فنزويلي - 1871-2008",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "بوليفار فنزويلي - 2008–2018",
                 "displayName-count-zero": "بوليفار فنزويلي - 2008–2018",
@@ -2168,7 +2184,7 @@ const data = {
                 "displayName-count-few": "فرنك غرب أفريقي",
                 "displayName-count-many": "فرنك غرب أفريقي",
                 "displayName-count-other": "فرنك غرب أفريقي",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "بالاديوم",
@@ -2212,7 +2228,7 @@ const data = {
                 "displayName-count-few": "(عملة غير معروفة)",
                 "displayName-count-many": "(عملة غير معروفة)",
                 "displayName-count-other": "(عملة غير معروفة)",
-                symbol: "***"
+                symbol: "¤"
             },
             YDD: {
                 displayName: "دينار يمني",

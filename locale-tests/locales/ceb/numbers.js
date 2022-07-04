@@ -15,6 +15,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -41,7 +42,7 @@ const data = {
                 "n%"
             ],
             groupSize: [
-                2
+                3
             ]
         },
         currency: {

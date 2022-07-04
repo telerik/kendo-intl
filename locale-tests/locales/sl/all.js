@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "−",
+            approximatelySign: "~",
             exponential: "e",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -85,7 +86,8 @@ const data = {
                 "displayName-count-two": "afganija",
                 "displayName-count-few": "afganiji",
                 "displayName-count-other": "afganijev",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -105,7 +107,8 @@ const data = {
                 "displayName-count-two": "armenska drama",
                 "displayName-count-few": "armenski drami",
                 "displayName-count-other": "armenskih dramov",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "nizozemsko-antilski gulden",
@@ -178,7 +181,7 @@ const data = {
                 displayName: "arubski florin",
                 "displayName-count-one": "arubski florin",
                 "displayName-count-two": "arubska florina",
-                "displayName-count-few": "arubski florin",
+                "displayName-count-few": "arubski florini",
                 "displayName-count-other": "arubskih florinov",
                 symbol: "AWG"
             },
@@ -192,7 +195,8 @@ const data = {
                 "displayName-count-two": "azerbajdžanska manata",
                 "displayName-count-few": "azerbajdžanski manati",
                 "displayName-count-other": "azerbajdžanskih manatov",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "bosansko-hercegovski dinar",
@@ -419,11 +423,11 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             CDF: {
-                displayName: "kongoški frank",
-                "displayName-count-one": "kongoški frank",
-                "displayName-count-two": "kongoška franka",
-                "displayName-count-few": "kongoški frank",
-                "displayName-count-other": "kongoških frankov",
+                displayName: "kongovski frank",
+                "displayName-count-one": "kongovski frank",
+                "displayName-count-two": "kongovska franka",
+                "displayName-count-few": "kongovski franki",
+                "displayName-count-other": "kongovskih frankov",
                 symbol: "CDF"
             },
             CHE: {
@@ -696,8 +700,7 @@ const data = {
                 "displayName-count-few": "gruzijski lari",
                 "displayName-count-other": "gruzijskih larijev",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "stari ganski cedi (1979–2007)",
@@ -709,7 +712,8 @@ const data = {
                 "displayName-count-two": "ganska ceda",
                 "displayName-count-few": "ganski cedi",
                 "displayName-count-other": "ganskih cedov",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "gibraltarski funt",
@@ -847,9 +851,9 @@ const data = {
             ILS: {
                 displayName: "izraelski šekel",
                 "displayName-count-one": "izraelski šekel",
-                "displayName-count-two": "izraelska šekela",
-                "displayName-count-few": "izraelski šekeli",
-                "displayName-count-other": "izraelskih šekelov",
+                "displayName-count-two": "izraelska šekla",
+                "displayName-count-few": "izraelski šekli",
+                "displayName-count-other": "izraelskih šeklov",
                 symbol: "₪",
                 "symbol-alt-narrow": "₪"
             },
@@ -994,7 +998,7 @@ const data = {
                 "displayName-count-one": "kajmanski dolar",
                 "displayName-count-two": "kajmanska dolarja",
                 "displayName-count-few": "kajmanski dolarji",
-                "displayName-count-other": "kajmanski dolar",
+                "displayName-count-other": "kajmanskih dolarjev",
                 symbol: "KYD",
                 "symbol-alt-narrow": "$"
             },
@@ -1044,7 +1048,11 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "lesoški loti",
+                displayName: "lesotski loti",
+                "displayName-count-one": "lesotski lot",
+                "displayName-count-two": "lesotska lota",
+                "displayName-count-few": "lesotski loti",
+                "displayName-count-other": "lesotskih lotov",
                 symbol: "LSL"
             },
             LTL: {
@@ -1465,8 +1473,7 @@ const data = {
             },
             RUR: {
                 displayName: "ruski rubelj (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "ruandski frank",
@@ -1552,6 +1559,10 @@ const data = {
             SKK: {
                 displayName: "slovaška krona",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "sieraleonski leone",
@@ -1802,6 +1813,10 @@ const data = {
                 displayName: "venezuelski bolivar (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "venezuelski bolivar (2008–2018)",
                 "displayName-count-one": "venezuelski bolivar (2008–2018)",
@@ -1851,9 +1866,9 @@ const data = {
             XAF: {
                 displayName: "CFA frank BEAC",
                 "displayName-count-one": "srednjeafriški frank CFA",
-                "displayName-count-two": "franka CFA BEAC",
-                "displayName-count-few": "franki CFA BEAC",
-                "displayName-count-other": "srednjeafriški frank CFA",
+                "displayName-count-two": "srednjeafriška franka CFA",
+                "displayName-count-few": "srednjeafriški franki CFA",
+                "displayName-count-other": "srednjeafriških frankov CFA",
                 symbol: "FCFA"
             },
             XAG: {
@@ -1908,10 +1923,10 @@ const data = {
             XOF: {
                 displayName: "zahodnoafriški frank CFA",
                 "displayName-count-one": "zahodnoafriški frank CFA",
-                "displayName-count-two": "franka CFA BCEAO",
-                "displayName-count-few": "franki CFA BCEAO",
-                "displayName-count-other": "zahodnoafriški frank CFA",
-                symbol: "CFA"
+                "displayName-count-two": "zahodnoafriška franka CFA",
+                "displayName-count-few": "zahodnoafriški franki CFA",
+                "displayName-count-other": "zahodnoafriških frankov CFA",
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "paladij",
@@ -2033,12 +2048,12 @@ const data = {
     calendar: {
         patterns: {
             d: "d. MM. y",
-            D: "EEEE, dd. MMMM y",
+            D: "EEEE, d. MMMM y",
             m: "d. MMM",
             M: "d. MMMM",
             y: "MMM y",
             Y: "MMMM y",
-            F: "EEEE, dd. MMMM y HH:mm:ss",
+            F: "EEEE, d. MMMM y HH:mm:ss",
             g: "d. M. y HH:mm",
             G: "d. M. y HH:mm:ss",
             t: "HH:mm",
@@ -2049,8 +2064,8 @@ const data = {
         dateTimeFormats: {
             full: "{1} {0}",
             long: "{1} {0}",
-            medium: "{1} {0}",
-            short: "{1} {0}",
+            medium: "{1}, {0}",
+            short: "{1}, {0}",
             availableFormats: {
                 Bh: "h B",
                 Bhm: "h:mm B",
@@ -2066,6 +2081,7 @@ const data = {
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
                 GyM: "MMM y G",
+                GyMd: "d. M. y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d. MMM y G",
                 GyMMMEd: "E, d. MMM y G",
@@ -2114,8 +2130,8 @@ const data = {
             short: "HH:mm"
         },
         dateFormats: {
-            full: "EEEE, dd. MMMM y",
-            long: "dd. MMMM y",
+            full: "EEEE, d. MMMM y",
+            long: "d. MMMM y",
             medium: "d. MMM y",
             short: "d. MM. yy"
         },

@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "G y MMM",
                 GyMMMd: "G y MMM d",
                 GyMMMEd: "G y MMM d, E",
@@ -335,20 +336,20 @@ const data = {
                 wide: {
                     "0": "Imberi ya Kuuza Kwa",
                     "1": "Muhiga Kuvita Kuuza",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "BC",
+                    "1-alt-variant": "AD"
                 },
                 abbreviated: {
                     "0": "BC",
                     "1": "AD",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "BC",
+                    "1-alt-variant": "AD"
                 },
                 narrow: {
                     "0": "BC",
                     "1": "AD",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "BC",
+                    "1-alt-variant": "AD"
                 }
             }
         },

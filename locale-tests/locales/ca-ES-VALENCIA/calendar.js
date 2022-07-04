@@ -1,5 +1,5 @@
 const data = {
-    name: "ca-ES-VALENCIA",
+    name: "ca-ES-valencia",
     likelySubtags: {
         ca: "ca-Latn-ES"
     },
@@ -26,8 +26,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} 'a' 'les' {0}",
-            long: "{1} 'a' 'les' {0}",
+            full: "{1}, 'a' 'les' {0}",
+            long: "{1}, 'a' 'les' {0}",
             medium: "{1}, {0}",
             short: "{1} {0}",
             availableFormats: {
@@ -44,6 +44,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E H:mm:ss",
                 Gy: "y G",
+                GyMd: "dd-MM-y GGGGG",
                 GyMMM: "LLL y G",
                 GyMMMd: "d MMM 'de' y G",
                 GyMMMEd: "E, d MMM 'de' y G",
@@ -58,8 +59,12 @@ const data = {
                 Hms: "H:mm:ss",
                 hmsv: "h:mm:ss a v",
                 Hmsv: "H:mm:ss v",
+                hmsvvvv: "h:mm:ss a (vvvv)",
+                Hmsvvvv: "H:mm:ss (vvvv)",
                 hmv: "h:mm a v",
                 Hmv: "H:mm v",
+                hmvvvv: "h:mm a (vvvv)",
+                Hmvvvv: "H:mm (vvvv)",
                 M: "L",
                 Md: "d/M",
                 MEd: "E d/M",
@@ -88,7 +93,7 @@ const data = {
             }
         },
         timeFormats: {
-            full: "H:mm:ss zzzz",
+            full: "H:mm:ss (zzzz)",
             long: "H:mm:ss z",
             medium: "H:mm:ss",
             short: "H:mm"

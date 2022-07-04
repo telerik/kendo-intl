@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E H:mm:ss",
                 Gy: "y G",
+                GyMd: "d/M/y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d בMMM y G",
                 GyMMMEd: "E, d בMMM y G",
@@ -393,8 +394,8 @@ const data = {
                     "1-alt-variant": "CE"
                 },
                 narrow: {
-                    "0": "לפנה״ס",
-                    "1": "לספירה",
+                    "0": "לפני",
+                    "1": "אחריי",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 }

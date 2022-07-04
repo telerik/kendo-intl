@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -79,7 +80,8 @@ const data = {
                 displayName: "ඇෆ්ගනිථාන ඇෆ්ගනි",
                 "displayName-count-one": "ඇෆ්ගනිථාන ඇෆ්ගනි",
                 "displayName-count-other": "ඇෆ්ගනිථාන ඇෆ්ගනි",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -95,7 +97,8 @@ const data = {
                 displayName: "ආර්මේනියානු ඩ්‍රෑම්",
                 "displayName-count-one": "ආර්මේනියානු ඩ්‍රෑම්",
                 "displayName-count-other": "ආර්මේනියානු ඩ්‍රෑම්",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "නෙදර්ලන්ත ඇන්ටිලියන් ගිල්ඩර්",
@@ -170,7 +173,8 @@ const data = {
                 displayName: "අසර්බයිජානු මනාට්",
                 "displayName-count-one": "අසර්බයිජානු මනාට්",
                 "displayName-count-other": "අසර්බයිජානු මනාට්",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -594,8 +598,7 @@ const data = {
                 "displayName-count-one": "ජෝජියානු ලැරී",
                 "displayName-count-other": "ජෝජියානු ලැරී",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "GHC",
@@ -605,7 +608,8 @@ const data = {
                 displayName: "ඝානා සෙඩි",
                 "displayName-count-one": "ඝානා සෙඩි",
                 "displayName-count-other": "ඝානා සෙඩි",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "ජිබ්‍රෝල්ටා පවුම්",
@@ -876,7 +880,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "LSL",
+                displayName: "ලෙසෝතෝ ලොටි",
+                "displayName-count-one": "ලෙසෝතෝ ලොටි",
+                "displayName-count-other": "ලෙසෝතෝ ලොටිස්",
                 symbol: "LSL"
             },
             LTL: {
@@ -1220,8 +1226,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "රුවන්ඩා ෆ්‍රෑන්ක්",
@@ -1291,6 +1296,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "සියරා ලියොන් ලියොන්",
@@ -1496,6 +1505,10 @@ const data = {
             VEB: {
                 displayName: "VEB",
                 symbol: "VEB"
+            },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
             },
             VEF: {
                 displayName: "වෙනිසියුලානු බොලිවර් (2008–2018)",
@@ -1734,6 +1747,7 @@ const data = {
                 Ehms: "E a h.mm.ss",
                 EHms: "E HH.mm.ss",
                 Gy: "G y",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "G y MMM",
                 GyMMMd: "G y MMM d",
                 GyMMMEd: "G y MMM d, E",

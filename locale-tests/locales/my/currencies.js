@@ -25,7 +25,8 @@ const data = {
             AFN: {
                 displayName: "အာဖဂန် အာဖဂါနီ",
                 "displayName-count-other": "အာဖဂန် အာဖဂါနီ",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -39,7 +40,8 @@ const data = {
             AMD: {
                 displayName: "အာမေးနီးယား ဒရမ်",
                 "displayName-count-other": "အာမေးနီးယား ဒရမ်",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "နယ်သာလန် အန်တီလန် ဂင်းဒါး",
@@ -108,7 +110,8 @@ const data = {
             AZN: {
                 displayName: "အဇာဘိုင်ဂျန် မာနတ်",
                 "displayName-count-other": "အဇာဘိုင်ဂျန် မာနတ်",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -125,8 +128,8 @@ const data = {
                 symbol: "BAN"
             },
             BBD: {
-                displayName: "ဘာဘေးဒီယန်း ဒေါ်လာ",
-                "displayName-count-other": "ဘာဘေးဒီယန်း ဒေါ်လာ",
+                displayName: "ဘာဘေးဒိုးစ် ဒေါ်လာ",
+                "displayName-count-other": "ဘာဘေးဒိုးစ် ဒေါ်လာ",
                 symbol: "BBD",
                 "symbol-alt-narrow": "Bds$"
             },
@@ -501,7 +504,8 @@ const data = {
             GHS: {
                 displayName: "ဂါနာ ဆဲဒီ",
                 "displayName-count-other": "ဂါနာ ဆဲဒီ",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "ဂျီဘရော်လ်တာ ပေါင်",
@@ -740,7 +744,8 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "LSL",
+                displayName: "လီဆိုသို လိုတီ",
+                "displayName-count-other": "လီဆိုသို လိုတီစ်",
                 symbol: "LSL"
             },
             LTL: {
@@ -1049,8 +1054,7 @@ const data = {
             },
             RUR: {
                 displayName: "ရုရှ ရူဘယ် (၁၉၉၁–၁၉၉၈)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "ရဝန်ဒါ ဖရန့်",
@@ -1112,6 +1116,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "ဆီယာရာလီယွန်း လီအိုနီ",
@@ -1296,6 +1304,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "ဗင်နီဇွဲလား ဘိုလီဗာ (၂၀၀၈–၂၀၁၈)",
                 "displayName-count-other": "ဗင်နီဇွဲလား ဘိုလီဗာ (၂၀၀၈–၂၀၁၈)",
@@ -1379,17 +1391,17 @@ const data = {
                 symbol: "XFU"
             },
             XOF: {
-                displayName: "အနောက် အာဖရိက CFA ဖရန့်",
-                "displayName-count-other": "အနောက် အာဖရိက CFA ဖရန့်",
-                symbol: "CFA"
+                displayName: "အနောက် အာဖရိက [CFA ]ဖရန့်",
+                "displayName-count-other": "အနောက် အာဖရိက [CFA] ဖရန့်",
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",
                 symbol: "XPD"
             },
             XPF: {
-                displayName: "CFP ဖရန့်",
-                "displayName-count-other": "CFP ဖရန့်",
+                displayName: "[CFP] ဖရန့်",
+                "displayName-count-other": "[CFP] ဖရန့်",
                 symbol: "CFPF"
             },
             XPT: {

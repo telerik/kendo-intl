@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y 'г'. G",
+                GyMd: "dd.MM.y GGGGG",
                 GyMMM: "LLL y 'г'. G",
                 GyMMMd: "d MMM y 'г'. G",
                 GyMMMEd: "E, d MMM y 'г'. G",
@@ -93,7 +94,7 @@ const data = {
         dateFormats: {
             full: "EEEE, d MMMM y 'г'.",
             long: "d MMMM y 'г'.",
-            medium: "d.MM.y",
+            medium: "d MMM y 'г'.",
             short: "d.MM.yy"
         },
         days: {

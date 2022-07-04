@@ -42,6 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "d. M. y GGGGG",
                 GyMMM: "LLLL y G",
                 GyMMMd: "d. M. y G",
                 GyMMMEd: "E d. M. y G",
@@ -453,8 +454,8 @@ const data = {
             },
             weekdayOfMonth: {
                 wide: "deň týždňa v mesiaci",
-                short: "d.  týž. v mes.",
-                narrow: "d.  týž. v mes."
+                short: "d. týž. v mes.",
+                narrow: "d. týž. v mes."
             },
             dayperiod: {
                 short: "AM/PM",

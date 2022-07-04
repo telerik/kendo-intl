@@ -43,6 +43,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y 'г'. G",
+                GyMd: "dd.MM.y GGGGG",
                 GyMMM: "LLL y 'г'. G",
                 GyMMMd: "d MMM y 'г'. G",
                 GyMMMEd: "E, d MMM y 'г'. G",
@@ -110,13 +111,13 @@ const data = {
                     "сб"
                 ],
                 narrow: [
-                    "вс",
-                    "пн",
-                    "вт",
-                    "ср",
-                    "чт",
-                    "пт",
-                    "сб"
+                    "В",
+                    "П",
+                    "В",
+                    "С",
+                    "Ч",
+                    "П",
+                    "С"
                 ],
                 short: [
                     "вс",

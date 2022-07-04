@@ -13,6 +13,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -75,7 +76,8 @@ const data = {
             },
             AFN: {
                 displayName: "AFN",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -87,7 +89,8 @@ const data = {
             },
             AMD: {
                 displayName: "AMD",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "ANG",
@@ -150,7 +153,8 @@ const data = {
             },
             AZN: {
                 displayName: "AZN",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -291,8 +295,7 @@ const data = {
             },
             BYN: {
                 displayName: "BYN",
-                symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                symbol: "BYN"
             },
             BYR: {
                 displayName: "BYR",
@@ -346,8 +349,10 @@ const data = {
                 symbol: "CNX"
             },
             CNY: {
-                displayName: "የቻይና ዩአን ረንሚንቢ",
-                symbol: "CN¥",
+                displayName: "ዩዋን ቻይና",
+                "displayName-count-one": "ዩዋን ቻይና",
+                "displayName-count-other": "ዩዋን ቻይና",
+                symbol: "CNY",
                 "symbol-alt-narrow": "¥"
             },
             COP: {
@@ -439,7 +444,9 @@ const data = {
                 "symbol-alt-narrow": "E£"
             },
             ERN: {
-                displayName: "ERN",
+                displayName: "ናቕፋ",
+                "displayName-count-one": "ናቕፋ",
+                "displayName-count-other": "ናቕፋ",
                 symbol: "Nfk"
             },
             ESA: {
@@ -456,11 +463,15 @@ const data = {
                 "symbol-alt-narrow": "₧"
             },
             ETB: {
-                displayName: "የኢትዮጵያ ብር",
+                displayName: "ብር",
+                "displayName-count-one": "ብር",
+                "displayName-count-other": "ብር",
                 symbol: "Br"
             },
             EUR: {
-                displayName: "አውሮ",
+                displayName: "ዩሮ",
+                "displayName-count-one": "ዩሮ",
+                "displayName-count-other": "ዩሮ",
                 symbol: "€",
                 "symbol-alt-narrow": "€"
             },
@@ -502,7 +513,8 @@ const data = {
             },
             GHS: {
                 displayName: "GHS",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "GIP",
@@ -634,8 +646,10 @@ const data = {
                 symbol: "JOD"
             },
             JPY: {
-                displayName: "የጃፓን የን",
-                symbol: "JP¥",
+                displayName: "የን ጃፓን",
+                "displayName-count-one": "የን ጃፓን",
+                "displayName-count-other": "የን ጃፓን",
+                symbol: "JPY",
                 "symbol-alt-narrow": "¥"
             },
             KES: {
@@ -928,7 +942,7 @@ const data = {
             },
             PHP: {
                 displayName: "PHP",
-                symbol: "PHP",
+                symbol: "₱",
                 "symbol-alt-narrow": "₱"
             },
             PKR: {
@@ -982,8 +996,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "RWF",
@@ -1037,6 +1050,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "SLL",
@@ -1162,7 +1179,9 @@ const data = {
                 symbol: "UGX"
             },
             USD: {
-                displayName: "የአሜሪካን ዶላር",
+                displayName: "ዶላር ኣመሪካ",
+                "displayName-count-one": "ዶላር ኣመሪካ",
+                "displayName-count-other": "ዶላር ኣመሪካ",
                 symbol: "US$",
                 "symbol-alt-narrow": "$"
             },
@@ -1199,6 +1218,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "VEF",
                 symbol: "VEF",
@@ -1230,11 +1253,15 @@ const data = {
                 symbol: "FCFA"
             },
             XAG: {
-                displayName: "XAG",
+                displayName: "ብሩር",
+                "displayName-count-one": "ብሩር",
+                "displayName-count-other": "ብሩር",
                 symbol: "XAG"
             },
             XAU: {
-                displayName: "XAU",
+                displayName: "ወርቂ",
+                "displayName-count-one": "ወርቂ",
+                "displayName-count-other": "ወርቂ",
                 symbol: "XAU"
             },
             XBA: {
@@ -1276,7 +1303,7 @@ const data = {
             },
             XOF: {
                 displayName: "XOF",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",
@@ -1307,7 +1334,9 @@ const data = {
                 symbol: "XUA"
             },
             XXX: {
-                displayName: "XXX",
+                displayName: "ዘይተፈልጠ ባጤራ",
+                "displayName-count-one": "(ዘይተፈልጠ ባጤራ)",
+                "displayName-count-other": "(ዘይተፈልጠ ባጤራ)",
                 symbol: "¤"
             },
             YDD: {
@@ -1378,22 +1407,22 @@ const data = {
     calendar: {
         patterns: {
             d: "dd/MM/y",
-            D: "EEEE፣ dd MMMM መዓልቲ y G",
-            m: "MMM d",
-            M: "MMMM d",
-            y: "y MMM",
+            D: "EEEE፣ d MMMM y",
+            m: "d MMM",
+            M: "d MMMM",
+            y: "MMM y",
             Y: "MMMM y",
-            F: "EEEE፣ dd MMMM መዓልቲ y G h:mm:ss a",
-            g: "y-MM-dd h:mm a",
-            G: "y-MM-dd h:mm:ss a",
+            F: "EEEE፣ d MMMM y h:mm:ss a",
+            g: "d/M/y h:mm a",
+            G: "d/M/y h:mm:ss a",
             t: "h:mm a",
             T: "h:mm:ss a",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} {0}",
-            long: "{1} {0}",
+            full: "{1} ሰዓት {0}",
+            long: "{1} ሰዓት {0}",
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
@@ -1404,15 +1433,16 @@ const data = {
                 E: "ccc",
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
-                Ed: "d, E",
-                Ehm: "E h:mm a",
-                EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
-                EHms: "E HH:mm:ss",
-                Gy: "G y",
-                GyMMM: "G y MMM",
-                GyMMMd: "G y MMM d",
-                GyMMMEd: "G y MMM d, E",
+                Ed: "E d",
+                Ehm: "E፣ h:mm a",
+                EHm: "E፣ HH:mm",
+                Ehms: "E፣ h:mm:ss a",
+                EHms: "E፣ HH:mm:ss",
+                Gy: "y G",
+                GyMd: "d/M/y GGGGG",
+                GyMMM: "MMM y G",
+                GyMMMd: "d MMM y G",
+                GyMMMEd: "E፣ d MMM y G",
                 h: "h a",
                 H: "HH",
                 hm: "h:mm a",
@@ -1424,30 +1454,30 @@ const data = {
                 hmv: "h:mm a v",
                 Hmv: "HH:mm v",
                 M: "L",
-                Md: "MM-dd",
-                MEd: "MM-dd, E",
-                MMdd: "dd/MM",
+                Md: "d/M",
+                MEd: "E፣ d/M",
+                MMdd: "d/M",
                 MMM: "LLL",
-                MMMd: "MMM d",
-                MMMEd: "MMM d, E",
-                MMMMd: "MMMM d",
-                MMMMdd: "dd MMMM",
+                MMMd: "d MMM",
+                MMMEd: "E፣ d MMM",
+                MMMMd: "d MMMM",
+                MMMMdd: "d MMMM",
                 "MMMMW-count-one": "ሰሙን W ናይ MMMM",
                 "MMMMW-count-other": "ሰሙን W ናይ MMMM",
                 ms: "mm:ss",
                 y: "y",
-                yM: "y-MM",
-                yMd: "y-MM-dd",
-                yMEd: "y-MM-dd, E",
-                yMM: "MM/y",
-                yMMM: "y MMM",
-                yMMMd: "y MMM d",
+                yM: "M/y",
+                yMd: "d/M/y",
+                yMEd: "E፣ d/M/y",
+                yMM: "M/y",
+                yMMM: "MMM y",
+                yMMMd: "d MMM y",
                 yMMMEd: "y MMM d, E",
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
-                yQQQQ: "y QQQQ",
-                "yw-count-one": "መበል w ሰሙን ናይ Y",
-                "yw-count-other": "መበል w ሰሙን ናይ Y"
+                yQQQQ: "QQQQ y",
+                "yw-count-one": "ሰሙን w ናይ Y",
+                "yw-count-other": "ሰሙን w ናይ Y"
             }
         },
         timeFormats: {
@@ -1457,9 +1487,9 @@ const data = {
             short: "h:mm a"
         },
         dateFormats: {
-            full: "EEEE፣ dd MMMM መዓልቲ y G",
-            long: "dd MMMM y",
-            medium: "dd-MMM-y",
+            full: "EEEE፣ d MMMM y",
+            long: "d MMMM y",
+            medium: "d MMM y",
             short: "dd/MM/yy"
         },
         days: {
@@ -1494,9 +1524,9 @@ const data = {
                 wide: [
                     "ሰንበት",
                     "ሰኑይ",
-                    "ሠሉስ",
+                    "ሰሉስ",
                     "ረቡዕ",
-                    "ኃሙስ",
+                    "ሓሙስ",
                     "ዓርቢ",
                     "ቀዳም"
                 ]
@@ -1532,9 +1562,9 @@ const data = {
                 wide: [
                     "ሰንበት",
                     "ሰኑይ",
-                    "ሠሉስ",
+                    "ሰሉስ",
                     "ረቡዕ",
-                    "ኃሙስ",
+                    "ሓሙስ",
                     "ዓርቢ",
                     "ቀዳም"
                 ]
@@ -1645,10 +1675,10 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "ቀዳማይ ርብዒ",
-                    "ካልኣይ ርብዒ",
-                    "ሳልሳይ ርብዒ",
-                    "ራብዓይ ርብዒ"
+                    "1ይ ርብዒ",
+                    "2ይ ርብዒ",
+                    "3ይ ርብዒ",
+                    "4ይ ርብዒ"
                 ]
             },
             "stand-alone": {
@@ -1665,40 +1695,40 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "ቀዳማይ ርብዒ",
-                    "ካልኣይ ርብዒ",
-                    "ሳልሳይ ርብዒ",
-                    "ራብዓይ ርብዒ"
+                    "1ይ ርብዒ",
+                    "2ይ ርብዒ",
+                    "3ይ ርብዒ",
+                    "4ይ ርብዒ"
                 ]
             }
         },
         dayPeriods: {
             format: {
                 abbreviated: {
-                    am: "ንጉሆ ሰዓተ",
-                    pm: "ድሕር ሰዓት"
+                    am: "ቅ.ቀ.",
+                    pm: "ድ.ቀ."
                 },
                 narrow: {
-                    am: "ንጉሆ ሰዓተ",
-                    pm: "ድሕር ሰዓት"
+                    am: "ቅ.ቀ.",
+                    pm: "ድ.ቀ."
                 },
                 wide: {
-                    am: "ንጉሆ ሰዓተ",
-                    pm: "ድሕር ሰዓት"
+                    am: "ቅ.ቀ.",
+                    pm: "ድ.ቀ."
                 }
             },
             "stand-alone": {
                 abbreviated: {
-                    am: "ንጉሆ ሰዓተ",
-                    pm: "ድሕር ሰዓት"
+                    am: "ቅ.ቀ.",
+                    pm: "ድ.ቀ."
                 },
                 narrow: {
-                    am: "ንጉሆ ሰዓተ",
-                    pm: "ድሕር ሰዓት"
+                    am: "ቅ.ቀ.",
+                    pm: "ድ.ቀ."
                 },
                 wide: {
-                    am: "ንጉሆ ሰዓተ",
-                    pm: "ድሕር ሰዓት"
+                    am: "ቅ.ቀ.",
+                    pm: "ድ.ቀ."
                 }
             }
         },
@@ -1706,7 +1736,7 @@ const data = {
             format: {
                 wide: {
                     "0": "ዓመተ ዓለም",
-                    "1": "ዓመተ ምህረት",
+                    "1": "ዓመተ ምሕረት",
                     "0-alt-variant": "ቅድሚ ልደተ ክርስቶስ",
                     "1-alt-variant": "ድሕሪ ልደተ ክርስቶስ"
                 },
@@ -1753,7 +1783,7 @@ const data = {
                 narrow: "ሰሙን"
             },
             weekOfMonth: {
-                wide: "ሰን ናይ ወርሒ",
+                wide: "ሰሙን ናይ ወርሒ",
                 short: "ሰሙ. ናይ ወር.",
                 narrow: "ሰሙ. ናይ ወር."
             },
@@ -1778,9 +1808,9 @@ const data = {
                 narrow: "መ.ስራሕ ናይ ወርሒ"
             },
             dayperiod: {
-                short: "ክፍለ መዓልቲ",
-                wide: "ክፍለ መዓልቲ",
-                narrow: "ክፍለ መዓልቲ"
+                short: "ቅ.ቀ./ድ.ቀ.",
+                wide: "ቅ.ቀ./ድ.ቀ.",
+                narrow: "ቅ.ቀ./ድ.ቀ."
             },
             hour: {
                 wide: "ሰዓት",
@@ -1798,9 +1828,9 @@ const data = {
                 narrow: "ካልኢት"
             },
             zone: {
-                wide: "ክልል",
-                short: "ክልል",
-                narrow: "ክልል"
+                wide: "ዞባ ግዜ",
+                short: "ዞባ",
+                narrow: "ዞባ"
             }
         }
     },

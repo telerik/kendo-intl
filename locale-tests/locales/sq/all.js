@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "≈",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -79,7 +80,8 @@ const data = {
                 displayName: "Afgani afgan",
                 "displayName-count-one": "afgan afgan",
                 "displayName-count-other": "afganë afgan",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "AFN"
             },
             ALK: {
                 displayName: "ALK",
@@ -95,7 +97,8 @@ const data = {
                 displayName: "Dramia armene",
                 "displayName-count-one": "drami armene",
                 "displayName-count-other": "drami armene",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "AMD"
             },
             ANG: {
                 displayName: "Gilderi antilian holandez",
@@ -170,7 +173,8 @@ const data = {
                 displayName: "Manata azerbajxhanase",
                 "displayName-count-one": "manatë azerbajxhanase",
                 "displayName-count-other": "manata azerbajxhanase",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "AZN"
             },
             BAD: {
                 displayName: "BAD",
@@ -339,8 +343,7 @@ const data = {
                 displayName: "Rubla bjelloruse",
                 "displayName-count-one": "rubël bjelloruse",
                 "displayName-count-other": "rubla bjelloruse",
-                symbol: "BYN",
-                "symbol-alt-narrow": "BYN"
+                symbol: "BYN"
             },
             BYR: {
                 displayName: "Rubla bjelloruse (2000–2016)",
@@ -554,7 +557,7 @@ const data = {
                 "displayName-count-one": "euro",
                 "displayName-count-other": "euro",
                 symbol: "€",
-                "symbol-alt-narrow": "EUR"
+                "symbol-alt-narrow": "€"
             },
             FIM: {
                 displayName: "FIM",
@@ -604,7 +607,8 @@ const data = {
                 displayName: "Sejda ganeze",
                 "displayName-count-one": "sejdë ganeze",
                 "displayName-count-other": "sejda ganeze",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Sterlina e Gjibraltarit",
@@ -875,7 +879,9 @@ const data = {
                 "symbol-alt-narrow": "LRD"
             },
             LSL: {
-                displayName: "LSL",
+                displayName: "Lota lesotiane",
+                "displayName-count-one": "lotë lesotiane",
+                "displayName-count-other": "lota lesotiane",
                 symbol: "LSL"
             },
             LTL: {
@@ -1220,8 +1226,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "Franga ruandeze",
@@ -1291,6 +1296,10 @@ const data = {
             SKK: {
                 displayName: "SKK",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "Leoni i Sierra-Leones",
@@ -1497,6 +1506,10 @@ const data = {
                 displayName: "VEB",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "Bolivari venezuelian (2008–2018)",
                 "displayName-count-one": "bolivar venezuelian (2008–2018)",
@@ -1590,7 +1603,7 @@ const data = {
                 displayName: "Franga e Bregut të Fildishtë",
                 "displayName-count-one": "frangë e Bregut të Fildishtë",
                 "displayName-count-other": "franga të Bregut të Fildishtë",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",
@@ -1734,6 +1747,7 @@ const data = {
                 Ehms: "E, h:mm:ss a",
                 EHms: "E, HH:mm:ss",
                 Gy: "y G",
+                GyMd: "d.M.y GGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E, d MMM y G",

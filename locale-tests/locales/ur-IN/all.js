@@ -13,6 +13,7 @@ const data = {
             percentSign: "%",
             plusSign: "‎+",
             minusSign: "‎-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -80,7 +81,8 @@ const data = {
                 displayName: "افغان افغانی",
                 "displayName-count-one": "افغان افغانی",
                 "displayName-count-other": "افغان افغانی",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ALK",
@@ -96,7 +98,8 @@ const data = {
                 displayName: "آرمینیائی ڈرم",
                 "displayName-count-one": "آرمینیائی ڈرم",
                 "displayName-count-other": "آرمینیائی ڈرم",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "نیدر لینڈز انٹیلیئن گلڈر",
@@ -171,7 +174,8 @@ const data = {
                 displayName: "آذربائجانی منات",
                 "displayName-count-one": "آذربائجانی منات",
                 "displayName-count-other": "آذربائجانی منات",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "BAD",
@@ -595,8 +599,7 @@ const data = {
                 "displayName-count-one": "جارجیائی لاری",
                 "displayName-count-other": "جارجیائی لاری",
                 symbol: "GEL",
-                "symbol-alt-narrow": "₾",
-                "symbol-alt-variant": "₾"
+                "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "GHC",
@@ -606,7 +609,8 @@ const data = {
                 displayName: "گھانی سیڈی",
                 "displayName-count-one": "گھانی سیڈی",
                 "displayName-count-other": "گھانی سیڈی",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "جبل الطارق پونڈ",
@@ -877,7 +881,9 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "لیسوتھو لوٹی",
+                displayName: "لیسوتھو لوتی",
+                "displayName-count-one": "لیسوتھو لوتی",
+                "displayName-count-other": "لیسوتھو لوتی",
                 symbol: "LSL"
             },
             LTL: {
@@ -1222,8 +1228,7 @@ const data = {
             },
             RUR: {
                 displayName: "RUR",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "روانڈا کا فرانک",
@@ -1294,10 +1299,14 @@ const data = {
                 displayName: "سلووک کرونا",
                 symbol: "SKK"
             },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
+            },
             SLL: {
-                displayName: "سیئرا لیون لیون",
-                "displayName-count-one": "سیئرا لیون لیون",
-                "displayName-count-other": "سیئرا لیون لیون",
+                displayName: "سیئرا لیونین لیون",
+                "displayName-count-one": "سیئرا لیونین لیون",
+                "displayName-count-other": "سیئرا لیونین لیون",
                 symbol: "SLL"
             },
             SOS: {
@@ -1499,6 +1508,10 @@ const data = {
                 displayName: "وینزویلا بولیور (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "وینزویلا بولیور (2008–2018)",
                 "displayName-count-one": "وینزویلا بولیور (2008–2018)",
@@ -1592,7 +1605,7 @@ const data = {
                 displayName: "مغربی افریقی [CFA] فرانک",
                 "displayName-count-one": "مغربی افریقی [CFA] فرانک",
                 "displayName-count-other": "مغربی افریقی [CFA] فرانک",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "XPD",
@@ -1627,7 +1640,7 @@ const data = {
             XXX: {
                 displayName: "نامعلوم کرنسی",
                 "displayName-count-one": "(کرنسی کی نامعلوم یونٹ)",
-                "displayName-count-other": "نامعلوم کرنسی",
+                "displayName-count-other": "(نامعلوم کرنسی)",
                 symbol: "¤"
             },
             YDD: {
@@ -1736,6 +1749,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "d/M/y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM، y G",
                 GyMMMEd: "E، d MMM، y G",

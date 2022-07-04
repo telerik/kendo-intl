@@ -12,6 +12,7 @@ const data = {
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
+            approximatelySign: "~",
             exponential: "E",
             superscriptingExponent: "×",
             perMille: "‰",
@@ -83,7 +84,8 @@ const data = {
                 displayName: "ئافغان ئافغانى",
                 "displayName-count-one": "ئافغان ئافغانى",
                 "displayName-count-other": "ئافغان ئافغانى",
-                symbol: "AFN"
+                symbol: "AFN",
+                "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "ئالبانىيە لېكى (1946–1965)",
@@ -101,7 +103,8 @@ const data = {
                 displayName: "ئەرمېنىيە دىرامى",
                 "displayName-count-one": "ئەرمېنىيە دىرامى",
                 "displayName-count-other": "ئەرمېنىيە دىرامى",
-                symbol: "AMD"
+                symbol: "AMD",
+                "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "گوللاندىيەگە قاراشلىق ئانتىللېن گۇلدېنى",
@@ -194,7 +197,8 @@ const data = {
                 displayName: "ئەزەربەيجان ماناتى",
                 "displayName-count-one": "ئەزەربەيجان ماناتى",
                 "displayName-count-other": "ئەزەربەيجان ماناتى",
-                symbol: "AZN"
+                symbol: "AZN",
+                "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "بوسنىيە-خېرتسېگوۋىنا دىنارى (1992–1994)",
@@ -401,8 +405,7 @@ const data = {
                 displayName: "بېلارۇسىيە رۇبلىسى",
                 "displayName-count-one": "بېلارۇسىيە رۇبلىسى",
                 "displayName-count-other": "بېلارۇسىيە رۇبلىسى",
-                symbol: "BYN",
-                "symbol-alt-narrow": "р."
+                symbol: "BYN"
             },
             BYR: {
                 displayName: "بېلارۇسىيە رۇبلىسى (۲۰۰۰–۲۰۱۶)",
@@ -706,7 +709,8 @@ const data = {
                 displayName: "گانا سېدىسى",
                 "displayName-count-one": "گانا سېدىسى",
                 "displayName-count-other": "گانا سېدىسى",
-                symbol: "GHS"
+                symbol: "GHS",
+                "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "جەبىلتارىق فوند سىتېرلىڭى",
@@ -1326,7 +1330,7 @@ const data = {
                 displayName: "فىلىپپىن پېسوسى",
                 "displayName-count-one": "فىلىپپىن پېسوسى",
                 "displayName-count-other": "فىلىپپىن پېسوسى",
-                symbol: "PHP",
+                symbol: "₱",
                 "symbol-alt-narrow": "₱"
             },
             PKR: {
@@ -1404,8 +1408,7 @@ const data = {
                 displayName: "رۇسىيە رۇبلىسى (1991–1998)",
                 "displayName-count-one": "رۇسىيە رۇبلىسى (1991–1998)",
                 "displayName-count-other": "رۇسىيە رۇبلىسى (1991–1998)",
-                symbol: "RUR",
-                "symbol-alt-narrow": "р."
+                symbol: "RUR"
             },
             RWF: {
                 displayName: "رۋاندا فرانكى",
@@ -1483,6 +1486,10 @@ const data = {
                 "displayName-count-one": "سىلوۋاكىيە كورۇناسى",
                 "displayName-count-other": "سىلوۋاكىيە كورۇناسى",
                 symbol: "SKK"
+            },
+            SLE: {
+                displayName: "SLE",
+                symbol: "SLE"
             },
             SLL: {
                 displayName: "سېررالېئون لېئونېسى",
@@ -1717,6 +1724,10 @@ const data = {
                 "displayName-count-other": "ۋېنېزۇئېلا بولىۋارى (1871–2008)",
                 symbol: "VEB"
             },
+            VED: {
+                displayName: "VED",
+                symbol: "VED"
+            },
             VEF: {
                 displayName: "ۋېنېزۇئېلا بولىۋارى (2008–2018)",
                 "displayName-count-one": "ۋېنېزۇئېلا بولىۋارى (2008–2018)",
@@ -1832,7 +1843,7 @@ const data = {
                 displayName: "ئافرىقا قىتئەسى پۇل-مۇئامىلە ئىتتىپاقى فرانكى (BCEAO)",
                 "displayName-count-one": "ئافرىقا قىتئەسى پۇل-مۇئامىلە ئىتتىپاقى فرانكى (BCEAO)",
                 "displayName-count-other": "ئافرىقا قىتئەسى پۇل-مۇئامىلە ئىتتىپاقى فرانكى (BCEAO)",
-                symbol: "CFA"
+                symbol: "F CFA"
             },
             XPD: {
                 displayName: "پاللادىي",
@@ -1985,11 +1996,11 @@ const data = {
             M: "d-MMMM",
             y: "y MMM",
             Y: "y MMMM",
-            F: "y d-MMMM، EEEE h:mm:ss a",
-            g: "y-d-M h:mm a",
-            G: "y-d-M h:mm:ss a",
-            t: "h:mm a",
-            T: "h:mm:ss a",
+            F: "y d-MMMM، EEEE HH:mm:ss",
+            g: "y-d-M HH:mm",
+            G: "y-d-M HH:mm:ss",
+            t: "HH:mm",
+            T: "HH:mm:ss",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
@@ -2012,6 +2023,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyMd: "GGGGG y-MM-dd",
                 GyMMM: "y MMM G",
                 GyMMMd: "y d-MMM G",
                 GyMMMEd: "y d-MMM، E G",
@@ -2050,10 +2062,10 @@ const data = {
             }
         },
         timeFormats: {
-            full: "h:mm:ss a zzzz",
-            long: "h:mm:ss a z",
-            medium: "h:mm:ss a",
-            short: "h:mm a"
+            full: "HH:mm:ss zzzz",
+            long: "HH:mm:ss z",
+            medium: "HH:mm:ss",
+            short: "HH:mm"
         },
         dateFormats: {
             full: "y d-MMMM، EEEE",
@@ -2307,19 +2319,19 @@ const data = {
                     "0": "مىلادىيەدىن بۇرۇن",
                     "1": "مىلادىيە",
                     "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "1-alt-variant": "مىلادىيە"
                 },
                 abbreviated: {
                     "0": "BCE",
                     "1": "مىلادىيە",
                     "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "1-alt-variant": "مىلادىيە"
                 },
                 narrow: {
                     "0": "BCE",
                     "1": "مىلادىيە",
                     "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "1-alt-variant": "مىلادىيە"
                 }
             }
         },
