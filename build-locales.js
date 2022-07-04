@@ -1,11 +1,11 @@
-const likelySubtags = require("cldr-data/supplemental/likelySubtags.json");
-const currencyData = require("cldr-data/supplemental/currencyData.json");
-const weekData = require("cldr-data/supplemental/weekData.json");
+const likelySubtags = require("cldr-core/supplemental/likelySubtags.json");
+const currencyData = require("cldr-core/supplemental/currencyData.json");
+const weekData = require("cldr-core/supplemental/weekData.json");
 const fs = require('fs');
 const path = require('path');
 const jsonNameRegex = /"([$A-Z\_a-z][$A-Z\_a-z0-9\\.]*)":/g;
 
-const LOCALES_PATH = path.join(process.cwd(), 'node_modules', 'cldr-data', 'main');
+const LOCALES_PATH = path.join(process.cwd(), 'node_modules', 'cldr-localenames-full', 'main');
 
 module.exports = {};
 
@@ -37,11 +37,11 @@ const localeInfo = (info) => {
 };
 
 const loadLocale = (name, intl) => {
-    const numbers = require(`cldr-data/main/${ name }/numbers.json`);
-    const currencies = require(`cldr-data/main/${ name }/currencies.json`);
-    const calendar = require(`cldr-data/main/${ name }/ca-gregorian.json`);
-    const timeZoneNames = require(`cldr-data/main/${ name }/timeZoneNames.json`);
-    const dateFields = require(`cldr-data/main/${ name }/dateFields.json`);
+    const numbers = require(`cldr-numbers-full/main/${ name }/numbers.json`);
+    const currencies = require(`cldr-numbers-full/main/${ name }/currencies.json`);
+    const calendar = require(`cldr-dates-full/main/${ name }/ca-gregorian.json`);
+    const timeZoneNames = require(`cldr-dates-full/main/${ name }/timeZoneNames.json`);
+    const dateFields = require(`cldr-dates-full/main/${ name }/dateFields.json`);
 
     intl.load(numbers, currencies, calendar, timeZoneNames, dateFields);
 };
