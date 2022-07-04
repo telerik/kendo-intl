@@ -1,12 +1,12 @@
 const gulp = require('gulp');
 const exec = require('child_process').exec;
-const numbers = require("cldr-data/main/en/numbers.json");
-const currencies = require("cldr-data/main/en/currencies.json");
-const timeZoneNames = require("cldr-data/main/en/timeZoneNames.json");
-const calendar = require("cldr-data/main/en/ca-gregorian.json");
-const likelySubtags = require("cldr-data/supplemental/likelySubtags.json");
-const currencyData = require("cldr-data/supplemental/currencyData.json");
-const weekData = require("cldr-data/supplemental/weekData.json");
+const numbers = require("cldr-numbers-full/main/en/numbers.json");
+const currencies = require("cldr-numbers-full/main/en/currencies.json");
+const timeZoneNames = require("cldr-dates-full/main/en/timeZoneNames.json");
+const calendar = require("cldr-dates-full/main/en/ca-gregorian.json");
+const likelySubtags = require("cldr-core/supplemental/likelySubtags.json");
+const currencyData = require("cldr-core/supplemental/currencyData.json");
+const weekData = require("cldr-core/supplemental/weekData.json");
 const fs = require('fs');
 const { toJSObject, buildLocales } = require("./build-locales.js");
 const DEFAULT_TERRITORY = '001';
@@ -68,9 +68,10 @@ gulp.task('clean-locales', (done) => {
     });
 });
 
-gulp.task("build-locales", gulp.series("build-npm-package", 'clean-locales', () => {
+gulp.task("build-locales", gulp.series("build-npm-package", 'clean-locales', (done) => {
     const intl = require('./dist/npm/js/main');
 
     buildLocales(intl, { destFolder: './locale-tests/locales' });
+    done();
 }));
 
