@@ -10,7 +10,7 @@ const currencies = require("cldr-numbers-full/main/bg/currencies.json");
 const dateFields = require("cldr-dates-full/main/bg/dateFields.json");
 const weekData = require("cldr-core/supplemental/weekData.json");
 const currencyData = require("cldr-core/supplemental/currencyData.json");
-const arCalendar = require("cldr-dates-full/main/ar-AE/ca-gregorian.json");
+const arCalendar = require("cldr-dates-full/main/ar-EG/ca-gregorian.json");
 load(likelySubtags, weekData, currencyData, numbers, currencies, calendar, dateFields, timeZoneNames, arCalendar);
 
 describe('load', () => {
@@ -176,11 +176,11 @@ describe('load calendar', () => {
 
         expect(patterns.d).toEqual("d.MM.y 'г'.");
         expect(patterns.D).toEqual("EEEE, d MMMM y 'г'.");
-        expect(patterns.F).toEqual("EEEE, d MMMM y 'г'. H:mm:ss");
-        expect(patterns.g).toEqual("d.MM.y 'г'. H:mm");
-        expect(patterns.G).toEqual("d.MM.y 'г'. H:mm:ss");
-        expect(patterns.t).toEqual("H:mm");
-        expect(patterns.T).toEqual("H:mm:ss");
+        expect(patterns.F).toEqual("EEEE, d MMMM y 'г'. H:mm:ss 'ч'.");
+        expect(patterns.g).toEqual("d.MM.y 'г'. H:mm 'ч'.");
+        expect(patterns.G).toEqual("d.MM.y 'г'. H:mm:ss 'ч'.");
+        expect(patterns.t).toEqual("H:mm 'ч'.");
+        expect(patterns.T).toEqual("H:mm:ss 'ч'.");
     });
 
     it('should set standard patterns', () => {
@@ -610,15 +610,15 @@ describe('firstDay', () => {
 describe('weekendRange', () => {
     it('should return weekend range index based on locale', () => {
         expect(weekendRange('en')).toEqual({ start: 6, end: 0 });
-        expect(weekendRange('ar-AE')).toEqual({ start: 5, end: 6 });
+        expect(weekendRange('ar-EG')).toEqual({ start: 5, end: 6 });
     });
 
     it('stores weekend on locale info', () => {
         weekendRange('en');
-        weekendRange('ar-AE');
+        weekendRange('ar-EG');
 
         expect(cldr.en.weekendRange).toEqual({ start: 6, end: 0 });
-        expect(cldr['ar-AE'].weekendRange).toEqual({ start: 5, end: 6 });
+        expect(cldr['ar-EG'].weekendRange).toEqual({ start: 5, end: 6 });
     });
 });
 
