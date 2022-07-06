@@ -11,9 +11,9 @@
   "typings": "dist/npm/main.d.ts",
   "scripts": {
     "build-package": "gulp build-rollup-package build-cdn",
-    "test": "jest -- test/",
-    "locale-tests": "jest -- locale-tests/",
-    "lint": "eslint ./src",
+    "test": "jest -- ./test",
+    "locale-tests": "jest -- ./locale-tests",
+    "lint": "eslint --quiet -- ./src ./test ./locale-tests/*.js",
     "semantic-release": "semantic-release pre && semantic-prerelease publish && semantic-release post"
   },
   "keywords": [
@@ -34,6 +34,8 @@
     "cz-conventional-changelog": "^1.1.5",
     "es-jest": "^1.5.0",
     "eslint": "^8.16.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.5.3",
     "ghooks": "^1.0.3",
     "gulp": "^4.0.0",
     "jest-cli": "^26.6.3",
