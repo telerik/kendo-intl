@@ -1,5 +1,18 @@
-import { load, cldr, localeInfo, dateFieldName, dateFormatNames, firstDay, weekendRange,
-    localeCurrency, currencyDisplay, currencyFractionOptions, currencyDisplays, numberSymbols, setData } from '../src/cldr';
+import {
+    cldr,
+    currencyDisplay,
+    currencyDisplays,
+    currencyFractionOptions,
+    dateFieldName,
+    dateFormatNames,
+    firstDay,
+    load,
+    localeCurrency,
+    localeInfo,
+    numberSymbols,
+    setData,
+    weekendRange
+    } from '../src/cldr';
 import { errors } from '../src/errors';
 
 const likelySubtags = require("cldr-core/supplemental/likelySubtags.json");
@@ -124,10 +137,10 @@ describe('load numbers', () => {
                         },
                         "currencyFormats-numberSystem-latn":{
                             standard: "¤ #,##0.00 bar",
-                            accounting: "foo #,##0.00 ¤",
+                            accounting: "foo #,##0.00 ¤"
                         },
                         "percentFormats-numberSystem-latn": {
-                            standard: "% #,##0.00 bar",
+                            standard: "% #,##0.00 bar"
                         }
                     }
                 }
