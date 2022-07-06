@@ -3,8 +3,11 @@ import { toString, format } from '../src/format';
 
 const likelySubtags = require("cldr-core/supplemental/likelySubtags.json");
 const calendar = require("cldr-dates-full/main/bg/ca-gregorian.json");
+const numbers = require("cldr-numbers-full/main/bg/numbers.json");
+const currencies = require("cldr-numbers-full/main/bg/currencies.json");
+const currencyData = require("cldr-core/supplemental/currencyData.json");
 
-load(likelySubtags, calendar);
+load(likelySubtags, calendar, currencyData, numbers, currencies);
 
 describe('toString', () => {
     function logCharCodes(value) {

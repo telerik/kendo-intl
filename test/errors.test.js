@@ -11,7 +11,7 @@ describe('Intl', () => {
 
         const result = `${error.name}: ${error.message}`;
 
-        expect(intlError.formatMessage(), result);
+        expect(intlError.formatMessage()).toBe(result);
     });
 
     it('should replace single placeholder in the message', () => {
@@ -24,7 +24,7 @@ describe('Intl', () => {
 
         const result = `${error.name}: Big error! p1 p2`;
 
-        expect(intlError.formatMessage("p1", "p2"), result);
+        expect(intlError.formatMessage("p1", "p2")).toBe(result);
     });
 
     it('should return  instance with message', () => {

@@ -11,8 +11,8 @@
   "typings": "dist/npm/main.d.ts",
   "scripts": {
     "build-package": "gulp build-rollup-package build-cdn",
-    "test": "gulp test",
-    "locale-tests": "gulp test --tests=\"locale-tests/generated-locales.js\"",
+    "test": "jest -- test/",
+    "locale-tests": "jest -- locale-tests/",
     "lint": "eslint ./src",
     "semantic-release": "semantic-release pre && semantic-prerelease publish && semantic-release post"
   },
@@ -32,9 +32,11 @@
     "cldr-numbers-full": "^41.0.0",
     "cldr-units-full": "^41.0.0",
     "cz-conventional-changelog": "^1.1.5",
+    "es-jest": "^1.5.0",
     "eslint": "^8.16.0",
     "ghooks": "^1.0.3",
     "gulp": "^4.0.0",
+    "jest-cli": "^26.6.3",
     "semantic-release": "^6.3.6",
     "validate-commit-msg": "^1.1.1"
   },

@@ -440,7 +440,7 @@ describe('date parsing', () => {
     it("returns null if no value is passed", () => {
         const result = parseDate();
 
-        expect(result).toBeNull(null);
+        expect(result).toBeNull();
     });
 
     it('parses d ISO format', function () {
@@ -461,7 +461,7 @@ describe('date parsing', () => {
     });
 
     it('short year 29 should return year 2029', function () {
-        expect(parseDate("12/23/29", "M/d/yy").getFullYear(), 2029);
+        expect(parseDate("12/23/29", "M/d/yy").getFullYear()).toBe(2029);
     });
 
     it('prases formats with leading and trailing spaces', function () {
@@ -831,7 +831,7 @@ describe('date parsing', () => {
         const dateFormat = "MM/dd/yyyy";
 
         const result = parseDate("1//2100", dateFormat);
-        expect(result, null);
+        expect(result).toBeNull();
     });
 
     it('parses MMMM yyyy date format', function () {
@@ -859,7 +859,7 @@ describe('date parsing', () => {
        const wideNames = dateFormatNames(info, { type: "dayPeriods", nameType: "wide" });
        abbreviatedNames.am = wideNames.am;
        const result = parseDate("2016. 05. 27. 오전 11:00:00", "G", "ko");
-       expect(isValidDateTime(result, 2016, 5, 27, 11, 0, 0, 0 ,0), result).toBe(true);
+       expect(isValidDateTime(result, 2016, 5, 27, 11, 0, 0, 0 ,0)).toBe(true);
     });
 
     it('should return null if only year is passed', function () {
@@ -915,7 +915,7 @@ describe('date parsing', () => {
 
     it("returns null if string is not valid ISO8601", () => {
         const utcDate = new Date(Date.UTC(2000, 9, 10, 14, 30, 0));
-        expect(parseDate("2000-10-1014:30Z", "yyyy-MM-ddTHH:mmX"), null);
+        expect(parseDate("2000-10-1014:30Z", "yyyy-MM-ddTHH:mmX")).toBeNull();
     });
 
     it("parses UTC milliseconds correctly", () => {
