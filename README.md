@@ -20,10 +20,10 @@ It includes methods for parsing and formatting dates and numbers by using [Unico
 
 ### CLDR Data
 
-To download the full CDLR database, you need to install the [cldr-data module](https://www.npmjs.com/package/cldr-data) by running the following command.
+To use the [Unicode® CLDR](https://cldr.unicode.org/) data, you need to install the following subset of [cldr-json](https://github.com/unicode-org/cldr-json) packages by running the following command:
 
 ```sh
-npm install --save cldr-data
+npm install --save cldr-core cldr-dates-full cldr-numbers-full
 ```
 
 To apply the methods for different locales, load the `likelySubtags` and the locale data by using the [`load`](https://github.com/telerik/kendo-intl/blob/master/docs/cldr/api.md#load) method.
@@ -36,15 +36,16 @@ Additionally, the library requires you to load:
 import { load } from '@progress/kendo-intl';
 
 load(
-    require("cldr-data/supplemental/likelySubtags.json"),
-    require("cldr-data/supplemental/currencyData.json"),
-    require("cldr-data/supplemental/weekData.json"),
+    require('cldr-core/supplemental/likelySubtags.json'),
+    require('cldr-core/supplemental/currencyData.json'),
+    require('cldr-core/supplemental/weekData.json'),
 
-    require("cldr-data/main/bg/numbers.json"),
-    require("cldr-data/main/bg/currencies.json"),
-    require("cldr-data/main/bg/ca-gregorian.json"),
-    require("cldr-data/main/bg/dateFields.json"),
-    require("cldr-data/main/bg/timeZoneNames.json")
+    require('cldr-numbers-full/main/bg/numbers.json'),
+    require('cldr-numbers-full/main/bg/currencies.json'),
+
+    require('cldr-dates-full/main/bg/dateFields.json'),
+    require('cldr-dates-full/main/bg/ca-gregorian.json'),
+    require('cldr-dates-full/main/bg/timeZoneNames.json')
 );
 ```
 
