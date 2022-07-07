@@ -566,7 +566,7 @@ const defaultData = {
                 millisecond: {
                     narrow: "ms",
                     short: "ms",
-                    wide: "milliseconds"
+                    wide: "millisecond"
                 }
             }
         }
