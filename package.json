@@ -12,7 +12,9 @@
   "scripts": {
     "build-package": "gulp build-rollup-package build-cdn",
     "test": "jest -- ./test",
+    "test:watch": "jest --watch -- ./test",
     "locale-tests": "jest -- ./locale-tests",
+    "locale-tests:watch": "jest --watch -- ./locale-tests",
     "lint": "eslint --quiet -- ./src ./test ./locale-tests/*.js",
     "semantic-release": "semantic-release pre && semantic-prerelease publish && semantic-release post"
   },
