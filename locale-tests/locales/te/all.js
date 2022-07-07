@@ -2176,7 +2176,7 @@ const data = {
             millisecond: {
                 narrow: "మి.సె",
                 short: "మి.సె",
-                wide: "మిల్లీసెకన్లు"
+                wide: "మిల్లీసెకను"
             }
         }
     },

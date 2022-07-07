@@ -2155,7 +2155,7 @@ const data = {
             millisecond: {
                 narrow: "ᏌᎠ",
                 short: "ᏌᎠ",
-                wide: "ᏌᏉ ᎢᏯᎦᎨᎵᏁᎢ ᏗᏎᏢ"
+                wide: "ᏌᏉ ᎢᏯᎦᎨᎵᏁᎢ ᎠᏎᏢ"
             }
         }
     },

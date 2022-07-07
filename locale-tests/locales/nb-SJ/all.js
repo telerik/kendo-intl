@@ -2458,7 +2458,7 @@ const data = {
             millisecond: {
                 narrow: "ms",
                 short: "ms",
-                wide: "millisekunder"
+                wide: "millisekund"
             }
         }
     },

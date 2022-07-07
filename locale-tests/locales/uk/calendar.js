@@ -476,7 +476,7 @@ const data = {
             millisecond: {
                 narrow: "мс",
                 short: "мс",
-                wide: "мілісекунди"
+                wide: "мілісекунда"
             }
         }
     },

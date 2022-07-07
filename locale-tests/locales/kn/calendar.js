@@ -467,7 +467,7 @@ const data = {
             millisecond: {
                 narrow: "ಮಿ.ಸೆ.",
                 short: "ಮಿ.ಸೆ.",
-                wide: "ಮಿಲಿಸೆಕೆಂಡುಗಳು"
+                wide: "ಮಿಲಿಸೆಕೆಂಡ್"
             }
         }
     },

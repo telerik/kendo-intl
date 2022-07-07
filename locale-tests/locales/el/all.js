@@ -2378,7 +2378,7 @@ const data = {
             millisecond: {
                 narrow: "ms",
                 short: "ms",
-                wide: "χιλιοστά του δευτερολέπτου"
+                wide: "χιλιοστό του δευτερολέπτου"
             }
         }
     },
