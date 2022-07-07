@@ -2201,7 +2201,7 @@ const data = {
             millisecond: {
                 narrow: "மி.வி.",
                 short: "மி.வி.",
-                wide: "மில்லிவிநாடிகள்"
+                wide: "மில்லிவிநாடி"
             }
         }
     },

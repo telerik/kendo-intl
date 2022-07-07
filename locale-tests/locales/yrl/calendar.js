@@ -476,7 +476,7 @@ const data = {
             millisecond: {
                 narrow: "ms",
                 short: "ms",
-                wide: "mirisegũdu rupi"
+                wide: "mirisegũdu-ita"
             }
         }
     },

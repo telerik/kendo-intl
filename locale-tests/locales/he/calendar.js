@@ -482,7 +482,7 @@ const data = {
             millisecond: {
                 narrow: "ms",
                 short: "ms",
-                wide: "אלפיות שנייה"
+                wide: "אלפית שנייה "
             }
         }
     },
