@@ -3,8 +3,8 @@ const defaultData = {
         name: "en",
         identity: {
             version: {
-                _number: "$Revision: 12418 $",
-                _cldrVersion: "29"
+                _unicodeVersion: "14.0.0",
+                _cldrVersion: "41"
             },
             language: "en"
         },
@@ -22,7 +22,8 @@ const defaultData = {
                 perMille: "‰",
                 infinity: "∞",
                 nan: "NaN",
-                timeSeparator: ":"
+                timeSeparator: ":",
+                approximatelySign: "~"
             },
             decimal: {
                 patterns: [
@@ -126,6 +127,7 @@ const defaultData = {
                     Ehms: "E h:mm:ss a",
                     EHms: "E HH:mm:ss",
                     Gy: "y G",
+                    GyMd: "M/d/y GGGGG",
                     GyMMM: "MMM y G",
                     GyMMMd: "MMM d, y G",
                     GyMMMEd: "E, MMM d, y G",
@@ -487,7 +489,9 @@ const defaultData = {
             },
             dateFields: {
                 era: {
-                    wide: "era"
+                    wide: "era",
+                    short: "era",
+                    narrow: "era"
                 },
                 year: {
                     wide: "year",
@@ -509,16 +513,35 @@ const defaultData = {
                     short: "wk.",
                     narrow: "wk."
                 },
+                weekOfMonth: {
+                    wide: "week of month",
+                    short: "wk. of mo.",
+                    narrow: "wk. of mo."
+                },
                 day: {
                     wide: "day",
                     short: "day",
                     narrow: "day"
                 },
+                dayOfYear: {
+                    wide: "day of year",
+                    short: "day of yr.",
+                    narrow: "day of yr."
+                },
                 weekday: {
-                    wide: "day of the week"
+                    wide: "day of the week",
+                    short: "day of wk.",
+                    narrow: "day of wk."
+                },
+                weekdayOfMonth: {
+                    wide: "weekday of the month",
+                    short: "wkday. of mo.",
+                    narrow: "wkday. of mo."
                 },
                 dayperiod: {
-                    wide: "AM/PM"
+                    short: "AM/PM",
+                    wide: "AM/PM",
+                    narrow: "AM/PM"
                 },
                 hour: {
                     wide: "hour",
@@ -535,13 +558,15 @@ const defaultData = {
                     short: "sec.",
                     narrow: "sec."
                 },
-                millisecond: {
-                    wide: "millisecond",
-                    short: "ms",
-                    narrow: "ms"
-                },
                 zone: {
-                    wide: "time zone"
+                    wide: "time zone",
+                    short: "zone",
+                    narrow: "zone"
+                },
+                millisecond: {
+                    narrow: "ms",
+                    short: "ms",
+                    wide: "milliseconds"
                 }
             }
         }
