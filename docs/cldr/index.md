@@ -14,19 +14,19 @@ In order for it to function properly, load the data for the corresponding locale
 
 ## Prerequisites
 
-If you work with the `en` locale, you do not have to load any data. The only exception refers to the currency formatting with non-default currency. In this case, load the `cldr-data/main/en/currencies.json` data.
+If you work with the `en` locale, you do not have to load any data. The only exception refers to the currency formatting with non-default currency. In this case, load the `cldr-numbers-full/main/en/currencies.json` data.
 
 The following table provides the data formats that are required for number and date formatting and parsing when you use a non-default locale.
 
 | Formats                      | Required data                          |
 |:---                          |:---                                    |
-| Any                          | `cldr/supplemental/likelySubtags.json` |
-| Basic numbers                | `cldr/main/locale/numbers.json`        |
-| Currency                     | `cldr/main/locale/currencies.json` and `cldr/supplemental/currencyData.json` |
-| Basic dates                  | `cldr/main/locale/ca-gregorian.json`   |
-| Localized time-zone          | `cldr/main/locale/timeZoneNames.json`  |
-| Localized date field names   | `cldr/main/locale/dateFields.json`     |
-| Numeric week day formatting  | `cldr/supplemental/weekData.json`      |
+| Any                          | `cldr-core/supplemental/likelySubtags.json` |
+| Basic numbers                | `cldr-numbers-full/main/LOCALE/numbers.json`        |
+| Currency                     | `cldr-numbers-full/main/LOCALE/currencies.json` and `cldr-core/supplemental/currencyData.json` |
+| Basic dates                  | `cldr-dates-full/main/LOCALE/ca-gregorian.json`   |
+| Localized time-zone          | `cldr-dates-full/main/LOCALE/timeZoneNames.json`  |
+| Localized date field names   | `cldr-dates-full/main/LOCALE/dateFields.json`     |
+| Numeric week day formatting  | `cldr-core/supplemental/weekData.json`      |
 
 ## Getting CLDR Data
 
@@ -41,15 +41,16 @@ To load the CLDR data, use the [`load`](https://github.com/telerik/kendo-intl/bl
 ```
 import { cldr, load } from '@progress/kendo-intl';
 
-const likelySubtags = require("cldr-data/supplemental/likelySubtags.json");
-const weekData      = require("cldr-data/supplemental/weekData.json");
-const currencyData  = require("cldr-data/supplemental/currencyData.json");
+const likelySubtags = require('cldr-core/supplemental/likelySubtags.json');
+const weekData      = require('cldr-core/supplemental/weekData.json');
+const currencyData  = require('cldr-core/supplemental/currencyData.json');
 
-const numbers       = require("cldr-data/main/bg/numbers.json");
-const timeZoneNames = require("cldr-data/main/bg/timeZoneNames.json");
-const calendar      = require("cldr-data/main/bg/ca-gregorian.json");
-const currencies    = require("cldr-data/main/bg/currencies.json");
-const dateFields    = require("cldr-data/main/bg/dateFields.json");
+const numbers       = require('cldr-numbers-full/main/bg/numbers.json');
+const currencies    = require('cldr-numbers-full/main/bg/currencies.json');
+
+const calendar      = require('cldr-dates-full/main/bg/ca-gregorian.json');
+const dateFields    = require('cldr-dates-full/main/bg/dateFields.json');
+const timeZoneNames = require('cldr-dates-full/main/bg/timeZoneNames.json');
 
 load(
     likelySubtags,
@@ -58,6 +59,7 @@ load(
 
     numbers,
     currencies,
+
     calendar,
     dateFields,
     timeZoneNames
@@ -68,7 +70,7 @@ load(
 
 ## Pre-Building CLDR Data
 
-> To generate the locales, install the [`cldr-data`](https://www.npmjs.com/package/cldr-data) package first.
+> To generate the locales, install the following subset of [cldr-json](https://github.com/unicode-org/cldr-json) packages first: 'cldr-core cldr-dates-full cldr-numbers-full'.
 
 The `build` method the kendo-intl package provides generates the files which use the data that is required by the Internationalization library.
 
