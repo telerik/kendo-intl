@@ -536,8 +536,8 @@ describe('dateFieldName', () => {
 
     it('should return placeholder for the weekday type', () => {
         expect(dateFieldName({ type: 'weekday', nameType: 'wide' })).toEqual("day of the week");
-        expect(dateFieldName({ type: 'weekday', nameType: 'narrow' })).toEqual("day of the week");
-        expect(dateFieldName({ type: 'weekday', nameType: 'short' })).toEqual("day of the week");
+        expect(dateFieldName({ type: 'weekday', nameType: 'narrow' })).toEqual("day of wk.");
+        expect(dateFieldName({ type: 'weekday', nameType: 'short' })).toEqual("day of wk.");
     });
 
     it('should return localized placeholder for the weekday type', () => {
@@ -590,8 +590,8 @@ describe('dateFieldName', () => {
     
     it('should return placeholder for zone type', () => {
         expect(dateFieldName({ type: 'zone', nameType: 'wide' })).toEqual("time zone");
-        expect(dateFieldName({ type: 'zone', nameType: 'narrow' })).toEqual("time zone");
-        expect(dateFieldName({ type: 'zone', nameType: 'short' })).toEqual("time zone");
+        expect(dateFieldName({ type: 'zone', nameType: 'narrow' })).toEqual("zone");
+        expect(dateFieldName({ type: 'zone', nameType: 'short' })).toEqual("zone");
     });
 
     it('should not support non-existent units of time as fieldName type', () => {
