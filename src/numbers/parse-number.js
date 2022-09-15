@@ -70,6 +70,20 @@ function cleanLiterals(number, formatOptions) {
     return result;
 }
 
+function divideBy100(number) {
+    const strNumber = String(number);
+    const pointIndex = strNumber.indexOf(POINT);
+    const zeroesCount = 2;
+    let result = number / Math.pow(10, zeroesCount);
+
+    if (pointIndex === -1 || String(result).length <= strNumber.length + zeroesCount) {
+        return result;
+    }
+
+    const fractionDigits = strNumber.length - pointIndex + 1 + zeroesCount;
+    return parseFloat(result.toFixed(fractionDigits));
+}
+
 export default function parseNumber(value, locale = DEFAULT_LOCALE, format = {}) {
     if (!value && value !== 0) {
         return null;
@@ -130,7 +144,7 @@ export default function parseNumber(value, locale = DEFAULT_LOCALE, format = {})
     }
 
     if (number && isPercent) {
-        number /= 100;
+        number = divideBy100(number);
     }
 
     return number;
