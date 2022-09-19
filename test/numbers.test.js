@@ -776,6 +776,30 @@ describe('parseNumber', () => {
         expect(parseNumber("1,23432e+5", "bg")).toEqual(123432);
     });
 
+    it("parses 0.70% to percent", () => {
+        expect(parseNumber('0.70%')).toEqual(0.007);
+    });
+
+    it("parses 0.14% to percent", () => {
+        expect(parseNumber('0.14%')).toEqual(0.0014);
+    });
+
+    it("parses 0.141% to percent", () => {
+        expect(parseNumber('0.141%')).toEqual(0.00141);
+    });
+
+    it("parses 0.68% to percent", () => {
+        expect(parseNumber('0.68%')).toEqual(0.0068);
+    });
+
+    it("parses 17.17% to percent", () => {
+        expect(parseNumber('17.17%')).toEqual(0.1717);
+    });
+
+    it("parses 0.1234567891245% to percent", () => {
+        expect(parseNumber('0.1234567891245%')).toEqual(0.001234567891245);
+    });
+
     describe('errors', () => {
         beforeAll(() => {
             cldr.supplemental.currencyData.region.CUSTOM = [{ XXX: {} }];
