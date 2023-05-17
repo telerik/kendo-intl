@@ -10,13 +10,26 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    permissions:
+        id-token: write # Required by Akeyless
+        contents: read
+        packages: read
+
     steps:
+      - name: Import Secrets
+        id: import-secrets
+        uses: LanceMcCarthy/akeyless-action@v3
+        with:
+          access-id: ${{ secrets.GH_AKEYLESS_ACCESS_ID }}
+          static-secrets: '{ "/WebComponents/prod/tokens/GH_TOKEN": "GH_TOKEN" }'
+          export-secrets-to-environment: false
+
       - name: Check out master
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           ref: master
           fetch-depth: 0 # Fetch all branches
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ steps.import-secrets.outputs.GH_TOKEN }}
 
       - name: Set up Node.js
         uses: actions/setup-node@v2

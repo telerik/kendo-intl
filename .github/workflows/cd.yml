@@ -13,10 +13,28 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: upload
+
+    permissions:
+        id-token: write # Required by Akeyless
+        contents: read
+        packages: read
 
     steps:
+      - name: Import Secrets
+        id: import-secrets
+        uses: LanceMcCarthy/akeyless-action@v3
+        with:
+          access-id: ${{ secrets.GH_AKEYLESS_ACCESS_ID }}
+          static-secrets: |
+            {
+              "/WebComponents/prod/tokens/GH_TOKEN": "GH_TOKEN",
+              "/WebComponents/prod/tokens/PROGRESS_NPM_REGISTRY_TOKEN": "NPM_TOKEN"
+            }
+          export-secrets-to-environment: false
+
       - name: Check out branch
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0 # Fetch all branches
 
@@ -37,6 +55,5 @@ jobs:
       - name: Publish release
         run: npx ci-semantic-release
         env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-
+          NPM_TOKEN: ${{ steps.import-secrets.outputs.NPM_TOKEN }}
+          GH_TOKEN: ${{ steps.import-secrets.outputs.GH_TOKEN }}
