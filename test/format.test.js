@@ -23,7 +23,7 @@ describe('toString', () => {
     });
 
     it('formats value as date based on the specified locale', () => {
-        expect(toString(new Date(2000, 0, 30), "d", "bg")).toEqual("30.01.2000 г.");
+        expect(toString(new Date(2000, 0, 30), "d", "bg")).toEqual("30.01.2000 г.");
     });
 
     it('formats value as number', () => {
@@ -57,6 +57,6 @@ describe('format', () => {
     });
 
     it('formats values based on specified format and locale', () => {
-        expect(format("{0:d}-{1:c}", [new Date(2000, 0, 30), 10], "bg")).toEqual("30.01.2000 г.-10,00 лв.");
+        expect(format("{0:d}-{1:c}", [new Date(2000, 0, 30), 10], "bg")).toEqual("30.01.2000 г.-10,00 лв.");
     });
 });
