@@ -38,24 +38,24 @@ const data = {
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "E d",
-                Ehm: "E h:mm a",
+                Ehm: "E h:mm a",
                 EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
                 GyMd: "dd/MM/y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E d MMM y G",
-                h: "h a",
+                h: "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
                 M: "LL",
                 Md: "dd/MM",
@@ -390,27 +390,27 @@ const data = {
                 narrow: "scht."
             },
             weekOfMonth: {
-                wide: "Seachtain den mhí",
-                short: "7n den mhí",
-                narrow: "7n den mhí"
+                wide: "seachtain den mhí",
+                short: "scht. den mhí",
+                narrow: "scht. den mhí"
             },
             day: {
-                wide: "Lá",
-                short: "Lá",
-                narrow: "Lá"
+                wide: "lá",
+                short: "lá",
+                narrow: "lá"
             },
             dayOfYear: {
-                wide: "Lá den bhliain",
+                wide: "lá den bhliain",
                 short: "lá den bhl.",
                 narrow: "lá den bhl."
             },
             weekday: {
-                wide: "Lá na seachtaine",
-                short: "lá den t7n",
-                narrow: "lá den t7n"
+                wide: "lá den tseachtain",
+                short: "lá den tscht.",
+                narrow: "lá den tscht."
             },
             weekdayOfMonth: {
-                wide: "Lá oibre den mhí",
+                wide: "lá den tseachtain sa mhí",
                 short: "lá oib. den mhí",
                 narrow: "lá oib. den mhí"
             },
@@ -420,22 +420,22 @@ const data = {
                 narrow: "a.m./p.m."
             },
             hour: {
-                wide: "Uair",
+                wide: "uair",
                 short: "uair",
                 narrow: "u"
             },
             minute: {
-                wide: "Nóiméad",
+                wide: "nóiméad",
                 short: "nóim.",
                 narrow: "n"
             },
             second: {
-                wide: "Soicind",
+                wide: "soicind",
                 short: "soic.",
                 narrow: "s"
             },
             zone: {
-                wide: "Crios Ama",
+                wide: "crios ama",
                 short: "crios",
                 narrow: "crios"
             },

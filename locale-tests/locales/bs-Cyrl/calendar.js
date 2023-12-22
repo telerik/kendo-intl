@@ -309,7 +309,7 @@ const data = {
             format: {
                 abbreviated: {
                     midnight: "поноћ",
-                    am: "пре подне",
+                    am: "пре подне",
                     noon: "подне",
                     pm: "поподне",
                     morning1: "ујутру",
@@ -319,7 +319,7 @@ const data = {
                 },
                 narrow: {
                     midnight: "поноћ",
-                    am: "пре подне",
+                    am: "пре подне",
                     noon: "подне",
                     pm: "поподне",
                     morning1: "ујутру",
@@ -341,7 +341,7 @@ const data = {
             "stand-alone": {
                 abbreviated: {
                     midnight: "поноћ",
-                    am: "пре подне",
+                    am: "пре подне",
                     noon: "подне",
                     pm: "поподне",
                     morning1: "јутро",
@@ -351,7 +351,7 @@ const data = {
                 },
                 narrow: {
                     midnight: "поноћ",
-                    am: "пре подне",
+                    am: "пре подне",
                     noon: "подне",
                     pm: "поподне",
                     morning1: "јутро",
@@ -376,8 +376,8 @@ const data = {
                 wide: {
                     "0": "прије нове ере",
                     "1": "нове ере",
-                    "0-alt-variant": "п.н.е",
-                    "1-alt-variant": "н.е."
+                    "0-alt-variant": "п. н. е.",
+                    "1-alt-variant": "н. е."
                 },
                 abbreviated: {
                     "0": "п. н. е.",

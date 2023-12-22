@@ -60,7 +60,8 @@ const data = {
         },
         accounting: {
             patterns: [
-                "$ n"
+                "$n",
+                "($n)"
             ],
             groupSize: [
                 3,

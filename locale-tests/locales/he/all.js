@@ -44,8 +44,8 @@ const data = {
         },
         currency: {
             patterns: [
-                "‏n $",
-                "‏-n $"
+                "‏n ‏$",
+                "‏-n ‏$"
             ],
             groupSize: [
                 3
@@ -57,7 +57,8 @@ const data = {
         },
         accounting: {
             patterns: [
-                "n $"
+                "‏n ‏$",
+                "‏-n ‏$"
             ],
             groupSize: [
                 3
@@ -65,8 +66,7 @@ const data = {
         },
         currencies: {
             ADP: {
-                displayName: "פזטה אנדורית",
-                symbol: "ADP"
+                displayName: "פזטה אנדורית"
             },
             AED: {
                 displayName: "דירהם של איחוד הנסיכויות הערביות",
@@ -76,10 +76,6 @@ const data = {
                 "displayName-count-other": "דירהם של איחוד הנסיכויות הערביות",
                 symbol: "AED"
             },
-            AFA: {
-                displayName: "AFA",
-                symbol: "AFA"
-            },
             AFN: {
                 displayName: "אפגני אפגני",
                 "displayName-count-one": "אפגני אפגני",
@@ -88,10 +84,6 @@ const data = {
                 "displayName-count-other": "אפגני אפגני",
                 symbol: "AFN",
                 "symbol-alt-narrow": "؋"
-            },
-            ALK: {
-                displayName: "ALK",
-                symbol: "ALK"
             },
             ALL: {
                 displayName: "לק אלבני",
@@ -127,33 +119,14 @@ const data = {
                 symbol: "AOA",
                 "symbol-alt-narrow": "Kz"
             },
-            AOK: {
-                displayName: "AOK",
-                symbol: "AOK"
-            },
             AON: {
-                displayName: "קואנזה חדש אנגולי (1990–2000)",
-                symbol: "AON"
+                displayName: "קואנזה חדש אנגולי (1990–2000)"
             },
             AOR: {
-                displayName: "קואנזה רג׳וסטדו אנגולי (1995–1999)",
-                symbol: "AOR"
-            },
-            ARA: {
-                displayName: "ARA",
-                symbol: "ARA"
-            },
-            ARL: {
-                displayName: "ARL",
-                symbol: "ARL"
-            },
-            ARM: {
-                displayName: "ARM",
-                symbol: "ARM"
+                displayName: "קואנזה רג׳וסטדו אנגולי (1995–1999)"
             },
             ARP: {
-                displayName: "פזו ארגנטינאי (1983–1985)",
-                symbol: "ARP"
+                displayName: "פזו ארגנטינאי (1983–1985)"
             },
             ARS: {
                 displayName: "פסו ארגנטינאי",
@@ -165,8 +138,7 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             ATS: {
-                displayName: "שילינג אוסטרי",
-                symbol: "ATS"
+                displayName: "שילינג אוסטרי"
             },
             AUD: {
                 displayName: "דולר אוסטרלי",
@@ -186,8 +158,7 @@ const data = {
                 symbol: "AWG"
             },
             AZM: {
-                displayName: "מנאט אזרביג׳אני (1993–2006)",
-                symbol: "AZM"
+                displayName: "מנאט אזרביג׳אני (1993–2006)"
             },
             AZN: {
                 displayName: "מאנאט אזרבייג׳ני",
@@ -199,8 +170,7 @@ const data = {
                 "symbol-alt-narrow": "₼"
             },
             BAD: {
-                displayName: "דינר של בוסניה־הרצגובינה",
-                symbol: "BAD"
+                displayName: "דינר של בוסניה־הרצגובינה"
             },
             BAM: {
                 displayName: "מארק סחיר של בוסניה והרצגובינה",
@@ -210,10 +180,6 @@ const data = {
                 "displayName-count-other": "מארק סחיר של בוסניה והרצגובינה",
                 symbol: "BAM",
                 "symbol-alt-narrow": "KM"
-            },
-            BAN: {
-                displayName: "BAN",
-                symbol: "BAN"
             },
             BBD: {
                 displayName: "דולר ברבדיאני",
@@ -234,24 +200,13 @@ const data = {
                 "symbol-alt-narrow": "৳"
             },
             BEC: {
-                displayName: "פרנק בלגי (בר המרה)",
-                symbol: "BEC"
+                displayName: "פרנק בלגי (בר המרה)"
             },
             BEF: {
-                displayName: "פרנק בלגי",
-                symbol: "BEF"
-            },
-            BEL: {
-                displayName: "BEL",
-                symbol: "BEL"
+                displayName: "פרנק בלגי"
             },
             BGL: {
-                displayName: "לב בולגרי ישן",
-                symbol: "BGL"
-            },
-            BGM: {
-                displayName: "BGM",
-                symbol: "BGM"
+                displayName: "לב בולגרי ישן"
             },
             BGN: {
                 displayName: "לב בולגרי",
@@ -260,10 +215,6 @@ const data = {
                 "displayName-count-many": "לב בולגרי",
                 "displayName-count-other": "לב בולגרי",
                 symbol: "BGN"
-            },
-            BGO: {
-                displayName: "BGO",
-                symbol: "BGO"
             },
             BHD: {
                 displayName: "דינר בחרייני",
@@ -308,29 +259,14 @@ const data = {
                 symbol: "BOB",
                 "symbol-alt-narrow": "Bs"
             },
-            BOL: {
-                displayName: "BOL",
-                symbol: "BOL"
-            },
             BOP: {
-                displayName: "פזו בוליבי",
-                symbol: "BOP"
-            },
-            BOV: {
-                displayName: "BOV",
-                symbol: "BOV"
+                displayName: "פזו בוליבי"
             },
             BRB: {
-                displayName: "קרוזיארו חדש ברזילאי (1967–1986)",
-                symbol: "BRB"
+                displayName: "קרוזיארו חדש ברזילאי (1967–1986)"
             },
             BRC: {
-                displayName: "קרוזדו ברזילאי",
-                symbol: "BRC"
-            },
-            BRE: {
-                displayName: "BRE",
-                symbol: "BRE"
+                displayName: "קרוזדו ברזילאי"
             },
             BRL: {
                 displayName: "ריאל ברזילאי",
@@ -340,18 +276,6 @@ const data = {
                 "displayName-count-other": "ריאל ברזילאי",
                 symbol: "R$",
                 "symbol-alt-narrow": "R$"
-            },
-            BRN: {
-                displayName: "BRN",
-                symbol: "BRN"
-            },
-            BRR: {
-                displayName: "BRR",
-                symbol: "BRR"
-            },
-            BRZ: {
-                displayName: "BRZ",
-                symbol: "BRZ"
             },
             BSD: {
                 displayName: "דולר בהאמי",
@@ -370,10 +294,6 @@ const data = {
                 "displayName-count-other": "נגולטרום בהוטני",
                 symbol: "BTN"
             },
-            BUK: {
-                displayName: "BUK",
-                symbol: "BUK"
-            },
             BWP: {
                 displayName: "פולה בוטסואני",
                 "displayName-count-one": "פולה בוטסואני",
@@ -382,10 +302,6 @@ const data = {
                 "displayName-count-other": "פולה בוטסואני",
                 symbol: "BWP",
                 "symbol-alt-narrow": "P"
-            },
-            BYB: {
-                displayName: "BYB",
-                symbol: "BYB"
             },
             BYN: {
                 displayName: "רובל בלרוסי",
@@ -430,10 +346,6 @@ const data = {
                 "displayName-count-other": "פרנק קונגולזי",
                 symbol: "CDF"
             },
-            CHE: {
-                displayName: "CHE",
-                symbol: "CHE"
-            },
             CHF: {
                 displayName: "פרנק שוויצרי",
                 "displayName-count-one": "פרנק שוויצרי",
@@ -441,18 +353,6 @@ const data = {
                 "displayName-count-many": "פרנק שוויצרי",
                 "displayName-count-other": "פרנק שוויצרי",
                 symbol: "CHF"
-            },
-            CHW: {
-                displayName: "CHW",
-                symbol: "CHW"
-            },
-            CLE: {
-                displayName: "CLE",
-                symbol: "CLE"
-            },
-            CLF: {
-                displayName: "CLF",
-                symbol: "CLF"
             },
             CLP: {
                 displayName: "פסו צ׳ילאני",
@@ -470,10 +370,6 @@ const data = {
                 "displayName-count-many": "יואן סיני (CNH)",
                 "displayName-count-other": "יואן סיני (CNH)",
                 symbol: "CNH"
-            },
-            CNX: {
-                displayName: "CNX",
-                symbol: "CNX"
             },
             CNY: {
                 displayName: "יואן סיני",
@@ -493,10 +389,6 @@ const data = {
                 symbol: "COP",
                 "symbol-alt-narrow": "$"
             },
-            COU: {
-                displayName: "COU",
-                symbol: "COU"
-            },
             CRC: {
                 displayName: "קולון קוסטה־ריקני",
                 "displayName-count-one": "קולון קוסטה־ריקני",
@@ -507,12 +399,7 @@ const data = {
                 "symbol-alt-narrow": "₡"
             },
             CSD: {
-                displayName: "דינר סרבי ישן",
-                symbol: "CSD"
-            },
-            CSK: {
-                displayName: "CSK",
-                symbol: "CSK"
+                displayName: "דינר סרבי ישן"
             },
             CUC: {
                 displayName: "פסו קובני להמרה",
@@ -541,8 +428,7 @@ const data = {
                 symbol: "CVE"
             },
             CYP: {
-                displayName: "לירה קפריסאית",
-                symbol: "CYP"
+                displayName: "לירה קפריסאית"
             },
             CZK: {
                 displayName: "קורונה צ׳כית",
@@ -554,12 +440,10 @@ const data = {
                 "symbol-alt-narrow": "Kč"
             },
             DDM: {
-                displayName: "מרק מזרח גרמני",
-                symbol: "DDM"
+                displayName: "מרק מזרח גרמני"
             },
             DEM: {
-                displayName: "מרק גרמני",
-                symbol: "DEM"
+                displayName: "מרק גרמני"
             },
             DJF: {
                 displayName: "פרנק ג׳יבוטי",
@@ -596,16 +480,10 @@ const data = {
                 symbol: "DZD"
             },
             ECS: {
-                displayName: "סוקר אקואדורי",
-                symbol: "ECS"
-            },
-            ECV: {
-                displayName: "ECV",
-                symbol: "ECV"
+                displayName: "סוקר אקואדורי"
             },
             EEK: {
-                displayName: "קרון אסטוני",
-                symbol: "EEK"
+                displayName: "קרון אסטוני"
             },
             EGP: {
                 displayName: "לירה מצרית",
@@ -624,17 +502,8 @@ const data = {
                 "displayName-count-other": "נאקפה אריתראי",
                 symbol: "ERN"
             },
-            ESA: {
-                displayName: "ESA",
-                symbol: "ESA"
-            },
-            ESB: {
-                displayName: "ESB",
-                symbol: "ESB"
-            },
             ESP: {
                 displayName: "פסטה ספרדי",
-                symbol: "ESP",
                 "symbol-alt-narrow": "₧"
             },
             ETB: {
@@ -655,8 +524,7 @@ const data = {
                 "symbol-alt-narrow": "€"
             },
             FIM: {
-                displayName: "מרק פיני",
-                symbol: "FIM"
+                displayName: "מרק פיני"
             },
             FJD: {
                 displayName: "דולר פיג׳י",
@@ -677,8 +545,7 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             FRF: {
-                displayName: "פרנק צרפתי",
-                symbol: "FRF"
+                displayName: "פרנק צרפתי"
             },
             GBP: {
                 displayName: "לירה שטרלינג",
@@ -689,10 +556,6 @@ const data = {
                 symbol: "£",
                 "symbol-alt-narrow": "£"
             },
-            GEK: {
-                displayName: "GEK",
-                symbol: "GEK"
-            },
             GEL: {
                 displayName: "לארי גאורגי",
                 "displayName-count-one": "לארי גאורגי",
@@ -701,10 +564,6 @@ const data = {
                 "displayName-count-other": "לארי גאורגי",
                 symbol: "GEL",
                 "symbol-alt-narrow": "₾"
-            },
-            GHC: {
-                displayName: "GHC",
-                symbol: "GHC"
             },
             GHS: {
                 displayName: "סדי גאני",
@@ -741,17 +600,8 @@ const data = {
                 symbol: "GNF",
                 "symbol-alt-narrow": "FG"
             },
-            GNS: {
-                displayName: "GNS",
-                symbol: "GNS"
-            },
-            GQE: {
-                displayName: "GQE",
-                symbol: "GQE"
-            },
             GRD: {
-                displayName: "דרכמה",
-                symbol: "GRD"
+                displayName: "דרכמה"
             },
             GTQ: {
                 displayName: "קצאל גואטמלי",
@@ -762,13 +612,8 @@ const data = {
                 symbol: "GTQ",
                 "symbol-alt-narrow": "Q"
             },
-            GWE: {
-                displayName: "GWE",
-                symbol: "GWE"
-            },
             GWP: {
-                displayName: "פזו גינאי",
-                symbol: "GWP"
+                displayName: "פזו גינאי"
             },
             GYD: {
                 displayName: "דולר גיאני",
@@ -796,10 +641,6 @@ const data = {
                 "displayName-count-other": "למפירה הונדורי",
                 symbol: "HNL",
                 "symbol-alt-narrow": "L"
-            },
-            HRD: {
-                displayName: "HRD",
-                symbol: "HRD"
             },
             HRK: {
                 displayName: "קונה קרואטי",
@@ -830,23 +671,18 @@ const data = {
             IDR: {
                 displayName: "רופיה אינדונזית",
                 "displayName-count-one": "רופיה אינדונזית",
-                "displayName-count-two": "רופיה אינדונזית",
-                "displayName-count-many": "רופיה אינדונזית",
-                "displayName-count-other": "רופיה אינדונזית",
+                "displayName-count-two": "רופיות אינדונזיות",
+                "displayName-count-many": "רופיות אינדונזיות",
+                "displayName-count-other": "רופיות אינדונזיות",
                 symbol: "IDR",
                 "symbol-alt-narrow": "Rp"
             },
             IEP: {
-                displayName: "לירה אירית",
-                symbol: "IEP"
+                displayName: "לירה אירית"
             },
             ILP: {
                 displayName: "לירה ישראלית",
                 symbol: "ל״י"
-            },
-            ILR: {
-                displayName: "ILR",
-                symbol: "ILR"
             },
             ILS: {
                 displayName: "שקל חדש",
@@ -882,10 +718,6 @@ const data = {
                 "displayName-count-other": "ריאל איראני",
                 symbol: "IRR"
             },
-            ISJ: {
-                displayName: "ISJ",
-                symbol: "ISJ"
-            },
             ISK: {
                 displayName: "כתר איסלנדי",
                 "displayName-count-one": "כתר איסלנדי",
@@ -896,8 +728,7 @@ const data = {
                 "symbol-alt-narrow": "kr"
             },
             ITL: {
-                displayName: "לירה איטלקית",
-                symbol: "ITL"
+                displayName: "לירה איטלקית"
             },
             JMD: {
                 displayName: "דולר ג׳מייקני",
@@ -968,14 +799,6 @@ const data = {
                 symbol: "KPW",
                 "symbol-alt-narrow": "₩"
             },
-            KRH: {
-                displayName: "KRH",
-                symbol: "KRH"
-            },
-            KRO: {
-                displayName: "KRO",
-                symbol: "KRO"
-            },
             KRW: {
                 displayName: "וון דרום קוריאני",
                 "displayName-count-one": "וון דרום קוריאני",
@@ -1023,9 +846,9 @@ const data = {
             LBP: {
                 displayName: "לירה לבנונית",
                 "displayName-count-one": "לירה לבנונית",
-                "displayName-count-two": "לירה לבנונית",
-                "displayName-count-many": "לירה לבנונית",
-                "displayName-count-other": "לירה לבנונית",
+                "displayName-count-two": "לירות לבנוניות",
+                "displayName-count-many": "לירות לבנוניות",
+                "displayName-count-other": "לירות לבנוניות",
                 symbol: "LBP",
                 "symbol-alt-narrow": "L£"
             },
@@ -1049,7 +872,10 @@ const data = {
             },
             LSL: {
                 displayName: "לוטי לסותי",
-                symbol: "LSL"
+                "displayName-count-one": "לוטי לסותי",
+                "displayName-count-two": "לוטי לסותי",
+                "displayName-count-many": "לוטי לסותי",
+                "displayName-count-other": "לוטי לסותי"
             },
             LTL: {
                 displayName: "ליטא ליטאי",
@@ -1060,30 +886,13 @@ const data = {
                 symbol: "LTL",
                 "symbol-alt-narrow": "Lt"
             },
-            LTT: {
-                displayName: "LTT",
-                symbol: "LTT"
-            },
-            LUC: {
-                displayName: "LUC",
-                symbol: "LUC"
-            },
             LUF: {
-                displayName: "פרנק לוקסמבורגי",
-                symbol: "LUF"
-            },
-            LUL: {
-                displayName: "LUL",
-                symbol: "LUL"
+                displayName: "פרנק לוקסמבורגי"
             },
             LVL: {
                 displayName: "לט לטבי",
                 symbol: "LVL",
                 "symbol-alt-narrow": "Ls"
-            },
-            LVR: {
-                displayName: "LVR",
-                symbol: "LVR"
             },
             LYD: {
                 displayName: "דינר לובי",
@@ -1102,16 +911,7 @@ const data = {
                 symbol: "MAD"
             },
             MAF: {
-                displayName: "פרנק מרוקאי",
-                symbol: "MAF"
-            },
-            MCF: {
-                displayName: "MCF",
-                symbol: "MCF"
-            },
-            MDC: {
-                displayName: "MDC",
-                symbol: "MDC"
+                displayName: "פרנק מרוקאי"
             },
             MDL: {
                 displayName: "לאו מולדובני",
@@ -1131,8 +931,7 @@ const data = {
                 "symbol-alt-narrow": "Ar"
             },
             MGF: {
-                displayName: "פרנק מדגסקארי",
-                symbol: "MGF"
+                displayName: "פרנק מדגסקארי"
             },
             MKD: {
                 displayName: "דינר מקדוני",
@@ -1141,14 +940,6 @@ const data = {
                 "displayName-count-many": "דינר מקדוני",
                 "displayName-count-other": "דינר מקדוני",
                 symbol: "MKD"
-            },
-            MKN: {
-                displayName: "MKN",
-                symbol: "MKN"
-            },
-            MLF: {
-                displayName: "MLF",
-                symbol: "MLF"
             },
             MMK: {
                 displayName: "קיאט מיאנמרי",
@@ -1193,12 +984,7 @@ const data = {
                 symbol: "MRU"
             },
             MTL: {
-                displayName: "לירה מלטית",
-                symbol: "MTL"
-            },
-            MTP: {
-                displayName: "MTP",
-                symbol: "MTP"
+                displayName: "לירה מלטית"
             },
             MUR: {
                 displayName: "רופי מאוריציני",
@@ -1209,16 +995,12 @@ const data = {
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
-            MVP: {
-                displayName: "MVP",
-                symbol: "MVP"
-            },
             MVR: {
                 displayName: "רופיה מלדיבית",
                 "displayName-count-one": "רופיה מלדיבית",
-                "displayName-count-two": "רופיה מלדיבית",
-                "displayName-count-many": "רופיה מלדיבית",
-                "displayName-count-other": "רופיה מלדיבית",
+                "displayName-count-two": "רופיות מלדיביות",
+                "displayName-count-many": "רופיות מלדיביות",
+                "displayName-count-other": "רופיות מלדיביות",
                 symbol: "MVR"
             },
             MWK: {
@@ -1251,8 +1033,7 @@ const data = {
                 "displayName-count-one": "יחידת השקעות מקסיקנית",
                 "displayName-count-two": "יחידות השקעות מקסיקניות",
                 "displayName-count-many": "יחידות השקעות מקסיקניות",
-                "displayName-count-other": "יחידות השקעות מקסיקניות",
-                symbol: "MXV"
+                "displayName-count-other": "יחידות השקעות מקסיקניות"
             },
             MYR: {
                 displayName: "רינגיט מלזי",
@@ -1268,12 +1049,10 @@ const data = {
                 "displayName-count-one": "אסקודו מוזמביקי",
                 "displayName-count-two": "אסקודואים מוזמביקיים",
                 "displayName-count-many": "אסקודו מוזמביקי",
-                "displayName-count-other": "אסקודואים מוזמביקיים",
-                symbol: "MZE"
+                "displayName-count-other": "אסקודואים מוזמביקיים"
             },
             MZM: {
-                displayName: "מטיקל",
-                symbol: "MZM"
+                displayName: "מטיקל"
             },
             MZN: {
                 displayName: "מטיקל מוזמביני",
@@ -1306,8 +1085,7 @@ const data = {
                 "displayName-count-one": "קורדובה (1988–1991)",
                 "displayName-count-two": "קורדובות (1988–1991)",
                 "displayName-count-many": "קורדובות (1988–1991)",
-                "displayName-count-other": "קורדובות (1988–1991)",
-                symbol: "NIC"
+                "displayName-count-other": "קורדובות (1988–1991)"
             },
             NIO: {
                 displayName: "קורדובה ניקרגואה",
@@ -1319,8 +1097,7 @@ const data = {
                 "symbol-alt-narrow": "C$"
             },
             NLG: {
-                displayName: "גילדן הולנדי",
-                symbol: "NLG"
+                displayName: "גילדן הולנדי"
             },
             NOK: {
                 displayName: "כתר נורווגי",
@@ -1365,10 +1142,6 @@ const data = {
                 "displayName-count-other": "בלבואה פנמי",
                 symbol: "PAB"
             },
-            PEI: {
-                displayName: "PEI",
-                symbol: "PEI"
-            },
             PEN: {
                 displayName: "סול פרואני",
                 "displayName-count-one": "סול פרואני",
@@ -1376,10 +1149,6 @@ const data = {
                 "displayName-count-many": "סול פרואני",
                 "displayName-count-other": "סול פרואני",
                 symbol: "PEN"
-            },
-            PES: {
-                displayName: "PES",
-                symbol: "PES"
             },
             PGK: {
                 displayName: "קינה של פפואה גינאה החדשה",
@@ -1390,11 +1159,11 @@ const data = {
                 symbol: "PGK"
             },
             PHP: {
-                displayName: "פזו פיליפיני",
-                "displayName-count-one": "פזו פיליפיני",
-                "displayName-count-two": "פזו פיליפיני",
-                "displayName-count-many": "פזו פיליפיני",
-                "displayName-count-other": "פזו פיליפיני",
+                displayName: "פסו פיליפיני",
+                "displayName-count-one": "פסו פיליפיני",
+                "displayName-count-two": "פסו פיליפיני",
+                "displayName-count-many": "פסו פיליפיני",
+                "displayName-count-other": "פסו פיליפיני",
                 symbol: "PHP",
                 "symbol-alt-narrow": "₱"
             },
@@ -1416,13 +1185,8 @@ const data = {
                 symbol: "PLN",
                 "symbol-alt-narrow": "zł"
             },
-            PLZ: {
-                displayName: "PLZ",
-                symbol: "PLZ"
-            },
             PTE: {
-                displayName: "אסקודו פורטוגלי",
-                symbol: "PTE"
+                displayName: "אסקודו פורטוגלי"
             },
             PYG: {
                 displayName: "גוארני פרגוואי",
@@ -1441,13 +1205,8 @@ const data = {
                 "displayName-count-other": "ריאל קטארי",
                 symbol: "QAR"
             },
-            RHD: {
-                displayName: "RHD",
-                symbol: "RHD"
-            },
             ROL: {
-                displayName: "לאו רומני ישן",
-                symbol: "ROL"
+                displayName: "לאו רומני ישן"
             },
             RON: {
                 displayName: "לאו רומני",
@@ -1477,8 +1236,7 @@ const data = {
                 "symbol-alt-variant": "₽"
             },
             RUR: {
-                displayName: "רובל רוסי (1991 – 1998)",
-                symbol: "RUR"
+                displayName: "רובל רוסי (1991 – 1998)"
             },
             RWF: {
                 displayName: "פרנק רואנדי",
@@ -1515,8 +1273,7 @@ const data = {
                 symbol: "SCR"
             },
             SDD: {
-                displayName: "דינר סודני",
-                symbol: "SDD"
+                displayName: "דינר סודני"
             },
             SDG: {
                 displayName: "לירה סודנית",
@@ -1527,8 +1284,7 @@ const data = {
                 symbol: "SDG"
             },
             SDP: {
-                displayName: "לירה סודנית (1957–1998)",
-                symbol: "SDP"
+                displayName: "לירה סודנית (1957–1998)"
             },
             SEK: {
                 displayName: "כתר שוודי",
@@ -1558,16 +1314,10 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             SIT: {
-                displayName: "טולאר סלובני",
-                symbol: "SIT"
+                displayName: "טולאר סלובני"
             },
             SKK: {
-                displayName: "קורונה סלובקי",
-                symbol: "SKK"
-            },
-            SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
+                displayName: "קורונה סלובקי"
             },
             SLL: {
                 displayName: "ליאון סיירה לאוני",
@@ -1595,8 +1345,7 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             SRG: {
-                displayName: "גילדר סורינאמי",
-                symbol: "SRG"
+                displayName: "גילדר סורינאמי"
             },
             SSP: {
                 displayName: "לירה דרום-סודנית",
@@ -1625,23 +1374,21 @@ const data = {
                 "symbol-alt-narrow": "Db"
             },
             SUR: {
-                displayName: "רובל סובייטי",
-                symbol: "SUR"
+                displayName: "רובל סובייטי"
             },
             SVC: {
                 displayName: "קולון סלבדורי",
                 "displayName-count-one": "קולון סלבדורי",
                 "displayName-count-two": "קולונים סלבדוריים",
                 "displayName-count-many": "קולון סלבדורי",
-                "displayName-count-other": "קולונים סלבדוריים",
-                symbol: "SVC"
+                "displayName-count-other": "קולונים סלבדוריים"
             },
             SYP: {
                 displayName: "לירה סורית",
                 "displayName-count-one": "לירה סורית",
-                "displayName-count-two": "לירה סורית",
-                "displayName-count-many": "לירה סורית",
-                "displayName-count-other": "לירה סורית",
+                "displayName-count-two": "לירות סוריות",
+                "displayName-count-many": "לירות סוריות",
+                "displayName-count-other": "לירות סוריות",
                 symbol: "SYP",
                 "symbol-alt-narrow": "£"
             },
@@ -1662,10 +1409,6 @@ const data = {
                 symbol: "฿",
                 "symbol-alt-narrow": "฿"
             },
-            TJR: {
-                displayName: "TJR",
-                symbol: "TJR"
-            },
             TJS: {
                 displayName: "סומוני טג׳קיסטני",
                 "displayName-count-one": "סומוני טג׳קיסטני",
@@ -1675,8 +1418,7 @@ const data = {
                 symbol: "TJS"
             },
             TMM: {
-                displayName: "מנאט טורקמאני",
-                symbol: "TMM"
+                displayName: "מנאט טורקמאני"
             },
             TMT: {
                 displayName: "מאנאט טורקמני",
@@ -1704,19 +1446,17 @@ const data = {
                 "symbol-alt-narrow": "T$"
             },
             TPE: {
-                displayName: "אסקודו טימוראי",
-                symbol: "TPE"
+                displayName: "אסקודו טימוראי"
             },
             TRL: {
-                displayName: "לירה טורקית",
-                symbol: "TRL"
+                displayName: "לירה טורקית"
             },
             TRY: {
                 displayName: "לירה טורקית חדשה",
                 "displayName-count-one": "לירה טורקית חדשה",
-                "displayName-count-two": "לירה טורקית חדשה",
-                "displayName-count-many": "לירה טורקית חדשה",
-                "displayName-count-other": "לירה טורקית חדשה",
+                "displayName-count-two": "לירות טורקיות חדשות",
+                "displayName-count-many": "לירות טורקיות חדשות",
+                "displayName-count-other": "לירות טורקיות חדשות",
                 symbol: "TRY",
                 "symbol-alt-narrow": "₺",
                 "symbol-alt-variant": "TL"
@@ -1756,13 +1496,8 @@ const data = {
                 symbol: "UAH",
                 "symbol-alt-narrow": "₴"
             },
-            UAK: {
-                displayName: "UAK",
-                symbol: "UAK"
-            },
             UGS: {
-                displayName: "שילינג אוגנדי (1966 – 1987)",
-                symbol: "UGS"
+                displayName: "שילינג אוגנדי (1966 – 1987)"
             },
             UGX: {
                 displayName: "שילינג אוגנדי",
@@ -1783,19 +1518,18 @@ const data = {
             },
             USN: {
                 displayName: "דולר אמריקאי (היום הבא)",
+                "displayName-count-one": "דולר אמריקאי (היום הבא)",
+                "displayName-count-two": "דולר אמריקאי (היום הבא)",
+                "displayName-count-many": "דולר אמריקאי (היום הבא)",
+                "displayName-count-other": "דולר אמריקאי (היום הבא)",
                 symbol: "USN"
             },
             USS: {
                 displayName: "דולר אמריקאי (היום הזה)",
-                symbol: "USS"
-            },
-            UYI: {
-                displayName: "UYI",
-                symbol: "UYI"
-            },
-            UYP: {
-                displayName: "UYP",
-                symbol: "UYP"
+                "displayName-count-one": "דולר אמריקאי (היום הזה)",
+                "displayName-count-two": "דולר אמריקאי (היום הזה)",
+                "displayName-count-many": "דולר אמריקאי (היום הזה)",
+                "displayName-count-other": "דולר אמריקאי (היום הזה)"
             },
             UYU: {
                 displayName: "פסו אורוגוואי",
@@ -1806,10 +1540,6 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
-            },
             UZS: {
                 displayName: "סום אוזבקי",
                 "displayName-count-one": "סום אוזבקי",
@@ -1819,12 +1549,7 @@ const data = {
                 symbol: "UZS"
             },
             VEB: {
-                displayName: "בוליבר ונצואלי (1871–2008)",
-                symbol: "VEB"
-            },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
+                displayName: "בוליבר ונצואלי (1871–2008)"
             },
             VEF: {
                 displayName: "בוליבר ונצואלי (2008–2018)",
@@ -1852,10 +1577,6 @@ const data = {
                 symbol: "₫",
                 "symbol-alt-narrow": "₫"
             },
-            VNN: {
-                displayName: "VNN",
-                symbol: "VNN"
-            },
             VUV: {
                 displayName: "ואטו של ונואטו",
                 "displayName-count-one": "ואטו של ונואטו",
@@ -1881,28 +1602,10 @@ const data = {
                 symbol: "FCFA"
             },
             XAG: {
-                displayName: "כסף",
-                symbol: "XAG"
+                displayName: "כסף"
             },
             XAU: {
-                displayName: "זהב",
-                symbol: "XAU"
-            },
-            XBA: {
-                displayName: "XBA",
-                symbol: "XBA"
-            },
-            XBB: {
-                displayName: "XBB",
-                symbol: "XBB"
-            },
-            XBC: {
-                displayName: "XBC",
-                symbol: "XBC"
-            },
-            XBD: {
-                displayName: "XBD",
-                symbol: "XBD"
+                displayName: "זהב"
             },
             XCD: {
                 displayName: "דולר מזרח קריבי",
@@ -1914,20 +1617,10 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             XDR: {
-                displayName: "זכויות משיכה מיוחדות",
-                symbol: "XDR"
-            },
-            XEU: {
-                displayName: "XEU",
-                symbol: "XEU"
+                displayName: "זכויות משיכה מיוחדות"
             },
             XFO: {
-                displayName: "פרנק זהב",
-                symbol: "XFO"
-            },
-            XFU: {
-                displayName: "XFU",
-                symbol: "XFU"
+                displayName: "פרנק זהב"
             },
             XOF: {
                 displayName: "פרנק CFA מערב אפריקני",
@@ -1938,8 +1631,7 @@ const data = {
                 symbol: "F CFA"
             },
             XPD: {
-                displayName: "פלדיום",
-                symbol: "XPD"
+                displayName: "פלדיום"
             },
             XPF: {
                 displayName: "פרנק פולינזיה הצרפתית",
@@ -1950,24 +1642,10 @@ const data = {
                 symbol: "CFPF"
             },
             XPT: {
-                displayName: "פלטינה",
-                symbol: "XPT"
-            },
-            XRE: {
-                displayName: "XRE",
-                symbol: "XRE"
-            },
-            XSU: {
-                displayName: "XSU",
-                symbol: "XSU"
+                displayName: "פלטינה"
             },
             XTS: {
-                displayName: "סימון למטרות בדיקה",
-                symbol: "XTS"
-            },
-            XUA: {
-                displayName: "XUA",
-                symbol: "XUA"
+                displayName: "סימון למטרות בדיקה"
             },
             XXX: {
                 displayName: "מטבע שאינו ידוע",
@@ -1978,8 +1656,7 @@ const data = {
                 symbol: "¤"
             },
             YDD: {
-                displayName: "דינר תימני",
-                symbol: "YDD"
+                displayName: "דינר תימני"
             },
             YER: {
                 displayName: "ריאל תימני",
@@ -1989,25 +1666,8 @@ const data = {
                 "displayName-count-other": "ריאל תימני",
                 symbol: "YER"
             },
-            YUD: {
-                displayName: "YUD",
-                symbol: "YUD"
-            },
-            YUM: {
-                displayName: "YUM",
-                symbol: "YUM"
-            },
-            YUN: {
-                displayName: "YUN",
-                symbol: "YUN"
-            },
-            YUR: {
-                displayName: "YUR",
-                symbol: "YUR"
-            },
             ZAL: {
-                displayName: "ראנד דרום אפריקאי (כספי)",
-                symbol: "ZAL"
+                displayName: "ראנד דרום אפריקאי (כספי)"
             },
             ZAR: {
                 displayName: "ראנד דרום אפריקאי",
@@ -2019,8 +1679,7 @@ const data = {
                 "symbol-alt-narrow": "R"
             },
             ZMK: {
-                displayName: "קוואצ׳ה זמבית (1968–2012)",
-                symbol: "ZMK"
+                displayName: "קוואצ׳ה זמבית (1968–2012)"
             },
             ZMW: {
                 displayName: "קוואצ׳ה זמבי",
@@ -2032,24 +1691,10 @@ const data = {
                 "symbol-alt-narrow": "ZK"
             },
             ZRN: {
-                displayName: "זאיר חדש",
-                symbol: "ZRN"
-            },
-            ZRZ: {
-                displayName: "ZRZ",
-                symbol: "ZRZ"
+                displayName: "זאיר חדש"
             },
             ZWD: {
-                displayName: "דולר זימבבואי",
-                symbol: "ZWD"
-            },
-            ZWL: {
-                displayName: "ZWL",
-                symbol: "ZWL"
-            },
-            ZWR: {
-                displayName: "ZWR",
-                symbol: "ZWR"
+                displayName: "דולר זימבבואי"
             }
         },
         localeCurrency: "ILS"
@@ -2071,8 +1716,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} בשעה {0}",
-            long: "{1} בשעה {0}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {

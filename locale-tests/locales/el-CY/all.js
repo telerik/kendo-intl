@@ -65,8 +65,7 @@ const data = {
             ADP: {
                 displayName: "Πεσέτα Ανδόρας",
                 "displayName-count-one": "πεσέτα Ανδόρας",
-                "displayName-count-other": "πεσέτες Ανδόρας",
-                symbol: "ADP"
+                "displayName-count-other": "πεσέτες Ανδόρας"
             },
             AED: {
                 displayName: "Ντιράμ Ηνωμένων Αραβικών Εμιράτων",
@@ -77,8 +76,7 @@ const data = {
             AFA: {
                 displayName: "Αφγανί Αφγανιστάν (1927–2002)",
                 "displayName-count-one": "αφγάνι Αφγανιστάν (AFA)",
-                "displayName-count-other": "αφγάνι Αφγανιστάν (AFA)",
-                symbol: "AFA"
+                "displayName-count-other": "αφγάνι Αφγανιστάν (AFA)"
             },
             AFN: {
                 displayName: "Αφγάνι Αφγανιστάν",
@@ -86,10 +84,6 @@ const data = {
                 "displayName-count-other": "αφγάνια Αφγανιστάν",
                 symbol: "AFN",
                 "symbol-alt-narrow": "؋"
-            },
-            ALK: {
-                displayName: "ALK",
-                symbol: "ALK"
             },
             ALL: {
                 displayName: "Λεκ Αλβανίας",
@@ -120,38 +114,22 @@ const data = {
             AOK: {
                 displayName: "Κουάνζα Ανγκόλας (1977–1990)",
                 "displayName-count-one": "κουάνζα Ανγκόλας (AOK)",
-                "displayName-count-other": "κουάνζα Ανγκόλας (AOK)",
-                symbol: "AOK"
+                "displayName-count-other": "κουάνζα Ανγκόλας (AOK)"
             },
             AON: {
                 displayName: "Νέα Κουάνζα Ανγκόλας (1990–2000)",
                 "displayName-count-one": "νέο κουάνζα Ανγκόλας (1990–2000)",
-                "displayName-count-other": "νέα κουάνζα Ανγκόλας (1990–2000)",
-                symbol: "AON"
-            },
-            AOR: {
-                displayName: "AOR",
-                symbol: "AOR"
+                "displayName-count-other": "νέα κουάνζα Ανγκόλας (1990–2000)"
             },
             ARA: {
                 displayName: "Ωστράλ Αργετινής",
                 "displayName-count-one": "αουστράλ Αργεντινής",
-                "displayName-count-other": "αουστράλ Αργεντινής",
-                symbol: "ARA"
-            },
-            ARL: {
-                displayName: "ARL",
-                symbol: "ARL"
-            },
-            ARM: {
-                displayName: "ARM",
-                symbol: "ARM"
+                "displayName-count-other": "αουστράλ Αργεντινής"
             },
             ARP: {
                 displayName: "Πέσο Αργεντινής (1983–1985)",
                 "displayName-count-one": "πέσο Αργεντινής (ARP)",
-                "displayName-count-other": "πέσο Αργεντινής (ARP)",
-                symbol: "ARP"
+                "displayName-count-other": "πέσο Αργεντινής (ARP)"
             },
             ARS: {
                 displayName: "Πέσο Αργεντινής",
@@ -163,8 +141,7 @@ const data = {
             ATS: {
                 displayName: "Σελίνι Αυστρίας",
                 "displayName-count-one": "σελίνι Αυστρίας",
-                "displayName-count-other": "σελίνια Αυστρίας",
-                symbol: "ATS"
+                "displayName-count-other": "σελίνια Αυστρίας"
             },
             AUD: {
                 displayName: "Δολάριο Αυστραλίας",
@@ -182,8 +159,7 @@ const data = {
             AZM: {
                 displayName: "Μανάτ Αζερμπαϊτζάν (1993–2006)",
                 "displayName-count-one": "μανάτ Αζερμπαϊτζάν (1993–2006)",
-                "displayName-count-other": "μανάτ Αζερμπαϊτζάν (1993–2006)",
-                symbol: "AZM"
+                "displayName-count-other": "μανάτ Αζερμπαϊτζάν (1993–2006)"
             },
             AZN: {
                 displayName: "Μανάτ Αζερμπαϊτζάν",
@@ -195,8 +171,7 @@ const data = {
             BAD: {
                 displayName: "Δηνάριο Βοσνίας-Ερζεγοβίνης",
                 "displayName-count-one": "δηνάριο Βοσνίας-Ερζεγοβίνης",
-                "displayName-count-other": "δηνάρια Βοσνίας-Ερζεγοβίνης",
-                symbol: "BAD"
+                "displayName-count-other": "δηνάρια Βοσνίας-Ερζεγοβίνης"
             },
             BAM: {
                 displayName: "Μετατρέψιμο Μάρκο Βοσνίας-Ερζεγοβίνης",
@@ -204,10 +179,6 @@ const data = {
                 "displayName-count-other": "μετατρέψιμα μάρκα Βοσνίας-Ερζεγοβίνης",
                 symbol: "BAM",
                 "symbol-alt-narrow": "KM"
-            },
-            BAN: {
-                displayName: "BAN",
-                symbol: "BAN"
             },
             BBD: {
                 displayName: "Δολάριο Μπαρμπέιντος",
@@ -226,40 +197,28 @@ const data = {
             BEC: {
                 displayName: "Φράγκο Βελγίου (μετατρέψιμο)",
                 "displayName-count-one": "φράγκο Βελγίου (μετατρέψιμο)",
-                "displayName-count-other": "φράγκα Βελγίου (μετατρέψιμα)",
-                symbol: "BEC"
+                "displayName-count-other": "φράγκα Βελγίου (μετατρέψιμα)"
             },
             BEF: {
                 displayName: "Φράγκο Βελγίου",
                 "displayName-count-one": "φράγκο Βελγίου",
-                "displayName-count-other": "φράγκα Βελγίου",
-                symbol: "BEF"
+                "displayName-count-other": "φράγκα Βελγίου"
             },
             BEL: {
                 displayName: "Φράγκο Βελγίου (οικονομικό)",
                 "displayName-count-one": "φράγκο Βελγίου (οικονομικό)",
-                "displayName-count-other": "φράγκα Βελγίου (οικονομικό)",
-                symbol: "BEL"
+                "displayName-count-other": "φράγκα Βελγίου (οικονομικό)"
             },
             BGL: {
                 displayName: "Μεταλλικό Λεβ Βουλγαρίας",
                 "displayName-count-one": "μεταλλικό λεβ Βουλγαρίας",
-                "displayName-count-other": "μεταλλικά λεβ Βουλγαρίας",
-                symbol: "BGL"
-            },
-            BGM: {
-                displayName: "BGM",
-                symbol: "BGM"
+                "displayName-count-other": "μεταλλικά λεβ Βουλγαρίας"
             },
             BGN: {
                 displayName: "Λεβ Βουλγαρίας",
                 "displayName-count-one": "λεβ Βουλγαρίας",
                 "displayName-count-other": "λεβ Βουλγαρίας",
                 symbol: "BGN"
-            },
-            BGO: {
-                displayName: "BGO",
-                symbol: "BGO"
             },
             BHD: {
                 displayName: "Δηνάριο Μπαχρέιν",
@@ -294,39 +253,30 @@ const data = {
                 symbol: "BOB",
                 "symbol-alt-narrow": "Bs"
             },
-            BOL: {
-                displayName: "BOL",
-                symbol: "BOL"
-            },
             BOP: {
                 displayName: "Πέσο Βολιβίας",
                 "displayName-count-one": "πέσο Βολιβίας",
-                "displayName-count-other": "πέσο Βολιβίας",
-                symbol: "BOP"
+                "displayName-count-other": "πέσο Βολιβίας"
             },
             BOV: {
                 displayName: "Μβδολ Βολιβίας",
                 "displayName-count-one": "μβντολ Βολιβίας",
-                "displayName-count-other": "μβντολ Βολιβίας",
-                symbol: "BOV"
+                "displayName-count-other": "μβντολ Βολιβίας"
             },
             BRB: {
                 displayName: "Νέο Κρουζιέρο Βραζιλίας (1967–1986)",
                 "displayName-count-one": "νέο κρουζέιρο Βραζιλίας (BRB)",
-                "displayName-count-other": "νέα κρουζέιρο Βραζιλίας (BRB)",
-                symbol: "BRB"
+                "displayName-count-other": "νέα κρουζέιρο Βραζιλίας (BRB)"
             },
             BRC: {
                 displayName: "Κρουζάντο Βραζιλίας",
                 "displayName-count-one": "κρουζάντο Βραζιλίας",
-                "displayName-count-other": "κρουζάντο Βραζιλίας",
-                symbol: "BRC"
+                "displayName-count-other": "κρουζάντο Βραζιλίας"
             },
             BRE: {
                 displayName: "Κρουζιέρο Βραζιλίας (1990–1993)",
                 "displayName-count-one": "κρουζέιρο Βραζιλίας (BRE)",
-                "displayName-count-other": "κρουζέιρο Βραζιλίας (BRE)",
-                symbol: "BRE"
+                "displayName-count-other": "κρουζέιρο Βραζιλίας (BRE)"
             },
             BRL: {
                 displayName: "Ρεάλ Βραζιλίας",
@@ -338,18 +288,12 @@ const data = {
             BRN: {
                 displayName: "Νέο Κρουζάντο Βραζιλίας",
                 "displayName-count-one": "νέο κρουζάντο Βραζιλίας",
-                "displayName-count-other": "νέα κρουζάντο Βραζιλίας",
-                symbol: "BRN"
+                "displayName-count-other": "νέα κρουζάντο Βραζιλίας"
             },
             BRR: {
                 displayName: "Κρουζιέρο Βραζιλίας",
                 "displayName-count-one": "κρουζέιρο Βραζιλίας",
-                "displayName-count-other": "κρουζέιρο Βραζιλίας",
-                symbol: "BRR"
-            },
-            BRZ: {
-                displayName: "BRZ",
-                symbol: "BRZ"
+                "displayName-count-other": "κρουζέιρο Βραζιλίας"
             },
             BSD: {
                 displayName: "Δολάριο Μπαχαμών",
@@ -367,8 +311,7 @@ const data = {
             BUK: {
                 displayName: "Κιατ Βιρμανίας",
                 "displayName-count-one": "κιάτ Βιρμανίας",
-                "displayName-count-other": "κιάτ Βιρμανίας",
-                symbol: "BUK"
+                "displayName-count-other": "κιάτ Βιρμανίας"
             },
             BWP: {
                 displayName: "Πούλα Μποτσουάνας",
@@ -380,8 +323,7 @@ const data = {
             BYB: {
                 displayName: "Νέο Ρούβλι Λευκορωσίας (1994–1999)",
                 "displayName-count-one": "νέο ρούβλι Λευκορωσίας (1994–1999)",
-                "displayName-count-other": "νέα ρούβλια Λευκορωσίας (1994–1999)",
-                symbol: "BYB"
+                "displayName-count-other": "νέα ρούβλια Λευκορωσίας (1994–1999)"
             },
             BYN: {
                 displayName: "Ρούβλι Λευκορωσίας",
@@ -419,8 +361,7 @@ const data = {
             CHE: {
                 displayName: "Ευρώ WIR",
                 "displayName-count-one": "ευρώ WIR",
-                "displayName-count-other": "ευρώ WIR",
-                symbol: "CHE"
+                "displayName-count-other": "ευρώ WIR"
             },
             CHF: {
                 displayName: "Φράγκο Ελβετίας",
@@ -431,18 +372,12 @@ const data = {
             CHW: {
                 displayName: "Φράγκο WIR",
                 "displayName-count-one": "φράγκο WIR",
-                "displayName-count-other": "φράγκα WIR",
-                symbol: "CHW"
-            },
-            CLE: {
-                displayName: "CLE",
-                symbol: "CLE"
+                "displayName-count-other": "φράγκα WIR"
             },
             CLF: {
                 displayName: "Ουνιδάδες ντε φομέντο Χιλής",
                 "displayName-count-one": "ουνιδάδες ντε φομέντο Χιλής",
-                "displayName-count-other": "ουνιδάδες ντε φομέντο Χιλής",
-                symbol: "CLF"
+                "displayName-count-other": "ουνιδάδες ντε φομέντο Χιλής"
             },
             CLP: {
                 displayName: "Πέσο Χιλής",
@@ -456,10 +391,6 @@ const data = {
                 "displayName-count-one": "γουάν Κίνας (υπεράκτιο)",
                 "displayName-count-other": "γουάν Κίνας (υπεράκτια)",
                 symbol: "CNH"
-            },
-            CNX: {
-                displayName: "CNX",
-                symbol: "CNX"
             },
             CNY: {
                 displayName: "Γουάν Κίνας",
@@ -475,10 +406,6 @@ const data = {
                 symbol: "COP",
                 "symbol-alt-narrow": "$"
             },
-            COU: {
-                displayName: "COU",
-                symbol: "COU"
-            },
             CRC: {
                 displayName: "Κολόν Κόστα Ρίκα",
                 "displayName-count-one": "κολόν Κόστα Ρίκα",
@@ -489,14 +416,12 @@ const data = {
             CSD: {
                 displayName: "Παλαιό Δηνάριο Σερβίας",
                 "displayName-count-one": "παλιό δινάρη Σερβίας",
-                "displayName-count-other": "παλιά δινάρια Σερβίας",
-                symbol: "CSD"
+                "displayName-count-other": "παλιά δινάρια Σερβίας"
             },
             CSK: {
                 displayName: "Σκληρή Κορόνα Τσεχοσλοβακίας",
                 "displayName-count-one": "σκληρή κορόνα Τσεχοσλοβακίας",
-                "displayName-count-other": "σκληρές κορόνες Τσεχοσλοβακίας",
-                symbol: "CSK"
+                "displayName-count-other": "σκληρές κορόνες Τσεχοσλοβακίας"
             },
             CUC: {
                 displayName: "Μετατρέψιμο πέσο Κούβας",
@@ -521,8 +446,7 @@ const data = {
             CYP: {
                 displayName: "Λίρα Κύπρου",
                 "displayName-count-one": "λίρα Κύπρου",
-                "displayName-count-other": "λίρες Κύπρου",
-                symbol: "CYP"
+                "displayName-count-other": "λίρες Κύπρου"
             },
             CZK: {
                 displayName: "Κορόνα Τσεχίας",
@@ -534,14 +458,12 @@ const data = {
             DDM: {
                 displayName: "Οστμάρκ Ανατολικής Γερμανίας",
                 "displayName-count-one": "όστμαρκ Ανατολικής Γερμανίας",
-                "displayName-count-other": "όστμαρκ Ανατολικής Γερμανίας",
-                symbol: "DDM"
+                "displayName-count-other": "όστμαρκ Ανατολικής Γερμανίας"
             },
             DEM: {
                 displayName: "Μάρκο Γερμανίας",
                 "displayName-count-one": "μάρκο Γερμανίας",
-                "displayName-count-other": "μάρκα Γερμανίας",
-                symbol: "DEM"
+                "displayName-count-other": "μάρκα Γερμανίας"
             },
             DJF: {
                 displayName: "Φράγκο Τζιμπουτί",
@@ -572,18 +494,12 @@ const data = {
             ECS: {
                 displayName: "Σούκρε Εκουαδόρ",
                 "displayName-count-one": "σούκρε Εκουαδόρ",
-                "displayName-count-other": "σούκρε Εκουαδόρ",
-                symbol: "ECS"
-            },
-            ECV: {
-                displayName: "ECV",
-                symbol: "ECV"
+                "displayName-count-other": "σούκρε Εκουαδόρ"
             },
             EEK: {
                 displayName: "Κορόνα Εσθονίας",
                 "displayName-count-one": "κορόνα Εσθονίας",
-                "displayName-count-other": "κορόνες Εσθονίας",
-                symbol: "EEK"
+                "displayName-count-other": "κορόνες Εσθονίας"
             },
             EGP: {
                 displayName: "Λίρα Αιγύπτου",
@@ -601,20 +517,17 @@ const data = {
             ESA: {
                 displayName: "πεσέτα Ισπανίας (λογαριασμός Α)",
                 "displayName-count-one": "πεσέτα Ισπανίας (λογαριασμός Α)",
-                "displayName-count-other": "πεσέτες Ισπανίας (λογαριασμός Α)",
-                symbol: "ESA"
+                "displayName-count-other": "πεσέτες Ισπανίας (λογαριασμός Α)"
             },
             ESB: {
                 displayName: "πεσέτα Ισπανίας (μετατρέψιμος λογαριασμός)",
                 "displayName-count-one": "πεσέτα Ισπανίας (μετατρέψιμος λογαριασμός)",
-                "displayName-count-other": "πεσέτες Ισπανίας (μετατρέψιμες)",
-                symbol: "ESB"
+                "displayName-count-other": "πεσέτες Ισπανίας (μετατρέψιμες)"
             },
             ESP: {
                 displayName: "Πεσέτα Ισπανίας",
                 "displayName-count-one": "πεσέτα Ισπανίας",
                 "displayName-count-other": "πεσέτες Ισπανίας",
-                symbol: "ESP",
                 "symbol-alt-narrow": "₧"
             },
             ETB: {
@@ -633,8 +546,7 @@ const data = {
             FIM: {
                 displayName: "Μάρκο Φινλανδίας",
                 "displayName-count-one": "μάρκο Φινλανδίας",
-                "displayName-count-other": "μάρκα Φινλανδίας",
-                symbol: "FIM"
+                "displayName-count-other": "μάρκα Φινλανδίας"
             },
             FJD: {
                 displayName: "Δολάριο Φίτζι",
@@ -653,8 +565,7 @@ const data = {
             FRF: {
                 displayName: "Φράγκο Γαλλίας",
                 "displayName-count-one": "φράγκο Γαλλίας",
-                "displayName-count-other": "φράγκα Γαλλίας",
-                symbol: "FRF"
+                "displayName-count-other": "φράγκα Γαλλίας"
             },
             GBP: {
                 displayName: "Λίρα Στερλίνα Βρετανίας",
@@ -666,8 +577,7 @@ const data = {
             GEK: {
                 displayName: "Κούπον Λάρι Γεωργίας",
                 "displayName-count-one": "κούπον λάρι Γεωργίας",
-                "displayName-count-other": "κούπον λάρι Γεωργίας",
-                symbol: "GEK"
+                "displayName-count-other": "κούπον λάρι Γεωργίας"
             },
             GEL: {
                 displayName: "Λάρι Γεωργίας",
@@ -679,8 +589,7 @@ const data = {
             GHC: {
                 displayName: "Σέντι Γκάνας (1979–2007)",
                 "displayName-count-one": "σέντι Γκάνας (GHC)",
-                "displayName-count-other": "σέντι Γκάνας (GHC)",
-                symbol: "GHC"
+                "displayName-count-other": "σέντι Γκάνας (GHC)"
             },
             GHS: {
                 displayName: "Σέντι Γκάνας",
@@ -712,14 +621,12 @@ const data = {
             GNS: {
                 displayName: "Συλί Γουινέας",
                 "displayName-count-one": "συλί Γουινέας",
-                "displayName-count-other": "συλί Γουινέας",
-                symbol: "GNS"
+                "displayName-count-other": "συλί Γουινέας"
             },
             GQE: {
                 displayName: "Εκγουέλε Ισημερινής Γουινέας",
                 "displayName-count-one": "εκουέλε Ισημερινής Γουινέας",
-                "displayName-count-other": "εκουέλε Ισημερινής Γουινέας",
-                symbol: "GQE"
+                "displayName-count-other": "εκουέλε Ισημερινής Γουινέας"
             },
             GRD: {
                 pattern: "#,##0.00 ¤",
@@ -740,14 +647,12 @@ const data = {
             GWE: {
                 displayName: "Γκινέα Εσκούδο Πορτογαλίας",
                 "displayName-count-one": "γκινέα εσκούδο Πορτογαλίας",
-                "displayName-count-other": "γκινέα εσκούδο Πορτογαλίας",
-                symbol: "GWE"
+                "displayName-count-other": "γκινέα εσκούδο Πορτογαλίας"
             },
             GWP: {
                 displayName: "Πέσο Γουινέας-Μπισάου",
                 "displayName-count-one": "πέσο Γουινέα-Μπισάου",
-                "displayName-count-other": "πέσο Γουινέα-Μπισάου",
-                symbol: "GWP"
+                "displayName-count-other": "πέσο Γουινέα-Μπισάου"
             },
             GYD: {
                 displayName: "Δολάριο Γουιάνας",
@@ -773,8 +678,7 @@ const data = {
             HRD: {
                 displayName: "Δηνάριο Κροατίας",
                 "displayName-count-one": "δηνάριο Κροατίας",
-                "displayName-count-other": "δηνάρια Κροατίας",
-                symbol: "HRD"
+                "displayName-count-other": "δηνάρια Κροατίας"
             },
             HRK: {
                 displayName: "Κούνα Κροατίας",
@@ -806,20 +710,17 @@ const data = {
             IEP: {
                 displayName: "Λίρα Ιρλανδίας",
                 "displayName-count-one": "λίρα Ιρλανδίας",
-                "displayName-count-other": "λίρες Ιρλανδίας",
-                symbol: "IEP"
+                "displayName-count-other": "λίρες Ιρλανδίας"
             },
             ILP: {
                 displayName: "Λίρα Ισραήλ",
                 "displayName-count-one": "λίρα Ισραήλ",
-                "displayName-count-other": "λίρες Ισραήλ",
-                symbol: "ILP"
+                "displayName-count-other": "λίρες Ισραήλ"
             },
             ILR: {
                 displayName: "παλιό σεκέλ Ισραήλ",
                 "displayName-count-one": "παλιό σεκέλ Ισραήλ",
-                "displayName-count-other": "παλιά σεκέλ Ισραήλ",
-                symbol: "ILR"
+                "displayName-count-other": "παλιά σεκέλ Ισραήλ"
             },
             ILS: {
                 displayName: "Νέο Σέκελ Ισραήλ",
@@ -850,8 +751,7 @@ const data = {
             ISJ: {
                 displayName: "Παλιά κορόνα Ισλανδίας",
                 "displayName-count-one": "Παλιά κορόνα Ισλανδίας",
-                "displayName-count-other": "παλιές κορόνες Ισλανδίας",
-                symbol: "ISJ"
+                "displayName-count-other": "παλιές κορόνες Ισλανδίας"
             },
             ISK: {
                 displayName: "Κορόνα Ισλανδίας",
@@ -863,8 +763,7 @@ const data = {
             ITL: {
                 displayName: "Λιρέτα Ιταλίας",
                 "displayName-count-one": "λιρέτα Ιταλίας",
-                "displayName-count-other": "λιρέτες Ιταλίας",
-                symbol: "ITL"
+                "displayName-count-other": "λιρέτες Ιταλίας"
             },
             JMD: {
                 displayName: "Δολάριο Τζαμάικας",
@@ -918,14 +817,6 @@ const data = {
                 "displayName-count-other": "γουόν Βόρειας Κορέας",
                 symbol: "KPW",
                 "symbol-alt-narrow": "₩"
-            },
-            KRH: {
-                displayName: "KRH",
-                symbol: "KRH"
-            },
-            KRO: {
-                displayName: "KRO",
-                symbol: "KRO"
             },
             KRW: {
                 displayName: "Γουόν Νότιας Κορέας",
@@ -985,8 +876,7 @@ const data = {
             LSL: {
                 displayName: "Λότι Λεσότο",
                 "displayName-count-one": "λότι Λεσότο",
-                "displayName-count-other": "λότι Λεσότο",
-                symbol: "LSL"
+                "displayName-count-other": "λότι Λεσότο"
             },
             LTL: {
                 displayName: "Λίτα Λιθουανίας",
@@ -998,22 +888,18 @@ const data = {
             LTT: {
                 displayName: "Ταλόνας Λιθουανίας",
                 "displayName-count-one": "ταλόνας Λιθουανίας",
-                "displayName-count-other": "ταλόνας Λιθουανίας",
-                symbol: "LTT"
+                "displayName-count-other": "ταλόνας Λιθουανίας"
             },
             LUC: {
-                displayName: "Μετατρέψιμο Φράγκο Λουξεμβούργου",
-                symbol: "LUC"
+                displayName: "Μετατρέψιμο Φράγκο Λουξεμβούργου"
             },
             LUF: {
                 displayName: "Φράγκο Λουξεμβούργου",
                 "displayName-count-one": "φράγκο Λουξεμβούργου",
-                "displayName-count-other": "φράγκα Λουξεμβούργου",
-                symbol: "LUF"
+                "displayName-count-other": "φράγκα Λουξεμβούργου"
             },
             LUL: {
-                displayName: "Οικονομικό Φράγκο Λουξεμβούργου",
-                symbol: "LUL"
+                displayName: "Οικονομικό Φράγκο Λουξεμβούργου"
             },
             LVL: {
                 displayName: "Λατς Λετονίας",
@@ -1025,8 +911,7 @@ const data = {
             LVR: {
                 displayName: "Ρούβλι Λετονίας",
                 "displayName-count-one": "ρούβλι Λετονίας",
-                "displayName-count-other": "ρούβλια Λετονίας",
-                symbol: "LVR"
+                "displayName-count-other": "ρούβλια Λετονίας"
             },
             LYD: {
                 displayName: "Δηνάριο Λιβύης",
@@ -1043,16 +928,7 @@ const data = {
             MAF: {
                 displayName: "Φράγκο Μαρόκου",
                 "displayName-count-one": "φράγκο Μαρόκου",
-                "displayName-count-other": "φράγκα Μαρόκου",
-                symbol: "MAF"
-            },
-            MCF: {
-                displayName: "MCF",
-                symbol: "MCF"
-            },
-            MDC: {
-                displayName: "MDC",
-                symbol: "MDC"
+                "displayName-count-other": "φράγκα Μαρόκου"
             },
             MDL: {
                 displayName: "Λέου Μολδαβίας",
@@ -1070,8 +946,7 @@ const data = {
             MGF: {
                 displayName: "Φράγκο Μαδαγασκάρης",
                 "displayName-count-one": "φράγκο Μαδαγασκάρης",
-                "displayName-count-other": "φράγκα Μαδαγασκάρης",
-                symbol: "MGF"
+                "displayName-count-other": "φράγκα Μαδαγασκάρης"
             },
             MKD: {
                 displayName: "Δηνάριο ΠΓΔΜ",
@@ -1079,15 +954,10 @@ const data = {
                 "displayName-count-other": "δηνάρια ΠΓΔΜ",
                 symbol: "MKD"
             },
-            MKN: {
-                displayName: "MKN",
-                symbol: "MKN"
-            },
             MLF: {
                 displayName: "Φράγκο Μαλί",
                 "displayName-count-one": "φράγκο Μαλί",
-                "displayName-count-other": "φράγκα Μαλί",
-                symbol: "MLF"
+                "displayName-count-other": "φράγκα Μαλί"
             },
             MMK: {
                 displayName: "Κιάτ Μιανμάρ",
@@ -1124,14 +994,12 @@ const data = {
             MTL: {
                 displayName: "Λιρέτα Μάλτας",
                 "displayName-count-one": "λιρέτα Μάλτας",
-                "displayName-count-other": "λιρέτες Μάλτας",
-                symbol: "MTL"
+                "displayName-count-other": "λιρέτες Μάλτας"
             },
             MTP: {
                 displayName: "Λίρα Μάλτας",
                 "displayName-count-one": "λίρα Μάλτας",
-                "displayName-count-other": "λίρες Μάλτας",
-                symbol: "MTP"
+                "displayName-count-other": "λίρες Μάλτας"
             },
             MUR: {
                 displayName: "Ρουπία Μαυρικίου",
@@ -1139,10 +1007,6 @@ const data = {
                 "displayName-count-other": "ρουπίες Μαυρικίου",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
-            },
-            MVP: {
-                displayName: "MVP",
-                symbol: "MVP"
             },
             MVR: {
                 displayName: "Ρουφίγια Μαλδίβων",
@@ -1166,12 +1030,7 @@ const data = {
             MXP: {
                 displayName: "Ασημένιο Πέσο Μεξικού (1861–1992)",
                 "displayName-count-one": "ασημένιο πέσο Μεξικού (MXP)",
-                "displayName-count-other": "ασημένια πέσο Μεξικού (MXP)",
-                symbol: "MXP"
-            },
-            MXV: {
-                displayName: "MXV",
-                symbol: "MXV"
+                "displayName-count-other": "ασημένια πέσο Μεξικού (MXP)"
             },
             MYR: {
                 displayName: "Ρινγκίτ Μαλαισίας",
@@ -1183,14 +1042,12 @@ const data = {
             MZE: {
                 displayName: "Εσκούδο Μοζαμβίκης",
                 "displayName-count-one": "εσκούδο Μοζαμβίκης",
-                "displayName-count-other": "εσκούδο Μοζαμβίκης",
-                symbol: "MZE"
+                "displayName-count-other": "εσκούδο Μοζαμβίκης"
             },
             MZM: {
                 displayName: "Παλαιό Μετικάλ Μοζαμβίκης",
                 "displayName-count-one": "παλιό μετικάλ Μοζαμβίκης",
-                "displayName-count-other": "παλιά μετικάλ Μοζαμβίκης",
-                symbol: "MZM"
+                "displayName-count-other": "παλιά μετικάλ Μοζαμβίκης"
             },
             MZN: {
                 displayName: "Μετικάλ Μοζαμβίκης",
@@ -1215,8 +1072,7 @@ const data = {
             NIC: {
                 displayName: "Κόρδοβα Νικαράγουας",
                 "displayName-count-one": "κόρδοβα Νικαράγουας",
-                "displayName-count-other": "κόρδοβα Νικαράγουας",
-                symbol: "NIC"
+                "displayName-count-other": "κόρδοβα Νικαράγουας"
             },
             NIO: {
                 displayName: "Χρυσή Κόρδοβα Νικαράγουας",
@@ -1228,8 +1084,7 @@ const data = {
             NLG: {
                 displayName: "Γκίλντα Ολλανδίας",
                 "displayName-count-one": "γκίλντα Ολλανδίας",
-                "displayName-count-other": "γκίλντα Ολλανδίας",
-                symbol: "NLG"
+                "displayName-count-other": "γκίλντα Ολλανδίας"
             },
             NOK: {
                 displayName: "Κορόνα Νορβηγίας",
@@ -1267,8 +1122,7 @@ const data = {
             PEI: {
                 displayName: "Ίντι Περού",
                 "displayName-count-one": "ίντι Περού",
-                "displayName-count-other": "ίντι Περού",
-                symbol: "PEI"
+                "displayName-count-other": "ίντι Περού"
             },
             PEN: {
                 displayName: "Σολ Περού",
@@ -1279,8 +1133,7 @@ const data = {
             PES: {
                 displayName: "Σολ Περού (1863–1965)",
                 "displayName-count-one": "σολ Περού (1863–1965)",
-                "displayName-count-other": "σολ Περού (1863–1965)",
-                symbol: "PES"
+                "displayName-count-other": "σολ Περού (1863–1965)"
             },
             PGK: {
                 displayName: "Κίνα Παπούας Νέας Γουινέας",
@@ -1312,14 +1165,12 @@ const data = {
             PLZ: {
                 displayName: "Ζλότυ Πολωνίας (1950–1995)",
                 "displayName-count-one": "ζλότυ Πολωνίας (PLZ)",
-                "displayName-count-other": "ζλότυ Πολωνίας (PLZ)",
-                symbol: "PLZ"
+                "displayName-count-other": "ζλότυ Πολωνίας (PLZ)"
             },
             PTE: {
                 displayName: "Εσκούδο Πορτογαλίας",
                 "displayName-count-one": "εσκούδο Πορτογαλίας",
-                "displayName-count-other": "εσκούδο Πορτογαλίας",
-                symbol: "PTE"
+                "displayName-count-other": "εσκούδο Πορτογαλίας"
             },
             PYG: {
                 displayName: "Γκουαρανί Παραγουάης",
@@ -1337,14 +1188,12 @@ const data = {
             RHD: {
                 displayName: "Δολάριο Ροδεσίας",
                 "displayName-count-one": "δολάριο Ροδεσίας",
-                "displayName-count-other": "δολάρια Ροδεσίας",
-                symbol: "RHD"
+                "displayName-count-other": "δολάρια Ροδεσίας"
             },
             ROL: {
                 displayName: "Λέι Ρουμανίας",
                 "displayName-count-one": "παλιό λέι Ρουμανίας",
-                "displayName-count-other": "παλιά λέι Ρουμανίας",
-                symbol: "ROL"
+                "displayName-count-other": "παλιά λέι Ρουμανίας"
             },
             RON: {
                 displayName: "Λέου Ρουμανίας",
@@ -1369,8 +1218,7 @@ const data = {
             RUR: {
                 displayName: "Ρούβλι Ρωσίας (1991–1998)",
                 "displayName-count-one": "ρούβλι Ρωσίας (RUR)",
-                "displayName-count-other": "ρούβλια Ρωσίας (1991–1998)",
-                symbol: "RUR"
+                "displayName-count-other": "ρούβλια Ρωσίας (1991–1998)"
             },
             RWF: {
                 displayName: "Φράγκο Ρουάντας",
@@ -1401,8 +1249,7 @@ const data = {
             SDD: {
                 displayName: "Δηνάριο Σουδάν",
                 "displayName-count-one": "δηνάριο Σουδάν",
-                "displayName-count-other": "δηνάρια Σουδάν",
-                symbol: "SDD"
+                "displayName-count-other": "δηνάρια Σουδάν"
             },
             SDG: {
                 displayName: "Λίρα Σουδάν",
@@ -1413,8 +1260,7 @@ const data = {
             SDP: {
                 displayName: "Παλαιά Λίρα Σουδάν",
                 "displayName-count-one": "παλιά λίρα Σουδάν",
-                "displayName-count-other": "παλαιές λίρες Σουδάν",
-                symbol: "SDP"
+                "displayName-count-other": "παλαιές λίρες Σουδάν"
             },
             SEK: {
                 displayName: "Κορόνα Σουηδίας",
@@ -1440,18 +1286,12 @@ const data = {
             SIT: {
                 displayName: "Τόλαρ Σλοβενίας",
                 "displayName-count-one": "τόλαρ Σλοβενίας",
-                "displayName-count-other": "τόλαρ Σλοβ",
-                symbol: "SIT"
+                "displayName-count-other": "τόλαρ Σλοβ"
             },
             SKK: {
                 displayName: "Κορόνα Σλοβενίας",
                 "displayName-count-one": "κορόνα Σλοβενίας",
-                "displayName-count-other": "κορόνες Σλοβενίας",
-                symbol: "SKK"
-            },
-            SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
+                "displayName-count-other": "κορόνες Σλοβενίας"
             },
             SLL: {
                 displayName: "Λεόνε Σιέρα Λεόνε",
@@ -1475,8 +1315,7 @@ const data = {
             SRG: {
                 displayName: "Γκίλντα Σουρινάμ",
                 "displayName-count-one": "γκίλντα Σουρινάμ",
-                "displayName-count-other": "γκίλντα Σουρινάμ",
-                symbol: "SRG"
+                "displayName-count-other": "γκίλντα Σουρινάμ"
             },
             SSP: {
                 displayName: "Λίρα Νότιου Σουδάν",
@@ -1501,14 +1340,12 @@ const data = {
             SUR: {
                 displayName: "Σοβιετικό Ρούβλι",
                 "displayName-count-one": "σοβιετικό ρούβλι",
-                "displayName-count-other": "σοβιετικά ρούβλια",
-                symbol: "SUR"
+                "displayName-count-other": "σοβιετικά ρούβλια"
             },
             SVC: {
                 displayName: "Κολόν Ελ Σαλβαδόρ",
                 "displayName-count-one": "κολόν Ελ Σαλβαδόρ",
-                "displayName-count-other": "κολόν Ελ Σαλβαδόρ",
-                symbol: "SVC"
+                "displayName-count-other": "κολόν Ελ Σαλβαδόρ"
             },
             SYP: {
                 displayName: "Λίρα Συρίας",
@@ -1533,8 +1370,7 @@ const data = {
             TJR: {
                 displayName: "Ρούβλι Τατζικιστάν",
                 "displayName-count-one": "ρούβλι Τατζικιστάν",
-                "displayName-count-other": "ρούβλια Τατζικιστάν",
-                symbol: "TJR"
+                "displayName-count-other": "ρούβλια Τατζικιστάν"
             },
             TJS: {
                 displayName: "Σομόνι Τατζικιστάν",
@@ -1545,8 +1381,7 @@ const data = {
             TMM: {
                 displayName: "Μανάτ Τουρκμενιστάν",
                 "displayName-count-one": "μανάτ Τουρκμενιστάν",
-                "displayName-count-other": "μανάτ Τουρκμενιστάν",
-                symbol: "TMM"
+                "displayName-count-other": "μανάτ Τουρκμενιστάν"
             },
             TMT: {
                 displayName: "Μάνατ Τουρκμενιστάν",
@@ -1576,8 +1411,7 @@ const data = {
             TRL: {
                 displayName: "Παλιά Λίρα Τουρκίας",
                 "displayName-count-one": "παλιά λίρα Τουρκίας",
-                "displayName-count-other": "παλιές λίρες Τουρκίας",
-                symbol: "TRL"
+                "displayName-count-other": "παλιές λίρες Τουρκίας"
             },
             TRY: {
                 displayName: "Λίρα Τουρκίας",
@@ -1617,14 +1451,12 @@ const data = {
             UAK: {
                 displayName: "Καρμποβανέτς Ουκρανίας",
                 "displayName-count-one": "καρμποβανέτς Ουκρανίας",
-                "displayName-count-other": "καρμποβανέτς Ουκρανίας",
-                symbol: "UAK"
+                "displayName-count-other": "καρμποβανέτς Ουκρανίας"
             },
             UGS: {
                 displayName: "Σελίνι Ουγκάντας (1966–1987)",
                 "displayName-count-one": "σελίνι Ουγκάντας (UGS)",
-                "displayName-count-other": "σελίνια Ουγκάντας (UGS)",
-                symbol: "UGS"
+                "displayName-count-other": "σελίνια Ουγκάντας (UGS)"
             },
             UGX: {
                 displayName: "Σελίνι Ουγκάντας",
@@ -1642,24 +1474,17 @@ const data = {
             USN: {
                 displayName: "Δολάριο ΗΠΑ (επόμενη ημέρα)",
                 "displayName-count-one": "δολάριο Η.Π.Α. (επόμενη ημέρα)",
-                "displayName-count-other": "δολάρια Η.Π.Α. (επόμενη ημέρα)",
-                symbol: "USN"
+                "displayName-count-other": "δολάρια Η.Π.Α. (επόμενη ημέρα)"
             },
             USS: {
                 displayName: "Δολάριο ΗΠΑ (ίδια ημέρα)",
                 "displayName-count-one": "δολάριο Η.Π.Α. (ίδια ημέρα)",
-                "displayName-count-other": "δολάρια Η.Π.Α. (ίδια ημέρα)",
-                symbol: "USS"
-            },
-            UYI: {
-                displayName: "UYI",
-                symbol: "UYI"
+                "displayName-count-other": "δολάρια Η.Π.Α. (ίδια ημέρα)"
             },
             UYP: {
                 displayName: "Πέσο Ουρουγουάης (1975–1993)",
                 "displayName-count-one": "πέσο Ουρουγουάης (UYP)",
-                "displayName-count-other": "πέσο Ουρουγουάης (UYP)",
-                symbol: "UYP"
+                "displayName-count-other": "πέσο Ουρουγουάης (UYP)"
             },
             UYU: {
                 displayName: "Πέσο Ουρουγουάης",
@@ -1667,10 +1492,6 @@ const data = {
                 "displayName-count-other": "πέσο Ουρουγουάης",
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
-            },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
             },
             UZS: {
                 displayName: "Σομ Ουζμπεκιστάν",
@@ -1681,12 +1502,7 @@ const data = {
             VEB: {
                 displayName: "Μπολιβάρ Βενεζουέλας (1871–2008)",
                 "displayName-count-one": "μπολιβάρ Βενεζουέλας (1871–2008)",
-                "displayName-count-other": "μπολιβάρ Βενεζουέλας (1871–2008)",
-                symbol: "VEB"
-            },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
+                "displayName-count-other": "μπολιβάρ Βενεζουέλας (1871–2008)"
             },
             VEF: {
                 displayName: "Μπολιβάρ Βενεζουέλας (2008–2018)",
@@ -1708,10 +1524,6 @@ const data = {
                 symbol: "₫",
                 "symbol-alt-narrow": "₫"
             },
-            VNN: {
-                displayName: "VNN",
-                symbol: "VNN"
-            },
             VUV: {
                 displayName: "Βατού Βανουάτου",
                 "displayName-count-one": "βατού Βανουάτου",
@@ -1730,37 +1542,25 @@ const data = {
                 "displayName-count-other": "φράγκα CFA Κεντρικής Αφρικής",
                 symbol: "FCFA"
             },
-            XAG: {
-                displayName: "XAG",
-                symbol: "XAG"
-            },
-            XAU: {
-                displayName: "XAU",
-                symbol: "XAU"
-            },
             XBA: {
                 displayName: "Ευρωπαϊκή Σύνθετη Μονάδα",
                 "displayName-count-one": "ευρωπαϊκή σύνθετη μονάδα",
-                "displayName-count-other": "ευρωπαϊκές σύνθετες μονάδες",
-                symbol: "XBA"
+                "displayName-count-other": "ευρωπαϊκές σύνθετες μονάδες"
             },
             XBB: {
                 displayName: "Ευρωπαϊκή Νομισματική Μονάδα",
                 "displayName-count-one": "ευρωπαϊκή νομισματική μονάδα",
-                "displayName-count-other": "ευρωπαϊκές νομισματικές μονάδες",
-                symbol: "XBB"
+                "displayName-count-other": "ευρωπαϊκές νομισματικές μονάδες"
             },
             XBC: {
                 displayName: "Ευρωπαϊκή μονάδα λογαριασμού (XBC)",
                 "displayName-count-one": "ευρωπαϊκή μονάδα λογαριασμού (XBC)",
-                "displayName-count-other": "ευρωπαϊκές μονάδες λογαριασμού (XBC)",
-                symbol: "XBC"
+                "displayName-count-other": "ευρωπαϊκές μονάδες λογαριασμού (XBC)"
             },
             XBD: {
                 displayName: "Ευρωπαϊκή μονάδα λογαριασμού (XBD)",
                 "displayName-count-one": "ευρωπαϊκή μονάδα λογαριασμού (XBD)",
-                "displayName-count-other": "ευρωπαϊκές μονάδες λογαριασμού (XBD)",
-                symbol: "XBD"
+                "displayName-count-other": "ευρωπαϊκές μονάδες λογαριασμού (XBD)"
             },
             XCD: {
                 displayName: "Δολάριο Ανατολικής Καραϊβικής",
@@ -1772,26 +1572,22 @@ const data = {
             XDR: {
                 displayName: "Ειδικά Δικαιώματα Ανάληψης",
                 "displayName-count-one": "ειδικό δικαίωμα ανάληψης",
-                "displayName-count-other": "ειδικά δικαιώματα ανάληψης",
-                symbol: "XDR"
+                "displayName-count-other": "ειδικά δικαιώματα ανάληψης"
             },
             XEU: {
                 displayName: "Ευρωπαϊκή Συναλλαγματική Μονάδα",
                 "displayName-count-one": "ευρωπαϊκή συναλλαγματική μονάδα",
-                "displayName-count-other": "ευρωπαϊκές συναλλαγματικές μονάδες",
-                symbol: "XEU"
+                "displayName-count-other": "ευρωπαϊκές συναλλαγματικές μονάδες"
             },
             XFO: {
                 displayName: "Χρυσό Φράγκο Γαλλίας",
                 "displayName-count-one": "χρυσό φράγκο Γαλλίας",
-                "displayName-count-other": "χρυσά φράγκα Γαλλίας",
-                symbol: "XFO"
+                "displayName-count-other": "χρυσά φράγκα Γαλλίας"
             },
             XFU: {
                 displayName: "UIC-Φράγκο Γαλλίας",
                 "displayName-count-one": "UIC-φράγκο Γαλλίας",
-                "displayName-count-other": "UIC-φράγκα Γαλλίας",
-                symbol: "XFU"
+                "displayName-count-other": "UIC-φράγκα Γαλλίας"
             },
             XOF: {
                 displayName: "Φράγκο CFA Δυτικής Αφρικής",
@@ -1799,35 +1595,11 @@ const data = {
                 "displayName-count-other": "φράγκα CFA Δυτικής Αφρικής",
                 symbol: "F CFA"
             },
-            XPD: {
-                displayName: "XPD",
-                symbol: "XPD"
-            },
             XPF: {
                 displayName: "Φράγκο CFP",
                 "displayName-count-one": "φράγκο CFP",
                 "displayName-count-other": "φράγκα CFP",
                 symbol: "CFPF"
-            },
-            XPT: {
-                displayName: "XPT",
-                symbol: "XPT"
-            },
-            XRE: {
-                displayName: "XRE",
-                symbol: "XRE"
-            },
-            XSU: {
-                displayName: "XSU",
-                symbol: "XSU"
-            },
-            XTS: {
-                displayName: "XTS",
-                symbol: "XTS"
-            },
-            XUA: {
-                displayName: "XUA",
-                symbol: "XUA"
             },
             XXX: {
                 displayName: "Άγνωστο νόμισμα",
@@ -1838,8 +1610,7 @@ const data = {
             YDD: {
                 displayName: "Δηνάριο Υεμένης",
                 "displayName-count-one": "δηνάριο Υεμένης",
-                "displayName-count-other": "δηνάρια Υεμένης",
-                symbol: "YDD"
+                "displayName-count-other": "δηνάρια Υεμένης"
             },
             YER: {
                 displayName: "Ριάλ Υεμένης",
@@ -1850,30 +1621,22 @@ const data = {
             YUD: {
                 displayName: "Μεταλλικό Δηνάριο Γιουγκοσλαβίας",
                 "displayName-count-one": "μεταλλικό δηνάριο Γιουγκοσλαβίας",
-                "displayName-count-other": "μεταλλικά δηνάρια Γιουγκοσλαβίας",
-                symbol: "YUD"
+                "displayName-count-other": "μεταλλικά δηνάρια Γιουγκοσλαβίας"
             },
             YUM: {
                 displayName: "Νέο Δηνάριο Γιουγκοσλαβίας",
                 "displayName-count-one": "νέο δηνάριο Γιουγκοσλαβίας",
-                "displayName-count-other": "νέο δηνάριο Γιουγκοσλαβίας",
-                symbol: "YUM"
+                "displayName-count-other": "νέο δηνάριο Γιουγκοσλαβίας"
             },
             YUN: {
                 displayName: "Μετατρέψιμο Δηνάριο Γιουγκοσλαβίας",
                 "displayName-count-one": "μετατρέψιμο δινάριο Γιουγκοσλαβίας",
-                "displayName-count-other": "μετατρέψιμο δηνάριο Γιουγκοσλαβίας",
-                symbol: "YUN"
-            },
-            YUR: {
-                displayName: "YUR",
-                symbol: "YUR"
+                "displayName-count-other": "μετατρέψιμο δηνάριο Γιουγκοσλαβίας"
             },
             ZAL: {
                 displayName: "Ραντ Νότιας Αφρικής (οικονομικό)",
                 "displayName-count-one": "ραντ Νότιας Αφρικής (οικονομικό)",
-                "displayName-count-other": "ραντ Νότιας Αφρικής (οικονομικό)",
-                symbol: "ZAL"
+                "displayName-count-other": "ραντ Νότιας Αφρικής (οικονομικό)"
             },
             ZAR: {
                 displayName: "Ραντ Νότιας Αφρικής",
@@ -1885,8 +1648,7 @@ const data = {
             ZMK: {
                 displayName: "Κουάνζα Ζαΐρ (1968–2012)",
                 "displayName-count-one": "κουάτσα Ζάμπιας (1968–2012)",
-                "displayName-count-other": "κουάτσα Ζάμπιας (1968–2012)",
-                symbol: "ZMK"
+                "displayName-count-other": "κουάτσα Ζάμπιας (1968–2012)"
             },
             ZMW: {
                 displayName: "Κουάτσα Ζάμπιας",
@@ -1898,30 +1660,22 @@ const data = {
             ZRN: {
                 displayName: "Νέο Ζαΐρ Ζαΐρ",
                 "displayName-count-one": "νέο ζαΐρ Ζαΐρ",
-                "displayName-count-other": "νέα ζαΐρ Ζαΐρ",
-                symbol: "ZRN"
+                "displayName-count-other": "νέα ζαΐρ Ζαΐρ"
             },
             ZRZ: {
                 displayName: "Ζαΐρ Ζαΐρ",
                 "displayName-count-one": "ζαΐρ Ζαΐρ",
-                "displayName-count-other": "ζαΐρ Ζαΐρ",
-                symbol: "ZRZ"
+                "displayName-count-other": "ζαΐρ Ζαΐρ"
             },
             ZWD: {
                 displayName: "Δολάριο Ζιμπάμπουε",
                 "displayName-count-one": "δολάριο Ζιμπάμπουε",
-                "displayName-count-other": "δολάρια Ζιμπάμπουε",
-                symbol: "ZWD"
+                "displayName-count-other": "δολάρια Ζιμπάμπουε"
             },
             ZWL: {
                 displayName: "Δολάριο Ζιμπάμπουε (2009)",
                 "displayName-count-one": "Δολάριο Ζιμπάμπουε (2009)",
-                "displayName-count-other": "Δολάριο Ζιμπάμπουε (2009)",
-                symbol: "ZWL"
-            },
-            ZWR: {
-                displayName: "ZWR",
-                symbol: "ZWR"
+                "displayName-count-other": "Δολάριο Ζιμπάμπουε (2009)"
             }
         },
         localeCurrency: "EUR"
@@ -1934,11 +1688,11 @@ const data = {
             M: "d MMMM",
             y: "MMM y",
             Y: "LLLL y",
-            F: "EEEE d MMMM y h:mm:ss a",
-            g: "d/M/y h:mm a",
-            G: "d/M/y h:mm:ss a",
-            t: "h:mm a",
-            T: "h:mm:ss a",
+            F: "EEEE d MMMM y h:mm:ss a",
+            g: "d/M/y h:mm a",
+            G: "d/M/y h:mm:ss a",
+            t: "h:mm a",
+            T: "h:mm:ss a",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
@@ -1956,24 +1710,24 @@ const data = {
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "E d",
-                Ehm: "E h:mm a",
+                Ehm: "E h:mm a",
                 EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
                 GyMd: "d/M/y GGGGG",
                 GyMMM: "LLL y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E d MMM y G",
-                h: "h a",
+                h: "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
                 M: "L",
                 Md: "d/M",
@@ -2001,10 +1755,10 @@ const data = {
             }
         },
         timeFormats: {
-            full: "h:mm:ss a zzzz",
-            long: "h:mm:ss a z",
-            medium: "h:mm:ss a",
-            short: "h:mm a"
+            full: "h:mm:ss a zzzz",
+            long: "h:mm:ss a z",
+            medium: "h:mm:ss a",
+            short: "h:mm a"
         },
         dateFormats: {
             full: "EEEE d MMMM y",

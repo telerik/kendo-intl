@@ -42,7 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
-                GyMd: "GGGGG dd-MM-y",
+                GyMd: "dd-MM-y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM, y G",
                 GyMMMEd: "E, d MMM, y G",
@@ -179,15 +179,15 @@ const data = {
                     "জানু",
                     "ফেব",
                     "মার্চ",
-                    "এপ্রিল",
+                    "এপ্রি",
                     "মে",
                     "জুন",
-                    "জুলাই",
-                    "আগস্ট",
-                    "সেপ্টেম্বর",
-                    "অক্টোবর",
-                    "নভেম্বর",
-                    "ডিসেম্বর"
+                    "জুল",
+                    "আগ",
+                    "সেপ",
+                    "অক্টো",
+                    "নভে",
+                    "ডিসে"
                 ],
                 narrow: [
                     "জা",
@@ -220,8 +220,8 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "জানুয়ারী",
-                    "ফেব্রুয়ারী",
+                    "জানু",
+                    "ফেব",
                     "মার্চ",
                     "এপ্রিল",
                     "মে",
@@ -330,12 +330,12 @@ const data = {
                 wide: {
                     am: "AM",
                     pm: "PM",
-                    morning1: "ভোর",
-                    morning2: "সকাল",
-                    afternoon1: "দুপুর",
+                    morning1: "ভোরবেলায়",
+                    morning2: "সকালবেলায়",
+                    afternoon1: "দুপুরবেলায়",
                     afternoon2: "বিকাল",
-                    evening1: "সন্ধ্যা",
-                    night1: "রাত্রিতে"
+                    evening1: "সন্ধ্যাবেলায়",
+                    night1: "রাত্রিবেলায়"
                 }
             },
             "stand-alone": {

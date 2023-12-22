@@ -15,11 +15,11 @@ const data = {
             M: "d MMMM",
             y: "MMM y",
             Y: "MMMM y",
-            F: "EEEE d MMMM y h:mm:ss a",
-            g: "y-MM-dd h:mm a",
-            G: "y-MM-dd h:mm:ss a",
-            t: "h:mm a",
-            T: "h:mm:ss a",
+            F: "EEEE d MMMM y h:mm:ss a",
+            g: "y-MM-dd h:mm a",
+            G: "y-MM-dd h:mm:ss a",
+            t: "h:mm a",
+            T: "h:mm:ss a",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
@@ -83,10 +83,10 @@ const data = {
             }
         },
         timeFormats: {
-            full: "h:mm:ss a zzzz",
-            long: "h:mm:ss a z",
-            medium: "h:mm:ss a",
-            short: "h:mm a"
+            full: "h:mm:ss a zzzz",
+            long: "h:mm:ss a z",
+            medium: "h:mm:ss a",
+            short: "h:mm a"
         },
         dateFormats: {
             full: "EEEE d MMMM y",
@@ -307,12 +307,12 @@ const data = {
         dayPeriods: {
             format: {
                 abbreviated: {
-                    am: "n tufat",
-                    pm: "n tmeddit"
+                    am: "n tufat",
+                    pm: "n tmeddit"
                 },
                 narrow: {
-                    am: "n tufat",
-                    pm: "n tmeddit"
+                    am: "n tufat",
+                    pm: "n tmeddit"
                 },
                 wide: {
                     am: "n tufat",
@@ -321,16 +321,16 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: {
-                    am: "n tufat",
-                    pm: "n tmeddit"
+                    am: "n tufat",
+                    pm: "n tmeddit"
                 },
                 narrow: {
-                    am: "n tufat",
-                    pm: "n tmeddit"
+                    am: "n tufat",
+                    pm: "n tmeddit"
                 },
                 wide: {
-                    am: "n tufat",
-                    pm: "n tmeddit"
+                    am: "n tufat",
+                    pm: "n tmeddit"
                 }
             }
         },

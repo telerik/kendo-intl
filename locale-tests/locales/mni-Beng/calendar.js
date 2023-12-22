@@ -25,8 +25,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} গী {0} দা",
-            long: "{1} গী {0} দা",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {

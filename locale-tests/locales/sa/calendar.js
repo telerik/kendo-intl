@@ -24,8 +24,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} तदा {0}",
-            long: "{1} तदा {0}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
@@ -352,8 +352,8 @@ const data = {
                 }
             }
         },
-        gmtFormat: "GMT{0}",
-        gmtZeroFormat: "GMT",
+        gmtFormat: "जी.एम.टी. {0}",
+        gmtZeroFormat: "जी.एम.टी.",
         dateFields: {
             era: {
                 wide: "युग",

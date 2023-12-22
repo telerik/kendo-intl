@@ -476,13 +476,13 @@ const data = {
                 narrow: "时区"
             },
             millisecond: {
-                narrow: "毫秒",
+                narrow: "ms",
                 short: "毫秒",
                 wide: "毫秒"
             }
         }
     },
-    firstDay: 0
+    firstDay: 1
 };
 export default data;
 

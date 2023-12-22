@@ -25,7 +25,7 @@ const data = {
         },
         dateTimeFormats: {
             full: "{1} {0}",
-            long: "{1} 'da' {0}",
+            long: "{1}, {0}",
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
@@ -48,9 +48,9 @@ const data = {
                 GyMMMEd: "G y MMM d, E",
                 h: "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
                 hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
@@ -385,8 +385,8 @@ const data = {
             },
             weekOfMonth: {
                 wide: "Makon Wata",
-                short: "Makon Wata",
-                narrow: "Makon Wata"
+                short: "Mk. wt.",
+                narrow: "Mk. wt."
             },
             day: {
                 wide: "kwana",

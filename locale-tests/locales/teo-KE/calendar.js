@@ -49,7 +49,7 @@ const data = {
                 GyMMMEd: "G y MMM d, E",
                 h: "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
                 hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",

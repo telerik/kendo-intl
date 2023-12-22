@@ -90,8 +90,7 @@ const data = {
             ALK: {
                 displayName: "Albanischer Lek (1946–1965)",
                 "displayName-count-one": "Albanischer Lek (1946–1965)",
-                "displayName-count-other": "Albanische Lek (1946–1965)",
-                symbol: "ALK"
+                "displayName-count-other": "Albanische Lek (1946–1965)"
             },
             ALL: {
                 displayName: "Albanischer Lek",
@@ -254,8 +253,7 @@ const data = {
             BGL: {
                 displayName: "Bulgarische Lew (1962–1999)",
                 "displayName-count-one": "Bulgarische Lew (1962–1999)",
-                "displayName-count-other": "Bulgarische Lew (1962–1999)",
-                symbol: "BGL"
+                "displayName-count-other": "Bulgarische Lew (1962–1999)"
             },
             BGM: {
                 displayName: "Bulgarischer Lew (1952–1962)",
@@ -385,8 +383,7 @@ const data = {
             BUK: {
                 displayName: "Birmanischer Kyat",
                 "displayName-count-one": "Birmanischer Kyat",
-                "displayName-count-other": "Birmanische Kyat",
-                symbol: "BUK"
+                "displayName-count-other": "Birmanische Kyat"
             },
             BWP: {
                 displayName: "Botswanischer Pula",
@@ -692,8 +689,7 @@ const data = {
             GEK: {
                 displayName: "Georgischer Kupon Larit",
                 "displayName-count-one": "Georgischer Kupon Larit",
-                "displayName-count-other": "Georgische Kupon Larit",
-                symbol: "GEK"
+                "displayName-count-other": "Georgische Kupon Larit"
             },
             GEL: {
                 displayName: "Georgischer Lari",
@@ -763,8 +759,7 @@ const data = {
             GWE: {
                 displayName: "Portugiesisch Guinea Escudo",
                 "displayName-count-one": "Portugiesisch Guinea Escudo",
-                "displayName-count-other": "Portugiesisch Guinea Escudo",
-                symbol: "GWE"
+                "displayName-count-other": "Portugiesisch Guinea Escudo"
             },
             GWP: {
                 displayName: "Guinea-Bissau Peso",
@@ -841,8 +836,7 @@ const data = {
             ILR: {
                 displayName: "Israelischer Schekel (1980–1985)",
                 "displayName-count-one": "Israelischer Schekel (1980–1985)",
-                "displayName-count-other": "Israelische Schekel (1980–1985)",
-                symbol: "ILR"
+                "displayName-count-other": "Israelische Schekel (1980–1985)"
             },
             ILS: {
                 displayName: "Israelischer Neuer Schekel",
@@ -873,8 +867,7 @@ const data = {
             ISJ: {
                 displayName: "Isländische Krone (1918–1981)",
                 "displayName-count-one": "Isländische Krone (1918–1981)",
-                "displayName-count-other": "Isländische Kronen (1918–1981)",
-                symbol: "ISJ"
+                "displayName-count-other": "Isländische Kronen (1918–1981)"
             },
             ISK: {
                 displayName: "Isländische Krone",
@@ -1180,8 +1173,7 @@ const data = {
             MVP: {
                 displayName: "Malediven-Rupie (alt)",
                 "displayName-count-one": "Malediven-Rupie (alt)",
-                "displayName-count-other": "Malediven-Rupien (alt)",
-                symbol: "MVP"
+                "displayName-count-other": "Malediven-Rupien (alt)"
             },
             MVR: {
                 displayName: "Malediven-Rufiyaa",
@@ -1224,8 +1216,7 @@ const data = {
             MZE: {
                 displayName: "Mosambikanischer Escudo",
                 "displayName-count-one": "Mozambikanische Escudo",
-                "displayName-count-other": "Mozambikanische Escudo",
-                symbol: "MZE"
+                "displayName-count-other": "Mozambikanische Escudo"
             },
             MZM: {
                 displayName: "Mosambikanischer Metical (1980–2006)",
@@ -1353,8 +1344,7 @@ const data = {
             PLZ: {
                 displayName: "Polnischer Zloty (1950–1995)",
                 "displayName-count-one": "Polnischer Zloty (1950–1995)",
-                "displayName-count-other": "Polnische Zloty (1950–1995)",
-                symbol: "PLZ"
+                "displayName-count-other": "Polnische Zloty (1950–1995)"
             },
             PTE: {
                 displayName: "Portugiesischer Escudo",
@@ -1490,10 +1480,6 @@ const data = {
                 "displayName-count-one": "Slowakische Kronen",
                 "displayName-count-other": "Slowakische Kronen",
                 symbol: "SKK"
-            },
-            SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
             },
             SLL: {
                 displayName: "Sierra-leonischer Leone",
@@ -1712,10 +1698,6 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
-            },
             UZS: {
                 displayName: "Usbekistan-Sum",
                 "displayName-count-one": "Usbekistan-Sum",
@@ -1727,10 +1709,6 @@ const data = {
                 "displayName-count-one": "Venezolanischer Bolívar (1871–2008)",
                 "displayName-count-other": "Venezolanische Bolívares (1871–2008)",
                 symbol: "VEB"
-            },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
             },
             VEF: {
                 displayName: "Venezolanischer Bolívar (2008–2018)",
@@ -2009,8 +1987,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} 'um' {0}",
-            long: "{1} 'um' {0}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
@@ -2022,24 +2000,24 @@ const data = {
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "E, d.",
-                Ehm: "E h:mm a",
+                Ehm: "E h:mm a",
                 EHm: "E, HH:mm",
-                Ehms: "E, h:mm:ss a",
+                Ehms: "E, h:mm:ss a",
                 EHms: "E, HH:mm:ss",
                 Gy: "y G",
-                GyMd: "dd.MM.y GGGGG",
+                GyMd: "dd.MM.y G",
                 GyMMM: "MMM y G",
                 GyMMMd: "d. MMM y G",
                 GyMMMEd: "E, d. MMM y G",
                 h: "h 'Uhr' a",
                 H: "HH 'Uhr'",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
                 M: "L",
                 Md: "d.M.",
@@ -2055,7 +2033,7 @@ const data = {
                 "MMMMW-count-other": "'Woche' W 'im' MMMM",
                 ms: "mm:ss",
                 y: "y",
-                yM: "M.y",
+                yM: "MM/y",
                 yMd: "d.M.y",
                 yMEd: "E, d.M.y",
                 yMM: "MM.y",

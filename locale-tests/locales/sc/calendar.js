@@ -10,22 +10,22 @@ const data = {
     calendar: {
         patterns: {
             d: "dd/MM/y",
-            D: "d 'de' MMMM 'de' 'su' y, 'de' EEEE",
+            D: "EEEE d 'de' MMMM 'de' 'su' y",
             m: "d 'de' MMM",
             M: "d 'de' MMMM",
             y: "MMM y",
             Y: "MMMM 'de' 'su' y",
-            F: "d 'de' MMMM 'de' 'su' y, 'de' EEEE HH:mm:ss",
-            g: "d/M/y HH:mm",
-            G: "d/M/y HH:mm:ss",
+            F: "EEEE d 'de' MMMM 'de' 'su' y HH:mm:ss",
+            g: "dd/MM/y HH:mm",
+            G: "dd/MM/y HH:mm:ss",
             t: "HH:mm",
             T: "HH:mm:ss",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} 'a' 'sas' {0}",
-            long: "{1} 'a' 'sas' {0}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
@@ -57,8 +57,8 @@ const data = {
                 hmv: "h:mm a v",
                 Hmv: "HH:mm v",
                 M: "L",
-                Md: "d/M",
-                MEd: "E d/M",
+                Md: "dd/MM",
+                MEd: "E dd/MM",
                 MMM: "LLL",
                 MMMd: "d 'de' MMM",
                 MMMEd: "E d 'de' MMM",
@@ -67,9 +67,9 @@ const data = {
                 "MMMMW-count-other": "'chida' W 'de' MMMM",
                 ms: "mm:ss",
                 y: "y",
-                yM: "M/y",
-                yMd: "d/M/y",
-                yMEd: "E d/M/y",
+                yM: "MM/Y",
+                yMd: "dd/MM/y",
+                yMEd: "E dd/MM/y",
                 yMMM: "MMM y",
                 yMMMd: "d 'de' MMM y",
                 yMMMEd: "E d 'de' MMM y",
@@ -87,7 +87,7 @@ const data = {
             short: "HH:mm"
         },
         dateFormats: {
-            full: "d 'de' MMMM 'de' 'su' y, 'de' EEEE",
+            full: "EEEE d 'de' MMMM 'de' 'su' y",
             long: "d 'de' MMMM 'de' 'su' y",
             medium: "d 'de' MMM y",
             short: "dd/MM/y"

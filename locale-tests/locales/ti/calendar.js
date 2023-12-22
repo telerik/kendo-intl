@@ -24,8 +24,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} ሰዓት {0}",
-            long: "{1} ሰዓት {0}",
+            full: "{1} {0}",
+            long: "{1} {0}",
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
@@ -411,9 +411,9 @@ const data = {
                 narrow: "መ.ስራሕ ናይ ወርሒ"
             },
             dayperiod: {
-                short: "ቅ.ቀ./ድ.ቀ.",
-                wide: "ቅ.ቀ./ድ.ቀ.",
-                narrow: "ቅ.ቀ./ድ.ቀ."
+                short: "AM/PM",
+                wide: "AM/PM",
+                narrow: "AM/PM"
             },
             hour: {
                 wide: "ሰዓት",

@@ -13,8 +13,8 @@ const data = {
             D: "EEEE, d MMMM y",
             m: "d MMM",
             M: "d MMMM",
-            y: "MMM y 'г'.",
-            Y: "MMMM y 'г'.",
+            y: "MMM y 'г'.",
+            Y: "MMMM y 'г'.",
             F: "EEEE, d MMMM y HH:mm:ss",
             g: "d.M.y HH:mm",
             G: "d.M.y HH:mm:ss",
@@ -24,10 +24,10 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1}, 'во' {0}",
-            long: "{1}, 'во' {0}",
-            medium: "{1}, 'во' {0}",
-            short: "{1}, 'во' {0}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
+            medium: "{1}, {0}",
+            short: "{1}, {0}",
             availableFormats: {
                 Bh: "h B",
                 Bhm: "h:mm B",
@@ -36,25 +36,25 @@ const data = {
                 E: "ccc",
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
-                Ed: "d E",
-                Ehm: "E h:mm a",
+                Ed: "E, d",
+                Ehm: "E h:mm a",
                 EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
                 GyMd: "d.M.y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E, d MMM y G",
-                h: "h a",
+                h: "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
                 M: "L",
                 Md: "d.M",
@@ -72,12 +72,12 @@ const data = {
                 yM: "M.y",
                 yMd: "d.M.y",
                 yMEd: "E, d.M.y",
-                yMMM: "MMM y 'г'.",
-                yMMMd: "d MMM y 'г'.",
-                yMMMEd: "E, d MMM y 'г'.",
-                yMMMM: "MMMM y 'г'.",
-                yQQQ: "QQQ y 'г'.",
-                yQQQQ: "QQQQ y 'г'.",
+                yMMM: "MMM y 'г'.",
+                yMMMd: "d MMM y 'г'.",
+                yMMMEd: "E, d MMM y 'г'.",
+                yMMMM: "MMMM y 'г'.",
+                yQQQ: "QQQ y 'г'.",
+                yQQQQ: "QQQQ y 'г'.",
                 "yw-count-one": "w. 'седмица' 'од' Y",
                 "yw-count-other": "w. 'седмица' 'од' Y"
             }
@@ -265,10 +265,10 @@ const data = {
         quarters: {
             format: {
                 abbreviated: [
-                    "јан-мар",
-                    "апр-јун",
-                    "јул-сеп",
-                    "окт-дек"
+                    "јан – мар",
+                    "апр – јун",
+                    "јул – септ",
+                    "окт – дек"
                 ],
                 narrow: [
                     "1",
@@ -277,18 +277,18 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "прво тромесечје",
-                    "второ тромесечје",
-                    "трето тромесечје",
-                    "четврто тромесечје"
+                    "прво тримесечје",
+                    "второ тримесечје",
+                    "трето тримесечје",
+                    "четврто тримесечје"
                 ]
             },
             "stand-alone": {
                 abbreviated: [
-                    "јан-мар",
-                    "апр-јун",
-                    "јул-сеп",
-                    "окт-дек"
+                    "јан – мар",
+                    "апр – јун",
+                    "јул – септ",
+                    "окт – дек"
                 ],
                 narrow: [
                     "1",
@@ -297,10 +297,10 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "прво тромесечје",
-                    "второ тромесечје",
-                    "трето тромесечје",
-                    "четврто тромесечје"
+                    "прво тримесечје",
+                    "второ тримесечје",
+                    "трето тримесечје",
+                    "четврто тримесечје"
                 ]
             }
         },
@@ -322,57 +322,57 @@ const data = {
                     am: "претпл.",
                     noon: "напл.",
                     pm: "попл.",
-                    morning1: "утро",
+                    morning1: "наутро",
                     morning2: "претпл.",
                     afternoon1: "попл.",
-                    evening1: "веч.",
+                    evening1: "навечер",
                     night1: "ноќе"
                 },
                 wide: {
                     midnight: "полноќ",
-                    am: "претпладне",
+                    am: "претпл.",
                     noon: "напладне",
-                    pm: "попладне",
+                    pm: "попл.",
                     morning1: "наутро",
                     morning2: "претпладне",
                     afternoon1: "попладне",
                     evening1: "навечер",
-                    night1: "по полноќ"
+                    night1: "ноќе"
                 }
             },
             "stand-alone": {
                 abbreviated: {
                     midnight: "полноќ",
                     am: "претпл.",
-                    noon: "напладне",
+                    noon: "пладне",
                     pm: "попл.",
-                    morning1: "наутро",
+                    morning1: "утро",
                     morning2: "претпл.",
                     afternoon1: "попл.",
-                    evening1: "навечер",
-                    night1: "по полноќ"
+                    evening1: "вечер",
+                    night1: "ноќ"
                 },
                 narrow: {
                     midnight: "полноќ",
                     am: "претпл.",
                     noon: "пладне",
                     pm: "попл.",
-                    morning1: "наутро",
+                    morning1: "утро",
                     morning2: "претпл.",
                     afternoon1: "попл.",
-                    evening1: "навечер",
-                    night1: "по полноќ"
+                    evening1: "вечер",
+                    night1: "ноќ"
                 },
                 wide: {
-                    midnight: "на полноќ",
-                    am: "претпладне",
-                    noon: "напладне",
-                    pm: "попладне",
-                    morning1: "наутро",
+                    midnight: "полноќ",
+                    am: "претпл.",
+                    noon: "пладне",
+                    pm: "попл.",
+                    morning1: "утро",
                     morning2: "претпладне",
                     afternoon1: "попладне",
-                    evening1: "навечер",
-                    night1: "по полноќ"
+                    evening1: "вечер",
+                    night1: "ноќ"
                 }
             }
         },

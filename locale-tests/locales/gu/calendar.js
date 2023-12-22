@@ -24,8 +24,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} એ {0} વાગ્યે",
-            long: "{1} એ {0} વાગ્યે",
+            full: "{1} {0}",
+            long: "{1} {0}",
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {

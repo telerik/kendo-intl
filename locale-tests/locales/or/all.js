@@ -65,19 +65,11 @@ const data = {
             ]
         },
         currencies: {
-            ADP: {
-                displayName: "ADP",
-                symbol: "ADP"
-            },
             AED: {
                 displayName: "ଯୁକ୍ତ ଆରବ ଏମିରେଟସ୍ ଦିରହାମ୍",
                 "displayName-count-one": "UAE ଦିରହାମ୍",
                 "displayName-count-other": "UAE ଦିରହାମ୍",
                 symbol: "AED"
-            },
-            AFA: {
-                displayName: "AFA",
-                symbol: "AFA"
             },
             AFN: {
                 displayName: "ଆଫଗାନ ଆଫଗାନି",
@@ -85,10 +77,6 @@ const data = {
                 "displayName-count-other": "ଆଫଗାନ ଆଫଗାନି",
                 symbol: "AFN",
                 "symbol-alt-narrow": "؋"
-            },
-            ALK: {
-                displayName: "ALK",
-                symbol: "ALK"
             },
             ALL: {
                 displayName: "ଆଲବାନିୟ ଲେକ୍",
@@ -116,44 +104,12 @@ const data = {
                 symbol: "AOA",
                 "symbol-alt-narrow": "Kz"
             },
-            AOK: {
-                displayName: "AOK",
-                symbol: "AOK"
-            },
-            AON: {
-                displayName: "AON",
-                symbol: "AON"
-            },
-            AOR: {
-                displayName: "AOR",
-                symbol: "AOR"
-            },
-            ARA: {
-                displayName: "ARA",
-                symbol: "ARA"
-            },
-            ARL: {
-                displayName: "ARL",
-                symbol: "ARL"
-            },
-            ARM: {
-                displayName: "ARM",
-                symbol: "ARM"
-            },
-            ARP: {
-                displayName: "ARP",
-                symbol: "ARP"
-            },
             ARS: {
                 displayName: "ଆର୍ଜେଣ୍ଟାଇନ୍‍ ପେସୋ",
                 "displayName-count-one": "ଆର୍ଜେଣ୍ଟାଇନ୍‍ ପେସୋ",
                 "displayName-count-other": "ଆର୍ଜେଣ୍ଟାଇନ୍‍ ପେସୋ",
                 symbol: "ARS",
                 "symbol-alt-narrow": "$"
-            },
-            ATS: {
-                displayName: "ATS",
-                symbol: "ATS"
             },
             AUD: {
                 displayName: "ଅଷ୍ଟ୍ରେଲିୟ ଡଲାର୍",
@@ -168,10 +124,6 @@ const data = {
                 "displayName-count-other": "ଆରୁବୀୟ ଫ୍ଲୋରିନ୍",
                 symbol: "AWG"
             },
-            AZM: {
-                displayName: "AZM",
-                symbol: "AZM"
-            },
             AZN: {
                 displayName: "ଆଜେରବାଇଜାନି ମନତ୍",
                 "displayName-count-one": "ଆଜେରବାଇଜାନି ମନତ୍",
@@ -179,20 +131,12 @@ const data = {
                 symbol: "AZN",
                 "symbol-alt-narrow": "₼"
             },
-            BAD: {
-                displayName: "BAD",
-                symbol: "BAD"
-            },
             BAM: {
                 displayName: "ବୋସନିଆ-ହର୍ଜଗୋଭିନା କନଭର୍ଟିବଲ୍ ମାର୍କ୍",
                 "displayName-count-one": "ବୋସନିଆ-ହର୍ଜଗୋଭିନା କନଭର୍ଟିବଲ୍ ମାର୍କ୍",
                 "displayName-count-other": "ବୋସନିଆ-ହର୍ଜଗୋଭିନା କନଭର୍ଟିବଲ୍ ମାର୍କ୍",
                 symbol: "BAM",
                 "symbol-alt-narrow": "KM"
-            },
-            BAN: {
-                displayName: "BAN",
-                symbol: "BAN"
             },
             BBD: {
                 displayName: "ବାର୍ବାଡୀୟ ଡଲାର୍",
@@ -208,35 +152,11 @@ const data = {
                 symbol: "BDT",
                 "symbol-alt-narrow": "৳"
             },
-            BEC: {
-                displayName: "BEC",
-                symbol: "BEC"
-            },
-            BEF: {
-                displayName: "BEF",
-                symbol: "BEF"
-            },
-            BEL: {
-                displayName: "BEL",
-                symbol: "BEL"
-            },
-            BGL: {
-                displayName: "BGL",
-                symbol: "BGL"
-            },
-            BGM: {
-                displayName: "BGM",
-                symbol: "BGM"
-            },
             BGN: {
                 displayName: "ବୁଲଗେରୀୟ ଲେଭ୍",
                 "displayName-count-one": "ବୁଲଗେରୀୟ ଲେଭ୍",
                 "displayName-count-other": "ବୁଲଗେରୀୟ ଲେଭ୍",
                 symbol: "BGN"
-            },
-            BGO: {
-                displayName: "BGO",
-                symbol: "BGO"
             },
             BHD: {
                 displayName: "ବାଃରେନି ଦିନାର୍",
@@ -271,48 +191,12 @@ const data = {
                 symbol: "BOB",
                 "symbol-alt-narrow": "Bs"
             },
-            BOL: {
-                displayName: "BOL",
-                symbol: "BOL"
-            },
-            BOP: {
-                displayName: "BOP",
-                symbol: "BOP"
-            },
-            BOV: {
-                displayName: "BOV",
-                symbol: "BOV"
-            },
-            BRB: {
-                displayName: "BRB",
-                symbol: "BRB"
-            },
-            BRC: {
-                displayName: "BRC",
-                symbol: "BRC"
-            },
-            BRE: {
-                displayName: "BRE",
-                symbol: "BRE"
-            },
             BRL: {
                 displayName: "ବ୍ରାଜିଲୀୟ ରିଏଲ୍",
                 "displayName-count-one": "ବ୍ରାଜିଲୀୟ ରିଏଲ୍",
                 "displayName-count-other": "ବ୍ରାଜିଲୀୟ ରିଏଲ୍",
                 symbol: "R$",
                 "symbol-alt-narrow": "R$"
-            },
-            BRN: {
-                displayName: "BRN",
-                symbol: "BRN"
-            },
-            BRR: {
-                displayName: "BRR",
-                symbol: "BRR"
-            },
-            BRZ: {
-                displayName: "BRZ",
-                symbol: "BRZ"
             },
             BSD: {
                 displayName: "ବାହାମୀୟ ଡଲାର୍",
@@ -327,10 +211,6 @@ const data = {
                 "displayName-count-other": "ଭୁଟାନୀ ଗଲଟ୍ରୁମ୍",
                 symbol: "BTN"
             },
-            BUK: {
-                displayName: "BUK",
-                symbol: "BUK"
-            },
             BWP: {
                 displayName: "ବୋତ୍ସୱାନା ପୁଲା",
                 "displayName-count-one": "ବୋତ୍ସୱାନା ପୁଲା",
@@ -338,20 +218,12 @@ const data = {
                 symbol: "BWP",
                 "symbol-alt-narrow": "P"
             },
-            BYB: {
-                displayName: "BYB",
-                symbol: "BYB"
-            },
             BYN: {
                 displayName: "ବେଲାରୁସି ରୁବଲ୍",
                 "displayName-count-one": "ବେଲାରୁସି ରୁବଲ୍",
                 "displayName-count-other": "ବେଲାରୁସି ରୁବଲ୍",
                 symbol: "BYN",
                 "symbol-alt-narrow": "р."
-            },
-            BYR: {
-                displayName: "BYR",
-                symbol: "BYR"
             },
             BZD: {
                 displayName: "ବେଲିଜ୍ ଡଲାର୍",
@@ -373,27 +245,11 @@ const data = {
                 "displayName-count-other": "କଙ୍ଗୋଲିଜ୍ ଫ୍ରାଙ୍କ୍",
                 symbol: "CDF"
             },
-            CHE: {
-                displayName: "CHE",
-                symbol: "CHE"
-            },
             CHF: {
                 displayName: "ସୁଇସ୍ ଫ୍ରାଙ୍କ୍",
                 "displayName-count-one": "ସୁଇସ୍ ଫ୍ରାଙ୍କ୍",
                 "displayName-count-other": "ସୁଇସ୍ ଫ୍ରାଙ୍କ୍",
                 symbol: "CHF"
-            },
-            CHW: {
-                displayName: "CHW",
-                symbol: "CHW"
-            },
-            CLE: {
-                displayName: "CLE",
-                symbol: "CLE"
-            },
-            CLF: {
-                displayName: "CLF",
-                symbol: "CLF"
             },
             CLP: {
                 displayName: "ଚିଲି ପେସୋ",
@@ -407,10 +263,6 @@ const data = {
                 "displayName-count-one": "ଚିନୀ ୟୁଆନ୍ (ଉପକୂଳବର୍ତ୍ତୀ)",
                 "displayName-count-other": "ଚିନୀ ୟୁଆନ୍ (ଅଫସୋର୍)",
                 symbol: "CNH"
-            },
-            CNX: {
-                displayName: "CNX",
-                symbol: "CNX"
             },
             CNY: {
                 displayName: "ଚିନୀ ୟୁଆନ୍",
@@ -426,24 +278,12 @@ const data = {
                 symbol: "COP",
                 "symbol-alt-narrow": "$"
             },
-            COU: {
-                displayName: "COU",
-                symbol: "COU"
-            },
             CRC: {
                 displayName: "କୋଷ୍ଟା ରିକୀୟ କୋଲୋନ୍",
                 "displayName-count-one": "କୋଷ୍ଟା ରିକୀୟ କୋଲୋନ୍",
                 "displayName-count-other": "କୋଷ୍ଟା ରିକୀୟ କୋଲୋନ୍",
                 symbol: "CRC",
                 "symbol-alt-narrow": "₡"
-            },
-            CSD: {
-                displayName: "CSD",
-                symbol: "CSD"
-            },
-            CSK: {
-                displayName: "CSK",
-                symbol: "CSK"
             },
             CUC: {
                 displayName: "କ୍ୟୁବାନ୍ କନଭର୍ଟିବଲ୍ ପେସୋ",
@@ -465,24 +305,12 @@ const data = {
                 "displayName-count-other": "କେପ୍ ଭେର୍ଦେୟ ଏସ୍କୁଡୋ",
                 symbol: "CVE"
             },
-            CYP: {
-                displayName: "CYP",
-                symbol: "CYP"
-            },
             CZK: {
                 displayName: "ଚେକ୍ କୋରୁନା",
                 "displayName-count-one": "ଚେକ୍ କୋରୁନା",
                 "displayName-count-other": "ଚେକ୍ କୋରୁନା",
                 symbol: "CZK",
                 "symbol-alt-narrow": "Kč"
-            },
-            DDM: {
-                displayName: "DDM",
-                symbol: "DDM"
-            },
-            DEM: {
-                displayName: "DEM",
-                symbol: "DEM"
             },
             DJF: {
                 displayName: "ଜିବୌଟିୟ ଫ୍ରାଙ୍କ୍",
@@ -510,18 +338,6 @@ const data = {
                 "displayName-count-other": "ଆଲଜେରୀୟ ଦିନାର୍",
                 symbol: "DZD"
             },
-            ECS: {
-                displayName: "ECS",
-                symbol: "ECS"
-            },
-            ECV: {
-                displayName: "ECV",
-                symbol: "ECV"
-            },
-            EEK: {
-                displayName: "EEK",
-                symbol: "EEK"
-            },
             EGP: {
                 displayName: "ଇଜିପ୍ଟିୟ ପାଉଣ୍ଡ୍",
                 "displayName-count-one": "ଇଜିପ୍ଟିୟ ପାଉଣ୍ଡ୍",
@@ -535,17 +351,7 @@ const data = {
                 "displayName-count-other": "ଏରିଟ୍ରେୟ ନାକଫା",
                 symbol: "ERN"
             },
-            ESA: {
-                displayName: "ESA",
-                symbol: "ESA"
-            },
-            ESB: {
-                displayName: "ESB",
-                symbol: "ESB"
-            },
             ESP: {
-                displayName: "ESP",
-                symbol: "ESP",
                 "symbol-alt-narrow": "₧"
             },
             ETB: {
@@ -561,10 +367,6 @@ const data = {
                 symbol: "€",
                 "symbol-alt-narrow": "€"
             },
-            FIM: {
-                displayName: "FIM",
-                symbol: "FIM"
-            },
             FJD: {
                 displayName: "ଫିଜି ଡଲାର୍",
                 "displayName-count-one": "ଫିଜି ଡଲାର୍",
@@ -579,10 +381,6 @@ const data = {
                 symbol: "FKP",
                 "symbol-alt-narrow": "£"
             },
-            FRF: {
-                displayName: "FRF",
-                symbol: "FRF"
-            },
             GBP: {
                 displayName: "ବ୍ରିଟିଶ୍ ପାଉଣ୍ଡ୍",
                 "displayName-count-one": "ବ୍ରିଟିଶ୍ ପାଉଣ୍ଡ୍",
@@ -590,20 +388,12 @@ const data = {
                 symbol: "£",
                 "symbol-alt-narrow": "£"
             },
-            GEK: {
-                displayName: "GEK",
-                symbol: "GEK"
-            },
             GEL: {
                 displayName: "ଜର୍ଜିୟ ଲାରି",
                 "displayName-count-one": "ଜର୍ଜିୟ ଲାରି",
                 "displayName-count-other": "ଜର୍ଜିୟ ଲାରି",
                 symbol: "GEL",
                 "symbol-alt-narrow": "₾"
-            },
-            GHC: {
-                displayName: "GHC",
-                symbol: "GHC"
             },
             GHS: {
                 displayName: "ଘାନିୟ ସେଡି",
@@ -632,32 +422,12 @@ const data = {
                 symbol: "GNF",
                 "symbol-alt-narrow": "FG"
             },
-            GNS: {
-                displayName: "GNS",
-                symbol: "GNS"
-            },
-            GQE: {
-                displayName: "GQE",
-                symbol: "GQE"
-            },
-            GRD: {
-                displayName: "GRD",
-                symbol: "GRD"
-            },
             GTQ: {
                 displayName: "ଗୁଏଟମାଲୀୟ କ୍ଵେତଜାଲ୍",
                 "displayName-count-one": "ଗୁଏଟମାଲୀୟ କ୍ଵେତଜାଲ୍",
                 "displayName-count-other": "ଗୁଏଟମାଲୀୟ କ୍ଵେତଜାଲ୍",
                 symbol: "GTQ",
                 "symbol-alt-narrow": "Q"
-            },
-            GWE: {
-                displayName: "GWE",
-                symbol: "GWE"
-            },
-            GWP: {
-                displayName: "GWP",
-                symbol: "GWP"
             },
             GYD: {
                 displayName: "ଗାୟାନିସ୍ ଡଲାର୍",
@@ -679,10 +449,6 @@ const data = {
                 "displayName-count-other": "ହୋଣ୍ଡୁରୀୟ ଲେମପିରା",
                 symbol: "HNL",
                 "symbol-alt-narrow": "L"
-            },
-            HRD: {
-                displayName: "HRD",
-                symbol: "HRD"
             },
             HRK: {
                 displayName: "କ୍ରୋଏସୀୟ କୁନା",
@@ -711,18 +477,6 @@ const data = {
                 symbol: "IDR",
                 "symbol-alt-narrow": "Rp"
             },
-            IEP: {
-                displayName: "IEP",
-                symbol: "IEP"
-            },
-            ILP: {
-                displayName: "ILP",
-                symbol: "ILP"
-            },
-            ILR: {
-                displayName: "ILR",
-                symbol: "ILR"
-            },
             ILS: {
                 displayName: "ଇସ୍ରାଇଲି ନ୍ୟୁ ଶେକେଲ୍",
                 "displayName-count-one": "ଇସ୍ରାଇଲି ନ୍ୟୁ ଶେକେଲ୍",
@@ -749,20 +503,12 @@ const data = {
                 "displayName-count-other": "ଇରାନୀ ରିଆଲ୍",
                 symbol: "IRR"
             },
-            ISJ: {
-                displayName: "ISJ",
-                symbol: "ISJ"
-            },
             ISK: {
                 displayName: "ଆଇସଲ୍ୟାଣ୍ଡିକ୍‍ କ୍ରୋନା",
                 "displayName-count-one": "ଆଇସଲ୍ୟାଣ୍ଡିକ୍‍ କ୍ରୋନା",
                 "displayName-count-other": "ଆଇସଲ୍ୟାଣ୍ଡିକ୍‍ କ୍ରୋନା",
                 symbol: "ISK",
                 "symbol-alt-narrow": "kr"
-            },
-            ITL: {
-                displayName: "ITL",
-                symbol: "ITL"
             },
             JMD: {
                 displayName: "ଜାମାଇକୀୟ ଡଲାର୍",
@@ -816,14 +562,6 @@ const data = {
                 "displayName-count-other": "ଉତ୍ତର କୋରିଆଇ ୱୋନ୍",
                 symbol: "KPW",
                 "symbol-alt-narrow": "₩"
-            },
-            KRH: {
-                displayName: "KRH",
-                symbol: "KRH"
-            },
-            KRO: {
-                displayName: "KRO",
-                symbol: "KRO"
             },
             KRW: {
                 displayName: "ଦକ୍ଷିଣ କୋରିଆଇ ୱୋନ୍",
@@ -883,38 +621,13 @@ const data = {
             LSL: {
                 displayName: "ଲେସୋଥୋ ଲୋଟି",
                 "displayName-count-one": "ଲେସୋଥୋ ଲୋଟି",
-                "displayName-count-other": "ଲେସୋଥୋ ଲୋଟିସ୍",
-                symbol: "LSL"
+                "displayName-count-other": "ଲେସୋଥୋ ଲୋଟିସ୍"
             },
             LTL: {
-                displayName: "LTL",
-                symbol: "LTL",
                 "symbol-alt-narrow": "Lt"
             },
-            LTT: {
-                displayName: "LTT",
-                symbol: "LTT"
-            },
-            LUC: {
-                displayName: "LUC",
-                symbol: "LUC"
-            },
-            LUF: {
-                displayName: "LUF",
-                symbol: "LUF"
-            },
-            LUL: {
-                displayName: "LUL",
-                symbol: "LUL"
-            },
             LVL: {
-                displayName: "LVL",
-                symbol: "LVL",
                 "symbol-alt-narrow": "Ls"
-            },
-            LVR: {
-                displayName: "LVR",
-                symbol: "LVR"
             },
             LYD: {
                 displayName: "ଲିବ୍ୟ ଦିନାର୍",
@@ -927,18 +640,6 @@ const data = {
                 "displayName-count-one": "ମୋରୋକୀୟ ଦିର୍ହାମ୍",
                 "displayName-count-other": "ମୋରୋକୀୟ ଦିର୍ହାମ୍",
                 symbol: "MAD"
-            },
-            MAF: {
-                displayName: "MAF",
-                symbol: "MAF"
-            },
-            MCF: {
-                displayName: "MCF",
-                symbol: "MCF"
-            },
-            MDC: {
-                displayName: "MDC",
-                symbol: "MDC"
             },
             MDL: {
                 displayName: "ମୋଲଡୋଭାନ୍ ଲେୟୁ",
@@ -953,23 +654,11 @@ const data = {
                 symbol: "MGA",
                 "symbol-alt-narrow": "Ar"
             },
-            MGF: {
-                displayName: "MGF",
-                symbol: "MGF"
-            },
             MKD: {
                 displayName: "ମାସେଡୋନୀୟ ଡିନର୍",
                 "displayName-count-one": "ମାସେଡୋନୀୟ ଡିନର୍",
                 "displayName-count-other": "ମାସେଡୋନୀୟ ଡିନର୍",
                 symbol: "MKD"
-            },
-            MKN: {
-                displayName: "MKN",
-                symbol: "MKN"
-            },
-            MLF: {
-                displayName: "MLF",
-                symbol: "MLF"
             },
             MMK: {
                 displayName: "ମ୍ୟାନମାର୍ କ୍ୟାତ୍‌",
@@ -1003,24 +692,12 @@ const data = {
                 "displayName-count-other": "ମର୍ଟିନିୟ ଆଗୁଇଅ",
                 symbol: "MRU"
             },
-            MTL: {
-                displayName: "MTL",
-                symbol: "MTL"
-            },
-            MTP: {
-                displayName: "MTP",
-                symbol: "MTP"
-            },
             MUR: {
                 displayName: "ମୌରିସୀୟ ରୁପି",
                 "displayName-count-one": "ମୌରିସୀୟ ରୁପି",
                 "displayName-count-other": "ମୌରିସୀୟ ରୁପି",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
-            },
-            MVP: {
-                displayName: "MVP",
-                symbol: "MVP"
             },
             MVR: {
                 displayName: "ମାଲଡିଭିୟ ରୁଫିୟା",
@@ -1041,28 +718,12 @@ const data = {
                 symbol: "MX$",
                 "symbol-alt-narrow": "$"
             },
-            MXP: {
-                displayName: "MXP",
-                symbol: "MXP"
-            },
-            MXV: {
-                displayName: "MXV",
-                symbol: "MXV"
-            },
             MYR: {
                 displayName: "ମାଲେସିୟ ରିଙ୍ଗିଟ୍",
                 "displayName-count-one": "ମାଲେସିୟ ରିଙ୍ଗିଟ୍",
                 "displayName-count-other": "ମାଲେସିୟ ରିଙ୍ଗିଟ୍",
                 symbol: "MYR",
                 "symbol-alt-narrow": "RM"
-            },
-            MZE: {
-                displayName: "MZE",
-                symbol: "MZE"
-            },
-            MZM: {
-                displayName: "MZM",
-                symbol: "MZM"
             },
             MZN: {
                 displayName: "ମୋଜାମ୍ବିକୀୟ ମେଟିକାଲ୍",
@@ -1084,20 +745,12 @@ const data = {
                 symbol: "NGN",
                 "symbol-alt-narrow": "₦"
             },
-            NIC: {
-                displayName: "NIC",
-                symbol: "NIC"
-            },
             NIO: {
                 displayName: "ନିକାରାଗୁଆ କୋର୍ଡୋବା",
                 "displayName-count-one": "ନିକାରାଗୁଆ କୋର୍ଡୋବା",
                 "displayName-count-other": "ନିକାରାଗୁଆ କୋର୍ଡୋବା",
                 symbol: "NIO",
                 "symbol-alt-narrow": "C$"
-            },
-            NLG: {
-                displayName: "NLG",
-                symbol: "NLG"
             },
             NOK: {
                 displayName: "ନରୱେୟୀୟ କ୍ରୋନ୍",
@@ -1132,19 +785,11 @@ const data = {
                 "displayName-count-other": "ପାନାମାନିୟ ବାଲବୋଆ",
                 symbol: "PAB"
             },
-            PEI: {
-                displayName: "PEI",
-                symbol: "PEI"
-            },
             PEN: {
                 displayName: "ପେରୁଭୀୟ ସୋଲ୍",
                 "displayName-count-one": "ପେରୁଭୀୟ ସୋଲ୍",
                 "displayName-count-other": "ପେରୁଭୀୟ ସୋଲ୍",
                 symbol: "PEN"
-            },
-            PES: {
-                displayName: "PES",
-                symbol: "PES"
             },
             PGK: {
                 displayName: "ପପୁଆ ନ୍ୟୁ ଗୁଇନିୟ କିନା",
@@ -1173,14 +818,6 @@ const data = {
                 symbol: "PLN",
                 "symbol-alt-narrow": "zł"
             },
-            PLZ: {
-                displayName: "PLZ",
-                symbol: "PLZ"
-            },
-            PTE: {
-                displayName: "PTE",
-                symbol: "PTE"
-            },
             PYG: {
                 displayName: "ପାରାଗୁଆୟାନ୍ ଗୁଆରାନି",
                 "displayName-count-one": "ପାରାଗୁଆୟାନ୍ ଗୁଆରାନି",
@@ -1193,14 +830,6 @@ const data = {
                 "displayName-count-one": "କ୍ଵାତାରି ରିଆଲ୍",
                 "displayName-count-other": "କ୍ଵାତାରି ରିଆଲ୍",
                 symbol: "QAR"
-            },
-            RHD: {
-                displayName: "RHD",
-                symbol: "RHD"
-            },
-            ROL: {
-                displayName: "ROL",
-                symbol: "ROL"
             },
             RON: {
                 displayName: "ରୋମାନିୟ ଲେଉ",
@@ -1221,10 +850,6 @@ const data = {
                 "displayName-count-other": "ରୁଷି ରୁବଲ୍",
                 symbol: "RUB",
                 "symbol-alt-narrow": "₽"
-            },
-            RUR: {
-                displayName: "RUR",
-                symbol: "RUR"
             },
             RWF: {
                 displayName: "ରୁୱାଣ୍ଡା ଫ୍ରାଙ୍କ୍",
@@ -1252,19 +877,11 @@ const data = {
                 "displayName-count-other": "ସେୟଚେଲୋଇସ୍ ରୁପି",
                 symbol: "SCR"
             },
-            SDD: {
-                displayName: "SDD",
-                symbol: "SDD"
-            },
             SDG: {
                 displayName: "ସୁଦାନୀଜ ପାଉଣ୍ଡ୍",
                 "displayName-count-one": "ସୁଦାନୀଜ ପାଉଣ୍ଡ୍",
                 "displayName-count-other": "ସୁଦାନୀୟ ପାଉଣ୍ଡ୍",
                 symbol: "SDG"
-            },
-            SDP: {
-                displayName: "SDP",
-                symbol: "SDP"
             },
             SEK: {
                 displayName: "ସ୍ୱେଡିଶ୍ କ୍ରୋନା",
@@ -1287,18 +904,6 @@ const data = {
                 symbol: "SHP",
                 "symbol-alt-narrow": "£"
             },
-            SIT: {
-                displayName: "SIT",
-                symbol: "SIT"
-            },
-            SKK: {
-                displayName: "SKK",
-                symbol: "SKK"
-            },
-            SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
-            },
             SLL: {
                 displayName: "ସିଏରା ଲିଓନୀୟ ଲେଓନ୍",
                 "displayName-count-one": "ସିଏରା ଲିଓନୀୟ ଲେଓନ୍",
@@ -1317,10 +922,6 @@ const data = {
                 "displayName-count-other": "ସୁରିନାମିଜ୍ ଡଲାର୍",
                 symbol: "SRD",
                 "symbol-alt-narrow": "$"
-            },
-            SRG: {
-                displayName: "SRG",
-                symbol: "SRG"
             },
             SSP: {
                 displayName: "ଦକ୍ଷିଣ ସୁଡାନିଜ୍‍ ପାଉଣ୍ଡ୍",
@@ -1342,14 +943,6 @@ const data = {
                 symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },
-            SUR: {
-                displayName: "SUR",
-                symbol: "SUR"
-            },
-            SVC: {
-                displayName: "SVC",
-                symbol: "SVC"
-            },
             SYP: {
                 displayName: "ସିରିୟ ପାଉଣ୍ଡ୍",
                 "displayName-count-one": "ସିରିୟ ପାଉଣ୍ଡ୍",
@@ -1370,19 +963,11 @@ const data = {
                 symbol: "THB",
                 "symbol-alt-narrow": "฿"
             },
-            TJR: {
-                displayName: "TJR",
-                symbol: "TJR"
-            },
             TJS: {
                 displayName: "ତାଜିକିସ୍ତାନୀ ସୋମୋନି",
                 "displayName-count-one": "ତାଜିକିସ୍ତାନୀ ସୋମୋନି",
                 "displayName-count-other": "ତାଜିକିସ୍ତାନୀ ସୋମୋନି",
                 symbol: "TJS"
-            },
-            TMM: {
-                displayName: "TMM",
-                symbol: "TMM"
             },
             TMT: {
                 displayName: "ତୁର୍କମେନିସ୍ତାନୀ ମନତ୍‌",
@@ -1402,14 +987,6 @@ const data = {
                 "displayName-count-other": "ତୋଙ୍ଗିୟ ପାଙ୍ଗା",
                 symbol: "TOP",
                 "symbol-alt-narrow": "T$"
-            },
-            TPE: {
-                displayName: "TPE",
-                symbol: "TPE"
-            },
-            TRL: {
-                displayName: "TRL",
-                symbol: "TRL"
             },
             TRY: {
                 displayName: "ତୁର୍କିୟ ଲିରା",
@@ -1446,14 +1023,6 @@ const data = {
                 symbol: "UAH",
                 "symbol-alt-narrow": "₴"
             },
-            UAK: {
-                displayName: "UAK",
-                symbol: "UAK"
-            },
-            UGS: {
-                displayName: "UGS",
-                symbol: "UGS"
-            },
             UGX: {
                 displayName: "ଉଗାଣ୍ଡିୟ ଶିଲିଂ",
                 "displayName-count-one": "ଉଗାଣ୍ଡିୟ ଶିଲିଂ",
@@ -1467,22 +1036,6 @@ const data = {
                 symbol: "$",
                 "symbol-alt-narrow": "$"
             },
-            USN: {
-                displayName: "USN",
-                symbol: "USN"
-            },
-            USS: {
-                displayName: "USS",
-                symbol: "USS"
-            },
-            UYI: {
-                displayName: "UYI",
-                symbol: "UYI"
-            },
-            UYP: {
-                displayName: "UYP",
-                symbol: "UYP"
-            },
             UYU: {
                 displayName: "ଉରୁଗୁଇୟାନ୍ ପେସୋ",
                 "displayName-count-one": "ଉରୁଗୁଇୟାନ୍ ପେସୋ",
@@ -1490,23 +1043,11 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
-            },
             UZS: {
                 displayName: "ଉଜବେକିସ୍ତାନୀ ସୋମ୍",
                 "displayName-count-one": "ଉଜବେକିସ୍ତାନୀ ସୋମ୍",
                 "displayName-count-other": "ଉଜବେକିସ୍ତାନୀ ସୋମ୍",
                 symbol: "UZS"
-            },
-            VEB: {
-                displayName: "VEB",
-                symbol: "VEB"
-            },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
             },
             VEF: {
                 displayName: "ଭେନେଜୁଏଲାନ୍ ବୋଲିଭାର୍ (2008–2018)",
@@ -1518,8 +1059,7 @@ const data = {
             VES: {
                 displayName: "ଭେନେଜୁଏଲାନ୍ ବୋଲିଭାର୍",
                 "displayName-count-one": "ଭେନେଜୁଏଲାନ୍ ବୋଲିଭାର୍",
-                "displayName-count-other": "ଭେନେଜୁଏଲାନ୍ ବୋଲିଭାର୍",
-                symbol: "VES"
+                "displayName-count-other": "ଭେନେଜୁଏଲାନ୍ ବୋଲିଭାର୍"
             },
             VND: {
                 displayName: "ଭୀଏତନାମୀୟ ଡଙ୍ଗ",
@@ -1527,10 +1067,6 @@ const data = {
                 "displayName-count-other": "ଭୀଏତନାମୀୟ ଡଙ୍ଗ",
                 symbol: "₫",
                 "symbol-alt-narrow": "₫"
-            },
-            VNN: {
-                displayName: "VNN",
-                symbol: "VNN"
             },
             VUV: {
                 displayName: "ଭାନୁଆଟୁ ଭାଟୁ",
@@ -1550,30 +1086,6 @@ const data = {
                 "displayName-count-other": "ମଧ୍ୟ ଆଫ୍ରିକୀ CFA ଫ୍ରାଙ୍କ୍",
                 symbol: "FCFA"
             },
-            XAG: {
-                displayName: "XAG",
-                symbol: "XAG"
-            },
-            XAU: {
-                displayName: "XAU",
-                symbol: "XAU"
-            },
-            XBA: {
-                displayName: "XBA",
-                symbol: "XBA"
-            },
-            XBB: {
-                displayName: "XBB",
-                symbol: "XBB"
-            },
-            XBC: {
-                displayName: "XBC",
-                symbol: "XBC"
-            },
-            XBD: {
-                displayName: "XBD",
-                symbol: "XBD"
-            },
             XCD: {
                 displayName: "ପୂର୍ବ କାରିବୀୟ ଡଲାର୍",
                 "displayName-count-one": "ପୂର୍ବ କାରିବୀୟ ଡଲାର୍",
@@ -1581,31 +1093,11 @@ const data = {
                 symbol: "EC$",
                 "symbol-alt-narrow": "$"
             },
-            XDR: {
-                displayName: "XDR",
-                symbol: "XDR"
-            },
-            XEU: {
-                displayName: "XEU",
-                symbol: "XEU"
-            },
-            XFO: {
-                displayName: "XFO",
-                symbol: "XFO"
-            },
-            XFU: {
-                displayName: "XFU",
-                symbol: "XFU"
-            },
             XOF: {
                 displayName: "ପଶ୍ଚିମ ଆଫ୍ରିକିୟ CFA ଫ୍ରାଙ୍କ୍",
                 "displayName-count-one": "ପଶ୍ଚିମ ଆଫ୍ରିକିୟ CFA ଫ୍ରାଙ୍କ୍",
                 "displayName-count-other": "ପଶ୍ଚିମ ଆଫ୍ରିକିୟ CFA ଫ୍ରାଙ୍କ୍",
                 symbol: "F CFA"
-            },
-            XPD: {
-                displayName: "XPD",
-                symbol: "XPD"
             },
             XPF: {
                 displayName: "CFP ଫ୍ରାଙ୍କ୍",
@@ -1613,61 +1105,17 @@ const data = {
                 "displayName-count-other": "CFP ଫ୍ରାଙ୍କ୍",
                 symbol: "CFPF"
             },
-            XPT: {
-                displayName: "XPT",
-                symbol: "XPT"
-            },
-            XRE: {
-                displayName: "XRE",
-                symbol: "XRE"
-            },
-            XSU: {
-                displayName: "XSU",
-                symbol: "XSU"
-            },
-            XTS: {
-                displayName: "XTS",
-                symbol: "XTS"
-            },
-            XUA: {
-                displayName: "XUA",
-                symbol: "XUA"
-            },
             XXX: {
                 displayName: "ଅଜଣା ମୁଦ୍ରା",
                 "displayName-count-one": "(ମୁଦ୍ରାର ଅଜଣା ଏକକ)",
                 "displayName-count-other": "(ଅଜଣା ମୁଦ୍ରା)",
                 symbol: "¤"
             },
-            YDD: {
-                displayName: "YDD",
-                symbol: "YDD"
-            },
             YER: {
                 displayName: "ୟେମେନି ରିଆଲ୍",
                 "displayName-count-one": "ୟେମେନି ରିଆଲ୍",
                 "displayName-count-other": "ୟେମେନି ରିଆଲ୍",
                 symbol: "YER"
-            },
-            YUD: {
-                displayName: "YUD",
-                symbol: "YUD"
-            },
-            YUM: {
-                displayName: "YUM",
-                symbol: "YUM"
-            },
-            YUN: {
-                displayName: "YUN",
-                symbol: "YUN"
-            },
-            YUR: {
-                displayName: "YUR",
-                symbol: "YUR"
-            },
-            ZAL: {
-                displayName: "ZAL",
-                symbol: "ZAL"
             },
             ZAR: {
                 displayName: "ଦକ୍ଷିଣ ଆଫ୍ରିକିୟ ରାଣ୍ଡ୍",
@@ -1676,36 +1124,12 @@ const data = {
                 symbol: "ZAR",
                 "symbol-alt-narrow": "R"
             },
-            ZMK: {
-                displayName: "ZMK",
-                symbol: "ZMK"
-            },
             ZMW: {
                 displayName: "ଜାମ୍ବୀୟ କ୍ୱାଚା",
                 "displayName-count-one": "ଜାମ୍ବୀୟ କ୍ୱାଚା",
                 "displayName-count-other": "ଜାମ୍ବୀୟ କ୍ୱାଚା",
                 symbol: "ZMW",
                 "symbol-alt-narrow": "ZK"
-            },
-            ZRN: {
-                displayName: "ZRN",
-                symbol: "ZRN"
-            },
-            ZRZ: {
-                displayName: "ZRZ",
-                symbol: "ZRZ"
-            },
-            ZWD: {
-                displayName: "ZWD",
-                symbol: "ZWD"
-            },
-            ZWL: {
-                displayName: "ZWL",
-                symbol: "ZWL"
-            },
-            ZWR: {
-                displayName: "ZWR",
-                symbol: "ZWR"
             }
         },
         localeCurrency: "INR"
@@ -1727,8 +1151,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{0} ଠାରେ {1}",
-            long: "{0} ଠାରେ {1}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {

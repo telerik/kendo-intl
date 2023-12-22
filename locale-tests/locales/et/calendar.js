@@ -37,24 +37,24 @@ const data = {
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "E, d",
-                Ehm: "E h:mm a",
+                Ehm: "E h:mm a",
                 EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
                 GyMd: "d.MM.y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d. MMM y G",
                 GyMMMEd: "E, d. MMMM y G",
-                h: "h a",
+                h: "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
                 M: "M",
                 Md: "d.M",
@@ -124,13 +124,13 @@ const data = {
                     "L"
                 ],
                 wide: [
-                    "Pühapäev",
-                    "Esmaspäev",
-                    "Teisipäev",
-                    "Kolmapäev",
-                    "Neljapäev",
-                    "Reede",
-                    "Laupäev"
+                    "pühapäev",
+                    "esmaspäev",
+                    "teisipäev",
+                    "kolmapäev",
+                    "neljapäev",
+                    "reede",
+                    "laupäev"
                 ]
             },
             "stand-alone": {
@@ -162,13 +162,13 @@ const data = {
                     "L"
                 ],
                 wide: [
-                    "Pühapäev",
-                    "Esmaspäev",
-                    "Teisipäev",
-                    "Kolmapäev",
-                    "Neljapäev",
-                    "Reede",
-                    "Laupäev"
+                    "pühapäev",
+                    "esmaspäev",
+                    "teisipäev",
+                    "kolmapäev",
+                    "neljapäev",
+                    "reede",
+                    "laupäev"
                 ]
             }
         },

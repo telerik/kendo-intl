@@ -63,10 +63,6 @@ const data = {
             ]
         },
         currencies: {
-            ADP: {
-                displayName: "ADP",
-                symbol: "ADP"
-            },
             AED: {
                 displayName: "дырхам ААЭ",
                 "displayName-count-one": "дырхам ААЭ",
@@ -74,10 +70,6 @@ const data = {
                 "displayName-count-many": "дырхамаў ААЭ",
                 "displayName-count-other": "дырхама ААЭ",
                 symbol: "AED"
-            },
-            AFA: {
-                displayName: "AFA",
-                symbol: "AFA"
             },
             AFN: {
                 displayName: "афганскі афгані",
@@ -87,10 +79,6 @@ const data = {
                 "displayName-count-other": "афганскага афгані",
                 symbol: "AFN",
                 "symbol-alt-narrow": "؋"
-            },
-            ALK: {
-                displayName: "ALK",
-                symbol: "ALK"
             },
             ALL: {
                 displayName: "албанскі лек",
@@ -126,34 +114,6 @@ const data = {
                 symbol: "AOA",
                 "symbol-alt-narrow": "Kz"
             },
-            AOK: {
-                displayName: "AOK",
-                symbol: "AOK"
-            },
-            AON: {
-                displayName: "AON",
-                symbol: "AON"
-            },
-            AOR: {
-                displayName: "AOR",
-                symbol: "AOR"
-            },
-            ARA: {
-                displayName: "ARA",
-                symbol: "ARA"
-            },
-            ARL: {
-                displayName: "ARL",
-                symbol: "ARL"
-            },
-            ARM: {
-                displayName: "ARM",
-                symbol: "ARM"
-            },
-            ARP: {
-                displayName: "ARP",
-                symbol: "ARP"
-            },
             ARS: {
                 displayName: "аргенцінскае песа",
                 "displayName-count-one": "аргенцінскае песа",
@@ -162,10 +122,6 @@ const data = {
                 "displayName-count-other": "аргенцінскага песа",
                 symbol: "ARS",
                 "symbol-alt-narrow": "$"
-            },
-            ATS: {
-                displayName: "ATS",
-                symbol: "ATS"
             },
             AUD: {
                 displayName: "аўстралійскі долар",
@@ -184,10 +140,6 @@ const data = {
                 "displayName-count-other": "арубанскага фларына",
                 symbol: "AWG"
             },
-            AZM: {
-                displayName: "AZM",
-                symbol: "AZM"
-            },
             AZN: {
                 displayName: "азербайджанскі манат",
                 "displayName-count-one": "азербайджанскі манат",
@@ -197,10 +149,6 @@ const data = {
                 symbol: "AZN",
                 "symbol-alt-narrow": "₼"
             },
-            BAD: {
-                displayName: "BAD",
-                symbol: "BAD"
-            },
             BAM: {
                 displayName: "канверсоўная марка Босніі і Герцагавіны",
                 "displayName-count-one": "канверсоўная марка Босніі і Герцагавіны",
@@ -209,10 +157,6 @@ const data = {
                 "displayName-count-other": "канверсоўнай маркі Босніі і Герцагавіны",
                 symbol: "BAM",
                 "symbol-alt-narrow": "KM"
-            },
-            BAN: {
-                displayName: "BAN",
-                symbol: "BAN"
             },
             BBD: {
                 displayName: "барбадаскі долар",
@@ -232,26 +176,6 @@ const data = {
                 symbol: "BDT",
                 "symbol-alt-narrow": "৳"
             },
-            BEC: {
-                displayName: "BEC",
-                symbol: "BEC"
-            },
-            BEF: {
-                displayName: "BEF",
-                symbol: "BEF"
-            },
-            BEL: {
-                displayName: "BEL",
-                symbol: "BEL"
-            },
-            BGL: {
-                displayName: "BGL",
-                symbol: "BGL"
-            },
-            BGM: {
-                displayName: "BGM",
-                symbol: "BGM"
-            },
             BGN: {
                 displayName: "балгарскі леў",
                 "displayName-count-one": "балгарскі леў",
@@ -259,10 +183,6 @@ const data = {
                 "displayName-count-many": "балгарскіх леваў",
                 "displayName-count-other": "балгарскага лева",
                 symbol: "BGN"
-            },
-            BGO: {
-                displayName: "BGO",
-                symbol: "BGO"
             },
             BHD: {
                 displayName: "бахрэйнскі дынар",
@@ -307,30 +227,6 @@ const data = {
                 symbol: "BOB",
                 "symbol-alt-narrow": "Bs"
             },
-            BOL: {
-                displayName: "BOL",
-                symbol: "BOL"
-            },
-            BOP: {
-                displayName: "BOP",
-                symbol: "BOP"
-            },
-            BOV: {
-                displayName: "BOV",
-                symbol: "BOV"
-            },
-            BRB: {
-                displayName: "BRB",
-                symbol: "BRB"
-            },
-            BRC: {
-                displayName: "BRC",
-                symbol: "BRC"
-            },
-            BRE: {
-                displayName: "BRE",
-                symbol: "BRE"
-            },
             BRL: {
                 displayName: "бразільскі рэал",
                 "displayName-count-one": "бразільскі рэал",
@@ -339,18 +235,6 @@ const data = {
                 "displayName-count-other": "бразільскага рэала",
                 symbol: "BRL",
                 "symbol-alt-narrow": "R$"
-            },
-            BRN: {
-                displayName: "BRN",
-                symbol: "BRN"
-            },
-            BRR: {
-                displayName: "BRR",
-                symbol: "BRR"
-            },
-            BRZ: {
-                displayName: "BRZ",
-                symbol: "BRZ"
             },
             BSD: {
                 displayName: "багамскі долар",
@@ -369,10 +253,6 @@ const data = {
                 "displayName-count-other": "бутанскага нгултрума",
                 symbol: "BTN"
             },
-            BUK: {
-                displayName: "BUK",
-                symbol: "BUK"
-            },
             BWP: {
                 displayName: "батсванская пула",
                 "displayName-count-one": "батсванская пула",
@@ -381,10 +261,6 @@ const data = {
                 "displayName-count-other": "батсванскай пулы",
                 symbol: "BWP",
                 "symbol-alt-narrow": "P"
-            },
-            BYB: {
-                displayName: "BYB",
-                symbol: "BYB"
             },
             BYN: {
                 displayName: "беларускі рубель",
@@ -428,10 +304,6 @@ const data = {
                 "displayName-count-other": "кангалезскага франка",
                 symbol: "CDF"
             },
-            CHE: {
-                displayName: "CHE",
-                symbol: "CHE"
-            },
             CHF: {
                 displayName: "швейцарскі франк",
                 "displayName-count-one": "швейцарскі франк",
@@ -439,18 +311,6 @@ const data = {
                 "displayName-count-many": "швейцарскіх франкаў",
                 "displayName-count-other": "швейцарскага франка",
                 symbol: "CHF"
-            },
-            CHW: {
-                displayName: "CHW",
-                symbol: "CHW"
-            },
-            CLE: {
-                displayName: "CLE",
-                symbol: "CLE"
-            },
-            CLF: {
-                displayName: "CLF",
-                symbol: "CLF"
             },
             CLP: {
                 displayName: "чылійскае песа",
@@ -468,10 +328,6 @@ const data = {
                 "displayName-count-many": "афшорных кітайскіх юаняў",
                 "displayName-count-other": "афшорнага кітайскага юаня",
                 symbol: "CNH"
-            },
-            CNX: {
-                displayName: "CNX",
-                symbol: "CNX"
             },
             CNY: {
                 displayName: "кітайскі юань",
@@ -491,10 +347,6 @@ const data = {
                 symbol: "COP",
                 "symbol-alt-narrow": "$"
             },
-            COU: {
-                displayName: "COU",
-                symbol: "COU"
-            },
             CRC: {
                 displayName: "коста-рыканскі калон",
                 "displayName-count-one": "коста-рыканскі калон",
@@ -503,14 +355,6 @@ const data = {
                 "displayName-count-other": "коста-рыканскага калона",
                 symbol: "CRC",
                 "symbol-alt-narrow": "₡"
-            },
-            CSD: {
-                displayName: "CSD",
-                symbol: "CSD"
-            },
-            CSK: {
-                displayName: "CSK",
-                symbol: "CSK"
             },
             CUC: {
                 displayName: "кубінскае канверсоўнае песа",
@@ -538,10 +382,6 @@ const data = {
                 "displayName-count-other": "эскуда Каба-Вердэ",
                 symbol: "CVE"
             },
-            CYP: {
-                displayName: "CYP",
-                symbol: "CYP"
-            },
             CZK: {
                 displayName: "чэшская крона",
                 "displayName-count-one": "чэшская крона",
@@ -550,14 +390,6 @@ const data = {
                 "displayName-count-other": "чэшскай кроны",
                 symbol: "CZK",
                 "symbol-alt-narrow": "Kč"
-            },
-            DDM: {
-                displayName: "DDM",
-                symbol: "DDM"
-            },
-            DEM: {
-                displayName: "DEM",
-                symbol: "DEM"
             },
             DJF: {
                 displayName: "джыбуційскі франк",
@@ -593,18 +425,6 @@ const data = {
                 "displayName-count-other": "алжырскага дынара",
                 symbol: "DZD"
             },
-            ECS: {
-                displayName: "ECS",
-                symbol: "ECS"
-            },
-            ECV: {
-                displayName: "ECV",
-                symbol: "ECV"
-            },
-            EEK: {
-                displayName: "EEK",
-                symbol: "EEK"
-            },
             EGP: {
                 displayName: "егіпецкі фунт",
                 "displayName-count-one": "егіпецкі фунт",
@@ -622,17 +442,7 @@ const data = {
                 "displayName-count-other": "эрытрэйскай накфы",
                 symbol: "ERN"
             },
-            ESA: {
-                displayName: "ESA",
-                symbol: "ESA"
-            },
-            ESB: {
-                displayName: "ESB",
-                symbol: "ESB"
-            },
             ESP: {
-                displayName: "ESP",
-                symbol: "ESP",
                 "symbol-alt-narrow": "₧"
             },
             ETB: {
@@ -652,10 +462,6 @@ const data = {
                 symbol: "€",
                 "symbol-alt-narrow": "€"
             },
-            FIM: {
-                displayName: "FIM",
-                symbol: "FIM"
-            },
             FJD: {
                 displayName: "фіджыйскі долар",
                 "displayName-count-one": "фіджыйскі долар",
@@ -674,10 +480,6 @@ const data = {
                 symbol: "FKP",
                 "symbol-alt-narrow": "FK£"
             },
-            FRF: {
-                displayName: "FRF",
-                symbol: "FRF"
-            },
             GBP: {
                 displayName: "брытанскі фунт стэрлінгаў",
                 "displayName-count-one": "брытанскі фунт стэрлінгаў",
@@ -687,10 +489,6 @@ const data = {
                 symbol: "£",
                 "symbol-alt-narrow": "£"
             },
-            GEK: {
-                displayName: "GEK",
-                symbol: "GEK"
-            },
             GEL: {
                 displayName: "грузінскі лары",
                 "displayName-count-one": "грузінскі лары",
@@ -699,10 +497,6 @@ const data = {
                 "displayName-count-other": "грузінскага лары",
                 symbol: "GEL",
                 "symbol-alt-narrow": "₾"
-            },
-            GHC: {
-                displayName: "GHC",
-                symbol: "GHC"
             },
             GHS: {
                 displayName: "ганскі седзі",
@@ -739,18 +533,6 @@ const data = {
                 symbol: "GNF",
                 "symbol-alt-narrow": "FG"
             },
-            GNS: {
-                displayName: "GNS",
-                symbol: "GNS"
-            },
-            GQE: {
-                displayName: "GQE",
-                symbol: "GQE"
-            },
-            GRD: {
-                displayName: "GRD",
-                symbol: "GRD"
-            },
             GTQ: {
                 displayName: "гватэмальскі кетсаль",
                 "displayName-count-one": "гватэмальскі кетсаль",
@@ -759,14 +541,6 @@ const data = {
                 "displayName-count-other": "гватэмальскага кетсаля",
                 symbol: "GTQ",
                 "symbol-alt-narrow": "Q"
-            },
-            GWE: {
-                displayName: "GWE",
-                symbol: "GWE"
-            },
-            GWP: {
-                displayName: "GWP",
-                symbol: "GWP"
             },
             GYD: {
                 displayName: "гаянскі долар",
@@ -794,10 +568,6 @@ const data = {
                 "displayName-count-other": "гандураскай лемпіры",
                 symbol: "HNL",
                 "symbol-alt-narrow": "L"
-            },
-            HRD: {
-                displayName: "HRD",
-                symbol: "HRD"
             },
             HRK: {
                 displayName: "харвацкая куна",
@@ -834,18 +604,6 @@ const data = {
                 symbol: "IDR",
                 "symbol-alt-narrow": "Rp"
             },
-            IEP: {
-                displayName: "IEP",
-                symbol: "IEP"
-            },
-            ILP: {
-                displayName: "ILP",
-                symbol: "ILP"
-            },
-            ILR: {
-                displayName: "ILR",
-                symbol: "ILR"
-            },
             ILS: {
                 displayName: "новы ізраільскі шэкель",
                 "displayName-count-one": "новы ізраільскі шэкель",
@@ -880,10 +638,6 @@ const data = {
                 "displayName-count-other": "іранскага рыяла",
                 symbol: "IRR"
             },
-            ISJ: {
-                displayName: "ISJ",
-                symbol: "ISJ"
-            },
             ISK: {
                 displayName: "ісландская крона",
                 "displayName-count-one": "ісландская крона",
@@ -892,10 +646,6 @@ const data = {
                 "displayName-count-other": "ісландскай кроны",
                 symbol: "ISK",
                 "symbol-alt-narrow": "Íkr"
-            },
-            ITL: {
-                displayName: "ITL",
-                symbol: "ITL"
             },
             JMD: {
                 displayName: "ямайскі долар",
@@ -965,14 +715,6 @@ const data = {
                 "displayName-count-other": "паўночнакарэйскай воны",
                 symbol: "KPW",
                 "symbol-alt-narrow": "₩"
-            },
-            KRH: {
-                displayName: "KRH",
-                symbol: "KRH"
-            },
-            KRO: {
-                displayName: "KRO",
-                symbol: "KRO"
             },
             KRW: {
                 displayName: "паўднёвакарэйская вона",
@@ -1050,38 +792,13 @@ const data = {
                 "displayName-count-one": "лесоцкі лоці",
                 "displayName-count-few": "лесоцкія лоці",
                 "displayName-count-many": "лесоцкіх лоці",
-                "displayName-count-other": "лесоцкага лоці",
-                symbol: "LSL"
+                "displayName-count-other": "лесоцкага лоці"
             },
             LTL: {
-                displayName: "LTL",
-                symbol: "LTL",
                 "symbol-alt-narrow": "Lt"
             },
-            LTT: {
-                displayName: "LTT",
-                symbol: "LTT"
-            },
-            LUC: {
-                displayName: "LUC",
-                symbol: "LUC"
-            },
-            LUF: {
-                displayName: "LUF",
-                symbol: "LUF"
-            },
-            LUL: {
-                displayName: "LUL",
-                symbol: "LUL"
-            },
             LVL: {
-                displayName: "LVL",
-                symbol: "LVL",
                 "symbol-alt-narrow": "Ls"
-            },
-            LVR: {
-                displayName: "LVR",
-                symbol: "LVR"
             },
             LYD: {
                 displayName: "лівійскі дынар",
@@ -1098,18 +815,6 @@ const data = {
                 "displayName-count-many": "мараканскіх дырхамаў",
                 "displayName-count-other": "мараканскага дырхама",
                 symbol: "MAD"
-            },
-            MAF: {
-                displayName: "MAF",
-                symbol: "MAF"
-            },
-            MCF: {
-                displayName: "MCF",
-                symbol: "MCF"
-            },
-            MDC: {
-                displayName: "MDC",
-                symbol: "MDC"
             },
             MDL: {
                 displayName: "малдаўскі лей",
@@ -1128,10 +833,6 @@ const data = {
                 symbol: "MGA",
                 "symbol-alt-narrow": "Ar"
             },
-            MGF: {
-                displayName: "MGF",
-                symbol: "MGF"
-            },
             MKD: {
                 displayName: "македонскі дэнар",
                 "displayName-count-one": "македонскі дэнар",
@@ -1139,14 +840,6 @@ const data = {
                 "displayName-count-many": "македонскіх дэнараў",
                 "displayName-count-other": "македонскага дэнара",
                 symbol: "MKD"
-            },
-            MKN: {
-                displayName: "MKN",
-                symbol: "MKN"
-            },
-            MLF: {
-                displayName: "MLF",
-                symbol: "MLF"
             },
             MMK: {
                 displayName: "м’янманскі к’ят",
@@ -1190,14 +883,6 @@ const data = {
                 "displayName-count-other": "маўрытанскай угіі",
                 symbol: "MRU"
             },
-            MTL: {
-                displayName: "MTL",
-                symbol: "MTL"
-            },
-            MTP: {
-                displayName: "MTP",
-                symbol: "MTP"
-            },
             MUR: {
                 displayName: "маўрыкійская рупія",
                 "displayName-count-one": "маўрыкійская рупія",
@@ -1206,10 +891,6 @@ const data = {
                 "displayName-count-other": "маўрыкійскай рупіі",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
-            },
-            MVP: {
-                displayName: "MVP",
-                symbol: "MVP"
             },
             MVR: {
                 displayName: "мальдыўская руфія",
@@ -1236,14 +917,6 @@ const data = {
                 symbol: "MX$",
                 "symbol-alt-narrow": "MX$"
             },
-            MXP: {
-                displayName: "MXP",
-                symbol: "MXP"
-            },
-            MXV: {
-                displayName: "MXV",
-                symbol: "MXV"
-            },
             MYR: {
                 displayName: "малайзійскі рынгіт",
                 "displayName-count-one": "малайзійскі рынгіт",
@@ -1252,14 +925,6 @@ const data = {
                 "displayName-count-other": "малайзійскага рынгіта",
                 symbol: "MYR",
                 "symbol-alt-narrow": "RM"
-            },
-            MZE: {
-                displayName: "MZE",
-                symbol: "MZE"
-            },
-            MZM: {
-                displayName: "MZM",
-                symbol: "MZM"
             },
             MZN: {
                 displayName: "мазамбікскі метыкал",
@@ -1287,10 +952,6 @@ const data = {
                 symbol: "NGN",
                 "symbol-alt-narrow": "₦"
             },
-            NIC: {
-                displayName: "NIC",
-                symbol: "NIC"
-            },
             NIO: {
                 displayName: "нікарагуанская кордаба",
                 "displayName-count-one": "нікарагуанская кордаба",
@@ -1299,10 +960,6 @@ const data = {
                 "displayName-count-other": "нікарагуанскай кордабы",
                 symbol: "NIO",
                 "symbol-alt-narrow": "C$"
-            },
-            NLG: {
-                displayName: "NLG",
-                symbol: "NLG"
             },
             NOK: {
                 displayName: "нарвежская крона",
@@ -1347,10 +1004,6 @@ const data = {
                 "displayName-count-other": "панамскага бальбоа",
                 symbol: "PAB"
             },
-            PEI: {
-                displayName: "PEI",
-                symbol: "PEI"
-            },
             PEN: {
                 displayName: "перуанскі соль",
                 "displayName-count-one": "перуанскі соль",
@@ -1358,10 +1011,6 @@ const data = {
                 "displayName-count-many": "перуанскіх соляў",
                 "displayName-count-other": "перуанскага соля",
                 symbol: "PEN"
-            },
-            PES: {
-                displayName: "PES",
-                symbol: "PES"
             },
             PGK: {
                 displayName: "кіна Папуа-Новай Гвінеі",
@@ -1398,14 +1047,6 @@ const data = {
                 symbol: "PLN",
                 "symbol-alt-narrow": "zł"
             },
-            PLZ: {
-                displayName: "PLZ",
-                symbol: "PLZ"
-            },
-            PTE: {
-                displayName: "PTE",
-                symbol: "PTE"
-            },
             PYG: {
                 displayName: "парагвайскі гуарані",
                 "displayName-count-one": "парагвайскі гуарані",
@@ -1422,14 +1063,6 @@ const data = {
                 "displayName-count-many": "катарскіх рыялаў",
                 "displayName-count-other": "катарскага рыяла",
                 symbol: "QAR"
-            },
-            RHD: {
-                displayName: "RHD",
-                symbol: "RHD"
-            },
-            ROL: {
-                displayName: "ROL",
-                symbol: "ROL"
             },
             RON: {
                 displayName: "румынскі лей",
@@ -1456,10 +1089,6 @@ const data = {
                 "displayName-count-other": "расійскага рубля",
                 symbol: "₽",
                 "symbol-alt-narrow": "руб."
-            },
-            RUR: {
-                displayName: "RUR",
-                symbol: "RUR"
             },
             RWF: {
                 displayName: "руандыйскі франк",
@@ -1495,10 +1124,6 @@ const data = {
                 "displayName-count-other": "сейшэльскай рупіі",
                 symbol: "SCR"
             },
-            SDD: {
-                displayName: "SDD",
-                symbol: "SDD"
-            },
             SDG: {
                 displayName: "суданскі фунт",
                 "displayName-count-one": "суданскі фунт",
@@ -1506,10 +1131,6 @@ const data = {
                 "displayName-count-many": "суданскіх фунтаў",
                 "displayName-count-other": "суданскага фунта",
                 symbol: "SDG"
-            },
-            SDP: {
-                displayName: "SDP",
-                symbol: "SDP"
             },
             SEK: {
                 displayName: "шведская крона",
@@ -1538,18 +1159,6 @@ const data = {
                 symbol: "SHP",
                 "symbol-alt-narrow": "£"
             },
-            SIT: {
-                displayName: "SIT",
-                symbol: "SIT"
-            },
-            SKK: {
-                displayName: "SKK",
-                symbol: "SKK"
-            },
-            SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
-            },
             SLL: {
                 displayName: "сьера-леонскі леонэ",
                 "displayName-count-one": "сьера-леонскі леонэ",
@@ -1574,10 +1183,6 @@ const data = {
                 "displayName-count-other": "сурынамскага долара",
                 symbol: "SRD",
                 "symbol-alt-narrow": "$"
-            },
-            SRG: {
-                displayName: "SRG",
-                symbol: "SRG"
             },
             SSP: {
                 displayName: "паўднёвасуданскі фунт",
@@ -1605,14 +1210,6 @@ const data = {
                 symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },
-            SUR: {
-                displayName: "SUR",
-                symbol: "SUR"
-            },
-            SVC: {
-                displayName: "SVC",
-                symbol: "SVC"
-            },
             SYP: {
                 displayName: "сірыйскі фунт",
                 "displayName-count-one": "сірыйскі фунт",
@@ -1639,10 +1236,6 @@ const data = {
                 symbol: "THB",
                 "symbol-alt-narrow": "฿"
             },
-            TJR: {
-                displayName: "TJR",
-                symbol: "TJR"
-            },
             TJS: {
                 displayName: "таджыкскі самані",
                 "displayName-count-one": "таджыкскі самані",
@@ -1650,10 +1243,6 @@ const data = {
                 "displayName-count-many": "таджыкскіх самані",
                 "displayName-count-other": "таджыкскага самані",
                 symbol: "TJS"
-            },
-            TMM: {
-                displayName: "TMM",
-                symbol: "TMM"
             },
             TMT: {
                 displayName: "туркменскі манат",
@@ -1679,14 +1268,6 @@ const data = {
                 "displayName-count-other": "танганскай паангі",
                 symbol: "TOP",
                 "symbol-alt-narrow": "T$"
-            },
-            TPE: {
-                displayName: "TPE",
-                symbol: "TPE"
-            },
-            TRL: {
-                displayName: "TRL",
-                symbol: "TRL"
             },
             TRY: {
                 displayName: "турэцкая ліра",
@@ -1733,14 +1314,6 @@ const data = {
                 symbol: "UAH",
                 "symbol-alt-narrow": "₴"
             },
-            UAK: {
-                displayName: "UAK",
-                symbol: "UAK"
-            },
-            UGS: {
-                displayName: "UGS",
-                symbol: "UGS"
-            },
             UGX: {
                 displayName: "угандыйскі шылінг",
                 "displayName-count-one": "угандыйскі шылінг",
@@ -1758,22 +1331,6 @@ const data = {
                 symbol: "$",
                 "symbol-alt-narrow": "$"
             },
-            USN: {
-                displayName: "USN",
-                symbol: "USN"
-            },
-            USS: {
-                displayName: "USS",
-                symbol: "USS"
-            },
-            UYI: {
-                displayName: "UYI",
-                symbol: "UYI"
-            },
-            UYP: {
-                displayName: "UYP",
-                symbol: "UYP"
-            },
             UYU: {
                 displayName: "уругвайскае песа",
                 "displayName-count-one": "уругвайскае песа",
@@ -1783,10 +1340,6 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$U"
             },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
-            },
             UZS: {
                 displayName: "узбекскі сум",
                 "displayName-count-one": "узбекскі сум",
@@ -1794,14 +1347,6 @@ const data = {
                 "displayName-count-many": "узбекскіх сумаў",
                 "displayName-count-other": "узбекскага сума",
                 symbol: "UZS"
-            },
-            VEB: {
-                displayName: "VEB",
-                symbol: "VEB"
-            },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
             },
             VEF: {
                 displayName: "венесуальскі балівар (2008–2018)",
@@ -1829,10 +1374,6 @@ const data = {
                 symbol: "₫",
                 "symbol-alt-narrow": "₫"
             },
-            VNN: {
-                displayName: "VNN",
-                symbol: "VNN"
-            },
             VUV: {
                 displayName: "вануацкі вату",
                 "displayName-count-one": "вануацкі вату",
@@ -1857,30 +1398,6 @@ const data = {
                 "displayName-count-other": "цэнтральнаафрыканскага франка КФА",
                 symbol: "FCFA"
             },
-            XAG: {
-                displayName: "XAG",
-                symbol: "XAG"
-            },
-            XAU: {
-                displayName: "XAU",
-                symbol: "XAU"
-            },
-            XBA: {
-                displayName: "XBA",
-                symbol: "XBA"
-            },
-            XBB: {
-                displayName: "XBB",
-                symbol: "XBB"
-            },
-            XBC: {
-                displayName: "XBC",
-                symbol: "XBC"
-            },
-            XBD: {
-                displayName: "XBD",
-                symbol: "XBD"
-            },
             XCD: {
                 displayName: "усходнекарыбскі долар",
                 "displayName-count-one": "усходнекарыбскі долар",
@@ -1890,22 +1407,6 @@ const data = {
                 symbol: "EC$",
                 "symbol-alt-narrow": "EC$"
             },
-            XDR: {
-                displayName: "XDR",
-                symbol: "XDR"
-            },
-            XEU: {
-                displayName: "XEU",
-                symbol: "XEU"
-            },
-            XFO: {
-                displayName: "XFO",
-                symbol: "XFO"
-            },
-            XFU: {
-                displayName: "XFU",
-                symbol: "XFU"
-            },
             XOF: {
                 displayName: "заходнеафрыканскі франк КФА",
                 "displayName-count-one": "заходнеафрыканскі франк КФА",
@@ -1913,10 +1414,6 @@ const data = {
                 "displayName-count-many": "заходнеафрыканскіх франкаў КФА",
                 "displayName-count-other": "заходнеафрыканскага франка КФА",
                 symbol: "F CFA"
-            },
-            XPD: {
-                displayName: "XPD",
-                symbol: "XPD"
             },
             XPF: {
                 displayName: "французскі ціхаакіянскі франк",
@@ -1926,26 +1423,6 @@ const data = {
                 "displayName-count-other": "французскага ціхаакіянскага франка",
                 symbol: "CFPF"
             },
-            XPT: {
-                displayName: "XPT",
-                symbol: "XPT"
-            },
-            XRE: {
-                displayName: "XRE",
-                symbol: "XRE"
-            },
-            XSU: {
-                displayName: "XSU",
-                symbol: "XSU"
-            },
-            XTS: {
-                displayName: "XTS",
-                symbol: "XTS"
-            },
-            XUA: {
-                displayName: "XUA",
-                symbol: "XUA"
-            },
             XXX: {
                 displayName: "невядомая валюта",
                 "displayName-count-one": "невядомай валюты",
@@ -1954,10 +1431,6 @@ const data = {
                 "displayName-count-other": "невядомай валюты",
                 symbol: "¤"
             },
-            YDD: {
-                displayName: "YDD",
-                symbol: "YDD"
-            },
             YER: {
                 displayName: "еменскі рыал",
                 "displayName-count-one": "еменскі рыял",
@@ -1965,26 +1438,6 @@ const data = {
                 "displayName-count-many": "еменскіх рыялаў",
                 "displayName-count-other": "еменскага рыяла",
                 symbol: "YER"
-            },
-            YUD: {
-                displayName: "YUD",
-                symbol: "YUD"
-            },
-            YUM: {
-                displayName: "YUM",
-                symbol: "YUM"
-            },
-            YUN: {
-                displayName: "YUN",
-                symbol: "YUN"
-            },
-            YUR: {
-                displayName: "YUR",
-                symbol: "YUR"
-            },
-            ZAL: {
-                displayName: "ZAL",
-                symbol: "ZAL"
             },
             ZAR: {
                 displayName: "паўднёваафрыканскі рэнд",
@@ -1995,10 +1448,6 @@ const data = {
                 symbol: "ZAR",
                 "symbol-alt-narrow": "R"
             },
-            ZMK: {
-                displayName: "ZMK",
-                symbol: "ZMK"
-            },
             ZMW: {
                 displayName: "замбійская квача",
                 "displayName-count-one": "замбійская квача",
@@ -2007,26 +1456,6 @@ const data = {
                 "displayName-count-other": "замбійскай квачы",
                 symbol: "ZMW",
                 "symbol-alt-narrow": "ZK"
-            },
-            ZRN: {
-                displayName: "ZRN",
-                symbol: "ZRN"
-            },
-            ZRZ: {
-                displayName: "ZRZ",
-                symbol: "ZRZ"
-            },
-            ZWD: {
-                displayName: "ZWD",
-                symbol: "ZWD"
-            },
-            ZWL: {
-                displayName: "ZWL",
-                symbol: "ZWL"
-            },
-            ZWR: {
-                displayName: "ZWR",
-                symbol: "ZWR"
             }
         },
         localeCurrency: "BYN"
@@ -2034,12 +1463,12 @@ const data = {
     calendar: {
         patterns: {
             d: "d.MM.y",
-            D: "EEEE, d MMMM y 'г'.",
+            D: "EEEE, d MMMM y 'г'.",
             m: "d MMM",
             M: "d MMMM",
             y: "LLL y",
             Y: "LLLL y",
-            F: "EEEE, d MMMM y 'г'. HH:mm:ss",
+            F: "EEEE, d MMMM y 'г'. HH:mm:ss",
             g: "d.M.y HH:mm",
             G: "d.M.y HH:mm:ss",
             t: "HH:mm",
@@ -2048,8 +1477,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} 'у' {0}",
-            long: "{1} 'у' {0}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
@@ -2061,24 +1490,24 @@ const data = {
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "d, E",
-                Ehm: "E h:mm a",
+                Ehm: "E h:mm a",
                 EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
-                Gy: "y 'г'. G",
+                Gy: "y 'г'. G",
                 GyMd: "dd.MM.y GGGGG",
-                GyMMM: "LLL y 'г'. G",
-                GyMMMd: "d MMM y 'г'. G",
-                GyMMMEd: "E, d MMM y 'г'. G",
-                h: "hh a",
+                GyMMM: "LLL y 'г'. G",
+                GyMMMd: "d MMM y 'г'. G",
+                GyMMMEd: "E, d MMM y 'г'. G",
+                h: "hh a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
                 M: "L",
                 Md: "d.M",
@@ -2116,9 +1545,9 @@ const data = {
             short: "HH:mm"
         },
         dateFormats: {
-            full: "EEEE, d MMMM y 'г'.",
-            long: "d MMMM y 'г'.",
-            medium: "d MMM y 'г'.",
+            full: "EEEE, d MMMM y 'г'.",
+            long: "d MMMM y 'г'.",
+            medium: "d MMM y 'г'.",
             short: "d.MM.yy"
         },
         days: {

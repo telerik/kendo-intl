@@ -38,9 +38,9 @@ const data = {
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "E d",
-                Ehm: "E, h:mm a",
+                Ehm: "E, h:mm a",
                 EHm: "E, HH:mm",
-                Ehms: "E, h:mm:ss a",
+                Ehms: "E, h:mm:ss a",
                 EHms: "E, HH:mm:ss",
                 Gy: "y G",
                 GyMd: "d/M/y GGGGG",
@@ -50,17 +50,17 @@ const data = {
                 GyMMMM: "MMMM 'de' y G",
                 GyMMMMd: "d 'de' MMMM 'de' y G",
                 GyMMMMEd: "E, d 'de' MMMM 'de' y G",
-                h: "h a",
+                h: "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
                 hms: "hh:mm:ss",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmsvvvv: "h:mm:ss a (vvvv)",
+                hmsvvvv: "h:mm:ss a (vvvv)",
                 Hmsvvvv: "HH:mm:ss (vvvv)",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
                 M: "L",
                 Md: "d/M",
@@ -318,18 +318,18 @@ const data = {
         dayPeriods: {
             format: {
                 abbreviated: {
-                    am: "a. m.",
+                    am: "a. m.",
                     noon: "mediodía",
-                    pm: "p. m.",
+                    pm: "p. m.",
                     morning1: "madrugada",
                     morning2: "mañana",
                     evening1: "tarde",
                     night1: "noche"
                 },
                 narrow: {
-                    am: "a. m.",
+                    am: "a. m.",
                     noon: "del mediodía",
-                    pm: "p. m.",
+                    pm: "p. m.",
                     morning1: "de la madrugada",
                     morning2: "de la mañana",
                     evening1: "de la tarde",
@@ -347,18 +347,18 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: {
-                    am: "a. m.",
+                    am: "a. m.",
                     noon: "mediodía",
-                    pm: "p. m.",
+                    pm: "p. m.",
                     morning1: "madrugada",
                     morning2: "mañana",
                     evening1: "tarde",
                     night1: "noche"
                 },
                 narrow: {
-                    am: "a. m.",
+                    am: "a. m.",
                     noon: "m.",
-                    pm: "p. m.",
+                    pm: "p. m.",
                     morning1: "madrugada",
                     morning2: "mañana",
                     evening1: "tarde",
@@ -384,16 +384,16 @@ const data = {
                     "1-alt-variant": "era común"
                 },
                 abbreviated: {
-                    "0": "a. C.",
-                    "1": "d. C.",
-                    "0-alt-variant": "a. e. c.",
-                    "1-alt-variant": "e. c."
+                    "0": "a.C.",
+                    "1": "d.C.",
+                    "0-alt-variant": "a.e.c.",
+                    "1-alt-variant": "e.c."
                 },
                 narrow: {
-                    "0": "a. C.",
-                    "1": "d. C.",
-                    "0-alt-variant": "a. e. c.",
-                    "1-alt-variant": "e. c."
+                    "0": "a.C.",
+                    "1": "d.C.",
+                    "0-alt-variant": "a.e.c.",
+                    "1-alt-variant": "e.c."
                 }
             }
         },

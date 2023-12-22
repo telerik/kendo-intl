@@ -17,11 +17,11 @@ const data = {
             M: "d MMMM",
             y: "MMM y",
             Y: "MMMM y",
-            F: "EEEE, d MMMM, y h:mm:ss a",
-            g: "d/M/y h:mm a",
-            G: "d/M/y h:mm:ss a",
-            t: "h:mm a",
-            T: "h:mm:ss a",
+            F: "EEEE, d MMMM, y h:mm:ss a",
+            g: "d/M/y h:mm a",
+            G: "d/M/y h:mm:ss a",
+            t: "h:mm a",
+            T: "h:mm:ss a",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
@@ -39,24 +39,31 @@ const data = {
                 EBhm: "E, h:mm B",
                 EBhms: "E, h:mm:ss B",
                 Ed: "E d",
-                Ehm: "E, h:mm a",
+                Ehm: "E, h:mm a",
+                "Ehm-alt-ascii": "E, h:mm a",
                 EHm: "E, HH:mm",
-                Ehms: "E, h:mm:ss a",
+                Ehms: "E, h:mm:ss a",
+                "Ehms-alt-ascii": "E, h:mm:ss a",
                 EHms: "E, HH:mm:ss",
-                Gy: "y G",
-                GyMd: "d/M/y GGGGG",
-                GyMMM: "MMM y G",
-                GyMMMd: "d MMM y G",
-                GyMMMEd: "E, d MMM y G",
-                h: "h a",
+                Gy: "G y",
+                GyMd: "d/M/y G",
+                GyMMM: "G y MMM",
+                GyMMMd: "G y, d MMM",
+                GyMMMEd: "G y, dd MMM, E",
+                h: "h a",
+                "h-alt-ascii": "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
+                "hm-alt-ascii": "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
+                "hms-alt-ascii": "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
+                "hmsv-alt-ascii": "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
+                "hmv-alt-ascii": "h:mm a v",
                 Hmv: "HH:mm v",
                 M: "L",
                 Md: "dd/MM",
@@ -66,110 +73,114 @@ const data = {
                 MMMd: "d MMM",
                 MMMEd: "E, d MMM",
                 MMMMd: "d MMMM",
-                "MMMMW-count-one": "'week' W 'of' MMMM",
-                "MMMMW-count-other": "'week' W 'of' MMMM",
+                "MMMMW-count-one": "MMMM 'kaa' 'week' W",
+                "MMMMW-count-other": "MMMM 'kaa' 'week' W",
                 ms: "mm:ss",
                 y: "y",
                 yM: "MM/y",
                 yMd: "d/M/y",
                 yMEd: "E, d/M/y",
                 yMMM: "MMM y",
-                yMMMd: "d MMM y",
+                yMMMd: "d MMM, y",
                 yMMMEd: "E, d MMM, y",
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'week' w 'of' Y",
-                "yw-count-other": "'week' w 'of' Y"
+                "yw-count-one": "Y 'kaa' 'week' w",
+                "yw-count-other": "Y 'kaa' 'week' w"
             }
         },
         timeFormats: {
-            full: "h:mm:ss a zzzz",
-            long: "h:mm:ss a z",
-            medium: "h:mm:ss a",
-            short: "h:mm a"
+            full: "h:mm:ss a zzzz",
+            "full-alt-ascii": "h:mm:ss a zzzz",
+            long: "h:mm:ss a z",
+            "long-alt-ascii": "h:mm:ss a z",
+            medium: "h:mm:ss a",
+            "medium-alt-ascii": "h:mm:ss a",
+            short: "h:mm a",
+            "short-alt-ascii": "h:mm a"
         },
         dateFormats: {
             full: "EEEE, d MMMM, y",
-            long: "d MMMM y",
-            medium: "dd-MMM-y",
+            long: "d MMMM, y",
+            medium: "dd MMM, y",
             short: "dd/MM/y"
         },
         days: {
             format: {
                 abbreviated: [
-                    "ravi",
-                    "som",
-                    "mangal",
-                    "budh",
-                    "guru",
-                    "shukra",
-                    "shani"
+                    "Ravi",
+                    "Som",
+                    "Mangal",
+                    "Budh",
+                    "Guru",
+                    "Shukra",
+                    "Shani"
                 ],
                 narrow: [
-                    "ra",
-                    "so",
-                    "ma",
-                    "bu",
-                    "gu",
-                    "su",
-                    "sa"
+                    "Ra",
+                    "So",
+                    "Ma",
+                    "Bu",
+                    "Gu",
+                    "Sh",
+                    "Sha"
                 ],
                 short: [
-                    "Su",
-                    "Mo",
-                    "Tu",
-                    "We",
-                    "Th",
-                    "Fr",
-                    "Sa"
+                    "Ra",
+                    "So",
+                    "Ma",
+                    "Bu",
+                    "Gu",
+                    "Shu",
+                    "Sha"
                 ],
                 wide: [
-                    "ravivaar",
-                    "somvaar",
-                    "mangalvaar",
-                    "budhvaar",
-                    "guruvaar",
-                    "shukravaar",
-                    "shanivaar"
+                    "Raviwaar",
+                    "Somwaar",
+                    "Mangalwaar",
+                    "Budhwaar",
+                    "Guruwaar",
+                    "Shukrawaar",
+                    "Shaniwaar"
                 ]
             },
             "stand-alone": {
                 abbreviated: [
-                    "ravi",
-                    "som",
-                    "mangal",
-                    "budh",
-                    "guru",
-                    "shukra",
-                    "shani"
+                    "Ravi",
+                    "Som",
+                    "Mangal",
+                    "Budh",
+                    "Guru",
+                    "Shukra",
+                    "Shani"
                 ],
                 narrow: [
-                    "ra",
-                    "so",
-                    "ma",
-                    "bu",
-                    "gu",
-                    "su",
-                    "sa"
+                    "Ra",
+                    "So",
+                    "Ma",
+                    "Bu",
+                    "Gu",
+                    "Sh",
+                    "Sha"
                 ],
                 short: [
-                    "Su",
-                    "Mo",
-                    "Tu",
-                    "We",
-                    "Th",
-                    "Fr",
-                    "Sa"
+                    "Ra",
+                    "So",
+                    "Ma",
+                    "Bu",
+                    "Gu",
+                    "Shu",
+                    "Sha"
                 ],
                 wide: [
-                    "ravivaar",
-                    "somvaar",
-                    "mangalvaar",
-                    "budhvaar",
-                    "guruvaar",
-                    "shukravaar",
-                    "shanivaar"
+                    "Raviwaar",
+                    "Somwaar",
+                    "Mangalwaar",
+                    "Budhwaar",
+                    "Guruwaar",
+                    "Shukrawaar",
+                    "Shaniwaar"
                 ]
             }
         },
@@ -314,10 +325,10 @@ const data = {
                     noon: "noon",
                     pm: "PM",
                     "pm-alt-variant": "pm",
-                    morning1: "in the morning",
-                    afternoon1: "in the afternoon",
-                    evening1: "in the evening",
-                    night1: "at night"
+                    morning1: "subah",
+                    afternoon1: "dopahar",
+                    evening1: "shaam",
+                    night1: "raat"
                 },
                 narrow: {
                     midnight: "mi",
@@ -326,16 +337,16 @@ const data = {
                     noon: "n",
                     pm: "p",
                     "pm-alt-variant": "pm",
-                    morning1: "in the morning",
-                    afternoon1: "in the afternoon",
-                    evening1: "in the evening",
-                    night1: "at night"
+                    morning1: "subah",
+                    afternoon1: "dopahar",
+                    evening1: "shaam",
+                    night1: "raat"
                 },
                 wide: {
                     midnight: "aadhi raat",
                     am: "AM",
                     "am-alt-variant": "am",
-                    noon: "noon",
+                    noon: "Madhyanh",
                     pm: "PM",
                     "pm-alt-variant": "pm",
                     morning1: "subah",
@@ -359,10 +370,10 @@ const data = {
                 },
                 narrow: {
                     midnight: "midnight",
-                    am: "am",
+                    am: "AM",
                     "am-alt-variant": "am",
                     noon: "noon",
-                    pm: "pm",
+                    pm: "PM",
                     "pm-alt-variant": "pm",
                     morning1: "morning",
                     afternoon1: "afternoon",
@@ -373,7 +384,7 @@ const data = {
                     midnight: "aadhi raat",
                     am: "AM",
                     "am-alt-variant": "am",
-                    noon: "noon",
+                    noon: "Madhyanh",
                     pm: "PM",
                     "pm-alt-variant": "pm",
                     morning1: "subah",
@@ -434,32 +445,32 @@ const data = {
                 narrow: "wk"
             },
             weekOfMonth: {
-                wide: "week of month",
-                short: "wk of mo",
-                narrow: "wk of mo"
+                wide: "month kaa week",
+                short: "mo kaa wk",
+                narrow: "mo kaa wk"
             },
             day: {
                 wide: "din",
-                short: "day",
-                narrow: "day"
+                short: "din",
+                narrow: "din"
             },
             dayOfYear: {
-                wide: "day of year",
-                short: "day of yr",
-                narrow: "day of yr"
+                wide: "saal kaa din",
+                short: "yr kaa day",
+                narrow: "saal kaa din"
             },
             weekday: {
-                wide: "day of the week",
-                short: "day of wk",
-                narrow: "day of wk"
+                wide: "Week kaa din",
+                short: "wk kaa din",
+                narrow: "wk kaa din"
             },
             weekdayOfMonth: {
-                wide: "weekday of the month",
-                short: "wkday of mo",
-                narrow: "wkday of mo"
+                wide: "month kaa weekday",
+                short: "mo kaa wkday",
+                narrow: "mo kaa wkday"
             },
             dayperiod: {
-                short: "am/pm",
+                short: "AM/PM",
                 wide: "AM/PM",
                 narrow: "am/pm"
             },

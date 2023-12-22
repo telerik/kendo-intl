@@ -684,9 +684,9 @@ const data = {
                 symbol: "FRF"
             },
             GBP: {
-                displayName: "Brits pond",
-                "displayName-count-one": "Brits pond",
-                "displayName-count-other": "Brits pond",
+                displayName: "Britse pond",
+                "displayName-count-one": "Britse pond",
+                "displayName-count-other": "Britse pond",
                 symbol: "£",
                 "symbol-alt-narrow": "£"
             },
@@ -1494,13 +1494,14 @@ const data = {
                 symbol: "SKK"
             },
             SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
+                displayName: "Sierra Leoonse leone",
+                "displayName-count-one": "Sierra Leoonse leone",
+                "displayName-count-other": "Sierra Leoonse leone"
             },
             SLL: {
-                displayName: "Sierraleoonse leone",
-                "displayName-count-one": "Sierraleoonse leone",
-                "displayName-count-other": "Sierraleoonse leone",
+                displayName: "Sierraleoonse leone (1964—2022)",
+                "displayName-count-one": "Sierraleoonse leone (1964—2022)",
+                "displayName-count-other": "Sierraleoonse leone (1964—2022)",
                 symbol: "SLL"
             },
             SOS: {
@@ -1717,8 +1718,7 @@ const data = {
             UYW: {
                 displayName: "Uruguayaanse nominale salarisindexeenheid",
                 "displayName-count-one": "Uruguayaanse nominale salarisindexeenheid",
-                "displayName-count-other": "Uruguayaanse nominale salarisindexeenheid",
-                symbol: "UYW"
+                "displayName-count-other": "Uruguayaanse nominale salarisindexeenheid"
             },
             UZS: {
                 displayName: "Oezbeekse sum",
@@ -1733,7 +1733,9 @@ const data = {
                 symbol: "VEB"
             },
             VED: {
-                displayName: "VED",
+                displayName: "Bolívar Soberano",
+                "displayName-count-one": "Bolívar Soberano",
+                "displayName-count-other": "Bolívar Soberanos",
                 symbol: "VED"
             },
             VEF: {
@@ -2013,8 +2015,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} 'om' {0}",
-            long: "{1} 'om' {0}",
+            full: "{1} {0}",
+            long: "{1} {0}",
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
@@ -2162,18 +2164,18 @@ const data = {
         months: {
             format: {
                 abbreviated: [
-                    "jan.",
-                    "feb.",
-                    "mrt.",
-                    "apr.",
+                    "jan",
+                    "feb",
+                    "mrt",
+                    "apr",
                     "mei",
-                    "jun.",
-                    "jul.",
-                    "aug.",
-                    "sep.",
-                    "okt.",
-                    "nov.",
-                    "dec."
+                    "jun",
+                    "jul",
+                    "aug",
+                    "sep",
+                    "okt",
+                    "nov",
+                    "dec"
                 ],
                 narrow: [
                     "J",
@@ -2206,18 +2208,18 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "jan.",
-                    "feb.",
-                    "mrt.",
-                    "apr.",
+                    "jan",
+                    "feb",
+                    "mrt",
+                    "apr",
                     "mei",
-                    "jun.",
-                    "jul.",
-                    "aug.",
-                    "sep.",
-                    "okt.",
-                    "nov.",
-                    "dec."
+                    "jun",
+                    "jul",
+                    "aug",
+                    "sep",
+                    "okt",
+                    "nov",
+                    "dec"
                 ],
                 narrow: [
                     "J",

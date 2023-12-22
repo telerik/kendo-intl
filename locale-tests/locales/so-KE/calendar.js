@@ -25,9 +25,9 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} 'ee' {0}",
-            long: "{1} 'ee' {0}",
-            medium: "{1} 'ee' {0}",
+            full: "{1} {0}",
+            long: "{1} {0}",
+            medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
                 Bh: "h B",
@@ -53,7 +53,7 @@ const data = {
                 Hm: "HH:mm",
                 hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
                 hmv: "h:mm a v",
                 Hmv: "HH:mm v",
@@ -254,11 +254,11 @@ const data = {
                     "May",
                     "Juun",
                     "Luuliyo",
-                    "Ogost",
-                    "Sebtembar",
+                    "Ogosto",
+                    "Sebteembar",
                     "Oktoobar",
-                    "Nofembar",
-                    "Desembar"
+                    "Noofeembar",
+                    "Diseembar"
                 ]
             }
         },

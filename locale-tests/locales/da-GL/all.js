@@ -65,8 +65,7 @@ const data = {
             ADP: {
                 displayName: "Andorransk peseta",
                 "displayName-count-one": "Andorransk peseta",
-                "displayName-count-other": "Andorranske pesetas",
-                symbol: "ADP"
+                "displayName-count-other": "Andorranske pesetas"
             },
             AED: {
                 displayName: "dirham fra de Forenede Arabiske Emirater",
@@ -77,8 +76,7 @@ const data = {
             AFA: {
                 displayName: "Afghansk afghani (1927–2002)",
                 "displayName-count-one": "Afghansk afghani (1927–2002)",
-                "displayName-count-other": "Afghanske afghani (1927–2002)",
-                symbol: "AFA"
+                "displayName-count-other": "Afghanske afghani (1927–2002)"
             },
             AFN: {
                 displayName: "afghansk afghani",
@@ -86,10 +84,6 @@ const data = {
                 "displayName-count-other": "afghanske afghani",
                 symbol: "AFN",
                 "symbol-alt-narrow": "؋"
-            },
-            ALK: {
-                displayName: "ALK",
-                symbol: "ALK"
             },
             ALL: {
                 displayName: "albansk lek",
@@ -120,40 +114,27 @@ const data = {
             AOK: {
                 displayName: "Angolansk kwanza (1977–1990)",
                 "displayName-count-one": "Angolansk kwanza (1977–1990)",
-                "displayName-count-other": "Angolanske kwanza (1977–1990)",
-                symbol: "AOK"
+                "displayName-count-other": "Angolanske kwanza (1977–1990)"
             },
             AON: {
                 displayName: "Angolansk nye kwanza (1990–2000)",
                 "displayName-count-one": "Angolansk nye kwanza (1990–2000)",
-                "displayName-count-other": "Angolanske nye kwanza (1990–2000)",
-                symbol: "AON"
+                "displayName-count-other": "Angolanske nye kwanza (1990–2000)"
             },
             AOR: {
                 displayName: "Angolansk kwanza (1995–1999)",
                 "displayName-count-one": "Angolansk kwanza (1995–1999)",
-                "displayName-count-other": "Angolanske kwanza (1995–1999)",
-                symbol: "AOR"
+                "displayName-count-other": "Angolanske kwanza (1995–1999)"
             },
             ARA: {
                 displayName: "Argentinsk austral",
                 "displayName-count-one": "Argentinsk austral",
-                "displayName-count-other": "Argentinske austral",
-                symbol: "ARA"
-            },
-            ARL: {
-                displayName: "ARL",
-                symbol: "ARL"
-            },
-            ARM: {
-                displayName: "ARM",
-                symbol: "ARM"
+                "displayName-count-other": "Argentinske austral"
             },
             ARP: {
                 displayName: "Argentinsk peso (1983–1985)",
                 "displayName-count-one": "Argentinsk pesos (1983–1985)",
-                "displayName-count-other": "Argentinske pesos (1983–1985)",
-                symbol: "ARP"
+                "displayName-count-other": "Argentinske pesos (1983–1985)"
             },
             ARS: {
                 displayName: "argentinsk peso",
@@ -165,8 +146,7 @@ const data = {
             ATS: {
                 displayName: "Østrigsk schilling",
                 "displayName-count-one": "Østrigsk schilling",
-                "displayName-count-other": "Østrigske schilling",
-                symbol: "ATS"
+                "displayName-count-other": "Østrigske schilling"
             },
             AUD: {
                 displayName: "australsk dollar",
@@ -184,8 +164,7 @@ const data = {
             AZM: {
                 displayName: "Aserbajdsjansk manat (1993–2006)",
                 "displayName-count-one": "Aserbajdsjansk manat (1993–2006)",
-                "displayName-count-other": "Aserbajdsjanske manat (1993–2006)",
-                symbol: "AZM"
+                "displayName-count-other": "Aserbajdsjanske manat (1993–2006)"
             },
             AZN: {
                 displayName: "aserbajdsjansk manat",
@@ -197,8 +176,7 @@ const data = {
             BAD: {
                 displayName: "Bosnien-Hercegovinsk dinar",
                 "displayName-count-one": "Bosnien-Hercegovinsk dinar",
-                "displayName-count-other": "Bosnien-Hercegovinske dinarer",
-                symbol: "BAD"
+                "displayName-count-other": "Bosnien-Hercegovinske dinarer"
             },
             BAM: {
                 displayName: "bosnien-hercegovinsk konvertibel mark",
@@ -206,10 +184,6 @@ const data = {
                 "displayName-count-other": "bosnien-hercegovinske konvertible mark",
                 symbol: "BAM",
                 "symbol-alt-narrow": "KM"
-            },
-            BAN: {
-                displayName: "BAN",
-                symbol: "BAN"
             },
             BBD: {
                 displayName: "barbadisk dollar",
@@ -228,40 +202,28 @@ const data = {
             BEC: {
                 displayName: "Belgisk franc (konvertibel)",
                 "displayName-count-one": "Belgisk franc (konvertibel)",
-                "displayName-count-other": "Belgiske franc (konvertible)",
-                symbol: "BEC"
+                "displayName-count-other": "Belgiske franc (konvertible)"
             },
             BEF: {
                 displayName: "Belgisk franc",
                 "displayName-count-one": "Belgisk franc",
-                "displayName-count-other": "Belgiske franc",
-                symbol: "BEF"
+                "displayName-count-other": "Belgiske franc"
             },
             BEL: {
                 displayName: "Belgisk franc (financial)",
                 "displayName-count-one": "Belgisk franc (financial)",
-                "displayName-count-other": "Belgiske franc (financial)",
-                symbol: "BEL"
+                "displayName-count-other": "Belgiske franc (financial)"
             },
             BGL: {
                 displayName: "Bulgarsk hard lev",
                 "displayName-count-one": "Bulgarsk hard lev",
-                "displayName-count-other": "Bulgarske hard lev",
-                symbol: "BGL"
-            },
-            BGM: {
-                displayName: "BGM",
-                symbol: "BGM"
+                "displayName-count-other": "Bulgarske hard lev"
             },
             BGN: {
                 displayName: "bulgarsk lev",
                 "displayName-count-one": "bulgarsk lev",
                 "displayName-count-other": "bulgarske leva",
                 symbol: "BGN"
-            },
-            BGO: {
-                displayName: "BGO",
-                symbol: "BGO"
             },
             BHD: {
                 displayName: "bahrainsk dinar",
@@ -296,39 +258,30 @@ const data = {
                 symbol: "BOB",
                 "symbol-alt-narrow": "Bs"
             },
-            BOL: {
-                displayName: "BOL",
-                symbol: "BOL"
-            },
             BOP: {
                 displayName: "Boliviansk peso",
                 "displayName-count-one": "Boliviansk peso",
-                "displayName-count-other": "Bolivianske pesos",
-                symbol: "BOP"
+                "displayName-count-other": "Bolivianske pesos"
             },
             BOV: {
                 displayName: "Boliviansk mvdol",
                 "displayName-count-one": "Boliviansk mvdol",
-                "displayName-count-other": "Bolivianske mvdol",
-                symbol: "BOV"
+                "displayName-count-other": "Bolivianske mvdol"
             },
             BRB: {
                 displayName: "Brasiliansk cruzeiro novo (1967–1986)",
                 "displayName-count-one": "Brasiliansk cruzeiro novo (1967–1986)",
-                "displayName-count-other": "Brasilianske cruzeiro novo (1967–1986)",
-                symbol: "BRB"
+                "displayName-count-other": "Brasilianske cruzeiro novo (1967–1986)"
             },
             BRC: {
                 displayName: "Brasiliansk cruzado (1986–1989)",
                 "displayName-count-one": "Brasiliansk cruzado (1986–1989)",
-                "displayName-count-other": "Brasilianske cruzado (1986–1989)",
-                symbol: "BRC"
+                "displayName-count-other": "Brasilianske cruzado (1986–1989)"
             },
             BRE: {
                 displayName: "Brasiliansk cruzeiro (1990–1993)",
                 "displayName-count-one": "Brasiliansk cruzeiro (1990–1993)",
-                "displayName-count-other": "Brasilianske cruzeiro (1990–1993)",
-                symbol: "BRE"
+                "displayName-count-other": "Brasilianske cruzeiro (1990–1993)"
             },
             BRL: {
                 displayName: "brasiliansk real",
@@ -340,18 +293,12 @@ const data = {
             BRN: {
                 displayName: "Brasiliansk cruzado novo (1989–1990)",
                 "displayName-count-one": "Brasiliansk cruzado novo (1989–1990)",
-                "displayName-count-other": "Brasilianske cruzado novo (1989–1990)",
-                symbol: "BRN"
+                "displayName-count-other": "Brasilianske cruzado novo (1989–1990)"
             },
             BRR: {
                 displayName: "Brasiliansk cruzeiro (1993–1994)",
                 "displayName-count-one": "Brasiliansk cruzeiro (1993–1994)",
-                "displayName-count-other": "Brasilianske cruzeiro (1993–1994)",
-                symbol: "BRR"
-            },
-            BRZ: {
-                displayName: "BRZ",
-                symbol: "BRZ"
+                "displayName-count-other": "Brasilianske cruzeiro (1993–1994)"
             },
             BSD: {
                 displayName: "bahamansk dollar",
@@ -369,8 +316,7 @@ const data = {
             BUK: {
                 displayName: "Burmesisk kyat",
                 "displayName-count-one": "Burmesisk kyat",
-                "displayName-count-other": "Burmesiske kyat",
-                symbol: "BUK"
+                "displayName-count-other": "Burmesiske kyat"
             },
             BWP: {
                 displayName: "botswansk pula",
@@ -382,8 +328,7 @@ const data = {
             BYB: {
                 displayName: "Hviderussisk rubel (1994–1999)",
                 "displayName-count-one": "Hviderussisk rubel (1994–1999)",
-                "displayName-count-other": "Hviderussiske rubler (1994–1999)",
-                symbol: "BYB"
+                "displayName-count-other": "Hviderussiske rubler (1994–1999)"
             },
             BYN: {
                 displayName: "hviderussisk rubel",
@@ -421,8 +366,7 @@ const data = {
             CHE: {
                 displayName: "WIR euro",
                 "displayName-count-one": "WIR euro",
-                "displayName-count-other": "WIR euro",
-                symbol: "CHE"
+                "displayName-count-other": "WIR euro"
             },
             CHF: {
                 displayName: "schweizerfranc",
@@ -433,16 +377,7 @@ const data = {
             CHW: {
                 displayName: "WIR franc",
                 "displayName-count-one": "WIR franc",
-                "displayName-count-other": "WIR franc",
-                symbol: "CHW"
-            },
-            CLE: {
-                displayName: "CLE",
-                symbol: "CLE"
-            },
-            CLF: {
-                displayName: "CLF",
-                symbol: "CLF"
+                "displayName-count-other": "WIR franc"
             },
             CLP: {
                 displayName: "chilensk peso",
@@ -456,10 +391,6 @@ const data = {
                 "displayName-count-one": "kinesisk yuan (offshore)",
                 "displayName-count-other": "kinesisk yuan (offshore)",
                 symbol: "CNH"
-            },
-            CNX: {
-                displayName: "CNX",
-                symbol: "CNX"
             },
             CNY: {
                 displayName: "kinesisk yuan",
@@ -475,10 +406,6 @@ const data = {
                 symbol: "COP",
                 "symbol-alt-narrow": "$"
             },
-            COU: {
-                displayName: "COU",
-                symbol: "COU"
-            },
             CRC: {
                 displayName: "costaricansk colón",
                 "displayName-count-one": "costaricansk colón",
@@ -489,14 +416,12 @@ const data = {
             CSD: {
                 displayName: "Serbisk dinar (2002–2006)",
                 "displayName-count-one": "Serbisk dinar (2002–2006)",
-                "displayName-count-other": "Serbiske dinar (2002–2006)",
-                symbol: "CSD"
+                "displayName-count-other": "Serbiske dinar (2002–2006)"
             },
             CSK: {
                 displayName: "Tjekkoslovakisk hard koruna",
                 "displayName-count-one": "Tjekkoslovakisk hard koruna",
-                "displayName-count-other": "Tjekkoslovakiske hard koruna",
-                symbol: "CSK"
+                "displayName-count-other": "Tjekkoslovakiske hard koruna"
             },
             CUC: {
                 displayName: "cubansk konvertibel peso",
@@ -521,8 +446,7 @@ const data = {
             CYP: {
                 displayName: "Cypriotisk pund",
                 "displayName-count-one": "Cypriotisk pund",
-                "displayName-count-other": "Cypriotiske pund",
-                symbol: "CYP"
+                "displayName-count-other": "Cypriotiske pund"
             },
             CZK: {
                 displayName: "tjekkisk koruna",
@@ -534,14 +458,12 @@ const data = {
             DDM: {
                 displayName: "Østtysk mark",
                 "displayName-count-one": "Østtysk mark",
-                "displayName-count-other": "Østtyske mark",
-                symbol: "DDM"
+                "displayName-count-other": "Østtyske mark"
             },
             DEM: {
                 displayName: "Tysk mark",
                 "displayName-count-one": "Tysk mark",
-                "displayName-count-other": "Tyske mark",
-                symbol: "DEM"
+                "displayName-count-other": "Tyske mark"
             },
             DJF: {
                 displayName: "djiboutisk franc",
@@ -572,18 +494,12 @@ const data = {
             ECS: {
                 displayName: "Ecuadoriansk sucre",
                 "displayName-count-one": "Ecuadoriansk sucre",
-                "displayName-count-other": "Ecuadorianske sucre",
-                symbol: "ECS"
-            },
-            ECV: {
-                displayName: "ECV",
-                symbol: "ECV"
+                "displayName-count-other": "Ecuadorianske sucre"
             },
             EEK: {
                 displayName: "Estisk kroon",
                 "displayName-count-one": "Estisk kroon",
-                "displayName-count-other": "Estiske kroon",
-                symbol: "EEK"
+                "displayName-count-other": "Estiske kroon"
             },
             EGP: {
                 displayName: "egyptisk pund",
@@ -601,20 +517,17 @@ const data = {
             ESA: {
                 displayName: "Spansk peseta (A–konto)",
                 "displayName-count-one": "Spansk peseta (A–konto)",
-                "displayName-count-other": "Spanske peseta (A–konto)",
-                symbol: "ESA"
+                "displayName-count-other": "Spanske peseta (A–konto)"
             },
             ESB: {
                 displayName: "Spansk peseta (konvertibel konto)",
                 "displayName-count-one": "Spansk peseta (konvertibel konto)",
-                "displayName-count-other": "Spanske peseta (konvertibel konto)",
-                symbol: "ESB"
+                "displayName-count-other": "Spanske peseta (konvertibel konto)"
             },
             ESP: {
                 displayName: "Spansk peseta",
                 "displayName-count-one": "Spansk pesetas",
                 "displayName-count-other": "Spanske pesetas",
-                symbol: "ESP",
                 "symbol-alt-narrow": "₧"
             },
             ETB: {
@@ -633,8 +546,7 @@ const data = {
             FIM: {
                 displayName: "Finsk mark",
                 "displayName-count-one": "Finsk mark",
-                "displayName-count-other": "Finske mark",
-                symbol: "FIM"
+                "displayName-count-other": "Finske mark"
             },
             FJD: {
                 displayName: "fijiansk dollar",
@@ -653,8 +565,7 @@ const data = {
             FRF: {
                 displayName: "Fransk franc",
                 "displayName-count-one": "Fransk franc",
-                "displayName-count-other": "Franske franc",
-                symbol: "FRF"
+                "displayName-count-other": "Franske franc"
             },
             GBP: {
                 displayName: "britisk pund",
@@ -666,8 +577,7 @@ const data = {
             GEK: {
                 displayName: "Georgisk kupon larit",
                 "displayName-count-one": "Georgisk kupon larit",
-                "displayName-count-other": "Georgiske kupon larit",
-                symbol: "GEK"
+                "displayName-count-other": "Georgiske kupon larit"
             },
             GEL: {
                 displayName: "georgisk lari",
@@ -679,8 +589,7 @@ const data = {
             GHC: {
                 displayName: "Ghanesisk cedi (1979–2007)",
                 "displayName-count-one": "Ghanesisk cedi (1979–2007)",
-                "displayName-count-other": "Ghanesiske cedi (1979–2007)",
-                symbol: "GHC"
+                "displayName-count-other": "Ghanesiske cedi (1979–2007)"
             },
             GHS: {
                 displayName: "ghanesisk cedi",
@@ -712,20 +621,17 @@ const data = {
             GNS: {
                 displayName: "Guineansk syli",
                 "displayName-count-one": "Guineansk syli",
-                "displayName-count-other": "Guineanske syli",
-                symbol: "GNS"
+                "displayName-count-other": "Guineanske syli"
             },
             GQE: {
                 displayName: "Ækvatorialguineask ekwele",
                 "displayName-count-one": "Ækvatorialguineask ekwele",
-                "displayName-count-other": "Ækvatorialguineaske ekwele",
-                symbol: "GQE"
+                "displayName-count-other": "Ækvatorialguineaske ekwele"
             },
             GRD: {
                 displayName: "Græsk drakme",
                 "displayName-count-one": "Græsk drakmer",
-                "displayName-count-other": "Græske drakmer",
-                symbol: "GRD"
+                "displayName-count-other": "Græske drakmer"
             },
             GTQ: {
                 displayName: "guatemalansk quetzal",
@@ -737,14 +643,12 @@ const data = {
             GWE: {
                 displayName: "Portugisisk guinea escudo",
                 "displayName-count-one": "Portugisiske guinea escudo",
-                "displayName-count-other": "Portugisiske guinea escudo",
-                symbol: "GWE"
+                "displayName-count-other": "Portugisiske guinea escudo"
             },
             GWP: {
                 displayName: "Guineansk peso",
                 "displayName-count-one": "Guinea-Bissau-peso",
-                "displayName-count-other": "Guinea-Bissau-pesos",
-                symbol: "GWP"
+                "displayName-count-other": "Guinea-Bissau-pesos"
             },
             GYD: {
                 displayName: "guyansk dollar",
@@ -770,8 +674,7 @@ const data = {
             HRD: {
                 displayName: "Kroatisk dinar",
                 "displayName-count-one": "Kroatisk dinar",
-                "displayName-count-other": "Kroatiske dinarer",
-                symbol: "HRD"
+                "displayName-count-other": "Kroatiske dinarer"
             },
             HRK: {
                 displayName: "kroatisk kuna",
@@ -803,18 +706,12 @@ const data = {
             IEP: {
                 displayName: "Irsk pund",
                 "displayName-count-one": "Irsk pund",
-                "displayName-count-other": "Irske pund",
-                symbol: "IEP"
+                "displayName-count-other": "Irske pund"
             },
             ILP: {
                 displayName: "Israelsk pund",
                 "displayName-count-one": "Israelsk pund",
-                "displayName-count-other": "Israelske pund",
-                symbol: "ILP"
-            },
-            ILR: {
-                displayName: "ILR",
-                symbol: "ILR"
+                "displayName-count-other": "Israelske pund"
             },
             ILS: {
                 displayName: "ny israelsk shekel",
@@ -842,10 +739,6 @@ const data = {
                 "displayName-count-other": "iranske rialer",
                 symbol: "IRR"
             },
-            ISJ: {
-                displayName: "ISJ",
-                symbol: "ISJ"
-            },
             ISK: {
                 displayName: "islandsk krone",
                 "displayName-count-one": "islandsk krone",
@@ -856,8 +749,7 @@ const data = {
             ITL: {
                 displayName: "Italiensk lire",
                 "displayName-count-one": "Italiensk lire",
-                "displayName-count-other": "Italienske lire",
-                symbol: "ITL"
+                "displayName-count-other": "Italienske lire"
             },
             JMD: {
                 displayName: "jamaicansk dollar",
@@ -911,14 +803,6 @@ const data = {
                 "displayName-count-other": "nordkoreanske won",
                 symbol: "KPW",
                 "symbol-alt-narrow": "₩"
-            },
-            KRH: {
-                displayName: "KRH",
-                symbol: "KRH"
-            },
-            KRO: {
-                displayName: "KRO",
-                symbol: "KRO"
             },
             KRW: {
                 displayName: "sydkoreansk won",
@@ -978,8 +862,7 @@ const data = {
             LSL: {
                 displayName: "lesothisk loti",
                 "displayName-count-one": "lesothisk loti",
-                "displayName-count-other": "lesothiske loti",
-                symbol: "LSL"
+                "displayName-count-other": "lesothiske loti"
             },
             LTL: {
                 displayName: "Litauisk litas",
@@ -991,26 +874,22 @@ const data = {
             LTT: {
                 displayName: "Litauisk talonas",
                 "displayName-count-one": "Litauisk talonas",
-                "displayName-count-other": "Litauiske talonas",
-                symbol: "LTT"
+                "displayName-count-other": "Litauiske talonas"
             },
             LUC: {
                 displayName: "Luxembourgsk konvertibel franc",
                 "displayName-count-one": "Luxembourgsk konvertibel franc",
-                "displayName-count-other": "Luxembourgsk konvertibel franc",
-                symbol: "LUC"
+                "displayName-count-other": "Luxembourgsk konvertibel franc"
             },
             LUF: {
                 displayName: "Luxembourgsk franc",
                 "displayName-count-one": "Luxembourgsk franc",
-                "displayName-count-other": "Luxembourgske franc",
-                symbol: "LUF"
+                "displayName-count-other": "Luxembourgske franc"
             },
             LUL: {
                 displayName: "Luxembourgsk finansiel franc",
                 "displayName-count-one": "Luxembourgsk finansiel franc",
-                "displayName-count-other": "Luxembourgsk finansiel franc",
-                symbol: "LUL"
+                "displayName-count-other": "Luxembourgsk finansiel franc"
             },
             LVL: {
                 displayName: "Lettisk lat",
@@ -1022,8 +901,7 @@ const data = {
             LVR: {
                 displayName: "Lettisk rubel",
                 "displayName-count-one": "Lettisk rubel",
-                "displayName-count-other": "Lettiske rubler",
-                symbol: "LVR"
+                "displayName-count-other": "Lettiske rubler"
             },
             LYD: {
                 displayName: "libysk dinar",
@@ -1040,16 +918,7 @@ const data = {
             MAF: {
                 displayName: "Marokkansk franc",
                 "displayName-count-one": "Marokkansk franc",
-                "displayName-count-other": "Marokkanske franc",
-                symbol: "MAF"
-            },
-            MCF: {
-                displayName: "MCF",
-                symbol: "MCF"
-            },
-            MDC: {
-                displayName: "MDC",
-                symbol: "MDC"
+                "displayName-count-other": "Marokkanske franc"
             },
             MDL: {
                 displayName: "moldovisk leu",
@@ -1067,8 +936,7 @@ const data = {
             MGF: {
                 displayName: "Madagaskisk franc",
                 "displayName-count-one": "Madagaskisk franc",
-                "displayName-count-other": "Madagaskiske franc",
-                symbol: "MGF"
+                "displayName-count-other": "Madagaskiske franc"
             },
             MKD: {
                 displayName: "makedonsk denar",
@@ -1076,15 +944,10 @@ const data = {
                 "displayName-count-other": "makedonske denarer",
                 symbol: "MKD"
             },
-            MKN: {
-                displayName: "MKN",
-                symbol: "MKN"
-            },
             MLF: {
                 displayName: "Malisk franc",
                 "displayName-count-one": "Malisk franc",
-                "displayName-count-other": "Maliske franc",
-                symbol: "MLF"
+                "displayName-count-other": "Maliske franc"
             },
             MMK: {
                 displayName: "myanmarsk kyat",
@@ -1121,14 +984,12 @@ const data = {
             MTL: {
                 displayName: "Maltesisk lira",
                 "displayName-count-one": "Maltesisk lira",
-                "displayName-count-other": "Maltesiske lira",
-                symbol: "MTL"
+                "displayName-count-other": "Maltesiske lira"
             },
             MTP: {
                 displayName: "Maltesisk pund",
                 "displayName-count-one": "Maltesisk pund",
-                "displayName-count-other": "Maltesiske pund",
-                symbol: "MTP"
+                "displayName-count-other": "Maltesiske pund"
             },
             MUR: {
                 displayName: "mauritisk rupee",
@@ -1136,10 +997,6 @@ const data = {
                 "displayName-count-other": "mauritiske rupees",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
-            },
-            MVP: {
-                displayName: "MVP",
-                symbol: "MVP"
             },
             MVR: {
                 displayName: "maldivisk rufiyaa",
@@ -1163,12 +1020,7 @@ const data = {
             MXP: {
                 displayName: "Mexicansk silver peso (1861–1992)",
                 "displayName-count-one": "Mexicansk silver peso (1861–1992)",
-                "displayName-count-other": "Mexicanske silver peso (1861–1992)",
-                symbol: "MXP"
-            },
-            MXV: {
-                displayName: "MXV",
-                symbol: "MXV"
+                "displayName-count-other": "Mexicanske silver peso (1861–1992)"
             },
             MYR: {
                 displayName: "malaysisk ringgit",
@@ -1180,14 +1032,12 @@ const data = {
             MZE: {
                 displayName: "Mozambiquisk escudo",
                 "displayName-count-one": "Mozambiquisk escudo",
-                "displayName-count-other": "Mozambiquiske escudo",
-                symbol: "MZE"
+                "displayName-count-other": "Mozambiquiske escudo"
             },
             MZM: {
                 displayName: "Mozambiquisk metical (1980–2006)",
                 "displayName-count-one": "Mozambiquisk metical (1980–2006)",
-                "displayName-count-other": "Mozambiquiske metical (1980–2006)",
-                symbol: "MZM"
+                "displayName-count-other": "Mozambiquiske metical (1980–2006)"
             },
             MZN: {
                 displayName: "mozambiquisk metical",
@@ -1212,8 +1062,7 @@ const data = {
             NIC: {
                 displayName: "Nicaraguansk cordoba (1988–1991)",
                 "displayName-count-one": "Nicaraguansk cordoba (1988–1991)",
-                "displayName-count-other": "Nicaraguanske cordoba (1988–1991)",
-                symbol: "NIC"
+                "displayName-count-other": "Nicaraguanske cordoba (1988–1991)"
             },
             NIO: {
                 displayName: "nicaraguansk cordoba",
@@ -1225,8 +1074,7 @@ const data = {
             NLG: {
                 displayName: "Hollandsk guilder",
                 "displayName-count-one": "Hollandsk gylden",
-                "displayName-count-other": "Hollandske gylden",
-                symbol: "NLG"
+                "displayName-count-other": "Hollandske gylden"
             },
             NOK: {
                 displayName: "norsk krone",
@@ -1264,8 +1112,7 @@ const data = {
             PEI: {
                 displayName: "peruviansk inti",
                 "displayName-count-one": "peruviansk inti",
-                "displayName-count-other": "peruvianske inti",
-                symbol: "PEI"
+                "displayName-count-other": "peruvianske inti"
             },
             PEN: {
                 displayName: "peruansk sol",
@@ -1276,8 +1123,7 @@ const data = {
             PES: {
                 displayName: "peruviansk sol (1863–1965)",
                 "displayName-count-one": "peruviansk sol (1863–1965)",
-                "displayName-count-other": "peruvianske sol (1863–1965)",
-                symbol: "PES"
+                "displayName-count-other": "peruvianske sol (1863–1965)"
             },
             PGK: {
                 displayName: "papuansk kina",
@@ -1309,14 +1155,12 @@ const data = {
             PLZ: {
                 displayName: "Polsk zloty (1950–1995)",
                 "displayName-count-one": "Polsk zloty (1950–1995)",
-                "displayName-count-other": "Polske zloty (1950–1995)",
-                symbol: "PLZ"
+                "displayName-count-other": "Polske zloty (1950–1995)"
             },
             PTE: {
                 displayName: "Portugisisk escudo",
                 "displayName-count-one": "Portugisisk escudo",
-                "displayName-count-other": "Portugisiske escudo",
-                symbol: "PTE"
+                "displayName-count-other": "Portugisiske escudo"
             },
             PYG: {
                 displayName: "paraguaysk guarani",
@@ -1331,15 +1175,10 @@ const data = {
                 "displayName-count-other": "qatarske rial",
                 symbol: "QAR"
             },
-            RHD: {
-                displayName: "RHD",
-                symbol: "RHD"
-            },
             ROL: {
                 displayName: "Rumænsk leu (1952–2006)",
                 "displayName-count-one": "Rumænsk leu (1952–2006)",
-                "displayName-count-other": "Rumænske leu (1952–2006)",
-                symbol: "ROL"
+                "displayName-count-other": "Rumænske leu (1952–2006)"
             },
             RON: {
                 displayName: "rumænsk leu",
@@ -1364,8 +1203,7 @@ const data = {
             RUR: {
                 displayName: "Russisk rubel (1991–1998)",
                 "displayName-count-one": "Russisk rubel (1991–1998)",
-                "displayName-count-other": "Russiske rubler (1991–1998)",
-                symbol: "RUR"
+                "displayName-count-other": "Russiske rubler (1991–1998)"
             },
             RWF: {
                 displayName: "rwandisk franc",
@@ -1396,8 +1234,7 @@ const data = {
             SDD: {
                 displayName: "Sudansk dinar (1992–2007)",
                 "displayName-count-one": "Sudansk dinar (1992–2007)",
-                "displayName-count-other": "Sudanske dinar (1992–2007)",
-                symbol: "SDD"
+                "displayName-count-other": "Sudanske dinar (1992–2007)"
             },
             SDG: {
                 displayName: "sudansk pund",
@@ -1408,8 +1245,7 @@ const data = {
             SDP: {
                 displayName: "Sudansk pund (1957–1998)",
                 "displayName-count-one": "Sudanske pund (1957–1998)",
-                "displayName-count-other": "Sudanske pund (1957–1998)",
-                symbol: "SDP"
+                "displayName-count-other": "Sudanske pund (1957–1998)"
             },
             SEK: {
                 displayName: "svensk krone",
@@ -1435,18 +1271,12 @@ const data = {
             SIT: {
                 displayName: "Slovensk tolar",
                 "displayName-count-one": "Slovensk tolar",
-                "displayName-count-other": "Slovenske tolar",
-                symbol: "SIT"
+                "displayName-count-other": "Slovenske tolar"
             },
             SKK: {
                 displayName: "Slovakisk koruna",
                 "displayName-count-one": "Slovakisk koruna",
-                "displayName-count-other": "Slovakiske koruna",
-                symbol: "SKK"
-            },
-            SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
+                "displayName-count-other": "Slovakiske koruna"
             },
             SLL: {
                 displayName: "sierraleonsk leone",
@@ -1470,8 +1300,7 @@ const data = {
             SRG: {
                 displayName: "Surinamsk guilder",
                 "displayName-count-one": "Surinamsk guilder",
-                "displayName-count-other": "Surinamske guilder",
-                symbol: "SRG"
+                "displayName-count-other": "Surinamske guilder"
             },
             SSP: {
                 displayName: "sydsudansk pund",
@@ -1496,14 +1325,12 @@ const data = {
             SUR: {
                 displayName: "Sovjetisk rubel",
                 "displayName-count-one": "Sovjetisk rubel",
-                "displayName-count-other": "Sovjetiske rubler",
-                symbol: "SUR"
+                "displayName-count-other": "Sovjetiske rubler"
             },
             SVC: {
                 displayName: "Salvadoransk colon",
                 "displayName-count-one": "Salvadoransk colon",
-                "displayName-count-other": "Salvadoranske colon",
-                symbol: "SVC"
+                "displayName-count-other": "Salvadoranske colon"
             },
             SYP: {
                 displayName: "syrisk pund",
@@ -1528,8 +1355,7 @@ const data = {
             TJR: {
                 displayName: "Tadsjikisk rubel",
                 "displayName-count-one": "Tadsjikisk rubel",
-                "displayName-count-other": "Tadsjikiske rubel",
-                symbol: "TJR"
+                "displayName-count-other": "Tadsjikiske rubel"
             },
             TJS: {
                 displayName: "tadsjikisk somoni",
@@ -1540,8 +1366,7 @@ const data = {
             TMM: {
                 displayName: "Turkmensk manat (1993–2009)",
                 "displayName-count-one": "Turkmensk manat (1993–2009)",
-                "displayName-count-other": "Turkmenske manat (1993–2009)",
-                symbol: "TMM"
+                "displayName-count-other": "Turkmenske manat (1993–2009)"
             },
             TMT: {
                 displayName: "turkmensk manat",
@@ -1565,14 +1390,12 @@ const data = {
             TPE: {
                 displayName: "Escudo fra Timor",
                 "displayName-count-one": "Escudo fra Timor",
-                "displayName-count-other": "Escudo fra Timor",
-                symbol: "TPE"
+                "displayName-count-other": "Escudo fra Timor"
             },
             TRL: {
                 displayName: "Tyrkisk lire (1922–2005)",
                 "displayName-count-one": "Tyrkisk lire (1922–2005)",
-                "displayName-count-other": "Tyrkiske lire (1922–2005)",
-                symbol: "TRL"
+                "displayName-count-other": "Tyrkiske lire (1922–2005)"
             },
             TRY: {
                 displayName: "tyrkisk lira",
@@ -1612,14 +1435,12 @@ const data = {
             UAK: {
                 displayName: "Ukrainsk karbovanetz",
                 "displayName-count-one": "Ukrainsk karbovanetz",
-                "displayName-count-other": "Ukrainske karbovanetz",
-                symbol: "UAK"
+                "displayName-count-other": "Ukrainske karbovanetz"
             },
             UGS: {
                 displayName: "Ugandisk shilling (1966–1987)",
                 "displayName-count-one": "Ugandisk shilling (1966–1987)",
-                "displayName-count-other": "Ugandiske shilling (1966–1987)",
-                symbol: "UGS"
+                "displayName-count-other": "Ugandiske shilling (1966–1987)"
             },
             UGX: {
                 displayName: "ugandisk shilling",
@@ -1637,24 +1458,17 @@ const data = {
             USN: {
                 displayName: "Amerikansk dollar (næste dag)",
                 "displayName-count-one": "Amerikansk dollar (næste dag)",
-                "displayName-count-other": "Amerikanske dollar (næste dag)",
-                symbol: "USN"
+                "displayName-count-other": "Amerikanske dollar (næste dag)"
             },
             USS: {
                 displayName: "Amerikansk dollar (samme dag)",
                 "displayName-count-one": "Amerikansk dollar (samme dag)",
-                "displayName-count-other": "Amerikanske dollar (samme dag)",
-                symbol: "USS"
-            },
-            UYI: {
-                displayName: "UYI",
-                symbol: "UYI"
+                "displayName-count-other": "Amerikanske dollar (samme dag)"
             },
             UYP: {
                 displayName: "Uruguayansk peso (1975–1993)",
                 "displayName-count-one": "Uruguayansk peso (1975–1993)",
-                "displayName-count-other": "Uruguayanske peso (1975–1993)",
-                symbol: "UYP"
+                "displayName-count-other": "Uruguayanske peso (1975–1993)"
             },
             UYU: {
                 displayName: "uruguayansk peso",
@@ -1662,10 +1476,6 @@ const data = {
                 "displayName-count-other": "uruguayanske pesos",
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
-            },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
             },
             UZS: {
                 displayName: "usbekisk sum",
@@ -1676,12 +1486,7 @@ const data = {
             VEB: {
                 displayName: "Venezuelansk bolivar (1871–2008)",
                 "displayName-count-one": "Venezuelansk bolivar (1871–2008)",
-                "displayName-count-other": "Venezuelanske bolivar (1871–2008)",
-                symbol: "VEB"
-            },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
+                "displayName-count-other": "Venezuelanske bolivar (1871–2008)"
             },
             VEF: {
                 displayName: "venezuelansk bolivar (2008–2018)",
@@ -1703,10 +1508,6 @@ const data = {
                 symbol: "₫",
                 "symbol-alt-narrow": "₫"
             },
-            VNN: {
-                displayName: "VNN",
-                symbol: "VNN"
-            },
             VUV: {
                 displayName: "vanuaisk vatu",
                 "displayName-count-one": "vanuaisk vatu",
@@ -1726,28 +1527,16 @@ const data = {
                 symbol: "FCFA"
             },
             XAG: {
-                displayName: "Sølv",
-                symbol: "XAG"
+                displayName: "Sølv"
             },
             XAU: {
-                displayName: "Guld",
-                symbol: "XAU"
+                displayName: "Guld"
             },
             XBA: {
-                displayName: "EURCO",
-                symbol: "XBA"
+                displayName: "EURCO"
             },
             XBB: {
-                displayName: "EMU",
-                symbol: "XBB"
-            },
-            XBC: {
-                displayName: "XBC",
-                symbol: "XBC"
-            },
-            XBD: {
-                displayName: "XBD",
-                symbol: "XBD"
+                displayName: "EMU"
             },
             XCD: {
                 displayName: "østkaribisk dollar",
@@ -1757,24 +1546,20 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             XDR: {
-                displayName: "SDR",
-                symbol: "XDR"
+                displayName: "SDR"
             },
             XEU: {
-                displayName: "ECU",
-                symbol: "XEU"
+                displayName: "ECU"
             },
             XFO: {
                 displayName: "Fransk guldfranc",
                 "displayName-count-one": "Fransk guldfranc",
-                "displayName-count-other": "Franske guldfranc",
-                symbol: "XFO"
+                "displayName-count-other": "Franske guldfranc"
             },
             XFU: {
                 displayName: "Fransk UIC-franc",
                 "displayName-count-one": "Fransk UIC-franc",
-                "displayName-count-other": "Franske UIC-franc",
-                symbol: "XFU"
+                "displayName-count-other": "Franske UIC-franc"
             },
             XOF: {
                 displayName: "CFA-franc BCEAO",
@@ -1783,8 +1568,7 @@ const data = {
                 symbol: "F CFA"
             },
             XPD: {
-                displayName: "Palladium",
-                symbol: "XPD"
+                displayName: "Palladium"
             },
             XPF: {
                 displayName: "CFP-franc",
@@ -1793,26 +1577,15 @@ const data = {
                 symbol: "CFPF"
             },
             XPT: {
-                displayName: "Platin",
-                symbol: "XPT"
+                displayName: "Platin"
             },
             XRE: {
-                displayName: "RINET-fond",
-                symbol: "XRE"
-            },
-            XSU: {
-                displayName: "XSU",
-                symbol: "XSU"
+                displayName: "RINET-fond"
             },
             XTS: {
                 displayName: "testvalutakode",
                 "displayName-count-one": "testvaluta",
-                "displayName-count-other": "testvaluta",
-                symbol: "XTS"
-            },
-            XUA: {
-                displayName: "XUA",
-                symbol: "XUA"
+                "displayName-count-other": "testvaluta"
             },
             XXX: {
                 displayName: "ukendt valuta",
@@ -1823,8 +1596,7 @@ const data = {
             YDD: {
                 displayName: "Yemenitisk dinar",
                 "displayName-count-one": "Yemenitisk dinar",
-                "displayName-count-other": "Yemenitiske dinarer",
-                symbol: "YDD"
+                "displayName-count-other": "Yemenitiske dinarer"
             },
             YER: {
                 displayName: "yemenitisk rial",
@@ -1835,30 +1607,22 @@ const data = {
             YUD: {
                 displayName: "Jugoslavisk hard dinar (1966–1990)",
                 "displayName-count-one": "Jugoslavisk hard dinar (1966–1990)",
-                "displayName-count-other": "Jugoslaviske hard dinar (1966–1990)",
-                symbol: "YUD"
+                "displayName-count-other": "Jugoslaviske hard dinar (1966–1990)"
             },
             YUM: {
                 displayName: "Jugoslavisk noviy dinar (1994–2002)",
                 "displayName-count-one": "Jugoslavisk noviy dinar (1994–2002)",
-                "displayName-count-other": "Jugoslaviske noviy dinar (1994–2002)",
-                symbol: "YUM"
+                "displayName-count-other": "Jugoslaviske noviy dinar (1994–2002)"
             },
             YUN: {
                 displayName: "Jugoslavisk konvertibel dinar (1990–1992)",
                 "displayName-count-one": "Jugoslavisk konvertibel dinar (1990–1992)",
-                "displayName-count-other": "Jugoslaviske konvertibel dinar (1990–1992)",
-                symbol: "YUN"
-            },
-            YUR: {
-                displayName: "YUR",
-                symbol: "YUR"
+                "displayName-count-other": "Jugoslaviske konvertibel dinar (1990–1992)"
             },
             ZAL: {
                 displayName: "Sydafrikansk rand (financial)",
                 "displayName-count-one": "Sydafrikansk rand (financial)",
-                "displayName-count-other": "Sydafrikanske rand (financial)",
-                symbol: "ZAL"
+                "displayName-count-other": "Sydafrikanske rand (financial)"
             },
             ZAR: {
                 displayName: "sydafrikansk rand",
@@ -1883,32 +1647,27 @@ const data = {
             ZRN: {
                 displayName: "Ny zairisk zaire (1993–1998)",
                 "displayName-count-one": "Ny zairisk zaire (1993–1998)",
-                "displayName-count-other": "Ny zairiske zaire (1993–1998)",
-                symbol: "ZRN"
+                "displayName-count-other": "Ny zairiske zaire (1993–1998)"
             },
             ZRZ: {
                 displayName: "Zairisk zaire (1971–1993)",
                 "displayName-count-one": "Zairisk zaire (1971–1993)",
-                "displayName-count-other": "Zairiske zaire (1971–1993)",
-                symbol: "ZRZ"
+                "displayName-count-other": "Zairiske zaire (1971–1993)"
             },
             ZWD: {
                 displayName: "Zimbabwisk dollar (1980–2008)",
                 "displayName-count-one": "Zimbabwisk dollar (1980–2008)",
-                "displayName-count-other": "Zimbabwiske dollar (1980–2008)",
-                symbol: "ZWD"
+                "displayName-count-other": "Zimbabwiske dollar (1980–2008)"
             },
             ZWL: {
                 displayName: "Zimbabwisk dollar (2009)",
                 "displayName-count-one": "Zimbabwisk dollar (2009)",
-                "displayName-count-other": "Zimbabwiske dollar (2009)",
-                symbol: "ZWL"
+                "displayName-count-other": "Zimbabwiske dollar (2009)"
             },
             ZWR: {
                 displayName: "Zimbabwisk dollar (2008)",
                 "displayName-count-one": "Zimbabwisk dollar (2008)",
-                "displayName-count-other": "Zimbabwiske dollar (2008)",
-                symbol: "ZWR"
+                "displayName-count-other": "Zimbabwiske dollar (2008)"
             }
         },
         localeCurrency: "DKK"
@@ -1930,8 +1689,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} 'kl'. {0}",
-            long: "{1} 'kl'. {0}",
+            full: "{1} {0}",
+            long: "{1} {0}",
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
@@ -1943,24 +1702,24 @@ const data = {
                 EBhm: "E h.mm B",
                 EBhms: "E h.mm.ss B",
                 Ed: "E 'den' d.",
-                Ehm: "E h.mm a",
+                Ehm: "E h.mm a",
                 EHm: "E HH.mm",
-                Ehms: "E h.mm.ss a",
+                Ehms: "E h.mm.ss a",
                 EHms: "E HH.mm.ss",
                 Gy: "y G",
                 GyMd: "d.M.y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d. MMM y G",
                 GyMMMEd: "E d. MMM y G",
-                h: "h a",
+                h: "h a",
                 H: "HH",
-                hm: "h.mm a",
+                hm: "h.mm a",
                 Hm: "HH.mm",
-                hms: "h.mm.ss a",
+                hms: "h.mm.ss a",
                 Hms: "HH.mm.ss",
-                hmsv: "h.mm.ss a v",
+                hmsv: "h.mm.ss a v",
                 Hmsv: "HH.mm.ss v",
-                hmv: "h.mm a v",
+                hmv: "h.mm a v",
                 Hmv: "HH.mm v",
                 M: "M",
                 Md: "d.M",
@@ -2006,9 +1765,9 @@ const data = {
                 abbreviated: [
                     "søn.",
                     "man.",
-                    "tir.",
+                    "tirs.",
                     "ons.",
-                    "tor.",
+                    "tors.",
                     "fre.",
                     "lør."
                 ],
@@ -2022,13 +1781,13 @@ const data = {
                     "L"
                 ],
                 short: [
-                    "sø",
-                    "ma",
-                    "ti",
-                    "on",
-                    "to",
-                    "fr",
-                    "lø"
+                    "sø.",
+                    "ma.",
+                    "ti.",
+                    "on.",
+                    "to.",
+                    "fr.",
+                    "lø."
                 ],
                 wide: [
                     "søndag",
@@ -2042,13 +1801,13 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "søn",
-                    "man",
-                    "tir",
-                    "ons",
-                    "tor",
-                    "fre",
-                    "lør"
+                    "søn.",
+                    "man.",
+                    "tirs.",
+                    "ons.",
+                    "tors.",
+                    "fre.",
+                    "lør."
                 ],
                 narrow: [
                     "S",
@@ -2060,13 +1819,13 @@ const data = {
                     "L"
                 ],
                 short: [
-                    "sø",
-                    "ma",
-                    "ti",
-                    "on",
-                    "to",
-                    "fr",
-                    "lø"
+                    "sø.",
+                    "ma.",
+                    "ti.",
+                    "on.",
+                    "to.",
+                    "fr.",
+                    "lø."
                 ],
                 wide: [
                     "søndag",
@@ -2280,8 +2039,8 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    "0": "f.Kr.",
-                    "1": "e.Kr.",
+                    "0": "før Kristus",
+                    "1": "efter Kristus",
                     "0-alt-variant": "før vesterlandsk tidsregning",
                     "1-alt-variant": "vesterlandsk tidsregning"
                 },

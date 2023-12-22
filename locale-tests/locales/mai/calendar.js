@@ -24,8 +24,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} के {0}",
-            long: "{1} के {0}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
@@ -115,7 +115,7 @@ const data = {
                     "सोम",
                     "मंगल",
                     "बुध",
-                    "गुरु",
+                    "बृहस्पति",
                     "शुक्र",
                     "शनि"
                 ],
@@ -153,7 +153,7 @@ const data = {
                     "सोम",
                     "मंगल",
                     "बुध",
-                    "गुरु",
+                    "बृहस्पति",
                     "शुक्र",
                     "शनि"
                 ],
@@ -303,12 +303,12 @@ const data = {
         dayPeriods: {
             format: {
                 abbreviated: {
-                    am: "AM",
-                    pm: "PM"
+                    am: "भोर",
+                    pm: "सांझ"
                 },
                 narrow: {
-                    am: "AM",
-                    pm: "PM"
+                    am: "भोर",
+                    pm: "सांझ"
                 },
                 wide: {
                     am: "भोर",
@@ -317,16 +317,16 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: {
-                    am: "AM",
-                    pm: "PM"
+                    am: "पूर्वाह्न",
+                    pm: "अपराह्न"
                 },
                 narrow: {
-                    am: "AM",
-                    pm: "PM"
+                    am: "पूर्वाह्न",
+                    pm: "अपराह्न"
                 },
                 wide: {
-                    am: "AM",
-                    pm: "PM"
+                    am: "पूर्वाह्न",
+                    pm: "अपराह्न"
                 }
             }
         },
@@ -352,13 +352,13 @@ const data = {
                 }
             }
         },
-        gmtFormat: "GMT{0}",
-        gmtZeroFormat: "GMT",
+        gmtFormat: "जीएमटी{0}",
+        gmtZeroFormat: "जीएमटी",
         dateFields: {
             era: {
-                wide: "युग",
-                short: "युग",
-                narrow: "युग"
+                wide: "महीना केर सप्ताह",
+                short: "जुग",
+                narrow: "जुग"
             },
             year: {
                 wide: "वर्ष",
@@ -381,9 +381,9 @@ const data = {
                 narrow: "सप्ताह"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "महीना केर सप्ताह",
+                short: "महीना केर सप्ताह",
+                narrow: "महीना केर सप्ताह"
             },
             day: {
                 wide: "दिन",
@@ -391,9 +391,9 @@ const data = {
                 narrow: "दिन"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "बरखक दिन",
+                short: "बरखक दिन",
+                narrow: "बरखक दिन"
             },
             weekday: {
                 wide: "सप्ताहक दिन",
@@ -401,9 +401,9 @@ const data = {
                 narrow: "सप्ताहक दिन"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "माहक कार्यदिवस",
+                short: "माहक कार्यदिवस",
+                narrow: "माहक कार्यदिवस"
             },
             dayperiod: {
                 short: "पूर्वाह्न/अपराह्न",

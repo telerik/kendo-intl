@@ -1942,7 +1942,11 @@ const data = {
                 symbol: "SKK"
             },
             SLE: {
-                displayName: "SLE",
+                displayName: "Leone Siarra Leòmhannach ùr",
+                "displayName-count-one": "leone Siarra Leòmhannach ùr",
+                "displayName-count-two": "leone Siarra Leòmhannach ùr",
+                "displayName-count-few": "leone Siarra Leòmhannach ùr",
+                "displayName-count-other": "leone Siarra Leòmhannach ùr",
                 symbol: "SLE"
             },
             SLL: {
@@ -2235,8 +2239,7 @@ const data = {
                 "displayName-count-one": "aonad inneacs tuarastail ainmeach Uruguaidh",
                 "displayName-count-two": "aonad inneacs tuarastail ainmeach Uruguaidh",
                 "displayName-count-few": "aonadan inneacs tuarastail ainmeach Uruguaidh",
-                "displayName-count-other": "aonad inneacs tuarastail ainmeach Uruguaidh",
-                symbol: "UYW"
+                "displayName-count-other": "aonad inneacs tuarastail ainmeach Uruguaidh"
             },
             UZS: {
                 displayName: "Som Usbagach",
@@ -2255,7 +2258,11 @@ const data = {
                 symbol: "VEB"
             },
             VED: {
-                displayName: "VED",
+                displayName: "Bolívar Soberano",
+                "displayName-count-one": "bholívar Soberano",
+                "displayName-count-two": "bholívar Soberano",
+                "displayName-count-few": "bolívar Soberano",
+                "displayName-count-other": "bolívar Soberano",
                 symbol: "VED"
             },
             VEF: {
@@ -2634,10 +2641,10 @@ const data = {
                 Ed: "E, d",
                 Ehm: "E h:mma",
                 EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
-                GyMd: "d/M/y GGGGG",
+                GyMd: "d/M/y G",
                 GyMMM: "LLL y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E, d MMM y G",
@@ -2645,9 +2652,9 @@ const data = {
                 H: "HH",
                 hm: "h:mma",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
                 hmv: "h:mma v",
                 Hmv: "HH:mm v",

@@ -78,8 +78,7 @@ const data = {
             AFA: {
                 displayName: "Afganistan Afganisi (1927–2002)",
                 "displayName-count-one": "Afganistan Afganisi (1927–2002)",
-                "displayName-count-other": "Afganistan Afganisi (1927–2002)",
-                symbol: "AFA"
+                "displayName-count-other": "Afganistan Afganisi (1927–2002)"
             },
             AFN: {
                 displayName: "Afganistan Afganisi",
@@ -91,8 +90,7 @@ const data = {
             ALK: {
                 displayName: "Arnavutluk Leki (1946–1965)",
                 "displayName-count-one": "Arnavutluk leki (1946–1965)",
-                "displayName-count-other": "Arnavutluk leki (1946–1965)",
-                symbol: "ALK"
+                "displayName-count-other": "Arnavutluk leki (1946–1965)"
             },
             ALL: {
                 displayName: "Arnavutluk Leki",
@@ -121,16 +119,13 @@ const data = {
                 "symbol-alt-narrow": "Kz"
             },
             AOK: {
-                displayName: "Angola Kvanzası (1977–1990)",
-                symbol: "AOK"
+                displayName: "Angola Kvanzası (1977–1990)"
             },
             AON: {
-                displayName: "Yeni Angola Kvanzası (1990–2000)",
-                symbol: "AON"
+                displayName: "Yeni Angola Kvanzası (1990–2000)"
             },
             AOR: {
-                displayName: "Angola Kvanzası Reajustado (1995–1999)",
-                symbol: "AOR"
+                displayName: "Angola Kvanzası Reajustado (1995–1999)"
             },
             ARA: {
                 displayName: "Arjantin Australi",
@@ -475,8 +470,7 @@ const data = {
             CNX: {
                 displayName: "Çin Halk Cumhuriyeti Merkez Bankası Doları",
                 "displayName-count-one": "Çin Halk Cumhuriyeti Merkez Bankası doları",
-                "displayName-count-other": "Çin Halk Cumhuriyeti Merkez Bankası doları",
-                symbol: "CNX"
+                "displayName-count-other": "Çin Halk Cumhuriyeti Merkez Bankası doları"
             },
             CNY: {
                 displayName: "Çin Yuanı",
@@ -698,8 +692,7 @@ const data = {
                 "symbol-alt-narrow": "₾"
             },
             GHC: {
-                displayName: "Gana Sedisi (1979–2007)",
-                symbol: "GHC"
+                displayName: "Gana Sedisi (1979–2007)"
             },
             GHS: {
                 displayName: "Gana Sedisi",
@@ -729,12 +722,10 @@ const data = {
                 "symbol-alt-narrow": "FG"
             },
             GNS: {
-                displayName: "Gine Sylisi",
-                symbol: "GNS"
+                displayName: "Gine Sylisi"
             },
             GQE: {
-                displayName: "Ekvator Ginesi Ekuelesi",
-                symbol: "GQE"
+                displayName: "Ekvator Ginesi Ekuelesi"
             },
             GRD: {
                 displayName: "Yunan Drahmisi",
@@ -750,12 +741,10 @@ const data = {
                 "symbol-alt-narrow": "Q"
             },
             GWE: {
-                displayName: "Portekiz Ginesi Esküdosu",
-                symbol: "GWE"
+                displayName: "Portekiz Ginesi Esküdosu"
             },
             GWP: {
-                displayName: "Gine-Bissau Pezosu",
-                symbol: "GWP"
+                displayName: "Gine-Bissau Pezosu"
             },
             GYD: {
                 displayName: "Guyana Doları",
@@ -826,8 +815,7 @@ const data = {
             ILR: {
                 displayName: "İsrail Şekeli (1980–1985)",
                 "displayName-count-one": "İsrail şekeli (1980–1985)",
-                "displayName-count-other": "İsrail şekeli (1980–1985)",
-                symbol: "ILR"
+                "displayName-count-other": "İsrail şekeli (1980–1985)"
             },
             ILS: {
                 displayName: "Yeni İsrail Şekeli",
@@ -858,8 +846,7 @@ const data = {
             ISJ: {
                 displayName: "İzlanda Kronu (1918–1981)",
                 "displayName-count-one": "İzlanda kronu (1918–1981)",
-                "displayName-count-other": "İzlanda kronu (1918–1981)",
-                symbol: "ISJ"
+                "displayName-count-other": "İzlanda kronu (1918–1981)"
             },
             ISK: {
                 displayName: "İzlanda Kronu",
@@ -1057,8 +1044,7 @@ const data = {
                 symbol: "MAD"
             },
             MAF: {
-                displayName: "Fas Frangı",
-                symbol: "MAF"
+                displayName: "Fas Frangı"
             },
             MCF: {
                 displayName: "Monako Frangı",
@@ -1086,8 +1072,7 @@ const data = {
                 "symbol-alt-narrow": "Ar"
             },
             MGF: {
-                displayName: "Madagaskar Frangı",
-                symbol: "MGF"
+                displayName: "Madagaskar Frangı"
             },
             MKD: {
                 displayName: "Makedonya Dinarı",
@@ -1102,8 +1087,7 @@ const data = {
                 symbol: "MKN"
             },
             MLF: {
-                displayName: "Mali Frangı",
-                symbol: "MLF"
+                displayName: "Mali Frangı"
             },
             MMK: {
                 displayName: "Myanmar Kyatı",
@@ -1159,8 +1143,7 @@ const data = {
             MVP: {
                 displayName: "Maldiv Rupisi",
                 "displayName-count-one": "Maldiv rupisi",
-                "displayName-count-other": "Maldiv rupisi",
-                symbol: "MVP"
+                "displayName-count-other": "Maldiv rupisi"
             },
             MVR: {
                 displayName: "Maldiv Rufiyaası",
@@ -1201,12 +1184,10 @@ const data = {
                 "symbol-alt-narrow": "RM"
             },
             MZE: {
-                displayName: "Mozambik Esküdosu",
-                symbol: "MZE"
+                displayName: "Mozambik Esküdosu"
             },
             MZM: {
-                displayName: "Eski Mozambik Metikali",
-                symbol: "MZM"
+                displayName: "Eski Mozambik Metikali"
             },
             MZN: {
                 displayName: "Mozambik Metikali",
@@ -1351,8 +1332,7 @@ const data = {
                 symbol: "QAR"
             },
             RHD: {
-                displayName: "Rodezya Doları",
-                symbol: "RHD"
+                displayName: "Rodezya Doları"
             },
             ROL: {
                 displayName: "Eski Romen Leyi",
@@ -1414,8 +1394,7 @@ const data = {
                 symbol: "SCR"
             },
             SDD: {
-                displayName: "Eski Sudan Dinarı",
-                symbol: "SDD"
+                displayName: "Eski Sudan Dinarı"
             },
             SDG: {
                 displayName: "Sudan Lirası",
@@ -1424,8 +1403,7 @@ const data = {
                 symbol: "SDG"
             },
             SDP: {
-                displayName: "Eski Sudan Lirası",
-                symbol: "SDP"
+                displayName: "Eski Sudan Lirası"
             },
             SEK: {
                 displayName: "İsveç Kronu",
@@ -1459,10 +1437,6 @@ const data = {
                 "displayName-count-one": "Slovak Korunası",
                 "displayName-count-other": "Slovak Korunası",
                 symbol: "SKK"
-            },
-            SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
             },
             SLL: {
                 displayName: "Sierra Leone Leonesi",
@@ -1633,8 +1607,7 @@ const data = {
                 symbol: "UAK"
             },
             UGS: {
-                displayName: "Uganda Şilini (1966–1987)",
-                symbol: "UGS"
+                displayName: "Uganda Şilini (1966–1987)"
             },
             UGX: {
                 displayName: "Uganda Şilini",
@@ -1680,10 +1653,6 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
-            },
             UZS: {
                 displayName: "Özbekistan Somu",
                 "displayName-count-one": "Özbekistan somu",
@@ -1695,10 +1664,6 @@ const data = {
                 "displayName-count-one": "Venezuela Bolivarı (1871–2008)",
                 "displayName-count-other": "Venezuela Bolivarı (1871–2008)",
                 symbol: "VEB"
-            },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
             },
             VEF: {
                 displayName: "Venezuela Bolivarı (2008–2018)",
@@ -1757,20 +1722,16 @@ const data = {
                 symbol: "XAU"
             },
             XBA: {
-                displayName: "Birleşik Avrupa Birimi",
-                symbol: "XBA"
+                displayName: "Birleşik Avrupa Birimi"
             },
             XBB: {
-                displayName: "Avrupa Para Birimi (EMU)",
-                symbol: "XBB"
+                displayName: "Avrupa Para Birimi (EMU)"
             },
             XBC: {
-                displayName: "Avrupa Hesap Birimi (XBC)",
-                symbol: "XBC"
+                displayName: "Avrupa Hesap Birimi (XBC)"
             },
             XBD: {
-                displayName: "Avrupa Hesap Birimi (XBD)",
-                symbol: "XBD"
+                displayName: "Avrupa Hesap Birimi (XBD)"
             },
             XCD: {
                 displayName: "Doğu Karayip Doları",
@@ -1780,8 +1741,7 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             XDR: {
-                displayName: "Özel Çekme Hakkı (SDR)",
-                symbol: "XDR"
+                displayName: "Özel Çekme Hakkı (SDR)"
             },
             XEU: {
                 displayName: "Avrupa Para Birimi",
@@ -1790,12 +1750,10 @@ const data = {
                 symbol: "XEU"
             },
             XFO: {
-                displayName: "Fransız Altın Frangı",
-                symbol: "XFO"
+                displayName: "Fransız Altın Frangı"
             },
             XFU: {
-                displayName: "Fransız UIC-Frangı",
-                symbol: "XFU"
+                displayName: "Fransız UIC-Frangı"
             },
             XOF: {
                 displayName: "Batı Afrika CFA Frangı",
@@ -1804,8 +1762,7 @@ const data = {
                 symbol: "F CFA"
             },
             XPD: {
-                displayName: "Paladyum",
-                symbol: "XPD"
+                displayName: "Paladyum"
             },
             XPF: {
                 displayName: "CFP Frangı",
@@ -1884,8 +1841,7 @@ const data = {
                 symbol: "YUR"
             },
             ZAL: {
-                displayName: "Güney Afrika Randı (finansal)",
-                symbol: "ZAL"
+                displayName: "Güney Afrika Randı (finansal)"
             },
             ZAR: {
                 displayName: "Güney Afrika Randı",
@@ -1906,20 +1862,16 @@ const data = {
                 "symbol-alt-narrow": "ZK"
             },
             ZRN: {
-                displayName: "Yeni Zaire Zairesi",
-                symbol: "ZRN"
+                displayName: "Yeni Zaire Zairesi"
             },
             ZRZ: {
-                displayName: "Zaire Zairesi",
-                symbol: "ZRZ"
+                displayName: "Zaire Zairesi"
             },
             ZWD: {
-                displayName: "Zimbabve Doları",
-                symbol: "ZWD"
+                displayName: "Zimbabve Doları"
             },
             ZWL: {
-                displayName: "Zimbabve Doları (2009)",
-                symbol: "ZWL"
+                displayName: "Zimbabve Doları (2009)"
             },
             ZWR: {
                 displayName: "Zimbabve Doları (2008)",
@@ -1938,11 +1890,11 @@ const data = {
             M: "d MMMM",
             y: "MMM y",
             Y: "MMMM y",
-            F: "d MMMM y EEEE h:mm:ss a",
-            g: "dd.MM.y h:mm a",
-            G: "dd.MM.y h:mm:ss a",
-            t: "h:mm a",
-            T: "h:mm:ss a",
+            F: "d MMMM y EEEE h:mm:ss a",
+            g: "dd.MM.y h:mm a",
+            G: "dd.MM.y h:mm:ss a",
+            t: "h:mm a",
+            T: "h:mm:ss a",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
@@ -1960,24 +1912,24 @@ const data = {
                 EBhm: "E B h:mm",
                 EBhms: "E B h:mm:ss",
                 Ed: "d E",
-                Ehm: "E a h:mm",
+                Ehm: "E a h:mm",
                 EHm: "E HH:mm",
-                Ehms: "E a h:mm:ss",
+                Ehms: "E a h:mm:ss",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
                 GyMd: "d/M/y GGGGG",
                 GyMMM: "G MMM y",
                 GyMMMd: "G d MMM y",
                 GyMMMEd: "G d MMM y E",
-                h: "a h",
+                h: "a h",
                 H: "HH",
-                hm: "a h:mm",
+                hm: "a h:mm",
                 Hm: "HH:mm",
-                hms: "a h:mm:ss",
+                hms: "a h:mm:ss",
                 Hms: "HH:mm:ss",
-                hmsv: "a h:mm:ss v",
+                hmsv: "a h:mm:ss v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "a h:mm v",
+                hmv: "a h:mm v",
                 Hmv: "HH:mm v",
                 M: "L",
                 Md: "d/M",
@@ -2007,10 +1959,10 @@ const data = {
             }
         },
         timeFormats: {
-            full: "h:mm:ss a zzzz",
-            long: "h:mm:ss a z",
-            medium: "h:mm:ss a",
-            short: "h:mm a"
+            full: "h:mm:ss a zzzz",
+            long: "h:mm:ss a z",
+            medium: "h:mm:ss a",
+            short: "h:mm a"
         },
         dateFormats: {
             full: "d MMMM y EEEE",

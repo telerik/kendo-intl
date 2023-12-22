@@ -21,6 +21,7 @@ const data = {
             },
             AFA: {
                 displayName: "阿富汗尼 (1927–2002)",
+                "displayName-count-other": "阿富汗尼 (1927–2002)",
                 symbol: "AFA"
             },
             AFN: {
@@ -31,8 +32,7 @@ const data = {
             },
             ALK: {
                 displayName: "阿尔巴尼亚列克(1946–1965)",
-                "displayName-count-other": "阿尔巴尼亚列克(1946–1965)",
-                symbol: "ALK"
+                "displayName-count-other": "阿尔巴尼亚列克(1946–1965)"
             },
             ALL: {
                 displayName: "阿尔巴尼亚列克",
@@ -179,7 +179,7 @@ const data = {
             },
             BGN: {
                 displayName: "保加利亚列弗",
-                "displayName-count-other": "保加利亚新列弗",
+                "displayName-count-other": "保加利亚列弗",
                 symbol: "BGN"
             },
             BGO: {
@@ -279,6 +279,7 @@ const data = {
             },
             BUK: {
                 displayName: "缅元",
+                "displayName-count-other": "缅元",
                 symbol: "BUK"
             },
             BWP: {
@@ -358,8 +359,7 @@ const data = {
             },
             CNX: {
                 displayName: "中国人民银行元",
-                "displayName-count-other": "中国人民银行元",
-                symbol: "CNX"
+                "displayName-count-other": "中国人民银行元"
             },
             CNY: {
                 displayName: "人民币",
@@ -423,8 +423,8 @@ const data = {
                 "symbol-alt-narrow": "Kč"
             },
             DDM: {
-                displayName: "东德奥斯特马克",
-                "displayName-count-other": "东德奥斯特马克",
+                displayName: "东德马克",
+                "displayName-count-other": "东德马克",
                 symbol: "DDM"
             },
             DEM: {
@@ -536,8 +536,8 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             GEK: {
-                displayName: "乔治亚库蓬拉瑞特",
-                "displayName-count-other": "乔治亚库蓬拉瑞特",
+                displayName: "格鲁吉亚库蓬拉瑞特",
+                "displayName-count-other": "格鲁吉亚库蓬拉瑞特",
                 symbol: "GEK"
             },
             GEL: {
@@ -751,10 +751,12 @@ const data = {
             },
             KRH: {
                 displayName: "韩元 (1953–1962)",
+                "displayName-count-other": "韩元 (1953–1962)",
                 symbol: "KRH"
             },
             KRO: {
                 displayName: "韩元 (1945–1953)",
+                "displayName-count-other": "韩元 (1945–1953)",
                 symbol: "KRO"
             },
             KRW: {
@@ -947,8 +949,7 @@ const data = {
             },
             MVP: {
                 displayName: "马尔代夫卢比(1947–1981)",
-                "displayName-count-other": "马尔代夫卢比(1947–1981)",
-                symbol: "MVP"
+                "displayName-count-other": "马尔代夫卢比(1947–1981)"
             },
             MVR: {
                 displayName: "马尔代夫卢菲亚",
@@ -1178,8 +1179,8 @@ const data = {
                 symbol: "SDG"
             },
             SDP: {
-                displayName: "旧苏丹镑",
-                "displayName-count-other": "旧苏丹镑",
+                displayName: "苏丹镑 (1957–1998)",
+                "displayName-count-other": "苏丹镑 (1957–1998)",
                 symbol: "SDP"
             },
             SEK: {
@@ -1211,8 +1212,8 @@ const data = {
                 symbol: "SKK"
             },
             SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
+                displayName: "塞拉利昂新利昂",
+                "displayName-count-other": "塞拉利昂新利昂"
             },
             SLL: {
                 displayName: "塞拉利昂利昂",
@@ -1312,6 +1313,7 @@ const data = {
             },
             TPE: {
                 displayName: "帝汶埃斯库多",
+                "displayName-count-other": "帝汶埃斯库多",
                 symbol: "TPE"
             },
             TRL: {
@@ -1398,8 +1400,7 @@ const data = {
             },
             UYW: {
                 displayName: "乌拉圭票面工资指数单位",
-                "displayName-count-other": "乌拉圭票面工资指数单位",
-                symbol: "UYW"
+                "displayName-count-other": "乌拉圭票面工资指数单位"
             },
             UZS: {
                 displayName: "乌兹别克斯坦苏姆",
@@ -1412,8 +1413,8 @@ const data = {
                 symbol: "VEB"
             },
             VED: {
-                displayName: "VED",
-                symbol: "VED"
+                displayName: "委内瑞拉主权币",
+                "displayName-count-other": "委内瑞拉主权币"
             },
             VEF: {
                 displayName: "委内瑞拉玻利瓦尔 (2008–2018)",
@@ -1434,6 +1435,7 @@ const data = {
             },
             VNN: {
                 displayName: "越南盾 (1978–1985)",
+                "displayName-count-other": "越南盾 (1978–1985)",
                 symbol: "VNN"
             },
             VUV: {
@@ -1453,26 +1455,32 @@ const data = {
             },
             XAG: {
                 displayName: "银",
+                "displayName-count-other": "银",
                 symbol: "XAG"
             },
             XAU: {
                 displayName: "黄金",
+                "displayName-count-other": "黄金",
                 symbol: "XAU"
             },
             XBA: {
                 displayName: "欧洲复合单位",
+                "displayName-count-other": "欧洲复合单位",
                 symbol: "XBA"
             },
             XBB: {
                 displayName: "欧洲货币联盟",
+                "displayName-count-other": "欧洲货币联盟",
                 symbol: "XBB"
             },
             XBC: {
                 displayName: "欧洲计算单位 (XBC)",
+                "displayName-count-other": "欧洲计算单位 (XBC)",
                 symbol: "XBC"
             },
             XBD: {
                 displayName: "欧洲计算单位 (XBD)",
+                "displayName-count-other": "欧洲计算单位 (XBD)",
                 symbol: "XBD"
             },
             XCD: {
@@ -1483,6 +1491,7 @@ const data = {
             },
             XDR: {
                 displayName: "特别提款权",
+                "displayName-count-other": "特别提款权",
                 symbol: "XDR"
             },
             XEU: {
@@ -1492,10 +1501,12 @@ const data = {
             },
             XFO: {
                 displayName: "法国金法郎",
+                "displayName-count-other": "法国金法郎",
                 symbol: "XFO"
             },
             XFU: {
                 displayName: "法国法郎 (UIC)",
+                "displayName-count-other": "法国法郎 (UIC)",
                 symbol: "XFU"
             },
             XOF: {
@@ -1505,6 +1516,7 @@ const data = {
             },
             XPD: {
                 displayName: "钯",
+                "displayName-count-other": "钯",
                 symbol: "XPD"
             },
             XPF: {
@@ -1514,25 +1526,26 @@ const data = {
             },
             XPT: {
                 displayName: "铂",
+                "displayName-count-other": "铂",
                 symbol: "XPT"
             },
             XRE: {
                 displayName: "RINET 基金",
+                "displayName-count-other": "RINET 基金",
                 symbol: "XRE"
             },
             XSU: {
                 displayName: "苏克雷",
-                "displayName-count-other": "苏克雷",
-                symbol: "XSU"
+                "displayName-count-other": "苏克雷"
             },
             XTS: {
                 displayName: "测试货币代码",
+                "displayName-count-other": "测试货币代码",
                 symbol: "XTS"
             },
             XUA: {
                 displayName: "非洲开发银行记账单位",
-                "displayName-count-other": "非洲开发银行记账单位",
-                symbol: "XUA"
+                "displayName-count-other": "非洲开发银行记账单位"
             },
             XXX: {
                 displayName: "未知货币",

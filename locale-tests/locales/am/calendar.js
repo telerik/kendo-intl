@@ -381,13 +381,13 @@ const data = {
                     "0": "ዓ/ዓ",
                     "1": "ዓ/ም",
                     "0-alt-variant": "ዓ/ዓ",
-                    "1-alt-variant": "CE"
+                    "1-alt-variant": "መዓ"
                 },
                 narrow: {
                     "0": "ዓ/ዓ",
                     "1": "ዓ/ም",
                     "0-alt-variant": "ዓ/ዓ",
-                    "1-alt-variant": "CE"
+                    "1-alt-variant": "መዓ"
                 }
             }
         },

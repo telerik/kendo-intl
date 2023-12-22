@@ -404,7 +404,6 @@ const data = {
                 displayName: "Valko-Venäjän rupla",
                 "displayName-count-one": "Valko-Venäjän rupla",
                 "displayName-count-other": "Valko-Venäjän ruplaa",
-                symbol: "BYN",
                 "symbol-alt-narrow": "BYN"
             },
             BYR: {
@@ -1154,8 +1153,7 @@ const data = {
             MRU: {
                 displayName: "Mauritanian ouguiya",
                 "displayName-count-one": "Mauritanian ouguiya",
-                "displayName-count-other": "Mauritanian ouguiyaa",
-                symbol: "MRU"
+                "displayName-count-other": "Mauritanian ouguiyaa"
             },
             MTL: {
                 displayName: "Maltan liira",
@@ -1490,13 +1488,14 @@ const data = {
                 symbol: "SKK"
             },
             SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
+                displayName: "Sierra Leonen leone",
+                "displayName-count-one": "Sierra Leonen leonea",
+                "displayName-count-other": "Sierra Leonen leonea"
             },
             SLL: {
-                displayName: "Sierra Leonen leone",
-                "displayName-count-one": "Sierra Leonen leone",
-                "displayName-count-other": "Sierra Leonen leonea",
+                displayName: "Sierra Leonen leone (1964—2022)",
+                "displayName-count-one": "Sierra Leonen leone (1964—2022)",
+                "displayName-count-other": "Sierra Leonen leonea (1964—2022)",
                 symbol: "SLL"
             },
             SOS: {
@@ -1713,8 +1712,7 @@ const data = {
             UYW: {
                 displayName: "Uruguayn nimellinen palkkaindeksiyksikkö",
                 "displayName-count-one": "Uruguayn nimellinen palkkaindeksiyksikkö",
-                "displayName-count-other": "Uruguayn nimellistä palkkaindeksiyksikköä",
-                symbol: "UYW"
+                "displayName-count-other": "Uruguayn nimellistä palkkaindeksiyksikköä"
             },
             UZS: {
                 displayName: "Uzbekistanin som",
@@ -1727,10 +1725,6 @@ const data = {
                 "displayName-count-one": "Venezuelan bolivar (1871–2008)",
                 "displayName-count-other": "Venezuelan bolivaria (1871–2008)",
                 symbol: "VEB"
-            },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
             },
             VEF: {
                 displayName: "Venezuelan bolívar (2008–2018)",
@@ -2009,9 +2003,9 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} 'klo' {0}",
-            long: "{1} 'klo' {0}",
-            medium: "{1} 'klo' {0}",
+            full: "{1} {0}",
+            long: "{1} {0}",
+            medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
                 Bh: "h B",
@@ -2022,9 +2016,9 @@ const data = {
                 EBhm: "E h.mm B",
                 EBhms: "E h.mm.ss B",
                 Ed: "E d.",
-                Ehm: "E h.mm a",
+                Ehm: "E h.mm a",
                 EHm: "E H.mm",
-                Ehms: "E h.mm.ss a",
+                Ehms: "E h.mm.ss a",
                 EHms: "E H.mm.ss",
                 Gy: "y G",
                 GyMd: "M.d.y G",
@@ -2033,15 +2027,15 @@ const data = {
                 GyMMMEd: "E d. MMM y G",
                 GyMMMMd: "d. MMMM y G",
                 GyMMMMEd: "E d. MMMM y G",
-                h: "h a",
+                h: "h a",
                 H: "H",
-                hm: "h.mm a",
+                hm: "h.mm a",
                 Hm: "H.mm",
-                hms: "h.mm.ss a",
+                hms: "h.mm.ss a",
                 Hms: "H.mm.ss",
-                hmsv: "h.mm.ss a v",
+                hmsv: "h.mm.ss a v",
                 Hmsv: "H.mm.ss v",
-                hmv: "h.mm a v",
+                hmv: "h.mm a v",
                 Hmv: "H.mm v",
                 M: "L",
                 Md: "d.M.",

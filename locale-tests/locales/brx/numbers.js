@@ -17,7 +17,7 @@ const data = {
             minusSign: "-",
             approximatelySign: "~",
             exponential: "E",
-            superscriptingExponent: "×",
+            superscriptingExponent: "x",
             perMille: "‰",
             infinity: "∞",
             nan: "NaN",
@@ -55,11 +55,13 @@ const data = {
                 3,
                 2
             ],
+            "unitPattern-count-one": "n $",
             "unitPattern-count-other": "n $"
         },
         accounting: {
             patterns: [
-                "$ n"
+                "$n",
+                "($n)"
             ],
             groupSize: [
                 3,

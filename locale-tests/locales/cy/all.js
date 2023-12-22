@@ -66,10 +66,6 @@ const data = {
             ]
         },
         currencies: {
-            ADP: {
-                displayName: "ADP",
-                symbol: "ADP"
-            },
             AED: {
                 displayName: "Dirham Yr Emiradau Arabaidd Unedig",
                 "displayName-count-zero": "dirham yr Emiradau Arabaidd Unedig",
@@ -100,10 +96,6 @@ const data = {
                 "displayName-count-other": "afghani Afghanistan",
                 symbol: "AFN",
                 "symbol-alt-narrow": "؋"
-            },
-            ALK: {
-                displayName: "ALK",
-                symbol: "ALK"
             },
             ALL: {
                 displayName: "Lek Albania",
@@ -280,10 +272,6 @@ const data = {
                 symbol: "AZN",
                 "symbol-alt-narrow": "₼"
             },
-            BAD: {
-                displayName: "BAD",
-                symbol: "BAD"
-            },
             BAM: {
                 displayName: "Marc Trosadwy Bosnia a Hercegovina",
                 "displayName-count-zero": "marc trosadwy Bosnia a Hercegovina",
@@ -294,10 +282,6 @@ const data = {
                 "displayName-count-other": "marc trosadwy Bosnia a Hercegovina",
                 symbol: "BAM",
                 "symbol-alt-narrow": "KM"
-            },
-            BAN: {
-                displayName: "BAN",
-                symbol: "BAN"
             },
             BBD: {
                 displayName: "Doler Barbados",
@@ -350,10 +334,6 @@ const data = {
                 "displayName-count-many": "ffranc Gwlad Belg (ariannol)",
                 "displayName-count-other": "ffranc Gwlad Belg (ariannol)",
                 symbol: "BEL"
-            },
-            BGL: {
-                displayName: "BGL",
-                symbol: "BGL"
             },
             BGM: {
                 displayName: "Lev Sosialaidd Bwlgaria",
@@ -581,10 +561,6 @@ const data = {
                 symbol: "BWP",
                 "symbol-alt-narrow": "BWP"
             },
-            BYB: {
-                displayName: "BYB",
-                symbol: "BYB"
-            },
             BYN: {
                 displayName: "Rwbl Belarws",
                 "displayName-count-zero": "rwbl Belarws",
@@ -716,8 +692,7 @@ const data = {
                 "displayName-count-two": "ddoler Banc Pobl Tsieina",
                 "displayName-count-few": "doler Banc Pobl Tsieina",
                 "displayName-count-many": "doler Banc Pobl Tsieina",
-                "displayName-count-other": "doler Banc Pobl Tsieina",
-                symbol: "CNX"
+                "displayName-count-other": "doler Banc Pobl Tsieina"
             },
             CNY: {
                 displayName: "Yuan Tsieina",
@@ -763,12 +738,7 @@ const data = {
                 "symbol-alt-narrow": "₡"
             },
             CSD: {
-                displayName: "CSD",
                 symbol: "CSD"
-            },
-            CSK: {
-                displayName: "CSK",
-                symbol: "CSK"
             },
             CUC: {
                 displayName: "Peso Trosadwy Ciwba",
@@ -902,8 +872,7 @@ const data = {
                 "displayName-count-two": "uned gwerth gyson Ecuador",
                 "displayName-count-few": "uned gwerth gyson Ecuador",
                 "displayName-count-many": "uned gwerth gyson Ecuador",
-                "displayName-count-other": "uned gwerth gyson Ecuador",
-                symbol: "ECV"
+                "displayName-count-other": "uned gwerth gyson Ecuador"
             },
             EEK: {
                 displayName: "Kroon Estonia",
@@ -912,8 +881,7 @@ const data = {
                 "displayName-count-two": "kroon Estonia",
                 "displayName-count-few": "kroon Estonia",
                 "displayName-count-many": "kroon Estonia",
-                "displayName-count-other": "kroon Estonia",
-                symbol: "EEK"
+                "displayName-count-other": "kroon Estonia"
             },
             EGP: {
                 displayName: "Punt Yr Aifft",
@@ -936,16 +904,7 @@ const data = {
                 "displayName-count-other": "nakfa Eritrea",
                 symbol: "ERN"
             },
-            ESA: {
-                displayName: "ESA",
-                symbol: "ESA"
-            },
-            ESB: {
-                displayName: "ESB",
-                symbol: "ESB"
-            },
             ESP: {
-                displayName: "ESP",
                 symbol: "ESP",
                 "symbol-alt-narrow": "₧"
             },
@@ -1118,7 +1077,6 @@ const data = {
                 symbol: "GQE"
             },
             GRD: {
-                displayName: "GRD",
                 symbol: "GRD"
             },
             GTQ: {
@@ -1133,7 +1091,6 @@ const data = {
                 "symbol-alt-narrow": "Q"
             },
             GWE: {
-                displayName: "GWE",
                 symbol: "GWE"
             },
             GWP: {
@@ -1180,7 +1137,6 @@ const data = {
                 "symbol-alt-narrow": "L"
             },
             HRD: {
-                displayName: "HRD",
                 symbol: "HRD"
             },
             HRK: {
@@ -1253,8 +1209,7 @@ const data = {
                 "displayName-count-two": "shegel Israel (1980–1985)",
                 "displayName-count-few": "shegel Israel (1980–1985)",
                 "displayName-count-many": "shegel Israel (1980–1985)",
-                "displayName-count-other": "shegel Israel (1980–1985)",
-                symbol: "ILR"
+                "displayName-count-other": "shegel Israel (1980–1985)"
             },
             ILS: {
                 displayName: "Shegel Newydd Israel",
@@ -1305,8 +1260,7 @@ const data = {
                 "displayName-count-two": "króna Gwlad yr Iâ (1918 – 1981)",
                 "displayName-count-few": "króna Gwlad yr Iâ (1918 – 1981)",
                 "displayName-count-many": "króna Gwlad yr Iâ (1918 – 1981)",
-                "displayName-count-other": "króna Gwlad yr Iâ (1918 – 1981)",
-                symbol: "ISJ"
+                "displayName-count-other": "króna Gwlad yr Iâ (1918 – 1981)"
             },
             ISK: {
                 displayName: "Króna Gwlad yr Iâ",
@@ -1320,7 +1274,6 @@ const data = {
                 "symbol-alt-narrow": "kr"
             },
             ITL: {
-                displayName: "ITL",
                 symbol: "ITL"
             },
             JMD: {
@@ -1547,7 +1500,6 @@ const data = {
                 symbol: "LTT"
             },
             LUC: {
-                displayName: "LUC",
                 symbol: "LUC"
             },
             LUF: {
@@ -1561,7 +1513,6 @@ const data = {
                 symbol: "LUF"
             },
             LUL: {
-                displayName: "LUL",
                 symbol: "LUL"
             },
             LVL: {
@@ -1625,10 +1576,6 @@ const data = {
                 "displayName-count-other": "ffranc Monaco",
                 symbol: "MCF"
             },
-            MDC: {
-                displayName: "MDC",
-                symbol: "MDC"
-            },
             MDL: {
                 displayName: "Leu Moldofa",
                 "displayName-count-zero": "leu Moldofa",
@@ -1671,7 +1618,6 @@ const data = {
                 symbol: "MKD"
             },
             MKN: {
-                displayName: "MKN",
                 symbol: "MKN"
             },
             MLF: {
@@ -1737,11 +1683,9 @@ const data = {
                 symbol: "MRU"
             },
             MTL: {
-                displayName: "MTL",
                 symbol: "MTL"
             },
             MTP: {
-                displayName: "MTP",
                 symbol: "MTP"
             },
             MUR: {
@@ -1762,8 +1706,7 @@ const data = {
                 "displayName-count-two": "rwpî’r Maldives (1947–1981)",
                 "displayName-count-few": "rwpî’r Maldives (1947–1981)",
                 "displayName-count-many": "rwpî’r Maldives (1947–1981)",
-                "displayName-count-other": "rwpî’r Maldives (1947–1981)",
-                symbol: "MVP"
+                "displayName-count-other": "rwpî’r Maldives (1947–1981)"
             },
             MVR: {
                 displayName: "Rufiyaa’r Maldives",
@@ -2036,12 +1979,7 @@ const data = {
                 symbol: "PLN",
                 "symbol-alt-narrow": "zł"
             },
-            PLZ: {
-                displayName: "PLZ",
-                symbol: "PLZ"
-            },
             PTE: {
-                displayName: "PTE",
                 symbol: "PTE"
             },
             PYG: {
@@ -2075,10 +2013,6 @@ const data = {
                 "displayName-count-other": "doler Rhodesia",
                 symbol: "RHD"
             },
-            ROL: {
-                displayName: "ROL",
-                symbol: "ROL"
-            },
             RON: {
                 displayName: "Leu Rwmania",
                 "displayName-count-zero": "leu Rwmania",
@@ -2110,10 +2044,6 @@ const data = {
                 "displayName-count-other": "rwbl Rwsia",
                 symbol: "RUB",
                 "symbol-alt-narrow": "₽"
-            },
-            RUR: {
-                displayName: "RUR",
-                symbol: "RUR"
             },
             RWF: {
                 displayName: "Ffranc Rwanda",
@@ -2221,16 +2151,7 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             SIT: {
-                displayName: "SIT",
                 symbol: "SIT"
-            },
-            SKK: {
-                displayName: "SKK",
-                symbol: "SKK"
-            },
-            SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
             },
             SLL: {
                 displayName: "Leone Sierra Leone",
@@ -2304,10 +2225,6 @@ const data = {
                 "displayName-count-other": "dobra São Tomé a Príncipe",
                 symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            SUR: {
-                displayName: "SUR",
-                symbol: "SUR"
             },
             SVC: {
                 displayName: "Colón El Salvador",
@@ -2487,10 +2404,6 @@ const data = {
                 symbol: "UAH",
                 "symbol-alt-narrow": "₴"
             },
-            UAK: {
-                displayName: "UAK",
-                symbol: "UAK"
-            },
             UGS: {
                 displayName: "Swllt Uganda (1966–1987)",
                 "displayName-count-zero": "swllt Uganda (1966–1987)",
@@ -2543,7 +2456,6 @@ const data = {
                 symbol: "USS"
             },
             UYI: {
-                displayName: "UYI",
                 symbol: "UYI"
             },
             UYP: {
@@ -2567,10 +2479,6 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
-            },
             UZS: {
                 displayName: "Som Uzbekistan",
                 "displayName-count-zero": "som Uzbekistan",
@@ -2590,10 +2498,6 @@ const data = {
                 "displayName-count-many": "bolívar Venezuela (1871–2008)",
                 "displayName-count-other": "bolívar Venezuela (1871–2008)",
                 symbol: "VEB"
-            },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
             },
             VEF: {
                 displayName: "Bolívar Venezuela (2008–2018)",
@@ -2668,12 +2572,10 @@ const data = {
                 symbol: "FCFA"
             },
             XAG: {
-                displayName: "Arian",
-                symbol: "XAG"
+                displayName: "Arian"
             },
             XAU: {
-                displayName: "Aur",
-                symbol: "XAU"
+                displayName: "Aur"
             },
             XBA: {
                 displayName: "Uned Cyfansawdd Ewropeaidd",
@@ -2682,8 +2584,7 @@ const data = {
                 "displayName-count-two": "uned cyfansawdd Ewropeaidd",
                 "displayName-count-few": "uned cyfansawdd Ewropeaidd",
                 "displayName-count-many": "uned cyfansawdd Ewropeaidd",
-                "displayName-count-other": "uned cyfansawdd Ewropeaidd",
-                symbol: "XBA"
+                "displayName-count-other": "uned cyfansawdd Ewropeaidd"
             },
             XBB: {
                 displayName: "Uned Ariannol Ewropeaidd",
@@ -2692,16 +2593,7 @@ const data = {
                 "displayName-count-two": "uned ariannol Ewropeaidd",
                 "displayName-count-few": "uned ariannol Ewropeaidd",
                 "displayName-count-many": "uned ariannol Ewropeaidd",
-                "displayName-count-other": "uned ariannol Ewropeaidd",
-                symbol: "XBB"
-            },
-            XBC: {
-                displayName: "XBC",
-                symbol: "XBC"
-            },
-            XBD: {
-                displayName: "XBD",
-                symbol: "XBD"
+                "displayName-count-other": "uned ariannol Ewropeaidd"
             },
             XCD: {
                 displayName: "Doler Dwyrain y Caribî",
@@ -2714,10 +2606,6 @@ const data = {
                 symbol: "EC$",
                 "symbol-alt-narrow": "$"
             },
-            XDR: {
-                displayName: "XDR",
-                symbol: "XDR"
-            },
             XEU: {
                 displayName: "Uned Arian Cyfred Ewropeaidd",
                 "displayName-count-zero": "uned arian cyfred Ewropeaidd",
@@ -2727,14 +2615,6 @@ const data = {
                 "displayName-count-many": "uned arian cyfred Ewropeaidd",
                 "displayName-count-other": "uned arian cyfred Ewropeaidd",
                 symbol: "XEU"
-            },
-            XFO: {
-                displayName: "XFO",
-                symbol: "XFO"
-            },
-            XFU: {
-                displayName: "XFU",
-                symbol: "XFU"
             },
             XOF: {
                 displayName: "Ffranc CFA Gorllewin Affrica",
@@ -2747,8 +2627,7 @@ const data = {
                 symbol: "F CFA"
             },
             XPD: {
-                displayName: "Paladiwm",
-                symbol: "XPD"
+                displayName: "Paladiwm"
             },
             XPF: {
                 displayName: "Ffranc CFP",
@@ -2761,12 +2640,7 @@ const data = {
                 symbol: "CFPF"
             },
             XPT: {
-                displayName: "Platinwm",
-                symbol: "XPT"
-            },
-            XRE: {
-                displayName: "XRE",
-                symbol: "XRE"
+                displayName: "Platinwm"
             },
             XSU: {
                 displayName: "Sucre",
@@ -2775,16 +2649,7 @@ const data = {
                 "displayName-count-two": "sucre",
                 "displayName-count-few": "sucre",
                 "displayName-count-many": "sucre",
-                "displayName-count-other": "sucre",
-                symbol: "XSU"
-            },
-            XTS: {
-                displayName: "XTS",
-                symbol: "XTS"
-            },
-            XUA: {
-                displayName: "XUA",
-                symbol: "XUA"
+                "displayName-count-other": "sucre"
             },
             XXX: {
                 displayName: "Arian Cyfred Anhysbys",
@@ -2817,19 +2682,15 @@ const data = {
                 symbol: "YER"
             },
             YUD: {
-                displayName: "YUD",
                 symbol: "YUD"
             },
             YUM: {
-                displayName: "YUM",
                 symbol: "YUM"
             },
             YUN: {
-                displayName: "YUN",
                 symbol: "YUN"
             },
             YUR: {
-                displayName: "YUR",
                 symbol: "YUR"
             },
             ZAL: {
@@ -2944,8 +2805,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} 'am' {0}",
-            long: "{1} 'am' {0}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
@@ -2957,24 +2818,24 @@ const data = {
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "d, E",
-                Ehm: "E, h:mm a",
+                Ehm: "E, h:mm a",
                 EHm: "E, HH:mm",
-                Ehms: "E, h:mm:ss a",
+                Ehms: "E, h:mm:ss a",
                 EHms: "E, HH:mm:ss",
                 Gy: "y G",
                 GyMd: "M/d/y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E, d MMM y G",
-                h: "h a",
+                h: "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
                 M: "L",
                 Md: "d/M",

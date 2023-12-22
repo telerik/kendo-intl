@@ -48,9 +48,9 @@ const data = {
                 GyMMMEd: "G y MMM d, E",
                 h: "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
                 hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
@@ -304,11 +304,11 @@ const data = {
             format: {
                 abbreviated: {
                     am: "Subbaahi",
-                    pm: "Zaarikay b"
+                    pm: "Zaarikay b"
                 },
                 narrow: {
                     am: "Subbaahi",
-                    pm: "Zaarikay b"
+                    pm: "Zaarikay b"
                 },
                 wide: {
                     am: "Subbaahi",
@@ -318,15 +318,15 @@ const data = {
             "stand-alone": {
                 abbreviated: {
                     am: "Subbaahi",
-                    pm: "Zaarikay b"
+                    pm: "Zaarikay b"
                 },
                 narrow: {
                     am: "Subbaahi",
-                    pm: "Zaarikay b"
+                    pm: "Zaarikay b"
                 },
                 wide: {
                     am: "Subbaahi",
-                    pm: "Zaarikay b"
+                    pm: "Zaarikay b"
                 }
             }
         },

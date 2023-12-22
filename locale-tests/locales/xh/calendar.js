@@ -9,15 +9,15 @@ const data = {
     territory: "ZA",
     calendar: {
         patterns: {
-            d: "y-MM-dd",
-            D: "y MMMM d, EEEE",
+            d: "M/d/y",
+            D: "EEEE, MMMM d, y",
             m: "MMM d",
             M: "MMMM d",
-            y: "y MMM",
-            Y: "y MMMM",
-            F: "y MMMM d, EEEE HH:mm:ss",
-            g: "y-MM-dd HH:mm",
-            G: "y-MM-dd HH:mm:ss",
+            y: "MMM y",
+            Y: "MMMM y",
+            F: "EEEE, MMMM d, y HH:mm:ss",
+            g: "M/d/y HH:mm",
+            G: "M/d/y HH:mm:ss",
             t: "HH:mm",
             T: "HH:mm:ss",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
@@ -36,46 +36,46 @@ const data = {
                 E: "ccc",
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
-                Ed: "d, E",
-                Ehm: "E h:mm a",
+                Ed: "d E",
+                Ehm: "E h:mm a",
                 EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
-                Gy: "G y",
-                GyMd: "GGGGG y-MM-dd",
-                GyMMM: "G y MMM",
-                GyMMMd: "G y MMM d",
-                GyMMMEd: "G y MMM d, E",
-                h: "h a",
+                Gy: "y G",
+                GyMd: "M/d/y G",
+                GyMMM: "MMM y G",
+                GyMMMd: "MMM d, y G",
+                GyMMMEd: "E, MMM d, y G",
+                h: "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
                 M: "L",
-                Md: "MM-dd",
-                MEd: "MM-dd, E",
+                Md: "M/d",
+                MEd: "E, M/d",
                 MMM: "LLL",
                 MMMd: "MMM d",
-                MMMEd: "MMM d, E",
+                MMMEd: "E, MMM d",
                 MMMMd: "MMMM d",
                 "MMMMW-count-one": "'week' W 'of' MMMM",
                 "MMMMW-count-other": "'week' W 'of' MMMM",
                 ms: "mm:ss",
                 y: "y",
-                yM: "y-MM",
-                yMd: "y-MM-dd",
-                yMEd: "y-MM-dd, E",
-                yMMM: "y MMM",
-                yMMMd: "y MMM d",
-                yMMMEd: "y MMM d, E",
-                yMMMM: "y MMMM",
-                yQQQ: "y QQQ",
-                yQQQQ: "y QQQQ",
+                yM: "M/y",
+                yMd: "M/d/y",
+                yMEd: "E, M/d/y",
+                yMMM: "MMM y",
+                yMMMd: "MMM d, y",
+                yMMMEd: "E, MMM d, y",
+                yMMMM: "MMMM y",
+                yQQQ: "QQQ y",
+                yQQQQ: "QQQQ y",
                 "yw-count-one": "'week' w 'of' Y",
                 "yw-count-other": "'week' w 'of' Y"
             }
@@ -87,35 +87,35 @@ const data = {
             short: "HH:mm"
         },
         dateFormats: {
-            full: "y MMMM d, EEEE",
-            long: "y MMMM d",
-            medium: "y MMM d",
-            short: "y-MM-dd"
+            full: "EEEE, MMMM d, y",
+            long: "MMMM d, y",
+            medium: "MMM d, y",
+            short: "M/d/yy"
         },
         days: {
             format: {
                 abbreviated: [
                     "Caw",
                     "Mvu",
-                    "Bin",
+                    "Lwesb",
                     "Tha",
                     "Sin",
                     "Hla",
                     "Mgq"
                 ],
                 narrow: [
-                    "S",
+                    "C",
                     "M",
-                    "T",
-                    "W",
-                    "T",
-                    "F",
-                    "S"
+                    "Sb",
+                    "Tht",
+                    "Sin",
+                    "Hl",
+                    "Mgq"
                 ],
                 short: [
                     "Caw",
                     "Mvu",
-                    "Bin",
+                    "Lwesb",
                     "Tha",
                     "Sin",
                     "Hla",
@@ -142,18 +142,18 @@ const data = {
                     "Mgq"
                 ],
                 narrow: [
-                    "S",
+                    "C",
                     "M",
-                    "T",
-                    "W",
-                    "T",
-                    "F",
-                    "S"
+                    "Sb",
+                    "St",
+                    "Sin",
+                    "Hl",
+                    "Mgq"
                 ],
                 short: [
                     "Caw",
                     "Mvu",
-                    "Bin",
+                    "Lwesb",
                     "Tha",
                     "Sin",
                     "Hla",
@@ -181,7 +181,7 @@ const data = {
                     "Jun",
                     "Jul",
                     "Aga",
-                    "Sep",
+                    "Sept",
                     "Okt",
                     "Nov",
                     "Dis"
@@ -210,7 +210,7 @@ const data = {
                     "Julayi",
                     "Agasti",
                     "Septemba",
-                    "Okthoba",
+                    "Okthobha",
                     "Novemba",
                     "Disemba"
                 ]
@@ -263,10 +263,10 @@ const data = {
         quarters: {
             format: {
                 abbreviated: [
-                    "Q1",
-                    "Q2",
-                    "Q3",
-                    "Q4"
+                    "Kota 1",
+                    "Kota 2",
+                    "Kota 3",
+                    "Kota 4"
                 ],
                 narrow: [
                     "1",
@@ -275,18 +275,18 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "1 unyangantathu",
-                    "2 unyangantathu",
-                    "3 unyangantathu",
-                    "4 unyangantathu"
+                    "ikota yoku-1",
+                    "ikota yesi-2",
+                    "ikota yesi-3",
+                    "ikota yesi-4"
                 ]
             },
             "stand-alone": {
                 abbreviated: [
-                    "Q1",
-                    "Q2",
-                    "Q3",
-                    "Q4"
+                    "Kota 1",
+                    "Kota 2",
+                    "Kota 3",
+                    "Kota 4"
                 ],
                 narrow: [
                     "1",
@@ -295,10 +295,10 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "1 unyangantathu",
-                    "2 unyangantathu",
-                    "3 unyangantathu",
-                    "4 unyangantathu"
+                    "ikota yoku-1",
+                    "ikota yesi-2",
+                    "ikota yesi-3",
+                    "ikota yesi-4"
                 ]
             }
         },
@@ -358,29 +358,29 @@ const data = {
         gmtZeroFormat: "GMT",
         dateFields: {
             era: {
-                wide: "Era",
-                short: "Era",
-                narrow: "Era"
+                wide: "ixesha leminyaka",
+                short: "ixesha leminyaka",
+                narrow: "ixesha leminyaka"
             },
             year: {
-                wide: "Year",
-                short: "Year",
-                narrow: "Year"
+                wide: "unyaka",
+                short: "uny.",
+                narrow: "uny"
             },
             quarter: {
-                wide: "Quarter",
-                short: "Quarter",
-                narrow: "Quarter"
+                wide: "ikota",
+                short: "kot.",
+                narrow: "kot"
             },
             month: {
-                wide: "Month",
-                short: "Month",
-                narrow: "Month"
+                wide: "inyanga",
+                short: "iny.",
+                narrow: "nya"
             },
             week: {
-                wide: "Week",
-                short: "Week",
-                narrow: "Week"
+                wide: "iveki",
+                short: "ive.",
+                narrow: "vek"
             },
             weekOfMonth: {
                 wide: "Week Of Month",
@@ -388,9 +388,9 @@ const data = {
                 narrow: "Week Of Month"
             },
             day: {
-                wide: "Day",
-                short: "Day",
-                narrow: "Day"
+                wide: "usuku",
+                short: "usuku",
+                narrow: "usuku"
             },
             dayOfYear: {
                 wide: "Day Of Year",
@@ -398,9 +398,9 @@ const data = {
                 narrow: "Day Of Year"
             },
             weekday: {
-                wide: "Day of the Week",
-                short: "Day of the Week",
-                narrow: "Day of the Week"
+                wide: "usuku lweveki",
+                short: "usuku lweveki",
+                narrow: "usuku lweveki"
             },
             weekdayOfMonth: {
                 wide: "Weekday Of Month",
@@ -408,29 +408,29 @@ const data = {
                 narrow: "Weekday Of Month"
             },
             dayperiod: {
-                short: "Dayperiod",
-                wide: "Dayperiod",
-                narrow: "Dayperiod"
+                short: "Kusasa/Emva kwemini",
+                wide: "Kusasa/Emva kwemini",
+                narrow: "Kusasa/Emva kwemini"
             },
             hour: {
-                wide: "Hour",
-                short: "Hour",
-                narrow: "Hour"
+                wide: "iyure",
+                short: "yur.",
+                narrow: "yur"
             },
             minute: {
-                wide: "Minute",
-                short: "Minute",
-                narrow: "Minute"
+                wide: "umzuzu",
+                short: "umz.",
+                narrow: "umz"
             },
             second: {
-                wide: "Second",
-                short: "Second",
-                narrow: "Second"
+                wide: "umzuzwana",
+                short: "zuzwa.",
+                narrow: "zuzwa."
             },
             zone: {
-                wide: "Zone",
-                short: "Zone",
-                narrow: "Zone"
+                wide: "ingingqi yexesha",
+                short: "ingingqi yexesha",
+                narrow: "ingingqi yexesha"
             },
             millisecond: {
                 narrow: "ms",

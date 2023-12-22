@@ -343,13 +343,13 @@ const data = {
                 abbreviated: {
                     "0": "খ্ৰীঃ পূঃ",
                     "1": "খ্ৰীঃ",
-                    "0-alt-variant": "খ্ৰীষ্টপূৰ্ব",
+                    "0-alt-variant": "খ্ৰীঃ পূঃ",
                     "1-alt-variant": "চি. ই."
                 },
                 narrow: {
                     "0": "খ্ৰীঃ পূঃ",
                     "1": "খ্ৰীঃ",
-                    "0-alt-variant": "খ্ৰীষ্টপূৰ্ব",
+                    "0-alt-variant": "খ্ৰীঃ পূঃ",
                     "1-alt-variant": "চি. ই."
                 }
             }

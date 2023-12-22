@@ -9,23 +9,23 @@ const data = {
     territory: "IN",
     calendar: {
         patterns: {
-            d: "y-MM-dd",
-            D: "y MMMM d, EEEE",
+            d: "dd-MM-y",
+            D: "d MMMM y, EEEE",
             m: "d-MMM",
             M: "MMMM d",
             y: "MMM y",
             Y: "MMMM y",
-            F: "y MMMM d, EEEE a h:mm:ss",
-            g: "y-MM-dd a नि h:mm",
-            G: "y-MM-dd a h:mm:ss",
+            F: "d MMMM y, EEEE a h:mm:ss",
+            g: "dd-MM-y a नि h:mm",
+            G: "dd-MM-y a h:mm:ss",
             t: "a नि h:mm",
             T: "a h:mm:ss",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} नि {0} याव",
-            long: "{1} नि {0} याव",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
@@ -37,20 +37,20 @@ const data = {
                 EBhm: "E B नि h:mm",
                 EBhms: "E B नि h:mm:ss",
                 Ed: "d, E",
-                Ehm: "E, a h:mm",
+                Ehm: "a h:mm, E",
                 EHm: "E HH:mm",
-                Ehms: "E a h:mm:ss",
+                Ehms: "a h:mm:ss, E",
                 EHms: "E HH:mm:ss",
                 Gy: "Gy",
-                GyMd: "GGGGG y-MM-dd",
+                GyMd: "GGGGG dd-MM-y",
                 GyMMM: "G y MMM",
                 GyMMMd: "G y MMM d",
                 GyMMMEd: "G y MMM E d",
                 h: "a नि h",
                 H: "HH",
-                hm: "a नि h:mm",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "a h:mm:ss",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
                 hmsv: "a नि h:mm:ss v",
                 Hmsv: "HH:mm:ss v",
@@ -64,18 +64,20 @@ const data = {
                 MMMEd: "E, MMM d",
                 MMMMd: "MMMM d",
                 MMMMEd: "E, MMMM d",
+                "MMMMW-count-one": "'week' W 'of' MMMM",
                 "MMMMW-count-other": "'week' W 'of' MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M/y",
-                yMd: "y-MM-dd",
+                yMd: "dd-MM-y",
                 yMEd: "E, M/d/y",
                 yMMM: "MMM y",
-                yMMMd: "MMM d, y",
+                yMMMd: "d MMM y",
                 yMMMEd: "E, MMM d, y",
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
+                "yw-count-one": "'week' w 'of' Y",
                 "yw-count-other": "'week' w 'of' Y"
             }
         },
@@ -86,10 +88,10 @@ const data = {
             short: "a नि h:mm"
         },
         dateFormats: {
-            full: "y MMMM d, EEEE",
-            long: "MMMM d, y",
-            medium: "MMM d, y",
-            short: "y-MM-dd"
+            full: "d MMMM y, EEEE",
+            long: "d MMMM, y",
+            medium: "d MMM, y",
+            short: "dd-MM-y"
         },
         days: {
             format: {
@@ -100,7 +102,7 @@ const data = {
                     "बुध",
                     "बिस्थि",
                     "सुखुर",
-                    "सुनि"
+                    "सनि"
                 ],
                 narrow: [
                     "र",
@@ -109,7 +111,7 @@ const data = {
                     "बु",
                     "बि",
                     "सु",
-                    "सु"
+                    "स"
                 ],
                 short: [
                     "रबि",
@@ -118,7 +120,7 @@ const data = {
                     "बुध",
                     "बिस्थि",
                     "सुखुर",
-                    "सुनि"
+                    "सनि"
                 ],
                 wide: [
                     "रबिबार",
@@ -127,7 +129,7 @@ const data = {
                     "बुधबार",
                     "बिस्थिबार",
                     "सुखुरबार",
-                    "सुनिबार"
+                    "सनिबार"
                 ]
             },
             "stand-alone": {
@@ -138,7 +140,7 @@ const data = {
                     "बुध",
                     "बिस्थि",
                     "सुखुर",
-                    "सुनि"
+                    "सनि"
                 ],
                 narrow: [
                     "र",
@@ -147,7 +149,7 @@ const data = {
                     "बु",
                     "बि",
                     "सु",
-                    "सु"
+                    "स"
                 ],
                 short: [
                     "रबि",
@@ -156,7 +158,7 @@ const data = {
                     "बुध",
                     "बिस्थि",
                     "सुखुर",
-                    "सुनि"
+                    "सनि"
                 ],
                 wide: [
                     "रबिबार",
@@ -164,8 +166,8 @@ const data = {
                     "मंगलबार",
                     "बुधबार",
                     "बिस्थिबार",
-                    "सुखुरबार",
-                    "सुनिबार"
+                    "सुुखुरबार",
+                    "सनिबार"
                 ]
             }
         },
@@ -309,7 +311,7 @@ const data = {
                 },
                 narrow: {
                     am: "फुं",
-                    pm: "बेलासे"
+                    pm: "बे"
                 },
                 wide: {
                     am: "फुं",
@@ -334,21 +336,21 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    "0": "बि.सि.",
-                    "1": "ए.दि",
-                    "0-alt-variant": "बिसिइ",
-                    "1-alt-variant": "सि.इ."
+                    "0": "ख्राइष्तनि सिगां",
+                    "1": "आन्न’ दामिनि",
+                    "0-alt-variant": "सादारन मुगानि सिगां",
+                    "1-alt-variant": "सादारन मुगा"
                 },
                 abbreviated: {
                     "0": "बि.सि.",
                     "1": "ए.दि",
-                    "0-alt-variant": "बिसिइ",
+                    "0-alt-variant": "बि.सि.इ",
                     "1-alt-variant": "सि.इ."
                 },
                 narrow: {
                     "0": "बि.सि.",
                     "1": "ए.दि",
-                    "0-alt-variant": "बिसिइ",
+                    "0-alt-variant": "बि.सि.इ",
                     "1-alt-variant": "सि.इ."
                 }
             }
@@ -382,9 +384,9 @@ const data = {
                 narrow: "सप्थाह"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "दाननि सप्थाह",
+                short: "दाननि सप्थाह",
+                narrow: "दाननि सप्थाह"
             },
             day: {
                 wide: "सान",
@@ -392,9 +394,9 @@ const data = {
                 narrow: "सान"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "बोसोरनि सान",
+                short: "बोसोरनि सान",
+                narrow: "बोसोरनि सान"
             },
             weekday: {
                 wide: "सप्थाहनि सान",
@@ -402,9 +404,9 @@ const data = {
                 narrow: "सप्थाहनि सान"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "दाननि सप्थाहयारि सान",
+                short: "दाननि सप्थाहयारि सान",
+                narrow: "दाननि सप्थाहयारि सान"
             },
             dayperiod: {
                 short: "फुं/बेलासे",
@@ -428,8 +430,8 @@ const data = {
             },
             zone: {
                 wide: "सम मण्डल",
-                short: "सम मण्डल",
-                narrow: "सम मण्डल"
+                short: "मण्डल",
+                narrow: "मण्डल"
             },
             millisecond: {
                 narrow: "ms",

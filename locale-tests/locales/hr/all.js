@@ -412,7 +412,6 @@ const data = {
                 symbol: "BRR"
             },
             BRZ: {
-                displayName: "BRZ",
                 symbol: "BRZ"
             },
             BSD: {
@@ -744,7 +743,7 @@ const data = {
                 "displayName-count-one": "euro",
                 "displayName-count-few": "eura",
                 "displayName-count-other": "eura",
-                symbol: "EUR",
+                symbol: "€",
                 "symbol-alt-narrow": "€"
             },
             FIM: {
@@ -1234,7 +1233,6 @@ const data = {
                 symbol: "MAF"
             },
             MCF: {
-                displayName: "MCF",
                 symbol: "MCF"
             },
             MDC: {
@@ -1709,10 +1707,6 @@ const data = {
                 "displayName-count-other": "slovačkih kruna",
                 symbol: "SKK"
             },
-            SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
-            },
             SLL: {
                 displayName: "sijeraleonski leone",
                 "displayName-count-one": "sijeraleonski leon",
@@ -1964,10 +1958,6 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
-            },
             UZS: {
                 displayName: "uzbekistanski som",
                 "displayName-count-one": "uzbekistanski som",
@@ -1981,10 +1971,6 @@ const data = {
                 "displayName-count-few": "venezuelanska bolivara (1871.–2008.)",
                 "displayName-count-other": "venezuelanskih bolivara (1871.–2008.)",
                 symbol: "VEB"
-            },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
             },
             VEF: {
                 displayName: "venezuelanski bolivar (2008. – 2018.)",
@@ -2286,7 +2272,7 @@ const data = {
                 symbol: "ZWR"
             }
         },
-        localeCurrency: "HRK"
+        localeCurrency: "EUR"
     },
     calendar: {
         patterns: {
@@ -2305,8 +2291,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} 'u' {0}",
-            long: "{1} 'u' {0}",
+            full: "{1} {0}",
+            long: "{1} {0}",
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
@@ -2318,24 +2304,24 @@ const data = {
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "E, d.",
-                Ehm: "E h:mm a",
+                Ehm: "E h:mm a",
                 EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y. G",
                 GyMd: "d. M. y. GGGGG",
                 GyMMM: "LLL y. G",
                 GyMMMd: "d. MMM y. G",
                 GyMMMEd: "E, d. MMM y. G",
-                h: "h a",
+                h: "h a",
                 H: "HH",
-                hm: "hh:mm a",
+                hm: "hh:mm a",
                 Hm: "HH:mm",
-                hms: "hh:mm:ss a",
+                hms: "hh:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
                 M: "L.",
                 Md: "dd. MM.",

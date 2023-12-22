@@ -304,11 +304,11 @@ const data = {
             format: {
                 abbreviated: {
                     am: "mbaꞌmbaꞌ",
-                    pm: "ŋka mbɔ́t nji"
+                    pm: "ŋka mbɔ́t nji"
                 },
                 narrow: {
                     am: "mbaꞌmbaꞌ",
-                    pm: "ŋka mbɔ́t nji"
+                    pm: "ŋka mbɔ́t nji"
                 },
                 wide: {
                     am: "mbaꞌmbaꞌ",
@@ -318,15 +318,15 @@ const data = {
             "stand-alone": {
                 abbreviated: {
                     am: "mbaꞌmbaꞌ",
-                    pm: "ŋka mbɔ́t nji"
+                    pm: "ŋka mbɔ́t nji"
                 },
                 narrow: {
                     am: "mbaꞌmbaꞌ",
-                    pm: "ŋka mbɔ́t nji"
+                    pm: "ŋka mbɔ́t nji"
                 },
                 wide: {
                     am: "mbaꞌmbaꞌ",
-                    pm: "ŋka mbɔ́t nji"
+                    pm: "ŋka mbɔ́t nji"
                 }
             }
         },

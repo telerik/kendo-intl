@@ -1887,7 +1887,11 @@ const data = {
                 symbol: "SKK"
             },
             SLE: {
-                displayName: "SLE",
+                displayName: "Leone Siarra Leòmhannach ùr",
+                "displayName-count-one": "leone Siarra Leòmhannach ùr",
+                "displayName-count-two": "leone Siarra Leòmhannach ùr",
+                "displayName-count-few": "leone Siarra Leòmhannach ùr",
+                "displayName-count-other": "leone Siarra Leòmhannach ùr",
                 symbol: "SLE"
             },
             SLL: {
@@ -2180,8 +2184,7 @@ const data = {
                 "displayName-count-one": "aonad inneacs tuarastail ainmeach Uruguaidh",
                 "displayName-count-two": "aonad inneacs tuarastail ainmeach Uruguaidh",
                 "displayName-count-few": "aonadan inneacs tuarastail ainmeach Uruguaidh",
-                "displayName-count-other": "aonad inneacs tuarastail ainmeach Uruguaidh",
-                symbol: "UYW"
+                "displayName-count-other": "aonad inneacs tuarastail ainmeach Uruguaidh"
             },
             UZS: {
                 displayName: "Som Usbagach",
@@ -2200,7 +2203,11 @@ const data = {
                 symbol: "VEB"
             },
             VED: {
-                displayName: "VED",
+                displayName: "Bolívar Soberano",
+                "displayName-count-one": "bholívar Soberano",
+                "displayName-count-two": "bholívar Soberano",
+                "displayName-count-few": "bolívar Soberano",
+                "displayName-count-other": "bolívar Soberano",
                 symbol: "VED"
             },
             VEF: {

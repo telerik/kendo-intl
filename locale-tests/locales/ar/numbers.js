@@ -47,7 +47,8 @@ const data = {
         },
         currency: {
             patterns: [
-                "$ n"
+                "‏n $",
+                "‏-n $"
             ],
             groupSize: [
                 3
@@ -61,8 +62,8 @@ const data = {
         },
         accounting: {
             patterns: [
-                "$n",
-                "($n)"
+                "؜n$",
+                "(؜n$)"
             ],
             groupSize: [
                 3

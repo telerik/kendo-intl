@@ -60,28 +60,16 @@ const data = {
             ]
         },
         currencies: {
-            ADP: {
-                displayName: "ADP",
-                symbol: "ADP"
-            },
             AED: {
                 displayName: "အာရပ်စော်ဘွားများ ပြည်ထောင်စု ဒါဟမ်း",
                 "displayName-count-other": "အာရပ်စော်ဘွားများ ပြည်ထောင်စု ဒါဟမ်း",
                 symbol: "AED"
-            },
-            AFA: {
-                displayName: "AFA",
-                symbol: "AFA"
             },
             AFN: {
                 displayName: "အာဖဂန် အာဖဂါနီ",
                 "displayName-count-other": "အာဖဂန် အာဖဂါနီ",
                 symbol: "AFN",
                 "symbol-alt-narrow": "؋"
-            },
-            ALK: {
-                displayName: "ALK",
-                symbol: "ALK"
             },
             ALL: {
                 displayName: "အယ်ဘေးနီးယား လီခ်",
@@ -105,43 +93,14 @@ const data = {
                 symbol: "AOA",
                 "symbol-alt-narrow": "Kz"
             },
-            AOK: {
-                displayName: "AOK",
-                symbol: "AOK"
-            },
-            AON: {
-                displayName: "AON",
-                symbol: "AON"
-            },
-            AOR: {
-                displayName: "AOR",
-                symbol: "AOR"
-            },
-            ARA: {
-                displayName: "ARA",
-                symbol: "ARA"
-            },
-            ARL: {
-                displayName: "ARL",
-                symbol: "ARL"
-            },
-            ARM: {
-                displayName: "ARM",
-                symbol: "ARM"
-            },
             ARP: {
-                displayName: "အာဂျင်တီးနား ပီဆို (၁၉၈၃–၁၉၈၅)",
-                symbol: "ARP"
+                displayName: "အာဂျင်တီးနား ပီဆို (၁၉၈၃–၁၉၈၅)"
             },
             ARS: {
                 displayName: "အာဂျင်တီးနား ပီဆို",
                 "displayName-count-other": "အာဂျင်တီးနား ပီဆို",
                 symbol: "ARS",
                 "symbol-alt-narrow": "$"
-            },
-            ATS: {
-                displayName: "ATS",
-                symbol: "ATS"
             },
             AUD: {
                 displayName: "ဩစတြေးလျ ဒေါ်လာ",
@@ -154,29 +113,17 @@ const data = {
                 "displayName-count-other": "အရူးဗာ ဖလိုရင်း",
                 symbol: "Afl"
             },
-            AZM: {
-                displayName: "AZM",
-                symbol: "AZM"
-            },
             AZN: {
                 displayName: "အဇာဘိုင်ဂျန် မာနတ်",
                 "displayName-count-other": "အဇာဘိုင်ဂျန် မာနတ်",
                 symbol: "AZN",
                 "symbol-alt-narrow": "₼"
             },
-            BAD: {
-                displayName: "BAD",
-                symbol: "BAD"
-            },
             BAM: {
                 displayName: "ဘော့စနီးယားနှင့် ဟာဇီဂိုဘီးနား ငွေလဲနိုင်သော မတ်က်",
                 "displayName-count-other": "ဘော့စနီးယားနှင့် ဟာဇီဂိုဘီးနားမတ်က်",
                 symbol: "BAM",
                 "symbol-alt-narrow": "KM"
-            },
-            BAN: {
-                displayName: "BAN",
-                symbol: "BAN"
             },
             BBD: {
                 displayName: "ဘာဘေးဒိုးစ် ဒေါ်လာ",
@@ -190,34 +137,13 @@ const data = {
                 symbol: "BDT",
                 "symbol-alt-narrow": "৳"
             },
-            BEC: {
-                displayName: "BEC",
-                symbol: "BEC"
-            },
             BEF: {
-                displayName: "ဘယ်လ်ဂျီယမ် ဖရန့်",
-                symbol: "BEF"
-            },
-            BEL: {
-                displayName: "BEL",
-                symbol: "BEL"
-            },
-            BGL: {
-                displayName: "BGL",
-                symbol: "BGL"
-            },
-            BGM: {
-                displayName: "BGM",
-                symbol: "BGM"
+                displayName: "ဘယ်လ်ဂျီယမ် ဖရန့်"
             },
             BGN: {
                 displayName: "ဘူလ်ဂေးရီးယား လက်ဖ်",
                 "displayName-count-other": "ဘူလ်ဂေးရီးယား လက်ဖ်",
                 symbol: "BGN"
-            },
-            BGO: {
-                displayName: "BGO",
-                symbol: "BGO"
             },
             BHD: {
                 displayName: "ဘာရိန်း ဒီနား",
@@ -247,47 +173,14 @@ const data = {
                 symbol: "BOB",
                 "symbol-alt-narrow": "Bs"
             },
-            BOL: {
-                displayName: "BOL",
-                symbol: "BOL"
-            },
             BOP: {
-                displayName: "ဘိုလီးဘီးယား ပီဆို",
-                symbol: "BOP"
-            },
-            BOV: {
-                displayName: "BOV",
-                symbol: "BOV"
-            },
-            BRB: {
-                displayName: "BRB",
-                symbol: "BRB"
-            },
-            BRC: {
-                displayName: "BRC",
-                symbol: "BRC"
-            },
-            BRE: {
-                displayName: "BRE",
-                symbol: "BRE"
+                displayName: "ဘိုလီးဘီးယား ပီဆို"
             },
             BRL: {
                 displayName: "ဘရာဇီး ရီးယဲ",
                 "displayName-count-other": "ဘရာဇီး ရီးယဲ",
                 symbol: "R$",
                 "symbol-alt-narrow": "R$"
-            },
-            BRN: {
-                displayName: "BRN",
-                symbol: "BRN"
-            },
-            BRR: {
-                displayName: "BRR",
-                symbol: "BRR"
-            },
-            BRZ: {
-                displayName: "BRZ",
-                symbol: "BRZ"
             },
             BSD: {
                 displayName: "ဘဟားမား ဒေါ်လာ",
@@ -301,8 +194,7 @@ const data = {
                 symbol: "BTN"
             },
             BUK: {
-                displayName: "ဗမာ ကျပ်",
-                symbol: "BUK"
+                displayName: "ဗမာ ကျပ်"
             },
             BWP: {
                 displayName: "ဘော့ဆွာနာ ပုလ",
@@ -311,8 +203,7 @@ const data = {
                 "symbol-alt-narrow": "P"
             },
             BYB: {
-                displayName: "ဘီလာရုစ် ရူဘယ်အသစ် (၁၉၉၄–၁၉၉၉)",
-                symbol: "BYB"
+                displayName: "ဘီလာရုစ် ရူဘယ်အသစ် (၁၉၉၄–၁၉၉၉)"
             },
             BYN: {
                 displayName: "ဘီလာရုစ် ရူဘယ်",
@@ -342,26 +233,10 @@ const data = {
                 "displayName-count-other": "ကွန်ဂို ဖရန့်",
                 symbol: "CDF"
             },
-            CHE: {
-                displayName: "CHE",
-                symbol: "CHE"
-            },
             CHF: {
                 displayName: "ဆွစ် ဖရန့်",
                 "displayName-count-other": "ဆွစ် ဖရန့်",
                 symbol: "CHF"
-            },
-            CHW: {
-                displayName: "CHW",
-                symbol: "CHW"
-            },
-            CLE: {
-                displayName: "CLE",
-                symbol: "CLE"
-            },
-            CLF: {
-                displayName: "CLF",
-                symbol: "CLF"
             },
             CLP: {
                 displayName: "ချီလီ ပီဆို",
@@ -373,10 +248,6 @@ const data = {
                 displayName: "တရုတ် ယွမ် (ဟောင်ကောင်)",
                 "displayName-count-other": "တရုတ် ယွမ် (ဟောင်ကောင်)",
                 symbol: "CNH"
-            },
-            CNX: {
-                displayName: "CNX",
-                symbol: "CNX"
             },
             CNY: {
                 displayName: "တရုတ် ယွမ်",
@@ -390,23 +261,11 @@ const data = {
                 symbol: "COP",
                 "symbol-alt-narrow": "$"
             },
-            COU: {
-                displayName: "COU",
-                symbol: "COU"
-            },
             CRC: {
                 displayName: "ကို့စတာရီကာ ကိုလွန်",
                 "displayName-count-other": "ကို့စတာရီကာ ကိုလွန်",
                 symbol: "CRC",
                 "symbol-alt-narrow": "₡"
-            },
-            CSD: {
-                displayName: "CSD",
-                symbol: "CSD"
-            },
-            CSK: {
-                displayName: "CSK",
-                symbol: "CSK"
             },
             CUC: {
                 displayName: "နိုင်ငံခြားငွေလဲလှယ်နိုင်သော ကျူးဘားပီဆို",
@@ -426,8 +285,7 @@ const data = {
                 symbol: "CVE"
             },
             CYP: {
-                displayName: "ဆိုက်ပရက်စ် ပေါင်",
-                symbol: "CYP"
+                displayName: "ဆိုက်ပရက်စ် ပေါင်"
             },
             CZK: {
                 displayName: "ချက် ခိုရိုနာ",
@@ -435,13 +293,8 @@ const data = {
                 symbol: "CZK",
                 "symbol-alt-narrow": "Kč"
             },
-            DDM: {
-                displayName: "DDM",
-                symbol: "DDM"
-            },
             DEM: {
-                displayName: "ဂျာမဏီ မတ်",
-                symbol: "DEM"
+                displayName: "ဂျာမဏီ မတ်"
             },
             DJF: {
                 displayName: "ဂျီဘူတီ ဖရန့်",
@@ -465,18 +318,6 @@ const data = {
                 "displayName-count-other": "အယ်လ်ဂျီးရီးယား ဒီနာ",
                 symbol: "DZD"
             },
-            ECS: {
-                displayName: "ECS",
-                symbol: "ECS"
-            },
-            ECV: {
-                displayName: "ECV",
-                symbol: "ECV"
-            },
-            EEK: {
-                displayName: "EEK",
-                symbol: "EEK"
-            },
             EGP: {
                 displayName: "အီဂျစ် ပေါင်",
                 "displayName-count-other": "အီဂျစ် ပေါင်",
@@ -488,17 +329,8 @@ const data = {
                 "displayName-count-other": "အီရီထရီးယား နာ့ခ်ဖာ",
                 symbol: "ERN"
             },
-            ESA: {
-                displayName: "ESA",
-                symbol: "ESA"
-            },
-            ESB: {
-                displayName: "ESB",
-                symbol: "ESB"
-            },
             ESP: {
                 displayName: "စပိန် ပယ်စေးတာ",
-                symbol: "ESP",
                 "symbol-alt-narrow": "₧"
             },
             ETB: {
@@ -511,10 +343,6 @@ const data = {
                 "displayName-count-other": "ယူရို",
                 symbol: "€",
                 "symbol-alt-narrow": "€"
-            },
-            FIM: {
-                displayName: "FIM",
-                symbol: "FIM"
             },
             FJD: {
                 displayName: "ဖီဂျီ ဒေါ်လာ",
@@ -529,8 +357,7 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             FRF: {
-                displayName: "ပြင်သစ် ဖရန့်",
-                symbol: "FRF"
+                displayName: "ပြင်သစ် ဖရန့်"
             },
             GBP: {
                 displayName: "ဗြိတိသျှ ပေါင်",
@@ -538,19 +365,11 @@ const data = {
                 symbol: "£",
                 "symbol-alt-narrow": "£"
             },
-            GEK: {
-                displayName: "GEK",
-                symbol: "GEK"
-            },
             GEL: {
                 displayName: "ဂျော်ဂျီယာ လားရီ",
                 "displayName-count-other": "ဂျော်ဂျီယာ လားရီ",
                 symbol: "GEL",
                 "symbol-alt-narrow": "₾"
-            },
-            GHC: {
-                displayName: "GHC",
-                symbol: "GHC"
             },
             GHS: {
                 displayName: "ဂါနာ ဆဲဒီ",
@@ -575,31 +394,11 @@ const data = {
                 symbol: "GNF",
                 "symbol-alt-narrow": "FG"
             },
-            GNS: {
-                displayName: "GNS",
-                symbol: "GNS"
-            },
-            GQE: {
-                displayName: "GQE",
-                symbol: "GQE"
-            },
-            GRD: {
-                displayName: "GRD",
-                symbol: "GRD"
-            },
             GTQ: {
                 displayName: "ဂွါတီမာလာ ခက်ဇော်လ်",
                 "displayName-count-other": "ဂွါတီမာလာ ခက်ဇော်လ်",
                 symbol: "GTQ",
                 "symbol-alt-narrow": "Q"
-            },
-            GWE: {
-                displayName: "GWE",
-                symbol: "GWE"
-            },
-            GWP: {
-                displayName: "GWP",
-                symbol: "GWP"
             },
             GYD: {
                 displayName: "ဂိုင်ယာနာ ဒေါ်လာ",
@@ -618,10 +417,6 @@ const data = {
                 "displayName-count-other": "ဟွန်ဒူးရပ်စ် လမ်းပီရာ",
                 symbol: "HNL",
                 "symbol-alt-narrow": "L"
-            },
-            HRD: {
-                displayName: "HRD",
-                symbol: "HRD"
             },
             HRK: {
                 displayName: "ခရိုအေးရှား ခူးနာ",
@@ -646,17 +441,8 @@ const data = {
                 symbol: "IDR",
                 "symbol-alt-narrow": "Rp"
             },
-            IEP: {
-                displayName: "IEP",
-                symbol: "IEP"
-            },
             ILP: {
-                displayName: "အစ္စရေး ပေါင်",
-                symbol: "ILP"
-            },
-            ILR: {
-                displayName: "ILR",
-                symbol: "ILR"
+                displayName: "အစ္စရေး ပေါင်"
             },
             ILS: {
                 displayName: "အစ္စရေး ရှဲကလ်အသစ်",
@@ -680,19 +466,11 @@ const data = {
                 "displayName-count-other": "အီရန် ရီအော်လ်",
                 symbol: "IRR"
             },
-            ISJ: {
-                displayName: "ISJ",
-                symbol: "ISJ"
-            },
             ISK: {
                 displayName: "အိုက်စလန် ခရိုဏာ",
                 "displayName-count-other": "အိုက်စလန် ခရိုဏာ",
                 symbol: "ISK",
                 "symbol-alt-narrow": "kr"
-            },
-            ITL: {
-                displayName: "ITL",
-                symbol: "ITL"
             },
             JMD: {
                 displayName: "ဂျမေကာ ဒေါ်လာ",
@@ -738,14 +516,6 @@ const data = {
                 "displayName-count-other": "မြောက်ကိုရီးယား ဝမ်",
                 symbol: "KPW",
                 "symbol-alt-narrow": "₩"
-            },
-            KRH: {
-                displayName: "KRH",
-                symbol: "KRH"
-            },
-            KRO: {
-                displayName: "KRO",
-                symbol: "KRO"
             },
             KRW: {
                 displayName: "တောင်ကိုရီးယား ဝမ်",
@@ -796,40 +566,17 @@ const data = {
             },
             LSL: {
                 displayName: "လီဆိုသို လိုတီ",
-                "displayName-count-other": "လီဆိုသို လိုတီစ်",
-                symbol: "LSL"
+                "displayName-count-other": "လီဆိုသို လိုတီစ်"
             },
             LTL: {
                 displayName: "လစ်သူယေးနီးယားလီတားစ်",
                 "displayName-count-other": "လစ်သူယေးနီးယားလီတားစ်",
-                symbol: "LTL",
                 "symbol-alt-narrow": "Lt"
-            },
-            LTT: {
-                displayName: "LTT",
-                symbol: "LTT"
-            },
-            LUC: {
-                displayName: "LUC",
-                symbol: "LUC"
-            },
-            LUF: {
-                displayName: "LUF",
-                symbol: "LUF"
-            },
-            LUL: {
-                displayName: "LUL",
-                symbol: "LUL"
             },
             LVL: {
                 displayName: "လတ်ဗီးယားလတ်",
                 "displayName-count-other": "လတ်ဗီးယားလတ်",
-                symbol: "LVL",
                 "symbol-alt-narrow": "Ls"
-            },
-            LVR: {
-                displayName: "LVR",
-                symbol: "LVR"
             },
             LYD: {
                 displayName: "လစ်ဗျား ဒိုင်နာ",
@@ -840,18 +587,6 @@ const data = {
                 displayName: "မိုရိုကို ဒရမ်",
                 "displayName-count-other": "မိုရိုကို ဒရမ်",
                 symbol: "MAD"
-            },
-            MAF: {
-                displayName: "MAF",
-                symbol: "MAF"
-            },
-            MCF: {
-                displayName: "MCF",
-                symbol: "MCF"
-            },
-            MDC: {
-                displayName: "MDC",
-                symbol: "MDC"
             },
             MDL: {
                 displayName: "မောလ်ဒိုဗာ လယ်အို",
@@ -864,22 +599,10 @@ const data = {
                 symbol: "MGA",
                 "symbol-alt-narrow": "Ar"
             },
-            MGF: {
-                displayName: "MGF",
-                symbol: "MGF"
-            },
             MKD: {
                 displayName: "မက်ဆီဒိုးနီးယား ဒီနာ",
                 "displayName-count-other": "မက်ဆီဒိုးနီးယား ဒီနာ",
                 symbol: "MKD"
-            },
-            MKN: {
-                displayName: "MKN",
-                symbol: "MKN"
-            },
-            MLF: {
-                displayName: "MLF",
-                symbol: "MLF"
             },
             MMK: {
                 displayName: "မြန်မာ ကျပ်",
@@ -905,26 +628,13 @@ const data = {
             },
             MRU: {
                 displayName: "မော်ရီတေးနီးယန်း အူဂီးယာ",
-                "displayName-count-other": "မော်ရီတေးနီးယန်း အူဂီးယာ",
-                symbol: "MRU"
-            },
-            MTL: {
-                displayName: "MTL",
-                symbol: "MTL"
-            },
-            MTP: {
-                displayName: "MTP",
-                symbol: "MTP"
+                "displayName-count-other": "မော်ရီတေးနီးယန်း အူဂီးယာ"
             },
             MUR: {
                 displayName: "မောရစ်ရှ ရူပီး",
                 "displayName-count-other": "မောရစ်ရှ ရူပီး",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
-            },
-            MVP: {
-                displayName: "MVP",
-                symbol: "MVP"
             },
             MVR: {
                 displayName: "မော်လ်ဒိုက် ရူးဖီရာ",
@@ -942,27 +652,11 @@ const data = {
                 symbol: "MX$",
                 "symbol-alt-narrow": "$"
             },
-            MXP: {
-                displayName: "MXP",
-                symbol: "MXP"
-            },
-            MXV: {
-                displayName: "MXV",
-                symbol: "MXV"
-            },
             MYR: {
                 displayName: "မလေးရှား ရင်းဂစ်",
                 "displayName-count-other": "မလေးရှား ရင်းဂစ်",
                 symbol: "MYR",
                 "symbol-alt-narrow": "RM"
-            },
-            MZE: {
-                displayName: "MZE",
-                symbol: "MZE"
-            },
-            MZM: {
-                displayName: "MZM",
-                symbol: "MZM"
             },
             MZN: {
                 displayName: "မိုဇမ်ဘစ် မက်တီခယ်လ်",
@@ -981,19 +675,11 @@ const data = {
                 symbol: "NGN",
                 "symbol-alt-narrow": "₦"
             },
-            NIC: {
-                displayName: "NIC",
-                symbol: "NIC"
-            },
             NIO: {
                 displayName: "နီကာရာဂွါ ခိုးဒိုဘာ",
                 "displayName-count-other": "နီကာရာဂွါ ခိုးဒိုဘာ",
                 symbol: "NIO",
                 "symbol-alt-narrow": "C$"
-            },
-            NLG: {
-                displayName: "NLG",
-                symbol: "NLG"
             },
             NOK: {
                 displayName: "နော်ဝေ ခရိုဏာ",
@@ -1023,18 +709,10 @@ const data = {
                 "displayName-count-other": "ပနားမား ဘလျဘိုးအာ",
                 symbol: "B/."
             },
-            PEI: {
-                displayName: "PEI",
-                symbol: "PEI"
-            },
             PEN: {
                 displayName: "ပီရူး ဆိုးလ်",
                 "displayName-count-other": "ပီရူး ဆိုးလ်",
                 symbol: "PEN"
-            },
-            PES: {
-                displayName: "PES",
-                symbol: "PES"
             },
             PGK: {
                 displayName: "ပါပူအာ နယူးဂီနီ ခီးနာ",
@@ -1059,14 +737,6 @@ const data = {
                 symbol: "PLN",
                 "symbol-alt-narrow": "zł"
             },
-            PLZ: {
-                displayName: "PLZ",
-                symbol: "PLZ"
-            },
-            PTE: {
-                displayName: "PTE",
-                symbol: "PTE"
-            },
             PYG: {
                 displayName: "ပါရာဂွေး ဂွါးအ်နီး",
                 "displayName-count-other": "ပါရာဂွေး ဂွါးအ်နီး",
@@ -1077,14 +747,6 @@ const data = {
                 displayName: "ကာတာရီ ရီရယ်",
                 "displayName-count-other": "ကာတာရီ ရီရယ်",
                 symbol: "QAR"
-            },
-            RHD: {
-                displayName: "RHD",
-                symbol: "RHD"
-            },
-            ROL: {
-                displayName: "ROL",
-                symbol: "ROL"
             },
             RON: {
                 displayName: "ရိုမေးနီးယား လယ်အို",
@@ -1104,8 +766,7 @@ const data = {
                 "symbol-alt-narrow": "₽"
             },
             RUR: {
-                displayName: "ရုရှ ရူဘယ် (၁၉၉၁–၁၉၉၈)",
-                symbol: "RUR"
+                displayName: "ရုရှ ရူဘယ် (၁၉၉၁–၁၉၉၈)"
             },
             RWF: {
                 displayName: "ရဝန်ဒါ ဖရန့်",
@@ -1129,18 +790,13 @@ const data = {
                 "displayName-count-other": "ဆေးရှဲ ရူပီး",
                 symbol: "SCR"
             },
-            SDD: {
-                displayName: "SDD",
-                symbol: "SDD"
-            },
             SDG: {
                 displayName: "ဆူဒန် ပေါင်",
                 "displayName-count-other": "ဆူဒန် ပေါင်",
                 symbol: "SDG"
             },
             SDP: {
-                displayName: "ဆူဒန် ပေါင်အဟောင်း",
-                symbol: "SDP"
+                displayName: "ဆူဒန် ပေါင်အဟောင်း"
             },
             SEK: {
                 displayName: "ဆွီဒင် ခရိုဏာ",
@@ -1160,18 +816,6 @@ const data = {
                 symbol: "SHP",
                 "symbol-alt-narrow": "£"
             },
-            SIT: {
-                displayName: "SIT",
-                symbol: "SIT"
-            },
-            SKK: {
-                displayName: "SKK",
-                symbol: "SKK"
-            },
-            SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
-            },
             SLL: {
                 displayName: "ဆီယာရာလီယွန်း လီအိုနီ",
                 "displayName-count-other": "ဆီယာရာလီယွန်း လီအိုနီ",
@@ -1187,10 +831,6 @@ const data = {
                 "displayName-count-other": "ဆူရီနမ်း ဒေါ်လာ",
                 symbol: "SRD",
                 "symbol-alt-narrow": "$"
-            },
-            SRG: {
-                displayName: "SRG",
-                symbol: "SRG"
             },
             SSP: {
                 displayName: "တောင်ဆူဒန် ပေါင်",
@@ -1210,12 +850,7 @@ const data = {
                 "symbol-alt-narrow": "Db"
             },
             SUR: {
-                displayName: "ဆိုဗီယက် ရူဗယ်",
-                symbol: "SUR"
-            },
-            SVC: {
-                displayName: "SVC",
-                symbol: "SVC"
+                displayName: "ဆိုဗီယက် ရူဗယ်"
             },
             SYP: {
                 displayName: "ဆီးရီးယား ပေါင်",
@@ -1234,18 +869,10 @@ const data = {
                 symbol: "฿",
                 "symbol-alt-narrow": "฿"
             },
-            TJR: {
-                displayName: "TJR",
-                symbol: "TJR"
-            },
             TJS: {
                 displayName: "တာဂျစ်ကစ္စတန် ဆိုမိုနီ",
                 "displayName-count-other": "တာဂျစ်ကစ္စတန် ဆိုမိုနီ",
                 symbol: "TJS"
-            },
-            TMM: {
-                displayName: "TMM",
-                symbol: "TMM"
             },
             TMT: {
                 displayName: "တာ့ခ်မင်နစ္စတန် မာနတ်",
@@ -1263,13 +890,8 @@ const data = {
                 symbol: "TOP",
                 "symbol-alt-narrow": "T$"
             },
-            TPE: {
-                displayName: "TPE",
-                symbol: "TPE"
-            },
             TRL: {
-                displayName: "ရှေးဟောင်းတူရကီ လိုင်ရာ",
-                symbol: "TRL"
+                displayName: "ရှေးဟောင်းတူရကီ လိုင်ရာ"
             },
             TRY: {
                 displayName: "တူရကီ လိုင်ရာ",
@@ -1301,14 +923,6 @@ const data = {
                 symbol: "UAH",
                 "symbol-alt-narrow": "₴"
             },
-            UAK: {
-                displayName: "UAK",
-                symbol: "UAK"
-            },
-            UGS: {
-                displayName: "UGS",
-                symbol: "UGS"
-            },
             UGX: {
                 displayName: "ယူဂန္ဒာ သျှီလင်",
                 "displayName-count-other": "ယူဂန္ဒာ သျှီလင်",
@@ -1321,20 +935,10 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             USN: {
-                displayName: "အမေရိကန် ဒေါ်လာ (နောက်နေ့)",
-                symbol: "USN"
+                displayName: "အမေရိကန် ဒေါ်လာ (နောက်နေ့)"
             },
             USS: {
-                displayName: "အမေရိကန် ဒေါ်လာ (တနေ့တည်း)",
-                symbol: "USS"
-            },
-            UYI: {
-                displayName: "UYI",
-                symbol: "UYI"
-            },
-            UYP: {
-                displayName: "UYP",
-                symbol: "UYP"
+                displayName: "အမေရိကန် ဒေါ်လာ (တနေ့တည်း)"
             },
             UYU: {
                 displayName: "ဥရုဂွေး ပီဆို",
@@ -1342,22 +946,10 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
-            },
             UZS: {
                 displayName: "ဥဇဘက်ကစ္စတန် ဆော်မ်",
                 "displayName-count-other": "ဥဇဘက်ကစ္စတန် ဆော်မ်",
                 symbol: "UZS"
-            },
-            VEB: {
-                displayName: "VEB",
-                symbol: "VEB"
-            },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
             },
             VEF: {
                 displayName: "ဗင်နီဇွဲလား ဘိုလီဗာ (၂၀၀၈–၂၀၁၈)",
@@ -1367,18 +959,13 @@ const data = {
             },
             VES: {
                 displayName: "ဗင်နီဇွဲလန်း ဘိုလီဗာ",
-                "displayName-count-other": "ဗင်နီဇွဲလန်း ဘိုလီဗာ",
-                symbol: "VES"
+                "displayName-count-other": "ဗင်နီဇွဲလန်း ဘိုလီဗာ"
             },
             VND: {
                 displayName: "ဗီယက်နမ် ဒေါင်",
                 "displayName-count-other": "ဗီယက်နမ် ဒေါင်",
                 symbol: "₫",
                 "symbol-alt-narrow": "₫"
-            },
-            VNN: {
-                displayName: "VNN",
-                symbol: "VNN"
             },
             VUV: {
                 displayName: "ဗနွားတူ ဗားထူ",
@@ -1396,28 +983,13 @@ const data = {
                 symbol: "FCFA"
             },
             XAG: {
-                displayName: "ငွေ",
-                symbol: "XAG"
+                displayName: "ငွေ"
             },
             XAU: {
-                displayName: "ရွှေ",
-                symbol: "XAU"
-            },
-            XBA: {
-                displayName: "XBA",
-                symbol: "XBA"
+                displayName: "ရွှေ"
             },
             XBB: {
-                displayName: "ဥရောပငွေကြေးစံနစ်",
-                symbol: "XBB"
-            },
-            XBC: {
-                displayName: "XBC",
-                symbol: "XBC"
-            },
-            XBD: {
-                displayName: "XBD",
-                symbol: "XBD"
+                displayName: "ဥရောပငွေကြေးစံနစ်"
             },
             XCD: {
                 displayName: "အရှေ့ကာရစ်ဘီယံ ဒေါ်လာ",
@@ -1426,29 +998,12 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             XDR: {
-                displayName: "အထူးထုတ်ယူခွင့်",
-                symbol: "XDR"
-            },
-            XEU: {
-                displayName: "XEU",
-                symbol: "XEU"
-            },
-            XFO: {
-                displayName: "XFO",
-                symbol: "XFO"
-            },
-            XFU: {
-                displayName: "XFU",
-                symbol: "XFU"
+                displayName: "အထူးထုတ်ယူခွင့်"
             },
             XOF: {
                 displayName: "အနောက် အာဖရိက [CFA ]ဖရန့်",
                 "displayName-count-other": "အနောက် အာဖရိက [CFA] ဖရန့်",
                 symbol: "F CFA"
-            },
-            XPD: {
-                displayName: "XPD",
-                symbol: "XPD"
             },
             XPF: {
                 displayName: "[CFP] ဖရန့်",
@@ -1456,58 +1011,20 @@ const data = {
                 symbol: "CFPF"
             },
             XPT: {
-                displayName: "ပလက်တီနမ်",
-                symbol: "XPT"
-            },
-            XRE: {
-                displayName: "XRE",
-                symbol: "XRE"
-            },
-            XSU: {
-                displayName: "XSU",
-                symbol: "XSU"
+                displayName: "ပလက်တီနမ်"
             },
             XTS: {
-                displayName: "စမ်းသပ် ငွေကြေး ကုဒ်",
-                symbol: "XTS"
-            },
-            XUA: {
-                displayName: "XUA",
-                symbol: "XUA"
+                displayName: "စမ်းသပ် ငွေကြေး ကုဒ်"
             },
             XXX: {
                 displayName: "မသိသို့မဟုတ်မရှိသောငွေကြေး",
                 "displayName-count-other": "(မသိသို့မဟုတ်မရှိသောငွေကြေး)",
                 symbol: "¤"
             },
-            YDD: {
-                displayName: "YDD",
-                symbol: "YDD"
-            },
             YER: {
                 displayName: "ယီမင်နီ ရီရယ်",
                 "displayName-count-other": "ယီမင်နီ ရီရယ်",
                 symbol: "YER"
-            },
-            YUD: {
-                displayName: "YUD",
-                symbol: "YUD"
-            },
-            YUM: {
-                displayName: "YUM",
-                symbol: "YUM"
-            },
-            YUN: {
-                displayName: "YUN",
-                symbol: "YUN"
-            },
-            YUR: {
-                displayName: "YUR",
-                symbol: "YUR"
-            },
-            ZAL: {
-                displayName: "ZAL",
-                symbol: "ZAL"
             },
             ZAR: {
                 displayName: "တောင်အာဖရိက ရန်း",
@@ -1515,50 +1032,29 @@ const data = {
                 symbol: "ZAR",
                 "symbol-alt-narrow": "R"
             },
-            ZMK: {
-                displayName: "ZMK",
-                symbol: "ZMK"
-            },
             ZMW: {
                 displayName: "ဇင်ဘာဘွေ ခွါးချာ",
                 "displayName-count-other": "ဇင်ဘာဘွေ ခွါးချာ",
                 symbol: "ZMW",
                 "symbol-alt-narrow": "ZK"
             },
-            ZRN: {
-                displayName: "ZRN",
-                symbol: "ZRN"
-            },
-            ZRZ: {
-                displayName: "ZRZ",
-                symbol: "ZRZ"
-            },
             ZWD: {
-                displayName: "ဇင်ဘာဘွေ ဒေါ်လာ",
-                symbol: "ZWD"
-            },
-            ZWL: {
-                displayName: "ZWL",
-                symbol: "ZWL"
-            },
-            ZWR: {
-                displayName: "ZWR",
-                symbol: "ZWR"
+                displayName: "ဇင်ဘာဘွေ ဒေါ်လာ"
             }
         },
         localeCurrency: "MMK"
     },
     calendar: {
         patterns: {
-            d: "dd-MM-y",
-            D: "y- MMMM d- EEEE",
+            d: "d/M/y",
+            D: "y၊ MMMM d၊ EEEE",
             m: "d MMM",
             M: "MMMM d",
             y: "MMM y",
             Y: "y MMMM",
-            F: "y- MMMM d- EEEE H:mm:ss",
-            g: "dd-MM-y H:mm",
-            G: "dd-MM-y H:mm:ss",
+            F: "y၊ MMMM d၊ EEEE H:mm:ss",
+            g: "d/M/y H:mm",
+            G: "d/M/y H:mm:ss",
             t: "H:mm",
             T: "H:mm:ss",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
@@ -1574,19 +1070,19 @@ const data = {
                 Bhm: "B h:mm",
                 Bhms: "B h:mm:ss",
                 d: "d",
-                E: "cccနေ့",
+                E: "ccc",
                 EBhm: "E B h:mm",
                 EBhms: "E B h:mm:ss",
-                Ed: "d ရက် Eနေ့",
+                Ed: "d ရက် E",
                 Ehm: "E B h:mm",
                 EHm: "E HH:mm",
                 Ehms: "E B h:mm:ss",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
-                GyMd: "GGGGG y-MM-dd",
+                GyMd: "G y/M/d",
                 GyMMM: "G y MMM",
-                GyMMMd: "G y- MMM d",
-                GyMMMEd: "G y- MMM d- E",
+                GyMMMd: "G y၊ MMM d",
+                GyMMMEd: "G y၊ MMM d၊ E",
                 h: "B h",
                 H: "HH",
                 hm: "B h:mm",
@@ -1599,21 +1095,21 @@ const data = {
                 Hmv: "v HH:mm",
                 M: "L",
                 Md: "d/M",
-                MEd: "d-M- E",
+                MEd: "d/M၊ E",
                 MMM: "LLL",
                 MMMd: "d MMM",
-                MMMEd: "MMM d- E",
+                MMMEd: "MMM d၊ E",
                 MMMMd: "MMMM d",
-                MMMMEd: "MMMM d ရက် Eနေ့",
+                MMMMEd: "MMMM d ရက် E",
                 "MMMMW-count-other": "MMMM လ W ပတ်မြောက်",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M/y",
-                yMd: "dd-MM-y",
-                yMEd: "d/M/y- E",
+                yMd: "d/M/y",
+                yMEd: "d/M/y၊ E",
                 yMMM: "MMM y",
-                yMMMd: "y- MMM d",
-                yMMMEd: "y- MMM d- E",
+                yMMMd: "y၊ MMM d",
+                yMMMEd: "y၊ MMM d၊ E",
                 yMMMM: "y MMMM",
                 yQQQ: "y QQQ",
                 yQQQQ: "y QQQQ",
@@ -1627,10 +1123,10 @@ const data = {
             short: "H:mm"
         },
         dateFormats: {
-            full: "y- MMMM d- EEEE",
-            long: "y- MMMM d",
-            medium: "y- MMM d",
-            short: "dd-MM-yy"
+            full: "y၊ MMMM d၊ EEEE",
+            long: "y၊ MMMM d",
+            medium: "y၊ MMM d",
+            short: "d/M/yy"
         },
         days: {
             format: {
@@ -1691,13 +1187,13 @@ const data = {
                     "စ"
                 ],
                 short: [
-                    "တနင်္ဂနွေ",
-                    "တနင်္လာ",
-                    "အင်္ဂါ",
-                    "ဗုဒ္ဓဟူး",
-                    "ကြာသပတေး",
-                    "သောကြာ",
-                    "စနေ"
+                    "နွေ",
+                    "လာ",
+                    "ဂါ",
+                    "ဟူး",
+                    "တေး",
+                    "ကြာ",
+                    "နေ"
                 ],
                 wide: [
                     "တနင်္ဂနွေ",

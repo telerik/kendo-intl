@@ -15,17 +15,17 @@ const data = {
             M: "MMMM d",
             y: "MMM y",
             Y: "MMMM y",
-            F: "EEEE, MMMM d, y h:mm:ss a",
-            g: "M/d/y h:mm a",
-            G: "M/d/y h:mm:ss a",
-            t: "h:mm a",
-            T: "h:mm:ss a",
+            F: "EEEE, MMMM d, y h:mm:ss a",
+            g: "M/d/y h:mm a",
+            G: "M/d/y h:mm:ss a",
+            t: "h:mm a",
+            T: "h:mm:ss a",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} 'nang' {0}",
-            long: "{1} 'nang' {0}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
@@ -37,24 +37,24 @@ const data = {
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "d E",
-                Ehm: "E h:mm a",
+                Ehm: "E h:mm a",
                 EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
-                Gy: "G y",
-                GyMd: "M/d/y GGGGG",
+                Gy: "y G",
+                GyMd: "M/d/y G",
                 GyMMM: "MMM y G",
                 GyMMMd: "MMM d, y G",
                 GyMMMEd: "E, MMM d, y G",
-                h: "h a",
+                h: "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
                 M: "L",
                 Md: "M/d",
@@ -83,10 +83,10 @@ const data = {
             }
         },
         timeFormats: {
-            full: "h:mm:ss a zzzz",
-            long: "h:mm:ss a z",
-            medium: "h:mm:ss a",
-            short: "h:mm a"
+            full: "h:mm:ss a zzzz",
+            long: "h:mm:ss a z",
+            medium: "h:mm:ss a",
+            short: "h:mm a"
         },
         dateFormats: {
             full: "EEEE, MMMM d, y",
@@ -314,7 +314,7 @@ const data = {
                     morning1: "nang umaga",
                     morning2: "madaling-araw",
                     afternoon1: "tanghali",
-                    evening1: "ng hapon",
+                    evening1: "ng gabi",
                     night1: "gabi"
                 },
                 narrow: {
@@ -336,7 +336,7 @@ const data = {
                     morning1: "nang umaga",
                     morning2: "madaling-araw",
                     afternoon1: "tanghali",
-                    evening1: "ng hapon",
+                    evening1: "ng gabi",
                     night1: "ng gabi"
                 }
             },
@@ -348,8 +348,8 @@ const data = {
                     pm: "PM",
                     morning1: "umaga",
                     morning2: "madaling-araw",
-                    afternoon1: "tanghali",
-                    evening1: "hapon",
+                    afternoon1: "hapon",
+                    evening1: "ng gabi",
                     night1: "gabi"
                 },
                 narrow: {
@@ -359,8 +359,8 @@ const data = {
                     pm: "PM",
                     morning1: "umaga",
                     morning2: "madaling-araw",
-                    afternoon1: "tanghali",
-                    evening1: "gabi",
+                    afternoon1: "hapon",
+                    evening1: "sa gabi",
                     night1: "gabi"
                 },
                 wide: {
@@ -370,8 +370,8 @@ const data = {
                     pm: "PM",
                     morning1: "umaga",
                     morning2: "madaling-araw",
-                    afternoon1: "tanghali",
-                    evening1: "hapon",
+                    afternoon1: "hapon",
+                    evening1: "ng gabi",
                     night1: "gabi"
                 }
             }

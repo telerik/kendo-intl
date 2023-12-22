@@ -1265,10 +1265,6 @@ const data = {
                 "displayName-count-other": "スロバキア コルナ",
                 symbol: "SKK"
             },
-            SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
-            },
             SLL: {
                 displayName: "シエラレオネ レオン",
                 "displayName-count-other": "シエラレオネ レオン",
@@ -1376,8 +1372,8 @@ const data = {
                 symbol: "TRL"
             },
             TRY: {
-                displayName: "新トルコリラ",
-                "displayName-count-other": "新トルコリラ",
+                displayName: "トルコリラ",
+                "displayName-count-other": "トルコリラ",
                 symbol: "TRY",
                 "symbol-alt-narrow": "₺",
                 "symbol-alt-variant": "TL"
@@ -1452,10 +1448,6 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
-            },
             UZS: {
                 displayName: "ウズベキスタン スム",
                 "displayName-count-other": "ウズベキスタン スム",
@@ -1465,10 +1457,6 @@ const data = {
                 displayName: "ベネズエラ ボリバル (1871–2008)",
                 "displayName-count-other": "ベネズエラ ボリバル (1871–2008)",
                 symbol: "VEB"
-            },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
             },
             VEF: {
                 displayName: "ベネズエラ ボリバル (2008–2018)",

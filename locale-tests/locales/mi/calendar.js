@@ -15,11 +15,11 @@ const data = {
             M: "d MMMM",
             y: "MMM y",
             Y: "MMMM y",
-            F: "EEEE, d MMMM y h:mm:ss a",
-            g: "dd-MM-y h:mm a",
-            G: "dd-MM-y h:mm:ss a",
-            t: "h:mm a",
-            T: "h:mm:ss a",
+            F: "EEEE, d MMMM y h:mm:ss a",
+            g: "dd-MM-y h:mm a",
+            G: "dd-MM-y h:mm:ss a",
+            t: "h:mm a",
+            T: "h:mm:ss a",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
@@ -37,24 +37,24 @@ const data = {
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "E, d",
-                Ehm: "E h:mm a",
+                Ehm: "E h:mm a",
                 EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
                 GyMd: "GGGGG y-MM-dd",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E, d MMM y G",
-                h: "h a",
+                h: "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
                 M: "L",
                 Md: "dd-MM",
@@ -79,10 +79,10 @@ const data = {
             }
         },
         timeFormats: {
-            full: "h:mm:ss a zzzz",
-            long: "h:mm:ss a z",
-            medium: "h:mm:ss a",
-            short: "h:mm a"
+            full: "h:mm:ss a zzzz",
+            long: "h:mm:ss a z",
+            medium: "h:mm:ss a",
+            short: "h:mm a"
         },
         dateFormats: {
             full: "EEEE, d MMMM y",
@@ -93,77 +93,77 @@ const data = {
         days: {
             format: {
                 abbreviated: [
-                    "Tap",
-                    "Hin",
-                    "Tū",
-                    "Apa",
+                    "Rāt",
+                    "Mane",
+                    "Tūr",
+                    "Wene",
+                    "Tāit",
                     "Par",
-                    "Mer",
-                    "Hor"
+                    "Rāh"
                 ],
                 narrow: [
-                    "T",
-                    "H",
-                    "T",
-                    "A",
-                    "P",
+                    "Rt",
                     "M",
-                    "H"
+                    "T",
+                    "E",
+                    "T",
+                    "P",
+                    "Rh"
                 ],
                 short: [
-                    "Tap",
-                    "Hin",
+                    "Rāt",
+                    "Man",
                     "Tū",
-                    "Apa",
+                    "Wen",
+                    "Tāi",
                     "Par",
-                    "Mer",
-                    "Hor"
+                    "Rāh"
                 ],
                 wide: [
                     "Rātapu",
-                    "Rāhina",
-                    "Rātū",
-                    "Rāapa",
-                    "Rāpare",
-                    "Rāmere",
+                    "Mane",
+                    "Tūrei",
+                    "Wenerei",
+                    "Tāite",
+                    "Paraire",
                     "Rāhoroi"
                 ]
             },
             "stand-alone": {
                 abbreviated: [
-                    "Tap",
-                    "Hin",
-                    "Tū",
-                    "Apa",
+                    "Rāt",
+                    "Mane",
+                    "Tūr",
+                    "Wene",
+                    "Tāit",
                     "Par",
-                    "Mer",
-                    "Hor"
+                    "Rāh"
                 ],
                 narrow: [
-                    "T",
-                    "H",
-                    "T",
-                    "A",
-                    "P",
+                    "Rt",
                     "M",
-                    "H"
+                    "T",
+                    "W",
+                    "T",
+                    "P",
+                    "Rh"
                 ],
                 short: [
-                    "Tap",
-                    "Hin",
+                    "Rāt",
+                    "Man",
                     "Tū",
-                    "Apa",
+                    "Wen",
+                    "Tāi",
                     "Par",
-                    "Mer",
-                    "Hor"
+                    "Rāh"
                 ],
                 wide: [
                     "Rātapu",
-                    "Rāhina",
-                    "Rātū",
-                    "Rāapa",
-                    "Rāpare",
-                    "Rāmere",
+                    "Mane",
+                    "Tūrei",
+                    "Wenerei",
+                    "Tāite",
+                    "Paraire",
                     "Rāhoroi"
                 ]
             }
@@ -171,90 +171,90 @@ const data = {
         months: {
             format: {
                 abbreviated: [
-                    "Kohi",
-                    "Hui",
-                    "Pou",
-                    "Pae",
-                    "Hara",
-                    "Pipi",
-                    "Hōngo",
-                    "Here",
-                    "Mahu",
-                    "Nuku",
-                    "Rangi",
-                    "Haki"
+                    "Hān",
+                    "Pēp",
+                    "Māe",
+                    "Āpe",
+                    "Mei",
+                    "Hune",
+                    "Hūr",
+                    "Āku",
+                    "Hep",
+                    "Oke",
+                    "Noem",
+                    "Tīhe"
                 ],
                 narrow: [
-                    "K",
                     "H",
                     "P",
-                    "P",
-                    "H",
-                    "P",
-                    "H",
-                    "H",
                     "M",
+                    "Ā",
+                    "M",
+                    "H",
+                    "H",
+                    "Ā",
+                    "H",
+                    "O",
                     "N",
-                    "R",
-                    "H"
+                    "T"
                 ],
                 wide: [
-                    "Kohitātea",
-                    "Huitanguru",
-                    "Poutūterangi",
-                    "Paengawhāwhā",
-                    "Haratua",
-                    "Pipiri",
-                    "Hōngongoi",
-                    "Hereturikōkā",
-                    "Mahuru",
-                    "Whiringa-ā-nuku",
-                    "Whiringa-ā-rangi",
-                    "Hakihea"
+                    "Hānuere",
+                    "Pēpuere",
+                    "Māehe",
+                    "Āpereira",
+                    "Mei",
+                    "Hune",
+                    "Hūrae",
+                    "Ākuhata",
+                    "Hepetema",
+                    "Oketopa",
+                    "Noema",
+                    "Tīhema"
                 ]
             },
             "stand-alone": {
                 abbreviated: [
-                    "Kohi",
-                    "Hui",
-                    "Pou",
-                    "Pae",
-                    "Hara",
-                    "Pipi",
-                    "Hōngo",
-                    "Here",
-                    "Mahu",
-                    "Nuku",
-                    "Rangi",
-                    "Haki"
+                    "Hān",
+                    "Pēp",
+                    "Māe",
+                    "Āpe",
+                    "Mei",
+                    "Hune",
+                    "Hūr",
+                    "Āku",
+                    "Hep",
+                    "Oke",
+                    "Noem",
+                    "Tīhe"
                 ],
                 narrow: [
-                    "K",
                     "H",
                     "P",
-                    "P",
-                    "H",
-                    "P",
-                    "H",
-                    "H",
                     "M",
+                    "Ā",
+                    "M",
+                    "H",
+                    "H",
+                    "Ā",
+                    "H",
+                    "O",
                     "N",
-                    "R",
-                    "H"
+                    "T"
                 ],
                 wide: [
-                    "Kohitātea",
-                    "Huitanguru",
-                    "Poutūterangi",
-                    "Paengawhāwhā",
-                    "Haratua",
-                    "Pipiri",
-                    "Hōngongoi",
-                    "Hereturikōkā",
-                    "Mahuru",
-                    "Whiringa-ā-nuku",
-                    "Whiringa-ā-rangi",
-                    "Hakihea"
+                    "Hānuere",
+                    "Pēpuere",
+                    "Māehe",
+                    "Āpereira",
+                    "Mei",
+                    "Hune",
+                    "Hūrae",
+                    "Ākuhata",
+                    "Hepetema",
+                    "Oketopa",
+                    "Noema",
+                    "Tīhema"
                 ]
             }
         },
@@ -356,68 +356,68 @@ const data = {
         gmtZeroFormat: "GMT",
         dateFields: {
             era: {
-                wide: "wā",
-                short: "wā",
-                narrow: "wā"
+                wide: "takiwātanga",
+                short: "tkwt.",
+                narrow: "tkwt"
             },
             year: {
                 wide: "tau",
-                short: "t",
+                short: "t.",
                 narrow: "t"
             },
             quarter: {
                 wide: "hauwhā",
-                short: "hw",
+                short: "hw.",
                 narrow: "hw"
             },
             month: {
                 wide: "marama",
-                short: "m",
+                short: "m.",
                 narrow: "m"
             },
             week: {
                 wide: "wiki",
-                short: "w",
+                short: "w.",
                 narrow: "w"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "wiki o te marama",
+                short: "w. o. t. m.",
+                narrow: "w o t m"
             },
             day: {
                 wide: "rā",
-                short: "rā",
+                short: "rā.",
                 narrow: "rā"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "rā o te tau",
+                short: "rā. o. t. t.",
+                narrow: "rā o t t"
             },
             weekday: {
                 wide: "rā o te wiki",
-                short: "rā o te wiki",
-                narrow: "rā o te wiki"
+                short: "rā. o. t. w.",
+                narrow: "rā o t w"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "rā o te marama",
+                short: "rā. o. t. m.",
+                narrow: "rā o t m"
             },
             dayperiod: {
-                short: "AM/PM",
-                wide: "AM/PM",
-                narrow: "AM/PM"
+                short: "ata/ahi/pō",
+                wide: "i te ata/i te ahiahi/i te pō",
+                narrow: "at/ah/pō"
             },
             hour: {
                 wide: "hāora",
-                short: "hr",
+                short: "hr.",
                 narrow: "hr"
             },
             minute: {
                 wide: "meneti",
-                short: "men",
+                short: "men.",
                 narrow: "men"
             },
             second: {
@@ -427,8 +427,8 @@ const data = {
             },
             zone: {
                 wide: "rohe wā",
-                short: "rohe wā",
-                narrow: "rohe wā"
+                short: "r. wā.",
+                narrow: "r wā"
             },
             millisecond: {
                 narrow: "ms",

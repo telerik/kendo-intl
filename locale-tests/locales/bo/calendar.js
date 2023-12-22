@@ -438,7 +438,7 @@ const data = {
             }
         }
     },
-    firstDay: 0
+    firstDay: 1
 };
 export default data;
 

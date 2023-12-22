@@ -359,7 +359,6 @@ const data = {
                 symbol: "BRR"
             },
             BRZ: {
-                displayName: "BRZ",
                 symbol: "BRZ"
             },
             BSD: {
@@ -691,7 +690,7 @@ const data = {
                 "displayName-count-one": "euro",
                 "displayName-count-few": "eura",
                 "displayName-count-other": "eura",
-                symbol: "EUR",
+                symbol: "€",
                 "symbol-alt-narrow": "€"
             },
             FIM: {
@@ -1181,7 +1180,6 @@ const data = {
                 symbol: "MAF"
             },
             MCF: {
-                displayName: "MCF",
                 symbol: "MCF"
             },
             MDC: {
@@ -1656,10 +1654,6 @@ const data = {
                 "displayName-count-other": "slovačkih kruna",
                 symbol: "SKK"
             },
-            SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
-            },
             SLL: {
                 displayName: "sijeraleonski leone",
                 "displayName-count-one": "sijeraleonski leon",
@@ -1911,10 +1905,6 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
-            },
             UZS: {
                 displayName: "uzbekistanski som",
                 "displayName-count-one": "uzbekistanski som",
@@ -1928,10 +1918,6 @@ const data = {
                 "displayName-count-few": "venezuelanska bolivara (1871.–2008.)",
                 "displayName-count-other": "venezuelanskih bolivara (1871.–2008.)",
                 symbol: "VEB"
-            },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
             },
             VEF: {
                 displayName: "venezuelanski bolivar (2008. – 2018.)",
@@ -2233,7 +2219,7 @@ const data = {
                 symbol: "ZWR"
             }
         },
-        localeCurrency: "HRK"
+        localeCurrency: "EUR"
     }
 };
 export default data;

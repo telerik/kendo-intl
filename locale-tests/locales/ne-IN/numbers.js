@@ -44,8 +44,7 @@ const data = {
                 "n%"
             ],
             groupSize: [
-                3,
-                2
+                3
             ]
         },
         currency: {

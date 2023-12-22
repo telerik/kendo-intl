@@ -24,8 +24,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} रोजी {0}",
-            long: "{1} रोजी {0}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
@@ -42,7 +42,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
-                GyMd: "d/M/y GGGGG",
+                GyMd: "GGGGG d/M/y",
                 GyMMM: "MMM G y",
                 GyMMMd: "d MMM, G y",
                 GyMMMEd: "E, d MMM, G y",
@@ -315,7 +315,6 @@ const data = {
                     morning2: "सकाळ",
                     afternoon1: "दुपार",
                     evening1: "संध्याकाळ",
-                    evening2: "सायंकाळ",
                     night1: "रात्र"
                 },
                 narrow: {
@@ -327,7 +326,6 @@ const data = {
                     morning2: "स",
                     afternoon1: "दु",
                     evening1: "सं",
-                    evening2: "सा",
                     night1: "रा"
                 },
                 wide: {
@@ -339,7 +337,6 @@ const data = {
                     morning2: "सकाळ",
                     afternoon1: "दुपार",
                     evening1: "संध्याकाळ",
-                    evening2: "सायंकाळ",
                     night1: "रात्र"
                 }
             },
@@ -353,7 +350,6 @@ const data = {
                     morning2: "सकाळ",
                     afternoon1: "दुपार",
                     evening1: "संध्याकाळ",
-                    evening2: "सायंकाळ",
                     night1: "रात्र"
                 },
                 narrow: {
@@ -365,7 +361,6 @@ const data = {
                     morning2: "स",
                     afternoon1: "दु",
                     evening1: "सं",
-                    evening2: "सा",
                     night1: "रात्र"
                 },
                 wide: {
@@ -377,7 +372,6 @@ const data = {
                     morning2: "सकाळ",
                     afternoon1: "दुपार",
                     evening1: "संध्याकाळ",
-                    evening2: "सायंकाळ",
                     night1: "रात्र"
                 }
             }
@@ -391,15 +385,15 @@ const data = {
                     "1-alt-variant": "ख्रिस्तयुग"
                 },
                 abbreviated: {
-                    "0": "इ. स. पू.",
+                    "0": "ई. स. पू.",
                     "1": "इ. स.",
-                    "0-alt-variant": "इ. स. पू. युग",
+                    "0-alt-variant": "ई. स. पू. युग",
                     "1-alt-variant": "ख्रि. यु."
                 },
                 narrow: {
-                    "0": "इ. स. पू.",
+                    "0": "ई. स. पू.",
                     "1": "इ. स.",
-                    "0-alt-variant": "इ. स. पू. युग",
+                    "0-alt-variant": "ई. स. पू. युग",
                     "1-alt-variant": "ख्रि. यु."
                 }
             }

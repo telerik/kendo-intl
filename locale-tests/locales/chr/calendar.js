@@ -24,8 +24,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} ᎤᎾᎢ {0}",
-            long: "{1} ᎤᎾᎢ {0}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
@@ -63,8 +63,8 @@ const data = {
                 MMMd: "MMM d",
                 MMMEd: "E, MMM d",
                 MMMMd: "MMMM d",
-                "MMMMW-count-one": "’ᏒᎾᏙᏓᏆᏍᏗ’ W ’ᎾᎿ’ MMMM",
-                "MMMMW-count-other": "’ᏒᎾᏙᏓᏆᏍᏗ’ W ’ᎾᎿ’ MMMM",
+                "MMMMW-count-one": "ᏒᎾᏙᏓᏆᏍᏗ W ᎾᎿ MMMM",
+                "MMMMW-count-other": "ᏒᎾᏙᏓᏆᏍᏗ W ᎾᎿ MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M/y",

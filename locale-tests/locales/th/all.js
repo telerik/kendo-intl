@@ -80,10 +80,6 @@ const data = {
                 symbol: "AFN",
                 "symbol-alt-narrow": "؋"
             },
-            ALK: {
-                displayName: "ALK",
-                symbol: "ALK"
-            },
             ALL: {
                 displayName: "เลกแอลเบเนีย",
                 "displayName-count-other": "เลกแอลเบเนีย",
@@ -375,10 +371,6 @@ const data = {
                 "displayName-count-other": "หยวน",
                 symbol: "CNH"
             },
-            CNX: {
-                displayName: "CNX",
-                symbol: "CNX"
-            },
             CNY: {
                 displayName: "หยวนจีน",
                 "displayName-count-other": "หยวนจีน",
@@ -655,10 +647,6 @@ const data = {
                 displayName: "ปอนด์อิสราเอล",
                 symbol: "ILP"
             },
-            ILR: {
-                displayName: "ILR",
-                symbol: "ILR"
-            },
             ILS: {
                 displayName: "นิวเชเกลอิสราเอล",
                 "displayName-count-other": "นิวเชเกลอิสราเอล",
@@ -680,10 +668,6 @@ const data = {
                 displayName: "เรียลอิหร่าน",
                 "displayName-count-other": "เรียลอิหร่าน",
                 symbol: "IRR"
-            },
-            ISJ: {
-                displayName: "ISJ",
-                symbol: "ISJ"
             },
             ISK: {
                 displayName: "โครนาไอซ์แลนด์",
@@ -797,6 +781,7 @@ const data = {
             },
             LSL: {
                 displayName: "โลตีเลโซโท",
+                "displayName-count-other": "โลตีเลโซโท",
                 symbol: "LSL"
             },
             LTL: {
@@ -921,10 +906,6 @@ const data = {
                 "displayName-count-other": "รูปีมอริเชียส",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
-            },
-            MVP: {
-                displayName: "MVP",
-                symbol: "MVP"
             },
             MVR: {
                 displayName: "รูฟิยามัลดีฟส์",
@@ -1170,10 +1151,6 @@ const data = {
                 displayName: "โครูนาสโลวัก",
                 symbol: "SKK"
             },
-            SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
-            },
             SLL: {
                 displayName: "ลีโอนเซียร์ราลีโอน",
                 "displayName-count-other": "ลีโอนเซียร์ราลีโอน",
@@ -1346,10 +1323,6 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
-            },
             UZS: {
                 displayName: "ซอมอุซเบกิสถาน",
                 "displayName-count-other": "ซอมอุซเบกิสถาน",
@@ -1358,10 +1331,6 @@ const data = {
             VEB: {
                 displayName: "โบลิวาร์เวเนซุเอลา (1871–2008)",
                 symbol: "VEB"
-            },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
             },
             VEF: {
                 displayName: "โบลิวาร์เวเนซุเอลา",
@@ -1559,7 +1528,7 @@ const data = {
             m: "d MMM",
             M: "d MMMM",
             y: "MMM y",
-            Y: "MMMM G y",
+            Y: "MMMM y",
             F: "EEEEที่ d MMMM G y HH:mm:ss",
             g: "d/M/y HH:mm",
             G: "d/M/y HH:mm:ss",
@@ -1623,10 +1592,10 @@ const data = {
                 yMMMd: "d MMM y",
                 yMMMEd: "E d MMM y",
                 yMMMEEEEd: "EEEEที่ d MMM y",
-                yMMMM: "MMMM G y",
-                yMMMMd: "d MMMM G y",
-                yMMMMEd: "E d MMMM G y",
-                yMMMMEEEEd: "EEEEที่ d MMMM G y",
+                yMMMM: "MMMM y",
+                yMMMMd: "d MMMM y",
+                yMMMMEd: "E d MMMM y",
+                yMMMMEEEEd: "EEEEที่ d MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ G y",
                 "yw-count-other": "สัปดาห์ที่ w ของปี Y"
@@ -1858,9 +1827,9 @@ const data = {
             format: {
                 abbreviated: {
                     midnight: "เที่ยงคืน",
-                    am: "ก่อนเที่ยง",
+                    am: "AM",
                     noon: "เที่ยง",
-                    pm: "หลังเที่ยง",
+                    pm: "PM",
                     morning1: "ในตอนเช้า",
                     afternoon1: "ในตอนบ่าย",
                     afternoon2: "บ่าย",

@@ -17,16 +17,16 @@ const data = {
             y: "y MMM",
             Y: "y MMMM",
             F: "EEEE, d MMMM y a h:mm:ss",
-            g: "y-MM-dd a h:mm",
-            G: "y-MM-dd a h:mm:ss",
+            g: "M/d/y a h:mm",
+            G: "M/d/y a h:mm:ss",
             t: "a h:mm",
             T: "a h:mm:ss",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{0} पेठ {1}",
-            long: "{0} पेठ {1}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
@@ -49,11 +49,11 @@ const data = {
                 GyMMMEd: "G y MMM d, E",
                 h: "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
                 hmv: "h:mm a v",
                 Hmv: "HH:mm v",
@@ -68,10 +68,10 @@ const data = {
                 ms: "mm:ss",
                 y: "y",
                 yM: "y-MM",
-                yMd: "y-MM-dd",
+                yMd: "M/d/y",
                 yMEd: "y-MM-dd, E",
                 yMMM: "y MMM",
-                yMMMd: "y MMM d",
+                yMMMd: "MMM d, y",
                 yMMMEd: "y MMM d, E",
                 yMMMM: "y MMMM",
                 yQQQ: "y QQQ",
@@ -312,8 +312,8 @@ const data = {
                     pm: "PM"
                 },
                 wide: {
-                    am: "AM",
-                    pm: "PM"
+                    am: "ये एम",
+                    pm: "पी एम"
                 }
             },
             "stand-alone": {
@@ -326,16 +326,16 @@ const data = {
                     pm: "PM"
                 },
                 wide: {
-                    am: "AM",
-                    pm: "PM"
+                    am: "दुपहर ब्रोंठ",
+                    pm: "दुपहरपतॖ"
                 }
             }
         },
         eras: {
             format: {
                 wide: {
-                    "0": "BC",
-                    "1": "AD",
+                    "0": "ईसा ब्रोंठ",
+                    "1": "ईस्वी",
                     "0-alt-variant": "BC",
                     "1-alt-variant": "AD"
                 },
@@ -353,8 +353,8 @@ const data = {
                 }
             }
         },
-        gmtFormat: "GMT{0}",
-        gmtZeroFormat: "GMT",
+        gmtFormat: "जी एम टी {0}",
+        gmtZeroFormat: "जी एम टी",
         dateFields: {
             era: {
                 wide: "दोर",

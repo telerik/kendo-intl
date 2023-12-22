@@ -47,7 +47,7 @@ const data = {
         },
         currency: {
             patterns: [
-                "n$"
+                "$n"
             ],
             groupSize: [
                 3,
@@ -58,8 +58,8 @@ const data = {
         },
         accounting: {
             patterns: [
-                "n$",
-                "(n$)"
+                "$n",
+                "($n)"
             ],
             groupSize: [
                 3,
@@ -68,8 +68,7 @@ const data = {
         },
         currencies: {
             ADP: {
-                displayName: "এ্যান্ডোরান পেসেতা",
-                symbol: "ADP"
+                displayName: "এ্যান্ডোরান পেসেতা"
             },
             AED: {
                 displayName: "সংযুক্ত আরব আমিরাত দিরহাম",
@@ -78,8 +77,7 @@ const data = {
                 symbol: "AED"
             },
             AFA: {
-                displayName: "আফগানি (১৯২৭–২০০২)",
-                symbol: "AFA"
+                displayName: "আফগানি (১৯২৭–২০০২)"
             },
             AFN: {
                 displayName: "আফগান আফগানি",
@@ -87,10 +85,6 @@ const data = {
                 "displayName-count-other": "আফগান আফগানি",
                 symbol: "AFN",
                 "symbol-alt-narrow": "؋"
-            },
-            ALK: {
-                displayName: "ALK",
-                symbol: "ALK"
             },
             ALL: {
                 displayName: "আলবেনিয়ান লেক",
@@ -106,9 +100,9 @@ const data = {
                 "symbol-alt-narrow": "֏"
             },
             ANG: {
-                displayName: "নেদারল্যান্ড এ্যান্টিলিয়ান গুল্ডের",
-                "displayName-count-one": "নেদারল্যান্ড এ্যান্টিলিয়ান গুল্ডের",
-                "displayName-count-other": "নেদারল্যান্ড এ্যান্টিলিয়ান গুল্ডের",
+                displayName: "নেদারল্যান্ডস অ্যান্টিলিয়ান গিল্ডার",
+                "displayName-count-one": "নেদারল্যান্ডস অ্যান্টিলিয়ান গিল্ডার",
+                "displayName-count-other": "নেদারল্যান্ডস অ্যান্টিলিয়ান গিল্ডার",
                 symbol: "ANG"
             },
             AOA: {
@@ -119,32 +113,19 @@ const data = {
                 "symbol-alt-narrow": "Kz"
             },
             AOK: {
-                displayName: "এ্যাঙ্গোলান কওয়ানজা (১৯৭৭–১৯৯০)",
-                symbol: "AOK"
+                displayName: "এ্যাঙ্গোলান কওয়ানজা (১৯৭৭–১৯৯০)"
             },
             AON: {
-                displayName: "এ্যাঙ্গোলান নতুন কওয়ানজা (১৯৯৫–২০০০)",
-                symbol: "AON"
+                displayName: "এ্যাঙ্গোলান নতুন কওয়ানজা (১৯৯৫–২০০০)"
             },
             AOR: {
-                displayName: "এ্যাঙ্গোলান কওয়ানজা (১৯৯৫–১৯৯৯)",
-                symbol: "AOR"
+                displayName: "এ্যাঙ্গোলান কওয়ানজা (১৯৯৫–১৯৯৯)"
             },
             ARA: {
-                displayName: "আর্জেন্টিনা অস্ট্রাল",
-                symbol: "ARA"
-            },
-            ARL: {
-                displayName: "ARL",
-                symbol: "ARL"
-            },
-            ARM: {
-                displayName: "ARM",
-                symbol: "ARM"
+                displayName: "আর্জেন্টিনা অস্ট্রাল"
             },
             ARP: {
-                displayName: "আর্জেন্টিনা পেসো (১৯৮৩–১৯৮৫)",
-                symbol: "ARP"
+                displayName: "আর্জেন্টিনা পেসো (১৯৮৩–১৯৮৫)"
             },
             ARS: {
                 displayName: "আর্জেন্টিনা পেসো",
@@ -154,8 +135,7 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             ATS: {
-                displayName: "অস্ট্রিয়ান শিলিং",
-                symbol: "ATS"
+                displayName: "অস্ট্রিয়ান শিলিং"
             },
             AUD: {
                 displayName: "অস্ট্রেলিয়ান ডলার",
@@ -165,14 +145,13 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             AWG: {
-                displayName: "আরুবা গিল্ডার",
-                "displayName-count-one": "আরুবা গিল্ডার",
-                "displayName-count-other": "আরুবা গিল্ডার",
+                displayName: "আরুবান গিল্ডার",
+                "displayName-count-one": "আরুবান গিল্ডার",
+                "displayName-count-other": "আরুবান গিল্ডার",
                 symbol: "AWG"
             },
             AZM: {
-                displayName: "আজারবাইজান মানাত (১৯৯৩–২০০৬)",
-                symbol: "AZM"
+                displayName: "আজারবাইজান মানাত (১৯৯৩–২০০৬)"
             },
             AZN: {
                 displayName: "আজারবাইজান মানাত",
@@ -182,8 +161,7 @@ const data = {
                 "symbol-alt-narrow": "₼"
             },
             BAD: {
-                displayName: "বসনিয়া এবং হার্জেগোভিনা দিনার",
-                symbol: "BAD"
+                displayName: "বসনিয়া এবং হার্জেগোভিনা দিনার"
             },
             BAM: {
                 displayName: "বসনিয়া এবং হার্জেগোভিনা বিনিমেয় মার্ক",
@@ -191,10 +169,6 @@ const data = {
                 "displayName-count-other": "বসনিয়া এবং হার্জেগোভিনা বিনিমেয় মার্ক",
                 symbol: "BAM",
                 "symbol-alt-narrow": "KM"
-            },
-            BAN: {
-                displayName: "BAN",
-                symbol: "BAN"
             },
             BBD: {
                 displayName: "বার্বেডোজ ডলার",
@@ -211,34 +185,22 @@ const data = {
                 "symbol-alt-narrow": "৳"
             },
             BEC: {
-                displayName: "বেলজিয়ান ফ্রাঙ্ক (রূপান্তরযোগ্য)",
-                symbol: "BEC"
+                displayName: "বেলজিয়ান ফ্রাঙ্ক (রূপান্তরযোগ্য)"
             },
             BEF: {
-                displayName: "বেলজিয়ান ফ্রাঙ্ক",
-                symbol: "BEF"
+                displayName: "বেলজিয়ান ফ্রাঙ্ক"
             },
             BEL: {
-                displayName: "বেলজিয়ান ফ্রাঙ্ক (আর্থিক)",
-                symbol: "BEL"
+                displayName: "বেলজিয়ান ফ্রাঙ্ক (আর্থিক)"
             },
             BGL: {
-                displayName: "বুলগেরীয় হার্ড লেভ",
-                symbol: "BGL"
-            },
-            BGM: {
-                displayName: "BGM",
-                symbol: "BGM"
+                displayName: "বুলগেরীয় হার্ড লেভ"
             },
             BGN: {
                 displayName: "বুলগেরীয় লেভ",
                 "displayName-count-one": "বুলগেরীয় লেভ",
                 "displayName-count-other": "বুলগেরীয় লেভা",
                 symbol: "BGN"
-            },
-            BGO: {
-                displayName: "BGO",
-                symbol: "BGO"
             },
             BHD: {
                 displayName: "বাহরাইনি দিনার",
@@ -253,9 +215,9 @@ const data = {
                 symbol: "BIF"
             },
             BMD: {
-                displayName: "বারমিউডান ডলার",
-                "displayName-count-one": "বারমিউডান ডলার",
-                "displayName-count-other": "বারমিউডান ডলার",
+                displayName: "বারমুডান ডলার",
+                "displayName-count-one": "বারমুডান ডলার",
+                "displayName-count-other": "বারমুডান ডলার",
                 symbol: "BMD",
                 "symbol-alt-narrow": "$"
             },
@@ -267,35 +229,26 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             BOB: {
-                displayName: "বলিভিয়ানো",
-                "displayName-count-one": "বলিভিয়ানো",
-                "displayName-count-other": "বলিভিয়ানো",
+                displayName: "বলিভিয়ান বলিভিয়ানো",
+                "displayName-count-one": "বলিভিয়ান বলিভিয়ানো",
+                "displayName-count-other": "বলিভিয়ান বলিভিয়ানো",
                 symbol: "BOB",
                 "symbol-alt-narrow": "Bs"
             },
-            BOL: {
-                displayName: "BOL",
-                symbol: "BOL"
-            },
             BOP: {
-                displayName: "বলিভিয়ান পেসো",
-                symbol: "BOP"
+                displayName: "বলিভিয়ান পেসো"
             },
             BOV: {
-                displayName: "বলিভিয়ান মভডোল",
-                symbol: "BOV"
+                displayName: "বলিভিয়ান মভডোল"
             },
             BRB: {
-                displayName: "ব্রাজিলিয়ান ক্রুজেয়রোনোভো (১৯৬৭–১৯৮৬)",
-                symbol: "BRB"
+                displayName: "ব্রাজিলিয়ান ক্রুজেয়রোনোভো (১৯৬৭–১৯৮৬)"
             },
             BRC: {
-                displayName: "ব্রাজিলিয়ান ক্রুজেইডাউ",
-                symbol: "BRC"
+                displayName: "ব্রাজিলিয়ান ক্রুজেইডাউ"
             },
             BRE: {
-                displayName: "ব্রাজিলিয়ান ক্রুজেয়রো (১৯৯০–১৯৯৩)",
-                symbol: "BRE"
+                displayName: "ব্রাজিলিয়ান ক্রুজেয়রো (১৯৯০–১৯৯৩)"
             },
             BRL: {
                 displayName: "ব্রাজিলিয়ান রিয়েল",
@@ -305,16 +258,10 @@ const data = {
                 "symbol-alt-narrow": "R$"
             },
             BRN: {
-                displayName: "ব্রাজিলিয়ান ক্রুজেইডো নোভো",
-                symbol: "BRN"
+                displayName: "ব্রাজিলিয়ান ক্রুজেইডো নোভো"
             },
             BRR: {
-                displayName: "ব্রাজিলিয়ান ক্রুজেয়রো",
-                symbol: "BRR"
-            },
-            BRZ: {
-                displayName: "BRZ",
-                symbol: "BRZ"
+                displayName: "ব্রাজিলিয়ান ক্রুজেয়রো"
             },
             BSD: {
                 displayName: "বাহামিয়ান ডলার",
@@ -330,8 +277,7 @@ const data = {
                 symbol: "BTN"
             },
             BUK: {
-                displayName: "বর্মি কিয়াৎ",
-                symbol: "BUK"
+                displayName: "বর্মি কিয়াৎ"
             },
             BWP: {
                 displayName: "বতসোয়ানা পুলা",
@@ -341,8 +287,7 @@ const data = {
                 "symbol-alt-narrow": "P"
             },
             BYB: {
-                displayName: "বেলারুশিয়ান নিউ রুবেল (১৯৯৪–১৯৯৯)",
-                symbol: "BYB"
+                displayName: "বেলারুশিয়ান নিউ রুবেল (১৯৯৪–১৯৯৯)"
             },
             BYN: {
                 displayName: "বেলারুশিয়ান রুবেল",
@@ -378,8 +323,7 @@ const data = {
                 symbol: "CDF"
             },
             CHE: {
-                displayName: "সুইজারল্যান্ড ইউরো",
-                symbol: "CHE"
+                displayName: "সুইজারল্যান্ড ইউরো"
             },
             CHF: {
                 displayName: "সুইস ফ্রাঁ",
@@ -388,16 +332,10 @@ const data = {
                 symbol: "CHF"
             },
             CHW: {
-                displayName: "সুইজারল্যান্ড ফ্রাঙ্ক",
-                symbol: "CHW"
-            },
-            CLE: {
-                displayName: "CLE",
-                symbol: "CLE"
+                displayName: "সুইজারল্যান্ড ফ্রাঙ্ক"
             },
             CLF: {
-                displayName: "চিলিয়ান উনিদাদেস দি ফোমেন্তো",
-                symbol: "CLF"
+                displayName: "চিলিয়ান উনিদাদেস দি ফোমেন্তো"
             },
             CLP: {
                 displayName: "চিলি পেসো",
@@ -411,10 +349,6 @@ const data = {
                 "displayName-count-one": "চাইনিজ ইউয়ান (অফশোর)",
                 "displayName-count-other": "চাইনিজ ইউয়ান (অফশোর)",
                 symbol: "CNH"
-            },
-            CNX: {
-                displayName: "CNX",
-                symbol: "CNX"
             },
             CNY: {
                 displayName: "চীনা য়ুয়ান",
@@ -431,8 +365,7 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             COU: {
-                displayName: "উনিদাদ দি ভ্যালোর রিয়েল",
-                symbol: "COU"
+                displayName: "উনিদাদ দি ভ্যালোর রিয়েল"
             },
             CRC: {
                 displayName: "কোস্টা রিকা কোলোন",
@@ -442,12 +375,10 @@ const data = {
                 "symbol-alt-narrow": "₡"
             },
             CSD: {
-                displayName: "প্রাচীন সারবিয়ান দিনার",
-                symbol: "CSD"
+                displayName: "প্রাচীন সারবিয়ান দিনার"
             },
             CSK: {
-                displayName: "চেকোস্লোভাক হার্ড কোরুনা",
-                symbol: "CSK"
+                displayName: "চেকোস্লোভাক হার্ড কোরুনা"
             },
             CUC: {
                 displayName: "কিউবান রূপান্তরযোগ্য পেসো",
@@ -470,8 +401,7 @@ const data = {
                 symbol: "CVE"
             },
             CYP: {
-                displayName: "সাইপ্রাস পাউন্ড",
-                symbol: "CYP"
+                displayName: "সাইপ্রাস পাউন্ড"
             },
             CZK: {
                 displayName: "চেক প্রজাতন্ত্র কোরুনা",
@@ -481,12 +411,10 @@ const data = {
                 "symbol-alt-narrow": "Kč"
             },
             DDM: {
-                displayName: "পূর্ব জার্মান মার্ক",
-                symbol: "DDM"
+                displayName: "পূর্ব জার্মান মার্ক"
             },
             DEM: {
-                displayName: "ডয়চ্ মার্ক",
-                symbol: "DEM"
+                displayName: "ডয়চ্ মার্ক"
             },
             DJF: {
                 displayName: "জিবুতি ফ্রাঙ্ক",
@@ -515,16 +443,13 @@ const data = {
                 symbol: "DZD"
             },
             ECS: {
-                displayName: "ইকুয়াডোর সুক্রে",
-                symbol: "ECS"
+                displayName: "ইকুয়াডোর সুক্রে"
             },
             ECV: {
-                displayName: "ইকুয়াডোর উনিদাদেস দি ভেলর কনসতান্তে (ইউভিসি)",
-                symbol: "ECV"
+                displayName: "ইকুয়াডোর উনিদাদেস দি ভেলর কনসতান্তে (ইউভিসি)"
             },
             EEK: {
-                displayName: "এস্তোনিয়া ক্রুনি",
-                symbol: "EEK"
+                displayName: "এস্তোনিয়া ক্রুনি"
             },
             EGP: {
                 displayName: "মিশরীয় পাউন্ড",
@@ -540,16 +465,13 @@ const data = {
                 symbol: "ERN"
             },
             ESA: {
-                displayName: "স্প্যানিশ পেসেতা (একই হিসাব)",
-                symbol: "ESA"
+                displayName: "স্প্যানিশ পেসেতা (একই হিসাব)"
             },
             ESB: {
-                displayName: "স্প্যানিশ পেসেতা (রূপান্তরযোগ্য হিসাব)",
-                symbol: "ESB"
+                displayName: "স্প্যানিশ পেসেতা (রূপান্তরযোগ্য হিসাব)"
             },
             ESP: {
                 displayName: "স্প্যানিশ পেসেতা",
-                symbol: "ESP",
                 "symbol-alt-narrow": "₧"
             },
             ETB: {
@@ -566,8 +488,7 @@ const data = {
                 "symbol-alt-narrow": "€"
             },
             FIM: {
-                displayName: "ফিনিস মার্কা",
-                symbol: "FIM"
+                displayName: "ফিনিস মার্কা"
             },
             FJD: {
                 displayName: "ফিজি ডলার",
@@ -584,8 +505,7 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             FRF: {
-                displayName: "ফরাসি ফ্রাঙ্ক",
-                symbol: "FRF"
+                displayName: "ফরাসি ফ্রাঙ্ক"
             },
             GBP: {
                 displayName: "ব্রিটিশ পাউন্ড",
@@ -595,8 +515,7 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             GEK: {
-                displayName: "জর্জিয়ান কুপন লারিট",
-                symbol: "GEK"
+                displayName: "জর্জিয়ান কুপন লারিট"
             },
             GEL: {
                 displayName: "জর্জিয়ান লারি",
@@ -606,8 +525,7 @@ const data = {
                 "symbol-alt-narrow": "₾"
             },
             GHC: {
-                displayName: "ঘানা সেডি (১৯৭৯–২০০৭)",
-                symbol: "GHC"
+                displayName: "ঘানা সেডি (১৯৭৯–২০০৭)"
             },
             GHS: {
                 displayName: "ঘানা সেডি",
@@ -637,36 +555,31 @@ const data = {
                 "symbol-alt-narrow": "FG"
             },
             GNS: {
-                displayName: "গিনি সাইলি",
-                symbol: "GNS"
+                displayName: "গিনি সাইলি"
             },
             GQE: {
-                displayName: "ইকুয়েটোরিয়াল গিনি ইকুয়িলি",
-                symbol: "GQE"
+                displayName: "ইকুয়েটোরিয়াল গিনি ইকুয়িলি"
             },
             GRD: {
-                displayName: "গ্রীক দ্রাচমা",
-                symbol: "GRD"
+                displayName: "গ্রীক দ্রাচমা"
             },
             GTQ: {
-                displayName: "গুয়াতেমালা কুয়েৎজাল",
-                "displayName-count-one": "গুয়াতেমালা কুয়েৎজাল",
-                "displayName-count-other": "গুয়াতেমালা কুয়েৎজাল",
+                displayName: "গুয়াতেমালান কেৎসাল",
+                "displayName-count-one": "গুয়াতেমালান কেৎসাল",
+                "displayName-count-other": "গুয়াতেমালান কেৎসাল",
                 symbol: "GTQ",
                 "symbol-alt-narrow": "Q"
             },
             GWE: {
-                displayName: "পর্তুগিজ গিনি এসকুডো",
-                symbol: "GWE"
+                displayName: "পর্তুগিজ গিনি এসকুডো"
             },
             GWP: {
-                displayName: "গিনি বিসাউ পেসো",
-                symbol: "GWP"
+                displayName: "গিনি বিসাউ পেসো"
             },
             GYD: {
-                displayName: "গাইয়েনা ডলার",
-                "displayName-count-one": "গাইয়েনা ডলার",
-                "displayName-count-other": "গাইয়েনা ডলার",
+                displayName: "গায়ানিজ ডলার",
+                "displayName-count-one": "গায়ানিজ ডলার",
+                "displayName-count-other": "গায়ানিজ ডলার",
                 symbol: "GYD",
                 "symbol-alt-narrow": "$"
             },
@@ -678,15 +591,14 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             HNL: {
-                displayName: "হন্ডুরাস লেম্পিরা",
-                "displayName-count-one": "হন্ডুরাস লেম্পিরা",
-                "displayName-count-other": "হন্ডুরাস লেম্পিরা",
+                displayName: "হন্ডুরান লেম্পিরা",
+                "displayName-count-one": "হন্ডুরান লেম্পিরা",
+                "displayName-count-other": "হন্ডুরান লেম্পিরা",
                 symbol: "HNL",
                 "symbol-alt-narrow": "L"
             },
             HRD: {
-                displayName: "ক্রোয়েশিয়ান দিনার",
-                symbol: "HRD"
+                displayName: "ক্রোয়েশিয়ান দিনার"
             },
             HRK: {
                 displayName: "ক্রোয়েশিয়ান কুনা",
@@ -696,9 +608,9 @@ const data = {
                 "symbol-alt-narrow": "kn"
             },
             HTG: {
-                displayName: "হাইতি গৌর্দে",
-                "displayName-count-one": "হাইতি গৌর্দে",
-                "displayName-count-other": "হাইতি গৌর্দে",
+                displayName: "হাইতিয়ান গুর্দ",
+                "displayName-count-one": "হাইতিয়ান গুর্দ",
+                "displayName-count-other": "হাইতিয়ান গুর্দ",
                 symbol: "HTG"
             },
             HUF: {
@@ -716,21 +628,15 @@ const data = {
                 "symbol-alt-narrow": "Rp"
             },
             IEP: {
-                displayName: "ইরিশ পাউন্ড",
-                symbol: "IEP"
+                displayName: "ইরিশ পাউন্ড"
             },
             ILP: {
-                displayName: "ইস্রাইলি পাউন্ড",
-                symbol: "ILP"
-            },
-            ILR: {
-                displayName: "ILR",
-                symbol: "ILR"
+                displayName: "ইস্রাইলি পাউন্ড"
             },
             ILS: {
-                displayName: "ইস্রাইলি নতুন শেকেল",
-                "displayName-count-one": "ইস্রাইলি নতুন শেকেল",
-                "displayName-count-other": "ইস্রাইলি নতুন শেকেল",
+                displayName: "ইসরায়েলি নতুন শেকেল",
+                "displayName-count-one": "ইসরায়েলি নতুন শেকেল",
+                "displayName-count-other": "ইসরায়েলি নতুন শেকেল",
                 symbol: "₪",
                 "symbol-alt-narrow": "₪"
             },
@@ -753,10 +659,6 @@ const data = {
                 "displayName-count-other": "ইরানিয়ান রিয়াল",
                 symbol: "IRR"
             },
-            ISJ: {
-                displayName: "ISJ",
-                symbol: "ISJ"
-            },
             ISK: {
                 displayName: "আইসল্যান্ডীয় ক্রোনা",
                 "displayName-count-one": "আইসল্যান্ডীয় ক্রোনা",
@@ -765,8 +667,7 @@ const data = {
                 "symbol-alt-narrow": "kr"
             },
             ITL: {
-                displayName: "ইতালীয় লিরা",
-                symbol: "ITL"
+                displayName: "ইতালীয় লিরা"
             },
             JMD: {
                 displayName: "জামাইকান ডলার",
@@ -808,7 +709,7 @@ const data = {
                 "symbol-alt-narrow": "៛"
             },
             KMF: {
-                displayName: "কম্বোরো ফ্রাঙ্ক",
+                displayName: "কমোরিয়ান ফ্রাঙ্ক",
                 "displayName-count-one": "কমোরিয়ান ফ্রাঙ্ক",
                 "displayName-count-other": "কমোরিয়ান ফ্রাঙ্ক",
                 symbol: "KMF",
@@ -820,14 +721,6 @@ const data = {
                 "displayName-count-other": "উত্তর কোরিয়ার ওন",
                 symbol: "KPW",
                 "symbol-alt-narrow": "₩"
-            },
-            KRH: {
-                displayName: "KRH",
-                symbol: "KRH"
-            },
-            KRO: {
-                displayName: "KRO",
-                symbol: "KRO"
             },
             KRW: {
                 displayName: "দক্ষিণ কোরিয়ান ওন",
@@ -886,7 +779,8 @@ const data = {
             },
             LSL: {
                 displayName: "লেসুটু লোটি",
-                symbol: "LSL"
+                "displayName-count-one": "লেসুটু লোটি",
+                "displayName-count-other": "লেসুটু লোটি"
             },
             LTL: {
                 displayName: "লিথুইনিয়ান লিটা",
@@ -896,20 +790,16 @@ const data = {
                 "symbol-alt-narrow": "Lt"
             },
             LTT: {
-                displayName: "লিথুইনিয়ান টালোন্যাস",
-                symbol: "LTT"
+                displayName: "লিথুইনিয়ান টালোন্যাস"
             },
             LUC: {
-                displayName: "লুক্সেমবার্গ রুপান্তযোগ্য ফ্রাঙ্ক",
-                symbol: "LUC"
+                displayName: "লুক্সেমবার্গ রুপান্তযোগ্য ফ্রাঙ্ক"
             },
             LUF: {
-                displayName: "লুক্সেমবার্গ ফ্রাঙ্ক",
-                symbol: "LUF"
+                displayName: "লুক্সেমবার্গ ফ্রাঙ্ক"
             },
             LUL: {
-                displayName: "লুক্সেমবার্গ ফাইনেনশিয়াল ফ্রাঙ্ক",
-                symbol: "LUL"
+                displayName: "লুক্সেমবার্গ ফাইনেনশিয়াল ফ্রাঙ্ক"
             },
             LVL: {
                 displayName: "ল্যাটভিয়ান ল্যাট্‌স",
@@ -919,8 +809,7 @@ const data = {
                 "symbol-alt-narrow": "Ls"
             },
             LVR: {
-                displayName: "ল্যাটভিয়ান রুবল",
-                symbol: "LVR"
+                displayName: "ল্যাটভিয়ান রুবল"
             },
             LYD: {
                 displayName: "লিবিয়ান দিনার",
@@ -935,16 +824,7 @@ const data = {
                 symbol: "MAD"
             },
             MAF: {
-                displayName: "মোরোক্কান ফ্রাঙ্ক",
-                symbol: "MAF"
-            },
-            MCF: {
-                displayName: "MCF",
-                symbol: "MCF"
-            },
-            MDC: {
-                displayName: "MDC",
-                symbol: "MDC"
+                displayName: "মোরোক্কান ফ্রাঙ্ক"
             },
             MDL: {
                 displayName: "মোল্ডোভান লেয়ু",
@@ -960,8 +840,7 @@ const data = {
                 "symbol-alt-narrow": "Ar"
             },
             MGF: {
-                displayName: "মাদাগাস্কার ফ্রাঙ্ক",
-                symbol: "MGF"
+                displayName: "মাদাগাস্কার ফ্রাঙ্ক"
             },
             MKD: {
                 displayName: "ম্যাসেডোনিয়ান দিনার",
@@ -969,13 +848,8 @@ const data = {
                 "displayName-count-other": "ম্যাসেডোনিয়ান দিনার",
                 symbol: "MKD"
             },
-            MKN: {
-                displayName: "MKN",
-                symbol: "MKN"
-            },
             MLF: {
-                displayName: "মালি ফ্রাঙ্ক",
-                symbol: "MLF"
+                displayName: "মালি ফ্রাঙ্ক"
             },
             MMK: {
                 displayName: "মায়ানমার কিয়াত",
@@ -1010,12 +884,10 @@ const data = {
                 symbol: "MRU"
             },
             MTL: {
-                displayName: "মাল্টা লিরা",
-                symbol: "MTL"
+                displayName: "মাল্টা লিরা"
             },
             MTP: {
-                displayName: "মাল্টা পাউন্ড",
-                symbol: "MTP"
+                displayName: "মাল্টা পাউন্ড"
             },
             MUR: {
                 displayName: "মৌরিতানিয়ান রুপি",
@@ -1024,10 +896,6 @@ const data = {
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
-            MVP: {
-                displayName: "MVP",
-                symbol: "MVP"
-            },
             MVR: {
                 displayName: "মালদিভিয়ান রুফিয়া",
                 "displayName-count-one": "মালদিভিয়ান রুফিয়া",
@@ -1035,25 +903,23 @@ const data = {
                 symbol: "MVR"
             },
             MWK: {
-                displayName: "মালাউইয়ান কওয়াচ",
-                "displayName-count-one": "মালাউইয়ান কওয়াচ",
-                "displayName-count-other": "মালাউইয়ান কওয়াচ",
+                displayName: "মালাউইয়ান কোয়াচা",
+                "displayName-count-one": "মালাউইয়ান কোয়াচা",
+                "displayName-count-other": "মালাউইয়ান কোয়াচা",
                 symbol: "MWK"
             },
             MXN: {
-                displayName: "ম্যাক্সিকান পেসো",
-                "displayName-count-one": "ম্যাক্সিকান পেসো",
-                "displayName-count-other": "ম্যাক্সিকান পেসো",
+                displayName: "মেক্সিকান পেসো",
+                "displayName-count-one": "মেক্সিকান পেসো",
+                "displayName-count-other": "মেক্সিকান পেসো",
                 symbol: "MX$",
                 "symbol-alt-narrow": "$"
             },
             MXP: {
-                displayName: "ম্যাক্সিকান সিলভার পেসো (১৮৬১–১৯৯২)",
-                symbol: "MXP"
+                displayName: "ম্যাক্সিকান সিলভার পেসো (১৮৬১–১৯৯২)"
             },
             MXV: {
-                displayName: "মেক্সিকান উনিদাদ দি ইনভার্সান (UDI)",
-                symbol: "MXV"
+                displayName: "মেক্সিকান উনিদাদ দি ইনভার্সান (UDI)"
             },
             MYR: {
                 displayName: "মালয়েশিয়ান রিঙ্গিৎ",
@@ -1063,12 +929,10 @@ const data = {
                 "symbol-alt-narrow": "RM"
             },
             MZE: {
-                displayName: "মোজাম্বিক এসকুডো",
-                symbol: "MZE"
+                displayName: "মোজাম্বিক এসকুডো"
             },
             MZM: {
-                displayName: "প্রাচীন মোজাম্বিক মেটিকেল",
-                symbol: "MZM"
+                displayName: "প্রাচীন মোজাম্বিক মেটিকেল"
             },
             MZN: {
                 displayName: "মোজাম্বিক মেটিকেল",
@@ -1091,8 +955,7 @@ const data = {
                 "symbol-alt-narrow": "₦"
             },
             NIC: {
-                displayName: "নিকারাগুয়ান কর্ডোবা (১৯৮৮–১৯৯১)",
-                symbol: "NIC"
+                displayName: "নিকারাগুয়ান কর্ডোবা (১৯৮৮–১৯৯১)"
             },
             NIO: {
                 displayName: "নিকারাগুয়ান কর্ডোবা",
@@ -1102,8 +965,7 @@ const data = {
                 "symbol-alt-narrow": "C$"
             },
             NLG: {
-                displayName: "নেদারল্যান্ড গুল্ডের",
-                symbol: "NLG"
+                displayName: "নেদারল্যান্ড গুল্ডের"
             },
             NOK: {
                 displayName: "নরওয়েজিয়ান ক্রোন",
@@ -1133,14 +995,13 @@ const data = {
                 symbol: "OMR"
             },
             PAB: {
-                displayName: "পানামা বেলবোয়া",
-                "displayName-count-one": "পানামা বেলবোয়া",
-                "displayName-count-other": "পানামা বেলবোয়া",
+                displayName: "পানামানিয়ান বালবোয়া",
+                "displayName-count-one": "পানামানিয়ান বালবোয়া",
+                "displayName-count-other": "পানামানিয়ান বালবোয়া",
                 symbol: "PAB"
             },
             PEI: {
-                displayName: "পেরুভিয়ান ইন্তি",
-                symbol: "PEI"
+                displayName: "পেরুভিয়ান ইন্তি"
             },
             PEN: {
                 displayName: "পেরুভিয়ান সোল",
@@ -1151,8 +1012,7 @@ const data = {
             PES: {
                 displayName: "পেরুভিয়ান সোল (1863–1965)",
                 "displayName-count-one": "পেরুভিয়ান সোল (1863–1965)",
-                "displayName-count-other": "পেরুভিয়ান সোল (1863–1965)",
-                symbol: "PES"
+                "displayName-count-other": "পেরুভিয়ান সোল (1863–1965)"
             },
             PGK: {
                 displayName: "পাপুয়া নিউ গিনিয়ান কিনা",
@@ -1182,12 +1042,10 @@ const data = {
                 "symbol-alt-narrow": "zł"
             },
             PLZ: {
-                displayName: "পোলিশ জ্লোটি (১৯৫০–১৯৯৫)",
-                symbol: "PLZ"
+                displayName: "পোলিশ জ্লোটি (১৯৫০–১৯৯৫)"
             },
             PTE: {
-                displayName: "পর্তুগিজ এসকুডো",
-                symbol: "PTE"
+                displayName: "পর্তুগিজ এসকুডো"
             },
             PYG: {
                 displayName: "প্যারাগুয়ান গুয়ারানি",
@@ -1203,12 +1061,10 @@ const data = {
                 symbol: "QAR"
             },
             RHD: {
-                displayName: "রোডেশিয়ান ডলার",
-                symbol: "RHD"
+                displayName: "রোডেশিয়ান ডলার"
             },
             ROL: {
-                displayName: "প্রাচীন রুমানিয়া লেয়ু",
-                symbol: "ROL"
+                displayName: "প্রাচীন রুমানিয়া লেয়ু"
             },
             RON: {
                 displayName: "রুমানিয়া লেয়ু",
@@ -1231,8 +1087,7 @@ const data = {
                 "symbol-alt-narrow": "₽"
             },
             RUR: {
-                displayName: "রাশিয়ান রুবল (১৯৯১–১৯৯৮)",
-                symbol: "RUR"
+                displayName: "রাশিয়ান রুবল (১৯৯১–১৯৯৮)"
             },
             RWF: {
                 displayName: "রুয়ান্ডান ফ্রাঙ্ক",
@@ -1261,8 +1116,7 @@ const data = {
                 symbol: "SCR"
             },
             SDD: {
-                displayName: "প্রাচীন সুদানি দিনার",
-                symbol: "SDD"
+                displayName: "প্রাচীন সুদানি দিনার"
             },
             SDG: {
                 displayName: "সুদানি পাউন্ড",
@@ -1271,8 +1125,7 @@ const data = {
                 symbol: "SDG"
             },
             SDP: {
-                displayName: "প্রাচীন সুদানি পাউন্ড",
-                symbol: "SDP"
+                displayName: "প্রাচীন সুদানি পাউন্ড"
             },
             SEK: {
                 displayName: "সুইডিশ ক্রোনা",
@@ -1296,16 +1149,10 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             SIT: {
-                displayName: "স্লোভানিয়া টোলার",
-                symbol: "SIT"
+                displayName: "স্লোভানিয়া টোলার"
             },
             SKK: {
-                displayName: "স্লোভাক কোরুনা",
-                symbol: "SKK"
-            },
-            SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
+                displayName: "স্লোভাক কোরুনা"
             },
             SLL: {
                 displayName: "সিয়েরালিয়ন লিয়ন",
@@ -1320,15 +1167,14 @@ const data = {
                 symbol: "SOS"
             },
             SRD: {
-                displayName: "সুরিনাম ডলার",
-                "displayName-count-one": "সুরিনাম ডলার",
-                "displayName-count-other": "সুরিনাম ডলার",
+                displayName: "সুরিনামিজ ডলার",
+                "displayName-count-one": "সুরিনামিজ ডলার",
+                "displayName-count-other": "সুরিনামিজ ডলার",
                 symbol: "SRD",
                 "symbol-alt-narrow": "$"
             },
             SRG: {
-                displayName: "সুরিনাম গিল্ডার",
-                symbol: "SRG"
+                displayName: "সুরিনাম গিল্ডার"
             },
             SSP: {
                 displayName: "দক্ষিণ সুদানি পাউন্ড",
@@ -1351,12 +1197,10 @@ const data = {
                 "symbol-alt-narrow": "Db"
             },
             SUR: {
-                displayName: "সোভিয়েত রুবল",
-                symbol: "SUR"
+                displayName: "সোভিয়েত রুবল"
             },
             SVC: {
-                displayName: "এল স্যালভোডোর কোলোন",
-                symbol: "SVC"
+                displayName: "এল স্যালভোডোর কোলোন"
             },
             SYP: {
                 displayName: "সিরিয়ান পাউন্ড",
@@ -1379,8 +1223,7 @@ const data = {
                 "symbol-alt-narrow": "฿"
             },
             TJR: {
-                displayName: "তাজিকিস্তান রুবল",
-                symbol: "TJR"
+                displayName: "তাজিকিস্তান রুবল"
             },
             TJS: {
                 displayName: "তাজিকিস্তান সোমোনি",
@@ -1389,8 +1232,7 @@ const data = {
                 symbol: "TJS"
             },
             TMM: {
-                displayName: "তুর্কমেনিস্টানি মানাত",
-                symbol: "TMM"
+                displayName: "তুর্কমেনিস্টানি মানাত"
             },
             TMT: {
                 displayName: "তুর্কমেনিস্তান মানত",
@@ -1412,12 +1254,10 @@ const data = {
                 "symbol-alt-narrow": "T$"
             },
             TPE: {
-                displayName: "তিমুর এসকুডো",
-                symbol: "TPE"
+                displayName: "তিমুর এসকুডো"
             },
             TRL: {
-                displayName: "প্রাচীন তুর্কি লিরা",
-                symbol: "TRL"
+                displayName: "প্রাচীন তুর্কি লিরা"
             },
             TRY: {
                 displayName: "তুর্কি লিরা",
@@ -1455,12 +1295,10 @@ const data = {
                 "symbol-alt-narrow": "₴"
             },
             UAK: {
-                displayName: "ইউক্রেইন কার্বোভ্যান্টস",
-                symbol: "UAK"
+                displayName: "ইউক্রেইন কার্বোভ্যান্টস"
             },
             UGS: {
-                displayName: "উগান্ডান শিলিং (১৯৬৬–১৯৮৭)",
-                symbol: "UGS"
+                displayName: "উগান্ডান শিলিং (১৯৬৬–১৯৮৭)"
             },
             UGX: {
                 displayName: "উগান্ডান শিলিং",
@@ -1472,24 +1310,20 @@ const data = {
                 displayName: "মার্কিন ডলার",
                 "displayName-count-one": "মার্কিন ডলার",
                 "displayName-count-other": "মার্কিন ডলার",
-                symbol: "US$",
+                symbol: "$",
                 "symbol-alt-narrow": "$"
             },
             USN: {
-                displayName: "মার্কিন ডলার (পরবর্তী দিন)",
-                symbol: "USN"
+                displayName: "মার্কিন ডলার (পরবর্তী দিন)"
             },
             USS: {
-                displayName: "মার্কিন ডলার (একই দিন)",
-                symbol: "USS"
+                displayName: "মার্কিন ডলার (একই দিন)"
             },
             UYI: {
-                displayName: "উরুগুয়ায়ান পেসো এন উনিদাদেস ইনডেক্সেডাস",
-                symbol: "UYI"
+                displayName: "উরুগুয়ায়ান পেসো এন উনিদাদেস ইনডেক্সেডাস"
             },
             UYP: {
-                displayName: "উরুগুয়ে পেসো (১৯৭৫–১৯৯৩)",
-                symbol: "UYP"
+                displayName: "উরুগুয়ে পেসো (১৯৭৫–১৯৯৩)"
             },
             UYU: {
                 displayName: "উরুগুয়ে পেসো",
@@ -1498,10 +1332,6 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
-            },
             UZS: {
                 displayName: "উজবেকিস্তানি সোম",
                 "displayName-count-one": "উজবেকিস্তানি সোম",
@@ -1509,12 +1339,7 @@ const data = {
                 symbol: "UZS"
             },
             VEB: {
-                displayName: "ভেনিজুয়েলান বলিভার (১৮৭১–২০০৮)",
-                symbol: "VEB"
-            },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
+                displayName: "ভেনিজুয়েলান বলিভার (১৮৭১–২০০৮)"
             },
             VEF: {
                 displayName: "ভেনিজুয়েলীয় বলিভার (২০০৮–২০১৮)",
@@ -1536,10 +1361,6 @@ const data = {
                 symbol: "₫",
                 "symbol-alt-narrow": "₫"
             },
-            VNN: {
-                displayName: "VNN",
-                symbol: "VNN"
-            },
             VUV: {
                 displayName: "ভানুয়াতু ভাতু",
                 "displayName-count-one": "ভানুয়াতু ভাতু",
@@ -1559,51 +1380,29 @@ const data = {
                 symbol: "FCFA"
             },
             XAG: {
-                displayName: "সিলভার",
-                symbol: "XAG"
+                displayName: "সিলভার"
             },
             XAU: {
-                displayName: "গোল্ড",
-                symbol: "XAU"
-            },
-            XBA: {
-                displayName: "XBA",
-                symbol: "XBA"
+                displayName: "গোল্ড"
             },
             XBB: {
-                displayName: "ইউরোপীয় আর্থিক একক",
-                symbol: "XBB"
-            },
-            XBC: {
-                displayName: "XBC",
-                symbol: "XBC"
-            },
-            XBD: {
-                displayName: "XBD",
-                symbol: "XBD"
+                displayName: "ইউরোপীয় আর্থিক একক"
             },
             XCD: {
-                displayName: "পূর্ব ক্যারাবিয়ান ডলার",
-                "displayName-count-one": "পূর্ব ক্যারাবিয়ান ডলার",
-                "displayName-count-other": "পূর্ব ক্যারাবিয়ান ডলার",
+                displayName: "পূর্ব ক্যারিবিয়ান ডলার",
+                "displayName-count-one": "পূর্ব ক্যারিবিয়ান ডলার",
+                "displayName-count-other": "পূর্ব ক্যারিবিয়ান ডলার",
                 symbol: "EC$",
                 "symbol-alt-narrow": "$"
             },
-            XDR: {
-                displayName: "XDR",
-                symbol: "XDR"
-            },
             XEU: {
-                displayName: "ইউরোপীয় মুদ্রা একক",
-                symbol: "XEU"
+                displayName: "ইউরোপীয় মুদ্রা একক"
             },
             XFO: {
-                displayName: "ফরাসি গোল্ড ফ্রাঙ্ক",
-                symbol: "XFO"
+                displayName: "ফরাসি গোল্ড ফ্রাঙ্ক"
             },
             XFU: {
-                displayName: "ফরাসি ইউআইসি - ফ্রাঙ্ক",
-                symbol: "XFU"
+                displayName: "ফরাসি ইউআইসি - ফ্রাঙ্ক"
             },
             XOF: {
                 displayName: "পশ্চিম আফ্রিকান [CFA] ফ্র্যাঙ্ক",
@@ -1612,8 +1411,7 @@ const data = {
                 symbol: "F CFA"
             },
             XPD: {
-                displayName: "প্যালেডিয়াম",
-                symbol: "XPD"
+                displayName: "প্যালেডিয়াম"
             },
             XPF: {
                 displayName: "সিএফপি ফ্র্যাঙ্ক",
@@ -1622,24 +1420,7 @@ const data = {
                 symbol: "CFPF"
             },
             XPT: {
-                displayName: "প্লাটিনাম",
-                symbol: "XPT"
-            },
-            XRE: {
-                displayName: "XRE",
-                symbol: "XRE"
-            },
-            XSU: {
-                displayName: "XSU",
-                symbol: "XSU"
-            },
-            XTS: {
-                displayName: "XTS",
-                symbol: "XTS"
-            },
-            XUA: {
-                displayName: "XUA",
-                symbol: "XUA"
+                displayName: "প্লাটিনাম"
             },
             XXX: {
                 displayName: "অজানা মুদ্রা",
@@ -1648,8 +1429,7 @@ const data = {
                 symbol: "¤"
             },
             YDD: {
-                displayName: "ইয়েমেনি দিনার",
-                symbol: "YDD"
+                displayName: "ইয়েমেনি দিনার"
             },
             YER: {
                 displayName: "ইয়েমেনি রিয়াল",
@@ -1658,24 +1438,16 @@ const data = {
                 symbol: "YER"
             },
             YUD: {
-                displayName: "যুগোশ্লাভিয় হার্ড দিনার",
-                symbol: "YUD"
+                displayName: "যুগোশ্লাভিয় হার্ড দিনার"
             },
             YUM: {
-                displayName: "যুগোশ্লাভিয় নোভি দিনার",
-                symbol: "YUM"
+                displayName: "যুগোশ্লাভিয় নোভি দিনার"
             },
             YUN: {
-                displayName: "যুগোশ্লাভিয় রুপান্তরযোগ্য দিনার",
-                symbol: "YUN"
-            },
-            YUR: {
-                displayName: "YUR",
-                symbol: "YUR"
+                displayName: "যুগোশ্লাভিয় রুপান্তরযোগ্য দিনার"
             },
             ZAL: {
-                displayName: "দক্ষিণ আফ্রিকান র‌্যান্ড",
-                symbol: "ZAL"
+                displayName: "দক্ষিণ আফ্রিকান র‌্যান্ড"
             },
             ZAR: {
                 displayName: "দক্ষিণ আফ্রিকান রেন্ড",
@@ -1685,8 +1457,7 @@ const data = {
                 "symbol-alt-narrow": "R"
             },
             ZMK: {
-                displayName: "জাম্বিয়ান কওয়াচা (১৯৬৮–২০১২)",
-                symbol: "ZMK"
+                displayName: "জাম্বিয়ান কওয়াচা (১৯৬৮–২০১২)"
             },
             ZMW: {
                 displayName: "জাম্বিয়ান কওয়াচা",
@@ -1696,24 +1467,19 @@ const data = {
                 "symbol-alt-narrow": "ZK"
             },
             ZRN: {
-                displayName: "জাইরিয়ান নিউ জাইরে",
-                symbol: "ZRN"
+                displayName: "জাইরিয়ান নিউ জাইরে"
             },
             ZRZ: {
-                displayName: "জাইরিয়ান জাইরে",
-                symbol: "ZRZ"
+                displayName: "জাইরিয়ান জাইরে"
             },
             ZWD: {
-                displayName: "জিম্বাবুয়ে ডলার (১৯৮০–২০০৮)",
-                symbol: "ZWD"
+                displayName: "জিম্বাবুয়ে ডলার (১৯৮০–২০০৮)"
             },
             ZWL: {
-                displayName: "জিম্বাবুয়ে ডলার (২০০৯)",
-                symbol: "ZWL"
+                displayName: "জিম্বাবুয়ে ডলার (২০০৯)"
             },
             ZWR: {
-                displayName: "জিম্বাবুয়ে ডলার (২০০৮)",
-                symbol: "ZWR"
+                displayName: "জিম্বাবুয়ে ডলার (২০০৮)"
             }
         },
         localeCurrency: "INR"
@@ -1753,7 +1519,7 @@ const data = {
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
-                GyMd: "GGGGG dd-MM-y",
+                GyMd: "dd-MM-y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM, y G",
                 GyMMMEd: "E, d MMM, y G",
@@ -1776,8 +1542,8 @@ const data = {
                 MMMEd: "E d MMM",
                 MMMMd: "d MMMM",
                 MMMMEd: "E d MMMM",
-                "MMMMW-count-one": "MMMM এর Wয় সপ্তাহ",
-                "MMMMW-count-other": "MMMM এর Wয় সপ্তাহ",
+                "MMMMW-count-one": "MMMM এর W নম্বর সপ্তাহ",
+                "MMMMW-count-other": "MMMM এর W নম্বর সপ্তাহ",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M/y",
@@ -1833,7 +1599,7 @@ const data = {
                     "বুঃ",
                     "বৃঃ",
                     "শুঃ",
-                    "শনি"
+                    "শঃ"
                 ],
                 wide: [
                     "রবিবার",
@@ -1890,15 +1656,15 @@ const data = {
                     "জানু",
                     "ফেব",
                     "মার্চ",
-                    "এপ্রিল",
+                    "এপ্রি",
                     "মে",
                     "জুন",
-                    "জুলাই",
-                    "আগস্ট",
-                    "সেপ্টেম্বর",
-                    "অক্টোবর",
-                    "নভেম্বর",
-                    "ডিসেম্বর"
+                    "জুল",
+                    "আগ",
+                    "সেপ্টেঃ",
+                    "অক্টোঃ",
+                    "নভেঃ",
+                    "ডিসেঃ"
                 ],
                 narrow: [
                     "জা",
@@ -1907,7 +1673,7 @@ const data = {
                     "এ",
                     "মে",
                     "জুন",
-                    "জু",
+                    "জুল",
                     "আ",
                     "সে",
                     "অ",
@@ -1931,18 +1697,18 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "জানুয়ারী",
-                    "ফেব্রুয়ারী",
+                    "জানু",
+                    "ফেব",
                     "মার্চ",
                     "এপ্রিল",
                     "মে",
                     "জুন",
                     "জুলাই",
                     "আগস্ট",
-                    "সেপ্টেম্বর",
-                    "অক্টোবর",
-                    "নভেম্বর",
-                    "ডিসেম্বর"
+                    "সেপ্টেঃ",
+                    "অক্টোঃ",
+                    "নভেঃ",
+                    "ডিসেঃ"
                 ],
                 narrow: [
                     "জা",
@@ -1951,7 +1717,7 @@ const data = {
                     "এ",
                     "মে",
                     "জুন",
-                    "জু",
+                    "জুল",
                     "আ",
                     "সে",
                     "অ",
@@ -2041,12 +1807,12 @@ const data = {
                 wide: {
                     am: "AM",
                     pm: "PM",
-                    morning1: "ভোর",
-                    morning2: "সকাল",
-                    afternoon1: "দুপুর",
+                    morning1: "ভোরবেলায়",
+                    morning2: "সকালবেলায়",
+                    afternoon1: "দুপুরবেলায়",
                     afternoon2: "বিকাল",
-                    evening1: "সন্ধ্যা",
-                    night1: "রাত্রিতে"
+                    evening1: "সন্ধ্যাবেলায়",
+                    night1: "রাত্রি"
                 }
             },
             "stand-alone": {
@@ -2086,19 +1852,19 @@ const data = {
             format: {
                 wide: {
                     "0": "খ্রিস্টপূর্ব",
-                    "1": "খ্রীষ্টাব্দ",
+                    "1": "খ্রিষ্টাব্দ",
                     "0-alt-variant": "খ্রিষ্টপূর্বাব্দ",
                     "1-alt-variant": "খ্রিষ্টাব্দ"
                 },
                 abbreviated: {
-                    "0": "খ্রিস্টপূর্ব",
-                    "1": "খৃষ্টাব্দ",
+                    "0": "খ্রিঃপূঃ",
+                    "1": "খ্রিঃ",
                     "0-alt-variant": "খ্রিষ্টপূর্বাব্দ",
                     "1-alt-variant": "খ্রিষ্টাব্দ"
                 },
                 narrow: {
-                    "0": "খ্রিস্টপূর্ব",
-                    "1": "খৃষ্টাব্দ",
+                    "0": "খ্রিঃপূঃ",
+                    "1": "খ্রিঃ",
                     "0-alt-variant": "খ্রিষ্টপূর্বাব্দ",
                     "1-alt-variant": "খ্রিষ্টাব্দ"
                 }

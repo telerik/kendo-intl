@@ -16,18 +16,18 @@ const data = {
             M: "MMMM d",
             y: "MMM y",
             Y: "MMMM y",
-            F: "EEEE, MMMM d, y h:mm:ss a",
-            g: "M/d/y h:mm a",
-            G: "M/d/y h:mm:ss a",
-            t: "h:mm a",
-            T: "h:mm:ss a",
+            F: "EEEE, MMMM d, y h:mm:ss a",
+            g: "M/d/y h:mm a",
+            G: "M/d/y h:mm:ss a",
+            t: "h:mm a",
+            T: "h:mm:ss a",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} 'ee' {0}",
-            long: "{1} 'ee' {0}",
-            medium: "{1} 'ee' {0}",
+            full: "{1} {0}",
+            long: "{1} {0}",
+            medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
                 Bh: "h B",
@@ -53,7 +53,7 @@ const data = {
                 Hm: "HH:mm",
                 hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
                 hmv: "h:mm a v",
                 Hmv: "HH:mm v",
@@ -83,10 +83,10 @@ const data = {
             }
         },
         timeFormats: {
-            full: "h:mm:ss a zzzz",
-            long: "h:mm:ss a z",
-            medium: "h:mm:ss a",
-            short: "h:mm a"
+            full: "h:mm:ss a zzzz",
+            long: "h:mm:ss a z",
+            medium: "h:mm:ss a",
+            short: "h:mm a"
         },
         dateFormats: {
             full: "EEEE, MMMM d, y",
@@ -254,11 +254,11 @@ const data = {
                     "May",
                     "Juun",
                     "Luuliyo",
-                    "Ogost",
-                    "Sebtembar",
+                    "Ogosto",
+                    "Sebteembar",
                     "Oktoobar",
-                    "Nofembar",
-                    "Desembar"
+                    "Noofeembar",
+                    "Diseembar"
                 ]
             }
         },

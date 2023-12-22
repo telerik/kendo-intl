@@ -25,8 +25,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} 'om' {0}",
-            long: "{1} 'om' {0}",
+            full: "{1} {0}",
+            long: "{1} {0}",
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
@@ -174,18 +174,18 @@ const data = {
         months: {
             format: {
                 abbreviated: [
-                    "jan.",
-                    "feb.",
-                    "mrt.",
-                    "apr.",
+                    "jan",
+                    "feb",
+                    "mrt",
+                    "apr",
                     "mei",
-                    "jun.",
-                    "jul.",
-                    "aug.",
-                    "sep.",
-                    "okt.",
-                    "nov.",
-                    "dec."
+                    "jun",
+                    "jul",
+                    "aug",
+                    "sep",
+                    "okt",
+                    "nov",
+                    "dec"
                 ],
                 narrow: [
                     "J",
@@ -218,18 +218,18 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "jan.",
-                    "feb.",
-                    "mrt.",
-                    "apr.",
+                    "jan",
+                    "feb",
+                    "mrt",
+                    "apr",
                     "mei",
-                    "jun.",
-                    "jul.",
-                    "aug.",
-                    "sep.",
-                    "okt.",
-                    "nov.",
-                    "dec."
+                    "jun",
+                    "jul",
+                    "aug",
+                    "sep",
+                    "okt",
+                    "nov",
+                    "dec"
                 ],
                 narrow: [
                     "J",

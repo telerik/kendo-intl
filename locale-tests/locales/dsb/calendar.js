@@ -12,7 +12,7 @@ const data = {
             d: "d.M.y",
             D: "EEEE, d. MMMM y",
             m: "d. MMM",
-            M: "d MMMM",
+            M: "d. MMMM",
             y: "MMM y",
             Y: "LLLL y",
             F: "EEEE, d. MMMM y H:mm:ss",
@@ -32,25 +32,25 @@ const data = {
                 Bh: "h B",
                 Bhm: "h:mm B",
                 Bhms: "h:mm:ss B",
-                d: "d",
+                d: "d.",
                 E: "ccc",
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "E, d.",
-                Ehm: "E, h:mm a",
+                Ehm: "E, h:mm a",
                 EHm: "E, 'zeg'. H:mm",
-                Ehms: "E, h:mm:ss a",
+                Ehms: "E, h:mm:ss a",
                 EHms: "E, HH:mm:ss",
                 Gy: "y G",
                 GyMd: "d.M.y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d. MMM y G",
                 GyMMMEd: "E, d. MMM y G",
-                h: "h a",
+                h: "h a",
                 H: "'zeg'. H",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "'zeg'. H:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "H:mm:ss",
                 hmsv: "h:mm:ss a v",
                 Hmsv: "H:mm:ss v",
@@ -62,11 +62,11 @@ const data = {
                 MMM: "LLL",
                 MMMd: "d. MMM",
                 MMMEd: "E, d. MMM",
-                MMMMd: "d MMMM",
-                "MMMMW-count-one": "'tyźeń' W MMMM",
-                "MMMMW-count-two": "'tyźeń' W MMMM",
-                "MMMMW-count-few": "'tyźeń' W MMMM",
-                "MMMMW-count-other": "'tyźeń' W MMMM",
+                MMMMd: "d. MMMM",
+                "MMMMW-count-one": "W. 'tyźeń' MMMM",
+                "MMMMW-count-two": "W. 'tyźeń' MMMM",
+                "MMMMW-count-few": "W. 'tyźeń' MMMM",
+                "MMMMW-count-other": "W. 'tyźeń' MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M.y",
@@ -78,10 +78,10 @@ const data = {
                 yMMMM: "LLLL y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'tyźeń' w 'lěta' Y",
-                "yw-count-two": "'tyźeń' w 'lěta' Y",
-                "yw-count-few": "'tyźeń' w 'lěta' Y",
-                "yw-count-other": "'tyźeń' w 'lěta' Y"
+                "yw-count-one": "w. 'tyźeń' 'lěta' Y",
+                "yw-count-two": "w. 'tyźeń' 'lěta' Y",
+                "yw-count-few": "w. 'tyźeń' 'lěta' Y",
+                "yw-count-other": "w. 'tyźeń' 'lěta' Y"
             }
         },
         timeFormats: {
@@ -267,10 +267,10 @@ const data = {
         quarters: {
             format: {
                 abbreviated: [
-                    "Q1",
-                    "Q2",
-                    "Q3",
-                    "Q4"
+                    "kw1",
+                    "kw2",
+                    "kw3",
+                    "kw4"
                 ],
                 narrow: [
                     "1",
@@ -287,10 +287,10 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "Q1",
-                    "Q2",
-                    "Q3",
-                    "Q4"
+                    "kw1",
+                    "kw2",
+                    "kw3",
+                    "kw4"
                 ],
                 narrow: [
                     "1",
@@ -309,8 +309,8 @@ const data = {
         dayPeriods: {
             format: {
                 abbreviated: {
-                    am: "dopołdnja",
-                    pm: "wótpołdnja"
+                    am: "dop.",
+                    pm: "wótp."
                 },
                 narrow: {
                     am: "dop.",
@@ -323,12 +323,12 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: {
-                    am: "am",
-                    pm: "pm"
+                    am: "dop.",
+                    pm: "wótp."
                 },
                 narrow: {
-                    am: "am",
-                    pm: "pm"
+                    am: "dop.",
+                    pm: "wótp."
                 },
                 wide: {
                     am: "dopołdnja",

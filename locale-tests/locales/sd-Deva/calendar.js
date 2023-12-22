@@ -26,8 +26,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} ते {0}",
-            long: "{1} ते {0}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
@@ -210,7 +210,7 @@ const data = {
                     "जुलाई",
                     "अगस्ट",
                     "सप्टेंबर",
-                    "ऑक्टोबर",
+                    "ओक्टोबर",
                     "नवंबर",
                     "डिसंबर"
                 ]
@@ -313,8 +313,8 @@ const data = {
                     pm: "PM"
                 },
                 wide: {
-                    am: "मंझंदि खां पहिंरियों",
-                    pm: "मंझंदि खां पोइ"
+                    am: "सुबुह जा",
+                    pm: "शाम जा"
                 }
             },
             "stand-alone": {
@@ -354,8 +354,8 @@ const data = {
                 }
             }
         },
-        gmtFormat: "GMT{0}",
-        gmtZeroFormat: "GMT",
+        gmtFormat: "जीएमटी{0}",
+        gmtZeroFormat: "जीएमटी",
         dateFields: {
             era: {
                 wide: "दौर",

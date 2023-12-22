@@ -10,12 +10,12 @@ const data = {
     calendar: {
         patterns: {
             d: "y-MM-dd",
-            D: "y MMMM d, EEEE",
+            D: "EEEE, MMMM d, y",
             m: "MMM d",
             M: "MMMM d",
             y: "y MMM",
             Y: "y MMMM",
-            F: "y MMMM d, EEEE h:mm:ss a",
+            F: "EEEE, MMMM d, y h:mm:ss a",
             g: "y-MM-dd h:mm a",
             G: "y-MM-dd h:mm:ss a",
             t: "h:mm a",
@@ -87,7 +87,7 @@ const data = {
             short: "h:mm a"
         },
         dateFormats: {
-            full: "y MMMM d, EEEE",
+            full: "EEEE, MMMM d, y",
             long: "y MMMM d",
             medium: "y MMM d",
             short: "y-MM-dd"
@@ -305,12 +305,12 @@ const data = {
         dayPeriods: {
             format: {
                 abbreviated: {
-                    am: "صبح، منجهند",
-                    pm: "شام، منجهند"
+                    am: "صبح، منجهند",
+                    pm: "شام، منجهند"
                 },
                 narrow: {
-                    am: "صبح، منجهند",
-                    pm: "منجهند، شام"
+                    am: "صبح، منجهند",
+                    pm: "منجهند، شام"
                 },
                 wide: {
                     am: "صبح، منجهند",
@@ -319,12 +319,12 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: {
-                    am: "صبح، منجهند",
-                    pm: "منجهند، شام"
+                    am: "صبح، منجهند",
+                    pm: "منجهند، شام"
                 },
                 narrow: {
-                    am: "صبح، منجهند",
-                    pm: "منجهند، شام"
+                    am: "صبح، منجهند",
+                    pm: "منجهند، شام"
                 },
                 wide: {
                     am: "صبح، منجهند",

@@ -68,8 +68,7 @@ const data = {
         },
         currencies: {
             ADP: {
-                displayName: "𑄃𑄳𑄠𑄚𑄴𑄓𑄮𑄢𑄚𑄴 𑄛𑄬𑄥𑄬𑄖",
-                symbol: "ADP"
+                displayName: "𑄃𑄳𑄠𑄚𑄴𑄓𑄮𑄢𑄚𑄴 𑄛𑄬𑄥𑄬𑄖"
             },
             AED: {
                 displayName: "𑄎𑄧𑄙 𑄃𑄢𑄧𑄝𑄴 𑄃𑄟𑄨𑄢𑄖𑄴 𑄘𑄨𑄢𑄴𑄦𑄟𑄴",
@@ -78,8 +77,7 @@ const data = {
                 symbol: "AED"
             },
             AFA: {
-                displayName: "𑄃𑄛𑄴𑄉𑄚𑄨 (𑄷𑄿𑄸𑄽-𑄸𑄶𑄶𑄸)",
-                symbol: "AFA"
+                displayName: "𑄃𑄛𑄴𑄉𑄚𑄨 (𑄷𑄿𑄸𑄽-𑄸𑄶𑄶𑄸)"
             },
             AFN: {
                 displayName: "𑄃𑄜𑄴𑄉𑄚𑄴 𑄃𑄜𑄴𑄉𑄚𑄨",
@@ -87,10 +85,6 @@ const data = {
                 "displayName-count-other": "𑄃𑄜𑄴𑄉𑄚𑄴 𑄃𑄜𑄴𑄉𑄚𑄨",
                 symbol: "AFN",
                 "symbol-alt-narrow": "؋"
-            },
-            ALK: {
-                displayName: "ALK",
-                symbol: "ALK"
             },
             ALL: {
                 displayName: "𑄃𑄣𑄴𑄝𑄬𑄚𑄨𑄠𑄚𑄴 𑄣𑄬𑄇𑄴",
@@ -119,32 +113,19 @@ const data = {
                 "symbol-alt-narrow": "Kz"
             },
             AOK: {
-                displayName: "𑄃𑄳𑄠𑄋𑄴𑄉𑄮𑄣𑄚𑄴 𑄇𑄧𑄤𑄮𑄚𑄴𑄎(𑄷𑄿𑄽𑄽-𑄷𑄿𑄿𑄶)",
-                symbol: "AOK"
+                displayName: "𑄃𑄳𑄠𑄋𑄴𑄉𑄮𑄣𑄚𑄴 𑄇𑄧𑄤𑄮𑄚𑄴𑄎(𑄷𑄿𑄽𑄽-𑄷𑄿𑄿𑄶)"
             },
             AON: {
-                displayName: "𑄃𑄳𑄠𑄋𑄴𑄉𑄮𑄣𑄚𑄴 𑄚𑄱 𑄇𑄧𑄤𑄮𑄚𑄴𑄎(𑄷𑄿𑄿𑄻-𑄸𑄶𑄶𑄶)",
-                symbol: "AON"
+                displayName: "𑄃𑄳𑄠𑄋𑄴𑄉𑄮𑄣𑄚𑄴 𑄚𑄱 𑄇𑄧𑄤𑄮𑄚𑄴𑄎(𑄷𑄿𑄿𑄻-𑄸𑄶𑄶𑄶)"
             },
             AOR: {
-                displayName: "𑄃𑄳𑄠𑄋𑄴𑄉𑄮𑄣𑄚𑄴 𑄇𑄧𑄤𑄮𑄚𑄴𑄎(𑄷𑄿𑄿𑄻-𑄷𑄿𑄿𑄿)",
-                symbol: "AOR"
+                displayName: "𑄃𑄳𑄠𑄋𑄴𑄉𑄮𑄣𑄚𑄴 𑄇𑄧𑄤𑄮𑄚𑄴𑄎(𑄷𑄿𑄿𑄻-𑄷𑄿𑄿𑄿)"
             },
             ARA: {
-                displayName: "𑄃𑄢𑄴𑄎𑄬𑄚𑄴𑄑𑄨𑄚 𑄃𑄧𑄌𑄴𑄑𑄳𑄢𑄣𑄴",
-                symbol: "ARA"
-            },
-            ARL: {
-                displayName: "ARL",
-                symbol: "ARL"
-            },
-            ARM: {
-                displayName: "ARM",
-                symbol: "ARM"
+                displayName: "𑄃𑄢𑄴𑄎𑄬𑄚𑄴𑄑𑄨𑄚 𑄃𑄧𑄌𑄴𑄑𑄳𑄢𑄣𑄴"
             },
             ARP: {
-                displayName: "𑄃𑄢𑄴𑄎𑄬𑄚𑄴𑄑𑄨𑄚 𑄛𑄬𑄥𑄮 (𑄷𑄿𑄾𑄹-𑄷𑄿𑄾𑄻)",
-                symbol: "ARP"
+                displayName: "𑄃𑄢𑄴𑄎𑄬𑄚𑄴𑄑𑄨𑄚 𑄛𑄬𑄥𑄮 (𑄷𑄿𑄾𑄹-𑄷𑄿𑄾𑄻)"
             },
             ARS: {
                 displayName: "𑄃𑄢𑄴𑄎𑄬𑄚𑄴𑄑𑄨𑄚 𑄛𑄬𑄥𑄮",
@@ -154,8 +135,7 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             ATS: {
-                displayName: "𑄃𑄧𑄌𑄴𑄑𑄳𑄢𑄨𑄠𑄚𑄴 𑄥𑄨𑄣𑄨𑄁",
-                symbol: "ATS"
+                displayName: "𑄃𑄧𑄌𑄴𑄑𑄳𑄢𑄨𑄠𑄚𑄴 𑄥𑄨𑄣𑄨𑄁"
             },
             AUD: {
                 displayName: "𑄃𑄧𑄌𑄴𑄑𑄳𑄢𑄬𑄣𑄨𑄠𑄚𑄴 𑄓𑄧𑄣𑄢𑄴",
@@ -171,8 +151,7 @@ const data = {
                 symbol: "AWG"
             },
             AZM: {
-                displayName: "𑄃𑄎𑄢𑄴𑄝𑄭𑄎𑄚𑄴 𑄟𑄚𑄖𑄴 (𑄷𑄿𑄿𑄹-𑄸𑄶𑄶𑄼)",
-                symbol: "AZM"
+                displayName: "𑄃𑄎𑄢𑄴𑄝𑄭𑄎𑄚𑄴 𑄟𑄚𑄖𑄴 (𑄷𑄿𑄿𑄹-𑄸𑄶𑄶𑄼)"
             },
             AZN: {
                 displayName: "𑄃𑄎𑄢𑄴𑄝𑄭𑄎𑄚𑄴 𑄟𑄚𑄖𑄴",
@@ -182,8 +161,7 @@ const data = {
                 "symbol-alt-narrow": "₼"
             },
             BAD: {
-                displayName: "𑄝𑄧𑄥𑄴𑄚𑄨𑄠 𑄃𑄳𑄃 𑄦𑄢𑄴𑄎𑄬𑄉𑄮𑄞𑄨𑄚 𑄘𑄨𑄚𑄢𑄴",
-                symbol: "BAD"
+                displayName: "𑄝𑄧𑄥𑄴𑄚𑄨𑄠 𑄃𑄳𑄃 𑄦𑄢𑄴𑄎𑄬𑄉𑄮𑄞𑄨𑄚 𑄘𑄨𑄚𑄢𑄴"
             },
             BAM: {
                 displayName: "𑄝𑄧𑄥𑄴𑄚𑄨𑄠 𑄃𑄳𑄃 𑄦𑄢𑄴𑄎𑄬𑄉𑄮𑄞𑄨𑄚 𑄟𑄢𑄴𑄇𑄴",
@@ -191,10 +169,6 @@ const data = {
                 "displayName-count-other": "𑄝𑄧𑄥𑄴𑄚𑄨𑄠 𑄃𑄳𑄃 𑄦𑄢𑄴𑄎𑄬𑄉𑄮𑄞𑄨𑄚 𑄟𑄢𑄴𑄇𑄴",
                 symbol: "BAM",
                 "symbol-alt-narrow": "KM"
-            },
-            BAN: {
-                displayName: "BAN",
-                symbol: "BAN"
             },
             BBD: {
                 displayName: "𑄝𑄢𑄴𑄝𑄬𑄓𑄮𑄎𑄴 𑄓𑄧𑄣𑄢𑄴",
@@ -211,34 +185,22 @@ const data = {
                 "symbol-alt-narrow": "৳"
             },
             BEC: {
-                displayName: "𑄝𑄬𑄣𑄴𑄘𑄎𑄨𑄠𑄚𑄴 𑄜𑄳𑄢𑄋𑄴𑄇𑄴 (𑄝𑄮𑄘𑄮𑄣𑄬𑄭𑄛𑄢𑄬)",
-                symbol: "BEC"
+                displayName: "𑄝𑄬𑄣𑄴𑄘𑄎𑄨𑄠𑄚𑄴 𑄜𑄳𑄢𑄋𑄴𑄇𑄴 (𑄝𑄮𑄘𑄮𑄣𑄬𑄭𑄛𑄢𑄬)"
             },
             BEF: {
-                displayName: "𑄝𑄬𑄣𑄴𑄘𑄎𑄨𑄠𑄚𑄴 𑄜𑄳𑄢𑄋𑄴𑄇𑄴",
-                symbol: "BEF"
+                displayName: "𑄝𑄬𑄣𑄴𑄘𑄎𑄨𑄠𑄚𑄴 𑄜𑄳𑄢𑄋𑄴𑄇𑄴"
             },
             BEL: {
-                displayName: "𑄝𑄬𑄣𑄴𑄘𑄎𑄨𑄠𑄚𑄴 𑄜𑄳𑄢𑄋𑄴𑄇𑄴 (𑄃𑄢𑄴𑄗𑄨𑄇𑄴)",
-                symbol: "BEL"
+                displayName: "𑄝𑄬𑄣𑄴𑄘𑄎𑄨𑄠𑄚𑄴 𑄜𑄳𑄢𑄋𑄴𑄇𑄴 (𑄃𑄢𑄴𑄗𑄨𑄇𑄴)"
             },
             BGL: {
-                displayName: "𑄝𑄪𑄣𑄴𑄉𑄬𑄢𑄩𑄠𑄧 𑄦𑄢𑄴𑄓𑄴 𑄣𑄬𑄞𑄴",
-                symbol: "BGL"
-            },
-            BGM: {
-                displayName: "BGM",
-                symbol: "BGM"
+                displayName: "𑄝𑄪𑄣𑄴𑄉𑄬𑄢𑄩𑄠𑄧 𑄦𑄢𑄴𑄓𑄴 𑄣𑄬𑄞𑄴"
             },
             BGN: {
                 displayName: "𑄝𑄪𑄣𑄴𑄉𑄬𑄢𑄩𑄠𑄧 𑄚𑄱 𑄣𑄬𑄞𑄴",
                 "displayName-count-one": "𑄝𑄪𑄣𑄴𑄉𑄬𑄢𑄩𑄠𑄧 𑄚𑄱 𑄣𑄬𑄞𑄴",
                 "displayName-count-other": "𑄝𑄪𑄣𑄴𑄉𑄬𑄢𑄩𑄠𑄧 𑄚𑄱 𑄣𑄬𑄞𑄴",
                 symbol: "BGN"
-            },
-            BGO: {
-                displayName: "BGO",
-                symbol: "BGO"
             },
             BHD: {
                 displayName: "𑄝𑄦𑄧𑄢𑄭𑄚𑄨 𑄘𑄨𑄚𑄢𑄴",
@@ -273,29 +235,20 @@ const data = {
                 symbol: "BOB",
                 "symbol-alt-narrow": "Bs"
             },
-            BOL: {
-                displayName: "BOL",
-                symbol: "BOL"
-            },
             BOP: {
-                displayName: "𑄝𑄧𑄣𑄨𑄞𑄨𑄠𑄚𑄴 𑄛𑄬𑄥𑄮",
-                symbol: "BOP"
+                displayName: "𑄝𑄧𑄣𑄨𑄞𑄨𑄠𑄚𑄴 𑄛𑄬𑄥𑄮"
             },
             BOV: {
-                displayName: "𑄝𑄧𑄣𑄨𑄞𑄨𑄠𑄚𑄴 𑄟𑄧𑄞𑄴𑄓𑄮𑄣𑄴",
-                symbol: "BOV"
+                displayName: "𑄝𑄧𑄣𑄨𑄞𑄨𑄠𑄚𑄴 𑄟𑄧𑄞𑄴𑄓𑄮𑄣𑄴"
             },
             BRB: {
-                displayName: "𑄝𑄳𑄢𑄎𑄨𑄣𑄨𑄠𑄚𑄴 𑄇𑄳𑄢𑄪𑄎𑄬𑄠𑄧𑄢𑄮𑄚𑄮𑄞𑄮 (𑄷𑄿𑄼𑄽-𑄷𑄿𑄾𑄼)",
-                symbol: "BRB"
+                displayName: "𑄝𑄳𑄢𑄎𑄨𑄣𑄨𑄠𑄚𑄴 𑄇𑄳𑄢𑄪𑄎𑄬𑄠𑄧𑄢𑄮𑄚𑄮𑄞𑄮 (𑄷𑄿𑄼𑄽-𑄷𑄿𑄾𑄼)"
             },
             BRC: {
-                displayName: "𑄝𑄳𑄢𑄎𑄨𑄣𑄨𑄠𑄚𑄴 𑄇𑄳𑄢𑄪𑄎𑄬𑄭𑄓𑄅𑄪",
-                symbol: "BRC"
+                displayName: "𑄝𑄳𑄢𑄎𑄨𑄣𑄨𑄠𑄚𑄴 𑄇𑄳𑄢𑄪𑄎𑄬𑄭𑄓𑄅𑄪"
             },
             BRE: {
-                displayName: "𑄝𑄳𑄢𑄎𑄨𑄣𑄨𑄠𑄚𑄴 𑄇𑄳𑄢𑄪𑄎𑄬𑄠𑄧𑄢𑄮 (𑄷𑄿𑄿𑄶-𑄷𑄿𑄿𑄹)",
-                symbol: "BRE"
+                displayName: "𑄝𑄳𑄢𑄎𑄨𑄣𑄨𑄠𑄚𑄴 𑄇𑄳𑄢𑄪𑄎𑄬𑄠𑄧𑄢𑄮 (𑄷𑄿𑄿𑄶-𑄷𑄿𑄿𑄹)"
             },
             BRL: {
                 displayName: "𑄝𑄳𑄢𑄎𑄨𑄣𑄨𑄠𑄚𑄴 𑄢𑄨𑄠𑄬𑄣𑄴",
@@ -305,16 +258,10 @@ const data = {
                 "symbol-alt-narrow": "R$"
             },
             BRN: {
-                displayName: "𑄝𑄳𑄢𑄎𑄨𑄣𑄨𑄠𑄚𑄴 𑄝𑄳𑄢𑄪𑄎𑄬𑄭𑄓𑄮 𑄚𑄮𑄞𑄮",
-                symbol: "BRN"
+                displayName: "𑄝𑄳𑄢𑄎𑄨𑄣𑄨𑄠𑄚𑄴 𑄝𑄳𑄢𑄪𑄎𑄬𑄭𑄓𑄮 𑄚𑄮𑄞𑄮"
             },
             BRR: {
-                displayName: "𑄝𑄳𑄢𑄎𑄨𑄣𑄨𑄠𑄚𑄴 𑄝𑄳𑄢𑄪𑄎𑄬𑄠𑄧𑄢𑄮",
-                symbol: "BRR"
-            },
-            BRZ: {
-                displayName: "BRZ",
-                symbol: "BRZ"
+                displayName: "𑄝𑄳𑄢𑄎𑄨𑄣𑄨𑄠𑄚𑄴 𑄝𑄳𑄢𑄪𑄎𑄬𑄠𑄧𑄢𑄮"
             },
             BSD: {
                 displayName: "𑄝𑄦𑄟𑄨𑄠𑄚𑄴 𑄓𑄧𑄣𑄢𑄴",
@@ -330,8 +277,7 @@ const data = {
                 symbol: "BTN"
             },
             BUK: {
-                displayName: "𑄝𑄧𑄢𑄴𑄟𑄨 𑄇𑄨𑄠𑄖𑄴",
-                symbol: "BUK"
+                displayName: "𑄝𑄧𑄢𑄴𑄟𑄨 𑄇𑄨𑄠𑄖𑄴"
             },
             BWP: {
                 displayName: "𑄝𑄧𑄖𑄴𑄥𑄮𑄠𑄚 𑄛𑄪𑄣",
@@ -341,8 +287,7 @@ const data = {
                 "symbol-alt-narrow": "P"
             },
             BYB: {
-                displayName: "𑄝𑄬𑄣𑄢𑄪𑄥𑄨𑄠𑄚𑄴 𑄚𑄨𑄅𑄪 𑄢𑄪𑄝𑄬𑄣𑄴 (𑄷𑄿𑄿𑄺-𑄷𑄿𑄿𑄿)",
-                symbol: "BYB"
+                displayName: "𑄝𑄬𑄣𑄢𑄪𑄥𑄨𑄠𑄚𑄴 𑄚𑄨𑄅𑄪 𑄢𑄪𑄝𑄬𑄣𑄴 (𑄷𑄿𑄿𑄺-𑄷𑄿𑄿𑄿)"
             },
             BYN: {
                 displayName: "𑄝𑄬𑄣𑄢𑄪𑄥𑄨𑄠𑄚𑄴 𑄢𑄪𑄝𑄬𑄣𑄴",
@@ -377,27 +322,14 @@ const data = {
                 "displayName-count-other": "𑄇𑄧𑄋𑄴𑄉𑄮𑄣𑄨𑄌𑄴 𑄜𑄳𑄢𑄁𑄇𑄴",
                 symbol: "CDF"
             },
-            CHE: {
-                displayName: "CHE",
-                symbol: "CHE"
-            },
             CHF: {
                 displayName: "𑄥𑄭𑄪𑄥𑄴 𑄜𑄳𑄢𑄀",
                 "displayName-count-one": "𑄥𑄭𑄪𑄥𑄴 𑄜𑄳𑄢𑄀",
                 "displayName-count-other": "𑄥𑄭𑄪𑄥𑄴 𑄜𑄳𑄢𑄀",
                 symbol: "CHF"
             },
-            CHW: {
-                displayName: "CHW",
-                symbol: "CHW"
-            },
-            CLE: {
-                displayName: "CLE",
-                symbol: "CLE"
-            },
             CLF: {
-                displayName: "𑄌𑄨𑄣𑄨𑄠𑄚𑄴 𑄃𑄪𑄚𑄨𑄘𑄘𑄬𑄥𑄴 𑄘𑄨 𑄜𑄮𑄟𑄬𑄚𑄴𑄖𑄮",
-                symbol: "CLF"
+                displayName: "𑄌𑄨𑄣𑄨𑄠𑄚𑄴 𑄃𑄪𑄚𑄨𑄘𑄘𑄬𑄥𑄴 𑄘𑄨 𑄜𑄮𑄟𑄬𑄚𑄴𑄖𑄮"
             },
             CLP: {
                 displayName: "𑄌𑄨𑄣𑄨 𑄛𑄬𑄥𑄮",
@@ -405,14 +337,6 @@ const data = {
                 "displayName-count-other": "𑄌𑄨𑄣𑄨 𑄛𑄬𑄥𑄮",
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
-            },
-            CNH: {
-                displayName: "CNH",
-                symbol: "CNH"
-            },
-            CNX: {
-                displayName: "CNX",
-                symbol: "CNX"
             },
             CNY: {
                 displayName: "𑄌𑄩𑄚 𑄠𑄪𑄠𑄚𑄴",
@@ -429,8 +353,7 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             COU: {
-                displayName: "𑄃𑄪𑄚𑄨𑄘𑄖𑄴 𑄘𑄨 𑄞𑄳𑄠𑄣𑄮𑄢𑄴 𑄢𑄨𑄠𑄬𑄣𑄴",
-                symbol: "COU"
+                displayName: "𑄃𑄪𑄚𑄨𑄘𑄖𑄴 𑄘𑄨 𑄞𑄳𑄠𑄣𑄮𑄢𑄴 𑄢𑄨𑄠𑄬𑄣𑄴"
             },
             CRC: {
                 displayName: "𑄇𑄮𑄥𑄴𑄑𑄢𑄨𑄇 𑄇𑄮𑄣𑄮𑄚𑄴",
@@ -440,12 +363,10 @@ const data = {
                 "symbol-alt-narrow": "₡"
             },
             CSD: {
-                displayName: "𑄛𑄪𑄢𑄮𑄚𑄨 𑄥𑄢𑄴𑄝𑄨𑄠𑄚𑄴 𑄘𑄨𑄚𑄢𑄴",
-                symbol: "CSD"
+                displayName: "𑄛𑄪𑄢𑄮𑄚𑄨 𑄥𑄢𑄴𑄝𑄨𑄠𑄚𑄴 𑄘𑄨𑄚𑄢𑄴"
             },
             CSK: {
-                displayName: "𑄌𑄬𑄇𑄮𑄥𑄳𑄣𑄮𑄞𑄇𑄴 𑄦𑄢𑄴𑄓𑄴 𑄇𑄮𑄢𑄪𑄚",
-                symbol: "CSK"
+                displayName: "𑄌𑄬𑄇𑄮𑄥𑄳𑄣𑄮𑄞𑄇𑄴 𑄦𑄢𑄴𑄓𑄴 𑄇𑄮𑄢𑄪𑄚"
             },
             CUC: {
                 displayName: "𑄇𑄨𑄅𑄪𑄝𑄚𑄴 𑄝𑄮𑄘𑄮𑄣𑄨𑄛𑄢𑄬 𑄛𑄬𑄥𑄮",
@@ -468,8 +389,7 @@ const data = {
                 symbol: "CVE"
             },
             CYP: {
-                displayName: "𑄥𑄭𑄛𑄳𑄢𑄥𑄴 𑄛𑄃𑄪𑄚𑄴𑄓𑄴",
-                symbol: "CYP"
+                displayName: "𑄥𑄭𑄛𑄳𑄢𑄥𑄴 𑄛𑄃𑄪𑄚𑄴𑄓𑄴"
             },
             CZK: {
                 displayName: "𑄌𑄬𑄇𑄴 𑄛𑄳𑄢𑄧𑄎𑄖𑄧𑄚𑄴𑄖𑄳𑄢𑄧 𑄇𑄮𑄢𑄪𑄚",
@@ -479,12 +399,10 @@ const data = {
                 "symbol-alt-narrow": "Kč"
             },
             DDM: {
-                displayName: "𑄛𑄪𑄉𑄬𑄘𑄨 𑄎𑄢𑄴𑄟𑄚𑄴 𑄟𑄢𑄴𑄇𑄴",
-                symbol: "DDM"
+                displayName: "𑄛𑄪𑄉𑄬𑄘𑄨 𑄎𑄢𑄴𑄟𑄚𑄴 𑄟𑄢𑄴𑄇𑄴"
             },
             DEM: {
-                displayName: "𑄓𑄧𑄠𑄧𑄌𑄴 𑄟𑄢𑄴𑄇𑄴",
-                symbol: "DEM"
+                displayName: "𑄓𑄧𑄠𑄧𑄌𑄴 𑄟𑄢𑄴𑄇𑄴"
             },
             DJF: {
                 displayName: "𑄎𑄨𑄝𑄪𑄖𑄨 𑄜𑄳𑄢𑄁𑄇𑄴",
@@ -513,16 +431,13 @@ const data = {
                 symbol: "DZD"
             },
             ECS: {
-                displayName: "𑄃𑄨𑄇𑄪𑄠𑄓𑄮𑄢𑄴 𑄥𑄪𑄇𑄳𑄢𑄬",
-                symbol: "ECS"
+                displayName: "𑄃𑄨𑄇𑄪𑄠𑄓𑄮𑄢𑄴 𑄥𑄪𑄇𑄳𑄢𑄬"
             },
             ECV: {
-                displayName: "𑄃𑄨𑄇𑄪𑄠𑄓𑄮𑄢𑄴 𑄃𑄪𑄚𑄨𑄘𑄘𑄬𑄌𑄴 𑄘𑄨 𑄞𑄬𑄣𑄧𑄢𑄴 𑄇𑄧𑄚𑄴𑄥𑄴𑄖𑄚𑄴𑄖𑄬 (𑄃𑄨𑄅𑄪𑄞𑄨𑄥𑄨)",
-                symbol: "ECV"
+                displayName: "𑄃𑄨𑄇𑄪𑄠𑄓𑄮𑄢𑄴 𑄃𑄪𑄚𑄨𑄘𑄘𑄬𑄌𑄴 𑄘𑄨 𑄞𑄬𑄣𑄧𑄢𑄴 𑄇𑄧𑄚𑄴𑄥𑄴𑄖𑄚𑄴𑄖𑄬 (𑄃𑄨𑄅𑄪𑄞𑄨𑄥𑄨)"
             },
             EEK: {
-                displayName: "𑄃𑄬𑄌𑄴𑄖𑄮𑄚𑄨𑄠 𑄇𑄳𑄢𑄪𑄚𑄨",
-                symbol: "EEK"
+                displayName: "𑄃𑄬𑄌𑄴𑄖𑄮𑄚𑄨𑄠 𑄇𑄳𑄢𑄪𑄚𑄨"
             },
             EGP: {
                 displayName: "𑄟𑄨𑄥𑄧𑄢𑄩𑄠𑄴 𑄛𑄅𑄪𑄚𑄴𑄓𑄴",
@@ -538,16 +453,13 @@ const data = {
                 symbol: "ERN"
             },
             ESA: {
-                displayName: "𑄥𑄳𑄛𑄳𑄠𑄚𑄨𑄥𑄴 𑄛𑄬𑄥𑄬𑄖 (𑄃𑄬𑄇𑄴𑄇𑄭𑄪 𑄦𑄨𑄎𑄬𑄛𑄴)",
-                symbol: "ESA"
+                displayName: "𑄥𑄳𑄛𑄳𑄠𑄚𑄨𑄥𑄴 𑄛𑄬𑄥𑄬𑄖 (𑄃𑄬𑄇𑄴𑄇𑄭𑄪 𑄦𑄨𑄎𑄬𑄛𑄴)"
             },
             ESB: {
-                displayName: "𑄥𑄳𑄛𑄳𑄠𑄚𑄨𑄥𑄴 𑄛𑄬𑄥𑄬𑄖 (𑄝𑄮𑄘𑄮𑄣𑄬𑄭 𑄛𑄢𑄬 𑄦𑄨𑄎𑄬𑄛𑄴)",
-                symbol: "ESB"
+                displayName: "𑄥𑄳𑄛𑄳𑄠𑄚𑄨𑄥𑄴 𑄛𑄬𑄥𑄬𑄖 (𑄝𑄮𑄘𑄮𑄣𑄬𑄭 𑄛𑄢𑄬 𑄦𑄨𑄎𑄬𑄛𑄴)"
             },
             ESP: {
                 displayName: "𑄥𑄳𑄛𑄳𑄠𑄚𑄨𑄥𑄴 𑄛𑄬𑄥𑄬𑄖",
-                symbol: "ESP",
                 "symbol-alt-narrow": "₧"
             },
             ETB: {
@@ -564,8 +476,7 @@ const data = {
                 "symbol-alt-narrow": "€"
             },
             FIM: {
-                displayName: "𑄜𑄨𑄚𑄨𑄥𑄴 𑄟𑄢𑄴𑄇",
-                symbol: "FIM"
+                displayName: "𑄜𑄨𑄚𑄨𑄥𑄴 𑄟𑄢𑄴𑄇"
             },
             FJD: {
                 displayName: "𑄜𑄨𑄎𑄨 𑄓𑄧𑄣𑄢𑄴",
@@ -582,8 +493,7 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             FRF: {
-                displayName: "𑄜𑄧𑄢𑄥𑄨 𑄜𑄳𑄢𑄁𑄇𑄴",
-                symbol: "FRF"
+                displayName: "𑄜𑄧𑄢𑄥𑄨 𑄜𑄳𑄢𑄁𑄇𑄴"
             },
             GBP: {
                 displayName: "𑄝𑄳𑄢𑄨𑄑𑄨𑄌𑄴 𑄛𑄃𑄪𑄚𑄴",
@@ -593,8 +503,7 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             GEK: {
-                displayName: "𑄎𑄧𑄢𑄴𑄎𑄨𑄠𑄚𑄴 𑄇𑄪𑄛𑄧𑄚𑄴 𑄣𑄢𑄨𑄖𑄴",
-                symbol: "GEK"
+                displayName: "𑄎𑄧𑄢𑄴𑄎𑄨𑄠𑄚𑄴 𑄇𑄪𑄛𑄧𑄚𑄴 𑄣𑄢𑄨𑄖𑄴"
             },
             GEL: {
                 displayName: "𑄎𑄧𑄢𑄴𑄎𑄨𑄠𑄚𑄴 𑄣𑄢𑄨",
@@ -604,8 +513,7 @@ const data = {
                 "symbol-alt-narrow": "₾"
             },
             GHC: {
-                displayName: "𑄊𑄚 𑄥𑄬𑄓𑄨 (𑄷𑄿𑄽𑄿-𑄸𑄶𑄶𑄽)",
-                symbol: "GHC"
+                displayName: "𑄊𑄚 𑄥𑄬𑄓𑄨 (𑄷𑄿𑄽𑄿-𑄸𑄶𑄶𑄽)"
             },
             GHS: {
                 displayName: "𑄊𑄚 𑄥𑄬𑄓𑄨",
@@ -635,16 +543,13 @@ const data = {
                 "symbol-alt-narrow": "FG"
             },
             GNS: {
-                displayName: "𑄉𑄨𑄚𑄨 𑄥𑄭𑄣𑄨",
-                symbol: "GNS"
+                displayName: "𑄉𑄨𑄚𑄨 𑄥𑄭𑄣𑄨"
             },
             GQE: {
-                displayName: "𑄃𑄨𑄇𑄪𑄠𑄬𑄑𑄮𑄢𑄨𑄠𑄣𑄴 𑄉𑄨𑄚𑄨 𑄃𑄨𑄇𑄪𑄠𑄨𑄣𑄨",
-                symbol: "GQE"
+                displayName: "𑄃𑄨𑄇𑄪𑄠𑄬𑄑𑄮𑄢𑄨𑄠𑄣𑄴 𑄉𑄨𑄚𑄨 𑄃𑄨𑄇𑄪𑄠𑄨𑄣𑄨"
             },
             GRD: {
-                displayName: "𑄉𑄳𑄢𑄩𑄇𑄴 𑄘𑄳𑄢𑄌𑄴𑄟",
-                symbol: "GRD"
+                displayName: "𑄉𑄳𑄢𑄩𑄇𑄴 𑄘𑄳𑄢𑄌𑄴𑄟"
             },
             GTQ: {
                 displayName: "𑄉𑄪𑄠𑄖𑄬𑄟𑄣𑄧 𑄇𑄪𑄠𑄬𑄖𑄴𑄎𑄣𑄴",
@@ -654,12 +559,10 @@ const data = {
                 "symbol-alt-narrow": "Q"
             },
             GWE: {
-                displayName: "𑄛𑄧𑄢𑄴𑄖𑄪𑄉𑄨𑄎𑄴 𑄉𑄨𑄚𑄨 𑄃𑄬𑄥𑄴𑄇𑄪𑄓𑄮",
-                symbol: "GWE"
+                displayName: "𑄛𑄧𑄢𑄴𑄖𑄪𑄉𑄨𑄎𑄴 𑄉𑄨𑄚𑄨 𑄃𑄬𑄥𑄴𑄇𑄪𑄓𑄮"
             },
             GWP: {
-                displayName: "𑄉𑄨𑄚𑄨 𑄥𑄨𑄥𑄅𑄪 𑄛𑄬𑄥𑄮",
-                symbol: "GWP"
+                displayName: "𑄉𑄨𑄚𑄨 𑄥𑄨𑄥𑄅𑄪 𑄛𑄬𑄥𑄮"
             },
             GYD: {
                 displayName: "𑄉𑄭𑄠𑄬𑄚 𑄓𑄧𑄣𑄢𑄴",
@@ -683,8 +586,7 @@ const data = {
                 "symbol-alt-narrow": "L"
             },
             HRD: {
-                displayName: "𑄇𑄳𑄢𑄮𑄠𑄬𑄥𑄨𑄠𑄚𑄴 𑄘𑄨𑄚𑄢𑄴",
-                symbol: "HRD"
+                displayName: "𑄇𑄳𑄢𑄮𑄠𑄬𑄥𑄨𑄠𑄚𑄴 𑄘𑄨𑄚𑄢𑄴"
             },
             HRK: {
                 displayName: "𑄇𑄳𑄢𑄮𑄠𑄬𑄥𑄨𑄠𑄚𑄴 𑄇𑄪𑄚",
@@ -714,16 +616,10 @@ const data = {
                 "symbol-alt-narrow": "Rp"
             },
             IEP: {
-                displayName: "𑄃𑄨𑄢𑄨𑄌𑄴 𑄛𑄅𑄪𑄚𑄳𑄓𑄴",
-                symbol: "IEP"
+                displayName: "𑄃𑄨𑄢𑄨𑄌𑄴 𑄛𑄅𑄪𑄚𑄳𑄓𑄴"
             },
             ILP: {
-                displayName: "𑄃𑄨𑄥𑄳𑄢𑄭𑄣𑄨 𑄛𑄅𑄪𑄚𑄳𑄓𑄴",
-                symbol: "ILP"
-            },
-            ILR: {
-                displayName: "ILR",
-                symbol: "ILR"
+                displayName: "𑄃𑄨𑄥𑄳𑄢𑄭𑄣𑄨 𑄛𑄅𑄪𑄚𑄳𑄓𑄴"
             },
             ILS: {
                 displayName: "𑄃𑄨𑄥𑄳𑄢𑄭𑄣𑄨 𑄚𑄱 𑄥𑄬𑄇𑄬𑄣𑄴",
@@ -751,10 +647,6 @@ const data = {
                 "displayName-count-other": "𑄃𑄨𑄢𑄚𑄨𑄠𑄚𑄴 𑄢𑄨𑄠𑄣𑄴",
                 symbol: "IRR"
             },
-            ISJ: {
-                displayName: "ISJ",
-                symbol: "ISJ"
-            },
             ISK: {
                 displayName: "𑄃𑄭𑄥𑄴𑄣𑄳𑄠𑄚𑄳𑄓𑄴 𑄇𑄳𑄢𑄯𑄚𑄴",
                 "displayName-count-one": "𑄃𑄭𑄥𑄴𑄣𑄳𑄠𑄚𑄳𑄓𑄴 𑄇𑄳𑄢𑄯𑄚𑄴",
@@ -763,8 +655,7 @@ const data = {
                 "symbol-alt-narrow": "kr"
             },
             ITL: {
-                displayName: "𑄃𑄨𑄖𑄣𑄨𑄠𑄧 𑄣𑄨𑄢",
-                symbol: "ITL"
+                displayName: "𑄃𑄨𑄖𑄣𑄨𑄠𑄧 𑄣𑄨𑄢"
             },
             JMD: {
                 displayName: "𑄎𑄟𑄭𑄇𑄚𑄴 𑄓𑄧𑄣𑄢𑄴",
@@ -818,14 +709,6 @@ const data = {
                 "displayName-count-other": "𑄃𑄪𑄖𑄴𑄖𑄮𑄢𑄴 𑄇𑄮𑄢𑄨𑄠𑄢𑄴 𑄃𑄮𑄚𑄴",
                 symbol: "KPW",
                 "symbol-alt-narrow": "₩"
-            },
-            KRH: {
-                displayName: "KRH",
-                symbol: "KRH"
-            },
-            KRO: {
-                displayName: "KRO",
-                symbol: "KRO"
             },
             KRW: {
                 displayName: "𑄘𑄧𑄉𑄨𑄚𑄴 𑄇𑄮𑄢𑄨𑄠𑄢𑄴 𑄃𑄮𑄚𑄴",
@@ -883,8 +766,7 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "𑄣𑄬𑄥𑄪𑄑𑄪 𑄣𑄮𑄑𑄨",
-                symbol: "LSL"
+                displayName: "𑄣𑄬𑄥𑄪𑄑𑄪 𑄣𑄮𑄑𑄨"
             },
             LTL: {
                 displayName: "𑄣𑄨𑄗𑄭𑄪𑄚𑄨𑄠𑄚𑄴 𑄣𑄨𑄑",
@@ -894,20 +776,16 @@ const data = {
                 "symbol-alt-narrow": "Lt"
             },
             LTT: {
-                displayName: "𑄣𑄨𑄗𑄭𑄪𑄚𑄨𑄠𑄚𑄴 𑄑𑄣𑄮𑄚𑄳𑄠𑄥𑄴",
-                symbol: "LTT"
+                displayName: "𑄣𑄨𑄗𑄭𑄪𑄚𑄨𑄠𑄚𑄴 𑄑𑄣𑄮𑄚𑄳𑄠𑄥𑄴"
             },
             LUC: {
-                displayName: "𑄣𑄪𑄇𑄴𑄥𑄬𑄟𑄴𑄝𑄢𑄴𑄉𑄴 𑄝𑄮𑄘𑄮𑄣𑄬𑄝𑄢𑄴 𑄜𑄳𑄢𑄇𑄳𑄋𑄴",
-                symbol: "LUC"
+                displayName: "𑄣𑄪𑄇𑄴𑄥𑄬𑄟𑄴𑄝𑄢𑄴𑄉𑄴 𑄝𑄮𑄘𑄮𑄣𑄬𑄝𑄢𑄴 𑄜𑄳𑄢𑄇𑄳𑄋𑄴"
             },
             LUF: {
-                displayName: "𑄣𑄪𑄇𑄴𑄥𑄬𑄟𑄴𑄝𑄢𑄴𑄉𑄴 𑄜𑄳𑄢𑄇𑄳𑄋𑄴",
-                symbol: "LUF"
+                displayName: "𑄣𑄪𑄇𑄴𑄥𑄬𑄟𑄴𑄝𑄢𑄴𑄉𑄴 𑄜𑄳𑄢𑄇𑄳𑄋𑄴"
             },
             LUL: {
-                displayName: "𑄣𑄪𑄇𑄴𑄥𑄬𑄟𑄴𑄝𑄢𑄴𑄉𑄴 𑄜𑄭𑄚𑄬𑄚𑄴𑄥𑄨𑄠𑄣𑄴 𑄜𑄳𑄢𑄇𑄳𑄋𑄴",
-                symbol: "LUL"
+                displayName: "𑄣𑄪𑄇𑄴𑄥𑄬𑄟𑄴𑄝𑄢𑄴𑄉𑄴 𑄜𑄭𑄚𑄬𑄚𑄴𑄥𑄨𑄠𑄣𑄴 𑄜𑄳𑄢𑄇𑄳𑄋𑄴"
             },
             LVL: {
                 displayName: "𑄣𑄳𑄠𑄑𑄴𑄞𑄨𑄠𑄚𑄴 𑄣𑄳𑄠𑄑𑄴𑄥𑄴",
@@ -917,8 +795,7 @@ const data = {
                 "symbol-alt-narrow": "Ls"
             },
             LVR: {
-                displayName: "𑄣𑄳𑄠𑄑𑄴𑄞𑄨𑄠𑄚𑄴 𑄢𑄪𑄝𑄧𑄣𑄴",
-                symbol: "LVR"
+                displayName: "𑄣𑄳𑄠𑄑𑄴𑄞𑄨𑄠𑄚𑄴 𑄢𑄪𑄝𑄧𑄣𑄴"
             },
             LYD: {
                 displayName: "𑄣𑄨𑄝𑄨𑄠𑄚𑄴 𑄓𑄧𑄣𑄢𑄴",
@@ -933,16 +810,7 @@ const data = {
                 symbol: "MAD"
             },
             MAF: {
-                displayName: "𑄟𑄮𑄢𑄮𑄇𑄳𑄦𑄚𑄴 𑄜𑄳𑄢𑄋𑄳𑄇𑄴",
-                symbol: "MAF"
-            },
-            MCF: {
-                displayName: "MCF",
-                symbol: "MCF"
-            },
-            MDC: {
-                displayName: "MDC",
-                symbol: "MDC"
+                displayName: "𑄟𑄮𑄢𑄮𑄇𑄳𑄦𑄚𑄴 𑄜𑄳𑄢𑄋𑄳𑄇𑄴"
             },
             MDL: {
                 displayName: "𑄟𑄮𑄣𑄴𑄓𑄮𑄞𑄚𑄴 𑄣𑄬𑄠𑄪",
@@ -958,8 +826,7 @@ const data = {
                 "symbol-alt-narrow": "Ar"
             },
             MGF: {
-                displayName: "𑄟𑄘𑄉𑄌𑄴𑄇𑄢𑄴 𑄜𑄳𑄢𑄋𑄳𑄇𑄴",
-                symbol: "MGF"
+                displayName: "𑄟𑄘𑄉𑄌𑄴𑄇𑄢𑄴 𑄜𑄳𑄢𑄋𑄳𑄇𑄴"
             },
             MKD: {
                 displayName: "𑄟𑄳𑄠𑄥𑄬𑄓𑄮𑄚𑄨𑄠𑄚𑄴 𑄘𑄨𑄚𑄢𑄴",
@@ -967,13 +834,8 @@ const data = {
                 "displayName-count-other": "𑄟𑄳𑄠𑄥𑄬𑄓𑄮𑄚𑄨𑄠𑄚𑄴 𑄘𑄨𑄚𑄢𑄴",
                 symbol: "MKD"
             },
-            MKN: {
-                displayName: "MKN",
-                symbol: "MKN"
-            },
             MLF: {
-                displayName: "𑄟𑄣𑄨 𑄜𑄳𑄢𑄋𑄳𑄇𑄴",
-                symbol: "MLF"
+                displayName: "𑄟𑄣𑄨 𑄜𑄳𑄢𑄋𑄳𑄇𑄴"
             },
             MMK: {
                 displayName: "𑄟𑄠𑄚𑄴𑄟𑄢𑄴 𑄇𑄨𑄠𑄖𑄴",
@@ -1001,17 +863,11 @@ const data = {
                 "displayName-count-other": "𑄟𑄯𑄢𑄨𑄖𑄚𑄨𑄠𑄚𑄴 𑄃𑄮𑄃𑄪𑄉𑄭𑄪𑄠",
                 symbol: "MRO"
             },
-            MRU: {
-                displayName: "MRU",
-                symbol: "MRU"
-            },
             MTL: {
-                displayName: "𑄟𑄣𑄴𑄑 𑄣𑄨𑄢",
-                symbol: "MTL"
+                displayName: "𑄟𑄣𑄴𑄑 𑄣𑄨𑄢"
             },
             MTP: {
-                displayName: "𑄟𑄣𑄴𑄑 𑄛𑄃𑄪𑄚𑄳𑄓𑄴",
-                symbol: "MTP"
+                displayName: "𑄟𑄣𑄴𑄑 𑄛𑄃𑄪𑄚𑄳𑄓𑄴"
             },
             MUR: {
                 displayName: "𑄟𑄯𑄢𑄨𑄖𑄚𑄨𑄠𑄚𑄴 𑄢𑄪𑄛𑄨",
@@ -1019,10 +875,6 @@ const data = {
                 "displayName-count-other": "𑄟𑄯𑄢𑄨𑄖𑄚𑄨𑄠𑄚𑄴 𑄢𑄪𑄛𑄨",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
-            },
-            MVP: {
-                displayName: "MVP",
-                symbol: "MVP"
             },
             MVR: {
                 displayName: "𑄟𑄣𑄴𑄘𑄨𑄞𑄨𑄠𑄚𑄴 𑄢𑄪𑄜𑄨𑄠",
@@ -1044,12 +896,10 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             MXP: {
-                displayName: "𑄟𑄳𑄠𑄇𑄴𑄥𑄨𑄇𑄚𑄴 𑄥𑄨𑄣𑄴𑄞𑄢𑄴 𑄛𑄬𑄥𑄮 (𑄷𑄾𑄼𑄷-𑄷𑄿𑄿𑄸)",
-                symbol: "MXP"
+                displayName: "𑄟𑄳𑄠𑄇𑄴𑄥𑄨𑄇𑄚𑄴 𑄥𑄨𑄣𑄴𑄞𑄢𑄴 𑄛𑄬𑄥𑄮 (𑄷𑄾𑄼𑄷-𑄷𑄿𑄿𑄸)"
             },
             MXV: {
-                displayName: "𑄟𑄬𑄇𑄴𑄥𑄨𑄇𑄚𑄴 𑄃𑄪𑄚𑄨𑄘𑄖𑄴 𑄘𑄨 𑄃𑄨𑄚𑄴𑄞𑄢𑄴𑄥𑄧𑄚𑄴(UDI)",
-                symbol: "MXV"
+                displayName: "𑄟𑄬𑄇𑄴𑄥𑄨𑄇𑄚𑄴 𑄃𑄪𑄚𑄨𑄘𑄖𑄴 𑄘𑄨 𑄃𑄨𑄚𑄴𑄞𑄢𑄴𑄥𑄧𑄚𑄴(UDI)"
             },
             MYR: {
                 displayName: "𑄟𑄣𑄴𑄠𑄬𑄥𑄨𑄠𑄚𑄴 𑄢𑄨𑄁𑄉𑄨𑄖𑄴",
@@ -1059,12 +909,10 @@ const data = {
                 "symbol-alt-narrow": "RM"
             },
             MZE: {
-                displayName: "𑄟𑄮𑄎𑄟𑄴𑄝𑄨𑄇𑄴 𑄃𑄬𑄥𑄴𑄇𑄪𑄓𑄮",
-                symbol: "MZE"
+                displayName: "𑄟𑄮𑄎𑄟𑄴𑄝𑄨𑄇𑄴 𑄃𑄬𑄥𑄴𑄇𑄪𑄓𑄮"
             },
             MZM: {
-                displayName: "𑄛𑄪𑄢𑄮𑄚𑄨 𑄟𑄮𑄎𑄟𑄴𑄝𑄨𑄇𑄴 𑄟𑄬𑄑𑄨𑄇𑄬𑄣𑄴",
-                symbol: "MZM"
+                displayName: "𑄛𑄪𑄢𑄮𑄚𑄨 𑄟𑄮𑄎𑄟𑄴𑄝𑄨𑄇𑄴 𑄟𑄬𑄑𑄨𑄇𑄬𑄣𑄴"
             },
             MZN: {
                 displayName: "𑄟𑄮𑄎𑄟𑄴𑄝𑄨𑄇𑄴 𑄟𑄬𑄑𑄨𑄇𑄬𑄣𑄴",
@@ -1087,8 +935,7 @@ const data = {
                 "symbol-alt-narrow": "₦"
             },
             NIC: {
-                displayName: "𑄚𑄨𑄇𑄢𑄉𑄪𑄠𑄚 𑄇𑄧𑄢𑄴𑄓𑄮𑄝(𑄷𑄿𑄾𑄾-𑄷𑄿𑄿𑄷)",
-                symbol: "NIC"
+                displayName: "𑄚𑄨𑄇𑄢𑄉𑄪𑄠𑄚 𑄇𑄧𑄢𑄴𑄓𑄮𑄝(𑄷𑄿𑄾𑄾-𑄷𑄿𑄿𑄷)"
             },
             NIO: {
                 displayName: "𑄚𑄨𑄇𑄢𑄉𑄪𑄠𑄚 𑄇𑄧𑄢𑄴𑄓𑄮𑄝",
@@ -1098,8 +945,7 @@ const data = {
                 "symbol-alt-narrow": "C$"
             },
             NLG: {
-                displayName: "𑄚𑄬𑄘𑄢𑄴𑄣𑄳𑄠𑄚𑄳𑄓𑄴 𑄉𑄪𑄣𑄴𑄓𑄬𑄢𑄴",
-                symbol: "NLG"
+                displayName: "𑄚𑄬𑄘𑄢𑄴𑄣𑄳𑄠𑄚𑄳𑄓𑄴 𑄉𑄪𑄣𑄴𑄓𑄬𑄢𑄴"
             },
             NOK: {
                 displayName: "𑄚𑄧𑄢𑄴𑄃𑄮𑄠𑄬 𑄇𑄳𑄢𑄯𑄚𑄴",
@@ -1135,8 +981,7 @@ const data = {
                 symbol: "PAB"
             },
             PEI: {
-                displayName: "𑄛𑄬𑄢𑄪𑄞𑄨𑄠𑄚𑄴 𑄃𑄨𑄚𑄴𑄖𑄨",
-                symbol: "PEI"
+                displayName: "𑄛𑄬𑄢𑄪𑄞𑄨𑄠𑄚𑄴 𑄃𑄨𑄚𑄴𑄖𑄨"
             },
             PEN: {
                 displayName: "𑄛𑄬𑄢𑄪𑄞𑄨𑄠𑄚𑄴 𑄥𑄮𑄣𑄴",
@@ -1147,8 +992,7 @@ const data = {
             PES: {
                 displayName: "𑄛𑄬𑄢𑄪𑄞𑄨𑄠𑄚𑄴 𑄥𑄮𑄣𑄴(𑄷𑄾𑄼𑄹-𑄷𑄿𑄼𑄻)",
                 "displayName-count-one": "𑄛𑄬𑄢𑄪𑄞𑄨𑄠𑄚𑄴 𑄥𑄮𑄣𑄴(𑄷𑄾𑄼𑄹-𑄷𑄿𑄼𑄻)",
-                "displayName-count-other": "𑄛𑄬𑄢𑄪𑄞𑄨𑄠𑄚𑄴 𑄥𑄮𑄣𑄴(𑄷𑄾𑄼𑄹-𑄷𑄿𑄼𑄻)",
-                symbol: "PES"
+                "displayName-count-other": "𑄛𑄬𑄢𑄪𑄞𑄨𑄠𑄚𑄴 𑄥𑄮𑄣𑄴(𑄷𑄾𑄼𑄹-𑄷𑄿𑄼𑄻)"
             },
             PGK: {
                 displayName: "𑄛𑄛𑄱 𑄚𑄨𑄃𑄪 𑄉𑄨𑄚𑄨 𑄉𑄨𑄚𑄨𑄠𑄚𑄴 𑄇𑄨𑄚",
@@ -1178,12 +1022,10 @@ const data = {
                 "symbol-alt-narrow": "zł"
             },
             PLZ: {
-                displayName: "𑄛𑄮𑄣𑄨𑄌𑄴 𑄎𑄧𑄣𑄮𑄑𑄨(𑄷𑄿𑄻𑄶-𑄷𑄿𑄿𑄻)",
-                symbol: "PLZ"
+                displayName: "𑄛𑄮𑄣𑄨𑄌𑄴 𑄎𑄧𑄣𑄮𑄑𑄨(𑄷𑄿𑄻𑄶-𑄷𑄿𑄿𑄻)"
             },
             PTE: {
-                displayName: "𑄛𑄧𑄢𑄴𑄖𑄪𑄉𑄨𑄌𑄴 𑄃𑄬𑄥𑄴𑄇𑄪𑄓𑄮",
-                symbol: "PTE"
+                displayName: "𑄛𑄧𑄢𑄴𑄖𑄪𑄉𑄨𑄌𑄴 𑄃𑄬𑄥𑄴𑄇𑄪𑄓𑄮"
             },
             PYG: {
                 displayName: "𑄛𑄳𑄠𑄢𑄉𑄪𑄠𑄚𑄴 𑄉𑄪𑄠𑄢𑄚𑄨",
@@ -1199,12 +1041,10 @@ const data = {
                 symbol: "QAR"
             },
             RHD: {
-                displayName: "𑄢𑄮𑄓𑄬𑄥𑄨𑄠𑄚𑄴 𑄓𑄧𑄣𑄢𑄴",
-                symbol: "RHD"
+                displayName: "𑄢𑄮𑄓𑄬𑄥𑄨𑄠𑄚𑄴 𑄓𑄧𑄣𑄢𑄴"
             },
             ROL: {
-                displayName: "𑄛𑄪𑄢𑄮𑄚𑄨 𑄢𑄪𑄟𑄚𑄨𑄠 𑄣𑄬𑄠𑄪",
-                symbol: "ROL"
+                displayName: "𑄛𑄪𑄢𑄮𑄚𑄨 𑄢𑄪𑄟𑄚𑄨𑄠 𑄣𑄬𑄠𑄪"
             },
             RON: {
                 displayName: "𑄢𑄪𑄟𑄚𑄨𑄠 𑄣𑄬𑄠𑄪",
@@ -1227,8 +1067,7 @@ const data = {
                 "symbol-alt-narrow": "₽"
             },
             RUR: {
-                displayName: "𑄢𑄥𑄨𑄠𑄚𑄴 𑄢𑄪𑄝𑄧𑄣𑄴(𑄷𑄿𑄿𑄷-𑄷𑄿𑄿𑄾)",
-                symbol: "RUR"
+                displayName: "𑄢𑄥𑄨𑄠𑄚𑄴 𑄢𑄪𑄝𑄧𑄣𑄴(𑄷𑄿𑄿𑄷-𑄷𑄿𑄿𑄾)"
             },
             RWF: {
                 displayName: "𑄢𑄪𑄠𑄚𑄴𑄓𑄚𑄴 𑄜𑄳𑄢𑄋𑄳𑄇𑄴",
@@ -1257,8 +1096,7 @@ const data = {
                 symbol: "SCR"
             },
             SDD: {
-                displayName: "𑄛𑄪𑄢𑄮𑄚𑄨 𑄥𑄪𑄘𑄚𑄨 𑄘𑄨𑄚𑄢𑄴",
-                symbol: "SDD"
+                displayName: "𑄛𑄪𑄢𑄮𑄚𑄨 𑄥𑄪𑄘𑄚𑄨 𑄘𑄨𑄚𑄢𑄴"
             },
             SDG: {
                 displayName: "𑄥𑄪𑄘𑄚𑄨 𑄛𑄃𑄪𑄚𑄳𑄓𑄴",
@@ -1267,8 +1105,7 @@ const data = {
                 symbol: "SDG"
             },
             SDP: {
-                displayName: "𑄛𑄪𑄢𑄮𑄚𑄨 𑄥𑄪𑄘𑄚𑄨 𑄛𑄃𑄪𑄚𑄳𑄓𑄴",
-                symbol: "SDP"
+                displayName: "𑄛𑄪𑄢𑄮𑄚𑄨 𑄥𑄪𑄘𑄚𑄨 𑄛𑄃𑄪𑄚𑄳𑄓𑄴"
             },
             SEK: {
                 displayName: "𑄥𑄭𑄪𑄓𑄨𑄥𑄴 𑄇𑄳𑄢𑄮𑄚",
@@ -1292,16 +1129,10 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             SIT: {
-                displayName: "𑄥𑄳𑄣𑄮𑄞𑄚𑄨𑄠 𑄑𑄮𑄣𑄢𑄴",
-                symbol: "SIT"
+                displayName: "𑄥𑄳𑄣𑄮𑄞𑄚𑄨𑄠 𑄑𑄮𑄣𑄢𑄴"
             },
             SKK: {
-                displayName: "𑄥𑄳𑄣𑄮𑄞𑄇𑄴 𑄇𑄮𑄢𑄪𑄚",
-                symbol: "SKK"
-            },
-            SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
+                displayName: "𑄥𑄳𑄣𑄮𑄞𑄇𑄴 𑄇𑄮𑄢𑄪𑄚"
             },
             SLL: {
                 displayName: "𑄥𑄨𑄠𑄬𑄢𑄣𑄨𑄠𑄧𑄚𑄴 𑄣𑄨𑄠𑄧𑄚𑄴",
@@ -1323,8 +1154,7 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             SRG: {
-                displayName: "𑄥𑄪𑄢𑄨𑄚𑄟𑄴 𑄉𑄨𑄣𑄴𑄓𑄢𑄴",
-                symbol: "SRG"
+                displayName: "𑄥𑄪𑄢𑄨𑄚𑄟𑄴 𑄉𑄨𑄣𑄴𑄓𑄢𑄴"
             },
             SSP: {
                 displayName: "𑄘𑄧𑄉𑄨𑄚𑄴 𑄥𑄪𑄘𑄚𑄨 𑄛𑄃𑄪𑄚𑄳𑄓𑄴",
@@ -1341,17 +1171,13 @@ const data = {
                 "symbol-alt-narrow": "Db"
             },
             STN: {
-                displayName: "STN",
-                symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },
             SUR: {
-                displayName: "𑄥𑄮𑄣𑄨𑄠𑄬𑄖𑄴 𑄢𑄪𑄝𑄧𑄣𑄴",
-                symbol: "SUR"
+                displayName: "𑄥𑄮𑄣𑄨𑄠𑄬𑄖𑄴 𑄢𑄪𑄝𑄧𑄣𑄴"
             },
             SVC: {
-                displayName: "𑄃𑄬𑄣𑄴 𑄥𑄳𑄠𑄣𑄴𑄞𑄮𑄓𑄮𑄢𑄴 𑄇𑄮𑄣𑄮𑄚𑄴",
-                symbol: "SVC"
+                displayName: "𑄃𑄬𑄣𑄴 𑄥𑄳𑄠𑄣𑄴𑄞𑄮𑄓𑄮𑄢𑄴 𑄇𑄮𑄣𑄮𑄚𑄴"
             },
             SYP: {
                 displayName: "𑄥𑄨𑄢𑄨𑄠𑄚𑄴 𑄛𑄃𑄪𑄚𑄳𑄓𑄴",
@@ -1374,8 +1200,7 @@ const data = {
                 "symbol-alt-narrow": "฿"
             },
             TJR: {
-                displayName: "𑄖𑄎𑄨𑄇𑄨𑄌𑄴𑄖𑄚𑄴 𑄢𑄪𑄝𑄧𑄣𑄴",
-                symbol: "TJR"
+                displayName: "𑄖𑄎𑄨𑄇𑄨𑄌𑄴𑄖𑄚𑄴 𑄢𑄪𑄝𑄧𑄣𑄴"
             },
             TJS: {
                 displayName: "𑄖𑄎𑄨𑄇𑄨𑄌𑄴𑄖𑄚𑄴 𑄥𑄮𑄟𑄮𑄚𑄨",
@@ -1384,8 +1209,7 @@ const data = {
                 symbol: "TJS"
             },
             TMM: {
-                displayName: "𑄖𑄪𑄢𑄴𑄇𑄧𑄟𑄬𑄚𑄨𑄌𑄴𑄖𑄚𑄨 𑄟𑄚𑄖𑄴 (1993–2009)",
-                symbol: "TMM"
+                displayName: "𑄖𑄪𑄢𑄴𑄇𑄧𑄟𑄬𑄚𑄨𑄌𑄴𑄖𑄚𑄨 𑄟𑄚𑄖𑄴 (1993–2009)"
             },
             TMT: {
                 displayName: "𑄖𑄪𑄢𑄴𑄇𑄧𑄟𑄬𑄚𑄨𑄌𑄴𑄖𑄚𑄨 𑄟𑄚𑄖𑄴",
@@ -1407,12 +1231,10 @@ const data = {
                 "symbol-alt-narrow": "T$"
             },
             TPE: {
-                displayName: "𑄖𑄨𑄟𑄪𑄢𑄴 𑄃𑄬𑄌𑄴𑄇𑄪𑄓𑄮",
-                symbol: "TPE"
+                displayName: "𑄖𑄨𑄟𑄪𑄢𑄴 𑄃𑄬𑄌𑄴𑄇𑄪𑄓𑄮"
             },
             TRL: {
-                displayName: "𑄛𑄪𑄢𑄮𑄚𑄴 𑄖𑄪𑄢𑄴𑄇𑄨 𑄣𑄨𑄢",
-                symbol: "TRL"
+                displayName: "𑄛𑄪𑄢𑄮𑄚𑄴 𑄖𑄪𑄢𑄴𑄇𑄨 𑄣𑄨𑄢"
             },
             TRY: {
                 displayName: "𑄖𑄪𑄢𑄴𑄇𑄨 𑄣𑄨𑄢",
@@ -1450,12 +1272,10 @@ const data = {
                 "symbol-alt-narrow": "₴"
             },
             UAK: {
-                displayName: "𑄃𑄨𑄃𑄪𑄇𑄳𑄢𑄭𑄚𑄴 𑄇𑄢𑄴𑄝𑄮𑄞𑄳𑄠𑄚𑄴𑄑𑄧𑄌𑄴",
-                symbol: "UAK"
+                displayName: "𑄃𑄨𑄃𑄪𑄇𑄳𑄢𑄭𑄚𑄴 𑄇𑄢𑄴𑄝𑄮𑄞𑄳𑄠𑄚𑄴𑄑𑄧𑄌𑄴"
             },
             UGS: {
-                displayName: "𑄃𑄪𑄉𑄚𑄴𑄓𑄚𑄴 𑄥𑄨𑄣𑄨𑄁 (𑄷𑄿𑄼𑄼-𑄷𑄿𑄾𑄽)",
-                symbol: "UGS"
+                displayName: "𑄃𑄪𑄉𑄚𑄴𑄓𑄚𑄴 𑄥𑄨𑄣𑄨𑄁 (𑄷𑄿𑄼𑄼-𑄷𑄿𑄾𑄽)"
             },
             UGX: {
                 displayName: "𑄃𑄪𑄉𑄚𑄴𑄓𑄚𑄴 𑄥𑄨𑄣𑄨𑄁",
@@ -1471,20 +1291,16 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             USN: {
-                displayName: "𑄟𑄢𑄴𑄇𑄨𑄚𑄴 𑄓𑄧𑄣𑄢𑄴 (𑄛𑄧𑄢𑄬 𑄘𑄨𑄚𑄴)",
-                symbol: "USN"
+                displayName: "𑄟𑄢𑄴𑄇𑄨𑄚𑄴 𑄓𑄧𑄣𑄢𑄴 (𑄛𑄧𑄢𑄬 𑄘𑄨𑄚𑄴)"
             },
             USS: {
-                displayName: "𑄟𑄢𑄴𑄇𑄨𑄚𑄴 𑄓𑄧𑄣𑄢𑄴 (𑄃𑄬𑄇𑄴𑄇𑄰𑄪 𑄘𑄨𑄚𑄴)",
-                symbol: "USS"
+                displayName: "𑄟𑄢𑄴𑄇𑄨𑄚𑄴 𑄓𑄧𑄣𑄢𑄴 (𑄃𑄬𑄇𑄴𑄇𑄰𑄪 𑄘𑄨𑄚𑄴)"
             },
             UYI: {
-                displayName: "𑄃𑄪𑄢𑄪𑄉𑄪𑄠𑄚𑄴 𑄛𑄬𑄥𑄮 𑄃𑄬𑄚𑄴 𑄃𑄪𑄚𑄨𑄘𑄘𑄬𑄌𑄴 𑄃𑄨𑄚𑄴𑄓𑄬𑄇𑄴𑄥𑄬𑄓𑄥𑄴",
-                symbol: "UYI"
+                displayName: "𑄃𑄪𑄢𑄪𑄉𑄪𑄠𑄚𑄴 𑄛𑄬𑄥𑄮 𑄃𑄬𑄚𑄴 𑄃𑄪𑄚𑄨𑄘𑄘𑄬𑄌𑄴 𑄃𑄨𑄚𑄴𑄓𑄬𑄇𑄴𑄥𑄬𑄓𑄥𑄴"
             },
             UYP: {
-                displayName: "𑄃𑄪𑄢𑄪𑄉𑄪𑄠𑄬 𑄛𑄬𑄥𑄮 (𑄷𑄿𑄽𑄻-𑄷𑄿𑄿𑄹)",
-                symbol: "UYP"
+                displayName: "𑄃𑄪𑄢𑄪𑄉𑄪𑄠𑄬 𑄛𑄬𑄥𑄮 (𑄷𑄿𑄽𑄻-𑄷𑄿𑄿𑄹)"
             },
             UYU: {
                 displayName: "𑄃𑄪𑄢𑄪𑄉𑄪𑄠𑄬 𑄛𑄬𑄥𑄮",
@@ -1493,10 +1309,6 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
-            },
             UZS: {
                 displayName: "𑄃𑄪𑄌𑄴𑄝𑄬𑄇𑄨𑄌𑄴𑄖𑄚𑄨 𑄥𑄮𑄟𑄴",
                 "displayName-count-one": "𑄃𑄪𑄌𑄴𑄝𑄬𑄇𑄨𑄌𑄴𑄖𑄚𑄨 𑄥𑄮𑄟𑄴",
@@ -1504,12 +1316,7 @@ const data = {
                 symbol: "UZS"
             },
             VEB: {
-                displayName: "𑄞𑄬𑄚𑄨𑄎𑄪𑄔𑄮𑄣𑄚𑄴 𑄝𑄧𑄣𑄨𑄞𑄢𑄴(𑄷𑄾𑄽𑄷-𑄸𑄶𑄶𑄾)",
-                symbol: "VEB"
-            },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
+                displayName: "𑄞𑄬𑄚𑄨𑄎𑄪𑄔𑄮𑄣𑄚𑄴 𑄝𑄧𑄣𑄨𑄞𑄢𑄴(𑄷𑄾𑄽𑄷-𑄸𑄶𑄶𑄾)"
             },
             VEF: {
                 displayName: "𑄞𑄬𑄚𑄨𑄎𑄪𑄔𑄮𑄣𑄚𑄴 𑄝𑄧𑄣𑄨𑄞𑄢𑄴",
@@ -1518,20 +1325,12 @@ const data = {
                 symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
             },
-            VES: {
-                displayName: "VES",
-                symbol: "VES"
-            },
             VND: {
                 displayName: "𑄞𑄨𑄠𑄬𑄖𑄴𑄚𑄟𑄨 𑄓𑄧𑄋𑄴𑄉𑄧",
                 "displayName-count-one": "𑄞𑄨𑄠𑄬𑄖𑄴𑄚𑄟𑄨 𑄓𑄧𑄋𑄴𑄉𑄧",
                 "displayName-count-other": "𑄞𑄨𑄠𑄬𑄖𑄴𑄚𑄟𑄨 𑄓𑄧𑄋𑄴𑄉𑄧",
                 symbol: "₫",
                 "symbol-alt-narrow": "₫"
-            },
-            VNN: {
-                displayName: "VNN",
-                symbol: "VNN"
             },
             VUV: {
                 displayName: "𑄞𑄚𑄪𑄠𑄖𑄪 𑄞𑄖𑄪",
@@ -1552,28 +1351,10 @@ const data = {
                 symbol: "FCFA"
             },
             XAG: {
-                displayName: "𑄥𑄨𑄣𑄴𑄞𑄢𑄴",
-                symbol: "XAG"
+                displayName: "𑄥𑄨𑄣𑄴𑄞𑄢𑄴"
             },
             XAU: {
-                displayName: "𑄉𑄮𑄣𑄳𑄓𑄴",
-                symbol: "XAU"
-            },
-            XBA: {
-                displayName: "XBA",
-                symbol: "XBA"
-            },
-            XBB: {
-                displayName: "XBB",
-                symbol: "XBB"
-            },
-            XBC: {
-                displayName: "XBC",
-                symbol: "XBC"
-            },
-            XBD: {
-                displayName: "XBD",
-                symbol: "XBD"
+                displayName: "𑄉𑄮𑄣𑄳𑄓𑄴"
             },
             XCD: {
                 displayName: "𑄛𑄪𑄉𑄬𑄘𑄨 𑄇𑄳𑄠𑄢𑄝𑄨𑄠𑄚𑄴 𑄓𑄧𑄣𑄢𑄴",
@@ -1582,21 +1363,14 @@ const data = {
                 symbol: "EC$",
                 "symbol-alt-narrow": "$"
             },
-            XDR: {
-                displayName: "XDR",
-                symbol: "XDR"
-            },
             XEU: {
-                displayName: "𑄃𑄨𑄃𑄪𑄢𑄮𑄛𑄨𑄠𑄚𑄴 𑄑𑄬𑄋𑄢𑄴 𑄃𑄬𑄇𑄧𑄇𑄴",
-                symbol: "XEU"
+                displayName: "𑄃𑄨𑄃𑄪𑄢𑄮𑄛𑄨𑄠𑄚𑄴 𑄑𑄬𑄋𑄢𑄴 𑄃𑄬𑄇𑄧𑄇𑄴"
             },
             XFO: {
-                displayName: "𑄜𑄧𑄢𑄥𑄨 𑄉𑄮𑄣𑄳𑄓𑄴 𑄜𑄳𑄢𑄋𑄳𑄇𑄴",
-                symbol: "XFO"
+                displayName: "𑄜𑄧𑄢𑄥𑄨 𑄉𑄮𑄣𑄳𑄓𑄴 𑄜𑄳𑄢𑄋𑄳𑄇𑄴"
             },
             XFU: {
-                displayName: "𑄜𑄧𑄢𑄥𑄨 𑄃𑄨𑄃𑄪𑄃𑄭𑄥𑄨 𑄜𑄳𑄢𑄋𑄳𑄇𑄴",
-                symbol: "XFU"
+                displayName: "𑄜𑄧𑄢𑄥𑄨 𑄃𑄨𑄃𑄪𑄃𑄭𑄥𑄨 𑄜𑄳𑄢𑄋𑄳𑄇𑄴"
             },
             XOF: {
                 displayName: "𑄛𑄧𑄎𑄨𑄟𑄴 𑄃𑄜𑄳𑄢𑄨𑄇𑄚𑄴 [CFA] 𑄜𑄳𑄢𑄳𑄠𑄋𑄳𑄇𑄴",
@@ -1605,8 +1379,7 @@ const data = {
                 symbol: "F CFA"
             },
             XPD: {
-                displayName: "𑄛𑄳𑄠𑄣𑄬𑄓𑄨𑄠𑄟𑄴",
-                symbol: "XPD"
+                displayName: "𑄛𑄳𑄠𑄣𑄬𑄓𑄨𑄠𑄟𑄴"
             },
             XPF: {
                 displayName: "𑄥𑄨𑄃𑄬𑄛𑄴𑄛𑄨 𑄜𑄳𑄢𑄳𑄠𑄋𑄳𑄇𑄴",
@@ -1615,24 +1388,7 @@ const data = {
                 symbol: "CFPF"
             },
             XPT: {
-                displayName: "𑄛𑄳𑄣𑄑𑄨𑄚𑄟𑄴",
-                symbol: "XPT"
-            },
-            XRE: {
-                displayName: "XRE",
-                symbol: "XRE"
-            },
-            XSU: {
-                displayName: "XSU",
-                symbol: "XSU"
-            },
-            XTS: {
-                displayName: "XTS",
-                symbol: "XTS"
-            },
-            XUA: {
-                displayName: "XUA",
-                symbol: "XUA"
+                displayName: "𑄛𑄳𑄣𑄑𑄨𑄚𑄟𑄴"
             },
             XXX: {
                 displayName: "𑄦𑄧𑄝𑄢𑄴 𑄚𑄧𑄛𑄬𑄠𑄬 𑄑𑄬𑄋",
@@ -1641,8 +1397,7 @@ const data = {
                 symbol: "¤"
             },
             YDD: {
-                displayName: "𑄃𑄨𑄠𑄬𑄟𑄬𑄚𑄨 𑄘𑄨𑄚𑄢𑄴",
-                symbol: "YDD"
+                displayName: "𑄃𑄨𑄠𑄬𑄟𑄬𑄚𑄨 𑄘𑄨𑄚𑄢𑄴"
             },
             YER: {
                 displayName: "𑄃𑄨𑄠𑄬𑄟𑄬𑄚𑄨 𑄢𑄨𑄠𑄣𑄴",
@@ -1651,24 +1406,13 @@ const data = {
                 symbol: "YER"
             },
             YUD: {
-                displayName: "𑄡𑄪𑄉𑄮𑄥𑄳𑄣𑄞𑄨𑄠𑄧 𑄦𑄢𑄴𑄓𑄴 𑄘𑄨𑄚𑄢𑄴",
-                symbol: "YUD"
+                displayName: "𑄡𑄪𑄉𑄮𑄥𑄳𑄣𑄞𑄨𑄠𑄧 𑄦𑄢𑄴𑄓𑄴 𑄘𑄨𑄚𑄢𑄴"
             },
             YUM: {
-                displayName: "𑄡𑄪𑄉𑄮𑄥𑄳𑄣𑄞𑄨𑄠𑄧 𑄚𑄮𑄞𑄨 𑄘𑄨𑄚𑄢𑄴",
-                symbol: "YUM"
+                displayName: "𑄡𑄪𑄉𑄮𑄥𑄳𑄣𑄞𑄨𑄠𑄧 𑄚𑄮𑄞𑄨 𑄘𑄨𑄚𑄢𑄴"
             },
             YUN: {
-                displayName: "𑄡𑄪𑄉𑄮𑄥𑄳𑄣𑄞𑄨𑄠𑄧 𑄝𑄮𑄘𑄮𑄣𑄬𑄭𑄛𑄢𑄬 𑄘𑄨𑄚𑄢𑄴",
-                symbol: "YUN"
-            },
-            YUR: {
-                displayName: "YUR",
-                symbol: "YUR"
-            },
-            ZAL: {
-                displayName: "ZAL",
-                symbol: "ZAL"
+                displayName: "𑄡𑄪𑄉𑄮𑄥𑄳𑄣𑄞𑄨𑄠𑄧 𑄝𑄮𑄘𑄮𑄣𑄬𑄭𑄛𑄢𑄬 𑄘𑄨𑄚𑄢𑄴"
             },
             ZAR: {
                 displayName: "𑄘𑄧𑄉𑄨𑄚𑄴 𑄃𑄜𑄳𑄢𑄨𑄇𑄚𑄴 𑄢𑄳𑄠𑄚𑄳𑄓𑄴",
@@ -1678,8 +1422,7 @@ const data = {
                 "symbol-alt-narrow": "R"
             },
             ZMK: {
-                displayName: "𑄎𑄟𑄴𑄝𑄨𑄠𑄚𑄴 𑄇𑄧𑄤𑄌 (𑄷𑄿𑄼𑄾-𑄸𑄶𑄷𑄸)",
-                symbol: "ZMK"
+                displayName: "𑄎𑄟𑄴𑄝𑄨𑄠𑄚𑄴 𑄇𑄧𑄤𑄌 (𑄷𑄿𑄼𑄾-𑄸𑄶𑄷𑄸)"
             },
             ZMW: {
                 displayName: "𑄎𑄟𑄴𑄝𑄨𑄠𑄚𑄴 𑄇𑄧𑄤𑄌",
@@ -1689,24 +1432,19 @@ const data = {
                 "symbol-alt-narrow": "ZK"
             },
             ZRN: {
-                displayName: "𑄎𑄭𑄢𑄨𑄠𑄚𑄴 𑄚𑄨𑄅𑄪 𑄎𑄭𑄢𑄬 (1993–1998)",
-                symbol: "ZRN"
+                displayName: "𑄎𑄭𑄢𑄨𑄠𑄚𑄴 𑄚𑄨𑄅𑄪 𑄎𑄭𑄢𑄬 (1993–1998)"
             },
             ZRZ: {
-                displayName: "𑄎𑄭𑄢𑄨𑄠𑄚𑄴 𑄚𑄨𑄅𑄪 𑄎𑄭𑄢𑄬 (1971–1993)",
-                symbol: "ZRZ"
+                displayName: "𑄎𑄭𑄢𑄨𑄠𑄚𑄴 𑄚𑄨𑄅𑄪 𑄎𑄭𑄢𑄬 (1971–1993)"
             },
             ZWD: {
-                displayName: "𑄎𑄨𑄟𑄴𑄝𑄝𑄪𑄠𑄬 𑄓𑄧𑄣𑄢𑄴 (𑄷𑄿𑄾𑄶-𑄸𑄶𑄶𑄾)",
-                symbol: "ZWD"
+                displayName: "𑄎𑄨𑄟𑄴𑄝𑄝𑄪𑄠𑄬 𑄓𑄧𑄣𑄢𑄴 (𑄷𑄿𑄾𑄶-𑄸𑄶𑄶𑄾)"
             },
             ZWL: {
-                displayName: "𑄎𑄨𑄟𑄴𑄝𑄝𑄪𑄠𑄬 𑄓𑄧𑄣𑄢𑄴 (𑄸𑄶𑄶𑄿)",
-                symbol: "ZWL"
+                displayName: "𑄎𑄨𑄟𑄴𑄝𑄝𑄪𑄠𑄬 𑄓𑄧𑄣𑄢𑄴 (𑄸𑄶𑄶𑄿)"
             },
             ZWR: {
-                displayName: "𑄎𑄨𑄟𑄴𑄝𑄝𑄪𑄠𑄬 𑄓𑄧𑄣𑄢𑄴 (𑄸𑄶𑄶𑄾)",
-                symbol: "ZWR"
+                displayName: "𑄎𑄨𑄟𑄴𑄝𑄝𑄪𑄠𑄬 𑄓𑄧𑄣𑄢𑄴 (𑄸𑄶𑄶𑄾)"
             }
         },
         localeCurrency: "INR"

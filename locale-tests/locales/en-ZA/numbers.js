@@ -10,8 +10,8 @@ const data = {
     territory: "ZA",
     numbers: {
         symbols: {
-            decimal: ",",
-            group: " ",
+            decimal: ".",
+            group: ",",
             list: ";",
             percentSign: "%",
             plusSign: "+",

@@ -37,24 +37,24 @@ const data = {
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "d, E",
-                Ehm: "E h:mm a",
+                Ehm: "E h:mm a",
                 EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
                 GyMd: "GGGGG y-MM-dd",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM, y G",
                 GyMMMEd: "E, d 'ta'’ MMM, y G",
-                h: "h a",
+                h: "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
                 M: "L",
                 Md: "MM-dd",
@@ -64,8 +64,9 @@ const data = {
                 MMMEd: "E, d 'ta'’ MMM",
                 MMMMd: "d 'ta'’ MMMM",
                 "MMMMW-count-one": "W 'ġimgħa' 'ta''' MMMM",
-                "MMMMW-count-few": "W 'ġimgħa' 'ta''' MMMM",
-                "MMMMW-count-many": "W 'ġimgħa' 'ta''' MMMM",
+                "MMMMW-count-two": "W 'ġimgħatejn' 'ta''' MMMM",
+                "MMMMW-count-few": "W 'ġimgħat' 'ta''' MMMM",
+                "MMMMW-count-many": "W-'il' 'ġimgħa' 'ta''' MMMM",
                 "MMMMW-count-other": "W 'ġimgħa' 'ta''' MMMM",
                 ms: "mm:ss",
                 y: "y",
@@ -79,8 +80,9 @@ const data = {
                 yQQQ: "QQQ - y",
                 yQQQQ: "QQQQ - y",
                 "yw-count-one": "w 'ġimgħa' 'ta''' Y",
-                "yw-count-few": "w 'ġimgħa' 'ta''' Y",
-                "yw-count-many": "w 'ġimgħa' 'ta''' Y",
+                "yw-count-two": "w 'ġimgħatejn' 'ta''' Y",
+                "yw-count-few": "w 'ġimgħat' 'ta''' Y",
+                "yw-count-many": "w-'il' 'ġimgħa' 'ta''' Y",
                 "yw-count-other": "w 'ġimgħa' 'ta''' Y"
             }
         },
@@ -368,12 +370,12 @@ const data = {
             },
             year: {
                 wide: "Sena",
-                short: "Sena",
+                short: "Sn",
                 narrow: "Sena"
             },
             quarter: {
                 wide: "Quarter",
-                short: "Quarter",
+                short: "kwrt",
                 narrow: "l-ewwel kwart tas-sena, it-tieni kwart tas-sena, it-tielet kwart tas-sena, ir-raba’ kwart tas-sena"
             },
             month: {
@@ -383,8 +385,8 @@ const data = {
             },
             week: {
                 wide: "ġimgħa",
-                short: "ġimgħa",
-                narrow: "ġimgħa"
+                short: "ġm",
+                narrow: "ġm"
             },
             weekOfMonth: {
                 wide: "ġimgħa tax-xahar",

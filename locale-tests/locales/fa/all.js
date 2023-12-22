@@ -65,8 +65,7 @@ const data = {
             ADP: {
                 displayName: "پزتای آندورا",
                 "displayName-count-one": "پزتای آندورا",
-                "displayName-count-other": "پزتای آندورا",
-                symbol: "ADP"
+                "displayName-count-other": "پزتای آندورا"
             },
             AED: {
                 displayName: "درهم امارات متحدهٔ عربی",
@@ -77,8 +76,7 @@ const data = {
             AFA: {
                 displayName: "افغانی افغانستان (۱۹۲۷ تا ۲۰۰۲)",
                 "displayName-count-one": "افغانی افغانستان (۱۹۲۷ تا ۲۰۰۲)",
-                "displayName-count-other": "افغانی افغانستان (۱۹۲۷ تا ۲۰۰۲)",
-                symbol: "AFA"
+                "displayName-count-other": "افغانی افغانستان (۱۹۲۷ تا ۲۰۰۲)"
             },
             AFN: {
                 displayName: "افغانی افغانستان",
@@ -90,8 +88,7 @@ const data = {
             ALK: {
                 displayName: "لک آلبانی (۱۹۴۶ تا ۱۹۶۵)",
                 "displayName-count-one": "لک آلبانی (۱۹۴۶ تا ۱۹۶۵)",
-                "displayName-count-other": "لک آلبانی (۱۹۴۶ تا ۱۹۶۵)",
-                symbol: "ALK"
+                "displayName-count-other": "لک آلبانی (۱۹۴۶ تا ۱۹۶۵)"
             },
             ALL: {
                 displayName: "لک آلبانی",
@@ -119,37 +116,15 @@ const data = {
                 symbol: "AOA",
                 "symbol-alt-narrow": "Kz"
             },
-            AOK: {
-                displayName: "AOK",
-                symbol: "AOK"
-            },
-            AON: {
-                displayName: "AON",
-                symbol: "AON"
-            },
-            AOR: {
-                displayName: "AOR",
-                symbol: "AOR"
-            },
-            ARA: {
-                displayName: "ARA",
-                symbol: "ARA"
-            },
-            ARL: {
-                displayName: "ARL",
-                symbol: "ARL"
-            },
             ARM: {
                 displayName: "پزوی آرژانتین (۱۸۸۱ تا ۱۹۷۰)",
                 "displayName-count-one": "پزوی آرژانتین (۱۸۸۱ تا ۱۹۷۰)",
-                "displayName-count-other": "پزوی آرژانتین (۱۸۸۱ تا ۱۹۷۰)",
-                symbol: "ARM"
+                "displayName-count-other": "پزوی آرژانتین (۱۸۸۱ تا ۱۹۷۰)"
             },
             ARP: {
                 displayName: "پزوی آرژانتین (۱۹۸۳ تا ۱۹۸۵)‏",
                 "displayName-count-one": "پزوی آرژانتین (۱۹۸۳ تا ۱۹۸۵)",
-                "displayName-count-other": "پزوی آرژانتین (۱۹۸۳ تا ۱۹۸۵)",
-                symbol: "ARP"
+                "displayName-count-other": "پزوی آرژانتین (۱۹۸۳ تا ۱۹۸۵)"
             },
             ARS: {
                 displayName: "پزوی آرژانتین",
@@ -161,8 +136,7 @@ const data = {
             ATS: {
                 displayName: "شیلینگ اتریش",
                 "displayName-count-one": "شیلینگ اتریش",
-                "displayName-count-other": "شیلینگ اتریش",
-                symbol: "ATS"
+                "displayName-count-other": "شیلینگ اتریش"
             },
             AUD: {
                 displayName: "دلار استرالیا",
@@ -180,8 +154,7 @@ const data = {
             AZM: {
                 displayName: "منات جمهوری آذربایجان (۱۹۹۳ تا ۲۰۰۶)",
                 "displayName-count-one": "منات جمهوری آذربایجان (۱۹۹۳ تا ۲۰۰۶)",
-                "displayName-count-other": "منات جمهوری آذربایجان (۱۹۹۳ تا ۲۰۰۶)",
-                symbol: "AZM"
+                "displayName-count-other": "منات جمهوری آذربایجان (۱۹۹۳ تا ۲۰۰۶)"
             },
             AZN: {
                 displayName: "منات جمهوری آذربایجان",
@@ -193,8 +166,7 @@ const data = {
             BAD: {
                 displayName: "دینار بوسنی و هرزگوین (۱۹۹۲ تا ۱۹۹۴)",
                 "displayName-count-one": "دینار بوسنی و هرزگوین (۱۹۹۲ تا ۱۹۹۴)",
-                "displayName-count-other": "دینار بوسنی و هرزگوین (۱۹۹۲ تا ۱۹۹۴)",
-                symbol: "BAD"
+                "displayName-count-other": "دینار بوسنی و هرزگوین (۱۹۹۲ تا ۱۹۹۴)"
             },
             BAM: {
                 displayName: "مارک تبدیل‌پذیر بوسنی و هرزگوین",
@@ -202,10 +174,6 @@ const data = {
                 "displayName-count-other": "مارک تبدیل‌پذیر بوسنی و هرزگوین",
                 symbol: "BAM",
                 "symbol-alt-narrow": "KM"
-            },
-            BAN: {
-                displayName: "BAN",
-                symbol: "BAN"
             },
             BBD: {
                 displayName: "دلار باربادوس",
@@ -221,39 +189,21 @@ const data = {
                 symbol: "BDT",
                 "symbol-alt-narrow": "৳"
             },
-            BEC: {
-                displayName: "BEC",
-                symbol: "BEC"
-            },
             BEF: {
                 displayName: "فرانک بلژیک",
                 "displayName-count-one": "فرانک بلژیک",
-                "displayName-count-other": "فرانک بلژیک",
-                symbol: "BEF"
+                "displayName-count-other": "فرانک بلژیک"
             },
             BEL: {
                 displayName: "فرانک بلژیک (مالی)",
                 "displayName-count-one": "فرانک بلژیک (مالی)",
-                "displayName-count-other": "فرانک بلژیک (مالی)",
-                symbol: "BEL"
-            },
-            BGL: {
-                displayName: "BGL",
-                symbol: "BGL"
-            },
-            BGM: {
-                displayName: "BGM",
-                symbol: "BGM"
+                "displayName-count-other": "فرانک بلژیک (مالی)"
             },
             BGN: {
                 displayName: "لف بلغارستان",
                 "displayName-count-one": "لف بلغارستان",
                 "displayName-count-other": "لف بلغارستان",
                 symbol: "BGN"
-            },
-            BGO: {
-                displayName: "BGO",
-                symbol: "BGO"
             },
             BHD: {
                 displayName: "دینار بحرین",
@@ -288,29 +238,10 @@ const data = {
                 symbol: "BOB",
                 "symbol-alt-narrow": "Bs"
             },
-            BOL: {
-                displayName: "BOL",
-                symbol: "BOL"
-            },
             BOP: {
                 displayName: "پزوی بولیوی",
-                symbol: "BOP"
-            },
-            BOV: {
-                displayName: "BOV",
-                symbol: "BOV"
-            },
-            BRB: {
-                displayName: "BRB",
-                symbol: "BRB"
-            },
-            BRC: {
-                displayName: "BRC",
-                symbol: "BRC"
-            },
-            BRE: {
-                displayName: "BRE",
-                symbol: "BRE"
+                "displayName-count-one": "پزوی بولیوی",
+                "displayName-count-other": "پزوی بولیوی"
             },
             BRL: {
                 displayName: "رئال برزیل",
@@ -318,18 +249,6 @@ const data = {
                 "displayName-count-other": "رئال برزیل",
                 symbol: "R$",
                 "symbol-alt-narrow": "R$"
-            },
-            BRN: {
-                displayName: "BRN",
-                symbol: "BRN"
-            },
-            BRR: {
-                displayName: "BRR",
-                symbol: "BRR"
-            },
-            BRZ: {
-                displayName: "BRZ",
-                symbol: "BRZ"
             },
             BSD: {
                 displayName: "دلار باهاما",
@@ -344,10 +263,6 @@ const data = {
                 "displayName-count-other": "انگولتروم بوتان",
                 symbol: "BTN"
             },
-            BUK: {
-                displayName: "BUK",
-                symbol: "BUK"
-            },
             BWP: {
                 displayName: "پولای بوتسوانا",
                 "displayName-count-one": "پولای بوتسوانا",
@@ -358,8 +273,7 @@ const data = {
             BYB: {
                 displayName: "روبل جدید بلاروس (۱۹۹۴ تا ۱۹۹۹)",
                 "displayName-count-one": "روبل جدید بلاروس (۱۹۹۴ تا ۱۹۹۹)",
-                "displayName-count-other": "روبل جدید بلاروس (۱۹۹۴ تا ۱۹۹۹)",
-                symbol: "BYB"
+                "displayName-count-other": "روبل جدید بلاروس (۱۹۹۴ تا ۱۹۹۹)"
             },
             BYN: {
                 displayName: "روبل بلاروس",
@@ -394,27 +308,11 @@ const data = {
                 "displayName-count-other": "فرانک کنگو",
                 symbol: "CDF"
             },
-            CHE: {
-                displayName: "CHE",
-                symbol: "CHE"
-            },
             CHF: {
                 displayName: "فرانک سوئیس",
                 "displayName-count-one": "فرانک سوئیس",
                 "displayName-count-other": "فرانک سوئیس",
                 symbol: "CHF"
-            },
-            CHW: {
-                displayName: "CHW",
-                symbol: "CHW"
-            },
-            CLE: {
-                displayName: "CLE",
-                symbol: "CLE"
-            },
-            CLF: {
-                displayName: "CLF",
-                symbol: "CLF"
             },
             CLP: {
                 displayName: "پزوی شیلی",
@@ -428,10 +326,6 @@ const data = {
                 "displayName-count-one": "یوآن چین (برون‌مرزی)",
                 "displayName-count-other": "یوآن چین (برون‌مرزی)",
                 symbol: "CNH"
-            },
-            CNX: {
-                displayName: "CNX",
-                symbol: "CNX"
             },
             CNY: {
                 displayName: "یوآن چین",
@@ -447,10 +341,6 @@ const data = {
                 symbol: "COP",
                 "symbol-alt-narrow": "$"
             },
-            COU: {
-                displayName: "COU",
-                symbol: "COU"
-            },
             CRC: {
                 displayName: "کولون کاستاریکا",
                 "displayName-count-one": "کولون کاستاریکا",
@@ -461,12 +351,7 @@ const data = {
             CSD: {
                 displayName: "دینار صربستان (۲۰۰۲ تا ۲۰۰۶)",
                 "displayName-count-one": "دینار صربستان (۲۰۰۲ تا ۲۰۰۶)",
-                "displayName-count-other": "دینار صربستان (۲۰۰۲ تا ۲۰۰۶)",
-                symbol: "CSD"
-            },
-            CSK: {
-                displayName: "CSK",
-                symbol: "CSK"
+                "displayName-count-other": "دینار صربستان (۲۰۰۲ تا ۲۰۰۶)"
             },
             CUC: {
                 displayName: "پزوی تبدیل‌پذیر کوبا",
@@ -491,8 +376,7 @@ const data = {
             CYP: {
                 displayName: "پوند قبرس",
                 "displayName-count-one": "پوند قبرس",
-                "displayName-count-other": "پوند قبرس",
-                symbol: "CYP"
+                "displayName-count-other": "پوند قبرس"
             },
             CZK: {
                 displayName: "کورونای جمهوری چک",
@@ -504,14 +388,12 @@ const data = {
             DDM: {
                 displayName: "مارک آلمان شرقی",
                 "displayName-count-one": "مارک آلمان شرقی",
-                "displayName-count-other": "مارک آلمان شرقی",
-                symbol: "DDM"
+                "displayName-count-other": "مارک آلمان شرقی"
             },
             DEM: {
                 displayName: "مارک آلمان",
                 "displayName-count-one": "مارک آلمان",
-                "displayName-count-other": "مارک آلمان",
-                symbol: "DEM"
+                "displayName-count-other": "مارک آلمان"
             },
             DJF: {
                 displayName: "فرانک جیبوتی",
@@ -539,19 +421,10 @@ const data = {
                 "displayName-count-other": "دینار الجزایر",
                 symbol: "DZD"
             },
-            ECS: {
-                displayName: "ECS",
-                symbol: "ECS"
-            },
-            ECV: {
-                displayName: "ECV",
-                symbol: "ECV"
-            },
             EEK: {
                 displayName: "کرون استونی",
                 "displayName-count-one": "کرون استونی",
-                "displayName-count-other": "کرون استونی",
-                symbol: "EEK"
+                "displayName-count-other": "کرون استونی"
             },
             EGP: {
                 displayName: "پوند مصر",
@@ -566,19 +439,10 @@ const data = {
                 "displayName-count-other": "ناکفای اریتره",
                 symbol: "ERN"
             },
-            ESA: {
-                displayName: "ESA",
-                symbol: "ESA"
-            },
-            ESB: {
-                displayName: "ESB",
-                symbol: "ESB"
-            },
             ESP: {
                 displayName: "پزتای اسپانیا",
                 "displayName-count-one": "پزتای اسپانیا",
                 "displayName-count-other": "پزتای اسپانیا",
-                symbol: "ESP",
                 "symbol-alt-narrow": "₧"
             },
             ETB: {
@@ -593,10 +457,6 @@ const data = {
                 "displayName-count-other": "یورو",
                 symbol: "€",
                 "symbol-alt-narrow": "€"
-            },
-            FIM: {
-                displayName: "FIM",
-                symbol: "FIM"
             },
             FJD: {
                 displayName: "دلار فیجی",
@@ -615,8 +475,7 @@ const data = {
             FRF: {
                 displayName: "فرانک فرانسه",
                 "displayName-count-one": "فرانک فرانسه",
-                "displayName-count-other": "فرانک فرانسه",
-                symbol: "FRF"
+                "displayName-count-other": "فرانک فرانسه"
             },
             GBP: {
                 displayName: "پوند بریتانیا",
@@ -625,20 +484,12 @@ const data = {
                 symbol: "£",
                 "symbol-alt-narrow": "£"
             },
-            GEK: {
-                displayName: "GEK",
-                symbol: "GEK"
-            },
             GEL: {
                 displayName: "لاری گرجستان",
                 "displayName-count-one": "لاری گرجستان",
                 "displayName-count-other": "لاری گرجستان",
                 symbol: "GEL",
                 "symbol-alt-narrow": "₾"
-            },
-            GHC: {
-                displayName: "GHC",
-                symbol: "GHC"
             },
             GHS: {
                 displayName: "سدی غنا",
@@ -667,19 +518,10 @@ const data = {
                 symbol: "GNF",
                 "symbol-alt-narrow": "FG"
             },
-            GNS: {
-                displayName: "GNS",
-                symbol: "GNS"
-            },
-            GQE: {
-                displayName: "GQE",
-                symbol: "GQE"
-            },
             GRD: {
                 displayName: "دراخمای یونان",
                 "displayName-count-one": "دراخمای یونان",
-                "displayName-count-other": "دراخمای یونان",
-                symbol: "GRD"
+                "displayName-count-other": "دراخمای یونان"
             },
             GTQ: {
                 displayName: "کتزال گواتمالا",
@@ -688,13 +530,8 @@ const data = {
                 symbol: "GTQ",
                 "symbol-alt-narrow": "Q"
             },
-            GWE: {
-                displayName: "GWE",
-                symbol: "GWE"
-            },
             GWP: {
-                displayName: "پزوی گینهٔ بیسائو",
-                symbol: "GWP"
+                displayName: "پزوی گینهٔ بیسائو"
             },
             GYD: {
                 displayName: "دلار گویانا",
@@ -720,8 +557,7 @@ const data = {
             HRD: {
                 displayName: "دینار کرواسی",
                 "displayName-count-one": "دینار کرواسی",
-                "displayName-count-other": "دینار کرواسی",
-                symbol: "HRD"
+                "displayName-count-other": "دینار کرواسی"
             },
             HRK: {
                 displayName: "کونای کرواسی",
@@ -753,20 +589,17 @@ const data = {
             IEP: {
                 displayName: "پوند ایرلند",
                 "displayName-count-one": "پوند ایرلند",
-                "displayName-count-other": "پوند ایرلند",
-                symbol: "IEP"
+                "displayName-count-other": "پوند ایرلند"
             },
             ILP: {
                 displayName: "پوند اسرائیل",
                 "displayName-count-one": "پوند اسرائیل",
-                "displayName-count-other": "پوند اسرائیل",
-                symbol: "ILP"
+                "displayName-count-other": "پوند اسرائیل"
             },
             ILR: {
                 displayName: "شقل اسرائیل (۱۹۸۰ تا ۱۹۸۵)",
                 "displayName-count-one": "شقل اسرائیل (۱۹۸۰ تا ۱۹۸۵)",
-                "displayName-count-other": "شقل اسرائیل (۱۹۸۰ تا ۱۹۸۵)",
-                symbol: "ILR"
+                "displayName-count-other": "شقل اسرائیل (۱۹۸۰ تا ۱۹۸۵)"
             },
             ILS: {
                 displayName: "شقل جدید اسرائیل",
@@ -797,8 +630,7 @@ const data = {
             ISJ: {
                 displayName: "کرونای ایسلند (۱۹۱۸ تا ۱۹۸۱)",
                 "displayName-count-one": "کرونای ایسلند (۱۹۱۸ تا ۱۹۸۱)",
-                "displayName-count-other": "کرونای ایسلند (۱۹۱۸ تا ۱۹۸۱)",
-                symbol: "ISJ"
+                "displayName-count-other": "کرونای ایسلند (۱۹۱۸ تا ۱۹۸۱)"
             },
             ISK: {
                 displayName: "کرونای ایسلند",
@@ -810,8 +642,7 @@ const data = {
             ITL: {
                 displayName: "لیرهٔ ایتالیا",
                 "displayName-count-one": "لیرهٔ ایتالیا",
-                "displayName-count-other": "لیرهٔ ایتالیا",
-                symbol: "ITL"
+                "displayName-count-other": "لیرهٔ ایتالیا"
             },
             JMD: {
                 displayName: "دلار جامائیکا",
@@ -866,15 +697,10 @@ const data = {
                 symbol: "KPW",
                 "symbol-alt-narrow": "₩"
             },
-            KRH: {
-                displayName: "KRH",
-                symbol: "KRH"
-            },
             KRO: {
                 displayName: "وون کرهٔ جنوبی (۱۹۴۵ تا ۱۹۵۳)",
                 "displayName-count-one": "وون کرهٔ جنوبی (۱۹۴۵ تا ۱۹۵۳)",
-                "displayName-count-other": "وون کرهٔ جنوبی (۱۹۴۵ تا ۱۹۵۳)",
-                symbol: "KRO"
+                "displayName-count-other": "وون کرهٔ جنوبی (۱۹۴۵ تا ۱۹۵۳)"
             },
             KRW: {
                 displayName: "وون کرهٔ جنوبی",
@@ -945,22 +771,15 @@ const data = {
                 "symbol-alt-narrow": "Lt"
             },
             LTT: {
-                displayName: "تالوناس لیتوانی",
-                symbol: "LTT"
-            },
-            LUC: {
-                displayName: "LUC",
-                symbol: "LUC"
+                displayName: "تالوناس لیتوانی"
             },
             LUF: {
-                displayName: "فرانک لوکزامبورگ",
-                symbol: "LUF"
+                displayName: "فرانک لوکزامبورگ"
             },
             LUL: {
                 displayName: "فرانک مالی لوگزامبورگ",
                 "displayName-count-one": "فرانک مالی لوگزامبورگ",
-                "displayName-count-other": "فرانک مالی لوگزامبورگ",
-                symbol: "LUL"
+                "displayName-count-other": "فرانک مالی لوگزامبورگ"
             },
             LVL: {
                 displayName: "لاتس لتونی",
@@ -972,8 +791,7 @@ const data = {
             LVR: {
                 displayName: "روبل لتونی",
                 "displayName-count-one": "روبل لتونی",
-                "displayName-count-other": "روبل لتونی",
-                symbol: "LVR"
+                "displayName-count-other": "روبل لتونی"
             },
             LYD: {
                 displayName: "دینار لیبی",
@@ -990,18 +808,12 @@ const data = {
             MAF: {
                 displayName: "فرانک مراکش",
                 "displayName-count-one": "فرانک مراکش",
-                "displayName-count-other": "فرانک مراکش",
-                symbol: "MAF"
+                "displayName-count-other": "فرانک مراکش"
             },
             MCF: {
                 displayName: "فرانک موناکو",
                 "displayName-count-one": "فرانک موناکو",
-                "displayName-count-other": "فرانک موناکو",
-                symbol: "MCF"
-            },
-            MDC: {
-                displayName: "MDC",
-                symbol: "MDC"
+                "displayName-count-other": "فرانک موناکو"
             },
             MDL: {
                 displayName: "لئوی مولداوی",
@@ -1017,8 +829,7 @@ const data = {
                 "symbol-alt-narrow": "Ar"
             },
             MGF: {
-                displayName: "فرانک ماداگاسکار",
-                symbol: "MGF"
+                displayName: "فرانک ماداگاسکار"
             },
             MKD: {
                 displayName: "دینار مقدونیه",
@@ -1029,12 +840,10 @@ const data = {
             MKN: {
                 displayName: "دینار مقدونیه (۱۹۹۲ تا ۱۹۹۳)",
                 "displayName-count-one": "دینار مقدونیه (۱۹۹۲ تا ۱۹۹۳)",
-                "displayName-count-other": "دینار مقدونیه (۱۹۹۲ تا ۱۹۹۳)",
-                symbol: "MKN"
+                "displayName-count-other": "دینار مقدونیه (۱۹۹۲ تا ۱۹۹۳)"
             },
             MLF: {
-                displayName: "فرانک مالی",
-                symbol: "MLF"
+                displayName: "فرانک مالی"
             },
             MMK: {
                 displayName: "کیات میانمار",
@@ -1069,12 +878,10 @@ const data = {
                 symbol: "MRU"
             },
             MTL: {
-                displayName: "لیرهٔ مالت",
-                symbol: "MTL"
+                displayName: "لیرهٔ مالت"
             },
             MTP: {
-                displayName: "پوند مالت",
-                symbol: "MTP"
+                displayName: "پوند مالت"
             },
             MUR: {
                 displayName: "روپیهٔ موریس",
@@ -1086,8 +893,7 @@ const data = {
             MVP: {
                 displayName: "روپیهٔ مالدیو (۱۹۴۷ تا ۱۹۸۱)",
                 "displayName-count-one": "روپیهٔ مالدیو (۱۹۴۷ تا ۱۹۸۱)",
-                "displayName-count-other": "روپیهٔ مالدیو (۱۹۴۷ تا ۱۹۸۱)",
-                symbol: "MVP"
+                "displayName-count-other": "روپیهٔ مالدیو (۱۹۴۷ تا ۱۹۸۱)"
             },
             MVR: {
                 displayName: "روپیهٔ مالدیو",
@@ -1114,10 +920,6 @@ const data = {
                 "displayName-count-other": "پزوی نقرهٔ مکزیک (۱۸۶۱ تا ۱۹۹۲)",
                 symbol: "MXP"
             },
-            MXV: {
-                displayName: "MXV",
-                symbol: "MXV"
-            },
             MYR: {
                 displayName: "رینگیت مالزی",
                 "displayName-count-one": "رینگیت مالزی",
@@ -1126,12 +928,7 @@ const data = {
                 "symbol-alt-narrow": "RM"
             },
             MZE: {
-                displayName: "اسکودوی موزامبیک",
-                symbol: "MZE"
-            },
-            MZM: {
-                displayName: "MZM",
-                symbol: "MZM"
+                displayName: "اسکودوی موزامبیک"
             },
             MZN: {
                 displayName: "متیکال موزامبیک",
@@ -1153,10 +950,6 @@ const data = {
                 symbol: "NGN",
                 "symbol-alt-narrow": "₦"
             },
-            NIC: {
-                displayName: "NIC",
-                symbol: "NIC"
-            },
             NIO: {
                 displayName: "کوردوبای نیکاراگوئه",
                 "displayName-count-one": "کوردوبای نیکاراگوئه",
@@ -1167,8 +960,7 @@ const data = {
             NLG: {
                 displayName: "گیلدر هلند",
                 "displayName-count-one": "گیلدر هلند",
-                "displayName-count-other": "گیلدر هلند",
-                symbol: "NLG"
+                "displayName-count-other": "گیلدر هلند"
             },
             NOK: {
                 displayName: "کرون نروژ",
@@ -1206,8 +998,7 @@ const data = {
             PEI: {
                 displayName: "اینتی پرو",
                 "displayName-count-one": "اینتی پرو",
-                "displayName-count-other": "اینتی پرو",
-                symbol: "PEI"
+                "displayName-count-other": "اینتی پرو"
             },
             PEN: {
                 displayName: "سول پرو",
@@ -1218,8 +1009,7 @@ const data = {
             PES: {
                 displayName: "سول پرو (۱۸۶۳ تا ۱۹۶۵)",
                 "displayName-count-one": "سول پرو (۱۸۶۳ تا ۱۹۶۵)",
-                "displayName-count-other": "سول پرو (۱۸۶۳ تا ۱۹۶۵)",
-                symbol: "PES"
+                "displayName-count-other": "سول پرو (۱۸۶۳ تا ۱۹۶۵)"
             },
             PGK: {
                 displayName: "کینای پاپوا گینهٔ نو",
@@ -1248,15 +1038,10 @@ const data = {
                 symbol: "PLN",
                 "symbol-alt-narrow": "zł"
             },
-            PLZ: {
-                displayName: "PLZ",
-                symbol: "PLZ"
-            },
             PTE: {
                 displayName: "اسکودوی پرتغال",
                 "displayName-count-one": "اسکودوی پرتغال",
-                "displayName-count-other": "اسکودوی پرتغال",
-                symbol: "PTE"
+                "displayName-count-other": "اسکودوی پرتغال"
             },
             PYG: {
                 displayName: "گوارانی پاراگوئه",
@@ -1272,12 +1057,7 @@ const data = {
                 symbol: "QAR"
             },
             RHD: {
-                displayName: "دلار رودزیا",
-                symbol: "RHD"
-            },
-            ROL: {
-                displayName: "ROL",
-                symbol: "ROL"
+                displayName: "دلار رودزیا"
             },
             RON: {
                 displayName: "لئوی رومانی",
@@ -1303,8 +1083,7 @@ const data = {
             RUR: {
                 displayName: "روبل روسیه (۱۹۹۱ تا ۱۹۹۸)",
                 "displayName-count-one": "روبل روسیه (۱۹۹۱ تا ۱۹۹۸)",
-                "displayName-count-other": "روبل روسیه (۱۹۹۱ تا ۱۹۹۸)",
-                symbol: "RUR"
+                "displayName-count-other": "روبل روسیه (۱۹۹۱ تا ۱۹۹۸)"
             },
             RWF: {
                 displayName: "فرانک رواندا",
@@ -1335,18 +1114,13 @@ const data = {
             SDD: {
                 displayName: "دینار سودان (۱۹۹۲ تا ۲۰۰۷)",
                 "displayName-count-one": "دینار سودان (۱۹۹۲ تا ۲۰۰۷)",
-                "displayName-count-other": "دینار سودان (۱۹۹۲ تا ۲۰۰۷)",
-                symbol: "SDD"
+                "displayName-count-other": "دینار سودان (۱۹۹۲ تا ۲۰۰۷)"
             },
             SDG: {
                 displayName: "پوند سودان",
                 "displayName-count-one": "پوند سودان",
                 "displayName-count-other": "پوند سودان",
                 symbol: "SDG"
-            },
-            SDP: {
-                displayName: "SDP",
-                symbol: "SDP"
             },
             SEK: {
                 displayName: "کرون سوئد",
@@ -1368,18 +1142,6 @@ const data = {
                 "displayName-count-other": "پوند سنت هلن",
                 symbol: "SHP",
                 "symbol-alt-narrow": "£"
-            },
-            SIT: {
-                displayName: "SIT",
-                symbol: "SIT"
-            },
-            SKK: {
-                displayName: "SKK",
-                symbol: "SKK"
-            },
-            SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
             },
             SLL: {
                 displayName: "لئون سیرالئون",
@@ -1403,8 +1165,7 @@ const data = {
             SRG: {
                 displayName: "گیلدر سورینام",
                 "displayName-count-one": "گیلدر سورینام",
-                "displayName-count-other": "گیلدر سورینام",
-                symbol: "SRG"
+                "displayName-count-other": "گیلدر سورینام"
             },
             SSP: {
                 displayName: "پوند سودان جنوبی",
@@ -1429,12 +1190,7 @@ const data = {
             SUR: {
                 displayName: "روبل شوروی",
                 "displayName-count-one": "روبل شوروی",
-                "displayName-count-other": "روبل شوروی",
-                symbol: "SUR"
-            },
-            SVC: {
-                displayName: "SVC",
-                symbol: "SVC"
+                "displayName-count-other": "روبل شوروی"
             },
             SYP: {
                 displayName: "لیرهٔ سوریه",
@@ -1459,8 +1215,7 @@ const data = {
             TJR: {
                 displayName: "روبل تاجیکستان",
                 "displayName-count-one": "روبل تاجیکستان",
-                "displayName-count-other": "روبل تاجیکستان",
-                symbol: "TJR"
+                "displayName-count-other": "روبل تاجیکستان"
             },
             TJS: {
                 displayName: "سامانی تاجیکستان",
@@ -1471,8 +1226,7 @@ const data = {
             TMM: {
                 displayName: "منات ترکمنستان (۱۹۹۳ تا ۲۰۰۹)",
                 "displayName-count-one": "منات ترکمنستان (۱۹۹۳ تا ۲۰۰۹)",
-                "displayName-count-other": "منات ترکمنستان (۱۹۹۳ تا ۲۰۰۹)",
-                symbol: "TMM"
+                "displayName-count-other": "منات ترکمنستان (۱۹۹۳ تا ۲۰۰۹)"
             },
             TMT: {
                 displayName: "منات ترکمنستان",
@@ -1494,14 +1248,12 @@ const data = {
                 "symbol-alt-narrow": "T$"
             },
             TPE: {
-                displayName: "اسکودوی تیمور",
-                symbol: "TPE"
+                displayName: "اسکودوی تیمور"
             },
             TRL: {
                 displayName: "لیرهٔ ترکیه (۱۹۲۲ تا ۲۰۰۵)",
                 "displayName-count-one": "لیرهٔ ترکیه (۱۹۲۲ تا ۲۰۰۵)",
-                "displayName-count-other": "لیرهٔ ترکیه (۱۹۲۲ تا ۲۰۰۵)",
-                symbol: "TRL"
+                "displayName-count-other": "لیرهٔ ترکیه (۱۹۲۲ تا ۲۰۰۵)"
             },
             TRY: {
                 displayName: "لیرهٔ ترکیه",
@@ -1538,13 +1290,8 @@ const data = {
                 symbol: "UAH",
                 "symbol-alt-narrow": "₴"
             },
-            UAK: {
-                displayName: "UAK",
-                symbol: "UAK"
-            },
             UGS: {
-                displayName: "شیلینگ اوگاندا (۱۹۶۶ تا ۱۹۸۷)",
-                symbol: "UGS"
+                displayName: "شیلینگ اوگاندا (۱۹۶۶ تا ۱۹۸۷)"
             },
             UGX: {
                 displayName: "شیلینگ اوگاندا",
@@ -1571,13 +1318,8 @@ const data = {
                 "displayName-count-other": "دلار امریکا (همان روز)",
                 symbol: "USS"
             },
-            UYI: {
-                displayName: "UYI",
-                symbol: "UYI"
-            },
             UYP: {
-                displayName: "پزوی اوروگوئه (۱۹۷۵ تا ۱۹۹۳)",
-                symbol: "UYP"
+                displayName: "پزوی اوروگوئه (۱۹۷۵ تا ۱۹۹۳)"
             },
             UYU: {
                 displayName: "پزوی اوروگوئه",
@@ -1585,10 +1327,6 @@ const data = {
                 "displayName-count-other": "پزوی اوروگوئه",
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
-            },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
             },
             UZS: {
                 displayName: "سوم ازبکستان",
@@ -1599,12 +1337,7 @@ const data = {
             VEB: {
                 displayName: "بولیوار ونزوئلا (۱۸۷۱ تا ۲۰۰۸)",
                 "displayName-count-one": "بولیوار ونزوئلا (۱۸۷۱ تا ۲۰۰۸)",
-                "displayName-count-other": "بولیوار ونزوئلا (۱۸۷۱ تا ۲۰۰۸)",
-                symbol: "VEB"
-            },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
+                "displayName-count-other": "بولیوار ونزوئلا (۱۸۷۱ تا ۲۰۰۸)"
             },
             VEF: {
                 displayName: "بولیوار ونزوئلا (۲۰۰۸ تا ۲۰۱۸)",
@@ -1625,10 +1358,6 @@ const data = {
                 "displayName-count-other": "دانگ ویتنام",
                 symbol: "₫",
                 "symbol-alt-narrow": "₫"
-            },
-            VNN: {
-                displayName: "VNN",
-                symbol: "VNN"
             },
             VUV: {
                 displayName: "واتوی وانوواتو",
@@ -1651,30 +1380,12 @@ const data = {
             XAG: {
                 displayName: "نقره",
                 "displayName-count-one": "اونس تروا نقره",
-                "displayName-count-other": "اونس تروا نقره",
-                symbol: "XAG"
+                "displayName-count-other": "اونس تروا نقره"
             },
             XAU: {
                 displayName: "طلا",
                 "displayName-count-one": "اونس تروا طلا",
-                "displayName-count-other": "اونس تروا طلا",
-                symbol: "XAU"
-            },
-            XBA: {
-                displayName: "XBA",
-                symbol: "XBA"
-            },
-            XBB: {
-                displayName: "XBB",
-                symbol: "XBB"
-            },
-            XBC: {
-                displayName: "XBC",
-                symbol: "XBC"
-            },
-            XBD: {
-                displayName: "XBD",
-                symbol: "XBD"
+                "displayName-count-other": "اونس تروا طلا"
             },
             XCD: {
                 displayName: "دلار شرق کارائیب",
@@ -1683,23 +1394,10 @@ const data = {
                 symbol: "$EC",
                 "symbol-alt-narrow": "$"
             },
-            XDR: {
-                displayName: "XDR",
-                symbol: "XDR"
-            },
-            XEU: {
-                displayName: "XEU",
-                symbol: "XEU"
-            },
             XFO: {
                 displayName: "فرانک طلای فرانسه",
                 "displayName-count-one": "فرانک طلای فرانسه",
-                "displayName-count-other": "فرانک طلای فرانسه",
-                symbol: "XFO"
-            },
-            XFU: {
-                displayName: "XFU",
-                symbol: "XFU"
+                "displayName-count-other": "فرانک طلای فرانسه"
             },
             XOF: {
                 displayName: "فرانک CFA غرب افریقا",
@@ -1708,8 +1406,7 @@ const data = {
                 symbol: "فرانک CFA"
             },
             XPD: {
-                displayName: "پالادیم",
-                symbol: "XPD"
+                displayName: "پالادیم"
             },
             XPF: {
                 displayName: "فرانک اقیانوسیه",
@@ -1720,26 +1417,12 @@ const data = {
             XPT: {
                 displayName: "پلاتین",
                 "displayName-count-one": "اونس تروا پلاتین",
-                "displayName-count-other": "اونس تروا پلاتین",
-                symbol: "XPT"
-            },
-            XRE: {
-                displayName: "XRE",
-                symbol: "XRE"
-            },
-            XSU: {
-                displayName: "XSU",
-                symbol: "XSU"
+                "displayName-count-other": "اونس تروا پلاتین"
             },
             XTS: {
                 displayName: "ارز آزمایشی",
                 "displayName-count-one": "واحد ارز آزمایشی",
-                "displayName-count-other": "واحد ارز آزمایشی",
-                symbol: "XTS"
-            },
-            XUA: {
-                displayName: "XUA",
-                symbol: "XUA"
+                "displayName-count-other": "واحد ارز آزمایشی"
             },
             XXX: {
                 displayName: "ارز نامشخص",
@@ -1750,34 +1433,13 @@ const data = {
             YDD: {
                 displayName: "دینار یمن",
                 "displayName-count-one": "دینار یمن",
-                "displayName-count-other": "دینار یمن",
-                symbol: "YDD"
+                "displayName-count-other": "دینار یمن"
             },
             YER: {
                 displayName: "ریال یمن",
                 "displayName-count-one": "ریال یمن",
                 "displayName-count-other": "ریال یمن",
                 symbol: "YER"
-            },
-            YUD: {
-                displayName: "YUD",
-                symbol: "YUD"
-            },
-            YUM: {
-                displayName: "YUM",
-                symbol: "YUM"
-            },
-            YUN: {
-                displayName: "YUN",
-                symbol: "YUN"
-            },
-            YUR: {
-                displayName: "YUR",
-                symbol: "YUR"
-            },
-            ZAL: {
-                displayName: "ZAL",
-                symbol: "ZAL"
             },
             ZAR: {
                 displayName: "راند افریقای جنوبی",
@@ -1787,8 +1449,7 @@ const data = {
                 "symbol-alt-narrow": "R"
             },
             ZMK: {
-                displayName: "کواچای زامبیا (۱۹۶۸ تا ۲۰۱۲)",
-                symbol: "ZMK"
+                displayName: "کواچای زامبیا (۱۹۶۸ تا ۲۰۱۲)"
             },
             ZMW: {
                 displayName: "کواچای زامبیا",
@@ -1797,25 +1458,14 @@ const data = {
                 symbol: "ZMW",
                 "symbol-alt-narrow": "ZK"
             },
-            ZRN: {
-                displayName: "ZRN",
-                symbol: "ZRN"
-            },
-            ZRZ: {
-                displayName: "ZRZ",
-                symbol: "ZRZ"
-            },
             ZWD: {
-                displayName: "دلار زیمبابوه (۱۹۸۰ تا ۲۰۰۸)",
-                symbol: "ZWD"
+                displayName: "دلار زیمبابوه (۱۹۸۰ تا ۲۰۰۸)"
             },
             ZWL: {
-                displayName: "دلار زیمبابوه (۲۰۰۹)",
-                symbol: "ZWL"
+                displayName: "دلار زیمبابوه (۲۰۰۹)"
             },
             ZWR: {
-                displayName: "دلار زیمبابوه (۲۰۰۸)",
-                symbol: "ZWR"
+                displayName: "دلار زیمبابوه (۲۰۰۸)"
             }
         },
         localeCurrency: "IRR"

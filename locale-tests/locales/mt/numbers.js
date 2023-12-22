@@ -53,6 +53,7 @@ const data = {
                 3
             ],
             "unitPattern-count-one": "n $",
+            "unitPattern-count-two": "n $",
             "unitPattern-count-few": "n $",
             "unitPattern-count-many": "n $",
             "unitPattern-count-other": "n $"

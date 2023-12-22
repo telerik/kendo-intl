@@ -63,8 +63,7 @@ const data = {
         },
         currencies: {
             ADP: {
-                displayName: "ເປເຊຕາ ອັນໂດລາ",
-                symbol: "ADP"
+                displayName: "ເປເຊຕາ ອັນໂດລາ"
             },
             AED: {
                 displayName: "ສະ​ຫະ​ລັດ​ອາ​ຣັບ​ອາ​ມິ​ເຣດ ເດີ​ແຮມ",
@@ -72,18 +71,13 @@ const data = {
                 symbol: "AED"
             },
             AFA: {
-                displayName: "ອັບການິ ອັບການິສະຖານ (1927–2002)",
-                symbol: "AFA"
+                displayName: "ອັບການິ ອັບການິສະຖານ (1927–2002)"
             },
             AFN: {
                 displayName: "ອັຟ​ກັນ ອັຟ​ກາ​ນິ",
                 "displayName-count-other": "ອັຟ​ກັນ ອັຟ​ກາ​ນິ",
                 symbol: "AFN",
                 "symbol-alt-narrow": "؋"
-            },
-            ALK: {
-                displayName: "ALK",
-                symbol: "ALK"
             },
             ALL: {
                 displayName: "ອັລ​ບາ​ນຽນ ເລກ",
@@ -108,32 +102,25 @@ const data = {
                 "symbol-alt-narrow": "Kz"
             },
             AOK: {
-                displayName: "ກວານຊາ ແອງໂກລາ (1977–1991)",
-                symbol: "AOK"
+                displayName: "ກວານຊາ ແອງໂກລາ (1977–1991)"
             },
             AON: {
-                displayName: "ກວານຊາ ແອງໂກລາ ໃໝ່ (1995–1999)",
-                symbol: "AON"
+                displayName: "ກວານຊາ ແອງໂກລາ ໃໝ່ (1995–1999)"
             },
             AOR: {
-                displayName: "ກວານຊາກທີ່ແກ້ໄຂໃໝ່ ແອງກູລາ (1995–1999)",
-                symbol: "AOR"
+                displayName: "ກວານຊາກທີ່ແກ້ໄຂໃໝ່ ແອງກູລາ (1995–1999)"
             },
             ARA: {
-                displayName: "ອອສຕຣານ ອາກຊັງຕິນ",
-                symbol: "ARA"
+                displayName: "ອອສຕຣານ ອາກຊັງຕິນ"
             },
             ARL: {
-                displayName: "ເປໂຊເລ ອາກຊັງຕິນ (1970–1983)",
-                symbol: "ARL"
+                displayName: "ເປໂຊເລ ອາກຊັງຕິນ (1970–1983)"
             },
             ARM: {
-                displayName: "ເປໂຊ ອາກຊັງຕິນ (1881–1970)",
-                symbol: "ARM"
+                displayName: "ເປໂຊ ອາກຊັງຕິນ (1881–1970)"
             },
             ARP: {
-                displayName: "ເປໂຊ ອາກຊັງຕິນ (1983–1985)",
-                symbol: "ARP"
+                displayName: "ເປໂຊ ອາກຊັງຕິນ (1983–1985)"
             },
             ARS: {
                 displayName: "ອາ​ເຈນ​ທິ​ນາ ເປ​ໂຊ",
@@ -142,8 +129,7 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             ATS: {
-                displayName: "ຊິລລິງ ອົດສະຕາລີ",
-                symbol: "ATS"
+                displayName: "ຊິລລິງ ອົດສະຕາລີ"
             },
             AUD: {
                 displayName: "ອອສ​ເຕຣ​ລຽນ ໂດ​ລ່າ",
@@ -157,8 +143,7 @@ const data = {
                 symbol: "AWG"
             },
             AZM: {
-                displayName: "ມານັດ ອາແຊກບາຍຊານ (1993–2006)",
-                symbol: "AZM"
+                displayName: "ມານັດ ອາແຊກບາຍຊານ (1993–2006)"
             },
             AZN: {
                 displayName: "ອາ​ເຊີ​ໄບ​ຈາ​ນິ ມາ​ນັດ",
@@ -167,8 +152,7 @@ const data = {
                 "symbol-alt-narrow": "₼"
             },
             BAD: {
-                displayName: "ດີນາ ບອສເນຍ ເຮີເຊໂບວາເນຍ (1992–1994)",
-                symbol: "BAD"
+                displayName: "ດີນາ ບອສເນຍ ເຮີເຊໂບວາເນຍ (1992–1994)"
             },
             BAM: {
                 displayName: "ບອ​ສ​ເນຍ-ເຮີ​ເຊ​ໂກວິ​ນາ ຄອນ​ເວີດ​ຕິ​ໂບ ມາກ",
@@ -177,8 +161,7 @@ const data = {
                 "symbol-alt-narrow": "KM"
             },
             BAN: {
-                displayName: "ດີນາໃໝ່ ບອສເນຍ ເຮີເຊໂບວີນາ(1994–1997)",
-                symbol: "BAN"
+                displayName: "ດີນາໃໝ່ ບອສເນຍ ເຮີເຊໂບວີນາ(1994–1997)"
             },
             BBD: {
                 displayName: "ໂດລ່າ ບາບາດຽນ",
@@ -193,24 +176,19 @@ const data = {
                 "symbol-alt-narrow": "৳"
             },
             BEC: {
-                displayName: "ຟຣັງ ບູນກາລີ (ປ່ຽນແປງໄດ້)",
-                symbol: "BEC"
+                displayName: "ຟຣັງ ບູນກາລີ (ປ່ຽນແປງໄດ້)"
             },
             BEF: {
-                displayName: "ຟຣັງ ບູນກາລີ",
-                symbol: "BEF"
+                displayName: "ຟຣັງ ບູນກາລີ"
             },
             BEL: {
-                displayName: "ຟຣັງ ບູນກາລີ (ການເງິນ)",
-                symbol: "BEL"
+                displayName: "ຟຣັງ ບູນກາລີ (ການເງິນ)"
             },
             BGL: {
-                displayName: "ຮາດເລບ ບູນກາລີ",
-                symbol: "BGL"
+                displayName: "ຮາດເລບ ບູນກາລີ"
             },
             BGM: {
-                displayName: "ເລບ ສັງຄົມບູນກາລີ",
-                symbol: "BGM"
+                displayName: "ເລບ ສັງຄົມບູນກາລີ"
             },
             BGN: {
                 displayName: "ບັງ​ກາ​ຣຽນ ເລບ",
@@ -218,8 +196,7 @@ const data = {
                 symbol: "BGN"
             },
             BGO: {
-                displayName: "ເລບ ບູນກາລີ (1879–1952)",
-                symbol: "BGO"
+                displayName: "ເລບ ບູນກາລີ (1879–1952)"
             },
             BHD: {
                 displayName: "ບາ​ໄຣ​ນິ ດິ​ນາ",
@@ -250,28 +227,22 @@ const data = {
                 "symbol-alt-narrow": "Bs"
             },
             BOL: {
-                displayName: "ໂລລິເວຍໂນ ໂລລິເວຍ (1863–1963)",
-                symbol: "BOL"
+                displayName: "ໂລລິເວຍໂນ ໂລລິເວຍ (1863–1963)"
             },
             BOP: {
-                displayName: "ເປໂຊໂລລິເວຍ",
-                symbol: "BOP"
+                displayName: "ເປໂຊໂລລິເວຍ"
             },
             BOV: {
-                displayName: "ມະດອນ ໂລລິເວຍ",
-                symbol: "BOV"
+                displayName: "ມະດອນ ໂລລິເວຍ"
             },
             BRB: {
-                displayName: "ກຣູເຊໂດບາຊິ ໃໝ່ (1967–1986)",
-                symbol: "BRB"
+                displayName: "ກຣູເຊໂດບາຊິ ໃໝ່ (1967–1986)"
             },
             BRC: {
-                displayName: "ກຣູຊາໂດບາຊິວ (1986–1989)",
-                symbol: "BRC"
+                displayName: "ກຣູຊາໂດບາຊິວ (1986–1989)"
             },
             BRE: {
-                displayName: "ກຣູເຊໂຣ ບາຊິ ກຣູໂຊ ບາຊິວ (1993–1994)",
-                symbol: "BRE"
+                displayName: "ກຣູເຊໂຣ ບາຊິ ກຣູໂຊ ບາຊິວ (1993–1994)"
             },
             BRL: {
                 displayName: "ບຣາ​ຊິ​ລຽນ ຣຽວ",
@@ -280,16 +251,13 @@ const data = {
                 "symbol-alt-narrow": "R$"
             },
             BRN: {
-                displayName: "ກຣູຊາໂດ ບາຊິວ ໃໝ່ (1989–1990)",
-                symbol: "BRN"
+                displayName: "ກຣູຊາໂດ ບາຊິວ ໃໝ່ (1989–1990)"
             },
             BRR: {
-                displayName: "ກຣູເຊໂຣ ບາຊິວ (1993–1994)",
-                symbol: "BRR"
+                displayName: "ກຣູເຊໂຣ ບາຊິວ (1993–1994)"
             },
             BRZ: {
-                displayName: "ກຣູເຊໂຣ ບາຊິວ (1942–1967)",
-                symbol: "BRZ"
+                displayName: "ກຣູເຊໂຣ ບາຊິວ (1942–1967)"
             },
             BSD: {
                 displayName: "ໂດລ່າ ບາຮາມຽນ",
@@ -303,8 +271,7 @@ const data = {
                 symbol: "BTN"
             },
             BUK: {
-                displayName: "ຈາດ ພະມ້າ",
-                symbol: "BUK"
+                displayName: "ຈາດ ພະມ້າ"
             },
             BWP: {
                 displayName: "ບອດ​ສະ​ວາ​ນານ ພູ​ລາ",
@@ -313,8 +280,7 @@ const data = {
                 "symbol-alt-narrow": "P"
             },
             BYB: {
-                displayName: "ຣູໂບ ເບຣາຣຸສ ໃໝ່(1994–1999)",
-                symbol: "BYB"
+                displayName: "ຣູໂບ ເບຣາຣຸສ ໃໝ່(1994–1999)"
             },
             BYN: {
                 displayName: "ເບ​ລາ​ຣຸ​ສ​ຊຽນ ຣູ​ເບິນ",
@@ -345,8 +311,7 @@ const data = {
                 symbol: "CDF"
             },
             CHE: {
-                displayName: "ເອີໂຣ WIR",
-                symbol: "CHE"
+                displayName: "ເອີໂຣ WIR"
             },
             CHF: {
                 displayName: "ສະ​ວິ​ສ ຟ​ຣັງ",
@@ -354,16 +319,13 @@ const data = {
                 symbol: "CHF"
             },
             CHW: {
-                displayName: "ຟຣັງ WIR",
-                symbol: "CHW"
+                displayName: "ຟຣັງ WIR"
             },
             CLE: {
-                displayName: "ເອສກູໂດ ຊິລີ",
-                symbol: "CLE"
+                displayName: "ເອສກູໂດ ຊິລີ"
             },
             CLF: {
-                displayName: "ຫົວໜ່ວຍບັນຊີ (UF) ຊິລີ",
-                symbol: "CLF"
+                displayName: "ຫົວໜ່ວຍບັນຊີ (UF) ຊິລີ"
             },
             CLP: {
                 displayName: "ຊິ​ລຽນ ເປ​ໂຊ",
@@ -375,10 +337,6 @@ const data = {
                 displayName: "ຢວນຈີນ (ນອກປະເທດ)",
                 "displayName-count-other": "ຢວນຈີນ (ນອກປະເທດ)",
                 symbol: "CNH"
-            },
-            CNX: {
-                displayName: "CNX",
-                symbol: "CNX"
             },
             CNY: {
                 displayName: "ຈີນ ຢວນ",
@@ -393,8 +351,7 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             COU: {
-                displayName: "ຫົວໜ່ວຍຄ່າຈິງ ໂຄລັມເບຍ",
-                symbol: "COU"
+                displayName: "ຫົວໜ່ວຍຄ່າຈິງ ໂຄລັມເບຍ"
             },
             CRC: {
                 displayName: "ໂຄສຕາ ຣິກັນ ໂຄລອນ",
@@ -403,12 +360,10 @@ const data = {
                 "symbol-alt-narrow": "₡"
             },
             CSD: {
-                displayName: "ດີນາ ເຊີເບຍ (2002–2006)",
-                symbol: "CSD"
+                displayName: "ດີນາ ເຊີເບຍ (2002–2006)"
             },
             CSK: {
-                displayName: "ຮາດໂກຣູນາ ເຊັກໂກສະໂລວັກ",
-                symbol: "CSK"
+                displayName: "ຮາດໂກຣູນາ ເຊັກໂກສະໂລວັກ"
             },
             CUC: {
                 displayName: "ຄິວແບນ ຄອນເວີດຕິໂບ ເປໂຊ",
@@ -428,8 +383,7 @@ const data = {
                 symbol: "CVE"
             },
             CYP: {
-                displayName: "ປອນ ໄຊປຣັດ",
-                symbol: "CYP"
+                displayName: "ປອນ ໄຊປຣັດ"
             },
             CZK: {
                 displayName: "ເຊກ ໂຄ​ຣູ​ນາ",
@@ -438,12 +392,10 @@ const data = {
                 "symbol-alt-narrow": "Kč"
             },
             DDM: {
-                displayName: "ມາກ ເຢຍລະມັນ ຕາເວັນອອກ",
-                symbol: "DDM"
+                displayName: "ມາກ ເຢຍລະມັນ ຕາເວັນອອກ"
             },
             DEM: {
-                displayName: "ມາກ ເຢຍລະມັນ",
-                symbol: "DEM"
+                displayName: "ມາກ ເຢຍລະມັນ"
             },
             DJF: {
                 displayName: "​ດິ​ບູ​ຈຽນ ຟຣັງ",
@@ -468,16 +420,13 @@ const data = {
                 symbol: "DZD"
             },
             ECS: {
-                displayName: "ຊູເກ ເອກາວາດໍ",
-                symbol: "ECS"
+                displayName: "ຊູເກ ເອກາວາດໍ"
             },
             ECV: {
-                displayName: "ຫົວໜ່ວຍຄ່າຄົງທີ່ຂອງເອກາວາດໍ",
-                symbol: "ECV"
+                displayName: "ຫົວໜ່ວຍຄ່າຄົງທີ່ຂອງເອກາວາດໍ"
             },
             EEK: {
-                displayName: "ຄຣູນເອສ ໂຕເນຍ",
-                symbol: "EEK"
+                displayName: "ຄຣູນເອສ ໂຕເນຍ"
             },
             EGP: {
                 displayName: "ອີ​ຢິບ​ທຽນ ພາວດ໌",
@@ -491,16 +440,13 @@ const data = {
                 symbol: "ERN"
             },
             ESA: {
-                displayName: "ເປເຊຕາສະເປັນ (ບັນຊີ)",
-                symbol: "ESA"
+                displayName: "ເປເຊຕາສະເປັນ (ບັນຊີ)"
             },
             ESB: {
-                displayName: "ເປເຊຕາສະເປນ (ປ່ຽນແປງໄດ້)",
-                symbol: "ESB"
+                displayName: "ເປເຊຕາສະເປນ (ປ່ຽນແປງໄດ້)"
             },
             ESP: {
                 displayName: "ເປເຊຕາ ສະເປນ",
-                symbol: "ESP",
                 "symbol-alt-narrow": "₧"
             },
             ETB: {
@@ -515,8 +461,7 @@ const data = {
                 "symbol-alt-narrow": "€"
             },
             FIM: {
-                displayName: "ມາກກາ ຟິນແລນ",
-                symbol: "FIM"
+                displayName: "ມາກກາ ຟິນແລນ"
             },
             FJD: {
                 displayName: "ຟິ​ຈຽນ ໂດ​ລ່າ",
@@ -531,8 +476,7 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             FRF: {
-                displayName: "ຟຣັງ ຝຣັ່ງ",
-                symbol: "FRF"
+                displayName: "ຟຣັງ ຝຣັ່ງ"
             },
             GBP: {
                 displayName: "ອັງກິດ ປອນ",
@@ -541,8 +485,7 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             GEK: {
-                displayName: "ກູປອນ ລາຣິທ ຈໍເຈຍ",
-                symbol: "GEK"
+                displayName: "ກູປອນ ລາຣິທ ຈໍເຈຍ"
             },
             GEL: {
                 displayName: "ຈໍ​ຈຽນ ລາ​ຣິ",
@@ -552,8 +495,7 @@ const data = {
                 "symbol-alt-variant": "ລາຣີ"
             },
             GHC: {
-                displayName: "ເຊດີ ການາ (1979–2007)",
-                symbol: "GHC"
+                displayName: "ເຊດີ ການາ (1979–2007)"
             },
             GHS: {
                 displayName: "ກາ​ນາ​ອຽນ ເຊ​ດິ",
@@ -579,16 +521,13 @@ const data = {
                 "symbol-alt-narrow": "FG"
             },
             GNS: {
-                displayName: "ໄຊລິ ກີນີ",
-                symbol: "GNS"
+                displayName: "ໄຊລິ ກີນີ"
             },
             GQE: {
-                displayName: "ເອັກເວເລ ອີຄວາຕິຣຽວ ກິນີ",
-                symbol: "GQE"
+                displayName: "ເອັກເວເລ ອີຄວາຕິຣຽວ ກິນີ"
             },
             GRD: {
-                displayName: "ດາກຊະມາ ເກຣັກ",
-                symbol: "GRD"
+                displayName: "ດາກຊະມາ ເກຣັກ"
             },
             GTQ: {
                 displayName: "ກົວເຕມາລານ ເຄັດຊອນ",
@@ -597,12 +536,10 @@ const data = {
                 "symbol-alt-narrow": "Q"
             },
             GWE: {
-                displayName: "ເອສກູໂດ ກີນີໂປຕູເກດ",
-                symbol: "GWE"
+                displayName: "ເອສກູໂດ ກີນີໂປຕູເກດ"
             },
             GWP: {
-                displayName: "ເປໂຊກິນີ-ບິສເຊົາ",
-                symbol: "GWP"
+                displayName: "ເປໂຊກິນີ-ບິສເຊົາ"
             },
             GYD: {
                 displayName: "ກາຍ​ຢາ​ນີ​ສ ໂດ​ລ່າ",
@@ -623,8 +560,7 @@ const data = {
                 "symbol-alt-narrow": "L"
             },
             HRD: {
-                displayName: "ດີນາ ໂຄຣເອເຊຍ",
-                symbol: "HRD"
+                displayName: "ດີນາ ໂຄຣເອເຊຍ"
             },
             HRK: {
                 displayName: "ໂຄຣ​ເອ​ທຽນ ຄູ​ນາ",
@@ -650,16 +586,10 @@ const data = {
                 "symbol-alt-narrow": "Rp"
             },
             IEP: {
-                displayName: "ປອນ ໄອຣິຊ",
-                symbol: "IEP"
+                displayName: "ປອນ ໄອຣິຊ"
             },
             ILP: {
-                displayName: "ປອນ ອີສະລາເອວ",
-                symbol: "ILP"
-            },
-            ILR: {
-                displayName: "ILR",
-                symbol: "ILR"
+                displayName: "ປອນ ອີສະລາເອວ"
             },
             ILS: {
                 displayName: "ອິສ​ຣາ​ເອວ​ລິ ນິວ ເຊ​ເກວ",
@@ -683,10 +613,6 @@ const data = {
                 "displayName-count-other": "ອິ​ຣາ​ນິ ຣຽວ",
                 symbol: "IRR"
             },
-            ISJ: {
-                displayName: "ISJ",
-                symbol: "ISJ"
-            },
             ISK: {
                 displayName: "ໄອ​ສ໌​ແລນ​ດິກ ໂຄຣ​ນາ",
                 "displayName-count-other": "ໄອ​ສ໌​ແລນ​ດິກ ໂຄຣ​ນາ",
@@ -694,8 +620,7 @@ const data = {
                 "symbol-alt-narrow": "kr"
             },
             ITL: {
-                displayName: "ລິຣາ ອີຕາລີ",
-                symbol: "ITL"
+                displayName: "ລິຣາ ອີຕາລີ"
             },
             JMD: {
                 displayName: "​ຈາ​ໄມ​ກັນ ໂດ​ລ່າ",
@@ -743,12 +668,10 @@ const data = {
                 "symbol-alt-narrow": "₩"
             },
             KRH: {
-                displayName: "ຮາວານ ເກົາຫຼີເນື້",
-                symbol: "KRH"
+                displayName: "ຮາວານ ເກົາຫຼີເນື້"
             },
             KRO: {
-                displayName: "ວອນ ເກົາຫຼີໃຕ້ (1945–1953)",
-                symbol: "KRO"
+                displayName: "ວອນ ເກົາຫຼີໃຕ້ (1945–1953)"
             },
             KRW: {
                 displayName: "ເກົາ​ຫລີໃຕ້ ວອນ",
@@ -799,7 +722,7 @@ const data = {
             },
             LSL: {
                 displayName: "ໂລຕິ ເລໂຊໂຕ",
-                symbol: "LSL"
+                "displayName-count-other": "ໂລຕິ ເລໂຊໂຕ"
             },
             LTL: {
                 displayName: "ລິ​ທົວ​ນຽນ ລິ​ທັ​ສ",
@@ -808,20 +731,16 @@ const data = {
                 "symbol-alt-narrow": "Lt"
             },
             LTT: {
-                displayName: "ທາໂລນັສ ລິທົວເນຍ",
-                symbol: "LTT"
+                displayName: "ທາໂລນັສ ລິທົວເນຍ"
             },
             LUC: {
-                displayName: "ຟຣັງ ລຸກຊຳບວກ ທີ່ປ່ຽນແປງ",
-                symbol: "LUC"
+                displayName: "ຟຣັງ ລຸກຊຳບວກ ທີ່ປ່ຽນແປງ"
             },
             LUF: {
-                displayName: "ຟຣັງ ລຸກຊຳບວກ",
-                symbol: "LUF"
+                displayName: "ຟຣັງ ລຸກຊຳບວກ"
             },
             LUL: {
-                displayName: "ຟຣັງ ລຸກຊຳບວກ ການເງິນ",
-                symbol: "LUL"
+                displayName: "ຟຣັງ ລຸກຊຳບວກ ການເງິນ"
             },
             LVL: {
                 displayName: "ລັດ​ວຽນ ລັດ​ສ໌",
@@ -830,8 +749,7 @@ const data = {
                 "symbol-alt-narrow": "Ls"
             },
             LVR: {
-                displayName: "ຣູໂບ ລາວຽນ",
-                symbol: "LVR"
+                displayName: "ຣູໂບ ລາວຽນ"
             },
             LYD: {
                 displayName: "ລິບ​ບຽນ ດິ​ນາ",
@@ -844,16 +762,13 @@ const data = {
                 symbol: "MAD"
             },
             MAF: {
-                displayName: "ຟຣັງ ໂມຣອກໂກ",
-                symbol: "MAF"
+                displayName: "ຟຣັງ ໂມຣອກໂກ"
             },
             MCF: {
-                displayName: "ຟຣັງ ໂມດາໂກ",
-                symbol: "MCF"
+                displayName: "ຟຣັງ ໂມດາໂກ"
             },
             MDC: {
-                displayName: "ບັດປັນສ່ວນ ມອງໂດວາ",
-                symbol: "MDC"
+                displayName: "ບັດປັນສ່ວນ ມອງໂດວາ"
             },
             MDL: {
                 displayName: "ມອນ​ໂດ​ແວນ ເລ​ອູ",
@@ -867,8 +782,7 @@ const data = {
                 "symbol-alt-narrow": "Ar"
             },
             MGF: {
-                displayName: "ຟຣັງ ມາດາກັດສະກາ",
-                symbol: "MGF"
+                displayName: "ຟຣັງ ມາດາກັດສະກາ"
             },
             MKD: {
                 displayName: "ແມັກ​ເຊ​ໂດ​ນຽນ ເດ​ນາ",
@@ -876,12 +790,10 @@ const data = {
                 symbol: "MKD"
             },
             MKN: {
-                displayName: "ດີນາ ມາຊີໂດເນຍ (1992–1993)",
-                symbol: "MKN"
+                displayName: "ດີນາ ມາຊີໂດເນຍ (1992–1993)"
             },
             MLF: {
-                displayName: "ຟຣັງ ມາລີ",
-                symbol: "MLF"
+                displayName: "ຟຣັງ ມາລີ"
             },
             MMK: {
                 displayName: "ມຽນ​ມາ ຈ໊າດ",
@@ -907,26 +819,19 @@ const data = {
             },
             MRU: {
                 displayName: "ມົວ​ຣິ​ທາ​ນຽນ ອູ​ກິວ​ຢາ",
-                "displayName-count-other": "ມົວ​ຣິ​ທາ​ນຽນ ອູ​ກິວ​ຢາ",
-                symbol: "MRU"
+                "displayName-count-other": "ມົວ​ຣິ​ທາ​ນຽນ ອູ​ກິວ​ຢາ"
             },
             MTL: {
-                displayName: "ລິຣາ ມອນຕາ",
-                symbol: "MTL"
+                displayName: "ລິຣາ ມອນຕາ"
             },
             MTP: {
-                displayName: "ປອນ ມອນຕາ",
-                symbol: "MTP"
+                displayName: "ປອນ ມອນຕາ"
             },
             MUR: {
                 displayName: "ເມົາ​ຣິ​ທຽນ ຣູ​ປີ",
                 "displayName-count-other": "ເມົາ​ຣິ​ທຽນ ຣູ​ປີ",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
-            },
-            MVP: {
-                displayName: "MVP",
-                symbol: "MVP"
             },
             MVR: {
                 displayName: "ມັ​ລ​ດິ​ວຽນ ຣູ​ຟິ​ຢາ",
@@ -945,12 +850,10 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             MXP: {
-                displayName: "ຫົວໜ່ວຍເງິນ ເປໂຊ ແມັກຊິໂກ(1861–1992)",
-                symbol: "MXP"
+                displayName: "ຫົວໜ່ວຍເງິນ ເປໂຊ ແມັກຊິໂກ(1861–1992)"
             },
             MXV: {
-                displayName: "ຫົວໜ່ວຍການລົງທຶນ ແມັກຊິໂກ",
-                symbol: "MXV"
+                displayName: "ຫົວໜ່ວຍການລົງທຶນ ແມັກຊິໂກ"
             },
             MYR: {
                 displayName: "ມາ​ເລ​ເຊຍ ຣິງ​ກິດ",
@@ -959,12 +862,10 @@ const data = {
                 "symbol-alt-narrow": "RM"
             },
             MZE: {
-                displayName: "ເອສກູໂດ ໂມຊຳບິກ",
-                symbol: "MZE"
+                displayName: "ເອສກູໂດ ໂມຊຳບິກ"
             },
             MZM: {
-                displayName: "ເມຕິຄໍ ໂມຊຳບິກ (1980–2006)",
-                symbol: "MZM"
+                displayName: "ເມຕິຄໍ ໂມຊຳບິກ (1980–2006)"
             },
             MZN: {
                 displayName: "ໂມ​ແຊມ​ບິ​ກັນ ເມ​ທິ​ຄອນ",
@@ -984,8 +885,7 @@ const data = {
                 "symbol-alt-narrow": "₦"
             },
             NIC: {
-                displayName: "ຄໍໂດບາ ນິກາຣາກົວ (1988–1991)",
-                symbol: "NIC"
+                displayName: "ຄໍໂດບາ ນິກາຣາກົວ (1988–1991)"
             },
             NIO: {
                 displayName: "ນິກາຣາກວນ ໂຄໂດບາ",
@@ -994,8 +894,7 @@ const data = {
                 "symbol-alt-narrow": "C$"
             },
             NLG: {
-                displayName: "ກິລເດີ ເນເທີແລນ",
-                symbol: "NLG"
+                displayName: "ກິລເດີ ເນເທີແລນ"
             },
             NOK: {
                 displayName: "ນໍ​ເວ​ຈຽນ ​ໂຄຣນ",
@@ -1026,8 +925,7 @@ const data = {
                 symbol: "PAB"
             },
             PEI: {
-                displayName: "ອິນຕິ ເປຣູ",
-                symbol: "PEI"
+                displayName: "ອິນຕິ ເປຣູ"
             },
             PEN: {
                 displayName: "ເປ​ຣູ​ວຽນ ໂຊ​ລ໌",
@@ -1035,8 +933,7 @@ const data = {
                 symbol: "PEN"
             },
             PES: {
-                displayName: "ໂຊນ ເປຣູ (1863–1965)",
-                symbol: "PES"
+                displayName: "ໂຊນ ເປຣູ (1863–1965)"
             },
             PGK: {
                 displayName: "ປາ​ປົວ ນິວ ກິ​ນຽນ ກິ​ນາ",
@@ -1062,12 +959,10 @@ const data = {
                 "symbol-alt-narrow": "zł"
             },
             PLZ: {
-                displayName: "ຊະລອສຕີ ໂປແລນ (1950–1995)",
-                symbol: "PLZ"
+                displayName: "ຊະລອສຕີ ໂປແລນ (1950–1995)"
             },
             PTE: {
-                displayName: "ເອສກູໂດ ໂປຕູເກສ",
-                symbol: "PTE"
+                displayName: "ເອສກູໂດ ໂປຕູເກສ"
             },
             PYG: {
                 displayName: "ກວາຣານີ ປາຣາກວາຍ",
@@ -1081,12 +976,10 @@ const data = {
                 symbol: "QAR"
             },
             RHD: {
-                displayName: "ດອນລາ ໂຣດີເຊຍ",
-                symbol: "RHD"
+                displayName: "ດອນລາ ໂຣດີເຊຍ"
             },
             ROL: {
-                displayName: "ລິວ ໂຣມາເນຍເກົ່າ",
-                symbol: "ROL"
+                displayName: "ລິວ ໂຣມາເນຍເກົ່າ"
             },
             RON: {
                 displayName: "ໂຣ​ມາ​ນຽນ ເລ​ອູ",
@@ -1106,8 +999,7 @@ const data = {
                 "symbol-alt-narrow": "₽"
             },
             RUR: {
-                displayName: "ຣູໂບ ຣັດເຊຍ (1991–1998)",
-                symbol: "RUR"
+                displayName: "ຣູໂບ ຣັດເຊຍ (1991–1998)"
             },
             RWF: {
                 displayName: "ຣະ​ວັນ​ດັນ ຟຣັງ",
@@ -1132,8 +1024,7 @@ const data = {
                 symbol: "SCR"
             },
             SDD: {
-                displayName: "ດີນາ ຊູດານເກົ່າ",
-                symbol: "SDD"
+                displayName: "ດີນາ ຊູດານເກົ່າ"
             },
             SDG: {
                 displayName: "ຊູ​ດານ​ນີ​ສ ພາວດ໌",
@@ -1141,8 +1032,7 @@ const data = {
                 symbol: "SDG"
             },
             SDP: {
-                displayName: "ປອນ ຊູດານເກົ່າ",
-                symbol: "SDP"
+                displayName: "ປອນ ຊູດານເກົ່າ"
             },
             SEK: {
                 displayName: "ສະ​ວີ​ດິ​ຊ ໂຄຣ​ນາ",
@@ -1163,16 +1053,10 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             SIT: {
-                displayName: "ໂຕລາ ສະໂລວິເນຍ",
-                symbol: "SIT"
+                displayName: "ໂຕລາ ສະໂລວິເນຍ"
             },
             SKK: {
-                displayName: "ຄູໂຣນາ ສະໂລວັກ",
-                symbol: "SKK"
-            },
-            SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
+                displayName: "ຄູໂຣນາ ສະໂລວັກ"
             },
             SLL: {
                 displayName: "ເຊຍ​ນາ ​ເລໂອ​ນຽນ ເລ​ໂອນ",
@@ -1191,8 +1075,7 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             SRG: {
-                displayName: "ກິລເດີ ຊູຣິນາເມ",
-                symbol: "SRG"
+                displayName: "ກິລເດີ ຊູຣິນາເມ"
             },
             SSP: {
                 displayName: "ເຊົາ​ທ໌ ຊູ​ດານ​ນີ​ສ ພາວດ໌",
@@ -1212,12 +1095,10 @@ const data = {
                 "symbol-alt-narrow": "Db"
             },
             SUR: {
-                displayName: "ຣູໂບ ໂຊວຽດ",
-                symbol: "SUR"
+                displayName: "ຣູໂບ ໂຊວຽດ"
             },
             SVC: {
-                displayName: "ໂກລອງ ເອກາວາດໍ",
-                symbol: "SVC"
+                displayName: "ໂກລອງ ເອກາວາດໍ"
             },
             SYP: {
                 displayName: "ຊີ​ຣຽນ ພາວດ໌",
@@ -1237,8 +1118,7 @@ const data = {
                 "symbol-alt-narrow": "฿"
             },
             TJR: {
-                displayName: "ຣູໂບ ຕັຈີກິສຖານ",
-                symbol: "TJR"
+                displayName: "ຣູໂບ ຕັຈີກິສຖານ"
             },
             TJS: {
                 displayName: "ທາ​ຈິ​ກິ​​ຖາ​ນິ ໂຊ​ໂມ​ນິ",
@@ -1246,8 +1126,7 @@ const data = {
                 symbol: "TJS"
             },
             TMM: {
-                displayName: "ມານັດ ຕວກເມນິສຖານ (1966–1987)",
-                symbol: "TMM"
+                displayName: "ມານັດ ຕວກເມນິສຖານ (1966–1987)"
             },
             TMT: {
                 displayName: "ເຕີກ​ເມ​ນິ​ສ​ຖາ​ນິ ມາ​ນັດ",
@@ -1266,12 +1145,10 @@ const data = {
                 "symbol-alt-narrow": "T$"
             },
             TPE: {
-                displayName: "ເອສກູໂດ ຕີມໍ",
-                symbol: "TPE"
+                displayName: "ເອສກູໂດ ຕີມໍ"
             },
             TRL: {
-                displayName: "ລີຕາ ຕູຣາກີເກົ່າ",
-                symbol: "TRL"
+                displayName: "ລີຕາ ຕູຣາກີເກົ່າ"
             },
             TRY: {
                 displayName: "ເຕີ​ກິ​ຊ ລິ​ຣາ",
@@ -1304,12 +1181,10 @@ const data = {
                 "symbol-alt-narrow": "₴"
             },
             UAK: {
-                displayName: "ຄາໂບວາເນດ ອູແກຣນ",
-                symbol: "UAK"
+                displayName: "ຄາໂບວາເນດ ອູແກຣນ"
             },
             UGS: {
-                displayName: "ຊິນລິງ ອູກັນດາ (1966–1987)",
-                symbol: "UGS"
+                displayName: "ຊິນລິງ ອູກັນດາ (1966–1987)"
             },
             UGX: {
                 displayName: "ອູ​ກັນ​ດັນ ຊິວ​ລິງ",
@@ -1323,20 +1198,16 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             USN: {
-                displayName: "ດອນລາສະຫະລັດ (ມື້ຖັດໄປ)",
-                symbol: "USN"
+                displayName: "ດອນລາສະຫະລັດ (ມື້ຖັດໄປ)"
             },
             USS: {
-                displayName: "ດອນລາສະຫະລັດ (ມື້ດຽວກັນ)",
-                symbol: "USS"
+                displayName: "ດອນລາສະຫະລັດ (ມື້ດຽວກັນ)"
             },
             UYI: {
-                displayName: "ເປໂຊອູຣຸກວຍ (ຫົວໜ່ວຍອິນເດັກ)",
-                symbol: "UYI"
+                displayName: "ເປໂຊອູຣຸກວຍ (ຫົວໜ່ວຍອິນເດັກ)"
             },
             UYP: {
-                displayName: "ເປໂຊ ອູຣຸກວຍ (1975–1993)",
-                symbol: "UYP"
+                displayName: "ເປໂຊ ອູຣຸກວຍ (1975–1993)"
             },
             UYU: {
                 displayName: "ອູ​ຣຸ​ກົວ​ຢານ ເປ​ໂຊ",
@@ -1344,22 +1215,13 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
-            },
             UZS: {
                 displayName: "ອຸສເບກິສຖານິ ໂຊມ",
                 "displayName-count-other": "ອຸສເບກິສຖານິ ໂຊມ",
                 symbol: "UZS"
             },
             VEB: {
-                displayName: "ໂບລີວາ ເວເນຊູເອລາ (1871–2008)",
-                symbol: "VEB"
-            },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
+                displayName: "ໂບລີວາ ເວເນຊູເອລາ (1871–2008)"
             },
             VEF: {
                 displayName: "ເວ​ເນ​ຊູ​ເອ​ລັນ ໂບ​ລິ​ວາ (2008–2018)",
@@ -1379,8 +1241,7 @@ const data = {
                 "symbol-alt-narrow": "₫"
             },
             VNN: {
-                displayName: "ດົງ ຫວຽດນາມ (1978–1985)",
-                symbol: "VNN"
+                displayName: "ດົງ ຫວຽດນາມ (1978–1985)"
             },
             VUV: {
                 displayName: "​ວາ​ນົວ​ຕູ ວາ​ຕູ",
@@ -1398,28 +1259,22 @@ const data = {
                 symbol: "FCFA"
             },
             XAG: {
-                displayName: "ເງິນ",
-                symbol: "XAG"
+                displayName: "ເງິນ"
             },
             XAU: {
-                displayName: "ຄຳ",
-                symbol: "XAU"
+                displayName: "ຄຳ"
             },
             XBA: {
-                displayName: "ຫົວໜ່ວຍຄອມໂປຊິດ ເອີຣົບ",
-                symbol: "XBA"
+                displayName: "ຫົວໜ່ວຍຄອມໂປຊິດ ເອີຣົບ"
             },
             XBB: {
-                displayName: "ຫົວໜ່ວຍໂມນີແທຣີ ເອີຣົບ",
-                symbol: "XBB"
+                displayName: "ຫົວໜ່ວຍໂມນີແທຣີ ເອີຣົບ"
             },
             XBC: {
-                displayName: "ຫົວໜ່ວຍບັນຊີເອີຣົບ (XBC)",
-                symbol: "XBC"
+                displayName: "ຫົວໜ່ວຍບັນຊີເອີຣົບ (XBC)"
             },
             XBD: {
-                displayName: "ຫົວໜ່ວຍບັນຊີເອີຣົບ (XBD)",
-                symbol: "XBD"
+                displayName: "ຫົວໜ່ວຍບັນຊີເອີຣົບ (XBD)"
             },
             XCD: {
                 displayName: "ອີ​ສ ຄາ​ຣິ​ບຽນ ໂດ​ລ່າ",
@@ -1428,20 +1283,16 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             XDR: {
-                displayName: "ສິດທິຖອນເງິນພິເສດ",
-                symbol: "XDR"
+                displayName: "ສິດທິຖອນເງິນພິເສດ"
             },
             XEU: {
-                displayName: "ຫົວໜ່ວຍສະກຸນເງິນ ເອີຣົບ",
-                symbol: "XEU"
+                displayName: "ຫົວໜ່ວຍສະກຸນເງິນ ເອີຣົບ"
             },
             XFO: {
-                displayName: "ຟຣັງ ຄຳຝຣັ່ງ",
-                symbol: "XFO"
+                displayName: "ຟຣັງ ຄຳຝຣັ່ງ"
             },
             XFU: {
-                displayName: "ຟຣັງ ຢູໄອຊີ ຝຣັ່ງ",
-                symbol: "XFU"
+                displayName: "ຟຣັງ ຢູໄອຊີ ຝຣັ່ງ"
             },
             XOF: {
                 displayName: "ຟັງເຊຟານ ອາຟຣິກາຕາເວັນຕົກ",
@@ -1449,8 +1300,7 @@ const data = {
                 symbol: "F CFA"
             },
             XPD: {
-                displayName: "ແພເລດຽມ",
-                symbol: "XPD"
+                displayName: "ແພເລດຽມ"
             },
             XPF: {
                 displayName: "ຊີ​ເອັບ​ພີ ຟຣັງ",
@@ -1458,24 +1308,13 @@ const data = {
                 symbol: "CFPF"
             },
             XPT: {
-                displayName: "ແພລັດຕິນຳ",
-                symbol: "XPT"
+                displayName: "ແພລັດຕິນຳ"
             },
             XRE: {
-                displayName: "ກອງທຶນໄຣເນັດ",
-                symbol: "XRE"
-            },
-            XSU: {
-                displayName: "XSU",
-                symbol: "XSU"
+                displayName: "ກອງທຶນໄຣເນັດ"
             },
             XTS: {
-                displayName: "ລະຫັດທົດສອບສະກຸນເງິນ",
-                symbol: "XTS"
-            },
-            XUA: {
-                displayName: "XUA",
-                symbol: "XUA"
+                displayName: "ລະຫັດທົດສອບສະກຸນເງິນ"
             },
             XXX: {
                 displayName: "ສະກຸນເງິນທີ່ບໍ່ຮູ້ຈັກ",
@@ -1483,8 +1322,7 @@ const data = {
                 symbol: "¤"
             },
             YDD: {
-                displayName: "ດີນາ ເຢເມນ",
-                symbol: "YDD"
+                displayName: "ດີນາ ເຢເມນ"
             },
             YER: {
                 displayName: "ເຢ​ເມ​ນິ ຣຽວ",
@@ -1492,24 +1330,19 @@ const data = {
                 symbol: "YER"
             },
             YUD: {
-                displayName: "ຮາດດີນາ ຢູໂກສະລາວີ",
-                symbol: "YUD"
+                displayName: "ຮາດດີນາ ຢູໂກສະລາວີ"
             },
             YUM: {
-                displayName: "ດີນາໃໝ່ ຢູໂກສະລາວີ (1994–2002)",
-                symbol: "YUM"
+                displayName: "ດີນາໃໝ່ ຢູໂກສະລາວີ (1994–2002)"
             },
             YUN: {
-                displayName: "ດີນາ ທີ່ປ່ຽນສະພາບ ຢູໂກສະລາວີ (1990–1992)",
-                symbol: "YUN"
+                displayName: "ດີນາ ທີ່ປ່ຽນສະພາບ ຢູໂກສະລາວີ (1990–1992)"
             },
             YUR: {
-                displayName: "ດີນາ ປະຕິຮູບ ຢູໂກສະລາວີ (1992–1993)",
-                symbol: "YUR"
+                displayName: "ດີນາ ປະຕິຮູບ ຢູໂກສະລາວີ (1992–1993)"
             },
             ZAL: {
-                displayName: "ແຣນ ອາຟຣິກາໃຕ້ (ການເງິນ)",
-                symbol: "ZAL"
+                displayName: "ແຣນ ອາຟຣິກາໃຕ້ (ການເງິນ)"
             },
             ZAR: {
                 displayName: "ເຊົາທ໌ ອາ​ຟຣິ​ກັນ ແຣນດ໌",
@@ -1518,8 +1351,7 @@ const data = {
                 "symbol-alt-narrow": "R"
             },
             ZMK: {
-                displayName: "ຄວາຊາ ຊັມເບຍ (1968–2012)",
-                symbol: "ZMK"
+                displayName: "ຄວາຊາ ຊັມເບຍ (1968–2012)"
             },
             ZMW: {
                 displayName: "ແຊມ​ບຽນ ຄວາ​ຊາ",
@@ -1528,24 +1360,19 @@ const data = {
                 "symbol-alt-narrow": "ZK"
             },
             ZRN: {
-                displayName: "ແຊ ຄອງໂກໃໝ່",
-                symbol: "ZRN"
+                displayName: "ແຊ ຄອງໂກໃໝ່"
             },
             ZRZ: {
-                displayName: "ແຊຄອງໂກ",
-                symbol: "ZRZ"
+                displayName: "ແຊຄອງໂກ"
             },
             ZWD: {
-                displayName: "ດອນລາ ຊິມບັບເວ (1980–2008)",
-                symbol: "ZWD"
+                displayName: "ດອນລາ ຊິມບັບເວ (1980–2008)"
             },
             ZWL: {
-                displayName: "ດອນລາ ຊິມບັບເວ (2009)",
-                symbol: "ZWL"
+                displayName: "ດອນລາ ຊິມບັບເວ (2009)"
             },
             ZWR: {
-                displayName: "ດອນລາ ຊິມບັບເວ (2008)",
-                symbol: "ZWR"
+                displayName: "ດອນລາ ຊິມບັບເວ (2008)"
             }
         },
         localeCurrency: "LAK"

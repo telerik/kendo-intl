@@ -13,7 +13,7 @@ const data = {
         symbols: {
             decimal: ".",
             group: "⹁",
-            list: ";",
+            list: "⁏",
             percentSign: "%",
             plusSign: "+",
             minusSign: "-",
@@ -22,7 +22,7 @@ const data = {
             superscriptingExponent: "×",
             perMille: "‰",
             infinity: "∞",
-            nan: "𞤏𞤮𞤈",
+            nan: "NaN",
             timeSeparator: ":"
         },
         decimal: {
@@ -54,6 +54,7 @@ const data = {
             groupSize: [
                 3
             ],
+            "unitPattern-count-one": "n $",
             "unitPattern-count-other": "n $"
         },
         accounting: {
@@ -66,9 +67,9 @@ const data = {
         }
     },
     currencyData: {
-        SLL: {
+        SLE: {
             _rounding: "0",
-            _digits: "0"
+            _digits: "2"
         }
     }
 };

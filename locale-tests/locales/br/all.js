@@ -167,15 +167,12 @@ const data = {
                 symbol: "AON"
             },
             AOR: {
-                displayName: "AOR",
                 symbol: "AOR"
             },
             ARA: {
-                displayName: "ARA",
                 symbol: "ARA"
             },
             ARL: {
-                displayName: "ARL",
                 symbol: "ARL"
             },
             ARM: {
@@ -319,12 +316,7 @@ const data = {
                 "displayName-count-other": "lur Belgia",
                 symbol: "BEF"
             },
-            BEL: {
-                displayName: "BEL",
-                symbol: "BEL"
-            },
             BGL: {
-                displayName: "BGL",
                 symbol: "BGL"
             },
             BGM: {
@@ -421,19 +413,15 @@ const data = {
                 symbol: "BOP"
             },
             BOV: {
-                displayName: "BOV",
                 symbol: "BOV"
             },
             BRB: {
-                displayName: "BRB",
                 symbol: "BRB"
             },
             BRC: {
-                displayName: "BRC",
                 symbol: "BRC"
             },
             BRE: {
-                displayName: "BRE",
                 symbol: "BRE"
             },
             BRL: {
@@ -447,15 +435,12 @@ const data = {
                 "symbol-alt-narrow": "R$"
             },
             BRN: {
-                displayName: "BRN",
                 symbol: "BRN"
             },
             BRR: {
-                displayName: "BRR",
                 symbol: "BRR"
             },
             BRZ: {
-                displayName: "BRZ",
                 symbol: "BRZ"
             },
             BSD: {
@@ -614,8 +599,7 @@ const data = {
                 "displayName-count-two": "yuan Sina (diavaez)",
                 "displayName-count-few": "yuan Sina (diavaez)",
                 "displayName-count-many": "a yuanoù Sina (diavaez)",
-                "displayName-count-other": "yuan Sina (diavaez)",
-                symbol: "CNH"
+                "displayName-count-other": "yuan Sina (diavaez)"
             },
             CNX: {
                 displayName: "dollar Bank poblel Sina",
@@ -647,7 +631,6 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             COU: {
-                displayName: "COU",
                 symbol: "COU"
             },
             CRC: {
@@ -670,7 +653,6 @@ const data = {
                 symbol: "CSD"
             },
             CSK: {
-                displayName: "CSK",
                 symbol: "CSK"
             },
             CUC: {
@@ -778,11 +760,9 @@ const data = {
                 symbol: "DZD"
             },
             ECS: {
-                displayName: "ECS",
                 symbol: "ECS"
             },
             ECV: {
-                displayName: "ECV",
                 symbol: "ECV"
             },
             EEK: {
@@ -814,7 +794,6 @@ const data = {
                 symbol: "ERN"
             },
             ESA: {
-                displayName: "ESA",
                 symbol: "ESA"
             },
             ESB: {
@@ -904,7 +883,6 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             GEK: {
-                displayName: "GEK",
                 symbol: "GEK"
             },
             GEL: {
@@ -918,7 +896,6 @@ const data = {
                 "symbol-alt-narrow": "₾"
             },
             GHC: {
-                displayName: "GHC",
                 symbol: "GHC"
             },
             GHS: {
@@ -998,7 +975,6 @@ const data = {
                 "symbol-alt-narrow": "Q"
             },
             GWE: {
-                displayName: "GWE",
                 symbol: "GWE"
             },
             GWP: {
@@ -1402,7 +1378,6 @@ const data = {
                 symbol: "LUF"
             },
             LUL: {
-                displayName: "LUL",
                 symbol: "LUL"
             },
             LVL: {
@@ -1461,7 +1436,6 @@ const data = {
                 symbol: "MCF"
             },
             MDC: {
-                displayName: "MDC",
                 symbol: "MDC"
             },
             MDL: {
@@ -1563,8 +1537,7 @@ const data = {
                 "displayName-count-two": "ouguiya Maouritania",
                 "displayName-count-few": "ouguiya Maouritania",
                 "displayName-count-many": "a ouguiyaoù Maouritania",
-                "displayName-count-other": "ouguiya Maouritania",
-                symbol: "MRU"
+                "displayName-count-other": "ouguiya Maouritania"
             },
             MTL: {
                 displayName: "lira Malta",
@@ -1600,8 +1573,7 @@ const data = {
                 "displayName-count-two": "roupi Maldivez",
                 "displayName-count-few": "roupi Maldivez",
                 "displayName-count-many": "a roupioù Maldivez",
-                "displayName-count-other": "roupi Maldivez",
-                symbol: "MVP"
+                "displayName-count-other": "roupi Maldivez"
             },
             MVR: {
                 displayName: "rufiyaa Maldivez",
@@ -1641,7 +1613,6 @@ const data = {
                 symbol: "MXP"
             },
             MXV: {
-                displayName: "MXV",
                 symbol: "MXV"
             },
             MYR: {
@@ -1778,7 +1749,6 @@ const data = {
                 symbol: "PAB"
             },
             PEI: {
-                displayName: "PEI",
                 symbol: "PEI"
             },
             PEN: {
@@ -2045,10 +2015,6 @@ const data = {
                 "displayName-count-other": "kurunenn Slovakia",
                 symbol: "SKK"
             },
-            SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
-            },
             SLL: {
                 displayName: "leone Sierra Leone",
                 "displayName-count-one": "leone Sierra Leone",
@@ -2112,7 +2078,6 @@ const data = {
                 "displayName-count-few": "dobra São Tomé ha Príncipe",
                 "displayName-count-many": "a zobraoù São Tomé ha Príncipe",
                 "displayName-count-other": "dobra São Tomé ha Príncipe",
-                symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },
             SUR: {
@@ -2286,7 +2251,6 @@ const data = {
                 "symbol-alt-narrow": "₴"
             },
             UAK: {
-                displayName: "UAK",
                 symbol: "UAK"
             },
             UGS: {
@@ -2318,15 +2282,12 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             USN: {
-                displayName: "USN",
                 symbol: "USN"
             },
             USS: {
-                displayName: "USS",
                 symbol: "USS"
             },
             UYI: {
-                displayName: "UYI",
                 symbol: "UYI"
             },
             UYP: {
@@ -2348,10 +2309,6 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
-            },
             UZS: {
                 displayName: "som Ouzbekistan",
                 "displayName-count-one": "som Ouzbekistan",
@@ -2370,10 +2327,6 @@ const data = {
                 "displayName-count-other": "bolivar Venezuela (1871–2008)",
                 symbol: "VEB"
             },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
-            },
             VEF: {
                 displayName: "bolivar Venezuela (2008–2018)",
                 "displayName-count-one": "bolivar Venezuela (2008–2018)",
@@ -2390,8 +2343,7 @@ const data = {
                 "displayName-count-two": "volivar Venezuela",
                 "displayName-count-few": "bolivar Venezuela",
                 "displayName-count-many": "a volivaroù Venezuela",
-                "displayName-count-other": "bolivar Venezuela",
-                symbol: "VES"
+                "displayName-count-other": "bolivar Venezuela"
             },
             VND: {
                 displayName: "dong Viêt Nam",
@@ -2576,11 +2528,9 @@ const data = {
                 symbol: "XPT"
             },
             XRE: {
-                displayName: "XRE",
                 symbol: "XRE"
             },
             XSU: {
-                displayName: "XSU",
                 symbol: "XSU"
             },
             XTS: {
@@ -2598,8 +2548,7 @@ const data = {
                 "displayName-count-two": "unanenn jediñ BAD",
                 "displayName-count-few": "unanenn jediñ BAD",
                 "displayName-count-many": "a unanennoù jediñ BAD",
-                "displayName-count-other": "unanenn jediñ BAD",
-                symbol: "XUA"
+                "displayName-count-other": "unanenn jediñ BAD"
             },
             XXX: {
                 displayName: "moneiz dianav",
@@ -2629,7 +2578,6 @@ const data = {
                 symbol: "YER"
             },
             YUD: {
-                displayName: "YUD",
                 symbol: "YUD"
             },
             YUM: {
@@ -2660,7 +2608,6 @@ const data = {
                 symbol: "YUR"
             },
             ZAL: {
-                displayName: "ZAL",
                 symbol: "ZAL"
             },
             ZAR: {
@@ -2693,11 +2640,9 @@ const data = {
                 "symbol-alt-narrow": "ZK"
             },
             ZRN: {
-                displayName: "ZRN",
                 symbol: "ZRN"
             },
             ZRZ: {
-                displayName: "ZRZ",
                 symbol: "ZRZ"
             },
             ZWD: {
@@ -2747,8 +2692,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} 'da' {0}",
-            long: "{1} 'da' {0}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1}, {0}",
             short: "{1} {0}",
             availableFormats: {
@@ -2760,24 +2705,24 @@ const data = {
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "E d",
-                Ehm: "E h:mm a",
+                Ehm: "E h:mm a",
                 EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
                 GyMd: "GGGGG y-MM-dd",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E d MMM y G",
-                h: "h a",
+                h: "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
                 M: "MM",
                 Md: "dd/MM",

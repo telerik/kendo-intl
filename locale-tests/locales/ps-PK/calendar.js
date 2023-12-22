@@ -64,7 +64,7 @@ const data = {
                 MMMd: "MMM d",
                 MMMEd: "E, MMM d",
                 MMMMd: "MMMM d",
-                "MMMMW-count-one": "اونۍ‘ W د MMMM‘",
+                "MMMMW-count-one": "اونۍ W د MMMM",
                 "MMMMW-count-other": "اونۍ W د MMMM",
                 ms: "mm:ss",
                 y: "y",
@@ -344,13 +344,13 @@ const data = {
                 abbreviated: {
                     "0": "له میلاد وړاندې",
                     "1": "م.",
-                    "0-alt-variant": "BCE",
+                    "0-alt-variant": "له میلاد وړاندې",
                     "1-alt-variant": "ع.پ"
                 },
                 narrow: {
                     "0": "له میلاد وړاندې",
                     "1": "م.",
-                    "0-alt-variant": "BCE",
+                    "0-alt-variant": "له میلاد وړاندې",
                     "1-alt-variant": "ع.پ"
                 }
             }

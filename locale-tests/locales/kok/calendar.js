@@ -311,8 +311,8 @@ const data = {
                     pm: "p"
                 },
                 wide: {
-                    am: "AM",
-                    pm: "PM"
+                    am: "सकाळ",
+                    pm: "सांज"
                 }
             },
             "stand-alone": {
@@ -334,19 +334,19 @@ const data = {
             format: {
                 wide: {
                     "0": "क्रिस्तपूर्व",
-                    "1": "क्रिस्तशखा",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "1": "क्रिस्तशक",
+                    "0-alt-variant": "क्रिस्तपूर्व शक",
+                    "1-alt-variant": "इसवी सन"
                 },
                 abbreviated: {
                     "0": "क्रिस्तपूर्व",
-                    "1": "क्रिस्तशखा",
+                    "1": "क्रि.श.",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 },
                 narrow: {
                     "0": "क्रिस्तपूर्व",
-                    "1": "क्रिस्तशखा",
+                    "1": "क्रि.श.",
                     "0-alt-variant": "BCE",
                     "1-alt-variant": "CE"
                 }

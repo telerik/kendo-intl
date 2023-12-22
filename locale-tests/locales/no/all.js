@@ -871,8 +871,7 @@ const data = {
             ISJ: {
                 displayName: "islandske kroner (1918–1981)",
                 "displayName-count-one": "islandsk krone (1918–1981)",
-                "displayName-count-other": "islandske kroner (1918–1981)",
-                symbol: "ISJ"
+                "displayName-count-other": "islandske kroner (1918–1981)"
             },
             ISK: {
                 displayName: "islandske kroner",
@@ -1103,8 +1102,7 @@ const data = {
             MGF: {
                 displayName: "madagassiske franc",
                 "displayName-count-one": "madagassisk franc",
-                "displayName-count-other": "madagassiske franc",
-                symbol: "MGF"
+                "displayName-count-other": "madagassiske franc"
             },
             MKD: {
                 displayName: "makedonske denarer",
@@ -1153,8 +1151,7 @@ const data = {
             MRU: {
                 displayName: "mauritanske ouguiya",
                 "displayName-count-one": "mauritansk ouguiya",
-                "displayName-count-other": "mauritanske ouguiya",
-                symbol: "MRU"
+                "displayName-count-other": "mauritanske ouguiya"
             },
             MTL: {
                 displayName: "maltesiske lira",
@@ -1488,10 +1485,6 @@ const data = {
                 "displayName-count-other": "slovakiske koruna",
                 symbol: "SKK"
             },
-            SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
-            },
             SLL: {
                 displayName: "sierraleonske leone",
                 "displayName-count-one": "sierraleonsk leone",
@@ -1709,10 +1702,6 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
-            },
             UZS: {
                 displayName: "usbekiske som",
                 "displayName-count-one": "usbekisk som",
@@ -1724,10 +1713,6 @@ const data = {
                 "displayName-count-one": "venezuelansk bolivar (1871–2008)",
                 "displayName-count-other": "venezuelanske bolivar (1871–2008)",
                 symbol: "VEB"
-            },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
             },
             VEF: {
                 displayName: "venezuelanske bolivar (2008–2018)",
@@ -1981,8 +1966,7 @@ const data = {
             ZWR: {
                 displayName: "zimbabwisk dollar (2008)",
                 "displayName-count-one": "zimbabwisk dollar (2008)",
-                "displayName-count-other": "zimbabwiske dollar (2008)",
-                symbol: "ZWR"
+                "displayName-count-other": "zimbabwiske dollar (2008)"
             }
         },
         localeCurrency: "NOK"
@@ -2004,8 +1988,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} 'kl'. {0}",
-            long: "{1} 'kl'. {0}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
@@ -2017,24 +2001,24 @@ const data = {
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "E d.",
-                Ehm: "E h:mm a",
+                Ehm: "E h:mm a",
                 EHm: "E 'kl'. HH:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E h:mm:ss a",
                 EHms: "E 'kl'. HH:mm:ss",
                 Gy: "y G",
                 GyMd: "dd.MM.y GGGGG",
                 GyMMM: "MMM y G",
                 GyMMMd: "d. MMM y G",
                 GyMMMEd: "E d. MMM y G",
-                h: "h a",
+                h: "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
                 M: "L.",
                 Md: "d.M.",
@@ -2161,11 +2145,11 @@ const data = {
                 abbreviated: [
                     "jan.",
                     "feb.",
-                    "mar.",
+                    "mars",
                     "apr.",
                     "mai",
-                    "jun.",
-                    "jul.",
+                    "juni",
+                    "juli",
                     "aug.",
                     "sep.",
                     "okt.",

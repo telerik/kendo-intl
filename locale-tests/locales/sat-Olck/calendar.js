@@ -358,8 +358,8 @@ const data = {
         dateFields: {
             era: {
                 wide: "ᱡᱩᱜᱽ",
-                short: "ᱡᱩᱜᱽ",
-                narrow: "ᱡᱩᱜᱽ"
+                short: "ᱡᱩ",
+                narrow: "ᱡ"
             },
             year: {
                 wide: "ᱥᱮᱨᱢᱟ/ᱵᱚᱪᱷᱚᱞᱨ",
@@ -382,9 +382,9 @@ const data = {
                 narrow: "ᱦᱟᱯᱛᱟ/ᱮᱢᱦᱟ"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "ᱪᱟᱸᱫᱚ ᱨᱮᱭᱟᱠ ᱦᱟᱯᱛᱟ",
+                short: "ᱪᱟᱸᱫᱚ ᱨᱮᱭᱟᱠ ᱦᱟᱯᱛᱟ",
+                narrow: "ᱪᱟᱸᱫᱚ ᱨᱮᱭᱟᱠ ᱦᱟᱯᱛᱟ"
             },
             day: {
                 wide: "ᱢᱟᱦᱟ",
@@ -392,9 +392,9 @@ const data = {
                 narrow: "ᱢᱟᱦᱟ"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "ᱥᱮᱨᱢᱟ ᱨᱮᱭᱟᱠ ᱢᱟᱦᱟ",
+                short: "ᱥᱮᱨᱢᱟ ᱨᱮᱭᱟᱠ ᱢᱟᱦᱟ",
+                narrow: "ᱥᱮᱨᱢᱟ ᱨᱮᱭᱟᱠ ᱢᱟᱦᱟ"
             },
             weekday: {
                 wide: "ᱦᱟᱯᱛᱟ ᱨᱮᱭᱟᱜ ᱢᱟᱦᱟ",
@@ -402,9 +402,9 @@ const data = {
                 narrow: "ᱦᱟᱯᱛᱟ ᱨᱮᱭᱟᱜ ᱢᱟᱦᱟ"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "ᱪᱟᱸᱫᱚ ᱨᱮᱭᱟᱠ ᱢᱟᱦᱟ",
+                short: "ᱪᱟᱸᱫᱚ ᱨᱮᱭᱟᱠ ᱢᱟᱦᱟ",
+                narrow: "ᱪᱟᱸᱫᱚ ᱨᱮᱭᱟᱠ ᱢᱟᱦᱟ"
             },
             dayperiod: {
                 short: "ᱥᱮᱛᱟᱜ/ᱟᱹᱭᱩᱵ",

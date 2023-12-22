@@ -48,7 +48,7 @@ const data = {
                 GyMMMEd: "G y MMM d, E",
                 h: "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
                 hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
@@ -304,12 +304,12 @@ const data = {
         dayPeriods: {
             format: {
                 abbreviated: {
-                    am: "Luma lwa K",
-                    pm: "luma lwa p"
+                    am: "Luma lwa K",
+                    pm: "luma lwa p"
                 },
                 narrow: {
-                    am: "Luma lwa K",
-                    pm: "luma lwa p"
+                    am: "Luma lwa K",
+                    pm: "luma lwa p"
                 },
                 wide: {
                     am: "Luma lwa K",
@@ -318,16 +318,16 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: {
-                    am: "Luma lwa K",
-                    pm: "luma lwa p"
+                    am: "Luma lwa K",
+                    pm: "luma lwa p"
                 },
                 narrow: {
-                    am: "Luma lwa K",
-                    pm: "luma lwa p"
+                    am: "Luma lwa K",
+                    pm: "luma lwa p"
                 },
                 wide: {
-                    am: "Luma lwa K",
-                    pm: "luma lwa p"
+                    am: "Luma lwa K",
+                    pm: "luma lwa p"
                 }
             }
         },

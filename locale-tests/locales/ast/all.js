@@ -89,8 +89,7 @@ const data = {
             ALK: {
                 displayName: "Lek albanés (1946–1965)",
                 "displayName-count-one": "lek albanés (1946–1965)",
-                "displayName-count-other": "lekë albaneses (1946–1965)",
-                symbol: "ALK"
+                "displayName-count-other": "lekë albaneses (1946–1965)"
             },
             ALL: {
                 displayName: "Lek albanés",
@@ -469,15 +468,10 @@ const data = {
                 symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
-            CNH: {
-                displayName: "CNH",
-                symbol: "CNH"
-            },
             CNX: {
                 displayName: "Dólar del Bancu Popular Chinu",
                 "displayName-count-one": "dólar del Bancu Popular Chinu",
-                "displayName-count-other": "dólares del Bancu Popular Chinu",
-                symbol: "CNX"
+                "displayName-count-other": "dólares del Bancu Popular Chinu"
             },
             CNY: {
                 displayName: "Yuan chinu",
@@ -837,8 +831,7 @@ const data = {
             ILR: {
                 displayName: "Xequel israelín (1980–1985)",
                 "displayName-count-one": "xequel israelín (1980–1985)",
-                "displayName-count-other": "xequels israelinos (1980–1985)",
-                symbol: "ILR"
+                "displayName-count-other": "xequels israelinos (1980–1985)"
             },
             ILS: {
                 displayName: "Xequel nuevu israelín",
@@ -869,8 +862,7 @@ const data = {
             ISJ: {
                 displayName: "Corona islandesa (1918–1981)",
                 "displayName-count-one": "corona islandesa (1918–1981)",
-                "displayName-count-other": "corones islandeses (1918–1981)",
-                symbol: "ISJ"
+                "displayName-count-other": "corones islandeses (1918–1981)"
             },
             ISK: {
                 displayName: "corona islandesa",
@@ -1151,8 +1143,7 @@ const data = {
             MRU: {
                 displayName: "ouguiya mauritanu",
                 "displayName-count-one": "ouguiya mauritanu",
-                "displayName-count-other": "ouguiyas mauritanos",
-                symbol: "MRU"
+                "displayName-count-other": "ouguiyas mauritanos"
             },
             MTL: {
                 displayName: "Llira maltesa",
@@ -1176,8 +1167,7 @@ const data = {
             MVP: {
                 displayName: "Rupia maldiviana (1947–1981)",
                 "displayName-count-one": "rupia maldiviana (1947–1981)",
-                "displayName-count-other": "rupies maldivianes (1947–1981)",
-                symbol: "MVP"
+                "displayName-count-other": "rupies maldivianes (1947–1981)"
             },
             MVR: {
                 displayName: "Rufiyaa maldiviana",
@@ -1487,10 +1477,6 @@ const data = {
                 "displayName-count-other": "corones eslovaques",
                 symbol: "SKK"
             },
-            SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
-            },
             SLL: {
                 displayName: "leone sierralleonés",
                 "displayName-count-one": "leone sierralleonés",
@@ -1533,7 +1519,6 @@ const data = {
                 displayName: "dobra de Santu Tomé y Príncipe",
                 "displayName-count-one": "dobra de Santu Tomé y Príncipe",
                 "displayName-count-other": "dobras de Santu Tomé y Príncipe",
-                symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },
             SUR: {
@@ -1708,10 +1693,6 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
-            },
             UZS: {
                 displayName: "Som uzbequistanín",
                 "displayName-count-one": "som uzbequistanín",
@@ -1724,10 +1705,6 @@ const data = {
                 "displayName-count-other": "bolívares venezolanos (1871–2008)",
                 symbol: "VEB"
             },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
-            },
             VEF: {
                 displayName: "bolívar venezolanu (2008–2018)",
                 "displayName-count-one": "bolívar venezolanu (2008–2018)",
@@ -1738,8 +1715,7 @@ const data = {
             VES: {
                 displayName: "bolívar venezolanu",
                 "displayName-count-one": "bolívar venezolanu",
-                "displayName-count-other": "bolívares venezolanos",
-                symbol: "VES"
+                "displayName-count-other": "bolívares venezolanos"
             },
             VND: {
                 displayName: "dong vietnamín",
@@ -2005,8 +1981,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} 'a' 'les' {0}",
-            long: "{1} 'a' 'les' {0}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1}, {0}",
             short: "{1} {0}",
             availableFormats: {
@@ -2018,24 +1994,24 @@ const data = {
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "E d",
-                Ehm: "E h:mm a",
+                Ehm: "E h:mm a",
                 EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
                 GyMd: "GGGGG y-MM-dd",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E, d MMM y G",
-                h: "h a",
+                h: "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
                 M: "L",
                 Md: "d/M",

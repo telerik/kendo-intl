@@ -45,7 +45,8 @@ const data = {
         },
         currency: {
             patterns: [
-                "$ n"
+                "‏n $",
+                "‏-n $"
             ],
             groupSize: [
                 3
@@ -59,8 +60,8 @@ const data = {
         },
         accounting: {
             patterns: [
-                "$n",
-                "($n)"
+                "؜n$",
+                "(؜n$)"
             ],
             groupSize: [
                 3
@@ -68,8 +69,7 @@ const data = {
         },
         currencies: {
             ADP: {
-                displayName: "بيستا أندوري",
-                symbol: "ADP"
+                displayName: "بيستا أندوري"
             },
             AED: {
                 displayName: "درهم إماراتي",
@@ -82,8 +82,7 @@ const data = {
                 symbol: "د.إ.‏"
             },
             AFA: {
-                displayName: "أفغاني - 1927-2002",
-                symbol: "AFA"
+                displayName: "أفغاني - 1927-2002"
             },
             AFN: {
                 displayName: "أفغاني",
@@ -95,10 +94,6 @@ const data = {
                 "displayName-count-other": "أفغاني أفغانستاني",
                 symbol: "AFN",
                 "symbol-alt-narrow": "؋"
-            },
-            ALK: {
-                displayName: "ALK",
-                symbol: "ALK"
             },
             ALL: {
                 displayName: "ليك ألباني",
@@ -143,32 +138,19 @@ const data = {
                 "symbol-alt-narrow": "Kz"
             },
             AOK: {
-                displayName: "كوانزا أنجولي - 1977-1990",
-                symbol: "AOK"
+                displayName: "كوانزا أنجولي - 1977-1990"
             },
             AON: {
-                displayName: "كوانزا أنجولي جديدة - 1990-2000",
-                symbol: "AON"
+                displayName: "كوانزا أنجولي جديدة - 1990-2000"
             },
             AOR: {
-                displayName: "كوانزا أنجولي معدلة - 1995 - 1999",
-                symbol: "AOR"
+                displayName: "كوانزا أنجولي معدلة - 1995 - 1999"
             },
             ARA: {
-                displayName: "استرال أرجنتيني",
-                symbol: "ARA"
-            },
-            ARL: {
-                displayName: "ARL",
-                symbol: "ARL"
-            },
-            ARM: {
-                displayName: "ARM",
-                symbol: "ARM"
+                displayName: "استرال أرجنتيني"
             },
             ARP: {
-                displayName: "بيزو أرجنتيني - 1983-1985",
-                symbol: "ARP"
+                displayName: "بيزو أرجنتيني - 1983-1985"
             },
             ARS: {
                 displayName: "بيزو أرجنتيني",
@@ -182,8 +164,7 @@ const data = {
                 "symbol-alt-narrow": "AR$"
             },
             ATS: {
-                displayName: "شلن نمساوي",
-                symbol: "ATS"
+                displayName: "شلن نمساوي"
             },
             AUD: {
                 displayName: "دولار أسترالي",
@@ -207,8 +188,7 @@ const data = {
                 symbol: "AWG"
             },
             AZM: {
-                displayName: "مانات أذريبجاني",
-                symbol: "AZM"
+                displayName: "مانات أذريبجاني"
             },
             AZN: {
                 displayName: "مانات أذربيجان",
@@ -222,8 +202,7 @@ const data = {
                 "symbol-alt-narrow": "₼"
             },
             BAD: {
-                displayName: "دينار البوسنة والهرسك",
-                symbol: "BAD"
+                displayName: "دينار البوسنة والهرسك"
             },
             BAM: {
                 displayName: "مارك البوسنة والهرسك قابل للتحويل",
@@ -235,10 +214,6 @@ const data = {
                 "displayName-count-other": "مارك البوسنة والهرسك قابل للتحويل",
                 symbol: "BAM",
                 "symbol-alt-narrow": "KM"
-            },
-            BAN: {
-                displayName: "BAN",
-                symbol: "BAN"
             },
             BBD: {
                 displayName: "دولار بربادوسي",
@@ -263,24 +238,13 @@ const data = {
                 "symbol-alt-narrow": "৳"
             },
             BEC: {
-                displayName: "فرنك بلجيكي قابل للتحويل",
-                symbol: "BEC"
+                displayName: "فرنك بلجيكي قابل للتحويل"
             },
             BEF: {
-                displayName: "فرنك بلجيكي",
-                symbol: "BEF"
+                displayName: "فرنك بلجيكي"
             },
             BEL: {
-                displayName: "فرنك بلجيكي مالي",
-                symbol: "BEL"
-            },
-            BGL: {
-                displayName: "BGL",
-                symbol: "BGL"
-            },
-            BGM: {
-                displayName: "BGM",
-                symbol: "BGM"
+                displayName: "فرنك بلجيكي مالي"
             },
             BGN: {
                 displayName: "ليف بلغاري",
@@ -291,10 +255,6 @@ const data = {
                 "displayName-count-many": "ليف بلغاري",
                 "displayName-count-other": "ليف بلغاري",
                 symbol: "BGN"
-            },
-            BGO: {
-                displayName: "BGO",
-                symbol: "BGO"
             },
             BHD: {
                 displayName: "دينار بحريني",
@@ -349,29 +309,20 @@ const data = {
                 symbol: "BOB",
                 "symbol-alt-narrow": "Bs"
             },
-            BOL: {
-                displayName: "BOL",
-                symbol: "BOL"
-            },
             BOP: {
-                displayName: "بيزو بوليفي",
-                symbol: "BOP"
+                displayName: "بيزو بوليفي"
             },
             BOV: {
-                displayName: "مفدول بوليفي",
-                symbol: "BOV"
+                displayName: "مفدول بوليفي"
             },
             BRB: {
-                displayName: "نوفو كروزايرو برازيلي - 1967-1986",
-                symbol: "BRB"
+                displayName: "نوفو كروزايرو برازيلي - 1967-1986"
             },
             BRC: {
-                displayName: "كروزادو برازيلي",
-                symbol: "BRC"
+                displayName: "كروزادو برازيلي"
             },
             BRE: {
-                displayName: "كروزايرو برازيلي - 1990-1993",
-                symbol: "BRE"
+                displayName: "كروزايرو برازيلي - 1990-1993"
             },
             BRL: {
                 displayName: "ريال برازيلي",
@@ -383,18 +334,6 @@ const data = {
                 "displayName-count-other": "ريال برازيلي",
                 symbol: "R$",
                 "symbol-alt-narrow": "R$"
-            },
-            BRN: {
-                displayName: "BRN",
-                symbol: "BRN"
-            },
-            BRR: {
-                displayName: "BRR",
-                symbol: "BRR"
-            },
-            BRZ: {
-                displayName: "BRZ",
-                symbol: "BRZ"
             },
             BSD: {
                 displayName: "دولار باهامي",
@@ -418,8 +357,7 @@ const data = {
                 symbol: "BTN"
             },
             BUK: {
-                displayName: "كيات بورمي",
-                symbol: "BUK"
+                displayName: "كيات بورمي"
             },
             BWP: {
                 displayName: "بولا بتسواني",
@@ -433,8 +371,7 @@ const data = {
                 "symbol-alt-narrow": "P"
             },
             BYB: {
-                displayName: "روبل بيلاروسي جديد - 1994-1999",
-                symbol: "BYB"
+                displayName: "روبل بيلاروسي جديد - 1994-1999"
             },
             BYN: {
                 displayName: "روبل بيلاروسي",
@@ -489,10 +426,6 @@ const data = {
                 "displayName-count-other": "فرنك كونغولي",
                 symbol: "CDF"
             },
-            CHE: {
-                displayName: "CHE",
-                symbol: "CHE"
-            },
             CHF: {
                 displayName: "فرنك سويسري",
                 "displayName-count-zero": "فرنك سويسري",
@@ -502,18 +435,6 @@ const data = {
                 "displayName-count-many": "فرنك سويسري",
                 "displayName-count-other": "فرنك سويسري",
                 symbol: "CHF"
-            },
-            CHW: {
-                displayName: "CHW",
-                symbol: "CHW"
-            },
-            CLE: {
-                displayName: "CLE",
-                symbol: "CLE"
-            },
-            CLF: {
-                displayName: "CLF",
-                symbol: "CLF"
             },
             CLP: {
                 displayName: "بيزو تشيلي",
@@ -535,10 +456,6 @@ const data = {
                 "displayName-count-many": "يوان صيني (في الخارج)",
                 "displayName-count-other": "يوان صيني (في الخارج)",
                 symbol: "CNH"
-            },
-            CNX: {
-                displayName: "CNX",
-                symbol: "CNX"
             },
             CNY: {
                 displayName: "يوان صيني",
@@ -562,10 +479,6 @@ const data = {
                 symbol: "COP",
                 "symbol-alt-narrow": "CO$"
             },
-            COU: {
-                displayName: "COU",
-                symbol: "COU"
-            },
             CRC: {
                 displayName: "كولن كوستاريكي",
                 "displayName-count-zero": "كولن كوستاريكي",
@@ -578,12 +491,10 @@ const data = {
                 "symbol-alt-narrow": "₡"
             },
             CSD: {
-                displayName: "دينار صربي قديم",
-                symbol: "CSD"
+                displayName: "دينار صربي قديم"
             },
             CSK: {
-                displayName: "كرونة تشيكوسلوفاكيا",
-                symbol: "CSK"
+                displayName: "كرونة تشيكوسلوفاكيا"
             },
             CUC: {
                 displayName: "بيزو كوبي قابل للتحويل",
@@ -618,8 +529,7 @@ const data = {
                 symbol: "CVE"
             },
             CYP: {
-                displayName: "جنيه قبرصي",
-                symbol: "CYP"
+                displayName: "جنيه قبرصي"
             },
             CZK: {
                 displayName: "كرونة تشيكية",
@@ -633,12 +543,10 @@ const data = {
                 "symbol-alt-narrow": "Kč"
             },
             DDM: {
-                displayName: "أوستمارك ألماني شرقي",
-                symbol: "DDM"
+                displayName: "أوستمارك ألماني شرقي"
             },
             DEM: {
-                displayName: "مارك ألماني",
-                symbol: "DEM"
+                displayName: "مارك ألماني"
             },
             DJF: {
                 displayName: "فرنك جيبوتي",
@@ -682,17 +590,8 @@ const data = {
                 "displayName-count-other": "دينار جزائري",
                 symbol: "د.ج.‏"
             },
-            ECS: {
-                displayName: "ECS",
-                symbol: "ECS"
-            },
-            ECV: {
-                displayName: "ECV",
-                symbol: "ECV"
-            },
             EEK: {
-                displayName: "كرونة استونية",
-                symbol: "EEK"
+                displayName: "كرونة استونية"
             },
             EGP: {
                 displayName: "جنيه مصري",
@@ -715,17 +614,8 @@ const data = {
                 "displayName-count-other": "ناكفا أريتري",
                 symbol: "ERN"
             },
-            ESA: {
-                displayName: "ESA",
-                symbol: "ESA"
-            },
-            ESB: {
-                displayName: "ESB",
-                symbol: "ESB"
-            },
             ESP: {
                 displayName: "بيزيتا إسباني",
-                symbol: "ESP",
                 "symbol-alt-narrow": "₧"
             },
             ETB: {
@@ -750,8 +640,7 @@ const data = {
                 "symbol-alt-narrow": "€"
             },
             FIM: {
-                displayName: "ماركا فنلندي",
-                symbol: "FIM"
+                displayName: "ماركا فنلندي"
             },
             FJD: {
                 displayName: "دولار فيجي",
@@ -776,8 +665,7 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             FRF: {
-                displayName: "فرنك فرنسي",
-                symbol: "FRF"
+                displayName: "فرنك فرنسي"
             },
             GBP: {
                 displayName: "جنيه إسترليني",
@@ -789,10 +677,6 @@ const data = {
                 "displayName-count-other": "جنيه إسترليني",
                 symbol: "UK£",
                 "symbol-alt-narrow": "UK£"
-            },
-            GEK: {
-                displayName: "GEK",
-                symbol: "GEK"
             },
             GEL: {
                 displayName: "لارى جورجي",
@@ -806,8 +690,7 @@ const data = {
                 "symbol-alt-narrow": "₾"
             },
             GHC: {
-                displayName: "سيدي غاني",
-                symbol: "GHC"
+                displayName: "سيدي غاني"
             },
             GHS: {
                 displayName: "سيدي غانا",
@@ -853,16 +736,13 @@ const data = {
                 "symbol-alt-narrow": "FG"
             },
             GNS: {
-                displayName: "سيلي غينيا",
-                symbol: "GNS"
+                displayName: "سيلي غينيا"
             },
             GQE: {
-                displayName: "اكويل جونينا غينيا الاستوائيّة",
-                symbol: "GQE"
+                displayName: "اكويل جونينا غينيا الاستوائيّة"
             },
             GRD: {
-                displayName: "دراخما يوناني",
-                symbol: "GRD"
+                displayName: "دراخما يوناني"
             },
             GTQ: {
                 displayName: "كوتزال غواتيمالا",
@@ -876,12 +756,10 @@ const data = {
                 "symbol-alt-narrow": "Q"
             },
             GWE: {
-                displayName: "اسكود برتغالي غينيا",
-                symbol: "GWE"
+                displayName: "اسكود برتغالي غينيا"
             },
             GWP: {
-                displayName: "بيزو غينيا بيساو",
-                symbol: "GWP"
+                displayName: "بيزو غينيا بيساو"
             },
             GYD: {
                 displayName: "دولار غيانا",
@@ -917,8 +795,7 @@ const data = {
                 "symbol-alt-narrow": "L"
             },
             HRD: {
-                displayName: "دينار كرواتي",
-                symbol: "HRD"
+                displayName: "دينار كرواتي"
             },
             HRK: {
                 displayName: "كونا كرواتي",
@@ -964,16 +841,10 @@ const data = {
                 "symbol-alt-narrow": "Rp"
             },
             IEP: {
-                displayName: "جنيه إيرلندي",
-                symbol: "IEP"
+                displayName: "جنيه إيرلندي"
             },
             ILP: {
-                displayName: "جنيه إسرائيلي",
-                symbol: "ILP"
-            },
-            ILR: {
-                displayName: "ILR",
-                symbol: "ILR"
+                displayName: "جنيه إسرائيلي"
             },
             ILS: {
                 displayName: "شيكل إسرائيلي جديد",
@@ -1017,10 +888,6 @@ const data = {
                 "displayName-count-other": "ريال إيراني",
                 symbol: "ر.إ."
             },
-            ISJ: {
-                displayName: "ISJ",
-                symbol: "ISJ"
-            },
             ISK: {
                 displayName: "كرونة أيسلندية",
                 "displayName-count-zero": "كرونة أيسلندية",
@@ -1033,8 +900,7 @@ const data = {
                 "symbol-alt-narrow": "kr"
             },
             ITL: {
-                displayName: "ليرة إيطالية",
-                symbol: "ITL"
+                displayName: "ليرة إيطالية"
             },
             JMD: {
                 displayName: "دولار جامايكي",
@@ -1120,14 +986,6 @@ const data = {
                 "displayName-count-other": "وون كوريا الشمالية",
                 symbol: "KPW",
                 "symbol-alt-narrow": "₩"
-            },
-            KRH: {
-                displayName: "KRH",
-                symbol: "KRH"
-            },
-            KRO: {
-                displayName: "KRO",
-                symbol: "KRO"
             },
             KRW: {
                 displayName: "وون كوريا الجنوبية",
@@ -1223,8 +1081,7 @@ const data = {
                 "displayName-count-two": "لوتي ليسوتو",
                 "displayName-count-few": "لوتي ليسوتو",
                 "displayName-count-many": "لوتي ليسوتو",
-                "displayName-count-other": "لوتي ليسوتو",
-                symbol: "LSL"
+                "displayName-count-other": "لوتي ليسوتو"
             },
             LTL: {
                 displayName: "ليتا ليتوانية",
@@ -1234,24 +1091,19 @@ const data = {
                 "displayName-count-few": "ليتا ليتوانية",
                 "displayName-count-many": "ليتا ليتوانية",
                 "displayName-count-other": "ليتا ليتوانية",
-                symbol: "LTL",
                 "symbol-alt-narrow": "Lt"
             },
             LTT: {
-                displayName: "تالوناس ليتواني",
-                symbol: "LTT"
+                displayName: "تالوناس ليتواني"
             },
             LUC: {
-                displayName: "فرنك لوكسمبرج قابل للتحويل",
-                symbol: "LUC"
+                displayName: "فرنك لوكسمبرج قابل للتحويل"
             },
             LUF: {
-                displayName: "فرنك لوكسمبرج",
-                symbol: "LUF"
+                displayName: "فرنك لوكسمبرج"
             },
             LUL: {
-                displayName: "فرنك لوكسمبرج المالي",
-                symbol: "LUL"
+                displayName: "فرنك لوكسمبرج المالي"
             },
             LVL: {
                 displayName: "لاتس لاتفيا",
@@ -1261,12 +1113,10 @@ const data = {
                 "displayName-count-few": "لاتس لاتفي",
                 "displayName-count-many": "لاتس لاتفي",
                 "displayName-count-other": "لاتس لاتفي",
-                symbol: "LVL",
                 "symbol-alt-narrow": "Ls"
             },
             LVR: {
-                displayName: "روبل لاتفيا",
-                symbol: "LVR"
+                displayName: "روبل لاتفيا"
             },
             LYD: {
                 displayName: "دينار ليبي",
@@ -1289,16 +1139,7 @@ const data = {
                 symbol: "د.م.‏"
             },
             MAF: {
-                displayName: "فرنك مغربي",
-                symbol: "MAF"
-            },
-            MCF: {
-                displayName: "MCF",
-                symbol: "MCF"
-            },
-            MDC: {
-                displayName: "MDC",
-                symbol: "MDC"
+                displayName: "فرنك مغربي"
             },
             MDL: {
                 displayName: "ليو مولدوفي",
@@ -1322,8 +1163,7 @@ const data = {
                 "symbol-alt-narrow": "Ar"
             },
             MGF: {
-                displayName: "فرنك مدغشقر",
-                symbol: "MGF"
+                displayName: "فرنك مدغشقر"
             },
             MKD: {
                 displayName: "دينار مقدوني",
@@ -1335,13 +1175,8 @@ const data = {
                 "displayName-count-other": "دينار مقدوني",
                 symbol: "MKD"
             },
-            MKN: {
-                displayName: "MKN",
-                symbol: "MKN"
-            },
             MLF: {
-                displayName: "فرنك مالي",
-                symbol: "MLF"
+                displayName: "فرنك مالي"
             },
             MMK: {
                 displayName: "كيات ميانمار",
@@ -1382,8 +1217,7 @@ const data = {
                 "displayName-count-two": "أوقية موريتانية - 1973-2017",
                 "displayName-count-few": "أوقية موريتانية - 1973-2017",
                 "displayName-count-many": "أوقية موريتانية - 1973-2017",
-                "displayName-count-other": "أوقية موريتانية - 1973-2017",
-                symbol: "MRO"
+                "displayName-count-other": "أوقية موريتانية - 1973-2017"
             },
             MRU: {
                 displayName: "أوقية موريتانية",
@@ -1396,12 +1230,10 @@ const data = {
                 symbol: "أ.م."
             },
             MTL: {
-                displayName: "ليرة مالطية",
-                symbol: "MTL"
+                displayName: "ليرة مالطية"
             },
             MTP: {
-                displayName: "جنيه مالطي",
-                symbol: "MTP"
+                displayName: "جنيه مالطي"
             },
             MUR: {
                 displayName: "روبية موريشيوسية",
@@ -1413,10 +1245,6 @@ const data = {
                 "displayName-count-other": "روبية موريشيوسية",
                 symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
-            },
-            MVP: {
-                displayName: "MVP",
-                symbol: "MVP"
             },
             MVR: {
                 displayName: "روفيه جزر المالديف",
@@ -1450,12 +1278,7 @@ const data = {
                 "symbol-alt-narrow": "MX$"
             },
             MXP: {
-                displayName: "بيزو فضي مكسيكي - 1861-1992",
-                symbol: "MXP"
-            },
-            MXV: {
-                displayName: "MXV",
-                symbol: "MXV"
+                displayName: "بيزو فضي مكسيكي - 1861-1992"
             },
             MYR: {
                 displayName: "رينغيت ماليزي",
@@ -1469,12 +1292,7 @@ const data = {
                 "symbol-alt-narrow": "RM"
             },
             MZE: {
-                displayName: "اسكود موزمبيقي",
-                symbol: "MZE"
-            },
-            MZM: {
-                displayName: "MZM",
-                symbol: "MZM"
+                displayName: "اسكود موزمبيقي"
             },
             MZN: {
                 displayName: "متكال موزمبيقي",
@@ -1509,8 +1327,7 @@ const data = {
                 "symbol-alt-narrow": "₦"
             },
             NIC: {
-                displayName: "كوردوبة نيكاراجوا",
-                symbol: "NIC"
+                displayName: "كوردوبة نيكاراجوا"
             },
             NIO: {
                 displayName: "قرطبة نيكاراغوا",
@@ -1524,8 +1341,7 @@ const data = {
                 "symbol-alt-narrow": "C$"
             },
             NLG: {
-                displayName: "جلدر هولندي",
-                symbol: "NLG"
+                displayName: "جلدر هولندي"
             },
             NOK: {
                 displayName: "كرونة نرويجية",
@@ -1580,10 +1396,6 @@ const data = {
                 "displayName-count-other": "بالبوا بنمي",
                 symbol: "PAB"
             },
-            PEI: {
-                displayName: "PEI",
-                symbol: "PEI"
-            },
             PEN: {
                 displayName: "سول بيروفي",
                 "displayName-count-zero": "سول بيروفي",
@@ -1593,10 +1405,6 @@ const data = {
                 "displayName-count-many": "سول بيروفي",
                 "displayName-count-other": "سول بيروفي",
                 symbol: "PEN"
-            },
-            PES: {
-                displayName: "PES",
-                symbol: "PES"
             },
             PGK: {
                 displayName: "كينا بابوا غينيا الجديدة",
@@ -1642,12 +1450,10 @@ const data = {
                 "symbol-alt-narrow": "zł"
             },
             PLZ: {
-                displayName: "زلوتي بولندي - 1950-1995",
-                symbol: "PLZ"
+                displayName: "زلوتي بولندي - 1950-1995"
             },
             PTE: {
-                displayName: "اسكود برتغالي",
-                symbol: "PTE"
+                displayName: "اسكود برتغالي"
             },
             PYG: {
                 displayName: "غواراني باراغواي",
@@ -1671,12 +1477,10 @@ const data = {
                 symbol: "ر.ق.‏"
             },
             RHD: {
-                displayName: "دولار روديسي",
-                symbol: "RHD"
+                displayName: "دولار روديسي"
             },
             ROL: {
-                displayName: "ليو روماني قديم",
-                symbol: "ROL"
+                displayName: "ليو روماني قديم"
             },
             RON: {
                 displayName: "ليو روماني",
@@ -1711,8 +1515,7 @@ const data = {
                 "symbol-alt-narrow": "₽"
             },
             RUR: {
-                displayName: "روبل روسي - 1991-1998",
-                symbol: "RUR"
+                displayName: "روبل روسي - 1991-1998"
             },
             RWF: {
                 displayName: "فرنك رواندي",
@@ -1771,8 +1574,7 @@ const data = {
                 symbol: "ج.س."
             },
             SDP: {
-                displayName: "جنيه سوداني قديم",
-                symbol: "SDP"
+                displayName: "جنيه سوداني قديم"
             },
             SEK: {
                 displayName: "كرونة سويدية",
@@ -1808,16 +1610,10 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             SIT: {
-                displayName: "تولار سلوفيني",
-                symbol: "SIT"
+                displayName: "تولار سلوفيني"
             },
             SKK: {
-                displayName: "كرونة سلوفاكية",
-                symbol: "SKK"
-            },
-            SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
+                displayName: "كرونة سلوفاكية"
             },
             SLL: {
                 displayName: "ليون سيراليوني",
@@ -1851,8 +1647,7 @@ const data = {
                 "symbol-alt-narrow": "SR$"
             },
             SRG: {
-                displayName: "جلدر سورينامي",
-                symbol: "SRG"
+                displayName: "جلدر سورينامي"
             },
             SSP: {
                 displayName: "جنيه جنوب السودان",
@@ -1887,12 +1682,10 @@ const data = {
                 "symbol-alt-narrow": "Db"
             },
             SUR: {
-                displayName: "روبل سوفيتي",
-                symbol: "SUR"
+                displayName: "روبل سوفيتي"
             },
             SVC: {
-                displayName: "كولون سلفادوري",
-                symbol: "SVC"
+                displayName: "كولون سلفادوري"
             },
             SYP: {
                 displayName: "ليرة سورية",
@@ -1927,8 +1720,7 @@ const data = {
                 "symbol-alt-narrow": "฿"
             },
             TJR: {
-                displayName: "روبل طاجيكستاني",
-                symbol: "TJR"
+                displayName: "روبل طاجيكستاني"
             },
             TJS: {
                 displayName: "سوموني طاجيكستاني",
@@ -1941,8 +1733,7 @@ const data = {
                 symbol: "TJS"
             },
             TMM: {
-                displayName: "مانات تركمنستاني",
-                symbol: "TMM"
+                displayName: "مانات تركمنستاني"
             },
             TMT: {
                 displayName: "مانات تركمانستان",
@@ -1976,12 +1767,10 @@ const data = {
                 "symbol-alt-narrow": "T$"
             },
             TPE: {
-                displayName: "اسكود تيموري",
-                symbol: "TPE"
+                displayName: "اسكود تيموري"
             },
             TRL: {
-                displayName: "ليرة تركي",
-                symbol: "TRL"
+                displayName: "ليرة تركي"
             },
             TRY: {
                 displayName: "ليرة تركية",
@@ -2038,13 +1827,8 @@ const data = {
                 symbol: "UAH",
                 "symbol-alt-narrow": "₴"
             },
-            UAK: {
-                displayName: "UAK",
-                symbol: "UAK"
-            },
             UGS: {
-                displayName: "شلن أوغندي - 1966-1987",
-                symbol: "UGS"
+                displayName: "شلن أوغندي - 1966-1987"
             },
             UGX: {
                 displayName: "شلن أوغندي",
@@ -2068,20 +1852,13 @@ const data = {
                 "symbol-alt-narrow": "US$"
             },
             USN: {
-                displayName: "دولار أمريكي (اليوم التالي)‏",
-                symbol: "USN"
+                displayName: "دولار أمريكي (اليوم التالي)‏"
             },
             USS: {
-                displayName: "دولار أمريكي (نفس اليوم)‏",
-                symbol: "USS"
-            },
-            UYI: {
-                displayName: "UYI",
-                symbol: "UYI"
+                displayName: "دولار أمريكي (نفس اليوم)‏"
             },
             UYP: {
-                displayName: "بيزو أوروجواي - 1975-1993",
-                symbol: "UYP"
+                displayName: "بيزو أوروجواي - 1975-1993"
             },
             UYU: {
                 displayName: "بيزو اوروغواي",
@@ -2094,10 +1871,6 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "UY$"
             },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
-            },
             UZS: {
                 displayName: "سوم أوزبكستاني",
                 "displayName-count-zero": "سوم أوزبكستاني",
@@ -2109,12 +1882,7 @@ const data = {
                 symbol: "UZS"
             },
             VEB: {
-                displayName: "بوليفار فنزويلي - 1871-2008",
-                symbol: "VEB"
-            },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
+                displayName: "بوليفار فنزويلي - 1871-2008"
             },
             VEF: {
                 displayName: "بوليفار فنزويلي - 2008–2018",
@@ -2148,10 +1916,6 @@ const data = {
                 symbol: "₫",
                 "symbol-alt-narrow": "₫"
             },
-            VNN: {
-                displayName: "VNN",
-                symbol: "VNN"
-            },
             VUV: {
                 displayName: "فاتو فانواتو",
                 "displayName-count-zero": "فاتو فانواتو",
@@ -2183,28 +1947,22 @@ const data = {
                 symbol: "FCFA"
             },
             XAG: {
-                displayName: "فضة",
-                symbol: "XAG"
+                displayName: "فضة"
             },
             XAU: {
-                displayName: "ذهب",
-                symbol: "XAU"
+                displayName: "ذهب"
             },
             XBA: {
-                displayName: "الوحدة الأوروبية المركبة",
-                symbol: "XBA"
+                displayName: "الوحدة الأوروبية المركبة"
             },
             XBB: {
-                displayName: "الوحدة المالية الأوروبية",
-                symbol: "XBB"
+                displayName: "الوحدة المالية الأوروبية"
             },
             XBC: {
-                displayName: "الوحدة الحسابية الأوروبية",
-                symbol: "XBC"
+                displayName: "الوحدة الحسابية الأوروبية"
             },
             XBD: {
-                displayName: "(XBD)وحدة الحساب الأوروبية",
-                symbol: "XBD"
+                displayName: "(XBD)وحدة الحساب الأوروبية"
             },
             XCD: {
                 displayName: "دولار شرق الكاريبي",
@@ -2218,20 +1976,16 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             XDR: {
-                displayName: "حقوق السحب الخاصة",
-                symbol: "XDR"
+                displayName: "حقوق السحب الخاصة"
             },
             XEU: {
-                displayName: "وحدة النقد الأوروبية",
-                symbol: "XEU"
+                displayName: "وحدة النقد الأوروبية"
             },
             XFO: {
-                displayName: "فرنك فرنسي ذهبي",
-                symbol: "XFO"
+                displayName: "فرنك فرنسي ذهبي"
             },
             XFU: {
-                displayName: "(UIC)فرنك فرنسي",
-                symbol: "XFU"
+                displayName: "(UIC)فرنك فرنسي"
             },
             XOF: {
                 displayName: "فرنك غرب أفريقي",
@@ -2244,8 +1998,7 @@ const data = {
                 symbol: "F CFA"
             },
             XPD: {
-                displayName: "بالاديوم",
-                symbol: "XPD"
+                displayName: "بالاديوم"
             },
             XPF: {
                 displayName: "فرنك سي إف بي",
@@ -2258,24 +2011,10 @@ const data = {
                 symbol: "CFPF"
             },
             XPT: {
-                displayName: "البلاتين",
-                symbol: "XPT"
-            },
-            XRE: {
-                displayName: "XRE",
-                symbol: "XRE"
-            },
-            XSU: {
-                displayName: "XSU",
-                symbol: "XSU"
+                displayName: "البلاتين"
             },
             XTS: {
-                displayName: "كود اختبار العملة",
-                symbol: "XTS"
-            },
-            XUA: {
-                displayName: "XUA",
-                symbol: "XUA"
+                displayName: "كود اختبار العملة"
             },
             XXX: {
                 displayName: "عملة غير معروفة",
@@ -2288,8 +2027,7 @@ const data = {
                 symbol: "¤"
             },
             YDD: {
-                displayName: "دينار يمني",
-                symbol: "YDD"
+                displayName: "دينار يمني"
             },
             YER: {
                 displayName: "ريال يمني",
@@ -2302,24 +2040,13 @@ const data = {
                 symbol: "ر.ي.‏"
             },
             YUD: {
-                displayName: "دينار يوغسلافي",
-                symbol: "YUD"
-            },
-            YUM: {
-                displayName: "YUM",
-                symbol: "YUM"
+                displayName: "دينار يوغسلافي"
             },
             YUN: {
-                displayName: "دينار يوغسلافي قابل للتحويل",
-                symbol: "YUN"
-            },
-            YUR: {
-                displayName: "YUR",
-                symbol: "YUR"
+                displayName: "دينار يوغسلافي قابل للتحويل"
             },
             ZAL: {
-                displayName: "راند جنوب أفريقيا -مالي",
-                symbol: "ZAL"
+                displayName: "راند جنوب أفريقيا -مالي"
             },
             ZAR: {
                 displayName: "راند جنوب أفريقيا",
@@ -2339,8 +2066,7 @@ const data = {
                 "displayName-count-two": "كواشا زامبي - 1968-2012",
                 "displayName-count-few": "كواشا زامبي - 1968-2012",
                 "displayName-count-many": "كواشا زامبي - 1968-2012",
-                "displayName-count-other": "كواشا زامبي - 1968-2012",
-                symbol: "ZMK"
+                "displayName-count-other": "كواشا زامبي - 1968-2012"
             },
             ZMW: {
                 displayName: "كواشا زامبي",
@@ -2354,24 +2080,16 @@ const data = {
                 "symbol-alt-narrow": "ZK"
             },
             ZRN: {
-                displayName: "زائير زائيري جديد",
-                symbol: "ZRN"
+                displayName: "زائير زائيري جديد"
             },
             ZRZ: {
-                displayName: "زائير زائيري",
-                symbol: "ZRZ"
+                displayName: "زائير زائيري"
             },
             ZWD: {
-                displayName: "دولار زمبابوي",
-                symbol: "ZWD"
+                displayName: "دولار زمبابوي"
             },
             ZWL: {
-                displayName: "دولار زمبابوي 2009",
-                symbol: "ZWL"
-            },
-            ZWR: {
-                displayName: "ZWR",
-                symbol: "ZWR"
+                displayName: "دولار زمبابوي 2009"
             }
         },
         localeCurrency: "DJF"
@@ -2393,10 +2111,10 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} في {0}",
-            long: "{1} في {0}",
-            medium: "{1}, {0}",
-            short: "{1}, {0}",
+            full: "{1}، {0}",
+            long: "{1}، {0}",
+            medium: "{1}، {0}",
+            short: "{1}، {0}",
             availableFormats: {
                 Bh: "h B",
                 Bhm: "h:mm B",
@@ -2426,8 +2144,8 @@ const data = {
                 hmv: "h:mm a v",
                 Hmv: "HH:mm v",
                 M: "L",
-                Md: "d/‏M",
-                MEd: "E، d/‏M",
+                Md: "d‏/M",
+                MEd: "E، d‏/M",
                 MMdd: "dd‏/MM",
                 MMM: "LLL",
                 MMMd: "d MMM",
@@ -2444,7 +2162,7 @@ const data = {
                 y: "y",
                 yM: "M‏/y",
                 yMd: "d‏/M‏/y",
-                yMEd: "E، d/‏M/‏y",
+                yMEd: "E، d‏/M‏/y",
                 yMM: "MM‏/y",
                 yMMM: "MMM y",
                 yMMMd: "d MMM y",

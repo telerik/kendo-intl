@@ -26,8 +26,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} 𞤉 {0}",
-            long: "{1} 𞤉 {0}",
+            full: "{1} {0}",
+            long: "{1} {0}",
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
@@ -431,7 +431,7 @@ const data = {
             },
             zone: {
                 wide: "𞤲𞤶𞤢𞤥𞤣𞤭 𞤲𞤮𞤳𞥆𞤵𞥅𞤪𞤫",
-                short: "𞤲𞤶𞤢𞤥𞤣𞤭 𞤲𞤮𞤳𞥆𞤵𞥅𞤪𞤫",
+                short: "𞤲𞤮𞤳𞥆𞤵𞥅𞤪𞤫",
                 narrow: "𞤲𞤶𞤢𞤥𞤣𞤭 𞤲𞤮𞤳𞥆𞤵𞥅𞤪𞤫"
             },
             millisecond: {

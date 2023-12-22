@@ -15,11 +15,11 @@ const data = {
             M: "MMMM d",
             y: "MMM y",
             Y: "y MMMM",
-            F: "EEEE d MMMM y h:mm:ss a",
-            g: "d/M/y h:mm a",
-            G: "d/M/y h:mm:ss a",
-            t: "h:mm a",
-            T: "h:mm:ss a",
+            F: "EEEE d MMMM y h:mm:ss a",
+            g: "d/M/y h:mm a",
+            G: "d/M/y h:mm:ss a",
+            t: "h:mm a",
+            T: "h:mm:ss a",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
@@ -48,9 +48,9 @@ const data = {
                 GyMMMEd: "G y MMM d, E",
                 h: "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
                 hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
@@ -79,10 +79,10 @@ const data = {
             }
         },
         timeFormats: {
-            full: "zzzz h:mm:ss a",
-            long: "z h:mm:ss a",
-            medium: "h:mm:ss a",
-            short: "h:mm a"
+            full: "zzzz h:mm:ss a",
+            long: "z h:mm:ss a",
+            medium: "h:mm:ss a",
+            short: "h:mm a"
         },
         dateFormats: {
             full: "EEEE d MMMM y",

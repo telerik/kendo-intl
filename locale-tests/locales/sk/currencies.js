@@ -1442,11 +1442,11 @@ const data = {
                 symbol: "MRO"
             },
             MRU: {
-                displayName: "mauritánska ukija",
-                "displayName-count-one": "mauritánska ukija",
-                "displayName-count-few": "mauritánske ukije",
-                "displayName-count-many": "mauritánskej ukije",
-                "displayName-count-other": "mauritánskych ukijí",
+                displayName: "mauritánska ouguiya",
+                "displayName-count-one": "mauritánska ouguiya",
+                "displayName-count-few": "mauritánske ouguiye",
+                "displayName-count-many": "mauritánskej ouguiye",
+                "displayName-count-other": "mauritánskych ouguiyí",
                 symbol: "MRU"
             },
             MTL: {
@@ -1887,10 +1887,6 @@ const data = {
                 "displayName-count-other": "slovenských korún",
                 symbol: "SKK"
             },
-            SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
-            },
             SLL: {
                 displayName: "sierraleonský leone",
                 "displayName-count-one": "sierraleonský leone",
@@ -1976,8 +1972,8 @@ const data = {
                 "symbol-alt-narrow": "£"
             },
             SZL: {
-                displayName: "svazijské lilangeni",
-                "displayName-count-one": "svazijské lilangeni",
+                displayName: "svazijský lilangeni",
+                "displayName-count-one": "svazijský lilangeni",
                 "displayName-count-few": "svazijské lilangeni",
                 "displayName-count-many": "svazijského lilangeni",
                 "displayName-count-other": "svazijských lilangeni",
@@ -2176,10 +2172,6 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
-            },
             UZS: {
                 displayName: "uzbecký sum",
                 "displayName-count-one": "uzbecký sum",
@@ -2195,10 +2187,6 @@ const data = {
                 "displayName-count-many": "venezuelského bolívaru (1871 – 2008)",
                 "displayName-count-other": "venezuelských bolívarov (1871 – 2008)",
                 symbol: "VEB"
-            },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
             },
             VEF: {
                 displayName: "venezuelský bolívar (2008–2018)",

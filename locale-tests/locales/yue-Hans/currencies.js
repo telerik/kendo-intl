@@ -361,7 +361,6 @@ const data = {
                 symbol: "CNH"
             },
             CNX: {
-                displayName: "CNX",
                 symbol: "CNX"
             },
             CNY: {
@@ -931,8 +930,7 @@ const data = {
             },
             MRU: {
                 displayName: "茅利塔尼亚乌吉亚",
-                "displayName-count-other": "茅利塔尼亚乌吉亚",
-                symbol: "MRU"
+                "displayName-count-other": "茅利塔尼亚乌吉亚"
             },
             MTL: {
                 displayName: "马尔他里拉",
@@ -1215,10 +1213,6 @@ const data = {
                 "displayName-count-other": "斯洛伐克克朗",
                 symbol: "SKK"
             },
-            SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
-            },
             SLL: {
                 displayName: "狮子山利昂",
                 "displayName-count-other": "狮子山利昂",
@@ -1254,7 +1248,6 @@ const data = {
             STN: {
                 displayName: "圣多美岛和普林西比岛多布拉",
                 "displayName-count-other": "圣多美岛和普林西比岛多布拉",
-                symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },
             SUR: {
@@ -1402,10 +1395,6 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
-            },
             UZS: {
                 displayName: "乌兹别克索姆",
                 "displayName-count-other": "乌兹别克索姆",
@@ -1415,10 +1404,6 @@ const data = {
                 displayName: "委内瑞拉玻利瓦 (1871–2008)",
                 "displayName-count-other": "委内瑞拉玻利瓦 (1871–2008)",
                 symbol: "VEB"
-            },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
             },
             VEF: {
                 displayName: "委内瑞拉玻利瓦 (2008–2018)",

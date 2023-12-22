@@ -1940,10 +1940,6 @@ const data = {
                 "displayName-count-other": "slovenských korun",
                 symbol: "SKK"
             },
-            SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
-            },
             SLL: {
                 displayName: "sierro-leonský leone",
                 "displayName-count-one": "sierro-leonský leone",
@@ -2229,10 +2225,6 @@ const data = {
                 symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
-            },
             UZS: {
                 displayName: "uzbecký sum",
                 "displayName-count-one": "uzbecký sum",
@@ -2248,10 +2240,6 @@ const data = {
                 "displayName-count-many": "venezuelského bolívaru (1871–2008)",
                 "displayName-count-other": "venezuelských bolívarů (1871–2008)",
                 symbol: "VEB"
-            },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
             },
             VEF: {
                 displayName: "venezuelský bolívar (2008–2018)",
@@ -2453,7 +2441,6 @@ const data = {
                 symbol: "XTS"
             },
             XUA: {
-                displayName: "XUA",
                 symbol: "XUA"
             },
             XXX: {
@@ -2619,9 +2606,9 @@ const data = {
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "E d.",
-                Ehm: "E h:mm a",
+                Ehm: "E h:mm a",
                 EHm: "E H:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E h:mm:ss a",
                 EHms: "E H:mm:ss",
                 Gy: "y G",
                 GyMd: "d. M. y GGGGG",
@@ -2630,16 +2617,20 @@ const data = {
                 GyMMMEd: "E d. M. y G",
                 GyMMMMd: "d. MMMM y G",
                 GyMMMMEd: "E d. MMMM y G",
-                h: "h a",
+                h: "h a",
                 H: "H",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "H:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "H:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "H:mm:ss v",
-                hmv: "h:mm a v",
+                hmsvvvv: "h:mm:ss a, vvvv",
+                Hmsvvvv: "H:mm:ss, vvvv",
+                hmv: "h:mm a v",
                 Hmv: "H:mm v",
+                hmvvvv: "h:mm a, vvvv",
+                Hmvvvv: "H:mm, vvvv",
                 M: "L",
                 Md: "d. M.",
                 MEd: "E d. M.",
@@ -2672,7 +2663,7 @@ const data = {
             }
         },
         timeFormats: {
-            full: "H:mm:ss zzzz",
+            full: "H:mm:ss, zzzz",
             long: "H:mm:ss z",
             medium: "H:mm:ss",
             short: "H:mm"

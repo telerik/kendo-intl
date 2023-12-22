@@ -25,8 +25,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{0} پٮ۪ٹھۍ {1}",
-            long: "{0} پٮ۪ٹھۍ {1}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
@@ -65,7 +65,8 @@ const data = {
                 MMMEd: "E, MMM d",
                 MMMMd: "MMMM d",
                 MMMMEd: "E, MMMM d",
-                "MMMMW-count-other": "'week' W 'of' MMMM",
+                "MMMMW-count-one": "ہفتہ W از MMMM",
+                "MMMMW-count-other": "ہفتہ W از MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M/y",
@@ -77,7 +78,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-other": "'week' w 'of' Y"
+                "yw-count-one": "ہفتہ w از Y",
+                "yw-count-other": "ہفتہ w از Y"
             }
         },
         timeFormats: {
@@ -309,12 +311,12 @@ const data = {
                     pm: "PM"
                 },
                 narrow: {
-                    am: "AM",
-                    pm: "PM"
+                    am: "a",
+                    pm: "p"
                 },
                 wide: {
-                    am: "AM",
-                    pm: "PM"
+                    am: "اے ایم",
+                    pm: "پی ایم"
                 }
             },
             "stand-alone": {
@@ -336,9 +338,9 @@ const data = {
             format: {
                 wide: {
                     "0": "قبٕل مسیٖح",
-                    "1": "عیٖسوی سنہٕ",
-                    "0-alt-variant": "بی سی ای",
-                    "1-alt-variant": "سی ای"
+                    "1": "اینو ڈومنی",
+                    "0-alt-variant": "عام دورٕ برونٹھ",
+                    "1-alt-variant": "عام دور"
                 },
                 abbreviated: {
                     "0": "بی سی",
@@ -355,7 +357,7 @@ const data = {
             }
         },
         gmtFormat: "GMT{0}",
-        gmtZeroFormat: "GMT",
+        gmtZeroFormat: "جی ایم ٹی",
         dateFields: {
             era: {
                 wide: "دور",
