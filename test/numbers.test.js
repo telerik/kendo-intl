@@ -6,7 +6,10 @@ const numbers = require("cldr-numbers-full/main/bg/numbers.json");
 const currencies = require("cldr-numbers-full/main/bg/currencies.json");
 const currencyData = require("cldr-core/supplemental/currencyData.json");
 
-load(likelySubtags, currencyData, numbers, currencies);
+const localNumbers = require("cldr-numbers-full/main/de-CH/numbers.json");
+const localCurrencies = require("cldr-numbers-full/main/de-CH/currencies.json");
+
+load(likelySubtags, currencyData, numbers, currencies, localNumbers, localCurrencies);
 
 function loadCustom(options) {
     load({
@@ -298,6 +301,10 @@ describe('standard currency formatting', () => {
 
     it("should apply format when passing language and territory", () => {
         expect(formatNumber(10, "c", "bg-BG")).toEqual("10,00 лв.");
+    });
+
+    it("should apply format when passing language and territory without symbol", () => {
+        expect(formatNumber(10, "c", "de-CH")).toEqual("CHF 10.00");
     });
 
     it("should apply format when passing object", () => {

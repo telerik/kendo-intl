@@ -112,7 +112,7 @@ export function currencyDisplay(locale, options) {
     let result;
 
     if (currencyDisplay === SYMBOL) {
-        result = currencyInfo["symbol-alt-narrow"] || currencyInfo[SYMBOL];
+        result = currencyInfo["symbol-alt-narrow"] || currencyInfo[SYMBOL] || currency;
     } else {
         if (typeof value === "undefined" || value !== 1) {
             result = currencyInfo["displayName-count-other"];
