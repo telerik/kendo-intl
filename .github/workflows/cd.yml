@@ -16,9 +16,11 @@ jobs:
     environment: upload
 
     permissions:
-        id-token: write # Required by Akeyless
-        contents: read
+        id-token: write
+        contents: write
+        issues: write
         packages: read
+        pull-requests: write
 
     steps:
       - name: Import Secrets
@@ -28,23 +30,23 @@ jobs:
           access-id: ${{ secrets.GH_AKEYLESS_ACCESS_ID }}
           static-secrets: |
             {
-              "/WebComponents/prod/tokens/GH_TOKEN": "GH_TOKEN",
-              "/WebComponents/prod/tokens/PROGRESS_NPM_REGISTRY_TOKEN": "NPM_TOKEN"
+              "${{ secrets.GH_AKEYLESS_GH_TOKEN_PATH }}": "GH_TOKEN",
+              "${{ secrets.GH_AKEYLESS_NPM_TOKEN_PATH }}": "NPM_TOKEN"
             }
           export-secrets-to-environment: false
 
       - name: Check out branch
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0 # Fetch all branches
 
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: '14'
+          node-version: '20'
 
       - name: Install modules
-        run: npm install --no-audit
+        run: npm ci --no-audit
 
       - name: Build package
         run: npm run build-package
@@ -53,7 +55,7 @@ jobs:
         run: npm run test
 
       - name: Publish release
-        run: npx ci-semantic-release
+        run: npx semantic-release
         env:
           NPM_TOKEN: ${{ steps.import-secrets.outputs.NPM_TOKEN }}
           GH_TOKEN: ${{ steps.import-secrets.outputs.GH_TOKEN }}

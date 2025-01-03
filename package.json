@@ -15,8 +15,7 @@
     "test:watch": "jest --watch -- ./test",
     "locale-tests": "jest -- ./locale-tests",
     "locale-tests:watch": "jest --watch -- ./locale-tests",
-    "lint": "eslint --quiet -- ./src ./test ./locale-tests/*.js",
-    "semantic-release": "semantic-release pre && semantic-prerelease publish && semantic-release post"
+    "lint": "eslint --quiet -- ./src ./test ./locale-tests/*.js"
   },
   "keywords": [
     "Kendo",
@@ -24,7 +23,6 @@
   ],
   "devDependencies": {
     "@progress/kendo-package-tasks": "dev",
-    "@progress/semantic-prerelease": "^3.0.0",
     "@typescript-eslint/eslint-plugin": "^5.27.0",
     "@typescript-eslint/parser": "^5.27.0",
     "cldr-core": "^41.0.0",
@@ -42,7 +40,7 @@
     "ghooks": "^1.0.3",
     "gulp": "^4.0.0",
     "jest-cli": "^26.6.3",
-    "semantic-release": "^6.3.6",
+    "semantic-release": "^24.2.1",
     "validate-commit-msg": "^1.1.1"
   },
   "config": {
@@ -59,18 +57,17 @@
     "url": "https://github.com/telerik/kendo-intl.git"
   },
   "release": {
-    "debug": false,
-    "branchTags": {
-      "develop": "dev"
-    },
-    "fallbackTags": {
-      "dev": "latest"
-    },
-    "analyzeCommits": "@progress/semantic-prerelease/analyzeCommits",
-    "generateNotes": "@progress/semantic-prerelease/generateNotes",
-    "getLastRelease": "@progress/semantic-prerelease/getLastRelease",
-    "verifyConditions": "@progress/semantic-prerelease/verifyConditions",
-    "verifyRelease": "@progress/semantic-prerelease/verifyRelease"
+    "branches": [{
+        "name": "master",
+        "channel": "latest"
+    }, {
+        "name": "develop",
+        "prerelease": true,
+        "channel": "dev"
+    }]
+  },
+  "publishConfig": {
+    "provenance": true
   },
   "files": [
     "dist",
