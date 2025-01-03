@@ -1,3 +1,5 @@
+import { afterAll, beforeAll, describe, it, expect, vi } from 'vitest';
+
 import { formatNumber, parseNumber, formatDate, parseDate, firstDay, weekendRange, setData } from '../src/main';
 import { LOCALES, NO_CURRENCY_LOCALE, clean } from './utils';
 
@@ -6,10 +8,12 @@ describe('generated-locales', () => {
     const number = 5.55;
     const numberString = '5.55';
 
-    describe.each(LOCALES)('%s (all)', (locale) => {
-        beforeAll(() => {
-            const all = require(`./locales/${ locale }/all`).default;
-            setData(all);
+    describe.each(LOCALES)('%s (all)', async(locale) => {
+        beforeAll(async () => {
+            const all = await import(`./locales/${ locale }/all.js`);
+            await vi.dynamicImportSettled();
+
+            setData(all.default);
         });
 
         afterAll(() => {

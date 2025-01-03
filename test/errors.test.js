@@ -1,3 +1,4 @@
+import { describe, it, expect } from 'vitest';
 import { errors, IntlError } from '../src/errors';
 
 describe('Intl', () => {

@@ -1,3 +1,5 @@
+import { describe, it, expect } from 'vitest';
+
 import { currencyDisplay, currencyDisplays, territoryCurrencyCode } from '../src/cldr';
 import { errors } from '../src/errors';
 
