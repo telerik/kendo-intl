@@ -1,0 +1,18 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/javascript-node
+{
+    "name": "Node.js",
+    "image": "mcr.microsoft.com/devcontainers/base:jammy",
+    "features": {
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "20"
+        },
+        "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
+            "packages": []
+        },
+        "ghcr.io/devcontainers/features/git:1": {}
+    },
+    "remoteEnv": {
+        "PATH": "${containerEnv:PATH}:./node_modules/.bin"
+    }
+}
