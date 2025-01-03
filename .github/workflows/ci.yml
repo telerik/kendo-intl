@@ -8,6 +8,9 @@ on:
       - develop
       - release-*
 
+env:
+  HUSKY: 0
+
 jobs:
   build:
     runs-on: ubuntu-latest
