@@ -1,3 +1,5 @@
+import { describe, it, expect } from 'vitest';
+
 import { load, localeInfo, dateFormatNames } from '../src/cldr';
 import { formatDate, parseDate, splitDateFormat } from '../src/dates';
 import { convertTimeZone } from '../src/dates/time-utils';

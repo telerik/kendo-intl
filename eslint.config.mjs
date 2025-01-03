@@ -65,5 +65,12 @@ export default [
   },
   {
     ignores: ["dist/", "docs/"]
+  },
+  {
+    settings: {
+      "import/ignore": [
+        "vitest"
+      ],
+    },
   }
 ];

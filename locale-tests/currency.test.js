@@ -1,3 +1,4 @@
+import { afterAll, beforeAll, describe, it, expect, vi } from 'vitest';
 import { formatNumber, parseNumber, setData } from '../src/main';
 import { LOCALES, clean, NO_CURRENCY_LOCALE } from './utils';
 
@@ -5,14 +6,14 @@ const number = 5.55;
 const numberString = '5.55';
 const currencyLocales = LOCALES.filter(locale => locale !== NO_CURRENCY_LOCALE);
 
-describe.each(currencyLocales)('%s currency', (locale) => {
-    beforeAll(() => {
-        const numbers = require(`./locales/${ locale }/numbers`).default;
-        const currencies = require(`./locales/${ locale }/currencies`).default;
+describe.each(currencyLocales)('%s currency', async(locale) => {
+    beforeAll(async() => {
+        const numbers = await import(`./locales/${ locale }/numbers.js`);
+        const currencies = await import(`./locales/${ locale }/currencies.js`);
+        await vi.dynamicImportSettled();
 
-        setData(numbers);
-        setData(currencies);
-
+        setData(numbers.default);
+        setData(currencies.default);
     });
 
     afterAll(() => {

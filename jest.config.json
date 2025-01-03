@@ -1,5 +1,0 @@
-{
-    "preset": "es-jest",
-    "testRegex": ["/test/.*\\.test\\.js$", "/locale-tests/.*\\.test\\.js$"],
-    "testTimeout": 20000
-}
