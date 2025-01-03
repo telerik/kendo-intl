@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+set -o verbose
+BRANCH=$(git rev-parse --abbrev-ref HEAD)
+
+if [ $BRANCH != "master" ]; then
+    echo "Refusing to release from $BRANCH. This script should be running in master."
+    exit 1
+fi
+
+echo Fast-forwarding master to develop
+set -o errexit
+git fetch --quiet
+git reset --hard origin/master
+git merge --ff-only --quiet origin/develop
+set +o errexit
+
+echo Pushing master
+git push origin master
