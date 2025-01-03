@@ -17,6 +17,6 @@ export function clean() {
 
 export const LOCALES =
     fs.readdirSync(path.join('./node_modules', 'cldr-localenames-full', 'main'))
-      .filter(locale => locale !== 'root');
+        .filter(locale => locale !== 'root');
 
 export const NO_CURRENCY_LOCALE = 'es-419';

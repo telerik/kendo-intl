@@ -19,143 +19,143 @@ function date(year, month = 1, day = 1, hour = 0, minute = 0, second = 0, millis
 
 describe('date formatting', () => {
     it('returns value if it is not a date', () => {
-        expect(formatDate("foo")).toEqual("foo");
+        expect(formatDate("foo")).toBe("foo");
     });
 
     it('returns empty string if value is null or undefined', () => {
-        expect(formatDate(undefined)).toEqual("");
-        expect(formatDate(null)).toEqual("");
+        expect(formatDate(undefined)).toBe("");
+        expect(formatDate(null)).toBe("");
     });
 
     it('applies short date format if no format is set', () => {
-        expect(formatDate(date(2000, 1, 30))).toEqual("1/30/2000");
+        expect(formatDate(date(2000, 1, 30))).toBe("1/30/2000");
     });
 
     it('supports short date format', () => {
-        expect(formatDate(date(2000, 1, 30), "d")).toEqual("1/30/2000");
+        expect(formatDate(date(2000, 1, 30), "d")).toBe("1/30/2000");
     });
 
     it('supports long date format', () => {
-        expect(formatDate(date(2000, 1, 30), "D")).toEqual('Sunday, January 30, 2000');
+        expect(formatDate(date(2000, 1, 30), "D")).toBe('Sunday, January 30, 2000');
     });
 
     it('supports long time format', () => {
-        expect(formatDate(date(2000, 1, 30), "T")).toEqual("12:00:00 AM");
+        expect(formatDate(date(2000, 1, 30), "T")).toBe("12:00:00 AM");
     });
 
     it('supports short time pattern', () => {
-        expect(formatDate(date(2000, 1, 30), "t")).toEqual('12:00 AM');
+        expect(formatDate(date(2000, 1, 30), "t")).toBe('12:00 AM');
     });
 
     it('supports full date long time format', () => {
-        expect(formatDate(date(2000, 1, 30, 13, 9, 9), "F")).toEqual('Sunday, January 30, 2000 1:09:09 PM');
+        expect(formatDate(date(2000, 1, 30, 13, 9, 9), "F")).toBe('Sunday, January 30, 2000 1:09:09 PM');
     });
 
     it('supports general format', () => {
-        expect(formatDate(date(2000, 1, 30, 13, 9, 9), "g")).toEqual('1/30/2000 1:09 PM');
+        expect(formatDate(date(2000, 1, 30, 13, 9, 9), "g")).toBe('1/30/2000 1:09 PM');
     });
 
     it('supports long general format', () => {
-        expect(formatDate(date(2000, 1, 30, 13, 9, 9), "G")).toEqual('1/30/2000 1:09:09 PM');
+        expect(formatDate(date(2000, 1, 30, 13, 9, 9), "G")).toBe('1/30/2000 1:09:09 PM');
     });
 
     it('supports iso formats', () => {
-        expect(formatDate(date(2000, 1, 30, 13, 9, 9), "s")).toEqual('2000-01-30T13:09:09');
-        expect(formatDate(date(2000, 1, 30, 13, 9, 9), "u")).toEqual('2000-01-30 13:09:09Z');
+        expect(formatDate(date(2000, 1, 30, 13, 9, 9), "s")).toBe('2000-01-30T13:09:09');
+        expect(formatDate(date(2000, 1, 30, 13, 9, 9), "u")).toBe('2000-01-30 13:09:09Z');
     });
 
     it('supports zero padded days', () => {
-        expect(formatDate(date(2000, 1, 1), "M/dd/yyyy")).toEqual('1/01/2000');
+        expect(formatDate(date(2000, 1, 1), "M/dd/yyyy")).toBe('1/01/2000');
     });
 
     it('supports abbreviated day of week', () => {
-        expect(formatDate(date(2000, 1, 1), "E")).toEqual('Sat');
-        expect(formatDate(date(2000, 1, 1), "EE")).toEqual('Sat');
-        expect(formatDate(date(2000, 1, 1), "EEE")).toEqual('Sat');
+        expect(formatDate(date(2000, 1, 1), "E")).toBe('Sat');
+        expect(formatDate(date(2000, 1, 1), "EE")).toBe('Sat');
+        expect(formatDate(date(2000, 1, 1), "EEE")).toBe('Sat');
     });
 
     it('supports wide day of week', () => {
-        expect(formatDate(date(2000, 1, 1), "EEEE")).toEqual('Saturday');
+        expect(formatDate(date(2000, 1, 1), "EEEE")).toBe('Saturday');
     });
 
     it('supports narrow day of week', () => {
-        expect(formatDate(date(2000, 1, 1), "EEEEE")).toEqual('S');
+        expect(formatDate(date(2000, 1, 1), "EEEEE")).toBe('S');
     });
 
     it('supports short day of week', () => {
-        expect(formatDate(date(2000, 1, 1), "EEEEEE")).toEqual('Sa');
+        expect(formatDate(date(2000, 1, 1), "EEEEEE")).toBe('Sa');
     });
 
     it('supports day of week index', () => {
-        expect(formatDate(date(2000, 1, 1), "e")).toEqual("7");
-        expect(formatDate(date(2000, 1, 1), "ee")).toEqual("7");
-        expect(formatDate(date(2000, 1, 1), "c")).toEqual("7");
+        expect(formatDate(date(2000, 1, 1), "e")).toBe("7");
+        expect(formatDate(date(2000, 1, 1), "ee")).toBe("7");
+        expect(formatDate(date(2000, 1, 1), "c")).toBe("7");
     });
 
     it('supports localized day of week index', () => {
-        expect(formatDate(date(2000, 1, 1), "e", "bg")).toEqual("6");
+        expect(formatDate(date(2000, 1, 1), "e", "bg")).toBe("6");
     });
 
     it('supports stand-alone day of week', () => {
-        expect(formatDate(date(2000, 1, 1), "ccc")).toEqual('Sat');
-        expect(formatDate(date(2000, 1, 1), "cccc")).toEqual('Saturday');
-        expect(formatDate(date(2000, 1, 1), "ccccc")).toEqual('S');
-        expect(formatDate(date(2000, 1, 1), "cccccc")).toEqual('Sa');
+        expect(formatDate(date(2000, 1, 1), "ccc")).toBe('Sat');
+        expect(formatDate(date(2000, 1, 1), "cccc")).toBe('Saturday');
+        expect(formatDate(date(2000, 1, 1), "ccccc")).toBe('S');
+        expect(formatDate(date(2000, 1, 1), "cccccc")).toBe('Sa');
     });
 
     it('supports zero padded months', () => {
-        expect(formatDate(date(2000, 1, 1), "MM/dd/yyyy")).toEqual('01/01/2000');
+        expect(formatDate(date(2000, 1, 1), "MM/dd/yyyy")).toBe('01/01/2000');
     });
 
     it('supports abbreviated month name', () => {
-        expect(formatDate(date(2000, 1, 1), "MMM")).toEqual('Jan');
+        expect(formatDate(date(2000, 1, 1), "MMM")).toBe('Jan');
     });
 
     it('supports wide month name', () => {
-        expect(formatDate(date(2000, 1, 1), "MMMM")).toEqual('January');
+        expect(formatDate(date(2000, 1, 1), "MMMM")).toBe('January');
     });
 
     it('supports narrow month name', () => {
-        expect(formatDate(date(2000, 1, 1), "MMMMM")).toEqual('J');
+        expect(formatDate(date(2000, 1, 1), "MMMMM")).toBe('J');
     });
 
     it('supports stand-alone month formatting', () => {
-        expect(formatDate(date(2000, 1, 1), "LL")).toEqual('01');
-        expect(formatDate(date(2000, 1, 1), "LLL")).toEqual('Jan');
-        expect(formatDate(date(2000, 1, 1), "LLLL")).toEqual('January');
-        expect(formatDate(date(2000, 1, 1), "LLLLL")).toEqual('J');
+        expect(formatDate(date(2000, 1, 1), "LL")).toBe('01');
+        expect(formatDate(date(2000, 1, 1), "LLL")).toBe('Jan');
+        expect(formatDate(date(2000, 1, 1), "LLLL")).toBe('January');
+        expect(formatDate(date(2000, 1, 1), "LLLLL")).toBe('J');
     });
 
     it('supports year formatting', () => {
         const oneDigitYear = new Date(1, 0, 1);
         oneDigitYear.setFullYear(1);
-        expect(formatDate(oneDigitYear, "y MM")).toEqual('1 01');
-        expect(formatDate(date(2000, 1, 1), "y MM")).toEqual('2000 01');
+        expect(formatDate(oneDigitYear, "y MM")).toBe('1 01');
+        expect(formatDate(date(2000, 1, 1), "y MM")).toBe('2000 01');
     });
 
     it('supports two length year formatting', () => {
         const oneDigitYear = new Date(1, 0, 1);
         oneDigitYear.setFullYear(1);
-        expect(formatDate(oneDigitYear, "yy")).toEqual('01');
-        expect(formatDate(date(2016, 1, 1), "yy")).toEqual('16');
+        expect(formatDate(oneDigitYear, "yy")).toBe('01');
+        expect(formatDate(date(2016, 1, 1), "yy")).toBe('16');
     });
 
     it('supports padded year formatting', () => {
         const oneDigitYear = new Date(1, 0, 1);
         oneDigitYear.setFullYear(1);
-        expect(formatDate(oneDigitYear, "yyy")).toEqual('001');
-        expect(formatDate(date(111, 1, 1), "yyyy")).toEqual('0111');
+        expect(formatDate(oneDigitYear, "yyy")).toBe('001');
+        expect(formatDate(date(111, 1, 1), "yyyy")).toBe('0111');
     });
 
     it('supports 12-hour clock formatting', () => {
         const hourSmall = date(2000, 1, 1, 1);
         const hourBig = date(2000, 1, 1, 13);
 
-        expect(formatDate(hourSmall, "h:mm")).toEqual("1:00");
-        expect(formatDate(hourBig, "h:mm")).toEqual("1:00");
-        expect(formatDate(hourSmall, "hh:mm")).toEqual("01:00");
-        expect(formatDate(hourBig, "hh:mm")).toEqual("01:00");
-        expect(formatDate(date(2000, 1, 1, 12), "hh:mm")).toEqual("12:00");
+        expect(formatDate(hourSmall, "h:mm")).toBe("1:00");
+        expect(formatDate(hourBig, "h:mm")).toBe("1:00");
+        expect(formatDate(hourSmall, "hh:mm")).toBe("01:00");
+        expect(formatDate(hourBig, "hh:mm")).toBe("01:00");
+        expect(formatDate(date(2000, 1, 1, 12), "hh:mm")).toBe("12:00");
     });
 
     it('supports 0-11 hour clock formatting', () => {
@@ -165,25 +165,25 @@ describe('date formatting', () => {
         const hour12 = date(2000, 1, 1, 12);
         const hourBig = date(2000, 1, 1, 13);
 
-        expect(formatDate(hourZero, "K:mm")).toEqual("0:00");
-        expect(formatDate(hourSmall, "K:mm")).toEqual("1:00");
-        expect(formatDate(hour12, "K:mm")).toEqual("0:00");
-        expect(formatDate(hourBig, "K:mm")).toEqual("1:00");
+        expect(formatDate(hourZero, "K:mm")).toBe("0:00");
+        expect(formatDate(hourSmall, "K:mm")).toBe("1:00");
+        expect(formatDate(hour12, "K:mm")).toBe("0:00");
+        expect(formatDate(hourBig, "K:mm")).toBe("1:00");
 
-        expect(formatDate(hourZero, "KK:mm")).toEqual("00:00");
-        expect(formatDate(hourSmall, "KK:mm")).toEqual("01:00");
-        expect(formatDate(hour12, "KK:mm")).toEqual("00:00");
-        expect(formatDate(hourBig, "KK:mm")).toEqual("01:00");
+        expect(formatDate(hourZero, "KK:mm")).toBe("00:00");
+        expect(formatDate(hourSmall, "KK:mm")).toBe("01:00");
+        expect(formatDate(hour12, "KK:mm")).toBe("00:00");
+        expect(formatDate(hourBig, "KK:mm")).toBe("01:00");
     });
 
     it('supports 24-hour clock formatting', () => {
         const hourSmall = date(2000, 1, 1, 1);
         const hourBig = date(2000, 1, 1, 23);
 
-        expect(formatDate(hourSmall, "H:mm")).toEqual("1:00");
-        expect(formatDate(hourBig, "H:mm")).toEqual("23:00");
-        expect(formatDate(hourSmall, "HH:mm")).toEqual("01:00");
-        expect(formatDate(hourBig, "HH:mm")).toEqual("23:00");
+        expect(formatDate(hourSmall, "H:mm")).toBe("1:00");
+        expect(formatDate(hourBig, "H:mm")).toBe("23:00");
+        expect(formatDate(hourSmall, "HH:mm")).toBe("01:00");
+        expect(formatDate(hourBig, "HH:mm")).toBe("23:00");
     });
 
     it('supports 1-24 hour clock formatting', () => {
@@ -192,187 +192,187 @@ describe('date formatting', () => {
         const hour12 = date(2000, 1, 1, 12);
         const hourBig = date(2000, 1, 1, 13);
 
-        expect(formatDate(hourZero, "k:mm")).toEqual("24:00");
-        expect(formatDate(hourSmall, "k:mm")).toEqual("1:00");
-        expect(formatDate(hour12, "k:mm")).toEqual("12:00");
-        expect(formatDate(hourBig, "k:mm")).toEqual("13:00");
+        expect(formatDate(hourZero, "k:mm")).toBe("24:00");
+        expect(formatDate(hourSmall, "k:mm")).toBe("1:00");
+        expect(formatDate(hour12, "k:mm")).toBe("12:00");
+        expect(formatDate(hourBig, "k:mm")).toBe("13:00");
 
-        expect(formatDate(hourZero, "kk:mm")).toEqual("24:00");
-        expect(formatDate(hourSmall, "kk:mm")).toEqual("01:00");
-        expect(formatDate(hour12, "kk:mm")).toEqual("12:00");
-        expect(formatDate(hourBig, "kk:mm")).toEqual("13:00");
+        expect(formatDate(hourZero, "kk:mm")).toBe("24:00");
+        expect(formatDate(hourSmall, "kk:mm")).toBe("01:00");
+        expect(formatDate(hour12, "kk:mm")).toBe("12:00");
+        expect(formatDate(hourBig, "kk:mm")).toBe("13:00");
     });
 
     it('supports day period short formatting', () => {
-        expect(formatDate(date(2000, 1, 1, 1), "hh a")).toEqual("01 AM");
-        expect(formatDate(date(2000, 1, 1, 13), "hh a")).toEqual("01 PM");
+        expect(formatDate(date(2000, 1, 1, 1), "hh a")).toBe("01 AM");
+        expect(formatDate(date(2000, 1, 1, 13), "hh a")).toBe("01 PM");
     });
 
     it('supports day period wide formatting', () => {
-        expect(formatDate(date(2000, 1, 1, 1), "hh aaaa")).toEqual("01 AM");
-        expect(formatDate(date(2000, 1, 1, 13), "hh aaaa")).toEqual("01 PM");
+        expect(formatDate(date(2000, 1, 1, 1), "hh aaaa")).toBe("01 AM");
+        expect(formatDate(date(2000, 1, 1, 13), "hh aaaa")).toBe("01 PM");
     });
 
     it('supports day period narrow formatting', () => {
-        expect(formatDate(date(2000, 1, 1, 1), "hh aaaaa")).toEqual("01 a");
-        expect(formatDate(date(2000, 1, 1, 13), "hh aaaaa")).toEqual("01 p");
+        expect(formatDate(date(2000, 1, 1, 1), "hh aaaaa")).toBe("01 a");
+        expect(formatDate(date(2000, 1, 1, 13), "hh aaaaa")).toBe("01 p");
     });
 
     it('supports minutes formatting', () => {
-        expect(formatDate(date(2000, 1, 1, 10, 1), "HH:m")).toEqual('10:1');
-        expect(formatDate(date(2000, 1, 1, 10, 33), "HH:m")).toEqual('10:33');
-        expect(formatDate(date(2000, 1, 1, 10, 1), "HH:mm")).toEqual('10:01');
-        expect(formatDate(date(2000, 1, 1, 10, 33), "HH:mm")).toEqual('10:33');
+        expect(formatDate(date(2000, 1, 1, 10, 1), "HH:m")).toBe('10:1');
+        expect(formatDate(date(2000, 1, 1, 10, 33), "HH:m")).toBe('10:33');
+        expect(formatDate(date(2000, 1, 1, 10, 1), "HH:mm")).toBe('10:01');
+        expect(formatDate(date(2000, 1, 1, 10, 33), "HH:mm")).toBe('10:33');
     });
 
     it('supports seconds formatting', () => {
-        expect(formatDate(date(2000, 1, 1, 10, 1, 1), "m:s")).toEqual('1:1');
-        expect(formatDate(date(2000, 1, 1, 10, 1, 33), "m:s")).toEqual('1:33');
-        expect(formatDate(date(2000, 1, 1, 10, 1, 1), "m:ss")).toEqual('1:01');
-        expect(formatDate(date(2000, 1, 1, 10, 1, 33), "m:ss")).toEqual('1:33');
+        expect(formatDate(date(2000, 1, 1, 10, 1, 1), "m:s")).toBe('1:1');
+        expect(formatDate(date(2000, 1, 1, 10, 1, 33), "m:s")).toBe('1:33');
+        expect(formatDate(date(2000, 1, 1, 10, 1, 1), "m:ss")).toBe('1:01');
+        expect(formatDate(date(2000, 1, 1, 10, 1, 33), "m:ss")).toBe('1:33');
     });
 
     it('supports S more than 99', () => {
-        expect(formatDate(date(2000, 1, 1, 1, 1, 1, 100), "hh:mm:S")).toEqual('01:01:1');
+        expect(formatDate(date(2000, 1, 1, 1, 1, 1, 100), "hh:mm:S")).toBe('01:01:1');
     });
 
     it('supports SSS with round numbers', () => {
-        expect(formatDate(date(2000, 1, 1, 1, 1, 1, 100), "hh:mm:SSS")).toEqual('01:01:100');
+        expect(formatDate(date(2000, 1, 1, 1, 1, 1, 100), "hh:mm:SSS")).toBe('01:01:100');
     });
 
     it('supports S less than 100', () => {
-        expect(formatDate(date(2000, 1, 1, 1, 1, 1, 99), "hh:mm:S")).toEqual('01:01:0');
+        expect(formatDate(date(2000, 1, 1, 1, 1, 1, 99), "hh:mm:S")).toBe('01:01:0');
     });
 
     it('supports SS', () => {
-        expect(formatDate(date(2000, 1, 1, 1, 1, 1, 129), "hh:mm:SS")).toEqual('01:01:12');
+        expect(formatDate(date(2000, 1, 1, 1, 1, 1, 129), "hh:mm:SS")).toBe('01:01:12');
     });
 
     it('supports padded SS', () => {
-        expect(formatDate(date(2000, 1, 1, 1, 1, 1, 10), "SS")).toEqual('01');
+        expect(formatDate(date(2000, 1, 1, 1, 1, 1, 10), "SS")).toBe('01');
     });
 
     it('supports SSS', () => {
-        expect(formatDate(date(2000, 1, 1, 1, 1, 1, 129), "SSS")).toEqual('129');
+        expect(formatDate(date(2000, 1, 1, 1, 1, 1, 129), "SSS")).toBe('129');
     });
 
     it('supports padded SSS', () => {
-        expect(formatDate(date(2000, 1, 1, 1, 1, 1, 1), "SSS")).toEqual('001');
+        expect(formatDate(date(2000, 1, 1, 1, 1, 1, 1), "SSS")).toBe('001');
     });
 
     it('supports abbreviated era formatting', () => {
-        expect(formatDate(date(-1, 1, 1), "y G")).toEqual('-1 BC');
-        expect(formatDate(date(2000, 1, 1), "y G")).toEqual('2000 AD');
+        expect(formatDate(date(-1, 1, 1), "y G")).toBe('-1 BC');
+        expect(formatDate(date(2000, 1, 1), "y G")).toBe('2000 AD');
     });
 
     it('supports wide era formatting', () => {
-        expect(formatDate(date(-1, 1, 1), "y GGGG")).toEqual('-1 Before Christ');
-        expect(formatDate(date(2000, 1, 1), "y GGGG")).toEqual('2000 Anno Domini');
+        expect(formatDate(date(-1, 1, 1), "y GGGG")).toBe('-1 Before Christ');
+        expect(formatDate(date(2000, 1, 1), "y GGGG")).toBe('2000 Anno Domini');
     });
 
     it('supports narrow era formatting', () => {
-        expect(formatDate(date(-1, 1, 1), "y GGGGG")).toEqual('-1 B');
-        expect(formatDate(date(2000, 1, 1), "y GGGGG")).toEqual('2000 A');
+        expect(formatDate(date(-1, 1, 1), "y GGGGG")).toBe('-1 B');
+        expect(formatDate(date(2000, 1, 1), "y GGGGG")).toBe('2000 A');
     });
 
     it('supports numerical quarter formatting', () => {
-        expect(formatDate(date(2000, 3, 1), "Q")).toEqual('1');
-        expect(formatDate(date(2000, 4, 1), "Q")).toEqual('2');
+        expect(formatDate(date(2000, 3, 1), "Q")).toBe('1');
+        expect(formatDate(date(2000, 4, 1), "Q")).toBe('2');
     });
 
     it('supports abbreviated quarter formatting', () => {
-        expect(formatDate(date(2000, 3, 1), "QQQ")).toEqual('Q1');
-        expect(formatDate(date(2000, 4, 1), "QQQ")).toEqual('Q2');
+        expect(formatDate(date(2000, 3, 1), "QQQ")).toBe('Q1');
+        expect(formatDate(date(2000, 4, 1), "QQQ")).toBe('Q2');
     });
 
     it('supports wide quarter formatting', () => {
-        expect(formatDate(date(2000, 3, 1), "QQQQ")).toEqual('1st quarter');
-        expect(formatDate(date(2000, 4, 1), "QQQQ")).toEqual('2nd quarter');
+        expect(formatDate(date(2000, 3, 1), "QQQQ")).toBe('1st quarter');
+        expect(formatDate(date(2000, 4, 1), "QQQQ")).toBe('2nd quarter');
     });
 
     it('supports narrow quarter formatting', () => {
-        expect(formatDate(date(2000, 3, 1), "QQQQQ")).toEqual('1');
-        expect(formatDate(date(2000, 4, 1), "QQQQQ")).toEqual('2');
+        expect(formatDate(date(2000, 3, 1), "QQQQQ")).toBe('1');
+        expect(formatDate(date(2000, 4, 1), "QQQQQ")).toBe('2');
     });
 
     it('supports short localized GMT format', () => {
-        expect(formatDate(date(2000, 2, 1), "z")).toEqual('GMT+2');
+        expect(formatDate(date(2000, 2, 1), "z")).toBe('GMT+2');
     });
 
     it('supports long localized GMT format', () => {
-        expect(formatDate(date(2000, 2, 1), "zzzz")).toEqual('GMT+02:00');
+        expect(formatDate(date(2000, 2, 1), "zzzz")).toBe('GMT+02:00');
     });
 
     it('supports the ISO8601 basic format timezone format', () => {
-        expect(formatDate(date(2000, 2, 1), "Z")).toEqual('+0200');
+        expect(formatDate(date(2000, 2, 1), "Z")).toBe('+0200');
     });
 
     it('supports Z long localized GMT format', () => {
-        expect(formatDate(date(2000, 2, 1), "ZZZZ")).toEqual('GMT+02:00');
+        expect(formatDate(date(2000, 2, 1), "ZZZZ")).toBe('GMT+02:00');
     });
 
     it('supports the ISO8601 extended timezone format', () => {
-        expect(formatDate(date(2000, 2, 1), "ZZZZZ")).toEqual('+02:00');
+        expect(formatDate(date(2000, 2, 1), "ZZZZZ")).toBe('+02:00');
     });
 
     it('supports the x timezone format', () => {
-        expect(formatDate(date(2000, 2, 1), "x")).toEqual('+02');
-        expect(formatDate(date(2000, 2, 1), "xx")).toEqual('+0200');
-        expect(formatDate(date(2000, 2, 1), "xxx")).toEqual('+02:00');
-        expect(formatDate(date(2000, 2, 1), "xxxx")).toEqual('+0200');
-        expect(formatDate(date(2000, 2, 1), "xxxxx")).toEqual('+02:00');
+        expect(formatDate(date(2000, 2, 1), "x")).toBe('+02');
+        expect(formatDate(date(2000, 2, 1), "xx")).toBe('+0200');
+        expect(formatDate(date(2000, 2, 1), "xxx")).toBe('+02:00');
+        expect(formatDate(date(2000, 2, 1), "xxxx")).toBe('+0200');
+        expect(formatDate(date(2000, 2, 1), "xxxxx")).toBe('+02:00');
     });
 
     it('supports the X timezone format', () => {
-        expect(formatDate(date(2000, 2, 1), "X")).toEqual('+02');
-        expect(formatDate(date(2000, 2, 1), "XX")).toEqual('+0200');
-        expect(formatDate(date(2000, 2, 1), "XXX")).toEqual('+02:00');
-        expect(formatDate(date(2000, 2, 1), "XXXX")).toEqual('+0200');
-        expect(formatDate(date(2000, 2, 1), "XXXXX")).toEqual('+02:00');
+        expect(formatDate(date(2000, 2, 1), "X")).toBe('+02');
+        expect(formatDate(date(2000, 2, 1), "XX")).toBe('+0200');
+        expect(formatDate(date(2000, 2, 1), "XXX")).toBe('+02:00');
+        expect(formatDate(date(2000, 2, 1), "XXXX")).toBe('+0200');
+        expect(formatDate(date(2000, 2, 1), "XXXXX")).toBe('+02:00');
     });
 
     it('supports single quote literals', () => {
-        expect(formatDate(date(2000, 1, 1, 9), "'literal'")).toEqual('literal');
+        expect(formatDate(date(2000, 1, 1, 9), "'literal'")).toBe('literal');
     });
 
     it('supports quote literals', () => {
-        expect(formatDate(date(2000, 1, 1, 9), "\"literal\"")).toEqual('literal');
+        expect(formatDate(date(2000, 1, 1, 9), "\"literal\"")).toBe('literal');
     });
 
     it('honors specific locale', () => {
-        expect(formatDate(date(2000, 2, 10), "E MMMM", "bg")).toEqual('чт февруари');
+        expect(formatDate(date(2000, 2, 10), "E MMMM", "bg")).toBe('чт февруари');
     });
 
     it('formats using skeleton format', () => {
-        expect(formatDate(date(2000, 2, 10), { skeleton: "yMMMd" })).toEqual('Feb 10, 2000');
+        expect(formatDate(date(2000, 2, 10), { skeleton: "yMMMd" })).toBe('Feb 10, 2000');
     });
 
     it('supports skeleton format if there is not exact match', () => {
-        expect(formatDate(date(2000, 2, 10), { skeleton: "MMd" })).toEqual('02 10');
+        expect(formatDate(date(2000, 2, 10), { skeleton: "MMd" })).toBe('02 10');
     });
 
     it('replaces available format pattern with specified pattern', () => {
-        expect(formatDate(date(2000, 2, 10), { skeleton: "MMMM" })).toEqual('February');
+        expect(formatDate(date(2000, 2, 10), { skeleton: "MMMM" })).toBe('February');
     });
 
     it('supports skeleton format if there is both date and time', () => {
-        expect(formatDate(date(2000, 2, 10, 10, 30), { skeleton: "yMMMdhm" })).toEqual('Feb 10, 2000, 10:30 AM');
+        expect(formatDate(date(2000, 2, 10, 10, 30), { skeleton: "yMMMdhm" })).toBe('Feb 10, 2000, 10:30 AM');
     });
 
     it('supports pattern', () => {
-        expect(formatDate(date(2000, 2, 1), { pattern: "d" })).toEqual('1');
+        expect(formatDate(date(2000, 2, 1), { pattern: "d" })).toBe('1');
     });
 
     it('supports dateFormats', () => {
-        expect(formatDate(date(2000, 2, 10, 10, 30), { date: "long" })).toEqual('February 10, 2000');
+        expect(formatDate(date(2000, 2, 10, 10, 30), { date: "long" })).toBe('February 10, 2000');
     });
 
     it('supports timeFormats', () => {
-        expect(formatDate(date(2000, 2, 10, 10, 30), { time: "medium" })).toEqual('10:30:00 AM');
+        expect(formatDate(date(2000, 2, 10, 10, 30), { time: "medium" })).toBe('10:30:00 AM');
     });
 
     it('supports dateTimeFormats', () => {
-        expect(formatDate(date(2000, 2, 10, 10, 30), { datetime: "short" })).toEqual('2/10/00, 10:30 AM');
+        expect(formatDate(date(2000, 2, 10, 10, 30), { datetime: "short" })).toBe('2/10/00, 10:30 AM');
     });
 
     it('supports setting the required fields via options', () => {
@@ -387,7 +387,7 @@ describe('date formatting', () => {
             second: "2-digit",
             timeZoneName: "long",
             hour12: true
-        })).toEqual('Thu, 02 10, 2000 AD, 10:30:00 AM GMT+02:00');
+        })).toBe('Thu, 02 10, 2000 AD, 10:30:00 AM GMT+02:00');
     });
 });
 
@@ -846,20 +846,19 @@ describe('date parsing', () => {
             monthNames[5] = monthNames[6].substr(0, monthNames[6].length - 1);
             const result = parseDate(monthNames[6] + " 2000", "MMMM yyyy");
             expect(isValidDate(2000, 7, 1, result)).toBe(true);
-        }
-        finally {
+        } finally {
             monthNames[5] = originalMonthName;
         }
     });
 
     it('parseDate G format of ko-KR culture', function () {
-       //missing info in the cldr data for the abbreviated and narrow day periods
-       const info = localeInfo("ko");
-       const abbreviatedNames = dateFormatNames(info, { type: "dayPeriods", nameType: "abbreviated" });
-       const wideNames = dateFormatNames(info, { type: "dayPeriods", nameType: "wide" });
-       abbreviatedNames.am = wideNames.am;
-       const result = parseDate("2016. 05. 27. 오전 11:00:00", "G", "ko");
-       expect(isValidDateTime(result, 2016, 5, 27, 11, 0, 0, 0 ,0)).toBe(true);
+        //missing info in the cldr data for the abbreviated and narrow day periods
+        const info = localeInfo("ko");
+        const abbreviatedNames = dateFormatNames(info, { type: "dayPeriods", nameType: "abbreviated" });
+        const wideNames = dateFormatNames(info, { type: "dayPeriods", nameType: "wide" });
+        abbreviatedNames.am = wideNames.am;
+        const result = parseDate("2016. 05. 27. 오전 11:00:00", "G", "ko");
+        expect(isValidDateTime(result, 2016, 5, 27, 11, 0, 0, 0 ,0)).toBe(true);
     });
 
     it('should return null if only year is passed', function () {
@@ -924,13 +923,13 @@ describe('date parsing', () => {
     });
 
     it("parses milliseconds with leading zeros", () => {
-        expect(parseDate("2000-10-10T14:30:0.0400000Z", "yyyy-MM-ddTHH:mm:ss.SSSSSSSX").getMilliseconds()).toEqual(40);
+        expect(parseDate("2000-10-10T14:30:0.0400000Z", "yyyy-MM-ddTHH:mm:ss.SSSSSSSX").getMilliseconds()).toBe(40);
     });
 
     it('parses first digit of ISO date string milliseconds as hundreds', () => {
-        expect(parseDate("2000-01-01T00:00:00.1Z").getMilliseconds()).toEqual(100);
-        expect(parseDate("2000-01-01T00:00:00.10Z").getMilliseconds()).toEqual(100);
-        expect(parseDate("2000-01-01T00:00:00.100Z").getMilliseconds()).toEqual(100);
+        expect(parseDate("2000-01-01T00:00:00.1Z").getMilliseconds()).toBe(100);
+        expect(parseDate("2000-01-01T00:00:00.10Z").getMilliseconds()).toBe(100);
+        expect(parseDate("2000-01-01T00:00:00.100Z").getMilliseconds()).toBe(100);
     });
 
     it("parses UTC milliseconds without specified format", () => {

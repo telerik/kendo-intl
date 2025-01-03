@@ -19,19 +19,19 @@ describe('toString', () => {
     }
     
     it('formats value as date', () => {
-        expect(toString(new Date(2000, 0, 30), "d", "en")).toEqual("1/30/2000");
+        expect(toString(new Date(2000, 0, 30), "d", "en")).toBe("1/30/2000");
     });
 
     it('formats value as date based on the specified locale', () => {
-        expect(toString(new Date(2000, 0, 30), "d", "bg")).toEqual("30.01.2000 г.");
+        expect(toString(new Date(2000, 0, 30), "d", "bg")).toBe("30.01.2000 г.");
     });
 
     it('formats value as number', () => {
-        expect(toString(10, "c", "en")).toEqual("$10.00");
+        expect(toString(10, "c", "en")).toBe("$10.00");
     });
 
     it('formats value as number based on the specified locale', () => {
-        expect(toString(10, "c", "bg")).toEqual("10,00 лв.");
+        expect(toString(10, "c", "bg")).toBe("10,00 лв.");
     });
 
     it('returns empty string if the value is undefined', () => {
@@ -49,14 +49,14 @@ describe('toString', () => {
 
 describe('format', () => {
     it('replaces placeholders', () => {
-        expect(format("{0}-{1}", ["foo", "bar"])).toEqual("foo-bar");
+        expect(format("{0}-{1}", ["foo", "bar"])).toBe("foo-bar");
     });
 
     it('formats values based on specified format', () => {
-        expect(format("{0:d}-{1:c}", [new Date(2000, 0, 30), 10])).toEqual("1/30/2000-$10.00");
+        expect(format("{0:d}-{1:c}", [new Date(2000, 0, 30), 10])).toBe("1/30/2000-$10.00");
     });
 
     it('formats values based on specified format and locale', () => {
-        expect(format("{0:d}-{1:c}", [new Date(2000, 0, 30), 10], "bg")).toEqual("30.01.2000 г.-10,00 лв.");
+        expect(format("{0:d}-{1:c}", [new Date(2000, 0, 30), 10], "bg")).toBe("30.01.2000 г.-10,00 лв.");
     });
 });
