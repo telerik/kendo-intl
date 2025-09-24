@@ -1,28 +1,28 @@
 name: TruffleHog
 
 on:
-    workflow_dispatch:
-    pull_request:
-        types: [opened, synchronize, reopened]
-    schedule:
-        - cron: '0 2 * * 1-5'
+  workflow_dispatch:
+  pull_request:
+    types: [opened, synchronize, reopened]
+  schedule:
+    - cron: "0 2 * * 1-5"
 
 jobs:
-    scan:
-        runs-on: ubuntu-24.04
+  scan:
+    runs-on: ubuntu-24.04
 
-        concurrency:
-            group: ${{ github.ref }}-trufflehog
-            cancel-in-progress: false
+    concurrency:
+      group: ${{ github.ref }}-trufflehog
+      cancel-in-progress: false
 
-        steps:
-            - name: Clone Repository
-              uses: actions/checkout@v4
-              with:
-                  fetch-depth: 0
+    steps:
+      - name: Clone Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-            - name: TruffleHog scan
-              uses: trufflesecurity/trufflehog@main
-              with:
-                  path: ./
-                  extra_args: --results=verified,unknown
+      - name: TruffleHog scan
+        uses: trufflesecurity/trufflehog@main
+        with:
+          path: ./
+          extra_args: --results=verified,unknown --log-level=4
