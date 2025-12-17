@@ -46,22 +46,6 @@
     "type": "git",
     "url": "https://github.com/telerik/kendo-intl.git"
   },
-  "release": {
-    "branches": [
-      {
-        "name": "master",
-        "channel": "latest"
-      },
-      {
-        "name": "develop",
-        "prerelease": true,
-        "channel": "dev"
-      }
-    ]
-  },
-  "publishConfig": {
-    "provenance": true
-  },
   "files": [
     "dist",
     "build-locales.js"
