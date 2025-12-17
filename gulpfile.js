@@ -11,7 +11,7 @@ const fs = require('fs');
 const { toJSObject, buildLocales } = require("./build-locales.js");
 const DEFAULT_TERRITORY = '001';
 
-require('@progress/kendo-package-tasks')(gulp, 'kendo-intl');
+require('@progress/kendo-package-tasks')(gulp, 'kendo-intl', {});
 
 const cleanupCurrencies = (locale) => {
     const currencies = locale.numbers.currencies;
