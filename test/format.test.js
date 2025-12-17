@@ -24,7 +24,7 @@ describe('toString', () => {
     });
 
     it('formats value as date based on the specified locale', () => {
-        expect(toString(new Date(2000, 0, 30), "d", "bg")).toBe("30.01.2000 г.");
+        expect(toString(new Date(2000, 0, 30), "d", "bg")).toBe("30.01.2000 г.");
     });
 
     it('formats value as number', () => {
@@ -32,7 +32,7 @@ describe('toString', () => {
     });
 
     it('formats value as number based on the specified locale', () => {
-        expect(toString(10, "c", "bg")).toBe("10,00 лв.");
+        expect(toString(10, "c", "bg")).toBe("10,00 €");
     });
 
     it('returns empty string if the value is undefined', () => {
@@ -58,6 +58,7 @@ describe('format', () => {
     });
 
     it('formats values based on specified format and locale', () => {
-        expect(format("{0:d}-{1:c}", [new Date(2000, 0, 30), 10], "bg")).toBe("30.01.2000 г.-10,00 лв.");
+        const result = format("{0:d}-{1:c}", [new Date(2000, 0, 30), 10], "bg");
+        expect(result).toBe("30.01.2000\u202fг.-10,00\u00a0€");
     });
 });

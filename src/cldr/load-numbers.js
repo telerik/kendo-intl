@@ -42,11 +42,16 @@ export default function loadNumbersInfo(locale, info) {
         if (field === LATIN_NUMBER_SYMBOLS) {
             Object.assign(numbers.symbols, info[field]);
         } else if (field.includes(LATIN_NUMBER_FORMATS)) {
-            const style = field.substr(0, field.indexOf(LATIN_NUMBER_FORMATS));
+            const style = field.substring(0, field.indexOf(LATIN_NUMBER_FORMATS));
             const pattern = info[field].standard;
-            numbers[style] = {
-                patterns: getPatterns(pattern)
-            };
+            if (pattern) {
+                numbers[style] = {
+                    patterns: getPatterns(pattern)
+                };
+            } else {
+                numbers[style] = {};
+            }
+
             if (style === CURRENCY) {
                 numbers[style].groupSize = getGroupSize((info[DECIMAL + LATIN_NUMBER_FORMATS] || info[field]).standard);
                 loadCurrencyUnitPatterns(numbers[style], info[field]);
@@ -54,7 +59,7 @@ export default function loadNumbersInfo(locale, info) {
                     patterns: getPatterns(info[field][ACCOUNTING]),
                     groupSize: numbers[style].groupSize
                 };
-            } else {
+            } else if (pattern) {
                 numbers[style].groupSize = getGroupSize(pattern);
             }
         } else if (field === "currencies") {

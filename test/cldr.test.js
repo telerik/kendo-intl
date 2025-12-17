@@ -118,7 +118,6 @@ describe('load numbers', () => {
 
     it('should set currency unit patterns', () => {
         const currency = cldr.bg.numbers.currency;
-        expect(currency["unitPattern-count-one"]).toBe("n $");
         expect(currency["unitPattern-count-other"]).toBe("n $");
     });
 
@@ -189,13 +188,13 @@ describe('load calendar', () => {
     it('should set predefined patterns', () => {
         const patterns = cldr.bg.calendar.patterns;
 
-        expect(patterns.d).toBe("d.MM.y 'г'.");
-        expect(patterns.D).toBe("EEEE, d MMMM y 'г'.");
-        expect(patterns.F).toBe("EEEE, d MMMM y 'г'. H:mm:ss 'ч'.");
-        expect(patterns.g).toBe("d.MM.y 'г'. H:mm 'ч'.");
-        expect(patterns.G).toBe("d.MM.y 'г'. H:mm:ss 'ч'.");
-        expect(patterns.t).toBe("H:mm 'ч'.");
-        expect(patterns.T).toBe("H:mm:ss 'ч'.");
+        expect(patterns.d).toBe("d.MM.y 'г'.");
+        expect(patterns.D).toBe("EEEE, d MMMM y 'г'.");
+        expect(patterns.F).toBe("EEEE, d MMMM y 'г'. H:mm:ss");
+        expect(patterns.g).toBe("d.MM.y 'г'. H:mm");
+        expect(patterns.G).toBe("d.MM.y 'г'. H:mm:ss");
+        expect(patterns.t).toBe("H:mm");
+        expect(patterns.T).toBe("H:mm:ss");
     });
 
     it('should set standard patterns', () => {
@@ -646,7 +645,7 @@ describe('localeCurrency', () => {
 
     it('should return default currency code for locale', () => {
         expect(localeCurrency('en')).toBe('USD');
-        expect(localeCurrency('bg')).toBe('BGN');
+        expect(localeCurrency('bg')).toBe('EUR');
     });
 
     it('throws error if second parameter is true and there is no valid currency for the locale', () => {
@@ -735,15 +734,15 @@ describe('localeCurrency', () => {
 describe('currencyDisplay', () => {
     it('should return symbol by default', () => {
         expect(currencyDisplay('bg', {
-            currency: 'BGN'
-        })).toBe('лв.');
+            currency: 'EUR'
+        })).toBe('€');
     });
 
     it('should return code', () => {
         expect(currencyDisplay("bg", {
-            currency: 'BGN',
+            currency: 'EUR',
             currencyDisplay: "code"
-        })).toBe('BGN');
+        })).toBe('EUR');
     });
 
     it('should return displayName', () => {
