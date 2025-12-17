@@ -40,7 +40,7 @@
     "eslint-plugin-jest": "^28.10.0",
     "gulp": "^4.0.0",
     "husky": "^9.1.7",
-    "vitest": "^2.1.8"
+    "vitest": "^4.0.16"
   },
   "repository": {
     "type": "git",
