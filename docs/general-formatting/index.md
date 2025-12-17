@@ -33,7 +33,7 @@ To format both the `Date` and `Number` values by using the locale specific setti
 
     toString(new Date(), "d", "en"); // 1/5/2017
 
-    toString(10.5, "c", "bg"); // 10,50 лв.
+    toString(10.5, "c", "bg"); // 10,50 €
 
 ## Suggested Links
 

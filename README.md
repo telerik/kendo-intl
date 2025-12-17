@@ -123,7 +123,7 @@ import { format, toString } from '@progress/kendo-intl';
 
 format('Date: {0:d} - Price: {1:c}', [new Date(), 10.5], "en") // Date: 1/5/2017 - Price: $10.50
 
-toString(10.5, "c", "bg"); // 10,50 лв.
+toString(10.5, "c", "bg"); // 10,50 €
 
 toString(new Date(), "d"); // 1/5/2017
 ```
