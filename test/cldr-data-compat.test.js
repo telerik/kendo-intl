@@ -688,15 +688,15 @@ describe('localeCurrency', () => {
 describe('currencyDisplay', () => {
     it('should return symbol by default', () => {
         expect(currencyDisplay('bg', {
-            currency: 'BGN'
-        })).toBe('лв.');
+            currency: 'EUR'
+        })).toBe('€');
     });
 
     it('should return code', () => {
         expect(currencyDisplay("bg", {
-            currency: 'BGN',
+            currency: 'EUR',
             currencyDisplay: "code"
-        })).toBe('BGN');
+        })).toBe('EUR');
     });
 
     it('should return displayName', () => {

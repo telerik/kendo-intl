@@ -293,11 +293,11 @@ describe('standard currency formatting', () => {
     });
 
     it("should apply format when passing language", () => {
-        expect(formatNumber(10, "c", "bg")).toBe("10,00 лв.");
+        expect(formatNumber(10, "c", "bg")).toBe("10,00 €");
     });
 
     it("should apply format when passing language and territory", () => {
-        expect(formatNumber(10, "c", "bg-BG")).toBe("10,00 лв.");
+        expect(formatNumber(10, "c", "bg-BG")).toBe("10,00 €");
     });
 
     it("should apply format when passing language and territory without symbol", () => {
@@ -370,11 +370,11 @@ describe('standard accounting formatting', () => {
     });
 
     it("should apply format when passing language", () => {
-        expect(formatNumber(10, "a", "bg")).toBe("10,00 лв.");
+        expect(formatNumber(10, "a", "bg")).toBe("10,00 €");
     });
 
     it("should apply format when passing language and territory", () => {
-        expect(formatNumber(10, "a", "bg-BG")).toBe("10,00 лв.");
+        expect(formatNumber(10, "a", "bg-BG")).toBe("10,00 €");
     });
 
     it("should apply format when passing object", () => {
@@ -446,7 +446,7 @@ describe('custom formatting', () => {
     });
 
     it('formats currency with locale symbol', () => {
-        expect(formatNumber(10, '#.#$', 'bg')).toBe("10лв.");
+        expect(formatNumber(10, '#.#$', 'bg')).toBe("10€");
     });
 
     it('formats percentage', () => {
@@ -696,11 +696,11 @@ describe('parseNumber', () => {
     });
 
     it("parses locale currency numbers", () => {
-        expect(parseNumber("лв.12", "bg")).toBe(12);
+        expect(parseNumber("€12", "bg")).toBe(12);
     });
 
     it("parses locale currency floating numbers", () => {
-        expect(parseNumber("лв.1 123 112,13", "bg")).toBe(1123112.13);
+        expect(parseNumber("€1 123 112,13", "bg")).toBe(1123112.13);
     });
 
     it("parses non-default for the locale currency", () => {
@@ -733,7 +733,7 @@ describe('parseNumber', () => {
     });
 
     it("parses locale negative currency numbers", () => {
-        expect(parseNumber("-1 123 112,13 лв.", "bg")).toBe(-1123112.13);
+        expect(parseNumber("-1 123 112,13 €", "bg")).toBe(-1123112.13);
     });
 
     it("parses currency with custom format", () => {
