@@ -63,7 +63,8 @@ const data = {
             groupSize: [
                 3
             ]
-        }
+        },
+        rational: {}
     }
 };
 export default data;

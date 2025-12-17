@@ -9,10 +9,6 @@ const data = {
     territory: "GB",
     numbers: {
         currencies: {
-            ADP: {
-                displayName: "ADP",
-                symbol: "ADP"
-            },
             AED: {
                 displayName: "Dirham Yr Emiradau Arabaidd Unedig",
                 "displayName-count-zero": "dirham yr Emiradau Arabaidd Unedig",
@@ -20,8 +16,7 @@ const data = {
                 "displayName-count-two": "dirham yr Emiradau Arabaidd Unedig",
                 "displayName-count-few": "dirham yr Emiradau Arabaidd Unedig",
                 "displayName-count-many": "dirham yr Emiradau Arabaidd Unedig",
-                "displayName-count-other": "dirham yr Emiradau Arabaidd Unedig",
-                symbol: "AED"
+                "displayName-count-other": "dirham yr Emiradau Arabaidd Unedig"
             },
             AFA: {
                 displayName: "Afghani Afghanistan (1927–2002)",
@@ -30,8 +25,7 @@ const data = {
                 "displayName-count-two": "afghani Afghanistan (1927–2002)",
                 "displayName-count-few": "afghani Afghanistan (1927–2002)",
                 "displayName-count-many": "afghani Afghanistan (1927–2002)",
-                "displayName-count-other": "afghani Afghanistan (1927–2002)",
-                symbol: "AFA"
+                "displayName-count-other": "afghani Afghanistan (1927–2002)"
             },
             AFN: {
                 displayName: "Afghani Afghanistan",
@@ -41,12 +35,7 @@ const data = {
                 "displayName-count-few": "afghani Afghanistan",
                 "displayName-count-many": "afghani Afghanistan",
                 "displayName-count-other": "afghani Afghanistan",
-                symbol: "AFN",
                 "symbol-alt-narrow": "؋"
-            },
-            ALK: {
-                displayName: "ALK",
-                symbol: "ALK"
             },
             ALL: {
                 displayName: "Lek Albania",
@@ -55,8 +44,7 @@ const data = {
                 "displayName-count-two": "lek Albania",
                 "displayName-count-few": "lek Albania",
                 "displayName-count-many": "lek Albania",
-                "displayName-count-other": "lek Albania",
-                symbol: "ALL"
+                "displayName-count-other": "lek Albania"
             },
             AMD: {
                 displayName: "Dram Armenia",
@@ -66,7 +54,6 @@ const data = {
                 "displayName-count-few": "dram Armenia",
                 "displayName-count-many": "dram Armenia",
                 "displayName-count-other": "dram Armenia",
-                symbol: "AMD",
                 "symbol-alt-narrow": "֏"
             },
             ANG: {
@@ -76,8 +63,7 @@ const data = {
                 "displayName-count-two": "guilder Antilles yr Iseldiroedd",
                 "displayName-count-few": "guilder Antilles yr Iseldiroedd",
                 "displayName-count-many": "guilder Antilles yr Iseldiroedd",
-                "displayName-count-other": "guilder Antilles yr Iseldiroedd",
-                symbol: "ANG"
+                "displayName-count-other": "guilder Antilles yr Iseldiroedd"
             },
             AOA: {
                 displayName: "Kwanza Angola",
@@ -87,7 +73,6 @@ const data = {
                 "displayName-count-few": "kwanza Angola",
                 "displayName-count-many": "kwanza Angola",
                 "displayName-count-other": "kwanza Angola",
-                symbol: "AOA",
                 "symbol-alt-narrow": "Kz"
             },
             AOK: {
@@ -97,8 +82,7 @@ const data = {
                 "displayName-count-two": "kwanza Angola (1977 – 1991)",
                 "displayName-count-few": "kwanza Angola (1977 – 1991)",
                 "displayName-count-many": "kwanza Angola (1977 – 1991)",
-                "displayName-count-other": "kwanza Angola (1977 – 1991)",
-                symbol: "AOK"
+                "displayName-count-other": "kwanza Angola (1977 – 1991)"
             },
             AON: {
                 displayName: "Kwanza Newydd Angola (1990–2000)",
@@ -107,8 +91,7 @@ const data = {
                 "displayName-count-two": "kwanza newydd Angola (1999 – 2000)",
                 "displayName-count-few": "kwanza newydd Angola (1999 – 2000)",
                 "displayName-count-many": "kwanza newydd Angola (1999 – 2000)",
-                "displayName-count-other": "kwanza newydd Angola (1999 – 2000)",
-                symbol: "AON"
+                "displayName-count-other": "kwanza newydd Angola (1999 – 2000)"
             },
             AOR: {
                 displayName: "Kwanza Ailgymhwysedig Angola (1995–1999)",
@@ -117,8 +100,7 @@ const data = {
                 "displayName-count-two": "kwanza ailgymhwysedig Angola (1995 – 1999)",
                 "displayName-count-few": "kwanza ailgymhwysedig Angola (1995 – 1999)",
                 "displayName-count-many": "kwanza ailgymhwysedig Angola (1995 – 1999)",
-                "displayName-count-other": "kwanza ailgymhwysedig Angola (1995 – 1999)",
-                symbol: "AOR"
+                "displayName-count-other": "kwanza ailgymhwysedig Angola (1995 – 1999)"
             },
             ARA: {
                 displayName: "Austral yr Ariannin",
@@ -127,8 +109,7 @@ const data = {
                 "displayName-count-two": "austral yr Ariannin",
                 "displayName-count-few": "austral yr Ariannin",
                 "displayName-count-many": "austral yr Ariannin",
-                "displayName-count-other": "austral yr Ariannin",
-                symbol: "ARA"
+                "displayName-count-other": "austral yr Ariannin"
             },
             ARL: {
                 displayName: "Peso Ley yr Ariannin (1970–1983)",
@@ -137,8 +118,7 @@ const data = {
                 "displayName-count-two": "peso ley yr Ariannin (1970–1983)",
                 "displayName-count-few": "peso ley yr Ariannin (1970–1983)",
                 "displayName-count-many": "peso ley yr Ariannin (1970–1983)",
-                "displayName-count-other": "peso ley yr Ariannin (1970–1983)",
-                symbol: "ARL"
+                "displayName-count-other": "peso ley yr Ariannin (1970–1983)"
             },
             ARM: {
                 displayName: "Peso yr Ariannin (1881–1970)",
@@ -147,8 +127,7 @@ const data = {
                 "displayName-count-two": "peso yr Ariannin (1881–1970)",
                 "displayName-count-few": "peso yr Ariannin (1881–1970)",
                 "displayName-count-many": "peso yr Ariannin (1881–1970)",
-                "displayName-count-other": "peso yr Ariannin (1881–1970)",
-                symbol: "ARM"
+                "displayName-count-other": "peso yr Ariannin (1881–1970)"
             },
             ARP: {
                 displayName: "Peso yr Ariannin (1983–1985)",
@@ -157,8 +136,7 @@ const data = {
                 "displayName-count-two": "peso yr Ariannin (1983–1985)",
                 "displayName-count-few": "peso yr Ariannin (1983–1985)",
                 "displayName-count-many": "peso yr Ariannin (1983–1985)",
-                "displayName-count-other": "peso yr Ariannin (1983–1985)",
-                symbol: "ARP"
+                "displayName-count-other": "peso yr Ariannin (1983–1985)"
             },
             ARS: {
                 displayName: "Peso yr Ariannin",
@@ -168,7 +146,6 @@ const data = {
                 "displayName-count-few": "peso yr Ariannin",
                 "displayName-count-many": "peso yr Ariannin",
                 "displayName-count-other": "peso yr Ariannin",
-                symbol: "ARS",
                 "symbol-alt-narrow": "$"
             },
             ATS: {
@@ -178,8 +155,7 @@ const data = {
                 "displayName-count-two": "swllt Awstria",
                 "displayName-count-few": "swllt Awstria",
                 "displayName-count-many": "swllt Awstria",
-                "displayName-count-other": "swllt Awstria",
-                symbol: "ATS"
+                "displayName-count-other": "swllt Awstria"
             },
             AUD: {
                 displayName: "Doler Awstralia",
@@ -199,8 +175,7 @@ const data = {
                 "displayName-count-two": "fflorin Aruba",
                 "displayName-count-few": "fflorin Aruba",
                 "displayName-count-many": "fflorin Aruba",
-                "displayName-count-other": "fflorin Aruba",
-                symbol: "AWG"
+                "displayName-count-other": "fflorin Aruba"
             },
             AZM: {
                 displayName: "Manat Azerbaijan (1993–2006)",
@@ -209,8 +184,7 @@ const data = {
                 "displayName-count-two": "manat Azerbaijan (1993–2006)",
                 "displayName-count-few": "manat Azerbaijan (1993–2006)",
                 "displayName-count-many": "manat Azerbaijan (1993–2006)",
-                "displayName-count-other": "manat Azerbaijan (1993–2006)",
-                symbol: "AZM"
+                "displayName-count-other": "manat Azerbaijan (1993–2006)"
             },
             AZN: {
                 displayName: "Manat Azerbaijan",
@@ -220,12 +194,7 @@ const data = {
                 "displayName-count-few": "manat Azerbaijan",
                 "displayName-count-many": "manat Azerbaijan",
                 "displayName-count-other": "manat Azerbaijan",
-                symbol: "AZN",
                 "symbol-alt-narrow": "₼"
-            },
-            BAD: {
-                displayName: "BAD",
-                symbol: "BAD"
             },
             BAM: {
                 displayName: "Marc Trosadwy Bosnia a Hercegovina",
@@ -235,12 +204,7 @@ const data = {
                 "displayName-count-few": "marc trosadwy Bosnia a Hercegovina",
                 "displayName-count-many": "marc trosadwy Bosnia a Hercegovina",
                 "displayName-count-other": "marc trosadwy Bosnia a Hercegovina",
-                symbol: "BAM",
                 "symbol-alt-narrow": "KM"
-            },
-            BAN: {
-                displayName: "BAN",
-                symbol: "BAN"
             },
             BBD: {
                 displayName: "Doler Barbados",
@@ -250,7 +214,6 @@ const data = {
                 "displayName-count-few": "doler Barbados",
                 "displayName-count-many": "doler Barbados",
                 "displayName-count-other": "doler Barbados",
-                symbol: "BBD",
                 "symbol-alt-narrow": "$"
             },
             BDT: {
@@ -261,7 +224,6 @@ const data = {
                 "displayName-count-few": "taka Bangladesh",
                 "displayName-count-many": "taka Bangladesh",
                 "displayName-count-other": "taka Bangladesh",
-                symbol: "BDT",
                 "symbol-alt-narrow": "TK"
             },
             BEC: {
@@ -271,8 +233,7 @@ const data = {
                 "displayName-count-two": "ffranc Gwlad Belg (arnewidiol)",
                 "displayName-count-few": "ffranc Gwlad Belg (arnewidiol)",
                 "displayName-count-many": "ffranc Gwlad Belg (arnewidiol)",
-                "displayName-count-other": "ffranc Gwlad Belg (arnewidiol)",
-                symbol: "BEC"
+                "displayName-count-other": "ffranc Gwlad Belg (arnewidiol)"
             },
             BEF: {
                 displayName: "Ffranc Gwlad Belg",
@@ -281,8 +242,7 @@ const data = {
                 "displayName-count-two": "ffranc Gwlad Belg",
                 "displayName-count-few": "ffranc Gwlad Belg",
                 "displayName-count-many": "ffranc Gwlad Belg",
-                "displayName-count-other": "ffranc Gwlad Belg",
-                symbol: "BEF"
+                "displayName-count-other": "ffranc Gwlad Belg"
             },
             BEL: {
                 displayName: "Ffranc Gwlad Belg (ariannol)",
@@ -291,12 +251,7 @@ const data = {
                 "displayName-count-two": "ffranc Gwlad Belg (ariannol)",
                 "displayName-count-few": "ffranc Gwlad Belg (ariannol)",
                 "displayName-count-many": "ffranc Gwlad Belg (ariannol)",
-                "displayName-count-other": "ffranc Gwlad Belg (ariannol)",
-                symbol: "BEL"
-            },
-            BGL: {
-                displayName: "BGL",
-                symbol: "BGL"
+                "displayName-count-other": "ffranc Gwlad Belg (ariannol)"
             },
             BGM: {
                 displayName: "Lev Sosialaidd Bwlgaria",
@@ -305,8 +260,7 @@ const data = {
                 "displayName-count-two": "lev sosialaidd Bwlgaria",
                 "displayName-count-few": "lev sosialaidd Bwlgaria",
                 "displayName-count-many": "lev sosialaidd Bwlgaria",
-                "displayName-count-other": "lev sosialaidd Bwlgaria",
-                symbol: "BGM"
+                "displayName-count-other": "lev sosialaidd Bwlgaria"
             },
             BGN: {
                 displayName: "Lev Bwlgaria",
@@ -315,8 +269,7 @@ const data = {
                 "displayName-count-two": "lev Bwlgaria",
                 "displayName-count-few": "lev Bwlgaria",
                 "displayName-count-many": "lev Bwlgaria",
-                "displayName-count-other": "lev Bwlgaria",
-                symbol: "BGN"
+                "displayName-count-other": "lev Bwlgaria"
             },
             BGO: {
                 displayName: "Lev Bwlgaria (1879–1952)",
@@ -325,8 +278,7 @@ const data = {
                 "displayName-count-two": "lev Bwlgaria (1879 – 1952)",
                 "displayName-count-few": "lev Bwlgaria (1879 – 1952)",
                 "displayName-count-many": "lev Bwlgaria (1879 – 1952)",
-                "displayName-count-other": "lev Bwlgaria (1879 – 1952)",
-                symbol: "BGO"
+                "displayName-count-other": "lev Bwlgaria (1879 – 1952)"
             },
             BHD: {
                 displayName: "Dinar Bahrain",
@@ -335,8 +287,7 @@ const data = {
                 "displayName-count-two": "dinar Bahrain",
                 "displayName-count-few": "dinar Bahrain",
                 "displayName-count-many": "dinar Bahrain",
-                "displayName-count-other": "dinar Bahrain",
-                symbol: "BHD"
+                "displayName-count-other": "dinar Bahrain"
             },
             BIF: {
                 displayName: "Ffranc Burundi",
@@ -345,8 +296,7 @@ const data = {
                 "displayName-count-two": "ffranc Burundi",
                 "displayName-count-few": "ffranc Burundi",
                 "displayName-count-many": "ffranc Burundi",
-                "displayName-count-other": "ffranc Burundi",
-                symbol: "BIF"
+                "displayName-count-other": "ffranc Burundi"
             },
             BMD: {
                 displayName: "Doler Bermuda",
@@ -356,7 +306,6 @@ const data = {
                 "displayName-count-few": "doler Bermuda",
                 "displayName-count-many": "doler Bermuda",
                 "displayName-count-other": "doler Bermuda",
-                symbol: "BMD",
                 "symbol-alt-narrow": "$"
             },
             BND: {
@@ -367,7 +316,6 @@ const data = {
                 "displayName-count-few": "doler Brunei",
                 "displayName-count-many": "doler Brunei",
                 "displayName-count-other": "doler Brunei",
-                symbol: "BND",
                 "symbol-alt-narrow": "$"
             },
             BOB: {
@@ -378,7 +326,6 @@ const data = {
                 "displayName-count-few": "boliviano Bolifia",
                 "displayName-count-many": "boliviano Bolifia",
                 "displayName-count-other": "boliviano Bolifia",
-                symbol: "BOB",
                 "symbol-alt-narrow": "Bs"
             },
             BOL: {
@@ -388,8 +335,7 @@ const data = {
                 "displayName-count-two": "boliviano Bolifia (1863–1963)",
                 "displayName-count-few": "boliviano Bolifia (1863–1963)",
                 "displayName-count-many": "boliviano Bolifia (1863–1963)",
-                "displayName-count-other": "boliviano Bolifia (1863–1963)",
-                symbol: "BOL"
+                "displayName-count-other": "boliviano Bolifia (1863–1963)"
             },
             BOP: {
                 displayName: "Peso Bolifia",
@@ -398,8 +344,7 @@ const data = {
                 "displayName-count-two": "peso Bolifia",
                 "displayName-count-few": "peso Bolifia",
                 "displayName-count-many": "peso Bolifia",
-                "displayName-count-other": "peso Bolifia",
-                symbol: "BOP"
+                "displayName-count-other": "peso Bolifia"
             },
             BOV: {
                 displayName: "Mvdol Bolifia",
@@ -408,8 +353,7 @@ const data = {
                 "displayName-count-two": "mvdol Bolifia",
                 "displayName-count-few": "mvdol Bolifia",
                 "displayName-count-many": "mvdol Bolifia",
-                "displayName-count-other": "mvdol Bolifia",
-                symbol: "BOV"
+                "displayName-count-other": "mvdol Bolifia"
             },
             BRB: {
                 displayName: "Cruzeiro Newydd Brasil (1967–1986)",
@@ -418,8 +362,7 @@ const data = {
                 "displayName-count-two": "cruzeiro newydd Brasil (1967–1986)",
                 "displayName-count-few": "cruzeiro newydd Brasil (1967–1986)",
                 "displayName-count-many": "cruzeiro newydd Brasil (1967–1986)",
-                "displayName-count-other": "cruzeiro newydd Brasil (1967–1986)",
-                symbol: "BRB"
+                "displayName-count-other": "cruzeiro newydd Brasil (1967–1986)"
             },
             BRC: {
                 displayName: "Cruzado Brasil (1986–1989)",
@@ -428,8 +371,7 @@ const data = {
                 "displayName-count-two": "cruzado Brasil (1986–1989)",
                 "displayName-count-few": "cruzado Brasil (1986–1989)",
                 "displayName-count-many": "cruzado Brasil (1986–1989)",
-                "displayName-count-other": "cruzado Brasil (1986–1989)",
-                symbol: "BRC"
+                "displayName-count-other": "cruzado Brasil (1986–1989)"
             },
             BRE: {
                 displayName: "Cruzeiro Brasil (1990–1993)",
@@ -438,8 +380,7 @@ const data = {
                 "displayName-count-two": "cruzeiro Brasil (1990–1993)",
                 "displayName-count-few": "cruzeiro Brasil (1990–1993)",
                 "displayName-count-many": "cruzeiro Brasil (1990–1993)",
-                "displayName-count-other": "cruzeiro Brasil (1990–1993)",
-                symbol: "BRE"
+                "displayName-count-other": "cruzeiro Brasil (1990–1993)"
             },
             BRL: {
                 displayName: "Real Brasil",
@@ -459,8 +400,7 @@ const data = {
                 "displayName-count-two": "cruzado newydd Brasil (1989–1990)",
                 "displayName-count-few": "cruzado newydd Brasil (1989–1990)",
                 "displayName-count-many": "cruzado newydd Brasil (1989–1990)",
-                "displayName-count-other": "cruzado newydd Brasil (1989–1990)",
-                symbol: "BRN"
+                "displayName-count-other": "cruzado newydd Brasil (1989–1990)"
             },
             BRR: {
                 displayName: "Cruzeiro Brasil (1993–1994)",
@@ -469,8 +409,7 @@ const data = {
                 "displayName-count-two": "cruzeiro Brasil (1993–1994)",
                 "displayName-count-few": "cruzeiro Brasil (1993–1994)",
                 "displayName-count-many": "cruzeiro Brasil (1993–1994)",
-                "displayName-count-other": "cruzeiro Brasil (1993–1994)",
-                symbol: "BRR"
+                "displayName-count-other": "cruzeiro Brasil (1993–1994)"
             },
             BRZ: {
                 displayName: "Cruzeiro Brasil (1942–1967)",
@@ -479,8 +418,7 @@ const data = {
                 "displayName-count-two": "cruzeiro Brasil (1942–1967)",
                 "displayName-count-few": "cruzeiro Brasil (1942–1967)",
                 "displayName-count-many": "cruzeiro Brasil (1942–1967)",
-                "displayName-count-other": "cruzeiro Brasil (1942–1967)",
-                symbol: "BRZ"
+                "displayName-count-other": "cruzeiro Brasil (1942–1967)"
             },
             BSD: {
                 displayName: "Doler y Bahamas",
@@ -490,7 +428,6 @@ const data = {
                 "displayName-count-few": "doler y Bahamas",
                 "displayName-count-many": "doler y Bahamas",
                 "displayName-count-other": "doler y Bahamas",
-                symbol: "BSD",
                 "symbol-alt-narrow": "$"
             },
             BTN: {
@@ -500,8 +437,7 @@ const data = {
                 "displayName-count-two": "ngultrum Bhutan",
                 "displayName-count-few": "ngultrum Bhutan",
                 "displayName-count-many": "ngultrum Bhutan",
-                "displayName-count-other": "ngultrum Bhutan",
-                symbol: "BTN"
+                "displayName-count-other": "ngultrum Bhutan"
             },
             BUK: {
                 displayName: "Kyat Byrma",
@@ -510,8 +446,7 @@ const data = {
                 "displayName-count-two": "kyat Byrma",
                 "displayName-count-few": "kyat Byrma",
                 "displayName-count-many": "kyat Byrma",
-                "displayName-count-other": "kyat Byrma",
-                symbol: "BUK"
+                "displayName-count-other": "kyat Byrma"
             },
             BWP: {
                 displayName: "Pula Botswana",
@@ -521,12 +456,7 @@ const data = {
                 "displayName-count-few": "pula Botswana",
                 "displayName-count-many": "pula Botswana",
                 "displayName-count-other": "pula Botswana",
-                symbol: "BWP",
                 "symbol-alt-narrow": "BWP"
-            },
-            BYB: {
-                displayName: "BYB",
-                symbol: "BYB"
             },
             BYN: {
                 displayName: "Rwbl Belarws",
@@ -536,7 +466,6 @@ const data = {
                 "displayName-count-few": "rwbl Belarws",
                 "displayName-count-many": "rwbl Belarws",
                 "displayName-count-other": "rwbl Belarws",
-                symbol: "BYN",
                 "symbol-alt-narrow": "р."
             },
             BYR: {
@@ -546,8 +475,7 @@ const data = {
                 "displayName-count-two": "rwbl Belarws (2000–2016)",
                 "displayName-count-few": "rwbl Belarws (2000–2016)",
                 "displayName-count-many": "rwbl Belarws (2000–2016)",
-                "displayName-count-other": "rwbl Belarws (2000–2016)",
-                symbol: "BYR"
+                "displayName-count-other": "rwbl Belarws (2000–2016)"
             },
             BZD: {
                 displayName: "Doler Belize",
@@ -557,7 +485,6 @@ const data = {
                 "displayName-count-few": "doler Belize",
                 "displayName-count-many": "doler Belize",
                 "displayName-count-other": "doler Belize",
-                symbol: "BZD",
                 "symbol-alt-narrow": "$"
             },
             CAD: {
@@ -578,8 +505,7 @@ const data = {
                 "displayName-count-two": "ffranc Congo",
                 "displayName-count-few": "ffranc Congo",
                 "displayName-count-many": "ffranc Congo",
-                "displayName-count-other": "ffranc Congo",
-                symbol: "CDF"
+                "displayName-count-other": "ffranc Congo"
             },
             CHE: {
                 displayName: "Ewro WIR",
@@ -588,8 +514,7 @@ const data = {
                 "displayName-count-two": "ewro WIR",
                 "displayName-count-few": "ewro WIR",
                 "displayName-count-many": "ewro WIR",
-                "displayName-count-other": "ewro WIR",
-                symbol: "CHE"
+                "displayName-count-other": "ewro WIR"
             },
             CHF: {
                 displayName: "Ffranc y Swistir",
@@ -598,8 +523,7 @@ const data = {
                 "displayName-count-two": "ffranc y Swistir",
                 "displayName-count-few": "ffranc y Swistir",
                 "displayName-count-many": "ffranc y Swistir",
-                "displayName-count-other": "ffranc y Swistir",
-                symbol: "CHF"
+                "displayName-count-other": "ffranc y Swistir"
             },
             CHW: {
                 displayName: "Ffranc WIR",
@@ -608,8 +532,7 @@ const data = {
                 "displayName-count-two": "ffranc WIR",
                 "displayName-count-few": "ffranc WIR",
                 "displayName-count-many": "ffranc WIR",
-                "displayName-count-other": "ffranc WIR",
-                symbol: "CHW"
+                "displayName-count-other": "ffranc WIR"
             },
             CLE: {
                 displayName: "Escudo Chile",
@@ -618,8 +541,7 @@ const data = {
                 "displayName-count-two": "escudo Chile",
                 "displayName-count-few": "escudo Chile",
                 "displayName-count-many": "escudo Chile",
-                "displayName-count-other": "escudo Chile",
-                symbol: "CLE"
+                "displayName-count-other": "escudo Chile"
             },
             CLF: {
                 displayName: "Uned Cyfrifo Chile (UF)",
@@ -628,8 +550,7 @@ const data = {
                 "displayName-count-two": "uned cyfrifo Chile (UF)",
                 "displayName-count-few": "uned cyfrifo Chile (UF)",
                 "displayName-count-many": "uned cyfrifo Chile (UF)",
-                "displayName-count-other": "uned cyfrifo Chile (UF)",
-                symbol: "CLF"
+                "displayName-count-other": "uned cyfrifo Chile (UF)"
             },
             CLP: {
                 displayName: "Peso Chile",
@@ -639,7 +560,6 @@ const data = {
                 "displayName-count-few": "peso Chile",
                 "displayName-count-many": "peso Chile",
                 "displayName-count-other": "peso Chile",
-                symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
             CNH: {
@@ -649,8 +569,7 @@ const data = {
                 "displayName-count-two": "yuan Tsieina (ar y môr)",
                 "displayName-count-few": "yuan Tsieina (ar y môr)",
                 "displayName-count-many": "yuan Tsieina (ar y môr)",
-                "displayName-count-other": "yuan Tsieina (ar y môr)",
-                symbol: "CNH"
+                "displayName-count-other": "yuan Tsieina (ar y môr)"
             },
             CNX: {
                 displayName: "Doler Banc Pobl Tsieina",
@@ -659,8 +578,7 @@ const data = {
                 "displayName-count-two": "ddoler Banc Pobl Tsieina",
                 "displayName-count-few": "doler Banc Pobl Tsieina",
                 "displayName-count-many": "doler Banc Pobl Tsieina",
-                "displayName-count-other": "doler Banc Pobl Tsieina",
-                symbol: "CNX"
+                "displayName-count-other": "doler Banc Pobl Tsieina"
             },
             CNY: {
                 displayName: "Yuan Tsieina",
@@ -681,7 +599,6 @@ const data = {
                 "displayName-count-few": "peso Colombia",
                 "displayName-count-many": "peso Colombia",
                 "displayName-count-other": "peso Colombia",
-                symbol: "COP",
                 "symbol-alt-narrow": "$"
             },
             COU: {
@@ -691,8 +608,7 @@ const data = {
                 "displayName-count-two": "uned gwir werth Colombia",
                 "displayName-count-few": "uned gwir werth Colombia",
                 "displayName-count-many": "uned gwir werth Colombia",
-                "displayName-count-other": "uned gwir werth Colombia",
-                symbol: "COU"
+                "displayName-count-other": "uned gwir werth Colombia"
             },
             CRC: {
                 displayName: "Colón Costa Rica",
@@ -702,16 +618,7 @@ const data = {
                 "displayName-count-few": "colón Costa Rica",
                 "displayName-count-many": "colón Costa Rica",
                 "displayName-count-other": "colón Costa Rica",
-                symbol: "CRC",
                 "symbol-alt-narrow": "₡"
-            },
-            CSD: {
-                displayName: "CSD",
-                symbol: "CSD"
-            },
-            CSK: {
-                displayName: "CSK",
-                symbol: "CSK"
             },
             CUC: {
                 displayName: "Peso Trosadwy Ciwba",
@@ -721,7 +628,6 @@ const data = {
                 "displayName-count-few": "peso trosadwy Ciwba",
                 "displayName-count-many": "peso trosadwy Ciwba",
                 "displayName-count-other": "peso trosadwy Ciwba",
-                symbol: "CUC",
                 "symbol-alt-narrow": "$"
             },
             CUP: {
@@ -732,7 +638,6 @@ const data = {
                 "displayName-count-few": "peso Ciwba",
                 "displayName-count-many": "peso Ciwba",
                 "displayName-count-other": "peso Ciwba",
-                symbol: "CUP",
                 "symbol-alt-narrow": "$"
             },
             CVE: {
@@ -742,8 +647,7 @@ const data = {
                 "displayName-count-two": "esgwdo Cabo Verde",
                 "displayName-count-few": "esgwdo Cabo Verde",
                 "displayName-count-many": "esgwdo Cabo Verde",
-                "displayName-count-other": "esgwdo Cabo Verde",
-                symbol: "CVE"
+                "displayName-count-other": "esgwdo Cabo Verde"
             },
             CYP: {
                 displayName: "Punt Cyprus",
@@ -752,8 +656,7 @@ const data = {
                 "displayName-count-two": "bunt Cyprus",
                 "displayName-count-few": "punt Cyprus",
                 "displayName-count-many": "punt Cyprus",
-                "displayName-count-other": "punt Cyprus",
-                symbol: "CYP"
+                "displayName-count-other": "punt Cyprus"
             },
             CZK: {
                 displayName: "Koruna’r Weriniaeth Tsiec",
@@ -763,7 +666,6 @@ const data = {
                 "displayName-count-few": "koruna’r Weriniaeth Tsiec",
                 "displayName-count-many": "koruna’r Weriniaeth Tsiec",
                 "displayName-count-other": "koruna’r Weriniaeth Tsiec",
-                symbol: "CZK",
                 "symbol-alt-narrow": "Kč"
             },
             DDM: {
@@ -773,8 +675,7 @@ const data = {
                 "displayName-count-two": "marc Dwyrain yr Almaen",
                 "displayName-count-few": "marc Dwyrain yr Almaen",
                 "displayName-count-many": "marc Dwyrain yr Almaen",
-                "displayName-count-other": "marc Dwyrain yr Almaen",
-                symbol: "DDM"
+                "displayName-count-other": "marc Dwyrain yr Almaen"
             },
             DEM: {
                 displayName: "Marc yr Almaen",
@@ -783,8 +684,7 @@ const data = {
                 "displayName-count-two": "marc yr Almaen",
                 "displayName-count-few": "marc yr Almaen",
                 "displayName-count-many": "marc yr Almaen",
-                "displayName-count-other": "marc yr Almaen",
-                symbol: "DEM"
+                "displayName-count-other": "marc yr Almaen"
             },
             DJF: {
                 displayName: "Ffranc Djibouti",
@@ -793,8 +693,7 @@ const data = {
                 "displayName-count-two": "ffranc Djibouti",
                 "displayName-count-few": "ffranc Djibouti",
                 "displayName-count-many": "ffranc Djibouti",
-                "displayName-count-other": "ffranc Djibouti",
-                symbol: "DJF"
+                "displayName-count-other": "ffranc Djibouti"
             },
             DKK: {
                 displayName: "Krone Denmarc",
@@ -804,7 +703,6 @@ const data = {
                 "displayName-count-few": "krone Denmarc",
                 "displayName-count-many": "krone Denmarc",
                 "displayName-count-other": "krone Denmarc",
-                symbol: "DKK",
                 "symbol-alt-narrow": "kr"
             },
             DOP: {
@@ -815,7 +713,6 @@ const data = {
                 "displayName-count-few": "peso Gweriniaeth Dominica",
                 "displayName-count-many": "peso Gweriniaeth Dominica",
                 "displayName-count-other": "peso Gweriniaeth Dominica",
-                symbol: "DOP",
                 "symbol-alt-narrow": "$"
             },
             DZD: {
@@ -825,8 +722,7 @@ const data = {
                 "displayName-count-two": "dinar Algeria",
                 "displayName-count-few": "dinar Algeria",
                 "displayName-count-many": "dinar Algeria",
-                "displayName-count-other": "dinar Algeria",
-                symbol: "DZD"
+                "displayName-count-other": "dinar Algeria"
             },
             ECS: {
                 displayName: "Sucre Ecuador",
@@ -835,8 +731,7 @@ const data = {
                 "displayName-count-two": "sucre Ecuador",
                 "displayName-count-few": "sucre Ecuador",
                 "displayName-count-many": "sucre Ecuador",
-                "displayName-count-other": "sucre Ecuador",
-                symbol: "ECS"
+                "displayName-count-other": "sucre Ecuador"
             },
             ECV: {
                 displayName: "Uned Gwerth Gyson Ecuador",
@@ -845,8 +740,7 @@ const data = {
                 "displayName-count-two": "uned gwerth gyson Ecuador",
                 "displayName-count-few": "uned gwerth gyson Ecuador",
                 "displayName-count-many": "uned gwerth gyson Ecuador",
-                "displayName-count-other": "uned gwerth gyson Ecuador",
-                symbol: "ECV"
+                "displayName-count-other": "uned gwerth gyson Ecuador"
             },
             EEK: {
                 displayName: "Kroon Estonia",
@@ -855,8 +749,7 @@ const data = {
                 "displayName-count-two": "kroon Estonia",
                 "displayName-count-few": "kroon Estonia",
                 "displayName-count-many": "kroon Estonia",
-                "displayName-count-other": "kroon Estonia",
-                symbol: "EEK"
+                "displayName-count-other": "kroon Estonia"
             },
             EGP: {
                 displayName: "Punt Yr Aifft",
@@ -866,7 +759,6 @@ const data = {
                 "displayName-count-few": "punt yr Aifft",
                 "displayName-count-many": "punt yr Aifft",
                 "displayName-count-other": "punt yr Aifft",
-                symbol: "EGP",
                 "symbol-alt-narrow": "E£"
             },
             ERN: {
@@ -876,20 +768,9 @@ const data = {
                 "displayName-count-two": "nakfa Eritrea",
                 "displayName-count-few": "nakfa Eritrea",
                 "displayName-count-many": "nakfa Eritrea",
-                "displayName-count-other": "nakfa Eritrea",
-                symbol: "ERN"
-            },
-            ESA: {
-                displayName: "ESA",
-                symbol: "ESA"
-            },
-            ESB: {
-                displayName: "ESB",
-                symbol: "ESB"
+                "displayName-count-other": "nakfa Eritrea"
             },
             ESP: {
-                displayName: "ESP",
-                symbol: "ESP",
                 "symbol-alt-narrow": "₧"
             },
             ETB: {
@@ -899,8 +780,7 @@ const data = {
                 "displayName-count-two": "birr Ethiopia",
                 "displayName-count-few": "birr Ethiopia",
                 "displayName-count-many": "birr Ethiopia",
-                "displayName-count-other": "birr Ethiopia",
-                symbol: "ETB"
+                "displayName-count-other": "birr Ethiopia"
             },
             EUR: {
                 displayName: "Ewro",
@@ -920,8 +800,7 @@ const data = {
                 "displayName-count-two": "markka’r Ffindir",
                 "displayName-count-few": "markka’r Ffindir",
                 "displayName-count-many": "markka’r Ffindir",
-                "displayName-count-other": "markka’r Ffindir",
-                symbol: "FIM"
+                "displayName-count-other": "markka’r Ffindir"
             },
             FJD: {
                 displayName: "Doler Ffiji",
@@ -931,7 +810,6 @@ const data = {
                 "displayName-count-few": "doler Ffiji",
                 "displayName-count-many": "doler Ffiji",
                 "displayName-count-other": "doler Ffiji",
-                symbol: "FJD",
                 "symbol-alt-narrow": "$"
             },
             FKP: {
@@ -942,7 +820,6 @@ const data = {
                 "displayName-count-few": "punt Ynysoedd Falkland/Malvinas",
                 "displayName-count-many": "punt Ynysoedd Falkland/Malvinas",
                 "displayName-count-other": "punt Ynysoedd Falkland/Malvinas",
-                symbol: "FKP",
                 "symbol-alt-narrow": "£"
             },
             FRF: {
@@ -952,8 +829,7 @@ const data = {
                 "displayName-count-two": "ffranc Ffrainc",
                 "displayName-count-few": "ffranc Ffrainc",
                 "displayName-count-many": "ffranc Ffrainc",
-                "displayName-count-other": "ffranc Ffrainc",
-                symbol: "FRF"
+                "displayName-count-other": "ffranc Ffrainc"
             },
             GBP: {
                 displayName: "Punt Prydain",
@@ -973,8 +849,7 @@ const data = {
                 "displayName-count-two": "kupon larit Georgia",
                 "displayName-count-few": "kupon larit Georgia",
                 "displayName-count-many": "kupon larit Georgia",
-                "displayName-count-other": "kupon larit Georgia",
-                symbol: "GEK"
+                "displayName-count-other": "kupon larit Georgia"
             },
             GEL: {
                 displayName: "Lari Georgia",
@@ -984,7 +859,6 @@ const data = {
                 "displayName-count-few": "lari Georgia",
                 "displayName-count-many": "lari Georgia",
                 "displayName-count-other": "lari Georgia",
-                symbol: "GEL",
                 "symbol-alt-narrow": "₾"
             },
             GHC: {
@@ -994,8 +868,7 @@ const data = {
                 "displayName-count-two": "cedi Ghana (1979–2007)",
                 "displayName-count-few": "cedi Ghana (1979–2007)",
                 "displayName-count-many": "cedi Ghana (1979–2007)",
-                "displayName-count-other": "cedi Ghana (1979–2007)",
-                symbol: "GHC"
+                "displayName-count-other": "cedi Ghana (1979–2007)"
             },
             GHS: {
                 displayName: "Cedi Ghana",
@@ -1005,7 +878,6 @@ const data = {
                 "displayName-count-few": "cedi Ghana",
                 "displayName-count-many": "cedi Ghana",
                 "displayName-count-other": "cedi Ghana",
-                symbol: "GHS",
                 "symbol-alt-narrow": "GH₵"
             },
             GIP: {
@@ -1016,7 +888,6 @@ const data = {
                 "displayName-count-few": "punt Gibraltar",
                 "displayName-count-many": "punt Gibraltar",
                 "displayName-count-other": "punt Gibraltar",
-                symbol: "GIP",
                 "symbol-alt-narrow": "£"
             },
             GMD: {
@@ -1026,8 +897,7 @@ const data = {
                 "displayName-count-two": "dalasi Gambia",
                 "displayName-count-few": "dalasi Gambia",
                 "displayName-count-many": "dalasi Gambia",
-                "displayName-count-other": "dalasi Gambia",
-                symbol: "GMD"
+                "displayName-count-other": "dalasi Gambia"
             },
             GNF: {
                 displayName: "Ffranc Guinée",
@@ -1037,7 +907,6 @@ const data = {
                 "displayName-count-few": "ffranc Guinée",
                 "displayName-count-many": "ffranc Guinée",
                 "displayName-count-other": "ffranc Guinée",
-                symbol: "GNF",
                 "symbol-alt-narrow": "FG"
             },
             GNS: {
@@ -1047,8 +916,7 @@ const data = {
                 "displayName-count-two": "syli Guinée",
                 "displayName-count-few": "syli Guinée",
                 "displayName-count-many": "syli Guinée",
-                "displayName-count-other": "syli Guinée",
-                symbol: "GNS"
+                "displayName-count-other": "syli Guinée"
             },
             GQE: {
                 displayName: "Ekwele Guinea Gyhydeddol",
@@ -1057,12 +925,7 @@ const data = {
                 "displayName-count-two": "ekwele Guinea Gyhydeddol",
                 "displayName-count-few": "ekwele Guinea Gyhydeddol",
                 "displayName-count-many": "ekwele Guinea Gyhydeddol",
-                "displayName-count-other": "ekwele Guinea Gyhydeddol",
-                symbol: "GQE"
-            },
-            GRD: {
-                displayName: "GRD",
-                symbol: "GRD"
+                "displayName-count-other": "ekwele Guinea Gyhydeddol"
             },
             GTQ: {
                 displayName: "Quetzal Guatemala",
@@ -1072,12 +935,7 @@ const data = {
                 "displayName-count-few": "quetzal Guatemala",
                 "displayName-count-many": "quetzal Guatemala",
                 "displayName-count-other": "quetzal Guatemala",
-                symbol: "GTQ",
                 "symbol-alt-narrow": "Q"
-            },
-            GWE: {
-                displayName: "GWE",
-                symbol: "GWE"
             },
             GWP: {
                 displayName: "Peso Guiné-Bissau",
@@ -1086,8 +944,7 @@ const data = {
                 "displayName-count-two": "peso Guiné-Bissau",
                 "displayName-count-few": "peso Guiné-Bissau",
                 "displayName-count-many": "peso Guiné-Bissau",
-                "displayName-count-other": "peso Guiné-Bissau",
-                symbol: "GWP"
+                "displayName-count-other": "peso Guiné-Bissau"
             },
             GYD: {
                 displayName: "Doler Guyana",
@@ -1097,7 +954,6 @@ const data = {
                 "displayName-count-few": "doler Guyana",
                 "displayName-count-many": "doler Guyana",
                 "displayName-count-other": "doler Guyana",
-                symbol: "GYD",
                 "symbol-alt-narrow": "$"
             },
             HKD: {
@@ -1119,12 +975,7 @@ const data = {
                 "displayName-count-few": "lempira Honduras",
                 "displayName-count-many": "lempira Honduras",
                 "displayName-count-other": "lempira Honduras",
-                symbol: "HNL",
                 "symbol-alt-narrow": "L"
-            },
-            HRD: {
-                displayName: "HRD",
-                symbol: "HRD"
             },
             HRK: {
                 displayName: "Kuna Croatia",
@@ -1134,7 +985,6 @@ const data = {
                 "displayName-count-few": "kuna Croatia",
                 "displayName-count-many": "kuna Croatia",
                 "displayName-count-other": "kuna Croatia",
-                symbol: "HRK",
                 "symbol-alt-narrow": "kn"
             },
             HTG: {
@@ -1144,8 +994,7 @@ const data = {
                 "displayName-count-two": "gourde Haiti",
                 "displayName-count-few": "gourde Haiti",
                 "displayName-count-many": "gourde Haiti",
-                "displayName-count-other": "gourde Haiti",
-                symbol: "HTG"
+                "displayName-count-other": "gourde Haiti"
             },
             HUF: {
                 displayName: "Fforint Hwngari",
@@ -1155,7 +1004,6 @@ const data = {
                 "displayName-count-few": "fforint Hwngari",
                 "displayName-count-many": "fforint Hwngari",
                 "displayName-count-other": "fforint Hwngari",
-                symbol: "HUF",
                 "symbol-alt-narrow": "Ft"
             },
             IDR: {
@@ -1166,7 +1014,6 @@ const data = {
                 "displayName-count-few": "rupiah Indonesia",
                 "displayName-count-many": "rupiah Indonesia",
                 "displayName-count-other": "rupiah Indonesia",
-                symbol: "IDR",
                 "symbol-alt-narrow": "Rp"
             },
             IEP: {
@@ -1176,8 +1023,7 @@ const data = {
                 "displayName-count-two": "bunt Iwerddon",
                 "displayName-count-few": "punt Iwerddon",
                 "displayName-count-many": "phunt Iwerddon",
-                "displayName-count-other": "punt Iwerddon",
-                symbol: "IEP"
+                "displayName-count-other": "punt Iwerddon"
             },
             ILP: {
                 displayName: "Punt Israel",
@@ -1186,8 +1032,7 @@ const data = {
                 "displayName-count-two": "bunt Israel",
                 "displayName-count-few": "punt Israel",
                 "displayName-count-many": "phunt Israel",
-                "displayName-count-other": "punt Israel",
-                symbol: "ILP"
+                "displayName-count-other": "punt Israel"
             },
             ILR: {
                 displayName: "Shegel Israel (1980–1985)",
@@ -1196,8 +1041,7 @@ const data = {
                 "displayName-count-two": "shegel Israel (1980–1985)",
                 "displayName-count-few": "shegel Israel (1980–1985)",
                 "displayName-count-many": "shegel Israel (1980–1985)",
-                "displayName-count-other": "shegel Israel (1980–1985)",
-                symbol: "ILR"
+                "displayName-count-other": "shegel Israel (1980–1985)"
             },
             ILS: {
                 displayName: "Shegel Newydd Israel",
@@ -1228,8 +1072,7 @@ const data = {
                 "displayName-count-two": "dinar Irac",
                 "displayName-count-few": "dinar Irac",
                 "displayName-count-many": "dinar Irac",
-                "displayName-count-other": "dinar Irac",
-                symbol: "IQD"
+                "displayName-count-other": "dinar Irac"
             },
             IRR: {
                 displayName: "Rial Iran",
@@ -1238,8 +1081,7 @@ const data = {
                 "displayName-count-two": "rial Iran",
                 "displayName-count-few": "rial Iran",
                 "displayName-count-many": "rial Iran",
-                "displayName-count-other": "rial Iran",
-                symbol: "IRR"
+                "displayName-count-other": "rial Iran"
             },
             ISJ: {
                 displayName: "Króna Gwlad yr Iâ (1918 – 1981)",
@@ -1248,8 +1090,7 @@ const data = {
                 "displayName-count-two": "króna Gwlad yr Iâ (1918 – 1981)",
                 "displayName-count-few": "króna Gwlad yr Iâ (1918 – 1981)",
                 "displayName-count-many": "króna Gwlad yr Iâ (1918 – 1981)",
-                "displayName-count-other": "króna Gwlad yr Iâ (1918 – 1981)",
-                symbol: "ISJ"
+                "displayName-count-other": "króna Gwlad yr Iâ (1918 – 1981)"
             },
             ISK: {
                 displayName: "Króna Gwlad yr Iâ",
@@ -1259,12 +1100,7 @@ const data = {
                 "displayName-count-few": "króna Gwlad yr Iâ",
                 "displayName-count-many": "króna Gwlad yr Iâ",
                 "displayName-count-other": "króna Gwlad yr Iâ",
-                symbol: "ISK",
                 "symbol-alt-narrow": "kr"
-            },
-            ITL: {
-                displayName: "ITL",
-                symbol: "ITL"
             },
             JMD: {
                 displayName: "Doler Jamaica",
@@ -1274,7 +1110,6 @@ const data = {
                 "displayName-count-few": "doler Jamaica",
                 "displayName-count-many": "doler Jamaica",
                 "displayName-count-other": "doler Jamaica",
-                symbol: "JMD",
                 "symbol-alt-narrow": "$"
             },
             JOD: {
@@ -1284,8 +1119,7 @@ const data = {
                 "displayName-count-two": "dinar Gwlad yr Iorddonen",
                 "displayName-count-few": "dinar Gwlad yr Iorddonen",
                 "displayName-count-many": "dinar Gwlad yr Iorddonen",
-                "displayName-count-other": "dinar Gwlad yr Iorddonen",
-                symbol: "JOD"
+                "displayName-count-other": "dinar Gwlad yr Iorddonen"
             },
             JPY: {
                 displayName: "Yen Japan",
@@ -1305,8 +1139,7 @@ const data = {
                 "displayName-count-two": "swllt Kenya",
                 "displayName-count-few": "swllt Kenya",
                 "displayName-count-many": "swllt Kenya",
-                "displayName-count-other": "swllt Kenya",
-                symbol: "KES"
+                "displayName-count-other": "swllt Kenya"
             },
             KGS: {
                 displayName: "Som Kyrgyzstan",
@@ -1316,7 +1149,7 @@ const data = {
                 "displayName-count-few": "som Kyrgyzstan",
                 "displayName-count-many": "som Kyrgyzstan",
                 "displayName-count-other": "som Kyrgyzstan",
-                symbol: "KGS"
+                "symbol-alt-narrow": "⃀"
             },
             KHR: {
                 displayName: "Riel Cambodia",
@@ -1326,7 +1159,6 @@ const data = {
                 "displayName-count-few": "riel Cambodia",
                 "displayName-count-many": "riel Cambodia",
                 "displayName-count-other": "riel Cambodia",
-                symbol: "KHR",
                 "symbol-alt-narrow": "៛"
             },
             KMF: {
@@ -1337,7 +1169,6 @@ const data = {
                 "displayName-count-few": "ffranc Comoros",
                 "displayName-count-many": "ffranc Comoros",
                 "displayName-count-other": "ffranc Comoros",
-                symbol: "KMF",
                 "symbol-alt-narrow": "CF"
             },
             KPW: {
@@ -1348,7 +1179,6 @@ const data = {
                 "displayName-count-few": "won Gogledd Corea",
                 "displayName-count-many": "won Gogledd Corea",
                 "displayName-count-other": "won Gogledd Corea",
-                symbol: "KPW",
                 "symbol-alt-narrow": "₩"
             },
             KRH: {
@@ -1358,8 +1188,7 @@ const data = {
                 "displayName-count-two": "hwan De Corea (1953–1962)",
                 "displayName-count-few": "hwan De Corea (1953–1962)",
                 "displayName-count-many": "hwan De Corea (1953–1962)",
-                "displayName-count-other": "hwan De Corea (1953–1962)",
-                symbol: "KRH"
+                "displayName-count-other": "hwan De Corea (1953–1962)"
             },
             KRO: {
                 displayName: "Won De Corea (1945–1953)",
@@ -1368,8 +1197,7 @@ const data = {
                 "displayName-count-two": "won De Corea (1945–1953)",
                 "displayName-count-few": "won De Corea (1945–1953)",
                 "displayName-count-many": "won De Corea (1945–1953)",
-                "displayName-count-other": "won De Corea (1945–1953)",
-                symbol: "KRO"
+                "displayName-count-other": "won De Corea (1945–1953)"
             },
             KRW: {
                 displayName: "Won De Corea",
@@ -1389,8 +1217,7 @@ const data = {
                 "displayName-count-two": "dinar Kuwait",
                 "displayName-count-few": "dinar Kuwait",
                 "displayName-count-many": "dinar Kuwait",
-                "displayName-count-other": "dinar Kuwait",
-                symbol: "KWD"
+                "displayName-count-other": "dinar Kuwait"
             },
             KYD: {
                 displayName: "Doler Ynysoedd Cayman",
@@ -1400,7 +1227,6 @@ const data = {
                 "displayName-count-few": "doler Ynysoedd Cayman",
                 "displayName-count-many": "doler Ynysoedd Cayman",
                 "displayName-count-other": "doler Ynysoedd Cayman",
-                symbol: "KYD",
                 "symbol-alt-narrow": "$"
             },
             KZT: {
@@ -1411,7 +1237,6 @@ const data = {
                 "displayName-count-few": "tenge Kazakstan",
                 "displayName-count-many": "tenge Kazakstan",
                 "displayName-count-other": "tenge Kazakstan",
-                symbol: "KZT",
                 "symbol-alt-narrow": "₸"
             },
             LAK: {
@@ -1422,7 +1247,6 @@ const data = {
                 "displayName-count-few": "kip Laos",
                 "displayName-count-many": "kip Laos",
                 "displayName-count-other": "kip Laos",
-                symbol: "LAK",
                 "symbol-alt-narrow": "₭"
             },
             LBP: {
@@ -1433,7 +1257,6 @@ const data = {
                 "displayName-count-few": "punt Libanus",
                 "displayName-count-many": "punt Libanus",
                 "displayName-count-other": "punt Libanus",
-                symbol: "LBP",
                 "symbol-alt-narrow": "L£"
             },
             LKR: {
@@ -1444,7 +1267,6 @@ const data = {
                 "displayName-count-few": "rwpî Sri Lanka",
                 "displayName-count-many": "rwpî Sri Lanka",
                 "displayName-count-other": "rwpî Sri Lanka",
-                symbol: "LKR",
                 "symbol-alt-narrow": "Rs"
             },
             LRD: {
@@ -1455,7 +1277,6 @@ const data = {
                 "displayName-count-few": "doler Liberia",
                 "displayName-count-many": "doler Liberia",
                 "displayName-count-other": "doler Liberia",
-                symbol: "LRD",
                 "symbol-alt-narrow": "$"
             },
             LSL: {
@@ -1465,8 +1286,7 @@ const data = {
                 "displayName-count-two": "loti Lesotho",
                 "displayName-count-few": "loti Lesotho",
                 "displayName-count-many": "loti Lesotho",
-                "displayName-count-other": "loti Lesotho",
-                symbol: "LSL"
+                "displayName-count-other": "loti Lesotho"
             },
             LTL: {
                 displayName: "Litas Lithwania",
@@ -1476,7 +1296,6 @@ const data = {
                 "displayName-count-few": "litas Lithwania",
                 "displayName-count-many": "litas Lithwania",
                 "displayName-count-other": "litas Lithwania",
-                symbol: "LTL",
                 "symbol-alt-narrow": "Lt"
             },
             LTT: {
@@ -1486,12 +1305,7 @@ const data = {
                 "displayName-count-two": "talonas Lithwania",
                 "displayName-count-few": "talonas Lithwania",
                 "displayName-count-many": "talonas Lithwania",
-                "displayName-count-other": "talonas Lithwania",
-                symbol: "LTT"
-            },
-            LUC: {
-                displayName: "LUC",
-                symbol: "LUC"
+                "displayName-count-other": "talonas Lithwania"
             },
             LUF: {
                 displayName: "Ffranc Lwcsembwrg",
@@ -1500,12 +1314,7 @@ const data = {
                 "displayName-count-two": "ffranc Lwcsembwrg",
                 "displayName-count-few": "ffranc Lwcsembwrg",
                 "displayName-count-many": "ffranc Lwcsembwrg",
-                "displayName-count-other": "ffranc Lwcsembwrg",
-                symbol: "LUF"
-            },
-            LUL: {
-                displayName: "LUL",
-                symbol: "LUL"
+                "displayName-count-other": "ffranc Lwcsembwrg"
             },
             LVL: {
                 displayName: "Lats Latfia",
@@ -1515,7 +1324,6 @@ const data = {
                 "displayName-count-few": "lats Latfia",
                 "displayName-count-many": "lats Latfia",
                 "displayName-count-other": "lats Latfia",
-                symbol: "LVL",
                 "symbol-alt-narrow": "Ls"
             },
             LVR: {
@@ -1525,8 +1333,7 @@ const data = {
                 "displayName-count-two": "rwbl Latfia",
                 "displayName-count-few": "rwbl Latfia",
                 "displayName-count-many": "rwbl Latfia",
-                "displayName-count-other": "rwbl Latfia",
-                symbol: "LVR"
+                "displayName-count-other": "rwbl Latfia"
             },
             LYD: {
                 displayName: "Dinar Libya",
@@ -1535,8 +1342,7 @@ const data = {
                 "displayName-count-two": "dinar Libya",
                 "displayName-count-few": "dinar Libya",
                 "displayName-count-many": "dinar Libya",
-                "displayName-count-other": "dinar Libya",
-                symbol: "LYD"
+                "displayName-count-other": "dinar Libya"
             },
             MAD: {
                 displayName: "Dirham Moroco",
@@ -1545,8 +1351,7 @@ const data = {
                 "displayName-count-two": "dirham Moroco",
                 "displayName-count-few": "dirham Moroco",
                 "displayName-count-many": "dirham Moroco",
-                "displayName-count-other": "dirham Moroco",
-                symbol: "MAD"
+                "displayName-count-other": "dirham Moroco"
             },
             MAF: {
                 displayName: "Ffranc Moroco",
@@ -1555,8 +1360,7 @@ const data = {
                 "displayName-count-two": "ffranc Moroco",
                 "displayName-count-few": "ffranc Moroco",
                 "displayName-count-many": "ffranc Moroco",
-                "displayName-count-other": "ffranc Moroco",
-                symbol: "MAF"
+                "displayName-count-other": "ffranc Moroco"
             },
             MCF: {
                 displayName: "Ffranc Monaco",
@@ -1565,12 +1369,7 @@ const data = {
                 "displayName-count-two": "ffranc Monaco",
                 "displayName-count-few": "ffranc Monaco",
                 "displayName-count-many": "ffranc Monaco",
-                "displayName-count-other": "ffranc Monaco",
-                symbol: "MCF"
-            },
-            MDC: {
-                displayName: "MDC",
-                symbol: "MDC"
+                "displayName-count-other": "ffranc Monaco"
             },
             MDL: {
                 displayName: "Leu Moldofa",
@@ -1579,8 +1378,7 @@ const data = {
                 "displayName-count-two": "leu Moldofa",
                 "displayName-count-few": "leu Moldofa",
                 "displayName-count-many": "leu Moldofa",
-                "displayName-count-other": "leu Moldofa",
-                symbol: "MDL"
+                "displayName-count-other": "leu Moldofa"
             },
             MGA: {
                 displayName: "Ariary Madagascar",
@@ -1590,7 +1388,6 @@ const data = {
                 "displayName-count-few": "ariary Madagascar",
                 "displayName-count-many": "ariary Madagascar",
                 "displayName-count-other": "ariary Madagascar",
-                symbol: "MGA",
                 "symbol-alt-narrow": "Ar"
             },
             MGF: {
@@ -1600,8 +1397,7 @@ const data = {
                 "displayName-count-two": "ffranc Madagascar",
                 "displayName-count-few": "ffranc Madagascar",
                 "displayName-count-many": "ffranc Madagascar",
-                "displayName-count-other": "ffranc Madagascar",
-                symbol: "MGF"
+                "displayName-count-other": "ffranc Madagascar"
             },
             MKD: {
                 displayName: "Denar Macedonia",
@@ -1610,12 +1406,7 @@ const data = {
                 "displayName-count-two": "denar Macedonia",
                 "displayName-count-few": "denar Macedonia",
                 "displayName-count-many": "denar Macedonia",
-                "displayName-count-other": "denar Macedonia",
-                symbol: "MKD"
-            },
-            MKN: {
-                displayName: "MKN",
-                symbol: "MKN"
+                "displayName-count-other": "denar Macedonia"
             },
             MLF: {
                 displayName: "Ffranc Mali",
@@ -1624,8 +1415,7 @@ const data = {
                 "displayName-count-two": "ffranc Mali",
                 "displayName-count-few": "ffranc Mali",
                 "displayName-count-many": "ffranc Mali",
-                "displayName-count-other": "ffranc Mali",
-                symbol: "MLF"
+                "displayName-count-other": "ffranc Mali"
             },
             MMK: {
                 displayName: "Kyat Myanmar",
@@ -1635,7 +1425,6 @@ const data = {
                 "displayName-count-few": "kyat Myanmar",
                 "displayName-count-many": "kyat Myanmar",
                 "displayName-count-other": "kyat Myanmar",
-                symbol: "MMK",
                 "symbol-alt-narrow": "K"
             },
             MNT: {
@@ -1646,18 +1435,11 @@ const data = {
                 "displayName-count-few": "tugrik Mongolia",
                 "displayName-count-many": "tugrik Mongolia",
                 "displayName-count-other": "tugrik Mongolia",
-                symbol: "MNT",
                 "symbol-alt-narrow": "₮"
             },
             MOP: {
                 displayName: "pataca Macau",
-                "displayName-count-zero": "pataca Macau",
-                "displayName-count-one": "pataca Macau",
-                "displayName-count-two": "pataca Macau",
-                "displayName-count-few": "pataca Macau",
-                "displayName-count-many": "pataca Macau",
-                "displayName-count-other": "pataca Macau",
-                symbol: "MOP"
+                "displayName-count-other": "pataca Macau"
             },
             MRO: {
                 displayName: "Ouguiya Mauritania (1973–2017)",
@@ -1666,8 +1448,7 @@ const data = {
                 "displayName-count-two": "ouguiya Mauritania (1973–2017)",
                 "displayName-count-few": "ouguiya Mauritania (1973–2017)",
                 "displayName-count-many": "ouguiya Mauritania (1973–2017)",
-                "displayName-count-other": "ouguiya Mauritania (1973–2017)",
-                symbol: "MRO"
+                "displayName-count-other": "ouguiya Mauritania (1973–2017)"
             },
             MRU: {
                 displayName: "Ouguiya Mauritania",
@@ -1676,16 +1457,7 @@ const data = {
                 "displayName-count-two": "ouguiya Mauritania",
                 "displayName-count-few": "ouguiya Mauritania",
                 "displayName-count-many": "ouguiya Mauritania",
-                "displayName-count-other": "ouguiya Mauritania",
-                symbol: "MRU"
-            },
-            MTL: {
-                displayName: "MTL",
-                symbol: "MTL"
-            },
-            MTP: {
-                displayName: "MTP",
-                symbol: "MTP"
+                "displayName-count-other": "ouguiya Mauritania"
             },
             MUR: {
                 displayName: "Rwpî Mauritius",
@@ -1695,7 +1467,6 @@ const data = {
                 "displayName-count-few": "rwpî Mauritius",
                 "displayName-count-many": "rwpî Mauritius",
                 "displayName-count-other": "rwpî Mauritius",
-                symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
             MVP: {
@@ -1705,8 +1476,7 @@ const data = {
                 "displayName-count-two": "rwpî’r Maldives (1947–1981)",
                 "displayName-count-few": "rwpî’r Maldives (1947–1981)",
                 "displayName-count-many": "rwpî’r Maldives (1947–1981)",
-                "displayName-count-other": "rwpî’r Maldives (1947–1981)",
-                symbol: "MVP"
+                "displayName-count-other": "rwpî’r Maldives (1947–1981)"
             },
             MVR: {
                 displayName: "Rufiyaa’r Maldives",
@@ -1715,8 +1485,7 @@ const data = {
                 "displayName-count-two": "rufiyaa’r Maldives",
                 "displayName-count-few": "rufiyaa’r Maldives",
                 "displayName-count-many": "rufiyaa’r Maldives",
-                "displayName-count-other": "rufiyaa’r Maldives",
-                symbol: "MVR"
+                "displayName-count-other": "rufiyaa’r Maldives"
             },
             MWK: {
                 displayName: "Kwacha Malawi",
@@ -1725,8 +1494,7 @@ const data = {
                 "displayName-count-two": "kwacha Malawi",
                 "displayName-count-few": "kwacha Malawi",
                 "displayName-count-many": "kwacha Malawi",
-                "displayName-count-other": "kwacha Malawi",
-                symbol: "MWK"
+                "displayName-count-other": "kwacha Malawi"
             },
             MXN: {
                 displayName: "Peso Mecsico",
@@ -1746,8 +1514,7 @@ const data = {
                 "displayName-count-two": "peso arian México (1861–1992)",
                 "displayName-count-few": "peso arian México (1861–1992)",
                 "displayName-count-many": "peso arian México (1861–1992)",
-                "displayName-count-other": "peso arian México (1861–1992)",
-                symbol: "MXP"
+                "displayName-count-other": "peso arian México (1861–1992)"
             },
             MXV: {
                 displayName: "Uned Fuddsoddi México",
@@ -1756,8 +1523,7 @@ const data = {
                 "displayName-count-two": "uned fuddsoddi México",
                 "displayName-count-few": "uned fuddsoddi México",
                 "displayName-count-many": "uned fuddsoddi México",
-                "displayName-count-other": "uned fuddsoddi México",
-                symbol: "MXV"
+                "displayName-count-other": "uned fuddsoddi México"
             },
             MYR: {
                 displayName: "Ringgit Malaysia",
@@ -1767,7 +1533,6 @@ const data = {
                 "displayName-count-few": "ringgit Malaysia",
                 "displayName-count-many": "ringgit Malaysia",
                 "displayName-count-other": "ringgit Malaysia",
-                symbol: "MYR",
                 "symbol-alt-narrow": "RM"
             },
             MZE: {
@@ -1777,8 +1542,7 @@ const data = {
                 "displayName-count-two": "escudo Mozambique",
                 "displayName-count-few": "escudo Mozambique",
                 "displayName-count-many": "escudo Mozambique",
-                "displayName-count-other": "escudo Mozambique",
-                symbol: "MZE"
+                "displayName-count-other": "escudo Mozambique"
             },
             MZM: {
                 displayName: "Metical Mozambique (1980–2006)",
@@ -1787,8 +1551,7 @@ const data = {
                 "displayName-count-two": "metical Mozambique (1980–2006)",
                 "displayName-count-few": "metical Mozambique (1980–2006)",
                 "displayName-count-many": "metical Mozambique (1980–2006)",
-                "displayName-count-other": "metical Mozambique (1980–2006)",
-                symbol: "MZM"
+                "displayName-count-other": "metical Mozambique (1980–2006)"
             },
             MZN: {
                 displayName: "Metical Mozambique",
@@ -1797,8 +1560,7 @@ const data = {
                 "displayName-count-two": "metical Mozambique",
                 "displayName-count-few": "metical Mozambique",
                 "displayName-count-many": "metical Mozambique",
-                "displayName-count-other": "metical Mozambique",
-                symbol: "MZN"
+                "displayName-count-other": "metical Mozambique"
             },
             NAD: {
                 displayName: "Doler Namibia",
@@ -1808,7 +1570,6 @@ const data = {
                 "displayName-count-few": "doler Namibia",
                 "displayName-count-many": "doler Namibia",
                 "displayName-count-other": "doler Namibia",
-                symbol: "NAD",
                 "symbol-alt-narrow": "$"
             },
             NGN: {
@@ -1819,7 +1580,6 @@ const data = {
                 "displayName-count-few": "naira Nigeria",
                 "displayName-count-many": "naira Nigeria",
                 "displayName-count-other": "naira Nigeria",
-                symbol: "NGN",
                 "symbol-alt-narrow": "₦"
             },
             NIC: {
@@ -1829,8 +1589,7 @@ const data = {
                 "displayName-count-two": "córdoba Nicaragua (1988–1991)",
                 "displayName-count-few": "córdoba Nicaragua (1988–1991)",
                 "displayName-count-many": "córdoba Nicaragua (1988–1991)",
-                "displayName-count-other": "córdoba Nicaragua (1988–1991)",
-                symbol: "NIC"
+                "displayName-count-other": "córdoba Nicaragua (1988–1991)"
             },
             NIO: {
                 displayName: "Cordoba Nicaragwa",
@@ -1840,7 +1599,6 @@ const data = {
                 "displayName-count-few": "cordoba Nicaragwa",
                 "displayName-count-many": "cordoba Nicaragwa",
                 "displayName-count-other": "cordoba Nicaragwa",
-                symbol: "NIO",
                 "symbol-alt-narrow": "C$"
             },
             NLG: {
@@ -1850,8 +1608,7 @@ const data = {
                 "displayName-count-two": "guilder yr Iseldiroedd",
                 "displayName-count-few": "guilder yr Iseldiroedd",
                 "displayName-count-many": "guilder yr Iseldiroedd",
-                "displayName-count-other": "guilder yr Iseldiroedd",
-                symbol: "NLG"
+                "displayName-count-other": "guilder yr Iseldiroedd"
             },
             NOK: {
                 displayName: "Krone Norwy",
@@ -1861,7 +1618,6 @@ const data = {
                 "displayName-count-few": "krone Norwy",
                 "displayName-count-many": "krone Norwy",
                 "displayName-count-other": "krone Norwy",
-                symbol: "NOK",
                 "symbol-alt-narrow": "kr"
             },
             NPR: {
@@ -1872,7 +1628,6 @@ const data = {
                 "displayName-count-few": "rwpî Nepal",
                 "displayName-count-many": "rwpî Nepal",
                 "displayName-count-other": "rwpî Nepal",
-                symbol: "NPR",
                 "symbol-alt-narrow": "Rs"
             },
             NZD: {
@@ -1893,8 +1648,7 @@ const data = {
                 "displayName-count-two": "rial Oman",
                 "displayName-count-few": "rial Oman",
                 "displayName-count-many": "rial Oman",
-                "displayName-count-other": "rial Oman",
-                symbol: "OMR"
+                "displayName-count-other": "rial Oman"
             },
             PAB: {
                 displayName: "Balboa Panama",
@@ -1903,8 +1657,7 @@ const data = {
                 "displayName-count-two": "balboa Panama",
                 "displayName-count-few": "balboa Panama",
                 "displayName-count-many": "balboa Panama",
-                "displayName-count-other": "balboa Panama",
-                symbol: "PAB"
+                "displayName-count-other": "balboa Panama"
             },
             PEI: {
                 displayName: "Inti Periw",
@@ -1913,8 +1666,7 @@ const data = {
                 "displayName-count-two": "inti Periw",
                 "displayName-count-few": "inti Periw",
                 "displayName-count-many": "inti Periw",
-                "displayName-count-other": "inti Periw",
-                symbol: "PEI"
+                "displayName-count-other": "inti Periw"
             },
             PEN: {
                 displayName: "Sol Periw",
@@ -1923,8 +1675,7 @@ const data = {
                 "displayName-count-two": "sol Periw",
                 "displayName-count-few": "sol Periw",
                 "displayName-count-many": "sol Periw",
-                "displayName-count-other": "sol Periw",
-                symbol: "PEN"
+                "displayName-count-other": "sol Periw"
             },
             PES: {
                 displayName: "Sol Periw (1863–1965)",
@@ -1933,8 +1684,7 @@ const data = {
                 "displayName-count-two": "sol Periw (1863–1965)",
                 "displayName-count-few": "sol Periw (1863–1965)",
                 "displayName-count-many": "sol Periw (1863–1965)",
-                "displayName-count-other": "sol Periw (1863–1965)",
-                symbol: "PES"
+                "displayName-count-other": "sol Periw (1863–1965)"
             },
             PGK: {
                 displayName: "Kina Papua Guinea Newydd",
@@ -1943,8 +1693,7 @@ const data = {
                 "displayName-count-two": "kina Papua Guinea Newydd",
                 "displayName-count-few": "kina Papua Guinea Newydd",
                 "displayName-count-many": "kina Papua Guinea Newydd",
-                "displayName-count-other": "kina Papua Guinea Newydd",
-                symbol: "PGK"
+                "displayName-count-other": "kina Papua Guinea Newydd"
             },
             PHP: {
                 displayName: "Peso Philipinas",
@@ -1965,7 +1714,6 @@ const data = {
                 "displayName-count-few": "rwpî Pacistan",
                 "displayName-count-many": "rwpî Pacistan",
                 "displayName-count-other": "rwpî Pacistan",
-                symbol: "PKR",
                 "symbol-alt-narrow": "Rs"
             },
             PLN: {
@@ -1976,16 +1724,7 @@ const data = {
                 "displayName-count-few": "zloty Gwlad Pwyl",
                 "displayName-count-many": "zloty Gwlad Pwyl",
                 "displayName-count-other": "zloty Gwlad Pwyl",
-                symbol: "PLN",
                 "symbol-alt-narrow": "zł"
-            },
-            PLZ: {
-                displayName: "PLZ",
-                symbol: "PLZ"
-            },
-            PTE: {
-                displayName: "PTE",
-                symbol: "PTE"
             },
             PYG: {
                 displayName: "Guarani Paraguay",
@@ -1995,7 +1734,6 @@ const data = {
                 "displayName-count-few": "guarani Paraguay",
                 "displayName-count-many": "guarani Paraguay",
                 "displayName-count-other": "guarani Paraguay",
-                symbol: "PYG",
                 "symbol-alt-narrow": "₲"
             },
             QAR: {
@@ -2005,8 +1743,7 @@ const data = {
                 "displayName-count-two": "rial Qatar",
                 "displayName-count-few": "rial Qatar",
                 "displayName-count-many": "rial Qatar",
-                "displayName-count-other": "rial Qatar",
-                symbol: "QAR"
+                "displayName-count-other": "rial Qatar"
             },
             RHD: {
                 displayName: "Doler Rhodesia",
@@ -2015,12 +1752,7 @@ const data = {
                 "displayName-count-two": "ddoler Rhodesia",
                 "displayName-count-few": "doler Rhodesia",
                 "displayName-count-many": "doler Rhodesia",
-                "displayName-count-other": "doler Rhodesia",
-                symbol: "RHD"
-            },
-            ROL: {
-                displayName: "ROL",
-                symbol: "ROL"
+                "displayName-count-other": "doler Rhodesia"
             },
             RON: {
                 displayName: "Leu Rwmania",
@@ -2030,7 +1762,6 @@ const data = {
                 "displayName-count-few": "leu Rwmania",
                 "displayName-count-many": "leu Rwmania",
                 "displayName-count-other": "leu Rwmania",
-                symbol: "RON",
                 "symbol-alt-narrow": "lei"
             },
             RSD: {
@@ -2040,8 +1771,7 @@ const data = {
                 "displayName-count-two": "dinar Serbia",
                 "displayName-count-few": "dinar Serbia",
                 "displayName-count-many": "dinar Serbia",
-                "displayName-count-other": "dinar Serbia",
-                symbol: "RSD"
+                "displayName-count-other": "dinar Serbia"
             },
             RUB: {
                 displayName: "Rwbl Rwsia",
@@ -2051,12 +1781,7 @@ const data = {
                 "displayName-count-few": "rwbl Rwsia",
                 "displayName-count-many": "rwbl Rwsia",
                 "displayName-count-other": "rwbl Rwsia",
-                symbol: "RUB",
                 "symbol-alt-narrow": "₽"
-            },
-            RUR: {
-                displayName: "RUR",
-                symbol: "RUR"
             },
             RWF: {
                 displayName: "Ffranc Rwanda",
@@ -2066,7 +1791,6 @@ const data = {
                 "displayName-count-few": "ffranc Rwanda",
                 "displayName-count-many": "ffranc Rwanda",
                 "displayName-count-other": "ffranc Rwanda",
-                symbol: "RWF",
                 "symbol-alt-narrow": "RF"
             },
             SAR: {
@@ -2077,7 +1801,7 @@ const data = {
                 "displayName-count-few": "riyal Saudi Arabia",
                 "displayName-count-many": "riyal Saudi Arabia",
                 "displayName-count-other": "riyal Saudi Arabia",
-                symbol: "SAR"
+                "symbol-alt-variant": "⃁"
             },
             SBD: {
                 displayName: "Doler Ynysoedd Solomon",
@@ -2087,7 +1811,6 @@ const data = {
                 "displayName-count-few": "doler Ynysoedd Solomon",
                 "displayName-count-many": "doler Ynysoedd Solomon",
                 "displayName-count-other": "doler Ynysoedd Solomon",
-                symbol: "SBD",
                 "symbol-alt-narrow": "$"
             },
             SCR: {
@@ -2097,8 +1820,7 @@ const data = {
                 "displayName-count-two": "rwpî Seychelles",
                 "displayName-count-few": "rwpî Seychelles",
                 "displayName-count-many": "rwpî Seychelles",
-                "displayName-count-other": "rwpî Seychelles",
-                symbol: "SCR"
+                "displayName-count-other": "rwpî Seychelles"
             },
             SDD: {
                 displayName: "Dinar Sudan (1992–2007)",
@@ -2107,8 +1829,7 @@ const data = {
                 "displayName-count-two": "dinar Sudan (1992–2007)",
                 "displayName-count-few": "dinar Sudan (1992–2007)",
                 "displayName-count-many": "dinar Sudan (1992–2007)",
-                "displayName-count-other": "dinar Sudan (1992–2007)",
-                symbol: "SDD"
+                "displayName-count-other": "dinar Sudan (1992–2007)"
             },
             SDG: {
                 displayName: "Punt Sudan",
@@ -2117,8 +1838,7 @@ const data = {
                 "displayName-count-two": "bunt Sudan",
                 "displayName-count-few": "punt Sudan",
                 "displayName-count-many": "punt Sudan",
-                "displayName-count-other": "punt Sudan",
-                symbol: "SDG"
+                "displayName-count-other": "punt Sudan"
             },
             SDP: {
                 displayName: "Punt Sudan (1957–1998)",
@@ -2127,8 +1847,7 @@ const data = {
                 "displayName-count-two": "bunt Sudan (1957–1998)",
                 "displayName-count-few": "punt Sudan (1957–1998)",
                 "displayName-count-many": "phunt Sudan (1957–1998)",
-                "displayName-count-other": "punt Sudan (1957–1998)",
-                symbol: "SDP"
+                "displayName-count-other": "punt Sudan (1957–1998)"
             },
             SEK: {
                 displayName: "Krona Sweden",
@@ -2138,7 +1857,6 @@ const data = {
                 "displayName-count-few": "krona Sweden",
                 "displayName-count-many": "krona Sweden",
                 "displayName-count-other": "krona Sweden",
-                symbol: "SEK",
                 "symbol-alt-narrow": "kr"
             },
             SGD: {
@@ -2149,7 +1867,6 @@ const data = {
                 "displayName-count-few": "doler Singapore",
                 "displayName-count-many": "doler Singapore",
                 "displayName-count-other": "doler Singapore",
-                symbol: "SGD",
                 "symbol-alt-narrow": "$"
             },
             SHP: {
@@ -2160,30 +1877,25 @@ const data = {
                 "displayName-count-few": "punt St. Helena",
                 "displayName-count-many": "punt St. Helena",
                 "displayName-count-other": "punt St. Helena",
-                symbol: "SHP",
                 "symbol-alt-narrow": "£"
             },
-            SIT: {
-                displayName: "SIT",
-                symbol: "SIT"
-            },
-            SKK: {
-                displayName: "SKK",
-                symbol: "SKK"
-            },
             SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
-            },
-            SLL: {
                 displayName: "Leone Sierra Leone",
                 "displayName-count-zero": "leone Sierra Leone",
                 "displayName-count-one": "leone Sierra Leone",
                 "displayName-count-two": "leone Sierra Leone",
                 "displayName-count-few": "leone Sierra Leone",
                 "displayName-count-many": "leone Sierra Leone",
-                "displayName-count-other": "leone Sierra Leone",
-                symbol: "SLL"
+                "displayName-count-other": "leone Sierra Leone"
+            },
+            SLL: {
+                displayName: "Leone Sierra Leone (1964—2022)",
+                "displayName-count-zero": "leone Sierra Leone (1964—2022)",
+                "displayName-count-one": "leone Sierra Leone (1964—2022)",
+                "displayName-count-two": "leone Sierra Leone (1964—2022)",
+                "displayName-count-few": "leone Sierra Leone (1964—2022)",
+                "displayName-count-many": "leone Sierra Leone (1964—2022)",
+                "displayName-count-other": "leone Sierra Leone (1964—2022)"
             },
             SOS: {
                 displayName: "Swllt Somalia",
@@ -2192,8 +1904,7 @@ const data = {
                 "displayName-count-two": "swllt Somalia",
                 "displayName-count-few": "swllt Somalia",
                 "displayName-count-many": "swllt Somalia",
-                "displayName-count-other": "swllt Somalia",
-                symbol: "SOS"
+                "displayName-count-other": "swllt Somalia"
             },
             SRD: {
                 displayName: "Doler Surinam",
@@ -2203,7 +1914,6 @@ const data = {
                 "displayName-count-few": "doler Surinam",
                 "displayName-count-many": "doler Surinam",
                 "displayName-count-other": "doler Surinam",
-                symbol: "SRD",
                 "symbol-alt-narrow": "$"
             },
             SRG: {
@@ -2213,8 +1923,7 @@ const data = {
                 "displayName-count-two": "guilder Surinam",
                 "displayName-count-few": "guilder Surinam",
                 "displayName-count-many": "guilder Surinam",
-                "displayName-count-other": "guilder Surinam",
-                symbol: "SRG"
+                "displayName-count-other": "guilder Surinam"
             },
             SSP: {
                 displayName: "Punt De Sudan",
@@ -2224,7 +1933,6 @@ const data = {
                 "displayName-count-few": "punt De Sudan",
                 "displayName-count-many": "punt De Sudan",
                 "displayName-count-other": "punt De Sudan",
-                symbol: "SSP",
                 "symbol-alt-narrow": "£"
             },
             STD: {
@@ -2234,8 +1942,7 @@ const data = {
                 "displayName-count-two": "dobra São Tomé a Príncipe (1977–2017)",
                 "displayName-count-few": "dobra São Tomé a Príncipe (1977–2017)",
                 "displayName-count-many": "dobra São Tomé a Príncipe (1977–2017)",
-                "displayName-count-other": "dobra São Tomé a Príncipe (1977–2017)",
-                symbol: "STD"
+                "displayName-count-other": "dobra São Tomé a Príncipe (1977–2017)"
             },
             STN: {
                 displayName: "Dobra São Tomé a Príncipe",
@@ -2245,12 +1952,7 @@ const data = {
                 "displayName-count-few": "dobra São Tomé a Príncipe",
                 "displayName-count-many": "dobra São Tomé a Príncipe",
                 "displayName-count-other": "dobra São Tomé a Príncipe",
-                symbol: "STN",
                 "symbol-alt-narrow": "Db"
-            },
-            SUR: {
-                displayName: "SUR",
-                symbol: "SUR"
             },
             SVC: {
                 displayName: "Colón El Salvador",
@@ -2259,8 +1961,7 @@ const data = {
                 "displayName-count-two": "colón El Salvador",
                 "displayName-count-few": "colón El Salvador",
                 "displayName-count-many": "colón El Salvador",
-                "displayName-count-other": "colón El Salvador",
-                symbol: "SVC"
+                "displayName-count-other": "colón El Salvador"
             },
             SYP: {
                 displayName: "Punt Syria",
@@ -2270,7 +1971,6 @@ const data = {
                 "displayName-count-few": "punt Syria",
                 "displayName-count-many": "punt Syria",
                 "displayName-count-other": "punt Syria",
-                symbol: "SYP",
                 "symbol-alt-narrow": "£"
             },
             SZL: {
@@ -2280,8 +1980,7 @@ const data = {
                 "displayName-count-two": "lilangeni Gwlad Swazi",
                 "displayName-count-few": "lilangeni Gwlad Swazi",
                 "displayName-count-many": "lilangeni Gwlad Swazi",
-                "displayName-count-other": "lilangeni Gwlad Swazi",
-                symbol: "SZL"
+                "displayName-count-other": "lilangeni Gwlad Swazi"
             },
             THB: {
                 displayName: "Baht Gwlad Thai",
@@ -2301,8 +2000,7 @@ const data = {
                 "displayName-count-two": "rwbl Tajikistan",
                 "displayName-count-few": "rwbl Tajikistan",
                 "displayName-count-many": "rwbl Tajikistan",
-                "displayName-count-other": "rwbl Tajikistan",
-                symbol: "TJR"
+                "displayName-count-other": "rwbl Tajikistan"
             },
             TJS: {
                 displayName: "Somoni Tajikistan",
@@ -2311,8 +2009,7 @@ const data = {
                 "displayName-count-two": "somoni Tajikstan",
                 "displayName-count-few": "somoni Tajikstan",
                 "displayName-count-many": "somoni Tajikstan",
-                "displayName-count-other": "somoni Tajikstan",
-                symbol: "TJS"
+                "displayName-count-other": "somoni Tajikstan"
             },
             TMM: {
                 displayName: "Manat Turkmenistan (1993–2009)",
@@ -2321,8 +2018,7 @@ const data = {
                 "displayName-count-two": "manat Turkmenistan (1993–2009)",
                 "displayName-count-few": "manat Turkmenistan (1993–2009)",
                 "displayName-count-many": "manat Turkmenistan (1993–2009)",
-                "displayName-count-other": "manat Turkmenistan (1993–2009)",
-                symbol: "TMM"
+                "displayName-count-other": "manat Turkmenistan (1993–2009)"
             },
             TMT: {
                 displayName: "Manat Turkmenistan",
@@ -2331,8 +2027,7 @@ const data = {
                 "displayName-count-two": "manat Turkmenistan",
                 "displayName-count-few": "manat Turkmenistan",
                 "displayName-count-many": "manat Turkmenistan",
-                "displayName-count-other": "manat Turkmenistan",
-                symbol: "TMT"
+                "displayName-count-other": "manat Turkmenistan"
             },
             TND: {
                 displayName: "Dinar Tunisia",
@@ -2341,8 +2036,7 @@ const data = {
                 "displayName-count-two": "dinar Tunisia",
                 "displayName-count-few": "dinar Tunisia",
                 "displayName-count-many": "dinar Tunisia",
-                "displayName-count-other": "dinar Tunisia",
-                symbol: "TND"
+                "displayName-count-other": "dinar Tunisia"
             },
             TOP: {
                 displayName: "Paʻanga Tonga",
@@ -2352,7 +2046,6 @@ const data = {
                 "displayName-count-few": "paʻanga Tonga",
                 "displayName-count-many": "paʻanga Tonga",
                 "displayName-count-other": "paʻanga Tonga",
-                symbol: "TOP",
                 "symbol-alt-narrow": "T$"
             },
             TPE: {
@@ -2362,8 +2055,7 @@ const data = {
                 "displayName-count-two": "escudo Timor",
                 "displayName-count-few": "escudo Timor",
                 "displayName-count-many": "escudo Timor",
-                "displayName-count-other": "escudo Timor",
-                symbol: "TPE"
+                "displayName-count-other": "escudo Timor"
             },
             TRL: {
                 displayName: "Lira Twrci (1922–2005)",
@@ -2372,8 +2064,7 @@ const data = {
                 "displayName-count-two": "lira Twrci (1922–2005)",
                 "displayName-count-few": "lira Twrci (1922–2005)",
                 "displayName-count-many": "lira Twrci (1922–2005)",
-                "displayName-count-other": "lira Twrci (1922–2005)",
-                symbol: "TRL"
+                "displayName-count-other": "lira Twrci (1922–2005)"
             },
             TRY: {
                 displayName: "Lira Twrci",
@@ -2383,7 +2074,6 @@ const data = {
                 "displayName-count-few": "lira Twrci",
                 "displayName-count-many": "lira Twrci",
                 "displayName-count-other": "lira Twrci",
-                symbol: "TRY",
                 "symbol-alt-narrow": "₺",
                 "symbol-alt-variant": "TL"
             },
@@ -2395,7 +2085,6 @@ const data = {
                 "displayName-count-few": "doler Trinidad a Tobago",
                 "displayName-count-many": "doler Trinidad a Tobago",
                 "displayName-count-other": "doler Trinidad a Tobago",
-                symbol: "TTD",
                 "symbol-alt-narrow": "$"
             },
             TWD: {
@@ -2416,8 +2105,7 @@ const data = {
                 "displayName-count-two": "swllt Tanzania",
                 "displayName-count-few": "swllt Tanzania",
                 "displayName-count-many": "swllt Tanzania",
-                "displayName-count-other": "swllt Tanzania",
-                symbol: "TZS"
+                "displayName-count-other": "swllt Tanzania"
             },
             UAH: {
                 displayName: "Hryvnia Wcráin",
@@ -2427,12 +2115,7 @@ const data = {
                 "displayName-count-few": "hryvnia Wcráin",
                 "displayName-count-many": "hryvnia Wcráin",
                 "displayName-count-other": "hryvnia Wcráin",
-                symbol: "UAH",
                 "symbol-alt-narrow": "₴"
-            },
-            UAK: {
-                displayName: "UAK",
-                symbol: "UAK"
             },
             UGS: {
                 displayName: "Swllt Uganda (1966–1987)",
@@ -2441,8 +2124,7 @@ const data = {
                 "displayName-count-two": "swllt Uganda (1966–1987)",
                 "displayName-count-few": "swllt Uganda (1966–1987)",
                 "displayName-count-many": "swllt Uganda (1966–1987)",
-                "displayName-count-other": "swllt Uganda (1966–1987)",
-                symbol: "UGS"
+                "displayName-count-other": "swllt Uganda (1966–1987)"
             },
             UGX: {
                 displayName: "Swllt Uganda",
@@ -2451,8 +2133,7 @@ const data = {
                 "displayName-count-two": "swllt Uganda",
                 "displayName-count-few": "swllt Uganda",
                 "displayName-count-many": "swllt Uganda",
-                "displayName-count-other": "swllt Uganda",
-                symbol: "UGX"
+                "displayName-count-other": "swllt Uganda"
             },
             USD: {
                 displayName: "Doler UDA",
@@ -2472,8 +2153,7 @@ const data = {
                 "displayName-count-two": "ddoler UDA (y diwrnod nesaf)",
                 "displayName-count-few": "doler UDA (y diwrnod nesaf)",
                 "displayName-count-many": "doler UDA (y diwrnod nesaf)",
-                "displayName-count-other": "doler UDA (y diwrnod nesaf)",
-                symbol: "USN"
+                "displayName-count-other": "doler UDA (y diwrnod nesaf)"
             },
             USS: {
                 displayName: "Doler UDA (yr un diwrnod)",
@@ -2482,12 +2162,7 @@ const data = {
                 "displayName-count-two": "ddoler UDA (yr un diwrnod)",
                 "displayName-count-few": "doler UDA (yr un diwrnod)",
                 "displayName-count-many": "doler UDA (yr un diwrnod)",
-                "displayName-count-other": "doler UDA (yr un diwrnod)",
-                symbol: "USS"
-            },
-            UYI: {
-                displayName: "UYI",
-                symbol: "UYI"
+                "displayName-count-other": "doler UDA (yr un diwrnod)"
             },
             UYP: {
                 displayName: "Peso Uruguay (1975–1993)",
@@ -2496,8 +2171,7 @@ const data = {
                 "displayName-count-two": "peso Uruguay (1975–1993)",
                 "displayName-count-few": "peso Uruguay (1975–1993)",
                 "displayName-count-many": "peso Uruguay (1975–1993)",
-                "displayName-count-other": "peso Uruguay (1975–1993)",
-                symbol: "UYP"
+                "displayName-count-other": "peso Uruguay (1975–1993)"
             },
             UYU: {
                 displayName: "Peso Uruguay",
@@ -2507,12 +2181,7 @@ const data = {
                 "displayName-count-few": "peso Uruguay",
                 "displayName-count-many": "peso Uruguay",
                 "displayName-count-other": "peso Uruguay",
-                symbol: "UYU",
                 "symbol-alt-narrow": "$"
-            },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
             },
             UZS: {
                 displayName: "Som Uzbekistan",
@@ -2521,8 +2190,7 @@ const data = {
                 "displayName-count-two": "som Uzbekistan",
                 "displayName-count-few": "som Uzbekistan",
                 "displayName-count-many": "som Uzbekistan",
-                "displayName-count-other": "som Uzbekistan",
-                symbol: "UZS"
+                "displayName-count-other": "som Uzbekistan"
             },
             VEB: {
                 displayName: "Bolívar Venezuela (1871–2008)",
@@ -2531,12 +2199,7 @@ const data = {
                 "displayName-count-two": "bolívar Venezuela (1871–2008)",
                 "displayName-count-few": "bolívar Venezuela (1871–2008)",
                 "displayName-count-many": "bolívar Venezuela (1871–2008)",
-                "displayName-count-other": "bolívar Venezuela (1871–2008)",
-                symbol: "VEB"
-            },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
+                "displayName-count-other": "bolívar Venezuela (1871–2008)"
             },
             VEF: {
                 displayName: "Bolívar Venezuela (2008–2018)",
@@ -2546,7 +2209,6 @@ const data = {
                 "displayName-count-few": "bolívar Venezuela (2008–2018)",
                 "displayName-count-many": "bolívar Venezuela (2008–2018)",
                 "displayName-count-other": "bolívar Venezuela (2008–2018)",
-                symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
             },
             VES: {
@@ -2556,8 +2218,7 @@ const data = {
                 "displayName-count-two": "bolívar Venezuela",
                 "displayName-count-few": "bolívar Venezuela",
                 "displayName-count-many": "bolívar Venezuela",
-                "displayName-count-other": "bolívar Venezuela",
-                symbol: "VES"
+                "displayName-count-other": "bolívar Venezuela"
             },
             VND: {
                 displayName: "Dong Fietnam",
@@ -2577,8 +2238,7 @@ const data = {
                 "displayName-count-two": "dong Fietnam (1978–1985)",
                 "displayName-count-few": "dong Fietnam (1978–1985)",
                 "displayName-count-many": "dong Fietnam (1978–1985)",
-                "displayName-count-other": "dong Fietnam (1978–1985)",
-                symbol: "VNN"
+                "displayName-count-other": "dong Fietnam (1978–1985)"
             },
             VUV: {
                 displayName: "Vatu Vanuatu",
@@ -2587,8 +2247,7 @@ const data = {
                 "displayName-count-two": "vatu Vanuatu",
                 "displayName-count-few": "vatu Vanuatu",
                 "displayName-count-many": "vatu Vanuatu",
-                "displayName-count-other": "vatu Vanuatu",
-                symbol: "VUV"
+                "displayName-count-other": "vatu Vanuatu"
             },
             WST: {
                 displayName: "Tala Samoa",
@@ -2597,8 +2256,7 @@ const data = {
                 "displayName-count-two": "tala Samoa",
                 "displayName-count-few": "tala Samoa",
                 "displayName-count-many": "tala Samoa",
-                "displayName-count-other": "tala Samoa",
-                symbol: "WST"
+                "displayName-count-other": "tala Samoa"
             },
             XAF: {
                 displayName: "Ffranc CFA Canol Affrica",
@@ -2612,11 +2270,11 @@ const data = {
             },
             XAG: {
                 displayName: "Arian",
-                symbol: "XAG"
+                "displayName-count-other": "Arian"
             },
             XAU: {
                 displayName: "Aur",
-                symbol: "XAU"
+                "displayName-count-other": "Aur"
             },
             XBA: {
                 displayName: "Uned Cyfansawdd Ewropeaidd",
@@ -2625,8 +2283,7 @@ const data = {
                 "displayName-count-two": "uned cyfansawdd Ewropeaidd",
                 "displayName-count-few": "uned cyfansawdd Ewropeaidd",
                 "displayName-count-many": "uned cyfansawdd Ewropeaidd",
-                "displayName-count-other": "uned cyfansawdd Ewropeaidd",
-                symbol: "XBA"
+                "displayName-count-other": "uned cyfansawdd Ewropeaidd"
             },
             XBB: {
                 displayName: "Uned Ariannol Ewropeaidd",
@@ -2635,16 +2292,7 @@ const data = {
                 "displayName-count-two": "uned ariannol Ewropeaidd",
                 "displayName-count-few": "uned ariannol Ewropeaidd",
                 "displayName-count-many": "uned ariannol Ewropeaidd",
-                "displayName-count-other": "uned ariannol Ewropeaidd",
-                symbol: "XBB"
-            },
-            XBC: {
-                displayName: "XBC",
-                symbol: "XBC"
-            },
-            XBD: {
-                displayName: "XBD",
-                symbol: "XBD"
+                "displayName-count-other": "uned ariannol Ewropeaidd"
             },
             XCD: {
                 displayName: "Doler Dwyrain y Caribî",
@@ -2657,9 +2305,15 @@ const data = {
                 symbol: "EC$",
                 "symbol-alt-narrow": "$"
             },
-            XDR: {
-                displayName: "XDR",
-                symbol: "XDR"
+            XCG: {
+                displayName: "guilder Caribïaidd",
+                "displayName-count-zero": "guilder Caribïaidd",
+                "displayName-count-one": "guilder Caribïaidd",
+                "displayName-count-two": "guilder Caribïaidd",
+                "displayName-count-few": "guilder Caribïaidd",
+                "displayName-count-many": "guilder Caribïaidd",
+                "displayName-count-other": "guilder Caribïaidd",
+                symbol: "Cg."
             },
             XEU: {
                 displayName: "Uned Arian Cyfred Ewropeaidd",
@@ -2668,16 +2322,7 @@ const data = {
                 "displayName-count-two": "uned arian cyfred Ewropeaidd",
                 "displayName-count-few": "uned arian cyfred Ewropeaidd",
                 "displayName-count-many": "uned arian cyfred Ewropeaidd",
-                "displayName-count-other": "uned arian cyfred Ewropeaidd",
-                symbol: "XEU"
-            },
-            XFO: {
-                displayName: "XFO",
-                symbol: "XFO"
-            },
-            XFU: {
-                displayName: "XFU",
-                symbol: "XFU"
+                "displayName-count-other": "uned arian cyfred Ewropeaidd"
             },
             XOF: {
                 displayName: "Ffranc CFA Gorllewin Affrica",
@@ -2691,7 +2336,7 @@ const data = {
             },
             XPD: {
                 displayName: "Paladiwm",
-                symbol: "XPD"
+                "displayName-count-other": "Paladiwm"
             },
             XPF: {
                 displayName: "Ffranc CFP",
@@ -2705,11 +2350,7 @@ const data = {
             },
             XPT: {
                 displayName: "Platinwm",
-                symbol: "XPT"
-            },
-            XRE: {
-                displayName: "XRE",
-                symbol: "XRE"
+                "displayName-count-other": "Platinwm"
             },
             XSU: {
                 displayName: "Sucre",
@@ -2718,16 +2359,7 @@ const data = {
                 "displayName-count-two": "sucre",
                 "displayName-count-few": "sucre",
                 "displayName-count-many": "sucre",
-                "displayName-count-other": "sucre",
-                symbol: "XSU"
-            },
-            XTS: {
-                displayName: "XTS",
-                symbol: "XTS"
-            },
-            XUA: {
-                displayName: "XUA",
-                symbol: "XUA"
+                "displayName-count-other": "sucre"
             },
             XXX: {
                 displayName: "Arian Cyfred Anhysbys",
@@ -2746,8 +2378,7 @@ const data = {
                 "displayName-count-two": "dinar Yemen",
                 "displayName-count-few": "dinar Yemen",
                 "displayName-count-many": "dinar Yemen",
-                "displayName-count-other": "dinar Yemen",
-                symbol: "YDD"
+                "displayName-count-other": "dinar Yemen"
             },
             YER: {
                 displayName: "Rial Yemen",
@@ -2756,24 +2387,7 @@ const data = {
                 "displayName-count-two": "rial Yemen",
                 "displayName-count-few": "rial Yemen",
                 "displayName-count-many": "rial Yemen",
-                "displayName-count-other": "rial Yemen",
-                symbol: "YER"
-            },
-            YUD: {
-                displayName: "YUD",
-                symbol: "YUD"
-            },
-            YUM: {
-                displayName: "YUM",
-                symbol: "YUM"
-            },
-            YUN: {
-                displayName: "YUN",
-                symbol: "YUN"
-            },
-            YUR: {
-                displayName: "YUR",
-                symbol: "YUR"
+                "displayName-count-other": "rial Yemen"
             },
             ZAL: {
                 displayName: "Rand (ariannol) De Affrica",
@@ -2782,8 +2396,7 @@ const data = {
                 "displayName-count-two": "rand (ariannol) De Affrica",
                 "displayName-count-few": "rand (ariannol) De Affrica",
                 "displayName-count-many": "rand (ariannol) De Affrica",
-                "displayName-count-other": "rand (ariannol) De Affrica",
-                symbol: "ZAL"
+                "displayName-count-other": "rand (ariannol) De Affrica"
             },
             ZAR: {
                 displayName: "Rand De Affrica",
@@ -2793,7 +2406,6 @@ const data = {
                 "displayName-count-few": "rand De Affrica",
                 "displayName-count-many": "rand De Affrica",
                 "displayName-count-other": "rand De Affrica",
-                symbol: "ZAR",
                 "symbol-alt-narrow": "ZAR"
             },
             ZMK: {
@@ -2803,8 +2415,7 @@ const data = {
                 "displayName-count-two": "kwacha Zambia (1968–2012)",
                 "displayName-count-few": "kwacha Zambia (1968–2012)",
                 "displayName-count-many": "kwacha Zambia (1968–2012)",
-                "displayName-count-other": "kwacha Zambia (1968–2012)",
-                symbol: "ZMK"
+                "displayName-count-other": "kwacha Zambia (1968–2012)"
             },
             ZMW: {
                 displayName: "Kwacha Zambia",
@@ -2814,7 +2425,6 @@ const data = {
                 "displayName-count-few": "kwacha Zambia",
                 "displayName-count-many": "kwacha Zambia",
                 "displayName-count-other": "kwacha Zambia",
-                symbol: "ZMW",
                 "symbol-alt-narrow": "ZMW"
             },
             ZRN: {
@@ -2824,8 +2434,7 @@ const data = {
                 "displayName-count-two": "zaire newydd Zaire (1993 – 1998)",
                 "displayName-count-few": "zaire newydd Zaire (1993 – 1998)",
                 "displayName-count-many": "zaire newydd Zaire (1993 – 1998)",
-                "displayName-count-other": "zaire newydd Zaire (1993 – 1998)",
-                symbol: "ZRN"
+                "displayName-count-other": "zaire newydd Zaire (1993 – 1998)"
             },
             ZRZ: {
                 displayName: "Zaire Zaire (1971–1993)",
@@ -2834,8 +2443,7 @@ const data = {
                 "displayName-count-two": "zaire Zaire (1971 – 1993)",
                 "displayName-count-few": "zaire Zaire (1971 – 1993)",
                 "displayName-count-many": "zaire Zaire (1971 – 1993)",
-                "displayName-count-other": "zaire Zaire (1971 – 1993)",
-                symbol: "ZRZ"
+                "displayName-count-other": "zaire Zaire (1971 – 1993)"
             },
             ZWD: {
                 displayName: "Doler Zimbabwe (1980–2008)",
@@ -2844,8 +2452,16 @@ const data = {
                 "displayName-count-two": "ddoler Zimbabwe (1980–2008)",
                 "displayName-count-few": "doler Zimbabwe (1980–2008)",
                 "displayName-count-many": "doler Zimbabwe (1980–2008)",
-                "displayName-count-other": "doler Zimbabwe (1980–2008)",
-                symbol: "ZWD"
+                "displayName-count-other": "doler Zimbabwe (1980–2008)"
+            },
+            ZWG: {
+                displayName: "Zimbabwean Gold",
+                "displayName-count-zero": "Zimbabwean Gold",
+                "displayName-count-one": "Zimbabwean Gold",
+                "displayName-count-two": "Zimbabwean Gold",
+                "displayName-count-few": "Zimbabwean Gold",
+                "displayName-count-many": "Zimbabwean Gold",
+                "displayName-count-other": "Zimbabwean Gold"
             },
             ZWL: {
                 displayName: "Doler Zimbabwe (2009)",
@@ -2854,8 +2470,7 @@ const data = {
                 "displayName-count-two": "ddoler Zimbabwe (2009)",
                 "displayName-count-few": "doler Zimbabwe (2009)",
                 "displayName-count-many": "doler Zimbabwe (2009)",
-                "displayName-count-other": "doler Zimbabwe (2009)",
-                symbol: "ZWL"
+                "displayName-count-other": "doler Zimbabwe (2009)"
             },
             ZWR: {
                 displayName: "Doler Zimbabwe (2008)",
@@ -2864,8 +2479,7 @@ const data = {
                 "displayName-count-two": "ddoler Zimbabwe (2008)",
                 "displayName-count-few": "doler Zimbabwe (2008)",
                 "displayName-count-many": "doler Zimbabwe (2008)",
-                "displayName-count-other": "doler Zimbabwe (2008)",
-                symbol: "ZWR"
+                "displayName-count-other": "doler Zimbabwe (2008)"
             }
         },
         localeCurrency: "GBP"

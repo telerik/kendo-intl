@@ -10,12 +10,12 @@ const data = {
     calendar: {
         patterns: {
             d: "dd/MM/y",
-            D: "y MMMM d, EEEE",
+            D: "EEEE d MMMM y",
             m: "MMM d",
             M: "MMMM d",
             y: "MMM y",
             Y: "MMMM y",
-            F: "y MMMM d, EEEE h:mm:ss a",
+            F: "EEEE d MMMM y h:mm:ss a",
             g: "d/M/y h:mm a",
             G: "d/M/y h:mm:ss a",
             t: "h:mm a",
@@ -29,56 +29,62 @@ const data = {
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
-                Bh: "h B",
-                Bhm: "h:mm B",
-                Bhms: "h:mm:ss B",
+                Bh: "B h",
+                Bhm: "B h:mm",
+                Bhms: "B h:mm:ss",
                 d: "d",
                 E: "ccc",
-                EBhm: "E h:mm B",
-                EBhms: "E h:mm:ss B",
+                EBh: "E B h",
+                EBhm: "E B h:mm",
+                EBhms: "E B h:mm:ss",
                 Ed: "E d",
-                Ehm: "E h:mm a",
+                Eh: "E a h",
+                Ehm: "E a h:mm",
                 EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E a h:mm:ss",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
-                GyMd: "M/d/y GGGGG",
+                GyM: "M/y G",
+                GyMd: "d/M/y GGGGG",
+                GyMEd: "E d/M/y G",
                 GyMMM: "MMM y G",
-                GyMMMd: "G y MMM d",
-                GyMMMEd: "G y MMM d, E",
-                h: "h a",
+                GyMMMd: "MMM d y G",
+                GyMMMEd: "E MMM d y G",
+                h: "a h",
                 H: "H",
-                hm: "h:mm a",
+                hm: "a h:mm",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "a h:mm:ss",
                 Hms: "HH:mm:ss",
                 hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
                 hmv: "h:mm a v",
                 Hmv: "HH:mm v",
+                hv: "a h v",
+                Hv: "HH'h' v",
                 M: "L",
-                Md: "M/d",
-                MEd: "E፣ M/d",
+                Md: "d/M",
+                MEd: "E፣ d/M",
                 MMM: "LLL",
                 MMMd: "MMM d",
                 MMMEd: "E፣ MMM d",
                 MMMMd: "MMMM d",
                 MMMMEd: "E፣ MMMM d",
-                "MMMMW-count-one": "ሳምንት W የ MMMM",
-                "MMMMW-count-other": "ሳምንት W የ MMMM",
+                "MMMMW-count-one": "የMMMM Wኛ ሳምንት",
+                "MMMMW-count-other": "የMMMM Wኛ ሳምንት",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M/y",
                 yMd: "d/M/y",
                 yMEd: "E፣ d/M/y",
                 yMMM: "MMM y",
-                yMMMd: "d MMM y",
+                yMMMd: "MMM d y",
                 yMMMEd: "E፣ MMM d y",
                 yMMMM: "MMMM y",
-                yQQQ: "QQQ y",
-                yQQQQ: "QQQQ y",
-                "yw-count-one": "'week' w 'of' Y",
-                "yw-count-other": "'week' w 'of' Y"
+                yQQQ: "y QQQ",
+                yQQQQ: "y QQQQ",
+                "yw-count-one": "የY wኛ ሳምንት",
+                "yw-count-other": "የY wኛ ሳምንት"
             }
         },
         timeFormats: {
@@ -88,7 +94,7 @@ const data = {
             short: "h:mm a"
         },
         dateFormats: {
-            full: "y MMMM d, EEEE",
+            full: "EEEE d MMMM y",
             long: "d MMMM y",
             medium: "d MMM y",
             short: "dd/MM/y"
@@ -174,8 +180,8 @@ const data = {
         months: {
             format: {
                 abbreviated: [
-                    "ጃንዩ",
-                    "ፌብሩ",
+                    "ጃን",
+                    "ፌብ",
                     "ማርች",
                     "ኤፕሪ",
                     "ሜይ",
@@ -202,8 +208,8 @@ const data = {
                     "ዲ"
                 ],
                 wide: [
-                    "ጃንዩወሪ",
-                    "ፌብሩወሪ",
+                    "ጃንዋሪ",
+                    "ፌብሩዋሪ",
                     "ማርች",
                     "ኤፕሪል",
                     "ሜይ",
@@ -218,8 +224,8 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "ጃንዩ",
-                    "ፌብሩ",
+                    "ጃን",
+                    "ፌብ",
                     "ማርች",
                     "ኤፕሪ",
                     "ሜይ",
@@ -246,8 +252,8 @@ const data = {
                     "ዲ"
                 ],
                 wide: [
-                    "ጃንዩወሪ",
-                    "ፌብሩወሪ",
+                    "ጃንዋሪ",
+                    "ፌብሩዋሪ",
                     "ማርች",
                     "ኤፕሪል",
                     "ሜይ",
@@ -310,30 +316,30 @@ const data = {
                     am: "ጥዋት",
                     noon: "ቀትር",
                     pm: "ከሰዓት",
-                    morning1: "ጥዋት1",
-                    afternoon1: "ከሰዓት 7",
-                    evening1: "ማታ1",
-                    night1: "ሌሊት1"
+                    morning1: "ጥዋት",
+                    afternoon1: "ከሰዓት",
+                    evening1: "በምሽት",
+                    night1: "በሌሊት"
                 },
                 narrow: {
                     midnight: "እኩለ ሌሊት",
                     am: "ጠ",
                     noon: "ቀ",
                     pm: "ከ",
-                    morning1: "ጥዋት1",
-                    afternoon1: "ከሰዓት1",
-                    evening1: "ማታ1",
-                    night1: "ሌሊት1"
+                    morning1: "ጥዋት",
+                    afternoon1: "ከሰዓት",
+                    evening1: "በምሽት",
+                    night1: "በሌሊት"
                 },
                 wide: {
                     midnight: "እኩለ ሌሊት",
                     am: "ጥዋት",
                     noon: "ቀትር",
                     pm: "ከሰዓት",
-                    morning1: "ጥዋት1",
-                    afternoon1: "ከሰዓት 7 ሰዓት",
-                    evening1: "ማታ1",
-                    night1: "ሌሊት1"
+                    morning1: "ጥዋት",
+                    afternoon1: "ከሰዓት",
+                    evening1: "በምሽት",
+                    night1: "በሌሊት"
                 }
             },
             "stand-alone": {
@@ -342,9 +348,9 @@ const data = {
                     am: "ጥዋት",
                     noon: "ቀትር",
                     pm: "ከሰዓት",
-                    morning1: "ጥዋት1",
-                    afternoon1: "ከሰዓት በኋላ",
-                    evening1: "ማታ",
+                    morning1: "ጥዋት",
+                    afternoon1: "ከሰዓት",
+                    evening1: "ምሽት",
                     night1: "ሌሊት"
                 },
                 narrow: {
@@ -353,8 +359,8 @@ const data = {
                     noon: "ቀትር",
                     pm: "ከ",
                     morning1: "ጥዋት",
-                    afternoon1: "ከሰዓት በኋላ",
-                    evening1: "ማታ",
+                    afternoon1: "ከሰዓት",
+                    evening1: "ምሽት",
                     night1: "ሌሊት"
                 },
                 wide: {
@@ -362,9 +368,9 @@ const data = {
                     am: "ጥዋት",
                     noon: "ቀትር",
                     pm: "ከሰዓት",
-                    morning1: "ጥዋት1",
-                    afternoon1: "ከሰዓት በኋላ",
-                    evening1: "ማታ",
+                    morning1: "ጥዋት",
+                    afternoon1: "ከሰዓት",
+                    evening1: "ምሽት",
                     night1: "ሌሊት"
                 }
             }
@@ -381,13 +387,13 @@ const data = {
                     "0": "ዓ/ዓ",
                     "1": "ዓ/ም",
                     "0-alt-variant": "ዓ/ዓ",
-                    "1-alt-variant": "CE"
+                    "1-alt-variant": "ዓ/ም"
                 },
                 narrow: {
                     "0": "ዓ/ዓ",
                     "1": "ዓ/ም",
                     "0-alt-variant": "ዓ/ዓ",
-                    "1-alt-variant": "CE"
+                    "1-alt-variant": "ዓ/ም"
                 }
             }
         },

@@ -24,8 +24,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} को {0}",
-            long: "{1} को {0}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
@@ -34,19 +34,23 @@ const data = {
                 Bhms: "B h:mm:ss",
                 d: "d",
                 E: "ccc",
+                EBh: "E h B",
                 EBhm: "E B h:mm",
                 EBhms: "E B h:mm:ss",
                 Ed: "E d",
+                Eh: "E h a",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyM: "G y-MM",
                 GyMd: "GGGGG d/M/y",
+                GyMEd: "G y-MM-dd, E",
                 GyMMM: "MMM G y",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E, d MMM y G",
-                h: "h a",
+                h: "h a",
                 H: "HH",
                 hm: "h:mm a",
                 Hm: "HH:mm",
@@ -56,6 +60,8 @@ const data = {
                 Hmsv: "HH:mm:ss v",
                 hmv: "h:mm a v",
                 Hmv: "HH:mm v",
+                hv: "h a v",
+                Hv: "HH'h' v",
                 M: "L",
                 Md: "d/M",
                 MEd: "E, d/M",
@@ -186,7 +192,7 @@ const data = {
                     "जुल॰",
                     "अग॰",
                     "सित॰",
-                    "अक्तू॰",
+                    "अक्टू॰",
                     "नव॰",
                     "दिस॰"
                 ],
@@ -214,7 +220,7 @@ const data = {
                     "जुलाई",
                     "अगस्त",
                     "सितंबर",
-                    "अक्तूबर",
+                    "अक्टूबर",
                     "नवंबर",
                     "दिसंबर"
                 ]
@@ -230,7 +236,7 @@ const data = {
                     "जुल॰",
                     "अग॰",
                     "सित॰",
-                    "अक्तू॰",
+                    "अक्टू॰",
                     "नव॰",
                     "दिस॰"
                 ],
@@ -258,7 +264,7 @@ const data = {
                     "जुलाई",
                     "अगस्त",
                     "सितंबर",
-                    "अक्तूबर",
+                    "अक्टूबर",
                     "नवंबर",
                     "दिसंबर"
                 ]

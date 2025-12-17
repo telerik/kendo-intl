@@ -35,19 +35,23 @@ const data = {
                 Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBh: "E h B",
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "d E",
+                Eh: "E h a",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
-                GyMd: "M/d/y GGGGG",
+                GyM: "M/y G",
+                GyMd: "M/d/y G",
+                GyMEd: "E, M/d/y G",
                 GyMMM: "G y MMM",
                 GyMMMd: "G y MMM d",
                 GyMMMEd: "G y MMM d, E",
-                h: "h a",
+                h: "h a",
                 H: "HH",
                 hm: "h:mm a",
                 Hm: "HH:mm",
@@ -57,6 +61,8 @@ const data = {
                 Hmsv: "HH:mm:ss v",
                 hmv: "h:mm a v",
                 Hmv: "HH:mm v",
+                hv: "h a v",
+                Hv: "HH'h' v",
                 M: "L",
                 Md: "MM-dd",
                 MEd: "MM-dd, E",
@@ -264,10 +270,10 @@ const data = {
         quarters: {
             format: {
                 abbreviated: [
-                    "पहिलो सत्र",
-                    "दोस्रो सत्र",
-                    "तेस्रो सत्र",
-                    "चौथो सत्र"
+                    "पहिलो त्रैमासिक",
+                    "दोस्रो त्रैमासिक",
+                    "तेस्रो त्रैमासिक",
+                    "चौथो त्रैमासिक"
                 ],
                 narrow: [
                     "१",
@@ -276,18 +282,18 @@ const data = {
                     "४"
                 ],
                 wide: [
-                    "पहिलो सत्र",
-                    "दोस्रो सत्र",
-                    "तेस्रो सत्र",
-                    "चौथो सत्र"
+                    "पहिलो त्रैमासिक",
+                    "दोस्रो त्रैमासिक",
+                    "तेस्रो त्रैमासिक",
+                    "चौथो त्रैमासिक"
                 ]
             },
             "stand-alone": {
                 abbreviated: [
-                    "पहिलो सत्र",
-                    "दोस्रो सत्र",
-                    "तेस्रो सत्र",
-                    "चौथो सत्र"
+                    "पहिलो त्रैमासिक",
+                    "दोस्रो त्रैमासिक",
+                    "तेस्रो त्रैमासिक",
+                    "चौथो त्रैमासिक"
                 ],
                 narrow: [
                     "१",
@@ -296,10 +302,10 @@ const data = {
                     "४"
                 ],
                 wide: [
-                    "पहिलो सत्र",
-                    "दोस्रो सत्र",
-                    "तेस्रो सत्र",
-                    "चौथो सत्र"
+                    "प्रथम त्रैमासिक",
+                    "द्वितीय त्रैमासिक",
+                    "तृतीय त्रैमासिक",
+                    "चतुर्थ त्रैमासिक"
                 ]
             }
         },
@@ -380,19 +386,19 @@ const data = {
                 wide: {
                     "0": "ईसा पूर्व",
                     "1": "सन्",
-                    "0-alt-variant": "इस्वीपूर्व",
+                    "0-alt-variant": "ईसा पूर्व",
                     "1-alt-variant": "ईसा काल"
                 },
                 abbreviated: {
                     "0": "ईसा पूर्व",
                     "1": "सन्",
-                    "0-alt-variant": "इस्वीपूर्व",
+                    "0-alt-variant": "ईसा पूर्व",
                     "1-alt-variant": "ईसा काल"
                 },
                 narrow: {
                     "0": "ईसा पूर्व",
                     "1": "सन्",
-                    "0-alt-variant": "इस्वीपूर्व",
+                    "0-alt-variant": "ईसा पूर्व",
                     "1-alt-variant": "ईसा काल"
                 }
             }
@@ -411,9 +417,9 @@ const data = {
                 narrow: "वर्ष"
             },
             quarter: {
-                wide: "सत्र",
-                short: "सत्र",
-                narrow: "सत्र"
+                wide: "त्रैमासिक",
+                short: "त्रैमासिक",
+                narrow: "त्रैमासिक"
             },
             month: {
                 wide: "महिना",

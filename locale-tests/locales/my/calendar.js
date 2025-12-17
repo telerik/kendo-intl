@@ -9,15 +9,15 @@ const data = {
     territory: "MM",
     calendar: {
         patterns: {
-            d: "dd-MM-y",
-            D: "y- MMMM d- EEEE",
-            m: "d MMM",
+            d: "d/M/y",
+            D: "y MMMM d EEEE",
+            m: "MMM d",
             M: "MMMM d",
-            y: "MMM y",
+            y: "y MMM",
             Y: "y MMMM",
-            F: "y- MMMM d- EEEE H:mm:ss",
-            g: "dd-MM-y H:mm",
-            G: "dd-MM-y H:mm:ss",
+            F: "y MMMM d EEEE H:mm:ss",
+            g: "d/M/y H:mm",
+            G: "d/M/y H:mm:ss",
             t: "H:mm",
             T: "H:mm:ss",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
@@ -33,46 +33,52 @@ const data = {
                 Bhm: "B h:mm",
                 Bhms: "B h:mm:ss",
                 d: "d",
-                E: "cccနေ့",
+                E: "ccc",
+                EBh: "E B h",
                 EBhm: "E B h:mm",
                 EBhms: "E B h:mm:ss",
-                Ed: "d ရက် Eနေ့",
-                Ehm: "E B h:mm",
+                Ed: "d ရက် E",
+                Eh: "E a h",
+                Ehm: "E a h:mm",
                 EHm: "E HH:mm",
-                Ehms: "E B h:mm:ss",
+                Ehms: "E a h:mm:ss",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
-                GyMd: "GGGGG y-MM-dd",
+                GyM: "G y-MM",
+                GyMd: "G y/M/d",
+                GyMEd: "G y-MM-dd၊ E",
                 GyMMM: "G y MMM",
-                GyMMMd: "G y- MMM d",
-                GyMMMEd: "G y- MMM d- E",
-                h: "B h",
+                GyMMMd: "G y MMM d",
+                GyMMMEd: "G y MMM d၊ E",
+                h: "a h",
                 H: "HH",
-                hm: "B h:mm",
+                hm: "a h:mm",
                 Hm: "HH:mm",
-                hms: "B h:mm:ss",
+                hms: "a h:mm:ss",
                 Hms: "HH:mm:ss",
                 hmsv: "v a h:mm:ss",
                 Hmsv: "v HH:mm:ss",
                 hmv: "v a h:mm",
                 Hmv: "v HH:mm",
+                hv: "v a h",
+                Hv: "v HH",
                 M: "L",
                 Md: "d/M",
-                MEd: "d-M- E",
+                MEd: "d/M E",
                 MMM: "LLL",
-                MMMd: "d MMM",
-                MMMEd: "MMM d- E",
+                MMMd: "MMM d",
+                MMMEd: "MMM d E",
                 MMMMd: "MMMM d",
-                MMMMEd: "MMMM d ရက် Eနေ့",
+                MMMMEd: "MMMM d E",
                 "MMMMW-count-other": "MMMM လ W ပတ်မြောက်",
                 ms: "mm:ss",
                 y: "y",
-                yM: "M/y",
-                yMd: "dd-MM-y",
-                yMEd: "d/M/y- E",
-                yMMM: "MMM y",
-                yMMMd: "y- MMM d",
-                yMMMEd: "y- MMM d- E",
+                yM: "y-MM",
+                yMd: "d/M/y",
+                yMEd: "d/M/y E",
+                yMMM: "y MMM",
+                yMMMd: "y MMM d",
+                yMMMEd: "y MMM d E",
                 yMMMM: "y MMMM",
                 yQQQ: "y QQQ",
                 yQQQQ: "y QQQQ",
@@ -86,10 +92,10 @@ const data = {
             short: "H:mm"
         },
         dateFormats: {
-            full: "y- MMMM d- EEEE",
-            long: "y- MMMM d",
-            medium: "y- MMM d",
-            short: "dd-MM-yy"
+            full: "y MMMM d EEEE",
+            long: "y MMMM d",
+            medium: "y MMM d",
+            short: "d/M/yy"
         },
         days: {
             format: {
@@ -112,13 +118,13 @@ const data = {
                     "စ"
                 ],
                 short: [
-                    "တနင်္ဂနွေ",
-                    "တနင်္လာ",
-                    "အင်္ဂါ",
-                    "ဗုဒ္ဓဟူး",
-                    "ကြာသပတေး",
-                    "သောကြာ",
-                    "စနေ"
+                    "နွေ",
+                    "လာ",
+                    "ဂါ",
+                    "ဟူး",
+                    "တေး",
+                    "ကြာ",
+                    "နေ"
                 ],
                 wide: [
                     "တနင်္ဂနွေ",
@@ -150,13 +156,13 @@ const data = {
                     "စ"
                 ],
                 short: [
-                    "တနင်္ဂနွေ",
-                    "တနင်္လာ",
-                    "အင်္ဂါ",
-                    "ဗုဒ္ဓဟူး",
-                    "ကြာသပတေး",
-                    "သောကြာ",
-                    "စနေ"
+                    "နွေ",
+                    "လာ",
+                    "ဂါ",
+                    "ဟူး",
+                    "တေး",
+                    "ကြာ",
+                    "နေ"
                 ],
                 wide: [
                     "တနင်္ဂနွေ",
@@ -262,10 +268,10 @@ const data = {
         quarters: {
             format: {
                 abbreviated: [
-                    "ပထမ သုံးလပတ်",
-                    "ဒုတိယ သုံးလပတ်",
-                    "တတိယ သုံးလပတ်",
-                    "စတုတ္ထ သုံးလပတ်"
+                    "Q1",
+                    "Q2",
+                    "Q3",
+                    "Q4"
                 ],
                 narrow: [
                     "ပ",
@@ -282,10 +288,10 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "ပထမ သုံးလပတ်",
-                    "ဒုတိယ သုံးလပတ်",
-                    "တတိယ သုံးလပတ်",
-                    "စတုတ္ထ သုံးလပတ်"
+                    "Q1",
+                    "Q2",
+                    "Q3",
+                    "Q4"
                 ],
                 narrow: [
                     "ပ",

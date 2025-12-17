@@ -10,12 +10,12 @@ const data = {
     calendar: {
         patterns: {
             d: "dd.MM.y",
-            D: "EEEE, d MMMM y 'р'.",
+            D: "EEEE, d MMMM y 'р'.",
             m: "d MMM",
             M: "d MMMM",
-            y: "LLL y 'р'.",
-            Y: "LLLL y 'р'.",
-            F: "EEEE, d MMMM y 'р'. HH:mm:ss",
+            y: "LLL y 'р'.",
+            Y: "LLLL y 'р'.",
+            F: "EEEE, d MMMM y 'р'. HH:mm:ss",
             g: "dd.MM.y HH:mm",
             G: "dd.MM.y HH:mm:ss",
             t: "HH:mm",
@@ -24,8 +24,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} 'о' {0}",
-            long: "{1} 'о' {0}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
@@ -34,28 +34,34 @@ const data = {
                 Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBh: "E h B",
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "E, d",
-                Ehm: "E h:mm a",
+                Eh: "E h a",
+                Ehm: "E h:mm a",
                 EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyM: "MM y G",
                 GyMd: "dd-MM-y GGGGG",
-                GyMMM: "LLL y 'р'. G",
-                GyMMMd: "d MMM y 'р'. G",
-                GyMMMEd: "E, d MMM y 'р'. G",
-                h: "h a",
-                H: "HH",
-                hm: "h:mm a",
+                GyMEd: "dd-MM-y, E, G",
+                GyMMM: "LLL y 'р'. G",
+                GyMMMd: "d MMM y 'р'. G",
+                GyMMMEd: "E, d MMM y 'р'. G",
+                h: "h a",
+                H: "H",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
+                hv: "h a v",
+                Hv: "HH 'год' v",
                 M: "LL",
                 Md: "dd.MM",
                 MEd: "E, dd.MM",
@@ -73,12 +79,12 @@ const data = {
                 yM: "MM.y",
                 yMd: "dd.MM.y",
                 yMEd: "E, dd.MM.y",
-                yMMM: "LLL y 'р'.",
-                yMMMd: "d MMM y 'р'.",
-                yMMMEd: "E, d MMM y 'р'.",
-                yMMMM: "LLLL y 'р'.",
+                yMMM: "LLL y 'р'.",
+                yMMMd: "d MMM y 'р'.",
+                yMMMEd: "E, d MMM y 'р'.",
+                yMMMM: "LLLL y 'р'.",
                 yQQQ: "QQQ y",
-                yQQQQ: "QQQQ y 'р'.",
+                yQQQQ: "QQQQ y 'р'.",
                 "yw-count-one": "w-'й' 'тиж'. Y 'р'.",
                 "yw-count-few": "w-'й' 'тиж'. Y 'р'.",
                 "yw-count-many": "w-'й' 'тиж'. Y 'р'.",
@@ -92,9 +98,9 @@ const data = {
             short: "HH:mm"
         },
         dateFormats: {
-            full: "EEEE, d MMMM y 'р'.",
-            long: "d MMMM y 'р'.",
-            medium: "d MMM y 'р'.",
+            full: "EEEE, d MMMM y 'р'.",
+            long: "d MMMM y 'р'.",
+            medium: "d MMM y 'р'.",
             short: "dd.MM.yy"
         },
         days: {
@@ -222,18 +228,18 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "січ",
-                    "лют",
-                    "бер",
-                    "кві",
-                    "тра",
-                    "чер",
-                    "лип",
-                    "сер",
-                    "вер",
-                    "жов",
-                    "лис",
-                    "гру"
+                    "січ.",
+                    "лют.",
+                    "бер.",
+                    "квіт.",
+                    "трав.",
+                    "черв.",
+                    "лип.",
+                    "серп.",
+                    "вер.",
+                    "жовт.",
+                    "лист.",
+                    "груд."
                 ],
                 narrow: [
                     "С",
@@ -310,9 +316,9 @@ const data = {
         dayPeriods: {
             format: {
                 abbreviated: {
-                    midnight: "опівночі",
+                    midnight: "ночі",
                     am: "дп",
-                    noon: "пополудні",
+                    noon: "дня",
                     pm: "пп",
                     morning1: "ранку",
                     afternoon1: "дня",
@@ -320,9 +326,9 @@ const data = {
                     night1: "ночі"
                 },
                 narrow: {
-                    midnight: "північ",
+                    midnight: "ночі",
                     am: "дп",
-                    noon: "п",
+                    noon: "дня",
                     pm: "пп",
                     morning1: "ранку",
                     afternoon1: "дня",
@@ -330,9 +336,9 @@ const data = {
                     night1: "ночі"
                 },
                 wide: {
-                    midnight: "опівночі",
+                    midnight: "ночі",
                     am: "дп",
-                    noon: "пополудні",
+                    noon: "дня",
                     pm: "пп",
                     morning1: "ранку",
                     afternoon1: "дня",
@@ -436,17 +442,17 @@ const data = {
             dayOfYear: {
                 wide: "день року",
                 short: "д. року",
-                narrow: "день року"
+                narrow: "д. р."
             },
             weekday: {
                 wide: "день тижня",
                 short: "д. тижня",
-                narrow: "д тижня"
+                narrow: "д. тиж."
             },
             weekdayOfMonth: {
                 wide: "день місяця",
                 short: "д. місяця",
-                narrow: "д місяця"
+                narrow: "д. міс."
             },
             dayperiod: {
                 short: "дп/пп",

@@ -10,7 +10,7 @@ const data = {
     territory: "AX",
     calendar: {
         patterns: {
-            d: "y-MM-dd",
+            d: "d.M.y",
             D: "EEEE d MMMM y",
             m: "d MMM",
             M: "d MMMM",
@@ -35,28 +35,34 @@ const data = {
                 Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBh: "E h B",
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "E d",
-                Ehm: "E h:mm a",
+                Eh: "E h a",
+                Ehm: "E h:mm a",
                 EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
-                GyMd: "y-MM-dd GGGGG",
+                GyM: "y-MM G",
+                GyMd: "d.M.y GGGGG",
+                GyMEd: "E M-d-y G",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E d MMM y G",
-                h: "h a",
+                h: "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
+                hv: "h a v",
+                Hv: "HH'h' v",
                 M: "L",
                 Md: "d/M",
                 MEd: "E d/M",
@@ -98,8 +104,8 @@ const data = {
         dateFormats: {
             full: "EEEE d MMMM y",
             long: "d MMMM y",
-            medium: "d MMM y",
-            short: "y-MM-dd"
+            medium: "d.M.y",
+            short: "d.M.y"
         },
         days: {
             format: {
@@ -347,8 +353,8 @@ const data = {
             "stand-alone": {
                 abbreviated: {
                     midnight: "midnatt",
-                    am: "f.m.",
-                    pm: "e.m.",
+                    am: "fm",
+                    pm: "em",
                     morning1: "morgon",
                     morning2: "förm.",
                     afternoon1: "efterm.",
@@ -367,8 +373,8 @@ const data = {
                 },
                 wide: {
                     midnight: "midnatt",
-                    am: "förmiddag",
-                    pm: "eftermiddag",
+                    am: "fm",
+                    pm: "em",
                     morning1: "morgon",
                     morning2: "förmiddag",
                     afternoon1: "eftermiddag",
@@ -419,38 +425,38 @@ const data = {
             },
             month: {
                 wide: "månad",
-                short: "m",
-                narrow: "mån"
+                short: "mån",
+                narrow: "m"
             },
             week: {
                 wide: "vecka",
-                short: "v",
+                short: "v.",
                 narrow: "v"
             },
             weekOfMonth: {
                 wide: "vecka i månaden",
-                short: "vk. i mån.",
-                narrow: "vk.i mån."
+                short: "v. i mån.",
+                narrow: "v i mån"
             },
             day: {
                 wide: "dag",
-                short: "dag",
-                narrow: "dag"
+                short: "d.",
+                narrow: "d"
             },
             dayOfYear: {
                 wide: "dag under året",
-                short: "dag under året",
-                narrow: "dag under året"
+                short: "d. under å.",
+                narrow: "d u å"
             },
             weekday: {
                 wide: "veckodag",
-                short: "veckodag",
-                narrow: "veckodag"
+                short: "veckod.",
+                narrow: "vd"
             },
             weekdayOfMonth: {
                 wide: "veckodag i månad",
                 short: "veckodag i mån.",
-                narrow: "veckodag i mån."
+                narrow: "vd i m"
             },
             dayperiod: {
                 short: "fm/em",

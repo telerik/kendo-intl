@@ -11,352 +11,234 @@ const data = {
         currencies: {
             ADP: {
                 displayName: "ანდორული პესეტა",
-                symbol: "ADP"
+                "displayName-count-other": "ანდორული პესეტა"
             },
             AED: {
                 displayName: "არაბთა გაერთიანებული საამიროების დირჰამი",
-                "displayName-count-one": "არაბთა გაერთიანებული საამიროების დირჰამი",
-                "displayName-count-other": "არაბთა გაერთიანებული საამიროების დირჰამი",
-                symbol: "AED"
+                "displayName-count-other": "არაბთა გაერთიანებული საამიროების დირჰამი"
             },
             AFA: {
                 displayName: "ავღანი (1927–2002)",
-                symbol: "AFA"
+                "displayName-count-other": "ავღანი (1927–2002)"
             },
             AFN: {
                 displayName: "ავღანური ავღანი",
-                "displayName-count-one": "ავღანური ავღანი",
                 "displayName-count-other": "ავღანური ავღანი",
-                symbol: "AFN",
                 "symbol-alt-narrow": "؋"
-            },
-            ALK: {
-                displayName: "ALK",
-                symbol: "ALK"
             },
             ALL: {
                 displayName: "ალბანური ლეკი",
-                "displayName-count-one": "ალბანური ლეკი",
-                "displayName-count-other": "ალბანური ლეკი",
-                symbol: "ALL"
+                "displayName-count-other": "ალბანური ლეკი"
             },
             AMD: {
                 displayName: "სომხური დრამი",
-                "displayName-count-one": "სომხური დრამი",
                 "displayName-count-other": "სომხური დრამი",
-                symbol: "AMD",
                 "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "ნიდერლანდების ანტილების გულდენი",
                 "displayName-count-one": "ნიდრელანდების ანტილიის გულდენი",
-                "displayName-count-other": "ნიდრელანდების ანტილიის გულდენი",
-                symbol: "ANG"
+                "displayName-count-other": "ნიდრელანდების ანტილიის გულდენი"
             },
             AOA: {
                 displayName: "ანგოლური კვანზა",
-                "displayName-count-one": "ანგოლური კვანზა",
                 "displayName-count-other": "ანგოლური კვანზა",
-                symbol: "AOA",
                 "symbol-alt-narrow": "Kz"
             },
             AOK: {
                 displayName: "ანგოლური კვანზა (1977–1990)",
-                symbol: "AOK"
+                "displayName-count-other": "ანგოლური კვანზა (1977–1990)"
             },
             AON: {
                 displayName: "ანგოლური ახალი კვანზა (1990–2000)",
-                symbol: "AON"
+                "displayName-count-other": "ანგოლური ახალი კვანზა (1990–2000)"
             },
             AOR: {
                 displayName: "ანგოლური მიტოლებული კვანზა (1995–1999)",
-                symbol: "AOR"
+                "displayName-count-other": "ანგოლური მიტოლებული კვანზა (1995–1999)"
             },
             ARA: {
                 displayName: "არგენტინული აუსტრალი",
-                symbol: "ARA"
-            },
-            ARL: {
-                displayName: "ARL",
-                symbol: "ARL"
-            },
-            ARM: {
-                displayName: "ARM",
-                symbol: "ARM"
+                "displayName-count-other": "არგენტინული აუსტრალი"
             },
             ARP: {
                 displayName: "არგენტინული პესო (1983–1985)",
-                symbol: "ARP"
+                "displayName-count-other": "არგენტინული პესო (1983–1985)"
             },
             ARS: {
                 displayName: "არგენტინული პესო",
-                "displayName-count-one": "არგენტინული პესო",
                 "displayName-count-other": "არგენტინული პესო",
-                symbol: "ARS",
                 "symbol-alt-narrow": "$"
             },
             ATS: {
                 displayName: "ავსტრიული შილინგი",
-                symbol: "ATS"
+                "displayName-count-other": "ავსტრიული შილინგი"
             },
             AUD: {
                 displayName: "ავსტრალიური დოლარი",
-                "displayName-count-one": "ავსტრალიური დოლარი",
                 "displayName-count-other": "ავსტრალიური დოლარი",
                 symbol: "AUD",
                 "symbol-alt-narrow": "$"
             },
             AWG: {
                 displayName: "არუბანული გულდენი",
-                "displayName-count-one": "არუბანული გულდენი",
-                "displayName-count-other": "არუბანული გულდენი",
-                symbol: "AWG"
+                "displayName-count-other": "არუბანული გულდენი"
             },
             AZM: {
                 displayName: "აზერბაიჯანული მანათი (1993–2006)",
-                symbol: "AZM"
+                "displayName-count-other": "აზერბაიჯანული მანათი (1993–2006)"
             },
             AZN: {
                 displayName: "აზერბაიჯანული მანათი",
-                "displayName-count-one": "აზერბაიჯანული მანათი",
                 "displayName-count-other": "აზერბაიჯანული მანათი",
-                symbol: "AZN",
                 "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "ბოსნია-ჰერცოგოვინას დინარი",
-                symbol: "BAD"
+                "displayName-count-other": "ბოსნია-ჰერცოგოვინას დინარი"
             },
             BAM: {
                 displayName: "ბოსნია და ჰერცოგოვინას კონვერტირებადი მარკა",
-                "displayName-count-one": "ბოსნია და ჰერცოგოვინას კონვერტირებადი მარკა",
                 "displayName-count-other": "ბოსნია და ჰერცოგოვინას კონვერტირებადი მარკა",
-                symbol: "BAM",
                 "symbol-alt-narrow": "KM"
-            },
-            BAN: {
-                displayName: "BAN",
-                symbol: "BAN"
             },
             BBD: {
                 displayName: "ბარბადოსული დოლარი",
-                "displayName-count-one": "ბარბადოსული დოლარი",
                 "displayName-count-other": "ბარბადოსული დოლარი",
-                symbol: "BBD",
                 "symbol-alt-narrow": "$"
             },
             BDT: {
                 displayName: "ბანგლადეშური ტაკა",
-                "displayName-count-one": "ბანგლადეშური ტაკა",
                 "displayName-count-other": "ბანგლადეშური ტაკა",
-                symbol: "BDT",
                 "symbol-alt-narrow": "৳"
             },
             BEC: {
                 displayName: "ბელგიური ფრანკი (კოვერტირებადი)",
-                symbol: "BEC"
+                "displayName-count-other": "ბელგიური ფრანკი (კოვერტირებადი)"
             },
             BEF: {
                 displayName: "ბელგიური ფრანკი",
-                symbol: "BEF"
+                "displayName-count-other": "ბელგიური ფრანკი"
             },
             BEL: {
                 displayName: "ბელგიური ფრანკი (ფინანსური)",
-                symbol: "BEL"
+                "displayName-count-other": "ბელგიური ფრანკი (ფინანსური)"
             },
             BGL: {
                 displayName: "ბულგარული მყარი ლევი",
-                symbol: "BGL"
-            },
-            BGM: {
-                displayName: "BGM",
-                symbol: "BGM"
+                "displayName-count-other": "ბულგარული მყარი ლევი"
             },
             BGN: {
                 displayName: "ბულგარული ლევი",
-                "displayName-count-one": "ბულგარული ლევი",
-                "displayName-count-other": "ბულგარული ლევი",
-                symbol: "BGN"
-            },
-            BGO: {
-                displayName: "BGO",
-                symbol: "BGO"
+                "displayName-count-other": "ბულგარული ლევი"
             },
             BHD: {
                 displayName: "ბაჰრეინული დინარი",
-                "displayName-count-one": "ბაჰრეინული დინარი",
-                "displayName-count-other": "ბაჰრეინული დინარი",
-                symbol: "BHD"
+                "displayName-count-other": "ბაჰრეინული დინარი"
             },
             BIF: {
                 displayName: "ბურუნდიული ფრანკი",
-                "displayName-count-one": "ბურუნდიული ფრანკი",
-                "displayName-count-other": "ბურუნდიული ფრანკი",
-                symbol: "BIF"
+                "displayName-count-other": "ბურუნდიული ფრანკი"
             },
             BMD: {
                 displayName: "ბერმუდული დოლარი",
-                "displayName-count-one": "ბერმუდული დოლარი",
                 "displayName-count-other": "ბერმუდული დოლარი",
-                symbol: "BMD",
                 "symbol-alt-narrow": "$"
             },
             BND: {
                 displayName: "ბრუნეული დოლარი",
-                "displayName-count-one": "ბრუნეული დოლარი",
                 "displayName-count-other": "ბრუნეული დოლარი",
-                symbol: "BND",
                 "symbol-alt-narrow": "$"
             },
             BOB: {
                 displayName: "ბოლივიური ბოლივიანო",
-                "displayName-count-one": "ბოლივიური ბოლივიანო",
                 "displayName-count-other": "ბოლივიური ბოლივიანო",
-                symbol: "BOB",
                 "symbol-alt-narrow": "Bs"
-            },
-            BOL: {
-                displayName: "BOL",
-                symbol: "BOL"
             },
             BOP: {
                 displayName: "ბოლივიური პესო",
-                symbol: "BOP"
-            },
-            BOV: {
-                displayName: "BOV",
-                symbol: "BOV"
+                "displayName-count-other": "ბოლივიური პესო"
             },
             BRB: {
                 displayName: "ბრაზილიური კრუზეირო ნოვო (1967–1986)",
-                symbol: "BRB"
+                "displayName-count-other": "ბრაზილიური კრუზეირო ნოვო (1967–1986)"
             },
             BRC: {
                 displayName: "ბრაზილიური კრუზადო",
-                symbol: "BRC"
+                "displayName-count-other": "ბრაზილიური კრუზადო"
             },
             BRE: {
                 displayName: "ბრაზილიური კრუზეირო (1990–1993)",
-                symbol: "BRE"
+                "displayName-count-other": "ბრაზილიური კრუზეირო (1990–1993)"
             },
             BRL: {
                 displayName: "ბრაზილიური რეალი",
-                "displayName-count-one": "ბრაზილიური რეალი",
                 "displayName-count-other": "ბრაზილიური რეალი",
                 symbol: "R$",
                 "symbol-alt-narrow": "R$"
             },
             BRN: {
                 displayName: "ბრაზილიური კრუზადო ნოვო",
-                symbol: "BRN"
+                "displayName-count-other": "ბრაზილიური კრუზადო ნოვო"
             },
             BRR: {
                 displayName: "ბრაზილიური კრუზეირო",
-                symbol: "BRR"
-            },
-            BRZ: {
-                displayName: "BRZ",
-                symbol: "BRZ"
+                "displayName-count-other": "ბრაზილიური კრუზეირო"
             },
             BSD: {
                 displayName: "ბაჰამური დოლარი",
-                "displayName-count-one": "ბაჰამური დოლარი",
                 "displayName-count-other": "ბაჰამური დოლარი",
-                symbol: "BSD",
                 "symbol-alt-narrow": "$"
             },
             BTN: {
                 displayName: "ბუტანური ნგულტრუმი",
-                "displayName-count-one": "ბუტანური ნგულტრუმი",
-                "displayName-count-other": "ბუტანური ნგულტრუმი",
-                symbol: "BTN"
-            },
-            BUK: {
-                displayName: "BUK",
-                symbol: "BUK"
+                "displayName-count-other": "ბუტანური ნგულტრუმი"
             },
             BWP: {
                 displayName: "ბოცვანური პულა",
-                "displayName-count-one": "ბოცვანური პულა",
                 "displayName-count-other": "ბოცვანური პულა",
-                symbol: "BWP",
                 "symbol-alt-narrow": "P"
             },
             BYB: {
                 displayName: "ახალი ბელარუსიული რუბლი (1994–1999)",
-                symbol: "BYB"
+                "displayName-count-other": "ახალი ბელარუსიული რუბლი (1994–1999)"
             },
             BYN: {
                 displayName: "ბელორუსული რუბლი",
-                "displayName-count-one": "ბელორუსული რუბლი",
                 "displayName-count-other": "ბელორუსული რუბლი",
-                symbol: "BYN",
                 "symbol-alt-narrow": "р."
             },
             BYR: {
                 displayName: "ბელორუსული რუბლი (2000–2016)",
-                "displayName-count-one": "ბელორუსული რუბლი (2000–2016)",
-                "displayName-count-other": "ბელორუსული რუბლი (2000–2016)",
-                symbol: "BYR"
+                "displayName-count-other": "ბელორუსული რუბლი (2000–2016)"
             },
             BZD: {
                 displayName: "ბელიზის დოლარი",
-                "displayName-count-one": "ბელიზის დოლარი",
                 "displayName-count-other": "ბელიზის დოლარი",
-                symbol: "BZD",
                 "symbol-alt-narrow": "$"
             },
             CAD: {
                 displayName: "კანადური დოლარი",
-                "displayName-count-one": "კანადური დოლარი",
                 "displayName-count-other": "კანადური დოლარი",
                 symbol: "CA$",
                 "symbol-alt-narrow": "$"
             },
             CDF: {
                 displayName: "კონგოს ფრანკი",
-                "displayName-count-one": "კონგოს ფრანკი",
-                "displayName-count-other": "კონგოს ფრანკი",
-                symbol: "CDF"
-            },
-            CHE: {
-                displayName: "CHE",
-                symbol: "CHE"
+                "displayName-count-other": "კონგოს ფრანკი"
             },
             CHF: {
                 displayName: "შვეიცარიული ფრანკი",
-                "displayName-count-one": "შვეიცარიული ფრანკი",
-                "displayName-count-other": "შვეიცარიული ფრანკი",
-                symbol: "CHF"
-            },
-            CHW: {
-                displayName: "CHW",
-                symbol: "CHW"
-            },
-            CLE: {
-                displayName: "CLE",
-                symbol: "CLE"
-            },
-            CLF: {
-                displayName: "CLF",
-                symbol: "CLF"
+                "displayName-count-other": "შვეიცარიული ფრანკი"
             },
             CLP: {
                 displayName: "ჩილეს პესო",
-                "displayName-count-one": "ჩილეს პესო",
                 "displayName-count-other": "ჩილეს პესო",
-                symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
             CNH: {
                 displayName: "ჩინური იუანი (ოფშორი)",
-                "displayName-count-one": "ჩინური იუანი (ოფშორი)",
-                "displayName-count-other": "ჩინური იუანი (ოფშორი)",
-                symbol: "CNH"
-            },
-            CNX: {
-                displayName: "CNX",
-                symbol: "CNX"
+                "displayName-count-other": "ჩინური იუანი (ოფშორი)"
             },
             CNY: {
                 displayName: "ჩინური იუანი",
@@ -367,1223 +249,845 @@ const data = {
             },
             COP: {
                 displayName: "კოლუმბიური პესო",
-                "displayName-count-one": "კოლუმბიური პესო",
                 "displayName-count-other": "კოლუმბიური პესო",
-                symbol: "COP",
                 "symbol-alt-narrow": "$"
-            },
-            COU: {
-                displayName: "COU",
-                symbol: "COU"
             },
             CRC: {
                 displayName: "კოსტა-რიკული კოლონი",
                 "displayName-count-one": "კოსტა-რიკული კოლონი",
                 "displayName-count-other": "კოსტა რიკული კოლონი",
-                symbol: "CRC",
                 "symbol-alt-narrow": "₡"
             },
             CSD: {
                 displayName: "ძველი სერბიული დინარი",
-                symbol: "CSD"
+                "displayName-count-other": "ძველი სერბიული დინარი"
             },
             CSK: {
                 displayName: "ჩეხოსლოვაკიის მყარი კრონა",
-                symbol: "CSK"
+                "displayName-count-other": "ჩეხოსლოვაკიის მყარი კრონა"
             },
             CUC: {
                 displayName: "კუბური კონვერტირებადი პესო",
-                "displayName-count-one": "კუბური კონვერტირებადი პესო",
                 "displayName-count-other": "კუბური კონვერტირებადი პესო",
-                symbol: "CUC",
                 "symbol-alt-narrow": "$"
             },
             CUP: {
                 displayName: "კუბური პესო",
-                "displayName-count-one": "კუბური პესო",
                 "displayName-count-other": "კუბური პესო",
-                symbol: "CUP",
                 "symbol-alt-narrow": "$"
             },
             CVE: {
                 displayName: "კაბო-ვერდეს ესკუდო",
-                "displayName-count-one": "კაბო-ვერდეს ესკუდო",
-                "displayName-count-other": "კაბო-ვერდეს ესკუდო",
-                symbol: "CVE"
+                "displayName-count-other": "კაბო-ვერდეს ესკუდო"
             },
             CYP: {
                 displayName: "კვიპროსის გირვანქა",
-                symbol: "CYP"
+                "displayName-count-other": "კვიპროსის გირვანქა"
             },
             CZK: {
                 displayName: "ჩეხური კრონა",
-                "displayName-count-one": "ჩეხური კრონა",
                 "displayName-count-other": "ჩეხური კრონა",
-                symbol: "CZK",
                 "symbol-alt-narrow": "Kč"
             },
             DDM: {
                 displayName: "აღმოსავლეთ გერმანული მარკა",
-                symbol: "DDM"
+                "displayName-count-other": "აღმოსავლეთ გერმანული მარკა"
             },
             DEM: {
                 displayName: "გერმანული მარკა",
-                symbol: "DEM"
+                "displayName-count-other": "გერმანული მარკა"
             },
             DJF: {
                 displayName: "ჯიბუტის ფრანკი",
-                "displayName-count-one": "ჯიბუტის ფრანკი",
-                "displayName-count-other": "ჯიბუტის ფრანკი",
-                symbol: "DJF"
+                "displayName-count-other": "ჯიბუტის ფრანკი"
             },
             DKK: {
                 displayName: "დანიური კრონა",
-                "displayName-count-one": "დანიური კრონა",
                 "displayName-count-other": "დანიური კრონა",
-                symbol: "DKK",
                 "symbol-alt-narrow": "kr"
             },
             DOP: {
                 displayName: "დომინიკური პესო",
-                "displayName-count-one": "დომინიკური პესო",
                 "displayName-count-other": "დომინიკური პესო",
-                symbol: "DOP",
                 "symbol-alt-narrow": "$"
             },
             DZD: {
                 displayName: "ალჟირული დინარი",
-                "displayName-count-one": "ალჟირული დინარი",
-                "displayName-count-other": "ალჟირული დინარი",
-                symbol: "DZD"
-            },
-            ECS: {
-                displayName: "ECS",
-                symbol: "ECS"
-            },
-            ECV: {
-                displayName: "ECV",
-                symbol: "ECV"
+                "displayName-count-other": "ალჟირული დინარი"
             },
             EEK: {
                 displayName: "ესტონური კრუნა",
-                symbol: "EEK"
+                "displayName-count-other": "ესტონური კრუნა"
             },
             EGP: {
                 displayName: "ეგვიპტური გირვანქა",
-                "displayName-count-one": "ეგვიპტური გირვანქა",
                 "displayName-count-other": "ეგვიპტური გირვანქა",
-                symbol: "EGP",
                 "symbol-alt-narrow": "E£"
             },
             ERN: {
                 displayName: "ერიტრეის ნაკფა",
-                "displayName-count-one": "ერიტრეის ნაკფა",
-                "displayName-count-other": "ერიტრეის ნაკფა",
-                symbol: "ERN"
-            },
-            ESA: {
-                displayName: "ESA",
-                symbol: "ESA"
-            },
-            ESB: {
-                displayName: "ESB",
-                symbol: "ESB"
+                "displayName-count-other": "ერიტრეის ნაკფა"
             },
             ESP: {
                 displayName: "ესპანური პესეტა",
-                symbol: "ESP",
+                "displayName-count-other": "ესპანური პესეტა",
                 "symbol-alt-narrow": "₧"
             },
             ETB: {
                 displayName: "ეთიოპიური ბირი",
-                "displayName-count-one": "ეთიოპიური ბირი",
-                "displayName-count-other": "ეთიოპიური ბირი",
-                symbol: "ETB"
+                "displayName-count-other": "ეთიოპიური ბირი"
             },
             EUR: {
                 displayName: "ევრო",
-                "displayName-count-one": "ევრო",
                 "displayName-count-other": "ევრო",
                 symbol: "€",
                 "symbol-alt-narrow": "€"
             },
             FIM: {
                 displayName: "ფინური მარკა",
-                symbol: "FIM"
+                "displayName-count-other": "ფინური მარკა"
             },
             FJD: {
                 displayName: "ფიჯის დოლარი",
-                "displayName-count-one": "ფიჯის დოლარი",
                 "displayName-count-other": "ფიჯის დოლარი",
-                symbol: "FJD",
                 "symbol-alt-narrow": "$"
             },
             FKP: {
                 displayName: "ფოლკლენდის კუნძულების ფუნტი",
-                "displayName-count-one": "ფოლკლენდის კუნძულების ფუნტი",
                 "displayName-count-other": "ფოლკლენდის კუნძულების ფუნტი",
-                symbol: "FKP",
                 "symbol-alt-narrow": "£"
             },
             FRF: {
                 displayName: "ფრანგული ფრანკი",
-                symbol: "FRF"
+                "displayName-count-other": "ფრანგული ფრანკი"
             },
             GBP: {
                 displayName: "ბრიტანული გირვანქა სტერლინგი",
-                "displayName-count-one": "ბრიტანული გირვანქა სტერლინგი",
                 "displayName-count-other": "ბრიტანული გირვანქა სტერლინგი",
                 symbol: "£",
                 "symbol-alt-narrow": "£"
             },
             GEK: {
                 displayName: "ქართული კუპონი ლარით",
-                symbol: "GEK"
+                "displayName-count-other": "ქართული კუპონი ლარით"
             },
             GEL: {
                 displayName: "ქართული ლარი",
-                "displayName-count-one": "ქართული ლარი",
                 "displayName-count-other": "ქართული ლარი",
                 symbol: "₾",
                 "symbol-alt-narrow": "₾"
             },
-            GHC: {
-                displayName: "GHC",
-                symbol: "GHC"
-            },
             GHS: {
                 displayName: "განური სედი",
-                "displayName-count-one": "განური სედი",
                 "displayName-count-other": "განური სედი",
-                symbol: "GHS",
                 "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "გიბრალტარული ფუნტი",
-                "displayName-count-one": "გიბრალტარული ფუნტი",
                 "displayName-count-other": "გიბრალტარული ფუნტი",
-                symbol: "GIP",
                 "symbol-alt-narrow": "£"
             },
             GMD: {
                 displayName: "გამბიური დალასი",
-                "displayName-count-one": "გამბიური დალასი",
-                "displayName-count-other": "გამბიური დალასი",
-                symbol: "GMD"
+                "displayName-count-other": "გამბიური დალასი"
             },
             GNF: {
                 displayName: "გვინეური ფრანკი",
-                "displayName-count-one": "გვინეური ფრანკი",
                 "displayName-count-other": "გვინეური ფრანკი",
-                symbol: "GNF",
                 "symbol-alt-narrow": "FG"
-            },
-            GNS: {
-                displayName: "GNS",
-                symbol: "GNS"
-            },
-            GQE: {
-                displayName: "GQE",
-                symbol: "GQE"
             },
             GRD: {
                 displayName: "ბერძნული დრაჰმა",
-                symbol: "GRD"
+                "displayName-count-other": "ბერძნული დრაჰმა"
             },
             GTQ: {
                 displayName: "გვატემალური კეტსალი",
-                "displayName-count-one": "გვატემალური კეტსალი",
                 "displayName-count-other": "გვატემალური კეტსალი",
-                symbol: "GTQ",
                 "symbol-alt-narrow": "Q"
             },
             GWE: {
                 displayName: "პორტუგალიური გინეა ესკუდო",
-                symbol: "GWE"
-            },
-            GWP: {
-                displayName: "GWP",
-                symbol: "GWP"
+                "displayName-count-other": "პორტუგალიური გინეა ესკუდო"
             },
             GYD: {
                 displayName: "გაიანური დოლარი",
-                "displayName-count-one": "გაიანური დოლარი",
                 "displayName-count-other": "გაიანური დოლარი",
-                symbol: "GYD",
                 "symbol-alt-narrow": "$"
             },
             HKD: {
                 displayName: "ჰონკონგის დოლარი",
-                "displayName-count-one": "ჰონკონგის დოლარი",
                 "displayName-count-other": "ჰონკონგის დოლარი",
                 symbol: "HKD",
                 "symbol-alt-narrow": "$"
             },
             HNL: {
                 displayName: "ჰონდურასული ლემპირა",
-                "displayName-count-one": "ჰონდურასული ლემპირა",
                 "displayName-count-other": "ჰონდურასული ლემპირა",
-                symbol: "HNL",
                 "symbol-alt-narrow": "L"
             },
             HRD: {
                 displayName: "ხორვატიული დინარი",
-                symbol: "HRD"
+                "displayName-count-other": "ხორვატიული დინარი"
             },
             HRK: {
                 displayName: "ხორვატული კუნა",
-                "displayName-count-one": "ხორვატული კუნა",
                 "displayName-count-other": "ხორვატული კუნა",
-                symbol: "HRK",
                 "symbol-alt-narrow": "kn"
             },
             HTG: {
                 displayName: "ჰაიტური გურდი",
-                "displayName-count-one": "ჰაიტური გურდი",
-                "displayName-count-other": "ჰაიტური გურდი",
-                symbol: "HTG"
+                "displayName-count-other": "ჰაიტური გურდი"
             },
             HUF: {
                 displayName: "უნგრული ფორინტი",
-                "displayName-count-one": "უნგრული ფორინტი",
                 "displayName-count-other": "უნგრული ფორინტი",
-                symbol: "HUF",
                 "symbol-alt-narrow": "Ft"
             },
             IDR: {
                 displayName: "ინდონეზიური რუპია",
-                "displayName-count-one": "ინდონეზიური რუპია",
                 "displayName-count-other": "ინდონეზიური რუპია",
-                symbol: "IDR",
                 "symbol-alt-narrow": "Rp"
             },
             IEP: {
                 displayName: "ირლანდიური გირვანქა",
-                symbol: "IEP"
-            },
-            ILP: {
-                displayName: "ILP",
-                symbol: "ILP"
-            },
-            ILR: {
-                displayName: "ILR",
-                symbol: "ILR"
+                "displayName-count-other": "ირლანდიური გირვანქა"
             },
             ILS: {
                 displayName: "ისრაელის ახალი შეკელი",
-                "displayName-count-one": "ისრაელის ახალი შეკელი",
                 "displayName-count-other": "ისრაელის ახალი შეკელი",
                 symbol: "ILS",
                 "symbol-alt-narrow": "₪"
             },
             INR: {
                 displayName: "ინდური რუპია",
-                "displayName-count-one": "ინდური რუპია",
                 "displayName-count-other": "ინდური რუპია",
                 symbol: "INR",
                 "symbol-alt-narrow": "₹"
             },
             IQD: {
                 displayName: "ერაყული დინარი",
-                "displayName-count-one": "ერაყული დინარი",
-                "displayName-count-other": "ერაყული დინარი",
-                symbol: "IQD"
+                "displayName-count-other": "ერაყული დინარი"
             },
             IRR: {
                 displayName: "ირანული რიალი",
-                "displayName-count-one": "ირანული რიალი",
-                "displayName-count-other": "ირანული რიალი",
-                symbol: "IRR"
-            },
-            ISJ: {
-                displayName: "ISJ",
-                symbol: "ISJ"
+                "displayName-count-other": "ირანული რიალი"
             },
             ISK: {
                 displayName: "ისლანდიური კრონა",
-                "displayName-count-one": "ისლანდიური კრონა",
                 "displayName-count-other": "ისლანდიური კრონა",
-                symbol: "ISK",
                 "symbol-alt-narrow": "kr"
             },
             ITL: {
                 displayName: "იტალიური ლირა",
-                symbol: "ITL"
+                "displayName-count-other": "იტალიური ლირა"
             },
             JMD: {
                 displayName: "იამაიკური დოლარი",
-                "displayName-count-one": "იამაიკური დოლარი",
                 "displayName-count-other": "იამაიკური დოლარი",
-                symbol: "JMD",
                 "symbol-alt-narrow": "$"
             },
             JOD: {
                 displayName: "იორდანიული დოლარი",
-                "displayName-count-one": "იორდანიული დოლარი",
-                "displayName-count-other": "იორდანიული დოლარი",
-                symbol: "JOD"
+                "displayName-count-other": "იორდანიული დოლარი"
             },
             JPY: {
                 displayName: "იაპონური იენი",
-                "displayName-count-one": "იაპონური იენი",
                 "displayName-count-other": "იაპონური იენი",
                 symbol: "JPY",
                 "symbol-alt-narrow": "¥"
             },
             KES: {
                 displayName: "კენიური შილინგი",
-                "displayName-count-one": "კენიური შილინგი",
-                "displayName-count-other": "კენიური შილინგი",
-                symbol: "KES"
+                "displayName-count-other": "კენიური შილინგი"
             },
             KGS: {
                 displayName: "ყირგიზული სომი",
-                "displayName-count-one": "ყირგიზული სომი",
                 "displayName-count-other": "ყირგიზული სომი",
-                symbol: "KGS"
+                "symbol-alt-narrow": "⃀"
             },
             KHR: {
                 displayName: "კამბოჯური რიელი",
-                "displayName-count-one": "კამბოჯური რიელი",
                 "displayName-count-other": "კამბოჯური რიელი",
-                symbol: "KHR",
                 "symbol-alt-narrow": "៛"
             },
             KMF: {
                 displayName: "კომორული ფრანკი",
-                "displayName-count-one": "კომორული ფრანკი",
                 "displayName-count-other": "კომორული ფრანკი",
-                symbol: "KMF",
                 "symbol-alt-narrow": "CF"
             },
             KPW: {
                 displayName: "ჩრდილოეთ კორეული ვონი",
-                "displayName-count-one": "ჩრდილოეთ კორეული ვონი",
                 "displayName-count-other": "ჩრდილოეთ კორეული ვონი",
-                symbol: "KPW",
                 "symbol-alt-narrow": "₩"
-            },
-            KRH: {
-                displayName: "KRH",
-                symbol: "KRH"
-            },
-            KRO: {
-                displayName: "KRO",
-                symbol: "KRO"
             },
             KRW: {
                 displayName: "სამხრეთ კორეული ვონი",
-                "displayName-count-one": "სამხრეთ კორეული ვონი",
                 "displayName-count-other": "სამხრეთ კორეული ვონი",
                 symbol: "KRW",
                 "symbol-alt-narrow": "₩"
             },
             KWD: {
                 displayName: "ქუვეითური დინარი",
-                "displayName-count-one": "ქუვეითური დინარი",
-                "displayName-count-other": "ქუვეითური დინარი",
-                symbol: "KWD"
+                "displayName-count-other": "ქუვეითური დინარი"
             },
             KYD: {
                 displayName: "კაიმანის კუნძულების დოლარი",
-                "displayName-count-one": "კაიმანის კუნძულების დოლარი",
                 "displayName-count-other": "კაიმანის კუნძულების დოლარი",
-                symbol: "KYD",
                 "symbol-alt-narrow": "$"
             },
             KZT: {
                 displayName: "ყაზახური ტენგე",
-                "displayName-count-one": "ყაზახური ტენგე",
                 "displayName-count-other": "ყაზახური ტენგე",
-                symbol: "KZT",
                 "symbol-alt-narrow": "₸"
             },
             LAK: {
                 displayName: "ლაოსური კიპი",
-                "displayName-count-one": "ლაოსური კიპი",
                 "displayName-count-other": "ლაოსური კიპი",
-                symbol: "LAK",
                 "symbol-alt-narrow": "₭"
             },
             LBP: {
                 displayName: "ლიბანური ფუნტი",
-                "displayName-count-one": "ლიბანური ფუნტი",
                 "displayName-count-other": "ლიბანური ფუნტი",
-                symbol: "LBP",
                 "symbol-alt-narrow": "L£"
             },
             LKR: {
                 displayName: "შრი-ლანკური რუპია",
-                "displayName-count-one": "შრი-ლანკური რუპია",
                 "displayName-count-other": "შრი-ლანკური რუპია",
-                symbol: "LKR",
                 "symbol-alt-narrow": "Rs"
             },
             LRD: {
                 displayName: "ლიბერიული დოლარი",
-                "displayName-count-one": "ლიბერიული დოლარი",
                 "displayName-count-other": "ლიბერიული დოლარი",
-                symbol: "LRD",
                 "symbol-alt-narrow": "$"
             },
             LSL: {
                 displayName: "ლესოთოს ლოტი",
-                "displayName-count-one": "ლესოთოს ლოტი",
-                "displayName-count-other": "ლესოთოს ლოტი",
-                symbol: "LSL"
+                "displayName-count-other": "ლესოთოს ლოტი"
             },
             LTL: {
                 displayName: "ლიტვური ლიტა",
-                "displayName-count-one": "ლიტვური ლიტა",
                 "displayName-count-other": "ლიტვური ლიტა",
-                symbol: "LTL",
                 "symbol-alt-narrow": "Lt"
             },
             LTT: {
                 displayName: "ლიტვური ტალონი",
-                symbol: "LTT"
+                "displayName-count-other": "ლიტვური ტალონი"
             },
             LUC: {
                 displayName: "ლუქსემბურგის კონვერტირებადი ფრანკი",
-                symbol: "LUC"
+                "displayName-count-other": "ლუქსემბურგის კონვერტირებადი ფრანკი"
             },
             LUF: {
                 displayName: "ლუქსემბურგის ფრანკი",
-                symbol: "LUF"
+                "displayName-count-other": "ლუქსემბურგის ფრანკი"
             },
             LUL: {
                 displayName: "ლუქსემბურგის ფინანსური ფრანკი",
-                symbol: "LUL"
+                "displayName-count-other": "ლუქსემბურგის ფინანსური ფრანკი"
             },
             LVL: {
                 displayName: "ლატვიური ლატი",
-                "displayName-count-one": "ლატვიური ლატი",
                 "displayName-count-other": "ლატვიური ლატი",
-                symbol: "LVL",
                 "symbol-alt-narrow": "Ls"
             },
             LVR: {
                 displayName: "ლატვიური რუბლი",
-                symbol: "LVR"
+                "displayName-count-other": "ლატვიური რუბლი"
             },
             LYD: {
                 displayName: "ლიბიური დინარი",
-                "displayName-count-one": "ლიბიური დინარი",
-                "displayName-count-other": "ლიბიური დინარი",
-                symbol: "LYD"
+                "displayName-count-other": "ლიბიური დინარი"
             },
             MAD: {
                 displayName: "მაროკოს დირჰამი",
-                "displayName-count-one": "მაროკოს დირჰამი",
-                "displayName-count-other": "მაროკოს დირჰამი",
-                symbol: "MAD"
+                "displayName-count-other": "მაროკოს დირჰამი"
             },
             MAF: {
                 displayName: "მაროკოს ფრანკი",
-                symbol: "MAF"
-            },
-            MCF: {
-                displayName: "MCF",
-                symbol: "MCF"
-            },
-            MDC: {
-                displayName: "MDC",
-                symbol: "MDC"
+                "displayName-count-other": "მაროკოს ფრანკი"
             },
             MDL: {
                 displayName: "მოლდოვური ლეუ",
-                "displayName-count-one": "მოლდოვური ლეუ",
-                "displayName-count-other": "მოლდოვური ლეუ",
-                symbol: "MDL"
+                "displayName-count-other": "მოლდოვური ლეუ"
             },
             MGA: {
                 displayName: "მადაგასკარის არიარი",
-                "displayName-count-one": "მადაგასკარის არიარი",
                 "displayName-count-other": "მადაგასკარის არიარი",
-                symbol: "MGA",
                 "symbol-alt-narrow": "Ar"
             },
             MGF: {
                 displayName: "მადაგასკარის ფრანკი",
-                symbol: "MGF"
+                "displayName-count-other": "მადაგასკარის ფრანკი"
             },
             MKD: {
                 displayName: "მაკედონიური დინარი",
-                "displayName-count-one": "მაკედონიური დინარი",
-                "displayName-count-other": "მაკედონიური დინარი",
-                symbol: "MKD"
-            },
-            MKN: {
-                displayName: "MKN",
-                symbol: "MKN"
+                "displayName-count-other": "მაკედონიური დინარი"
             },
             MLF: {
                 displayName: "მალის ფრანკი",
-                symbol: "MLF"
+                "displayName-count-other": "მალის ფრანკი"
             },
             MMK: {
                 displayName: "მიანმარის კიატი",
-                "displayName-count-one": "მიანმარის კიატი",
                 "displayName-count-other": "მიანმარის კიატი",
-                symbol: "MMK",
                 "symbol-alt-narrow": "K"
             },
             MNT: {
                 displayName: "მონღოლური ტუგრიკი",
-                "displayName-count-one": "მონღოლური ტუგრიკი",
                 "displayName-count-other": "მონღოლური ტუგრიკი",
-                symbol: "MNT",
                 "symbol-alt-narrow": "₮"
             },
             MOP: {
                 displayName: "მაკაუს პატაკა",
-                "displayName-count-one": "მაკაუს პატაკა",
-                "displayName-count-other": "მაკაუს პატაკა",
-                symbol: "MOP"
+                "displayName-count-other": "მაკაუს პატაკა"
             },
             MRO: {
                 displayName: "მავრიტანული უგია (1973–2017)",
-                "displayName-count-one": "მავრიტანული უგია (1973–2017)",
-                "displayName-count-other": "მავრიტანული უგია (1973–2017)",
-                symbol: "MRO"
+                "displayName-count-other": "მავრიტანული უგია (1973–2017)"
             },
             MRU: {
                 displayName: "მავრიტანული უგია",
-                "displayName-count-one": "მავრიტანული უგია",
-                "displayName-count-other": "მავრიტანული უგია",
-                symbol: "MRU"
+                "displayName-count-other": "მავრიტანული უგია"
             },
             MTL: {
                 displayName: "მალტის ლირა",
-                symbol: "MTL"
+                "displayName-count-other": "მალტის ლირა"
             },
             MTP: {
                 displayName: "მალტის გირვანქა",
-                symbol: "MTP"
+                "displayName-count-other": "მალტის გირვანქა"
             },
             MUR: {
                 displayName: "მავრიტანული რუპია",
-                "displayName-count-one": "მავრიტანული რუპია",
                 "displayName-count-other": "მავრიტანული რუპია",
-                symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
-            },
-            MVP: {
-                displayName: "MVP",
-                symbol: "MVP"
             },
             MVR: {
                 displayName: "მალდივური რუფია",
-                "displayName-count-one": "მალდივური რუფია",
-                "displayName-count-other": "მალდივური რუფია",
-                symbol: "MVR"
+                "displayName-count-other": "მალდივური რუფია"
             },
             MWK: {
                 displayName: "მალავიური კვაჩა",
-                "displayName-count-one": "მალავიური კვაჩა",
-                "displayName-count-other": "მალავიური კვაჩა",
-                symbol: "MWK"
+                "displayName-count-other": "მალავიური კვაჩა"
             },
             MXN: {
                 displayName: "მექსიკური პესო",
-                "displayName-count-one": "მექსიკური პესო",
                 "displayName-count-other": "მექსიკური პესო",
                 symbol: "MX$",
                 "symbol-alt-narrow": "$"
             },
             MXP: {
                 displayName: "მექსიკური ვერცხლის პესო (1861–1992)",
-                symbol: "MXP"
-            },
-            MXV: {
-                displayName: "MXV",
-                symbol: "MXV"
+                "displayName-count-other": "მექსიკური ვერცხლის პესო (1861–1992)"
             },
             MYR: {
                 displayName: "მალაიზიური რინგიტი",
-                "displayName-count-one": "მალაიზიური რინგიტი",
                 "displayName-count-other": "მალაიზიური რინგიტი",
-                symbol: "MYR",
                 "symbol-alt-narrow": "RM"
             },
             MZE: {
                 displayName: "მოზამბიკური ესკუდო",
-                "displayName-count-one": "მოზამბიკური ესკუდო",
-                "displayName-count-other": "მოზამბიკური ესკუდო",
-                symbol: "MZE"
+                "displayName-count-other": "მოზამბიკური ესკუდო"
             },
             MZM: {
                 displayName: "ძველი მოზამბიკური მეტიკალი",
-                symbol: "MZM"
+                "displayName-count-other": "ძველი მოზამბიკური მეტიკალი"
             },
             MZN: {
                 displayName: "მოზამბიკური მეტიკალი",
-                "displayName-count-one": "მოზამბიკური მეტიკალი",
-                "displayName-count-other": "მოზამბიკური მეტიკალი",
-                symbol: "MZN"
+                "displayName-count-other": "მოზამბიკური მეტიკალი"
             },
             NAD: {
                 displayName: "ნამიბიური დოლარი",
-                "displayName-count-one": "ნამიბიური დოლარი",
                 "displayName-count-other": "ნამიბიური დოლარი",
-                symbol: "NAD",
                 "symbol-alt-narrow": "$"
             },
             NGN: {
                 displayName: "ნიგერიული ნაირა",
-                "displayName-count-one": "ნიგერიული ნაირა",
                 "displayName-count-other": "ნიგერიული ნაირა",
-                symbol: "NGN",
                 "symbol-alt-narrow": "₦"
             },
             NIC: {
                 displayName: "ნიკარაგუას კორდობა",
-                symbol: "NIC"
+                "displayName-count-other": "ნიკარაგუას კორდობა"
             },
             NIO: {
                 displayName: "ნიკარაგუას ოქროს კორდობა",
-                "displayName-count-one": "ნიკარაგუას ოქროს კორდობა",
                 "displayName-count-other": "ნიკარაგუას ოქროს კორდობა",
-                symbol: "NIO",
                 "symbol-alt-narrow": "C$"
             },
             NLG: {
                 displayName: "ჰოლანდიური გულდენი",
-                symbol: "NLG"
+                "displayName-count-other": "ჰოლანდიური გულდენი"
             },
             NOK: {
                 displayName: "ნორვეგიული კრონა",
-                "displayName-count-one": "ნორვეგიული კრონა",
                 "displayName-count-other": "ნორვეგიული კრონა",
-                symbol: "NOK",
                 "symbol-alt-narrow": "kr"
             },
             NPR: {
                 displayName: "ნეპალური რუპია",
-                "displayName-count-one": "ნეპალური რუპია",
                 "displayName-count-other": "ნეპალური რუპია",
-                symbol: "NPR",
                 "symbol-alt-narrow": "Rs"
             },
             NZD: {
                 displayName: "ახალი ზელანდიის დოლარი",
-                "displayName-count-one": "ახალი ზელანდიის დოლარი",
                 "displayName-count-other": "ახალი ზელანდიის დოლარი",
                 symbol: "NZD",
                 "symbol-alt-narrow": "$"
             },
             OMR: {
                 displayName: "ომანის რიალი",
-                "displayName-count-one": "ომანის რიალი",
-                "displayName-count-other": "ომანის რიალი",
-                symbol: "OMR"
+                "displayName-count-other": "ომანის რიალი"
             },
             PAB: {
                 displayName: "პანამური ბალბოა",
-                "displayName-count-one": "პანამური ბალბოა",
-                "displayName-count-other": "პანამური ბალბოა",
-                symbol: "PAB"
+                "displayName-count-other": "პანამური ბალბოა"
             },
             PEI: {
                 displayName: "პერუს ინტი",
-                symbol: "PEI"
+                "displayName-count-other": "პერუს ინტი"
             },
             PEN: {
                 displayName: "პერუს სოლი",
-                "displayName-count-one": "პერუს სოლი",
-                "displayName-count-other": "პერუს სოლი",
-                symbol: "PEN"
+                "displayName-count-other": "პერუს სოლი"
             },
             PES: {
                 displayName: "პერუს სოლი (1863–1965)",
-                symbol: "PES"
+                "displayName-count-other": "პერუს სოლი (1863–1965)"
             },
             PGK: {
                 displayName: "პაპუა-ახალი გვინეის კინა",
-                "displayName-count-one": "პაპუა-ახალი გვინეის კინა",
-                "displayName-count-other": "პაპუა-ახალი გვინეის კინა",
-                symbol: "PGK"
+                "displayName-count-other": "პაპუა-ახალი გვინეის კინა"
             },
             PHP: {
                 displayName: "ფილიპინური პესო",
-                "displayName-count-one": "ფილიპინური პესო",
                 "displayName-count-other": "ფილიპინური პესო",
                 symbol: "PHP",
                 "symbol-alt-narrow": "₱"
             },
             PKR: {
                 displayName: "პაკისტანური რუპია",
-                "displayName-count-one": "პაკისტანური რუპია",
                 "displayName-count-other": "პაკისტანური რუპია",
-                symbol: "PKR",
                 "symbol-alt-narrow": "Rs"
             },
             PLN: {
                 displayName: "პოლონური ზლოტი",
-                "displayName-count-one": "პოლონური ზლოტი",
                 "displayName-count-other": "პოლონური ზლოტი",
-                symbol: "PLN",
                 "symbol-alt-narrow": "zł"
             },
             PLZ: {
                 displayName: "პოლონური ზლოტი (1950–1995)",
-                symbol: "PLZ"
+                "displayName-count-other": "პოლონური ზლოტი (1950–1995)"
             },
             PTE: {
                 displayName: "პორტუგალიური ესკუდო",
-                symbol: "PTE"
+                "displayName-count-other": "პორტუგალიური ესკუდო"
             },
             PYG: {
                 displayName: "პარაგვაული გუარანი",
-                "displayName-count-one": "პარაგვაული გუარანი",
                 "displayName-count-other": "პარაგვაული გუარანი",
-                symbol: "PYG",
                 "symbol-alt-narrow": "₲"
             },
             QAR: {
                 displayName: "კატარის რიალი",
-                "displayName-count-one": "კატარის რიალი",
-                "displayName-count-other": "კატარის რიალი",
-                symbol: "QAR"
+                "displayName-count-other": "კატარის რიალი"
             },
             RHD: {
                 displayName: "როდეზიული დოლარი",
-                symbol: "RHD"
+                "displayName-count-other": "როდეზიული დოლარი"
             },
             ROL: {
                 displayName: "ძველი რუმინული ლეუ",
-                symbol: "ROL"
+                "displayName-count-other": "ძველი რუმინული ლეუ"
             },
             RON: {
                 displayName: "რუმინული ლეუ",
-                "displayName-count-one": "რუმინული ლეუ",
                 "displayName-count-other": "რუმინული ლეუ",
-                symbol: "RON",
                 "symbol-alt-narrow": "lei"
             },
             RSD: {
                 displayName: "სერბული დინარი",
-                "displayName-count-one": "სერბული დინარი",
-                "displayName-count-other": "სერბული დინარი",
-                symbol: "RSD"
+                "displayName-count-other": "სერბული დინარი"
             },
             RUB: {
                 displayName: "რუსული რუბლი",
-                "displayName-count-one": "რუსული რუბლი",
                 "displayName-count-other": "რუსული რუბლი",
-                symbol: "RUB",
                 "symbol-alt-narrow": "₽"
             },
             RUR: {
                 displayName: "რუსული რუბლი (1991–1998)",
-                symbol: "RUR"
+                "displayName-count-other": "რუსული რუბლი (1991–1998)"
             },
             RWF: {
                 displayName: "რუანდული ფრანკი",
-                "displayName-count-one": "რუანდული ფრანკი",
                 "displayName-count-other": "რუანდული ფრანკი",
-                symbol: "RWF",
                 "symbol-alt-narrow": "RF"
             },
             SAR: {
                 displayName: "საუდის არაბეთის რიალი",
-                "displayName-count-one": "საუდის არაბეთის რიალი",
                 "displayName-count-other": "საუდის არაბეთის რიალი",
-                symbol: "SAR"
+                "symbol-alt-variant": "⃁"
             },
             SBD: {
                 displayName: "სოლომონის კუნძულების დოლარი",
-                "displayName-count-one": "სოლომონის კუნძულების დოლარი",
                 "displayName-count-other": "სოლომონის კუნძულების დოლარი",
-                symbol: "SBD",
                 "symbol-alt-narrow": "$"
             },
             SCR: {
                 displayName: "სეიშელური რუპია",
-                "displayName-count-one": "სეიშელური რუპია",
-                "displayName-count-other": "სეიშელური რუპია",
-                symbol: "SCR"
+                "displayName-count-other": "სეიშელური რუპია"
             },
             SDD: {
                 displayName: "სუდანის დინარი",
-                symbol: "SDD"
+                "displayName-count-other": "სუდანის დინარი"
             },
             SDG: {
                 displayName: "სუდანური ფუნტი",
-                "displayName-count-one": "სუდანური ფუნტი",
-                "displayName-count-other": "სუდანური ფუნტი",
-                symbol: "SDG"
+                "displayName-count-other": "სუდანური ფუნტი"
             },
             SDP: {
                 displayName: "სუდანის გირვანქა",
-                symbol: "SDP"
+                "displayName-count-other": "სუდანის გირვანქა"
             },
             SEK: {
                 displayName: "შვედური კრონა",
-                "displayName-count-one": "შვედური კრონა",
                 "displayName-count-other": "შვედური კრონა",
-                symbol: "SEK",
                 "symbol-alt-narrow": "kr"
             },
             SGD: {
                 displayName: "სინგაპურის დოლარი",
-                "displayName-count-one": "სინგაპურის დოლარი",
                 "displayName-count-other": "სინგაპურის დოლარი",
-                symbol: "SGD",
                 "symbol-alt-narrow": "$"
             },
             SHP: {
                 displayName: "წმ. ელენეს კუნძულის ფუნტი",
-                "displayName-count-one": "წმ. ელენეს კუნძულის ფუნტი",
                 "displayName-count-other": "წმ. ელენეს კუნძულის ფუნტი",
-                symbol: "SHP",
                 "symbol-alt-narrow": "£"
             },
-            SIT: {
-                displayName: "SIT",
-                symbol: "SIT"
-            },
-            SKK: {
-                displayName: "SKK",
-                symbol: "SKK"
-            },
             SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
+                displayName: "სიერა-ლეონეს ლეონე",
+                "displayName-count-other": "სიერა-ლეონეს ლეონე"
             },
             SLL: {
-                displayName: "სიერა-ლეონეს ლეონე",
-                "displayName-count-one": "სიერა-ლეონეს ლეონე",
-                "displayName-count-other": "სიერა-ლეონეს ლეონე",
-                symbol: "SLL"
+                displayName: "სიერა-ლეონეს ლეონე (1964—2022)",
+                "displayName-count-other": "სიერა-ლეონეს ლეონე (1964—2022)"
             },
             SOS: {
                 displayName: "სომალური შილინგი",
-                "displayName-count-one": "სომალური შილინგი",
-                "displayName-count-other": "სომალური შილინგი",
-                symbol: "SOS"
+                "displayName-count-other": "სომალური შილინგი"
             },
             SRD: {
                 displayName: "სურინამული დოლარი",
-                "displayName-count-one": "სურინამული დოლარი",
                 "displayName-count-other": "სურინამული დოლარი",
-                symbol: "SRD",
                 "symbol-alt-narrow": "$"
             },
             SRG: {
                 displayName: "სურინამის გულდენი",
-                symbol: "SRG"
+                "displayName-count-other": "სურინამის გულდენი"
             },
             SSP: {
                 displayName: "სამხრეთ სუდანური ფუნტი",
-                "displayName-count-one": "სამხრეთ სუდანური ფუნტი",
                 "displayName-count-other": "სამხრეთ სუდანური ფუნტი",
-                symbol: "SSP",
                 "symbol-alt-narrow": "£"
             },
             STD: {
                 displayName: "სან-ტომე და პრინსიპის დობრა (1977–2017)",
-                "displayName-count-one": "სან-ტომე და პრინსიპის დობრა (1977–2017)",
-                "displayName-count-other": "სან-ტომე და პრინსიპის დობრა (1977–2017)",
-                symbol: "STD"
+                "displayName-count-other": "სან-ტომე და პრინსიპის დობრა (1977–2017)"
             },
             STN: {
                 displayName: "სან-ტომე და პრინსიპის დობრა",
-                "displayName-count-one": "სან-ტომე და პრინსიპის დობრა",
                 "displayName-count-other": "სან-ტომე და პრინსიპის დობრა",
-                symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },
             SUR: {
                 displayName: "საბჭოთა რუბლი",
-                symbol: "SUR"
-            },
-            SVC: {
-                displayName: "SVC",
-                symbol: "SVC"
+                "displayName-count-other": "საბჭოთა რუბლი"
             },
             SYP: {
                 displayName: "სირიული ფუნტი",
                 "displayName-count-one": "სირიული გირვანქა",
                 "displayName-count-other": "სირიული გირვანქა",
-                symbol: "SYP",
                 "symbol-alt-narrow": "£"
             },
             SZL: {
                 displayName: "სვაზილენდის ლილანგენი",
-                "displayName-count-one": "სვაზილენდის ლილანგენი",
-                "displayName-count-other": "სვაზილენდის ლილანგენი",
-                symbol: "SZL"
+                "displayName-count-other": "სვაზილენდის ლილანგენი"
             },
             THB: {
                 displayName: "ტაილანდური ბატი",
-                "displayName-count-one": "ტაილანდური ბატი",
                 "displayName-count-other": "ტაილანდური ბატი",
-                symbol: "THB",
                 "symbol-alt-narrow": "฿"
             },
             TJR: {
                 displayName: "ტაჯიკური რუბლი",
-                symbol: "TJR"
+                "displayName-count-other": "ტაჯიკური რუბლი"
             },
             TJS: {
                 displayName: "ტაჯიკური სომონი",
-                "displayName-count-one": "ტაჯიკური სომონი",
-                "displayName-count-other": "ტაჯიკური სომონი",
-                symbol: "TJS"
+                "displayName-count-other": "ტაჯიკური სომონი"
             },
             TMM: {
                 displayName: "თურქმენული მანათი",
-                symbol: "TMM"
+                "displayName-count-other": "თურქმენული მანათი"
             },
             TMT: {
                 displayName: "თურქმენეთის მანათი",
-                "displayName-count-one": "თურქმენეთის მანათი",
-                "displayName-count-other": "თურქმენეთის მანათი",
-                symbol: "TMT"
+                "displayName-count-other": "თურქმენეთის მანათი"
             },
             TND: {
                 displayName: "ტუნისური დინარი",
                 "displayName-count-one": "ტუნისის დინარი",
-                "displayName-count-other": "ტუნისის დინარი",
-                symbol: "TND"
+                "displayName-count-other": "ტუნისის დინარი"
             },
             TOP: {
                 displayName: "ტონგანური პაანგა",
-                "displayName-count-one": "ტონგანური პაანგა",
                 "displayName-count-other": "ტონგანური პაანგა",
-                symbol: "TOP",
                 "symbol-alt-narrow": "T$"
-            },
-            TPE: {
-                displayName: "TPE",
-                symbol: "TPE"
             },
             TRL: {
                 displayName: "თურქული ლირა",
-                symbol: "TRL"
+                "displayName-count-other": "თურქული ლირა"
             },
             TRY: {
                 displayName: "ახალი თურქული ლირა",
-                "displayName-count-one": "ახალი თურქული ლირა",
                 "displayName-count-other": "ახალი თურქული ლირა",
-                symbol: "TRY",
                 "symbol-alt-narrow": "₺",
                 "symbol-alt-variant": "TL"
             },
             TTD: {
                 displayName: "ტრინიდად და ტობაგოს დოლარი",
-                "displayName-count-one": "ტრინიდად და ტობაგოს დოლარი",
                 "displayName-count-other": "ტრინიდად და ტობაგოს დოლარი",
-                symbol: "TTD",
                 "symbol-alt-narrow": "$"
             },
             TWD: {
                 displayName: "ტაივანური ახალი დოლარი",
-                "displayName-count-one": "ტაივანური ახალი დოლარი",
                 "displayName-count-other": "ტაივანური ახალი დოლარი",
                 symbol: "NT$",
                 "symbol-alt-narrow": "NT$"
             },
             TZS: {
                 displayName: "ტანზანიური შილინგი",
-                "displayName-count-one": "ტანზანიური შილინგი",
-                "displayName-count-other": "ტანზანიური შილინგი",
-                symbol: "TZS"
+                "displayName-count-other": "ტანზანიური შილინგი"
             },
             UAH: {
                 displayName: "უკრაინული გრივნა",
-                "displayName-count-one": "უკრაინული გრივნა",
                 "displayName-count-other": "უკრაინული გრივნა",
-                symbol: "UAH",
                 "symbol-alt-narrow": "₴"
             },
             UAK: {
                 displayName: "უკრაინული კარბოვანეცი",
-                symbol: "UAK"
+                "displayName-count-other": "უკრაინული კარბოვანეცი"
             },
             UGS: {
                 displayName: "უგანდური შილინგი (1966–1987)",
-                symbol: "UGS"
+                "displayName-count-other": "უგანდური შილინგი (1966–1987)"
             },
             UGX: {
                 displayName: "უგანდური შილინგი",
-                "displayName-count-one": "უგანდური შილინგი",
-                "displayName-count-other": "უგანდური შილინგი",
-                symbol: "UGX"
+                "displayName-count-other": "უგანდური შილინგი"
             },
             USD: {
                 displayName: "აშშ დოლარი",
-                "displayName-count-one": "აშშ დოლარი",
                 "displayName-count-other": "აშშ დოლარი",
                 symbol: "US$",
                 "symbol-alt-narrow": "$"
             },
             USN: {
                 displayName: "აშშ დოლარი (შემდეგი დღე)",
-                symbol: "USN"
+                "displayName-count-other": "აშშ დოლარი (შემდეგი დღე)"
             },
             USS: {
                 displayName: "აშშ დოლარი (იგივე დღე)",
-                symbol: "USS"
-            },
-            UYI: {
-                displayName: "UYI",
-                symbol: "UYI"
+                "displayName-count-other": "აშშ დოლარი (იგივე დღე)"
             },
             UYP: {
                 displayName: "ურუგვაის პესო (1975–1993)",
-                symbol: "UYP"
+                "displayName-count-other": "ურუგვაის პესო (1975–1993)"
             },
             UYU: {
                 displayName: "ურუგვაის პესო",
-                "displayName-count-one": "ურუგვაის პესო",
                 "displayName-count-other": "ურუგვაის პესო",
-                symbol: "UYU",
                 "symbol-alt-narrow": "$"
-            },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
             },
             UZS: {
                 displayName: "უზბეკური სუმი",
-                "displayName-count-one": "უზბეკური სუმი",
-                "displayName-count-other": "უზბეკური სუმი",
-                symbol: "UZS"
+                "displayName-count-other": "უზბეკური სუმი"
             },
             VEB: {
                 displayName: "ვენესუელის ბოლივარი (1871–2008)",
-                symbol: "VEB"
-            },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
+                "displayName-count-other": "ვენესუელის ბოლივარი (1871–2008)"
             },
             VEF: {
                 displayName: "ვენესუელის ბოლივარი (2008–2018)",
-                "displayName-count-one": "ვენესუელის ბოლივარი (2008–2018)",
                 "displayName-count-other": "ვენესუელის ბოლივარი (2008–2018)",
-                symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
             },
             VES: {
                 displayName: "ვენესუელის ბოლივარი",
-                "displayName-count-one": "ვენესუელის ბოლივარი",
-                "displayName-count-other": "ვენესუელის ბოლივარი",
-                symbol: "VES"
+                "displayName-count-other": "ვენესუელის ბოლივარი"
             },
             VND: {
                 displayName: "ვიეტნამური დონგი",
-                "displayName-count-one": "ვიეტნამური დონგი",
                 "displayName-count-other": "ვიეტნამური დონგი",
                 symbol: "VND",
                 "symbol-alt-narrow": "₫"
             },
-            VNN: {
-                displayName: "VNN",
-                symbol: "VNN"
-            },
             VUV: {
                 displayName: "ვანუატუს ვატუ",
                 "displayName-count-one": "ვანატუს ვატუ",
-                "displayName-count-other": "ვანატუს ვატუ",
-                symbol: "VUV"
+                "displayName-count-other": "ვანატუს ვატუ"
             },
             WST: {
                 displayName: "სამოური ტალა",
-                "displayName-count-one": "დასავლეთ სამოას ტალა",
-                "displayName-count-other": "სამოური ტალა",
-                symbol: "WST"
+                "displayName-count-other": "სამოური ტალა"
             },
             XAF: {
                 displayName: "ცენტრალურ აფრიკული CFA ფრანკი",
-                "displayName-count-one": "ცენტრალურ აფრიკული CFA ფრანკი",
                 "displayName-count-other": "ცენტრალურ აფრიკული CFA ფრანკი",
                 symbol: "FCFA"
             },
             XAG: {
                 displayName: "ვერცხლი",
-                symbol: "XAG"
-            },
-            XAU: {
-                displayName: "XAU",
-                symbol: "XAU"
+                "displayName-count-other": "ვერცხლი"
             },
             XBA: {
                 displayName: "ევროპული კომპპოზიტური ერთეული",
-                symbol: "XBA"
+                "displayName-count-other": "ევროპული კომპპოზიტური ერთეული"
             },
             XBB: {
                 displayName: "ევროპული ფულადი ერთეული",
-                symbol: "XBB"
-            },
-            XBC: {
-                displayName: "XBC",
-                symbol: "XBC"
-            },
-            XBD: {
-                displayName: "XBD",
-                symbol: "XBD"
+                "displayName-count-other": "ევროპული ფულადი ერთეული"
             },
             XCD: {
                 displayName: "აღმოსავლეთ კარიბიული დოლარი",
-                "displayName-count-one": "აღმოსავლეთ კარიბიული დოლარი",
                 "displayName-count-other": "აღმოსავლეთ კარიბიული დოლარი",
                 symbol: "EC$",
                 "symbol-alt-narrow": "$"
             },
-            XDR: {
-                displayName: "XDR",
-                symbol: "XDR"
+            XCG: {
+                displayName: "კარიბის გულდენი",
+                "displayName-count-one": "კარიბის გულდენი",
+                "displayName-count-other": "კარიბის გულდენი",
+                symbol: "Cg."
             },
             XEU: {
                 displayName: "ევროპული სავალუტო ერთეული",
-                symbol: "XEU"
+                "displayName-count-other": "ევროპული სავალუტო ერთეული"
             },
             XFO: {
                 displayName: "ფრანგული ოქროს ფრანკი",
-                symbol: "XFO"
-            },
-            XFU: {
-                displayName: "XFU",
-                symbol: "XFU"
+                "displayName-count-other": "ფრანგული ოქროს ფრანკი"
             },
             XOF: {
                 displayName: "დასავლეთ აფრიკული CFA ფრანკი",
-                "displayName-count-one": "დასავლეთ აფრიკული CFA ფრანკი",
                 "displayName-count-other": "დასავლეთ აფრიკული CFA ფრანკი",
                 symbol: "F CFA"
             },
-            XPD: {
-                displayName: "XPD",
-                symbol: "XPD"
-            },
             XPF: {
                 displayName: "CFP ფრანკი",
-                "displayName-count-one": "CFP ფრანკი",
                 "displayName-count-other": "CFP ფრანკი",
                 symbol: "CFPF"
-            },
-            XPT: {
-                displayName: "XPT",
-                symbol: "XPT"
-            },
-            XRE: {
-                displayName: "XRE",
-                symbol: "XRE"
-            },
-            XSU: {
-                displayName: "XSU",
-                symbol: "XSU"
-            },
-            XTS: {
-                displayName: "XTS",
-                symbol: "XTS"
-            },
-            XUA: {
-                displayName: "XUA",
-                symbol: "XUA"
             },
             XXX: {
                 displayName: "უცნობი ვალუტა",
@@ -1593,73 +1097,54 @@ const data = {
             },
             YDD: {
                 displayName: "იემენის დინარი",
-                symbol: "YDD"
+                "displayName-count-other": "იემენის დინარი"
             },
             YER: {
                 displayName: "იემენის რეალი",
-                "displayName-count-one": "იემენის რეალი",
-                "displayName-count-other": "იემენის რეალი",
-                symbol: "YER"
+                "displayName-count-other": "იემენის რეალი"
             },
             YUD: {
                 displayName: "იუგოსლავიური მყარი დინარი",
-                symbol: "YUD"
+                "displayName-count-other": "იუგოსლავიური მყარი დინარი"
             },
             YUM: {
                 displayName: "იუგოსლავიური ახალი დინარი",
-                symbol: "YUM"
+                "displayName-count-other": "იუგოსლავიური ახალი დინარი"
             },
             YUN: {
                 displayName: "იუგოსლავიური კონვერტირებადი დინარი",
-                symbol: "YUN"
-            },
-            YUR: {
-                displayName: "YUR",
-                symbol: "YUR"
-            },
-            ZAL: {
-                displayName: "ZAL",
-                symbol: "ZAL"
+                "displayName-count-other": "იუგოსლავიური კონვერტირებადი დინარი"
             },
             ZAR: {
                 displayName: "სამხრეთ აფრიკული რანდი",
-                "displayName-count-one": "სამხრეთ აფრიკული რანდი",
                 "displayName-count-other": "სამხრეთ აფრიკული რანდი",
-                symbol: "ZAR",
                 "symbol-alt-narrow": "R"
             },
             ZMK: {
                 displayName: "ზამბიური კვაჭა (1968–2012)",
-                "displayName-count-one": "ზამბიური კვაჭა (1968–2012)",
-                "displayName-count-other": "ზამბიური კვაჭა (1968–2012)",
-                symbol: "ZMK"
+                "displayName-count-other": "ზამბიური კვაჭა (1968–2012)"
             },
             ZMW: {
                 displayName: "ზამბიური კვაჭა",
-                "displayName-count-one": "ზამბიური კვაჭა",
                 "displayName-count-other": "ზამბიური კვაჭა",
-                symbol: "ZMW",
                 "symbol-alt-narrow": "ZK"
             },
             ZRN: {
                 displayName: "ზაირის ახალი ზაირი",
-                symbol: "ZRN"
+                "displayName-count-other": "ზაირის ახალი ზაირი"
             },
             ZRZ: {
                 displayName: "ზაირის ზაირი",
-                symbol: "ZRZ"
+                "displayName-count-other": "ზაირის ზაირი"
             },
             ZWD: {
                 displayName: "ზიმბაბვეს დოლარი",
-                symbol: "ZWD"
+                "displayName-count-other": "ზიმბაბვეს დოლარი"
             },
-            ZWL: {
-                displayName: "ZWL",
-                symbol: "ZWL"
-            },
-            ZWR: {
-                displayName: "ZWR",
-                symbol: "ZWR"
+            ZWG: {
+                displayName: "ზიმბაბვეს გოლდი",
+                "displayName-count-one": "ზიმბაბვეს გოლდი",
+                "displayName-count-other": "ზიმბაბვეს გოლდი"
             }
         },
         localeCurrency: "GEL"

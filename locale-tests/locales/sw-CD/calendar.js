@@ -35,28 +35,34 @@ const data = {
                 Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBh: "E h B",
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "E d",
-                Ehm: "E h:mm a",
+                Eh: "E h a",
+                Ehm: "E h:mm a",
                 EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyM: "G MM-y",
                 GyMd: "d/M/y GGGGG",
+                GyMEd: "E, d/M/y G",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E, d MMM y G",
-                h: "h a",
+                h: "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
+                hv: "h a v",
+                Hv: "HH'h' v",
                 M: "L",
                 Md: "d/M",
                 MEd: "E, d/M",
@@ -76,7 +82,7 @@ const data = {
                 yMMMd: "d MMM y",
                 yMMMEd: "E, d MMM y",
                 yMMMM: "MMMM y",
-                yQQQ: "y QQQ",
+                yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
                 "yw-count-one": "'wiki' w 'ya' Y",
                 "yw-count-other": "'wiki' w 'ya' Y"
@@ -403,8 +409,8 @@ const data = {
         dateFields: {
             era: {
                 wide: "Wakati",
-                short: "enzi",
-                narrow: "enzi"
+                short: "Wakati",
+                narrow: "Wakati"
             },
             year: {
                 wide: "mwaka",
@@ -423,8 +429,8 @@ const data = {
             },
             week: {
                 wide: "Juma",
-                short: "wiki",
-                narrow: "wiki"
+                short: "Juma",
+                narrow: "Juma"
             },
             weekOfMonth: {
                 wide: "wiki ya mwezi",
@@ -443,8 +449,8 @@ const data = {
             },
             weekday: {
                 wide: "Siku ya juma",
-                short: "siku ya wiki",
-                narrow: "siku ya wiki"
+                short: "Siku ya juma",
+                narrow: "Siku ya juma"
             },
             weekdayOfMonth: {
                 wide: "siku ya mwezi",
@@ -452,9 +458,9 @@ const data = {
                 narrow: "siku ya mwezi"
             },
             dayperiod: {
-                short: "AM/PM",
+                short: "Muda wa siku",
                 wide: "Muda wa siku",
-                narrow: "AM/PM"
+                narrow: "Muda wa siku"
             },
             hour: {
                 wide: "saa",

@@ -10,12 +10,12 @@ const data = {
     calendar: {
         patterns: {
             d: "d/M/y",
-            D: "y, MMMM d, EEEE",
+            D: "y MMMM d, EEEE",
             m: "MMM d",
             M: "MMMM d",
             y: "y MMM",
             Y: "y MMMM",
-            F: "y, MMMM d, EEEE h:mm:ss a",
+            F: "y MMMM d, EEEE h:mm:ss a",
             g: "d/M/y h:mm a",
             G: "d/M/y h:mm:ss a",
             t: "h:mm a",
@@ -24,38 +24,44 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} {0}",
-            long: "{1} {0}",
-            medium: "{1} {0}",
-            short: "{1} {0}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
+            medium: "{1}, {0}",
+            short: "{1}, {0}",
             availableFormats: {
                 Bh: "B h",
                 Bhm: "B h:mm",
                 Bhms: "B h:mm:ss",
                 d: "d",
                 E: "ccc",
+                EBh: "E h B",
                 EBhm: "E, B h:mm",
                 EBhms: "E, B h:mm:ss",
                 Ed: "d, E",
+                Eh: "E, h a",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
-                GyMd: "M/d/y GGGGG",
+                GyM: "G y/M",
+                GyMd: "G y/M/d",
+                GyMEd: "G d/M/y, E",
                 GyMMM: "G y MMM",
                 GyMMMd: "G y MMM d",
                 GyMMMEd: "G y MMM d, E",
-                h: "h a",
+                h: "h a",
                 H: "HH",
                 hm: "h:mm a",
                 Hm: "HH:mm",
                 hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
-                Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
-                Hmv: "HH:mm v",
+                hmsv: "v h:mm:ss a",
+                Hmsv: "v HH:mm:ss",
+                hmv: "v h:mm a",
+                Hmv: "v HH:mm",
+                hv: "v h a",
+                Hv: "v HH'h'",
                 M: "L",
                 Md: "d/M",
                 MEd: "d/M, E",
@@ -69,10 +75,10 @@ const data = {
                 "MMMMW-count-other": "MMMM - ആഴ്ച W",
                 ms: "mm:ss",
                 y: "y",
-                yM: "y-MM",
+                yM: "M/y",
                 yMd: "d/M/y",
-                yMEd: "d-M-y, E",
-                yMM: "y-MM",
+                yMEd: "d/M/y, E",
+                yMM: "MM/y",
                 yMMM: "y MMM",
                 yMMMd: "y MMM d",
                 yMMMEd: "y MMM d, E",
@@ -84,15 +90,15 @@ const data = {
             }
         },
         timeFormats: {
-            full: "h:mm:ss a zzzz",
-            long: "h:mm:ss a z",
+            full: "zzzz h:mm:ss a",
+            long: "z h:mm:ss a",
             medium: "h:mm:ss a",
             short: "h:mm a"
         },
         dateFormats: {
-            full: "y, MMMM d, EEEE",
-            long: "y, MMMM d",
-            medium: "y, MMM d",
+            full: "y MMMM d, EEEE",
+            long: "y MMMM d",
+            medium: "y MMM d",
             short: "d/M/yy"
         },
         days: {
@@ -394,24 +400,24 @@ const data = {
                 wide: {
                     "0": "ക്രിസ്‌തുവിന് മുമ്പ്",
                     "1": "ആന്നോ ഡൊമിനി",
-                    "0-alt-variant": "ബി.സി.ഇ.",
-                    "1-alt-variant": "സി.ഇ."
+                    "0-alt-variant": "കോമൺ ഇറയ്ക്ക് മുമ്പ്",
+                    "1-alt-variant": "കോമൺ ഇറ"
                 },
                 abbreviated: {
-                    "0": "ക്രി.മു.",
+                    "0": "ബിസി",
                     "1": "എഡി",
                     "0-alt-variant": "ബിസിഇ",
                     "1-alt-variant": "സിഇ"
                 },
                 narrow: {
-                    "0": "ക്രി.മു.",
+                    "0": "ബിസി",
                     "1": "എഡി",
                     "0-alt-variant": "ബിസിഇ",
                     "1-alt-variant": "സിഇ"
                 }
             }
         },
-        gmtFormat: "ജിഎംടി {0}",
+        gmtFormat: "ജിഎംടി{0}",
         gmtZeroFormat: "ജിഎംടി",
         dateFields: {
             era: {

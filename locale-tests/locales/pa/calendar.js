@@ -29,24 +29,28 @@ const data = {
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
-                Bh: "h B",
-                Bhm: "h:mm B",
-                Bhms: "h:mm:ss B",
+                Bh: "B h",
+                Bhm: "B h:mm",
+                Bhms: "B h:mm:ss",
                 d: "d",
                 E: "ccc",
-                EBhm: "E h:mm B",
-                EBhms: "E h:mm:ss B",
+                EBh: "E B h",
+                EBhm: "E B h:mm",
+                EBhms: "E B h:mm:ss",
                 Ed: "d, E",
+                Eh: "E h a",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyM: "G M/y",
                 GyMd: "d/M/GGGGG y",
+                GyMEd: "E, d/M/y G",
                 GyMMM: "MMM, G y",
                 GyMMMd: "d MMM, G y",
                 GyMMMEd: "E d MMM, G y",
-                h: "h a",
+                h: "h a",
                 H: "HH",
                 hm: "h:mm a",
                 Hm: "HH:mm",
@@ -56,6 +60,8 @@ const data = {
                 Hmsv: "HH:mm:ss v",
                 hmv: "h:mm a v",
                 Hmv: "HH:mm v",
+                hv: "h a v",
+                Hv: "HH'h' v",
                 M: "L",
                 Md: "d/M",
                 MEd: "E, dd-MM.",
@@ -102,7 +108,7 @@ const data = {
                     "ਬੁੱਧ",
                     "ਵੀਰ",
                     "ਸ਼ੁੱਕਰ",
-                    "ਸ਼ਨਿੱਚਰ"
+                    "ਸ਼ਨੀ"
                 ],
                 narrow: [
                     "ਐ",
@@ -120,7 +126,7 @@ const data = {
                     "ਬੁੱਧ",
                     "ਵੀਰ",
                     "ਸ਼ੁੱਕ",
-                    "ਸ਼ਨਿੱ"
+                    "ਸ਼ਨੀ"
                 ],
                 wide: [
                     "ਐਤਵਾਰ",
@@ -129,7 +135,7 @@ const data = {
                     "ਬੁੱਧਵਾਰ",
                     "ਵੀਰਵਾਰ",
                     "ਸ਼ੁੱਕਰਵਾਰ",
-                    "ਸ਼ਨਿੱਚਰਵਾਰ"
+                    "ਸ਼ਨੀਵਾਰ"
                 ]
             },
             "stand-alone": {
@@ -140,7 +146,7 @@ const data = {
                     "ਬੁੱਧ",
                     "ਵੀਰ",
                     "ਸ਼ੁੱਕਰ",
-                    "ਸ਼ਨਿੱਚਰ"
+                    "ਸ਼ਨੀ"
                 ],
                 narrow: [
                     "ਐ",
@@ -158,7 +164,7 @@ const data = {
                     "ਬੁੱਧ",
                     "ਵੀਰ",
                     "ਸ਼ੁੱਕ",
-                    "ਸ਼ਨਿੱ"
+                    "ਸ਼ਨੀ"
                 ],
                 wide: [
                     "ਐਤਵਾਰ",
@@ -167,7 +173,7 @@ const data = {
                     "ਬੁੱਧਵਾਰ",
                     "ਵੀਰਵਾਰ",
                     "ਸ਼ੁੱਕਰਵਾਰ",
-                    "ਸ਼ਨਿੱਚਰਵਾਰ"
+                    "ਸ਼ਨੀਵਾਰ"
                 ]
             }
         },
@@ -307,8 +313,8 @@ const data = {
             format: {
                 abbreviated: {
                     midnight: "ਅੱਧੀ ਰਾਤ",
-                    am: "ਪੂ.ਦੁ.",
-                    pm: "ਬਾ.ਦੁ.",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "ਸਵੇਰੇ",
                     afternoon1: "ਦੁਪਹਿਰੇ",
                     evening1: "ਸ਼ਾਮੀਂ",
@@ -316,8 +322,8 @@ const data = {
                 },
                 narrow: {
                     midnight: "ਅੱਧੀ ਰਾਤ",
-                    am: "ਸ.",
-                    pm: "ਸ਼.",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "ਸਵੇਰੇ",
                     afternoon1: "ਦੁਪਹਿਰੇ",
                     evening1: "ਸ਼ਾਮੀਂ",
@@ -325,8 +331,8 @@ const data = {
                 },
                 wide: {
                     midnight: "ਅੱਧੀ ਰਾਤ",
-                    am: "ਪੂ.ਦੁ.",
-                    pm: "ਬਾ.ਦੁ.",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "ਸਵੇਰੇ",
                     afternoon1: "ਦੁਪਹਿਰੇ",
                     evening1: "ਸ਼ਾਮੀਂ",
@@ -336,8 +342,8 @@ const data = {
             "stand-alone": {
                 abbreviated: {
                     midnight: "ਅੱਧੀ ਰਾਤ",
-                    am: "ਪੂ.ਦੁ.",
-                    pm: "ਬਾ.ਦੁ.",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "ਸਵੇਰੇ",
                     afternoon1: "ਦੁਪਹਿਰੇ",
                     evening1: "ਸ਼ਾਮੀਂ",
@@ -345,8 +351,8 @@ const data = {
                 },
                 narrow: {
                     midnight: "ਅੱਧੀ ਰਾਤ",
-                    am: "ਪੂ.ਦੁ.",
-                    pm: "ਬਾ.ਦੁ.",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "ਸਵੇਰੇ",
                     afternoon1: "ਦੁਪਹਿਰੇ",
                     evening1: "ਸ਼ਾਮੀਂ",
@@ -354,8 +360,8 @@ const data = {
                 },
                 wide: {
                     midnight: "ਅੱਧੀ ਰਾਤ",
-                    am: "ਪੂ.ਦੁ.",
-                    pm: "ਬਾ.ਦੁ.",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "ਸਵੇਰੇ",
                     afternoon1: "ਦੁਪਹਿਰੇ",
                     evening1: "ਸ਼ਾਮ",
@@ -439,9 +445,9 @@ const data = {
                 narrow: "ਮਹੀਨੇ ਦਾ ਹਫ਼ਤੇ ਦਾ ਦਿਨ"
             },
             dayperiod: {
-                short: "ਪੂ.ਦੁ./ਬਾ.ਦੁ.",
-                wide: "ਪੂ.ਦੁ./ਬਾ.ਦੁ.",
-                narrow: "ਪੂ.ਦੁ./ਬਾ.ਦੁ."
+                short: "AM/PM",
+                wide: "AM/PM",
+                narrow: "AM/PM"
             },
             hour: {
                 wide: "ਘੰਟਾ",

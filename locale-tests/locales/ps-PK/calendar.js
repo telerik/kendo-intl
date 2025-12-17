@@ -35,19 +35,23 @@ const data = {
                 Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBh: "E h B",
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "d, E",
+                Eh: "E h a",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyM: "G y-MM",
                 GyMd: "M/d/y GGGGG",
+                GyMEd: "G y-MM-dd, E",
                 GyMMM: "G y MMM",
                 GyMMMd: "G y MMM d",
                 GyMMMEd: "G y MMM d, E",
-                h: "h a",
+                h: "h a",
                 H: "HH",
                 hm: "h:mm a",
                 Hm: "HH:mm",
@@ -57,6 +61,8 @@ const data = {
                 Hmsv: "HH:mm:ss v",
                 hmv: "h:mm a v",
                 Hmv: "HH:mm v",
+                hv: "h a v",
+                Hv: "HH'h' v",
                 M: "L",
                 Md: "MM-dd",
                 MEd: "MM-dd, E",
@@ -64,7 +70,7 @@ const data = {
                 MMMd: "MMM d",
                 MMMEd: "E, MMM d",
                 MMMMd: "MMMM d",
-                "MMMMW-count-one": "اونۍ‘ W د MMMM‘",
+                "MMMMW-count-one": "اونۍ W د MMMM",
                 "MMMMW-count-other": "اونۍ W د MMMM",
                 ms: "mm:ss",
                 y: "y",
@@ -89,7 +95,7 @@ const data = {
         },
         dateFormats: {
             full: "EEEE د y د MMMM d",
-            long: "د y د MMMM d",
+            long: "y MMMM d",
             medium: "y MMM d",
             short: "y/M/d"
         },
@@ -232,8 +238,8 @@ const data = {
                     "دسمبر"
                 ],
                 narrow: [
-                    "1",
-                    "2",
+                    "ج",
+                    "ف",
                     "3",
                     "4",
                     "5",
@@ -306,8 +312,8 @@ const data = {
         dayPeriods: {
             format: {
                 abbreviated: {
-                    am: "غ.م.",
-                    pm: "غ.و."
+                    am: "AM",
+                    pm: "PM"
                 },
                 narrow: {
                     am: "غ.م.",
@@ -344,13 +350,13 @@ const data = {
                 abbreviated: {
                     "0": "له میلاد وړاندې",
                     "1": "م.",
-                    "0-alt-variant": "BCE",
+                    "0-alt-variant": "له میلاد وړاندې",
                     "1-alt-variant": "ع.پ"
                 },
                 narrow: {
                     "0": "له میلاد وړاندې",
                     "1": "م.",
-                    "0-alt-variant": "BCE",
+                    "0-alt-variant": "له میلاد وړاندې",
                     "1-alt-variant": "ع.پ"
                 }
             }
@@ -359,9 +365,9 @@ const data = {
         gmtZeroFormat: "GMT",
         dateFields: {
             era: {
-                wide: "پېر",
-                short: "پېر",
-                narrow: "پېر"
+                wide: "دور",
+                short: "دور",
+                narrow: "دور"
             },
             year: {
                 wide: "کال",
@@ -436,7 +442,7 @@ const data = {
             millisecond: {
                 narrow: "ms",
                 short: "ms",
-                wide: "ms"
+                wide: "ملی ثانیه"
             }
         }
     },

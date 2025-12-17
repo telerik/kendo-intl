@@ -31,6 +31,7 @@ const data = {
                 3
             ]
         },
+        rational: {},
         scientific: {
             patterns: [
                 "nEn"
@@ -52,11 +53,6 @@ const data = {
             groupSize: [
                 3
             ],
-            "unitPattern-count-zero": "n $",
-            "unitPattern-count-one": "n $",
-            "unitPattern-count-two": "n $",
-            "unitPattern-count-few": "n $",
-            "unitPattern-count-many": "n $",
             "unitPattern-count-other": "n $"
         },
         accounting: {

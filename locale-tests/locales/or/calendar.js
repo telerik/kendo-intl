@@ -24,8 +24,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{0} ଠାରେ {1}",
-            long: "{0} ଠାରେ {1}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
@@ -34,19 +34,23 @@ const data = {
                 Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBh: "E h B",
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "d E",
+                Eh: "E h a",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
-                GyMd: "GGGGG y-MM-dd",
+                GyM: "G y-MM",
+                GyMd: "M/d/y G",
+                GyMEd: "G dd-MM-y, E",
                 GyMMM: "MMM y G",
                 GyMMMd: "MMM d, y G",
                 GyMMMEd: "E, MMM d, y G",
-                h: "h a",
+                h: "h a",
                 H: "HH",
                 hm: "h:mm a",
                 Hm: "HH:mm",
@@ -56,6 +60,8 @@ const data = {
                 Hmsv: "HH:mm:ss v",
                 hmv: "h:mm a v",
                 Hmv: "HH:mm v",
+                hv: "h a v",
+                Hv: "HH'h' v",
                 M: "L",
                 Md: "M/d",
                 MEd: "E, M/d",
@@ -265,10 +271,10 @@ const data = {
         quarters: {
             format: {
                 abbreviated: [
-                    "1ମ ତ୍ରୟମାସ",
-                    "2ୟ ତ୍ରୟମାସ",
-                    "3ୟ ତ୍ରୟମାସ",
-                    "4ର୍ଥ ତ୍ରୟମାସ"
+                    "Q1",
+                    "Q2",
+                    "Q3",
+                    "Q4"
                 ],
                 narrow: [
                     "1",
@@ -311,8 +317,8 @@ const data = {
                     pm: "PM"
                 },
                 narrow: {
-                    am: "ପୂ",
-                    pm: "ଅ"
+                    am: "AM",
+                    pm: "PM"
                 },
                 wide: {
                     am: "AM",
@@ -321,16 +327,16 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: {
-                    am: "ପୂର୍ବାହ୍ନ",
-                    pm: "ଅପରାହ୍ନ"
+                    am: "AM",
+                    pm: "PM"
                 },
                 narrow: {
                     am: "AM",
-                    pm: "ଅପରାହ୍ନ"
+                    pm: "PM"
                 },
                 wide: {
-                    am: "ପୂର୍ବାହ୍ନ",
-                    pm: "ଅପରାହ୍ନ"
+                    am: "AM",
+                    pm: "PM"
                 }
             }
         },
@@ -405,14 +411,14 @@ const data = {
                 narrow: "ସ. ର ଦିନ"
             },
             weekdayOfMonth: {
-                wide: "ସାପ୍ତାହିକ ଦିନର ମାସ",
-                short: "ସା. ଦିନର ମା.",
-                narrow: "ସା. ଦିନର ମା."
+                wide: "ମାସର ସାପ୍ତାହିକ ଦିନ",
+                short: "ମାସର ସାପ୍ତାହିକ ଦି.",
+                narrow: "ମାସର ସାପ୍ତାହିକ ଦି."
             },
             dayperiod: {
-                short: "ପୂର୍ବାହ୍ନ/ଅପରାହ୍ନ",
-                wide: "ପୂର୍ବାହ୍ନ/ଅପରାହ୍ନ",
-                narrow: "ପୂର୍ବାହ୍ନ/ଅପରାହ୍ନ"
+                short: "AM/PM",
+                wide: "AM/PM",
+                narrow: "AM/PM"
             },
             hour: {
                 wide: "ଘଣ୍ଟା",

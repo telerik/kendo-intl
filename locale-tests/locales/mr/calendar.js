@@ -24,8 +24,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} रोजी {0}",
-            long: "{1} रोजी {0}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
@@ -34,19 +34,23 @@ const data = {
                 Bhms: "B h:mm:ss",
                 d: "d",
                 E: "ccc",
+                EBh: "E h B",
                 EBhm: "E B h:mm",
                 EBhms: "E B h:mm:ss",
                 Ed: "d E",
+                Eh: "E h a",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
-                GyMd: "d/M/y GGGGG",
+                GyM: "G y-MM",
+                GyMd: "GGGGG d/M/y",
+                GyMEd: "G y-MM-dd, E",
                 GyMMM: "MMM G y",
                 GyMMMd: "d MMM, G y",
                 GyMMMEd: "E, d MMM, G y",
-                h: "h a",
+                h: "h a",
                 H: "HH",
                 hm: "h:mm a",
                 Hm: "H:mm",
@@ -56,6 +60,8 @@ const data = {
                 Hmsv: "HH:mm:ss v",
                 hmv: "h:mm a v",
                 Hmv: "HH:mm v",
+                hv: "h a v",
+                Hv: "HH'h' v",
                 M: "L",
                 Md: "d/M",
                 MEd: "E, d/M",
@@ -78,8 +84,8 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "Y चा w रा आठवडा",
-                "yw-count-other": "Y चा w रा आठवडा"
+                "yw-count-one": "Y चा w वा आठवडा",
+                "yw-count-other": "Y चा w वा आठवडा"
             }
         },
         timeFormats: {
@@ -315,7 +321,6 @@ const data = {
                     morning2: "सकाळ",
                     afternoon1: "दुपार",
                     evening1: "संध्याकाळ",
-                    evening2: "सायंकाळ",
                     night1: "रात्र"
                 },
                 narrow: {
@@ -327,7 +332,6 @@ const data = {
                     morning2: "स",
                     afternoon1: "दु",
                     evening1: "सं",
-                    evening2: "सा",
                     night1: "रा"
                 },
                 wide: {
@@ -339,7 +343,6 @@ const data = {
                     morning2: "सकाळ",
                     afternoon1: "दुपार",
                     evening1: "संध्याकाळ",
-                    evening2: "सायंकाळ",
                     night1: "रात्र"
                 }
             },
@@ -353,7 +356,6 @@ const data = {
                     morning2: "सकाळ",
                     afternoon1: "दुपार",
                     evening1: "संध्याकाळ",
-                    evening2: "सायंकाळ",
                     night1: "रात्र"
                 },
                 narrow: {
@@ -365,7 +367,6 @@ const data = {
                     morning2: "स",
                     afternoon1: "दु",
                     evening1: "सं",
-                    evening2: "सा",
                     night1: "रात्र"
                 },
                 wide: {
@@ -377,7 +378,6 @@ const data = {
                     morning2: "सकाळ",
                     afternoon1: "दुपार",
                     evening1: "संध्याकाळ",
-                    evening2: "सायंकाळ",
                     night1: "रात्र"
                 }
             }
@@ -391,15 +391,15 @@ const data = {
                     "1-alt-variant": "ख्रिस्तयुग"
                 },
                 abbreviated: {
-                    "0": "इ. स. पू.",
+                    "0": "ई. स. पू.",
                     "1": "इ. स.",
-                    "0-alt-variant": "इ. स. पू. युग",
+                    "0-alt-variant": "ई. पू. युग",
                     "1-alt-variant": "ख्रि. यु."
                 },
                 narrow: {
-                    "0": "इ. स. पू.",
+                    "0": "ई. स. पू.",
                     "1": "इ. स.",
-                    "0-alt-variant": "इ. स. पू. युग",
+                    "0-alt-variant": "ई. पू. युग",
                     "1-alt-variant": "ख्रि. यु."
                 }
             }
@@ -424,13 +424,13 @@ const data = {
             },
             month: {
                 wide: "महिना",
-                short: "महिना",
-                narrow: "महिना"
+                short: "म.",
+                narrow: "म."
             },
             week: {
                 wide: "आठवडा",
-                short: "आठवडा",
-                narrow: "आठवडा"
+                short: "आठ.",
+                narrow: "आठ."
             },
             weekOfMonth: {
                 wide: "महिन्याचा आठवडा",
@@ -439,7 +439,7 @@ const data = {
             },
             day: {
                 wide: "दिवस",
-                short: "दिवस",
+                short: "दि.",
                 narrow: "दिवस"
             },
             dayOfYear: {
@@ -464,8 +464,8 @@ const data = {
             },
             hour: {
                 wide: "तास",
-                short: "तास",
-                narrow: "तास"
+                short: "ता.",
+                narrow: "ता."
             },
             minute: {
                 wide: "मिनिट",
@@ -478,7 +478,7 @@ const data = {
                 narrow: "से."
             },
             zone: {
-                wide: "वेळ क्षेत्र",
+                wide: "टाइम झोन",
                 short: "क्षेत्र",
                 narrow: "क्षेत्र"
             },

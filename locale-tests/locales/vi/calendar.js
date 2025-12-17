@@ -9,7 +9,7 @@ const data = {
     territory: "VN",
     calendar: {
         patterns: {
-            d: "dd/MM/y",
+            d: "d/M/y",
             D: "EEEE, d MMMM, y",
             m: "d MMM",
             M: "d MMMM",
@@ -26,39 +26,45 @@ const data = {
         dateTimeFormats: {
             full: "{0} {1}",
             long: "{0} {1}",
-            medium: "{0}, {1}",
-            short: "{0}, {1}",
+            medium: "{0} {1}",
+            short: "{0} {1}",
             availableFormats: {
-                Bh: "h B",
+                Bh: "h 'giờ' B",
                 Bhm: "h:mm B",
                 Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
-                EBhm: "E h:mm B",
-                EBhms: "E h:mm:ss B",
+                EBh: "h 'giờ' B E",
+                EBhm: "h:mm B E",
+                EBhms: "h:mm:ss B E",
                 Ed: "E, 'ngày' d",
-                Ehm: "E h:mm a",
-                EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
-                EHms: "E HH:mm:ss",
+                Eh: "h 'giờ' a E",
+                Ehm: "h:mm a E",
+                EHm: "HH:mm E",
+                Ehms: "h:mm:ss a E",
+                EHms: "HH:mm:ss E",
                 Gy: "y G",
-                GyMd: "dd/MM/y GGGGG",
+                GyM: "M/y G",
+                GyMd: "d/M/y G",
+                GyMEd: "E, d/M/y G",
                 GyMMM: "MMM y G",
-                GyMMMd: "dd MMM, y G",
-                GyMMMEd: "E, dd/MM/y G",
-                h: "h a",
-                H: "HH",
-                hm: "h:mm a",
+                GyMMMd: "d MMM, y G",
+                GyMMMEd: "E, d MMM, y G",
+                h: "h a",
+                H: "HH 'giờ'",
+                hm: "h:mm a",
                 Hm: "H:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
+                hv: "h 'giờ' a v",
+                Hv: "HH'h' v",
                 M: "L",
-                Md: "dd/M",
-                MEd: "E, dd/M",
+                Md: "d/M",
+                MEd: "E, d/M",
                 MMdd: "dd-MM",
                 MMM: "LLL",
                 MMMd: "d MMM",
@@ -71,7 +77,7 @@ const data = {
                 y: "y",
                 yM: "M/y",
                 yMd: "d/M/y",
-                yMEd: "E, dd/M/y",
+                yMEd: "E, d/M/y",
                 yMM: "'tháng' MM, y",
                 yMMM: "MMM y",
                 yMMMd: "d MMM, y",
@@ -92,18 +98,18 @@ const data = {
             full: "EEEE, d MMMM, y",
             long: "d MMMM, y",
             medium: "d MMM, y",
-            short: "dd/MM/y"
+            short: "d/M/yy"
         },
         days: {
             format: {
                 abbreviated: [
                     "CN",
-                    "Th 2",
-                    "Th 3",
-                    "Th 4",
-                    "Th 5",
-                    "Th 6",
-                    "Th 7"
+                    "Thứ 2",
+                    "Thứ 3",
+                    "Thứ 4",
+                    "Thứ 5",
+                    "Thứ 6",
+                    "Thứ 7"
                 ],
                 narrow: [
                     "CN",
@@ -136,12 +142,12 @@ const data = {
             "stand-alone": {
                 abbreviated: [
                     "CN",
-                    "Th 2",
-                    "Th 3",
-                    "Th 4",
-                    "Th 5",
-                    "Th 6",
-                    "Th 7"
+                    "Thứ 2",
+                    "Thứ 3",
+                    "Thứ 4",
+                    "Thứ 5",
+                    "Thứ 6",
+                    "Thứ 7"
                 ],
                 narrow: [
                     "CN",
@@ -219,18 +225,18 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "Thg 1",
-                    "Thg 2",
-                    "Thg 3",
-                    "Thg 4",
-                    "Thg 5",
-                    "Thg 6",
-                    "Thg 7",
-                    "Thg 8",
-                    "Thg 9",
-                    "Thg 10",
-                    "Thg 11",
-                    "Thg 12"
+                    "Tháng 1",
+                    "Tháng 2",
+                    "Tháng 3",
+                    "Tháng 4",
+                    "Tháng 5",
+                    "Tháng 6",
+                    "Tháng 7",
+                    "Tháng 8",
+                    "Tháng 9",
+                    "Tháng 10",
+                    "Tháng 11",
+                    "Tháng 12"
                 ],
                 narrow: [
                     "1",
@@ -329,7 +335,7 @@ const data = {
                 wide: {
                     midnight: "nửa đêm",
                     am: "SA",
-                    noon: "TR",
+                    noon: "trưa",
                     pm: "CH",
                     morning1: "sáng",
                     afternoon1: "chiều",
@@ -373,22 +379,22 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    "0": "Trước Thiên Chúa",
+                    "0": "Trước Chúa Giáng Sinh",
                     "1": "Sau Công Nguyên",
                     "0-alt-variant": "Trước Công Nguyên",
-                    "1-alt-variant": "Công Nguyên"
+                    "1-alt-variant": "Sau Công Nguyên"
                 },
                 abbreviated: {
-                    "0": "Trước CN",
-                    "1": "Sau CN",
-                    "0-alt-variant": "trước CN",
-                    "1-alt-variant": "CN"
+                    "0": "TCN",
+                    "1": "SCN",
+                    "0-alt-variant": "TCN",
+                    "1-alt-variant": "SCN"
                 },
                 narrow: {
-                    "0": "tr. CN",
-                    "1": "sau CN",
-                    "0-alt-variant": "trước CN",
-                    "1-alt-variant": "CN"
+                    "0": "TCN",
+                    "1": "CN",
+                    "0-alt-variant": "TCN",
+                    "1-alt-variant": "SCN"
                 }
             }
         },
@@ -471,7 +477,7 @@ const data = {
                 narrow: "Múi giờ"
             },
             millisecond: {
-                narrow: "miligiây",
+                narrow: "mili giây",
                 short: "mili giây",
                 wide: "mili giây"
             }

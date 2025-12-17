@@ -16,18 +16,18 @@ const data = {
             M: "MMMM d",
             y: "MMM y",
             Y: "MMMM y",
-            F: "EEEE, MMMM d, y h:mm:ss a",
-            g: "M/d/y h:mm a",
-            G: "M/d/y h:mm:ss a",
-            t: "h:mm a",
-            T: "h:mm:ss a",
+            F: "EEEE, MMMM d, y h:mm:ss a",
+            g: "M/d/y h:mm a",
+            G: "M/d/y h:mm:ss a",
+            t: "h:mm a",
+            T: "h:mm:ss a",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} 'ee' {0}",
-            long: "{1} 'ee' {0}",
-            medium: "{1} 'ee' {0}",
+            full: "{1} {0}",
+            long: "{1} {0}",
+            medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
                 Bh: "h B",
@@ -35,28 +35,34 @@ const data = {
                 Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBh: "E h B",
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "d, E",
+                Eh: "E h a",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyM: "M/y G",
                 GyMd: "M/d/y GGGGG",
+                GyMEd: "E, M/d/y G",
                 GyMMM: "MMM y G",
                 GyMMMd: "MMM d, y G",
                 GyMMMEd: "E, MMM d, y G",
-                h: "h a",
+                h: "h a",
                 H: "HH",
                 hm: "h:mm a",
                 Hm: "HH:mm",
                 hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
                 hmv: "h:mm a v",
                 Hmv: "HH:mm v",
+                hv: "h a v",
+                Hv: "HH'h' v",
                 M: "L",
                 Md: "M/d",
                 MEd: "E, M/d",
@@ -83,10 +89,10 @@ const data = {
             }
         },
         timeFormats: {
-            full: "h:mm:ss a zzzz",
-            long: "h:mm:ss a z",
-            medium: "h:mm:ss a",
-            short: "h:mm a"
+            full: "h:mm:ss a zzzz",
+            long: "h:mm:ss a z",
+            medium: "h:mm:ss a",
+            short: "h:mm a"
         },
         dateFormats: {
             full: "EEEE, MMMM d, y",
@@ -156,7 +162,7 @@ const data = {
                     "Axd",
                     "Isn",
                     "Tldo",
-                    "Arbaco",
+                    "Arbc",
                     "Khms",
                     "Jmc",
                     "Sbti"
@@ -203,18 +209,18 @@ const data = {
                     "D"
                 ],
                 wide: [
-                    "Bisha Koobaad",
-                    "Bisha Labaad",
-                    "Bisha Saddexaad",
-                    "Bisha Afraad",
-                    "Bisha Shanaad",
-                    "Bisha Lixaad",
-                    "Bisha Todobaad",
-                    "Bisha Sideedaad",
-                    "Bisha Sagaalaad",
-                    "Bisha Tobnaad",
-                    "Bisha Kow iyo Tobnaad",
-                    "Bisha Laba iyo Tobnaad"
+                    "Janaayo",
+                    "Febraayo",
+                    "Maarso",
+                    "Abriil",
+                    "Maayo",
+                    "Juun",
+                    "Luulyo",
+                    "Agosto",
+                    "Sebtembar",
+                    "Oktoobar",
+                    "Noofeembar",
+                    "Diseembar"
                 ]
             },
             "stand-alone": {
@@ -251,14 +257,14 @@ const data = {
                     "Febraayo",
                     "Maarso",
                     "Abriil",
-                    "May",
+                    "Maayo",
                     "Juun",
-                    "Luuliyo",
-                    "Ogost",
-                    "Sebtembar",
+                    "Luulyo",
+                    "Ogosto",
+                    "Sebteembar",
                     "Oktoobar",
-                    "Nofembar",
-                    "Desembar"
+                    "Noofeembar",
+                    "Diseembar"
                 ]
             }
         },
@@ -321,11 +327,11 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: {
-                    am: "AM",
+                    am: "GH",
                     pm: "GD"
                 },
                 narrow: {
-                    am: "AM",
+                    am: "GH",
                     pm: "GD"
                 },
                 wide: {
@@ -365,12 +371,12 @@ const data = {
                 narrow: "saman"
             },
             year: {
-                wide: "Sannad",
+                wide: "sannad",
                 short: "snd",
-                narrow: "Snd"
+                narrow: "snd"
             },
             quarter: {
-                wide: "Rubuc",
+                wide: "rubuc",
                 short: "rbc",
                 narrow: "rbc"
             },
@@ -396,13 +402,13 @@ const data = {
             },
             dayOfYear: {
                 wide: "maalinta sannadka",
-                short: "mlnta sndka",
-                narrow: "mlnta sndka"
+                short: "maalinta sndka",
+                narrow: "maalinta sndka"
             },
             weekday: {
                 wide: "maalinta toddobaadka",
-                short: "mlnta tdbdka",
-                narrow: "mlnta tdbdka"
+                short: "maalinta tdbdka",
+                narrow: "maalinta tdbdka"
             },
             weekdayOfMonth: {
                 wide: "maalinta-toddobaadka bisha",

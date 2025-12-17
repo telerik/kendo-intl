@@ -11,7 +11,9 @@ const data = {
     numbers: {
         symbols: {
             decimal: ",",
+            "decimal-alt-us": ".",
             group: " ",
+            "group-alt-us": ",",
             list: ";",
             percentSign: "%",
             plusSign: "+",
@@ -32,6 +34,7 @@ const data = {
                 3
             ]
         },
+        rational: {},
         scientific: {
             patterns: [
                 "nEn"

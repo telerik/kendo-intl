@@ -31,6 +31,7 @@ const data = {
                 3
             ]
         },
+        rational: {},
         scientific: {
             patterns: [
                 "nEn"
@@ -47,20 +48,18 @@ const data = {
         },
         currency: {
             patterns: [
-                "‏n $",
-                "‏-n $"
+                "‏n ‏$",
+                "‏-n ‏$"
             ],
             groupSize: [
                 3
             ],
-            "unitPattern-count-one": "n $",
-            "unitPattern-count-two": "n $",
-            "unitPattern-count-many": "n $",
             "unitPattern-count-other": "n $"
         },
         accounting: {
             patterns: [
-                "n $"
+                "‏n ‏$",
+                "‏-n ‏$"
             ],
             groupSize: [
                 3

@@ -10,12 +10,12 @@ const data = {
     calendar: {
         patterns: {
             d: "d.MM.y",
-            D: "EEEE, d MMMM y 'г'.",
+            D: "EEEE, d MMMM y 'г'.",
             m: "d MMM",
             M: "d MMMM",
             y: "LLL y",
             Y: "LLLL y",
-            F: "EEEE, d MMMM y 'г'. HH:mm:ss",
+            F: "EEEE, d MMMM y 'г'. HH:mm:ss",
             g: "d.M.y HH:mm",
             G: "d.M.y HH:mm:ss",
             t: "HH:mm",
@@ -24,8 +24,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} 'у' {0}",
-            long: "{1} 'у' {0}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
@@ -34,28 +34,34 @@ const data = {
                 Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBh: "E h B",
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "d, E",
-                Ehm: "E h:mm a",
+                Eh: "E h a",
+                Ehm: "E h:mm a",
                 EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
-                Gy: "y 'г'. G",
+                Gy: "y 'г'. G",
+                GyM: "G y-MM",
                 GyMd: "dd.MM.y GGGGG",
-                GyMMM: "LLL y 'г'. G",
-                GyMMMd: "d MMM y 'г'. G",
-                GyMMMEd: "E, d MMM y 'г'. G",
-                h: "hh a",
-                H: "HH",
-                hm: "h:mm a",
+                GyMEd: "G y-MM-dd, E",
+                GyMMM: "LLL y 'г'. G",
+                GyMMMd: "d MMM y 'г'. G",
+                GyMMMEd: "E, d MMM y 'г'. G",
+                h: "hh a",
+                H: "H",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
+                hv: "h a v",
+                Hv: "HH 'г' v",
                 M: "L",
                 Md: "d.M",
                 MEd: "E, d.M",
@@ -92,9 +98,9 @@ const data = {
             short: "HH:mm"
         },
         dateFormats: {
-            full: "EEEE, d MMMM y 'г'.",
-            long: "d MMMM y 'г'.",
-            medium: "d MMM y 'г'.",
+            full: "EEEE, d MMMM y 'г'.",
+            long: "d MMMM y 'г'.",
+            medium: "d MMM y 'г'.",
             short: "d.MM.yy"
         },
         days: {
@@ -413,9 +419,9 @@ const data = {
                 narrow: "дзень месяца"
             },
             dayperiod: {
-                short: "AM/PM",
-                wide: "AM/PM",
-                narrow: "AM/PM"
+                short: "Dayperiod",
+                wide: "Dayperiod",
+                narrow: "Dayperiod"
             },
             hour: {
                 wide: "гадзіна",

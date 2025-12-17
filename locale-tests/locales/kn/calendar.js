@@ -11,7 +11,7 @@ const data = {
         patterns: {
             d: "d/M/y",
             D: "EEEE, MMMM d, y",
-            m: "MMM d",
+            m: "d MMM",
             M: "d MMMM",
             y: "MMM y",
             Y: "MMMM y",
@@ -34,19 +34,23 @@ const data = {
                 Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBh: "E h B",
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "d E",
+                Eh: "E h a",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
-                GyMd: "GGGGG y-MM-dd",
+                GyM: "G y-MM",
+                GyMd: "G y-MM-dd",
+                GyMEd: "G y-MM-dd, E",
                 GyMMM: "G y MMM",
                 GyMMMd: "G y MMM d",
                 GyMMMEd: "G y MMM d, E",
-                h: "h a",
+                h: "h a",
                 H: "HH",
                 hm: "h:mm a",
                 Hm: "HH:mm",
@@ -56,15 +60,16 @@ const data = {
                 Hmsv: "HH:mm:ss v",
                 hmv: "h:mm a v",
                 Hmv: "HH:mm v",
+                hv: "h a v",
+                Hv: "HH'h' v",
                 M: "L",
                 Md: "d/M",
                 MEd: "d/M, E",
                 MMdd: "dd-MM",
                 MMM: "LLL",
-                MMMd: "MMM d",
+                MMMd: "d MMM",
                 MMMEd: "E, d MMM",
                 MMMMd: "d MMMM",
-                "MMMMW-count-one": "'week' W 'of' MMMM",
                 "MMMMW-count-other": "'week' W 'of' MMMM",
                 ms: "mm:ss",
                 y: "y",
@@ -78,7 +83,6 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'week' w 'of' Y",
                 "yw-count-other": "'week' w 'of' Y"
             }
         },
@@ -175,8 +179,8 @@ const data = {
         months: {
             format: {
                 abbreviated: [
-                    "ಜನವರಿ",
-                    "ಫೆಬ್ರವರಿ",
+                    "ಜನ",
+                    "ಫೆಬ್ರ",
                     "ಮಾರ್ಚ್",
                     "ಏಪ್ರಿ",
                     "ಮೇ",
@@ -308,8 +312,8 @@ const data = {
             format: {
                 abbreviated: {
                     midnight: "ಮಧ್ಯ ರಾತ್ರಿ",
-                    am: "ಪೂರ್ವಾಹ್ನ",
-                    pm: "ಅಪರಾಹ್ನ",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "ಬೆಳಗ್ಗೆ",
                     afternoon1: "ಮಧ್ಯಾಹ್ನ",
                     evening1: "ಸಂಜೆ",
@@ -317,8 +321,8 @@ const data = {
                 },
                 narrow: {
                     midnight: "ಮಧ್ಯರಾತ್ರಿ",
-                    am: "ಪೂ",
-                    pm: "ಅ",
+                    am: "a",
+                    pm: "p",
                     morning1: "ಬೆಳಗ್ಗೆ",
                     afternoon1: "ಮಧ್ಯಾಹ್ನ",
                     evening1: "ಸಂಜೆ",
@@ -326,8 +330,8 @@ const data = {
                 },
                 wide: {
                     midnight: "ಮಧ್ಯ ರಾತ್ರಿ",
-                    am: "ಪೂರ್ವಾಹ್ನ",
-                    pm: "ಅಪರಾಹ್ನ",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "ಬೆಳಗ್ಗೆ",
                     afternoon1: "ಮಧ್ಯಾಹ್ನ",
                     evening1: "ಸಂಜೆ",
@@ -337,8 +341,8 @@ const data = {
             "stand-alone": {
                 abbreviated: {
                     midnight: "ಮಧ್ಯರಾತ್ರಿ",
-                    am: "ಪೂರ್ವಾಹ್ನ",
-                    pm: "ಅಪರಾಹ್ನ",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "ಬೆಳಗ್ಗೆ",
                     afternoon1: "ಮಧ್ಯಾಹ್ನ",
                     evening1: "ಸಂಜೆ",
@@ -346,8 +350,8 @@ const data = {
                 },
                 narrow: {
                     midnight: "ಮಧ್ಯರಾತ್ರಿ",
-                    am: "ಪೂರ್ವಾಹ್ನ",
-                    pm: "ಅಪರಾಹ್ನ",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "ಬೆಳಗ್ಗೆ",
                     afternoon1: "ಮಧ್ಯಾಹ್ನ",
                     evening1: "ಸಂಜೆ",
@@ -355,8 +359,8 @@ const data = {
                 },
                 wide: {
                     midnight: "ಮಧ್ಯರಾತ್ರಿ",
-                    am: "ಪೂರ್ವಾಹ್ನ",
-                    pm: "ಅಪರಾಹ್ನ",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "ಬೆಳಗ್ಗೆ",
                     afternoon1: "ಮಧ್ಯಾಹ್ನ",
                     evening1: "ಸಂಜೆ",
@@ -406,8 +410,8 @@ const data = {
             },
             month: {
                 wide: "ತಿಂಗಳು",
-                short: "ತಿಂಗಳು",
-                narrow: "ತಿಂಗಳು"
+                short: "ತಿಂ.",
+                narrow: "ತಿಂ"
             },
             week: {
                 wide: "ವಾರ",
@@ -440,7 +444,7 @@ const data = {
                 narrow: "ತಿಂಗಳ ವಾರದ ದಿನ"
             },
             dayperiod: {
-                short: "ಪೂರ್ವಾಹ್ನ/ಅಪರಾಹ್ನ",
+                short: "AM/PM",
                 wide: "AM/PM",
                 narrow: "AM/PM"
             },

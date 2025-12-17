@@ -25,8 +25,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} 'kl'. {0}",
-            long: "{1} 'kl'. {0}",
+            full: "{1} {0}",
+            long: "{1} {0}",
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
@@ -35,28 +35,34 @@ const data = {
                 Bhms: "h.mm.ss B",
                 d: "d.",
                 E: "ccc",
+                EBh: "E h B",
                 EBhm: "E h.mm B",
                 EBhms: "E h.mm.ss B",
                 Ed: "E 'den' d.",
-                Ehm: "E h.mm a",
+                Eh: "E h a",
+                Ehm: "E h.mm a",
                 EHm: "E HH.mm",
-                Ehms: "E h.mm.ss a",
+                Ehms: "E h.mm.ss a",
                 EHms: "E HH.mm.ss",
                 Gy: "y G",
+                GyM: "M/y G",
                 GyMd: "d.M.y GGGGG",
+                GyMEd: "E d/M/y G",
                 GyMMM: "MMM y G",
                 GyMMMd: "d. MMM y G",
                 GyMMMEd: "E d. MMM y G",
-                h: "h a",
+                h: "h a",
                 H: "HH",
-                hm: "h.mm a",
+                hm: "h.mm a",
                 Hm: "HH.mm",
-                hms: "h.mm.ss a",
+                hms: "h.mm.ss a",
                 Hms: "HH.mm.ss",
-                hmsv: "h.mm.ss a v",
+                hmsv: "h.mm.ss a v",
                 Hmsv: "HH.mm.ss v",
-                hmv: "h.mm a v",
+                hmv: "h.mm a v",
                 Hmv: "HH.mm v",
+                hv: "h a v",
+                Hv: "HH'h' v",
                 M: "M",
                 Md: "d.M",
                 MEd: "E d.M",
@@ -101,9 +107,9 @@ const data = {
                 abbreviated: [
                     "søn.",
                     "man.",
-                    "tir.",
+                    "tirs.",
                     "ons.",
-                    "tor.",
+                    "tors.",
                     "fre.",
                     "lør."
                 ],
@@ -117,13 +123,13 @@ const data = {
                     "L"
                 ],
                 short: [
-                    "sø",
-                    "ma",
-                    "ti",
-                    "on",
-                    "to",
-                    "fr",
-                    "lø"
+                    "sø.",
+                    "ma.",
+                    "ti.",
+                    "on.",
+                    "to.",
+                    "fr.",
+                    "lø."
                 ],
                 wide: [
                     "søndag",
@@ -137,13 +143,13 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "søn",
-                    "man",
-                    "tir",
-                    "ons",
-                    "tor",
-                    "fre",
-                    "lør"
+                    "søn.",
+                    "man.",
+                    "tirs.",
+                    "ons.",
+                    "tors.",
+                    "fre.",
+                    "lør."
                 ],
                 narrow: [
                     "S",
@@ -155,13 +161,13 @@ const data = {
                     "L"
                 ],
                 short: [
-                    "sø",
-                    "ma",
-                    "ti",
-                    "on",
-                    "to",
-                    "fr",
-                    "lø"
+                    "sø.",
+                    "ma.",
+                    "ti.",
+                    "on.",
+                    "to.",
+                    "fr.",
+                    "lø."
                 ],
                 wide: [
                     "søndag",
@@ -375,8 +381,8 @@ const data = {
         eras: {
             format: {
                 wide: {
-                    "0": "f.Kr.",
-                    "1": "e.Kr.",
+                    "0": "før Kristus",
+                    "1": "efter Kristus",
                     "0-alt-variant": "før vesterlandsk tidsregning",
                     "1-alt-variant": "vesterlandsk tidsregning"
                 },

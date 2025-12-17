@@ -30,6 +30,7 @@ const data = {
                 3
             ]
         },
+        rational: {},
         scientific: {
             patterns: [
                 "nEn"
@@ -65,97 +66,79 @@ const data = {
         currencies: {
             ADP: {
                 displayName: "安道爾陪士特",
-                "displayName-count-other": "安道爾陪士特",
-                symbol: "ADP"
+                "displayName-count-other": "安道爾陪士特"
             },
             AED: {
                 displayName: "阿拉伯聯合酋長國迪爾汗",
-                "displayName-count-other": "阿拉伯聯合酋長國迪爾汗",
-                symbol: "AED"
+                "displayName-count-other": "阿拉伯聯合酋長國迪爾汗"
             },
             AFA: {
                 displayName: "阿富汗尼 (1927–2002)",
-                "displayName-count-other": "阿富汗尼 (1927–2002)",
-                symbol: "AFA"
+                "displayName-count-other": "阿富汗尼 (1927–2002)"
             },
             AFN: {
                 displayName: "阿富汗尼",
                 "displayName-count-other": "阿富汗尼",
-                symbol: "AFN",
                 "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "阿爾巴尼亞列克 (1946–1965)",
-                "displayName-count-other": "阿爾巴尼亞列克 (1946–1965)",
-                symbol: "ALK"
+                "displayName-count-other": "阿爾巴尼亞列克 (1946–1965)"
             },
             ALL: {
                 displayName: "阿爾巴尼亞列克",
-                "displayName-count-other": "阿爾巴尼亞列克",
-                symbol: "ALL"
+                "displayName-count-other": "阿爾巴尼亞列克"
             },
             AMD: {
                 displayName: "亞美尼亞德拉姆",
                 "displayName-count-other": "亞美尼亞德拉姆",
-                symbol: "AMD",
                 "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "荷屬安地列斯盾",
-                "displayName-count-other": "荷屬安地列斯盾",
-                symbol: "ANG"
+                "displayName-count-other": "荷屬安地列斯盾"
             },
             AOA: {
                 displayName: "安哥拉寬扎",
                 "displayName-count-other": "安哥拉寬扎",
-                symbol: "AOA",
                 "symbol-alt-narrow": "Kz"
             },
             AOK: {
                 displayName: "安哥拉寬扎 (1977–1990)",
-                "displayName-count-other": "安哥拉寬扎 (1977–1990)",
-                symbol: "AOK"
+                "displayName-count-other": "安哥拉寬扎 (1977–1990)"
             },
             AON: {
                 displayName: "安哥拉新寬扎 (1990–2000)",
-                "displayName-count-other": "安哥拉新寬扎 (1990–2000)",
-                symbol: "AON"
+                "displayName-count-other": "安哥拉新寬扎 (1990–2000)"
             },
             AOR: {
                 displayName: "安哥拉新調寬扎 (1995–1999)",
-                "displayName-count-other": "安哥拉新調寬扎 (1995–1999)",
-                symbol: "AOR"
+                "displayName-count-other": "安哥拉新調寬扎 (1995–1999)"
             },
             ARA: {
                 displayName: "阿根廷奧斯特納爾",
-                "displayName-count-other": "阿根廷奧斯特納爾",
-                symbol: "ARA"
+                "displayName-count-other": "阿根廷奧斯特納爾"
             },
             ARL: {
                 displayName: "阿根廷披索 (1970–1983)",
-                "displayName-count-other": "阿根廷披索 (1970–1983)",
-                symbol: "ARL"
+                "displayName-count-other": "阿根廷披索 (1970–1983)"
             },
             ARM: {
                 displayName: "阿根廷披索 (1881–1970)",
-                "displayName-count-other": "阿根廷披索 (1881–1970)",
-                symbol: "ARM"
+                "displayName-count-other": "阿根廷披索 (1881–1970)"
             },
             ARP: {
                 displayName: "阿根廷披索 (1983–1985)",
-                "displayName-count-other": "阿根廷披索 (1983–1985)",
-                symbol: "ARP"
+                "displayName-count-other": "阿根廷披索 (1983–1985)"
             },
             ARS: {
                 displayName: "阿根廷披索",
                 "displayName-count-other": "阿根廷披索",
-                symbol: "ARS",
                 "symbol-alt-narrow": "$"
             },
             ATS: {
                 displayName: "奧地利先令",
-                "displayName-count-other": "奧地利先令",
-                symbol: "ATS"
+                "displayName-count-other": "奧地利先令"
             },
             AUD: {
                 displayName: "澳元",
@@ -165,204 +148,167 @@ const data = {
             },
             AWG: {
                 displayName: "阿魯巴盾",
-                "displayName-count-other": "阿魯巴盾",
-                symbol: "AWG"
+                "displayName-count-other": "阿魯巴盾"
             },
             AZM: {
                 displayName: "亞塞拜然馬納特 (1993–2006)",
-                "displayName-count-other": "亞塞拜然馬納特 (1993–2006)",
-                symbol: "AZM"
+                "displayName-count-other": "亞塞拜然馬納特 (1993–2006)"
             },
             AZN: {
                 displayName: "亞塞拜疆馬納特",
                 "displayName-count-other": "亞塞拜疆馬納特",
-                symbol: "AZN",
                 "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "波斯尼亞-赫塞哥維納第納爾",
-                "displayName-count-other": "波士尼亞-赫塞哥維納第納爾",
-                symbol: "BAD"
+                "displayName-count-other": "波斯尼亞-赫塞哥維納第納爾"
             },
             BAM: {
                 displayName: "波斯尼亞-赫塞哥維納可轉換馬克",
                 "displayName-count-other": "波斯尼亞-赫塞哥維納可轉換馬克",
-                symbol: "BAM",
                 "symbol-alt-narrow": "KM"
             },
             BAN: {
                 displayName: "波士尼亞-赫塞哥維納新第納爾",
-                "displayName-count-other": "波士尼亞-赫塞哥維納新第納爾",
-                symbol: "BAN"
+                "displayName-count-other": "波士尼亞-赫塞哥維納新第納爾"
             },
             BBD: {
                 displayName: "巴巴多斯元",
                 "displayName-count-other": "巴巴多斯元",
-                symbol: "BBD",
                 "symbol-alt-narrow": "$"
             },
             BDT: {
                 displayName: "孟加拉塔卡",
                 "displayName-count-other": "孟加拉塔卡",
-                symbol: "BDT",
                 "symbol-alt-narrow": "৳"
             },
             BEC: {
                 displayName: "比利時法郎（可兌換）",
-                "displayName-count-other": "比利時法郎（可兌換）",
-                symbol: "BEC"
+                "displayName-count-other": "比利時法郎（可兌換）"
             },
             BEF: {
                 displayName: "比利時法郎",
-                "displayName-count-other": "比利時法郎",
-                symbol: "BEF"
+                "displayName-count-other": "比利時法郎"
             },
             BEL: {
                 displayName: "比利時法郎（金融）",
-                "displayName-count-other": "比利時法郎（金融）",
-                symbol: "BEL"
+                "displayName-count-other": "比利時法郎（金融）"
             },
             BGL: {
                 displayName: "保加利亞硬列弗",
-                "displayName-count-other": "保加利亞硬列弗",
-                symbol: "BGL"
+                "displayName-count-other": "保加利亞硬列弗"
             },
             BGM: {
                 displayName: "保加利亞社會黨列弗",
-                "displayName-count-other": "保加利亞社會黨列弗",
-                symbol: "BGM"
+                "displayName-count-other": "保加利亞社會黨列弗"
             },
             BGN: {
                 displayName: "保加利亞新列弗",
-                "displayName-count-other": "保加利亞新列弗",
-                symbol: "BGN"
+                "displayName-count-other": "保加利亞新列弗"
             },
             BGO: {
                 displayName: "保加利亞列弗 (1879–1952)",
-                "displayName-count-other": "保加利亞列弗 (1879–1952)",
-                symbol: "BGO"
+                "displayName-count-other": "保加利亞列弗 (1879–1952)"
             },
             BHD: {
                 displayName: "巴林第納爾",
-                "displayName-count-other": "巴林第納爾",
-                symbol: "BHD"
+                "displayName-count-other": "巴林第納爾"
             },
             BIF: {
                 displayName: "布隆迪法郎",
-                "displayName-count-other": "布隆迪法郎",
-                symbol: "BIF"
+                "displayName-count-other": "布隆迪法郎"
             },
             BMD: {
                 displayName: "百慕達元",
                 "displayName-count-other": "百慕達元",
-                symbol: "BMD",
                 "symbol-alt-narrow": "$"
             },
             BND: {
                 displayName: "汶萊元",
                 "displayName-count-other": "汶萊元",
-                symbol: "BND",
                 "symbol-alt-narrow": "$"
             },
             BOB: {
                 displayName: "玻利維亞諾",
                 "displayName-count-other": "玻利維亞諾",
-                symbol: "BOB",
                 "symbol-alt-narrow": "Bs"
             },
             BOL: {
                 displayName: "玻利維亞玻利維亞諾 (1863–1963)",
-                "displayName-count-other": "玻利維亞玻利維亞諾 (1863–1963)",
-                symbol: "BOL"
+                "displayName-count-other": "玻利維亞玻利維亞諾 (1863–1963)"
             },
             BOP: {
                 displayName: "玻利維亞披索",
-                "displayName-count-other": "玻利維亞披索",
-                symbol: "BOP"
+                "displayName-count-other": "玻利維亞披索"
             },
             BOV: {
                 displayName: "玻利維亞幕多",
-                "displayName-count-other": "玻利維亞幕多",
-                symbol: "BOV"
+                "displayName-count-other": "玻利維亞幕多"
             },
             BRB: {
                 displayName: "巴西克魯薩多農瓦 (1967–1986)",
-                "displayName-count-other": "巴西克魯薩多農瓦 (1967–1986)",
-                symbol: "BRB"
+                "displayName-count-other": "巴西克魯薩多農瓦 (1967–1986)"
             },
             BRC: {
                 displayName: "巴西克魯賽羅 (1986–1989)",
-                "displayName-count-other": "巴西克魯賽羅 (1986–1989)",
-                symbol: "BRC"
+                "displayName-count-other": "巴西克魯賽羅 (1986–1989)"
             },
             BRE: {
                 displayName: "巴西克魯賽羅 (1990–1993)",
-                "displayName-count-other": "巴西克魯賽羅 (1990–1993)",
-                symbol: "BRE"
+                "displayName-count-other": "巴西克魯賽羅 (1990–1993)"
             },
             BRL: {
-                displayName: "巴西里拉",
-                "displayName-count-other": "巴西里拉",
+                displayName: "巴西雷亞爾",
+                "displayName-count-other": "巴西雷亞爾",
                 symbol: "R$",
                 "symbol-alt-narrow": "R$"
             },
             BRN: {
                 displayName: "巴西克如爾達農瓦",
-                "displayName-count-other": "巴西克如爾達農瓦",
-                symbol: "BRN"
+                "displayName-count-other": "巴西克如爾達農瓦"
             },
             BRR: {
                 displayName: "巴西克魯賽羅 (1993–1994)",
-                "displayName-count-other": "巴西克魯賽羅 (1993–1994)",
-                symbol: "BRR"
+                "displayName-count-other": "巴西克魯賽羅 (1993–1994)"
             },
             BRZ: {
                 displayName: "巴西克魯賽羅 (1942 –1967)",
-                "displayName-count-other": "巴西克魯賽羅 (1942 –1967)",
-                symbol: "BRZ"
+                "displayName-count-other": "巴西克魯賽羅 (1942 –1967)"
             },
             BSD: {
                 displayName: "巴哈馬元",
                 "displayName-count-other": "巴哈馬元",
-                symbol: "BSD",
                 "symbol-alt-narrow": "$"
             },
             BTN: {
                 displayName: "不丹那特倫",
-                "displayName-count-other": "不丹那特倫",
-                symbol: "BTN"
+                "displayName-count-other": "不丹那特倫"
             },
             BUK: {
                 displayName: "緬甸基雅特",
-                "displayName-count-other": "緬甸基雅特",
-                symbol: "BUK"
+                "displayName-count-other": "緬甸基雅特"
             },
             BWP: {
                 displayName: "博茨瓦納普拉",
                 "displayName-count-other": "博茨瓦納普拉",
-                symbol: "BWP",
                 "symbol-alt-narrow": "P"
             },
             BYB: {
                 displayName: "白俄羅斯新盧布 (1994–1999)",
-                "displayName-count-other": "白俄羅斯新盧布 (1994–1999)",
-                symbol: "BYB"
+                "displayName-count-other": "白俄羅斯新盧布 (1994–1999)"
             },
             BYN: {
                 displayName: "白俄羅斯盧布",
                 "displayName-count-other": "白俄羅斯盧布",
-                symbol: "BYN",
                 "symbol-alt-narrow": "р."
             },
             BYR: {
                 displayName: "白俄羅斯盧布 (2000–2016)",
-                "displayName-count-other": "白俄羅斯盧布 (2000–2016)",
-                symbol: "BYR"
+                "displayName-count-other": "白俄羅斯盧布 (2000–2016)"
             },
             BZD: {
                 displayName: "伯利茲元",
                 "displayName-count-other": "伯利茲元",
-                symbol: "BZD",
                 "symbol-alt-narrow": "$"
             },
             CAD: {
@@ -373,48 +319,36 @@ const data = {
             },
             CDF: {
                 displayName: "剛果法郎",
-                "displayName-count-other": "剛果法郎",
-                symbol: "CDF"
+                "displayName-count-other": "剛果法郎"
             },
             CHE: {
                 displayName: "歐元 (WIR)",
-                "displayName-count-other": "歐元 (WIR)",
-                symbol: "CHE"
+                "displayName-count-other": "歐元 (WIR)"
             },
             CHF: {
                 displayName: "瑞士法郎",
-                "displayName-count-other": "瑞士法郎",
-                symbol: "CHF"
+                "displayName-count-other": "瑞士法郎"
             },
             CHW: {
                 displayName: "法郎 (WIR)",
-                "displayName-count-other": "法郎 (WIR)",
-                symbol: "CHW"
+                "displayName-count-other": "法郎 (WIR)"
             },
             CLE: {
                 displayName: "智利埃斯庫多",
-                "displayName-count-other": "智利埃斯庫多",
-                symbol: "CLE"
+                "displayName-count-other": "智利埃斯庫多"
             },
             CLF: {
                 displayName: "卡林油達佛曼跎",
-                "displayName-count-other": "卡林油達佛曼跎",
-                symbol: "CLF"
+                "displayName-count-other": "卡林油達佛曼跎"
             },
             CLP: {
                 displayName: "智利披索",
                 "displayName-count-other": "智利披索",
-                symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
             CNH: {
                 displayName: "人民幣（離岸）",
-                "displayName-count-other": "人民幣（離岸）",
-                symbol: "CNH"
-            },
-            CNX: {
-                displayName: "CNX",
-                symbol: "CNX"
+                "displayName-count-other": "人民幣（離岸）"
             },
             CNY: {
                 displayName: "人民幣",
@@ -425,136 +359,111 @@ const data = {
             COP: {
                 displayName: "哥倫比亞披索",
                 "displayName-count-other": "哥倫比亞披索",
-                symbol: "COP",
                 "symbol-alt-narrow": "$"
             },
             COU: {
                 displayName: "哥倫比亞幣 (COU)",
-                "displayName-count-other": "哥倫比亞幣 (COU)",
-                symbol: "COU"
+                "displayName-count-other": "哥倫比亞幣 (COU)"
             },
             CRC: {
                 displayName: "哥斯達黎加科郎",
                 "displayName-count-other": "哥斯達黎加科郎",
-                symbol: "CRC",
                 "symbol-alt-narrow": "₡"
             },
             CSD: {
                 displayName: "舊塞爾維亞第納爾",
-                "displayName-count-other": "舊塞爾維亞第納爾",
-                symbol: "CSD"
+                "displayName-count-other": "舊塞爾維亞第納爾"
             },
             CSK: {
                 displayName: "捷克斯洛伐克硬克朗",
-                "displayName-count-other": "捷克斯洛伐克硬克朗",
-                symbol: "CSK"
+                "displayName-count-other": "捷克斯洛伐克硬克朗"
             },
             CUC: {
                 displayName: "古巴可轉換披索",
                 "displayName-count-other": "古巴可轉換披索",
-                symbol: "CUC",
                 "symbol-alt-narrow": "$"
             },
             CUP: {
                 displayName: "古巴披索",
                 "displayName-count-other": "古巴披索",
-                symbol: "CUP",
                 "symbol-alt-narrow": "$"
             },
             CVE: {
                 displayName: "佛得角埃斯庫多",
-                "displayName-count-other": "佛得角埃斯庫多",
-                symbol: "CVE"
+                "displayName-count-other": "佛得角埃斯庫多"
             },
             CYP: {
                 displayName: "賽普勒斯鎊",
-                "displayName-count-other": "賽普勒斯鎊",
-                symbol: "CYP"
+                "displayName-count-other": "賽普勒斯鎊"
             },
             CZK: {
                 displayName: "捷克克朗",
                 "displayName-count-other": "捷克克朗",
-                symbol: "CZK",
                 "symbol-alt-narrow": "Kč"
             },
             DDM: {
                 displayName: "東德奧斯特馬克",
-                "displayName-count-other": "東德奧斯特馬克",
-                symbol: "DDM"
+                "displayName-count-other": "東德奧斯特馬克"
             },
             DEM: {
                 displayName: "德國馬克",
-                "displayName-count-other": "德國馬克",
-                symbol: "DEM"
+                "displayName-count-other": "德國馬克"
             },
             DJF: {
                 displayName: "吉布提法郎",
-                "displayName-count-other": "吉布提法郎",
-                symbol: "DJF"
+                "displayName-count-other": "吉布提法郎"
             },
             DKK: {
                 displayName: "丹麥克朗",
                 "displayName-count-other": "丹麥克朗",
-                symbol: "DKK",
                 "symbol-alt-narrow": "kr"
             },
             DOP: {
                 displayName: "多米尼加披索",
                 "displayName-count-other": "多米尼加披索",
-                symbol: "DOP",
                 "symbol-alt-narrow": "$"
             },
             DZD: {
                 displayName: "阿爾及利亞第納爾",
-                "displayName-count-other": "阿爾及利亞第納爾",
-                symbol: "DZD"
+                "displayName-count-other": "阿爾及利亞第納爾"
             },
             ECS: {
                 displayName: "厄瓜多蘇克雷",
-                "displayName-count-other": "厄瓜多蘇克雷",
-                symbol: "ECS"
+                "displayName-count-other": "厄瓜多蘇克雷"
             },
             ECV: {
                 displayName: "厄瓜多爾由里達瓦康斯坦 (UVC)",
-                "displayName-count-other": "厄瓜多爾由里達瓦康斯坦 (UVC)",
-                symbol: "ECV"
+                "displayName-count-other": "厄瓜多爾由里達瓦康斯坦 (UVC)"
             },
             EEK: {
                 displayName: "愛沙尼亞克朗",
-                "displayName-count-other": "愛沙尼亞克朗",
-                symbol: "EEK"
+                "displayName-count-other": "愛沙尼亞克朗"
             },
             EGP: {
                 displayName: "埃及鎊",
                 "displayName-count-other": "埃及鎊",
-                symbol: "EGP",
                 "symbol-alt-narrow": "E£"
             },
             ERN: {
-                displayName: "厄立特里亞納克法",
-                "displayName-count-other": "厄立特里亞納克法",
-                symbol: "ERN"
+                displayName: "厄利垂亞納可法",
+                "displayName-count-other": "厄利垂亞納可法"
             },
             ESA: {
                 displayName: "西班牙比塞塔（會計單位）",
-                "displayName-count-other": "西班牙比塞塔（會計單位）",
-                symbol: "ESA"
+                "displayName-count-other": "西班牙比塞塔（會計單位）"
             },
             ESB: {
                 displayName: "西班牙比塞塔（可轉換會計單位）",
-                "displayName-count-other": "西班牙比塞塔（可轉換會計單位）",
-                symbol: "ESB"
+                "displayName-count-other": "西班牙比塞塔（可轉換會計單位）"
             },
             ESP: {
                 displayName: "西班牙陪士特",
                 "displayName-count-other": "西班牙陪士特",
-                symbol: "ESP",
                 "symbol-alt-narrow": "₧"
             },
             ETB: {
                 displayName: "埃塞俄比亞比爾",
-                "displayName-count-other": "埃塞俄比亞比爾",
-                symbol: "ETB"
+                "displayName-count-other": "埃塞俄比亞比爾"
             },
             EUR: {
                 displayName: "歐元",
@@ -564,25 +473,21 @@ const data = {
             },
             FIM: {
                 displayName: "芬蘭馬克",
-                "displayName-count-other": "芬蘭馬克",
-                symbol: "FIM"
+                "displayName-count-other": "芬蘭馬克"
             },
             FJD: {
                 displayName: "斐濟元",
                 "displayName-count-other": "斐濟元",
-                symbol: "FJD",
                 "symbol-alt-narrow": "$"
             },
             FKP: {
                 displayName: "福克蘭群島鎊",
                 "displayName-count-other": "福克蘭群島鎊",
-                symbol: "FKP",
                 "symbol-alt-narrow": "£"
             },
             FRF: {
                 displayName: "法國法郎",
-                "displayName-count-other": "法國法郎",
-                symbol: "FRF"
+                "displayName-count-other": "法國法郎"
             },
             GBP: {
                 displayName: "英鎊",
@@ -592,78 +497,64 @@ const data = {
             },
             GEK: {
                 displayName: "喬治亞庫旁拉里",
-                "displayName-count-other": "喬治亞庫旁拉里",
-                symbol: "GEK"
+                "displayName-count-other": "喬治亞庫旁拉里"
             },
             GEL: {
                 displayName: "格魯吉亞拉里",
                 "displayName-count-other": "格魯吉亞拉里",
-                symbol: "GEL",
                 "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "迦納賽地 (1979–2007)",
-                "displayName-count-other": "迦納賽地 (1979–2007)",
-                symbol: "GHC"
+                "displayName-count-other": "迦納賽地 (1979–2007)"
             },
             GHS: {
                 displayName: "加納塞地",
                 "displayName-count-other": "加納塞地",
-                symbol: "GHS",
                 "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "直布羅陀鎊",
                 "displayName-count-other": "直布羅陀鎊",
-                symbol: "GIP",
                 "symbol-alt-narrow": "£"
             },
             GMD: {
                 displayName: "岡比亞達拉西",
-                "displayName-count-other": "岡比亞達拉西",
-                symbol: "GMD"
+                "displayName-count-other": "岡比亞達拉西"
             },
             GNF: {
                 displayName: "幾內亞法郎",
                 "displayName-count-other": "幾內亞法郎",
-                symbol: "GNF",
                 "symbol-alt-narrow": "FG"
             },
             GNS: {
                 displayName: "幾內亞西里",
-                "displayName-count-other": "幾內亞西里",
-                symbol: "GNS"
+                "displayName-count-other": "幾內亞西里"
             },
             GQE: {
                 displayName: "赤道幾內亞埃奎勒",
-                "displayName-count-other": "赤道幾內亞埃奎勒",
-                symbol: "GQE"
+                "displayName-count-other": "赤道幾內亞埃奎勒"
             },
             GRD: {
                 displayName: "希臘德拉克馬",
-                "displayName-count-other": "希臘德拉克馬",
-                symbol: "GRD"
+                "displayName-count-other": "希臘德拉克馬"
             },
             GTQ: {
                 displayName: "危地馬拉格查爾",
                 "displayName-count-other": "危地馬拉格查爾",
-                symbol: "GTQ",
                 "symbol-alt-narrow": "Q"
             },
             GWE: {
                 displayName: "葡屬幾內亞埃斯庫多",
-                "displayName-count-other": "葡屬幾內亞埃斯庫多",
-                symbol: "GWE"
+                "displayName-count-other": "葡屬幾內亞埃斯庫多"
             },
             GWP: {
                 displayName: "幾內亞比索披索",
-                "displayName-count-other": "幾內亞比索披索",
-                symbol: "GWP"
+                "displayName-count-other": "幾內亞比索披索"
             },
             GYD: {
                 displayName: "圭亞那元",
                 "displayName-count-other": "圭亞那元",
-                symbol: "GYD",
                 "symbol-alt-narrow": "$"
             },
             HKD: {
@@ -675,51 +566,42 @@ const data = {
             HNL: {
                 displayName: "洪都拉斯倫皮拉",
                 "displayName-count-other": "洪都拉斯倫皮拉",
-                symbol: "HNL",
                 "symbol-alt-narrow": "L"
             },
             HRD: {
                 displayName: "克羅埃西亞第納爾",
-                "displayName-count-other": "克羅埃西亞第納爾",
-                symbol: "HRD"
+                "displayName-count-other": "克羅埃西亞第納爾"
             },
             HRK: {
                 displayName: "克羅地亞庫納",
                 "displayName-count-other": "克羅地亞庫納",
-                symbol: "HRK",
                 "symbol-alt-narrow": "kn"
             },
             HTG: {
                 displayName: "海地古德",
-                "displayName-count-other": "海地古德",
-                symbol: "HTG"
+                "displayName-count-other": "海地古德"
             },
             HUF: {
                 displayName: "匈牙利福林",
                 "displayName-count-other": "匈牙利福林",
-                symbol: "HUF",
                 "symbol-alt-narrow": "Ft"
             },
             IDR: {
                 displayName: "印尼盾",
                 "displayName-count-other": "印尼盾",
-                symbol: "IDR",
                 "symbol-alt-narrow": "Rp"
             },
             IEP: {
                 displayName: "愛爾蘭鎊",
-                "displayName-count-other": "愛爾蘭鎊",
-                symbol: "IEP"
+                "displayName-count-other": "愛爾蘭鎊"
             },
             ILP: {
                 displayName: "以色列鎊",
-                "displayName-count-other": "以色列鎊",
-                symbol: "ILP"
+                "displayName-count-other": "以色列鎊"
             },
             ILR: {
                 displayName: "以色列謝克爾 (1980–1985)",
-                "displayName-count-other": "以色列謝克爾 (1980–1985)",
-                symbol: "ILR"
+                "displayName-count-other": "以色列謝克爾 (1980–1985)"
             },
             ILS: {
                 displayName: "以色列新謝克爾",
@@ -735,40 +617,33 @@ const data = {
             },
             IQD: {
                 displayName: "伊拉克第納爾",
-                "displayName-count-other": "伊拉克第納爾",
-                symbol: "IQD"
+                "displayName-count-other": "伊拉克第納爾"
             },
             IRR: {
                 displayName: "伊朗里亞爾",
-                "displayName-count-other": "伊朗里亞爾",
-                symbol: "IRR"
+                "displayName-count-other": "伊朗里亞爾"
             },
             ISJ: {
                 displayName: "冰島克朗 (1918–1981)",
-                "displayName-count-other": "冰島克朗 (1918–1981)",
-                symbol: "ISJ"
+                "displayName-count-other": "冰島克朗 (1918–1981)"
             },
             ISK: {
                 displayName: "冰島克朗",
                 "displayName-count-other": "冰島克朗",
-                symbol: "ISK",
                 "symbol-alt-narrow": "kr"
             },
             ITL: {
                 displayName: "意大利里拉",
-                "displayName-count-other": "義大利里拉",
-                symbol: "ITL"
+                "displayName-count-other": "意大利里拉"
             },
             JMD: {
                 displayName: "牙買加元",
                 "displayName-count-other": "牙買加元",
-                symbol: "JMD",
                 "symbol-alt-narrow": "$"
             },
             JOD: {
                 displayName: "約旦第納爾",
-                "displayName-count-other": "約旦第納爾",
-                symbol: "JOD"
+                "displayName-count-other": "約旦第納爾"
             },
             JPY: {
                 displayName: "日圓",
@@ -778,41 +653,35 @@ const data = {
             },
             KES: {
                 displayName: "肯雅先令",
-                "displayName-count-other": "肯雅先令",
-                symbol: "KES"
+                "displayName-count-other": "肯雅先令"
             },
             KGS: {
                 displayName: "吉爾吉斯索姆",
                 "displayName-count-other": "吉爾吉斯索姆",
-                symbol: "KGS"
+                "symbol-alt-narrow": "⃀"
             },
             KHR: {
                 displayName: "柬埔寨里爾",
                 "displayName-count-other": "柬埔寨里爾",
-                symbol: "KHR",
                 "symbol-alt-narrow": "៛"
             },
             KMF: {
                 displayName: "科摩羅法郎",
                 "displayName-count-other": "科摩羅法郎",
-                symbol: "KMF",
                 "symbol-alt-narrow": "CF"
             },
             KPW: {
                 displayName: "北韓圜",
                 "displayName-count-other": "北韓圜",
-                symbol: "KPW",
                 "symbol-alt-narrow": "₩"
             },
             KRH: {
                 displayName: "南韓圜",
-                "displayName-count-other": "南韓圜",
-                symbol: "KRH"
+                "displayName-count-other": "南韓圜"
             },
             KRO: {
                 displayName: "南韓圓",
-                "displayName-count-other": "南韓圓",
-                symbol: "KRO"
+                "displayName-count-other": "南韓圓"
             },
             KRW: {
                 displayName: "韓元",
@@ -822,153 +691,125 @@ const data = {
             },
             KWD: {
                 displayName: "科威特第納爾",
-                "displayName-count-other": "科威特第納爾",
-                symbol: "KWD"
+                "displayName-count-other": "科威特第納爾"
             },
             KYD: {
                 displayName: "開曼群島元",
                 "displayName-count-other": "開曼群島美元",
-                symbol: "KYD",
                 "symbol-alt-narrow": "$"
             },
             KZT: {
                 displayName: "哈薩克坦吉",
                 "displayName-count-other": "哈薩克坦吉",
-                symbol: "KZT",
                 "symbol-alt-narrow": "₸"
             },
             LAK: {
                 displayName: "老撾基普",
                 "displayName-count-other": "老撾基普",
-                symbol: "LAK",
                 "symbol-alt-narrow": "₭"
             },
             LBP: {
                 displayName: "黎巴嫩鎊",
                 "displayName-count-other": "黎巴嫩鎊",
-                symbol: "LBP",
                 "symbol-alt-narrow": "L£"
             },
             LKR: {
                 displayName: "斯里蘭卡盧比",
                 "displayName-count-other": "斯里蘭卡盧比",
-                symbol: "LKR",
                 "symbol-alt-narrow": "Rs"
             },
             LRD: {
                 displayName: "利比利亞元",
                 "displayName-count-other": "利比利亞元",
-                symbol: "LRD",
                 "symbol-alt-narrow": "$"
             },
             LSL: {
                 displayName: "賴索托洛蒂",
-                "displayName-count-other": "賴索托洛蒂",
-                symbol: "LSL"
+                "displayName-count-other": "賴索托洛蒂"
             },
             LTL: {
                 displayName: "立陶宛立特",
                 "displayName-count-other": "立陶宛里塔",
-                symbol: "LTL",
                 "symbol-alt-narrow": "Lt"
             },
             LTT: {
                 displayName: "立陶宛特羅",
-                "displayName-count-other": "立陶宛特羅",
-                symbol: "LTT"
+                "displayName-count-other": "立陶宛特羅"
             },
             LUC: {
                 displayName: "盧森堡可兌換法郎",
-                "displayName-count-other": "盧森堡可兌換法郎",
-                symbol: "LUC"
+                "displayName-count-other": "盧森堡可兌換法郎"
             },
             LUF: {
                 displayName: "盧森堡法郎",
-                "displayName-count-other": "盧森堡法郎",
-                symbol: "LUF"
+                "displayName-count-other": "盧森堡法郎"
             },
             LUL: {
                 displayName: "盧森堡金融法郎",
-                "displayName-count-other": "盧森堡金融法郎",
-                symbol: "LUL"
+                "displayName-count-other": "盧森堡金融法郎"
             },
             LVL: {
                 displayName: "拉脫維亞拉特銀幣",
                 "displayName-count-other": "拉脫維亞拉特銀幣",
-                symbol: "LVL",
                 "symbol-alt-narrow": "Ls"
             },
             LVR: {
                 displayName: "拉脫維亞盧布",
-                "displayName-count-other": "拉脫維亞盧布",
-                symbol: "LVR"
+                "displayName-count-other": "拉脫維亞盧布"
             },
             LYD: {
                 displayName: "利比亞第納爾",
-                "displayName-count-other": "利比亞第納爾",
-                symbol: "LYD"
+                "displayName-count-other": "利比亞第納爾"
             },
             MAD: {
                 displayName: "摩洛哥迪拉姆",
-                "displayName-count-other": "摩洛哥迪拉姆",
-                symbol: "MAD"
+                "displayName-count-other": "摩洛哥迪拉姆"
             },
             MAF: {
                 displayName: "摩洛哥法郎",
-                "displayName-count-other": "摩洛哥法郎",
-                symbol: "MAF"
+                "displayName-count-other": "摩洛哥法郎"
             },
             MCF: {
                 displayName: "摩納哥法郎",
-                "displayName-count-other": "摩納哥法郎",
-                symbol: "MCF"
+                "displayName-count-other": "摩納哥法郎"
             },
             MDC: {
                 displayName: "摩爾多瓦券",
-                "displayName-count-other": "摩爾多瓦券",
-                symbol: "MDC"
+                "displayName-count-other": "摩爾多瓦券"
             },
             MDL: {
                 displayName: "摩爾多瓦列伊",
-                "displayName-count-other": "摩爾多瓦列伊",
-                symbol: "MDL"
+                "displayName-count-other": "摩爾多瓦列伊"
             },
             MGA: {
                 displayName: "馬達加斯加阿里亞里",
                 "displayName-count-other": "馬達加斯加阿里亞里",
-                symbol: "MGA",
                 "symbol-alt-narrow": "Ar"
             },
             MGF: {
                 displayName: "馬達加斯加法郎",
-                "displayName-count-other": "馬達加斯加法郎",
-                symbol: "MGF"
+                "displayName-count-other": "馬達加斯加法郎"
             },
             MKD: {
                 displayName: "馬其頓第納爾",
-                "displayName-count-other": "馬其頓第納爾",
-                symbol: "MKD"
+                "displayName-count-other": "馬其頓第納爾"
             },
             MKN: {
                 displayName: "馬其頓第納爾 (1992–1993)",
-                "displayName-count-other": "馬其頓第納爾 (1992–1993)",
-                symbol: "MKN"
+                "displayName-count-other": "馬其頓第納爾 (1992–1993)"
             },
             MLF: {
                 displayName: "馬里法郎",
-                "displayName-count-other": "馬里法郎",
-                symbol: "MLF"
+                "displayName-count-other": "馬里法郎"
             },
             MMK: {
                 displayName: "緬甸元",
                 "displayName-count-other": "緬甸元",
-                symbol: "MMK",
                 "symbol-alt-narrow": "K"
             },
             MNT: {
                 displayName: "蒙古圖格里克",
                 "displayName-count-other": "蒙古圖格里克",
-                symbol: "MNT",
                 "symbol-alt-narrow": "₮"
             },
             MOP: {
@@ -978,44 +819,36 @@ const data = {
             },
             MRO: {
                 displayName: "毛里塔尼亞烏吉亞 (1973–2017)",
-                "displayName-count-other": "毛里塔尼亞烏吉亞 (1973–2017)",
-                symbol: "MRO"
+                "displayName-count-other": "毛里塔尼亞烏吉亞 (1973–2017)"
             },
             MRU: {
                 displayName: "毛里塔尼亞烏吉亞",
-                "displayName-count-other": "毛里塔尼亞烏吉亞",
-                symbol: "MRU"
+                "displayName-count-other": "毛里塔尼亞烏吉亞"
             },
             MTL: {
                 displayName: "馬爾他里拉",
-                "displayName-count-other": "馬爾他里拉",
-                symbol: "MTL"
+                "displayName-count-other": "馬爾他里拉"
             },
             MTP: {
                 displayName: "馬爾他鎊",
-                "displayName-count-other": "馬爾他鎊",
-                symbol: "MTP"
+                "displayName-count-other": "馬爾他鎊"
             },
             MUR: {
                 displayName: "毛里裘斯盧布",
                 "displayName-count-other": "毛里裘斯盧布",
-                symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
             MVP: {
                 displayName: "馬爾地夫盧比",
-                "displayName-count-other": "馬爾地夫盧比",
-                symbol: "MVP"
+                "displayName-count-other": "馬爾地夫盧比"
             },
             MVR: {
                 displayName: "馬爾代夫盧非亞",
-                "displayName-count-other": "馬爾代夫盧非亞",
-                symbol: "MVR"
+                "displayName-count-other": "馬爾代夫盧非亞"
             },
             MWK: {
                 displayName: "馬拉維克瓦查",
-                "displayName-count-other": "馬拉維克瓦查",
-                symbol: "MWK"
+                "displayName-count-other": "馬拉維克瓦查"
             },
             MXN: {
                 displayName: "墨西哥披索",
@@ -1025,73 +858,60 @@ const data = {
             },
             MXP: {
                 displayName: "墨西哥銀披索 (1861–1992)",
-                "displayName-count-other": "墨西哥銀披索 (1861–1992)",
-                symbol: "MXP"
+                "displayName-count-other": "墨西哥銀披索 (1861–1992)"
             },
             MXV: {
                 displayName: "墨西哥轉換單位 (UDI)",
-                "displayName-count-other": "墨西哥轉換單位 (UDI)",
-                symbol: "MXV"
+                "displayName-count-other": "墨西哥轉換單位 (UDI)"
             },
             MYR: {
                 displayName: "馬來西亞令吉",
                 "displayName-count-other": "馬來西亞令吉",
-                symbol: "MYR",
                 "symbol-alt-narrow": "RM"
             },
             MZE: {
                 displayName: "莫三比克埃斯庫多",
-                "displayName-count-other": "莫三比克埃斯庫多",
-                symbol: "MZE"
+                "displayName-count-other": "莫三比克埃斯庫多"
             },
             MZM: {
                 displayName: "莫三比克梅蒂卡爾 (1980–2006)",
-                "displayName-count-other": "莫三比克梅蒂卡爾 (1980–2006)",
-                symbol: "MZM"
+                "displayName-count-other": "莫三比克梅蒂卡爾 (1980–2006)"
             },
             MZN: {
                 displayName: "莫桑比克梅蒂卡爾",
-                "displayName-count-other": "莫桑比克梅蒂卡爾",
-                symbol: "MZN"
+                "displayName-count-other": "莫桑比克梅蒂卡爾"
             },
             NAD: {
                 displayName: "納米比亞元",
                 "displayName-count-other": "納米比亞元",
-                symbol: "NAD",
                 "symbol-alt-narrow": "$"
             },
             NGN: {
                 displayName: "尼日利亞奈拉",
                 "displayName-count-other": "尼日利亞奈拉",
-                symbol: "NGN",
                 "symbol-alt-narrow": "₦"
             },
             NIC: {
                 displayName: "尼加拉瓜科多巴",
-                "displayName-count-other": "尼加拉瓜科多巴",
-                symbol: "NIC"
+                "displayName-count-other": "尼加拉瓜科多巴"
             },
             NIO: {
-                displayName: "尼加拉瓜金科多巴",
-                "displayName-count-other": "尼加拉瓜金科多巴",
-                symbol: "NIO",
+                displayName: "尼加拉瓜科多巴",
+                "displayName-count-other": "尼加拉瓜科多巴",
                 "symbol-alt-narrow": "C$"
             },
             NLG: {
                 displayName: "荷蘭盾",
-                "displayName-count-other": "荷蘭盾",
-                symbol: "NLG"
+                "displayName-count-other": "荷蘭盾"
             },
             NOK: {
                 displayName: "挪威克朗",
                 "displayName-count-other": "挪威克朗",
-                symbol: "NOK",
                 "symbol-alt-narrow": "kr"
             },
             NPR: {
                 displayName: "尼泊爾盧比",
                 "displayName-count-other": "尼泊爾盧比",
-                symbol: "NPR",
                 "symbol-alt-narrow": "Rs"
             },
             NZD: {
@@ -1102,33 +922,27 @@ const data = {
             },
             OMR: {
                 displayName: "阿曼里奧",
-                "displayName-count-other": "阿曼里奧",
-                symbol: "OMR"
+                "displayName-count-other": "阿曼里奧"
             },
             PAB: {
                 displayName: "巴拿馬巴波亞",
-                "displayName-count-other": "巴拿馬巴波亞",
-                symbol: "PAB"
+                "displayName-count-other": "巴拿馬巴波亞"
             },
             PEI: {
                 displayName: "祕魯因蒂",
-                "displayName-count-other": "祕魯因蒂",
-                symbol: "PEI"
+                "displayName-count-other": "祕魯因蒂"
             },
             PEN: {
                 displayName: "秘魯太陽幣",
-                "displayName-count-other": "秘魯太陽幣",
-                symbol: "PEN"
+                "displayName-count-other": "秘魯太陽幣"
             },
             PES: {
                 displayName: "秘魯太陽幣 (1863–1965)",
-                "displayName-count-other": "秘魯太陽幣 (1863–1965)",
-                symbol: "PES"
+                "displayName-count-other": "秘魯太陽幣 (1863–1965)"
             },
             PGK: {
                 displayName: "巴布亞新幾內亞基那",
-                "displayName-count-other": "巴布亞新幾內亞基那",
-                symbol: "PGK"
+                "displayName-count-other": "巴布亞新幾內亞基那"
             },
             PHP: {
                 displayName: "菲律賓披索",
@@ -1139,255 +953,210 @@ const data = {
             PKR: {
                 displayName: "巴基斯坦盧比",
                 "displayName-count-other": "巴基斯坦盧比",
-                symbol: "PKR",
                 "symbol-alt-narrow": "Rs"
             },
             PLN: {
                 displayName: "波蘭茲羅提",
                 "displayName-count-other": "波蘭茲羅提",
-                symbol: "PLN",
                 "symbol-alt-narrow": "zł"
             },
             PLZ: {
                 displayName: "波蘭茲羅提 (1950–1995)",
-                "displayName-count-other": "波蘭茲羅提 (1950–1995)",
-                symbol: "PLZ"
+                "displayName-count-other": "波蘭茲羅提 (1950–1995)"
             },
             PTE: {
                 displayName: "葡萄牙埃斯庫多",
-                "displayName-count-other": "葡萄牙埃斯庫多",
-                symbol: "PTE"
+                "displayName-count-other": "葡萄牙埃斯庫多"
             },
             PYG: {
                 displayName: "巴拉圭瓜拉尼",
                 "displayName-count-other": "巴拉圭瓜拉尼",
-                symbol: "PYG",
                 "symbol-alt-narrow": "₲"
             },
             QAR: {
                 displayName: "卡塔爾里亞爾",
-                "displayName-count-other": "卡塔爾里亞爾",
-                symbol: "QAR"
+                "displayName-count-other": "卡塔爾里亞爾"
             },
             RHD: {
                 displayName: "羅德西亞元",
-                "displayName-count-other": "羅德西亞元",
-                symbol: "RHD"
+                "displayName-count-other": "羅德西亞元"
             },
             ROL: {
                 displayName: "舊羅馬尼亞列伊",
-                "displayName-count-other": "舊羅馬尼亞列伊",
-                symbol: "ROL"
+                "displayName-count-other": "舊羅馬尼亞列伊"
             },
             RON: {
                 displayName: "羅馬尼亞列伊",
                 "displayName-count-other": "羅馬尼亞列伊",
-                symbol: "RON",
                 "symbol-alt-narrow": "L"
             },
             RSD: {
                 displayName: "塞爾維亞第納爾",
-                "displayName-count-other": "塞爾維亞第納爾",
-                symbol: "RSD"
+                "displayName-count-other": "塞爾維亞第納爾"
             },
             RUB: {
                 displayName: "俄羅斯盧布",
                 "displayName-count-other": "俄羅斯盧布",
-                symbol: "RUB",
                 "symbol-alt-narrow": "₽"
             },
             RUR: {
                 displayName: "俄羅斯盧布 (1991–1998)",
                 "displayName-count-other": "俄羅斯盧布 (1991–1998)",
-                symbol: "RUR",
                 "symbol-alt-narrow": "р."
             },
             RWF: {
                 displayName: "盧旺達法郎",
                 "displayName-count-other": "盧旺達法郎",
-                symbol: "RWF",
                 "symbol-alt-narrow": "RF"
             },
             SAR: {
                 displayName: "沙特阿拉伯里亞爾",
                 "displayName-count-other": "沙特阿拉伯里亞爾",
-                symbol: "SAR"
+                "symbol-alt-variant": "⃁"
             },
             SBD: {
                 displayName: "所羅門群島元",
                 "displayName-count-other": "所羅門群島元",
-                symbol: "SBD",
                 "symbol-alt-narrow": "$"
             },
             SCR: {
                 displayName: "塞舌爾盧比",
-                "displayName-count-other": "塞舌爾盧比",
-                symbol: "SCR"
+                "displayName-count-other": "塞舌爾盧比"
             },
             SDD: {
                 displayName: "蘇丹第納爾",
-                "displayName-count-other": "蘇丹第納爾",
-                symbol: "SDD"
+                "displayName-count-other": "蘇丹第納爾"
             },
             SDG: {
                 displayName: "蘇丹鎊",
-                "displayName-count-other": "蘇丹鎊",
-                symbol: "SDG"
+                "displayName-count-other": "蘇丹鎊"
             },
             SDP: {
                 displayName: "舊蘇丹鎊",
-                "displayName-count-other": "舊蘇丹鎊",
-                symbol: "SDP"
+                "displayName-count-other": "舊蘇丹鎊"
             },
             SEK: {
                 displayName: "瑞典克朗",
                 "displayName-count-other": "瑞典克朗",
-                symbol: "SEK",
                 "symbol-alt-narrow": "kr"
             },
             SGD: {
                 displayName: "新加坡元",
                 "displayName-count-other": "新加坡元",
-                symbol: "SGD",
                 "symbol-alt-narrow": "$"
             },
             SHP: {
                 displayName: "聖赫勒拿鎊",
                 "displayName-count-other": "聖赫勒拿鎊",
-                symbol: "SHP",
                 "symbol-alt-narrow": "£"
             },
             SIT: {
                 displayName: "斯洛維尼亞托勒",
-                "displayName-count-other": "斯洛維尼亞托勒",
-                symbol: "SIT"
+                "displayName-count-other": "斯洛維尼亞托勒"
             },
             SKK: {
                 displayName: "斯洛伐克克朗",
-                "displayName-count-other": "斯洛伐克克朗",
-                symbol: "SKK"
+                "displayName-count-other": "斯洛伐克克朗"
             },
             SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
+                displayName: "塞拉利昂利昂",
+                "displayName-count-other": "塞拉利昂利昂"
             },
             SLL: {
-                displayName: "塞拉利昂利昂",
-                "displayName-count-other": "塞拉利昂利昂",
-                symbol: "SLL"
+                displayName: "塞拉利昂利昂 (1964—2022)",
+                "displayName-count-other": "塞拉利昂利昂 (1964—2022)"
             },
             SOS: {
                 displayName: "索馬里先令",
-                "displayName-count-other": "索馬里先令",
-                symbol: "SOS"
+                "displayName-count-other": "索馬里先令"
             },
             SRD: {
                 displayName: "蘇里南元",
                 "displayName-count-other": "蘇里南元",
-                symbol: "SRD",
                 "symbol-alt-narrow": "$"
             },
             SRG: {
                 displayName: "蘇利南基爾",
-                "displayName-count-other": "蘇利南基爾",
-                symbol: "SRG"
+                "displayName-count-other": "蘇利南基爾"
             },
             SSP: {
                 displayName: "南蘇丹鎊",
                 "displayName-count-other": "南蘇丹鎊",
-                symbol: "SSP",
                 "symbol-alt-narrow": "£"
             },
             STD: {
                 displayName: "聖多美和普林西比多布拉 (1977–2017)",
-                "displayName-count-other": "聖多美和普林西比多布拉 (1977–2017)",
-                symbol: "STD"
+                "displayName-count-other": "聖多美和普林西比多布拉 (1977–2017)"
             },
             STN: {
                 displayName: "聖多美和普林西比多布拉",
                 "displayName-count-other": "聖多美和普林西比多布拉",
-                symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },
             SUR: {
                 displayName: "蘇聯盧布",
-                "displayName-count-other": "蘇聯盧布",
-                symbol: "SUR"
+                "displayName-count-other": "蘇聯盧布"
             },
             SVC: {
                 displayName: "薩爾瓦多科郎",
-                "displayName-count-other": "薩爾瓦多科郎",
-                symbol: "SVC"
+                "displayName-count-other": "薩爾瓦多科郎"
             },
             SYP: {
                 displayName: "敍利亞鎊",
                 "displayName-count-other": "敍利亞鎊",
-                symbol: "SYP",
                 "symbol-alt-narrow": "£"
             },
             SZL: {
                 displayName: "斯威士蘭里朗吉尼",
-                "displayName-count-other": "斯威士蘭里朗吉尼",
-                symbol: "SZL"
+                "displayName-count-other": "斯威士蘭里朗吉尼"
             },
             THB: {
                 displayName: "泰銖",
                 "displayName-count-other": "泰銖",
-                symbol: "THB",
                 "symbol-alt-narrow": "฿"
             },
             TJR: {
                 displayName: "塔吉克盧布",
-                "displayName-count-other": "塔吉克盧布",
-                symbol: "TJR"
+                "displayName-count-other": "塔吉克盧布"
             },
             TJS: {
                 displayName: "塔吉克索莫尼",
-                "displayName-count-other": "塔吉克索莫尼",
-                symbol: "TJS"
+                "displayName-count-other": "塔吉克索莫尼"
             },
             TMM: {
                 displayName: "土庫曼馬納特 (1993–2009)",
-                "displayName-count-other": "土庫曼馬納特 (1993–2009)",
-                symbol: "TMM"
+                "displayName-count-other": "土庫曼馬納特 (1993–2009)"
             },
             TMT: {
                 displayName: "土庫曼馬納特",
-                "displayName-count-other": "土庫曼馬納特",
-                symbol: "TMT"
+                "displayName-count-other": "土庫曼馬納特"
             },
             TND: {
                 displayName: "突尼西亞第納爾",
-                "displayName-count-other": "突尼西亞第納爾",
-                symbol: "TND"
+                "displayName-count-other": "突尼西亞第納爾"
             },
             TOP: {
                 displayName: "湯加潘加",
                 "displayName-count-other": "湯加潘加",
-                symbol: "TOP",
                 "symbol-alt-narrow": "T$"
             },
             TPE: {
                 displayName: "帝汶埃斯庫多",
-                "displayName-count-other": "帝汶埃斯庫多",
-                symbol: "TPE"
+                "displayName-count-other": "帝汶埃斯庫多"
             },
             TRL: {
-                displayName: "土耳其里拉",
-                "displayName-count-other": "土耳其里拉",
-                symbol: "TRL"
+                displayName: "土耳其里拉 (1922–2005)",
+                "displayName-count-other": "土耳其里拉 (1922–2005)"
             },
             TRY: {
-                displayName: "新土耳其里拉",
-                "displayName-count-other": "新土耳其里拉",
-                symbol: "TRY",
+                displayName: "土耳其里拉",
+                "displayName-count-other": "土耳其里拉",
                 "symbol-alt-narrow": "₺",
                 "symbol-alt-variant": "TL"
             },
             TTD: {
                 displayName: "千里達和多巴哥元",
                 "displayName-count-other": "千里達和多巴哥元",
-                symbol: "TTD",
                 "symbol-alt-narrow": "$"
             },
             TWD: {
@@ -1399,29 +1168,24 @@ const data = {
             },
             TZS: {
                 displayName: "坦桑尼亞先令",
-                "displayName-count-other": "坦桑尼亞先令",
-                symbol: "TZS"
+                "displayName-count-other": "坦桑尼亞先令"
             },
             UAH: {
                 displayName: "烏克蘭格里夫納",
                 "displayName-count-other": "烏克蘭格里夫納",
-                symbol: "UAH",
                 "symbol-alt-narrow": "₴"
             },
             UAK: {
                 displayName: "烏克蘭卡本瓦那茲",
-                "displayName-count-other": "烏克蘭卡本瓦那茲",
-                symbol: "UAK"
+                "displayName-count-other": "烏克蘭卡本瓦那茲"
             },
             UGS: {
                 displayName: "烏干達先令 (1966–1987)",
-                "displayName-count-other": "烏干達先令 (1966–1987)",
-                symbol: "UGS"
+                "displayName-count-other": "烏干達先令 (1966–1987)"
             },
             UGX: {
                 displayName: "烏干達先令",
-                "displayName-count-other": "烏干達先令",
-                symbol: "UGX"
+                "displayName-count-other": "烏干達先令"
             },
             USD: {
                 displayName: "美元",
@@ -1431,58 +1195,41 @@ const data = {
             },
             USN: {
                 displayName: "美元（次日）",
-                "displayName-count-other": "美元（次日）",
-                symbol: "USN"
+                "displayName-count-other": "美元（次日）"
             },
             USS: {
                 displayName: "美元（當日）",
-                "displayName-count-other": "美元（當日）",
-                symbol: "USS"
+                "displayName-count-other": "美元（當日）"
             },
             UYI: {
                 displayName: "烏拉圭披索（指數單位）",
-                "displayName-count-other": "烏拉圭披索（指數單位）",
-                symbol: "UYI"
+                "displayName-count-other": "烏拉圭披索（指數單位）"
             },
             UYP: {
                 displayName: "烏拉圭披索 (1975–1993)",
-                "displayName-count-other": "烏拉圭披索 (1975–1993)",
-                symbol: "UYP"
+                "displayName-count-other": "烏拉圭披索 (1975–1993)"
             },
             UYU: {
                 displayName: "烏拉圭披索",
                 "displayName-count-other": "烏拉圭披索",
-                symbol: "UYU",
                 "symbol-alt-narrow": "$"
-            },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
             },
             UZS: {
                 displayName: "烏茲別克索姆",
-                "displayName-count-other": "烏茲別克索姆",
-                symbol: "UZS"
+                "displayName-count-other": "烏茲別克索姆"
             },
             VEB: {
                 displayName: "委內瑞拉玻利瓦 (1871–2008)",
-                "displayName-count-other": "委內瑞拉玻利瓦 (1871–2008)",
-                symbol: "VEB"
-            },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
+                "displayName-count-other": "委內瑞拉玻利瓦 (1871–2008)"
             },
             VEF: {
                 displayName: "委內瑞拉玻利瓦 (2008–2018)",
                 "displayName-count-other": "委內瑞拉玻利瓦 (2008–2018)",
-                symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
             },
             VES: {
                 displayName: "委內瑞拉玻利瓦",
-                "displayName-count-other": "委內瑞拉玻利瓦",
-                symbol: "VES"
+                "displayName-count-other": "委內瑞拉玻利瓦"
             },
             VND: {
                 displayName: "越南盾",
@@ -1492,18 +1239,15 @@ const data = {
             },
             VNN: {
                 displayName: "越南盾 (1978–1985)",
-                "displayName-count-other": "越南盾 (1978–1985)",
-                symbol: "VNN"
+                "displayName-count-other": "越南盾 (1978–1985)"
             },
             VUV: {
                 displayName: "瓦努阿圖瓦圖",
-                "displayName-count-other": "瓦努阿圖瓦圖",
-                symbol: "VUV"
+                "displayName-count-other": "瓦努阿圖瓦圖"
             },
             WST: {
                 displayName: "西薩摩亞塔拉",
-                "displayName-count-other": "西薩摩亞塔拉",
-                symbol: "WST"
+                "displayName-count-other": "西薩摩亞塔拉"
             },
             XAF: {
                 displayName: "中非法郎",
@@ -1512,33 +1256,27 @@ const data = {
             },
             XAG: {
                 displayName: "白銀",
-                "displayName-count-other": "白銀",
-                symbol: "XAG"
+                "displayName-count-other": "白銀"
             },
             XAU: {
                 displayName: "黃金",
-                "displayName-count-other": "黃金",
-                symbol: "XAU"
+                "displayName-count-other": "黃金"
             },
             XBA: {
                 displayName: "歐洲綜合單位",
-                "displayName-count-other": "歐洲綜合單位",
-                symbol: "XBA"
+                "displayName-count-other": "歐洲綜合單位"
             },
             XBB: {
                 displayName: "歐洲貨幣單位 (XBB)",
-                "displayName-count-other": "歐洲貨幣單位 (XBB)",
-                symbol: "XBB"
+                "displayName-count-other": "歐洲貨幣單位 (XBB)"
             },
             XBC: {
                 displayName: "歐洲會計單位 (XBC)",
-                "displayName-count-other": "歐洲會計單位 (XBC)",
-                symbol: "XBC"
+                "displayName-count-other": "歐洲會計單位 (XBC)"
             },
             XBD: {
                 displayName: "歐洲會計單位 (XBD)",
-                "displayName-count-other": "歐洲會計單位 (XBD)",
-                symbol: "XBD"
+                "displayName-count-other": "歐洲會計單位 (XBD)"
             },
             XCD: {
                 displayName: "東加勒比元",
@@ -1546,25 +1284,26 @@ const data = {
                 symbol: "EC$",
                 "symbol-alt-narrow": "$"
             },
+            XCG: {
+                displayName: "加勒比盾",
+                "displayName-count-other": "加勒比盾",
+                symbol: "Cg."
+            },
             XDR: {
                 displayName: "特殊提款權",
-                "displayName-count-other": "特殊提款權",
-                symbol: "XDR"
+                "displayName-count-other": "特殊提款權"
             },
             XEU: {
                 displayName: "歐洲貨幣單位 (XEU)",
-                "displayName-count-other": "歐洲貨幣單位 (XEU)",
-                symbol: "XEU"
+                "displayName-count-other": "歐洲貨幣單位 (XEU)"
             },
             XFO: {
                 displayName: "法國金法郎",
-                "displayName-count-other": "法國金法郎",
-                symbol: "XFO"
+                "displayName-count-other": "法國金法郎"
             },
             XFU: {
                 displayName: "法國法郎 (UIC)",
-                "displayName-count-other": "法國法郎 (UIC)",
-                symbol: "XFU"
+                "displayName-count-other": "法國法郎 (UIC)"
             },
             XOF: {
                 displayName: "多哥非洲共同體法郎",
@@ -1573,8 +1312,7 @@ const data = {
             },
             XPD: {
                 displayName: "帕拉狄昂",
-                "displayName-count-other": "帕拉狄昂",
-                symbol: "XPD"
+                "displayName-count-other": "帕拉狄昂"
             },
             XPF: {
                 displayName: "太平洋法郎",
@@ -1583,28 +1321,23 @@ const data = {
             },
             XPT: {
                 displayName: "白金",
-                "displayName-count-other": "白金",
-                symbol: "XPT"
+                "displayName-count-other": "白金"
             },
             XRE: {
                 displayName: "RINET 基金",
-                "displayName-count-other": "RINET 基金",
-                symbol: "XRE"
+                "displayName-count-other": "RINET 基金"
             },
             XSU: {
                 displayName: "蘇克雷貨幣",
-                "displayName-count-other": "蘇克雷貨幣",
-                symbol: "XSU"
+                "displayName-count-other": "蘇克雷貨幣"
             },
             XTS: {
                 displayName: "測試用貨幣代碼",
-                "displayName-count-other": "測試用貨幣代碼",
-                symbol: "XTS"
+                "displayName-count-other": "測試用貨幣代碼"
             },
             XUA: {
                 displayName: "亞洲開發銀行計價單位",
-                "displayName-count-other": "亞洲開發銀行計價單位",
-                symbol: "XUA"
+                "displayName-count-other": "亞洲開發銀行計價單位"
             },
             XXX: {
                 displayName: "未知貨幣",
@@ -1613,80 +1346,69 @@ const data = {
             },
             YDD: {
                 displayName: "葉門第納爾",
-                "displayName-count-other": "葉門第納爾",
-                symbol: "YDD"
+                "displayName-count-other": "葉門第納爾"
             },
             YER: {
                 displayName: "也門里雅",
-                "displayName-count-other": "也門里雅",
-                symbol: "YER"
+                "displayName-count-other": "也門里雅"
             },
             YUD: {
                 displayName: "南斯拉夫第納爾硬幣",
-                "displayName-count-other": "南斯拉夫第納爾硬幣",
-                symbol: "YUD"
+                "displayName-count-other": "南斯拉夫第納爾硬幣"
             },
             YUM: {
                 displayName: "南斯拉夫挪威亞第納爾",
-                "displayName-count-other": "南斯拉夫挪威亞第納爾",
-                symbol: "YUM"
+                "displayName-count-other": "南斯拉夫挪威亞第納爾"
             },
             YUN: {
                 displayName: "南斯拉夫可轉換第納爾",
-                "displayName-count-other": "南斯拉夫可轉換第納爾",
-                symbol: "YUN"
+                "displayName-count-other": "南斯拉夫可轉換第納爾"
             },
             YUR: {
                 displayName: "南斯拉夫改革第納爾 (1992–1993)",
-                "displayName-count-other": "南斯拉夫改革第納爾 (1992–1993)",
-                symbol: "YUR"
+                "displayName-count-other": "南斯拉夫改革第納爾 (1992–1993)"
             },
             ZAL: {
                 displayName: "南非蘭特（金融）",
-                "displayName-count-other": "南非蘭特（金融）",
-                symbol: "ZAL"
+                "displayName-count-other": "南非蘭特（金融）"
             },
             ZAR: {
                 displayName: "南非蘭特",
                 "displayName-count-other": "南非蘭特",
-                symbol: "ZAR",
                 "symbol-alt-narrow": "R"
             },
             ZMK: {
                 displayName: "尚比亞克瓦查 (1968–2012)",
-                "displayName-count-other": "尚比亞克瓦查 (1968–2012)",
-                symbol: "ZMK"
+                "displayName-count-other": "尚比亞克瓦查 (1968–2012)"
             },
             ZMW: {
                 displayName: "贊比亞克瓦查",
                 "displayName-count-other": "贊比亞克瓦查",
-                symbol: "ZMW",
                 "symbol-alt-narrow": "ZK"
             },
             ZRN: {
                 displayName: "薩伊新扎伊爾",
-                "displayName-count-other": "薩伊新扎伊爾",
-                symbol: "ZRN"
+                "displayName-count-other": "薩伊新扎伊爾"
             },
             ZRZ: {
                 displayName: "薩伊扎伊爾",
-                "displayName-count-other": "薩伊扎伊爾",
-                symbol: "ZRZ"
+                "displayName-count-other": "薩伊扎伊爾"
             },
             ZWD: {
                 displayName: "辛巴威元 (1980–2008)",
-                "displayName-count-other": "辛巴威元 (1980–2008)",
-                symbol: "ZWD"
+                "displayName-count-other": "辛巴威元 (1980–2008)"
+            },
+            ZWG: {
+                displayName: "津布巴韋金",
+                "displayName-count-other": "津布巴韋金"
             },
             ZWL: {
                 displayName: "辛巴威元 (2009)",
-                "displayName-count-other": "辛巴威元 (2009)",
-                symbol: "ZWL"
+                "displayName-count-other": "辛巴威元 (2009)"
             },
             ZWR: {
                 displayName: "辛巴威元 (2008)",
-                "displayName-count-other": "辛巴威元 (2008)",
-                symbol: "ZWR"
+                "displayName-count-other": "辛巴威元 (2008)"
             }
         },
         localeCurrency: "MOP"
@@ -1708,25 +1430,29 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} {0}",
-            long: "{1} {0}",
-            medium: "{1} {0}",
-            short: "{1} {0}",
+            full: "{1}{0}",
+            long: "{1}{0}",
+            medium: "{1}{0}",
+            short: "{1}{0}",
             availableFormats: {
                 Bh: "Bh時",
                 Bhm: "Bh:mm",
                 Bhms: "Bh:mm:ss",
                 d: "d日",
                 E: "ccc",
-                EBhm: "E Bh:mm",
-                EBhms: "E Bh:mm:ss",
+                EBh: "EBh時",
+                EBhm: "EBh:mm",
+                EBhms: "EBh:mm:ss",
                 Ed: "d E",
+                Eh: "Eah時",
                 Ehm: "E ah:mm",
                 EHm: "E HH:mm",
                 Ehms: "E ah:mm:ss",
                 EHms: "E HH:mm:ss",
                 Gy: "Gy年",
+                GyM: "Gy/M",
                 GyMd: "G y/M/d",
+                GyMEd: "Gy/M/d（E）",
                 GyMMM: "Gy年M月",
                 GyMMMd: "Gy年M月d日",
                 GyMMMEd: "Gy年M月d日E",
@@ -1740,6 +1466,8 @@ const data = {
                 Hmsv: "HH:mm:ss [v]",
                 hmv: "ah:mm [v]",
                 Hmv: "HH:mm [v]",
+                hv: "vah時",
+                Hv: "vH時",
                 M: "M月",
                 Md: "d/M",
                 MEd: "d/M（E）",
@@ -2085,9 +1813,9 @@ const data = {
         gmtZeroFormat: "GMT",
         dateFields: {
             era: {
-                wide: "年代",
-                short: "年代",
-                narrow: "年代"
+                wide: "紀元",
+                short: "紀元",
+                narrow: "紀元"
             },
             year: {
                 wide: "年",
@@ -2095,9 +1823,9 @@ const data = {
                 narrow: "年"
             },
             quarter: {
-                wide: "季",
-                short: "季",
-                narrow: "季"
+                wide: "季度",
+                short: "季度",
+                narrow: "季度"
             },
             month: {
                 wide: "月",
@@ -2107,12 +1835,12 @@ const data = {
             week: {
                 wide: "星期",
                 short: "星期",
-                narrow: "週"
+                narrow: "星期"
             },
             weekOfMonth: {
-                wide: "週",
-                short: "週",
-                narrow: "週"
+                wide: "該月第幾週",
+                short: "月週次",
+                narrow: "月週次"
             },
             day: {
                 wide: "日",
@@ -2120,9 +1848,9 @@ const data = {
                 narrow: "日"
             },
             dayOfYear: {
-                wide: "年天",
-                short: "年天",
-                narrow: "年天"
+                wide: "該年第幾天",
+                short: "該年第幾天",
+                narrow: "該年第幾天"
             },
             weekday: {
                 wide: "星期幾",
@@ -2130,23 +1858,23 @@ const data = {
                 narrow: "星期幾"
             },
             weekdayOfMonth: {
-                wide: "每月平日",
-                short: "每月平日",
-                narrow: "每月平日"
+                wide: "該月第幾週",
+                short: "該月第幾週",
+                narrow: "該月第幾週"
             },
             dayperiod: {
-                short: "上午/下午",
-                wide: "上午/下午",
-                narrow: "上午/下午"
+                short: "時段",
+                wide: "時段",
+                narrow: "時段"
             },
             hour: {
                 wide: "小時",
-                short: "小時",
+                short: "時",
                 narrow: "時"
             },
             minute: {
                 wide: "分鐘",
-                short: "分鐘",
+                short: "分",
                 narrow: "分"
             },
             second: {

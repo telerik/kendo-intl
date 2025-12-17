@@ -11,97 +11,79 @@ const data = {
         currencies: {
             ADP: {
                 displayName: "アンドラ ペセタ",
-                "displayName-count-other": "アンドラ ペセタ",
-                symbol: "ADP"
+                "displayName-count-other": "アンドラ ペセタ"
             },
             AED: {
                 displayName: "アラブ首長国連邦ディルハム",
-                "displayName-count-other": "UAE ディルハム",
-                symbol: "AED"
+                "displayName-count-other": "UAE ディルハム"
             },
             AFA: {
                 displayName: "アフガニスタン アフガニー (1927–2002)",
-                "displayName-count-other": "アフガニスタン アフガニー (1927–2002)",
-                symbol: "AFA"
+                "displayName-count-other": "アフガニスタン アフガニー (1927–2002)"
             },
             AFN: {
                 displayName: "アフガニスタン アフガニー",
                 "displayName-count-other": "アフガニスタン アフガニー",
-                symbol: "AFN",
                 "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "アルバニア レク (1946–1965)",
-                "displayName-count-other": "アルバニア レク (1946–1965)",
-                symbol: "ALK"
+                "displayName-count-other": "アルバニア レク (1946–1965)"
             },
             ALL: {
                 displayName: "アルバニア レク",
-                "displayName-count-other": "アルバニア レク",
-                symbol: "ALL"
+                "displayName-count-other": "アルバニア レク"
             },
             AMD: {
                 displayName: "アルメニア ドラム",
                 "displayName-count-other": "アルメニア ドラム",
-                symbol: "AMD",
                 "symbol-alt-narrow": "֏"
             },
             ANG: {
                 displayName: "オランダ領アンティル ギルダー",
-                "displayName-count-other": "オランダ領アンティル ギルダー",
-                symbol: "ANG"
+                "displayName-count-other": "オランダ領アンティル ギルダー"
             },
             AOA: {
                 displayName: "アンゴラ クワンザ",
                 "displayName-count-other": "アンゴラ クワンザ",
-                symbol: "AOA",
                 "symbol-alt-narrow": "Kz"
             },
             AOK: {
                 displayName: "アンゴラ クワンザ (1977–1991)",
-                "displayName-count-other": "アンゴラ クワンザ (1977–1991)",
-                symbol: "AOK"
+                "displayName-count-other": "アンゴラ クワンザ (1977–1991)"
             },
             AON: {
                 displayName: "アンゴラ 新クワンザ (1990–2000)",
-                "displayName-count-other": "アンゴラ 新クワンザ (1990–2000)",
-                symbol: "AON"
+                "displayName-count-other": "アンゴラ 新クワンザ (1990–2000)"
             },
             AOR: {
                 displayName: "アンゴラ 旧クワンザ (1995–1999)",
-                "displayName-count-other": "アンゴラ 旧クワンザ (1995–1999)",
-                symbol: "AOR"
+                "displayName-count-other": "アンゴラ 旧クワンザ (1995–1999)"
             },
             ARA: {
                 displayName: "アルゼンチン アゥストラール",
-                "displayName-count-other": "アルゼンチン アゥストラール",
-                symbol: "ARA"
+                "displayName-count-other": "アルゼンチン アゥストラール"
             },
             ARL: {
                 displayName: "アルゼンチン・ペソ・レイ（1970–1983）",
-                "displayName-count-other": "アルゼンチン・ペソ・レイ（1970–1983）",
-                symbol: "ARL"
+                "displayName-count-other": "アルゼンチン・ペソ・レイ（1970–1983）"
             },
             ARM: {
                 displayName: "アルゼンチン・ペソ（1881–1970）",
-                "displayName-count-other": "アルゼンチン・ペソ（1881–1970）",
-                symbol: "ARM"
+                "displayName-count-other": "アルゼンチン・ペソ（1881–1970）"
             },
             ARP: {
                 displayName: "アルゼンチン ペソ (1983–1985)",
-                "displayName-count-other": "アルゼンチン ペソ (1983–1985)",
-                symbol: "ARP"
+                "displayName-count-other": "アルゼンチン ペソ (1983–1985)"
             },
             ARS: {
                 displayName: "アルゼンチン ペソ",
                 "displayName-count-other": "アルゼンチン ペソ",
-                symbol: "ARS",
                 "symbol-alt-narrow": "$"
             },
             ATS: {
                 displayName: "オーストリア シリング",
-                "displayName-count-other": "オーストリア シリング",
-                symbol: "ATS"
+                "displayName-count-other": "オーストリア シリング"
             },
             AUD: {
                 displayName: "オーストラリア ドル",
@@ -111,140 +93,114 @@ const data = {
             },
             AWG: {
                 displayName: "アルバ フロリン",
-                "displayName-count-other": "アルバ フロリン",
-                symbol: "AWG"
+                "displayName-count-other": "アルバ フロリン"
             },
             AZM: {
                 displayName: "アゼルバイジャン マナト (1993–2006)",
-                "displayName-count-other": "アゼルバイジャン マナト (1993–2006)",
-                symbol: "AZM"
+                "displayName-count-other": "アゼルバイジャン マナト (1993–2006)"
             },
             AZN: {
                 displayName: "アゼルバイジャン マナト",
                 "displayName-count-other": "アゼルバイジャン マナト",
-                symbol: "AZN",
                 "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "ボスニア・ヘルツェゴビナ ディナール (1992–1994)",
-                "displayName-count-other": "ボスニア・ヘルツェゴビナ ディナール (1992–1994)",
-                symbol: "BAD"
+                "displayName-count-other": "ボスニア・ヘルツェゴビナ ディナール (1992–1994)"
             },
             BAM: {
                 displayName: "ボスニア・ヘルツェゴビナ 兌換マルク (BAM)",
                 "displayName-count-other": "ボスニア・ヘルツェゴビナ 兌換マルク (BAM)",
-                symbol: "BAM",
                 "symbol-alt-narrow": "KM"
             },
             BAN: {
                 displayName: "ボスニア・ヘルツェゴビナ 新ディナール（1994–1997）",
-                "displayName-count-other": "ボスニア・ヘルツェゴビナ 新ディナール（1994–1997）",
-                symbol: "BAN"
+                "displayName-count-other": "ボスニア・ヘルツェゴビナ 新ディナール（1994–1997）"
             },
             BBD: {
                 displayName: "バルバドス ドル",
                 "displayName-count-other": "バルバドス ドル",
-                symbol: "BBD",
                 "symbol-alt-narrow": "$"
             },
             BDT: {
                 displayName: "バングラデシュ タカ",
                 "displayName-count-other": "バングラデシュ タカ",
-                symbol: "BDT",
                 "symbol-alt-narrow": "৳"
             },
             BEC: {
                 displayName: "ベルギー フラン (BEC)",
-                "displayName-count-other": "ベルギー フラン (BEC)",
-                symbol: "BEC"
+                "displayName-count-other": "ベルギー フラン (BEC)"
             },
             BEF: {
                 displayName: "ベルギー フラン",
-                "displayName-count-other": "ベルギー フラン",
-                symbol: "BEF"
+                "displayName-count-other": "ベルギー フラン"
             },
             BEL: {
                 displayName: "ベルギー フラン (BEL)",
-                "displayName-count-other": "ベルギー フラン (BEL)",
-                symbol: "BEL"
+                "displayName-count-other": "ベルギー フラン (BEL)"
             },
             BGL: {
                 displayName: "ブルガリア レフ",
-                "displayName-count-other": "ブルガリア レフ",
-                symbol: "BGL"
+                "displayName-count-other": "ブルガリア レフ"
             },
             BGM: {
                 displayName: "ブルガリア社会主義 レフ",
-                "displayName-count-other": "ブルガリア社会主義 レフ",
-                symbol: "BGM"
+                "displayName-count-other": "ブルガリア社会主義 レフ"
             },
             BGN: {
                 displayName: "ブルガリア 新レフ",
-                "displayName-count-other": "ブルガリア 新レフ",
-                symbol: "BGN"
+                "displayName-count-other": "ブルガリア 新レフ"
             },
             BGO: {
                 displayName: "ブルガリア レフ（1879–1952）",
-                "displayName-count-other": "ブルガリア レフ（1879–1952）",
-                symbol: "BGO"
+                "displayName-count-other": "ブルガリア レフ（1879–1952）"
             },
             BHD: {
                 displayName: "バーレーン ディナール",
-                "displayName-count-other": "バーレーン ディナール",
-                symbol: "BHD"
+                "displayName-count-other": "バーレーン ディナール"
             },
             BIF: {
                 displayName: "ブルンジ フラン",
-                "displayName-count-other": "ブルンジ フラン",
-                symbol: "BIF"
+                "displayName-count-other": "ブルンジ フラン"
             },
             BMD: {
                 displayName: "バミューダ ドル",
                 "displayName-count-other": "バミューダ ドル",
-                symbol: "BMD",
                 "symbol-alt-narrow": "$"
             },
             BND: {
                 displayName: "ブルネイ ドル",
                 "displayName-count-other": "ブルネイ ドル",
-                symbol: "BND",
                 "symbol-alt-narrow": "$"
             },
             BOB: {
                 displayName: "ボリビア ボリビアーノ",
                 "displayName-count-other": "ボリビア ボリビアーノ",
-                symbol: "BOB",
                 "symbol-alt-narrow": "Bs"
             },
             BOL: {
                 displayName: "ボリビア ボリビアーノ (1863–1963)",
-                "displayName-count-other": "ボリビア ボリビアーノ (1863–1963)",
-                symbol: "BOL"
+                "displayName-count-other": "ボリビア ボリビアーノ (1863–1963)"
             },
             BOP: {
                 displayName: "ボリビア ペソ",
-                "displayName-count-other": "ボリビア ペソ",
-                symbol: "BOP"
+                "displayName-count-other": "ボリビア ペソ"
             },
             BOV: {
                 displayName: "ボリビア (Mvdol)",
-                "displayName-count-other": "ボリビア (Mvdol)",
-                symbol: "BOV"
+                "displayName-count-other": "ボリビア (Mvdol)"
             },
             BRB: {
                 displayName: "ブラジル 新クルゼイロ (1967–1986)",
-                "displayName-count-other": "ブラジル 新クルゼイロ (1967–1986)",
-                symbol: "BRB"
+                "displayName-count-other": "ブラジル 新クルゼイロ (1967–1986)"
             },
             BRC: {
                 displayName: "ブラジル クルザード (1986–1989)",
-                "displayName-count-other": "ブラジル クルザード (1986–1989)",
-                symbol: "BRC"
+                "displayName-count-other": "ブラジル クルザード (1986–1989)"
             },
             BRE: {
                 displayName: "ブラジル クルゼイロ (1990–1993)",
-                "displayName-count-other": "ブラジル クルゼイロ (1990–1993)",
-                symbol: "BRE"
+                "displayName-count-other": "ブラジル クルゼイロ (1990–1993)"
             },
             BRL: {
                 displayName: "ブラジル レアル",
@@ -254,61 +210,50 @@ const data = {
             },
             BRN: {
                 displayName: "ブラジル 新クルザード (1989–1990)",
-                "displayName-count-other": "ブラジル 新クルザード (1989–1990)",
-                symbol: "BRN"
+                "displayName-count-other": "ブラジル 新クルザード (1989–1990)"
             },
             BRR: {
                 displayName: "ブラジル クルゼイロ (1993–1994)",
-                "displayName-count-other": "ブラジル クルゼイロ (1993–1994)",
-                symbol: "BRR"
+                "displayName-count-other": "ブラジル クルゼイロ (1993–1994)"
             },
             BRZ: {
                 displayName: "ブラジル クルゼイロ（1942–1967）",
-                "displayName-count-other": "ブラジル クルゼイロ（1942–1967）",
-                symbol: "BRZ"
+                "displayName-count-other": "ブラジル クルゼイロ（1942–1967）"
             },
             BSD: {
                 displayName: "バハマ ドル",
                 "displayName-count-other": "バハマ ドル",
-                symbol: "BSD",
                 "symbol-alt-narrow": "$"
             },
             BTN: {
                 displayName: "ブータン ニュルタム",
-                "displayName-count-other": "ブータン ニュルタム",
-                symbol: "BTN"
+                "displayName-count-other": "ブータン ニュルタム"
             },
             BUK: {
                 displayName: "ビルマ チャット",
-                "displayName-count-other": "ビルマ チャット",
-                symbol: "BUK"
+                "displayName-count-other": "ビルマ チャット"
             },
             BWP: {
                 displayName: "ボツワナ プラ",
                 "displayName-count-other": "ボツワナ プラ",
-                symbol: "BWP",
                 "symbol-alt-narrow": "P"
             },
             BYB: {
                 displayName: "ベラルーシ 新ルーブル (1994–1999)",
-                "displayName-count-other": "ベラルーシ 新ルーブル (1994–1999)",
-                symbol: "BYB"
+                "displayName-count-other": "ベラルーシ 新ルーブル (1994–1999)"
             },
             BYN: {
                 displayName: "ベラルーシ ルーブル",
                 "displayName-count-other": "ベラルーシ ルーブル",
-                symbol: "BYN",
                 "symbol-alt-narrow": "р."
             },
             BYR: {
                 displayName: "ベラルーシ ルーブル (2000–2016)",
-                "displayName-count-other": "ベラルーシ ルーブル (2000–2016)",
-                symbol: "BYR"
+                "displayName-count-other": "ベラルーシ ルーブル (2000–2016)"
             },
             BZD: {
                 displayName: "ベリーズ ドル",
                 "displayName-count-other": "ベリーズ ドル",
-                symbol: "BZD",
                 "symbol-alt-narrow": "$"
             },
             CAD: {
@@ -319,49 +264,40 @@ const data = {
             },
             CDF: {
                 displayName: "コンゴ フラン",
-                "displayName-count-other": "コンゴ フラン",
-                symbol: "CDF"
+                "displayName-count-other": "コンゴ フラン"
             },
             CHE: {
                 displayName: "ユーロ (WIR)",
-                "displayName-count-other": "ユーロ (WIR)",
-                symbol: "CHE"
+                "displayName-count-other": "ユーロ (WIR)"
             },
             CHF: {
                 displayName: "スイス フラン",
-                "displayName-count-other": "スイス フラン",
-                symbol: "CHF"
+                "displayName-count-other": "スイス フラン"
             },
             CHW: {
                 displayName: "フラン (WIR)",
-                "displayName-count-other": "フラン (WIR)",
-                symbol: "CHW"
+                "displayName-count-other": "フラン (WIR)"
             },
             CLE: {
                 displayName: "チリ エスクード",
-                "displayName-count-other": "チリ エスクード",
-                symbol: "CLE"
+                "displayName-count-other": "チリ エスクード"
             },
             CLF: {
                 displayName: "チリ ウニダ・デ・フォメント (UF)",
-                "displayName-count-other": "チリ ウニダ・デ・フォメント (UF)",
-                symbol: "CLF"
+                "displayName-count-other": "チリ ウニダ・デ・フォメント (UF)"
             },
             CLP: {
                 displayName: "チリ ペソ",
                 "displayName-count-other": "チリ ペソ",
-                symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
             CNH: {
                 displayName: "中国人民元(オフショア)",
-                "displayName-count-other": "中国人民元(オフショア)",
-                symbol: "CNH"
+                "displayName-count-other": "中国人民元(オフショア)"
             },
             CNX: {
                 displayName: "中国人民銀行ドル",
-                "displayName-count-other": "中国人民銀行ドル",
-                symbol: "CNX"
+                "displayName-count-other": "中国人民銀行ドル"
             },
             CNY: {
                 displayName: "中国人民元",
@@ -372,136 +308,111 @@ const data = {
             COP: {
                 displayName: "コロンビア ペソ",
                 "displayName-count-other": "コロンビア ペソ",
-                symbol: "COP",
                 "symbol-alt-narrow": "$"
             },
             COU: {
                 displayName: "コロンビア レアル （UVR)",
-                "displayName-count-other": "コロンビア レアル （UVR)",
-                symbol: "COU"
+                "displayName-count-other": "コロンビア レアル （UVR)"
             },
             CRC: {
                 displayName: "コスタリカ コロン",
                 "displayName-count-other": "コスタリカ コロン",
-                symbol: "CRC",
                 "symbol-alt-narrow": "₡"
             },
             CSD: {
                 displayName: "セルビア ディナール (2002–2006)",
-                "displayName-count-other": "セルビア ディナール (2002–2006)",
-                symbol: "CSD"
+                "displayName-count-other": "セルビア ディナール (2002–2006)"
             },
             CSK: {
                 displayName: "チェコスロバキア コルナ",
-                "displayName-count-other": "チェコスロバキア コルナ",
-                symbol: "CSK"
+                "displayName-count-other": "チェコスロバキア コルナ"
             },
             CUC: {
                 displayName: "キューバ 兌換ペソ",
                 "displayName-count-other": "キューバ 兌換ペソ",
-                symbol: "CUC",
                 "symbol-alt-narrow": "$"
             },
             CUP: {
                 displayName: "キューバ ペソ",
                 "displayName-count-other": "キューバ ペソ",
-                symbol: "CUP",
                 "symbol-alt-narrow": "$"
             },
             CVE: {
                 displayName: "カーボベルデ エスクード",
-                "displayName-count-other": "カーボベルデ エスクード",
-                symbol: "CVE"
+                "displayName-count-other": "カーボベルデ エスクード"
             },
             CYP: {
                 displayName: "キプロス ポンド",
-                "displayName-count-other": "キプロス ポンド",
-                symbol: "CYP"
+                "displayName-count-other": "キプロス ポンド"
             },
             CZK: {
                 displayName: "チェコ コルナ",
                 "displayName-count-other": "チェコ コルナ",
-                symbol: "CZK",
                 "symbol-alt-narrow": "Kč"
             },
             DDM: {
                 displayName: "東ドイツ マルク",
-                "displayName-count-other": "東ドイツ マルク",
-                symbol: "DDM"
+                "displayName-count-other": "東ドイツ マルク"
             },
             DEM: {
                 displayName: "ドイツ マルク",
-                "displayName-count-other": "ドイツ マルク",
-                symbol: "DEM"
+                "displayName-count-other": "ドイツ マルク"
             },
             DJF: {
                 displayName: "ジブチ フラン",
-                "displayName-count-other": "ジブチ フラン",
-                symbol: "DJF"
+                "displayName-count-other": "ジブチ フラン"
             },
             DKK: {
                 displayName: "デンマーク クローネ",
                 "displayName-count-other": "デンマーク クローネ",
-                symbol: "DKK",
                 "symbol-alt-narrow": "kr"
             },
             DOP: {
                 displayName: "ドミニカ ペソ",
                 "displayName-count-other": "ドミニカ ペソ",
-                symbol: "DOP",
                 "symbol-alt-narrow": "$"
             },
             DZD: {
                 displayName: "アルジェリア ディナール",
-                "displayName-count-other": "アルジェリア ディナール",
-                symbol: "DZD"
+                "displayName-count-other": "アルジェリア ディナール"
             },
             ECS: {
                 displayName: "エクアドル スクレ",
-                "displayName-count-other": "エクアドル スクレ",
-                symbol: "ECS"
+                "displayName-count-other": "エクアドル スクレ"
             },
             ECV: {
                 displayName: "エクアドル (UVC)",
-                "displayName-count-other": "エクアドル (UVC)",
-                symbol: "ECV"
+                "displayName-count-other": "エクアドル (UVC)"
             },
             EEK: {
                 displayName: "エストニア クルーン",
-                "displayName-count-other": "エストニア クルーン",
-                symbol: "EEK"
+                "displayName-count-other": "エストニア クルーン"
             },
             EGP: {
                 displayName: "エジプト ポンド",
                 "displayName-count-other": "エジプト ポンド",
-                symbol: "EGP",
                 "symbol-alt-narrow": "E£"
             },
             ERN: {
                 displayName: "エリトリア ナクファ",
-                "displayName-count-other": "エリトリア ナクファ",
-                symbol: "ERN"
+                "displayName-count-other": "エリトリア ナクファ"
             },
             ESA: {
                 displayName: "スペインペセタ（勘定A）",
-                "displayName-count-other": "スペインペセタ（勘定A）",
-                symbol: "ESA"
+                "displayName-count-other": "スペインペセタ（勘定A）"
             },
             ESB: {
                 displayName: "スペイン 兌換ペセタ",
-                "displayName-count-other": "スペイン 兌換ペセタ",
-                symbol: "ESB"
+                "displayName-count-other": "スペイン 兌換ペセタ"
             },
             ESP: {
                 displayName: "スペイン ペセタ",
                 "displayName-count-other": "スペイン ペセタ",
-                symbol: "ESP",
                 "symbol-alt-narrow": "₧"
             },
             ETB: {
                 displayName: "エチオピア ブル",
-                "displayName-count-other": "エチオピア ブル",
-                symbol: "ETB"
+                "displayName-count-other": "エチオピア ブル"
             },
             EUR: {
                 displayName: "ユーロ",
@@ -511,25 +422,21 @@ const data = {
             },
             FIM: {
                 displayName: "フィンランド マルカ",
-                "displayName-count-other": "フィンランド マルカ",
-                symbol: "FIM"
+                "displayName-count-other": "フィンランド マルカ"
             },
             FJD: {
                 displayName: "フィジー ドル",
                 "displayName-count-other": "フィジー ドル",
-                symbol: "FJD",
                 "symbol-alt-narrow": "$"
             },
             FKP: {
                 displayName: "フォークランド（マルビナス）諸島 ポンド",
                 "displayName-count-other": "フォークランド（マルビナス）諸島 ポンド",
-                symbol: "FKP",
                 "symbol-alt-narrow": "£"
             },
             FRF: {
                 displayName: "フランス フラン",
-                "displayName-count-other": "フランス フラン",
-                symbol: "FRF"
+                "displayName-count-other": "フランス フラン"
             },
             GBP: {
                 displayName: "英国ポンド",
@@ -539,78 +446,64 @@ const data = {
             },
             GEK: {
                 displayName: "ジョージア クーポン ラリ",
-                "displayName-count-other": "ジョージア クーポン ラリ",
-                symbol: "GEK"
+                "displayName-count-other": "ジョージア クーポン ラリ"
             },
             GEL: {
                 displayName: "ジョージア ラリ",
                 "displayName-count-other": "ジョージア ラリ",
-                symbol: "GEL",
                 "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "ガーナ セディ (1979–2007)",
-                "displayName-count-other": "ガーナ セディ (1979–2007)",
-                symbol: "GHC"
+                "displayName-count-other": "ガーナ セディ (1979–2007)"
             },
             GHS: {
                 displayName: "ガーナ セディ",
                 "displayName-count-other": "ガーナ セディ",
-                symbol: "GHS",
                 "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "ジブラルタル ポンド",
                 "displayName-count-other": "ジブラルタル ポンド",
-                symbol: "GIP",
                 "symbol-alt-narrow": "£"
             },
             GMD: {
                 displayName: "ガンビア ダラシ",
-                "displayName-count-other": "ガンビア ダラシ",
-                symbol: "GMD"
+                "displayName-count-other": "ガンビア ダラシ"
             },
             GNF: {
                 displayName: "ギニア フラン",
                 "displayName-count-other": "ギニア フラン",
-                symbol: "GNF",
                 "symbol-alt-narrow": "FG"
             },
             GNS: {
                 displayName: "ギニア シリー",
-                "displayName-count-other": "ギニア シリー",
-                symbol: "GNS"
+                "displayName-count-other": "ギニア シリー"
             },
             GQE: {
                 displayName: "赤道ギニア エクウェレ",
-                "displayName-count-other": "赤道ギニア エクウェレ",
-                symbol: "GQE"
+                "displayName-count-other": "赤道ギニア エクウェレ"
             },
             GRD: {
                 displayName: "ギリシャ ドラクマ",
-                "displayName-count-other": "ギリシャ ドラクマ",
-                symbol: "GRD"
+                "displayName-count-other": "ギリシャ ドラクマ"
             },
             GTQ: {
                 displayName: "グアテマラ ケツァル",
                 "displayName-count-other": "グアテマラ ケツァル",
-                symbol: "GTQ",
                 "symbol-alt-narrow": "Q"
             },
             GWE: {
                 displayName: "ポルトガル領ギニア エスクード",
-                "displayName-count-other": "ポルトガル領ギニア エスクード",
-                symbol: "GWE"
+                "displayName-count-other": "ポルトガル領ギニア エスクード"
             },
             GWP: {
                 displayName: "ギニアビサウ ペソ",
-                "displayName-count-other": "ギニアビサウ ペソ",
-                symbol: "GWP"
+                "displayName-count-other": "ギニアビサウ ペソ"
             },
             GYD: {
                 displayName: "ガイアナ ドル",
                 "displayName-count-other": "ガイアナ ドル",
-                symbol: "GYD",
                 "symbol-alt-narrow": "$"
             },
             HKD: {
@@ -622,51 +515,42 @@ const data = {
             HNL: {
                 displayName: "ホンジュラス レンピラ",
                 "displayName-count-other": "ホンジュラス レンピラ",
-                symbol: "HNL",
                 "symbol-alt-narrow": "L"
             },
             HRD: {
                 displayName: "クロアチア ディナール",
-                "displayName-count-other": "クロアチア ディナール",
-                symbol: "HRD"
+                "displayName-count-other": "クロアチア ディナール"
             },
             HRK: {
                 displayName: "クロアチア クーナ",
                 "displayName-count-other": "クロアチア クーナ",
-                symbol: "HRK",
                 "symbol-alt-narrow": "kn"
             },
             HTG: {
                 displayName: "ハイチ グールド",
-                "displayName-count-other": "ハイチ グールド",
-                symbol: "HTG"
+                "displayName-count-other": "ハイチ グールド"
             },
             HUF: {
                 displayName: "ハンガリー フォリント",
                 "displayName-count-other": "ハンガリー フォリント",
-                symbol: "HUF",
                 "symbol-alt-narrow": "Ft"
             },
             IDR: {
                 displayName: "インドネシア ルピア",
                 "displayName-count-other": "インドネシア ルピア",
-                symbol: "IDR",
                 "symbol-alt-narrow": "Rp"
             },
             IEP: {
                 displayName: "アイリッシュ ポンド",
-                "displayName-count-other": "アイリッシュ ポンド",
-                symbol: "IEP"
+                "displayName-count-other": "アイリッシュ ポンド"
             },
             ILP: {
                 displayName: "イスラエル ポンド",
-                "displayName-count-other": "イスラエル ポンド",
-                symbol: "ILP"
+                "displayName-count-other": "イスラエル ポンド"
             },
             ILR: {
                 displayName: "イスラエル シェケル (1980–1985)",
-                "displayName-count-other": "イスラエル シェケル (1980–1985)",
-                symbol: "ILR"
+                "displayName-count-other": "イスラエル シェケル (1980–1985)"
             },
             ILS: {
                 displayName: "イスラエル新シェケル",
@@ -682,40 +566,33 @@ const data = {
             },
             IQD: {
                 displayName: "イラク ディナール",
-                "displayName-count-other": "イラク ディナール",
-                symbol: "IQD"
+                "displayName-count-other": "イラク ディナール"
             },
             IRR: {
                 displayName: "イラン リアル",
-                "displayName-count-other": "イラン リアル",
-                symbol: "IRR"
+                "displayName-count-other": "イラン リアル"
             },
             ISJ: {
                 displayName: "アイスランド クローナ (1918–1981)",
-                "displayName-count-other": "アイスランド クローナ (1918–1981)",
-                symbol: "ISJ"
+                "displayName-count-other": "アイスランド クローナ (1918–1981)"
             },
             ISK: {
                 displayName: "アイスランド クローナ",
                 "displayName-count-other": "アイスランド クローナ",
-                symbol: "ISK",
                 "symbol-alt-narrow": "kr"
             },
             ITL: {
                 displayName: "イタリア リラ",
-                "displayName-count-other": "イタリア リラ",
-                symbol: "ITL"
+                "displayName-count-other": "イタリア リラ"
             },
             JMD: {
                 displayName: "ジャマイカ ドル",
                 "displayName-count-other": "ジャマイカ ドル",
-                symbol: "JMD",
                 "symbol-alt-narrow": "$"
             },
             JOD: {
                 displayName: "ヨルダン ディナール",
-                "displayName-count-other": "ヨルダン ディナール",
-                symbol: "JOD"
+                "displayName-count-other": "ヨルダン ディナール"
             },
             JPY: {
                 displayName: "日本円",
@@ -725,41 +602,35 @@ const data = {
             },
             KES: {
                 displayName: "ケニア シリング",
-                "displayName-count-other": "ケニア シリング",
-                symbol: "KES"
+                "displayName-count-other": "ケニア シリング"
             },
             KGS: {
                 displayName: "キルギス ソム",
                 "displayName-count-other": "キルギス ソム",
-                symbol: "KGS"
+                "symbol-alt-narrow": "⃀"
             },
             KHR: {
                 displayName: "カンボジア リエル",
                 "displayName-count-other": "カンボジア リエル",
-                symbol: "KHR",
                 "symbol-alt-narrow": "៛"
             },
             KMF: {
                 displayName: "コモロ フラン",
                 "displayName-count-other": "コモロ フラン",
-                symbol: "KMF",
                 "symbol-alt-narrow": "CF"
             },
             KPW: {
                 displayName: "北朝鮮ウォン",
                 "displayName-count-other": "北朝鮮ウォン",
-                symbol: "KPW",
                 "symbol-alt-narrow": "₩"
             },
             KRH: {
                 displayName: "韓国 ファン（1953–1962）",
-                "displayName-count-other": "韓国 ファン（1953–1962）",
-                symbol: "KRH"
+                "displayName-count-other": "韓国 ファン（1953–1962）"
             },
             KRO: {
                 displayName: "韓国 ウォン（1945–1953）",
-                "displayName-count-other": "韓国 ウォン（1945–1953）",
-                symbol: "KRO"
+                "displayName-count-other": "韓国 ウォン（1945–1953）"
             },
             KRW: {
                 displayName: "韓国ウォン",
@@ -769,200 +640,163 @@ const data = {
             },
             KWD: {
                 displayName: "クウェート ディナール",
-                "displayName-count-other": "クウェート ディナール",
-                symbol: "KWD"
+                "displayName-count-other": "クウェート ディナール"
             },
             KYD: {
                 displayName: "ケイマン諸島 ドル",
                 "displayName-count-other": "ケイマン諸島 ドル",
-                symbol: "KYD",
                 "symbol-alt-narrow": "$"
             },
             KZT: {
                 displayName: "カザフスタン テンゲ",
                 "displayName-count-other": "カザフスタン テンゲ",
-                symbol: "KZT",
                 "symbol-alt-narrow": "₸"
             },
             LAK: {
                 displayName: "ラオス キープ",
                 "displayName-count-other": "ラオス キープ",
-                symbol: "LAK",
                 "symbol-alt-narrow": "₭"
             },
             LBP: {
                 displayName: "レバノン ポンド",
                 "displayName-count-other": "レバノン ポンド",
-                symbol: "LBP",
                 "symbol-alt-narrow": "L£"
             },
             LKR: {
                 displayName: "スリランカ ルピー",
                 "displayName-count-other": "スリランカ ルピー",
-                symbol: "LKR",
                 "symbol-alt-narrow": "Rs"
             },
             LRD: {
                 displayName: "リベリア ドル",
                 "displayName-count-other": "リベリア ドル",
-                symbol: "LRD",
                 "symbol-alt-narrow": "$"
             },
             LSL: {
                 displayName: "レソト ロティ",
-                "displayName-count-other": "レソト ロティ",
-                symbol: "LSL"
+                "displayName-count-other": "レソト ロティ"
             },
             LTL: {
                 displayName: "リトアニア リタス",
                 "displayName-count-other": "リトアニア リタス",
-                symbol: "LTL",
                 "symbol-alt-narrow": "Lt"
             },
             LTT: {
                 displayName: "リトアニア タロナ",
-                "displayName-count-other": "リトアニア タロナ",
-                symbol: "LTT"
+                "displayName-count-other": "リトアニア タロナ"
             },
             LUC: {
                 displayName: "ルクセンブルク 兌換フラン",
-                "displayName-count-other": "ルクセンブルク 兌換フラン",
-                symbol: "LUC"
+                "displayName-count-other": "ルクセンブルク 兌換フラン"
             },
             LUF: {
                 displayName: "ルクセンブルグ フラン",
-                "displayName-count-other": "ルクセンブルグ フラン",
-                symbol: "LUF"
+                "displayName-count-other": "ルクセンブルグ フラン"
             },
             LUL: {
                 displayName: "ルクセンブルク 金融フラン",
-                "displayName-count-other": "ルクセンブルク 金融フラン",
-                symbol: "LUL"
+                "displayName-count-other": "ルクセンブルク 金融フラン"
             },
             LVL: {
                 displayName: "ラトビア ラッツ",
                 "displayName-count-other": "ラトビア ラッツ",
-                symbol: "LVL",
                 "symbol-alt-narrow": "Ls"
             },
             LVR: {
                 displayName: "ラトビア ルーブル",
-                "displayName-count-other": "ラトビア ルーブル",
-                symbol: "LVR"
+                "displayName-count-other": "ラトビア ルーブル"
             },
             LYD: {
                 displayName: "リビア ディナール",
-                "displayName-count-other": "リビア ディナール",
-                symbol: "LYD"
+                "displayName-count-other": "リビア ディナール"
             },
             MAD: {
                 displayName: "モロッコ ディルハム",
-                "displayName-count-other": "モロッコ ディルハム",
-                symbol: "MAD"
+                "displayName-count-other": "モロッコ ディルハム"
             },
             MAF: {
                 displayName: "モロッコ フラン",
-                "displayName-count-other": "モロッコ フラン",
-                symbol: "MAF"
+                "displayName-count-other": "モロッコ フラン"
             },
             MCF: {
                 displayName: "モネガスク フラン",
-                "displayName-count-other": "モネガスク フラン",
-                symbol: "MCF"
+                "displayName-count-other": "モネガスク フラン"
             },
             MDC: {
                 displayName: "モルドバ クーポン",
-                "displayName-count-other": "モルドバ クーポン",
-                symbol: "MDC"
+                "displayName-count-other": "モルドバ クーポン"
             },
             MDL: {
                 displayName: "モルドバ レイ",
-                "displayName-count-other": "モルドバ レイ",
-                symbol: "MDL"
+                "displayName-count-other": "モルドバ レイ"
             },
             MGA: {
                 displayName: "マダガスカル アリアリ",
                 "displayName-count-other": "マダガスカル アリアリ",
-                symbol: "MGA",
                 "symbol-alt-narrow": "Ar"
             },
             MGF: {
                 displayName: "マラガシ フラン",
-                "displayName-count-other": "マラガシ フラン",
-                symbol: "MGF"
+                "displayName-count-other": "マラガシ フラン"
             },
             MKD: {
                 displayName: "マケドニア デナル",
-                "displayName-count-other": "マケドニア デナル",
-                symbol: "MKD"
+                "displayName-count-other": "マケドニア デナル"
             },
             MKN: {
                 displayName: "マケドニア ディナール（1992–1993）",
-                "displayName-count-other": "マケドニア ディナール（1992–1993）",
-                symbol: "MKN"
+                "displayName-count-other": "マケドニア ディナール（1992–1993）"
             },
             MLF: {
                 displayName: "マリ フラン",
-                "displayName-count-other": "マリ フラン",
-                symbol: "MLF"
+                "displayName-count-other": "マリ フラン"
             },
             MMK: {
                 displayName: "ミャンマー チャット",
                 "displayName-count-other": "ミャンマー チャット",
-                symbol: "MMK",
                 "symbol-alt-narrow": "K"
             },
             MNT: {
                 displayName: "モンゴル トグログ",
                 "displayName-count-other": "モンゴル トグログ",
-                symbol: "MNT",
                 "symbol-alt-narrow": "₮"
             },
             MOP: {
                 displayName: "マカオ パタカ",
-                "displayName-count-other": "マカオ パタカ",
-                symbol: "MOP"
+                "displayName-count-other": "マカオ パタカ"
             },
             MRO: {
                 displayName: "モーリタニア ウギア (1973–2017)",
-                "displayName-count-other": "モーリタニア ウギア (1973–2017)",
-                symbol: "MRO"
+                "displayName-count-other": "モーリタニア ウギア (1973–2017)"
             },
             MRU: {
                 displayName: "モーリタニア ウギア",
-                "displayName-count-other": "モーリタニア ウギア",
-                symbol: "MRU"
+                "displayName-count-other": "モーリタニア ウギア"
             },
             MTL: {
                 displayName: "マルタ リラ",
-                "displayName-count-other": "マルタ リラ",
-                symbol: "MTL"
+                "displayName-count-other": "マルタ リラ"
             },
             MTP: {
                 displayName: "マルタ ポンド",
-                "displayName-count-other": "マルタ ポンド",
-                symbol: "MTP"
+                "displayName-count-other": "マルタ ポンド"
             },
             MUR: {
                 displayName: "モーリシャス ルピー",
                 "displayName-count-other": "モーリシャス ルピー",
-                symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
             MVP: {
                 displayName: "モルディブ諸島 ルピー",
-                "displayName-count-other": "モルディブ諸島 ルピー",
-                symbol: "MVP"
+                "displayName-count-other": "モルディブ諸島 ルピー"
             },
             MVR: {
                 displayName: "モルディブ ルフィア",
-                "displayName-count-other": "モルディブ ルフィア",
-                symbol: "MVR"
+                "displayName-count-other": "モルディブ ルフィア"
             },
             MWK: {
                 displayName: "マラウィ クワチャ",
-                "displayName-count-other": "マラウィ クワチャ",
-                symbol: "MWK"
+                "displayName-count-other": "マラウィ クワチャ"
             },
             MXN: {
                 displayName: "メキシコ ペソ",
@@ -972,73 +806,60 @@ const data = {
             },
             MXP: {
                 displayName: "メキシコ ペソ (1861–1992)",
-                "displayName-count-other": "メキシコ ペソ (1861–1992)",
-                symbol: "MXP"
+                "displayName-count-other": "メキシコ ペソ (1861–1992)"
             },
             MXV: {
                 displayName: "メキシコ (UDI)",
-                "displayName-count-other": "メキシコ (UDI)",
-                symbol: "MXV"
+                "displayName-count-other": "メキシコ (UDI)"
             },
             MYR: {
                 displayName: "マレーシア リンギット",
                 "displayName-count-other": "マレーシア リンギット",
-                symbol: "MYR",
                 "symbol-alt-narrow": "RM"
             },
             MZE: {
                 displayName: "モザンピーク エスクード",
-                "displayName-count-other": "モザンピーク エスクード",
-                symbol: "MZE"
+                "displayName-count-other": "モザンピーク エスクード"
             },
             MZM: {
                 displayName: "モザンビーク メティカル (1980–2006)",
-                "displayName-count-other": "モザンビーク メティカル (1980–2006)",
-                symbol: "MZM"
+                "displayName-count-other": "モザンビーク メティカル (1980–2006)"
             },
             MZN: {
                 displayName: "モザンビーク メティカル",
-                "displayName-count-other": "モザンビーク メティカル",
-                symbol: "MZN"
+                "displayName-count-other": "モザンビーク メティカル"
             },
             NAD: {
                 displayName: "ナミビア ドル",
                 "displayName-count-other": "ナミビア ドル",
-                symbol: "NAD",
                 "symbol-alt-narrow": "$"
             },
             NGN: {
                 displayName: "ナイジェリア ナイラ",
                 "displayName-count-other": "ナイジェリア ナイラ",
-                symbol: "NGN",
                 "symbol-alt-narrow": "₦"
             },
             NIC: {
                 displayName: "ニカラグア コルドバ (1988–1991)",
-                "displayName-count-other": "ニカラグア コルドバ (1988–1991)",
-                symbol: "NIC"
+                "displayName-count-other": "ニカラグア コルドバ (1988–1991)"
             },
             NIO: {
                 displayName: "ニカラグア コルドバ オロ",
                 "displayName-count-other": "ニカラグア コルドバ オロ",
-                symbol: "NIO",
                 "symbol-alt-narrow": "C$"
             },
             NLG: {
                 displayName: "オランダ ギルダー",
-                "displayName-count-other": "オランダ ギルダー",
-                symbol: "NLG"
+                "displayName-count-other": "オランダ ギルダー"
             },
             NOK: {
                 displayName: "ノルウェー クローネ",
                 "displayName-count-other": "ノルウェー クローネ",
-                symbol: "NOK",
                 "symbol-alt-narrow": "kr"
             },
             NPR: {
                 displayName: "ネパール ルピー",
                 "displayName-count-other": "ネパール ルピー",
-                symbol: "NPR",
                 "symbol-alt-narrow": "Rs"
             },
             NZD: {
@@ -1049,33 +870,27 @@ const data = {
             },
             OMR: {
                 displayName: "オマーン リアル",
-                "displayName-count-other": "オマーン リアル",
-                symbol: "OMR"
+                "displayName-count-other": "オマーン リアル"
             },
             PAB: {
                 displayName: "パナマ バルボア",
-                "displayName-count-other": "パナマ バルボア",
-                symbol: "PAB"
+                "displayName-count-other": "パナマ バルボア"
             },
             PEI: {
                 displayName: "ペルー インティ",
-                "displayName-count-other": "ペルー インティ",
-                symbol: "PEI"
+                "displayName-count-other": "ペルー インティ"
             },
             PEN: {
                 displayName: "ペルー ソル",
-                "displayName-count-other": "ペルー ソル",
-                symbol: "PEN"
+                "displayName-count-other": "ペルー ソル"
             },
             PES: {
                 displayName: "ペルー ソル (1863–1965)",
-                "displayName-count-other": "ペルー ソル (1863–1965)",
-                symbol: "PES"
+                "displayName-count-other": "ペルー ソル (1863–1965)"
             },
             PGK: {
                 displayName: "パプアニューギニア キナ",
-                "displayName-count-other": "パプアニューギニア キナ",
-                symbol: "PGK"
+                "displayName-count-other": "パプアニューギニア キナ"
             },
             PHP: {
                 displayName: "フィリピン ペソ",
@@ -1086,254 +901,209 @@ const data = {
             PKR: {
                 displayName: "パキスタン ルピー",
                 "displayName-count-other": "パキスタン ルピー",
-                symbol: "PKR",
                 "symbol-alt-narrow": "Rs"
             },
             PLN: {
                 displayName: "ポーランド ズウォティ",
                 "displayName-count-other": "ポーランド ズウォティ",
-                symbol: "PLN",
                 "symbol-alt-narrow": "zł"
             },
             PLZ: {
                 displayName: "ポーランド ズウォティ (1950–1995)",
-                "displayName-count-other": "ポーランド ズウォティ (1950–1995)",
-                symbol: "PLZ"
+                "displayName-count-other": "ポーランド ズウォティ (1950–1995)"
             },
             PTE: {
                 displayName: "ポルトガル エスクード",
-                "displayName-count-other": "ポルトガル エスクード",
-                symbol: "PTE"
+                "displayName-count-other": "ポルトガル エスクード"
             },
             PYG: {
                 displayName: "パラグアイ グアラニ",
                 "displayName-count-other": "パラグアイ グアラニ",
-                symbol: "PYG",
                 "symbol-alt-narrow": "₲"
             },
             QAR: {
                 displayName: "カタール リアル",
-                "displayName-count-other": "カタール リアル",
-                symbol: "QAR"
+                "displayName-count-other": "カタール リアル"
             },
             RHD: {
                 displayName: "ローデシア ドル",
-                "displayName-count-other": "ローデシア ドル",
-                symbol: "RHD"
+                "displayName-count-other": "ローデシア ドル"
             },
             ROL: {
                 displayName: "ルーマニア レイ (1952–2006)",
-                "displayName-count-other": "ルーマニア レイ (1952–2006)",
-                symbol: "ROL"
+                "displayName-count-other": "ルーマニア レイ (1952–2006)"
             },
             RON: {
                 displayName: "ルーマニア レイ",
                 "displayName-count-other": "ルーマニア レイ",
-                symbol: "RON",
                 "symbol-alt-narrow": "レイ"
             },
             RSD: {
-                displayName: "ディナール (セルビア)",
-                "displayName-count-other": "ディナール (セルビア)",
-                symbol: "RSD"
+                displayName: "セルビア ディナール",
+                "displayName-count-other": "セルビア ディナール"
             },
             RUB: {
                 displayName: "ロシア ルーブル",
                 "displayName-count-other": "ロシア ルーブル",
-                symbol: "RUB",
                 "symbol-alt-narrow": "₽"
             },
             RUR: {
                 displayName: "ロシア ルーブル (1991–1998)",
-                "displayName-count-other": "ロシア ルーブル (1991–1998)",
-                symbol: "RUR"
+                "displayName-count-other": "ロシア ルーブル (1991–1998)"
             },
             RWF: {
                 displayName: "ルワンダ フラン",
                 "displayName-count-other": "ルワンダ フラン",
-                symbol: "RWF",
                 "symbol-alt-narrow": "RF"
             },
             SAR: {
                 displayName: "サウジ リヤル",
                 "displayName-count-other": "サウジ リヤル",
-                symbol: "SAR"
+                "symbol-alt-variant": "⃁"
             },
             SBD: {
                 displayName: "ソロモン諸島 ドル",
                 "displayName-count-other": "ソロモン諸島 ドル",
-                symbol: "SBD",
                 "symbol-alt-narrow": "$"
             },
             SCR: {
                 displayName: "セーシェル ルピー",
-                "displayName-count-other": "セーシェル ルピー",
-                symbol: "SCR"
+                "displayName-count-other": "セーシェル ルピー"
             },
             SDD: {
                 displayName: "スーダン ディナール (1992–2007)",
-                "displayName-count-other": "スーダン ディナール (1992–2007)",
-                symbol: "SDD"
+                "displayName-count-other": "スーダン ディナール (1992–2007)"
             },
             SDG: {
                 displayName: "スーダン ポンド",
-                "displayName-count-other": "スーダン ポンド",
-                symbol: "SDG"
+                "displayName-count-other": "スーダン ポンド"
             },
             SDP: {
                 displayName: "スーダン ポンド (1957–1998)",
-                "displayName-count-other": "スーダン ポンド (1957–1998)",
-                symbol: "SDP"
+                "displayName-count-other": "スーダン ポンド (1957–1998)"
             },
             SEK: {
                 displayName: "スウェーデン クローナ",
                 "displayName-count-other": "スウェーデン クローナ",
-                symbol: "SEK",
                 "symbol-alt-narrow": "kr"
             },
             SGD: {
                 displayName: "シンガポール ドル",
                 "displayName-count-other": "シンガポール ドル",
-                symbol: "SGD",
                 "symbol-alt-narrow": "$"
             },
             SHP: {
                 displayName: "セントヘレナ ポンド",
                 "displayName-count-other": "セントヘレナ ポンド",
-                symbol: "SHP",
                 "symbol-alt-narrow": "£"
             },
             SIT: {
                 displayName: "スロベニア トラール",
-                "displayName-count-other": "スロベニア トラール",
-                symbol: "SIT"
+                "displayName-count-other": "スロベニア トラール"
             },
             SKK: {
                 displayName: "スロバキア コルナ",
-                "displayName-count-other": "スロバキア コルナ",
-                symbol: "SKK"
+                "displayName-count-other": "スロバキア コルナ"
             },
             SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
+                displayName: "シエラレオネ レオン",
+                "displayName-count-other": "シエラレオネ レオン"
             },
             SLL: {
-                displayName: "シエラレオネ レオン",
-                "displayName-count-other": "シエラレオネ レオン",
-                symbol: "SLL"
+                displayName: "シエラレオネ レオン (1964—2022)",
+                "displayName-count-other": "シエラレオネ レオン (1964—2022)"
             },
             SOS: {
                 displayName: "ソマリア シリング",
-                "displayName-count-other": "ソマリア シリング",
-                symbol: "SOS"
+                "displayName-count-other": "ソマリア シリング"
             },
             SRD: {
                 displayName: "スリナム ドル",
                 "displayName-count-other": "スリナム ドル",
-                symbol: "SRD",
                 "symbol-alt-narrow": "$"
             },
             SRG: {
                 displayName: "スリナム ギルダー",
-                "displayName-count-other": "スリナム ギルダー",
-                symbol: "SRG"
+                "displayName-count-other": "スリナム ギルダー"
             },
             SSP: {
                 displayName: "南スーダン ポンド",
                 "displayName-count-other": "南スーダン ポンド",
-                symbol: "SSP",
                 "symbol-alt-narrow": "£"
             },
             STD: {
                 displayName: "サントメ・プリンシペ ドブラ (1977–2017)",
-                "displayName-count-other": "サントメ・プリンシペ ドブラ (1977–2017)",
-                symbol: "STD"
+                "displayName-count-other": "サントメ・プリンシペ ドブラ (1977–2017)"
             },
             STN: {
                 displayName: "サントメ・プリンシペ ドブラ",
                 "displayName-count-other": "サントメ・プリンシペ ドブラ",
-                symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },
             SUR: {
                 displayName: "ソ連 ルーブル",
-                "displayName-count-other": "ソ連 ルーブル",
-                symbol: "SUR"
+                "displayName-count-other": "ソ連 ルーブル"
             },
             SVC: {
                 displayName: "エルサルバドル コロン",
-                "displayName-count-other": "エルサルバドル コロン",
-                symbol: "SVC"
+                "displayName-count-other": "エルサルバドル コロン"
             },
             SYP: {
                 displayName: "シリア ポンド",
                 "displayName-count-other": "シリア ポンド",
-                symbol: "SYP",
                 "symbol-alt-narrow": "£"
             },
             SZL: {
                 displayName: "スワジランド リランゲニ",
-                "displayName-count-other": "スワジランド リランゲニ",
-                symbol: "SZL"
+                "displayName-count-other": "スワジランド リランゲニ"
             },
             THB: {
                 displayName: "タイ バーツ",
                 "displayName-count-other": "タイ バーツ",
-                symbol: "THB",
                 "symbol-alt-narrow": "฿"
             },
             TJR: {
                 displayName: "タジキスタン ルーブル",
-                "displayName-count-other": "タジキスタン ルーブル",
-                symbol: "TJR"
+                "displayName-count-other": "タジキスタン ルーブル"
             },
             TJS: {
                 displayName: "タジキスタン ソモニ",
-                "displayName-count-other": "タジキスタン ソモニ",
-                symbol: "TJS"
+                "displayName-count-other": "タジキスタン ソモニ"
             },
             TMM: {
                 displayName: "トルクメニスタン マナト (1993–2009)",
-                "displayName-count-other": "トルクメニスタン マナト (1993–2009)",
-                symbol: "TMM"
+                "displayName-count-other": "トルクメニスタン マナト (1993–2009)"
             },
             TMT: {
                 displayName: "トルクメニスタン マナト",
-                "displayName-count-other": "トルクメニスタン マナト",
-                symbol: "TMT"
+                "displayName-count-other": "トルクメニスタン マナト"
             },
             TND: {
                 displayName: "チュニジア ディナール",
-                "displayName-count-other": "チュニジア ディナール",
-                symbol: "TND"
+                "displayName-count-other": "チュニジア ディナール"
             },
             TOP: {
                 displayName: "トンガ パ・アンガ",
                 "displayName-count-other": "トンガ パ・アンガ",
-                symbol: "TOP",
                 "symbol-alt-narrow": "T$"
             },
             TPE: {
                 displayName: "ティモール エスクード",
-                "displayName-count-other": "ティモール エスクード",
-                symbol: "TPE"
+                "displayName-count-other": "ティモール エスクード"
             },
             TRL: {
                 displayName: "トルコ リラ (1922–2005)",
-                "displayName-count-other": "トルコ リラ (1922–2005)",
-                symbol: "TRL"
+                "displayName-count-other": "トルコ リラ (1922–2005)"
             },
             TRY: {
-                displayName: "新トルコリラ",
-                "displayName-count-other": "新トルコリラ",
-                symbol: "TRY",
+                displayName: "トルコ リラ",
+                "displayName-count-other": "トルコ リラ",
                 "symbol-alt-narrow": "₺",
                 "symbol-alt-variant": "TL"
             },
             TTD: {
                 displayName: "トリニダード・トバゴ ドル",
                 "displayName-count-other": "トリニダード・トバゴ ドル",
-                symbol: "TTD",
                 "symbol-alt-narrow": "$"
             },
             TWD: {
@@ -1344,29 +1114,24 @@ const data = {
             },
             TZS: {
                 displayName: "タンザニア シリング",
-                "displayName-count-other": "タンザニア シリング",
-                symbol: "TZS"
+                "displayName-count-other": "タンザニア シリング"
             },
             UAH: {
-                displayName: "ウクライナ グリブナ",
-                "displayName-count-other": "ウクライナ グリブナ",
-                symbol: "UAH",
+                displayName: "ウクライナ フリヴニャ",
+                "displayName-count-other": "ウクライナ フリヴニャ",
                 "symbol-alt-narrow": "₴"
             },
             UAK: {
                 displayName: "ウクライナ カルボバネツ",
-                "displayName-count-other": "ウクライナ カルボバネツ",
-                symbol: "UAK"
+                "displayName-count-other": "ウクライナ カルボバネツ"
             },
             UGS: {
                 displayName: "ウガンダ シリング (1966–1987)",
-                "displayName-count-other": "ウガンダ シリング (1966–1987)",
-                symbol: "UGS"
+                "displayName-count-other": "ウガンダ シリング (1966–1987)"
             },
             UGX: {
                 displayName: "ウガンダ シリング",
-                "displayName-count-other": "ウガンダ シリング",
-                symbol: "UGX"
+                "displayName-count-other": "ウガンダ シリング"
             },
             USD: {
                 displayName: "米ドル",
@@ -1376,58 +1141,41 @@ const data = {
             },
             USN: {
                 displayName: "米ドル (翌日)",
-                "displayName-count-other": "米ドル (翌日)",
-                symbol: "USN"
+                "displayName-count-other": "米ドル (翌日)"
             },
             USS: {
                 displayName: "米ドル (当日)",
-                "displayName-count-other": "米ドル (当日)",
-                symbol: "USS"
+                "displayName-count-other": "米ドル (当日)"
             },
             UYI: {
                 displayName: "ウルグアイ ペソエン",
-                "displayName-count-other": "ウルグアイ ペソエン",
-                symbol: "UYI"
+                "displayName-count-other": "ウルグアイ ペソエン"
             },
             UYP: {
                 displayName: "ウルグアイ ペソ (1975–1993)",
-                "displayName-count-other": "ウルグアイ ペソ (1975–1993)",
-                symbol: "UYP"
+                "displayName-count-other": "ウルグアイ ペソ (1975–1993)"
             },
             UYU: {
                 displayName: "ウルグアイ ペソ",
                 "displayName-count-other": "ウルグアイ ペソ",
-                symbol: "UYU",
                 "symbol-alt-narrow": "$"
-            },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
             },
             UZS: {
                 displayName: "ウズベキスタン スム",
-                "displayName-count-other": "ウズベキスタン スム",
-                symbol: "UZS"
+                "displayName-count-other": "ウズベキスタン スム"
             },
             VEB: {
                 displayName: "ベネズエラ ボリバル (1871–2008)",
-                "displayName-count-other": "ベネズエラ ボリバル (1871–2008)",
-                symbol: "VEB"
-            },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
+                "displayName-count-other": "ベネズエラ ボリバル (1871–2008)"
             },
             VEF: {
                 displayName: "ベネズエラ ボリバル (2008–2018)",
                 "displayName-count-other": "ベネズエラ ボリバル (2008–2018)",
-                symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
             },
             VES: {
                 displayName: "ベネズエラ ボリバル",
-                "displayName-count-other": "ベネズエラ ボリバル",
-                symbol: "VES"
+                "displayName-count-other": "ベネズエラ ボリバル"
             },
             VND: {
                 displayName: "ベトナム ドン",
@@ -1437,18 +1185,15 @@ const data = {
             },
             VNN: {
                 displayName: "ベトナム ドン（1978–1985）",
-                "displayName-count-other": "ベトナム ドン（1978–1985）",
-                symbol: "VNN"
+                "displayName-count-other": "ベトナム ドン（1978–1985）"
             },
             VUV: {
                 displayName: "バヌアツ バツ",
-                "displayName-count-other": "バヌアツ バツ",
-                symbol: "VUV"
+                "displayName-count-other": "バヌアツ バツ"
             },
             WST: {
                 displayName: "サモア タラ",
-                "displayName-count-other": "サモア タラ",
-                symbol: "WST"
+                "displayName-count-other": "サモア タラ"
             },
             XAF: {
                 displayName: "中央アフリカ CFA フラン",
@@ -1457,33 +1202,27 @@ const data = {
             },
             XAG: {
                 displayName: "銀",
-                "displayName-count-other": "銀",
-                symbol: "XAG"
+                "displayName-count-other": "銀"
             },
             XAU: {
                 displayName: "金",
-                "displayName-count-other": "金",
-                symbol: "XAU"
+                "displayName-count-other": "金"
             },
             XBA: {
                 displayName: "ヨーロッパ混合単位 (EURCO)",
-                "displayName-count-other": "ヨーロッパ混合単位 (EURCO)",
-                symbol: "XBA"
+                "displayName-count-other": "ヨーロッパ混合単位 (EURCO)"
             },
             XBB: {
                 displayName: "ヨーロッパ通貨単位 (EMU–6)",
-                "displayName-count-other": "ヨーロッパ通貨単位 (EMU–6)",
-                symbol: "XBB"
+                "displayName-count-other": "ヨーロッパ通貨単位 (EMU–6)"
             },
             XBC: {
                 displayName: "ヨーロッパ勘定単位 (EUA–9)",
-                "displayName-count-other": "ヨーロッパ勘定単位 (EUA–9)",
-                symbol: "XBC"
+                "displayName-count-other": "ヨーロッパ勘定単位 (EUA–9)"
             },
             XBD: {
                 displayName: "ヨーロッパ勘定単位 (EUA–17)",
-                "displayName-count-other": "ヨーロッパ勘定単位 (EUA–17)",
-                symbol: "XBD"
+                "displayName-count-other": "ヨーロッパ勘定単位 (EUA–17)"
             },
             XCD: {
                 displayName: "東カリブ ドル",
@@ -1491,25 +1230,26 @@ const data = {
                 symbol: "EC$",
                 "symbol-alt-narrow": "$"
             },
+            XCG: {
+                displayName: "カリブ ギルダー",
+                "displayName-count-other": "カリブ ギルダー",
+                symbol: "Cg"
+            },
             XDR: {
                 displayName: "特別引き出し権",
-                "displayName-count-other": "特別引き出し権",
-                symbol: "XDR"
+                "displayName-count-other": "特別引き出し権"
             },
             XEU: {
                 displayName: "ヨーロッパ通貨単位",
-                "displayName-count-other": "ヨーロッパ通貨単位",
-                symbol: "XEU"
+                "displayName-count-other": "ヨーロッパ通貨単位"
             },
             XFO: {
                 displayName: "フランス金フラン",
-                "displayName-count-other": "フランス金フラン",
-                symbol: "XFO"
+                "displayName-count-other": "フランス金フラン"
             },
             XFU: {
                 displayName: "フランス フラン (UIC)",
-                "displayName-count-other": "フランス フラン (UIC)",
-                symbol: "XFU"
+                "displayName-count-other": "フランス フラン (UIC)"
             },
             XOF: {
                 displayName: "西アフリカ CFA フラン",
@@ -1518,8 +1258,7 @@ const data = {
             },
             XPD: {
                 displayName: "パラジウム",
-                "displayName-count-other": "パラジウム",
-                symbol: "XPD"
+                "displayName-count-other": "パラジウム"
             },
             XPF: {
                 displayName: "CFP フラン",
@@ -1528,28 +1267,23 @@ const data = {
             },
             XPT: {
                 displayName: "プラチナ",
-                "displayName-count-other": "プラチナ",
-                symbol: "XPT"
+                "displayName-count-other": "プラチナ"
             },
             XRE: {
                 displayName: "RINET基金",
-                "displayName-count-other": "RINET基金",
-                symbol: "XRE"
+                "displayName-count-other": "RINET基金"
             },
             XSU: {
                 displayName: "スクレ",
-                "displayName-count-other": "スクレ",
-                symbol: "XSU"
+                "displayName-count-other": "スクレ"
             },
             XTS: {
                 displayName: "テスト用通貨コード",
-                "displayName-count-other": "テスト用通貨コード",
-                symbol: "XTS"
+                "displayName-count-other": "テスト用通貨コード"
             },
             XUA: {
                 displayName: "UA (アフリカ開発銀行)",
-                "displayName-count-other": "UA (アフリカ開発銀行)",
-                symbol: "XUA"
+                "displayName-count-other": "UA (アフリカ開発銀行)"
             },
             XXX: {
                 displayName: "不明または無効な通貨",
@@ -1558,80 +1292,69 @@ const data = {
             },
             YDD: {
                 displayName: "イエメン ディナール",
-                "displayName-count-other": "イエメン ディナール",
-                symbol: "YDD"
+                "displayName-count-other": "イエメン ディナール"
             },
             YER: {
                 displayName: "イエメン リアル",
-                "displayName-count-other": "イエメン リアル",
-                symbol: "YER"
+                "displayName-count-other": "イエメン リアル"
             },
             YUD: {
                 displayName: "ユーゴスラビア ハード・ディナール (1966–1990)",
-                "displayName-count-other": "ユーゴスラビア ハード・ディナール (1966–1990)",
-                symbol: "YUD"
+                "displayName-count-other": "ユーゴスラビア ハード・ディナール (1966–1990)"
             },
             YUM: {
                 displayName: "ユーゴスラビア ノビ・ディナール (1994–2002)",
-                "displayName-count-other": "ユーゴスラビア ノビ・ディナール (1994–2002)",
-                symbol: "YUM"
+                "displayName-count-other": "ユーゴスラビア ノビ・ディナール (1994–2002)"
             },
             YUN: {
                 displayName: "ユーゴスラビア 兌換ディナール (1990–1992)",
-                "displayName-count-other": "ユーゴスラビア 兌換ディナール (1990–1992)",
-                symbol: "YUN"
+                "displayName-count-other": "ユーゴスラビア 兌換ディナール (1990–1992)"
             },
             YUR: {
                 displayName: "ユーゴスラビア 改革ディナール（1992–1993）",
-                "displayName-count-other": "ユーゴスラビア 改革ディナール（1992–1993）",
-                symbol: "YUR"
+                "displayName-count-other": "ユーゴスラビア 改革ディナール（1992–1993）"
             },
             ZAL: {
                 displayName: "南アフリカ ランド (ZAL)",
-                "displayName-count-other": "南アフリカ ランド (ZAL)",
-                symbol: "ZAL"
+                "displayName-count-other": "南アフリカ ランド (ZAL)"
             },
             ZAR: {
                 displayName: "南アフリカ ランド",
                 "displayName-count-other": "南アフリカ ランド",
-                symbol: "ZAR",
                 "symbol-alt-narrow": "R"
             },
             ZMK: {
                 displayName: "ザンビア クワチャ (1968–2012)",
-                "displayName-count-other": "ザンビア クワチャ (1968–2012)",
-                symbol: "ZMK"
+                "displayName-count-other": "ザンビア クワチャ (1968–2012)"
             },
             ZMW: {
                 displayName: "ザンビア クワチャ",
                 "displayName-count-other": "ザンビア クワチャ",
-                symbol: "ZMW",
                 "symbol-alt-narrow": "ZK"
             },
             ZRN: {
                 displayName: "ザイール 新ザイール (1993–1998)",
-                "displayName-count-other": "ザイール 新ザイール (1993–1998)",
-                symbol: "ZRN"
+                "displayName-count-other": "ザイール 新ザイール (1993–1998)"
             },
             ZRZ: {
                 displayName: "ザイール ザイール (1971–1993)",
-                "displayName-count-other": "ザイール ザイール (1971–1993)",
-                symbol: "ZRZ"
+                "displayName-count-other": "ザイール ザイール (1971–1993)"
             },
             ZWD: {
                 displayName: "ジンバブエ ドル (1980–2008)",
-                "displayName-count-other": "ジンバブエ ドル (1980–2008)",
-                symbol: "ZWD"
+                "displayName-count-other": "ジンバブエ ドル (1980–2008)"
+            },
+            ZWG: {
+                displayName: "ジンバブエ ゴールド",
+                "displayName-count-other": "ジンバブエ ゴールド"
             },
             ZWL: {
                 displayName: "ジンバブエ ドル (2009)",
-                "displayName-count-other": "ジンバブエ ドル (2009)",
-                symbol: "ZWL"
+                "displayName-count-other": "ジンバブエ ドル (2009)"
             },
             ZWR: {
                 displayName: "シンバブエ ドル（2008）",
-                "displayName-count-other": "シンバブエ ドル（2008）",
-                symbol: "ZWR"
+                "displayName-count-other": "シンバブエ ドル（2008）"
             }
         },
         localeCurrency: "JPY"

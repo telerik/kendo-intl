@@ -16,17 +16,17 @@ const data = {
             M: "d MMMM",
             y: "MMM y",
             Y: "MMMM y",
-            F: "EEEE, d MMMM y h:mm:ss a",
-            g: "dd/MM/y h:mm a",
-            G: "dd/MM/y h:mm:ss a",
-            t: "h:mm a",
-            T: "h:mm:ss a",
+            F: "EEEE, d MMMM y h:mm:ss a",
+            g: "dd/MM/y h:mm a",
+            G: "dd/MM/y h:mm:ss a",
+            t: "h:mm a",
+            T: "h:mm:ss a",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} 'at' {0}",
-            long: "{1} 'at' {0}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
@@ -35,28 +35,43 @@ const data = {
                 Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBh: "E h B",
                 EBhm: "E, h:mm B",
                 EBhms: "E, h:mm:ss B",
                 Ed: "E d",
-                Ehm: "E h:mm a",
+                Eh: "E h a",
+                "Eh-alt-ascii": "E h a",
+                Ehm: "E h:mm a",
+                "Ehm-alt-ascii": "E h:mm a",
                 EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E h:mm:ss a",
+                "Ehms-alt-ascii": "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
-                GyMd: "M/d/y GGGGG",
+                GyM: "M/y G",
+                GyMd: "M/d/y G",
+                GyMEd: "E, M/d/y G",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E, d MMM y G",
-                h: "h a",
+                h: "h a",
+                "h-alt-ascii": "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
+                "hm-alt-ascii": "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
+                "hms-alt-ascii": "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
+                "hmsv-alt-ascii": "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
+                "hmv-alt-ascii": "h:mm a v",
                 Hmv: "HH:mm v",
+                hv: "h a v",
+                "hv-alt-ascii": "h a v",
+                Hv: "HH'h' v",
                 M: "L",
                 Md: "dd/MM",
                 MEd: "E, dd/MM",
@@ -83,10 +98,14 @@ const data = {
             }
         },
         timeFormats: {
-            full: "h:mm:ss a zzzz",
-            long: "h:mm:ss a z",
-            medium: "h:mm:ss a",
-            short: "h:mm a"
+            full: "h:mm:ss a zzzz",
+            "full-alt-ascii": "h:mm:ss a zzzz",
+            long: "h:mm:ss a z",
+            "long-alt-ascii": "h:mm:ss a z",
+            medium: "h:mm:ss a",
+            "medium-alt-ascii": "h:mm:ss a",
+            short: "h:mm a",
+            "short-alt-ascii": "h:mm a"
         },
         dateFormats: {
             full: "EEEE, d MMMM y",
@@ -415,22 +434,22 @@ const data = {
             year: {
                 wide: "year",
                 short: "yr.",
-                narrow: "yr."
+                narrow: "yr"
             },
             quarter: {
                 wide: "quarter",
                 short: "qtr.",
-                narrow: "qtr."
+                narrow: "qtr"
             },
             month: {
                 wide: "month",
                 short: "mo.",
-                narrow: "mo."
+                narrow: "mo"
             },
             week: {
                 wide: "week",
                 short: "wk.",
-                narrow: "wk."
+                narrow: "wk"
             },
             weekOfMonth: {
                 wide: "week of month",
@@ -465,17 +484,17 @@ const data = {
             hour: {
                 wide: "hour",
                 short: "hr.",
-                narrow: "hr."
+                narrow: "hr"
             },
             minute: {
                 wide: "minute",
                 short: "min.",
-                narrow: "min."
+                narrow: "min"
             },
             second: {
                 wide: "second",
                 short: "sec.",
-                narrow: "sec."
+                narrow: "sec"
             },
             zone: {
                 wide: "time zone",
@@ -489,7 +508,7 @@ const data = {
             }
         }
     },
-    firstDay: 6
+    firstDay: 1
 };
 export default data;
 

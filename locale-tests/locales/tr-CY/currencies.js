@@ -12,1657 +12,1203 @@ const data = {
         currencies: {
             ADP: {
                 displayName: "Andorra Pezetası",
-                "displayName-count-one": "Andorra Pezetası",
-                "displayName-count-other": "Andorra Pezetası",
-                symbol: "ADP"
+                "displayName-count-other": "Andorra Pezetası"
             },
             AED: {
-                displayName: "Birleşik Arap Emirlikleri Dirhemi",
+                displayName: "Birleşik Arap Emirlikleri dirhemi",
                 "displayName-count-one": "BAE dirhemi",
-                "displayName-count-other": "BAE dirhemi",
-                symbol: "AED"
+                "displayName-count-other": "BAE dirhemi"
             },
             AFA: {
                 displayName: "Afganistan Afganisi (1927–2002)",
-                "displayName-count-one": "Afganistan Afganisi (1927–2002)",
-                "displayName-count-other": "Afganistan Afganisi (1927–2002)",
-                symbol: "AFA"
+                "displayName-count-other": "Afganistan Afganisi (1927–2002)"
             },
             AFN: {
-                displayName: "Afganistan Afganisi",
-                "displayName-count-one": "Afganistan afganisi",
+                displayName: "Afganistan afganisi",
                 "displayName-count-other": "Afganistan afganisi",
-                symbol: "AFN",
                 "symbol-alt-narrow": "؋"
             },
             ALK: {
                 displayName: "Arnavutluk Leki (1946–1965)",
                 "displayName-count-one": "Arnavutluk leki (1946–1965)",
-                "displayName-count-other": "Arnavutluk leki (1946–1965)",
-                symbol: "ALK"
+                "displayName-count-other": "Arnavutluk leki (1946–1965)"
             },
             ALL: {
-                displayName: "Arnavutluk Leki",
-                "displayName-count-one": "Arnavutluk leki",
-                "displayName-count-other": "Arnavutluk leki",
-                symbol: "ALL"
+                displayName: "Arnavutluk leki",
+                "displayName-count-other": "Arnavutluk leki"
             },
             AMD: {
-                displayName: "Ermenistan Dramı",
-                "displayName-count-one": "Ermenistan dramı",
+                displayName: "Ermenistan dramı",
                 "displayName-count-other": "Ermenistan dramı",
-                symbol: "AMD",
                 "symbol-alt-narrow": "֏"
             },
             ANG: {
-                displayName: "Hollanda Antilleri Guldeni",
-                "displayName-count-one": "Hollanda Antilleri guldeni",
-                "displayName-count-other": "Hollanda Antilleri guldeni",
-                symbol: "ANG"
+                displayName: "Hollanda Antilleri guldeni",
+                "displayName-count-other": "Hollanda Antilleri guldeni"
             },
             AOA: {
-                displayName: "Angola Kvanzası",
-                "displayName-count-one": "Angola kvanzası",
+                displayName: "Angola kvanzası",
                 "displayName-count-other": "Angola kvanzası",
-                symbol: "AOA",
                 "symbol-alt-narrow": "Kz"
             },
             AOK: {
                 displayName: "Angola Kvanzası (1977–1990)",
-                symbol: "AOK"
+                "displayName-count-other": "Angola Kvanzası (1977–1990)"
             },
             AON: {
                 displayName: "Yeni Angola Kvanzası (1990–2000)",
-                symbol: "AON"
+                "displayName-count-other": "Yeni Angola Kvanzası (1990–2000)"
             },
             AOR: {
                 displayName: "Angola Kvanzası Reajustado (1995–1999)",
-                symbol: "AOR"
+                "displayName-count-other": "Angola Kvanzası Reajustado (1995–1999)"
             },
             ARA: {
                 displayName: "Arjantin Australi",
-                "displayName-count-one": "Arjantin Australi",
-                "displayName-count-other": "Arjantin Australi",
-                symbol: "ARA"
+                "displayName-count-other": "Arjantin Australi"
             },
             ARL: {
                 displayName: "Arjantin Peso Leyi (1970–1983)",
                 "displayName-count-one": "Arjantin peso leyi (1970–1983)",
-                "displayName-count-other": "Arjantin peso leyi (1970–1983)",
-                symbol: "ARL"
+                "displayName-count-other": "Arjantin peso leyi (1970–1983)"
             },
             ARM: {
                 displayName: "Arjantin Pesosu (1881–1970)",
                 "displayName-count-one": "Arjantin pesosu (1881–1970)",
-                "displayName-count-other": "Arjantin pesosu (1881–1970)",
-                symbol: "ARM"
+                "displayName-count-other": "Arjantin pesosu (1881–1970)"
             },
             ARP: {
                 displayName: "Arjantin Pezosu (1983–1985)",
-                "displayName-count-one": "Arjantin Pezosu (1983–1985)",
-                "displayName-count-other": "Arjantin Pezosu (1983–1985)",
-                symbol: "ARP"
+                "displayName-count-other": "Arjantin Pezosu (1983–1985)"
             },
             ARS: {
-                displayName: "Arjantin Pesosu",
-                "displayName-count-one": "Arjantin pesosu",
+                displayName: "Arjantin pesosu",
                 "displayName-count-other": "Arjantin pesosu",
-                symbol: "ARS",
                 "symbol-alt-narrow": "$"
             },
             ATS: {
                 displayName: "Avusturya Şilini",
-                "displayName-count-one": "Avusturya Şilini",
-                "displayName-count-other": "Avusturya Şilini",
-                symbol: "ATS"
+                "displayName-count-other": "Avusturya Şilini"
             },
             AUD: {
-                displayName: "Avustralya Doları",
-                "displayName-count-one": "Avustralya doları",
+                displayName: "Avustralya doları",
                 "displayName-count-other": "Avustralya doları",
                 symbol: "AU$",
                 "symbol-alt-narrow": "$"
             },
             AWG: {
-                displayName: "Aruba Florini",
-                "displayName-count-one": "Aruba florini",
-                "displayName-count-other": "Aruba florini",
-                symbol: "AWG"
+                displayName: "Aruba florini",
+                "displayName-count-other": "Aruba florini"
             },
             AZM: {
                 displayName: "Azerbaycan Manatı (1993–2006)",
-                "displayName-count-one": "Azerbaycan Manatı (1993–2006)",
-                "displayName-count-other": "Azerbaycan Manatı (1993–2006)",
-                symbol: "AZM"
+                "displayName-count-other": "Azerbaycan Manatı (1993–2006)"
             },
             AZN: {
-                displayName: "Azerbaycan Manatı",
-                "displayName-count-one": "Azerbaycan manatı",
+                displayName: "Azerbaycan manatı",
                 "displayName-count-other": "Azerbaycan manatı",
-                symbol: "AZN",
                 "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "Bosna Hersek Dinarı",
-                "displayName-count-one": "Bosna Hersek Dinarı",
-                "displayName-count-other": "Bosna Hersek Dinarı",
-                symbol: "BAD"
+                "displayName-count-other": "Bosna Hersek Dinarı"
             },
             BAM: {
-                displayName: "Konvertibl Bosna Hersek Markı",
-                "displayName-count-one": "Konvertibl Bosna Hersek markı",
+                displayName: "Konvertibl Bosna Hersek markı",
                 "displayName-count-other": "Konvertibl Bosna Hersek markı",
-                symbol: "BAM",
                 "symbol-alt-narrow": "KM"
             },
             BAN: {
                 displayName: "Yeni Bosna Hersek Dinarı (1994–1997)",
                 "displayName-count-one": "Yeni Bosna Hersek dinarı (1994–1997)",
-                "displayName-count-other": "Yeni Bosna Hersek dinarı (1994–1997)",
-                symbol: "BAN"
+                "displayName-count-other": "Yeni Bosna Hersek dinarı (1994–1997)"
             },
             BBD: {
-                displayName: "Barbados Doları",
-                "displayName-count-one": "Barbados doları",
+                displayName: "Barbados doları",
                 "displayName-count-other": "Barbados doları",
-                symbol: "BBD",
                 "symbol-alt-narrow": "$"
             },
             BDT: {
-                displayName: "Bangladeş Takası",
-                "displayName-count-one": "Bangladeş takası",
+                displayName: "Bangladeş takası",
                 "displayName-count-other": "Bangladeş takası",
-                symbol: "BDT",
                 "symbol-alt-narrow": "৳"
             },
             BEC: {
                 displayName: "Belçika Frangı (konvertibl)",
-                "displayName-count-one": "Belçika Frangı (konvertibl)",
-                "displayName-count-other": "Belçika Frangı (konvertibl)",
-                symbol: "BEC"
+                "displayName-count-other": "Belçika Frangı (konvertibl)"
             },
             BEF: {
                 displayName: "Belçika Frangı",
-                "displayName-count-one": "Belçika Frangı",
-                "displayName-count-other": "Belçika Frangı",
-                symbol: "BEF"
+                "displayName-count-other": "Belçika Frangı"
             },
             BEL: {
                 displayName: "Belçika Frangı (finansal)",
-                "displayName-count-one": "Belçika Frangı (finansal)",
-                "displayName-count-other": "Belçika Frangı (finansal)",
-                symbol: "BEL"
+                "displayName-count-other": "Belçika Frangı (finansal)"
             },
             BGL: {
                 displayName: "Bulgar Levası (Hard)",
-                "displayName-count-one": "Bulgar Levası (Hard)",
-                "displayName-count-other": "Bulgar Levası (Hard)",
-                symbol: "BGL"
+                "displayName-count-other": "Bulgar Levası (Hard)"
             },
             BGM: {
                 displayName: "Sosyalist Bulgaristan Levası",
                 "displayName-count-one": "Sosyalist Bulgaristan levası",
-                "displayName-count-other": "Sosyalist Bulgaristan levası",
-                symbol: "BGM"
+                "displayName-count-other": "Sosyalist Bulgaristan levası"
             },
             BGN: {
-                displayName: "Bulgar Levası",
-                "displayName-count-one": "Bulgar levası",
-                "displayName-count-other": "Bulgar levası",
-                symbol: "BGN"
+                displayName: "Bulgar levası",
+                "displayName-count-other": "Bulgar levası"
             },
             BGO: {
                 displayName: "Bulgar Levası (1879–1952)",
                 "displayName-count-one": "Bulgar levası (1879–1952)",
-                "displayName-count-other": "Bulgar levası (1879–1952)",
-                symbol: "BGO"
+                "displayName-count-other": "Bulgar levası (1879–1952)"
             },
             BHD: {
-                displayName: "Bahreyn Dinarı",
-                "displayName-count-one": "Bahreyn dinarı",
-                "displayName-count-other": "Bahreyn dinarı",
-                symbol: "BHD"
+                displayName: "Bahreyn dinarı",
+                "displayName-count-other": "Bahreyn dinarı"
             },
             BIF: {
-                displayName: "Burundi Frangı",
-                "displayName-count-one": "Burundi frangı",
-                "displayName-count-other": "Burundi frangı",
-                symbol: "BIF"
+                displayName: "Burundi frangı",
+                "displayName-count-other": "Burundi frangı"
             },
             BMD: {
-                displayName: "Bermuda Doları",
-                "displayName-count-one": "Bermuda doları",
+                displayName: "Bermuda doları",
                 "displayName-count-other": "Bermuda doları",
-                symbol: "BMD",
                 "symbol-alt-narrow": "$"
             },
             BND: {
-                displayName: "Brunei Doları",
-                "displayName-count-one": "Brunei doları",
+                displayName: "Brunei doları",
                 "displayName-count-other": "Brunei doları",
-                symbol: "BND",
                 "symbol-alt-narrow": "$"
             },
             BOB: {
-                displayName: "Bolivya Bolivyanosu",
-                "displayName-count-one": "Bolivya bolivyanosu",
+                displayName: "Bolivya bolivyanosu",
                 "displayName-count-other": "Bolivya bolivyanosu",
-                symbol: "BOB",
                 "symbol-alt-narrow": "Bs"
             },
             BOL: {
                 displayName: "Bolivya Bolivyanosu (1863–1963)",
                 "displayName-count-one": "Bolivya bolivyanosu (1863–1963)",
-                "displayName-count-other": "Bolivya bolivyanosu (1863–1963)",
-                symbol: "BOL"
+                "displayName-count-other": "Bolivya bolivyanosu (1863–1963)"
             },
             BOP: {
                 displayName: "Bolivya Pezosu",
-                "displayName-count-one": "Bolivya Pezosu",
-                "displayName-count-other": "Bolivya Pezosu",
-                symbol: "BOP"
+                "displayName-count-other": "Bolivya Pezosu"
             },
             BOV: {
                 displayName: "Bolivya Mvdolu",
-                "displayName-count-one": "Bolivya Mvdolu",
-                "displayName-count-other": "Bolivya Mvdolu",
-                symbol: "BOV"
+                "displayName-count-other": "Bolivya Mvdolu"
             },
             BRB: {
                 displayName: "Yeni Brezilya Kruzeirosu (1967–1986)",
-                "displayName-count-one": "Yeni Brezilya Kruzeirosu (1967–1986)",
-                "displayName-count-other": "Yeni Brezilya Kruzeirosu (1967–1986)",
-                symbol: "BRB"
+                "displayName-count-other": "Yeni Brezilya Kruzeirosu (1967–1986)"
             },
             BRC: {
                 displayName: "Brezilya Kruzadosu",
-                "displayName-count-one": "Brezilya Kruzadosu",
-                "displayName-count-other": "Brezilya Kruzadosu",
-                symbol: "BRC"
+                "displayName-count-other": "Brezilya Kruzadosu"
             },
             BRE: {
                 displayName: "Brezilya Kruzeirosu (1990–1993)",
-                "displayName-count-one": "Brezilya Kruzeirosu (1990–1993)",
-                "displayName-count-other": "Brezilya Kruzeirosu (1990–1993)",
-                symbol: "BRE"
+                "displayName-count-other": "Brezilya Kruzeirosu (1990–1993)"
             },
             BRL: {
-                displayName: "Brezilya Reali",
-                "displayName-count-one": "Brezilya reali",
+                displayName: "Brezilya reali",
                 "displayName-count-other": "Brezilya reali",
                 symbol: "R$",
                 "symbol-alt-narrow": "R$"
             },
             BRN: {
                 displayName: "Yeni Brezilya Kruzadosu",
-                "displayName-count-one": "Yeni Brezilya Kruzadosu",
-                "displayName-count-other": "Yeni Brezilya Kruzadosu",
-                symbol: "BRN"
+                "displayName-count-other": "Yeni Brezilya Kruzadosu"
             },
             BRR: {
                 displayName: "Brezilya Kruzeirosu",
-                "displayName-count-one": "Brezilya Kruzeirosu",
-                "displayName-count-other": "Brezilya Kruzeirosu",
-                symbol: "BRR"
+                "displayName-count-other": "Brezilya Kruzeirosu"
             },
             BRZ: {
                 displayName: "Brezilya Kruzeirosu (1942–1967)",
                 "displayName-count-one": "Brezilya kruzeirosu (1942–1967)",
-                "displayName-count-other": "Brezilya kruzeirosu (1942–1967)",
-                symbol: "BRZ"
+                "displayName-count-other": "Brezilya kruzeirosu (1942–1967)"
             },
             BSD: {
-                displayName: "Bahama Doları",
-                "displayName-count-one": "Bahama doları",
+                displayName: "Bahama doları",
                 "displayName-count-other": "Bahama doları",
-                symbol: "BSD",
                 "symbol-alt-narrow": "$"
             },
             BTN: {
-                displayName: "Butan Ngultrumu",
-                "displayName-count-one": "Butan ngultrumu",
-                "displayName-count-other": "Butan ngultrumu",
-                symbol: "BTN"
+                displayName: "Butan ngultrumu",
+                "displayName-count-other": "Butan ngultrumu"
             },
             BUK: {
                 displayName: "Burma Kyatı",
-                "displayName-count-one": "Burma Kyatı",
-                "displayName-count-other": "Burma Kyatı",
-                symbol: "BUK"
+                "displayName-count-other": "Burma Kyatı"
             },
             BWP: {
-                displayName: "Botsvana Pulası",
-                "displayName-count-one": "Botsvana pulası",
+                displayName: "Botsvana pulası",
                 "displayName-count-other": "Botsvana pulası",
-                symbol: "BWP",
                 "symbol-alt-narrow": "P"
             },
             BYB: {
                 displayName: "Yeni Beyaz Rusya Rublesi (1994–1999)",
-                "displayName-count-one": "Yeni Beyaz Rusya Rublesi (1994–1999)",
-                "displayName-count-other": "Yeni Beyaz Rusya Rublesi (1994–1999)",
-                symbol: "BYB"
+                "displayName-count-other": "Yeni Beyaz Rusya Rublesi (1994–1999)"
             },
             BYN: {
-                displayName: "Belarus Rublesi",
-                "displayName-count-one": "Belarus rublesi",
+                displayName: "Belarus rublesi",
                 "displayName-count-other": "Belarus rublesi",
-                symbol: "BYN",
                 "symbol-alt-narrow": "р."
             },
             BYR: {
                 displayName: "Beyaz Rusya Rublesi (2000–2016)",
                 "displayName-count-one": "Beyaz Rusya rublesi (2000–2016)",
-                "displayName-count-other": "Beyaz Rusya rublesi (2000–2016)",
-                symbol: "BYR"
+                "displayName-count-other": "Beyaz Rusya rublesi (2000–2016)"
             },
             BZD: {
-                displayName: "Belize Doları",
-                "displayName-count-one": "Belize doları",
+                displayName: "Belize doları",
                 "displayName-count-other": "Belize doları",
-                symbol: "BZD",
                 "symbol-alt-narrow": "$"
             },
             CAD: {
-                displayName: "Kanada Doları",
-                "displayName-count-one": "Kanada doları",
+                displayName: "Kanada doları",
                 "displayName-count-other": "Kanada doları",
                 symbol: "CA$",
                 "symbol-alt-narrow": "$"
             },
             CDF: {
-                displayName: "Kongo Frangı",
-                "displayName-count-one": "Kongo frangı",
-                "displayName-count-other": "Kongo frangı",
-                symbol: "CDF"
+                displayName: "Kongo frangı",
+                "displayName-count-other": "Kongo frangı"
             },
             CHE: {
                 displayName: "WIR Avrosu",
-                "displayName-count-one": "WIR Avrosu",
-                "displayName-count-other": "WIR Avrosu",
-                symbol: "CHE"
+                "displayName-count-other": "WIR Avrosu"
             },
             CHF: {
-                displayName: "İsviçre Frangı",
-                "displayName-count-one": "İsviçre frangı",
-                "displayName-count-other": "İsviçre frangı",
-                symbol: "CHF"
+                displayName: "İsviçre frangı",
+                "displayName-count-other": "İsviçre frangı"
             },
             CHW: {
                 displayName: "WIR Frangı",
-                "displayName-count-one": "WIR Frangı",
-                "displayName-count-other": "WIR Frangı",
-                symbol: "CHW"
+                "displayName-count-other": "WIR Frangı"
             },
             CLE: {
                 displayName: "Şili Esküdosu",
                 "displayName-count-one": "Şili esküdosu",
-                "displayName-count-other": "Şili esküdosu",
-                symbol: "CLE"
+                "displayName-count-other": "Şili esküdosu"
             },
             CLF: {
                 displayName: "Şili Unidades de Fomento",
-                "displayName-count-one": "Şili Unidades de Fomento",
-                "displayName-count-other": "Şili Unidades de Fomento",
-                symbol: "CLF"
+                "displayName-count-other": "Şili Unidades de Fomento"
             },
             CLP: {
-                displayName: "Şili Pesosu",
-                "displayName-count-one": "Şili pesosu",
+                displayName: "Şili pesosu",
                 "displayName-count-other": "Şili pesosu",
-                symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
             CNH: {
-                displayName: "Çin Yuanı (offshore)",
-                "displayName-count-one": "Çin yuanı (offshore)",
-                "displayName-count-other": "Çin yuanı (offshore)",
-                symbol: "CNH"
+                displayName: "Çin yuanı (offshore)",
+                "displayName-count-other": "Çin yuanı (offshore)"
             },
             CNX: {
                 displayName: "Çin Halk Cumhuriyeti Merkez Bankası Doları",
                 "displayName-count-one": "Çin Halk Cumhuriyeti Merkez Bankası doları",
-                "displayName-count-other": "Çin Halk Cumhuriyeti Merkez Bankası doları",
-                symbol: "CNX"
+                "displayName-count-other": "Çin Halk Cumhuriyeti Merkez Bankası doları"
             },
             CNY: {
-                displayName: "Çin Yuanı",
-                "displayName-count-one": "Çin yuanı",
+                displayName: "Çin yuanı",
                 "displayName-count-other": "Çin yuanı",
                 symbol: "CN¥",
                 "symbol-alt-narrow": "¥"
             },
             COP: {
-                displayName: "Kolombiya Pesosu",
-                "displayName-count-one": "Kolombiya pesosu",
+                displayName: "Kolombiya pesosu",
                 "displayName-count-other": "Kolombiya pesosu",
-                symbol: "COP",
                 "symbol-alt-narrow": "$"
             },
             COU: {
                 displayName: "Unidad de Valor Real",
-                "displayName-count-one": "Unidad de Valor Real",
-                "displayName-count-other": "Unidad de Valor Real",
-                symbol: "COU"
+                "displayName-count-other": "Unidad de Valor Real"
             },
             CRC: {
-                displayName: "Kosta Rika Kolonu",
-                "displayName-count-one": "Kosta Rika kolonu",
+                displayName: "Kosta Rika kolonu",
                 "displayName-count-other": "Kosta Rika kolonu",
-                symbol: "CRC",
                 "symbol-alt-narrow": "₡"
             },
             CSD: {
                 displayName: "Eski Sırbistan Dinarı",
-                "displayName-count-one": "Eski Sırbistan Dinarı",
-                "displayName-count-other": "Eski Sırbistan Dinarı",
-                symbol: "CSD"
+                "displayName-count-other": "Eski Sırbistan Dinarı"
             },
             CSK: {
                 displayName: "Çekoslavak Korunası (Hard)",
-                "displayName-count-one": "Çekoslavak Korunası (Hard)",
-                "displayName-count-other": "Çekoslavak Korunası (Hard)",
-                symbol: "CSK"
+                "displayName-count-other": "Çekoslavak Korunası (Hard)"
             },
             CUC: {
-                displayName: "Konvertibl Küba Pesosu",
-                "displayName-count-one": "Konvertibl Küba pesosu",
+                displayName: "Konvertibl Küba pesosu",
                 "displayName-count-other": "Konvertibl Küba pesosu",
-                symbol: "CUC",
                 "symbol-alt-narrow": "$"
             },
             CUP: {
-                displayName: "Küba Pesosu",
-                "displayName-count-one": "Küba pesosu",
+                displayName: "Küba pesosu",
                 "displayName-count-other": "Küba pesosu",
-                symbol: "CUP",
                 "symbol-alt-narrow": "$"
             },
             CVE: {
-                displayName: "Cape Verde Esküdosu",
-                "displayName-count-one": "Cape Verde esküdosu",
-                "displayName-count-other": "Cape Verde esküdosu",
-                symbol: "CVE"
+                displayName: "Cape Verde esküdosu",
+                "displayName-count-other": "Cape Verde esküdosu"
             },
             CYP: {
                 displayName: "Güney Kıbrıs Lirası",
-                "displayName-count-one": "Güney Kıbrıs Lirası",
-                "displayName-count-other": "Güney Kıbrıs Lirası",
-                symbol: "CYP"
+                "displayName-count-other": "Güney Kıbrıs Lirası"
             },
             CZK: {
-                displayName: "Çek Korunası",
-                "displayName-count-one": "Çek korunası",
+                displayName: "Çek korunası",
                 "displayName-count-other": "Çek korunası",
-                symbol: "CZK",
                 "symbol-alt-narrow": "Kč"
             },
             DDM: {
                 displayName: "Doğu Alman Markı",
-                "displayName-count-one": "Doğu Alman Markı",
-                "displayName-count-other": "Doğu Alman Markı",
-                symbol: "DDM"
+                "displayName-count-other": "Doğu Alman Markı"
             },
             DEM: {
                 displayName: "Alman Markı",
-                "displayName-count-one": "Alman Markı",
-                "displayName-count-other": "Alman Markı",
-                symbol: "DEM"
+                "displayName-count-other": "Alman Markı"
             },
             DJF: {
-                displayName: "Cibuti Frangı",
-                "displayName-count-one": "Cibuti frangı",
-                "displayName-count-other": "Cibuti frangı",
-                symbol: "DJF"
+                displayName: "Cibuti frangı",
+                "displayName-count-other": "Cibuti frangı"
             },
             DKK: {
-                displayName: "Danimarka Kronu",
-                "displayName-count-one": "Danimarka kronu",
+                displayName: "Danimarka kronu",
                 "displayName-count-other": "Danimarka kronu",
-                symbol: "DKK",
                 "symbol-alt-narrow": "kr"
             },
             DOP: {
-                displayName: "Dominik Pesosu",
-                "displayName-count-one": "Dominik pesosu",
+                displayName: "Dominik pesosu",
                 "displayName-count-other": "Dominik pesosu",
-                symbol: "DOP",
                 "symbol-alt-narrow": "$"
             },
             DZD: {
-                displayName: "Cezayir Dinarı",
-                "displayName-count-one": "Cezayir dinarı",
-                "displayName-count-other": "Cezayir dinarı",
-                symbol: "DZD"
+                displayName: "Cezayir dinarı",
+                "displayName-count-other": "Cezayir dinarı"
             },
             ECS: {
                 displayName: "Ekvador Sukresi",
-                "displayName-count-one": "Ekvador Sukresi",
-                "displayName-count-other": "Ekvador Sukresi",
-                symbol: "ECS"
+                "displayName-count-other": "Ekvador Sukresi"
             },
             ECV: {
                 displayName: "Ekvador Unidad de Valor Constante (UVC)",
-                "displayName-count-one": "Ekvador Unidad de Valor Constante (UVC)",
-                "displayName-count-other": "Ekvador Unidad de Valor Constante (UVC)",
-                symbol: "ECV"
+                "displayName-count-other": "Ekvador Unidad de Valor Constante (UVC)"
             },
             EEK: {
                 displayName: "Estonya Krunu",
-                "displayName-count-one": "Estonya Krunu",
-                "displayName-count-other": "Estonya Krunu",
-                symbol: "EEK"
+                "displayName-count-other": "Estonya Krunu"
             },
             EGP: {
-                displayName: "Mısır Lirası",
-                "displayName-count-one": "Mısır lirası",
+                displayName: "Mısır lirası",
                 "displayName-count-other": "Mısır lirası",
-                symbol: "EGP",
                 "symbol-alt-narrow": "E£"
             },
             ERN: {
-                displayName: "Eritre Nakfası",
-                "displayName-count-one": "Eritre nakfası",
-                "displayName-count-other": "Eritre nakfası",
-                symbol: "ERN"
+                displayName: "Eritre nakfası",
+                "displayName-count-other": "Eritre nakfası"
             },
             ESA: {
                 displayName: "İspanyol Pezetası (A hesabı)",
-                "displayName-count-one": "İspanyol Pezetası (A hesabı)",
-                "displayName-count-other": "İspanyol Pezetası (A hesabı)",
-                symbol: "ESA"
+                "displayName-count-other": "İspanyol Pezetası (A hesabı)"
             },
             ESB: {
                 displayName: "İspanyol Pezetası (konvertibl hesap)",
-                "displayName-count-one": "İspanyol Pezetası (konvertibl hesap)",
-                "displayName-count-other": "İspanyol Pezetası (konvertibl hesap)",
-                symbol: "ESB"
+                "displayName-count-other": "İspanyol Pezetası (konvertibl hesap)"
             },
             ESP: {
                 displayName: "İspanyol Pezetası",
-                "displayName-count-one": "İspanyol Pezetası",
                 "displayName-count-other": "İspanyol Pezetası",
-                symbol: "ESP",
                 "symbol-alt-narrow": "₧"
             },
             ETB: {
-                displayName: "Etiyopya Birri",
-                "displayName-count-one": "Etiyopya birri",
-                "displayName-count-other": "Etiyopya birri",
-                symbol: "ETB"
+                displayName: "Etiyopya birri",
+                "displayName-count-other": "Etiyopya birri"
             },
             EUR: {
                 displayName: "Euro",
-                "displayName-count-one": "Euro",
                 "displayName-count-other": "Euro",
                 symbol: "€",
                 "symbol-alt-narrow": "€"
             },
             FIM: {
                 displayName: "Fin Markkası",
-                "displayName-count-one": "Fin Markkası",
-                "displayName-count-other": "Fin Markkası",
-                symbol: "FIM"
+                "displayName-count-other": "Fin Markkası"
             },
             FJD: {
-                displayName: "Fiji Doları",
-                "displayName-count-one": "Fiji doları",
+                displayName: "Fiji doları",
                 "displayName-count-other": "Fiji doları",
-                symbol: "FJD",
                 "symbol-alt-narrow": "$"
             },
             FKP: {
-                displayName: "Falkland Adaları Lirası",
-                "displayName-count-one": "Falkland Adaları lirası",
+                displayName: "Falkland Adaları lirası",
                 "displayName-count-other": "Falkland Adaları lirası",
-                symbol: "FKP",
                 "symbol-alt-narrow": "£"
             },
             FRF: {
                 displayName: "Fransız Frangı",
-                "displayName-count-one": "Fransız Frangı",
-                "displayName-count-other": "Fransız Frangı",
-                symbol: "FRF"
+                "displayName-count-other": "Fransız Frangı"
             },
             GBP: {
-                displayName: "İngiliz Sterlini",
-                "displayName-count-one": "İngiliz sterlini",
+                displayName: "İngiliz sterlini",
                 "displayName-count-other": "İngiliz sterlini",
                 symbol: "£",
                 "symbol-alt-narrow": "£"
             },
             GEK: {
                 displayName: "Gürcistan Kupon Larisi",
-                "displayName-count-one": "Gürcistan Kupon Larisi",
-                "displayName-count-other": "Gürcistan Kupon Larisi",
-                symbol: "GEK"
+                "displayName-count-other": "Gürcistan Kupon Larisi"
             },
             GEL: {
-                displayName: "Gürcistan Larisi",
-                "displayName-count-one": "Gürcistan larisi",
+                displayName: "Gürcistan larisi",
                 "displayName-count-other": "Gürcistan larisi",
-                symbol: "GEL",
                 "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "Gana Sedisi (1979–2007)",
-                symbol: "GHC"
+                "displayName-count-other": "Gana Sedisi (1979–2007)"
             },
             GHS: {
-                displayName: "Gana Sedisi",
-                "displayName-count-one": "Gana sedisi",
+                displayName: "Gana sedisi",
                 "displayName-count-other": "Gana sedisi",
-                symbol: "GHS",
                 "symbol-alt-narrow": "GH₵"
             },
             GIP: {
-                displayName: "Cebelitarık Lirası",
-                "displayName-count-one": "Cebelitarık lirası",
+                displayName: "Cebelitarık lirası",
                 "displayName-count-other": "Cebelitarık lirası",
-                symbol: "GIP",
                 "symbol-alt-narrow": "£"
             },
             GMD: {
-                displayName: "Gambiya Dalasisi",
-                "displayName-count-one": "Gambiya dalasisi",
-                "displayName-count-other": "Gambiya dalasisi",
-                symbol: "GMD"
+                displayName: "Gambiya dalasisi",
+                "displayName-count-other": "Gambiya dalasisi"
             },
             GNF: {
-                displayName: "Gine Frangı",
-                "displayName-count-one": "Gine frangı",
+                displayName: "Gine frangı",
                 "displayName-count-other": "Gine frangı",
-                symbol: "GNF",
                 "symbol-alt-narrow": "FG"
             },
             GNS: {
                 displayName: "Gine Sylisi",
-                symbol: "GNS"
+                "displayName-count-other": "Gine Sylisi"
             },
             GQE: {
                 displayName: "Ekvator Ginesi Ekuelesi",
-                symbol: "GQE"
+                "displayName-count-other": "Ekvator Ginesi Ekuelesi"
             },
             GRD: {
                 displayName: "Yunan Drahmisi",
-                "displayName-count-one": "Yunan Drahmisi",
-                "displayName-count-other": "Yunan Drahmisi",
-                symbol: "GRD"
+                "displayName-count-other": "Yunan Drahmisi"
             },
             GTQ: {
-                displayName: "Guatemala Quetzalı",
-                "displayName-count-one": "Guatemala quetzalı",
+                displayName: "Guatemala quetzalı",
                 "displayName-count-other": "Guatemala quetzalı",
-                symbol: "GTQ",
                 "symbol-alt-narrow": "Q"
             },
             GWE: {
                 displayName: "Portekiz Ginesi Esküdosu",
-                symbol: "GWE"
+                "displayName-count-other": "Portekiz Ginesi Esküdosu"
             },
             GWP: {
                 displayName: "Gine-Bissau Pezosu",
-                symbol: "GWP"
+                "displayName-count-other": "Gine-Bissau Pezosu"
             },
             GYD: {
-                displayName: "Guyana Doları",
-                "displayName-count-one": "Guyana doları",
+                displayName: "Guyana doları",
                 "displayName-count-other": "Guyana doları",
-                symbol: "GYD",
                 "symbol-alt-narrow": "$"
             },
             HKD: {
-                displayName: "Hong Kong Doları",
-                "displayName-count-one": "Hong Kong doları",
+                displayName: "Hong Kong doları",
                 "displayName-count-other": "Hong Kong doları",
                 symbol: "HK$",
                 "symbol-alt-narrow": "$"
             },
             HNL: {
-                displayName: "Honduras Lempirası",
-                "displayName-count-one": "Honduras lempirası",
+                displayName: "Honduras lempirası",
                 "displayName-count-other": "Honduras lempirası",
-                symbol: "HNL",
                 "symbol-alt-narrow": "L"
             },
             HRD: {
                 displayName: "Hırvatistan Dinarı",
-                "displayName-count-one": "Hırvatistan Dinarı",
-                "displayName-count-other": "Hırvatistan Dinarı",
-                symbol: "HRD"
+                "displayName-count-other": "Hırvatistan Dinarı"
             },
             HRK: {
-                displayName: "Hırvatistan Kunası",
-                "displayName-count-one": "Hırvatistan kunası",
+                displayName: "Hırvatistan kunası",
                 "displayName-count-other": "Hırvatistan kunası",
-                symbol: "HRK",
                 "symbol-alt-narrow": "kn"
             },
             HTG: {
-                displayName: "Haiti Gurdu",
-                "displayName-count-one": "Haiti gurdu",
-                "displayName-count-other": "Haiti gurdu",
-                symbol: "HTG"
+                displayName: "Haiti gurdu",
+                "displayName-count-other": "Haiti gurdu"
             },
             HUF: {
-                displayName: "Macar Forinti",
-                "displayName-count-one": "Macar forinti",
+                displayName: "Macar forinti",
                 "displayName-count-other": "Macar forinti",
-                symbol: "HUF",
                 "symbol-alt-narrow": "Ft"
             },
             IDR: {
-                displayName: "Endonezya Rupisi",
-                "displayName-count-one": "Endonezya rupisi",
+                displayName: "Endonezya rupisi",
                 "displayName-count-other": "Endonezya rupisi",
-                symbol: "IDR",
                 "symbol-alt-narrow": "Rp"
             },
             IEP: {
                 displayName: "İrlanda Lirası",
-                "displayName-count-one": "İrlanda Lirası",
-                "displayName-count-other": "İrlanda Lirası",
-                symbol: "IEP"
+                "displayName-count-other": "İrlanda Lirası"
             },
             ILP: {
                 displayName: "İsrail Lirası",
-                "displayName-count-one": "İsrail Lirası",
-                "displayName-count-other": "İsrail Lirası",
-                symbol: "ILP"
+                "displayName-count-other": "İsrail Lirası"
             },
             ILR: {
                 displayName: "İsrail Şekeli (1980–1985)",
                 "displayName-count-one": "İsrail şekeli (1980–1985)",
-                "displayName-count-other": "İsrail şekeli (1980–1985)",
-                symbol: "ILR"
+                "displayName-count-other": "İsrail şekeli (1980–1985)"
             },
             ILS: {
-                displayName: "Yeni İsrail Şekeli",
-                "displayName-count-one": "Yeni İsrail şekeli",
+                displayName: "Yeni İsrail şekeli",
                 "displayName-count-other": "Yeni İsrail şekeli",
                 symbol: "₪",
                 "symbol-alt-narrow": "₪"
             },
             INR: {
-                displayName: "Hindistan Rupisi",
-                "displayName-count-one": "Hindistan rupisi",
+                displayName: "Hindistan rupisi",
                 "displayName-count-other": "Hindistan rupisi",
                 symbol: "₹",
                 "symbol-alt-narrow": "₹"
             },
             IQD: {
-                displayName: "Irak Dinarı",
-                "displayName-count-one": "Irak dinarı",
-                "displayName-count-other": "Irak dinarı",
-                symbol: "IQD"
+                displayName: "Irak dinarı",
+                "displayName-count-other": "Irak dinarı"
             },
             IRR: {
-                displayName: "İran Riyali",
-                "displayName-count-one": "İran riyali",
-                "displayName-count-other": "İran riyali",
-                symbol: "IRR"
+                displayName: "İran riyali",
+                "displayName-count-other": "İran riyali"
             },
             ISJ: {
                 displayName: "İzlanda Kronu (1918–1981)",
                 "displayName-count-one": "İzlanda kronu (1918–1981)",
-                "displayName-count-other": "İzlanda kronu (1918–1981)",
-                symbol: "ISJ"
+                "displayName-count-other": "İzlanda kronu (1918–1981)"
             },
             ISK: {
-                displayName: "İzlanda Kronu",
-                "displayName-count-one": "İzlanda kronu",
+                displayName: "İzlanda kronu",
                 "displayName-count-other": "İzlanda kronu",
-                symbol: "ISK",
                 "symbol-alt-narrow": "kr"
             },
             ITL: {
                 displayName: "İtalyan Lireti",
-                "displayName-count-one": "İtalyan Lireti",
-                "displayName-count-other": "İtalyan Lireti",
-                symbol: "ITL"
+                "displayName-count-other": "İtalyan Lireti"
             },
             JMD: {
-                displayName: "Jamaika Doları",
-                "displayName-count-one": "Jamaika doları",
+                displayName: "Jamaika doları",
                 "displayName-count-other": "Jamaika doları",
-                symbol: "JMD",
                 "symbol-alt-narrow": "$"
             },
             JOD: {
-                displayName: "Ürdün Dinarı",
-                "displayName-count-one": "Ürdün dinarı",
-                "displayName-count-other": "Ürdün dinarı",
-                symbol: "JOD"
+                displayName: "Ürdün dinarı",
+                "displayName-count-other": "Ürdün dinarı"
             },
             JPY: {
-                displayName: "Japon Yeni",
-                "displayName-count-one": "Japon yeni",
+                displayName: "Japon yeni",
                 "displayName-count-other": "Japon yeni",
                 symbol: "¥",
                 "symbol-alt-narrow": "¥"
             },
             KES: {
-                displayName: "Kenya Şilini",
-                "displayName-count-one": "Kenya şilini",
-                "displayName-count-other": "Kenya şilini",
-                symbol: "KES"
+                displayName: "Kenya şilini",
+                "displayName-count-other": "Kenya şilini"
             },
             KGS: {
-                displayName: "Kırgızistan Somu",
-                "displayName-count-one": "Kırgızistan somu",
+                displayName: "Kırgızistan somu",
                 "displayName-count-other": "Kırgızistan somu",
-                symbol: "KGS"
+                "symbol-alt-narrow": "⃀"
             },
             KHR: {
-                displayName: "Kamboçya Rieli",
-                "displayName-count-one": "Kamboçya rieli",
+                displayName: "Kamboçya rieli",
                 "displayName-count-other": "Kamboçya rieli",
-                symbol: "KHR",
                 "symbol-alt-narrow": "៛"
             },
             KMF: {
-                displayName: "Komorlar Frangı",
-                "displayName-count-one": "Komorlar frangı",
+                displayName: "Komorlar frangı",
                 "displayName-count-other": "Komorlar frangı",
-                symbol: "KMF",
                 "symbol-alt-narrow": "CF"
             },
             KPW: {
-                displayName: "Kuzey Kore Wonu",
-                "displayName-count-one": "Kuzey Kore wonu",
+                displayName: "Kuzey Kore wonu",
                 "displayName-count-other": "Kuzey Kore wonu",
-                symbol: "KPW",
                 "symbol-alt-narrow": "₩"
             },
             KRH: {
                 displayName: "Güney Kore Hwanı (1953–1962)",
                 "displayName-count-one": "Güney Kore hwanı (1953–1962)",
-                "displayName-count-other": "Güney Kore hwanı (1953–1962)",
-                symbol: "KRH"
+                "displayName-count-other": "Güney Kore hwanı (1953–1962)"
             },
             KRO: {
                 displayName: "Güney Kore Wonu (1945–1953)",
                 "displayName-count-one": "Güney Kore wonu (1945–1953)",
-                "displayName-count-other": "Güney Kore wonu (1945–1953)",
-                symbol: "KRO"
+                "displayName-count-other": "Güney Kore wonu (1945–1953)"
             },
             KRW: {
-                displayName: "Güney Kore Wonu",
-                "displayName-count-one": "Güney Kore wonu",
+                displayName: "Güney Kore wonu",
                 "displayName-count-other": "Güney Kore wonu",
                 symbol: "₩",
                 "symbol-alt-narrow": "₩"
             },
             KWD: {
-                displayName: "Kuveyt Dinarı",
-                "displayName-count-one": "Kuveyt dinarı",
-                "displayName-count-other": "Kuveyt dinarı",
-                symbol: "KWD"
+                displayName: "Kuveyt dinarı",
+                "displayName-count-other": "Kuveyt dinarı"
             },
             KYD: {
-                displayName: "Cayman Adaları Doları",
-                "displayName-count-one": "Cayman Adaları doları",
+                displayName: "Cayman Adaları doları",
                 "displayName-count-other": "Cayman Adaları doları",
-                symbol: "KYD",
                 "symbol-alt-narrow": "$"
             },
             KZT: {
-                displayName: "Kazakistan Tengesi",
-                "displayName-count-one": "Kazakistan tengesi",
+                displayName: "Kazakistan tengesi",
                 "displayName-count-other": "Kazakistan tengesi",
-                symbol: "KZT",
                 "symbol-alt-narrow": "₸"
             },
             LAK: {
-                displayName: "Laos Kipi",
-                "displayName-count-one": "Laos kipi",
+                displayName: "Laos kipi",
                 "displayName-count-other": "Laos kipi",
-                symbol: "LAK",
                 "symbol-alt-narrow": "₭"
             },
             LBP: {
-                displayName: "Lübnan Lirası",
-                "displayName-count-one": "Lübnan lirası",
+                displayName: "Lübnan lirası",
                 "displayName-count-other": "Lübnan lirası",
-                symbol: "LBP",
                 "symbol-alt-narrow": "L£"
             },
             LKR: {
-                displayName: "Sri Lanka Rupisi",
-                "displayName-count-one": "Sri Lanka rupisi",
+                displayName: "Sri Lanka rupisi",
                 "displayName-count-other": "Sri Lanka rupisi",
-                symbol: "LKR",
                 "symbol-alt-narrow": "Rs"
             },
             LRD: {
-                displayName: "Liberya Doları",
-                "displayName-count-one": "Liberya doları",
+                displayName: "Liberya doları",
                 "displayName-count-other": "Liberya doları",
-                symbol: "LRD",
                 "symbol-alt-narrow": "$"
             },
             LSL: {
-                displayName: "Lesotho Lotisi",
-                "displayName-count-one": "Lesotho lotisi",
-                "displayName-count-other": "Lesotho lotisi",
-                symbol: "LSL"
+                displayName: "Lesotho lotisi",
+                "displayName-count-other": "Lesotho lotisi"
             },
             LTL: {
                 displayName: "Litvanya Litası",
                 "displayName-count-one": "Litvanya litası",
                 "displayName-count-other": "Litvanya litası",
-                symbol: "LTL",
                 "symbol-alt-narrow": "Lt"
             },
             LTT: {
                 displayName: "Litvanya Talonu",
-                "displayName-count-one": "Litvanya Talonu",
-                "displayName-count-other": "Litvanya Talonu",
-                symbol: "LTT"
+                "displayName-count-other": "Litvanya Talonu"
             },
             LUC: {
                 displayName: "Konvertibl Lüksemburg Frangı",
-                "displayName-count-one": "Konvertibl Lüksemburg Frangı",
-                "displayName-count-other": "Konvertibl Lüksemburg Frangı",
-                symbol: "LUC"
+                "displayName-count-other": "Konvertibl Lüksemburg Frangı"
             },
             LUF: {
                 displayName: "Lüksemburg Frangı",
-                "displayName-count-one": "Lüksemburg Frangı",
-                "displayName-count-other": "Lüksemburg Frangı",
-                symbol: "LUF"
+                "displayName-count-other": "Lüksemburg Frangı"
             },
             LUL: {
                 displayName: "Finansal Lüksemburg Frangı",
-                "displayName-count-one": "Finansal Lüksemburg Frangı",
-                "displayName-count-other": "Finansal Lüksemburg Frangı",
-                symbol: "LUL"
+                "displayName-count-other": "Finansal Lüksemburg Frangı"
             },
             LVL: {
                 displayName: "Letonya Latı",
                 "displayName-count-one": "Letonya latı",
                 "displayName-count-other": "Letonya latı",
-                symbol: "LVL",
                 "symbol-alt-narrow": "Ls"
             },
             LVR: {
                 displayName: "Letonya Rublesi",
-                "displayName-count-one": "Letonya Rublesi",
-                "displayName-count-other": "Letonya Rublesi",
-                symbol: "LVR"
+                "displayName-count-other": "Letonya Rublesi"
             },
             LYD: {
-                displayName: "Libya Dinarı",
-                "displayName-count-one": "Libya dinarı",
-                "displayName-count-other": "Libya dinarı",
-                symbol: "LYD"
+                displayName: "Libya dinarı",
+                "displayName-count-other": "Libya dinarı"
             },
             MAD: {
-                displayName: "Fas Dirhemi",
-                "displayName-count-one": "Fas dirhemi",
-                "displayName-count-other": "Fas dirhemi",
-                symbol: "MAD"
+                displayName: "Fas dirhemi",
+                "displayName-count-other": "Fas dirhemi"
             },
             MAF: {
                 displayName: "Fas Frangı",
-                symbol: "MAF"
+                "displayName-count-other": "Fas Frangı"
             },
             MCF: {
                 displayName: "Monako Frangı",
                 "displayName-count-one": "Monako frangı",
-                "displayName-count-other": "Monako frangı",
-                symbol: "MCF"
+                "displayName-count-other": "Monako frangı"
             },
             MDC: {
                 displayName: "Moldova Kuponu",
                 "displayName-count-one": "Moldova kuponu",
-                "displayName-count-other": "Moldova kuponu",
-                symbol: "MDC"
+                "displayName-count-other": "Moldova kuponu"
             },
             MDL: {
-                displayName: "Moldova Leyi",
-                "displayName-count-one": "Moldova leyi",
-                "displayName-count-other": "Moldova leyi",
-                symbol: "MDL"
+                displayName: "Moldova leyi",
+                "displayName-count-other": "Moldova leyi"
             },
             MGA: {
-                displayName: "Madagaskar Ariarisi",
-                "displayName-count-one": "Madagaskar ariarisi",
+                displayName: "Madagaskar ariarisi",
                 "displayName-count-other": "Madagaskar ariarisi",
-                symbol: "MGA",
                 "symbol-alt-narrow": "Ar"
             },
             MGF: {
                 displayName: "Madagaskar Frangı",
-                symbol: "MGF"
+                "displayName-count-other": "Madagaskar Frangı"
             },
             MKD: {
-                displayName: "Makedonya Dinarı",
-                "displayName-count-one": "Makedonya dinarı",
-                "displayName-count-other": "Makedonya dinarı",
-                symbol: "MKD"
+                displayName: "Makedonya dinarı",
+                "displayName-count-other": "Makedonya dinarı"
             },
             MKN: {
                 displayName: "Makedonya Dinarı (1992–1993)",
                 "displayName-count-one": "Makedonya dinarı (1992–1993)",
-                "displayName-count-other": "Makedonya dinarı (1992–1993)",
-                symbol: "MKN"
+                "displayName-count-other": "Makedonya dinarı (1992–1993)"
             },
             MLF: {
                 displayName: "Mali Frangı",
-                symbol: "MLF"
+                "displayName-count-other": "Mali Frangı"
             },
             MMK: {
-                displayName: "Myanmar Kyatı",
-                "displayName-count-one": "Myanmar kyatı",
+                displayName: "Myanmar kyatı",
                 "displayName-count-other": "Myanmar kyatı",
-                symbol: "MMK",
                 "symbol-alt-narrow": "K"
             },
             MNT: {
-                displayName: "Moğolistan Tugriki",
-                "displayName-count-one": "Moğolistan tugriki",
+                displayName: "Moğolistan tugriki",
                 "displayName-count-other": "Moğolistan tugriki",
-                symbol: "MNT",
                 "symbol-alt-narrow": "₮"
             },
             MOP: {
-                displayName: "Makao Patakası",
-                "displayName-count-one": "Makao patakası",
-                "displayName-count-other": "Makao patakası",
-                symbol: "MOP"
+                displayName: "Makao patakası",
+                "displayName-count-other": "Makao patakası"
             },
             MRO: {
                 displayName: "Moritanya Ugiyası (1973–2017)",
                 "displayName-count-one": "Moritanya ugiyası (1973–2017)",
-                "displayName-count-other": "Moritanya ugiyası (1973–2017)",
-                symbol: "MRO"
+                "displayName-count-other": "Moritanya ugiyası (1973–2017)"
             },
             MRU: {
-                displayName: "Moritanya Ugiyası",
-                "displayName-count-one": "Moritanya ugiyası",
-                "displayName-count-other": "Moritanya ugiyası",
-                symbol: "MRU"
+                displayName: "Moritanya ugiyası",
+                "displayName-count-other": "Moritanya ugiyası"
             },
             MTL: {
                 displayName: "Malta Lirası",
-                "displayName-count-one": "Malta Lirası",
-                "displayName-count-other": "Malta Lirası",
-                symbol: "MTL"
+                "displayName-count-other": "Malta Lirası"
             },
             MTP: {
                 displayName: "Malta Sterlini",
-                "displayName-count-one": "Malta Sterlini",
-                "displayName-count-other": "Malta Sterlini",
-                symbol: "MTP"
+                "displayName-count-other": "Malta Sterlini"
             },
             MUR: {
-                displayName: "Mauritius Rupisi",
-                "displayName-count-one": "Mauritius rupisi",
+                displayName: "Mauritius rupisi",
                 "displayName-count-other": "Mauritius rupisi",
-                symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
             MVP: {
                 displayName: "Maldiv Rupisi",
                 "displayName-count-one": "Maldiv rupisi",
-                "displayName-count-other": "Maldiv rupisi",
-                symbol: "MVP"
+                "displayName-count-other": "Maldiv rupisi"
             },
             MVR: {
-                displayName: "Maldiv Rufiyaası",
-                "displayName-count-one": "Maldiv rufiyaası",
-                "displayName-count-other": "Maldiv rufiyaası",
-                symbol: "MVR"
+                displayName: "Maldiv rufiyaası",
+                "displayName-count-other": "Maldiv rufiyaası"
             },
             MWK: {
-                displayName: "Malavi Kvaçası",
-                "displayName-count-one": "Malavi kvaçası",
-                "displayName-count-other": "Malavi kvaçası",
-                symbol: "MWK"
+                displayName: "Malavi kvaçası",
+                "displayName-count-other": "Malavi kvaçası"
             },
             MXN: {
-                displayName: "Meksika Pesosu",
-                "displayName-count-one": "Meksika pesosu",
+                displayName: "Meksika pesosu",
                 "displayName-count-other": "Meksika pesosu",
                 symbol: "MX$",
                 "symbol-alt-narrow": "$"
             },
             MXP: {
                 displayName: "Gümüş Meksika Pezosu (1861–1992)",
-                "displayName-count-one": "Gümüş Meksika Pezosu (1861–1992)",
-                "displayName-count-other": "Gümüş Meksika Pezosu (1861–1992)",
-                symbol: "MXP"
+                "displayName-count-other": "Gümüş Meksika Pezosu (1861–1992)"
             },
             MXV: {
                 displayName: "Meksika Unidad de Inversion (UDI)",
-                "displayName-count-one": "Meksika Unidad de Inversion (UDI)",
-                "displayName-count-other": "Meksika Unidad de Inversion (UDI)",
-                symbol: "MXV"
+                "displayName-count-other": "Meksika Unidad de Inversion (UDI)"
             },
             MYR: {
-                displayName: "Malezya Ringgiti",
-                "displayName-count-one": "Malezya ringgiti",
+                displayName: "Malezya ringgiti",
                 "displayName-count-other": "Malezya ringgiti",
-                symbol: "MYR",
                 "symbol-alt-narrow": "RM"
             },
             MZE: {
                 displayName: "Mozambik Esküdosu",
-                symbol: "MZE"
+                "displayName-count-other": "Mozambik Esküdosu"
             },
             MZM: {
                 displayName: "Eski Mozambik Metikali",
-                symbol: "MZM"
+                "displayName-count-other": "Eski Mozambik Metikali"
             },
             MZN: {
-                displayName: "Mozambik Metikali",
-                "displayName-count-one": "Mozambik metikali",
-                "displayName-count-other": "Mozambik metikali",
-                symbol: "MZN"
+                displayName: "Mozambik metikali",
+                "displayName-count-other": "Mozambik metikali"
             },
             NAD: {
-                displayName: "Namibya Doları",
-                "displayName-count-one": "Namibya doları",
+                displayName: "Namibya doları",
                 "displayName-count-other": "Namibya doları",
-                symbol: "NAD",
                 "symbol-alt-narrow": "$"
             },
             NGN: {
-                displayName: "Nijerya Nairası",
-                "displayName-count-one": "Nijerya nairası",
+                displayName: "Nijerya nairası",
                 "displayName-count-other": "Nijerya nairası",
-                symbol: "NGN",
                 "symbol-alt-narrow": "₦"
             },
             NIC: {
                 displayName: "Nikaragua Kordobası (1988–1991)",
-                "displayName-count-one": "Nikaragua Kordobası (1988–1991)",
-                "displayName-count-other": "Nikaragua Kordobası (1988–1991)",
-                symbol: "NIC"
+                "displayName-count-other": "Nikaragua Kordobası (1988–1991)"
             },
             NIO: {
-                displayName: "Nikaragua Kordobası",
-                "displayName-count-one": "Nikaragua kordobası",
+                displayName: "Nikaragua kordobası",
                 "displayName-count-other": "Nikaragua kordobası",
-                symbol: "NIO",
                 "symbol-alt-narrow": "C$"
             },
             NLG: {
                 displayName: "Hollanda Florini",
-                "displayName-count-one": "Hollanda Florini",
-                "displayName-count-other": "Hollanda Florini",
-                symbol: "NLG"
+                "displayName-count-other": "Hollanda Florini"
             },
             NOK: {
-                displayName: "Norveç Kronu",
-                "displayName-count-one": "Norveç kronu",
+                displayName: "Norveç kronu",
                 "displayName-count-other": "Norveç kronu",
-                symbol: "NOK",
                 "symbol-alt-narrow": "kr"
             },
             NPR: {
-                displayName: "Nepal Rupisi",
-                "displayName-count-one": "Nepal rupisi",
+                displayName: "Nepal rupisi",
                 "displayName-count-other": "Nepal rupisi",
-                symbol: "NPR",
                 "symbol-alt-narrow": "Rs"
             },
             NZD: {
-                displayName: "Yeni Zelanda Doları",
-                "displayName-count-one": "Yeni Zelanda doları",
+                displayName: "Yeni Zelanda doları",
                 "displayName-count-other": "Yeni Zelanda doları",
                 symbol: "NZ$",
                 "symbol-alt-narrow": "$"
             },
             OMR: {
-                displayName: "Umman Riyali",
-                "displayName-count-one": "Umman riyali",
-                "displayName-count-other": "Umman riyali",
-                symbol: "OMR"
+                displayName: "Umman riyali",
+                "displayName-count-other": "Umman riyali"
             },
             PAB: {
-                displayName: "Panama Balboası",
-                "displayName-count-one": "Panama balboası",
-                "displayName-count-other": "Panama balboası",
-                symbol: "PAB"
+                displayName: "Panama balboası",
+                "displayName-count-other": "Panama balboası"
             },
             PEI: {
                 displayName: "Peru İnti",
-                "displayName-count-one": "Peru İnti",
-                "displayName-count-other": "Peru İnti",
-                symbol: "PEI"
+                "displayName-count-other": "Peru İnti"
             },
             PEN: {
-                displayName: "Peru Solü",
-                "displayName-count-one": "Peru solü",
-                "displayName-count-other": "Peru solü",
-                symbol: "PEN"
+                displayName: "Peru solü",
+                "displayName-count-other": "Peru solü"
             },
             PES: {
                 displayName: "Peru Solü (1863–1965)",
-                "displayName-count-one": "Peru Solü (1863–1965)",
-                "displayName-count-other": "Peru Solü (1863–1965)",
-                symbol: "PES"
+                "displayName-count-other": "Peru Solü (1863–1965)"
             },
             PGK: {
-                displayName: "Papua Yeni Gine Kinası",
-                "displayName-count-one": "Papua Yeni Gine kinası",
-                "displayName-count-other": "Papua Yeni Gine kinası",
-                symbol: "PGK"
+                displayName: "Papua Yeni Gine kinası",
+                "displayName-count-other": "Papua Yeni Gine kinası"
             },
             PHP: {
-                displayName: "Filipinler Pesosu",
-                "displayName-count-one": "Filipinler pesosu",
+                displayName: "Filipinler pesosu",
                 "displayName-count-other": "Filipinler pesosu",
                 symbol: "PHP",
                 "symbol-alt-narrow": "₱"
             },
             PKR: {
-                displayName: "Pakistan Rupisi",
-                "displayName-count-one": "Pakistan rupisi",
+                displayName: "Pakistan rupisi",
                 "displayName-count-other": "Pakistan rupisi",
-                symbol: "PKR",
                 "symbol-alt-narrow": "Rs"
             },
             PLN: {
-                displayName: "Polonya Zlotisi",
-                "displayName-count-one": "Polonya zlotisi",
+                displayName: "Polonya zlotisi",
                 "displayName-count-other": "Polonya zlotisi",
-                symbol: "PLN",
                 "symbol-alt-narrow": "zł"
             },
             PLZ: {
                 displayName: "Polonya Zlotisi (1950–1995)",
-                "displayName-count-one": "Polonya Zlotisi (1950–1995)",
-                "displayName-count-other": "Polonya Zlotisi (1950–1995)",
-                symbol: "PLZ"
+                "displayName-count-other": "Polonya Zlotisi (1950–1995)"
             },
             PTE: {
                 displayName: "Portekiz Esküdosu",
-                "displayName-count-one": "Portekiz Esküdosu",
-                "displayName-count-other": "Portekiz Esküdosu",
-                symbol: "PTE"
+                "displayName-count-other": "Portekiz Esküdosu"
             },
             PYG: {
-                displayName: "Paraguay Guaranisi",
-                "displayName-count-one": "Paraguay guaranisi",
+                displayName: "Paraguay guaranisi",
                 "displayName-count-other": "Paraguay guaranisi",
-                symbol: "PYG",
                 "symbol-alt-narrow": "₲"
             },
             QAR: {
-                displayName: "Katar Riyali",
-                "displayName-count-one": "Katar riyali",
-                "displayName-count-other": "Katar riyali",
-                symbol: "QAR"
+                displayName: "Katar riyali",
+                "displayName-count-other": "Katar riyali"
             },
             RHD: {
                 displayName: "Rodezya Doları",
-                symbol: "RHD"
+                "displayName-count-other": "Rodezya Doları"
             },
             ROL: {
                 displayName: "Eski Romen Leyi",
-                "displayName-count-one": "Eski Romen Leyi",
-                "displayName-count-other": "Eski Romen Leyi",
-                symbol: "ROL"
+                "displayName-count-other": "Eski Romen Leyi"
             },
             RON: {
-                displayName: "Romen Leyi",
-                "displayName-count-one": "Romen leyi",
+                displayName: "Romen leyi",
                 "displayName-count-other": "Romen leyi",
-                symbol: "RON",
                 "symbol-alt-narrow": "L"
             },
             RSD: {
-                displayName: "Sırp Dinarı",
-                "displayName-count-one": "Sırp dinarı",
-                "displayName-count-other": "Sırp dinarı",
-                symbol: "RSD"
+                displayName: "Sırp dinarı",
+                "displayName-count-other": "Sırp dinarı"
             },
             RUB: {
-                displayName: "Rus Rublesi",
-                "displayName-count-one": "Rus rublesi",
+                displayName: "Rus rublesi",
                 "displayName-count-other": "Rus rublesi",
-                symbol: "RUB",
                 "symbol-alt-narrow": "₽"
             },
             RUR: {
                 displayName: "Rus Rublesi (1991–1998)",
-                "displayName-count-one": "Rus Rublesi (1991–1998)",
                 "displayName-count-other": "Rus Rublesi (1991–1998)",
-                symbol: "RUR",
                 "symbol-alt-narrow": "р."
             },
             RWF: {
-                displayName: "Ruanda Frangı",
-                "displayName-count-one": "Ruanda frangı",
+                displayName: "Ruanda frangı",
                 "displayName-count-other": "Ruanda frangı",
-                symbol: "RWF",
                 "symbol-alt-narrow": "RF"
             },
             SAR: {
-                displayName: "Suudi Arabistan Riyali",
-                "displayName-count-one": "Suudi Arabistan riyali",
+                displayName: "Suudi Arabistan riyali",
                 "displayName-count-other": "Suudi Arabistan riyali",
-                symbol: "SAR"
+                "symbol-alt-variant": "⃁"
             },
             SBD: {
-                displayName: "Solomon Adaları Doları",
-                "displayName-count-one": "Solomon Adaları doları",
+                displayName: "Solomon Adaları doları",
                 "displayName-count-other": "Solomon Adaları doları",
-                symbol: "SBD",
                 "symbol-alt-narrow": "$"
             },
             SCR: {
-                displayName: "Seyşeller Rupisi",
-                "displayName-count-one": "Seyşeller rupisi",
-                "displayName-count-other": "Seyşeller rupisi",
-                symbol: "SCR"
+                displayName: "Seyşeller rupisi",
+                "displayName-count-other": "Seyşeller rupisi"
             },
             SDD: {
                 displayName: "Eski Sudan Dinarı",
-                symbol: "SDD"
+                "displayName-count-other": "Eski Sudan Dinarı"
             },
             SDG: {
-                displayName: "Sudan Lirası",
-                "displayName-count-one": "Sudan lirası",
-                "displayName-count-other": "Sudan lirası",
-                symbol: "SDG"
+                displayName: "Sudan lirası",
+                "displayName-count-other": "Sudan lirası"
             },
             SDP: {
                 displayName: "Eski Sudan Lirası",
-                symbol: "SDP"
+                "displayName-count-other": "Eski Sudan Lirası"
             },
             SEK: {
-                displayName: "İsveç Kronu",
-                "displayName-count-one": "İsveç kronu",
+                displayName: "İsveç kronu",
                 "displayName-count-other": "İsveç kronu",
-                symbol: "SEK",
                 "symbol-alt-narrow": "kr"
             },
             SGD: {
-                displayName: "Singapur Doları",
-                "displayName-count-one": "Singapur doları",
+                displayName: "Singapur doları",
                 "displayName-count-other": "Singapur doları",
-                symbol: "SGD",
                 "symbol-alt-narrow": "$"
             },
             SHP: {
-                displayName: "Saint Helena Lirası",
-                "displayName-count-one": "Saint Helena lirası",
+                displayName: "Saint Helena lirası",
                 "displayName-count-other": "Saint Helena lirası",
-                symbol: "SHP",
                 "symbol-alt-narrow": "£"
             },
             SIT: {
                 displayName: "Slovenya Toları",
-                "displayName-count-one": "Slovenya Toları",
-                "displayName-count-other": "Slovenya Toları",
-                symbol: "SIT"
+                "displayName-count-other": "Slovenya Toları"
             },
             SKK: {
                 displayName: "Slovak Korunası",
-                "displayName-count-one": "Slovak Korunası",
-                "displayName-count-other": "Slovak Korunası",
-                symbol: "SKK"
+                "displayName-count-other": "Slovak Korunası"
             },
             SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
+                displayName: "Sierra Leone leonesi",
+                "displayName-count-other": "Sierra Leone leonesi"
             },
             SLL: {
-                displayName: "Sierra Leone Leonesi",
-                "displayName-count-one": "Sierra Leone leonesi",
-                "displayName-count-other": "Sierra Leone leonesi",
-                symbol: "SLL"
+                displayName: "Sierra Leone leonesi (1964–2022)",
+                "displayName-count-other": "Sierra Leone leonesi (1964–2022)"
             },
             SOS: {
-                displayName: "Somali Şilini",
-                "displayName-count-one": "Somali şilini",
-                "displayName-count-other": "Somali şilini",
-                symbol: "SOS"
+                displayName: "Somali şilini",
+                "displayName-count-other": "Somali şilini"
             },
             SRD: {
-                displayName: "Surinam Doları",
-                "displayName-count-one": "Surinam doları",
+                displayName: "Surinam doları",
                 "displayName-count-other": "Surinam doları",
-                symbol: "SRD",
                 "symbol-alt-narrow": "$"
             },
             SRG: {
                 displayName: "Surinam Guldeni",
-                "displayName-count-one": "Surinam Guldeni",
-                "displayName-count-other": "Surinam Guldeni",
-                symbol: "SRG"
+                "displayName-count-other": "Surinam Guldeni"
             },
             SSP: {
-                displayName: "Güney Sudan Lirası",
-                "displayName-count-one": "Güney Sudan lirası",
+                displayName: "Güney Sudan lirası",
                 "displayName-count-other": "Güney Sudan lirası",
-                symbol: "SSP",
                 "symbol-alt-narrow": "£"
             },
             STD: {
                 displayName: "São Tomé ve Príncipe Dobrası (1977–2017)",
                 "displayName-count-one": "São Tomé ve Príncipe dobrası (1977–2017)",
-                "displayName-count-other": "São Tomé ve Príncipe dobrası (1977–2017)",
-                symbol: "STD"
+                "displayName-count-other": "São Tomé ve Príncipe dobrası (1977–2017)"
             },
             STN: {
-                displayName: "Sao Tome ve Principe Dobrası",
-                "displayName-count-one": "Sao Tome ve Principe dobrası",
+                displayName: "Sao Tome ve Principe dobrası",
                 "displayName-count-other": "Sao Tome ve Principe dobrası",
-                symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },
             SUR: {
                 displayName: "Sovyet Rublesi",
-                "displayName-count-one": "Sovyet Rublesi",
-                "displayName-count-other": "Sovyet Rublesi",
-                symbol: "SUR"
+                "displayName-count-other": "Sovyet Rublesi"
             },
             SVC: {
                 displayName: "El Salvador Kolonu",
-                "displayName-count-one": "El Salvador Kolonu",
-                "displayName-count-other": "El Salvador Kolonu",
-                symbol: "SVC"
+                "displayName-count-other": "El Salvador Kolonu"
             },
             SYP: {
-                displayName: "Suriye Lirası",
-                "displayName-count-one": "Suriye lirası",
+                displayName: "Suriye lirası",
                 "displayName-count-other": "Suriye lirası",
-                symbol: "SYP",
                 "symbol-alt-narrow": "£"
             },
             SZL: {
-                displayName: "Svaziland Lilangenisi",
-                "displayName-count-one": "Svaziland lilangenisi",
-                "displayName-count-other": "Svaziland lilangenisi",
-                symbol: "SZL"
+                displayName: "Svaziland lilangenisi",
+                "displayName-count-other": "Svaziland lilangenisi"
             },
             THB: {
-                displayName: "Tayland Bahtı",
-                "displayName-count-one": "Tayland bahtı",
+                displayName: "Tayland bahtı",
                 "displayName-count-other": "Tayland bahtı",
                 symbol: "฿",
                 "symbol-alt-narrow": "฿"
             },
             TJR: {
                 displayName: "Tacikistan Rublesi",
-                "displayName-count-one": "Tacikistan Rublesi",
-                "displayName-count-other": "Tacikistan Rublesi",
-                symbol: "TJR"
+                "displayName-count-other": "Tacikistan Rublesi"
             },
             TJS: {
-                displayName: "Tacikistan Somonisi",
-                "displayName-count-one": "Tacikistan somonisi",
-                "displayName-count-other": "Tacikistan somonisi",
-                symbol: "TJS"
+                displayName: "Tacikistan somonisi",
+                "displayName-count-other": "Tacikistan somonisi"
             },
             TMM: {
                 displayName: "Türkmenistan Manatı (1993–2009)",
-                "displayName-count-one": "Türkmenistan Manatı (1993–2009)",
-                "displayName-count-other": "Türkmenistan Manatı (1993–2009)",
-                symbol: "TMM"
+                "displayName-count-other": "Türkmenistan Manatı (1993–2009)"
             },
             TMT: {
-                displayName: "Türkmenistan Manatı",
-                "displayName-count-one": "Türkmenistan manatı",
-                "displayName-count-other": "Türkmenistan manatı",
-                symbol: "TMT"
+                displayName: "Türkmenistan manatı",
+                "displayName-count-other": "Türkmenistan manatı"
             },
             TND: {
-                displayName: "Tunus Dinarı",
-                "displayName-count-one": "Tunus dinarı",
-                "displayName-count-other": "Tunus dinarı",
-                symbol: "TND"
+                displayName: "Tunus dinarı",
+                "displayName-count-other": "Tunus dinarı"
             },
             TOP: {
-                displayName: "Tonga Paʻangası",
-                "displayName-count-one": "Tonga paʻangası",
+                displayName: "Tonga paʻangası",
                 "displayName-count-other": "Tonga paʻangası",
-                symbol: "TOP",
                 "symbol-alt-narrow": "T$"
             },
             TPE: {
                 displayName: "Timor Esküdosu",
-                "displayName-count-one": "Timor Esküdosu",
-                "displayName-count-other": "Timor Esküdosu",
-                symbol: "TPE"
+                "displayName-count-other": "Timor Esküdosu"
             },
             TRL: {
                 displayName: "Eski Türk Lirası",
-                "displayName-count-one": "Eski Türk Lirası",
-                "displayName-count-other": "Eski Türk Lirası",
-                symbol: "TRL"
+                "displayName-count-other": "Eski Türk Lirası"
             },
             TRY: {
                 pattern: "¤#,##0.00",
-                displayName: "Türk Lirası",
-                "displayName-count-one": "Türk lirası",
+                displayName: "Türk lirası",
                 "displayName-count-other": "Türk lirası",
                 symbol: "₺",
                 "symbol-alt-narrow": "₺",
                 "symbol-alt-variant": "TL"
             },
             TTD: {
-                displayName: "Trinidad ve Tobago Doları",
-                "displayName-count-one": "Trinidad ve Tobago doları",
+                displayName: "Trinidad ve Tobago doları",
                 "displayName-count-other": "Trinidad ve Tobago doları",
-                symbol: "TTD",
                 "symbol-alt-narrow": "$"
             },
             TWD: {
-                displayName: "Yeni Tayvan Doları",
-                "displayName-count-one": "Yeni Tayvan doları",
+                displayName: "Yeni Tayvan doları",
                 "displayName-count-other": "Yeni Tayvan doları",
                 symbol: "NT$",
                 "symbol-alt-narrow": "NT$"
             },
             TZS: {
-                displayName: "Tanzanya Şilini",
-                "displayName-count-one": "Tanzanya şilini",
-                "displayName-count-other": "Tanzanya şilini",
-                symbol: "TZS"
+                displayName: "Tanzanya şilini",
+                "displayName-count-other": "Tanzanya şilini"
             },
             UAH: {
-                displayName: "Ukrayna Grivnası",
-                "displayName-count-one": "Ukrayna grivnası",
+                displayName: "Ukrayna grivnası",
                 "displayName-count-other": "Ukrayna grivnası",
-                symbol: "UAH",
                 "symbol-alt-narrow": "₴"
             },
             UAK: {
                 displayName: "Ukrayna Karbovanetz",
-                "displayName-count-one": "Ukrayna Karbovanetz",
-                "displayName-count-other": "Ukrayna Karbovanetz",
-                symbol: "UAK"
+                "displayName-count-other": "Ukrayna Karbovanetz"
             },
             UGS: {
                 displayName: "Uganda Şilini (1966–1987)",
-                symbol: "UGS"
+                "displayName-count-other": "Uganda Şilini (1966–1987)"
             },
             UGX: {
-                displayName: "Uganda Şilini",
-                "displayName-count-one": "Uganda şilini",
-                "displayName-count-other": "Uganda şilini",
-                symbol: "UGX"
+                displayName: "Uganda şilini",
+                "displayName-count-other": "Uganda şilini"
             },
             USD: {
-                displayName: "ABD Doları",
-                "displayName-count-one": "ABD doları",
+                displayName: "ABD doları",
                 "displayName-count-other": "ABD doları",
                 symbol: "$",
                 "symbol-alt-narrow": "$"
             },
             USN: {
                 displayName: "ABD Doları (Ertesi gün)",
-                "displayName-count-one": "ABD Doları (Ertesi gün)",
-                "displayName-count-other": "ABD Doları (Ertesi gün)",
-                symbol: "USN"
+                "displayName-count-other": "ABD Doları (Ertesi gün)"
             },
             USS: {
                 displayName: "ABD Doları (Aynı gün)",
-                "displayName-count-one": "ABD Doları (Aynı gün)",
-                "displayName-count-other": "ABD Doları (Aynı gün)",
-                symbol: "USS"
+                "displayName-count-other": "ABD Doları (Aynı gün)"
             },
             UYI: {
                 displayName: "Uruguay Peso en Unidades Indexadas",
-                "displayName-count-one": "Uruguay Peso en Unidades Indexadas",
-                "displayName-count-other": "Uruguay Peso en Unidades Indexadas",
-                symbol: "UYI"
+                "displayName-count-other": "Uruguay Peso en Unidades Indexadas"
             },
             UYP: {
                 displayName: "Uruguay Pezosu (1975–1993)",
-                "displayName-count-one": "Uruguay Pezosu (1975–1993)",
-                "displayName-count-other": "Uruguay Pezosu (1975–1993)",
-                symbol: "UYP"
+                "displayName-count-other": "Uruguay Pezosu (1975–1993)"
             },
             UYU: {
-                displayName: "Uruguay Pesosu",
-                "displayName-count-one": "Uruguay pesosu",
+                displayName: "Uruguay pesosu",
                 "displayName-count-other": "Uruguay pesosu",
-                symbol: "UYU",
                 "symbol-alt-narrow": "$"
             },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
-            },
             UZS: {
-                displayName: "Özbekistan Somu",
-                "displayName-count-one": "Özbekistan somu",
-                "displayName-count-other": "Özbekistan somu",
-                symbol: "UZS"
+                displayName: "Özbekistan somu",
+                "displayName-count-other": "Özbekistan somu"
             },
             VEB: {
                 displayName: "Venezuela Bolivarı (1871–2008)",
-                "displayName-count-one": "Venezuela Bolivarı (1871–2008)",
-                "displayName-count-other": "Venezuela Bolivarı (1871–2008)",
-                symbol: "VEB"
-            },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
+                "displayName-count-other": "Venezuela Bolivarı (1871–2008)"
             },
             VEF: {
                 displayName: "Venezuela Bolivarı (2008–2018)",
                 "displayName-count-one": "Venezuela bolivarı (2008–2018)",
                 "displayName-count-other": "Venezuela bolivarı (2008–2018)",
-                symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
             },
             VES: {
-                displayName: "Venezuela Bolivarı",
-                "displayName-count-one": "Venezuela bolivarı",
-                "displayName-count-other": "Venezuela bolivarı",
-                symbol: "VES"
+                displayName: "Venezuela bolivarı",
+                "displayName-count-other": "Venezuela bolivarı"
             },
             VND: {
-                displayName: "Vietnam Dongu",
-                "displayName-count-one": "Vietnam dongu",
+                displayName: "Vietnam dongu",
                 "displayName-count-other": "Vietnam dongu",
                 symbol: "₫",
                 "symbol-alt-narrow": "₫"
@@ -1670,123 +1216,107 @@ const data = {
             VNN: {
                 displayName: "Vietnam Dongu (1978–1985)",
                 "displayName-count-one": "Vietnam dongu (1978–1985)",
-                "displayName-count-other": "Vietnam dongu (1978–1985)",
-                symbol: "VNN"
+                "displayName-count-other": "Vietnam dongu (1978–1985)"
             },
             VUV: {
-                displayName: "Vanuatu Vatusu",
-                "displayName-count-one": "Vanuatu vatusu",
-                "displayName-count-other": "Vanuatu vatusu",
-                symbol: "VUV"
+                displayName: "Vanuatu vatusu",
+                "displayName-count-other": "Vanuatu vatusu"
             },
             WST: {
-                displayName: "Samoa Talası",
-                "displayName-count-one": "Samoa talası",
-                "displayName-count-other": "Samoa talası",
-                symbol: "WST"
+                displayName: "Samoa talası",
+                "displayName-count-other": "Samoa talası"
             },
             XAF: {
-                displayName: "Orta Afrika CFA Frangı",
-                "displayName-count-one": "Orta Afrika CFA frangı",
+                displayName: "Orta Afrika CFA frangı",
                 "displayName-count-other": "Orta Afrika CFA frangı",
                 symbol: "FCFA"
             },
             XAG: {
                 displayName: "Gümüş",
-                "displayName-count-one": "Gümüş",
-                "displayName-count-other": "Gümüş",
-                symbol: "XAG"
+                "displayName-count-other": "Gümüş"
             },
             XAU: {
                 displayName: "Altın",
-                "displayName-count-one": "Altın",
-                "displayName-count-other": "Altın",
-                symbol: "XAU"
+                "displayName-count-other": "Altın"
             },
             XBA: {
                 displayName: "Birleşik Avrupa Birimi",
-                symbol: "XBA"
+                "displayName-count-other": "Birleşik Avrupa Birimi"
             },
             XBB: {
                 displayName: "Avrupa Para Birimi (EMU)",
-                symbol: "XBB"
+                "displayName-count-other": "Avrupa Para Birimi (EMU)"
             },
             XBC: {
                 displayName: "Avrupa Hesap Birimi (XBC)",
-                symbol: "XBC"
+                "displayName-count-other": "Avrupa Hesap Birimi (XBC)"
             },
             XBD: {
                 displayName: "Avrupa Hesap Birimi (XBD)",
-                symbol: "XBD"
+                "displayName-count-other": "Avrupa Hesap Birimi (XBD)"
             },
             XCD: {
-                displayName: "Doğu Karayip Doları",
-                "displayName-count-one": "Doğu Karayip doları",
+                displayName: "Doğu Karayip doları",
                 "displayName-count-other": "Doğu Karayip doları",
                 symbol: "EC$",
                 "symbol-alt-narrow": "$"
             },
+            XCG: {
+                displayName: "Karayip guldeni",
+                "displayName-count-one": "Karayip guldeni",
+                "displayName-count-other": "Karayip guldeni",
+                symbol: "Cg."
+            },
             XDR: {
                 displayName: "Özel Çekme Hakkı (SDR)",
-                symbol: "XDR"
+                "displayName-count-other": "Özel Çekme Hakkı (SDR)"
             },
             XEU: {
                 displayName: "Avrupa Para Birimi",
-                "displayName-count-one": "Avrupa Para Birimi",
-                "displayName-count-other": "Avrupa Para Birimi",
-                symbol: "XEU"
+                "displayName-count-other": "Avrupa Para Birimi"
             },
             XFO: {
                 displayName: "Fransız Altın Frangı",
-                symbol: "XFO"
+                "displayName-count-other": "Fransız Altın Frangı"
             },
             XFU: {
                 displayName: "Fransız UIC-Frangı",
-                symbol: "XFU"
+                "displayName-count-other": "Fransız UIC-Frangı"
             },
             XOF: {
-                displayName: "Batı Afrika CFA Frangı",
-                "displayName-count-one": "Batı Afrika CFA frangı",
+                displayName: "Batı Afrika CFA frangı",
                 "displayName-count-other": "Batı Afrika CFA frangı",
                 symbol: "F CFA"
             },
             XPD: {
                 displayName: "Paladyum",
-                symbol: "XPD"
+                "displayName-count-other": "Paladyum"
             },
             XPF: {
-                displayName: "CFP Frangı",
-                "displayName-count-one": "CFP frangı",
+                displayName: "CFP frangı",
                 "displayName-count-other": "CFP frangı",
                 symbol: "CFPF"
             },
             XPT: {
                 displayName: "Platin",
-                symbol: "XPT"
+                "displayName-count-other": "Platin"
             },
             XRE: {
                 displayName: "RINET Fonları",
-                "displayName-count-one": "RINET Fonları",
-                "displayName-count-other": "RINET Fonları",
-                symbol: "XRE"
+                "displayName-count-other": "RINET Fonları"
             },
             XSU: {
                 displayName: "Sucre",
-                "displayName-count-one": "Sucre",
-                "displayName-count-other": "Sucre",
-                symbol: "XSU"
+                "displayName-count-other": "Sucre"
             },
             XTS: {
                 displayName: "Test Para Birimi Kodu",
-                "displayName-count-one": "Test Para Birimi Kodu",
-                "displayName-count-other": "Test Para Birimi Kodu",
-                symbol: "XTS"
+                "displayName-count-other": "Test Para Birimi Kodu"
             },
             XUA: {
                 displayName: "ADB Hesap Birimi",
                 "displayName-count-one": "ADB hesap birimi",
-                "displayName-count-other": "ADB hesap birimi",
-                symbol: "XUA"
+                "displayName-count-other": "ADB hesap birimi"
             },
             XXX: {
                 displayName: "Bilinmeyen Para Birimi",
@@ -1796,83 +1326,72 @@ const data = {
             },
             YDD: {
                 displayName: "Yemen Dinarı",
-                "displayName-count-one": "Yemen Dinarı",
-                "displayName-count-other": "Yemen Dinarı",
-                symbol: "YDD"
+                "displayName-count-other": "Yemen Dinarı"
             },
             YER: {
-                displayName: "Yemen Riyali",
-                "displayName-count-one": "Yemen riyali",
-                "displayName-count-other": "Yemen riyali",
-                symbol: "YER"
+                displayName: "Yemen riyali",
+                "displayName-count-other": "Yemen riyali"
             },
             YUD: {
                 displayName: "Yugoslav Dinarı (Hard)",
-                "displayName-count-one": "Yugoslav Dinarı (Hard)",
-                "displayName-count-other": "Yugoslav Dinarı (Hard)",
-                symbol: "YUD"
+                "displayName-count-other": "Yugoslav Dinarı (Hard)"
             },
             YUM: {
                 displayName: "Yeni Yugoslav Dinarı",
-                "displayName-count-one": "Yeni Yugoslav Dinarı",
-                "displayName-count-other": "Yeni Yugoslav Dinarı",
-                symbol: "YUM"
+                "displayName-count-other": "Yeni Yugoslav Dinarı"
             },
             YUN: {
                 displayName: "Konvertibl Yugoslav Dinarı",
-                "displayName-count-one": "Konvertibl Yugoslav Dinarı",
-                "displayName-count-other": "Konvertibl Yugoslav Dinarı",
-                symbol: "YUN"
+                "displayName-count-other": "Konvertibl Yugoslav Dinarı"
             },
             YUR: {
                 displayName: "İyileştirilmiş Yugoslav Dinarı (1992–1993)",
                 "displayName-count-one": "İyileştirilmiş Yugoslav dinarı (1992–1993)",
-                "displayName-count-other": "İyileştirilmiş Yugoslav dinarı (1992–1993)",
-                symbol: "YUR"
+                "displayName-count-other": "İyileştirilmiş Yugoslav dinarı (1992–1993)"
             },
             ZAL: {
                 displayName: "Güney Afrika Randı (finansal)",
-                symbol: "ZAL"
+                "displayName-count-other": "Güney Afrika Randı (finansal)"
             },
             ZAR: {
-                displayName: "Güney Afrika Randı",
-                "displayName-count-one": "Güney Afrika randı",
+                displayName: "Güney Afrika randı",
                 "displayName-count-other": "Güney Afrika randı",
-                symbol: "ZAR",
                 "symbol-alt-narrow": "R"
             },
             ZMK: {
                 displayName: "Zambiya Kvaçası (1968–2012)",
-                symbol: "ZMK"
+                "displayName-count-other": "Zambiya Kvaçası (1968–2012)"
             },
             ZMW: {
-                displayName: "Zambiya Kvaçası",
-                "displayName-count-one": "Zambiya kvaçası",
+                displayName: "Zambiya kvaçası",
                 "displayName-count-other": "Zambiya kvaçası",
-                symbol: "ZMW",
                 "symbol-alt-narrow": "ZK"
             },
             ZRN: {
                 displayName: "Yeni Zaire Zairesi",
-                symbol: "ZRN"
+                "displayName-count-other": "Yeni Zaire Zairesi"
             },
             ZRZ: {
                 displayName: "Zaire Zairesi",
-                symbol: "ZRZ"
+                "displayName-count-other": "Zaire Zairesi"
             },
             ZWD: {
                 displayName: "Zimbabve Doları",
-                symbol: "ZWD"
+                "displayName-count-other": "Zimbabve Doları"
+            },
+            ZWG: {
+                displayName: "Zimbabve altını",
+                "displayName-count-one": "Zimbabve altını",
+                "displayName-count-other": "Zimbabve altını"
             },
             ZWL: {
                 displayName: "Zimbabve Doları (2009)",
-                symbol: "ZWL"
+                "displayName-count-other": "Zimbabve Doları (2009)"
             },
             ZWR: {
                 displayName: "Zimbabve Doları (2008)",
                 "displayName-count-one": "Zimbabve doları (2008)",
-                "displayName-count-other": "Zimbabve doları (2008)",
-                symbol: "ZWR"
+                "displayName-count-other": "Zimbabve doları (2008)"
             }
         },
         localeCurrency: "EUR"

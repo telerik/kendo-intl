@@ -28,6 +28,7 @@ const data = {
                 3
             ]
         },
+        rational: {},
         scientific: {
             patterns: [
                 "nEn"
@@ -49,7 +50,6 @@ const data = {
             groupSize: [
                 3
             ],
-            "unitPattern-count-one": "n $",
             "unitPattern-count-other": "n $"
         },
         accounting: {
@@ -63,93 +63,66 @@ const data = {
         currencies: {
             ADP: {
                 displayName: "Андорска Пезета",
-                symbol: "ADP"
+                "displayName-count-other": "Андорска Пезета"
             },
             AED: {
                 displayName: "Дирхам на Обединети Арапски Емирати",
                 "displayName-count-one": "Дирхам на Обединети Арапски Емирати",
-                "displayName-count-other": "Дирхами на Обединети Арапски Емирати",
-                symbol: "AED"
+                "displayName-count-other": "Дирхами на Обединети Арапски Емирати"
             },
             AFA: {
                 displayName: "Авгани (1927–2002)",
-                symbol: "AFA"
+                "displayName-count-other": "Авгани (1927–2002)"
             },
             AFN: {
-                displayName: "Авганистански авгани",
-                "displayName-count-one": "Авгани",
-                "displayName-count-other": "Авгани",
-                symbol: "AFN",
+                displayName: "Авганистански авган",
+                "displayName-count-one": "Авганистански авган",
+                "displayName-count-other": "Авганистански авган",
                 "symbol-alt-narrow": "؋"
-            },
-            ALK: {
-                displayName: "ALK",
-                symbol: "ALK"
             },
             ALL: {
                 displayName: "Албански лек",
                 "displayName-count-one": "Албански лек",
-                "displayName-count-other": "Албански леки",
-                symbol: "ALL"
+                "displayName-count-other": "Албански леки"
             },
             AMD: {
                 displayName: "Ерменски драм",
                 "displayName-count-one": "Ерменски драм",
                 "displayName-count-other": "Ерменски драми",
-                symbol: "AMD",
                 "symbol-alt-narrow": "֏"
             },
             ANG: {
-                displayName: "Холандски антилски гилдер",
-                "displayName-count-one": "Холандски антилски гилдер",
-                "displayName-count-other": "Холандски антилски гилдери",
-                symbol: "ANG"
+                displayName: "Холандски антилски гулден",
+                "displayName-count-one": "Холандски антилски гулден",
+                "displayName-count-other": "Холандски антилски гулдени"
             },
             AOA: {
                 displayName: "Анголска кванза",
                 "displayName-count-one": "Анголска кванза",
                 "displayName-count-other": "Анголски кванзи",
-                symbol: "AOA",
                 "symbol-alt-narrow": "Kz"
             },
             AOK: {
                 displayName: "Анголска Кванза (1977–1990)",
-                symbol: "AOK"
+                "displayName-count-other": "Анголска Кванза (1977–1990)"
             },
             AON: {
                 displayName: "Анголска нова Кванза (1990–2000)",
-                symbol: "AON"
-            },
-            AOR: {
-                displayName: "AOR",
-                symbol: "AOR"
-            },
-            ARA: {
-                displayName: "ARA",
-                symbol: "ARA"
-            },
-            ARL: {
-                displayName: "ARL",
-                symbol: "ARL"
-            },
-            ARM: {
-                displayName: "ARM",
-                symbol: "ARM"
+                "displayName-count-other": "Анголска нова Кванза (1990–2000)"
             },
             ARP: {
                 displayName: "Аргентински Пезос (1983–1985)",
-                symbol: "ARP"
+                "displayName-count-other": "Аргентински Пезос (1983–1985)"
             },
             ARS: {
                 displayName: "Аргентински пезос",
                 "displayName-count-one": "Аргентински пезос",
                 "displayName-count-other": "Аргентински пезоси",
-                symbol: "ARS",
                 "symbol-alt-narrow": "$"
             },
             ATS: {
                 displayName: "Австралиски Шилинг",
-                symbol: "ATS"
+                "displayName-count-other": "Австралиски Шилинг"
             },
             AUD: {
                 displayName: "Австралиски долар",
@@ -161,135 +134,84 @@ const data = {
             AWG: {
                 displayName: "Арубиски флорин",
                 "displayName-count-one": "Арубиски флорин",
-                "displayName-count-other": "Арубиски флорини",
-                symbol: "AWG"
-            },
-            AZM: {
-                displayName: "AZM",
-                symbol: "AZM"
+                "displayName-count-other": "Арубиски флорини"
             },
             AZN: {
                 displayName: "Азербејџански манат",
                 "displayName-count-one": "Азербејџански манат",
                 "displayName-count-other": "Азербејџански манати",
-                symbol: "AZN",
                 "symbol-alt-narrow": "₼"
             },
             BAD: {
                 displayName: "Босанско-Херцеговски Динар",
-                symbol: "BAD"
+                "displayName-count-other": "Босанско-Херцеговски Динар"
             },
             BAM: {
                 displayName: "Босанско-херцеговска конвертибилна марка",
                 "displayName-count-one": "Босанско-херцеговска конвертибилна марка",
                 "displayName-count-other": "Босанско-херцеговски конвертибилни марки",
-                symbol: "BAM",
                 "symbol-alt-narrow": "KM"
-            },
-            BAN: {
-                displayName: "BAN",
-                symbol: "BAN"
             },
             BBD: {
                 displayName: "Барбадоски долар",
                 "displayName-count-one": "Барбадоски долар",
                 "displayName-count-other": "Барбадоски долари",
-                symbol: "BBD",
                 "symbol-alt-narrow": "$"
             },
             BDT: {
                 displayName: "Бангладешка така",
                 "displayName-count-one": "Бангладешка така",
                 "displayName-count-other": "Бангладешки таки",
-                symbol: "BDT",
                 "symbol-alt-narrow": "৳"
             },
             BEC: {
                 displayName: "Белгиски Франк (конвертибилен)",
-                symbol: "BEC"
+                "displayName-count-other": "Белгиски Франк (конвертибилен)"
             },
             BEF: {
                 displayName: "Белгиски Франк",
-                symbol: "BEF"
+                "displayName-count-other": "Белгиски Франк"
             },
             BEL: {
                 displayName: "Белгиски Франк (финансиски)",
-                symbol: "BEL"
+                "displayName-count-other": "Белгиски Франк (финансиски)"
             },
             BGL: {
                 displayName: "Бугарски цврст лев",
-                symbol: "BGL"
-            },
-            BGM: {
-                displayName: "BGM",
-                symbol: "BGM"
+                "displayName-count-other": "Бугарски цврст лев"
             },
             BGN: {
                 displayName: "Бугарски лев",
                 "displayName-count-one": "Бугарски лев",
-                "displayName-count-other": "Бугарски левови",
-                symbol: "BGN"
-            },
-            BGO: {
-                displayName: "BGO",
-                symbol: "BGO"
+                "displayName-count-other": "Бугарски левови"
             },
             BHD: {
                 displayName: "Бахреински динар",
                 "displayName-count-one": "Бахреински динар",
-                "displayName-count-other": "Бахреински динари",
-                symbol: "BHD"
+                "displayName-count-other": "Бахреински динари"
             },
             BIF: {
                 displayName: "Бурундиски франк",
                 "displayName-count-one": "Бурундиски франк",
-                "displayName-count-other": "Бурундиски франци",
-                symbol: "BIF"
+                "displayName-count-other": "Бурундиски франци"
             },
             BMD: {
                 displayName: "Бермудски долар",
                 "displayName-count-one": "Бермудски долар",
                 "displayName-count-other": "Бермудски долари",
-                symbol: "BMD",
                 "symbol-alt-narrow": "$"
             },
             BND: {
                 displayName: "Брунејски долар",
                 "displayName-count-one": "Брунејски долар",
                 "displayName-count-other": "Брунејски долари",
-                symbol: "BND",
                 "symbol-alt-narrow": "$"
             },
             BOB: {
                 displayName: "Боливиски боливиано",
                 "displayName-count-one": "Боливиски боливиано",
                 "displayName-count-other": "Боливиски боливиани",
-                symbol: "BOB",
                 "symbol-alt-narrow": "Bs"
-            },
-            BOL: {
-                displayName: "BOL",
-                symbol: "BOL"
-            },
-            BOP: {
-                displayName: "BOP",
-                symbol: "BOP"
-            },
-            BOV: {
-                displayName: "BOV",
-                symbol: "BOV"
-            },
-            BRB: {
-                displayName: "BRB",
-                symbol: "BRB"
-            },
-            BRC: {
-                displayName: "BRC",
-                symbol: "BRC"
-            },
-            BRE: {
-                displayName: "BRE",
-                symbol: "BRE"
             },
             BRL: {
                 displayName: "Бразилски реал",
@@ -298,64 +220,42 @@ const data = {
                 symbol: "R$",
                 "symbol-alt-narrow": "R$"
             },
-            BRN: {
-                displayName: "BRN",
-                symbol: "BRN"
-            },
-            BRR: {
-                displayName: "BRR",
-                symbol: "BRR"
-            },
-            BRZ: {
-                displayName: "BRZ",
-                symbol: "BRZ"
-            },
             BSD: {
                 displayName: "Бахамски долар",
                 "displayName-count-one": "Бахамски долар",
                 "displayName-count-other": "Бахамски долари",
-                symbol: "BSD",
                 "symbol-alt-narrow": "$"
             },
             BTN: {
                 displayName: "Бутански нгултрум",
                 "displayName-count-one": "Бутански нгултрум",
-                "displayName-count-other": "Бутански нгултруми",
-                symbol: "BTN"
-            },
-            BUK: {
-                displayName: "BUK",
-                symbol: "BUK"
+                "displayName-count-other": "Бутански нгултруми"
             },
             BWP: {
                 displayName: "Боцванска пула",
                 "displayName-count-one": "Боцванска пула",
                 "displayName-count-other": "Боцвански пули",
-                symbol: "BWP",
                 "symbol-alt-narrow": "P"
             },
             BYB: {
                 displayName: "Белоруска нова рубља (1994–1999)",
-                symbol: "BYB"
+                "displayName-count-other": "Белоруска нова рубља (1994–1999)"
             },
             BYN: {
                 displayName: "Белоруска рубља",
                 "displayName-count-one": "Белоруска рубља",
                 "displayName-count-other": "Белоруски рубљи",
-                symbol: "BYN",
                 "symbol-alt-narrow": "р."
             },
             BYR: {
                 displayName: "Белоруска рубља (2000–2016)",
                 "displayName-count-one": "Белоруска рубља (2000–2016)",
-                "displayName-count-other": "Белоруски рубљи (2000–2016)",
-                symbol: "BYR"
+                "displayName-count-other": "Белоруски рубљи (2000–2016)"
             },
             BZD: {
                 displayName: "Белизиски долар",
                 "displayName-count-one": "Белизиски долар",
                 "displayName-count-other": "Белизиски долари",
-                symbol: "BZD",
                 "symbol-alt-narrow": "$"
             },
             CAD: {
@@ -368,47 +268,23 @@ const data = {
             CDF: {
                 displayName: "Конголски франк",
                 "displayName-count-one": "Конголски франк",
-                "displayName-count-other": "Конголски франци",
-                symbol: "CDF"
-            },
-            CHE: {
-                displayName: "CHE",
-                symbol: "CHE"
+                "displayName-count-other": "Конголски франци"
             },
             CHF: {
                 displayName: "Швајцарски франк",
                 "displayName-count-one": "Швајцарски франк",
-                "displayName-count-other": "Швајцарски франци",
-                symbol: "CHF"
-            },
-            CHW: {
-                displayName: "CHW",
-                symbol: "CHW"
-            },
-            CLE: {
-                displayName: "CLE",
-                symbol: "CLE"
-            },
-            CLF: {
-                displayName: "CLF",
-                symbol: "CLF"
+                "displayName-count-other": "Швајцарски франци"
             },
             CLP: {
                 displayName: "Чилеански пезос",
                 "displayName-count-one": "Чилеански пезос",
                 "displayName-count-other": "Чилеански пезоси",
-                symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
             CNH: {
                 displayName: "Кинески јуан (офшор)",
-                "displayName-count-one": "Кинески јуан (офшор)",
-                "displayName-count-other": "Кинески јуан (офшор)",
-                symbol: "CNH"
-            },
-            CNX: {
-                displayName: "CNX",
-                symbol: "CNX"
+                "displayName-count-one": "Кинески јуани (офшор)",
+                "displayName-count-other": "Кинески јуани (офшор)"
             },
             CNY: {
                 displayName: "Кинески јуан",
@@ -421,136 +297,91 @@ const data = {
                 displayName: "Колумбиски пезос",
                 "displayName-count-one": "Колумбиски пезос",
                 "displayName-count-other": "Колумбиски пезоси",
-                symbol: "COP",
                 "symbol-alt-narrow": "$"
-            },
-            COU: {
-                displayName: "COU",
-                symbol: "COU"
             },
             CRC: {
                 displayName: "Костарикански колон",
                 "displayName-count-one": "Костарикански колон",
                 "displayName-count-other": "Костарикански колони",
-                symbol: "CRC",
                 "symbol-alt-narrow": "₡"
-            },
-            CSD: {
-                displayName: "CSD",
-                symbol: "CSD"
             },
             CSK: {
                 displayName: "Чехословачка цврста корона",
-                symbol: "CSK"
+                "displayName-count-other": "Чехословачка цврста корона"
             },
             CUC: {
                 displayName: "Кубански конвертибилен пезос",
                 "displayName-count-one": "Кубански конвертибилен пезос",
                 "displayName-count-other": "Кубански конвертибилни пезоси",
-                symbol: "CUC",
                 "symbol-alt-narrow": "$"
             },
             CUP: {
                 displayName: "Кубански пезос",
                 "displayName-count-one": "Кубански пезос",
                 "displayName-count-other": "Кубански пезоси",
-                symbol: "CUP",
                 "symbol-alt-narrow": "$"
             },
             CVE: {
                 displayName: "Зелено’ртски ескудо",
                 "displayName-count-one": "Зелено’ртски ескудо",
-                "displayName-count-other": "Зелено’ртски ескуди",
-                symbol: "CVE"
+                "displayName-count-other": "Зелено’ртски ескуди"
             },
             CYP: {
                 displayName: "Кипарска фунта",
-                symbol: "CYP"
+                "displayName-count-other": "Кипарска фунта"
             },
             CZK: {
                 displayName: "Чешка круна",
                 "displayName-count-one": "Чешка круна",
                 "displayName-count-other": "Чешки круни",
-                symbol: "CZK",
                 "symbol-alt-narrow": "Kč"
-            },
-            DDM: {
-                displayName: "DDM",
-                symbol: "DDM"
             },
             DEM: {
                 displayName: "Германска Марка",
-                symbol: "DEM"
+                "displayName-count-other": "Германска Марка"
             },
             DJF: {
                 displayName: "Џибутски франк",
                 "displayName-count-one": "Џибутски франк",
-                "displayName-count-other": "Џибутски франци",
-                symbol: "DJF"
+                "displayName-count-other": "Џибутски франци"
             },
             DKK: {
                 displayName: "Данска круна",
                 "displayName-count-one": "Данска круна",
                 "displayName-count-other": "Дански круни",
-                symbol: "DKK",
                 "symbol-alt-narrow": "kr"
             },
             DOP: {
                 displayName: "Доминикански пезос",
                 "displayName-count-one": "Доминикански пезос",
                 "displayName-count-other": "Доминикански пезоси",
-                symbol: "DOP",
                 "symbol-alt-narrow": "$"
             },
             DZD: {
                 displayName: "Алжирски динар",
                 "displayName-count-one": "Алжирски динар",
-                "displayName-count-other": "Алжирски динари",
-                symbol: "DZD"
-            },
-            ECS: {
-                displayName: "ECS",
-                symbol: "ECS"
-            },
-            ECV: {
-                displayName: "ECV",
-                symbol: "ECV"
-            },
-            EEK: {
-                displayName: "EEK",
-                symbol: "EEK"
+                "displayName-count-other": "Алжирски динари"
             },
             EGP: {
                 displayName: "Египетска фунта",
                 "displayName-count-one": "Египетска фунта",
                 "displayName-count-other": "Египетски фунти",
-                symbol: "EGP",
                 "symbol-alt-narrow": "E£"
             },
             ERN: {
                 displayName: "Еритрејска накфа",
                 "displayName-count-one": "Еритрејска накфа",
-                "displayName-count-other": "Еритрејски накфи",
-                symbol: "ERN"
-            },
-            ESA: {
-                displayName: "ESA",
-                symbol: "ESA"
-            },
-            ESB: {
-                displayName: "ESB",
-                symbol: "ESB"
+                "displayName-count-other": "Еритрејски накфи"
             },
             ESP: {
                 displayName: "Шпанска Пезета",
-                symbol: "ESP",
+                "displayName-count-other": "Шпанска Пезета",
                 "symbol-alt-narrow": "₧"
             },
             ETB: {
                 displayName: "Етиописки бир",
                 "displayName-count-one": "Етиописки бир",
-                "displayName-count-other": "Етиописки бири",
-                symbol: "ETB"
+                "displayName-count-other": "Етиописки бири"
             },
             EUR: {
                 displayName: "Евро",
@@ -561,25 +392,23 @@ const data = {
             },
             FIM: {
                 displayName: "Финска марка",
-                symbol: "FIM"
+                "displayName-count-other": "Финска марка"
             },
             FJD: {
                 displayName: "Фиџиски долар",
                 "displayName-count-one": "Фиџиски долар",
                 "displayName-count-other": "Фиџиски долари",
-                symbol: "FJD",
                 "symbol-alt-narrow": "$"
             },
             FKP: {
                 displayName: "Фолкландска фунта",
                 "displayName-count-one": "Фолкландска фунта",
                 "displayName-count-other": "Фолкландски фунти",
-                symbol: "FKP",
                 "symbol-alt-narrow": "£"
             },
             FRF: {
                 displayName: "Француски франк",
-                symbol: "FRF"
+                "displayName-count-other": "Француски франк"
             },
             GBP: {
                 displayName: "Британска фунта",
@@ -588,80 +417,55 @@ const data = {
                 symbol: "GBP",
                 "symbol-alt-narrow": "£"
             },
-            GEK: {
-                displayName: "GEK",
-                symbol: "GEK"
-            },
             GEL: {
                 displayName: "Грузиски лари",
-                "displayName-count-one": "Грузиски лари",
                 "displayName-count-other": "Грузиски лари",
-                symbol: "GEL",
                 "symbol-alt-narrow": "₾"
             },
             GHC: {
                 displayName: "Ганајски Седи",
-                symbol: "GHC"
+                "displayName-count-other": "Ганајски Седи"
             },
             GHS: {
                 displayName: "Гански седи",
-                "displayName-count-one": "Гански седи",
                 "displayName-count-other": "Гански седи",
-                symbol: "GHS",
                 "symbol-alt-narrow": "GH₵"
             },
             GIP: {
                 displayName: "Гибралтарска фунта",
                 "displayName-count-one": "Гибралтарска фунта",
                 "displayName-count-other": "Гибралтарски фунти",
-                symbol: "GIP",
                 "symbol-alt-narrow": "£"
             },
             GMD: {
                 displayName: "Гамбиски даласи",
                 "displayName-count-one": "Гамбиски Даласи",
-                "displayName-count-other": "Гамбиски Даласи",
-                symbol: "GMD"
+                "displayName-count-other": "Гамбиски Даласи"
             },
             GNF: {
                 displayName: "Гвинејски франк",
                 "displayName-count-one": "Гвинејски франк",
                 "displayName-count-other": "Гвинејски франци",
-                symbol: "GNF",
                 "symbol-alt-narrow": "FG"
-            },
-            GNS: {
-                displayName: "GNS",
-                symbol: "GNS"
-            },
-            GQE: {
-                displayName: "GQE",
-                symbol: "GQE"
             },
             GRD: {
                 displayName: "Грчка драхма",
-                symbol: "GRD"
+                "displayName-count-other": "Грчка драхма"
             },
             GTQ: {
                 displayName: "Гватемалски кветцал",
                 "displayName-count-one": "Гватемалски кветцал",
                 "displayName-count-other": "Гватемалски кветцали",
-                symbol: "GTQ",
                 "symbol-alt-narrow": "Q"
-            },
-            GWE: {
-                displayName: "GWE",
-                symbol: "GWE"
             },
             GWP: {
                 displayName: "Гвинејски Бисау пезос",
-                symbol: "GWP"
+                "displayName-count-other": "Гвинејски Бисау пезос"
             },
             GYD: {
                 displayName: "Гвајански долар",
                 "displayName-count-one": "Гвајански долар",
                 "displayName-count-other": "Гвајански долари",
-                symbol: "GYD",
                 "symbol-alt-narrow": "$"
             },
             HKD: {
@@ -675,51 +479,42 @@ const data = {
                 displayName: "Хондурска лемпира",
                 "displayName-count-one": "Хондурска лемпира",
                 "displayName-count-other": "Хондурски лемпири",
-                symbol: "HNL",
                 "symbol-alt-narrow": "L"
             },
             HRD: {
                 displayName: "Хрватски динар",
-                symbol: "HRD"
+                "displayName-count-other": "Хрватски динар"
             },
             HRK: {
                 displayName: "Хрватска куна",
                 "displayName-count-one": "Хрватска куна",
                 "displayName-count-other": "Хрватски куни",
-                symbol: "HRK",
                 "symbol-alt-narrow": "kn"
             },
             HTG: {
                 displayName: "Хаитски гурд",
                 "displayName-count-one": "Хаитски гурд",
-                "displayName-count-other": "Хаитски гурди",
-                symbol: "HTG"
+                "displayName-count-other": "Хаитски гурди"
             },
             HUF: {
                 displayName: "Унгарска форинта",
                 "displayName-count-one": "Унгарска форинта",
                 "displayName-count-other": "Унгарски форинти",
-                symbol: "HUF",
                 "symbol-alt-narrow": "Ft"
             },
             IDR: {
                 displayName: "Индонезиска рупија",
                 "displayName-count-one": "Индонезиска рупија",
                 "displayName-count-other": "Индонезиски рупии",
-                symbol: "IDR",
                 "symbol-alt-narrow": "Rp"
             },
             IEP: {
                 displayName: "Ирска фунта",
-                symbol: "IEP"
+                "displayName-count-other": "Ирска фунта"
             },
             ILP: {
                 displayName: "Изрелска фунта",
-                symbol: "ILP"
-            },
-            ILR: {
-                displayName: "ILR",
-                symbol: "ILR"
+                "displayName-count-other": "Изрелска фунта"
             },
             ILS: {
                 displayName: "Израелски нов шекел",
@@ -738,42 +533,33 @@ const data = {
             IQD: {
                 displayName: "Ирачки динар",
                 "displayName-count-one": "Ирачки динар",
-                "displayName-count-other": "Ирачки динари",
-                symbol: "IQD"
+                "displayName-count-other": "Ирачки динари"
             },
             IRR: {
-                displayName: "Ирански риал",
-                "displayName-count-one": "Ирански риал",
-                "displayName-count-other": "Ирански риали",
-                symbol: "IRR"
-            },
-            ISJ: {
-                displayName: "ISJ",
-                symbol: "ISJ"
+                displayName: "Ирански ријал",
+                "displayName-count-one": "Ирански ријал",
+                "displayName-count-other": "Ирански ријали"
             },
             ISK: {
                 displayName: "Исландска крона",
                 "displayName-count-one": "Исландска крона",
                 "displayName-count-other": "Исландски крони",
-                symbol: "ISK",
                 "symbol-alt-narrow": "kr"
             },
             ITL: {
                 displayName: "Италијанска лира",
-                symbol: "ITL"
+                "displayName-count-other": "Италијанска лира"
             },
             JMD: {
                 displayName: "Јамајкански долар",
                 "displayName-count-one": "Јамајкански долар",
                 "displayName-count-other": "Јамајкански долари",
-                symbol: "JMD",
                 "symbol-alt-narrow": "$"
             },
             JOD: {
                 displayName: "Јордански динар",
                 "displayName-count-one": "Јордански динар",
-                "displayName-count-other": "Јордански динари",
-                symbol: "JOD"
+                "displayName-count-other": "Јордански динари"
             },
             JPY: {
                 displayName: "Јапонски јен",
@@ -785,43 +571,31 @@ const data = {
             KES: {
                 displayName: "Кениски шилинг",
                 "displayName-count-one": "Кениски шилинг",
-                "displayName-count-other": "Кениски шилинзи",
-                symbol: "KES"
+                "displayName-count-other": "Кениски шилинзи"
             },
             KGS: {
                 displayName: "Киргистански сом",
                 "displayName-count-one": "Киргистански сом",
                 "displayName-count-other": "Киргистански соми",
-                symbol: "KGS"
+                "symbol-alt-narrow": "⃀"
             },
             KHR: {
                 displayName: "Камбоџиски рел",
                 "displayName-count-one": "Камбоџиски рел",
                 "displayName-count-other": "Камбоџиски рели",
-                symbol: "KHR",
                 "symbol-alt-narrow": "៛"
             },
             KMF: {
                 displayName: "Коморски франк",
                 "displayName-count-one": "Коморски франк",
                 "displayName-count-other": "Коморски франци",
-                symbol: "KMF",
                 "symbol-alt-narrow": "CF"
             },
             KPW: {
                 displayName: "Северно корејски вон",
                 "displayName-count-one": "Северно корејски вон",
                 "displayName-count-other": "Северно корејски вони",
-                symbol: "KPW",
                 "symbol-alt-narrow": "₩"
-            },
-            KRH: {
-                displayName: "KRH",
-                symbol: "KRH"
-            },
-            KRO: {
-                displayName: "KRO",
-                symbol: "KRO"
             },
             KRW: {
                 displayName: "Јужно корејски вон",
@@ -833,131 +607,93 @@ const data = {
             KWD: {
                 displayName: "Кувајтски динар",
                 "displayName-count-one": "Кувајтски динар",
-                "displayName-count-other": "Кувајтски динари",
-                symbol: "KWD"
+                "displayName-count-other": "Кувајтски динари"
             },
             KYD: {
                 displayName: "Кајмански долар",
                 "displayName-count-one": "Кајмански долар",
                 "displayName-count-other": "Кајмански долари",
-                symbol: "KYD",
                 "symbol-alt-narrow": "$"
             },
             KZT: {
                 displayName: "Казахстанска тенга",
                 "displayName-count-one": "Казахстанска тенга",
                 "displayName-count-other": "Казахстански тенги",
-                symbol: "KZT",
                 "symbol-alt-narrow": "₸"
             },
             LAK: {
                 displayName: "Лаоски кип",
                 "displayName-count-one": "Лаоски кип",
                 "displayName-count-other": "Лаоски кипови",
-                symbol: "LAK",
                 "symbol-alt-narrow": "₭"
             },
             LBP: {
                 displayName: "Либанска фунта",
                 "displayName-count-one": "Либанска фунта",
                 "displayName-count-other": "Либански фунти",
-                symbol: "LBP",
                 "symbol-alt-narrow": "L£"
             },
             LKR: {
                 displayName: "Шриланканска рупија",
                 "displayName-count-one": "Шриланканска рупија",
                 "displayName-count-other": "Шриланкански рупии",
-                symbol: "LKR",
                 "symbol-alt-narrow": "Rs"
             },
             LRD: {
                 displayName: "Либериски долар",
                 "displayName-count-one": "Либериски долар",
                 "displayName-count-other": "Либериски долари",
-                symbol: "LRD",
                 "symbol-alt-narrow": "$"
             },
             LSL: {
                 displayName: "Лесотско лоти",
-                "displayName-count-one": "Лесотски лоти",
-                "displayName-count-other": "Лесотски лоти",
-                symbol: "LSL"
+                "displayName-count-one": "Лесотско лоти",
+                "displayName-count-other": "Лесотски лоти"
             },
             LTL: {
                 displayName: "Литваниска лита",
-                "displayName-count-one": "Литваниска лита",
                 "displayName-count-other": "Литваниска лита",
-                symbol: "LTL",
                 "symbol-alt-narrow": "Lt"
             },
             LTT: {
                 displayName: "Литваниски литаз",
-                symbol: "LTT"
-            },
-            LUC: {
-                displayName: "LUC",
-                symbol: "LUC"
+                "displayName-count-other": "Литваниски литаз"
             },
             LUF: {
                 displayName: "Луксембуршки франк",
-                symbol: "LUF"
-            },
-            LUL: {
-                displayName: "LUL",
-                symbol: "LUL"
+                "displayName-count-other": "Луксембуршки франк"
             },
             LVL: {
                 displayName: "Латвијски лат",
-                "displayName-count-one": "Латвијски лат",
                 "displayName-count-other": "Латвијски лат",
-                symbol: "LVL",
                 "symbol-alt-narrow": "Ls"
             },
             LVR: {
                 displayName: "Латвијска рубља",
-                symbol: "LVR"
+                "displayName-count-other": "Латвијска рубља"
             },
             LYD: {
                 displayName: "Либијски динар",
                 "displayName-count-one": "Либијски динар",
-                "displayName-count-other": "Либијски динари",
-                symbol: "LYD"
+                "displayName-count-other": "Либијски динари"
             },
             MAD: {
                 displayName: "Марокански дирхам",
                 "displayName-count-one": "Марокански дирхам",
-                "displayName-count-other": "Марокански дирхами",
-                symbol: "MAD"
+                "displayName-count-other": "Марокански дирхами"
             },
             MAF: {
                 displayName: "Марокански франк",
-                symbol: "MAF"
-            },
-            MCF: {
-                displayName: "MCF",
-                symbol: "MCF"
-            },
-            MDC: {
-                displayName: "MDC",
-                symbol: "MDC"
+                "displayName-count-other": "Марокански франк"
             },
             MDL: {
                 displayName: "Молдавски леу",
-                "displayName-count-one": "Молдавски леу",
-                "displayName-count-other": "Молдавски леу",
-                symbol: "MDL"
+                "displayName-count-other": "Молдавски леу"
             },
             MGA: {
                 displayName: "Малагасиски ариари",
-                "displayName-count-one": "Малагасиски ариари",
                 "displayName-count-other": "Малагасиски ариари",
-                symbol: "MGA",
                 "symbol-alt-narrow": "Ar"
-            },
-            MGF: {
-                displayName: "MGF",
-                symbol: "MGF"
             },
             MKD: {
                 displayName: "Македонски денар",
@@ -965,76 +701,60 @@ const data = {
                 "displayName-count-other": "Македонски денари",
                 symbol: "ден."
             },
-            MKN: {
-                displayName: "MKN",
-                symbol: "MKN"
-            },
             MLF: {
                 displayName: "Малски франк",
-                symbol: "MLF"
+                "displayName-count-other": "Малски франк"
             },
             MMK: {
-                displayName: "Мјанмарски киат",
-                "displayName-count-one": "Мјанмарски киат",
-                "displayName-count-other": "Мјанмарски киати",
-                symbol: "MMK",
+                displayName: "Мјанмарски кјат",
+                "displayName-count-one": "Мјанмарски кјат",
+                "displayName-count-other": "Мјанмарски кјати",
                 "symbol-alt-narrow": "K"
             },
             MNT: {
                 displayName: "Монголиски тугрик",
                 "displayName-count-one": "Монголиски тугрик",
                 "displayName-count-other": "Монголиски тугрици",
-                symbol: "MNT",
                 "symbol-alt-narrow": "₮"
             },
             MOP: {
                 displayName: "Макао патака",
                 "displayName-count-one": "Макао патака",
-                "displayName-count-other": "Макао патаки",
-                symbol: "MOP"
+                "displayName-count-other": "Макао патаки"
             },
             MRO: {
                 displayName: "Мавританска угија (1973–2017)",
                 "displayName-count-one": "Мавританска угија (1973–2017)",
-                "displayName-count-other": "Мавритански угии (1973–2017)",
-                symbol: "MRO"
+                "displayName-count-other": "Мавритански угии (1973–2017)"
             },
             MRU: {
                 displayName: "Мавританска угија",
                 "displayName-count-one": "Мавританска угија",
-                "displayName-count-other": "Мавритански угии",
-                symbol: "MRU"
+                "displayName-count-other": "Мавритански угии"
             },
             MTL: {
                 displayName: "Малтешка лира",
-                symbol: "MTL"
+                "displayName-count-other": "Малтешка лира"
             },
             MTP: {
                 displayName: "Малтешка фунта",
-                symbol: "MTP"
+                "displayName-count-other": "Малтешка фунта"
             },
             MUR: {
                 displayName: "Мавританска рупија",
                 "displayName-count-one": "Мавританска рупија",
                 "displayName-count-other": "Мавритански рупии",
-                symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
-            },
-            MVP: {
-                displayName: "MVP",
-                symbol: "MVP"
             },
             MVR: {
                 displayName: "Малдивска руфија",
                 "displayName-count-one": "Малдивска руфија",
-                "displayName-count-other": "Малдивски руфии",
-                symbol: "MVR"
+                "displayName-count-other": "Малдивски руфии"
             },
             MWK: {
                 displayName: "Малависка квача",
                 "displayName-count-one": "Малависка квача",
-                "displayName-count-other": "Малависки квачи",
-                symbol: "MWK"
+                "displayName-count-other": "Малависки квачи"
             },
             MXN: {
                 displayName: "Мексикански пезос",
@@ -1045,76 +765,64 @@ const data = {
             },
             MXP: {
                 displayName: "Мексикански сребрен пезос (1861–1992)",
-                symbol: "MXP"
-            },
-            MXV: {
-                displayName: "MXV",
-                symbol: "MXV"
+                "displayName-count-other": "Мексикански сребрен пезос (1861–1992)"
             },
             MYR: {
                 displayName: "Малезиски рингит",
                 "displayName-count-one": "Малезиски рингит",
                 "displayName-count-other": "Малезиски рингити",
-                symbol: "MYR",
                 "symbol-alt-narrow": "RM"
             },
             MZE: {
                 displayName: "Мозамбиско ескудо",
-                symbol: "MZE"
+                "displayName-count-other": "Мозамбиско ескудо"
             },
             MZM: {
                 displayName: "Стар мозамбиски метикал",
-                symbol: "MZM"
+                "displayName-count-other": "Стар мозамбиски метикал"
             },
             MZN: {
                 displayName: "Мозамбиски метикал",
                 "displayName-count-one": "Мозамбиски метикал",
-                "displayName-count-other": "Мозамбиски метикали",
-                symbol: "MZN"
+                "displayName-count-other": "Мозамбиски метикали"
             },
             NAD: {
                 displayName: "Намибиски долар",
                 "displayName-count-one": "Намибиски долар",
                 "displayName-count-other": "Намибиски долари",
-                symbol: "NAD",
                 "symbol-alt-narrow": "$"
             },
             NGN: {
                 displayName: "Нигериска наира",
                 "displayName-count-one": "Нигериска наира",
                 "displayName-count-other": "Нигериски наири",
-                symbol: "NGN",
                 "symbol-alt-narrow": "₦"
             },
             NIC: {
                 displayName: "Никарагванска кордоба (1988–1991)",
                 "displayName-count-one": "Никарагванска кордоба (1988–1991)",
-                "displayName-count-other": "Никарагвански кордоби (1988–1991)",
-                symbol: "NIC"
+                "displayName-count-other": "Никарагвански кордоби (1988–1991)"
             },
             NIO: {
                 displayName: "Никарагванска кордоба",
                 "displayName-count-one": "Никарагванска кордоба",
                 "displayName-count-other": "Никарагвански кордоби",
-                symbol: "NIO",
                 "symbol-alt-narrow": "C$"
             },
             NLG: {
                 displayName: "Холандски гилдер",
-                symbol: "NLG"
+                "displayName-count-other": "Холандски гилдер"
             },
             NOK: {
                 displayName: "Норвешка круна",
                 "displayName-count-one": "Норвешка круна",
                 "displayName-count-other": "Норвешки круни",
-                symbol: "NOK",
                 "symbol-alt-narrow": "kr"
             },
             NPR: {
                 displayName: "Непалска рупија",
                 "displayName-count-one": "Непалска рупија",
                 "displayName-count-other": "Непалски рупии",
-                symbol: "NPR",
                 "symbol-alt-narrow": "Rs"
             },
             NZD: {
@@ -1125,36 +833,28 @@ const data = {
                 "symbol-alt-narrow": "$"
             },
             OMR: {
-                displayName: "Омански риал",
-                "displayName-count-one": "Омански риал",
-                "displayName-count-other": "Омански риали",
-                symbol: "OMR"
+                displayName: "Омански ријал",
+                "displayName-count-one": "Омански ријал",
+                "displayName-count-other": "Омански ријали"
             },
             PAB: {
                 displayName: "Панамска балбоа",
                 "displayName-count-one": "Панамска балбоа",
-                "displayName-count-other": "Панамски балбои",
-                symbol: "PAB"
-            },
-            PEI: {
-                displayName: "PEI",
-                symbol: "PEI"
+                "displayName-count-other": "Панамски балбои"
             },
             PEN: {
                 displayName: "Перуански сол",
                 "displayName-count-one": "Перуански сол",
-                "displayName-count-other": "Перуански соли",
-                symbol: "PEN"
+                "displayName-count-other": "Перуански соли"
             },
             PES: {
                 displayName: "Перуански сол (1863–1965)",
-                symbol: "PES"
+                "displayName-count-other": "Перуански сол (1863–1965)"
             },
             PGK: {
-                displayName: "Папуа новогвинејска кина",
-                "displayName-count-one": "Папуа новогвинејска кина",
-                "displayName-count-other": "Папуа новогвинејска кина",
-                symbol: "PGK"
+                displayName: "Папуанска кина",
+                "displayName-count-one": "Папуанска кина",
+                "displayName-count-other": "Папуански кини"
             },
             PHP: {
                 displayName: "Филипински пезос",
@@ -1167,263 +867,225 @@ const data = {
                 displayName: "Пакистанска рупија",
                 "displayName-count-one": "Пакистанска рупија",
                 "displayName-count-other": "Пакистански рупии",
-                symbol: "PKR",
                 "symbol-alt-narrow": "Rs"
             },
             PLN: {
                 displayName: "Полска злота",
                 "displayName-count-one": "Полска злота",
                 "displayName-count-other": "Полски злоти",
-                symbol: "PLN",
                 "symbol-alt-narrow": "zł"
             },
             PLZ: {
                 displayName: "Полска злота (1950–1995)",
-                symbol: "PLZ"
+                "displayName-count-other": "Полска злота (1950–1995)"
             },
             PTE: {
                 displayName: "Португалско ескудо",
-                symbol: "PTE"
+                "displayName-count-other": "Португалско ескудо"
             },
             PYG: {
                 displayName: "Парагвајска гуарана",
                 "displayName-count-one": "Парагвајска гуарана",
                 "displayName-count-other": "Парагвајски гуарани",
-                symbol: "PYG",
                 "symbol-alt-narrow": "₲"
             },
             QAR: {
-                displayName: "Катарски риал",
-                "displayName-count-one": "Катарски риал",
-                "displayName-count-other": "Катарски риали",
-                symbol: "QAR"
-            },
-            RHD: {
-                displayName: "RHD",
-                symbol: "RHD"
+                displayName: "Катарски ријал",
+                "displayName-count-one": "Катарски ријал",
+                "displayName-count-other": "Катарски ријали"
             },
             ROL: {
                 displayName: "Романска леи (1952–2006)",
-                "displayName-count-one": "Романска леи (1952–2006)",
-                "displayName-count-other": "Романска леи (1952–2006)",
-                symbol: "ROL"
+                "displayName-count-other": "Романска леи (1952–2006)"
             },
             RON: {
                 displayName: "Романски леу",
                 "displayName-count-one": "Романски леу",
                 "displayName-count-other": "Романски леи",
-                symbol: "RON",
                 "symbol-alt-narrow": "lei"
             },
             RSD: {
                 displayName: "Српски динар",
                 "displayName-count-one": "Српски динар",
-                "displayName-count-other": "Српски динари",
-                symbol: "RSD"
+                "displayName-count-other": "Српски динари"
             },
             RUB: {
                 displayName: "Руска рубља",
                 "displayName-count-one": "Руска рубља",
                 "displayName-count-other": "Руски рубљи",
-                symbol: "RUB",
                 "symbol-alt-narrow": "₽"
             },
             RUR: {
                 displayName: "Руска рубља (1991–1998)",
-                symbol: "RUR"
+                "displayName-count-other": "Руска рубља (1991–1998)"
             },
             RWF: {
                 displayName: "Руандски франк",
                 "displayName-count-one": "Руандски франк",
                 "displayName-count-other": "Руандски франци",
-                symbol: "RWF",
                 "symbol-alt-narrow": "RF"
             },
             SAR: {
                 displayName: "Саудиски ријал",
                 "displayName-count-one": "Саудиски ријал",
                 "displayName-count-other": "Саудиски ријали",
-                symbol: "SAR"
+                "symbol-alt-variant": "⃁"
             },
             SBD: {
                 displayName: "Соломонски долар",
                 "displayName-count-one": "Соломонски долар",
                 "displayName-count-other": "Соломонски долари",
-                symbol: "SBD",
                 "symbol-alt-narrow": "$"
             },
             SCR: {
                 displayName: "Сејшелска рупија",
                 "displayName-count-one": "Сејшелска рупија",
-                "displayName-count-other": "Сејшелски рупии",
-                symbol: "SCR"
+                "displayName-count-other": "Сејшелски рупии"
             },
             SDD: {
                 displayName: "Стар судански динар",
-                symbol: "SDD"
+                "displayName-count-other": "Стар судански динар"
             },
             SDG: {
                 displayName: "Суданска фунта",
                 "displayName-count-one": "Суданска фунта",
-                "displayName-count-other": "Судански фунти",
-                symbol: "SDG"
+                "displayName-count-other": "Судански фунти"
             },
             SDP: {
                 displayName: "Стара суданска фунта",
-                symbol: "SDP"
+                "displayName-count-other": "Стара суданска фунта"
             },
             SEK: {
                 displayName: "Шведска круна",
                 "displayName-count-one": "Шведска круна",
                 "displayName-count-other": "Шведски круни",
-                symbol: "SEK",
                 "symbol-alt-narrow": "kr"
             },
             SGD: {
                 displayName: "Сингапурски долар",
                 "displayName-count-one": "Сингапурски долар",
                 "displayName-count-other": "Сингапурски долари",
-                symbol: "SGD",
                 "symbol-alt-narrow": "$"
             },
             SHP: {
                 displayName: "Фунта на Света Елена",
                 "displayName-count-one": "Фунта на Света Елена",
                 "displayName-count-other": "Фунти на Света Елена",
-                symbol: "SHP",
                 "symbol-alt-narrow": "£"
             },
             SIT: {
                 displayName: "Словенечки толар",
-                symbol: "SIT"
+                "displayName-count-other": "Словенечки толар"
             },
             SKK: {
                 displayName: "Словачка круна",
-                symbol: "SKK"
+                "displayName-count-other": "Словачка круна"
             },
             SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
-            },
-            SLL: {
                 displayName: "Сиералеонско леоне",
                 "displayName-count-one": "Сиералеонско леоне",
-                "displayName-count-other": "Сиералеонски леони",
-                symbol: "SLL"
+                "displayName-count-other": "Сиералеонски леони"
+            },
+            SLL: {
+                displayName: "Сиералеонско леоне (1964 – 2022)",
+                "displayName-count-one": "Сиералеонско леоне (1964 – 2022)",
+                "displayName-count-other": "Сиералеонски леони (1964 – 2022)"
             },
             SOS: {
                 displayName: "Сомалијски шилинг",
                 "displayName-count-one": "Сомалијски шилинг",
-                "displayName-count-other": "Сомалијски шилинзи",
-                symbol: "SOS"
+                "displayName-count-other": "Сомалијски шилинзи"
             },
             SRD: {
                 displayName: "Суринамски долар",
                 "displayName-count-one": "Суринамски долар",
                 "displayName-count-other": "Суринамски долари",
-                symbol: "SRD",
                 "symbol-alt-narrow": "$"
             },
             SRG: {
                 displayName: "Суринамски гилдер",
-                symbol: "SRG"
+                "displayName-count-other": "Суринамски гилдер"
             },
             SSP: {
                 displayName: "Јужносуданска фунта",
                 "displayName-count-one": "Јужносуданска фунта",
                 "displayName-count-other": "Јужносудански фунти",
-                symbol: "SSP",
                 "symbol-alt-narrow": "£"
             },
             STD: {
                 displayName: "Добра на Саун Томе и Принсип (1977–2017)",
                 "displayName-count-one": "Добра на Саун Томе и Принсип (1977–2017)",
-                "displayName-count-other": "Добри на Саун Томе и Принсип (1977–2017)",
-                symbol: "STD"
+                "displayName-count-other": "Добри на Саун Томе и Принсип (1977–2017)"
             },
             STN: {
                 displayName: "Добра на Сао Томе и Принсипе",
                 "displayName-count-one": "Добра на Сао Томе и Принсипе",
                 "displayName-count-other": "Добри на Сао Томе и Принсипе",
-                symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },
             SUR: {
                 displayName: "Советска рубља",
-                symbol: "SUR"
+                "displayName-count-other": "Советска рубља"
             },
             SVC: {
                 displayName: "Салвадорски колон",
-                symbol: "SVC"
+                "displayName-count-other": "Салвадорски колон"
             },
             SYP: {
                 displayName: "Сиријска фунта",
                 "displayName-count-one": "Сиријска фунта",
                 "displayName-count-other": "Сиријски фунти",
-                symbol: "SYP",
                 "symbol-alt-narrow": "£"
             },
             SZL: {
                 displayName: "Свазилендски лиланген",
                 "displayName-count-one": "Свазилендски лиланген",
-                "displayName-count-other": "Свазилендски лилангени",
-                symbol: "SZL"
+                "displayName-count-other": "Свазилендски лилангени"
             },
             THB: {
                 displayName: "Таи бат",
-                "displayName-count-one": "Таи бат",
                 "displayName-count-other": "Таи бат",
-                symbol: "THB",
                 "symbol-alt-narrow": "฿"
             },
             TJR: {
                 displayName: "Таџикистанска рубља",
-                symbol: "TJR"
+                "displayName-count-other": "Таџикистанска рубља"
             },
             TJS: {
                 displayName: "Таџикистански сомони",
-                "displayName-count-one": "Таџикистански сомони",
-                "displayName-count-other": "Таџикистански сомони",
-                symbol: "TJS"
+                "displayName-count-other": "Таџикистански сомони"
             },
             TMM: {
                 displayName: "Туркменистански манат",
-                symbol: "TMM"
+                "displayName-count-other": "Туркменистански манат"
             },
             TMT: {
                 displayName: "Туркменист. манат",
                 "displayName-count-one": "Туркменистански манати",
-                "displayName-count-other": "Туркменистански манати",
-                symbol: "TMT"
+                "displayName-count-other": "Туркменистански манати"
             },
             TND: {
                 displayName: "Тунизиски динар",
                 "displayName-count-one": "Тунизиски динар",
-                "displayName-count-other": "Тунизиски динари",
-                symbol: "TND"
+                "displayName-count-other": "Тунизиски динари"
             },
             TOP: {
                 displayName: "Тонганска панга",
-                "displayName-count-one": "Тонганска панга",
                 "displayName-count-other": "Тонганска панга",
-                symbol: "TOP",
                 "symbol-alt-narrow": "T$"
             },
             TPE: {
                 displayName: "Тиморски ескудо",
-                symbol: "TPE"
+                "displayName-count-other": "Тиморски ескудо"
             },
             TRL: {
                 displayName: "Турска лира (1922–2005)",
-                "displayName-count-one": "Турска лира (1922–2005)",
-                "displayName-count-other": "Турска лира (1922–2005)",
-                symbol: "TRL"
+                "displayName-count-other": "Турска лира (1922–2005)"
             },
             TRY: {
                 displayName: "Турска лира",
                 "displayName-count-one": "Турска лира",
                 "displayName-count-other": "Турски лири",
-                symbol: "TRY",
                 "symbol-alt-narrow": "₺",
                 "symbol-alt-variant": "TL"
             },
@@ -1431,7 +1093,6 @@ const data = {
                 displayName: "Долар на Тринидад и Тобаго",
                 "displayName-count-one": "Долар на Тринидад и Тобаго",
                 "displayName-count-other": "Долари на Тринидад и Тобаго",
-                symbol: "TTD",
                 "symbol-alt-narrow": "$"
             },
             TWD: {
@@ -1444,29 +1105,22 @@ const data = {
             TZS: {
                 displayName: "Танзаниски шилинг",
                 "displayName-count-one": "Танзаниски шилинг",
-                "displayName-count-other": "Танзаниски шилинзи",
-                symbol: "TZS"
+                "displayName-count-other": "Танзаниски шилинзи"
             },
             UAH: {
                 displayName: "Украинска хривнија",
                 "displayName-count-one": "Украинска хривнија",
                 "displayName-count-other": "Украински хривнии",
-                symbol: "UAH",
                 "symbol-alt-narrow": "₴"
-            },
-            UAK: {
-                displayName: "UAK",
-                symbol: "UAK"
             },
             UGS: {
                 displayName: "Угандиски шилинг (1966–1987)",
-                symbol: "UGS"
+                "displayName-count-other": "Угандиски шилинг (1966–1987)"
             },
             UGX: {
                 displayName: "Угандиски шилинг",
                 "displayName-count-one": "Угандиски шилинг",
-                "displayName-count-other": "Угандиски шилинзи",
-                symbol: "UGX"
+                "displayName-count-other": "Угандиски шилинзи"
             },
             USD: {
                 displayName: "Американски долар",
@@ -1477,112 +1131,62 @@ const data = {
             },
             USN: {
                 displayName: "САД долар (Next day)",
-                symbol: "USN"
+                "displayName-count-other": "САД долар (Next day)"
             },
             USS: {
                 displayName: "САД долар (Same day)",
-                symbol: "USS"
-            },
-            UYI: {
-                displayName: "UYI",
-                symbol: "UYI"
+                "displayName-count-other": "САД долар (Same day)"
             },
             UYP: {
                 displayName: "Уругвајски пезос (1975–1993)",
-                symbol: "UYP"
+                "displayName-count-other": "Уругвајски пезос (1975–1993)"
             },
             UYU: {
                 displayName: "Уругвајски пезос",
                 "displayName-count-one": "Уругвајски пезос",
                 "displayName-count-other": "Уругвајски пезоси",
-                symbol: "UYU",
                 "symbol-alt-narrow": "$"
-            },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
             },
             UZS: {
                 displayName: "Узбекистански сом",
                 "displayName-count-one": "Узбекистански сом",
-                "displayName-count-other": "Узбекистански соми",
-                symbol: "UZS"
+                "displayName-count-other": "Узбекистански соми"
             },
             VEB: {
                 displayName: "Венецуелски боливар (1871–2008)",
-                "displayName-count-one": "Венецуелски боливар (1871–2008)",
-                "displayName-count-other": "Венецуелски боливар (1871–2008)",
-                symbol: "VEB"
-            },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
+                "displayName-count-other": "Венецуелски боливар (1871–2008)"
             },
             VEF: {
                 displayName: "Венецуелски боливар (2008–2018)",
                 "displayName-count-one": "Венецуелски боливар (2008–2018)",
                 "displayName-count-other": "Венецуелски боливари (2008–2018)",
-                symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
             },
             VES: {
                 displayName: "Венецуелски боливар",
                 "displayName-count-one": "Венецуелски боливар",
-                "displayName-count-other": "Венецуелски боливари",
-                symbol: "VES"
+                "displayName-count-other": "Венецуелски боливари"
             },
             VND: {
                 displayName: "Виетнамски донг",
-                "displayName-count-one": "Виетнамски донг",
                 "displayName-count-other": "Виетнамски донг",
                 symbol: "VND",
                 "symbol-alt-narrow": "₫"
             },
-            VNN: {
-                displayName: "VNN",
-                symbol: "VNN"
-            },
             VUV: {
-                displayName: "Ванатски вату",
-                "displayName-count-one": "Ванатски вату",
-                "displayName-count-other": "Ванатски ватуи",
-                symbol: "VUV"
+                displayName: "Вануатски вату",
+                "displayName-count-one": "Вануатски вату",
+                "displayName-count-other": "Вануатски ватуи"
             },
             WST: {
                 displayName: "Самоанска тала",
-                "displayName-count-one": "Самоанска тала",
-                "displayName-count-other": "Самоанска тала",
-                symbol: "WST"
+                "displayName-count-other": "Самоанска тала"
             },
             XAF: {
                 displayName: "Централноафрикански франк",
                 "displayName-count-one": "Централноафрикански франк",
                 "displayName-count-other": "Централноафрикански франци",
                 symbol: "FCFA"
-            },
-            XAG: {
-                displayName: "XAG",
-                symbol: "XAG"
-            },
-            XAU: {
-                displayName: "XAU",
-                symbol: "XAU"
-            },
-            XBA: {
-                displayName: "XBA",
-                symbol: "XBA"
-            },
-            XBB: {
-                displayName: "XBB",
-                symbol: "XBB"
-            },
-            XBC: {
-                displayName: "XBC",
-                symbol: "XBC"
-            },
-            XBD: {
-                displayName: "XBD",
-                symbol: "XBD"
             },
             XCD: {
                 displayName: "Источнокарипски долар",
@@ -1591,21 +1195,11 @@ const data = {
                 symbol: "EC$",
                 "symbol-alt-narrow": "$"
             },
-            XDR: {
-                displayName: "XDR",
-                symbol: "XDR"
-            },
-            XEU: {
-                displayName: "XEU",
-                symbol: "XEU"
-            },
-            XFO: {
-                displayName: "XFO",
-                symbol: "XFO"
-            },
-            XFU: {
-                displayName: "XFU",
-                symbol: "XFU"
+            XCG: {
+                displayName: "Карипски гулден",
+                "displayName-count-one": "Карипски гулден",
+                "displayName-count-other": "Карипски гулден",
+                symbol: "Cg."
             },
             XOF: {
                 displayName: "Западноафрикански франк",
@@ -1613,162 +1207,129 @@ const data = {
                 "displayName-count-other": "Западноафрикански франци",
                 symbol: "F CFA"
             },
-            XPD: {
-                displayName: "XPD",
-                symbol: "XPD"
-            },
             XPF: {
                 displayName: "ЦФП франк",
                 "displayName-count-one": "ЦФП франк",
                 "displayName-count-other": "ЦФП франци",
                 symbol: "CFPF"
             },
-            XPT: {
-                displayName: "XPT",
-                symbol: "XPT"
-            },
-            XRE: {
-                displayName: "XRE",
-                symbol: "XRE"
-            },
-            XSU: {
-                displayName: "XSU",
-                symbol: "XSU"
-            },
-            XTS: {
-                displayName: "XTS",
-                symbol: "XTS"
-            },
-            XUA: {
-                displayName: "XUA",
-                symbol: "XUA"
-            },
             XXX: {
                 displayName: "Непозната валута",
-                "displayName-count-one": "Непозната валута",
                 "displayName-count-other": "Непозната валута",
                 symbol: "¤"
             },
             YDD: {
                 displayName: "Јеменски динар",
-                symbol: "YDD"
+                "displayName-count-other": "Јеменски динар"
             },
             YER: {
-                displayName: "Јеменски риал",
-                "displayName-count-one": "Јеменски риал",
-                "displayName-count-other": "Јеменски риали",
-                symbol: "YER"
+                displayName: "Јеменски ријал",
+                "displayName-count-one": "Јеменски ријал",
+                "displayName-count-other": "Јеменски ријали"
             },
             YUD: {
                 displayName: "Југословенски динар",
-                symbol: "YUD"
-            },
-            YUM: {
-                displayName: "YUM",
-                symbol: "YUM"
+                "displayName-count-other": "Југословенски динар"
             },
             YUN: {
                 displayName: "Југословенски конвертибилен динар",
-                symbol: "YUN"
-            },
-            YUR: {
-                displayName: "YUR",
-                symbol: "YUR"
+                "displayName-count-other": "Југословенски конвертибилен динар"
             },
             ZAL: {
                 displayName: "Јужно афрички ранд(финансиски)",
-                symbol: "ZAL"
+                "displayName-count-other": "Јужно афрички ранд(финансиски)"
             },
             ZAR: {
                 displayName: "Јужноафрикански ранд",
                 "displayName-count-one": "Јужноафрикански ранд",
                 "displayName-count-other": "Јужноафрикански ранди",
-                symbol: "ZAR",
                 "symbol-alt-narrow": "R"
             },
             ZMK: {
                 displayName: "Замбијска квача (1968–2012)",
-                symbol: "ZMK"
+                "displayName-count-other": "Замбијска квача (1968–2012)"
             },
             ZMW: {
                 displayName: "Замбијска квача",
                 "displayName-count-one": "Замбијска квача",
                 "displayName-count-other": "Замбијски квачи",
-                symbol: "ZMW",
                 "symbol-alt-narrow": "ZK"
             },
             ZRN: {
                 displayName: "Заирско новозаире",
-                symbol: "ZRN"
+                "displayName-count-other": "Заирско новозаире"
             },
             ZRZ: {
                 displayName: "Заирско заире",
-                symbol: "ZRZ"
+                "displayName-count-other": "Заирско заире"
             },
             ZWD: {
                 displayName: "Зимбабвиски долар",
-                symbol: "ZWD"
+                "displayName-count-other": "Зимбабвиски долар"
             },
-            ZWL: {
-                displayName: "ZWL",
-                symbol: "ZWL"
-            },
-            ZWR: {
-                displayName: "ZWR",
-                symbol: "ZWR"
+            ZWG: {
+                displayName: "Зимбабвеско злато",
+                "displayName-count-one": "Зимбабвеско злато",
+                "displayName-count-other": "Зимбабвеско злато"
             }
         },
         localeCurrency: "MKD"
     },
     calendar: {
         patterns: {
-            d: "d.M.y",
-            D: "EEEE, d MMMM y",
+            d: "d.M.y 'г'.",
+            D: "EEEE, d MMMM y 'г'.",
             m: "d MMM",
             M: "d MMMM",
-            y: "MMM y 'г'.",
-            Y: "MMMM y 'г'.",
-            F: "EEEE, d MMMM y HH:mm:ss",
-            g: "d.M.y HH:mm",
-            G: "d.M.y HH:mm:ss",
+            y: "MMM y 'г'.",
+            Y: "MMMM y 'г'.",
+            F: "EEEE, d MMMM y 'г'. HH:mm:ss",
+            g: "d.M.y 'г'. HH:mm",
+            G: "d.M.y 'г'. HH:mm:ss",
             t: "HH:mm",
             T: "HH:mm:ss",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1}, 'во' {0}",
-            long: "{1}, 'во' {0}",
-            medium: "{1}, 'во' {0}",
-            short: "{1}, 'во' {0}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
+            medium: "{1}, {0}",
+            short: "{1}, {0}",
             availableFormats: {
                 Bh: "h B",
                 Bhm: "h:mm B",
                 Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBh: "E h B",
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
-                Ed: "d E",
-                Ehm: "E h:mm a",
+                Ed: "E, d",
+                Eh: "E h a",
+                Ehm: "E h:mm a",
                 EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
-                Gy: "y G",
-                GyMd: "d.M.y GGGGG",
-                GyMMM: "MMM y G",
-                GyMMMd: "d MMM y G",
-                GyMMMEd: "E, d MMM y G",
-                h: "h a",
-                H: "HH",
-                hm: "h:mm a",
+                Gy: "y 'г'. G",
+                GyM: "M.y 'г'. G",
+                GyMd: "d.M.y 'г'. G",
+                GyMEd: "E, d.M.y 'г'. G",
+                GyMMM: "MMM y 'г'. G",
+                GyMMMd: "d MMM y 'г'. G",
+                GyMMMEd: "E, d MMM y 'г'. G",
+                h: "h a",
+                H: "H",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
+                hv: "h a v",
+                Hv: "HH 'ч'. v",
                 M: "L",
                 Md: "d.M",
                 Mdd: "d.M",
@@ -1781,16 +1342,16 @@ const data = {
                 "MMMMW-count-one": "W. 'седмица' 'од' MMMM",
                 "MMMMW-count-other": "W. 'седмица' 'од' MMMM",
                 ms: "mm:ss",
-                y: "y",
-                yM: "M.y",
-                yMd: "d.M.y",
-                yMEd: "E, d.M.y",
-                yMMM: "MMM y 'г'.",
-                yMMMd: "d MMM y 'г'.",
-                yMMMEd: "E, d MMM y 'г'.",
-                yMMMM: "MMMM y 'г'.",
-                yQQQ: "QQQ y 'г'.",
-                yQQQQ: "QQQQ y 'г'.",
+                y: "y 'г'.",
+                yM: "M.y 'г'.",
+                yMd: "d.M.y 'г'.",
+                yMEd: "E, d.M.y 'г'.",
+                yMMM: "MMM y 'г'.",
+                yMMMd: "d MMM y 'г'.",
+                yMMMEd: "E, d MMM y 'г'.",
+                yMMMM: "MMMM y 'г'.",
+                yQQQ: "QQQ y 'г'.",
+                yQQQQ: "QQQQ y 'г'.",
                 "yw-count-one": "w. 'седмица' 'од' Y",
                 "yw-count-other": "w. 'седмица' 'од' Y"
             }
@@ -1802,10 +1363,10 @@ const data = {
             short: "HH:mm"
         },
         dateFormats: {
-            full: "EEEE, d MMMM y",
-            long: "d MMMM y",
-            medium: "d.M.y",
-            short: "d.M.yy"
+            full: "EEEE, d MMMM y 'г'.",
+            long: "d MMMM y 'г'.",
+            medium: "d MMM y 'г'.",
+            short: "d.M.y 'г'."
         },
         days: {
             format: {
@@ -1896,9 +1457,9 @@ const data = {
                     "јун.",
                     "јул.",
                     "авг.",
-                    "септ.",
+                    "сеп.",
                     "окт.",
-                    "ноем.",
+                    "ное.",
                     "дек."
                 ],
                 narrow: [
@@ -1940,9 +1501,9 @@ const data = {
                     "јун.",
                     "јул.",
                     "авг.",
-                    "септ.",
+                    "сеп.",
                     "окт.",
-                    "ноем.",
+                    "ное.",
                     "дек."
                 ],
                 narrow: [
@@ -1978,10 +1539,10 @@ const data = {
         quarters: {
             format: {
                 abbreviated: [
-                    "јан-мар",
-                    "апр-јун",
-                    "јул-сеп",
-                    "окт-дек"
+                    "јан. – мар.",
+                    "апр. – јун.",
+                    "јул. – сеп.",
+                    "окт. – дек."
                 ],
                 narrow: [
                     "1",
@@ -1990,18 +1551,18 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "прво тромесечје",
-                    "второ тромесечје",
-                    "трето тромесечје",
-                    "четврто тромесечје"
+                    "прво тримесечје",
+                    "второ тримесечје",
+                    "трето тримесечје",
+                    "четврто тримесечје"
                 ]
             },
             "stand-alone": {
                 abbreviated: [
-                    "јан-мар",
-                    "апр-јун",
-                    "јул-сеп",
-                    "окт-дек"
+                    "јан. – мар.",
+                    "апр. – јун.",
+                    "јул. – сеп.",
+                    "окт. – дек."
                 ],
                 narrow: [
                     "1",
@@ -2010,10 +1571,10 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "прво тромесечје",
-                    "второ тромесечје",
-                    "трето тромесечје",
-                    "четврто тромесечје"
+                    "прво тримесечје",
+                    "второ тримесечје",
+                    "трето тримесечје",
+                    "четврто тримесечје"
                 ]
             }
         },
@@ -2035,57 +1596,57 @@ const data = {
                     am: "претпл.",
                     noon: "напл.",
                     pm: "попл.",
-                    morning1: "утро",
+                    morning1: "наутро",
                     morning2: "претпл.",
                     afternoon1: "попл.",
-                    evening1: "веч.",
+                    evening1: "навечер",
                     night1: "ноќе"
                 },
                 wide: {
                     midnight: "полноќ",
-                    am: "претпладне",
+                    am: "претпл.",
                     noon: "напладне",
-                    pm: "попладне",
+                    pm: "попл.",
                     morning1: "наутро",
                     morning2: "претпладне",
                     afternoon1: "попладне",
                     evening1: "навечер",
-                    night1: "по полноќ"
+                    night1: "ноќе"
                 }
             },
             "stand-alone": {
                 abbreviated: {
                     midnight: "полноќ",
                     am: "претпл.",
-                    noon: "напладне",
+                    noon: "пладне",
                     pm: "попл.",
-                    morning1: "наутро",
+                    morning1: "утро",
                     morning2: "претпл.",
                     afternoon1: "попл.",
-                    evening1: "навечер",
-                    night1: "по полноќ"
+                    evening1: "вечер",
+                    night1: "ноќ"
                 },
                 narrow: {
                     midnight: "полноќ",
                     am: "претпл.",
                     noon: "пладне",
                     pm: "попл.",
-                    morning1: "наутро",
+                    morning1: "утро",
                     morning2: "претпл.",
                     afternoon1: "попл.",
-                    evening1: "навечер",
-                    night1: "по полноќ"
+                    evening1: "вечер",
+                    night1: "ноќ"
                 },
                 wide: {
-                    midnight: "на полноќ",
-                    am: "претпладне",
-                    noon: "напладне",
-                    pm: "попладне",
-                    morning1: "наутро",
+                    midnight: "полноќ",
+                    am: "претпл.",
+                    noon: "пладне",
+                    pm: "попл.",
+                    morning1: "утро",
                     morning2: "претпладне",
                     afternoon1: "попладне",
-                    evening1: "навечер",
-                    night1: "по полноќ"
+                    evening1: "вечер",
+                    night1: "ноќ"
                 }
             }
         },
@@ -2094,20 +1655,20 @@ const data = {
                 wide: {
                     "0": "пред нашата ера",
                     "1": "од нашата ера",
-                    "0-alt-variant": "пр. н.е.",
+                    "0-alt-variant": "пр. н. е.",
                     "1-alt-variant": "нашата ера"
                 },
                 abbreviated: {
-                    "0": "п.н.е.",
-                    "1": "н.е.",
-                    "0-alt-variant": "п.н.е.",
-                    "1-alt-variant": "н.е."
+                    "0": "пр. н. е.",
+                    "1": "н. е.",
+                    "0-alt-variant": "пр. н. е.",
+                    "1-alt-variant": "н. е."
                 },
                 narrow: {
-                    "0": "п.н.е.",
-                    "1": "н.е.",
-                    "0-alt-variant": "п.н.е.",
-                    "1-alt-variant": "н.е."
+                    "0": "пр. н. е.",
+                    "1": "н. е.",
+                    "0-alt-variant": "пр. н. е.",
+                    "1-alt-variant": "н. е."
                 }
             }
         },
@@ -2125,9 +1686,9 @@ const data = {
                 narrow: "год."
             },
             quarter: {
-                wide: "тромесечје",
-                short: "тромес.",
-                narrow: "тромес."
+                wide: "тримесечје",
+                short: "тримес.",
+                narrow: "тримес."
             },
             month: {
                 wide: "месец",
@@ -2141,8 +1702,8 @@ const data = {
             },
             weekOfMonth: {
                 wide: "седмица од месецот",
-                short: "седмица од месецот",
-                narrow: "седмица од месецот"
+                short: "сед. од мес.",
+                narrow: "сед. од мес."
             },
             day: {
                 wide: "ден",
@@ -2156,8 +1717,8 @@ const data = {
             },
             weekday: {
                 wide: "ден од неделата",
-                short: "ден во неделата",
-                narrow: "ден во неделата"
+                short: "ден од нед.",
+                narrow: "ден од нед."
             },
             weekdayOfMonth: {
                 wide: "ден од месецот",
@@ -2165,9 +1726,9 @@ const data = {
                 narrow: "ден од мес."
             },
             dayperiod: {
-                short: "претпладне/попладне",
+                short: "претпл./попл.",
                 wide: "претпладне/попладне",
-                narrow: "претпладне/попладне"
+                narrow: "претпл./попл."
             },
             hour: {
                 wide: "час",

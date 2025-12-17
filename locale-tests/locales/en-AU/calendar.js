@@ -16,17 +16,17 @@ const data = {
             M: "d MMMM",
             y: "MMM y",
             Y: "MMMM y",
-            F: "EEEE, d MMMM y h:mm:ss a",
-            g: "dd/MM/y h:mm a",
-            G: "dd/MM/y h:mm:ss a",
-            t: "h:mm a",
-            T: "h:mm:ss a",
+            F: "EEEE, d MMMM y h:mm:ss a",
+            g: "dd/MM/y h:mm a",
+            G: "dd/MM/y h:mm:ss a",
+            t: "h:mm a",
+            T: "h:mm:ss a",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} 'at' {0}",
-            long: "{1} 'at' {0}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
@@ -35,28 +35,44 @@ const data = {
                 Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
-                EBhm: "E, h:mm B",
-                EBhms: "E, h:mm:ss B",
+                EBh: "E h B",
+                EBhm: "E h:mm B",
+                EBhms: "E h:mm:ss B",
                 Ed: "E d",
-                Ehm: "E h:mm a",
+                Eh: "E h a",
+                "Eh-alt-ascii": "E h a",
+                Ehm: "E h:mm a",
+                "Ehm-alt-ascii": "E h:mm a",
                 EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E h:mm:ss a",
+                "Ehms-alt-ascii": "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
-                GyMd: "d/M/y GGGGG",
+                GyM: "M/y G",
+                GyMd: "dd/MM/y G",
+                GyMEd: "E, dd/MM/y G",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E, d MMM y G",
-                h: "h a",
+                GyMMMEEEEd: "EEEE d MMM y G",
+                h: "h a",
+                "h-alt-ascii": "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
+                "hm-alt-ascii": "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
+                "hms-alt-ascii": "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
+                "hmsv-alt-ascii": "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
+                "hmv-alt-ascii": "h:mm a v",
                 Hmv: "HH:mm v",
+                hv: "h a v",
+                "hv-alt-ascii": "h a v",
+                Hv: "HH'h' v",
                 M: "L",
                 Md: "d/M",
                 MEd: "E, d/M",
@@ -64,7 +80,9 @@ const data = {
                 MMM: "LLL",
                 MMMd: "d MMM",
                 MMMEd: "E, d MMM",
+                MMMEEEEd: "EEEE d MMM",
                 MMMMd: "d MMMM",
+                MMMMEEEEd: "EEEE d MMMM",
                 "MMMMW-count-one": "'week' W 'of' MMMM",
                 "MMMMW-count-other": "'week' W 'of' MMMM",
                 ms: "mm:ss",
@@ -75,7 +93,9 @@ const data = {
                 yMMM: "MMM y",
                 yMMMd: "d MMM y",
                 yMMMEd: "E, d MMM y",
+                yMMMEEEEd: "EEEE d MMM y",
                 yMMMM: "MMMM y",
+                yMMMMEEEEd: "EEEE d MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
                 "yw-count-one": "'week' w 'of' Y",
@@ -83,10 +103,14 @@ const data = {
             }
         },
         timeFormats: {
-            full: "h:mm:ss a zzzz",
-            long: "h:mm:ss a z",
-            medium: "h:mm:ss a",
-            short: "h:mm a"
+            full: "h:mm:ss a zzzz",
+            "full-alt-ascii": "h:mm:ss a zzzz",
+            long: "h:mm:ss a z",
+            "long-alt-ascii": "h:mm:ss a z",
+            medium: "h:mm:ss a",
+            "medium-alt-ascii": "h:mm:ss a",
+            short: "h:mm a",
+            "short-alt-ascii": "h:mm a"
         },
         dateFormats: {
             full: "EEEE, d MMMM y",
@@ -116,12 +140,12 @@ const data = {
                 ],
                 short: [
                     "Su",
-                    "Mon",
+                    "Mo",
                     "Tu",
-                    "Wed",
+                    "We",
                     "Th",
-                    "Fri",
-                    "Sat"
+                    "Fr",
+                    "Sa"
                 ],
                 wide: [
                     "Sunday",
@@ -144,22 +168,22 @@ const data = {
                     "Sat"
                 ],
                 narrow: [
-                    "Su.",
-                    "M.",
-                    "Tu.",
-                    "W.",
-                    "Th.",
-                    "F.",
-                    "Sa."
+                    "S",
+                    "M",
+                    "T",
+                    "W",
+                    "T",
+                    "F",
+                    "S"
                 ],
                 short: [
                     "Su",
-                    "Mon",
+                    "Mo",
                     "Tu",
-                    "Wed",
+                    "We",
                     "Th",
-                    "Fri",
-                    "Sat"
+                    "Fr",
+                    "Sa"
                 ],
                 wide: [
                     "Sunday",
@@ -227,7 +251,7 @@ const data = {
                     "Jun",
                     "Jul",
                     "Aug",
-                    "Sep",
+                    "Sept",
                     "Oct",
                     "Nov",
                     "Dec"
@@ -313,10 +337,10 @@ const data = {
                     noon: "midday",
                     pm: "pm",
                     "pm-alt-variant": "pm",
-                    morning1: "morning",
-                    afternoon1: "afternoon",
-                    evening1: "evening",
-                    night1: "night"
+                    morning1: "in the morning",
+                    afternoon1: "in the afternoon",
+                    evening1: "in the evening",
+                    night1: "at night"
                 },
                 narrow: {
                     midnight: "midnight",
@@ -325,10 +349,10 @@ const data = {
                     noon: "midday",
                     pm: "pm",
                     "pm-alt-variant": "pm",
-                    morning1: "morning",
-                    afternoon1: "afternoon",
-                    evening1: "evening",
-                    night1: "night"
+                    morning1: "in the morning",
+                    afternoon1: "in the afternoon",
+                    evening1: "in the evening",
+                    night1: "at night"
                 },
                 wide: {
                     midnight: "midnight",
@@ -424,8 +448,8 @@ const data = {
             },
             month: {
                 wide: "month",
-                short: "mo.",
-                narrow: "mo."
+                short: "mo",
+                narrow: "mo"
             },
             week: {
                 wide: "week",
@@ -434,7 +458,7 @@ const data = {
             },
             weekOfMonth: {
                 wide: "week of month",
-                short: "wk of mo.",
+                short: "wk of mo",
                 narrow: "wk of mo"
             },
             day: {
@@ -454,7 +478,7 @@ const data = {
             },
             weekdayOfMonth: {
                 wide: "weekday of the month",
-                short: "wkday of mo.",
+                short: "wkday of mo",
                 narrow: "wkday of mo"
             },
             dayperiod: {
@@ -464,18 +488,18 @@ const data = {
             },
             hour: {
                 wide: "hour",
-                short: "h",
-                narrow: "h"
+                short: "hr",
+                narrow: "hr"
             },
             minute: {
                 wide: "minute",
-                short: "min.",
-                narrow: "min."
+                short: "min",
+                narrow: "min"
             },
             second: {
                 wide: "second",
-                short: "sec.",
-                narrow: "sec."
+                short: "sec",
+                narrow: "sec"
             },
             zone: {
                 wide: "time zone",
