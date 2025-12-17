@@ -25,7 +25,7 @@ jobs:
           export-secrets-to-environment: false
 
       - name: Check out master
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: master
           fetch-depth: 0 # Fetch all branches
@@ -33,6 +33,5 @@ jobs:
 
       - name: Fast-forward master to develop
         run: |
-          # TODO: Remove after first sync with master
-          git checkout origin/develop -- ./tools/release-master
-          ./tools/release-master
+          git merge --ff-only --quiet origin/develop
+          git push origin master
