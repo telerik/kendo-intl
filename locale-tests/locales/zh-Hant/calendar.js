@@ -26,25 +26,29 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} {0}",
-            long: "{1} {0}",
-            medium: "{1} {0}",
-            short: "{1} {0}",
+            full: "{1}{0}",
+            long: "{1}{0}",
+            medium: "{1}{0}",
+            short: "{1}{0}",
             availableFormats: {
                 Bh: "Bh時",
                 Bhm: "Bh:mm",
                 Bhms: "Bh:mm:ss",
                 d: "d日",
                 E: "ccc",
-                EBhm: "E Bh:mm",
-                EBhms: "E Bh:mm:ss",
+                EBh: "EBh時",
+                EBhm: "EBh:mm",
+                EBhms: "EBh:mm:ss",
                 Ed: "d E",
-                Ehm: "E Bh:mm",
+                Eh: "Eah時",
+                Ehm: "EBh:mm",
                 EHm: "E HH:mm",
-                Ehms: "E Bh:mm:ss",
+                Ehms: "EBh:mm:ss",
                 EHms: "E HH:mm:ss",
                 Gy: "Gy年",
+                GyM: "Gy/M",
                 GyMd: "G y/M/d",
+                GyMEd: "Gy/M/d（E）",
                 GyMMM: "Gy年M月",
                 GyMMMd: "Gy年M月d日",
                 GyMMMEd: "Gy年M月d日 E",
@@ -58,13 +62,15 @@ const data = {
                 Hmsv: "HH:mm:ss [v]",
                 hmv: "Bh:mm [v]",
                 Hmv: "HH:mm [v]",
+                hv: "ah v",
+                Hv: "HH'h' v",
                 M: "M月",
                 Md: "M/d",
                 MEd: "M/d（E）",
                 MMdd: "MM/dd",
                 MMM: "LLL",
                 MMMd: "M月d日",
-                MMMEd: "M月d日 E",
+                MMMEd: "M月d日E",
                 MMMMd: "M月d日",
                 "MMMMW-count-other": "MMMM的第W週",
                 ms: "mm:ss",
@@ -76,7 +82,7 @@ const data = {
                 yMM: "y/MM",
                 yMMM: "y年M月",
                 yMMMd: "y年M月d日",
-                yMMMEd: "y年M月d日 E",
+                yMMMEd: "y年M月d日E",
                 yMMMM: "y年M月",
                 yQQQ: "y年QQQ",
                 yQQQQ: "y年QQQQ",
@@ -403,9 +409,9 @@ const data = {
         gmtZeroFormat: "GMT",
         dateFields: {
             era: {
-                wide: "年代",
-                short: "年代",
-                narrow: "年代"
+                wide: "紀元",
+                short: "紀元",
+                narrow: "紀元"
             },
             year: {
                 wide: "年",
@@ -413,9 +419,9 @@ const data = {
                 narrow: "年"
             },
             quarter: {
-                wide: "季",
-                short: "季",
-                narrow: "季"
+                wide: "季度",
+                short: "季度",
+                narrow: "季度"
             },
             month: {
                 wide: "月",
@@ -428,9 +434,9 @@ const data = {
                 narrow: "週"
             },
             weekOfMonth: {
-                wide: "週",
-                short: "週",
-                narrow: "週"
+                wide: "該月第幾週",
+                short: "月週次",
+                narrow: "月週次"
             },
             day: {
                 wide: "日",
@@ -438,34 +444,34 @@ const data = {
                 narrow: "日"
             },
             dayOfYear: {
-                wide: "年天",
-                short: "年天",
-                narrow: "年天"
+                wide: "該年第幾天",
+                short: "該年第幾天",
+                narrow: "該年第幾天"
             },
             weekday: {
-                wide: "週天",
-                short: "週天",
-                narrow: "週天"
+                wide: "星期",
+                short: "星期",
+                narrow: "星期"
             },
             weekdayOfMonth: {
-                wide: "每月平日",
-                short: "每月平日",
-                narrow: "每月平日"
+                wide: "該月第幾週",
+                short: "該月第幾週",
+                narrow: "該月第幾週"
             },
             dayperiod: {
-                short: "上午/下午",
-                wide: "上午/下午",
-                narrow: "上午/下午"
+                short: "時段",
+                wide: "時段",
+                narrow: "時段"
             },
             hour: {
                 wide: "小時",
-                short: "小時",
-                narrow: "小時"
+                short: "時",
+                narrow: "時"
             },
             minute: {
                 wide: "分鐘",
-                short: "分鐘",
-                narrow: "分鐘"
+                short: "分",
+                narrow: "分"
             },
             second: {
                 wide: "秒",

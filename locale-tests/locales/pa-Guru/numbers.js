@@ -33,6 +33,7 @@ const data = {
                 2
             ]
         },
+        rational: {},
         scientific: {
             patterns: [
                 "[nEn]"
@@ -50,13 +51,12 @@ const data = {
         },
         currency: {
             patterns: [
-                "$ n"
+                "$n"
             ],
             groupSize: [
                 3,
                 2
             ],
-            "unitPattern-count-one": "n $",
             "unitPattern-count-other": "n $"
         },
         accounting: {

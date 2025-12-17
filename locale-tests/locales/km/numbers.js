@@ -9,8 +9,8 @@ const data = {
     territory: "KH",
     numbers: {
         symbols: {
-            decimal: ",",
-            group: ".",
+            decimal: ".",
+            group: ",",
             list: ";",
             percentSign: "%",
             plusSign: "+",
@@ -31,6 +31,7 @@ const data = {
                 3
             ]
         },
+        rational: {},
         scientific: {
             patterns: [
                 "nEn"

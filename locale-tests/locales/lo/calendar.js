@@ -10,12 +10,12 @@ const data = {
     calendar: {
         patterns: {
             d: "d/M/y",
-            D: "EEEE ທີ d MMMM G y",
+            D: "EEEE, d MMMM y",
             m: "d MMM",
-            M: "MMMM d",
+            M: "d MMMM",
             y: "MMM y",
             Y: "MMMM y",
-            F: "EEEE ທີ d MMMM G y H:mm:ss",
+            F: "EEEE, d MMMM y H:mm:ss",
             g: "d/M/y H:mm",
             G: "d/M/y H:mm:ss",
             t: "H:mm",
@@ -34,15 +34,19 @@ const data = {
                 Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBh: "E h ໂມງa",
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "E, d",
+                Eh: "E h ໂມງa",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyM: "G M/y",
                 GyMd: "d/M/GGGGG y",
+                GyMEd: "E, G d/M/y",
                 GyMMM: "MMM, G y",
                 GyMMMd: "d MMMM, G y",
                 GyMMMEd: "E d MMMM, G y",
@@ -56,13 +60,15 @@ const data = {
                 Hmsv: "HH:mm:ss v",
                 hmv: "h:mm a v",
                 Hmv: "HH:mm v",
+                hv: "h ໂມງa v",
+                Hv: "HH'h' v",
                 M: "L",
                 Md: "d/M",
                 MEd: "E, d/M",
                 MMM: "LLL",
                 MMMd: "d MMM",
                 MMMEd: "E d MMM",
-                MMMMd: "MMMM d",
+                MMMMd: "d MMMM",
                 "MMMMW-count-other": "ອາທິດທີ່ W ຂອງເດືອນ M",
                 ms: "mm:ss",
                 y: "y",
@@ -85,7 +91,7 @@ const data = {
             short: "H:mm"
         },
         dateFormats: {
-            full: "EEEE ທີ d MMMM G y",
+            full: "EEEE, d MMMM y",
             long: "d MMMM y",
             medium: "d MMM y",
             short: "d/M/y"
@@ -340,14 +346,14 @@ const data = {
                     noon: "ທ່ຽງ",
                     pm: "ຫຼັງທ່ຽງ",
                     morning1: "​ເຊົ້າ",
-                    afternoon1: "ສວຍ",
+                    afternoon1: "ສວາຍ",
                     evening1: "ແລງ",
                     night1: "​ກາງ​ຄືນ"
                 },
                 narrow: {
                     midnight: "ທ່ຽງ​ຄືນ",
                     am: "ກ່ອນທ່ຽງ",
-                    noon: "ຕອນທ່ຽງ",
+                    noon: "ທ່ຽງ",
                     pm: "ຫຼັງທ່ຽງ",
                     morning1: "​ເຊົ້າ",
                     afternoon1: "ສ",
@@ -360,7 +366,7 @@ const data = {
                     noon: "ຕອນທ່ຽງ",
                     pm: "ຫຼັງທ່ຽງ",
                     morning1: "​ເຊົ້າ",
-                    afternoon1: "ສວຍ",
+                    afternoon1: "ສວາຍ",
                     evening1: "ແລງ",
                     night1: "​ກາງ​ຄືນ"
                 }
@@ -377,13 +383,13 @@ const data = {
                 abbreviated: {
                     "0": "ກ່ອນ ຄ.ສ.",
                     "1": "ຄ.ສ.",
-                    "0-alt-variant": "ກ່ອນຍຸກ ຄ.ສ",
+                    "0-alt-variant": "ກ່ອນ ຄ.ສ.",
                     "1-alt-variant": "ຍຸກ ຄ.ສ"
                 },
                 narrow: {
                     "0": "ກ່ອນ ຄ.ສ.",
                     "1": "ຄ.ສ.",
-                    "0-alt-variant": "ກ່ອນຍຸກ ຄ.ສ",
+                    "0-alt-variant": "ກ່ອນ ຄ.ສ.",
                     "1-alt-variant": "ຍຸກ ຄ.ສ"
                 }
             }
@@ -467,7 +473,7 @@ const data = {
                 narrow: "ເຂດເວລາ"
             },
             millisecond: {
-                narrow: "ມລ. ວິ.",
+                narrow: "ມລວ",
                 short: "ມລວ",
                 wide: "ມິນລີວິນາທີ"
             }

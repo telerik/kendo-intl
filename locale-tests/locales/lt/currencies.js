@@ -14,24 +14,21 @@ const data = {
                 "displayName-count-one": "Andoros peseta",
                 "displayName-count-few": "Andoros pesetos",
                 "displayName-count-many": "Andoros pesetos",
-                "displayName-count-other": "Andoros pesetos",
-                symbol: "ADP"
+                "displayName-count-other": "Andoros pesetos"
             },
             AED: {
                 displayName: "Jungtinių Arabų Emyratų dirhamas",
                 "displayName-count-one": "JAE dirhamas",
                 "displayName-count-few": "JAE dirhamai",
                 "displayName-count-many": "JAE dirhamo",
-                "displayName-count-other": "JAE dirhamų",
-                symbol: "AED"
+                "displayName-count-other": "JAE dirhamų"
             },
             AFA: {
                 displayName: "Afganistano afganis (1927–2002)",
                 "displayName-count-one": "Afganistano afganis (1927–2002)",
                 "displayName-count-few": "Afganistano afganiai (1927–2002)",
                 "displayName-count-many": "Afganistano afganio (1927–2002)",
-                "displayName-count-other": "Afganistano afganių (1927–2002)",
-                symbol: "AFA"
+                "displayName-count-other": "Afganistano afganių (1927–2002)"
             },
             AFN: {
                 displayName: "Afganistano afganis",
@@ -39,7 +36,6 @@ const data = {
                 "displayName-count-few": "Afganistano afganiai",
                 "displayName-count-many": "Afganistano afganio",
                 "displayName-count-other": "Afganistano afganių",
-                symbol: "AFN",
                 "symbol-alt-narrow": "؋"
             },
             ALK: {
@@ -47,16 +43,14 @@ const data = {
                 "displayName-count-one": "Albanijos lekas (1946–1965)",
                 "displayName-count-few": "Albanijos lekai (1946–1965)",
                 "displayName-count-many": "Albanijos leko (1946–1965)",
-                "displayName-count-other": "Albanijos lekų (1946–1965)",
-                symbol: "ALK"
+                "displayName-count-other": "Albanijos lekų (1946–1965)"
             },
             ALL: {
                 displayName: "Albanijos lekas",
                 "displayName-count-one": "Albanijos lekas",
                 "displayName-count-few": "Albanijos lekai",
                 "displayName-count-many": "Albanijos leko",
-                "displayName-count-other": "Albanijos lekų",
-                symbol: "ALL"
+                "displayName-count-other": "Albanijos lekų"
             },
             AMD: {
                 displayName: "Armėnijos dramas",
@@ -64,7 +58,6 @@ const data = {
                 "displayName-count-few": "Armėnijos dramai",
                 "displayName-count-many": "Armėnijos dramo",
                 "displayName-count-other": "Armėnijos dramų",
-                symbol: "AMD",
                 "symbol-alt-narrow": "֏"
             },
             ANG: {
@@ -72,8 +65,7 @@ const data = {
                 "displayName-count-one": "Olandijos Antilų guldenas",
                 "displayName-count-few": "Olandijos Antilų guldenai",
                 "displayName-count-many": "Olandijos Antilų guldeno",
-                "displayName-count-other": "Olandijos Antilų guldenų",
-                symbol: "ANG"
+                "displayName-count-other": "Olandijos Antilų guldenų"
             },
             AOA: {
                 displayName: "Angolos kvanza",
@@ -81,7 +73,6 @@ const data = {
                 "displayName-count-few": "Angolos kvanzos",
                 "displayName-count-many": "Angolos kvanzos",
                 "displayName-count-other": "Angolos kvanzų",
-                symbol: "AOA",
                 "symbol-alt-narrow": "Kz"
             },
             AOK: {
@@ -89,56 +80,46 @@ const data = {
                 "displayName-count-one": "Angolos kvanza (1977–1990)",
                 "displayName-count-few": "Angolos kvanzos (1977–1990)",
                 "displayName-count-many": "Angolos kvanzos (1977–1990)",
-                "displayName-count-other": "Angolos kvanzų (1977–1990)",
-                symbol: "AOK"
+                "displayName-count-other": "Angolos kvanzų (1977–1990)"
             },
             AON: {
                 displayName: "Angolos naujoji kvanza (1990–2000)",
                 "displayName-count-one": "Angolos naujoji kvanza (1990–2000)",
                 "displayName-count-few": "Angolos naujosios kvanzos (1990–2000)",
                 "displayName-count-many": "Angolos naujosios kvanzos (1990–2000)",
-                "displayName-count-other": "Angolos naujųjų kvanzų (1990–2000)",
-                symbol: "AON"
+                "displayName-count-other": "Angolos naujųjų kvanzų (1990–2000)"
             },
             AOR: {
                 displayName: "Angolos patikslinta kvanza (1995–1999)",
                 "displayName-count-one": "Angolos patikslinta kvanza (1995–1999)",
                 "displayName-count-few": "Angolos patikslintos kvanzos (1995–1999)",
                 "displayName-count-many": "Angolos patikslintos kvanzos (1995–1999)",
-                "displayName-count-other": "Angolos patikslintų kvanzų (1995–1999)",
-                symbol: "AOR"
+                "displayName-count-other": "Angolos patikslintų kvanzų (1995–1999)"
             },
             ARA: {
                 displayName: "Argentinos australs",
                 "displayName-count-one": "Argentinos austral",
                 "displayName-count-few": "Argentinos australs",
                 "displayName-count-many": "Argentinos australs",
-                "displayName-count-other": "Argentinos australs",
-                symbol: "ARA"
+                "displayName-count-other": "Argentinos australs"
             },
             ARL: {
                 displayName: "Argentinos pesos ley (1970–1983)",
-                "displayName-count-one": "Argentinos pesos ley (1970–1983)",
-                "displayName-count-few": "Argentinos pesos ley (1970–1983)",
-                "displayName-count-many": "Argentinos pesos ley (1970–1983)",
-                "displayName-count-other": "Argentinos pesos ley (1970–1983)",
-                symbol: "ARL"
+                "displayName-count-other": "Argentinos pesos ley (1970–1983)"
             },
             ARM: {
                 displayName: "Argentinos pesai (1881–1970)",
                 "displayName-count-one": "Argentinos pesas (1881–1970)",
                 "displayName-count-few": "Argentinos pesai (1881–1970)",
                 "displayName-count-many": "Argentinos peso (1881–1970)",
-                "displayName-count-other": "Argentinos pesų (1881–1970)",
-                symbol: "ARM"
+                "displayName-count-other": "Argentinos pesų (1881–1970)"
             },
             ARP: {
                 displayName: "Argentinos pesas (1983–1985)",
                 "displayName-count-one": "Argentinos pesas (1983–1985)",
                 "displayName-count-few": "Argentinos pesai (1983–1985)",
                 "displayName-count-many": "Argentinos pesai (1983–1985)",
-                "displayName-count-other": "Argentinos pesai (1983–1985)",
-                symbol: "ARP"
+                "displayName-count-other": "Argentinos pesai (1983–1985)"
             },
             ARS: {
                 displayName: "Argentinos pesas",
@@ -146,7 +127,6 @@ const data = {
                 "displayName-count-few": "Argentinos pesai",
                 "displayName-count-many": "Argentinos peso",
                 "displayName-count-other": "Argentinos pesų",
-                symbol: "ARS",
                 "symbol-alt-narrow": "$"
             },
             ATS: {
@@ -154,8 +134,7 @@ const data = {
                 "displayName-count-one": "Austrijos šilingas",
                 "displayName-count-few": "Austrijos šilingai",
                 "displayName-count-many": "Austrijos šilingo",
-                "displayName-count-other": "Austrijos šilingų",
-                symbol: "ATS"
+                "displayName-count-other": "Austrijos šilingų"
             },
             AUD: {
                 displayName: "Australijos doleris",
@@ -171,16 +150,14 @@ const data = {
                 "displayName-count-one": "Arubos guldenas",
                 "displayName-count-few": "Arubos guldenai",
                 "displayName-count-many": "Arubos guldeno",
-                "displayName-count-other": "Arubos guldenų",
-                symbol: "AWG"
+                "displayName-count-other": "Arubos guldenų"
             },
             AZM: {
                 displayName: "Azerbaidžano manatas (1993–2006)",
                 "displayName-count-one": "Azerbaidžano manatas (1993–2006)",
                 "displayName-count-few": "Azerbaidžano manatai (1993–2006)",
                 "displayName-count-many": "Azerbaidžano manato (1993–2006)",
-                "displayName-count-other": "Azerbaidžano manatų (1993–2006)",
-                symbol: "AZM"
+                "displayName-count-other": "Azerbaidžano manatų (1993–2006)"
             },
             AZN: {
                 displayName: "Azerbaidžano manatas",
@@ -188,7 +165,6 @@ const data = {
                 "displayName-count-few": "Azerbaidžano manatai",
                 "displayName-count-many": "Azerbaidžano manato",
                 "displayName-count-other": "Azerbaidžano manatų",
-                symbol: "AZN",
                 "symbol-alt-narrow": "₼"
             },
             BAD: {
@@ -196,8 +172,7 @@ const data = {
                 "displayName-count-one": "Bosnijos ir Hercegovinos dinaras (1992–1994)",
                 "displayName-count-few": "Bosnijos ir Hercegovinos dinarai (1992–1994)",
                 "displayName-count-many": "Bosnijos ir Hercegovinos dinaro (1992–1994)",
-                "displayName-count-other": "Bosnijos ir Hercegovinos dinarų (1992–1994)",
-                symbol: "BAD"
+                "displayName-count-other": "Bosnijos ir Hercegovinos dinarų (1992–1994)"
             },
             BAM: {
                 displayName: "Bosnijos ir Hercegovinos konvertuojamoji markė",
@@ -205,7 +180,6 @@ const data = {
                 "displayName-count-few": "Bosnijos ir Hercegovinos konvertuojamosios markės",
                 "displayName-count-many": "Bosnijos ir Hercegovinos konvertuojamosios markės",
                 "displayName-count-other": "Bosnijos ir Hercegovinos konvertuojamųjų markių",
-                symbol: "BAM",
                 "symbol-alt-narrow": "KM"
             },
             BAN: {
@@ -213,8 +187,7 @@ const data = {
                 "displayName-count-one": "Bosnijos ir Hercegovinos naujasis dinaras (1994–1997)",
                 "displayName-count-few": "Bosnijos ir Hercegovinos naujieji dinarai (1994–1997)",
                 "displayName-count-many": "Bosnijos ir Hercegovinos naujojo dinaro (1994–1997)",
-                "displayName-count-other": "Bosnijos ir Hercegovinos naujųjų dinarų (1994–1997)",
-                symbol: "BAN"
+                "displayName-count-other": "Bosnijos ir Hercegovinos naujųjų dinarų (1994–1997)"
             },
             BBD: {
                 displayName: "Barbadoso doleris",
@@ -222,7 +195,6 @@ const data = {
                 "displayName-count-few": "Barbadoso doleriai",
                 "displayName-count-many": "Barbadoso dolerio",
                 "displayName-count-other": "Barbadoso dolerių",
-                symbol: "BBD",
                 "symbol-alt-narrow": "$"
             },
             BDT: {
@@ -231,7 +203,6 @@ const data = {
                 "displayName-count-few": "Bangladešo takos",
                 "displayName-count-many": "Bangladešo takos",
                 "displayName-count-other": "Bangladešo takų",
-                symbol: "BDT",
                 "symbol-alt-narrow": "BDT"
             },
             BEC: {
@@ -239,72 +210,63 @@ const data = {
                 "displayName-count-one": "Belgijos frankas (konvertuojamas)",
                 "displayName-count-few": "Belgijos frankai (konvertuojami)",
                 "displayName-count-many": "Belgijos franko (konvertuojamo)",
-                "displayName-count-other": "Belgijos frankų (konvertuojamų)",
-                symbol: "BEC"
+                "displayName-count-other": "Belgijos frankų (konvertuojamų)"
             },
             BEF: {
                 displayName: "Belgijos frankas",
                 "displayName-count-one": "Belgijos frankas",
                 "displayName-count-few": "Belgijos frankai",
                 "displayName-count-many": "Belgijos franko",
-                "displayName-count-other": "Belgijos frankų",
-                symbol: "BEF"
+                "displayName-count-other": "Belgijos frankų"
             },
             BEL: {
                 displayName: "Belgijos frankas (finansinis)",
                 "displayName-count-one": "Belgijos frankas (finansinis)",
                 "displayName-count-few": "Belgijos frankai (finansiniai)",
                 "displayName-count-many": "Belgijos franko (finansinio)",
-                "displayName-count-other": "Belgijos frankų (finansinių)",
-                symbol: "BEL"
+                "displayName-count-other": "Belgijos frankų (finansinių)"
             },
             BGL: {
                 displayName: "Bulgarijos levas (1962–1999)",
                 "displayName-count-one": "Bulgarijos levas (1962–1999)",
                 "displayName-count-few": "Bulgarijos levai (1962–1999)",
                 "displayName-count-many": "Bulgarijos levo (1962–1999)",
-                "displayName-count-other": "Bulgarijos levų (1962–1999)",
-                symbol: "BGL"
+                "displayName-count-other": "Bulgarijos levų (1962–1999)"
             },
             BGM: {
                 displayName: "Bulgarų socialistų leva",
                 "displayName-count-one": "Bulgarų socialistų lev",
                 "displayName-count-few": "Bulgarų socialistų leva",
                 "displayName-count-many": "Bulgarų socialistų leva",
-                "displayName-count-other": "Bulgarų socialistų leva",
-                symbol: "BGM"
+                "displayName-count-other": "Bulgarų socialistų leva"
             },
             BGN: {
                 displayName: "Bulgarijos levas",
                 "displayName-count-one": "Bulgarijos levas",
                 "displayName-count-few": "Bulgarijos levai",
                 "displayName-count-many": "Bulgarijos levo",
-                "displayName-count-other": "Bulgarijos levų",
-                symbol: "BGN"
+                "displayName-count-other": "Bulgarijos levų"
             },
             BGO: {
                 displayName: "Bulgarijos levas (1879–1952)",
                 "displayName-count-one": "Bulgarijos levas (1879–1952)",
                 "displayName-count-few": "Bulgarijos levai (1879–1952)",
                 "displayName-count-many": "Bulgarijos levo (1879–1952)",
-                "displayName-count-other": "Bulgarijos levų (1879–1952)",
-                symbol: "BGO"
+                "displayName-count-other": "Bulgarijos levų (1879–1952)"
             },
             BHD: {
                 displayName: "Bahreino dinaras",
                 "displayName-count-one": "Bahreino dinaras",
                 "displayName-count-few": "Bahreino dinarai",
                 "displayName-count-many": "Bahreino dinaro",
-                "displayName-count-other": "Bahreino dinarų",
-                symbol: "BHD"
+                "displayName-count-other": "Bahreino dinarų"
             },
             BIF: {
                 displayName: "Burundžio frankas",
                 "displayName-count-one": "Burundžio frankas",
                 "displayName-count-few": "Burundžio frankai",
                 "displayName-count-many": "Burundžio franko",
-                "displayName-count-other": "Burundžio frankų",
-                symbol: "BIF"
+                "displayName-count-other": "Burundžio frankų"
             },
             BMD: {
                 displayName: "Bermudos doleris",
@@ -312,7 +274,6 @@ const data = {
                 "displayName-count-few": "Bermudos doleriai",
                 "displayName-count-many": "Bermudos dolerio",
                 "displayName-count-other": "Bermudos dolerių",
-                symbol: "BMD",
                 "symbol-alt-narrow": "$"
             },
             BND: {
@@ -321,7 +282,6 @@ const data = {
                 "displayName-count-few": "Brunėjaus doleriai",
                 "displayName-count-many": "Brunėjaus dolerio",
                 "displayName-count-other": "Brunėjaus dolerių",
-                symbol: "BND",
                 "symbol-alt-narrow": "$"
             },
             BOB: {
@@ -330,7 +290,6 @@ const data = {
                 "displayName-count-few": "Bolivijos bolivijanai",
                 "displayName-count-many": "Bolivijos bolivijano",
                 "displayName-count-other": "Bolivijos bolivijanų",
-                symbol: "BOB",
                 "symbol-alt-narrow": "Bs"
             },
             BOL: {
@@ -338,48 +297,42 @@ const data = {
                 "displayName-count-one": "Bolivijos bolivijanas (1863–1963)",
                 "displayName-count-few": "Bolivijos bolivijanai (1863–1963)",
                 "displayName-count-many": "Bolivijos bolivijano (1863–1963)",
-                "displayName-count-other": "Bolivijos bolivijanų (1863–1963)",
-                symbol: "BOL"
+                "displayName-count-other": "Bolivijos bolivijanų (1863–1963)"
             },
             BOP: {
                 displayName: "Bolivijos pesas",
                 "displayName-count-one": "Bolivijos pesas",
                 "displayName-count-few": "Bolivijos pesai",
                 "displayName-count-many": "Bolivijos peso",
-                "displayName-count-other": "Bolivijos pesų",
-                symbol: "BOP"
+                "displayName-count-other": "Bolivijos pesų"
             },
             BOV: {
                 displayName: "Bolivijos mvdol",
                 "displayName-count-one": "Bolivijos mvdol",
                 "displayName-count-few": "Boliviečių mvdols",
                 "displayName-count-many": "Bolivijos mvdol",
-                "displayName-count-other": "Bolivijos mvdol",
-                symbol: "BOV"
+                "displayName-count-other": "Bolivijos mvdol"
             },
             BRB: {
                 displayName: "Brazilijos naujieji kruzeirai (1967–1986)",
                 "displayName-count-one": "Brazilijos naujasis kruzeiras (1967–1986)",
                 "displayName-count-few": "Brazilijos naujieji kruzeirai (1967–1986)",
                 "displayName-count-many": "Brazilijos naujasis kruzeiro (1967–1986)",
-                "displayName-count-other": "Brazilijos naujųjų kruzeirų (1967–1986)",
-                symbol: "BRB"
+                "displayName-count-other": "Brazilijos naujųjų kruzeirų (1967–1986)"
             },
             BRC: {
                 displayName: "Brazilijos kruzadai (1986–1989)",
                 "displayName-count-one": "Brazilijos kruzadas (1986–1989)",
                 "displayName-count-few": "Brazilijos kruzadai (1986–1989)",
                 "displayName-count-many": "Brazilijos kruzado (1986–1989)",
-                "displayName-count-other": "Brazilijos kruzadų (1986–1989)",
-                symbol: "BRC"
+                "displayName-count-other": "Brazilijos kruzadų (1986–1989)"
             },
             BRE: {
                 displayName: "Brazilijos kruzeiras (1990–1993)",
                 "displayName-count-one": "Brazilijos kruzeiras (1990–1993)",
                 "displayName-count-few": "Brazilijos kruzeirai (1990–1993)",
                 "displayName-count-many": "Brazilijos kruzeirai (1990–1993)",
-                "displayName-count-other": "Brazilijos kruzeirai (1990–1993)",
-                symbol: "BRE"
+                "displayName-count-other": "Brazilijos kruzeirai (1990–1993)"
             },
             BRL: {
                 displayName: "Brazilijos realas",
@@ -395,24 +348,21 @@ const data = {
                 "displayName-count-one": "Brazilijos naujasis kruzadas (1989–1990)",
                 "displayName-count-few": "Brazilijos naujieji kruzadai (1989–1990)",
                 "displayName-count-many": "Brazilijos naujojo kruzado (1989–1990)",
-                "displayName-count-other": "Brazilijos naujųjų kruzadų (1989–1990)",
-                symbol: "BRN"
+                "displayName-count-other": "Brazilijos naujųjų kruzadų (1989–1990)"
             },
             BRR: {
                 displayName: "Brazilijos kruzeiras (1993–1994)",
                 "displayName-count-one": "Brazilijos kruzeiras (1993–1994)",
                 "displayName-count-few": "Brazilijos kruzeirai (1993–1994)",
                 "displayName-count-many": "Brazilijos kruzeiro (1993–1994)",
-                "displayName-count-other": "Brazilijos kruzeirų (1993–1994)",
-                symbol: "BRR"
+                "displayName-count-other": "Brazilijos kruzeirų (1993–1994)"
             },
             BRZ: {
                 displayName: "Brazilijos kruzeirai (1942–1967)",
                 "displayName-count-one": "Brazilijos kruzeiras (1942–1967)",
                 "displayName-count-few": "Brazilijos kruzeirai (1942–1967)",
                 "displayName-count-many": "Brazilijos kruzeiro (1942–1967)",
-                "displayName-count-other": "Brazilijos kruzeirų (1942–1967)",
-                symbol: "BRZ"
+                "displayName-count-other": "Brazilijos kruzeirų (1942–1967)"
             },
             BSD: {
                 displayName: "Bahamų doleris",
@@ -420,7 +370,6 @@ const data = {
                 "displayName-count-few": "Bahamų doleriai",
                 "displayName-count-many": "Bahamų dolerio",
                 "displayName-count-other": "Bahamų dolerių",
-                symbol: "BSD",
                 "symbol-alt-narrow": "$"
             },
             BTN: {
@@ -428,16 +377,14 @@ const data = {
                 "displayName-count-one": "Butano ngultrumas",
                 "displayName-count-few": "Butano ngultrumai",
                 "displayName-count-many": "Butano ngultrumo",
-                "displayName-count-other": "Butano ngultrumų",
-                symbol: "BTN"
+                "displayName-count-other": "Butano ngultrumų"
             },
             BUK: {
                 displayName: "Birmos kijatas",
                 "displayName-count-one": "Birmos kijatas",
                 "displayName-count-few": "Birmos kijatai",
                 "displayName-count-many": "Birmos kijato",
-                "displayName-count-other": "Birmos kijatų",
-                symbol: "BUK"
+                "displayName-count-other": "Birmos kijatų"
             },
             BWP: {
                 displayName: "Botsvanos pula",
@@ -445,7 +392,6 @@ const data = {
                 "displayName-count-few": "Botsvanos pulos",
                 "displayName-count-many": "Botsvanos pulos",
                 "displayName-count-other": "Botsvanos pulų",
-                symbol: "BWP",
                 "symbol-alt-narrow": "P"
             },
             BYB: {
@@ -453,8 +399,7 @@ const data = {
                 "displayName-count-one": "Baltarusijos naujasis rublis (1994–1999)",
                 "displayName-count-few": "Baltarusijos naujieji rubliai (1994–1999)",
                 "displayName-count-many": "Baltarusijos naujojo rublio (1994–1999)",
-                "displayName-count-other": "Baltarusijos naujųjų rublių",
-                symbol: "BYB"
+                "displayName-count-other": "Baltarusijos naujųjų rublių"
             },
             BYN: {
                 displayName: "Baltarusijos rublis",
@@ -462,7 +407,6 @@ const data = {
                 "displayName-count-few": "Baltarusijos rubliai",
                 "displayName-count-many": "Baltarusijos rublio",
                 "displayName-count-other": "Baltarusijos rublių",
-                symbol: "BYN",
                 "symbol-alt-narrow": "Br"
             },
             BYR: {
@@ -470,8 +414,7 @@ const data = {
                 "displayName-count-one": "Baltarusijos rublis (2000–2016)",
                 "displayName-count-few": "Baltarusijos rubliai (2000–2016)",
                 "displayName-count-many": "Baltarusijos rublio (2000–2016)",
-                "displayName-count-other": "Baltarusijos rublių (2000–2016)",
-                symbol: "BYR"
+                "displayName-count-other": "Baltarusijos rublių (2000–2016)"
             },
             BZD: {
                 displayName: "Belizo doleris",
@@ -479,7 +422,6 @@ const data = {
                 "displayName-count-few": "Belizo doleriai",
                 "displayName-count-many": "Belizo dolerio",
                 "displayName-count-other": "Belizo dolerių",
-                symbol: "BZD",
                 "symbol-alt-narrow": "$"
             },
             CAD: {
@@ -496,48 +438,39 @@ const data = {
                 "displayName-count-one": "Kongo frankas",
                 "displayName-count-few": "Kongo frankai",
                 "displayName-count-many": "Kongo franko",
-                "displayName-count-other": "Kongo frankų",
-                symbol: "CDF"
+                "displayName-count-other": "Kongo frankų"
             },
             CHE: {
                 displayName: "WIR eurai",
                 "displayName-count-one": "WIR euras",
                 "displayName-count-few": "WIR eurai",
                 "displayName-count-many": "WIR euro",
-                "displayName-count-other": "WIR eurų",
-                symbol: "CHE"
+                "displayName-count-other": "WIR eurų"
             },
             CHF: {
                 displayName: "Šveicarijos frankas",
                 "displayName-count-one": "Šveicarijos frankas",
                 "displayName-count-few": "Šveicarijos frankai",
                 "displayName-count-many": "Šveicarijos franko",
-                "displayName-count-other": "Šveicarijos frankų",
-                symbol: "CHF"
+                "displayName-count-other": "Šveicarijos frankų"
             },
             CHW: {
                 displayName: "WIR frankas",
                 "displayName-count-one": "WIR frankas",
                 "displayName-count-few": "WIR frankai",
                 "displayName-count-many": "WIR franko",
-                "displayName-count-other": "WIR frankų",
-                symbol: "CHW"
+                "displayName-count-other": "WIR frankų"
             },
             CLE: {
                 displayName: "Čilės eskudai",
                 "displayName-count-one": "Čilės eskudas",
                 "displayName-count-few": "Čilės eskudai",
                 "displayName-count-many": "Čilės eskudo",
-                "displayName-count-other": "Čilės eskudų",
-                symbol: "CLE"
+                "displayName-count-other": "Čilės eskudų"
             },
             CLF: {
                 displayName: "Čiliečių unidades de fomentos",
-                "displayName-count-one": "Čiliečių unidades de fomentos",
-                "displayName-count-few": "Čiliečių unidades de fomentos",
-                "displayName-count-many": "Čiliečių unidades de fomentos",
-                "displayName-count-other": "Čiliečių unidades de fomentos",
-                symbol: "CLF"
+                "displayName-count-other": "Čiliečių unidades de fomentos"
             },
             CLP: {
                 displayName: "Čilės pesas",
@@ -545,7 +478,6 @@ const data = {
                 "displayName-count-few": "Čilės pesai",
                 "displayName-count-many": "Čilės peso",
                 "displayName-count-other": "Čilės pesų",
-                symbol: "CLP",
                 "symbol-alt-narrow": "$"
             },
             CNH: {
@@ -553,16 +485,14 @@ const data = {
                 "displayName-count-one": "Kinijos Užsienio juanis",
                 "displayName-count-few": "Kinijos Užsienio juaniai",
                 "displayName-count-many": "Kinijos Užsienio juanio",
-                "displayName-count-other": "Kinijos Užsienio juanių",
-                symbol: "CNH"
+                "displayName-count-other": "Kinijos Užsienio juanių"
             },
             CNX: {
-                displayName: "Kinijos \\\"People\\\" banko doleris",
-                "displayName-count-one": "Kinijos \\\"People\\\" banko doleris",
-                "displayName-count-few": "Kinijos \\\"People\\\" banko doleriai",
-                "displayName-count-many": "Kinijos \\\"People\\\" banko dolerio",
-                "displayName-count-other": "Kinijos \\\"People\\\" banko dolerių",
-                symbol: "CNX"
+                displayName: "Kinijos \"People\" banko doleris",
+                "displayName-count-one": "Kinijos \"People\" banko doleris",
+                "displayName-count-few": "Kinijos \"People\" banko doleriai",
+                "displayName-count-many": "Kinijos \"People\" banko dolerio",
+                "displayName-count-other": "Kinijos \"People\" banko dolerių"
             },
             CNY: {
                 displayName: "Kinijos ženminbi juanis",
@@ -579,7 +509,6 @@ const data = {
                 "displayName-count-few": "Kolumbijos pesai",
                 "displayName-count-many": "Kolumbijos peso",
                 "displayName-count-other": "Kolumbijos pesų",
-                symbol: "COP",
                 "symbol-alt-narrow": "$"
             },
             COU: {
@@ -587,8 +516,7 @@ const data = {
                 "displayName-count-one": "unidad de valor realas",
                 "displayName-count-few": "unidad de valor realai",
                 "displayName-count-many": "unidad de valor realai",
-                "displayName-count-other": "unidad de valor realai",
-                symbol: "COU"
+                "displayName-count-other": "unidad de valor realai"
             },
             CRC: {
                 displayName: "Kosta Rikos kolonas",
@@ -596,7 +524,6 @@ const data = {
                 "displayName-count-few": "Kosta Rikos kolonai",
                 "displayName-count-many": "Kosta Rikos kolono",
                 "displayName-count-other": "Kosta Rikos kolonų",
-                symbol: "CRC",
                 "symbol-alt-narrow": "₡"
             },
             CSD: {
@@ -604,16 +531,14 @@ const data = {
                 "displayName-count-one": "Serbijos dinaras (2002–2006)",
                 "displayName-count-few": "Serbijos dinarai (2002–2006)",
                 "displayName-count-many": "Serbijos dinaro (2002–2006)",
-                "displayName-count-other": "Serbijos dinarų (2002–2006)",
-                symbol: "CSD"
+                "displayName-count-other": "Serbijos dinarų (2002–2006)"
             },
             CSK: {
                 displayName: "Čekoslovakų sunkusis korunas",
                 "displayName-count-one": "Čekoslovakų sunkusis korunas",
                 "displayName-count-few": "Čekoslovakų sunkieji korunai",
                 "displayName-count-many": "Čekoslovakų sunkiejio koruno",
-                "displayName-count-other": "Čekoslovakų sunkiejių korunų",
-                symbol: "CSK"
+                "displayName-count-other": "Čekoslovakų sunkiejių korunų"
             },
             CUC: {
                 displayName: "Kubos konvertuojamasis pesas",
@@ -621,7 +546,6 @@ const data = {
                 "displayName-count-few": "Kubos konvertuojamieji pesai",
                 "displayName-count-many": "Kubos konvertuojamojo peso",
                 "displayName-count-other": "Kubos konvertuojamųjų pesų",
-                symbol: "CUC",
                 "symbol-alt-narrow": "$"
             },
             CUP: {
@@ -630,7 +554,6 @@ const data = {
                 "displayName-count-few": "Kubos pesai",
                 "displayName-count-many": "Kubos peso",
                 "displayName-count-other": "Kubos pesų",
-                symbol: "CUP",
                 "symbol-alt-narrow": "$"
             },
             CVE: {
@@ -638,16 +561,14 @@ const data = {
                 "displayName-count-one": "Žaliojo Kyšulio eskudas",
                 "displayName-count-few": "Žaliojo Kyšulio eskudai",
                 "displayName-count-many": "Žaliojo Kyšulio eskudo",
-                "displayName-count-other": "Žaliojo Kyšulio eskudų",
-                symbol: "CVE"
+                "displayName-count-other": "Žaliojo Kyšulio eskudų"
             },
             CYP: {
                 displayName: "Kipro svaras",
                 "displayName-count-one": "Kipro svaras",
                 "displayName-count-few": "Kipro svarai",
                 "displayName-count-many": "Kipro svaro",
-                "displayName-count-other": "Kipro svarų",
-                symbol: "CYP"
+                "displayName-count-other": "Kipro svarų"
             },
             CZK: {
                 displayName: "Čekijos krona",
@@ -655,7 +576,6 @@ const data = {
                 "displayName-count-few": "Čekijos kronos",
                 "displayName-count-many": "Čekijos kronos",
                 "displayName-count-other": "Čekijos kronų",
-                symbol: "CZK",
                 "symbol-alt-narrow": "Kč"
             },
             DDM: {
@@ -663,24 +583,21 @@ const data = {
                 "displayName-count-one": "Rytų Vokietijos markė",
                 "displayName-count-few": "Rytų Vokietijos markės",
                 "displayName-count-many": "Rytų Vokietijos markės",
-                "displayName-count-other": "Rytų Vokietijos markės",
-                symbol: "DDM"
+                "displayName-count-other": "Rytų Vokietijos markės"
             },
             DEM: {
                 displayName: "Vokietijos markė",
                 "displayName-count-one": "Vokietijos markė",
                 "displayName-count-few": "Vokietijos markės",
                 "displayName-count-many": "Vokietijos markės",
-                "displayName-count-other": "Vokietijos markės",
-                symbol: "DEM"
+                "displayName-count-other": "Vokietijos markės"
             },
             DJF: {
                 displayName: "Džibučio frankas",
                 "displayName-count-one": "Džibučio frankas",
                 "displayName-count-few": "Džibučio frankai",
                 "displayName-count-many": "Džibučio franko",
-                "displayName-count-other": "Džibučio frankų",
-                symbol: "DJF"
+                "displayName-count-other": "Džibučio frankų"
             },
             DKK: {
                 displayName: "Danijos krona",
@@ -688,7 +605,6 @@ const data = {
                 "displayName-count-few": "Danijos kronos",
                 "displayName-count-many": "Danijos kronos",
                 "displayName-count-other": "Danijos kronų",
-                symbol: "DKK",
                 "symbol-alt-narrow": "kr"
             },
             DOP: {
@@ -697,7 +613,6 @@ const data = {
                 "displayName-count-few": "Dominikos pesai",
                 "displayName-count-many": "Dominikos peso",
                 "displayName-count-other": "Dominikos pesų",
-                symbol: "DOP",
                 "symbol-alt-narrow": "$"
             },
             DZD: {
@@ -705,32 +620,28 @@ const data = {
                 "displayName-count-one": "Alžyro dinaras",
                 "displayName-count-few": "Alžyro dinarai",
                 "displayName-count-many": "Alžyro dinaro",
-                "displayName-count-other": "Alžyro dinarų",
-                symbol: "DZD"
+                "displayName-count-other": "Alžyro dinarų"
             },
             ECS: {
                 displayName: "Ekvadoro sukrė",
                 "displayName-count-one": "Ekvadoro sucre",
                 "displayName-count-few": "Ekvadoro sucres",
                 "displayName-count-many": "Ekvadoro sucres",
-                "displayName-count-other": "Ekvadoro sucres",
-                symbol: "ECS"
+                "displayName-count-other": "Ekvadoro sucres"
             },
             ECV: {
                 displayName: "Ekvadoro constante (UVC)",
                 "displayName-count-one": "Ekvadoro unidads de narsa Constante (UVC)",
                 "displayName-count-few": "Ekvadoro unidads de narsa Constante (UVC)",
                 "displayName-count-many": "Ekvadoro unidads de narsa Constante (UVC)",
-                "displayName-count-other": "Ekvadoro unidads de narsa Constante (UVC)",
-                symbol: "ECV"
+                "displayName-count-other": "Ekvadoro unidads de narsa Constante (UVC)"
             },
             EEK: {
                 displayName: "Estijos krona",
                 "displayName-count-one": "Estijos krona",
                 "displayName-count-few": "Estijos kronos",
                 "displayName-count-many": "Estijos kronos",
-                "displayName-count-other": "Estijos kronų",
-                symbol: "EEK"
+                "displayName-count-other": "Estijos kronų"
             },
             EGP: {
                 displayName: "Egipto svaras",
@@ -738,7 +649,6 @@ const data = {
                 "displayName-count-few": "Egipto svarai",
                 "displayName-count-many": "Egipto svaro",
                 "displayName-count-other": "Egipto svarų",
-                symbol: "EGP",
                 "symbol-alt-narrow": "E£"
             },
             ERN: {
@@ -746,24 +656,21 @@ const data = {
                 "displayName-count-one": "Eritrėjos nakfa",
                 "displayName-count-few": "Eritrėjos nakfos",
                 "displayName-count-many": "Eritrėjos nakfos",
-                "displayName-count-other": "Eritrėjos nakfų",
-                symbol: "ERN"
+                "displayName-count-other": "Eritrėjos nakfų"
             },
             ESA: {
                 displayName: "Ispanų pesetai (A sąskaita)",
                 "displayName-count-one": "Ispanų pesetas (A sąskaita)",
                 "displayName-count-few": "Ispanų pesetai (A sąskaita)",
                 "displayName-count-many": "Ispanų pesetai (A sąskaita)",
-                "displayName-count-other": "Ispanų pesetai (A sąskaita)",
-                symbol: "ESA"
+                "displayName-count-other": "Ispanų pesetai (A sąskaita)"
             },
             ESB: {
                 displayName: "Ispanų pesetai (konvertuojama sąskaita)",
                 "displayName-count-one": "Ispanų pesetas (konvertuojama sąskaita)",
                 "displayName-count-few": "Ispanų pesetai (konvertuojama sąskaita)",
                 "displayName-count-many": "Ispanų pesetai (konvertuojama sąskaita)",
-                "displayName-count-other": "Ispanų pesetai (konvertuojama sąskaita)",
-                symbol: "ESB"
+                "displayName-count-other": "Ispanų pesetai (konvertuojama sąskaita)"
             },
             ESP: {
                 displayName: "Ispanijos peseta",
@@ -771,7 +678,6 @@ const data = {
                 "displayName-count-few": "Ispanų pesetai",
                 "displayName-count-many": "Ispanų pesetai",
                 "displayName-count-other": "Ispanų pesetai",
-                symbol: "ESP",
                 "symbol-alt-narrow": "₧"
             },
             ETB: {
@@ -779,8 +685,7 @@ const data = {
                 "displayName-count-one": "Etiopijos biras",
                 "displayName-count-few": "Etiopijos birai",
                 "displayName-count-many": "Etiopijos biro",
-                "displayName-count-other": "Etiopijos birų",
-                symbol: "ETB"
+                "displayName-count-other": "Etiopijos birų"
             },
             EUR: {
                 displayName: "Euras",
@@ -796,8 +701,7 @@ const data = {
                 "displayName-count-one": "Suomijos markė",
                 "displayName-count-few": "Suomijos markės",
                 "displayName-count-many": "Suomijos markės",
-                "displayName-count-other": "Suomijos markės",
-                symbol: "FIM"
+                "displayName-count-other": "Suomijos markės"
             },
             FJD: {
                 displayName: "Fidžio doleris",
@@ -805,7 +709,6 @@ const data = {
                 "displayName-count-few": "Fidžio doleriai",
                 "displayName-count-many": "Fidžio dolerio",
                 "displayName-count-other": "Fidžio dolerių",
-                symbol: "FJD",
                 "symbol-alt-narrow": "$"
             },
             FKP: {
@@ -814,7 +717,6 @@ const data = {
                 "displayName-count-few": "Falklando salų svarai",
                 "displayName-count-many": "Falklando salų svaro",
                 "displayName-count-other": "Falklando salų svarų",
-                symbol: "FKP",
                 "symbol-alt-narrow": "£"
             },
             FRF: {
@@ -822,8 +724,7 @@ const data = {
                 "displayName-count-one": "Prancūzijos frankas",
                 "displayName-count-few": "Prancūzijos frankai",
                 "displayName-count-many": "Prancūzijos franko",
-                "displayName-count-other": "Prancūzijos frankų",
-                symbol: "FRF"
+                "displayName-count-other": "Prancūzijos frankų"
             },
             GBP: {
                 displayName: "Didžiosios Britanijos svaras",
@@ -839,8 +740,7 @@ const data = {
                 "displayName-count-one": "Gruzinų kupon larit",
                 "displayName-count-few": "Gruzinų kupon larits",
                 "displayName-count-many": "Gruzinų kupon larits",
-                "displayName-count-other": "Gruzinų kupon larits",
-                symbol: "GEK"
+                "displayName-count-other": "Gruzinų kupon larits"
             },
             GEL: {
                 displayName: "Gruzijos laris",
@@ -848,7 +748,6 @@ const data = {
                 "displayName-count-few": "Gruzijos lariai",
                 "displayName-count-many": "Gruzijos lario",
                 "displayName-count-other": "Gruzijos larių",
-                symbol: "GEL",
                 "symbol-alt-narrow": "₾"
             },
             GHC: {
@@ -856,8 +755,7 @@ const data = {
                 "displayName-count-one": "Ganos sedis (1979–2007)",
                 "displayName-count-few": "Ganos sedžiai (1979–2007)",
                 "displayName-count-many": "Ganos sedžio (1979–2007)",
-                "displayName-count-other": "Ganos sedžių (1979–2007)",
-                symbol: "GHC"
+                "displayName-count-other": "Ganos sedžių (1979–2007)"
             },
             GHS: {
                 displayName: "Ganos sedis",
@@ -865,7 +763,6 @@ const data = {
                 "displayName-count-few": "Ganos sedžiai",
                 "displayName-count-many": "Ganos sedžio",
                 "displayName-count-other": "Ganos sedžių",
-                symbol: "GHS",
                 "symbol-alt-narrow": "GH₵"
             },
             GIP: {
@@ -874,7 +771,6 @@ const data = {
                 "displayName-count-few": "Gibraltaro svarai",
                 "displayName-count-many": "Gibraltaro svaro",
                 "displayName-count-other": "Gibraltaro svarų",
-                symbol: "GIP",
                 "symbol-alt-narrow": "£"
             },
             GMD: {
@@ -882,8 +778,7 @@ const data = {
                 "displayName-count-one": "Gambijos dalasis",
                 "displayName-count-few": "Gambijos dalasiai",
                 "displayName-count-many": "Gambijos dalasio",
-                "displayName-count-other": "Gambijos dalasių",
-                symbol: "GMD"
+                "displayName-count-other": "Gambijos dalasių"
             },
             GNF: {
                 displayName: "Gvinėjos frankas",
@@ -891,7 +786,6 @@ const data = {
                 "displayName-count-few": "Gvinėjos frankai",
                 "displayName-count-many": "Gvinėjos franko",
                 "displayName-count-other": "Gvinėjos frankų",
-                symbol: "GNF",
                 "symbol-alt-narrow": "FG"
             },
             GNS: {
@@ -899,24 +793,18 @@ const data = {
                 "displayName-count-one": "Gvinėjos sylis",
                 "displayName-count-few": "Gvinėjos syliai",
                 "displayName-count-many": "Gvinėjos sylio",
-                "displayName-count-other": "Gvinėjos sylio",
-                symbol: "GNS"
+                "displayName-count-other": "Gvinėjos sylio"
             },
             GQE: {
                 displayName: "Pusiaujo Guinean ekwele",
-                "displayName-count-one": "Pusiaujo Guinean ekwele",
-                "displayName-count-few": "Pusiaujo Guinean ekwele",
-                "displayName-count-many": "Pusiaujo Guinean ekwele",
-                "displayName-count-other": "Pusiaujo Guinean ekwele",
-                symbol: "GQE"
+                "displayName-count-other": "Pusiaujo Guinean ekwele"
             },
             GRD: {
                 displayName: "Graikijos drachma",
                 "displayName-count-one": "Graikijos drachma",
                 "displayName-count-few": "Graikijos drachmos",
                 "displayName-count-many": "Graikijos drachmos",
-                "displayName-count-other": "Graikijos drachmos",
-                symbol: "GRD"
+                "displayName-count-other": "Graikijos drachmos"
             },
             GTQ: {
                 displayName: "Gvatemalos ketcalis",
@@ -924,7 +812,6 @@ const data = {
                 "displayName-count-few": "Gvatemalos ketcaliai",
                 "displayName-count-many": "Gvatemalos ketcalio",
                 "displayName-count-other": "Gvatemalos ketcalių",
-                symbol: "GTQ",
                 "symbol-alt-narrow": "Q"
             },
             GWE: {
@@ -932,16 +819,14 @@ const data = {
                 "displayName-count-one": "Portugalijos Gvinėjos eskudas",
                 "displayName-count-few": "Portugalijos Gvinėjos eskudai",
                 "displayName-count-many": "Portugalijos Gvinėjos eskudo",
-                "displayName-count-other": "Portugalijos Gvinėjos eskudų",
-                symbol: "GWE"
+                "displayName-count-other": "Portugalijos Gvinėjos eskudų"
             },
             GWP: {
                 displayName: "Gvinėjos-Bisau pesas",
                 "displayName-count-one": "Bisau Gvinėjos pesas",
                 "displayName-count-few": "Bisau Gvinėjos pesai",
                 "displayName-count-many": "Bisau Gvinėjos peso",
-                "displayName-count-other": "Bisau Gvinėjos pesai",
-                symbol: "GWP"
+                "displayName-count-other": "Bisau Gvinėjos pesai"
             },
             GYD: {
                 displayName: "Gajanos doleris",
@@ -949,7 +834,6 @@ const data = {
                 "displayName-count-few": "Gajanos doleriai",
                 "displayName-count-many": "Gajanos dolerio",
                 "displayName-count-other": "Gajanos dolerių",
-                symbol: "GYD",
                 "symbol-alt-narrow": "$"
             },
             HKD: {
@@ -967,7 +851,6 @@ const data = {
                 "displayName-count-few": "Hondūro lempiros",
                 "displayName-count-many": "Hondūro lempiros",
                 "displayName-count-other": "Hondūro lempirų",
-                symbol: "HNL",
                 "symbol-alt-narrow": "L"
             },
             HRD: {
@@ -975,8 +858,7 @@ const data = {
                 "displayName-count-one": "Kroatijos dinaras",
                 "displayName-count-few": "Krotaijos dinarai",
                 "displayName-count-many": "Kroatijos dinaro",
-                "displayName-count-other": "Kroatijos dinarų",
-                symbol: "HRD"
+                "displayName-count-other": "Kroatijos dinarų"
             },
             HRK: {
                 displayName: "Kroatijos kuna",
@@ -984,7 +866,6 @@ const data = {
                 "displayName-count-few": "Kroatijos kunos",
                 "displayName-count-many": "Kroatijos kunos",
                 "displayName-count-other": "Kroatijos kunų",
-                symbol: "HRK",
                 "symbol-alt-narrow": "kn"
             },
             HTG: {
@@ -992,8 +873,7 @@ const data = {
                 "displayName-count-one": "Haičio gurdas",
                 "displayName-count-few": "Haičio gurdai",
                 "displayName-count-many": "Haičio gurdo",
-                "displayName-count-other": "Haičio gurdų",
-                symbol: "HTG"
+                "displayName-count-other": "Haičio gurdų"
             },
             HUF: {
                 displayName: "Vengrijos forintas",
@@ -1001,7 +881,6 @@ const data = {
                 "displayName-count-few": "Vengrijos forintai",
                 "displayName-count-many": "Vengrijos forinto",
                 "displayName-count-other": "Vengrijos forintų",
-                symbol: "HUF",
                 "symbol-alt-narrow": "Ft"
             },
             IDR: {
@@ -1010,7 +889,6 @@ const data = {
                 "displayName-count-few": "Indonezijos rupijos",
                 "displayName-count-many": "Indonezijos rupijos",
                 "displayName-count-other": "Indonezijos rupijų",
-                symbol: "IDR",
                 "symbol-alt-narrow": "Rp"
             },
             IEP: {
@@ -1018,24 +896,21 @@ const data = {
                 "displayName-count-one": "Airijos svaras",
                 "displayName-count-few": "Airijos svarai",
                 "displayName-count-many": "Airijos svaro",
-                "displayName-count-other": "Airijos svarų",
-                symbol: "IEP"
+                "displayName-count-other": "Airijos svarų"
             },
             ILP: {
                 displayName: "Izraelio svaras",
                 "displayName-count-one": "Izraelio svaras",
                 "displayName-count-few": "Izraelio svarai",
                 "displayName-count-many": "Izraelio svaro",
-                "displayName-count-other": "Izraelio svarų",
-                symbol: "ILP"
+                "displayName-count-other": "Izraelio svarų"
             },
             ILR: {
                 displayName: "Izraelio šekelis (1980–1985)",
                 "displayName-count-one": "Izraelio šekelis (1980–1985)",
                 "displayName-count-few": "Izraelio šekeliai (1980–1985)",
                 "displayName-count-many": "Izraelio šekelio (1980–1985)",
-                "displayName-count-other": "Izraelio šekelių (1980–1985)",
-                symbol: "ILR"
+                "displayName-count-other": "Izraelio šekelių (1980–1985)"
             },
             ILS: {
                 displayName: "Izraelio naujasis šekelis",
@@ -1060,24 +935,21 @@ const data = {
                 "displayName-count-one": "Irako dinaras",
                 "displayName-count-few": "Irako dinarai",
                 "displayName-count-many": "Irako dinaro",
-                "displayName-count-other": "Irako dinarų",
-                symbol: "IQD"
+                "displayName-count-other": "Irako dinarų"
             },
             IRR: {
                 displayName: "Irano rialas",
                 "displayName-count-one": "Irano rialas",
                 "displayName-count-few": "Irano rialai",
                 "displayName-count-many": "Irano rialo",
-                "displayName-count-other": "Irano rialų",
-                symbol: "IRR"
+                "displayName-count-other": "Irano rialų"
             },
             ISJ: {
                 displayName: "Islandijos krona (1918–1981)",
                 "displayName-count-one": "Islandijos krona (1918–1981)",
                 "displayName-count-few": "Islandijos kronos (1918–1981)",
                 "displayName-count-many": "Islandijos kronos (1918–1981)",
-                "displayName-count-other": "Islandijos kronų (1918–1981)",
-                symbol: "ISJ"
+                "displayName-count-other": "Islandijos kronų (1918–1981)"
             },
             ISK: {
                 displayName: "Islandijos krona",
@@ -1085,7 +957,6 @@ const data = {
                 "displayName-count-few": "Islandijos kronos",
                 "displayName-count-many": "Islandijos kronos",
                 "displayName-count-other": "Islandijos kronų",
-                symbol: "ISK",
                 "symbol-alt-narrow": "kr"
             },
             ITL: {
@@ -1093,8 +964,7 @@ const data = {
                 "displayName-count-one": "Italijos lira",
                 "displayName-count-few": "Italijos liros",
                 "displayName-count-many": "Italijos liros",
-                "displayName-count-other": "Italijos lirų",
-                symbol: "ITL"
+                "displayName-count-other": "Italijos lirų"
             },
             JMD: {
                 displayName: "Jamaikos doleris",
@@ -1102,7 +972,6 @@ const data = {
                 "displayName-count-few": "Jamaikos doleriai",
                 "displayName-count-many": "Jamaikos dolerio",
                 "displayName-count-other": "Jamaikos dolerių",
-                symbol: "JMD",
                 "symbol-alt-narrow": "$"
             },
             JOD: {
@@ -1110,8 +979,7 @@ const data = {
                 "displayName-count-one": "Jordanijos dinaras",
                 "displayName-count-few": "Jordanijos dinarai",
                 "displayName-count-many": "Jordanijos dinaro",
-                "displayName-count-other": "Jordanijos dinarų",
-                symbol: "JOD"
+                "displayName-count-other": "Jordanijos dinarų"
             },
             JPY: {
                 displayName: "Japonijos jena",
@@ -1127,8 +995,7 @@ const data = {
                 "displayName-count-one": "Kenijos šilingas",
                 "displayName-count-few": "Kenijos šilingai",
                 "displayName-count-many": "Kenijos šilingo",
-                "displayName-count-other": "Kenijos šilingų",
-                symbol: "KES"
+                "displayName-count-other": "Kenijos šilingų"
             },
             KGS: {
                 displayName: "Kirgizijos somas",
@@ -1136,7 +1003,7 @@ const data = {
                 "displayName-count-few": "Kirgizijos somai",
                 "displayName-count-many": "Kirgizijos somo",
                 "displayName-count-other": "Kirgizijos somų",
-                symbol: "KGS"
+                "symbol-alt-narrow": "⃀"
             },
             KHR: {
                 displayName: "Kambodžos rielis",
@@ -1144,7 +1011,6 @@ const data = {
                 "displayName-count-few": "Kambodžos rieliai",
                 "displayName-count-many": "Kambodžos rielio",
                 "displayName-count-other": "Kambodžos rielių",
-                symbol: "KHR",
                 "symbol-alt-narrow": "KHR"
             },
             KMF: {
@@ -1153,7 +1019,6 @@ const data = {
                 "displayName-count-few": "Komoro frankai",
                 "displayName-count-many": "Komoro franko",
                 "displayName-count-other": "Komoro frankų",
-                symbol: "KMF",
                 "symbol-alt-narrow": "CF"
             },
             KPW: {
@@ -1162,7 +1027,6 @@ const data = {
                 "displayName-count-few": "Šiaurės Korėjos vonai",
                 "displayName-count-many": "Šiaurės Korėjos vono",
                 "displayName-count-other": "Šiaurės Korėjos vonų",
-                symbol: "KPW",
                 "symbol-alt-narrow": "₩"
             },
             KRH: {
@@ -1170,16 +1034,14 @@ const data = {
                 "displayName-count-one": "Pietų Korėjos hwanas (1953–1962)",
                 "displayName-count-few": "Pietų Korėjos hwanai (1953–1962)",
                 "displayName-count-many": "Pietų Korėjos hwano (1953–1962)",
-                "displayName-count-other": "Pietų Korėjos hwanų (1953–1962)",
-                symbol: "KRH"
+                "displayName-count-other": "Pietų Korėjos hwanų (1953–1962)"
             },
             KRO: {
                 displayName: "Pietų Korėjos vonas (1945–1953)",
                 "displayName-count-one": "Pietų Korėjos vonas (1945–1953)",
                 "displayName-count-few": "Pietų Korėjos vonai (1945–1953)",
                 "displayName-count-many": "Pietų Korėjos vono (1945–1953)",
-                "displayName-count-other": "Pietų Korėjos vonų (1945–1953)",
-                symbol: "KRO"
+                "displayName-count-other": "Pietų Korėjos vonų (1945–1953)"
             },
             KRW: {
                 displayName: "Pietų Korėjos vonas",
@@ -1195,8 +1057,7 @@ const data = {
                 "displayName-count-one": "Kuveito dinaras",
                 "displayName-count-few": "Kuveito dinarai",
                 "displayName-count-many": "Kuveito dinaro",
-                "displayName-count-other": "Kuveito dinarų",
-                symbol: "KWD"
+                "displayName-count-other": "Kuveito dinarų"
             },
             KYD: {
                 displayName: "Kaimanų salų doleris",
@@ -1204,7 +1065,6 @@ const data = {
                 "displayName-count-few": "Kaimanų salų doleriai",
                 "displayName-count-many": "Kaimanų salų dolerio",
                 "displayName-count-other": "Kaimanų salų dolerių",
-                symbol: "KYD",
                 "symbol-alt-narrow": "$"
             },
             KZT: {
@@ -1213,7 +1073,6 @@ const data = {
                 "displayName-count-few": "Kazachstano tengės",
                 "displayName-count-many": "Kazachstano tengės",
                 "displayName-count-other": "Kazachstano tengių",
-                symbol: "KZT",
                 "symbol-alt-narrow": "₸"
             },
             LAK: {
@@ -1222,7 +1081,6 @@ const data = {
                 "displayName-count-few": "Laoso kipai",
                 "displayName-count-many": "Laoso kipo",
                 "displayName-count-other": "Laoso kipų",
-                symbol: "LAK",
                 "symbol-alt-narrow": "LAK"
             },
             LBP: {
@@ -1231,7 +1089,6 @@ const data = {
                 "displayName-count-few": "Libano svarai",
                 "displayName-count-many": "Libano svaro",
                 "displayName-count-other": "Libano svarų",
-                symbol: "LBP",
                 "symbol-alt-narrow": "L£"
             },
             LKR: {
@@ -1240,7 +1097,6 @@ const data = {
                 "displayName-count-few": "Šri Lankos rupijos",
                 "displayName-count-many": "Šri Lankos rupijos",
                 "displayName-count-other": "Šri Lankos rupijų",
-                symbol: "LKR",
                 "symbol-alt-narrow": "Rs"
             },
             LRD: {
@@ -1249,16 +1105,11 @@ const data = {
                 "displayName-count-few": "Liberijos doleriai",
                 "displayName-count-many": "Liberijos dolerio",
                 "displayName-count-other": "Liberijos dolerių",
-                symbol: "LRD",
                 "symbol-alt-narrow": "$"
             },
             LSL: {
                 displayName: "Lesoto lotis",
-                "displayName-count-one": "Lesoto lotis",
-                "displayName-count-few": "Lesoto lotis",
-                "displayName-count-many": "Lesoto lotis",
-                "displayName-count-other": "Lesoto lotis",
-                symbol: "LSL"
+                "displayName-count-other": "Lesoto lotis"
             },
             LTL: {
                 displayName: "Lietuvos litas",
@@ -1266,7 +1117,6 @@ const data = {
                 "displayName-count-few": "Lietuvos litai",
                 "displayName-count-many": "Lietuvos lito",
                 "displayName-count-other": "Lietuvos litų",
-                symbol: "LTL",
                 "symbol-alt-narrow": "Lt"
             },
             LTT: {
@@ -1274,32 +1124,28 @@ const data = {
                 "displayName-count-one": "Lietuvos talonas",
                 "displayName-count-few": "Lietuvos talonai",
                 "displayName-count-many": "Lietuvos talonai",
-                "displayName-count-other": "Lietuvos talonai",
-                symbol: "LTT"
+                "displayName-count-other": "Lietuvos talonai"
             },
             LUC: {
                 displayName: "Liuksemburgo konvertuojamas frankas",
                 "displayName-count-one": "Liuksemburgo konvertuojas frankas",
                 "displayName-count-few": "Liuksemburgo konvertuojami frankai",
                 "displayName-count-many": "Liuksemburgo konvertuojamo franko",
-                "displayName-count-other": "Liuksemburgo konvertuojamų frankų",
-                symbol: "LUC"
+                "displayName-count-other": "Liuksemburgo konvertuojamų frankų"
             },
             LUF: {
                 displayName: "Liuksemburgo frankas",
                 "displayName-count-one": "Liuksemburgo frankas",
                 "displayName-count-few": "Liuksemburgo frankai",
                 "displayName-count-many": "Liuksemburgo franko",
-                "displayName-count-other": "Liuksemburgo frankų",
-                symbol: "LUF"
+                "displayName-count-other": "Liuksemburgo frankų"
             },
             LUL: {
                 displayName: "Liuksemburgo finansinis frankas",
                 "displayName-count-one": "Liuksemburgo finansinis frankas",
                 "displayName-count-few": "Liuksemburgo finansiniai frankai",
                 "displayName-count-many": "Liuksemburgo finansinio franko",
-                "displayName-count-other": "Liuksemburgo finansinių frankų",
-                symbol: "LUL"
+                "displayName-count-other": "Liuksemburgo finansinių frankų"
             },
             LVL: {
                 displayName: "Latvijos latas",
@@ -1307,7 +1153,6 @@ const data = {
                 "displayName-count-few": "Latvijos latai",
                 "displayName-count-many": "Latvijos lato",
                 "displayName-count-other": "Latvijos latų",
-                symbol: "LVL",
                 "symbol-alt-narrow": "Ls"
             },
             LVR: {
@@ -1315,56 +1160,46 @@ const data = {
                 "displayName-count-one": "Latvijos rublis",
                 "displayName-count-few": "Latvijos rubliai",
                 "displayName-count-many": "Latvijos rublio",
-                "displayName-count-other": "Latvijos rublių",
-                symbol: "LVR"
+                "displayName-count-other": "Latvijos rublių"
             },
             LYD: {
                 displayName: "Libijos dinaras",
                 "displayName-count-one": "Libijos dinaras",
                 "displayName-count-few": "Libijos dinarai",
                 "displayName-count-many": "Libijos dinaro",
-                "displayName-count-other": "Libijos dinarų",
-                symbol: "LYD"
+                "displayName-count-other": "Libijos dinarų"
             },
             MAD: {
                 displayName: "Maroko dirhamas",
                 "displayName-count-one": "Maroko dirhamas",
                 "displayName-count-few": "Maroko dirhamai",
                 "displayName-count-many": "Maroko dirhamo",
-                "displayName-count-other": "Maroko dirhamų",
-                symbol: "MAD"
+                "displayName-count-other": "Maroko dirhamų"
             },
             MAF: {
                 displayName: "Maroko frankas",
                 "displayName-count-one": "Maroko frankas",
                 "displayName-count-few": "Maroko frankai",
                 "displayName-count-many": "Maroko franko",
-                "displayName-count-other": "Maroko frankų",
-                symbol: "MAF"
+                "displayName-count-other": "Maroko frankų"
             },
             MCF: {
                 displayName: "Monegasque frankas",
                 "displayName-count-one": "Monegasque frankas",
                 "displayName-count-few": "Monegasque frankai",
                 "displayName-count-many": "Monegasque franko",
-                "displayName-count-other": "Monegasque frankų",
-                symbol: "MCF"
+                "displayName-count-other": "Monegasque frankų"
             },
             MDC: {
                 displayName: "Moldovų cupon",
-                "displayName-count-one": "Moldovų cupon",
-                "displayName-count-few": "Moldovų cupon",
-                "displayName-count-many": "Moldovų cupon",
-                "displayName-count-other": "Moldovų cupon",
-                symbol: "MDC"
+                "displayName-count-other": "Moldovų cupon"
             },
             MDL: {
                 displayName: "Moldovos lėja",
                 "displayName-count-one": "Moldovos lėja",
                 "displayName-count-few": "Moldovos lėjos",
                 "displayName-count-many": "Moldovos lėjos",
-                "displayName-count-other": "Moldovos lėjų",
-                symbol: "MDL"
+                "displayName-count-other": "Moldovos lėjų"
             },
             MGA: {
                 displayName: "Madagaskaro ariaris",
@@ -1372,7 +1207,6 @@ const data = {
                 "displayName-count-few": "Madagaskaro ariariai",
                 "displayName-count-many": "Madagaskaro ariario",
                 "displayName-count-other": "Madagaskaro ariarių",
-                symbol: "MGA",
                 "symbol-alt-narrow": "Ar"
             },
             MGF: {
@@ -1380,32 +1214,28 @@ const data = {
                 "displayName-count-one": "Madagaskaro frankas",
                 "displayName-count-few": "Madagaskaro frankai",
                 "displayName-count-many": "Madagaskaro franko",
-                "displayName-count-other": "Madagaskaro frankų",
-                symbol: "MGF"
+                "displayName-count-other": "Madagaskaro frankų"
             },
             MKD: {
                 displayName: "Makedonijos denaras",
                 "displayName-count-one": "Makedonijos denaras",
                 "displayName-count-few": "Makedonijos denarai",
                 "displayName-count-many": "Makedonijos denaro",
-                "displayName-count-other": "Makedonijos denarų",
-                symbol: "MKD"
+                "displayName-count-other": "Makedonijos denarų"
             },
             MKN: {
                 displayName: "Makedonijos denaras (1992–1993)",
                 "displayName-count-one": "Makedonijos denaras (1992–1993)",
                 "displayName-count-few": "Makedonijos denarai (1992–1993)",
                 "displayName-count-many": "Makedonijos denaro (1992–1993)",
-                "displayName-count-other": "Makedonijos denarų (1992–1993)",
-                symbol: "MKN"
+                "displayName-count-other": "Makedonijos denarų (1992–1993)"
             },
             MLF: {
                 displayName: "Malio frankas",
                 "displayName-count-one": "Malio frankas",
                 "displayName-count-few": "Malio frankai",
                 "displayName-count-many": "Malio franko",
-                "displayName-count-other": "Malio frankų",
-                symbol: "MLF"
+                "displayName-count-other": "Malio frankų"
             },
             MMK: {
                 displayName: "Mianmaro kijatas",
@@ -1413,7 +1243,6 @@ const data = {
                 "displayName-count-few": "Mianmaro kijatai",
                 "displayName-count-many": "Mianmaro kijato",
                 "displayName-count-other": "Mianmaro kijatų",
-                symbol: "MMK",
                 "symbol-alt-narrow": "K"
             },
             MNT: {
@@ -1422,7 +1251,6 @@ const data = {
                 "displayName-count-few": "Mongolijos tugrikai",
                 "displayName-count-many": "Mongolijos tugriko",
                 "displayName-count-other": "Mongolijos tugrikų",
-                symbol: "MNT",
                 "symbol-alt-narrow": "MNT"
             },
             MOP: {
@@ -1430,40 +1258,32 @@ const data = {
                 "displayName-count-one": "Makao pataka",
                 "displayName-count-few": "Makao patakos",
                 "displayName-count-many": "Makao patakos",
-                "displayName-count-other": "Makao patakų",
-                symbol: "MOP"
+                "displayName-count-other": "Makao patakų"
             },
             MRO: {
                 displayName: "Mauritanijos ugija (1973–2017)",
                 "displayName-count-one": "Mauritanijos ugija (1973–2017)",
                 "displayName-count-few": "Mauritanijos ugijos (1973–2017)",
                 "displayName-count-many": "Mauritanijos ugijos (1973–2017)",
-                "displayName-count-other": "Mauritanijos ugijų (1973–2017)",
-                symbol: "MRO"
+                "displayName-count-other": "Mauritanijos ugijų (1973–2017)"
             },
             MRU: {
                 displayName: "Mauritanijos ugija",
                 "displayName-count-one": "Mauritanijos ugija",
                 "displayName-count-few": "Mauritanijos ugijos",
                 "displayName-count-many": "Mauritanijos ugijos",
-                "displayName-count-other": "Mauritanijos ugijų",
-                symbol: "MRU"
+                "displayName-count-other": "Mauritanijos ugijų"
             },
             MTL: {
                 displayName: "Maltos lira",
-                "displayName-count-one": "Maltos lira",
-                "displayName-count-few": "Maltos lira",
-                "displayName-count-many": "Maltos lira",
-                "displayName-count-other": "Maltos lira",
-                symbol: "MTL"
+                "displayName-count-other": "Maltos lira"
             },
             MTP: {
                 displayName: "Maltos svaras",
                 "displayName-count-one": "Maltos svaras",
                 "displayName-count-few": "Maltos svarai",
                 "displayName-count-many": "Maltos svaro",
-                "displayName-count-other": "Maltos svarų",
-                symbol: "MTP"
+                "displayName-count-other": "Maltos svarų"
             },
             MUR: {
                 displayName: "Mauricijaus rupija",
@@ -1471,7 +1291,6 @@ const data = {
                 "displayName-count-few": "Mauricijaus rupijos",
                 "displayName-count-many": "Mauricijaus rupijos",
                 "displayName-count-other": "Mauricijaus rupijų",
-                symbol: "MUR",
                 "symbol-alt-narrow": "Rs"
             },
             MVP: {
@@ -1479,24 +1298,21 @@ const data = {
                 "displayName-count-one": "Maldyvų rupija",
                 "displayName-count-few": "Maldyvų rupijos",
                 "displayName-count-many": "Maldyvų rupijos",
-                "displayName-count-other": "Maldyvų rupijos",
-                symbol: "MVP"
+                "displayName-count-other": "Maldyvų rupijos"
             },
             MVR: {
                 displayName: "Maldyvų rufija",
                 "displayName-count-one": "Maldyvų rufija",
                 "displayName-count-few": "Maldyvų rufijos",
                 "displayName-count-many": "Maldyvų rufijos",
-                "displayName-count-other": "Maldyvų rufijų",
-                symbol: "MVR"
+                "displayName-count-other": "Maldyvų rufijų"
             },
             MWK: {
                 displayName: "Malavio kvača",
                 "displayName-count-one": "Malavio kvača",
                 "displayName-count-few": "Malavio kvačos",
                 "displayName-count-many": "Malavio kvačos",
-                "displayName-count-other": "Malavio kvačų",
-                symbol: "MWK"
+                "displayName-count-other": "Malavio kvačų"
             },
             MXN: {
                 displayName: "Meksikos pesas",
@@ -1512,16 +1328,14 @@ const data = {
                 "displayName-count-one": "Meksikos sidabrinis pesas (1861–1992)",
                 "displayName-count-few": "Meksikos sidabriniai pesai (1861–1992)",
                 "displayName-count-many": "Meksikos sidabrino peso (1861–1992)",
-                "displayName-count-other": "Meksikos sidabrinių pesų (1861–1992)",
-                symbol: "MXP"
+                "displayName-count-other": "Meksikos sidabrinių pesų (1861–1992)"
             },
             MXV: {
                 displayName: "Meksikos United de Inversion (UDI)",
                 "displayName-count-one": "Meksikos unidad de inversija (UDI)",
                 "displayName-count-few": "Meksikos unidads de inversija (UDI)",
                 "displayName-count-many": "Meksikos unidads de inversija (UDI)",
-                "displayName-count-other": "Meksikos unidads de inversija (UDI)",
-                symbol: "MXV"
+                "displayName-count-other": "Meksikos unidads de inversija (UDI)"
             },
             MYR: {
                 displayName: "Malaizijos ringitas",
@@ -1529,7 +1343,6 @@ const data = {
                 "displayName-count-few": "Malaizijos ringitai",
                 "displayName-count-many": "Malaizijos ringito",
                 "displayName-count-other": "Malaizijos ringitų",
-                symbol: "MYR",
                 "symbol-alt-narrow": "RM"
             },
             MZE: {
@@ -1537,24 +1350,21 @@ const data = {
                 "displayName-count-one": "Mozambiko eskudas",
                 "displayName-count-few": "Mozambiko eskudai",
                 "displayName-count-many": "Mozambiko eskudo",
-                "displayName-count-other": "Mozambiko eskudų",
-                symbol: "MZE"
+                "displayName-count-other": "Mozambiko eskudų"
             },
             MZM: {
                 displayName: "Mozambiko metikalis (1980–2006)",
                 "displayName-count-one": "Mozambiko metikalis (1980–2006)",
                 "displayName-count-few": "Mozambiko metikaliai (1980–2006)",
                 "displayName-count-many": "Mozambiko metikalio (1980–2006)",
-                "displayName-count-other": "Mozambiko metikalių (1980–2006)",
-                symbol: "MZM"
+                "displayName-count-other": "Mozambiko metikalių (1980–2006)"
             },
             MZN: {
                 displayName: "Mozambiko metikalis",
                 "displayName-count-one": "Mozambiko metikalis",
                 "displayName-count-few": "Mozambiko metikaliai",
                 "displayName-count-many": "Mozambiko metikalio",
-                "displayName-count-other": "Mozambiko metikalių",
-                symbol: "MZN"
+                "displayName-count-other": "Mozambiko metikalių"
             },
             NAD: {
                 displayName: "Namibijos doleris",
@@ -1562,7 +1372,6 @@ const data = {
                 "displayName-count-few": "Namibijos doleriai",
                 "displayName-count-many": "Namibijos dolerio",
                 "displayName-count-other": "Namibijos dolerių",
-                symbol: "NAD",
                 "symbol-alt-narrow": "$"
             },
             NGN: {
@@ -1571,7 +1380,6 @@ const data = {
                 "displayName-count-few": "Nigerijos nairos",
                 "displayName-count-many": "Nigerijos nairos",
                 "displayName-count-other": "Nigerijos nairų",
-                symbol: "NGN",
                 "symbol-alt-narrow": "₦"
             },
             NIC: {
@@ -1579,8 +1387,7 @@ const data = {
                 "displayName-count-one": "Nikaragvos kordoba (1988–1991)",
                 "displayName-count-few": "Nikaragvos kordobai (1988–1991)",
                 "displayName-count-many": "Nikaragvos kordobos (1988–1991)",
-                "displayName-count-other": "Nikaragvos kordobų (1988–1991)",
-                symbol: "NIC"
+                "displayName-count-other": "Nikaragvos kordobų (1988–1991)"
             },
             NIO: {
                 displayName: "Nikaragvos kordoba",
@@ -1588,7 +1395,6 @@ const data = {
                 "displayName-count-few": "Nikaragvos kordobos",
                 "displayName-count-many": "Nikaragvos kordobos",
                 "displayName-count-other": "Nikaragvos kordobų",
-                symbol: "NIO",
                 "symbol-alt-narrow": "C$"
             },
             NLG: {
@@ -1596,8 +1402,7 @@ const data = {
                 "displayName-count-one": "Nyderlandų guldenas",
                 "displayName-count-few": "Nyderlandų guldenai",
                 "displayName-count-many": "Nyderlandų guldeno",
-                "displayName-count-other": "Nyderlandų guldenų",
-                symbol: "NLG"
+                "displayName-count-other": "Nyderlandų guldenų"
             },
             NOK: {
                 displayName: "Norvegijos krona",
@@ -1605,7 +1410,6 @@ const data = {
                 "displayName-count-few": "Norvegijos kronos",
                 "displayName-count-many": "Norvegijos kronos",
                 "displayName-count-other": "Norvegijos kronų",
-                symbol: "NOK",
                 "symbol-alt-narrow": "kr"
             },
             NPR: {
@@ -1614,7 +1418,6 @@ const data = {
                 "displayName-count-few": "Nepalo rupijos",
                 "displayName-count-many": "Nepalo rupijos",
                 "displayName-count-other": "Nepalo rupijų",
-                symbol: "NPR",
                 "symbol-alt-narrow": "Rs"
             },
             NZD: {
@@ -1631,48 +1434,42 @@ const data = {
                 "displayName-count-one": "Omano rialas",
                 "displayName-count-few": "Omano rialai",
                 "displayName-count-many": "Omano rialo",
-                "displayName-count-other": "Omano rialų",
-                symbol: "OMR"
+                "displayName-count-other": "Omano rialų"
             },
             PAB: {
                 displayName: "Panamos balboja",
                 "displayName-count-one": "Panamos balboja",
                 "displayName-count-few": "Panamos balbojos",
                 "displayName-count-many": "Panamos balbojos",
-                "displayName-count-other": "Panamos balbojų",
-                symbol: "PAB"
+                "displayName-count-other": "Panamos balbojų"
             },
             PEI: {
                 displayName: "Peru intis",
                 "displayName-count-one": "Peru inti",
                 "displayName-count-few": "Peru intis",
                 "displayName-count-many": "Peru intis",
-                "displayName-count-other": "Peru intis",
-                symbol: "PEI"
+                "displayName-count-other": "Peru intis"
             },
             PEN: {
                 displayName: "Peru solis",
                 "displayName-count-one": "Peru solis",
                 "displayName-count-few": "Peru soliai",
                 "displayName-count-many": "Peru solio",
-                "displayName-count-other": "Peru solių",
-                symbol: "PEN"
+                "displayName-count-other": "Peru solių"
             },
             PES: {
                 displayName: "Peru solis (1863–1965)",
                 "displayName-count-one": "Peru solis (1863–1965)",
                 "displayName-count-few": "Peru soliai (1863–1965)",
                 "displayName-count-many": "Peru solio (1863–1965)",
-                "displayName-count-other": "Peru solių (1863–1965)",
-                symbol: "PES"
+                "displayName-count-other": "Peru solių (1863–1965)"
             },
             PGK: {
                 displayName: "Papua Naujosios Gvinėjos kina",
                 "displayName-count-one": "Papua Naujosios Gvinėjos kina",
                 "displayName-count-few": "Papua Naujosios Gvinėjos kinos",
                 "displayName-count-many": "Papua Naujosios Gvinėjos kinos",
-                "displayName-count-other": "Papua Naujosios Gvinėjos kinų",
-                symbol: "PGK"
+                "displayName-count-other": "Papua Naujosios Gvinėjos kinų"
             },
             PHP: {
                 displayName: "Filipinų pesas",
@@ -1689,7 +1486,6 @@ const data = {
                 "displayName-count-few": "Pakistano rupijos",
                 "displayName-count-many": "Pakistano rupijos",
                 "displayName-count-other": "Pakistano rupijų",
-                symbol: "PKR",
                 "symbol-alt-narrow": "Rs"
             },
             PLN: {
@@ -1698,7 +1494,6 @@ const data = {
                 "displayName-count-few": "Lenkijos zlotai",
                 "displayName-count-many": "Lenkijos zloto",
                 "displayName-count-other": "Lenkijos zlotų",
-                symbol: "PLN",
                 "symbol-alt-narrow": "zl"
             },
             PLZ: {
@@ -1706,16 +1501,14 @@ const data = {
                 "displayName-count-one": "Lenkijos zlotas (1950–1995)",
                 "displayName-count-few": "Lenkijos zlotai (1950–1995)",
                 "displayName-count-many": "Lenkijos zloto (1950–1995)",
-                "displayName-count-other": "Lenkijos zlotų (1950–1995)",
-                symbol: "PLZ"
+                "displayName-count-other": "Lenkijos zlotų (1950–1995)"
             },
             PTE: {
                 displayName: "Portugalijos eskudas",
                 "displayName-count-one": "Portugalijos eskudas",
                 "displayName-count-few": "Portugalijos eskudai",
                 "displayName-count-many": "Portugalijos eskudo",
-                "displayName-count-other": "Portugalijos eskudų",
-                symbol: "PTE"
+                "displayName-count-other": "Portugalijos eskudų"
             },
             PYG: {
                 displayName: "Paragvajaus guaranis",
@@ -1723,7 +1516,6 @@ const data = {
                 "displayName-count-few": "Paragvajaus guaraniai",
                 "displayName-count-many": "Paragvajaus guaranio",
                 "displayName-count-other": "Paragvajaus guaranių",
-                symbol: "PYG",
                 "symbol-alt-narrow": "Gs"
             },
             QAR: {
@@ -1731,24 +1523,21 @@ const data = {
                 "displayName-count-one": "Kataro rialas",
                 "displayName-count-few": "Kataro rialai",
                 "displayName-count-many": "Kataro rialo",
-                "displayName-count-other": "Kataro rialų",
-                symbol: "QAR"
+                "displayName-count-other": "Kataro rialų"
             },
             RHD: {
                 displayName: "Rodezijos doleris",
                 "displayName-count-one": "Rodezijos doleris",
                 "displayName-count-few": "Rodezijos doleriai",
                 "displayName-count-many": "Rodezijos dolerio",
-                "displayName-count-other": "Rodezijos dolerių",
-                symbol: "RHD"
+                "displayName-count-other": "Rodezijos dolerių"
             },
             ROL: {
                 displayName: "Rumunijos lėja (1952–2006)",
                 "displayName-count-one": "Rumunijos lėja (1952–2006)",
                 "displayName-count-few": "Rumunijos lėjos (1952–2006)",
                 "displayName-count-many": "Rumunijos lėjos (1952–2006)",
-                "displayName-count-other": "Rumunijos lėjų (1952–2006)",
-                symbol: "ROL"
+                "displayName-count-other": "Rumunijos lėjų (1952–2006)"
             },
             RON: {
                 displayName: "Rumunijos lėja",
@@ -1756,7 +1545,6 @@ const data = {
                 "displayName-count-few": "Rumunijos lėjos",
                 "displayName-count-many": "Rumunijos lėjos",
                 "displayName-count-other": "Rumunijos lėjų",
-                symbol: "RON",
                 "symbol-alt-narrow": "lei"
             },
             RSD: {
@@ -1764,8 +1552,7 @@ const data = {
                 "displayName-count-one": "Serbijos dinaras",
                 "displayName-count-few": "Serbijos dinarai",
                 "displayName-count-many": "Serbijos dinaro",
-                "displayName-count-other": "Serbijos dinarų",
-                symbol: "RSD"
+                "displayName-count-other": "Serbijos dinarų"
             },
             RUB: {
                 displayName: "Rusijos rublis",
@@ -1773,7 +1560,6 @@ const data = {
                 "displayName-count-few": "Rusijos rubliai",
                 "displayName-count-many": "Rusijos rublio",
                 "displayName-count-other": "Rusijos rublių",
-                symbol: "RUB",
                 "symbol-alt-narrow": "rb",
                 "symbol-alt-variant": "₽"
             },
@@ -1782,8 +1568,7 @@ const data = {
                 "displayName-count-one": "Rusijos rublis (1991–1998)",
                 "displayName-count-few": "Rusijos rubliai (1991–1998)",
                 "displayName-count-many": "Rusijos rublio (1991–1998)",
-                "displayName-count-other": "Rusijos rublių (1991–1998)",
-                symbol: "RUR"
+                "displayName-count-other": "Rusijos rublių (1991–1998)"
             },
             RWF: {
                 displayName: "Ruandos frankas",
@@ -1791,7 +1576,6 @@ const data = {
                 "displayName-count-few": "Ruandos frankai",
                 "displayName-count-many": "Ruandos franko",
                 "displayName-count-other": "Ruandos frankų",
-                symbol: "RWF",
                 "symbol-alt-narrow": "RF"
             },
             SAR: {
@@ -1800,7 +1584,7 @@ const data = {
                 "displayName-count-few": "Saudo Arabijos rijalai",
                 "displayName-count-many": "Saudo Arabijos rijalo",
                 "displayName-count-other": "Saudo Arabijos rijalų",
-                symbol: "SAR"
+                "symbol-alt-variant": "⃁"
             },
             SBD: {
                 displayName: "Saliamono salų doleris",
@@ -1808,7 +1592,6 @@ const data = {
                 "displayName-count-few": "Saliamono salų doleriai",
                 "displayName-count-many": "Saliamono salų dolerio",
                 "displayName-count-other": "Saliamono salų dolerių",
-                symbol: "SBD",
                 "symbol-alt-narrow": "$"
             },
             SCR: {
@@ -1816,32 +1599,28 @@ const data = {
                 "displayName-count-one": "Seišelių rupija",
                 "displayName-count-few": "Seišelių rupijos",
                 "displayName-count-many": "Seišelių rupijos",
-                "displayName-count-other": "Seišelių rupijų",
-                symbol: "SCR"
+                "displayName-count-other": "Seišelių rupijų"
             },
             SDD: {
                 displayName: "Sudano dinaras (1992–2007)",
                 "displayName-count-one": "Sudano dinaras (1992–2007)",
                 "displayName-count-few": "Sudano dinarai (1992–2007)",
                 "displayName-count-many": "Sudano dinaro (1992–2007)",
-                "displayName-count-other": "Sudano dinarų (1992–2007)",
-                symbol: "SDD"
+                "displayName-count-other": "Sudano dinarų (1992–2007)"
             },
             SDG: {
                 displayName: "Sudano svaras",
                 "displayName-count-one": "Sudano svaras",
                 "displayName-count-few": "Sudano svarai",
                 "displayName-count-many": "Sudano svaro",
-                "displayName-count-other": "Sudano svarų",
-                symbol: "SDG"
+                "displayName-count-other": "Sudano svarų"
             },
             SDP: {
                 displayName: "Sudano svaras (1957–1998)",
                 "displayName-count-one": "Sudano svaras (1957–1998)",
                 "displayName-count-few": "Sudano svarai (1957–1998)",
                 "displayName-count-many": "Sudano svaro (1957–1998)",
-                "displayName-count-other": "Sudano svarų (1957–1998)",
-                symbol: "SDP"
+                "displayName-count-other": "Sudano svarų (1957–1998)"
             },
             SEK: {
                 displayName: "Švedijos krona",
@@ -1849,7 +1628,6 @@ const data = {
                 "displayName-count-few": "Švedijos kronos",
                 "displayName-count-many": "Švedijos kronos",
                 "displayName-count-other": "Švedijos kronų",
-                symbol: "SEK",
                 "symbol-alt-narrow": "kr"
             },
             SGD: {
@@ -1858,7 +1636,6 @@ const data = {
                 "displayName-count-few": "Singapūro doleriai",
                 "displayName-count-many": "Singapūro dolerio",
                 "displayName-count-other": "Singapūro dolerių",
-                symbol: "SGD",
                 "symbol-alt-narrow": "$"
             },
             SHP: {
@@ -1867,7 +1644,6 @@ const data = {
                 "displayName-count-few": "Šv. Elenos salų svarai",
                 "displayName-count-many": "Šv. Elenos salų svaro",
                 "displayName-count-other": "Šv. Elenos salų svarų",
-                symbol: "SHP",
                 "symbol-alt-narrow": "£"
             },
             SIT: {
@@ -1875,36 +1651,35 @@ const data = {
                 "displayName-count-one": "Slovėnijos tolars",
                 "displayName-count-few": "Slovėnijos tolars",
                 "displayName-count-many": "Slovėnijos tolar",
-                "displayName-count-other": "Slovėnijos tolar",
-                symbol: "SIT"
+                "displayName-count-other": "Slovėnijos tolar"
             },
             SKK: {
                 displayName: "Slovakijos krona",
                 "displayName-count-one": "Slovakijos krona",
                 "displayName-count-few": "Slovakijos kronos",
                 "displayName-count-many": "Slovakijos kronos",
-                "displayName-count-other": "Slovakijos kronų",
-                symbol: "SKK"
+                "displayName-count-other": "Slovakijos kronų"
             },
             SLE: {
-                displayName: "SLE",
-                symbol: "SLE"
-            },
-            SLL: {
                 displayName: "Siera Leonės leonė",
                 "displayName-count-one": "Siera Leonės leonė",
                 "displayName-count-few": "Siera Leonės leonės",
                 "displayName-count-many": "Siera Leonės leonės",
-                "displayName-count-other": "Siera Leonės leonių",
-                symbol: "SLL"
+                "displayName-count-other": "Siera Leonės leonių"
+            },
+            SLL: {
+                displayName: "Siera Leonės leonė (1964—2022)",
+                "displayName-count-one": "Siera Leonės leonė (1964—2022)",
+                "displayName-count-few": "Siera Leonės leonės (1964—2022)",
+                "displayName-count-many": "Siera Leonės leonės (1964—2022)",
+                "displayName-count-other": "Siera Leonės leonių (1964—2022)"
             },
             SOS: {
                 displayName: "Somalio šilingas",
                 "displayName-count-one": "Somalio šilingas",
                 "displayName-count-few": "Somalio šilingai",
                 "displayName-count-many": "Somalio šilingo",
-                "displayName-count-other": "Somalio šilingų",
-                symbol: "SOS"
+                "displayName-count-other": "Somalio šilingų"
             },
             SRD: {
                 displayName: "Surimano doleris",
@@ -1912,7 +1687,6 @@ const data = {
                 "displayName-count-few": "Surimano doleriai",
                 "displayName-count-many": "Surimano dolerio",
                 "displayName-count-other": "Surimano dolerių",
-                symbol: "SRD",
                 "symbol-alt-narrow": "$"
             },
             SRG: {
@@ -1920,8 +1694,7 @@ const data = {
                 "displayName-count-one": "Surimano guldenas",
                 "displayName-count-few": "Surimano guldenai",
                 "displayName-count-many": "Surimano guldeno",
-                "displayName-count-other": "Surimano guldenų",
-                symbol: "SRG"
+                "displayName-count-other": "Surimano guldenų"
             },
             SSP: {
                 displayName: "Pietų Sudano svaras",
@@ -1929,7 +1702,6 @@ const data = {
                 "displayName-count-few": "Pietų Sudano svarai",
                 "displayName-count-many": "Pietų Sudano svaro",
                 "displayName-count-other": "Pietų Sudano svarų",
-                symbol: "SSP",
                 "symbol-alt-narrow": "£"
             },
             STD: {
@@ -1937,8 +1709,7 @@ const data = {
                 "displayName-count-one": "San Tomės ir Principės dobra (1977–2017)",
                 "displayName-count-few": "San Tomės ir Principės dobros (1977–2017)",
                 "displayName-count-many": "San Tomės ir Principės dobros (1977–2017)",
-                "displayName-count-other": "Sao Tomės ir Principės dobrų (1977–2017)",
-                symbol: "STD"
+                "displayName-count-other": "Sao Tomės ir Principės dobrų (1977–2017)"
             },
             STN: {
                 displayName: "San Tomės ir Principės dobra",
@@ -1946,7 +1717,6 @@ const data = {
                 "displayName-count-few": "San Tomės ir Principės dobros",
                 "displayName-count-many": "San Tomės ir Principės dobros",
                 "displayName-count-other": "Sao Tomės ir Principės dobrų",
-                symbol: "STN",
                 "symbol-alt-narrow": "Db"
             },
             SUR: {
@@ -1954,16 +1724,14 @@ const data = {
                 "displayName-count-one": "Sovietų rublis",
                 "displayName-count-few": "Sovietų rubliai",
                 "displayName-count-many": "Sovietų rublio",
-                "displayName-count-other": "Sovietų rublių",
-                symbol: "SUR"
+                "displayName-count-other": "Sovietų rublių"
             },
             SVC: {
                 displayName: "Salvadoro kolonas",
                 "displayName-count-one": "Salvadoro kolonas",
                 "displayName-count-few": "Salvadoro kolonai",
                 "displayName-count-many": "Salvadoro kolonai",
-                "displayName-count-other": "Salvadoro kolonai",
-                symbol: "SVC"
+                "displayName-count-other": "Salvadoro kolonai"
             },
             SYP: {
                 displayName: "Sirijos svaras",
@@ -1971,7 +1739,6 @@ const data = {
                 "displayName-count-few": "Sirijos svarai",
                 "displayName-count-many": "Sirijos svaro",
                 "displayName-count-other": "Sirijos svarų",
-                symbol: "SYP",
                 "symbol-alt-narrow": "£"
             },
             SZL: {
@@ -1979,8 +1746,7 @@ const data = {
                 "displayName-count-one": "Svazilando lilangenis",
                 "displayName-count-few": "Svazilando lilangeniai",
                 "displayName-count-many": "Svazilendo lilangenio",
-                "displayName-count-other": "Svazilendo lilangenių",
-                symbol: "SZL"
+                "displayName-count-other": "Svazilendo lilangenių"
             },
             THB: {
                 displayName: "Tailando batas",
@@ -1988,7 +1754,6 @@ const data = {
                 "displayName-count-few": "Tailando batai",
                 "displayName-count-many": "Tailando bato",
                 "displayName-count-other": "Tailando batų",
-                symbol: "THB",
                 "symbol-alt-narrow": "฿"
             },
             TJR: {
@@ -1996,40 +1761,35 @@ const data = {
                 "displayName-count-one": "Tadžikistano rublis",
                 "displayName-count-few": "Tadžikistano rubliai",
                 "displayName-count-many": "Tadžikistano rublio",
-                "displayName-count-other": "Tadžikistano rublių",
-                symbol: "TJR"
+                "displayName-count-other": "Tadžikistano rublių"
             },
             TJS: {
                 displayName: "Tadžikistano somonis",
                 "displayName-count-one": "Tadžikistano somonis",
                 "displayName-count-few": "Tadžikistano somoniai",
                 "displayName-count-many": "Tadžikistano somonio",
-                "displayName-count-other": "Tadžikistano somonių",
-                symbol: "TJS"
+                "displayName-count-other": "Tadžikistano somonių"
             },
             TMM: {
                 displayName: "Turkmėnistano manatas (1993–2009)",
                 "displayName-count-one": "Turkmėnistano manatas (1993–2009)",
                 "displayName-count-few": "Turkmėnistano manatai (1993–2009)",
                 "displayName-count-many": "Turkmėnistano manato (1993–2009)",
-                "displayName-count-other": "Turkmėnistano manatų (1993–2009)",
-                symbol: "TMM"
+                "displayName-count-other": "Turkmėnistano manatų (1993–2009)"
             },
             TMT: {
                 displayName: "Turkmėnistano manatas",
                 "displayName-count-one": "Turkmėnistano manatas",
                 "displayName-count-few": "Turkmėnistano manatai",
                 "displayName-count-many": "Turkmėnistano manato",
-                "displayName-count-other": "Turkmėnistano manatų",
-                symbol: "TMT"
+                "displayName-count-other": "Turkmėnistano manatų"
             },
             TND: {
                 displayName: "Tuniso dinaras",
                 "displayName-count-one": "Tuniso dinaras",
                 "displayName-count-few": "Tuniso dinarai",
                 "displayName-count-many": "Tuniso dinaro",
-                "displayName-count-other": "Tuniso dinarų",
-                symbol: "TND"
+                "displayName-count-other": "Tuniso dinarų"
             },
             TOP: {
                 displayName: "Tongo paanga",
@@ -2037,7 +1797,6 @@ const data = {
                 "displayName-count-few": "Tongo paangos",
                 "displayName-count-many": "Tongo paangos",
                 "displayName-count-other": "Tongo paangų",
-                symbol: "TOP",
                 "symbol-alt-narrow": "T$"
             },
             TPE: {
@@ -2045,16 +1804,14 @@ const data = {
                 "displayName-count-one": "Timoro eskudas",
                 "displayName-count-few": "Timoro eskudai",
                 "displayName-count-many": "Timoro eskudo",
-                "displayName-count-other": "Timoro eskudų",
-                symbol: "TPE"
+                "displayName-count-other": "Timoro eskudų"
             },
             TRL: {
                 displayName: "Turkijos lira (1922–2005)",
                 "displayName-count-one": "Turkijos lira (1922–2005)",
                 "displayName-count-few": "Turkijos liros (1922–2005)",
                 "displayName-count-many": "Turkijos liros (1922–2005)",
-                "displayName-count-other": "Turkijos lirų (1922–2005)",
-                symbol: "TRL"
+                "displayName-count-other": "Turkijos lirų (1922–2005)"
             },
             TRY: {
                 displayName: "Turkijos lira",
@@ -2062,7 +1819,6 @@ const data = {
                 "displayName-count-few": "Turkijos liros",
                 "displayName-count-many": "Turkijos liros",
                 "displayName-count-other": "Turkijos lirų",
-                symbol: "TRY",
                 "symbol-alt-narrow": "₺",
                 "symbol-alt-variant": "TL"
             },
@@ -2072,7 +1828,6 @@ const data = {
                 "displayName-count-few": "Trinidado ir Tobago doleriai",
                 "displayName-count-many": "Trinidado ir Tobago dolerio",
                 "displayName-count-other": "Trinidado ir Tobago dolerių",
-                symbol: "TTD",
                 "symbol-alt-narrow": "$"
             },
             TWD: {
@@ -2089,8 +1844,7 @@ const data = {
                 "displayName-count-one": "Tanzanijos šilingas",
                 "displayName-count-few": "Tanzanijos šilingai",
                 "displayName-count-many": "Tanzanijos šilingo",
-                "displayName-count-other": "Tanzanijos šilingų",
-                symbol: "TZS"
+                "displayName-count-other": "Tanzanijos šilingų"
             },
             UAH: {
                 displayName: "Ukrainos grivina",
@@ -2098,7 +1852,6 @@ const data = {
                 "displayName-count-few": "Ukrainos grivinos",
                 "displayName-count-many": "Ukrainos grivinos",
                 "displayName-count-other": "Ukrainos grivinų",
-                symbol: "UAH",
                 "symbol-alt-narrow": "₴"
             },
             UAK: {
@@ -2106,24 +1859,21 @@ const data = {
                 "displayName-count-one": "Ukrainos karbovanets",
                 "displayName-count-few": "Ukrainos karbovantsiv",
                 "displayName-count-many": "Ukrainos karbovantsiv",
-                "displayName-count-other": "Ukrainos karbovantsiv",
-                symbol: "UAK"
+                "displayName-count-other": "Ukrainos karbovantsiv"
             },
             UGS: {
                 displayName: "Ugandos šilingas (1966–1987)",
                 "displayName-count-one": "Ugandos šilingas (1966–1987)",
                 "displayName-count-few": "Ugandos šilingai (1966–1987)",
                 "displayName-count-many": "Ugandos šilingo (1966–1987)",
-                "displayName-count-other": "Ugandos šilingų (1966–1987)",
-                symbol: "UGS"
+                "displayName-count-other": "Ugandos šilingų (1966–1987)"
             },
             UGX: {
                 displayName: "Ugandos šilingas",
                 "displayName-count-one": "Ugandos šilingas",
                 "displayName-count-few": "Ugandos šilingai",
                 "displayName-count-many": "Ugandos šilingo",
-                "displayName-count-other": "Ugandos šilingų",
-                symbol: "UGX"
+                "displayName-count-other": "Ugandos šilingų"
             },
             USD: {
                 displayName: "JAV doleris",
@@ -2139,32 +1889,28 @@ const data = {
                 "displayName-count-one": "JAV doleris (kitą dieną)",
                 "displayName-count-few": "JAV doleriai (kitą dieną)",
                 "displayName-count-many": "JAV dolerio (kitą dieną)",
-                "displayName-count-other": "JAV dolerių (kitą dieną)",
-                symbol: "USN"
+                "displayName-count-other": "JAV dolerių (kitą dieną)"
             },
             USS: {
                 displayName: "JAV doleris (šios dienos)",
                 "displayName-count-one": "JAV doleris (tą pačią dieną)",
                 "displayName-count-few": "JAV doleriai (tą pačią dieną)",
                 "displayName-count-many": "JAV dolerio (tą pačią dieną)",
-                "displayName-count-other": "JAV dolerių (tą pačią dieną)",
-                symbol: "USS"
+                "displayName-count-other": "JAV dolerių (tą pačią dieną)"
             },
             UYI: {
                 displayName: "Urugvajaus pesai en unidades indexadas",
                 "displayName-count-one": "Urugvajaus pesas en unidades indexadas",
                 "displayName-count-few": "Uragvajaus pesai en unidades indexadas",
                 "displayName-count-many": "Urugvajaus pesai en unidades indexadas",
-                "displayName-count-other": "Urugvajaus pesai en unidades indexadas",
-                symbol: "UYI"
+                "displayName-count-other": "Urugvajaus pesai en unidades indexadas"
             },
             UYP: {
                 displayName: "Urugvajaus pesas (1975–1993)",
                 "displayName-count-one": "Urugvajaus pesas (1975–1993)",
                 "displayName-count-few": "Urugvajaus pesai (1975–1993)",
                 "displayName-count-many": "Urugvajaus peso (1975–1993)",
-                "displayName-count-other": "Urugvajaus pesų (1975–1993)",
-                symbol: "UYP"
+                "displayName-count-other": "Urugvajaus pesų (1975–1993)"
             },
             UYU: {
                 displayName: "Urugvajaus pesas",
@@ -2172,32 +1918,21 @@ const data = {
                 "displayName-count-few": "Urugvajaus pesai",
                 "displayName-count-many": "Urugvajaus peso",
                 "displayName-count-other": "Urugvajaus pesų",
-                symbol: "UYU",
                 "symbol-alt-narrow": "$"
-            },
-            UYW: {
-                displayName: "UYW",
-                symbol: "UYW"
             },
             UZS: {
                 displayName: "Uzbekistano sumas",
                 "displayName-count-one": "Uzbekistano sumas",
                 "displayName-count-few": "Uzbekistano sumai",
                 "displayName-count-many": "Uzbekistano sumo",
-                "displayName-count-other": "Uzbekistano sumų",
-                symbol: "UZS"
+                "displayName-count-other": "Uzbekistano sumų"
             },
             VEB: {
                 displayName: "Venesuelos bolivaras (1871–2008)",
                 "displayName-count-one": "Venesuelos bolivaras (1871–2008)",
                 "displayName-count-few": "Venesuelos bolivarai (1871–2008)",
                 "displayName-count-many": "Venesuelos bolivaro (1871–2008)",
-                "displayName-count-other": "Venesuelos bolivarų (1871–2008)",
-                symbol: "VEB"
-            },
-            VED: {
-                displayName: "VED",
-                symbol: "VED"
+                "displayName-count-other": "Venesuelos bolivarų (1871–2008)"
             },
             VEF: {
                 displayName: "Venesuelos bolivaras (2008–2018)",
@@ -2205,7 +1940,6 @@ const data = {
                 "displayName-count-few": "Venesuelos bolivarai (2008–2018)",
                 "displayName-count-many": "Venesuelos bolivaro (2008–2018)",
                 "displayName-count-other": "Venesuelos bolivarų (2008–2018)",
-                symbol: "VEF",
                 "symbol-alt-narrow": "Bs"
             },
             VES: {
@@ -2213,8 +1947,7 @@ const data = {
                 "displayName-count-one": "Venesuelos bolivaras",
                 "displayName-count-few": "Venesuelos bolivarai",
                 "displayName-count-many": "Venesuelos bolivaro",
-                "displayName-count-other": "Venesuelos bolivarų",
-                symbol: "VES"
+                "displayName-count-other": "Venesuelos bolivarų"
             },
             VND: {
                 displayName: "Vietnamo dongas",
@@ -2230,24 +1963,21 @@ const data = {
                 "displayName-count-one": "Vietnamo dongas (1978–1985)",
                 "displayName-count-few": "Vietnamo dongai (1978–1985)",
                 "displayName-count-many": "Vietnamo dongo (1978–1985)",
-                "displayName-count-other": "Vietnamo dongų (1978–1985)",
-                symbol: "VNN"
+                "displayName-count-other": "Vietnamo dongų (1978–1985)"
             },
             VUV: {
                 displayName: "Vanuatu vatas",
                 "displayName-count-one": "Vanuatu vatas",
                 "displayName-count-few": "Vanuatu vatai",
                 "displayName-count-many": "Vanuatu vato",
-                "displayName-count-other": "Vanuatu vatų",
-                symbol: "VUV"
+                "displayName-count-other": "Vanuatu vatų"
             },
             WST: {
                 displayName: "Samoa tala",
                 "displayName-count-one": "Samoa tala",
                 "displayName-count-few": "Samoa talos",
                 "displayName-count-many": "Samoa talos",
-                "displayName-count-other": "Samoa talų",
-                symbol: "WST"
+                "displayName-count-other": "Samoa talų"
             },
             XAF: {
                 displayName: "CFA BEAC frankas",
@@ -2259,51 +1989,39 @@ const data = {
             },
             XAG: {
                 displayName: "Sidabras",
-                "displayName-count-one": "Sidabras",
-                "displayName-count-few": "Sidabras",
-                "displayName-count-many": "Sidabras",
-                "displayName-count-other": "Sidabras",
-                symbol: "XAG"
+                "displayName-count-other": "Sidabras"
             },
             XAU: {
                 displayName: "Auksas",
-                "displayName-count-one": "Auksas",
-                "displayName-count-few": "Auksas",
-                "displayName-count-many": "Auksas",
-                "displayName-count-other": "Auksas",
-                symbol: "XAU"
+                "displayName-count-other": "Auksas"
             },
             XBA: {
                 displayName: "Europos suvestinės vienetas",
                 "displayName-count-one": "Europos suvestinės vienetas",
                 "displayName-count-few": "Europos suvestinės vienetai",
                 "displayName-count-many": "Europos suvestinės vienetai",
-                "displayName-count-other": "Europos suvestinės vienetai",
-                symbol: "XBA"
+                "displayName-count-other": "Europos suvestinės vienetai"
             },
             XBB: {
                 displayName: "Europos piniginis vienetas",
                 "displayName-count-one": "Europos piniginis vienetas",
                 "displayName-count-few": "Europos piniginiai vienetai",
                 "displayName-count-many": "Europos piniginiai vienetai",
-                "displayName-count-other": "Europos piniginiai vienetai",
-                symbol: "XBB"
+                "displayName-count-other": "Europos piniginiai vienetai"
             },
             XBC: {
                 displayName: "Europos valiutos / apskaitos vienetas (XBC)",
                 "displayName-count-one": "Europos valiutos / apskaitos vienetas (XBC)",
                 "displayName-count-few": "Europos valiutos / apskaitos vienetai (XBC)",
                 "displayName-count-many": "Europos valiutos / apskaitos vienetai (XBC)",
-                "displayName-count-other": "Europos valiutos / apskaitos vienetai (XBC)",
-                symbol: "XBC"
+                "displayName-count-other": "Europos valiutos / apskaitos vienetai (XBC)"
             },
             XBD: {
                 displayName: "Europos valiutos / apskaitos vienetas (XBD)",
                 "displayName-count-one": "Europos valiutos / apskaitos vienetas (XBD)",
                 "displayName-count-few": "Europos valiutos / apskaitos vienetas (XBD)",
                 "displayName-count-many": "Europos valiutos / apskaitos vienetai (XBD)",
-                "displayName-count-other": "Europos valiutos / apskaitos vienetai (XBD)",
-                symbol: "XBD"
+                "displayName-count-other": "Europos valiutos / apskaitos vienetai (XBD)"
             },
             XCD: {
                 displayName: "Rytų Karibų doleris",
@@ -2314,33 +2032,35 @@ const data = {
                 symbol: "XCD",
                 "symbol-alt-narrow": "$"
             },
+            XCG: {
+                displayName: "Karibų guldenas",
+                "displayName-count-one": "Karibų guldenas",
+                "displayName-count-few": "Karibų guldenai",
+                "displayName-count-many": "Karibų guldeno",
+                "displayName-count-other": "Karibų guldenų",
+                symbol: "Cg."
+            },
             XDR: {
                 displayName: "SDR tarptautinis valiutos fondas",
-                "displayName-count-one": "SDR tarptautinis valiutos fondas",
-                "displayName-count-few": "SDR tarptautinis valiutos fondas",
-                "displayName-count-many": "SDR tarptautinis valiutos fondas",
-                "displayName-count-other": "SDR tarptautinis valiutos fondas",
-                symbol: "XDR"
+                "displayName-count-other": "SDR tarptautinis valiutos fondas"
             },
             XEU: {
                 displayName: "Europos piniginis vienetas (1993–1999)",
-                symbol: "XEU"
+                "displayName-count-other": "Europos piniginis vienetas (1993–1999)"
             },
             XFO: {
                 displayName: "Aukso frankas",
                 "displayName-count-one": "Aukso frankas",
                 "displayName-count-few": "Aukso frankai",
                 "displayName-count-many": "Aukso franko",
-                "displayName-count-other": "Aukso frankų",
-                symbol: "XFO"
+                "displayName-count-other": "Aukso frankų"
             },
             XFU: {
                 displayName: "Prancūzijos UIC - frankas",
                 "displayName-count-one": "Prancūzijos UIC - frankas",
                 "displayName-count-few": "Prancūzijos UIC - frankai",
                 "displayName-count-many": "Prancūzijos UIC - franko",
-                "displayName-count-other": "Prancūzijos UIC - frankų",
-                symbol: "XFU"
+                "displayName-count-other": "Prancūzijos UIC - frankų"
             },
             XOF: {
                 displayName: "CFA BCEAO frankas",
@@ -2352,11 +2072,7 @@ const data = {
             },
             XPD: {
                 displayName: "Paladis",
-                "displayName-count-one": "Paladis",
-                "displayName-count-few": "Paladis",
-                "displayName-count-many": "Paladis",
-                "displayName-count-other": "Paladis",
-                symbol: "XPD"
+                "displayName-count-other": "Paladis"
             },
             XPF: {
                 displayName: "CFP frankas",
@@ -2368,43 +2084,32 @@ const data = {
             },
             XPT: {
                 displayName: "Platina",
-                "displayName-count-one": "Platina",
-                "displayName-count-few": "Platina",
-                "displayName-count-many": "Platina",
-                "displayName-count-other": "Platina",
-                symbol: "XPT"
+                "displayName-count-other": "Platina"
             },
             XRE: {
                 displayName: "RINET fondai",
                 "displayName-count-one": "RINET fondas",
                 "displayName-count-few": "RINET fondai",
                 "displayName-count-many": "RINET fondai",
-                "displayName-count-other": "RINET fondai",
-                symbol: "XRE"
+                "displayName-count-other": "RINET fondai"
             },
             XSU: {
                 displayName: "Sukrė",
                 "displayName-count-one": "Sukrė",
                 "displayName-count-few": "Sukrės",
                 "displayName-count-many": "Sukrės",
-                "displayName-count-other": "Sukrių",
-                symbol: "XSU"
+                "displayName-count-other": "Sukrių"
             },
             XTS: {
                 displayName: "Tikrinamas valiutos kodas",
-                "displayName-count-one": "Tikrinamas valiutos kodas",
-                "displayName-count-few": "Tikrinamas valiutos kodas",
-                "displayName-count-many": "Tikrinamas valiutos kodas",
-                "displayName-count-other": "Tikrinamas valiutos kodas",
-                symbol: "XTS"
+                "displayName-count-other": "Tikrinamas valiutos kodas"
             },
             XUA: {
                 displayName: "Azijos plėtros banko apskaitos vienetas",
                 "displayName-count-one": "Azijos plėtros banko apskaitos vienetas",
                 "displayName-count-few": "Azijos plėtros banko apskaitos vienetai",
                 "displayName-count-many": "Azijos plėtros banko apskaitos vieneto",
-                "displayName-count-other": "Azijos plėtros banko apskaitos vienetų",
-                symbol: "XUA"
+                "displayName-count-other": "Azijos plėtros banko apskaitos vienetų"
             },
             XXX: {
                 displayName: "nežinoma valiuta",
@@ -2419,56 +2124,49 @@ const data = {
                 "displayName-count-one": "Jemeno dinaras",
                 "displayName-count-few": "Jemeno dinarai",
                 "displayName-count-many": "Jemeno dinaro",
-                "displayName-count-other": "Jemeno dinarų",
-                symbol: "YDD"
+                "displayName-count-other": "Jemeno dinarų"
             },
             YER: {
                 displayName: "Jemeno rialas",
                 "displayName-count-one": "Jemeno rialas",
                 "displayName-count-few": "Jemeno rialai",
                 "displayName-count-many": "Jemeno rialo",
-                "displayName-count-other": "Jemeno rialų",
-                symbol: "YER"
+                "displayName-count-other": "Jemeno rialų"
             },
             YUD: {
                 displayName: "Jugoslavijos kietasis dinaras (1966–1990)",
                 "displayName-count-one": "Jugoslavijos kietasis dinaras (1966–1990)",
                 "displayName-count-few": "Jugoslavijos kietieji dinarai (1966–1990)",
                 "displayName-count-many": "Jugoslavijos kietiejo dinaro (1966–1990)",
-                "displayName-count-other": "Jugoslavijos kietiejų dinarų (1966–1990)",
-                symbol: "YUD"
+                "displayName-count-other": "Jugoslavijos kietiejų dinarų (1966–1990)"
             },
             YUM: {
                 displayName: "Jugoslavijos naujasis dinaras (1994–2002)",
                 "displayName-count-one": "Jugoslavijos naujasis dinaras (1994–2002)",
                 "displayName-count-few": "Jugoslavijos naujieji dinarai (1994–2002)",
                 "displayName-count-many": "Jugoslavijos naujojo dinaro (1994–2002)",
-                "displayName-count-other": "Jugoslavijos naujųjų dinarų (1994–2002)",
-                symbol: "YUM"
+                "displayName-count-other": "Jugoslavijos naujųjų dinarų (1994–2002)"
             },
             YUN: {
                 displayName: "Jugoslavijos konvertuojamas dinaras (1990–1992)",
                 "displayName-count-one": "Jugoslavijos konvertuojamas dinaras (1990–1992)",
                 "displayName-count-few": "Jugoslavijos konvertuojami dinarai (1990–1992)",
                 "displayName-count-many": "Jugoslavijos konvertuojamo dinaro (1990–1992)",
-                "displayName-count-other": "Jugoslavijos konvertuojamų dinarų (1990–1992)",
-                symbol: "YUN"
+                "displayName-count-other": "Jugoslavijos konvertuojamų dinarų (1990–1992)"
             },
             YUR: {
                 displayName: "Jugoslavijos reformuotas dinaras (1992–1993)",
                 "displayName-count-one": "Jugoslavijos reformuotas dinaras (1992–1993)",
                 "displayName-count-few": "Jugoslavijos reformuoti dinarai (1992–1993)",
                 "displayName-count-many": "Jugoslavijos reformuoto dinaro (1992–1993)",
-                "displayName-count-other": "Jugoslavijos reformuotų dinarų (1992–1993)",
-                symbol: "YUR"
+                "displayName-count-other": "Jugoslavijos reformuotų dinarų (1992–1993)"
             },
             ZAL: {
                 displayName: "Pietų Afrikos finansinis randas",
                 "displayName-count-one": "Pietų Afrikos randas (finansinis)",
                 "displayName-count-few": "Pietų Afrikos randai (finansinis)",
                 "displayName-count-many": "Pietų Afrikos rando (finansinis)",
-                "displayName-count-other": "Pietų Afrikos randų (finansinis)",
-                symbol: "ZAL"
+                "displayName-count-other": "Pietų Afrikos randų (finansinis)"
             },
             ZAR: {
                 displayName: "Pietų Afrikos Respublikos randas",
@@ -2476,7 +2174,6 @@ const data = {
                 "displayName-count-few": "Pietų Afrikos Respublikos randai",
                 "displayName-count-many": "Pietų Afrikos Respublikos rando",
                 "displayName-count-other": "Pietų Afrikos Respublikos randų",
-                symbol: "ZAR",
                 "symbol-alt-narrow": "R"
             },
             ZMK: {
@@ -2484,8 +2181,7 @@ const data = {
                 "displayName-count-one": "Zambijos kvača (1968–2012)",
                 "displayName-count-few": "Zambijos kvačos (1968–2012)",
                 "displayName-count-many": "Zambijos kvačos (1968–2012)",
-                "displayName-count-other": "Zambijos kvačų (1968–2012)",
-                symbol: "ZMK"
+                "displayName-count-other": "Zambijos kvačų (1968–2012)"
             },
             ZMW: {
                 displayName: "Zambijos kvača",
@@ -2493,7 +2189,6 @@ const data = {
                 "displayName-count-few": "Zambijos kvačos",
                 "displayName-count-many": "Zambijos kvačos",
                 "displayName-count-other": "Zambijos kvačų",
-                symbol: "ZMW",
                 "symbol-alt-narrow": "ZK"
             },
             ZRN: {
@@ -2501,40 +2196,42 @@ const data = {
                 "displayName-count-one": "Zairo naujasis zairas (1993–1998)",
                 "displayName-count-few": "Zairo naujieji zairai (1993–1998)",
                 "displayName-count-many": "Zairo naujojo zairo (1993–1998)",
-                "displayName-count-other": "Zairo naujųjų zairų (1993–1998)",
-                symbol: "ZRN"
+                "displayName-count-other": "Zairo naujųjų zairų (1993–1998)"
             },
             ZRZ: {
                 displayName: "Zairo zairas (1971–1993)",
                 "displayName-count-one": "Zairo zairas (1971–1993)",
                 "displayName-count-few": "Zairo zairai (1971–1993)",
                 "displayName-count-many": "Zairo zairo (1971–1993)",
-                "displayName-count-other": "Zairo zairų (1971–1993)",
-                symbol: "ZRZ"
+                "displayName-count-other": "Zairo zairų (1971–1993)"
             },
             ZWD: {
                 displayName: "Zimbabvės doleris (1980–2008)",
                 "displayName-count-one": "Zimbabvės doleris (1980–2008)",
                 "displayName-count-few": "Zimbabvės doleriai (1980–2008)",
                 "displayName-count-many": "Zimbabvės dolerio (1980–2008)",
-                "displayName-count-other": "Zimbabvės dolerių (1980–2008)",
-                symbol: "ZWD"
+                "displayName-count-other": "Zimbabvės dolerių (1980–2008)"
+            },
+            ZWG: {
+                displayName: "Zimbabvės auksas",
+                "displayName-count-one": "Zimbabvės auksas",
+                "displayName-count-few": "Zimbabvės auksas",
+                "displayName-count-many": "Zimbabvės auksas",
+                "displayName-count-other": "Zimbabvės auksas"
             },
             ZWL: {
                 displayName: "Zimbabvės doleris (2009)",
                 "displayName-count-one": "Zimbabvės doleris (2009)",
                 "displayName-count-few": "Zimbabvės doleriai (2009)",
                 "displayName-count-many": "Zimbabvės dolerio (2009)",
-                "displayName-count-other": "Zimbabvės dolerių (2009)",
-                symbol: "ZWL"
+                "displayName-count-other": "Zimbabvės dolerių (2009)"
             },
             ZWR: {
                 displayName: "Zimbabvės doleris (2008)",
                 "displayName-count-one": "Zimbabvės doleris (2008)",
                 "displayName-count-few": "Zimbabvės doleriai (2008)",
                 "displayName-count-many": "Zimbabvės dolerio (2008)",
-                "displayName-count-other": "Zimbabvės dolerių (2008)",
-                symbol: "ZWR"
+                "displayName-count-other": "Zimbabvės dolerių (2008)"
             }
         },
         localeCurrency: "EUR"

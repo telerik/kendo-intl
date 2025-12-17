@@ -34,15 +34,19 @@ const data = {
                 Bhms: "B h:mm:ss",
                 d: "d",
                 E: "ccc",
+                EBh: "E h B",
                 EBhm: "E B h:mm",
                 EBhms: "E B h:mm:ss",
                 Ed: "E d",
+                Eh: "E h a",
                 Ehm: "E a h:mm",
                 EHm: "E HH:mm",
                 Ehms: "E a h:mm:ss",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
+                GyM: "G y-MM",
                 GyMd: "d/M/y GGGGG",
+                GyMEd: "G y-MM-dd, E",
                 GyMMM: "G y MMM",
                 GyMMMd: "G y MMM d",
                 GyMMMEd: "G y MMM d, E",
@@ -56,6 +60,8 @@ const data = {
                 Hmsv: "HH:mm:ss v",
                 hmv: "a h:mm v",
                 Hmv: "HH:mm v",
+                hv: "h a v",
+                Hv: "HH'h' v",
                 M: "L",
                 Md: "dd-MM",
                 MEd: "E, dd-MM",
@@ -343,13 +349,13 @@ const data = {
                 abbreviated: {
                     "0": "খ্ৰীঃ পূঃ",
                     "1": "খ্ৰীঃ",
-                    "0-alt-variant": "খ্ৰীষ্টপূৰ্ব",
+                    "0-alt-variant": "খ্ৰীঃ পূঃ",
                     "1-alt-variant": "চি. ই."
                 },
                 narrow: {
                     "0": "খ্ৰীঃ পূঃ",
                     "1": "খ্ৰীঃ",
-                    "0-alt-variant": "খ্ৰীষ্টপূৰ্ব",
+                    "0-alt-variant": "খ্ৰীঃ পূঃ",
                     "1-alt-variant": "চি. ই."
                 }
             }

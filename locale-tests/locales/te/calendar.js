@@ -24,8 +24,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} {0}కి",
-            long: "{1} {0}కి",
+            full: "{1} {0}",
+            long: "{1} {0}",
             medium: "{1} {0}",
             short: "{1} {0}",
             availableFormats: {
@@ -34,19 +34,23 @@ const data = {
                 Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBh: "E B h",
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "d, E",
+                Eh: "E h a",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
-                GyMd: "GGGGG y-MM-dd",
+                GyM: "G M/y",
+                GyMd: "G y-MM-dd",
+                GyMEd: "G d/M/y, E",
                 GyMMM: "G MMM y",
                 GyMMMd: "G d, MMM y",
                 GyMMMEd: "G, d MMM, y, E",
-                h: "h a",
+                h: "h a",
                 H: "HH",
                 hm: "h:mm a",
                 Hm: "HH:mm",
@@ -56,6 +60,8 @@ const data = {
                 Hmsv: "HH:mm:ss v",
                 hmv: "h:mm a v",
                 Hmv: "HH:mm v",
+                hv: "h a v",
+                Hv: "HH'h' v",
                 M: "L",
                 Md: "d/M",
                 MEd: "d/M, E",
@@ -317,8 +323,8 @@ const data = {
                 },
                 narrow: {
                     midnight: "అర్ధరాత్రి",
-                    am: "ఉ",
-                    pm: "సా",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "ఉదయం",
                     afternoon1: "మధ్యాహ్నం",
                     evening1: "సాయంత్రం",
@@ -420,14 +426,14 @@ const data = {
                 narrow: "నెలలో వారం"
             },
             day: {
-                wide: "దినం",
-                short: "దినం",
+                wide: "రోజు",
+                short: "రోజు",
                 narrow: "రోజు"
             },
             dayOfYear: {
-                wide: "సంవత్సరంలో దినం",
-                short: "సంవత్సరంలో దినం",
-                narrow: "సంవత్సరంలో దినం"
+                wide: "సంవత్సరంలో రోజు",
+                short: "సంవత్సరంలో రోజు",
+                narrow: "సంవత్సరంలో రోజు"
             },
             weekday: {
                 wide: "వారంలో రోజు",

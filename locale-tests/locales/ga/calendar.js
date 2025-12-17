@@ -9,7 +9,7 @@ const data = {
     territory: "IE",
     calendar: {
         patterns: {
-            d: "dd/MM/y",
+            d: "d/M/y",
             D: "EEEE d MMMM y",
             m: "d MMM",
             M: "d MMMM",
@@ -34,28 +34,34 @@ const data = {
                 Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBh: "E h B",
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "E d",
-                Ehm: "E h:mm a",
+                Eh: "E h a",
+                Ehm: "E h:mm a",
                 EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyM: "M/y G",
                 GyMd: "dd/MM/y GGGGG",
+                GyMEd: "E, d/M/y G",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E d MMM y G",
-                h: "h a",
+                h: "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
+                hv: "h a v",
+                Hv: "HH'h' v",
                 M: "LL",
                 Md: "dd/MM",
                 MEd: "E dd/MM",
@@ -63,11 +69,11 @@ const data = {
                 MMMd: "d MMM",
                 MMMEd: "E d MMM",
                 MMMMd: "d MMMM",
-                "MMMMW-count-one": "'seachtain' 'a' W 'i' MMMM",
-                "MMMMW-count-two": "'seachtain' 'a' W 'i' MMMM",
-                "MMMMW-count-few": "'seachtain' 'a' W 'i' MMMM",
-                "MMMMW-count-many": "'seachtain' 'a' W 'i' MMMM",
-                "MMMMW-count-other": "'seachtain' 'a' W 'i' MMMM",
+                "MMMMW-count-one": "MMMM: 'seachtain' W",
+                "MMMMW-count-two": "MMMM: 'seachtain' W",
+                "MMMMW-count-few": "MMMM: 'seachtain' W",
+                "MMMMW-count-many": "MMMM: 'seachtain' W",
+                "MMMMW-count-other": "MMMM: 'seachtain' W",
                 ms: "mm:ss",
                 y: "y",
                 yM: "MM/y",
@@ -79,11 +85,11 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-one": "'seachtain' 'a' w 'in' Y",
-                "yw-count-two": "'seachtain' 'a' w 'in' Y",
-                "yw-count-few": "'seachtain' 'a' w 'in' Y",
-                "yw-count-many": "'seachtain' 'a' w 'in' Y",
-                "yw-count-other": "'seachtain' 'a' w 'in' Y"
+                "yw-count-one": "'seachtain' w 'in' Y",
+                "yw-count-two": "'seachtain' w 'in' Y",
+                "yw-count-few": "'seachtain' w 'in' Y",
+                "yw-count-many": "'seachtain' w 'in' Y",
+                "yw-count-other": "'seachtain' w 'in' Y"
             }
         },
         timeFormats: {
@@ -96,7 +102,7 @@ const data = {
             full: "EEEE d MMMM y",
             long: "d MMMM y",
             medium: "d MMM y",
-            short: "dd/MM/y"
+            short: "d/M/yy"
         },
         days: {
             format: {
@@ -389,27 +395,27 @@ const data = {
                 narrow: "scht."
             },
             weekOfMonth: {
-                wide: "Seachtain den mhí",
-                short: "7n den mhí",
-                narrow: "7n den mhí"
+                wide: "seachtain den mhí",
+                short: "scht. den mhí",
+                narrow: "scht. den mhí"
             },
             day: {
-                wide: "Lá",
-                short: "Lá",
-                narrow: "Lá"
+                wide: "lá",
+                short: "lá",
+                narrow: "lá"
             },
             dayOfYear: {
-                wide: "Lá den bhliain",
+                wide: "lá den bhliain",
                 short: "lá den bhl.",
                 narrow: "lá den bhl."
             },
             weekday: {
-                wide: "Lá na seachtaine",
-                short: "lá den t7n",
-                narrow: "lá den t7n"
+                wide: "lá den tseachtain",
+                short: "lá den tscht.",
+                narrow: "lá den tscht."
             },
             weekdayOfMonth: {
-                wide: "Lá oibre den mhí",
+                wide: "lá den tseachtain sa mhí",
                 short: "lá oib. den mhí",
                 narrow: "lá oib. den mhí"
             },
@@ -419,29 +425,29 @@ const data = {
                 narrow: "a.m./p.m."
             },
             hour: {
-                wide: "Uair",
+                wide: "uair",
                 short: "uair",
                 narrow: "u"
             },
             minute: {
-                wide: "Nóiméad",
+                wide: "nóiméad",
                 short: "nóim.",
                 narrow: "n"
             },
             second: {
-                wide: "Soicind",
+                wide: "soicind",
                 short: "soic.",
                 narrow: "s"
             },
             zone: {
-                wide: "Crios Ama",
+                wide: "crios ama",
                 short: "crios",
                 narrow: "crios"
             },
             millisecond: {
                 narrow: "ms",
                 short: "ms",
-                wide: "mhilleasoicind"
+                wide: "ms"
             }
         }
     },

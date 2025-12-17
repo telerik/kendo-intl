@@ -10,12 +10,12 @@ const data = {
     calendar: {
         patterns: {
             d: "y-MM-dd",
-            D: "y MMMM d, EEEE",
+            D: "EEEE, MMMM d, y",
             m: "MMM d",
             M: "MMMM d",
             y: "y MMM",
             Y: "y MMMM",
-            F: "y MMMM d, EEEE h:mm:ss a",
+            F: "EEEE, MMMM d, y h:mm:ss a",
             g: "y-MM-dd h:mm a",
             G: "y-MM-dd h:mm:ss a",
             t: "h:mm a",
@@ -34,19 +34,23 @@ const data = {
                 Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBh: "E B h",
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "d, E",
+                Eh: "E h a",
                 Ehm: "E h:mm a",
                 EHm: "E HH:mm",
                 Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
-                GyMd: "M/d/y GGGGG",
+                GyM: "MM-y G",
+                GyMd: "M/d/y G",
+                GyMEd: "E, dd-MM-y G",
                 GyMMM: "G y MMM",
                 GyMMMd: "G y MMM d",
                 GyMMMEd: "G y MMM d, E",
-                h: "h a",
+                h: "h a",
                 H: "HH",
                 hm: "h:mm a",
                 Hm: "HH:mm",
@@ -56,6 +60,8 @@ const data = {
                 Hmsv: "HH:mm:ss v",
                 hmv: "h:mm a v",
                 Hmv: "HH:mm v",
+                hv: "h a v",
+                Hv: "HH'h' v",
                 M: "L",
                 Md: "MM-dd",
                 MEd: "MM-dd, E",
@@ -87,7 +93,7 @@ const data = {
             short: "h:mm a"
         },
         dateFormats: {
-            full: "y MMMM d, EEEE",
+            full: "EEEE, MMMM d, y",
             long: "y MMMM d",
             medium: "y MMM d",
             short: "y-MM-dd"
@@ -106,11 +112,11 @@ const data = {
                 narrow: [
                     "آچر",
                     "سو",
-                    "اڱارو",
+                    "اڱ",
                     "اربع",
                     "خم",
-                    "جمعو",
-                    "ڇنڇر"
+                    "جم",
+                    "ڇن"
                 ],
                 short: [
                     "آچر",
@@ -144,11 +150,11 @@ const data = {
                 narrow: [
                     "آچر",
                     "سو",
-                    "اڱارو",
+                    "اڱ",
                     "اربع",
                     "خم",
-                    "جمعو",
-                    "ڇنڇر"
+                    "جم",
+                    "ڇن"
                 ],
                 short: [
                     "آچر",
@@ -263,10 +269,10 @@ const data = {
         quarters: {
             format: {
                 abbreviated: [
-                    "Q1",
-                    "Q2",
-                    "Q3",
-                    "Q5"
+                    "پهرين ٽماهي",
+                    "ٻين ٽماهي",
+                    "ٽين ٽماهي",
+                    "چوٿين ٽماهي"
                 ],
                 narrow: [
                     "1",
@@ -283,10 +289,10 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "Q1",
-                    "Q2",
-                    "Q3",
-                    "Q4"
+                    "پهرين ٽماهي",
+                    "ٻين ٽماهي",
+                    "ٽين ٽماهي",
+                    "چوٿين ٽماهي"
                 ],
                 narrow: [
                     "1",
@@ -305,12 +311,12 @@ const data = {
         dayPeriods: {
             format: {
                 abbreviated: {
-                    am: "صبح، منجهند",
-                    pm: "شام، منجهند"
+                    am: "صبح",
+                    pm: "شام"
                 },
                 narrow: {
-                    am: "صبح، منجهند",
-                    pm: "منجهند، شام"
+                    am: "صبح",
+                    pm: "شام"
                 },
                 wide: {
                     am: "صبح، منجهند",
@@ -319,12 +325,12 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: {
-                    am: "صبح، منجهند",
-                    pm: "منجهند، شام"
+                    am: "صبح",
+                    pm: "شام"
                 },
                 narrow: {
-                    am: "صبح، منجهند",
-                    pm: "منجهند، شام"
+                    am: "صبح",
+                    pm: "شام"
                 },
                 wide: {
                     am: "صبح، منجهند",
@@ -341,16 +347,16 @@ const data = {
                     "1-alt-variant": "عام دور"
                 },
                 abbreviated: {
-                    "0": "BC",
-                    "1": "CD",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0": "ق م",
+                    "1": "ع",
+                    "0-alt-variant": "ق م",
+                    "1-alt-variant": "ع"
                 },
                 narrow: {
-                    "0": "BC",
-                    "1": "CD",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0": "ق م",
+                    "1": "ع",
+                    "0-alt-variant": "ق م",
+                    "1-alt-variant": "ع"
                 }
             }
         },

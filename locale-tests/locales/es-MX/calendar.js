@@ -16,18 +16,18 @@ const data = {
             M: "d 'de' MMMM",
             y: "MMM y",
             Y: "MMMM 'de' y",
-            F: "EEEE, d 'de' MMMM 'de' y HH:mm:ss",
-            g: "d/M/y HH:mm",
-            G: "d/M/y HH:mm:ss",
-            t: "HH:mm",
-            T: "HH:mm:ss",
+            F: "EEEE, d 'de' MMMM 'de' y h:mm:ss a",
+            g: "d/M/y h:mm a",
+            G: "d/M/y h:mm:ss a",
+            t: "h:mm a",
+            T: "h:mm:ss a",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
             full: "{1}, {0}",
             long: "{1}, {0}",
-            medium: "{1} {0}",
+            medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
                 Bh: "h B",
@@ -35,33 +35,39 @@ const data = {
                 Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBh: "E h B",
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "E d",
-                Ehm: "E h:mm a",
+                Eh: "E h a",
+                Ehm: "E h:mm a",
                 EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
-                GyMd: "d/M/y GGGGG",
+                GyM: "M/y G",
+                GyMd: "d/M/y G",
+                GyMEd: "E, d/M/y G",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E, d MMM y G",
                 GyMMMM: "MMMM 'de' y G",
                 GyMMMMd: "d 'de' MMMM 'de' y G",
                 GyMMMMEd: "E, d 'de' MMMM 'de' y G",
-                h: "h a",
+                h: "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmsvvvv: "h:mm:ss a (vvvv)",
+                hmsvvvv: "h:mm:ss a (vvvv)",
                 Hmsvvvv: "HH:mm:ss (vvvv)",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
+                hv: "h a v",
+                Hv: "H 'h' v",
                 M: "L",
                 Md: "d/M",
                 MEd: "E, d/M",
@@ -94,10 +100,10 @@ const data = {
             }
         },
         timeFormats: {
-            full: "HH:mm:ss zzzz",
-            long: "HH:mm:ss z",
-            medium: "HH:mm:ss",
-            short: "HH:mm"
+            full: "h:mm:ss a zzzz",
+            long: "h:mm:ss a z",
+            medium: "h:mm:ss a",
+            short: "h:mm a"
         },
         dateFormats: {
             full: "EEEE, d 'de' MMMM 'de' y",
@@ -194,7 +200,7 @@ const data = {
                     "jun",
                     "jul",
                     "ago",
-                    "sept",
+                    "sep",
                     "oct",
                     "nov",
                     "dic"
@@ -238,7 +244,7 @@ const data = {
                     "jun",
                     "jul",
                     "ago",
-                    "sept",
+                    "sep",
                     "oct",
                     "nov",
                     "dic"
@@ -288,9 +294,9 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "1.er trimestre",
+                    "1.º trimestre",
                     "2.º trimestre",
-                    "3.er trimestre",
+                    "3.º trimestre",
                     "4.º trimestre"
                 ]
             },
@@ -302,15 +308,15 @@ const data = {
                     "T4"
                 ],
                 narrow: [
-                    "1T",
-                    "2T",
-                    "3T",
-                    "4T"
+                    "1",
+                    "2",
+                    "3",
+                    "4"
                 ],
                 wide: [
-                    "1.er trimestre",
+                    "1.º trimestre",
                     "2.º trimestre",
-                    "3.er trimestre",
+                    "3.º trimestre",
                     "4.º trimestre"
                 ]
             }
@@ -318,27 +324,27 @@ const data = {
         dayPeriods: {
             format: {
                 abbreviated: {
-                    am: "a. m.",
+                    am: "a.m.",
                     noon: "del mediodía",
-                    pm: "p. m.",
+                    pm: "p.m.",
                     morning1: "de la madrugada",
                     morning2: "de la mañana",
                     evening1: "de la tarde",
                     night1: "de la noche"
                 },
                 narrow: {
-                    am: "a. m.",
+                    am: "a. m.",
                     noon: "del mediodía",
-                    pm: "p. m.",
+                    pm: "p. m.",
                     morning1: "de la madrugada",
-                    morning2: "mañana",
+                    morning2: "de la mañana",
                     evening1: "de la tarde",
                     night1: "de la noche"
                 },
                 wide: {
-                    am: "a. m.",
+                    am: "a.m.",
                     noon: "del mediodía",
-                    pm: "p. m.",
+                    pm: "p.m.",
                     morning1: "de la madrugada",
                     morning2: "de la mañana",
                     evening1: "de la tarde",
@@ -347,27 +353,27 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: {
-                    am: "a. m.",
+                    am: "a. m.",
                     noon: "mediodía",
-                    pm: "p. m.",
+                    pm: "p. m.",
                     morning1: "madrugada",
                     morning2: "mañana",
                     evening1: "tarde",
                     night1: "noche"
                 },
                 narrow: {
-                    am: "a. m.",
+                    am: "a. m.",
                     noon: "mediodía",
-                    pm: "p. m.",
+                    pm: "p. m.",
                     morning1: "madrugada",
                     morning2: "mañana",
                     evening1: "tarde",
                     night1: "noche"
                 },
                 wide: {
-                    am: "a. m.",
+                    am: "a.m.",
                     noon: "mediodía",
-                    pm: "p. m.",
+                    pm: "p.m.",
                     morning1: "madrugada",
                     morning2: "mañana",
                     evening1: "tarde",
@@ -384,16 +390,16 @@ const data = {
                     "1-alt-variant": "era común"
                 },
                 abbreviated: {
-                    "0": "a. C.",
-                    "1": "d. C.",
-                    "0-alt-variant": "a. e. c.",
-                    "1-alt-variant": "e. c."
+                    "0": "a.C.",
+                    "1": "d.C.",
+                    "0-alt-variant": "a.e.c.",
+                    "1-alt-variant": "e.c."
                 },
                 narrow: {
-                    "0": "a. C.",
-                    "1": "d. C.",
-                    "0-alt-variant": "a. e. c.",
-                    "1-alt-variant": "e. c."
+                    "0": "a.C.",
+                    "1": "d.C.",
+                    "0-alt-variant": "a.e.c.",
+                    "1-alt-variant": "e.c."
                 }
             }
         },
@@ -451,9 +457,9 @@ const data = {
                 narrow: "día hábil del mes"
             },
             dayperiod: {
-                short: "a. m./p. m.",
-                wide: "a. m./p. m.",
-                narrow: "a. m./p. m."
+                short: "a.m./p.m.",
+                wide: "a.m./p.m.",
+                narrow: "a.m./p.m."
             },
             hour: {
                 wide: "hora",

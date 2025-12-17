@@ -9,17 +9,17 @@ const data = {
     territory: "BG",
     calendar: {
         patterns: {
-            d: "d.MM.y 'г'.",
-            D: "EEEE, d MMMM y 'г'.",
+            d: "d.MM.y 'г'.",
+            D: "EEEE, d MMMM y 'г'.",
             m: "d.MM",
             M: "d MMMM",
-            y: "MM.y 'г'.",
-            Y: "MMMM y 'г'.",
-            F: "EEEE, d MMMM y 'г'. H:mm:ss 'ч'.",
-            g: "d.MM.y 'г'. H:mm 'ч'.",
-            G: "d.MM.y 'г'. H:mm:ss 'ч'.",
-            t: "H:mm 'ч'.",
-            T: "H:mm:ss 'ч'.",
+            y: "MM.y 'г'.",
+            Y: "MMMM y 'г'.",
+            F: "EEEE, d MMMM y 'г'. H:mm:ss",
+            g: "d.MM.y 'г'. H:mm",
+            G: "d.MM.y 'г'. H:mm:ss",
+            t: "H:mm",
+            T: "H:mm:ss",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
@@ -34,21 +34,25 @@ const data = {
                 Bhms: "h:mm:ss 'ч'. B",
                 d: "d",
                 E: "ccc",
+                EBh: "E, h B",
                 EBhm: "E, h:mm 'ч'. B",
                 EBhms: "E, h:mm:ss 'ч'. B",
                 Ed: "E, d",
+                Eh: "E, h a",
                 Ehm: "E, h:mm 'ч'. a",
                 EHm: "E, HH:mm 'ч'.",
                 Ehms: "E, h:mm:ss 'ч'. a",
                 EHms: "E, HH:mm:ss 'ч'.",
-                Gy: "y 'г'. G",
-                GyMd: "dd.MM.y 'г'. GGGGG",
-                GyMMM: "MM.y 'г'. G",
-                GyMMMd: "d.MM.y 'г'. G",
-                GyMMMEd: "E, d.MM.y 'г'. G",
-                GyMMMM: "MMMM y 'г'. G",
-                GyMMMMd: "d MMMM y 'г'. G",
-                GyMMMMEd: "E, d MMMM y 'г'. G",
+                Gy: "y 'г'. G",
+                GyM: "M.y 'г'. G",
+                GyMd: "dd.MM.y 'г'. GGGGG",
+                GyMEd: "E, d.M.y 'г'. G",
+                GyMMM: "MM.y 'г'. G",
+                GyMMMd: "d.MM.y 'г'. G",
+                GyMMMEd: "E, d.MM.y 'г'. G",
+                GyMMMM: "MMMM y 'г'. G",
+                GyMMMMd: "d MMMM y 'г'. G",
+                GyMMMMEd: "E, d MMMM y 'г'. G",
                 h: "h 'ч'. a",
                 H: "HH 'ч'.",
                 hm: "h:mm 'ч'. a",
@@ -59,6 +63,8 @@ const data = {
                 Hmsv: "HH:mm:ss 'ч'. v",
                 hmv: "h:mm 'ч'. a v",
                 Hmv: "HH:mm 'ч'. v",
+                hv: "h 'ч'. a v",
+                Hv: "HH 'ч' v",
                 M: "L",
                 Md: "d.MM",
                 MEd: "E, d.MM",
@@ -72,18 +78,18 @@ const data = {
                 "MMMMW-count-one": "'седмица' W 'от' MMMM",
                 "MMMMW-count-other": "'седмица' W 'от' MMMM",
                 ms: "m:ss",
-                y: "y 'г'.",
-                yM: "MM.y 'г'.",
-                yMd: "d.MM.y 'г'.",
-                yMEd: "E, d.MM.y 'г'.",
-                yMMM: "MM.y 'г'.",
-                yMMMd: "d.MM.y 'г'.",
-                yMMMEd: "E, d.MM.y 'г'.",
-                yMMMM: "MMMM y 'г'.",
-                yMMMMd: "d MMMM y 'г'.",
-                yMMMMEd: "E, d MMMM y 'г'.",
-                yQQQ: "QQQ y 'г'.",
-                yQQQQ: "QQQQ y 'г'.",
+                y: "y 'г'.",
+                yM: "MM.y 'г'.",
+                yMd: "d.MM.y 'г'.",
+                yMEd: "E, d.MM.y 'г'.",
+                yMMM: "MM.y 'г'.",
+                yMMMd: "d.MM.y 'г'.",
+                yMMMEd: "E, d.MM.y 'г'.",
+                yMMMM: "MMMM y 'г'.",
+                yMMMMd: "d MMMM y 'г'.",
+                yMMMMEd: "E, d MMMM y 'г'.",
+                yQQQ: "QQQ y 'г'.",
+                yQQQQ: "QQQQ y 'г'.",
                 "yw-count-one": "'седмица' w 'от' Y 'г'.",
                 "yw-count-other": "'седмица' w 'от' Y 'г'."
             }
@@ -91,14 +97,14 @@ const data = {
         timeFormats: {
             full: "H:mm:ss 'ч'. zzzz",
             long: "H:mm:ss 'ч'. z",
-            medium: "H:mm:ss 'ч'.",
-            short: "H:mm 'ч'."
+            medium: "H:mm:ss",
+            short: "H:mm"
         },
         dateFormats: {
-            full: "EEEE, d MMMM y 'г'.",
-            long: "d MMMM y 'г'.",
-            medium: "d.MM.y 'г'.",
-            short: "d.MM.yy 'г'."
+            full: "EEEE, d MMMM y 'г'.",
+            long: "d MMMM y 'г'.",
+            medium: "d.MM.y 'г'.",
+            short: "d.MM.yy 'г'."
         },
         days: {
             format: {
@@ -408,7 +414,7 @@ const data = {
             },
             year: {
                 wide: "година",
-                short: "г.",
+                short: "год.",
                 narrow: "г."
             },
             quarter: {
@@ -428,8 +434,8 @@ const data = {
             },
             weekOfMonth: {
                 wide: "седмица от месеца",
-                short: "седмица от месеца",
-                narrow: "седмица от месеца"
+                short: "седм. от мес.",
+                narrow: "седм. от мес."
             },
             day: {
                 wide: "ден",
@@ -469,7 +475,7 @@ const data = {
             second: {
                 wide: "секунда",
                 short: "сек",
-                narrow: "с"
+                narrow: "сек"
             },
             zone: {
                 wide: "часова зона",

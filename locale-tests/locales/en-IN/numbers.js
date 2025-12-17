@@ -33,6 +33,7 @@ const data = {
                 2
             ]
         },
+        rational: {},
         scientific: {
             patterns: [
                 "nEn"

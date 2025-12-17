@@ -35,28 +35,34 @@ const data = {
                 Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBh: "E h B",
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "E d",
-                Ehm: "E h:mm a",
+                Eh: "E h a",
+                Ehm: "E h:mm a",
                 EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
+                GyM: "MM.y G",
                 GyMd: "dd.MM.y G",
+                GyMEd: "E, dd.MM.y G",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E, d MMM y G",
-                h: "h a",
+                h: "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
+                hv: "h a v",
+                Hv: "'h' HH v",
                 M: "L",
                 Md: "dd.MM",
                 MEd: "E, dd.MM",
@@ -391,7 +397,7 @@ const data = {
                 narrow: {
                     "0": "î.Hr.",
                     "1": "d.Hr.",
-                    "0-alt-variant": "î.e.n",
+                    "0-alt-variant": "î.e.n.",
                     "1-alt-variant": "e.n."
                 }
             }
@@ -450,9 +456,9 @@ const data = {
                 narrow: "ziua săpt. din lună"
             },
             dayperiod: {
-                short: "a.m/p.m.",
-                wide: "a.m/p.m.",
-                narrow: "a.m/p.m."
+                short: "a.m./p.m.",
+                wide: "a.m./p.m.",
+                narrow: "a.m./p.m."
             },
             hour: {
                 wide: "oră",

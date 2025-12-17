@@ -25,8 +25,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} அன்று {0}",
-            long: "{1} அன்று {0}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
@@ -35,28 +35,34 @@ const data = {
                 Bhms: "B h:mm:ss",
                 d: "d",
                 E: "ccc",
+                EBh: "E h B",
                 EBhm: "E B h:mm",
                 EBhms: "E B h:mm:ss",
                 Ed: "d E",
-                Ehm: "E a h:mm",
+                Eh: "E h a",
+                Ehm: "E h:mm a",
                 EHm: "E HH:mm",
-                Ehms: "E a h:mm:ss",
+                Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "G y",
-                GyMd: "GGGGG y-MM-dd",
+                GyM: "G y-MM",
+                GyMd: "d/M/y G",
+                GyMEd: "G y-MM-dd, E",
                 GyMMM: "G y MMM",
                 GyMMMd: "G y MMM d",
                 GyMMMEd: "G y MMM d, E",
-                h: "a h",
+                h: "h a",
                 H: "HH",
-                hm: "a h:mm",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "a h:mm:ss",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "a h:mm:ss v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "a h:mm v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
+                hv: "h a v",
+                Hv: "HH'h' v",
                 M: "L",
                 Md: "d/M",
                 MEd: "dd-MM, E",
@@ -266,10 +272,10 @@ const data = {
         quarters: {
             format: {
                 abbreviated: [
-                    "காலா.1",
-                    "காலா.2",
-                    "காலா.3",
-                    "காலா.4"
+                    "கா.1",
+                    "கா.2",
+                    "கா.3",
+                    "கா.4"
                 ],
                 narrow: [
                     "1",
@@ -278,7 +284,7 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "ஒன்றாம் காலாண்டு",
+                    "முதல் காலாண்டு",
                     "இரண்டாம் காலாண்டு",
                     "மூன்றாம் காலாண்டு",
                     "நான்காம் காலாண்டு"
@@ -286,10 +292,10 @@ const data = {
             },
             "stand-alone": {
                 abbreviated: [
-                    "காலா.1",
-                    "காலா.2",
-                    "காலா.3",
-                    "காலா.4"
+                    "கா.1",
+                    "கா.2",
+                    "கா.3",
+                    "கா.4"
                 ],
                 narrow: [
                     "1",
@@ -298,7 +304,7 @@ const data = {
                     "4"
                 ],
                 wide: [
-                    "ஒன்றாம் காலாண்டு",
+                    "முதல் காலாண்டு",
                     "இரண்டாம் காலாண்டு",
                     "மூன்றாம் காலாண்டு",
                     "நான்காம் காலாண்டு"
@@ -309,9 +315,9 @@ const data = {
             format: {
                 abbreviated: {
                     midnight: "நள்ளிரவு",
-                    am: "முற்பகல்",
+                    am: "AM",
                     noon: "நண்பகல்",
-                    pm: "பிற்பகல்",
+                    pm: "PM",
                     morning1: "அதிகாலை",
                     morning2: "காலை",
                     afternoon1: "மதியம்",
@@ -322,10 +328,10 @@ const data = {
                 },
                 narrow: {
                     midnight: "நள்.",
-                    am: "மு.ப",
+                    am: "AM",
                     noon: "நண்.",
-                    pm: "பி.ப",
-                    morning1: "அதி.",
+                    pm: "PM",
+                    morning1: "காலை",
                     morning2: "கா.",
                     afternoon1: "மதி.",
                     afternoon2: "பிற்.",
@@ -335,9 +341,9 @@ const data = {
                 },
                 wide: {
                     midnight: "நள்ளிரவு",
-                    am: "முற்பகல்",
+                    am: "AM",
                     noon: "நண்பகல்",
-                    pm: "பிற்பகல்",
+                    pm: "PM",
                     morning1: "அதிகாலை",
                     morning2: "காலை",
                     afternoon1: "மதியம்",
@@ -350,9 +356,9 @@ const data = {
             "stand-alone": {
                 abbreviated: {
                     midnight: "நள்ளிரவு",
-                    am: "முற்பகல்",
+                    am: "AM",
                     noon: "நண்பகல்",
-                    pm: "பிற்பகல்",
+                    pm: "PM",
                     morning1: "அதிகாலை",
                     morning2: "காலை",
                     afternoon1: "மதியம்",
@@ -363,9 +369,9 @@ const data = {
                 },
                 narrow: {
                     midnight: "நள்.",
-                    am: "மு.ப",
+                    am: "AM",
                     noon: "நண்.",
-                    pm: "பி.ப",
+                    pm: "PM",
                     morning1: "அதி.",
                     morning2: "கா.",
                     afternoon1: "மதி.",
@@ -376,9 +382,9 @@ const data = {
                 },
                 wide: {
                     midnight: "நள்ளிரவு",
-                    am: "முற்பகல்",
+                    am: "AM",
                     noon: "நண்பகல்",
-                    pm: "பிற்பகல்",
+                    pm: "PM",
                     morning1: "அதிகாலை",
                     morning2: "காலை",
                     afternoon1: "மதியம்",
@@ -426,7 +432,7 @@ const data = {
             },
             quarter: {
                 wide: "காலாண்டு",
-                short: "காலா.",
+                short: "கா.",
                 narrow: "கா."
             },
             month: {
@@ -465,13 +471,13 @@ const data = {
                 narrow: "மாத. வாரநாள்"
             },
             dayperiod: {
-                short: "முற்./பிற்.",
-                wide: "முற்பகல்/பிற்பகல்",
-                narrow: "முற்./பிற்."
+                short: "AM/PM",
+                wide: "AM/PM",
+                narrow: "AM/PM"
             },
             hour: {
-                wide: "மணி",
-                short: "மணி.",
+                wide: "மணிநேரம்",
+                short: "ம.",
                 narrow: "ம."
             },
             minute: {
@@ -481,7 +487,7 @@ const data = {
             },
             second: {
                 wide: "விநாடி",
-                short: "விநா.",
+                short: "வி.",
                 narrow: "வி."
             },
             zone: {

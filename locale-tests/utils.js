@@ -1,7 +1,6 @@
 import { cldr } from '../src/main';
+import availableLocales from 'cldr-data/availableLocales.json';
 
-const fs = require('fs');
-const path = require('path');
 const defaultDataClone = clone(cldr);
 
 function clone(obj) {
@@ -15,8 +14,20 @@ export function clean() {
     Object.assign(cldr, clone(defaultDataClone));
 }
 
+const EXCLUDE = {
+    root: true,
+    'en-US-POSIX': true
+};
+
+const ALIASES = {
+    'ca-ES-VALENCIA': 'ca-ES-valencia'
+};
+
 export const LOCALES =
-    fs.readdirSync(path.join('./node_modules', 'cldr-localenames-full', 'main'))
-        .filter(locale => locale !== 'root');
+    availableLocales.availableLocales
+        .filter(locale => EXCLUDE[locale] !== true)
+        .map(locale => {
+            return ALIASES[locale] || locale;
+        });
 
 export const NO_CURRENCY_LOCALE = 'es-419';

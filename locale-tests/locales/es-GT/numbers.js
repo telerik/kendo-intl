@@ -32,6 +32,7 @@ const data = {
                 3
             ]
         },
+        rational: {},
         scientific: {
             patterns: [
                 "nEn"
@@ -40,7 +41,7 @@ const data = {
         },
         percent: {
             patterns: [
-                "n %"
+                "n%"
             ],
             groupSize: [
                 3
@@ -53,8 +54,7 @@ const data = {
             groupSize: [
                 3
             ],
-            "unitPattern-count-one": "$ n",
-            "unitPattern-count-other": "$ n"
+            "unitPattern-count-other": "n $"
         },
         accounting: {
             patterns: [

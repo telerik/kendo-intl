@@ -10,12 +10,12 @@ const data = {
     calendar: {
         patterns: {
             d: "dd.MM.y",
-            D: "y 'ж'. d MMMM, EEEE",
+            D: "y 'ж'. d MMMM, EEEE",
             m: "d MMM",
             M: "d MMMM",
-            y: "y 'ж'. MMM",
-            Y: "y 'ж'. MMMM",
-            F: "y 'ж'. d MMMM, EEEE HH:mm:ss",
+            y: "y 'ж'. MMM",
+            Y: "y 'ж'. MMMM",
+            F: "y 'ж'. d MMMM, EEEE HH:mm:ss",
             g: "dd.MM.y HH:mm",
             G: "dd.MM.y HH:mm:ss",
             t: "HH:mm",
@@ -34,28 +34,34 @@ const data = {
                 Bhms: "B h:mm:ss",
                 d: "d",
                 E: "ccc",
+                EBh: "E, B h",
                 EBhm: "E, B h:mm",
                 EBhms: "E, B h:mm:ss",
                 Ed: "d, E",
-                Ehm: "E h:mm a",
+                Eh: "E, h a",
+                Ehm: "E h:mm a",
                 EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
-                Gy: "G y 'ж'.",
+                Gy: "G y 'ж'.",
+                GyM: "MM-GGGGG y",
                 GyMd: "dd-MM-GGGGG y",
-                GyMMM: "G y 'ж'. MMM",
-                GyMMMd: "G y 'ж'. d MMM",
-                GyMMMEd: "G y 'ж'. d MMM, E",
-                h: "h a",
+                GyMEd: "E, MM-dd-G y",
+                GyMMM: "G y 'ж'. MMM",
+                GyMMMd: "G y 'ж'. d MMM",
+                GyMMMEd: "G y 'ж'. d MMM, E",
+                h: "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
+                hv: "h a, v",
+                Hv: "HH'h' v",
                 M: "L",
                 Md: "dd.MM",
                 MEd: "dd.MM, E",
@@ -70,12 +76,12 @@ const data = {
                 yM: "MM.y",
                 yMd: "dd.MM.y",
                 yMEd: "dd.MM.y, E",
-                yMMM: "y 'ж'. MMM",
-                yMMMd: "y 'ж'. d MMM",
-                yMMMEd: "y 'ж'. d MMM, E",
-                yMMMM: "y 'ж'. MMMM",
-                yQQQ: "y 'ж'. QQQ",
-                yQQQQ: "y 'ж'. QQQQ",
+                yMMM: "y 'ж'. MMM",
+                yMMMd: "y 'ж'. d MMM",
+                yMMMEd: "y 'ж'. d MMM, E",
+                yMMMM: "y 'ж'. MMMM",
+                yQQQ: "y 'ж'. QQQ",
+                yQQQQ: "y 'ж'. QQQQ",
                 "yw-count-one": "Y 'жылдың' w-'аптасы'",
                 "yw-count-other": "Y 'жылдың' w-'аптасы'"
             }
@@ -87,9 +93,9 @@ const data = {
             short: "HH:mm"
         },
         dateFormats: {
-            full: "y 'ж'. d MMMM, EEEE",
-            long: "y 'ж'. d MMMM",
-            medium: "y 'ж'. dd MMM",
+            full: "y 'ж'. d MMMM, EEEE",
+            long: "y 'ж'. d MMMM",
+            medium: "y 'ж'. dd MMM",
             short: "dd.MM.yy"
         },
         days: {
@@ -379,14 +385,14 @@ const data = {
                 abbreviated: {
                     "0": "б.з.д.",
                     "1": "б.з.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "б.з.д.",
+                    "1-alt-variant": "б.з."
                 },
                 narrow: {
                     "0": "б.з.д.",
                     "1": "б.з.",
-                    "0-alt-variant": "BCE",
-                    "1-alt-variant": "CE"
+                    "0-alt-variant": "б.з.д.",
+                    "1-alt-variant": "б.з."
                 }
             }
         },
@@ -455,7 +461,7 @@ const data = {
             },
             minute: {
                 wide: "минут",
-                short: "мин",
+                short: "мин.",
                 narrow: "мин"
             },
             second: {

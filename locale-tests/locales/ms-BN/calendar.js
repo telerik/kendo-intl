@@ -16,11 +16,11 @@ const data = {
             M: "d MMMM",
             y: "MMM y",
             Y: "MMMM y",
-            F: "dd MMMM y h:mm:ss a",
-            g: "d/M/y h:mm a",
-            G: "d/M/y h:mm:ss a",
-            t: "h:mm a",
-            T: "h:mm:ss a",
+            F: "dd MMMM y h:mm:ss a",
+            g: "d/M/y h:mm a",
+            G: "d/M/y h:mm:ss a",
+            t: "h:mm a",
+            T: "h:mm:ss a",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
@@ -35,28 +35,34 @@ const data = {
                 Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBh: "E h B",
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "d E",
-                Ehm: "E h:mm a",
+                Eh: "E h a",
+                Ehm: "E h:mm a",
                 EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y G",
-                GyMd: "GGGGG y-MM-dd",
+                GyM: "M/y G",
+                GyMd: "G y-MM-dd",
+                GyMEd: "E, d/M/y G",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E, d MMM y G",
-                h: "h a",
+                h: "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
+                hv: "h a v",
+                Hv: "HH'h' v",
                 M: "L",
                 Md: "d-M",
                 MEd: "E, d-M",
@@ -65,7 +71,7 @@ const data = {
                 MMMd: "d MMM",
                 MMMEd: "E, d MMM",
                 MMMMd: "d MMMM",
-                "MMMMW-count-other": "'week' W 'of' MMMM",
+                "MMMMW-count-other": "'minggu' W 'daripada' MMMM",
                 ms: "mm:ss",
                 y: "y",
                 yM: "M-y",
@@ -77,14 +83,14 @@ const data = {
                 yMMMM: "MMMM y",
                 yQQQ: "QQQ y",
                 yQQQQ: "QQQQ y",
-                "yw-count-other": "'week' w 'of' Y"
+                "yw-count-other": "'minggu' w 'daripada' Y"
             }
         },
         timeFormats: {
-            full: "h:mm:ss a zzzz",
-            long: "h:mm:ss a z",
-            medium: "h:mm:ss a",
-            short: "h:mm a"
+            full: "h:mm:ss a zzzz",
+            long: "h:mm:ss a z",
+            medium: "h:mm:ss a",
+            short: "h:mm a"
         },
         dateFormats: {
             full: "dd MMMM y",
@@ -314,8 +320,8 @@ const data = {
                     night1: "malam"
                 },
                 narrow: {
-                    am: "a",
-                    pm: "p",
+                    am: "PG",
+                    pm: "PTG",
                     morning1: "pagi",
                     morning2: "pagi",
                     afternoon1: "tengah hari",
@@ -343,8 +349,8 @@ const data = {
                     night1: "malam"
                 },
                 narrow: {
-                    am: "a",
-                    pm: "p",
+                    am: "PG",
+                    pm: "PTG",
                     morning1: "pagi",
                     morning2: "pagi",
                     afternoon1: "tengah hari",
@@ -413,9 +419,9 @@ const data = {
                 narrow: "mgu"
             },
             weekOfMonth: {
-                wide: "Week Of Month",
-                short: "Week Of Month",
-                narrow: "Week Of Month"
+                wide: "minggu dalam bulan",
+                short: "minggu dlm bln",
+                narrow: "mgu dlm bln"
             },
             day: {
                 wide: "hari",
@@ -423,9 +429,9 @@ const data = {
                 narrow: "hari"
             },
             dayOfYear: {
-                wide: "Day Of Year",
-                short: "Day Of Year",
-                narrow: "Day Of Year"
+                wide: "hari dalam tahun",
+                short: "hari dlm thn",
+                narrow: "hari dlm thn"
             },
             weekday: {
                 wide: "Hari dalam Minggu",
@@ -433,9 +439,9 @@ const data = {
                 narrow: "Hari dalam Minggu"
             },
             weekdayOfMonth: {
-                wide: "Weekday Of Month",
-                short: "Weekday Of Month",
-                narrow: "Weekday Of Month"
+                wide: "Hari dalam Bulan",
+                short: "Hari dlm bln",
+                narrow: "Hari dlm bln"
             },
             dayperiod: {
                 short: "PG/PTG",

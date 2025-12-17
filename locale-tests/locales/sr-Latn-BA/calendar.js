@@ -11,15 +11,15 @@ const data = {
     territory: "BA",
     calendar: {
         patterns: {
-            d: "d.M.y.",
+            d: "d. M. y.",
             D: "EEEE, d. MMMM y.",
             m: "d. MMM",
             M: "d. MMMM",
             y: "MMM y.",
             Y: "MMMM y.",
             F: "EEEE, d. MMMM y. HH:mm:ss",
-            g: "d.M.y. HH:mm",
-            G: "d.M.y. HH:mm:ss",
+            g: "d. M. y. HH:mm",
+            G: "d. M. y. HH:mm:ss",
             t: "HH:mm",
             T: "HH:mm:ss",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
@@ -36,31 +36,37 @@ const data = {
                 Bhms: "hh:mm:ss B",
                 d: "d",
                 E: "E",
-                EBhm: "E hh:mm B",
-                EBhms: "E hh:mm:ss B",
+                EBh: "E h B",
+                EBhm: "E h:mm B",
+                EBhms: "E, hh:mm:ss B",
                 Ed: "E d.",
-                Ehm: "E h:mm a",
+                Eh: "E h a",
+                Ehm: "E h:mm a",
                 EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
                 Gy: "y. G",
+                GyM: "G y-MM",
                 GyMd: "d.MM.y. GGGGG",
+                GyMEd: "G y-MM-dd, E",
                 GyMMM: "MMM y. G",
                 GyMMMd: "d. MMM y. G",
                 GyMMMEd: "E, d. MMM y. G",
-                h: "h a",
+                h: "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
+                hv: "h a v",
+                Hv: "HH 'h' v",
                 M: "L",
-                Md: "d.M.",
-                MEd: "E, d.M.",
+                Md: "d. M.",
+                MEd: "E, d. M.",
                 MMdd: "dd.MM.",
                 MMM: "LLL",
                 MMMd: "d. MMM",
@@ -68,14 +74,14 @@ const data = {
                 MMMEd: "E d. MMM",
                 MMMMd: "d. MMMM",
                 MMMMEd: "E, d. MMMM",
-                "MMMMW-count-one": "W. 'sedmica' 'u' MMMM.",
-                "MMMMW-count-few": "W. 'sedmica' 'u' MMMM.",
-                "MMMMW-count-other": "W. 'sedmica' 'u' MMMM.",
+                "MMMMW-count-one": "MMMM: W. 'nedelja'",
+                "MMMMW-count-few": "MMMM: W. 'nedelja'",
+                "MMMMW-count-other": "MMMM: W. 'nedelja'",
                 ms: "mm:ss",
                 y: "y.",
-                yM: "M.y.",
-                yMd: "d.M.y.",
-                yMEd: "E, d.M.y.",
+                yM: "M. y.",
+                yMd: "d. M. y.",
+                yMEd: "E, d. M. y.",
                 yMM: "MM.y.",
                 yMMdd: "dd.MM.y.",
                 yMMM: "MMM y.",
@@ -84,9 +90,9 @@ const data = {
                 yMMMM: "MMMM y.",
                 yQQQ: "QQQ y.",
                 yQQQQ: "QQQQ y.",
-                "yw-count-one": "w. 'sedmica' 'u' Y.",
-                "yw-count-few": "w. 'sedmica' 'u' Y.",
-                "yw-count-other": "w. 'sedmica' 'u' Y."
+                "yw-count-one": "w. 'nedelja' 'u' Y.",
+                "yw-count-few": "w. 'nedelja' 'u' Y.",
+                "yw-count-other": "w. 'nedelja' 'u' Y."
             }
         },
         timeFormats: {
@@ -99,7 +105,7 @@ const data = {
             full: "EEEE, d. MMMM y.",
             long: "d. MMMM y.",
             medium: "d. M. y.",
-            short: "d.M.yy."
+            short: "d. M. y."
         },
         days: {
             format: {
@@ -107,7 +113,7 @@ const data = {
                     "ned",
                     "pon",
                     "uto",
-                    "sre",
+                    "sri",
                     "čet",
                     "pet",
                     "sub"
@@ -315,30 +321,30 @@ const data = {
             format: {
                 abbreviated: {
                     midnight: "ponoć",
-                    am: "prije podne",
+                    am: "prije podne",
                     noon: "podne",
-                    pm: "po podne",
-                    morning1: "jutro",
-                    afternoon1: "po pod.",
-                    evening1: "veče",
+                    pm: "po podne",
+                    morning1: "ujutru",
+                    afternoon1: "po podne",
+                    evening1: "uveče",
                     night1: "noću"
                 },
                 narrow: {
                     midnight: "ponoć",
-                    am: "AM",
+                    am: "prije podne",
                     noon: "podne",
-                    pm: "PM",
-                    morning1: "jutro",
-                    afternoon1: "po pod.",
-                    evening1: "veče",
-                    night1: "noć"
+                    pm: "po podne",
+                    morning1: "ujutro",
+                    afternoon1: "po podne",
+                    evening1: "uveče",
+                    night1: "noću"
                 },
                 wide: {
                     midnight: "ponoć",
                     am: "prije podne",
                     noon: "podne",
                     pm: "po podne",
-                    morning1: "ujutro",
+                    morning1: "ujutru",
                     afternoon1: "po podne",
                     evening1: "uveče",
                     night1: "noću"
@@ -347,9 +353,9 @@ const data = {
             "stand-alone": {
                 abbreviated: {
                     midnight: "ponoć",
-                    am: "prije podne",
+                    am: "prije podne",
                     noon: "podne",
-                    pm: "po podne",
+                    pm: "po podne",
                     morning1: "jutro",
                     afternoon1: "popodne",
                     evening1: "veče",
@@ -423,14 +429,14 @@ const data = {
                 narrow: "mjes."
             },
             week: {
-                wide: "nedjelja",
-                short: "ned.",
-                narrow: "ned."
+                wide: "sedmica",
+                short: "sedm.",
+                narrow: "sedm."
             },
             weekOfMonth: {
-                wide: "nedjelja u mjesecu",
-                short: "ned. u mjes.",
-                narrow: "ned. u mjes."
+                wide: "sedmica u mjesecu",
+                short: "sedm. u mjes.",
+                narrow: "sedm. u mjes."
             },
             day: {
                 wide: "dan",
@@ -443,9 +449,9 @@ const data = {
                 narrow: "dan u god."
             },
             weekday: {
-                wide: "dan u nedjelji",
-                short: "dan u nedjelji",
-                narrow: "dan u nedjelji"
+                wide: "dan u sedmici",
+                short: "dan u sedm.",
+                narrow: "dan u sedm."
             },
             weekdayOfMonth: {
                 wide: "dan u mjesecu",

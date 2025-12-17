@@ -1,17 +1,28 @@
 const likelySubtags = require("cldr-core/supplemental/likelySubtags.json");
 const currencyData = require("cldr-core/supplemental/currencyData.json");
 const weekData = require("cldr-core/supplemental/weekData.json");
+const availableLocales = require('cldr-data/availableLocales.json').availableLocales;
 const fs = require('fs');
 const path = require('path');
 const jsonNameRegex = /"([$A-Z\_a-z][$A-Z\_a-z0-9\\.]*)":/g;
 
-const LOCALES_PATH = path.join(process.cwd(), 'node_modules', 'cldr-localenames-full', 'main');
-
 module.exports = {};
 
 const EXCLUDE = {
-    root: true
+    root: true,
+    'en-US-POSIX': true
 };
+
+const ALIASES = {
+    'ca-ES-VALENCIA': 'ca-ES-valencia'
+};
+
+const LOCALES =
+    availableLocales
+        .filter(locale => EXCLUDE[locale] !== true)
+        .map(locale => {
+            return ALIASES[locale] || locale;
+        });
 
 const NO_CURRENCY = {
     'es-419': true // latin america. not sure what to use here
@@ -59,74 +70,70 @@ module.exports.buildLocales = (intl, { contentTemplate = defaultTemplate, extens
     const likelySubtagsData = data.supplemental.likelySubtags;
     const supplementalCurrency = data.supplemental.currencyData;
 
-    const locales = fs.readdirSync(LOCALES_PATH);
+    for (let idx = 0; idx < LOCALES.length; idx++) {
+        const name = LOCALES[idx];
+        const localePath = path.join(destFolder, name);
+        loadLocale(name, intl);
 
-    for (let idx = 0; idx < locales.length; idx++) {
-        const name = locales[idx];
-        if (!EXCLUDE[name]) {
-            const localePath = path.join(destFolder, name);
-            loadLocale(name, intl);
+        intl.firstDay(name);
+        intl.weekendRange(name);
 
-            intl.firstDay(name);
-            intl.weekendRange(name);
-
-            if (!NO_CURRENCY[name]) {
-                intl.localeCurrency(name);
-            }
-
-            if (!fs.existsSync(localePath)){
-                fs.mkdirSync(localePath);
-            }
-
-            const localeData = data[name];
-            const language = name.split('-')[0];
-            localeData.likelySubtags = {};
-
-            const localeCurrency = localeData.numbers.localeCurrency;
-            let localeCurrencyData;
-
-            if (likelySubtagsData[language]) {
-                localeData.likelySubtags[language] = likelySubtagsData[language];
-            }
-
-            if (likelySubtagsData[name]) {
-                localeData.likelySubtags[name] = likelySubtagsData[name];
-            }
-
-            if (supplementalCurrency.fractions[localeCurrency]) {
-                localeData.currencyData = localeCurrencyData = {
-                    [localeData.numbers.localeCurrency]: supplementalCurrency.fractions[localeCurrency]
-                };
-            }
-
-            delete localeData.identity.version;
-
-            fs.writeFileSync(path.join(localePath, `all.${ extension }`), contentTemplate(localeData));
-
-            const currencies = Object.assign(localeInfo(localeData), {
-                numbers: {
-                    currencies: localeData.numbers.currencies,
-                    localeCurrency: localeData.numbers.localeCurrency
-                }
-            });
-
-            delete localeData.numbers.currencies;
-            delete localeData.numbers.localeCurrency;
-            delete localeData.currencyData;
-
-            const numbers = Object.assign(localeInfo(localeData), {
-                numbers: localeData.numbers,
-                currencyData: localeCurrencyData
-            });
-
-            const calendar = Object.assign(localeInfo(localeData), {
-                calendar: localeData.calendar,
-                firstDay: localeData.firstDay
-            });
-
-            fs.writeFileSync(path.join(localePath, `currencies.${ extension }`), contentTemplate(currencies));
-            fs.writeFileSync(path.join(localePath, `numbers.${ extension }`), contentTemplate(numbers));
-            fs.writeFileSync(path.join(localePath, `calendar.${ extension }`), contentTemplate(calendar));
+        if (!NO_CURRENCY[name]) {
+            intl.localeCurrency(name);
         }
+
+        if (!fs.existsSync(localePath)){
+            fs.mkdirSync(localePath);
+        }
+
+        const localeData = data[name];
+        const language = name.split('-')[0];
+        localeData.likelySubtags = {};
+
+        const localeCurrency = localeData.numbers.localeCurrency;
+        let localeCurrencyData;
+
+        if (likelySubtagsData[language]) {
+            localeData.likelySubtags[language] = likelySubtagsData[language];
+        }
+
+        if (likelySubtagsData[name]) {
+            localeData.likelySubtags[name] = likelySubtagsData[name];
+        }
+
+        if (supplementalCurrency.fractions[localeCurrency]) {
+            localeData.currencyData = localeCurrencyData = {
+                [localeData.numbers.localeCurrency]: supplementalCurrency.fractions[localeCurrency]
+            };
+        }
+
+        delete localeData.identity.version;
+
+        fs.writeFileSync(path.join(localePath, `all.${ extension }`), contentTemplate(localeData));
+
+        const currencies = Object.assign(localeInfo(localeData), {
+            numbers: {
+                currencies: localeData.numbers.currencies,
+                localeCurrency: localeData.numbers.localeCurrency
+            }
+        });
+
+        delete localeData.numbers.currencies;
+        delete localeData.numbers.localeCurrency;
+        delete localeData.currencyData;
+
+        const numbers = Object.assign(localeInfo(localeData), {
+            numbers: localeData.numbers,
+            currencyData: localeCurrencyData
+        });
+
+        const calendar = Object.assign(localeInfo(localeData), {
+            calendar: localeData.calendar,
+            firstDay: localeData.firstDay
+        });
+
+        fs.writeFileSync(path.join(localePath, `currencies.${ extension }`), contentTemplate(currencies));
+        fs.writeFileSync(path.join(localePath, `numbers.${ extension }`), contentTemplate(numbers));
+        fs.writeFileSync(path.join(localePath, `calendar.${ extension }`), contentTemplate(calendar));
     }
 };

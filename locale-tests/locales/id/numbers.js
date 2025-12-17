@@ -31,6 +31,7 @@ const data = {
                 3
             ]
         },
+        rational: {},
         scientific: {
             patterns: [
                 "nEn"
@@ -66,9 +67,7 @@ const data = {
     currencyData: {
         IDR: {
             _rounding: "0",
-            _digits: "2",
-            _cashRounding: "0",
-            _cashDigits: "0"
+            _digits: "0"
         }
     }
 };

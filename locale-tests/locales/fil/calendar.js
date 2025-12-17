@@ -15,17 +15,17 @@ const data = {
             M: "MMMM d",
             y: "MMM y",
             Y: "MMMM y",
-            F: "EEEE, MMMM d, y h:mm:ss a",
-            g: "M/d/y h:mm a",
-            G: "M/d/y h:mm:ss a",
-            t: "h:mm a",
-            T: "h:mm:ss a",
+            F: "EEEE, MMMM d, y h:mm:ss a",
+            g: "M/d/y h:mm a",
+            G: "M/d/y h:mm:ss a",
+            t: "h:mm a",
+            T: "h:mm:ss a",
             s: "yyyy'-'MM'-'dd'T'HH':'mm':'ss",
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} 'nang' {0}",
-            long: "{1} 'nang' {0}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
@@ -34,28 +34,34 @@ const data = {
                 Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBh: "E h B",
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "d E",
-                Ehm: "E h:mm a",
+                Eh: "E h a",
+                Ehm: "E h:mm a",
                 EHm: "E HH:mm",
-                Ehms: "E h:mm:ss a",
+                Ehms: "E h:mm:ss a",
                 EHms: "E HH:mm:ss",
-                Gy: "G y",
-                GyMd: "M/d/y GGGGG",
+                Gy: "y G",
+                GyM: "M/y G",
+                GyMd: "M/d/y G",
+                GyMEd: "E, M/d/y G",
                 GyMMM: "MMM y G",
                 GyMMMd: "MMM d, y G",
                 GyMMMEd: "E, MMM d, y G",
-                h: "h a",
+                h: "h a",
                 H: "HH",
-                hm: "h:mm a",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
+                hv: "h a v",
+                Hv: "HH'h' v",
                 M: "L",
                 Md: "M/d",
                 MEd: "E, M/d",
@@ -64,7 +70,7 @@ const data = {
                 MMMEd: "E, MMM d",
                 MMMMd: "MMMM d",
                 MMMMEd: "E, MMMM d",
-                "MMMMW-count-one": "'ika'-W 'linggo' 'ng' MMMM",
+                "MMMMW-count-one": "'linggo' W 'ng' MMMM",
                 "MMMMW-count-other": "'linggo' W 'ng' MMMM",
                 ms: "mm:ss",
                 y: "y",
@@ -83,10 +89,10 @@ const data = {
             }
         },
         timeFormats: {
-            full: "h:mm:ss a zzzz",
-            long: "h:mm:ss a z",
-            medium: "h:mm:ss a",
-            short: "h:mm a"
+            full: "h:mm:ss a zzzz",
+            long: "h:mm:ss a z",
+            medium: "h:mm:ss a",
+            short: "h:mm a"
         },
         dateFormats: {
             full: "EEEE, MMMM d, y",
@@ -115,13 +121,13 @@ const data = {
                     "Sab"
                 ],
                 short: [
-                    "Li",
-                    "Lu",
-                    "Ma",
-                    "Mi",
-                    "Hu",
-                    "Bi",
-                    "Sa"
+                    "Lin",
+                    "Lun",
+                    "Mar",
+                    "Miy",
+                    "Huw",
+                    "Biy",
+                    "Sab"
                 ],
                 wide: [
                     "Linggo",
@@ -153,13 +159,13 @@ const data = {
                     "Sab"
                 ],
                 short: [
-                    "Li",
-                    "Lu",
-                    "Ma",
-                    "Mi",
-                    "Hu",
-                    "Bi",
-                    "Sa"
+                    "Lin",
+                    "Lun",
+                    "Mar",
+                    "Miy",
+                    "Huw",
+                    "Biy",
+                    "Sab"
                 ],
                 wide: [
                     "Linggo",
@@ -311,32 +317,32 @@ const data = {
                     am: "AM",
                     noon: "tanghaling-tapat",
                     pm: "PM",
-                    morning1: "nang umaga",
+                    morning1: "ng umaga",
                     morning2: "madaling-araw",
-                    afternoon1: "tanghali",
-                    evening1: "ng hapon",
-                    night1: "gabi"
+                    afternoon1: "ng hapon",
+                    evening1: "ng gabi",
+                    night1: "ng gabi"
                 },
                 narrow: {
                     midnight: "hatinggabi",
                     am: "am",
                     noon: "tanghaling-tapat",
                     pm: "pm",
-                    morning1: "umaga",
+                    morning1: "ng umaga",
                     morning2: "madaling-araw",
-                    afternoon1: "sa hapon",
-                    evening1: "sa gabi",
-                    night1: "gabi"
+                    afternoon1: "ng hapon",
+                    evening1: "ng gabi",
+                    night1: "ng gabi"
                 },
                 wide: {
                     midnight: "hatinggabi",
                     am: "AM",
                     noon: "tanghaling-tapat",
                     pm: "PM",
-                    morning1: "nang umaga",
+                    morning1: "ng umaga",
                     morning2: "madaling-araw",
-                    afternoon1: "tanghali",
-                    evening1: "ng hapon",
+                    afternoon1: "ng hapon",
+                    evening1: "ng gabi",
                     night1: "ng gabi"
                 }
             },
@@ -348,8 +354,8 @@ const data = {
                     pm: "PM",
                     morning1: "umaga",
                     morning2: "madaling-araw",
-                    afternoon1: "tanghali",
-                    evening1: "hapon",
+                    afternoon1: "hapon",
+                    evening1: "gabi",
                     night1: "gabi"
                 },
                 narrow: {
@@ -359,7 +365,7 @@ const data = {
                     pm: "PM",
                     morning1: "umaga",
                     morning2: "madaling-araw",
-                    afternoon1: "tanghali",
+                    afternoon1: "hapon",
                     evening1: "gabi",
                     night1: "gabi"
                 },
@@ -370,8 +376,8 @@ const data = {
                     pm: "PM",
                     morning1: "umaga",
                     morning2: "madaling-araw",
-                    afternoon1: "tanghali",
-                    evening1: "hapon",
+                    afternoon1: "hapon",
+                    evening1: "gabi",
                     night1: "gabi"
                 }
             }

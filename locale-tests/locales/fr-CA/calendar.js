@@ -25,8 +25,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} 'à' {0}",
-            long: "{1} 'à' {0}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1}, {0}",
             short: "{1} {0}",
             availableFormats: {
@@ -35,32 +35,38 @@ const data = {
                 Bhms: "h 'h' mm 'min' ss 's' B",
                 d: "d",
                 E: "E",
+                EBh: "E h 'h' B",
                 EBhm: "E h 'h' mm B",
                 EBhms: "E h 'h' mm 'min' ss 's' B",
                 Ed: "E d",
-                Ehm: "E h 'h' mm a",
+                Eh: "E h 'h' a",
+                Ehm: "E h 'h' mm a",
                 EHm: "E HH 'h' mm",
                 Ehms: "E h 'h' mm 'min' ss 's' a",
                 EHms: "E HH 'h' mm 'min' ss 's'",
                 Gy: "y G",
+                GyM: "y-MM G",
                 GyMd: "y-MM-dd GGGGG",
+                GyMEd: "E y-MM-dd G",
                 GyMMM: "MMM y G",
                 GyMMMd: "d MMM y G",
                 GyMMMEd: "E d MMM y G",
                 h: "h 'h' a",
                 H: "HH 'h'",
-                hm: "h 'h' mm a",
+                hm: "h 'h' mm a",
                 Hm: "HH 'h' mm",
                 hms: "h 'h' mm 'min' ss 's' a",
                 Hms: "HH 'h' mm 'min' ss 's'",
                 hmsv: "h 'h' mm 'min' ss 's' a v",
                 Hmsv: "HH 'h' mm 'min' ss 's' v",
-                hmv: "h 'h' mm a v",
+                hmv: "h 'h' mm a v",
                 Hmv: "HH 'h' mm v",
+                hv: "h 'h' a v",
+                Hv: "H 'h' v",
                 M: "L",
-                Md: "M-d",
-                MEd: "E M-d",
-                MMd: "MM-d",
+                Md: "MM-dd",
+                MEd: "E MM-dd",
+                MMd: "MM-dd",
                 MMdd: "MM-dd",
                 MMM: "LLL",
                 MMMd: "d MMM",
@@ -325,7 +331,7 @@ const data = {
                     pm: "p",
                     morning1: "mat.",
                     afternoon1: "après-midi",
-                    evening1: "soir",
+                    evening1: "du soir",
                     night1: "mat."
                 },
                 wide: {
@@ -347,8 +353,8 @@ const data = {
                     pm: "p.m.",
                     morning1: "mat.",
                     afternoon1: "après-midi",
-                    evening1: "soir",
-                    night1: "nuit"
+                    evening1: "du soir",
+                    night1: "du mat."
                 },
                 narrow: {
                     midnight: "minuit",
@@ -357,7 +363,7 @@ const data = {
                     pm: "p.m.",
                     morning1: "mat.",
                     afternoon1: "après-midi",
-                    evening1: "soir",
+                    evening1: "du soir",
                     night1: "mat."
                 },
                 wide: {
@@ -368,7 +374,7 @@ const data = {
                     morning1: "matin",
                     afternoon1: "après-midi",
                     evening1: "soir",
-                    night1: "nuit"
+                    night1: "matin"
                 }
             }
         },
@@ -377,8 +383,8 @@ const data = {
                 wide: {
                     "0": "avant Jésus-Christ",
                     "1": "après Jésus-Christ",
-                    "0-alt-variant": "avant l’ère chrétienne",
-                    "1-alt-variant": "de l’ère chrétienne"
+                    "0-alt-variant": "avant l’ère commune",
+                    "1-alt-variant": "de l’ère commune"
                 },
                 abbreviated: {
                     "0": "av. J.-C.",
@@ -435,12 +441,12 @@ const data = {
             dayOfYear: {
                 wide: "jour de l’année",
                 short: "j de l’année",
-                narrow: "j (an)"
+                narrow: "j de l’année"
             },
             weekday: {
                 wide: "jour de la semaine",
                 short: "j de la semaine",
-                narrow: "j (sem.)"
+                narrow: "j de la semaine"
             },
             weekdayOfMonth: {
                 wide: "jour du mois",

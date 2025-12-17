@@ -36,15 +36,19 @@ const data = {
                 Bhms: "Bh:mm:ss",
                 d: "d日",
                 E: "ccc",
+                EBh: "EBh时",
                 EBhm: "EBh:mm",
                 EBhms: "EBh:mm:ss",
                 Ed: "d日E",
+                Eh: "Eah时",
                 Ehm: "Eah:mm",
                 EHm: "EHH:mm",
                 Ehms: "Eah:mm:ss",
                 EHms: "EHH:mm:ss",
                 Gy: "Gy年",
-                GyMd: "GGGGG y-MM-dd",
+                GyM: "Gy年M月",
+                GyMd: "Gy-MM-dd",
+                GyMEd: "Gy-MM-ddE",
                 GyMMM: "Gy年M月",
                 GyMMMd: "Gy年M月d日",
                 GyMMMEd: "Gy年M月d日E",
@@ -55,10 +59,12 @@ const data = {
                 Hm: "HH:mm",
                 hms: "ah:mm:ss",
                 Hms: "HH:mm:ss",
-                hmsv: "v ah:mm:ss",
-                Hmsv: "v HH:mm:ss",
-                hmv: "v ah:mm",
+                hmsv: "vah:mm:ss",
+                Hmsv: "vHH:mm:ss",
+                hmv: "vah:mm",
                 Hmv: "v HH:mm",
+                hv: "vah时",
+                Hv: "vH时",
                 M: "M月",
                 Md: "d/M",
                 MEd: "E, d/M",
@@ -445,9 +451,9 @@ const data = {
                 narrow: "年中日"
             },
             weekday: {
-                wide: "工作日",
-                short: "工作日",
-                narrow: "工作日"
+                wide: "星期",
+                short: "星期",
+                narrow: "星期"
             },
             weekdayOfMonth: {
                 wide: "月中日",
@@ -480,7 +486,7 @@ const data = {
                 narrow: "时区"
             },
             millisecond: {
-                narrow: "毫秒",
+                narrow: "ms",
                 short: "毫秒",
                 wide: "毫秒"
             }

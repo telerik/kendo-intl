@@ -9,7 +9,7 @@ const data = {
     territory: "SI",
     calendar: {
         patterns: {
-            d: "d. MM. y",
+            d: "d. M. y",
             D: "EEEE, d. MMMM y",
             m: "d. MMM",
             M: "d. MMMM",
@@ -34,29 +34,34 @@ const data = {
                 Bhms: "h:mm:ss B",
                 d: "d.",
                 E: "ccc",
+                EBh: "E, h B",
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "E, d.",
-                Ehm: "E, h:mm a",
-                EHm: "E HH:mm",
-                Ehms: "E, h:mm:ss a",
-                EHms: "E HH:mm:ss",
+                Eh: "E, h a",
+                Ehm: "E, h:mm a",
+                EHm: "E, HH:mm",
+                Ehms: "E, h:mm:ss a",
+                EHms: "E, HH:mm:ss",
                 Gy: "y G",
                 GyM: "MMM y G",
                 GyMd: "d. M. y GGGGG",
+                GyMEd: "E, d. M. y G",
                 GyMMM: "MMM y G",
                 GyMMMd: "d. MMM y G",
                 GyMMMEd: "E, d. MMM y G",
-                h: "h a",
-                H: "HH'h'",
-                hm: "h:mm a",
+                h: "h a",
+                H: "HH",
+                hm: "h:mm a",
                 Hm: "HH:mm",
-                hms: "h:mm:ss a",
+                hms: "h:mm:ss a",
                 Hms: "HH:mm:ss",
-                hmsv: "h:mm:ss a v",
+                hmsv: "h:mm:ss a v",
                 Hmsv: "HH:mm:ss v",
-                hmv: "h:mm a v",
+                hmv: "h:mm a v",
                 Hmv: "HH:mm v",
+                hv: "h a v",
+                Hv: "HH'h' v",
                 M: "L",
                 Md: "d. M.",
                 MEd: "E, d. M.",
@@ -95,7 +100,7 @@ const data = {
             full: "EEEE, d. MMMM y",
             long: "d. MMMM y",
             medium: "d. MMM y",
-            short: "d. MM. yy"
+            short: "d. M. y"
         },
         days: {
             format: {
@@ -274,10 +279,10 @@ const data = {
                     "4. čet."
                 ],
                 narrow: [
-                    "1",
-                    "2",
-                    "3",
-                    "4"
+                    "1.",
+                    "2.",
+                    "3.",
+                    "4."
                 ],
                 wide: [
                     "1. četrtletje",
@@ -294,10 +299,10 @@ const data = {
                     "4. čet."
                 ],
                 narrow: [
-                    "1",
-                    "2",
-                    "3",
-                    "4"
+                    "1.",
+                    "2.",
+                    "3.",
+                    "4."
                 ],
                 wide: [
                     "1. četrtletje",
@@ -352,7 +357,7 @@ const data = {
                     morning1: "jut.",
                     morning2: "dop.",
                     afternoon1: "pop.",
-                    evening1: "zveč.",
+                    evening1: "več.",
                     night1: "noč"
                 },
                 narrow: {
@@ -401,7 +406,7 @@ const data = {
                 }
             }
         },
-        gmtFormat: "GMT{0}",
+        gmtFormat: "GMT {0}",
         gmtZeroFormat: "GMT",
         dateFields: {
             era: {

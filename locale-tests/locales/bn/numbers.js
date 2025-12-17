@@ -32,6 +32,7 @@ const data = {
                 2
             ]
         },
+        rational: {},
         scientific: {
             patterns: [
                 "nEn"
@@ -55,7 +56,6 @@ const data = {
                 3,
                 2
             ],
-            "unitPattern-count-one": "n $",
             "unitPattern-count-other": "n $"
         },
         accounting: {

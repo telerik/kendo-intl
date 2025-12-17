@@ -24,8 +24,8 @@ const data = {
             u: "yyyy'-'MM'-'dd HH':'mm':'ss'Z'"
         },
         dateTimeFormats: {
-            full: "{1} בשעה {0}",
-            long: "{1} בשעה {0}",
+            full: "{1}, {0}",
+            long: "{1}, {0}",
             medium: "{1}, {0}",
             short: "{1}, {0}",
             availableFormats: {
@@ -34,15 +34,19 @@ const data = {
                 Bhms: "h:mm:ss B",
                 d: "d",
                 E: "ccc",
+                EBh: "E h B",
                 EBhm: "E h:mm B",
                 EBhms: "E h:mm:ss B",
                 Ed: "E ה-d",
+                Eh: "E h a",
                 Ehm: "E h:mm a",
                 EHm: "E H:mm",
                 Ehms: "E h:mm:ss a",
                 EHms: "E H:mm:ss",
                 Gy: "y G",
-                GyMd: "d/M/y GGGGG",
+                GyM: "G y-MM",
+                GyMd: "d/M/y G",
+                GyMEd: "G y-MM-dd, E",
                 GyMMM: "MMM y G",
                 GyMMMd: "d בMMM y G",
                 GyMMMEd: "E, d בMMM y G",
@@ -56,6 +60,8 @@ const data = {
                 Hmsv: "HH:mm:ss v",
                 hmv: "h:mm a v",
                 Hmv: "HH:mm v",
+                hv: "h a v",
+                Hv: "HH'h' v",
                 M: "L",
                 Md: "d.M",
                 MEd: "E, d.M",
@@ -65,7 +71,6 @@ const data = {
                 MMMMd: "d בMMMM",
                 "MMMMW-count-one": "שבוע W בMMMM",
                 "MMMMW-count-two": "שבוע W בMMMM",
-                "MMMMW-count-many": "שבוע W בMMMM",
                 "MMMMW-count-other": "שבוע W בMMMM",
                 ms: "mm:ss",
                 y: "y",
@@ -81,7 +86,6 @@ const data = {
                 yQQQQ: "QQQQ y",
                 "yw-count-one": "שבוע w בשנת Y",
                 "yw-count-two": "שבוע w בשנת Y",
-                "yw-count-many": "שבוע w בשנת Y",
                 "yw-count-other": "שבוע w בשנת Y"
             }
         },
@@ -311,8 +315,8 @@ const data = {
             format: {
                 abbreviated: {
                     midnight: "חצות",
-                    am: "לפנה״צ",
-                    pm: "אחה״צ",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "בוקר",
                     afternoon1: "צהריים",
                     afternoon2: "אחר הצהריים",
@@ -322,8 +326,8 @@ const data = {
                 },
                 narrow: {
                     midnight: "חצות",
-                    am: "לפנה״צ",
-                    pm: "אחה״צ",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "בבוקר",
                     afternoon1: "בצהריים",
                     afternoon2: "אחה״צ",
@@ -333,8 +337,8 @@ const data = {
                 },
                 wide: {
                     midnight: "חצות",
-                    am: "לפנה״צ",
-                    pm: "אחה״צ",
+                    am: "AM",
+                    pm: "PM",
                     morning1: "בבוקר",
                     afternoon1: "בצהריים",
                     afternoon2: "אחר הצהריים",
@@ -482,7 +486,7 @@ const data = {
             millisecond: {
                 narrow: "ms",
                 short: "ms",
-                wide: "אלפית שנייה "
+                wide: "אלפית שנייה"
             }
         }
     },
