@@ -15,36 +15,24 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     environment: upload
 
     permissions:
-        id-token: write
-        contents: write
-        issues: write
-        packages: read
-        pull-requests: write
+      id-token: write # Required for OIDC
+      contents: write # Allows semantic-release to create tags
+      issues: write # Allows semantic-release to comment on issues
+      pull-requests: write # Allows semantic-release to comment on PRs
+      packages: read
 
     steps:
-      - name: Import Secrets
-        id: import-secrets
-        uses: LanceMcCarthy/akeyless-action@v3
-        with:
-          access-id: ${{ secrets.GH_AKEYLESS_ACCESS_ID }}
-          static-secrets: |
-            {
-              "${{ secrets.GH_AKEYLESS_GH_TOKEN_PATH }}": "GH_TOKEN",
-              "${{ secrets.GH_AKEYLESS_NPM_TOKEN_PATH }}": "NPM_TOKEN"
-            }
-          export-secrets-to-environment: false
-
       - name: Check out branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0 # Fetch all branches
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: '20'
 
@@ -57,8 +45,10 @@ jobs:
       - name: Run unit tests
         run: npm run test
 
+      - name: Set up Semantic Release
+        run: npm install --ignore-scripts semantic-release@25.0.2
+
       - name: Publish release
-        run: npx semantic-release
+        run: semantic-release
         env:
-          NPM_TOKEN: ${{ steps.import-secrets.outputs.NPM_TOKEN }}
-          GH_TOKEN: ${{ steps.import-secrets.outputs.GH_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
