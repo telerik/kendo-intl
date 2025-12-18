@@ -12,6 +12,13 @@ You can contribute by:
 * Proposing changes in documentation or updates to existing code.
 * Adding features or missing functionalities.  
 
+## Development Setup
+
+1. Run `npm ci` to install dependencies.
+1. Run `npm run tests:watch` to execute unit tests.
+1. Run `npm run build-locales` to build the test locales.
+1. Run `npm run locale-tests:watch` to execute the locale tests in watch mode.
+
 ## Steps to Contribute
 
 To submit your suggestions:
