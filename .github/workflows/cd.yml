@@ -46,9 +46,9 @@ jobs:
         run: npm run test
 
       - name: Set up Semantic Release
-        run: npm install --ignore-scripts semantic-release@25.0.2
+        run: npm install --global --ignore-scripts semantic-release@25.0.2
 
       - name: Publish release
-        run: semantic-release
+        run: npx semantic-release
         env:
           GH_TOKEN: ${{ github.token }}
