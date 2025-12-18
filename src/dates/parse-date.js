@@ -108,7 +108,11 @@ function getIndexByName(names, state, lower) {
 
 function checkLiteral(state) {
     let result = false;
-    if (state.value.charAt(state.valueIdx) === state.format[state.idx]) {
+    const valueChar = state.value.charAt(state.valueIdx);
+    const formatChar = state.format[state.idx];
+    const exactMatch = valueChar === formatChar;
+    const whitespaceMatch = /\s/.test(formatChar) && /\s/.test(valueChar);
+    if (exactMatch || whitespaceMatch) {
         state.valueIdx++;
         result = true;
     }
@@ -466,14 +470,8 @@ function addFormatSpaces(value, format) {
     return `${ leadingSpaces }${ value }${ trailingSpaces }`;
 }
 
-function normalizeWhitespace(value) {
-    return value.replace(/\s+/g, ' ').trim();
-}
-
-function parseExact(rawValue, rawFormat, info) {
-    const value = normalizeWhitespace(rawValue);
-    const format = normalizeWhitespace(rawFormat);
-    const pattern = normalizeWhitespace(datePattern(format, info)).split(EMPTY);
+function parseExact(value, format, info) {
+    const pattern = datePattern(format, info).split(EMPTY);
 
     const state = {
         format: pattern,
