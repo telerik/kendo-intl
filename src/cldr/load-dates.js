@@ -7,6 +7,7 @@ const predefinedDatePatterns = {
 
 const YEAR_REGEX = /y+/g;
 const SHORT_DATE = [ [ "dateFormats", "short" ] ];
+const ALT_ASCII_REGEX = /-alt-ascii$/;
 
 const datePatterns = {
     D: [ [ "dateFormats", "full" ] ],
@@ -103,6 +104,19 @@ function getPredefinedFormat(paths, calendar) {
     return result.join(" ");
 }
 
+function filterFormats(formats) {
+    const result = {};
+    for (let format in formats) {
+        // Removes -alt-ascii formats in favor of the regular, Unicode formats
+        if (!ALT_ASCII_REGEX.test(format)) {
+            result[format] = formats[format];
+        }
+    }
+
+    return result;
+}
+
+
 function loadCalendarPatterns(locale, calendar) {
     const cldrCalendar = cldr[locale].calendar;
     const patterns = cldrCalendar.patterns = {};
@@ -123,10 +137,10 @@ function loadCalendarPatterns(locale, calendar) {
         long: dateTimeFormats.long,
         medium: dateTimeFormats.medium,
         short: dateTimeFormats.short,
-        availableFormats: dateTimeFormats.availableFormats
+        availableFormats: filterFormats(dateTimeFormats.availableFormats)
     };
-    cldrCalendar.timeFormats = calendar.timeFormats;
-    cldrCalendar.dateFormats = calendar.dateFormats;
+    cldrCalendar.timeFormats = filterFormats(calendar.timeFormats);
+    cldrCalendar.dateFormats = filterFormats(calendar.dateFormats);
 }
 
 
