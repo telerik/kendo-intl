@@ -11,6 +11,7 @@
   "typings": "dist/npm/main.d.ts",
   "scripts": {
     "build-package": "gulp build-rollup-package build-cdn",
+    "build-locales": "gulp build-locales",
     "test": "vitest --run ./test/",
     "test:watch": "vitest ./test/",
     "locale-tests": "vitest --run ./locale-tests/",
