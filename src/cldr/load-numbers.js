@@ -48,11 +48,10 @@ export default function loadNumbersInfo(locale, info) {
                 numbers[style] = {
                     patterns: getPatterns(pattern)
                 };
-            } else {
-                numbers[style] = {};
             }
 
             if (style === CURRENCY) {
+                numbers[style] = numbers[style] || {};
                 numbers[style].groupSize = getGroupSize((info[DECIMAL + LATIN_NUMBER_FORMATS] || info[field]).standard);
                 loadCurrencyUnitPatterns(numbers[style], info[field]);
                 numbers[ACCOUNTING] = {
