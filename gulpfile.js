@@ -29,7 +29,7 @@ const cleanupCurrencies = (locale) => {
     return locale;
 };
 
-gulp.task("build-default-data", gulp.series("build-npm-package", () => {
+gulp.task("build-default-data", gulp.series("build-npm-package", (done) => {
     const cldr = require("./dist/npm/js/cldr");
     cldr.load(likelySubtags, currencyData, weekData, numbers, currencies, timeZoneNames, calendar);
 
@@ -60,6 +60,7 @@ gulp.task("build-default-data", gulp.series("build-npm-package", () => {
         }
     };
     fs.writeFileSync('src/cldr/default-data.js', `const defaultData = ${ toJSObject(defaultData) };\nexport default defaultData;`);
+    done();
 }));
 
 gulp.task('clean-locales', (done) => {
