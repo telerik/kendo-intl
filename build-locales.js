@@ -1,7 +1,6 @@
 const likelySubtags = require("cldr-core/supplemental/likelySubtags.json");
 const currencyData = require("cldr-core/supplemental/currencyData.json");
 const weekData = require("cldr-core/supplemental/weekData.json");
-const availableLocales = require('cldr-data/availableLocales.json').availableLocales;
 const fs = require('fs');
 const path = require('path');
 const jsonNameRegex = /"([$A-Z\_a-z][$A-Z\_a-z0-9\\.]*)":/g;
@@ -17,8 +16,8 @@ const ALIASES = {
     'ca-ES-VALENCIA': 'ca-ES-valencia'
 };
 
-const LOCALES =
-    availableLocales
+const getLocales = () =>
+    fs.readdirSync(path.join(process.cwd(), 'node_modules', 'cldr-localenames-full', 'main'))
         .filter(locale => EXCLUDE[locale] !== true)
         .map(locale => {
             return ALIASES[locale] || locale;
@@ -70,8 +69,9 @@ module.exports.buildLocales = (intl, { contentTemplate = defaultTemplate, extens
     const likelySubtagsData = data.supplemental.likelySubtags;
     const supplementalCurrency = data.supplemental.currencyData;
 
-    for (let idx = 0; idx < LOCALES.length; idx++) {
-        const name = LOCALES[idx];
+    const locales = getLocales();
+    for (let idx = 0; idx < locales.length; idx++) {
+        const name = locales[idx];
         const localePath = path.join(destFolder, name);
         loadLocale(name, intl);
 
