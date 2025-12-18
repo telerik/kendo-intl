@@ -42,23 +42,23 @@ describe('date formatting', () => {
     });
 
     it('supports long time format', () => {
-        expect(formatDate(date(2000, 1, 30), "T")).toBe("12:00:00 AM");
+        expect(formatDate(date(2000, 1, 30), "T")).toBe("12:00:00\u202fAM");
     });
 
     it('supports short time pattern', () => {
-        expect(formatDate(date(2000, 1, 30), "t")).toBe('12:00 AM');
+        expect(formatDate(date(2000, 1, 30), "t")).toBe('12:00\u202fAM');
     });
 
     it('supports full date long time format', () => {
-        expect(formatDate(date(2000, 1, 30, 13, 9, 9), "F")).toBe('Sunday, January 30, 2000 1:09:09 PM');
+        expect(formatDate(date(2000, 1, 30, 13, 9, 9), "F")).toBe('Sunday, January 30, 2000 1:09:09\u202fPM');
     });
 
     it('supports general format', () => {
-        expect(formatDate(date(2000, 1, 30, 13, 9, 9), "g")).toBe('1/30/2000 1:09 PM');
+        expect(formatDate(date(2000, 1, 30, 13, 9, 9), "g")).toBe('1/30/2000 1:09\u202fPM');
     });
 
     it('supports long general format', () => {
-        expect(formatDate(date(2000, 1, 30, 13, 9, 9), "G")).toBe('1/30/2000 1:09:09 PM');
+        expect(formatDate(date(2000, 1, 30, 13, 9, 9), "G")).toBe('1/30/2000 1:09:09\u202fPM');
     });
 
     it('supports iso formats', () => {
@@ -358,7 +358,7 @@ describe('date formatting', () => {
     });
 
     it('supports skeleton format if there is both date and time', () => {
-        expect(formatDate(date(2000, 2, 10, 10, 30), { skeleton: "yMMMdhm" })).toBe('Feb 10, 2000, 10:30 AM');
+        expect(formatDate(date(2000, 2, 10, 10, 30), { skeleton: "yMMMdhm" })).toBe('Feb 10, 2000, 10:30\u202fAM');
     });
 
     it('supports pattern', () => {
@@ -370,11 +370,11 @@ describe('date formatting', () => {
     });
 
     it('supports timeFormats', () => {
-        expect(formatDate(date(2000, 2, 10, 10, 30), { time: "medium" })).toBe('10:30:00 AM');
+        expect(formatDate(date(2000, 2, 10, 10, 30), { time: "medium" })).toBe('10:30:00\u202fAM');
     });
 
     it('supports dateTimeFormats', () => {
-        expect(formatDate(date(2000, 2, 10, 10, 30), { datetime: "short" })).toBe('2/10/00, 10:30 AM');
+        expect(formatDate(date(2000, 2, 10, 10, 30), { datetime: "short" })).toBe('2/10/00, 10:30\u202fAM');
     });
 
     it('supports setting the required fields via options', () => {
@@ -389,7 +389,7 @@ describe('date formatting', () => {
             second: "2-digit",
             timeZoneName: "long",
             hour12: true
-        })).toBe('Thu, 02 10, 2000 AD, 10:30:00 AM GMT+02:00');
+        })).toBe('Thu, 02/10/2000 AD, 10:30:00\u202fAM GMT+02:00');
     });
 });
 
