@@ -9,6 +9,7 @@ on: workflow_dispatch
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: production
 
     permissions:
         id-token: write # Required by Akeyless
@@ -18,7 +19,7 @@ jobs:
     steps:
       - name: Import Secrets
         id: import-secrets
-        uses: LanceMcCarthy/akeyless-action@v3
+        uses: LanceMcCarthy/akeyless-action@v5
         with:
           access-id: ${{ secrets.GH_AKEYLESS_ACCESS_ID }}
           static-secrets: '{ "${{ secrets.GH_AKEYLESS_GH_TOKEN_PATH }}": "GH_TOKEN" }'
