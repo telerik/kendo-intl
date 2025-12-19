@@ -59,7 +59,11 @@ gulp.task("build-default-data", gulp.series("build-npm-package", (done) => {
             }
         }
     };
-    fs.writeFileSync('src/cldr/default-data.js', `const defaultData = ${ toJSObject(defaultData) };\nexport default defaultData;`);
+
+    // Use ASCII whitespace in default locale data to avoid issues in environments that do not support non-breaking space
+    const defaultDataJS = toJSObject(defaultData).replace(/[\u202f]/g, ' ');
+
+    fs.writeFileSync('src/cldr/default-data.js', `const defaultData = ${ defaultDataJS };\nexport default defaultData;`);
     done();
 }));
 
