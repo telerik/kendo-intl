@@ -1,0 +1,59 @@
+name: BlackDuck scan
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+on:
+  pull_request:
+    branches:
+      - develop
+    paths:
+      - "src/**"
+
+  schedule:
+    - cron: "0 0 * * 1" # Every Monday at midnight UTC
+
+  workflow_dispatch:
+    inputs:
+      fail-on-scan-error:
+        description: "Fail the workflow if the scan fails"
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  id-token: write # Required by Akeyless
+  contents: write
+  packages: read
+  security-events: write # Required for Black Duck to report security findings
+
+jobs:
+  scan:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0 # Fetch all history for all branches and tags
+
+      - name: Install modules
+        run: npm ci --no-audit --no-fund
+
+      - name: Scan project
+        uses: telerik/actions/black-duck-scan@master
+        with:
+          ak-vault-token: ${{ secrets.AK_VAULT_TOKEN_BLACK_DUCK }}
+          additional-parameters: >-
+            --detect.detector.search.depth=30
+            --detect.detector.buildless true
+            --detect.excluded.directories="/.bridge/Blackduck SCA Detect Execution/detect/tools/,/.github/,/.husky/,/.vscode/,/docs/,/examples/,/test/,/locale-tests/,/dist/"
+            --detect.excluded.detector.types=NUGET
+            --detect.impact.analysis.enabled=true
+            --detect.npm.dependency.types.excluded=DEV
+            --aggressiveness-level high
+          source: ${{ github.workspace }}
+          skip-checkout: true
+          fail-on-scan-error: ${{ github.event_name == 'pull_request' || (inputs.fail-on-scan-error && github.event_name != 'schedule') }}
+          blackduck-project-group: Web
